@@ -1,0 +1,65 @@
+/* Flipword content script styles — theme-injected via JS */
+
+[data-wg] {
+  cursor: pointer;
+  transition: opacity 150ms ease-out, transform 150ms ease-out;
+}
+
+[data-wg]:hover {
+  opacity: 0.88;
+  transform: translateY(-0.5px);
+}
+
+/* Cleared state */
+[data-wg-cleared] {
+  opacity: 0.4;
+  text-decoration: line-through;
+  pointer-events: none;
+}
+
+/* ── Radar Mode ─────────────────────────────────────────────── */
+
+[data-wg-radar] {
+  cursor: pointer;
+  transition: opacity 150ms ease-out, transform 150ms ease-out;
+}
+
+[data-wg-radar]:hover {
+  opacity: 0.88;
+  transform: translateY(-0.5px);
+}
+
+@keyframes wg-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+[data-wg-radar-new] {
+  animation: wg-pulse 2s ease-in-out infinite;
+}
+
+/* ── Keyboard Navigation Focus ────────────────────────────────── */
+
+[data-wg-focus] {
+  outline: 2px solid var(--wg-highlight, #DC2626) !important;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* ── Reduced Motion ─────────────────────────────────────────── */
+
+@media (prefers-reduced-motion: reduce) {
+  [data-wg],
+  [data-wg-radar] {
+    transition: none;
+  }
+
+  [data-wg]:hover,
+  [data-wg-radar]:hover {
+    transform: none;
+  }
+
+  [data-wg-radar-new] {
+    animation: none;
+  }
+}
