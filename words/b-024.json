@@ -1,0 +1,260 @@
+[
+  {
+    "word": "bygone",
+    "phonetic": "/'baɪɡɔn/",
+    "pos": ["adj.", "n."],
+    "coreMeaning": [{ "cn": "过去的；往事", "domain": "general", "coverage": 0.9 }],
+    "morphemes": [
+      { "order": 1, "form": "by", "role": "prefix", "canonical": "by-", "coreMeaning": { "cn": "旁、过", "en": "past, aside" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
+      { "order": 2, "form": "gone", "role": "root", "canonical": "gone", "coreMeaning": { "cn": "离去、过去", "en": "departed, past" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["go", "gone", "bygone"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "过去已离去的",
+      "imageChain": ["已从身旁离去", "过去之事", "往昔"],
+      "mnemonicExpr": "by(过)+gone(离去) → 已过去 → 往事"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.2 },
+      "domain": ["general", "editorial"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["go", "forgone", "outgoing"],
+      "sameAffix": [{ "affix": "by-", "members": ["bypass", "byproduct", "bystander"] }],
+      "synonyms": ["past", "former", "erstwhile"],
+      "antonyms": ["future", "forthcoming"],
+      "domainCohort": ["memory", "nostalgia"],
+      "derivationPair": ["gone"],
+      "morphVariants": [],
+      "sameImagery": ["past", "former"]
+    }
+  },
+  {
+    "word": "bylaw",
+    "phonetic": "/'baɪ,lɔ/",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "附则；地方法规", "domain": "legal", "coverage": 0.9 }],
+    "morphemes": [
+      { "order": 1, "form": "by", "role": "prefix", "canonical": "by-", "coreMeaning": { "cn": "次要；附属", "en": "secondary; aside" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
+      { "order": 2, "form": "law", "role": "root", "canonical": "law", "coreMeaning": { "cn": "法律", "en": "law" }, "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.2 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["law", "bylaw"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "次要的法律",
+      "imageChain": ["附属法规", "地方条款", "细则"],
+      "mnemonicExpr": "by(次要)+law(法) → 次要法规 → 附则"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.2 },
+      "domain": ["legal"],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": ["law", "lawful", "lawyer", "outlaw"],
+      "sameAffix": [{ "affix": "by-", "members": ["bypass", "byproduct", "bystander"] }],
+      "synonyms": ["regulation", "ordinance", "statute"],
+      "antonyms": ["constitution"],
+      "domainCohort": ["ordinance", "charter"],
+      "derivationPair": ["law"],
+      "morphVariants": ["bylaws"],
+      "sameImagery": ["regulation", "ordinance"]
+    }
+  },
+  {
+    "word": "bylaws",
+    "phonetic": "",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "章程；规章制度；细则", "domain": "legal", "coverage": 0.9 }],
+    "morphemes": [
+      { "order": 1, "form": "by", "role": "prefix", "canonical": "by-", "coreMeaning": { "cn": "次要；附属", "en": "secondary; aside" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
+      { "order": 2, "form": "law", "role": "root", "canonical": "law", "coreMeaning": { "cn": "法律", "en": "law" }, "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.2 }, "positionTendency": "medial" },
+      { "order": 3, "form": "-s", "role": "suffix", "canonical": "-s", "coreMeaning": { "cn": "复数", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["law", "bylaw", "bylaws"],
+    "morphVariantOf": "bylaw",
+    "memorySemantics": {
+      "literal": "多条次要法律",
+      "imageChain": ["一系列细则", "组织章程", "规章"],
+      "mnemonicExpr": "bylaw(附则)+s → 成套的章程"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.2 },
+      "domain": ["legal", "business"],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": ["law", "lawful", "outlaw"],
+      "sameAffix": [{ "affix": "-s", "members": ["laws", "rules"] }],
+      "synonyms": ["regulations", "statutes", "ordinances"],
+      "antonyms": [],
+      "domainCohort": ["charter", "articles"],
+      "derivationPair": ["bylaw"],
+      "morphVariants": ["bylaw"],
+      "sameImagery": ["regulations", "statutes"]
+    }
+  },
+  {
+    "word": "bypass",
+    "phonetic": "/'baɪpæs/",
+    "pos": ["v.", "n."],
+    "coreMeaning": [{ "cn": "绕开；迂回；旁路", "domain": "general", "coverage": 0.9 }],
+    "morphemes": [
+      { "order": 1, "form": "by", "role": "prefix", "canonical": "by-", "coreMeaning": { "cn": "旁、绕过", "en": "aside, past" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
+      { "order": 2, "form": "pass", "role": "root", "canonical": "pass", "coreMeaning": { "cn": "通过", "en": "to pass, go" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["pass", "bypass"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "从旁通过",
+      "imageChain": ["绕着走", "不经中心", "迂回、忽视"],
+      "mnemonicExpr": "by(旁)+pass(通过) → 绕过"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性", "偏负"], "intensity": 0.3 },
+      "domain": ["general", "tech", "medical"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["pass", "passage", "passenger", "trespass"],
+      "sameAffix": [{ "affix": "by-", "members": ["bylaw", "byproduct", "bystander"] }],
+      "synonyms": ["circumvent", "skirt", "detour"],
+      "antonyms": ["confront", "tackle"],
+      "domainCohort": ["detour", "shortcut"],
+      "derivationPair": ["pass"],
+      "morphVariants": ["bypasses"],
+      "sameImagery": ["circumvent", "skirt"]
+    }
+  },
+  {
+    "word": "bypasses",
+    "phonetic": "/ˈbaipɑ:siz/",
+    "pos": ["n.", "v."],
+    "coreMeaning": [{ "cn": "旁道；分流术；绕过", "domain": "medical", "coverage": 0.85 }],
+    "morphemes": [
+      { "order": 1, "form": "by", "role": "prefix", "canonical": "by-", "coreMeaning": { "cn": "旁、绕", "en": "aside, past" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
+      { "order": 2, "form": "pass", "role": "root", "canonical": "pass", "coreMeaning": { "cn": "通过", "en": "to pass, go" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
+      { "order": 3, "form": "-es", "role": "suffix", "canonical": "-s", "coreMeaning": { "cn": "复数/第三人称单数", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["pass", "bypass", "bypasses"],
+    "morphVariantOf": "bypass",
+    "memorySemantics": {
+      "literal": "多次从旁通过",
+      "imageChain": ["旁路多条", "心脏搭桥", "绕开"],
+      "mnemonicExpr": "bypass(绕过)+es → 多个旁路/分流术"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性"], "intensity": 0.2 },
+      "domain": ["medical", "general"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["pass", "passage", "trespass"],
+      "sameAffix": [{ "affix": "-s", "members": ["passes", "misses"] }],
+      "synonyms": ["detours", "shunts"],
+      "antonyms": [],
+      "domainCohort": ["surgery", "shunt"],
+      "derivationPair": ["bypass"],
+      "morphVariants": ["bypass"],
+      "sameImagery": ["detours", "shunts"]
+    }
+  },
+  {
+    "word": "byproduct",
+    "phonetic": "/'baɪ,prɑdəkt/",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "副产品；副作用", "domain": "general", "coverage": 0.9 }],
+    "morphemes": [
+      { "order": 1, "form": "by", "role": "prefix", "canonical": "by-", "coreMeaning": { "cn": "次要；附属", "en": "secondary; aside" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
+      { "order": 2, "form": "pro", "role": "prefix", "canonical": "pro-", "coreMeaning": { "cn": "向前", "en": "forward" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
+      { "order": 3, "form": "duct", "role": "root", "canonical": "duc", "coreMeaning": { "cn": "引导、产生", "en": "lead, produce" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["duc", "produce", "product", "byproduct"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "次要的生产物",
+      "imageChain": ["主产品旁", "附带产物", "副产品/副作用"],
+      "mnemonicExpr": "by(次)+product(产品) → 副产品"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性"], "intensity": 0.2 },
+      "domain": ["general", "business", "academic"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["product", "produce", "conduct", "introduce"],
+      "sameAffix": [{ "affix": "by-", "members": ["bypass", "bylaw", "bystander"] }],
+      "synonyms": ["spin-off", "side effect"],
+      "antonyms": ["main product"],
+      "domainCohort": ["residue", "offshoot"],
+      "derivationPair": ["product"],
+      "morphVariants": [],
+      "sameImagery": ["spin-off", "side effect"]
+    }
+  },
+  {
+    "word": "byte",
+    "phonetic": "/baɪt/",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "字节", "domain": "tech", "coverage": 0.95 }],
+    "morphemes": [
+      { "order": 1, "form": "byte", "role": "root", "canonical": "byte", "coreMeaning": { "cn": "字节（bite的变体）", "en": "byte (coined, from bite)" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" }
+    ],
+    "derivationChain": ["bite", "byte"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "一小口（数据）",
+      "imageChain": ["咬下一小口", "计算机一小段数据", "字节"],
+      "mnemonicExpr": "byte 源于 bite（咬一口） → 计算机信息单位 → 字节"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性"], "intensity": 0 },
+      "domain": ["tech", "cybersec"],
+      "registerFormality": "technical"
+    },
+    "relations": {
+      "sameRoot": ["bit", "bite"],
+      "sameAffix": [],
+      "synonyms": ["octet"],
+      "antonyms": [],
+      "domainCohort": ["bit", "kilobyte", "megabyte"],
+      "derivationPair": ["bite"],
+      "morphVariants": ["bytes"],
+      "sameImagery": ["bit", "chunk"]
+    }
+  },
+  {
+    "word": "byzantine",
+    "phonetic": "/baɪ'zæntaɪn; 'baɪzəntaɪn/",
+    "pos": ["adj.", "n."],
+    "coreMeaning": [{ "cn": "拜占庭的；错综复杂的", "domain": "general", "coverage": 0.85 }],
+    "morphemes": [
+      { "order": 1, "form": "byzant", "role": "root", "canonical": "byzant", "coreMeaning": { "cn": "拜占庭（地名）", "en": "Byzantium (place name)" }, "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.2 }, "positionTendency": "initial" },
+      { "order": 2, "form": "-ine", "role": "suffix", "canonical": "-ine", "coreMeaning": { "cn": "…的，形容词化", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["Byzantium", "byzantine"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "拜占庭式的",
+      "imageChain": ["拜占庭帝国", "宫廷阴谋繁复", "错综复杂"],
+      "mnemonicExpr": "Byzantium(拜占庭)+ine → 拜占庭式的 → 繁复、诡谲"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["偏负", "贬义"], "intensity": 0.5 },
+      "domain": ["editorial", "academic", "news"],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": ["Byzantium"],
+      "sameAffix": [{ "affix": "-ine", "members": ["feminine", "alpine", "crystalline"] }],
+      "synonyms": ["labyrinthine", "intricate", "convoluted"],
+      "antonyms": ["simple", "straightforward"],
+      "domainCohort": ["baroque", "arcane", "tortuous"],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": ["labyrinthine", "intricate"]
+    }
+  }
+]

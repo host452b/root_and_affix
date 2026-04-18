@@ -1,0 +1,1604 @@
+[
+  {
+    "word": "agitated",
+    "phonetic": "/'ædʒɪtetɪd/",
+    "pos": ["adj."],
+    "coreMeaning": [{ "cn": "激动不安的", "domain": "general", "coverage": 0.9 }],
+    "morphemes": [
+      { "order": 1, "form": "agit", "role": "root", "canonical": "act", "coreMeaning": { "cn": "推动、搅动", "en": "to drive, act" }, "sentiment": { "tags": ["偏负"], "intensity": 0.3 }, "positionTendency": "initial" },
+      { "order": 2, "form": "-at", "role": "suffix", "canonical": "-ate", "coreMeaning": { "cn": "使...化", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
+      { "order": 3, "form": "-ed", "role": "suffix", "canonical": "-ed", "coreMeaning": { "cn": "过去分词形容词化", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["agit", "agitate", "agitated"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "被搅动的",
+      "imageChain": ["搅动", "内心翻腾", "激动不安"],
+      "mnemonicExpr": "agit(搅动)+ate+ed → 被搅动的 → 激动不安的"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["偏负", "担忧"], "intensity": 0.6 },
+      "domain": ["general", "medical"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["agitate", "agitation", "act", "action"],
+      "sameAffix": [{ "affix": "-ed", "members": ["excited", "worried"] }],
+      "synonyms": ["anxious", "restless"],
+      "antonyms": ["calm", "composed"],
+      "domainCohort": ["nervous", "upset"],
+      "derivationPair": ["agitate"],
+      "morphVariants": [],
+      "sameImagery": ["agitate", "stirred"]
+    }
+  },
+  {
+    "word": "agitation",
+    "phonetic": "/,ædʒɪ'teʃən/",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "焦虑；摇动", "domain": "general", "coverage": 0.9 }],
+    "morphemes": [
+      { "order": 1, "form": "agit", "role": "root", "canonical": "act", "coreMeaning": { "cn": "推动、搅动", "en": "to drive, act" }, "sentiment": { "tags": ["偏负"], "intensity": 0.3 }, "positionTendency": "initial" },
+      { "order": 2, "form": "-ation", "role": "suffix", "canonical": "-tion", "coreMeaning": { "cn": "动作、状态", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["agit", "agitate", "agitation"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "搅动的状态",
+      "imageChain": ["搅动", "心神不宁", "焦虑"],
+      "mnemonicExpr": "agit(搅动)+ation → 搅动的状态 → 焦虑"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["偏负", "担忧"], "intensity": 0.6 },
+      "domain": ["general", "medical", "news"],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": ["agitate", "agitated", "act", "action"],
+      "sameAffix": [{ "affix": "-tion", "members": ["vibration", "operation"] }],
+      "synonyms": ["anxiety", "turmoil"],
+      "antonyms": ["calmness", "tranquility"],
+      "domainCohort": ["unrest", "disturbance"],
+      "derivationPair": ["agitate"],
+      "morphVariants": [],
+      "sameImagery": ["agitate", "stirring"]
+    }
+  },
+  {
+    "word": "agitators",
+    "phonetic": "/ˈædʒɪˌteɪtəz/",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "煽动者；搅拌器", "domain": "news", "coverage": 0.85 }],
+    "morphemes": [
+      { "order": 1, "form": "agit", "role": "root", "canonical": "act", "coreMeaning": { "cn": "推动、搅动", "en": "to drive, act" }, "sentiment": { "tags": ["偏负"], "intensity": 0.3 }, "positionTendency": "initial" },
+      { "order": 2, "form": "-at", "role": "suffix", "canonical": "-ate", "coreMeaning": { "cn": "使…化", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
+      { "order": 3, "form": "-or", "role": "suffix", "canonical": "-er", "coreMeaning": { "cn": "施动者", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
+      { "order": 4, "form": "-s", "role": "suffix", "canonical": "-s", "coreMeaning": { "cn": "复数", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["agit", "agitate", "agitator", "agitators"],
+    "morphVariantOf": "agitator",
+    "memorySemantics": {
+      "literal": "多个搅动者",
+      "imageChain": ["搅动", "煽动者", "鼓动者们"],
+      "mnemonicExpr": "agit+ate+or+s → 煽动者们"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["贬义", "厌恶"], "intensity": 0.7 },
+      "domain": ["news", "editorial"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["agitate", "agitation", "act"],
+      "sameAffix": [{ "affix": "-or", "members": ["actor", "creator"] }],
+      "synonyms": ["instigators", "rabble-rousers"],
+      "antonyms": ["pacifiers", "mediators"],
+      "domainCohort": ["protest", "unrest"],
+      "derivationPair": ["agitator"],
+      "morphVariants": ["agitator"],
+      "sameImagery": ["agitate", "stir"]
+    }
+  },
+  {
+    "word": "agnes",
+    "phonetic": "/'æ^nis/",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "艾格尼丝（女子名）", "domain": "news", "coverage": 1.0 }],
+    "morphemes": [
+      { "order": 1, "form": "agnes", "role": "root", "canonical": "agnes", "coreMeaning": { "cn": "人名", "en": "proper noun" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial", "note": "专有名词" }
+    ],
+    "derivationChain": ["agnes"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "艾格尼丝",
+      "imageChain": ["女子名"],
+      "mnemonicExpr": "Agnes → 源自希腊语 hagnos (纯洁)，女子名"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性"], "intensity": 0 },
+      "domain": ["news"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": ["name", "female"],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "agnostic",
+    "phonetic": "/æg'nɑstɪk/",
+    "pos": ["adj.", "n."],
+    "coreMeaning": [{ "cn": "不可知论的", "domain": "academic", "coverage": 0.9 }],
+    "morphemes": [
+      { "order": 1, "form": "a-", "role": "prefix", "canonical": "a-(not)", "coreMeaning": { "cn": "不；无", "en": "not" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
+      { "order": 2, "form": "gnost", "role": "root", "canonical": "gn", "coreMeaning": { "cn": "知道", "en": "to know" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
+      { "order": 3, "form": "-ic", "role": "suffix", "canonical": "-ic", "coreMeaning": { "cn": "…的", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["gn", "gnost", "agnostic"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "不能知晓的",
+      "imageChain": ["不知道", "无法认知", "不可知论"],
+      "mnemonicExpr": "a(不)+gnost(知)+ic → 不可知的"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性"], "intensity": 0 },
+      "domain": ["academic", "tech"],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": ["diagnosis", "prognosis", "ignorant"],
+      "sameAffix": [{ "affix": "-ic", "members": ["atomic", "logic"] }],
+      "synonyms": ["skeptical"],
+      "antonyms": ["gnostic", "believer"],
+      "domainCohort": ["philosophy", "religion"],
+      "derivationPair": ["agnosticism"],
+      "morphVariants": [],
+      "sameImagery": ["unknown", "skeptic"]
+    }
+  },
+  {
+    "word": "agog",
+    "phonetic": "/ə'ɡɔɡ/",
+    "pos": ["adj."],
+    "coreMeaning": [{ "cn": "兴奋的；热切的", "domain": "general", "coverage": 0.9 }],
+    "morphemes": [
+      { "order": 1, "form": "agog", "role": "root", "canonical": "agog", "coreMeaning": { "cn": "热切", "en": "eagerly" }, "sentiment": { "tags": ["褒义"], "intensity": 0.5 }, "positionTendency": "initial", "note": "源自古法语en gogues (快乐)" }
+    ],
+    "derivationChain": ["agog"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "热切",
+      "imageChain": ["兴奋", "热切期待"],
+      "mnemonicExpr": "a+gog(走, 去) → 向着目标跃跃欲试 → 兴奋的"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["褒义", "乐观"], "intensity": 0.7 },
+      "domain": ["general", "editorial"],
+      "registerFormality": "informal"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": ["eager", "excited"],
+      "antonyms": ["indifferent", "apathetic"],
+      "domainCohort": ["anticipation", "enthusiasm"],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": ["eager", "keen"]
+    }
+  },
+  {
+    "word": "agonize",
+    "phonetic": "/'æɡənaɪz/",
+    "pos": ["v."],
+    "coreMeaning": [{ "cn": "苦苦思索；焦虑不已", "domain": "general", "coverage": 0.9 }],
+    "morphemes": [
+      { "order": 1, "form": "agon", "role": "root", "canonical": "agon", "coreMeaning": { "cn": "斗争；痛苦", "en": "struggle; contest" }, "sentiment": { "tags": ["贬义"], "intensity": 0.7 }, "positionTendency": "initial" },
+      { "order": 2, "form": "-ize", "role": "suffix", "canonical": "-ize", "coreMeaning": { "cn": "使…化", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["agon", "agony", "agonize"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "使陷入痛苦",
+      "imageChain": ["痛苦", "纠结", "苦苦思索"],
+      "mnemonicExpr": "agon(痛苦)+ize → 使经历痛苦 → 苦苦思索"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["贬义", "担忧"], "intensity": 0.7 },
+      "domain": ["general"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["agony", "antagonist", "protagonist"],
+      "sameAffix": [{ "affix": "-ize", "members": ["realize", "criticize"] }],
+      "synonyms": ["struggle", "worry"],
+      "antonyms": ["relax", "enjoy"],
+      "domainCohort": ["suffer", "distress"],
+      "derivationPair": ["agony"],
+      "morphVariants": [],
+      "sameImagery": ["agony", "anguish"]
+    }
+  },
+  {
+    "word": "agony",
+    "phonetic": "/'æɡəni/",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "极度痛苦", "domain": "general", "coverage": 0.95 }],
+    "morphemes": [
+      { "order": 1, "form": "agon", "role": "root", "canonical": "agon", "coreMeaning": { "cn": "斗争；痛苦", "en": "struggle; contest" }, "sentiment": { "tags": ["贬义"], "intensity": 0.7 }, "positionTendency": "initial" },
+      { "order": 2, "form": "-y", "role": "suffix", "canonical": "-y", "coreMeaning": { "cn": "名词后缀", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["agon", "agony"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "斗争的状态",
+      "imageChain": ["斗争", "煎熬", "极度痛苦"],
+      "mnemonicExpr": "agon(斗争)+y → 内在斗争的状态 → 极度痛苦"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["贬义"], "intensity": 0.9 },
+      "domain": ["general", "medical", "editorial"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["agonize", "antagonist", "protagonist"],
+      "sameAffix": [{ "affix": "-y", "members": ["misery", "jealousy"] }],
+      "synonyms": ["anguish", "torment"],
+      "antonyms": ["pleasure", "bliss"],
+      "domainCohort": ["pain", "suffering"],
+      "derivationPair": ["agonize"],
+      "morphVariants": [],
+      "sameImagery": ["anguish", "torture"]
+    }
+  },
+  {
+    "word": "agrarian",
+    "phonetic": "/ə'ɡrɛrɪən/",
+    "pos": ["adj."],
+    "coreMeaning": [{ "cn": "土地的；耕地的", "domain": "academic", "coverage": 0.9 }],
+    "morphemes": [
+      { "order": 1, "form": "agr", "role": "root", "canonical": "agr", "coreMeaning": { "cn": "田；农业", "en": "field; agriculture" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
+      { "order": 2, "form": "-arian", "role": "suffix", "canonical": "-an", "coreMeaning": { "cn": "有关…的", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["agr", "agrarian"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "土地有关的",
+      "imageChain": ["田地", "农业", "土地的"],
+      "mnemonicExpr": "agr(田地)+arian(…的) → 关于土地的"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性"], "intensity": 0 },
+      "domain": ["academic", "economics"],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": ["agriculture", "agronomy", "agricultural"],
+      "sameAffix": [{ "affix": "-an", "members": ["urban", "suburban"] }],
+      "synonyms": ["rural", "agricultural"],
+      "antonyms": ["urban", "industrial"],
+      "domainCohort": ["farming", "rural"],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": ["agricultural", "rural"]
+    }
+  },
+  {
+    "word": "agree",
+    "phonetic": "/ə'ɡri/",
+    "pos": ["v."],
+    "coreMeaning": [{ "cn": "赞同；一致", "domain": "business", "coverage": 0.9 }],
+    "morphemes": [
+      { "order": 1, "form": "a-", "role": "prefix", "canonical": "ad-", "coreMeaning": { "cn": "向；朝", "en": "to; toward" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
+      { "order": 2, "form": "gree", "role": "root", "canonical": "agree", "coreMeaning": { "cn": "合意、称心", "en": "pleasing" }, "sentiment": { "tags": ["褒义"], "intensity": 0.5 }, "positionTendency": "final", "note": "源自拉丁 gratus (令人愉快的)" }
+    ],
+    "derivationChain": ["gree", "agree"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "向着合意",
+      "imageChain": ["趋向合意", "赞同"],
+      "mnemonicExpr": "a(向)+gree(合意) → 趋向合意 → 赞同"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["褒义"], "intensity": 0.4 },
+      "domain": ["business", "legal", "general"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["agreeable", "agreement", "agreed"],
+      "sameAffix": [{ "affix": "ad-", "members": ["adopt", "adapt"] }],
+      "synonyms": ["concur", "consent"],
+      "antonyms": ["disagree", "dissent"],
+      "domainCohort": ["accord", "consensus"],
+      "derivationPair": ["agreement", "agreeable"],
+      "morphVariants": [],
+      "sameImagery": ["accord", "consent"]
+    }
+  },
+  {
+    "word": "agreeable",
+    "phonetic": "/ə'ɡriəbl/",
+    "pos": ["adj."],
+    "coreMeaning": [{ "cn": "令人愉快的；乐于同意的", "domain": "general", "coverage": 0.9 }],
+    "morphemes": [
+      { "order": 1, "form": "agree", "role": "root", "canonical": "agree", "coreMeaning": { "cn": "同意、一致", "en": "to agree" }, "sentiment": { "tags": ["褒义"], "intensity": 0.5 }, "positionTendency": "initial" },
+      { "order": 2, "form": "-able", "role": "suffix", "canonical": "-able", "coreMeaning": { "cn": "能…的、可…的", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["agree", "agreeable"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "可以同意的",
+      "imageChain": ["同意", "令人愉悦", "宜人的"],
+      "mnemonicExpr": "agree(同意)+able → 可以同意的 → 令人愉悦的"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["褒义", "喜爱"], "intensity": 0.6 },
+      "domain": ["general", "business"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["agree", "agreement", "disagree"],
+      "sameAffix": [{ "affix": "-able", "members": ["capable", "reliable"] }],
+      "synonyms": ["pleasant", "amiable"],
+      "antonyms": ["disagreeable", "unpleasant"],
+      "domainCohort": ["pleasant", "amicable"],
+      "derivationPair": ["agree"],
+      "morphVariants": [],
+      "sameImagery": ["pleasant", "amicable"]
+    }
+  },
+  {
+    "word": "agreed",
+    "phonetic": "/ә'ɡri:d/",
+    "pos": ["adj.", "v."],
+    "coreMeaning": [{ "cn": "同意的；通过协议的", "domain": "business", "coverage": 0.9 }],
+    "morphemes": [
+      { "order": 1, "form": "agree", "role": "root", "canonical": "agree", "coreMeaning": { "cn": "同意、一致", "en": "to agree" }, "sentiment": { "tags": ["褒义"], "intensity": 0.5 }, "positionTendency": "initial" },
+      { "order": 2, "form": "-d", "role": "suffix", "canonical": "-ed", "coreMeaning": { "cn": "过去式/过去分词", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["agree", "agreed"],
+    "morphVariantOf": "agree",
+    "memorySemantics": {
+      "literal": "已经同意的",
+      "imageChain": ["同意完成", "达成一致"],
+      "mnemonicExpr": "agree+d → 已同意的"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["褒义"], "intensity": 0.4 },
+      "domain": ["business", "legal", "tech"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["agree", "agreeing", "agreement"],
+      "sameAffix": [{ "affix": "-ed", "members": ["approved", "accepted"] }],
+      "synonyms": ["settled", "approved"],
+      "antonyms": ["disputed", "disagreed"],
+      "domainCohort": ["consensus", "accord"],
+      "derivationPair": ["agree"],
+      "morphVariants": ["agree"],
+      "sameImagery": ["settled", "approved"]
+    }
+  },
+  {
+    "word": "agreeing",
+    "phonetic": "",
+    "pos": ["v."],
+    "coreMeaning": [{ "cn": "同意（agree的ing形式）", "domain": "general", "coverage": 0.95 }],
+    "morphemes": [
+      { "order": 1, "form": "agree", "role": "root", "canonical": "agree", "coreMeaning": { "cn": "同意、一致", "en": "to agree" }, "sentiment": { "tags": ["褒义"], "intensity": 0.5 }, "positionTendency": "initial" },
+      { "order": 2, "form": "-ing", "role": "suffix", "canonical": "-ing", "coreMeaning": { "cn": "现在分词", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["agree", "agreeing"],
+    "morphVariantOf": "agree",
+    "memorySemantics": {
+      "literal": "正在同意",
+      "imageChain": ["正在同意"],
+      "mnemonicExpr": "agree+ing → 正在同意"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["褒义"], "intensity": 0.4 },
+      "domain": ["general", "news"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["agree", "agreed", "agreement"],
+      "sameAffix": [{ "affix": "-ing", "members": ["running", "saying"] }],
+      "synonyms": ["concurring", "accepting"],
+      "antonyms": ["disagreeing", "objecting"],
+      "domainCohort": ["accord", "consensus"],
+      "derivationPair": ["agree"],
+      "morphVariants": ["agree"],
+      "sameImagery": ["concurring", "accepting"]
+    }
+  },
+  {
+    "word": "agreement",
+    "phonetic": "/ə'grimənt/",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "协议；同意、一致", "domain": "business", "coverage": 0.95 }],
+    "morphemes": [
+      { "order": 1, "form": "agree", "role": "root", "canonical": "agree", "coreMeaning": { "cn": "同意、一致", "en": "to agree" }, "sentiment": { "tags": ["褒义"], "intensity": 0.5 }, "positionTendency": "initial" },
+      { "order": 2, "form": "-ment", "role": "suffix", "canonical": "-ment", "coreMeaning": { "cn": "行为；结果；状态", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["agree", "agreement"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "同意的结果",
+      "imageChain": ["同意", "达成一致", "协议"],
+      "mnemonicExpr": "agree(同意)+ment → 同意的结果 → 协议"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["褒义", "庄重"], "intensity": 0.3 },
+      "domain": ["business", "legal"],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": ["agree", "agreeable", "agreed"],
+      "sameAffix": [{ "affix": "-ment", "members": ["government", "development"] }],
+      "synonyms": ["accord", "contract"],
+      "antonyms": ["disagreement", "dispute"],
+      "domainCohort": ["contract", "pact", "treaty"],
+      "derivationPair": ["agree"],
+      "morphVariants": [],
+      "sameImagery": ["pact", "treaty"]
+    }
+  },
+  {
+    "word": "agreements",
+    "phonetic": "/əɡ'ri:mənts/",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "协议（复数）", "domain": "business", "coverage": 0.95 }],
+    "morphemes": [
+      { "order": 1, "form": "agree", "role": "root", "canonical": "agree", "coreMeaning": { "cn": "同意、一致", "en": "to agree" }, "sentiment": { "tags": ["褒义"], "intensity": 0.5 }, "positionTendency": "initial" },
+      { "order": 2, "form": "-ment", "role": "suffix", "canonical": "-ment", "coreMeaning": { "cn": "行为；结果", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
+      { "order": 3, "form": "-s", "role": "suffix", "canonical": "-s", "coreMeaning": { "cn": "复数", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["agree", "agreement", "agreements"],
+    "morphVariantOf": "agreement",
+    "memorySemantics": {
+      "literal": "多个协议",
+      "imageChain": ["协议们"],
+      "mnemonicExpr": "agreement+s → 复数协议"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.2 },
+      "domain": ["business", "legal", "tech"],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": ["agree", "agreement"],
+      "sameAffix": [{ "affix": "-s", "members": ["contracts", "treaties"] }],
+      "synonyms": ["contracts", "pacts"],
+      "antonyms": ["disputes"],
+      "domainCohort": ["contract", "pact"],
+      "derivationPair": ["agreement"],
+      "morphVariants": ["agreement"],
+      "sameImagery": ["contracts", "treaties"]
+    }
+  },
+  {
+    "word": "agri",
+    "phonetic": "",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "阿格里（地名）", "domain": "news", "coverage": 1.0 }],
+    "morphemes": [
+      { "order": 1, "form": "agri", "role": "root", "canonical": "agri", "coreMeaning": { "cn": "地名", "en": "place name" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial", "note": "专有名词" }
+    ],
+    "derivationChain": ["agri"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "阿格里",
+      "imageChain": ["地名"],
+      "mnemonicExpr": "Agri → 土耳其地区"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性"], "intensity": 0 },
+      "domain": ["news"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": ["place", "name"],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "agricultural",
+    "phonetic": "/,ægrɪ'kʌltʃərəl/",
+    "pos": ["adj."],
+    "coreMeaning": [{ "cn": "农业的；农艺的", "domain": "business", "coverage": 0.95 }],
+    "morphemes": [
+      { "order": 1, "form": "agri", "role": "root", "canonical": "agr", "coreMeaning": { "cn": "田；农业", "en": "field; agriculture" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
+      { "order": 2, "form": "cultur", "role": "root", "canonical": "cult", "coreMeaning": { "cn": "耕作、培养", "en": "to cultivate" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
+      { "order": 3, "form": "-al", "role": "suffix", "canonical": "-al", "coreMeaning": { "cn": "…的", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["agr", "agriculture", "agricultural"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "田地耕作的",
+      "imageChain": ["田地", "耕作", "农业的"],
+      "mnemonicExpr": "agri(田)+cultur(耕作)+al → 农业的"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性"], "intensity": 0 },
+      "domain": ["business", "economics", "academic"],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": ["agriculture", "agrarian", "agronomy"],
+      "sameAffix": [{ "affix": "-al", "members": ["cultural", "national"] }],
+      "synonyms": ["farming", "agrarian"],
+      "antonyms": ["industrial", "urban"],
+      "domainCohort": ["farming", "crop", "rural"],
+      "derivationPair": ["agriculture"],
+      "morphVariants": [],
+      "sameImagery": ["farming", "rural"]
+    }
+  },
+  {
+    "word": "agriculture",
+    "phonetic": "/'æɡrɪkʌltʃɚ/",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "农业", "domain": "business", "coverage": 0.95 }],
+    "morphemes": [
+      { "order": 1, "form": "agri", "role": "root", "canonical": "agr", "coreMeaning": { "cn": "田；农业", "en": "field" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
+      { "order": 2, "form": "cult", "role": "root", "canonical": "cult", "coreMeaning": { "cn": "耕作、培养", "en": "to cultivate" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
+      { "order": 3, "form": "-ure", "role": "suffix", "canonical": "-ure", "coreMeaning": { "cn": "名词后缀", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["agr", "cult", "agriculture"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "田地耕作",
+      "imageChain": ["田地", "耕作", "农业"],
+      "mnemonicExpr": "agri(田)+cult(耕作)+ure → 农业"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性"], "intensity": 0 },
+      "domain": ["business", "economics", "academic"],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": ["agrarian", "agricultural", "agronomy"],
+      "sameAffix": [{ "affix": "-ure", "members": ["culture", "nature"] }],
+      "synonyms": ["farming", "husbandry"],
+      "antonyms": ["industry"],
+      "domainCohort": ["farm", "crop", "rural"],
+      "derivationPair": ["agricultural"],
+      "morphVariants": [],
+      "sameImagery": ["farm", "rural"]
+    }
+  },
+  {
+    "word": "agrology",
+    "phonetic": "/ә'grɒlәdʒi/",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "土壤学", "domain": "academic", "coverage": 0.9 }],
+    "morphemes": [
+      { "order": 1, "form": "agro", "role": "root", "canonical": "agr", "coreMeaning": { "cn": "田；农业", "en": "field" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
+      { "order": 2, "form": "log", "role": "root", "canonical": "log", "coreMeaning": { "cn": "言语；学科", "en": "word; study" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
+      { "order": 3, "form": "-y", "role": "suffix", "canonical": "-y", "coreMeaning": { "cn": "名词后缀", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["agr", "log", "agrology"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "土地之学",
+      "imageChain": ["土地", "研究", "土壤学"],
+      "mnemonicExpr": "agro(田)+log(学)+y → 土壤学"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性"], "intensity": 0 },
+      "domain": ["academic", "medical"],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": ["agriculture", "agronomy", "agrarian"],
+      "sameAffix": [{ "affix": "-logy", "members": ["biology", "geology"] }],
+      "synonyms": ["pedology"],
+      "antonyms": [],
+      "domainCohort": ["soil", "earth science"],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": ["soil science"]
+    }
+  },
+  {
+    "word": "ague",
+    "phonetic": "/'egjʊ/",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "冷颤；发冷", "domain": "medical", "coverage": 0.9 }],
+    "morphemes": [
+      { "order": 1, "form": "ague", "role": "root", "canonical": "ague", "coreMeaning": { "cn": "寒热病、疟疾", "en": "fever chill" }, "sentiment": { "tags": ["贬义"], "intensity": 0.5 }, "positionTendency": "initial", "note": "源自古法语 ague (急性)" }
+    ],
+    "derivationChain": ["ague"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "急性病",
+      "imageChain": ["急性", "发冷", "疟疾"],
+      "mnemonicExpr": "ague ← acutus (急性) → 疟疾冷颤"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["贬义", "担忧"], "intensity": 0.6 },
+      "domain": ["medical"],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": ["acute"],
+      "sameAffix": [],
+      "synonyms": ["malaria", "chill"],
+      "antonyms": [],
+      "domainCohort": ["fever", "disease"],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": ["fever", "chill"]
+    }
+  },
+  {
+    "word": "ahead",
+    "phonetic": "/ə'hɛd/",
+    "pos": ["adv."],
+    "coreMeaning": [{ "cn": "在前面；向前", "domain": "general", "coverage": 0.95 }],
+    "morphemes": [
+      { "order": 1, "form": "a-", "role": "prefix", "canonical": "a-(on)", "coreMeaning": { "cn": "在…之上", "en": "on; at" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
+      { "order": 2, "form": "head", "role": "root", "canonical": "head", "coreMeaning": { "cn": "头", "en": "head" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["head", "ahead"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "在头部",
+      "imageChain": ["在头部", "向前", "在前面"],
+      "mnemonicExpr": "a(在)+head(头) → 在头部 → 在前"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性", "乐观"], "intensity": 0.2 },
+      "domain": ["general", "business"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["head", "headway", "forehead"],
+      "sameAffix": [{ "affix": "a-", "members": ["away", "aside"] }],
+      "synonyms": ["forward", "onward"],
+      "antonyms": ["behind", "backward"],
+      "domainCohort": ["forward", "future"],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": ["forward", "onward"]
+    }
+  },
+  {
+    "word": "ahing",
+    "phonetic": "",
+    "pos": ["abbr."],
+    "coreMeaning": [{ "cn": "airfield heliport直升机场；ampere-hour", "domain": "finance", "coverage": 1.0 }],
+    "morphemes": [
+      { "order": 1, "form": "ahing", "role": "root", "canonical": "ahing", "coreMeaning": { "cn": "缩写", "en": "abbreviation" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial", "note": "缩写词" }
+    ],
+    "derivationChain": ["ahing"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "缩写",
+      "imageChain": ["缩写代码"],
+      "mnemonicExpr": "AHING → airfield heliport / ampere-hour"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性"], "intensity": 0 },
+      "domain": ["finance", "tech"],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": ["abbreviation", "unit"],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "ahmad",
+    "phonetic": "",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "阿哈默德（人名）", "domain": "news", "coverage": 1.0 }],
+    "morphemes": [
+      { "order": 1, "form": "ahmad", "role": "root", "canonical": "ahmad", "coreMeaning": { "cn": "人名", "en": "proper noun" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial", "note": "专有名词" }
+    ],
+    "derivationChain": ["ahmad"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "阿哈默德",
+      "imageChain": ["人名"],
+      "mnemonicExpr": "Ahmad → 阿拉伯语 ahmad (最值得赞美的)"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性"], "intensity": 0 },
+      "domain": ["news"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["ahmed"],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": ["name", "male"],
+      "derivationPair": [],
+      "morphVariants": ["ahmed"],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "ahmed",
+    "phonetic": "",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "艾哈迈德（人名）", "domain": "news", "coverage": 1.0 }],
+    "morphemes": [
+      { "order": 1, "form": "ahmed", "role": "root", "canonical": "ahmed", "coreMeaning": { "cn": "人名", "en": "proper noun" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial", "note": "专有名词" }
+    ],
+    "derivationChain": ["ahmed"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "艾哈迈德",
+      "imageChain": ["人名"],
+      "mnemonicExpr": "Ahmed → 阿拉伯语源人名"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性"], "intensity": 0 },
+      "domain": ["news"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["ahmad"],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": ["name", "male"],
+      "derivationPair": [],
+      "morphVariants": ["ahmad"],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "ahmedabad",
+    "phonetic": "",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "艾哈迈达巴德（印度城市）", "domain": "news", "coverage": 1.0 }],
+    "morphemes": [
+      { "order": 1, "form": "ahmedabad", "role": "root", "canonical": "ahmedabad", "coreMeaning": { "cn": "地名", "en": "place name" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial", "note": "专有名词：ahmed(人名)+abad(城)" }
+    ],
+    "derivationChain": ["ahmedabad"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "艾哈迈达巴德",
+      "imageChain": ["印度城市"],
+      "mnemonicExpr": "Ahmed(苏丹名)+abad(城) → 艾哈迈达巴德"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性"], "intensity": 0 },
+      "domain": ["news"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["ahmed"],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": ["city", "india"],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "ahuja",
+    "phonetic": "",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "阿胡亚（人名）", "domain": "news", "coverage": 1.0 }],
+    "morphemes": [
+      { "order": 1, "form": "ahuja", "role": "root", "canonical": "ahuja", "coreMeaning": { "cn": "人名", "en": "proper noun" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial", "note": "专有名词" }
+    ],
+    "derivationChain": ["ahuja"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "阿胡亚",
+      "imageChain": ["人名"],
+      "mnemonicExpr": "Ahuja → 印度姓氏"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性"], "intensity": 0 },
+      "domain": ["news"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": ["name", "surname"],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "aid",
+    "phonetic": "/ed/",
+    "pos": ["n.", "v."],
+    "coreMeaning": [{ "cn": "援助；帮助", "domain": "general", "coverage": 0.95 }],
+    "morphemes": [
+      { "order": 1, "form": "aid", "role": "root", "canonical": "aid", "coreMeaning": { "cn": "援助", "en": "help" }, "sentiment": { "tags": ["褒义"], "intensity": 0.5 }, "positionTendency": "initial", "note": "源自拉丁 adiuvare (帮助)" }
+    ],
+    "derivationChain": ["aid"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "援助",
+      "imageChain": ["帮助", "援助"],
+      "mnemonicExpr": "aid ← ad+juvare (帮助)"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["褒义", "喜爱"], "intensity": 0.6 },
+      "domain": ["general", "news", "medical"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["aide", "aided", "aiding"],
+      "sameAffix": [],
+      "synonyms": ["help", "assist"],
+      "antonyms": ["hinder", "obstruct"],
+      "domainCohort": ["help", "support", "assistance"],
+      "derivationPair": ["aided", "aiding"],
+      "morphVariants": [],
+      "sameImagery": ["help", "assist"]
+    }
+  },
+  {
+    "word": "aided",
+    "phonetic": "/'eidid/",
+    "pos": ["adj.", "v."],
+    "coreMeaning": [{ "cn": "辅助的；被帮助的", "domain": "general", "coverage": 0.9 }],
+    "morphemes": [
+      { "order": 1, "form": "aid", "role": "root", "canonical": "aid", "coreMeaning": { "cn": "援助", "en": "help" }, "sentiment": { "tags": ["褒义"], "intensity": 0.5 }, "positionTendency": "initial" },
+      { "order": 2, "form": "-ed", "role": "suffix", "canonical": "-ed", "coreMeaning": { "cn": "过去分词", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["aid", "aided"],
+    "morphVariantOf": "aid",
+    "memorySemantics": {
+      "literal": "被援助的",
+      "imageChain": ["被帮助", "辅助"],
+      "mnemonicExpr": "aid+ed → 被援助的"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["褒义"], "intensity": 0.4 },
+      "domain": ["general", "news", "tech"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["aid", "aiding"],
+      "sameAffix": [{ "affix": "-ed", "members": ["helped", "assisted"] }],
+      "synonyms": ["assisted", "helped"],
+      "antonyms": ["hindered"],
+      "domainCohort": ["assisted", "supported"],
+      "derivationPair": ["aid"],
+      "morphVariants": ["aid"],
+      "sameImagery": ["assisted", "helped"]
+    }
+  },
+  {
+    "word": "aiding",
+    "phonetic": "",
+    "pos": ["v."],
+    "coreMeaning": [{ "cn": "帮助", "domain": "general", "coverage": 0.95 }],
+    "morphemes": [
+      { "order": 1, "form": "aid", "role": "root", "canonical": "aid", "coreMeaning": { "cn": "援助", "en": "help" }, "sentiment": { "tags": ["褒义"], "intensity": 0.5 }, "positionTendency": "initial" },
+      { "order": 2, "form": "-ing", "role": "suffix", "canonical": "-ing", "coreMeaning": { "cn": "现在分词", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["aid", "aiding"],
+    "morphVariantOf": "aid",
+    "memorySemantics": {
+      "literal": "正在援助",
+      "imageChain": ["正在帮助"],
+      "mnemonicExpr": "aid+ing → 正在援助"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["褒义"], "intensity": 0.5 },
+      "domain": ["general", "news"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["aid", "aided"],
+      "sameAffix": [{ "affix": "-ing", "members": ["helping", "assisting"] }],
+      "synonyms": ["helping", "assisting"],
+      "antonyms": ["hindering"],
+      "domainCohort": ["help", "support"],
+      "derivationPair": ["aid"],
+      "morphVariants": ["aid"],
+      "sameImagery": ["helping", "assisting"]
+    }
+  },
+  {
+    "word": "ail",
+    "phonetic": "/el/",
+    "pos": ["v."],
+    "coreMeaning": [{ "cn": "生病；使苦恼", "domain": "medical", "coverage": 0.9 }],
+    "morphemes": [
+      { "order": 1, "form": "ail", "role": "root", "canonical": "ail", "coreMeaning": { "cn": "患病、苦恼", "en": "trouble, afflict" }, "sentiment": { "tags": ["贬义"], "intensity": 0.5 }, "positionTendency": "initial", "note": "源自古英语 eglan" }
+    ],
+    "derivationChain": ["ail"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "患病",
+      "imageChain": ["不舒服", "苦恼"],
+      "mnemonicExpr": "ail → 感觉不适 → 使苦恼"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["贬义", "担忧"], "intensity": 0.6 },
+      "domain": ["medical", "general"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["ailment", "ailments", "ailing"],
+      "sameAffix": [],
+      "synonyms": ["afflict", "trouble"],
+      "antonyms": ["cure", "heal"],
+      "domainCohort": ["illness", "distress"],
+      "derivationPair": ["ailment"],
+      "morphVariants": [],
+      "sameImagery": ["afflict", "trouble"]
+    }
+  },
+  {
+    "word": "ailment",
+    "phonetic": "/'elmənt/",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "疾病", "domain": "medical", "coverage": 0.95 }],
+    "morphemes": [
+      { "order": 1, "form": "ail", "role": "root", "canonical": "ail", "coreMeaning": { "cn": "患病", "en": "afflict" }, "sentiment": { "tags": ["贬义"], "intensity": 0.5 }, "positionTendency": "initial" },
+      { "order": 2, "form": "-ment", "role": "suffix", "canonical": "-ment", "coreMeaning": { "cn": "结果；状态", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["ail", "ailment"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "患病的状态",
+      "imageChain": ["患病", "病症", "疾病"],
+      "mnemonicExpr": "ail(患病)+ment → 患病状态 → 疾病"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["贬义", "担忧"], "intensity": 0.6 },
+      "domain": ["medical"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["ail", "ailments", "ailing"],
+      "sameAffix": [{ "affix": "-ment", "members": ["achievement", "argument"] }],
+      "synonyms": ["illness", "disease"],
+      "antonyms": ["health", "wellness"],
+      "domainCohort": ["illness", "disease", "sickness"],
+      "derivationPair": ["ail"],
+      "morphVariants": [],
+      "sameImagery": ["illness", "disease"]
+    }
+  },
+  {
+    "word": "ailments",
+    "phonetic": "/ˈeilmənts/",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "疾病（复数，尤指慢性病）", "domain": "medical", "coverage": 0.95 }],
+    "morphemes": [
+      { "order": 1, "form": "ail", "role": "root", "canonical": "ail", "coreMeaning": { "cn": "患病", "en": "afflict" }, "sentiment": { "tags": ["贬义"], "intensity": 0.5 }, "positionTendency": "initial" },
+      { "order": 2, "form": "-ment", "role": "suffix", "canonical": "-ment", "coreMeaning": { "cn": "结果；状态", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
+      { "order": 3, "form": "-s", "role": "suffix", "canonical": "-s", "coreMeaning": { "cn": "复数", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["ail", "ailment", "ailments"],
+    "morphVariantOf": "ailment",
+    "memorySemantics": {
+      "literal": "多种疾病",
+      "imageChain": ["疾病们"],
+      "mnemonicExpr": "ailment+s → 多种疾病"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["贬义", "担忧"], "intensity": 0.6 },
+      "domain": ["medical", "news"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["ail", "ailment"],
+      "sameAffix": [{ "affix": "-s", "members": ["illnesses", "diseases"] }],
+      "synonyms": ["illnesses", "diseases"],
+      "antonyms": ["health"],
+      "domainCohort": ["illness", "chronic"],
+      "derivationPair": ["ailment"],
+      "morphVariants": ["ailment"],
+      "sameImagery": ["illnesses", "diseases"]
+    }
+  },
+  {
+    "word": "aimed",
+    "phonetic": "",
+    "pos": ["v.", "adj."],
+    "coreMeaning": [{ "cn": "以…为目标；针对", "domain": "tech", "coverage": 0.9 }],
+    "morphemes": [
+      { "order": 1, "form": "aim", "role": "root", "canonical": "aim", "coreMeaning": { "cn": "目标；瞄准", "en": "aim; goal" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
+      { "order": 2, "form": "-ed", "role": "suffix", "canonical": "-ed", "coreMeaning": { "cn": "过去分词", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["aim", "aimed"],
+    "morphVariantOf": "aim",
+    "memorySemantics": {
+      "literal": "已瞄准的",
+      "imageChain": ["瞄准", "目标指向"],
+      "mnemonicExpr": "aim+ed → 瞄准的、针对的"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性"], "intensity": 0.2 },
+      "domain": ["tech", "news", "business"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["aim", "aiming", "aimless"],
+      "sameAffix": [{ "affix": "-ed", "members": ["targeted", "directed"] }],
+      "synonyms": ["targeted", "directed"],
+      "antonyms": ["aimless", "random"],
+      "domainCohort": ["target", "goal"],
+      "derivationPair": ["aim"],
+      "morphVariants": ["aim"],
+      "sameImagery": ["targeted", "directed"]
+    }
+  },
+  {
+    "word": "air",
+    "phonetic": "/ɛr/",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "空气", "domain": "general", "coverage": 0.95 }],
+    "morphemes": [
+      { "order": 1, "form": "air", "role": "root", "canonical": "air", "coreMeaning": { "cn": "空气", "en": "air" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" }
+    ],
+    "derivationChain": ["air"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "空气",
+      "imageChain": ["大气", "空气"],
+      "mnemonicExpr": "air ← 希腊 aer (空气)"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性"], "intensity": 0 },
+      "domain": ["general", "academic"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["airline", "airplane", "aircraft", "aerial"],
+      "sameAffix": [],
+      "synonyms": ["atmosphere"],
+      "antonyms": [],
+      "domainCohort": ["wind", "breath", "atmosphere"],
+      "derivationPair": ["airy", "airing"],
+      "morphVariants": [],
+      "sameImagery": ["breeze", "atmosphere"]
+    }
+  },
+  {
+    "word": "air-bubble",
+    "phonetic": "",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "气泡；砂眼", "domain": "medical", "coverage": 0.95 }],
+    "morphemes": [
+      { "order": 1, "form": "air", "role": "root", "canonical": "air", "coreMeaning": { "cn": "空气", "en": "air" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
+      { "order": 2, "form": "bubble", "role": "root", "canonical": "bubble", "coreMeaning": { "cn": "气泡", "en": "bubble" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["air", "bubble", "air-bubble"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "空气泡",
+      "imageChain": ["空气", "气泡"],
+      "mnemonicExpr": "air+bubble → 气泡"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性"], "intensity": 0 },
+      "domain": ["medical", "tech"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["air", "bubble"],
+      "sameAffix": [],
+      "synonyms": ["bubble"],
+      "antonyms": [],
+      "domainCohort": ["bubble", "void"],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": ["bubble"]
+    }
+  },
+  {
+    "word": "air-bubbles",
+    "phonetic": "",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "气泡（复数）", "domain": "medical", "coverage": 0.95 }],
+    "morphemes": [
+      { "order": 1, "form": "air", "role": "root", "canonical": "air", "coreMeaning": { "cn": "空气", "en": "air" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
+      { "order": 2, "form": "bubble", "role": "root", "canonical": "bubble", "coreMeaning": { "cn": "气泡", "en": "bubble" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
+      { "order": 3, "form": "-s", "role": "suffix", "canonical": "-s", "coreMeaning": { "cn": "复数", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["air", "bubble", "air-bubble", "air-bubbles"],
+    "morphVariantOf": "air-bubble",
+    "memorySemantics": {
+      "literal": "多个气泡",
+      "imageChain": ["气泡们"],
+      "mnemonicExpr": "air-bubble+s → 气泡们"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性"], "intensity": 0 },
+      "domain": ["medical", "tech"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["air", "bubble", "air-bubble"],
+      "sameAffix": [{ "affix": "-s", "members": ["bubbles", "pores"] }],
+      "synonyms": ["bubbles"],
+      "antonyms": [],
+      "domainCohort": ["bubble", "void"],
+      "derivationPair": ["air-bubble"],
+      "morphVariants": ["air-bubble"],
+      "sameImagery": ["bubbles"]
+    }
+  },
+  {
+    "word": "air-conditioning",
+    "phonetic": "/'eəkənˌdɪʃənɪŋ/",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "空调设备、空调系统", "domain": "academic", "coverage": 0.95 }],
+    "morphemes": [
+      { "order": 1, "form": "air-conditioning", "role": "root", "canonical": "air-conditioning", "coreMeaning": { "cn": "空调系统", "en": "air conditioning" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial", "note": "复合词短语" }
+    ],
+    "derivationChain": ["air-conditioning"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "空气调节",
+      "imageChain": ["空气", "调节", "空调"],
+      "mnemonicExpr": "air(空气)+conditioning(调节) → 空调"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性"], "intensity": 0 },
+      "domain": ["academic", "tech"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["air", "airconditioning"],
+      "sameAffix": [],
+      "synonyms": ["AC", "HVAC"],
+      "antonyms": [],
+      "domainCohort": ["HVAC", "climate control"],
+      "derivationPair": [],
+      "morphVariants": ["airconditioning"],
+      "sameImagery": ["cooling", "ventilation"]
+    }
+  },
+  {
+    "word": "air-handling",
+    "phonetic": "",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "空气处理；通风", "domain": "medical", "coverage": 0.9 }],
+    "morphemes": [
+      { "order": 1, "form": "air", "role": "root", "canonical": "air", "coreMeaning": { "cn": "空气", "en": "air" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
+      { "order": 2, "form": "hand", "role": "root", "canonical": "hand", "coreMeaning": { "cn": "手、处理", "en": "hand, handle" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
+      { "order": 3, "form": "-l", "role": "suffix", "canonical": "-le", "coreMeaning": { "cn": "动词后缀：反复/使动", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial", "note": "不在常规词缀清单" },
+      { "order": 4, "form": "-ing", "role": "suffix", "canonical": "-ing", "coreMeaning": { "cn": "动名词", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["air", "hand", "handle", "air-handling"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "处理空气",
+      "imageChain": ["空气", "处理", "通风"],
+      "mnemonicExpr": "air+hand+le+ing → 处理空气 → 通风"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性"], "intensity": 0 },
+      "domain": ["medical", "tech"],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": ["air", "handle", "handling"],
+      "sameAffix": [{ "affix": "-ing", "members": ["handling", "venting"] }],
+      "synonyms": ["ventilation"],
+      "antonyms": [],
+      "domainCohort": ["HVAC", "ventilation"],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": ["ventilation", "airflow"]
+    }
+  },
+  {
+    "word": "air-hole",
+    "phonetic": "/'εəhəul/",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "气孔；河中不冰冻部分", "domain": "medical", "coverage": 0.9 }],
+    "morphemes": [
+      { "order": 1, "form": "air", "role": "root", "canonical": "air", "coreMeaning": { "cn": "空气", "en": "air" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
+      { "order": 2, "form": "hole", "role": "root", "canonical": "hole", "coreMeaning": { "cn": "洞", "en": "hole" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["air", "hole", "air-hole"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "空气之孔",
+      "imageChain": ["空气", "洞", "气孔"],
+      "mnemonicExpr": "air+hole → 气孔"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性"], "intensity": 0 },
+      "domain": ["medical", "tech"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["air", "hole"],
+      "sameAffix": [],
+      "synonyms": ["vent", "pore"],
+      "antonyms": [],
+      "domainCohort": ["vent", "aperture"],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": ["vent", "pore"]
+    }
+  },
+  {
+    "word": "air-holes",
+    "phonetic": "",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "气孔（复数）", "domain": "medical", "coverage": 0.95 }],
+    "morphemes": [
+      { "order": 1, "form": "air", "role": "root", "canonical": "air", "coreMeaning": { "cn": "空气", "en": "air" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
+      { "order": 2, "form": "hole", "role": "root", "canonical": "hole", "coreMeaning": { "cn": "洞", "en": "hole" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
+      { "order": 3, "form": "-s", "role": "suffix", "canonical": "-s", "coreMeaning": { "cn": "复数", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["air", "hole", "air-hole", "air-holes"],
+    "morphVariantOf": "air-hole",
+    "memorySemantics": {
+      "literal": "多个气孔",
+      "imageChain": ["气孔们"],
+      "mnemonicExpr": "air-hole+s → 气孔们"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性"], "intensity": 0 },
+      "domain": ["medical", "tech"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["air", "hole", "air-hole"],
+      "sameAffix": [{ "affix": "-s", "members": ["holes", "vents"] }],
+      "synonyms": ["vents", "pores"],
+      "antonyms": [],
+      "domainCohort": ["vent", "aperture"],
+      "derivationPair": ["air-hole"],
+      "morphVariants": ["air-hole"],
+      "sameImagery": ["vents", "pores"]
+    }
+  },
+  {
+    "word": "air-space",
+    "phonetic": "",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "气室；大气空间", "domain": "medical", "coverage": 0.9 }],
+    "morphemes": [
+      { "order": 1, "form": "air", "role": "root", "canonical": "air", "coreMeaning": { "cn": "空气", "en": "air" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
+      { "order": 2, "form": "space", "role": "root", "canonical": "space", "coreMeaning": { "cn": "空间", "en": "space" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final", "note": "不在常规词根清单" }
+    ],
+    "derivationChain": ["air", "space", "air-space"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "空气空间",
+      "imageChain": ["空气", "空间", "气室"],
+      "mnemonicExpr": "air+space → 气室"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性"], "intensity": 0 },
+      "domain": ["medical", "tech"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["air", "airspace"],
+      "sameAffix": [],
+      "synonyms": ["air chamber"],
+      "antonyms": [],
+      "domainCohort": ["chamber", "void"],
+      "derivationPair": [],
+      "morphVariants": ["airspace"],
+      "sameImagery": ["chamber"]
+    }
+  },
+  {
+    "word": "air-spaces",
+    "phonetic": "",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "气室（复数）", "domain": "medical", "coverage": 0.95 }],
+    "morphemes": [
+      { "order": 1, "form": "air", "role": "root", "canonical": "air", "coreMeaning": { "cn": "空气", "en": "air" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
+      { "order": 2, "form": "space", "role": "root", "canonical": "space", "coreMeaning": { "cn": "空间", "en": "space" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial", "note": "不在常规词根清单" },
+      { "order": 3, "form": "-s", "role": "suffix", "canonical": "-s", "coreMeaning": { "cn": "复数", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["air", "space", "air-space", "air-spaces"],
+    "morphVariantOf": "air-space",
+    "memorySemantics": {
+      "literal": "多个气室",
+      "imageChain": ["气室们"],
+      "mnemonicExpr": "air-space+s → 气室们"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性"], "intensity": 0 },
+      "domain": ["medical", "tech"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["air", "air-space"],
+      "sameAffix": [{ "affix": "-s", "members": ["chambers", "spaces"] }],
+      "synonyms": ["chambers"],
+      "antonyms": [],
+      "domainCohort": ["chamber", "void"],
+      "derivationPair": ["air-space"],
+      "morphVariants": ["air-space"],
+      "sameImagery": ["chambers"]
+    }
+  },
+  {
+    "word": "airbase",
+    "phonetic": "",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "空军基地；航空基地", "domain": "news", "coverage": 0.95 }],
+    "morphemes": [
+      { "order": 1, "form": "air", "role": "root", "canonical": "air", "coreMeaning": { "cn": "空气、空军", "en": "air" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
+      { "order": 2, "form": "base", "role": "root", "canonical": "base", "coreMeaning": { "cn": "基地", "en": "base" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["air", "base", "airbase"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "航空基地",
+      "imageChain": ["航空", "基地", "空军基地"],
+      "mnemonicExpr": "air(航空)+base(基地) → 空军基地"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.2 },
+      "domain": ["news", "general"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["air", "base", "airline", "aircraft"],
+      "sameAffix": [],
+      "synonyms": ["airfield"],
+      "antonyms": [],
+      "domainCohort": ["military", "aviation"],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": ["airfield", "base"]
+    }
+  },
+  {
+    "word": "airborne",
+    "phonetic": "/'ɛr'bɔrn/",
+    "pos": ["adj."],
+    "coreMeaning": [{ "cn": "空运的；空降的；空气传播的", "domain": "general", "coverage": 0.95 }],
+    "morphemes": [
+      { "order": 1, "form": "air", "role": "root", "canonical": "air", "coreMeaning": { "cn": "空气", "en": "air" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
+      { "order": 2, "form": "borne", "role": "root", "canonical": "borne", "coreMeaning": { "cn": "承载、传播", "en": "carried" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final", "note": "bear的过去分词" }
+    ],
+    "derivationChain": ["air", "bear", "borne", "airborne"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "由空气承载",
+      "imageChain": ["空气", "承载", "空运"],
+      "mnemonicExpr": "air+borne(承载) → 空运的、空气传播的"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性"], "intensity": 0 },
+      "domain": ["general", "medical", "news"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["air", "bear", "waterborne"],
+      "sameAffix": [],
+      "synonyms": ["flying", "aerial"],
+      "antonyms": ["grounded"],
+      "domainCohort": ["flight", "transport"],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": ["flying", "aerial"]
+    }
+  },
+  {
+    "word": "airconditioning",
+    "phonetic": "",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "空调系统", "domain": "finance", "coverage": 0.95 }],
+    "morphemes": [
+      { "order": 1, "form": "airconditioning", "role": "root", "canonical": "airconditioning", "coreMeaning": { "cn": "空调", "en": "air conditioning" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial", "note": "复合词(air-conditioning变体)" }
+    ],
+    "derivationChain": ["airconditioning"],
+    "morphVariantOf": "air-conditioning",
+    "memorySemantics": {
+      "literal": "空气调节",
+      "imageChain": ["空气", "调节", "空调"],
+      "mnemonicExpr": "air+conditioning → 空调系统"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性"], "intensity": 0 },
+      "domain": ["finance", "tech"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["air", "air-conditioning"],
+      "sameAffix": [],
+      "synonyms": ["AC"],
+      "antonyms": [],
+      "domainCohort": ["HVAC", "climate control"],
+      "derivationPair": [],
+      "morphVariants": ["air-conditioning"],
+      "sameImagery": ["cooling"]
+    }
+  },
+  {
+    "word": "aircraft",
+    "phonetic": "/'ɛr'kræft/",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "飞机；航空器", "domain": "general", "coverage": 0.95 }],
+    "morphemes": [
+      { "order": 1, "form": "air", "role": "root", "canonical": "air", "coreMeaning": { "cn": "空气", "en": "air" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
+      { "order": 2, "form": "craft", "role": "root", "canonical": "craft", "coreMeaning": { "cn": "手艺；交通工具", "en": "craft, vessel" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["air", "craft", "aircraft"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "空中交通工具",
+      "imageChain": ["空气", "交通工具", "飞机"],
+      "mnemonicExpr": "air+craft(工艺/工具) → 空中交通工具 → 飞机"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性"], "intensity": 0 },
+      "domain": ["general", "news"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["air", "craft", "airplane", "airline"],
+      "sameAffix": [],
+      "synonyms": ["airplane", "plane"],
+      "antonyms": [],
+      "domainCohort": ["plane", "aviation"],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": ["plane", "jet"]
+    }
+  },
+  {
+    "word": "airing",
+    "phonetic": "/'ɛrɪŋ/",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "通风；讨论", "domain": "general", "coverage": 0.9 }],
+    "morphemes": [
+      { "order": 1, "form": "air", "role": "root", "canonical": "air", "coreMeaning": { "cn": "空气", "en": "air" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
+      { "order": 2, "form": "-ing", "role": "suffix", "canonical": "-ing", "coreMeaning": { "cn": "动名词", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["air", "airing"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "通风；晾晒",
+      "imageChain": ["通风", "讨论"],
+      "mnemonicExpr": "air+ing → 通风、公开讨论"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性"], "intensity": 0 },
+      "domain": ["general", "news"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["air", "aired"],
+      "sameAffix": [{ "affix": "-ing", "members": ["venting", "broadcasting"] }],
+      "synonyms": ["ventilation", "broadcast"],
+      "antonyms": [],
+      "domainCohort": ["ventilation", "broadcast"],
+      "derivationPair": ["air"],
+      "morphVariants": [],
+      "sameImagery": ["ventilation"]
+    }
+  },
+  {
+    "word": "airline",
+    "phonetic": "/'ɛrlaɪn/",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "航线；航空公司", "domain": "business", "coverage": 0.95 }],
+    "morphemes": [
+      { "order": 1, "form": "air", "role": "root", "canonical": "air", "coreMeaning": { "cn": "空气", "en": "air" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
+      { "order": 2, "form": "line", "role": "root", "canonical": "line", "coreMeaning": { "cn": "线路", "en": "line" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["air", "line", "airline"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "空中线路",
+      "imageChain": ["空中", "线路", "航线"],
+      "mnemonicExpr": "air+line → 空中线路 → 航线/航空公司"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性"], "intensity": 0 },
+      "domain": ["business", "general", "news"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["air", "line", "airlines", "aircraft"],
+      "sameAffix": [],
+      "synonyms": ["carrier"],
+      "antonyms": [],
+      "domainCohort": ["aviation", "carrier"],
+      "derivationPair": ["airlines"],
+      "morphVariants": [],
+      "sameImagery": ["carrier", "airway"]
+    }
+  },
+  {
+    "word": "airlines",
+    "phonetic": "",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "航空公司（复数）；航空业", "domain": "business", "coverage": 0.95 }],
+    "morphemes": [
+      { "order": 1, "form": "air", "role": "root", "canonical": "air", "coreMeaning": { "cn": "空气", "en": "air" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
+      { "order": 2, "form": "line", "role": "root", "canonical": "line", "coreMeaning": { "cn": "线路", "en": "line" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
+      { "order": 3, "form": "-s", "role": "suffix", "canonical": "-s", "coreMeaning": { "cn": "复数", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["air", "line", "airline", "airlines"],
+    "morphVariantOf": "airline",
+    "memorySemantics": {
+      "literal": "多个航空公司",
+      "imageChain": ["航空公司们"],
+      "mnemonicExpr": "airline+s → 航空公司们"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性"], "intensity": 0 },
+      "domain": ["business", "news"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["air", "line", "airline"],
+      "sameAffix": [{ "affix": "-s", "members": ["carriers", "lines"] }],
+      "synonyms": ["carriers"],
+      "antonyms": [],
+      "domainCohort": ["aviation", "carrier"],
+      "derivationPair": ["airline"],
+      "morphVariants": ["airline"],
+      "sameImagery": ["carriers"]
+    }
+  },
+  {
+    "word": "airplane",
+    "phonetic": "/ˈɛrplen/",
+    "pos": ["n."],
+    "coreMeaning": [{ "cn": "飞机", "domain": "general", "coverage": 0.98 }],
+    "morphemes": [
+      { "order": 1, "form": "air", "role": "root", "canonical": "air", "coreMeaning": { "cn": "空气", "en": "air" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
+      { "order": 2, "form": "plane", "role": "root", "canonical": "plane", "coreMeaning": { "cn": "飞机；平面", "en": "plane" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    ],
+    "derivationChain": ["air", "plane", "airplane"],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "空中平面",
+      "imageChain": ["空气", "平面", "飞机"],
+      "mnemonicExpr": "air+plane → 空中飞行的机器 → 飞机"
+    },
+    "wordLevel": {
+      "sentiment": { "tags": ["中性"], "intensity": 0 },
+      "domain": ["general"],
+      "registerFormality": "neutral"
+    },
+    "relations": {
+      "sameRoot": ["air", "plane", "aircraft", "airline"],
+      "sameAffix": [],
+      "synonyms": ["aircraft", "plane", "jet"],
+      "antonyms": [],
+      "domainCohort": ["aviation", "flight"],
+      "derivationPair": [],
+      "morphVariants": ["aeroplane"],
+      "sameImagery": ["jet", "plane"]
+    }
+  }
+]
+
