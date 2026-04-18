@@ -2,1605 +2,5420 @@
   {
     "word": "copied",
     "phonetic": "",
-    "pos": ["adj.", "v."],
-    "coreMeaning": [{ "cn": "已复制的；复制的", "domain": "technical", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "cop", "role": "root", "canonical": "copi", "coreMeaning": { "cn": "复制；拷贝", "en": "copy" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-ied", "role": "suffix", "canonical": "-ed", "coreMeaning": { "cn": "过去式/过去分词", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj.",
+      "v."
     ],
-    "derivationChain": ["copy", "copied"],
+    "coreMeaning": [
+      {
+        "cn": "已复制的；复制的",
+        "domain": "technical",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "cop",
+        "role": "root",
+        "canonical": "copi",
+        "coreMeaning": {
+          "cn": "复制；拷贝",
+          "en": "copy"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-ied",
+        "role": "suffix",
+        "canonical": "-ed",
+        "coreMeaning": {
+          "cn": "过去式/过去分词",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "copy",
+      "copied"
+    ],
     "morphVariantOf": "copy",
     "memorySemantics": {
       "literal": "已复制",
-      "imageChain": ["复制动作", "完成状态", "已复制的"],
+      "imageChain": [
+        "复制动作",
+        "完成状态",
+        "已复制的"
+      ],
       "mnemonicExpr": "cop(y)(复制)+-ied → 已完成复制 → 已复制的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["technical"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "technical"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["copy", "copyright", "copious"],
-      "sameAffix": [{ "affix": "-ed", "members": ["corrected", "cornered"] }],
-      "synonyms": ["duplicated", "replicated"],
-      "antonyms": ["original"],
-      "domainCohort": ["paste", "clone"],
-      "derivationPair": ["copy"],
+      "sameRoot": [
+        "copy",
+        "copyright",
+        "copious"
+      ],
+      "sameAffix": [
+        "corrected",
+        "cornered"
+      ],
+      "synonyms": [
+        "duplicated",
+        "replicated"
+      ],
+      "antonyms": [
+        "original"
+      ],
+      "domainCohort": [
+        "paste",
+        "clone"
+      ],
+      "derivationPair": [
+        "copy"
+      ],
       "morphVariants": [],
-      "sameImagery": ["copyfile", "copyright"]
+      "sameImagery": [
+        "copyfile",
+        "copyright"
+      ]
     }
   },
   {
     "word": "copilot",
     "phonetic": "/'ko,paɪlət/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "副驾驶员", "domain": "technical", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "co-", "role": "prefix", "canonical": "co-", "coreMeaning": { "cn": "共同；一起", "en": "together; joint" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "pilot", "role": "root", "canonical": "pilot", "coreMeaning": { "cn": "驾驶员", "en": "pilot" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["pilot", "copilot"],
+    "coreMeaning": [
+      {
+        "cn": "副驾驶员",
+        "domain": "technical",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "co-",
+        "role": "prefix",
+        "canonical": "co-",
+        "coreMeaning": {
+          "cn": "共同；一起",
+          "en": "together; joint"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "pilot",
+        "role": "root",
+        "canonical": "pilot",
+        "coreMeaning": {
+          "cn": "驾驶员",
+          "en": "pilot"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "pilot",
+      "copilot"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "共同驾驶员",
-      "imageChain": ["一起", "驾驶员", "副驾驶"],
+      "imageChain": [
+        "一起",
+        "驾驶员",
+        "副驾驶"
+      ],
       "mnemonicExpr": "co(共同)+pilot(驾驶员) → 与主驾驶员共同操控 → 副驾驶员"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["technical"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "technical"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["pilot", "autopilot"],
-      "sameAffix": [{ "affix": "co-", "members": ["cooperate", "coordinate", "coproduct"] }],
-      "synonyms": ["first officer"],
-      "antonyms": ["captain"],
-      "domainCohort": ["aircraft", "aviation"],
-      "derivationPair": ["pilot"],
+      "sameRoot": [
+        "pilot",
+        "autopilot"
+      ],
+      "sameAffix": [
+        "cooperate",
+        "coordinate",
+        "coproduct"
+      ],
+      "synonyms": [
+        "first officer"
+      ],
+      "antonyms": [
+        "captain"
+      ],
+      "domainCohort": [
+        "aircraft",
+        "aviation"
+      ],
+      "derivationPair": [
+        "pilot"
+      ],
       "morphVariants": [],
-      "sameImagery": ["coproduct", "cooperate"]
+      "sameImagery": [
+        "coproduct",
+        "cooperate"
+      ]
     }
   },
   {
     "word": "copious",
     "phonetic": "/'kopɪəs/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "丰富的；很多的；多产的", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "copi", "role": "root", "canonical": "copi", "coreMeaning": { "cn": "丰富、充足", "en": "plenty, abundant" }, "sentiment": { "tags": ["积极"], "intensity": 0.4 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-ous", "role": "suffix", "canonical": "-ous", "coreMeaning": { "cn": "形容词后缀：多…的", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["copi", "copious"],
+    "coreMeaning": [
+      {
+        "cn": "丰富的；很多的；多产的",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "copi",
+        "role": "root",
+        "canonical": "copi",
+        "coreMeaning": {
+          "cn": "丰富、充足",
+          "en": "plenty, abundant"
+        },
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 0.4
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-ous",
+        "role": "suffix",
+        "canonical": "-ous",
+        "coreMeaning": {
+          "cn": "形容词后缀：多…的",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "copi",
+      "copious"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "充足的",
-      "imageChain": ["大量的", "取之不尽", "丰富的"],
+      "imageChain": [
+        "大量的",
+        "取之不尽",
+        "丰富的"
+      ],
       "mnemonicExpr": "copi(丰富)+-ous(形容词) → 充足丰富的 → 很多的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["积极", "褒义"], "intensity": 0.5 },
-      "domain": ["academic", "general"],
+      "sentiment": {
+        "tags": [
+          "积极",
+          "褒义"
+        ],
+        "intensity": 0.5
+      },
+      "domain": [
+        "academic",
+        "general"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["cornucopia", "copy"],
-      "sameAffix": [{ "affix": "-ous", "members": ["corpulent", "cordial"] }],
-      "synonyms": ["abundant", "plentiful", "prolific"],
-      "antonyms": ["scarce", "meager"],
-      "domainCohort": ["prolific", "ample"],
-      "derivationPair": ["copiously"],
+      "sameRoot": [
+        "cornucopia",
+        "copy"
+      ],
+      "sameAffix": [
+        "corpulent",
+        "cordial"
+      ],
+      "synonyms": [
+        "abundant",
+        "plentiful",
+        "prolific"
+      ],
+      "antonyms": [
+        "scarce",
+        "meager"
+      ],
+      "domainCohort": [
+        "prolific",
+        "ample"
+      ],
+      "derivationPair": [
+        "copiously"
+      ],
       "morphVariants": [],
-      "sameImagery": ["cornucopia", "abundant"]
+      "sameImagery": [
+        "cornucopia",
+        "abundant"
+      ]
     }
   },
   {
     "word": "copper",
     "phonetic": "/'kɑpɚ/",
-    "pos": ["n.", "adj."],
-    "coreMeaning": [{ "cn": "铜；铜币；警察", "domain": "general", "coverage": 0.85 }],
-    "morphemes": [
-      { "order": 1, "form": "copper", "role": "root", "canonical": "copper", "coreMeaning": { "cn": "铜（金属元素）", "en": "copper metal" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "standalone", "note": "不可再拆分，拉丁 cuprum 衍生" }
+    "pos": [
+      "n.",
+      "adj."
     ],
-    "derivationChain": ["copper"],
+    "coreMeaning": [
+      {
+        "cn": "铜；铜币；警察",
+        "domain": "general",
+        "coverage": 0.85
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "copper",
+        "role": "root",
+        "canonical": "copper",
+        "coreMeaning": {
+          "cn": "铜（金属元素）",
+          "en": "copper metal"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "standalone",
+        "note": "不可再拆分，拉丁 cuprum 衍生"
+      }
+    ],
+    "derivationChain": [
+      "copper"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "铜",
-      "imageChain": ["红棕色金属", "铜币", "铜"],
+      "imageChain": [
+        "红棕色金属",
+        "铜币",
+        "铜"
+      ],
       "mnemonicExpr": "copper → 铜（来自拉丁 cuprum，塞浦路斯出产的金属）"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["science", "general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "science",
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["coppersmith", "copper-colored"],
+      "sameRoot": [
+        "coppersmith",
+        "copper-colored"
+      ],
       "sameAffix": [],
-      "synonyms": ["Cu"],
+      "synonyms": [
+        "Cu"
+      ],
       "antonyms": [],
-      "domainCohort": ["bronze", "brass", "metal"],
-      "derivationPair": ["coppered"],
+      "domainCohort": [
+        "bronze",
+        "brass",
+        "metal"
+      ],
+      "derivationPair": [
+        "coppered"
+      ],
       "morphVariants": [],
-      "sameImagery": ["bronze", "coin"]
+      "sameImagery": [
+        "bronze",
+        "coin"
+      ]
     }
   },
   {
     "word": "copragogue",
     "phonetic": "/'kɔprәgɔg/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "泻药", "domain": "medical", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "copr", "role": "root", "canonical": "copr", "coreMeaning": { "cn": "粪便", "en": "feces; dung" }, "sentiment": { "tags": ["贬义"], "intensity": 0.5 }, "positionTendency": "initial", "note": "希腊 kopros，粪便" },
-      { "order": 2, "form": "a", "role": "linker", "canonical": "-a-", "coreMeaning": { "cn": "连接元音", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-gogue", "role": "suffix", "canonical": "-gogue", "coreMeaning": { "cn": "引导；促进", "en": "leading; promoting" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["copr", "copragogue"],
+    "coreMeaning": [
+      {
+        "cn": "泻药",
+        "domain": "medical",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "copr",
+        "role": "root",
+        "canonical": "copr",
+        "coreMeaning": {
+          "cn": "粪便",
+          "en": "feces; dung"
+        },
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 0.5
+        },
+        "positionTendency": "initial",
+        "note": "希腊 kopros，粪便"
+      },
+      {
+        "order": 2,
+        "form": "a",
+        "role": "linker",
+        "canonical": "-a-",
+        "coreMeaning": {
+          "cn": "连接元音",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-gogue",
+        "role": "suffix",
+        "canonical": "-gogue",
+        "coreMeaning": {
+          "cn": "引导；促进",
+          "en": "leading; promoting"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "copr",
+      "copragogue"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "引导粪便排出",
-      "imageChain": ["粪便", "引导排出", "泻药"],
+      "imageChain": [
+        "粪便",
+        "引导排出",
+        "泻药"
+      ],
       "mnemonicExpr": "copr(粪便)+a+gogue(引导) → 促进排便的药物 → 泻药"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["medical"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["coprology", "coproduct"],
-      "sameAffix": [{ "affix": "-gogue", "members": ["demagogue", "pedagogue"] }],
-      "synonyms": ["cathartic", "laxative", "purgative"],
-      "antonyms": ["antidiarrheal"],
-      "domainCohort": ["laxative", "cathartic"],
+      "sameRoot": [
+        "coprology",
+        "coproduct"
+      ],
+      "sameAffix": [
+        "demagogue",
+        "pedagogue"
+      ],
+      "synonyms": [
+        "cathartic",
+        "laxative",
+        "purgative"
+      ],
+      "antonyms": [
+        "antidiarrheal"
+      ],
+      "domainCohort": [
+        "laxative",
+        "cathartic"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["cathartic", "purgative"]
+      "sameImagery": [
+        "cathartic",
+        "purgative"
+      ]
     }
   },
   {
     "word": "coproduct",
     "phonetic": "/kәu'prɔdәkt/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "副产物", "domain": "technical", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "co-", "role": "prefix", "canonical": "co-", "coreMeaning": { "cn": "共同；一起", "en": "together; joint" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "product", "role": "root", "canonical": "product", "coreMeaning": { "cn": "产品；产出", "en": "product" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["produce", "product", "coproduct"],
+    "coreMeaning": [
+      {
+        "cn": "副产物",
+        "domain": "technical",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "co-",
+        "role": "prefix",
+        "canonical": "co-",
+        "coreMeaning": {
+          "cn": "共同；一起",
+          "en": "together; joint"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "product",
+        "role": "root",
+        "canonical": "product",
+        "coreMeaning": {
+          "cn": "产品；产出",
+          "en": "product"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "produce",
+      "product",
+      "coproduct"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "共同产出物",
-      "imageChain": ["一起产出", "附带产物", "副产物"],
+      "imageChain": [
+        "一起产出",
+        "附带产物",
+        "副产物"
+      ],
       "mnemonicExpr": "co(共同)+product(产品) → 伴随主产品一起生产的 → 副产物"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["technical", "science"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "technical",
+        "science"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["product", "production", "byproduct"],
-      "sameAffix": [{ "affix": "co-", "members": ["copilot", "cooperate", "corporation"] }],
-      "synonyms": ["byproduct", "side product"],
-      "antonyms": ["main product"],
-      "domainCohort": ["output", "yield"],
-      "derivationPair": ["product"],
+      "sameRoot": [
+        "product",
+        "production",
+        "byproduct"
+      ],
+      "sameAffix": [
+        "copilot",
+        "cooperate",
+        "corporation"
+      ],
+      "synonyms": [
+        "byproduct",
+        "side product"
+      ],
+      "antonyms": [
+        "main product"
+      ],
+      "domainCohort": [
+        "output",
+        "yield"
+      ],
+      "derivationPair": [
+        "product"
+      ],
       "morphVariants": [],
-      "sameImagery": ["byproduct", "output"]
+      "sameImagery": [
+        "byproduct",
+        "output"
+      ]
     }
   },
   {
     "word": "copyfile",
     "phonetic": "/ˈkɒpifail/",
-    "pos": ["n.", "v."],
-    "coreMeaning": [{ "cn": "拷贝文件", "domain": "technical", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "copy", "role": "root", "canonical": "copi", "coreMeaning": { "cn": "复制；拷贝", "en": "copy" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "file", "role": "root", "canonical": "file", "coreMeaning": { "cn": "文件", "en": "file" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": ["copy", "file", "copyfile"],
+    "coreMeaning": [
+      {
+        "cn": "拷贝文件",
+        "domain": "technical",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "copy",
+        "role": "root",
+        "canonical": "copi",
+        "coreMeaning": {
+          "cn": "复制；拷贝",
+          "en": "copy"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "file",
+        "role": "root",
+        "canonical": "file",
+        "coreMeaning": {
+          "cn": "文件",
+          "en": "file"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "copy",
+      "file",
+      "copyfile"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "复制文件",
-      "imageChain": ["复制", "文件", "拷贝文件"],
+      "imageChain": [
+        "复制",
+        "文件",
+        "拷贝文件"
+      ],
       "mnemonicExpr": "copy(复制)+file(文件) → 复制文件操作 → 拷贝文件"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["technical"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "technical"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["copy", "copied", "copyright"],
+      "sameRoot": [
+        "copy",
+        "copied",
+        "copyright"
+      ],
       "sameAffix": [],
-      "synonyms": ["file copy"],
-      "antonyms": ["deletefile"],
-      "domainCohort": ["movefile", "rename", "clone"],
-      "derivationPair": ["copy"],
+      "synonyms": [
+        "file copy"
+      ],
+      "antonyms": [
+        "deletefile"
+      ],
+      "domainCohort": [
+        "movefile",
+        "rename",
+        "clone"
+      ],
+      "derivationPair": [
+        "copy"
+      ],
       "morphVariants": [],
-      "sameImagery": ["copied", "copyrights"]
+      "sameImagery": [
+        "copied",
+        "copyrights"
+      ]
     }
   },
   {
     "word": "copyright",
     "phonetic": "/'kɑpɪraɪt/",
-    "pos": ["n.", "v."],
-    "coreMeaning": [{ "cn": "版权；著作权", "domain": "legal", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "copy", "role": "root", "canonical": "copi", "coreMeaning": { "cn": "复制；拷贝", "en": "copy" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "right", "role": "root", "canonical": "right", "coreMeaning": { "cn": "权利；正确", "en": "right; privilege" }, "sentiment": { "tags": ["积极"], "intensity": 0.3 }, "positionTendency": "final" }
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": ["copy", "right", "copyright"],
+    "coreMeaning": [
+      {
+        "cn": "版权；著作权",
+        "domain": "legal",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "copy",
+        "role": "root",
+        "canonical": "copi",
+        "coreMeaning": {
+          "cn": "复制；拷贝",
+          "en": "copy"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "right",
+        "role": "root",
+        "canonical": "right",
+        "coreMeaning": {
+          "cn": "权利；正确",
+          "en": "right; privilege"
+        },
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 0.3
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "copy",
+      "right",
+      "copyright"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "复制权利",
-      "imageChain": ["复制", "权利", "版权"],
+      "imageChain": [
+        "复制",
+        "权利",
+        "版权"
+      ],
       "mnemonicExpr": "copy(复制)+right(权利) → 控制复制的权利 → 版权"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "正式"], "intensity": 0 },
-      "domain": ["legal", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "正式"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "legal",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["copy", "copyrights", "copied"],
+      "sameRoot": [
+        "copy",
+        "copyrights",
+        "copied"
+      ],
       "sameAffix": [],
-      "synonyms": ["intellectual property"],
-      "antonyms": ["public domain"],
-      "domainCohort": ["trademark", "patent", "license"],
-      "derivationPair": ["copyrights"],
+      "synonyms": [
+        "intellectual property"
+      ],
+      "antonyms": [
+        "public domain"
+      ],
+      "domainCohort": [
+        "trademark",
+        "patent",
+        "license"
+      ],
+      "derivationPair": [
+        "copyrights"
+      ],
       "morphVariants": [],
-      "sameImagery": ["patent", "trademark"]
+      "sameImagery": [
+        "patent",
+        "trademark"
+      ]
     }
   },
   {
     "word": "copyrights",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "著作权；版权（复数）", "domain": "legal", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "copy", "role": "root", "canonical": "copi", "coreMeaning": { "cn": "复制；拷贝", "en": "copy" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "right", "role": "root", "canonical": "right", "coreMeaning": { "cn": "权利", "en": "right" }, "sentiment": { "tags": ["积极"], "intensity": 0.3 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-s", "role": "suffix", "canonical": "-s", "coreMeaning": { "cn": "复数", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["copy", "right", "copyright", "copyrights"],
+    "coreMeaning": [
+      {
+        "cn": "著作权；版权（复数）",
+        "domain": "legal",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "copy",
+        "role": "root",
+        "canonical": "copi",
+        "coreMeaning": {
+          "cn": "复制；拷贝",
+          "en": "copy"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "right",
+        "role": "root",
+        "canonical": "right",
+        "coreMeaning": {
+          "cn": "权利",
+          "en": "right"
+        },
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 0.3
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-s",
+        "role": "suffix",
+        "canonical": "-s",
+        "coreMeaning": {
+          "cn": "复数",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "copy",
+      "right",
+      "copyright",
+      "copyrights"
+    ],
     "morphVariantOf": "copyright",
     "memorySemantics": {
       "literal": "多项复制权利",
-      "imageChain": ["版权", "多项", "著作权（复数）"],
+      "imageChain": [
+        "版权",
+        "多项",
+        "著作权（复数）"
+      ],
       "mnemonicExpr": "copyright+s → 多项版权 → 著作权（复数）"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "正式"], "intensity": 0 },
-      "domain": ["legal"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "正式"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "legal"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["copyright", "copied", "copy"],
-      "sameAffix": [{ "affix": "-s", "members": ["copyrights", "corners", "cores"] }],
-      "synonyms": ["intellectual property rights"],
-      "antonyms": ["public domain"],
-      "domainCohort": ["patents", "trademarks", "licenses"],
-      "derivationPair": ["copyright"],
-      "morphVariants": ["copyright"],
-      "sameImagery": ["patents", "licenses"]
+      "sameRoot": [
+        "copyright",
+        "copied",
+        "copy"
+      ],
+      "sameAffix": [
+        "copyrights",
+        "corners",
+        "cores"
+      ],
+      "synonyms": [
+        "intellectual property rights"
+      ],
+      "antonyms": [
+        "public domain"
+      ],
+      "domainCohort": [
+        "patents",
+        "trademarks",
+        "licenses"
+      ],
+      "derivationPair": [
+        "copyright"
+      ],
+      "morphVariants": [
+        "copyright"
+      ],
+      "sameImagery": [
+        "patents",
+        "licenses"
+      ]
     }
   },
   {
     "word": "coquetry",
     "phonetic": "/'kokɪtri/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "卖弄风情；撒娇献媚", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "coquet", "role": "root", "canonical": "coquet", "coreMeaning": { "cn": "轻浮卖弄；调情", "en": "flirt; coquette" }, "sentiment": { "tags": ["贬义"], "intensity": 0.5 }, "positionTendency": "initial", "note": "法语 coquette，源自 coq（公鸡），比喻炫耀" },
-      { "order": 2, "form": "-ry", "role": "suffix", "canonical": "-ry", "coreMeaning": { "cn": "名词后缀：行为；状态", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["coquet", "coquetry"],
+    "coreMeaning": [
+      {
+        "cn": "卖弄风情；撒娇献媚",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "coquet",
+        "role": "root",
+        "canonical": "coquet",
+        "coreMeaning": {
+          "cn": "轻浮卖弄；调情",
+          "en": "flirt; coquette"
+        },
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 0.5
+        },
+        "positionTendency": "initial",
+        "note": "法语 coquette，源自 coq（公鸡），比喻炫耀"
+      },
+      {
+        "order": 2,
+        "form": "-ry",
+        "role": "suffix",
+        "canonical": "-ry",
+        "coreMeaning": {
+          "cn": "名词后缀：行为；状态",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "coquet",
+      "coquetry"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "卖弄风情的行为",
-      "imageChain": ["公鸡炫耀", "女性撒娇", "卖弄风情"],
+      "imageChain": [
+        "公鸡炫耀",
+        "女性撒娇",
+        "卖弄风情"
+      ],
       "mnemonicExpr": "coquet(调情)+-ry(行为) → 轻浮卖弄的行为 → 卖弄风情"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义", "消极"], "intensity": 0.5 },
-      "domain": ["literary", "general"],
+      "sentiment": {
+        "tags": [
+          "贬义",
+          "消极"
+        ],
+        "intensity": 0.5
+      },
+      "domain": [
+        "literary",
+        "general"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["coquette", "coquettish"],
-      "sameAffix": [{ "affix": "-ry", "members": ["gallantry", "rivalry"] }],
-      "synonyms": ["flirtation", "dalliance"],
-      "antonyms": ["modesty", "decorum"],
-      "domainCohort": ["flirt", "allure", "vanity"],
-      "derivationPair": ["coquette"],
+      "sameRoot": [
+        "coquette",
+        "coquettish"
+      ],
+      "sameAffix": [
+        "gallantry",
+        "rivalry"
+      ],
+      "synonyms": [
+        "flirtation",
+        "dalliance"
+      ],
+      "antonyms": [
+        "modesty",
+        "decorum"
+      ],
+      "domainCohort": [
+        "flirt",
+        "allure",
+        "vanity"
+      ],
+      "derivationPair": [
+        "coquette"
+      ],
       "morphVariants": [],
-      "sameImagery": ["flirtation", "allure"]
+      "sameImagery": [
+        "flirtation",
+        "allure"
+      ]
     }
   },
   {
     "word": "coral",
     "phonetic": "/'kɔrəl/",
-    "pos": ["n.", "adj."],
-    "coreMeaning": [{ "cn": "珊瑚；珊瑚色；红色的", "domain": "science", "coverage": 0.85 }],
-    "morphemes": [
-      { "order": 1, "form": "coral", "role": "root", "canonical": "coral", "coreMeaning": { "cn": "珊瑚", "en": "coral" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "standalone", "note": "希腊 korallion，不可再分析" }
+    "pos": [
+      "n.",
+      "adj."
     ],
-    "derivationChain": ["coral"],
+    "coreMeaning": [
+      {
+        "cn": "珊瑚；珊瑚色；红色的",
+        "domain": "science",
+        "coverage": 0.85
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "coral",
+        "role": "root",
+        "canonical": "coral",
+        "coreMeaning": {
+          "cn": "珊瑚",
+          "en": "coral"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "standalone",
+        "note": "希腊 korallion，不可再分析"
+      }
+    ],
+    "derivationChain": [
+      "coral"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "珊瑚",
-      "imageChain": ["海底礁石", "红橙色", "珊瑚色"],
+      "imageChain": [
+        "海底礁石",
+        "红橙色",
+        "珊瑚色"
+      ],
       "mnemonicExpr": "coral → 珊瑚（来自希腊 korallion，海中红色礁石）"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["science", "general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "science",
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["coralline", "coralloid"],
+      "sameRoot": [
+        "coralline",
+        "coralloid"
+      ],
       "sameAffix": [],
-      "synonyms": ["reef"],
+      "synonyms": [
+        "reef"
+      ],
       "antonyms": [],
-      "domainCohort": ["reef", "marine", "ocean"],
-      "derivationPair": ["coralline"],
+      "domainCohort": [
+        "reef",
+        "marine",
+        "ocean"
+      ],
+      "derivationPair": [
+        "coralline"
+      ],
       "morphVariants": [],
-      "sameImagery": ["reef", "marine"]
+      "sameImagery": [
+        "reef",
+        "marine"
+      ]
     }
   },
   {
     "word": "corbit",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "蒽醌（驱鸟剂）", "domain": "medical", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "corbit", "role": "root", "canonical": "corbit", "coreMeaning": { "cn": "蒽醌化合物（商品名）", "en": "anthraquinone compound" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "standalone", "note": "专有商品名，视作整体语素" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["corbit"],
+    "coreMeaning": [
+      {
+        "cn": "蒽醌（驱鸟剂）",
+        "domain": "medical",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "corbit",
+        "role": "root",
+        "canonical": "corbit",
+        "coreMeaning": {
+          "cn": "蒽醌化合物（商品名）",
+          "en": "anthraquinone compound"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "standalone",
+        "note": "专有商品名，视作整体语素"
+      }
+    ],
+    "derivationChain": [
+      "corbit"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "蒽醌驱鸟剂",
-      "imageChain": ["化学物质", "驱鸟剂", "蒽醌"],
+      "imageChain": [
+        "化学物质",
+        "驱鸟剂",
+        "蒽醌"
+      ],
       "mnemonicExpr": "corbit → 专有商品名，一种蒽醌类驱鸟化合物"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["medical", "science"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical",
+        "science"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
       "sameRoot": [],
       "sameAffix": [],
-      "synonyms": ["anthraquinone"],
+      "synonyms": [
+        "anthraquinone"
+      ],
       "antonyms": [],
-      "domainCohort": ["repellent", "anthraquinone"],
+      "domainCohort": [
+        "repellent",
+        "anthraquinone"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["repellent"]
+      "sameImagery": [
+        "repellent"
+      ]
     }
   },
   {
     "word": "cord",
     "phonetic": "/kɔrd/",
-    "pos": ["n.", "v."],
-    "coreMeaning": [{ "cn": "绳索；束缚", "domain": "general", "coverage": 0.85 }],
-    "morphemes": [
-      { "order": 1, "form": "cord", "role": "root", "canonical": "cord", "coreMeaning": { "cn": "心；弦；绳", "en": "heart; string; cord" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "standalone", "note": "此处为绳索义，chord/cord 同源" }
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": ["cord"],
+    "coreMeaning": [
+      {
+        "cn": "绳索；束缚",
+        "domain": "general",
+        "coverage": 0.85
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "cord",
+        "role": "root",
+        "canonical": "cord",
+        "coreMeaning": {
+          "cn": "心；弦；绳",
+          "en": "heart; string; cord"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "standalone",
+        "note": "此处为绳索义，chord/cord 同源"
+      }
+    ],
+    "derivationChain": [
+      "cord"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "绳索",
-      "imageChain": ["细绳", "束缚", "绳索"],
+      "imageChain": [
+        "细绳",
+        "束缚",
+        "绳索"
+      ],
       "mnemonicExpr": "cord(绳、弦) → 用来绑束的绳索"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["chord", "cordial", "cordiality", "record"],
+      "sameRoot": [
+        "chord",
+        "cordial",
+        "cordiality",
+        "record"
+      ],
       "sameAffix": [],
-      "synonyms": ["rope", "string", "cable"],
-      "antonyms": ["freedom"],
-      "domainCohort": ["rope", "wire", "cable"],
-      "derivationPair": ["corded"],
-      "morphVariants": ["chord"],
-      "sameImagery": ["rope", "string"]
+      "synonyms": [
+        "rope",
+        "string",
+        "cable"
+      ],
+      "antonyms": [
+        "freedom"
+      ],
+      "domainCohort": [
+        "rope",
+        "wire",
+        "cable"
+      ],
+      "derivationPair": [
+        "corded"
+      ],
+      "morphVariants": [
+        "chord"
+      ],
+      "sameImagery": [
+        "rope",
+        "string"
+      ]
     }
   },
   {
     "word": "cordial",
     "phonetic": "/'kɔrdʒəl/",
-    "pos": ["adj.", "n."],
-    "coreMeaning": [{ "cn": "热忱的；诚恳的", "domain": "general", "coverage": 0.85 }],
-    "morphemes": [
-      { "order": 1, "form": "cord", "role": "root", "canonical": "cord", "coreMeaning": { "cn": "心", "en": "heart" }, "sentiment": { "tags": ["积极"], "intensity": 0.5 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-ial", "role": "suffix", "canonical": "-al", "coreMeaning": { "cn": "形容词后缀：与…相关的", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj.",
+      "n."
     ],
-    "derivationChain": ["cord", "cordial"],
+    "coreMeaning": [
+      {
+        "cn": "热忱的；诚恳的",
+        "domain": "general",
+        "coverage": 0.85
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "cord",
+        "role": "root",
+        "canonical": "cord",
+        "coreMeaning": {
+          "cn": "心",
+          "en": "heart"
+        },
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 0.5
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-ial",
+        "role": "suffix",
+        "canonical": "-al",
+        "coreMeaning": {
+          "cn": "形容词后缀：与…相关的",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "cord",
+      "cordial"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "发自内心的",
-      "imageChain": ["出自心底", "真诚温暖", "热忱的"],
+      "imageChain": [
+        "出自心底",
+        "真诚温暖",
+        "热忱的"
+      ],
       "mnemonicExpr": "cord(心)+-ial(形容词) → 出自心底的 → 热忱诚恳的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["积极", "褒义"], "intensity": 0.6 },
-      "domain": ["general", "academic"],
+      "sentiment": {
+        "tags": [
+          "积极",
+          "褒义"
+        ],
+        "intensity": 0.6
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["cordiality", "cord", "accord", "record"],
-      "sameAffix": [{ "affix": "-ial", "members": ["corporal", "coronial"] }],
-      "synonyms": ["warm", "genial", "affable"],
-      "antonyms": ["cold", "aloof", "hostile"],
-      "domainCohort": ["warm", "friendly", "amicable"],
-      "derivationPair": ["cordiality"],
+      "sameRoot": [
+        "cordiality",
+        "cord",
+        "accord",
+        "record"
+      ],
+      "sameAffix": [
+        "corporal",
+        "coronial"
+      ],
+      "synonyms": [
+        "warm",
+        "genial",
+        "affable"
+      ],
+      "antonyms": [
+        "cold",
+        "aloof",
+        "hostile"
+      ],
+      "domainCohort": [
+        "warm",
+        "friendly",
+        "amicable"
+      ],
+      "derivationPair": [
+        "cordiality"
+      ],
       "morphVariants": [],
-      "sameImagery": ["warmhearted", "sincere"]
+      "sameImagery": [
+        "warmhearted",
+        "sincere"
+      ]
     }
   },
   {
     "word": "cordiality",
     "phonetic": "/kɔr'dʒæləti/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "诚恳；热诚", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "cord", "role": "root", "canonical": "cord", "coreMeaning": { "cn": "心", "en": "heart" }, "sentiment": { "tags": ["积极"], "intensity": 0.5 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-ial", "role": "suffix", "canonical": "-al", "coreMeaning": { "cn": "形容词后缀", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ity", "role": "suffix", "canonical": "-ity", "coreMeaning": { "cn": "名词后缀：性质；状态", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["cord", "cordial", "cordiality"],
+    "coreMeaning": [
+      {
+        "cn": "诚恳；热诚",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "cord",
+        "role": "root",
+        "canonical": "cord",
+        "coreMeaning": {
+          "cn": "心",
+          "en": "heart"
+        },
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 0.5
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-ial",
+        "role": "suffix",
+        "canonical": "-al",
+        "coreMeaning": {
+          "cn": "形容词后缀",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ity",
+        "role": "suffix",
+        "canonical": "-ity",
+        "coreMeaning": {
+          "cn": "名词后缀：性质；状态",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "cord",
+      "cordial",
+      "cordiality"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "发自内心的性质",
-      "imageChain": ["诚恳", "热诚的状态", "热诚"],
+      "imageChain": [
+        "诚恳",
+        "热诚的状态",
+        "热诚"
+      ],
       "mnemonicExpr": "cord(心)+ial(形容词)+ity(名词) → 热诚的品质 → 诚恳、热诚"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["积极", "褒义"], "intensity": 0.6 },
-      "domain": ["general", "academic"],
+      "sentiment": {
+        "tags": [
+          "积极",
+          "褒义"
+        ],
+        "intensity": 0.6
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["cordial", "accord", "concord"],
-      "sameAffix": [{ "affix": "-ity", "members": ["corpulence", "cordiality"] }],
-      "synonyms": ["warmth", "geniality", "affability"],
-      "antonyms": ["coldness", "hostility"],
-      "domainCohort": ["warmth", "amicability"],
-      "derivationPair": ["cordial"],
+      "sameRoot": [
+        "cordial",
+        "accord",
+        "concord"
+      ],
+      "sameAffix": [
+        "corpulence",
+        "cordiality"
+      ],
+      "synonyms": [
+        "warmth",
+        "geniality",
+        "affability"
+      ],
+      "antonyms": [
+        "coldness",
+        "hostility"
+      ],
+      "domainCohort": [
+        "warmth",
+        "amicability"
+      ],
+      "derivationPair": [
+        "cordial"
+      ],
       "morphVariants": [],
-      "sameImagery": ["warmth", "sincerity"]
+      "sameImagery": [
+        "warmth",
+        "sincerity"
+      ]
     }
   },
   {
     "word": "cordova",
     "phonetic": "/'kɔ:dəvə/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "科尔多瓦（地名/姓氏）", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "cordova", "role": "root", "canonical": "cordova", "coreMeaning": { "cn": "科尔多瓦（专有名词）", "en": "Cordova (proper noun)" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "standalone", "note": "专有名词（地名/姓氏），视作伪语素" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["cordova"],
+    "coreMeaning": [
+      {
+        "cn": "科尔多瓦（地名/姓氏）",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "cordova",
+        "role": "root",
+        "canonical": "cordova",
+        "coreMeaning": {
+          "cn": "科尔多瓦（专有名词）",
+          "en": "Cordova (proper noun)"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "standalone",
+        "note": "专有名词（地名/姓氏），视作伪语素"
+      }
+    ],
+    "derivationChain": [
+      "cordova"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "科尔多瓦",
-      "imageChain": ["西班牙城市", "地名", "科尔多瓦"],
+      "imageChain": [
+        "西班牙城市",
+        "地名",
+        "科尔多瓦"
+      ],
       "mnemonicExpr": "cordova → 西班牙历史名城，也是美国城市名和姓氏"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
       "sameRoot": [],
       "sameAffix": [],
-      "synonyms": ["Córdoba"],
+      "synonyms": [
+        "Córdoba"
+      ],
       "antonyms": [],
-      "domainCohort": ["city", "proper noun"],
+      "domainCohort": [
+        "city",
+        "proper noun"
+      ],
       "derivationPair": [],
-      "morphVariants": ["Córdoba", "Córdova"],
+      "morphVariants": [
+        "Córdoba",
+        "Córdova"
+      ],
       "sameImagery": []
     }
   },
   {
     "word": "cordyceps",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "冬虫夏草", "domain": "medical", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "cord", "role": "root", "canonical": "cord", "coreMeaning": { "cn": "棍；杆（此处指柄）", "en": "club; stalk" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial", "note": "拉丁 cordyceps：cordy(棒)+ceps(头)" },
-      { "order": 2, "form": "-yceps", "role": "suffix", "canonical": "-ceps", "coreMeaning": { "cn": "头；顶", "en": "head; top" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["cordyceps"],
+    "coreMeaning": [
+      {
+        "cn": "冬虫夏草",
+        "domain": "medical",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "cord",
+        "role": "root",
+        "canonical": "cord",
+        "coreMeaning": {
+          "cn": "棍；杆（此处指柄）",
+          "en": "club; stalk"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial",
+        "note": "拉丁 cordyceps：cordy(棒)+ceps(头)"
+      },
+      {
+        "order": 2,
+        "form": "-yceps",
+        "role": "suffix",
+        "canonical": "-ceps",
+        "coreMeaning": {
+          "cn": "头；顶",
+          "en": "head; top"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "cordyceps"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "棒状头部真菌",
-      "imageChain": ["棒状菌体", "寄生虫草", "冬虫夏草"],
+      "imageChain": [
+        "棒状菌体",
+        "寄生虫草",
+        "冬虫夏草"
+      ],
       "mnemonicExpr": "cord(棒)+yceps(头) → 头部如棒的真菌 → 冬虫夏草"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["medical", "science"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical",
+        "science"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
       "sameRoot": [],
-      "sameAffix": [{ "affix": "-ceps", "members": ["biceps", "forceps"] }],
-      "synonyms": ["caterpillar fungus"],
+      "sameAffix": [
+        "biceps",
+        "forceps"
+      ],
+      "synonyms": [
+        "caterpillar fungus"
+      ],
       "antonyms": [],
-      "domainCohort": ["fungi", "herb", "traditional medicine"],
+      "domainCohort": [
+        "fungi",
+        "herb",
+        "traditional medicine"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["fungi", "parasite"]
+      "sameImagery": [
+        "fungi",
+        "parasite"
+      ]
     }
   },
   {
     "word": "core",
     "phonetic": "/kɔr/",
-    "pos": ["n.", "adj."],
-    "coreMeaning": [{ "cn": "核心；要点；果心", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "core", "role": "root", "canonical": "core", "coreMeaning": { "cn": "核心；中心", "en": "core; center" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "standalone", "note": "拉丁 cor（心），不可再拆分" }
+    "pos": [
+      "n.",
+      "adj."
     ],
-    "derivationChain": ["core"],
+    "coreMeaning": [
+      {
+        "cn": "核心；要点；果心",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "core",
+        "role": "root",
+        "canonical": "core",
+        "coreMeaning": {
+          "cn": "核心；中心",
+          "en": "core; center"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "standalone",
+        "note": "拉丁 cor（心），不可再拆分"
+      }
+    ],
+    "derivationChain": [
+      "core"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "核心",
-      "imageChain": ["中心部分", "最重要的", "核心"],
+      "imageChain": [
+        "中心部分",
+        "最重要的",
+        "核心"
+      ],
       "mnemonicExpr": "core(核心) → 事物中最重要的中心部分"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["cores", "hardcore"],
+      "sameRoot": [
+        "cores",
+        "hardcore"
+      ],
       "sameAffix": [],
-      "synonyms": ["center", "nucleus", "heart"],
-      "antonyms": ["periphery", "surface"],
-      "domainCohort": ["nucleus", "center", "essence"],
-      "derivationPair": ["cores"],
+      "synonyms": [
+        "center",
+        "nucleus",
+        "heart"
+      ],
+      "antonyms": [
+        "periphery",
+        "surface"
+      ],
+      "domainCohort": [
+        "nucleus",
+        "center",
+        "essence"
+      ],
+      "derivationPair": [
+        "cores"
+      ],
       "morphVariants": [],
-      "sameImagery": ["nucleus", "heart"]
+      "sameImagery": [
+        "nucleus",
+        "heart"
+      ]
     }
   },
   {
     "word": "core-",
     "phonetic": "",
-    "pos": ["prefix"],
-    "coreMeaning": [{ "cn": "瞳孔（医学前缀）", "domain": "medical", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "core-", "role": "root", "canonical": "core-", "coreMeaning": { "cn": "瞳孔", "en": "pupil of the eye" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial", "note": "医学词缀，希腊 kore（少女，喻瞳孔）；视作伪语素" }
+    "pos": [
+      "prefix"
     ],
-    "derivationChain": ["core-"],
+    "coreMeaning": [
+      {
+        "cn": "瞳孔（医学前缀）",
+        "domain": "medical",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "core-",
+        "role": "root",
+        "canonical": "core-",
+        "coreMeaning": {
+          "cn": "瞳孔",
+          "en": "pupil of the eye"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial",
+        "note": "医学词缀，希腊 kore（少女，喻瞳孔）；视作伪语素"
+      }
+    ],
+    "derivationChain": [
+      "core-"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "瞳孔",
-      "imageChain": ["眼睛中心", "瞳孔", "医学前缀"],
+      "imageChain": [
+        "眼睛中心",
+        "瞳孔",
+        "医学前缀"
+      ],
       "mnemonicExpr": "core-(来自希腊 kore 少女/瞳孔) → 医学词缀表示瞳孔"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["medical"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["coreometer", "corectopia"],
+      "sameRoot": [
+        "coreometer",
+        "corectopia"
+      ],
       "sameAffix": [],
-      "synonyms": ["pupill-"],
+      "synonyms": [
+        "pupill-"
+      ],
       "antonyms": [],
-      "domainCohort": ["ophthalmo", "pupil"],
+      "domainCohort": [
+        "ophthalmo",
+        "pupil"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["pupil", "iris"]
+      "sameImagery": [
+        "pupil",
+        "iris"
+      ]
     }
   },
   {
     "word": "cores",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "核心；芯部（复数）", "domain": "technical", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "core", "role": "root", "canonical": "core", "coreMeaning": { "cn": "核心；中心", "en": "core; center" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-s", "role": "suffix", "canonical": "-s", "coreMeaning": { "cn": "复数", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["core", "cores"],
+    "coreMeaning": [
+      {
+        "cn": "核心；芯部（复数）",
+        "domain": "technical",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "core",
+        "role": "root",
+        "canonical": "core",
+        "coreMeaning": {
+          "cn": "核心；中心",
+          "en": "core; center"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-s",
+        "role": "suffix",
+        "canonical": "-s",
+        "coreMeaning": {
+          "cn": "复数",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "core",
+      "cores"
+    ],
     "morphVariantOf": "core",
     "memorySemantics": {
       "literal": "多个核心",
-      "imageChain": ["核心", "多个", "核心（复数）"],
+      "imageChain": [
+        "核心",
+        "多个",
+        "核心（复数）"
+      ],
       "mnemonicExpr": "core(核心)+-s(复数) → 多个核心/芯片核心"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["technical", "science"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "technical",
+        "science"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["core", "hardcore"],
-      "sameAffix": [{ "affix": "-s", "members": ["corps", "corns", "corners"] }],
-      "synonyms": ["nuclei", "centers"],
+      "sameRoot": [
+        "core",
+        "hardcore"
+      ],
+      "sameAffix": [
+        "corps",
+        "corns",
+        "corners"
+      ],
+      "synonyms": [
+        "nuclei",
+        "centers"
+      ],
       "antonyms": [],
-      "domainCohort": ["processor", "chip", "nucleus"],
-      "derivationPair": ["core"],
-      "morphVariants": ["core"],
-      "sameImagery": ["core", "nucleus"]
+      "domainCohort": [
+        "processor",
+        "chip",
+        "nucleus"
+      ],
+      "derivationPair": [
+        "core"
+      ],
+      "morphVariants": [
+        "core"
+      ],
+      "sameImagery": [
+        "core",
+        "nucleus"
+      ]
     }
   },
   {
     "word": "cork",
     "phonetic": "/kɔrk/",
-    "pos": ["n.", "v."],
-    "coreMeaning": [{ "cn": "软木塞", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "cork", "role": "root", "canonical": "cork", "coreMeaning": { "cn": "软木；栓", "en": "cork; stopper" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "standalone", "note": "源自葡萄牙 cortiça，不可再分析" }
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": ["cork"],
+    "coreMeaning": [
+      {
+        "cn": "软木塞",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "cork",
+        "role": "root",
+        "canonical": "cork",
+        "coreMeaning": {
+          "cn": "软木；栓",
+          "en": "cork; stopper"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "standalone",
+        "note": "源自葡萄牙 cortiça，不可再分析"
+      }
+    ],
+    "derivationChain": [
+      "cork"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "软木塞",
-      "imageChain": ["软木树皮", "瓶塞", "软木塞"],
+      "imageChain": [
+        "软木树皮",
+        "瓶塞",
+        "软木塞"
+      ],
       "mnemonicExpr": "cork → 软木橡树皮制成的瓶塞"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["uncork", "corked", "corkscrew"],
+      "sameRoot": [
+        "uncork",
+        "corked",
+        "corkscrew"
+      ],
       "sameAffix": [],
-      "synonyms": ["stopper", "bung", "plug"],
+      "synonyms": [
+        "stopper",
+        "bung",
+        "plug"
+      ],
       "antonyms": [],
-      "domainCohort": ["bottle", "wine", "plug"],
-      "derivationPair": ["uncork"],
+      "domainCohort": [
+        "bottle",
+        "wine",
+        "plug"
+      ],
+      "derivationPair": [
+        "uncork"
+      ],
       "morphVariants": [],
-      "sameImagery": ["stopper", "plug"]
+      "sameImagery": [
+        "stopper",
+        "plug"
+      ]
     }
   },
   {
     "word": "cornel",
     "phonetic": "/'kɒːnəl/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "山茱萸（植物）", "domain": "medical", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "corn", "role": "root", "canonical": "corn", "coreMeaning": { "cn": "角；谷；硬物", "en": "horn; grain; hard" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial", "note": "拉丁 cornus（角木），山茱萸属" },
-      { "order": 2, "form": "-el", "role": "suffix", "canonical": "-el", "coreMeaning": { "cn": "名词后缀（小型化/植物名）", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["corn", "cornel"],
+    "coreMeaning": [
+      {
+        "cn": "山茱萸（植物）",
+        "domain": "medical",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "corn",
+        "role": "root",
+        "canonical": "corn",
+        "coreMeaning": {
+          "cn": "角；谷；硬物",
+          "en": "horn; grain; hard"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial",
+        "note": "拉丁 cornus（角木），山茱萸属"
+      },
+      {
+        "order": 2,
+        "form": "-el",
+        "role": "suffix",
+        "canonical": "-el",
+        "coreMeaning": {
+          "cn": "名词后缀（小型化/植物名）",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "corn",
+      "cornel"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "角木树",
-      "imageChain": ["硬木", "山茱萸属", "山茱萸"],
+      "imageChain": [
+        "硬木",
+        "山茱萸属",
+        "山茱萸"
+      ],
       "mnemonicExpr": "corn(角/硬)+-el(名词) → 木质坚硬的植物 → 山茱萸"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["medical", "science"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical",
+        "science"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["cornor", "cornus"],
+      "sameRoot": [
+        "cornor",
+        "cornus"
+      ],
       "sameAffix": [],
-      "synonyms": ["dogwood", "Cornus mas"],
+      "synonyms": [
+        "dogwood",
+        "Cornus mas"
+      ],
       "antonyms": [],
-      "domainCohort": ["dogwood", "shrub", "herb"],
+      "domainCohort": [
+        "dogwood",
+        "shrub",
+        "herb"
+      ],
       "derivationPair": [],
-      "morphVariants": ["cornor"],
-      "sameImagery": ["dogwood", "herb"]
+      "morphVariants": [
+        "cornor"
+      ],
+      "sameImagery": [
+        "dogwood",
+        "herb"
+      ]
     }
   },
   {
     "word": "corner-stone",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "墙角石；基础；要件", "domain": "legal", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "corner", "role": "root", "canonical": "corner", "coreMeaning": { "cn": "角；拐角", "en": "corner; angle" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "stone", "role": "root", "canonical": "stone", "coreMeaning": { "cn": "石；基石", "en": "stone; rock" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["corner", "stone", "corner-stone"],
+    "coreMeaning": [
+      {
+        "cn": "墙角石；基础；要件",
+        "domain": "legal",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "corner",
+        "role": "root",
+        "canonical": "corner",
+        "coreMeaning": {
+          "cn": "角；拐角",
+          "en": "corner; angle"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "stone",
+        "role": "root",
+        "canonical": "stone",
+        "coreMeaning": {
+          "cn": "石；基石",
+          "en": "stone; rock"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "corner",
+      "stone",
+      "corner-stone"
+    ],
     "morphVariantOf": "cornerstone",
     "memorySemantics": {
       "literal": "角落石",
-      "imageChain": ["建筑基角石", "最重要的基础", "要件"],
+      "imageChain": [
+        "建筑基角石",
+        "最重要的基础",
+        "要件"
+      ],
       "mnemonicExpr": "corner(角)+stone(石) → 建筑转角基石 → 最重要的基础/要件"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["积极"], "intensity": 0.3 },
-      "domain": ["legal", "academic"],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "legal",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["cornerstone", "corners", "cornered"],
+      "sameRoot": [
+        "cornerstone",
+        "corners",
+        "cornered"
+      ],
       "sameAffix": [],
-      "synonyms": ["cornerstone", "foundation", "keystone"],
-      "antonyms": ["periphery"],
-      "domainCohort": ["foundation", "basis", "pillar"],
-      "derivationPair": ["cornerstone"],
-      "morphVariants": ["cornerstone"],
-      "sameImagery": ["foundation", "keystone"]
+      "synonyms": [
+        "cornerstone",
+        "foundation",
+        "keystone"
+      ],
+      "antonyms": [
+        "periphery"
+      ],
+      "domainCohort": [
+        "foundation",
+        "basis",
+        "pillar"
+      ],
+      "derivationPair": [
+        "cornerstone"
+      ],
+      "morphVariants": [
+        "cornerstone"
+      ],
+      "sameImagery": [
+        "foundation",
+        "keystone"
+      ]
     }
   },
   {
     "word": "corner-stones",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "墙角石；基础（复数）", "domain": "legal", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "corner", "role": "root", "canonical": "corner", "coreMeaning": { "cn": "角；拐角", "en": "corner" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "stone", "role": "root", "canonical": "stone", "coreMeaning": { "cn": "石", "en": "stone" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-s", "role": "suffix", "canonical": "-s", "coreMeaning": { "cn": "复数", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["corner", "stone", "corner-stone", "corner-stones"],
+    "coreMeaning": [
+      {
+        "cn": "墙角石；基础（复数）",
+        "domain": "legal",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "corner",
+        "role": "root",
+        "canonical": "corner",
+        "coreMeaning": {
+          "cn": "角；拐角",
+          "en": "corner"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "stone",
+        "role": "root",
+        "canonical": "stone",
+        "coreMeaning": {
+          "cn": "石",
+          "en": "stone"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-s",
+        "role": "suffix",
+        "canonical": "-s",
+        "coreMeaning": {
+          "cn": "复数",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "corner",
+      "stone",
+      "corner-stone",
+      "corner-stones"
+    ],
     "morphVariantOf": "corner-stone",
     "memorySemantics": {
       "literal": "多个基石",
-      "imageChain": ["基石", "多个", "基础（复数）"],
+      "imageChain": [
+        "基石",
+        "多个",
+        "基础（复数）"
+      ],
       "mnemonicExpr": "corner-stone+s → 多块基石 → 基础（复数）"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["积极"], "intensity": 0.3 },
-      "domain": ["legal", "academic"],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "legal",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["corner-stone", "cornerstone", "cornerstones"],
-      "sameAffix": [{ "affix": "-s", "members": ["copyrights", "corners"] }],
-      "synonyms": ["cornerstones", "foundations"],
+      "sameRoot": [
+        "corner-stone",
+        "cornerstone",
+        "cornerstones"
+      ],
+      "sameAffix": [
+        "copyrights",
+        "corners"
+      ],
+      "synonyms": [
+        "cornerstones",
+        "foundations"
+      ],
       "antonyms": [],
-      "domainCohort": ["foundations", "pillars", "keystones"],
-      "derivationPair": ["corner-stone"],
-      "morphVariants": ["cornerstones"],
-      "sameImagery": ["foundations", "cornerstones"]
+      "domainCohort": [
+        "foundations",
+        "pillars",
+        "keystones"
+      ],
+      "derivationPair": [
+        "corner-stone"
+      ],
+      "morphVariants": [
+        "cornerstones"
+      ],
+      "sameImagery": [
+        "foundations",
+        "cornerstones"
+      ]
     }
   },
   {
     "word": "cornered",
     "phonetic": "/'kɔːnəd/",
-    "pos": ["adj.", "v."],
-    "coreMeaning": [{ "cn": "有…角的；被逼入困境的", "domain": "general", "coverage": 0.85 }],
-    "morphemes": [
-      { "order": 1, "form": "corner", "role": "root", "canonical": "corner", "coreMeaning": { "cn": "角；拐角；困境", "en": "corner; trapped" }, "sentiment": { "tags": ["消极"], "intensity": 0.4 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-ed", "role": "suffix", "canonical": "-ed", "coreMeaning": { "cn": "过去式/形容词后缀", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj.",
+      "v."
     ],
-    "derivationChain": ["corner", "cornered"],
+    "coreMeaning": [
+      {
+        "cn": "有…角的；被逼入困境的",
+        "domain": "general",
+        "coverage": 0.85
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "corner",
+        "role": "root",
+        "canonical": "corner",
+        "coreMeaning": {
+          "cn": "角；拐角；困境",
+          "en": "corner; trapped"
+        },
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 0.4
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-ed",
+        "role": "suffix",
+        "canonical": "-ed",
+        "coreMeaning": {
+          "cn": "过去式/形容词后缀",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "corner",
+      "cornered"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "被逼到角落",
-      "imageChain": ["拐角", "无路可退", "被逼入困境"],
+      "imageChain": [
+        "拐角",
+        "无路可退",
+        "被逼入困境"
+      ],
       "mnemonicExpr": "corner(角落)+-ed → 被逼到角落 → 处于困境"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["消极"], "intensity": 0.4 },
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 0.4
+      },
+      "domain": [
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["corner", "corners", "cornerstone"],
-      "sameAffix": [{ "affix": "-ed", "members": ["corrected", "copied", "cordova"] }],
-      "synonyms": ["trapped", "boxed in"],
-      "antonyms": ["free", "untrapped"],
-      "domainCohort": ["trapped", "surrounded"],
-      "derivationPair": ["corner"],
+      "sameRoot": [
+        "corner",
+        "corners",
+        "cornerstone"
+      ],
+      "sameAffix": [
+        "corrected",
+        "copied",
+        "cordova"
+      ],
+      "synonyms": [
+        "trapped",
+        "boxed in"
+      ],
+      "antonyms": [
+        "free",
+        "untrapped"
+      ],
+      "domainCohort": [
+        "trapped",
+        "surrounded"
+      ],
+      "derivationPair": [
+        "corner"
+      ],
       "morphVariants": [],
-      "sameImagery": ["trapped", "surrounded"]
+      "sameImagery": [
+        "trapped",
+        "surrounded"
+      ]
     }
   },
   {
     "word": "corners",
     "phonetic": "",
-    "pos": ["n.", "v."],
-    "coreMeaning": [{ "cn": "角落；窘境（复数）", "domain": "general", "coverage": 0.85 }],
-    "morphemes": [
-      { "order": 1, "form": "corner", "role": "root", "canonical": "corner", "coreMeaning": { "cn": "角；拐角", "en": "corner" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-s", "role": "suffix", "canonical": "-s", "coreMeaning": { "cn": "复数", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": ["corner", "corners"],
+    "coreMeaning": [
+      {
+        "cn": "角落；窘境（复数）",
+        "domain": "general",
+        "coverage": 0.85
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "corner",
+        "role": "root",
+        "canonical": "corner",
+        "coreMeaning": {
+          "cn": "角；拐角",
+          "en": "corner"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-s",
+        "role": "suffix",
+        "canonical": "-s",
+        "coreMeaning": {
+          "cn": "复数",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "corner",
+      "corners"
+    ],
     "morphVariantOf": "corner",
     "memorySemantics": {
       "literal": "多个角落",
-      "imageChain": ["角落", "多个", "角落（复数）"],
+      "imageChain": [
+        "角落",
+        "多个",
+        "角落（复数）"
+      ],
       "mnemonicExpr": "corner(角落)+-s(复数) → 多个角落"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "technical"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "technical"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["corner", "cornered", "cornerstone"],
-      "sameAffix": [{ "affix": "-s", "members": ["cores", "corns", "corps"] }],
-      "synonyms": ["angles", "nooks"],
+      "sameRoot": [
+        "corner",
+        "cornered",
+        "cornerstone"
+      ],
+      "sameAffix": [
+        "cores",
+        "corns",
+        "corps"
+      ],
+      "synonyms": [
+        "angles",
+        "nooks"
+      ],
       "antonyms": [],
-      "domainCohort": ["edges", "angles", "nooks"],
-      "derivationPair": ["corner"],
-      "morphVariants": ["corner"],
-      "sameImagery": ["nooks", "angles"]
+      "domainCohort": [
+        "edges",
+        "angles",
+        "nooks"
+      ],
+      "derivationPair": [
+        "corner"
+      ],
+      "morphVariants": [
+        "corner"
+      ],
+      "sameImagery": [
+        "nooks",
+        "angles"
+      ]
     }
   },
   {
     "word": "cornerstone",
     "phonetic": "/'kɔrnɚston/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "奠基石；基础", "domain": "academic", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "corner", "role": "root", "canonical": "corner", "coreMeaning": { "cn": "角；转角", "en": "corner" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "stone", "role": "root", "canonical": "stone", "coreMeaning": { "cn": "石；岩石", "en": "stone" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["corner", "stone", "cornerstone"],
+    "coreMeaning": [
+      {
+        "cn": "奠基石；基础",
+        "domain": "academic",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "corner",
+        "role": "root",
+        "canonical": "corner",
+        "coreMeaning": {
+          "cn": "角；转角",
+          "en": "corner"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "stone",
+        "role": "root",
+        "canonical": "stone",
+        "coreMeaning": {
+          "cn": "石；岩石",
+          "en": "stone"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "corner",
+      "stone",
+      "cornerstone"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "角落基石",
-      "imageChain": ["建筑角石", "奠基", "基础核心"],
+      "imageChain": [
+        "建筑角石",
+        "奠基",
+        "基础核心"
+      ],
       "mnemonicExpr": "corner(角)+stone(石) → 建筑奠基角石 → 基础核心"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["积极"], "intensity": 0.3 },
-      "domain": ["academic", "legal"],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "academic",
+        "legal"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["corner-stone", "cornerstones", "corners"],
+      "sameRoot": [
+        "corner-stone",
+        "cornerstones",
+        "corners"
+      ],
       "sameAffix": [],
-      "synonyms": ["foundation", "keystone", "linchpin"],
-      "antonyms": ["periphery", "fringe"],
-      "domainCohort": ["foundation", "basis", "pillar"],
-      "derivationPair": ["corner-stone"],
-      "morphVariants": ["corner-stone"],
-      "sameImagery": ["foundation", "keystone"]
+      "synonyms": [
+        "foundation",
+        "keystone",
+        "linchpin"
+      ],
+      "antonyms": [
+        "periphery",
+        "fringe"
+      ],
+      "domainCohort": [
+        "foundation",
+        "basis",
+        "pillar"
+      ],
+      "derivationPair": [
+        "corner-stone"
+      ],
+      "morphVariants": [
+        "corner-stone"
+      ],
+      "sameImagery": [
+        "foundation",
+        "keystone"
+      ]
     }
   },
   {
     "word": "cornor",
     "phonetic": "/'kɔːnə/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "山茱萸（Cornus mas 的异名）", "domain": "medical", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "cornor", "role": "root", "canonical": "cornor", "coreMeaning": { "cn": "山茱萸（医学异名）", "en": "Cornus mas variant" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "standalone", "note": "医学拼写变体，等同 cornel/Cornus mas" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["cornor"],
+    "coreMeaning": [
+      {
+        "cn": "山茱萸（Cornus mas 的异名）",
+        "domain": "medical",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "cornor",
+        "role": "root",
+        "canonical": "cornor",
+        "coreMeaning": {
+          "cn": "山茱萸（医学异名）",
+          "en": "Cornus mas variant"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "standalone",
+        "note": "医学拼写变体，等同 cornel/Cornus mas"
+      }
+    ],
+    "derivationChain": [
+      "cornor"
+    ],
     "morphVariantOf": "cornel",
     "memorySemantics": {
       "literal": "山茱萸异名",
-      "imageChain": ["植物", "山茱萸", "传统药材"],
+      "imageChain": [
+        "植物",
+        "山茱萸",
+        "传统药材"
+      ],
       "mnemonicExpr": "cornor → cornel/Cornus mas 的医学变体拼写"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["medical"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["cornel", "cornus"],
+      "sameRoot": [
+        "cornel",
+        "cornus"
+      ],
       "sameAffix": [],
-      "synonyms": ["cornel", "Cornus mas", "dogwood"],
+      "synonyms": [
+        "cornel",
+        "Cornus mas",
+        "dogwood"
+      ],
       "antonyms": [],
-      "domainCohort": ["herb", "dogwood"],
+      "domainCohort": [
+        "herb",
+        "dogwood"
+      ],
       "derivationPair": [],
-      "morphVariants": ["cornel"],
-      "sameImagery": ["cornel", "herb"]
+      "morphVariants": [
+        "cornel"
+      ],
+      "sameImagery": [
+        "cornel",
+        "herb"
+      ]
     }
   },
   {
     "word": "corns",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "鸡眼；玉米（复数）", "domain": "medical", "coverage": 0.8 }],
-    "morphemes": [
-      { "order": 1, "form": "corn", "role": "root", "canonical": "corn", "coreMeaning": { "cn": "谷；角；硬块", "en": "grain; corn; callus" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-s", "role": "suffix", "canonical": "-s", "coreMeaning": { "cn": "复数", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["corn", "corns"],
+    "coreMeaning": [
+      {
+        "cn": "鸡眼；玉米（复数）",
+        "domain": "medical",
+        "coverage": 0.8
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "corn",
+        "role": "root",
+        "canonical": "corn",
+        "coreMeaning": {
+          "cn": "谷；角；硬块",
+          "en": "grain; corn; callus"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-s",
+        "role": "suffix",
+        "canonical": "-s",
+        "coreMeaning": {
+          "cn": "复数",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "corn",
+      "corns"
+    ],
     "morphVariantOf": "corn",
     "memorySemantics": {
       "literal": "鸡眼/玉米（复数）",
-      "imageChain": ["脚趾硬块", "鸡眼", "足部老茧"],
+      "imageChain": [
+        "脚趾硬块",
+        "鸡眼",
+        "足部老茧"
+      ],
       "mnemonicExpr": "corn(硬块)+-s(复数) → 脚上多个鸡眼"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["消极"], "intensity": 0.3 },
-      "domain": ["medical"],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "medical"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["corn", "cornel", "cornor", "cornucopia"],
-      "sameAffix": [{ "affix": "-s", "members": ["cores", "corners", "corps"] }],
-      "synonyms": ["calluses", "warts"],
+      "sameRoot": [
+        "corn",
+        "cornel",
+        "cornor",
+        "cornucopia"
+      ],
+      "sameAffix": [
+        "cores",
+        "corners",
+        "corps"
+      ],
+      "synonyms": [
+        "calluses",
+        "warts"
+      ],
       "antonyms": [],
-      "domainCohort": ["callus", "blister", "wart"],
-      "derivationPair": ["corn"],
-      "morphVariants": ["corn"],
-      "sameImagery": ["callus", "blister"]
+      "domainCohort": [
+        "callus",
+        "blister",
+        "wart"
+      ],
+      "derivationPair": [
+        "corn"
+      ],
+      "morphVariants": [
+        "corn"
+      ],
+      "sameImagery": [
+        "callus",
+        "blister"
+      ]
     }
   },
   {
     "word": "cornucopia",
     "phonetic": "/'kɔrnjʊ'kopɪə/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "丰饶之角；丰富", "domain": "literary", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "cornu", "role": "root", "canonical": "corn", "coreMeaning": { "cn": "角（拉丁 cornu）", "en": "horn" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial", "note": "拉丁 cornu（角），cornucopia = 丰饶之角" },
-      { "order": 2, "form": "cop", "role": "root", "canonical": "copi", "coreMeaning": { "cn": "丰富；充足", "en": "plenty" }, "sentiment": { "tags": ["积极"], "intensity": 0.5 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ia", "role": "suffix", "canonical": "-ia", "coreMeaning": { "cn": "名词后缀（状态/物体）", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["cornu", "copia", "cornucopia"],
+    "coreMeaning": [
+      {
+        "cn": "丰饶之角；丰富",
+        "domain": "literary",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "cornu",
+        "role": "root",
+        "canonical": "corn",
+        "coreMeaning": {
+          "cn": "角（拉丁 cornu）",
+          "en": "horn"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial",
+        "note": "拉丁 cornu（角），cornucopia = 丰饶之角"
+      },
+      {
+        "order": 2,
+        "form": "cop",
+        "role": "root",
+        "canonical": "copi",
+        "coreMeaning": {
+          "cn": "丰富；充足",
+          "en": "plenty"
+        },
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 0.5
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ia",
+        "role": "suffix",
+        "canonical": "-ia",
+        "coreMeaning": {
+          "cn": "名词后缀（状态/物体）",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "cornu",
+      "copia",
+      "cornucopia"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "丰饶的角",
-      "imageChain": ["羊角", "满载花果", "丰饶之角"],
+      "imageChain": [
+        "羊角",
+        "满载花果",
+        "丰饶之角"
+      ],
       "mnemonicExpr": "cornu(角)+cop(丰富)+ia → 满载果实的羊角 → 丰饶之角/丰富"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["积极", "褒义"], "intensity": 0.7 },
-      "domain": ["literary", "academic"],
+      "sentiment": {
+        "tags": [
+          "积极",
+          "褒义"
+        ],
+        "intensity": 0.7
+      },
+      "domain": [
+        "literary",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["copious", "copy", "unicorn"],
-      "sameAffix": [{ "affix": "-ia", "members": ["corona", "cornucopia"] }],
-      "synonyms": ["abundance", "plenty", "profusion"],
-      "antonyms": ["scarcity", "dearth"],
-      "domainCohort": ["abundance", "plenty", "harvest"],
+      "sameRoot": [
+        "copious",
+        "copy",
+        "unicorn"
+      ],
+      "sameAffix": [
+        "corona",
+        "cornucopia"
+      ],
+      "synonyms": [
+        "abundance",
+        "plenty",
+        "profusion"
+      ],
+      "antonyms": [
+        "scarcity",
+        "dearth"
+      ],
+      "domainCohort": [
+        "abundance",
+        "plenty",
+        "harvest"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["abundance", "harvest"]
+      "sameImagery": [
+        "abundance",
+        "harvest"
+      ]
     }
   },
   {
     "word": "corny",
     "phonetic": "/'kɔrni/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "陈腐的；乡下味的；过时的", "domain": "general", "coverage": 0.85 }],
-    "morphemes": [
-      { "order": 1, "form": "corn", "role": "root", "canonical": "corn", "coreMeaning": { "cn": "谷类；玉米（农村象征）", "en": "corn; grain" }, "sentiment": { "tags": ["贬义"], "intensity": 0.4 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-y", "role": "suffix", "canonical": "-y", "coreMeaning": { "cn": "形容词后缀：像…的", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["corn", "corny"],
+    "coreMeaning": [
+      {
+        "cn": "陈腐的；乡下味的；过时的",
+        "domain": "general",
+        "coverage": 0.85
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "corn",
+        "role": "root",
+        "canonical": "corn",
+        "coreMeaning": {
+          "cn": "谷类；玉米（农村象征）",
+          "en": "corn; grain"
+        },
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 0.4
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-y",
+        "role": "suffix",
+        "canonical": "-y",
+        "coreMeaning": {
+          "cn": "形容词后缀：像…的",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "corn",
+      "corny"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "像玉米田一样的",
-      "imageChain": ["玉米农村", "粗俗土气", "陈腐过时"],
+      "imageChain": [
+        "玉米农村",
+        "粗俗土气",
+        "陈腐过时"
+      ],
       "mnemonicExpr": "corn(玉米/农村)+-y → 像农村玉米地一样土气 → 陈腐的、过时的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义", "消极"], "intensity": 0.5 },
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "贬义",
+          "消极"
+        ],
+        "intensity": 0.5
+      },
+      "domain": [
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["corn", "cornucopia", "cornor"],
-      "sameAffix": [{ "affix": "-y", "members": ["coquetry"] }],
-      "synonyms": ["trite", "hackneyed", "banal"],
-      "antonyms": ["sophisticated", "witty"],
-      "domainCohort": ["trite", "cheesy", "clichéd"],
-      "derivationPair": ["corn"],
+      "sameRoot": [
+        "corn",
+        "cornucopia",
+        "cornor"
+      ],
+      "sameAffix": [
+        "coquetry"
+      ],
+      "synonyms": [
+        "trite",
+        "hackneyed",
+        "banal"
+      ],
+      "antonyms": [
+        "sophisticated",
+        "witty"
+      ],
+      "domainCohort": [
+        "trite",
+        "cheesy",
+        "clichéd"
+      ],
+      "derivationPair": [
+        "corn"
+      ],
       "morphVariants": [],
-      "sameImagery": ["trite", "banal"]
+      "sameImagery": [
+        "trite",
+        "banal"
+      ]
     }
   },
   {
     "word": "corollary",
     "phonetic": "/'kɔrəlɛri/",
-    "pos": ["n.", "adj."],
-    "coreMeaning": [{ "cn": "必然的结果；推断；推论", "domain": "academic", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "coroll", "role": "root", "canonical": "coroll", "coreMeaning": { "cn": "花环；附带的礼物", "en": "garland; corollary" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial", "note": "拉丁 corollarium，随赠的花环，引申为附带推论" },
-      { "order": 2, "form": "-ary", "role": "suffix", "canonical": "-ary", "coreMeaning": { "cn": "与…相关的；名词/形容词后缀", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n.",
+      "adj."
     ],
-    "derivationChain": ["corolla", "corollary"],
+    "coreMeaning": [
+      {
+        "cn": "必然的结果；推断；推论",
+        "domain": "academic",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "coroll",
+        "role": "root",
+        "canonical": "coroll",
+        "coreMeaning": {
+          "cn": "花环；附带的礼物",
+          "en": "garland; corollary"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial",
+        "note": "拉丁 corollarium，随赠的花环，引申为附带推论"
+      },
+      {
+        "order": 2,
+        "form": "-ary",
+        "role": "suffix",
+        "canonical": "-ary",
+        "coreMeaning": {
+          "cn": "与…相关的；名词/形容词后缀",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "corolla",
+      "corollary"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "附带的结论",
-      "imageChain": ["附带花环", "附带结论", "推论"],
+      "imageChain": [
+        "附带花环",
+        "附带结论",
+        "推论"
+      ],
       "mnemonicExpr": "coroll(花环/附带)+-ary(名词) → 随主题附带的结论 → 推论"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "学术"], "intensity": 0 },
-      "domain": ["academic", "science"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "学术"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "academic",
+        "science"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["corolla"],
-      "sameAffix": [{ "affix": "-ary", "members": ["coronation", "corporal"] }],
-      "synonyms": ["consequence", "deduction", "inference"],
-      "antonyms": ["premise", "axiom"],
-      "domainCohort": ["theorem", "inference", "deduction"],
+      "sameRoot": [
+        "corolla"
+      ],
+      "sameAffix": [
+        "coronation",
+        "corporal"
+      ],
+      "synonyms": [
+        "consequence",
+        "deduction",
+        "inference"
+      ],
+      "antonyms": [
+        "premise",
+        "axiom"
+      ],
+      "domainCohort": [
+        "theorem",
+        "inference",
+        "deduction"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["inference", "consequence"]
+      "sameImagery": [
+        "inference",
+        "consequence"
+      ]
     }
   },
   {
     "word": "coromegine",
     "phonetic": "/kɔrә'medʒiːn/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "阿托品（atropine的异名）", "domain": "medical", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "coromegine", "role": "root", "canonical": "coromegine", "coreMeaning": { "cn": "阿托品（商品/化学别名）", "en": "atropine synonym" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "standalone", "note": "医学专有名词，视作伪语素" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["coromegine"],
+    "coreMeaning": [
+      {
+        "cn": "阿托品（atropine的异名）",
+        "domain": "medical",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "coromegine",
+        "role": "root",
+        "canonical": "coromegine",
+        "coreMeaning": {
+          "cn": "阿托品（商品/化学别名）",
+          "en": "atropine synonym"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "standalone",
+        "note": "医学专有名词，视作伪语素"
+      }
+    ],
+    "derivationChain": [
+      "coromegine"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "阿托品异名",
-      "imageChain": ["药物", "阿托品", "抗胆碱药"],
+      "imageChain": [
+        "药物",
+        "阿托品",
+        "抗胆碱药"
+      ],
       "mnemonicExpr": "coromegine → 阿托品的医学化学别名"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["medical"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
       "sameRoot": [],
       "sameAffix": [],
-      "synonyms": ["atropine"],
+      "synonyms": [
+        "atropine"
+      ],
       "antonyms": [],
-      "domainCohort": ["atropine", "anticholinergic"],
+      "domainCohort": [
+        "atropine",
+        "anticholinergic"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["atropine"]
+      "sameImagery": [
+        "atropine"
+      ]
     }
   },
   {
     "word": "corona",
     "phonetic": "/kə'ronə/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "冠状物；王冠；光环", "domain": "science", "coverage": 0.85 }],
-    "morphemes": [
-      { "order": 1, "form": "coron", "role": "root", "canonical": "coron", "coreMeaning": { "cn": "冠", "en": "crown" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-a", "role": "suffix", "canonical": "-a", "coreMeaning": { "cn": "拉丁名词后缀（阴性）", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["coron", "corona"],
+    "coreMeaning": [
+      {
+        "cn": "冠状物；王冠；光环",
+        "domain": "science",
+        "coverage": 0.85
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "coron",
+        "role": "root",
+        "canonical": "coron",
+        "coreMeaning": {
+          "cn": "冠",
+          "en": "crown"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-a",
+        "role": "suffix",
+        "canonical": "-a",
+        "coreMeaning": {
+          "cn": "拉丁名词后缀（阴性）",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "coron",
+      "corona"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "冠状物",
-      "imageChain": ["王冠", "日冕", "冠状光环"],
+      "imageChain": [
+        "王冠",
+        "日冕",
+        "冠状光环"
+      ],
       "mnemonicExpr": "coron(冠)+-a(拉丁名词) → 冠状物 → 王冠、日冕"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["science", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "science",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["coronation", "coronaviruses", "coron"],
+      "sameRoot": [
+        "coronation",
+        "coronaviruses",
+        "coron"
+      ],
       "sameAffix": [],
-      "synonyms": ["crown", "halo", "aureole"],
+      "synonyms": [
+        "crown",
+        "halo",
+        "aureole"
+      ],
       "antonyms": [],
-      "domainCohort": ["crown", "halo", "solar corona"],
-      "derivationPair": ["coronation"],
+      "domainCohort": [
+        "crown",
+        "halo",
+        "solar corona"
+      ],
+      "derivationPair": [
+        "coronation"
+      ],
       "morphVariants": [],
-      "sameImagery": ["crown", "halo"]
+      "sameImagery": [
+        "crown",
+        "halo"
+      ]
     }
   },
   {
     "word": "coronation",
     "phonetic": "/'kɔrə'neʃən/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "加冕礼", "domain": "academic", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "coron", "role": "root", "canonical": "coron", "coreMeaning": { "cn": "冠", "en": "crown" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-at", "role": "suffix", "canonical": "-ate", "coreMeaning": { "cn": "动词化后缀", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ion", "role": "suffix", "canonical": "-tion", "coreMeaning": { "cn": "名词化后缀", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["coron", "coronate", "coronation"],
+    "coreMeaning": [
+      {
+        "cn": "加冕礼",
+        "domain": "academic",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "coron",
+        "role": "root",
+        "canonical": "coron",
+        "coreMeaning": {
+          "cn": "冠",
+          "en": "crown"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-at",
+        "role": "suffix",
+        "canonical": "-ate",
+        "coreMeaning": {
+          "cn": "动词化后缀",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ion",
+        "role": "suffix",
+        "canonical": "-tion",
+        "coreMeaning": {
+          "cn": "名词化后缀",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "coron",
+      "coronate",
+      "coronation"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "加冠的仪式",
-      "imageChain": ["戴上王冠", "正式典礼", "加冕礼"],
+      "imageChain": [
+        "戴上王冠",
+        "正式典礼",
+        "加冕礼"
+      ],
       "mnemonicExpr": "coron(冠)+at+ion → 戴冠的正式仪式 → 加冕礼"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["正式", "积极"], "intensity": 0.4 },
-      "domain": ["academic", "literary"],
+      "sentiment": {
+        "tags": [
+          "正式",
+          "积极"
+        ],
+        "intensity": 0.4
+      },
+      "domain": [
+        "academic",
+        "literary"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["corona", "coronaviruses"],
-      "sameAffix": [{ "affix": "-ion", "members": ["corporation", "cordiality"] }],
-      "synonyms": ["investiture", "enthronement"],
-      "antonyms": ["abdication", "dethronement"],
-      "domainCohort": ["enthronement", "ceremony", "monarchy"],
-      "derivationPair": ["coronate"],
+      "sameRoot": [
+        "corona",
+        "coronaviruses"
+      ],
+      "sameAffix": [
+        "corporation",
+        "cordiality"
+      ],
+      "synonyms": [
+        "investiture",
+        "enthronement"
+      ],
+      "antonyms": [
+        "abdication",
+        "dethronement"
+      ],
+      "domainCohort": [
+        "enthronement",
+        "ceremony",
+        "monarchy"
+      ],
+      "derivationPair": [
+        "coronate"
+      ],
       "morphVariants": [],
-      "sameImagery": ["crown", "enthronement"]
+      "sameImagery": [
+        "crown",
+        "enthronement"
+      ]
     }
   },
   {
     "word": "coronaviruses",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "冠状病毒（复数）", "domain": "medical", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "coron", "role": "root", "canonical": "coron", "coreMeaning": { "cn": "冠", "en": "crown" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "a", "role": "linker", "canonical": "-a-", "coreMeaning": { "cn": "连接元音", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "virus", "role": "root", "canonical": "virus", "coreMeaning": { "cn": "病毒", "en": "virus" }, "sentiment": { "tags": ["贬义"], "intensity": 0.6 }, "positionTendency": "medial" },
-      { "order": 4, "form": "-es", "role": "suffix", "canonical": "-s", "coreMeaning": { "cn": "复数", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["coron", "coronavirus", "coronaviruses"],
+    "coreMeaning": [
+      {
+        "cn": "冠状病毒（复数）",
+        "domain": "medical",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "coron",
+        "role": "root",
+        "canonical": "coron",
+        "coreMeaning": {
+          "cn": "冠",
+          "en": "crown"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "a",
+        "role": "linker",
+        "canonical": "-a-",
+        "coreMeaning": {
+          "cn": "连接元音",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "virus",
+        "role": "root",
+        "canonical": "virus",
+        "coreMeaning": {
+          "cn": "病毒",
+          "en": "virus"
+        },
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 0.6
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 4,
+        "form": "-es",
+        "role": "suffix",
+        "canonical": "-s",
+        "coreMeaning": {
+          "cn": "复数",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "coron",
+      "coronavirus",
+      "coronaviruses"
+    ],
     "morphVariantOf": "coronavirus",
     "memorySemantics": {
       "literal": "冠状病毒（复数）",
-      "imageChain": ["冠状突起", "病毒", "冠状病毒"],
+      "imageChain": [
+        "冠状突起",
+        "病毒",
+        "冠状病毒"
+      ],
       "mnemonicExpr": "coron(冠)+a+virus(病毒)+es → 表面有冠状突起的病毒 → 冠状病毒"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["消极", "贬义"], "intensity": 0.7 },
-      "domain": ["medical", "science"],
+      "sentiment": {
+        "tags": [
+          "消极",
+          "贬义"
+        ],
+        "intensity": 0.7
+      },
+      "domain": [
+        "medical",
+        "science"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["corona", "coronation"],
-      "sameAffix": [{ "affix": "virus", "members": ["adenovirus", "retrovirus"] }],
-      "synonyms": ["CoV"],
+      "sameRoot": [
+        "corona",
+        "coronation"
+      ],
+      "sameAffix": [
+        "adenovirus",
+        "retrovirus"
+      ],
+      "synonyms": [
+        "CoV"
+      ],
       "antonyms": [],
-      "domainCohort": ["pandemic", "pathogen", "virus"],
-      "derivationPair": ["coronavirus"],
-      "morphVariants": ["coronavirus"],
-      "sameImagery": ["virus", "pathogen"]
+      "domainCohort": [
+        "pandemic",
+        "pathogen",
+        "virus"
+      ],
+      "derivationPair": [
+        "coronavirus"
+      ],
+      "morphVariants": [
+        "coronavirus"
+      ],
+      "sameImagery": [
+        "virus",
+        "pathogen"
+      ]
     }
   },
   {
     "word": "corp.",
     "phonetic": "",
-    "pos": ["abbr."],
-    "coreMeaning": [{ "cn": "公司；集团（corporation 缩写）", "domain": "business", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "corp.", "role": "root", "canonical": "corp.", "coreMeaning": { "cn": "corporation 缩写", "en": "corporation abbreviation" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "standalone", "note": "缩写词，视作伪语素" }
+    "pos": [
+      "abbr."
     ],
-    "derivationChain": ["corporation", "corp."],
+    "coreMeaning": [
+      {
+        "cn": "公司；集团（corporation 缩写）",
+        "domain": "business",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "corp.",
+        "role": "root",
+        "canonical": "corp.",
+        "coreMeaning": {
+          "cn": "corporation 缩写",
+          "en": "corporation abbreviation"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "standalone",
+        "note": "缩写词，视作伪语素"
+      }
+    ],
+    "derivationChain": [
+      "corporation",
+      "corp."
+    ],
     "morphVariantOf": "corporation",
     "memorySemantics": {
       "literal": "公司缩写",
-      "imageChain": ["corporation", "缩写", "公司"],
+      "imageChain": [
+        "corporation",
+        "缩写",
+        "公司"
+      ],
       "mnemonicExpr": "corp. → corporation 的商业缩写"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["business", "legal"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "business",
+        "legal"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["corporation", "corporate", "corp"],
+      "sameRoot": [
+        "corporation",
+        "corporate",
+        "corp"
+      ],
       "sameAffix": [],
-      "synonyms": ["Inc.", "Ltd.", "corporation"],
+      "synonyms": [
+        "Inc.",
+        "Ltd.",
+        "corporation"
+      ],
       "antonyms": [],
-      "domainCohort": ["Inc.", "Ltd.", "LLC"],
-      "derivationPair": ["corporation"],
-      "morphVariants": ["corporation"],
-      "sameImagery": ["corporation", "company"]
+      "domainCohort": [
+        "Inc.",
+        "Ltd.",
+        "LLC"
+      ],
+      "derivationPair": [
+        "corporation"
+      ],
+      "morphVariants": [
+        "corporation"
+      ],
+      "sameImagery": [
+        "corporation",
+        "company"
+      ]
     }
   },
   {
     "word": "corporal",
     "phonetic": "/'kɔrpərəl/",
-    "pos": ["adj.", "n."],
-    "coreMeaning": [{ "cn": "肉体的；身体的", "domain": "general", "coverage": 0.85 }],
-    "morphemes": [
-      { "order": 1, "form": "corp", "role": "root", "canonical": "corp", "coreMeaning": { "cn": "身体", "en": "body" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-or", "role": "linker", "canonical": "-or-", "coreMeaning": { "cn": "连接形式", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-al", "role": "suffix", "canonical": "-al", "coreMeaning": { "cn": "形容词后缀：与…相关的", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj.",
+      "n."
     ],
-    "derivationChain": ["corp", "corporal"],
+    "coreMeaning": [
+      {
+        "cn": "肉体的；身体的",
+        "domain": "general",
+        "coverage": 0.85
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "corp",
+        "role": "root",
+        "canonical": "corp",
+        "coreMeaning": {
+          "cn": "身体",
+          "en": "body"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-or",
+        "role": "linker",
+        "canonical": "-or-",
+        "coreMeaning": {
+          "cn": "连接形式",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-al",
+        "role": "suffix",
+        "canonical": "-al",
+        "coreMeaning": {
+          "cn": "形容词后缀：与…相关的",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "corp",
+      "corporal"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "身体的",
-      "imageChain": ["身体", "肉体相关", "身体的"],
+      "imageChain": [
+        "身体",
+        "肉体相关",
+        "身体的"
+      ],
       "mnemonicExpr": "corp(身体)+or+al → 与身体相关的 → 肉体的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["academic", "legal"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "academic",
+        "legal"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["corporate", "corporation", "corpse", "corps"],
-      "sameAffix": [{ "affix": "-al", "members": ["cordial", "coral"] }],
-      "synonyms": ["bodily", "physical", "somatic"],
-      "antonyms": ["spiritual", "mental"],
-      "domainCohort": ["bodily", "physical", "somatic"],
-      "derivationPair": ["corporally"],
+      "sameRoot": [
+        "corporate",
+        "corporation",
+        "corpse",
+        "corps"
+      ],
+      "sameAffix": [
+        "cordial",
+        "coral"
+      ],
+      "synonyms": [
+        "bodily",
+        "physical",
+        "somatic"
+      ],
+      "antonyms": [
+        "spiritual",
+        "mental"
+      ],
+      "domainCohort": [
+        "bodily",
+        "physical",
+        "somatic"
+      ],
+      "derivationPair": [
+        "corporally"
+      ],
       "morphVariants": [],
-      "sameImagery": ["bodily", "physical"]
+      "sameImagery": [
+        "bodily",
+        "physical"
+      ]
     }
   },
   {
     "word": "corporate",
     "phonetic": "/ˈkɔːrpərət/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "团体的；法人的；公司的", "domain": "business", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "corp", "role": "root", "canonical": "corp", "coreMeaning": { "cn": "身体", "en": "body" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-or", "role": "linker", "canonical": "-or-", "coreMeaning": { "cn": "连接形式", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ate", "role": "suffix", "canonical": "-ate", "coreMeaning": { "cn": "形容词/动词后缀", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["corp", "corporate"],
+    "coreMeaning": [
+      {
+        "cn": "团体的；法人的；公司的",
+        "domain": "business",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "corp",
+        "role": "root",
+        "canonical": "corp",
+        "coreMeaning": {
+          "cn": "身体",
+          "en": "body"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-or",
+        "role": "linker",
+        "canonical": "-or-",
+        "coreMeaning": {
+          "cn": "连接形式",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ate",
+        "role": "suffix",
+        "canonical": "-ate",
+        "coreMeaning": {
+          "cn": "形容词/动词后缀",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "corp",
+      "corporate"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "团体组织的",
-      "imageChain": ["集体身体", "法人团体", "公司的"],
+      "imageChain": [
+        "集体身体",
+        "法人团体",
+        "公司的"
+      ],
       "mnemonicExpr": "corp(身体)+or+ate → 形成集体法人体 → 公司的、法人的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "正式"], "intensity": 0 },
-      "domain": ["business", "legal"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "正式"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "business",
+        "legal"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["corporation", "corporal", "corps", "corpse"],
-      "sameAffix": [{ "affix": "-ate", "members": ["coronate", "corporate"] }],
-      "synonyms": ["organizational", "institutional"],
-      "antonyms": ["individual", "personal"],
-      "domainCohort": ["organizational", "institutional", "firm"],
-      "derivationPair": ["corporation"],
+      "sameRoot": [
+        "corporation",
+        "corporal",
+        "corps",
+        "corpse"
+      ],
+      "sameAffix": [
+        "coronate",
+        "corporate"
+      ],
+      "synonyms": [
+        "organizational",
+        "institutional"
+      ],
+      "antonyms": [
+        "individual",
+        "personal"
+      ],
+      "domainCohort": [
+        "organizational",
+        "institutional",
+        "firm"
+      ],
+      "derivationPair": [
+        "corporation"
+      ],
       "morphVariants": [],
-      "sameImagery": ["institutional", "organizational"]
+      "sameImagery": [
+        "institutional",
+        "organizational"
+      ]
     }
   },
   {
     "word": "corporation",
     "phonetic": "/,kɔrpə'reʃən/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "法人；公司；企业", "domain": "business", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "corp", "role": "root", "canonical": "corp", "coreMeaning": { "cn": "身体", "en": "body" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-or", "role": "linker", "canonical": "-or-", "coreMeaning": { "cn": "连接形式", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ation", "role": "suffix", "canonical": "-tion", "coreMeaning": { "cn": "名词化后缀：行为/状态/结果", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["corp", "corporate", "corporation"],
+    "coreMeaning": [
+      {
+        "cn": "法人；公司；企业",
+        "domain": "business",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "corp",
+        "role": "root",
+        "canonical": "corp",
+        "coreMeaning": {
+          "cn": "身体",
+          "en": "body"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-or",
+        "role": "linker",
+        "canonical": "-or-",
+        "coreMeaning": {
+          "cn": "连接形式",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ation",
+        "role": "suffix",
+        "canonical": "-tion",
+        "coreMeaning": {
+          "cn": "名词化后缀：行为/状态/结果",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "corp",
+      "corporate",
+      "corporation"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "法人团体",
-      "imageChain": ["集合体", "法律认可的实体", "公司"],
+      "imageChain": [
+        "集合体",
+        "法律认可的实体",
+        "公司"
+      ],
       "mnemonicExpr": "corp(身体)+or+ation → 被赋予法人资格的集合体 → 公司"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "正式"], "intensity": 0 },
-      "domain": ["business", "legal"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "正式"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "business",
+        "legal"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["corporate", "corporal", "corps"],
-      "sameAffix": [{ "affix": "-ation", "members": ["coronation", "corrected"] }],
-      "synonyms": ["company", "firm", "enterprise"],
-      "antonyms": ["individual", "sole proprietorship"],
-      "domainCohort": ["company", "enterprise", "firm"],
-      "derivationPair": ["corporate"],
-      "morphVariants": ["corp."],
-      "sameImagery": ["company", "enterprise"]
+      "sameRoot": [
+        "corporate",
+        "corporal",
+        "corps"
+      ],
+      "sameAffix": [
+        "coronation",
+        "corrected"
+      ],
+      "synonyms": [
+        "company",
+        "firm",
+        "enterprise"
+      ],
+      "antonyms": [
+        "individual",
+        "sole proprietorship"
+      ],
+      "domainCohort": [
+        "company",
+        "enterprise",
+        "firm"
+      ],
+      "derivationPair": [
+        "corporate"
+      ],
+      "morphVariants": [
+        "corp."
+      ],
+      "sameImagery": [
+        "company",
+        "enterprise"
+      ]
     }
   },
   {
     "word": "corporeal",
     "phonetic": "/kɔr'pɔrɪəl/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "肉体的；物质的；实体的", "domain": "academic", "coverage": 0.85 }],
-    "morphemes": [
-      { "order": 1, "form": "corp", "role": "root", "canonical": "corp", "coreMeaning": { "cn": "身体", "en": "body" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-or", "role": "linker", "canonical": "-or-", "coreMeaning": { "cn": "连接形式", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-eal", "role": "suffix", "canonical": "-al", "coreMeaning": { "cn": "形容词后缀：具有…特征", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["corp", "corporeal"],
+    "coreMeaning": [
+      {
+        "cn": "肉体的；物质的；实体的",
+        "domain": "academic",
+        "coverage": 0.85
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "corp",
+        "role": "root",
+        "canonical": "corp",
+        "coreMeaning": {
+          "cn": "身体",
+          "en": "body"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-or",
+        "role": "linker",
+        "canonical": "-or-",
+        "coreMeaning": {
+          "cn": "连接形式",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-eal",
+        "role": "suffix",
+        "canonical": "-al",
+        "coreMeaning": {
+          "cn": "形容词后缀：具有…特征",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "corp",
+      "corporeal"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "有身体的",
-      "imageChain": ["实体", "物质性", "肉体的"],
+      "imageChain": [
+        "实体",
+        "物质性",
+        "肉体的"
+      ],
       "mnemonicExpr": "corp(身体)+or+eal → 具有身体/实体的 → 肉体的、物质的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["academic", "literary"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "academic",
+        "literary"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["corporal", "corporate", "corpus"],
-      "sameAffix": [{ "affix": "-eal", "members": ["corporal", "corporeal"] }],
-      "synonyms": ["physical", "bodily", "tangible"],
-      "antonyms": ["incorporeal", "spiritual", "intangible"],
-      "domainCohort": ["tangible", "physical", "material"],
-      "derivationPair": ["incorporeal"],
+      "sameRoot": [
+        "corporal",
+        "corporate",
+        "corpus"
+      ],
+      "sameAffix": [
+        "corporal",
+        "corporeal"
+      ],
+      "synonyms": [
+        "physical",
+        "bodily",
+        "tangible"
+      ],
+      "antonyms": [
+        "incorporeal",
+        "spiritual",
+        "intangible"
+      ],
+      "domainCohort": [
+        "tangible",
+        "physical",
+        "material"
+      ],
+      "derivationPair": [
+        "incorporeal"
+      ],
       "morphVariants": [],
-      "sameImagery": ["physical", "tangible"]
+      "sameImagery": [
+        "physical",
+        "tangible"
+      ]
     }
   },
   {
     "word": "corps",
     "phonetic": "/kɔrz/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "部队；军团", "domain": "academic", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "corp", "role": "root", "canonical": "corp", "coreMeaning": { "cn": "身体", "en": "body" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-s", "role": "suffix", "canonical": "-s", "coreMeaning": { "cn": "复数（法语词尾）", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final", "note": "法语借词，-s 不发音" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["corp", "corps"],
+    "coreMeaning": [
+      {
+        "cn": "部队；军团",
+        "domain": "academic",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "corp",
+        "role": "root",
+        "canonical": "corp",
+        "coreMeaning": {
+          "cn": "身体",
+          "en": "body"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-s",
+        "role": "suffix",
+        "canonical": "-s",
+        "coreMeaning": {
+          "cn": "复数（法语词尾）",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final",
+        "note": "法语借词，-s 不发音"
+      }
+    ],
+    "derivationChain": [
+      "corp",
+      "corps"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "团体",
-      "imageChain": ["一群人", "军事团体", "军团"],
+      "imageChain": [
+        "一群人",
+        "军事团体",
+        "军团"
+      ],
       "mnemonicExpr": "corp(身体)+s → 多人组成的集合体 → 军团、部队"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["academic", "general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "academic",
+        "general"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["corpse", "corporal", "corporate", "corpus"],
+      "sameRoot": [
+        "corpse",
+        "corporal",
+        "corporate",
+        "corpus"
+      ],
       "sameAffix": [],
-      "synonyms": ["unit", "brigade", "troop"],
+      "synonyms": [
+        "unit",
+        "brigade",
+        "troop"
+      ],
       "antonyms": [],
-      "domainCohort": ["battalion", "brigade", "regiment"],
+      "domainCohort": [
+        "battalion",
+        "brigade",
+        "regiment"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["troop", "brigade"]
+      "sameImagery": [
+        "troop",
+        "brigade"
+      ]
     }
   },
   {
     "word": "corpse",
     "phonetic": "/kɔrps/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "尸体", "domain": "academic", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "corp", "role": "root", "canonical": "corp", "coreMeaning": { "cn": "身体", "en": "body" }, "sentiment": { "tags": ["消极"], "intensity": 0.6 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-se", "role": "suffix", "canonical": "-se", "coreMeaning": { "cn": "名词化结尾（拉丁借词末尾）", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final", "note": "拉丁 corpus 演变" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["corp", "corpus", "corpse"],
+    "coreMeaning": [
+      {
+        "cn": "尸体",
+        "domain": "academic",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "corp",
+        "role": "root",
+        "canonical": "corp",
+        "coreMeaning": {
+          "cn": "身体",
+          "en": "body"
+        },
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 0.6
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-se",
+        "role": "suffix",
+        "canonical": "-se",
+        "coreMeaning": {
+          "cn": "名词化结尾（拉丁借词末尾）",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final",
+        "note": "拉丁 corpus 演变"
+      }
+    ],
+    "derivationChain": [
+      "corp",
+      "corpus",
+      "corpse"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "死亡的身体",
-      "imageChain": ["身体", "死亡", "尸体"],
+      "imageChain": [
+        "身体",
+        "死亡",
+        "尸体"
+      ],
       "mnemonicExpr": "corp(身体)+se → 失去生命的身体 → 尸体"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["消极", "贬义"], "intensity": 0.7 },
-      "domain": ["academic", "literary"],
+      "sentiment": {
+        "tags": [
+          "消极",
+          "贬义"
+        ],
+        "intensity": 0.7
+      },
+      "domain": [
+        "academic",
+        "literary"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["corpus", "corps", "corporal"],
+      "sameRoot": [
+        "corpus",
+        "corps",
+        "corporal"
+      ],
       "sameAffix": [],
-      "synonyms": ["cadaver", "remains", "body"],
-      "antonyms": ["living person"],
-      "domainCohort": ["cadaver", "remains", "deceased"],
+      "synonyms": [
+        "cadaver",
+        "remains",
+        "body"
+      ],
+      "antonyms": [
+        "living person"
+      ],
+      "domainCohort": [
+        "cadaver",
+        "remains",
+        "deceased"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["cadaver", "remains"]
+      "sameImagery": [
+        "cadaver",
+        "remains"
+      ]
     }
   },
   {
     "word": "corpulence",
     "phonetic": "/'kɔrpjələns/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "肥胖", "domain": "medical", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "corp", "role": "root", "canonical": "corp", "coreMeaning": { "cn": "身体", "en": "body" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-ul", "role": "linker", "canonical": "-ul-", "coreMeaning": { "cn": "拉丁小词缀（弱化连接）", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ence", "role": "suffix", "canonical": "-ance", "coreMeaning": { "cn": "名词后缀：状态/性质", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["corp", "corpulent", "corpulence"],
+    "coreMeaning": [
+      {
+        "cn": "肥胖",
+        "domain": "medical",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "corp",
+        "role": "root",
+        "canonical": "corp",
+        "coreMeaning": {
+          "cn": "身体",
+          "en": "body"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-ul",
+        "role": "linker",
+        "canonical": "-ul-",
+        "coreMeaning": {
+          "cn": "拉丁小词缀（弱化连接）",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ence",
+        "role": "suffix",
+        "canonical": "-ance",
+        "coreMeaning": {
+          "cn": "名词后缀：状态/性质",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "corp",
+      "corpulent",
+      "corpulence"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "身体过分丰满",
-      "imageChain": ["身体膨大", "过度肥胖", "肥胖"],
+      "imageChain": [
+        "身体膨大",
+        "过度肥胖",
+        "肥胖"
+      ],
       "mnemonicExpr": "corp(身体)+ul+ence → 身体过度膨大的状态 → 肥胖"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["消极", "贬义"], "intensity": 0.5 },
-      "domain": ["medical"],
+      "sentiment": {
+        "tags": [
+          "消极",
+          "贬义"
+        ],
+        "intensity": 0.5
+      },
+      "domain": [
+        "medical"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["corpulent", "corps", "corpus", "corporal"],
-      "sameAffix": [{ "affix": "-ence", "members": ["cordiality"] }],
-      "synonyms": ["obesity", "fatness", "rotundity"],
-      "antonyms": ["slimness", "thinness"],
-      "domainCohort": ["obesity", "adiposity"],
-      "derivationPair": ["corpulent"],
+      "sameRoot": [
+        "corpulent",
+        "corps",
+        "corpus",
+        "corporal"
+      ],
+      "sameAffix": [
+        "cordiality"
+      ],
+      "synonyms": [
+        "obesity",
+        "fatness",
+        "rotundity"
+      ],
+      "antonyms": [
+        "slimness",
+        "thinness"
+      ],
+      "domainCohort": [
+        "obesity",
+        "adiposity"
+      ],
+      "derivationPair": [
+        "corpulent"
+      ],
       "morphVariants": [],
-      "sameImagery": ["obesity", "adiposity"]
+      "sameImagery": [
+        "obesity",
+        "adiposity"
+      ]
     }
   },
   {
     "word": "corpulent",
     "phonetic": "/'kɔrpjələnt/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "肥胖的", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "corp", "role": "root", "canonical": "corp", "coreMeaning": { "cn": "身体", "en": "body" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-ul", "role": "linker", "canonical": "-ul-", "coreMeaning": { "cn": "连接形式", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ent", "role": "suffix", "canonical": "-ent", "coreMeaning": { "cn": "形容词后缀：具有…性质的", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["corp", "corpulent"],
+    "coreMeaning": [
+      {
+        "cn": "肥胖的",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "corp",
+        "role": "root",
+        "canonical": "corp",
+        "coreMeaning": {
+          "cn": "身体",
+          "en": "body"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-ul",
+        "role": "linker",
+        "canonical": "-ul-",
+        "coreMeaning": {
+          "cn": "连接形式",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ent",
+        "role": "suffix",
+        "canonical": "-ent",
+        "coreMeaning": {
+          "cn": "形容词后缀：具有…性质的",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "corp",
+      "corpulent"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "身体过胖的",
-      "imageChain": ["肥胖身体", "过度丰满", "肥胖的"],
+      "imageChain": [
+        "肥胖身体",
+        "过度丰满",
+        "肥胖的"
+      ],
       "mnemonicExpr": "corp(身体)+ul+ent → 身体过于丰满的 → 肥胖的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义", "消极"], "intensity": 0.5 },
-      "domain": ["general", "medical"],
+      "sentiment": {
+        "tags": [
+          "贬义",
+          "消极"
+        ],
+        "intensity": 0.5
+      },
+      "domain": [
+        "general",
+        "medical"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["corpulence", "corpus", "corps", "corporal"],
-      "sameAffix": [{ "affix": "-ent", "members": ["corrected", "corpulent"] }],
-      "synonyms": ["obese", "overweight", "rotund"],
-      "antonyms": ["slim", "lean", "svelte"],
-      "domainCohort": ["obese", "rotund", "stout"],
-      "derivationPair": ["corpulence"],
+      "sameRoot": [
+        "corpulence",
+        "corpus",
+        "corps",
+        "corporal"
+      ],
+      "sameAffix": [
+        "corrected",
+        "corpulent"
+      ],
+      "synonyms": [
+        "obese",
+        "overweight",
+        "rotund"
+      ],
+      "antonyms": [
+        "slim",
+        "lean",
+        "svelte"
+      ],
+      "domainCohort": [
+        "obese",
+        "rotund",
+        "stout"
+      ],
+      "derivationPair": [
+        "corpulence"
+      ],
       "morphVariants": [],
-      "sameImagery": ["obese", "rotund"]
+      "sameImagery": [
+        "obese",
+        "rotund"
+      ]
     }
   },
   {
     "word": "corpus",
     "phonetic": "/'kɔrpəs/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "文集；语料库；汇编", "domain": "academic", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "corp", "role": "root", "canonical": "corp", "coreMeaning": { "cn": "身体", "en": "body" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-us", "role": "suffix", "canonical": "-us", "coreMeaning": { "cn": "拉丁名词后缀（阳性）", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["corp", "corpus"],
+    "coreMeaning": [
+      {
+        "cn": "文集；语料库；汇编",
+        "domain": "academic",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "corp",
+        "role": "root",
+        "canonical": "corp",
+        "coreMeaning": {
+          "cn": "身体",
+          "en": "body"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-us",
+        "role": "suffix",
+        "canonical": "-us",
+        "coreMeaning": {
+          "cn": "拉丁名词后缀（阳性）",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "corp",
+      "corpus"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "文本的主体",
-      "imageChain": ["文本集合体", "语言材料主体", "语料库"],
+      "imageChain": [
+        "文本集合体",
+        "语言材料主体",
+        "语料库"
+      ],
       "mnemonicExpr": "corp(身体)+us → 文本的整体 → 语料库、文集"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "学术"], "intensity": 0 },
-      "domain": ["academic", "literary"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "学术"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "academic",
+        "literary"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["corpse", "corps", "corporal", "corporate"],
-      "sameAffix": [{ "affix": "-us", "members": ["corollary"] }],
-      "synonyms": ["collection", "body", "compendium"],
+      "sameRoot": [
+        "corpse",
+        "corps",
+        "corporal",
+        "corporate"
+      ],
+      "sameAffix": [
+        "corollary"
+      ],
+      "synonyms": [
+        "collection",
+        "body",
+        "compendium"
+      ],
       "antonyms": [],
-      "domainCohort": ["anthology", "compendium", "archive"],
-      "derivationPair": ["corpusculum"],
+      "domainCohort": [
+        "anthology",
+        "compendium",
+        "archive"
+      ],
+      "derivationPair": [
+        "corpusculum"
+      ],
       "morphVariants": [],
-      "sameImagery": ["collection", "archive"]
+      "sameImagery": [
+        "collection",
+        "archive"
+      ]
     }
   },
   {
     "word": "corpusculum",
     "phonetic": "/kɔː'pʌskjuləm/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "小体（医学）", "domain": "medical", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "corp", "role": "root", "canonical": "corp", "coreMeaning": { "cn": "身体", "en": "body" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-usc", "role": "linker", "canonical": "-ul-", "coreMeaning": { "cn": "拉丁小词缀：小型化", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial", "note": "corpuscul = 小体" },
-      { "order": 3, "form": "-um", "role": "suffix", "canonical": "-um", "coreMeaning": { "cn": "拉丁名词后缀（中性）", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["corp", "corpus", "corpusculum"],
+    "coreMeaning": [
+      {
+        "cn": "小体（医学）",
+        "domain": "medical",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "corp",
+        "role": "root",
+        "canonical": "corp",
+        "coreMeaning": {
+          "cn": "身体",
+          "en": "body"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-usc",
+        "role": "linker",
+        "canonical": "-ul-",
+        "coreMeaning": {
+          "cn": "拉丁小词缀：小型化",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial",
+        "note": "corpuscul = 小体"
+      },
+      {
+        "order": 3,
+        "form": "-um",
+        "role": "suffix",
+        "canonical": "-um",
+        "coreMeaning": {
+          "cn": "拉丁名词后缀（中性）",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "corp",
+      "corpus",
+      "corpusculum"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "微小的小体",
-      "imageChain": ["身体", "微小", "细胞小体"],
+      "imageChain": [
+        "身体",
+        "微小",
+        "细胞小体"
+      ],
       "mnemonicExpr": "corp(身体)+usc(小)+-um → 极小的身体组织 → 小体"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["medical"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["corpus", "corpse", "corpulent"],
-      "sameAffix": [{ "affix": "-um", "members": ["corpusculum"] }],
-      "synonyms": ["corpuscle", "granule", "body"],
+      "sameRoot": [
+        "corpus",
+        "corpse",
+        "corpulent"
+      ],
+      "sameAffix": [
+        "corpusculum"
+      ],
+      "synonyms": [
+        "corpuscle",
+        "granule",
+        "body"
+      ],
       "antonyms": [],
-      "domainCohort": ["cell", "granule", "particle"],
-      "derivationPair": ["corpus"],
-      "morphVariants": ["corpuscle"],
-      "sameImagery": ["corpuscle", "granule"]
+      "domainCohort": [
+        "cell",
+        "granule",
+        "particle"
+      ],
+      "derivationPair": [
+        "corpus"
+      ],
+      "morphVariants": [
+        "corpuscle"
+      ],
+      "sameImagery": [
+        "corpuscle",
+        "granule"
+      ]
     }
   },
   {
     "word": "corral",
     "phonetic": "/kə'ræl/",
-    "pos": ["n.", "v."],
-    "coreMeaning": [{ "cn": "畜栏；围圈", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "corral", "role": "root", "canonical": "corral", "coreMeaning": { "cn": "畜栏；围圈", "en": "corral; enclosure" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "standalone", "note": "西班牙语借词，来自 corro（圆圈），不可拆分" }
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": ["corral"],
+    "coreMeaning": [
+      {
+        "cn": "畜栏；围圈",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "corral",
+        "role": "root",
+        "canonical": "corral",
+        "coreMeaning": {
+          "cn": "畜栏；围圈",
+          "en": "corral; enclosure"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "standalone",
+        "note": "西班牙语借词，来自 corro（圆圈），不可拆分"
+      }
+    ],
+    "derivationChain": [
+      "corral"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "圆形围栏",
-      "imageChain": ["圆形围栏", "关牲畜", "畜栏"],
+      "imageChain": [
+        "圆形围栏",
+        "关牲畜",
+        "畜栏"
+      ],
       "mnemonicExpr": "corral(西班牙语：圆形围栏) → 关牲口的围栏 → 畜栏"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["corralled"],
+      "sameRoot": [
+        "corralled"
+      ],
       "sameAffix": [],
-      "synonyms": ["pen", "paddock", "enclosure"],
+      "synonyms": [
+        "pen",
+        "paddock",
+        "enclosure"
+      ],
       "antonyms": [],
-      "domainCohort": ["pen", "paddock", "stable"],
-      "derivationPair": ["corralled"],
+      "domainCohort": [
+        "pen",
+        "paddock",
+        "stable"
+      ],
+      "derivationPair": [
+        "corralled"
+      ],
       "morphVariants": [],
-      "sameImagery": ["pen", "paddock"]
+      "sameImagery": [
+        "pen",
+        "paddock"
+      ]
     }
   },
   {
     "word": "correct",
     "phonetic": "/kə'rɛkt/",
-    "pos": ["adj.", "v."],
-    "coreMeaning": [{ "cn": "正确的；恰当的", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "cor-", "role": "prefix", "canonical": "co-", "coreMeaning": { "cn": "共同；完全（加强）", "en": "together; completely" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial", "note": "co- 在 r 前的同化形式" },
-      { "order": 2, "form": "rect", "role": "root", "canonical": "rect", "coreMeaning": { "cn": "正；直", "en": "right; straight" }, "sentiment": { "tags": ["积极"], "intensity": 0.4 }, "positionTendency": "medial" }
+    "pos": [
+      "adj.",
+      "v."
     ],
-    "derivationChain": ["rect", "correct"],
+    "coreMeaning": [
+      {
+        "cn": "正确的；恰当的",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "cor-",
+        "role": "prefix",
+        "canonical": "co-",
+        "coreMeaning": {
+          "cn": "共同；完全（加强）",
+          "en": "together; completely"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial",
+        "note": "co- 在 r 前的同化形式"
+      },
+      {
+        "order": 2,
+        "form": "rect",
+        "role": "root",
+        "canonical": "rect",
+        "coreMeaning": {
+          "cn": "正；直",
+          "en": "right; straight"
+        },
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 0.4
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "rect",
+      "correct"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "完全笔直",
-      "imageChain": ["完全正直", "没有错误", "正确的"],
+      "imageChain": [
+        "完全正直",
+        "没有错误",
+        "正确的"
+      ],
       "mnemonicExpr": "cor(完全)+rect(正直) → 完全正确笔直 → 正确的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["积极", "褒义"], "intensity": 0.4 },
-      "domain": ["general", "academic"],
+      "sentiment": {
+        "tags": [
+          "积极",
+          "褒义"
+        ],
+        "intensity": 0.4
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["corrected", "incorrect", "direct", "erect"],
-      "sameAffix": [{ "affix": "cor-", "members": ["corrupt", "corroborate"] }],
-      "synonyms": ["accurate", "right", "precise"],
-      "antonyms": ["incorrect", "wrong", "erroneous"],
-      "domainCohort": ["accurate", "precise", "exact"],
-      "derivationPair": ["corrected"],
+      "sameRoot": [
+        "corrected",
+        "incorrect",
+        "direct",
+        "erect"
+      ],
+      "sameAffix": [
+        "corrupt",
+        "corroborate"
+      ],
+      "synonyms": [
+        "accurate",
+        "right",
+        "precise"
+      ],
+      "antonyms": [
+        "incorrect",
+        "wrong",
+        "erroneous"
+      ],
+      "domainCohort": [
+        "accurate",
+        "precise",
+        "exact"
+      ],
+      "derivationPair": [
+        "corrected"
+      ],
       "morphVariants": [],
-      "sameImagery": ["accurate", "right"]
+      "sameImagery": [
+        "accurate",
+        "right"
+      ]
     }
   },
   {
     "word": "corrected",
     "phonetic": "/kə'rektɪd/",
-    "pos": ["adj.", "v."],
-    "coreMeaning": [{ "cn": "修正的；校正的", "domain": "technical", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "cor-", "role": "prefix", "canonical": "co-", "coreMeaning": { "cn": "完全（加强）", "en": "completely" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "rect", "role": "root", "canonical": "rect", "coreMeaning": { "cn": "正；直", "en": "right; straight" }, "sentiment": { "tags": ["积极"], "intensity": 0.3 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ed", "role": "suffix", "canonical": "-ed", "coreMeaning": { "cn": "过去式/过去分词", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj.",
+      "v."
     ],
-    "derivationChain": ["rect", "correct", "corrected"],
+    "coreMeaning": [
+      {
+        "cn": "修正的；校正的",
+        "domain": "technical",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "cor-",
+        "role": "prefix",
+        "canonical": "co-",
+        "coreMeaning": {
+          "cn": "完全（加强）",
+          "en": "completely"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "rect",
+        "role": "root",
+        "canonical": "rect",
+        "coreMeaning": {
+          "cn": "正；直",
+          "en": "right; straight"
+        },
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 0.3
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ed",
+        "role": "suffix",
+        "canonical": "-ed",
+        "coreMeaning": {
+          "cn": "过去式/过去分词",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "rect",
+      "correct",
+      "corrected"
+    ],
     "morphVariantOf": "correct",
     "memorySemantics": {
       "literal": "已校正",
-      "imageChain": ["纠正错误", "完成校正", "已修正的"],
+      "imageChain": [
+        "纠正错误",
+        "完成校正",
+        "已修正的"
+      ],
       "mnemonicExpr": "cor(完全)+rect(正)+-ed → 已经被纠正的 → 修正的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["积极"], "intensity": 0.3 },
-      "domain": ["technical", "academic"],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "technical",
+        "academic"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["correct", "incorrect", "correction"],
-      "sameAffix": [{ "affix": "-ed", "members": ["copied", "cornered"] }],
-      "synonyms": ["amended", "revised", "adjusted"],
-      "antonyms": ["uncorrected", "erroneous"],
-      "domainCohort": ["revised", "adjusted", "amended"],
-      "derivationPair": ["correct"],
+      "sameRoot": [
+        "correct",
+        "incorrect",
+        "correction"
+      ],
+      "sameAffix": [
+        "copied",
+        "cornered"
+      ],
+      "synonyms": [
+        "amended",
+        "revised",
+        "adjusted"
+      ],
+      "antonyms": [
+        "uncorrected",
+        "erroneous"
+      ],
+      "domainCohort": [
+        "revised",
+        "adjusted",
+        "amended"
+      ],
+      "derivationPair": [
+        "correct"
+      ],
       "morphVariants": [],
-      "sameImagery": ["revised", "amended"]
+      "sameImagery": [
+        "revised",
+        "amended"
+      ]
     }
   }
 ]

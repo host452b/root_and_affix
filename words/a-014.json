@@ -2,278 +2,938 @@
   {
     "word": "airport",
     "phonetic": "/'ɛrpɔrt/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "飞机场；航空港", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "air", "role": "root", "canonical": "air", "variantOf": null, "coreMeaning": { "cn": "空气", "en": "air" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "port", "role": "root", "canonical": "port", "variantOf": null, "coreMeaning": { "cn": "港口；搬运", "en": "port; carry" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["air", "port", "airport"],
+    "coreMeaning": [
+      {
+        "cn": "飞机场；航空港",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "air",
+        "role": "root",
+        "canonical": "air",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "空气",
+          "en": "air"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "port",
+        "role": "root",
+        "canonical": "port",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "港口；搬运",
+          "en": "port; carry"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "air",
+      "port",
+      "airport"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "空中港口",
-      "imageChain": ["空气", "港口", "飞机起降地"],
+      "imageChain": [
+        "空气",
+        "港口",
+        "飞机起降地"
+      ],
       "mnemonicExpr": "air(空中)+port(港口) → 空中港口 → 飞机场"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "business"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "business"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["airway", "airline", "seaport", "import", "export"],
+      "sameRoot": [
+        "airway",
+        "airline",
+        "seaport",
+        "import",
+        "export"
+      ],
       "sameAffix": [],
-      "synonyms": ["airfield", "aerodrome"],
+      "synonyms": [
+        "airfield",
+        "aerodrome"
+      ],
       "antonyms": [],
-      "domainCohort": ["flight", "terminal", "runway"],
+      "domainCohort": [
+        "flight",
+        "terminal",
+        "runway"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["terminal", "harbor"]
+      "sameImagery": [
+        "terminal",
+        "harbor"
+      ]
     }
   },
   {
     "word": "airpower",
     "phonetic": "/'εəpauə/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "空中实力；制空权", "domain": "legal", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "air", "role": "root", "canonical": "air", "variantOf": null, "coreMeaning": { "cn": "空气；空中", "en": "air" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "power", "role": "root", "canonical": "power", "variantOf": null, "coreMeaning": { "cn": "力量", "en": "power" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["air", "power", "airpower"],
+    "coreMeaning": [
+      {
+        "cn": "空中实力；制空权",
+        "domain": "legal",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "air",
+        "role": "root",
+        "canonical": "air",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "空气；空中",
+          "en": "air"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "power",
+        "role": "root",
+        "canonical": "power",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "力量",
+          "en": "power"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "air",
+      "power",
+      "airpower"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "空中力量",
-      "imageChain": ["空中", "力量", "制空权"],
+      "imageChain": [
+        "空中",
+        "力量",
+        "制空权"
+      ],
       "mnemonicExpr": "air(空中)+power(力量) → 空中军事力量 → 制空权"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.2 },
-      "domain": ["legal", "news"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "庄重"
+        ],
+        "intensity": 0.2
+      },
+      "domain": [
+        "legal",
+        "news"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["airport", "airstrike", "manpower", "horsepower"],
+      "sameRoot": [
+        "airport",
+        "airstrike",
+        "manpower",
+        "horsepower"
+      ],
       "sameAffix": [],
-      "synonyms": ["air-force", "air-supremacy"],
-      "antonyms": ["seapower"],
-      "domainCohort": ["military", "defense", "aviation"],
+      "synonyms": [
+        "air-force",
+        "air-supremacy"
+      ],
+      "antonyms": [
+        "seapower"
+      ],
+      "domainCohort": [
+        "military",
+        "defense",
+        "aviation"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["firepower", "force"]
+      "sameImagery": [
+        "firepower",
+        "force"
+      ]
     }
   },
   {
     "word": "airstrikes",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "空袭；空中打击（airstrike的复数）", "domain": "news", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "air", "role": "root", "canonical": "air", "variantOf": null, "coreMeaning": { "cn": "空气；空中", "en": "air" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "strike", "role": "root", "canonical": "strike", "variantOf": null, "coreMeaning": { "cn": "打击；攻击", "en": "strike; hit" }, "sentiment": { "tags": ["贬义"], "intensity": 0.5 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-s", "role": "suffix", "canonical": "-s", "coreMeaning": { "cn": "复数", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["air", "strike", "airstrike", "airstrikes"],
+    "coreMeaning": [
+      {
+        "cn": "空袭；空中打击（airstrike的复数）",
+        "domain": "news",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "air",
+        "role": "root",
+        "canonical": "air",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "空气；空中",
+          "en": "air"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "strike",
+        "role": "root",
+        "canonical": "strike",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "打击；攻击",
+          "en": "strike; hit"
+        },
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 0.5
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-s",
+        "role": "suffix",
+        "canonical": "-s",
+        "coreMeaning": {
+          "cn": "复数",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "air",
+      "strike",
+      "airstrike",
+      "airstrikes"
+    ],
     "morphVariantOf": "airstrike",
     "memorySemantics": {
       "literal": "空中打击们",
-      "imageChain": ["空中", "打击", "多次空袭"],
+      "imageChain": [
+        "空中",
+        "打击",
+        "多次空袭"
+      ],
       "mnemonicExpr": "air(空中)+strike(打击)+s(复数) → 多次空袭 → 空袭行动"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义", "担忧"], "intensity": 0.7 },
-      "domain": ["news", "legal"],
+      "sentiment": {
+        "tags": [
+          "贬义",
+          "担忧"
+        ],
+        "intensity": 0.7
+      },
+      "domain": [
+        "news",
+        "legal"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["airport", "airpower", "airstrike", "strike"],
-      "sameAffix": [{ "affix": "-s", "members": ["attacks", "bombings"] }],
-      "synonyms": ["bombings", "air-raids"],
-      "antonyms": ["ceasefires"],
-      "domainCohort": ["military", "war", "bombardment"],
-      "derivationPair": ["airstrike"],
-      "morphVariants": ["airstrike"],
-      "sameImagery": ["bombing", "raid"]
+      "sameRoot": [
+        "airport",
+        "airpower",
+        "airstrike",
+        "strike"
+      ],
+      "sameAffix": [
+        "attacks",
+        "bombings"
+      ],
+      "synonyms": [
+        "bombings",
+        "air-raids"
+      ],
+      "antonyms": [
+        "ceasefires"
+      ],
+      "domainCohort": [
+        "military",
+        "war",
+        "bombardment"
+      ],
+      "derivationPair": [
+        "airstrike"
+      ],
+      "morphVariants": [
+        "airstrike"
+      ],
+      "sameImagery": [
+        "bombing",
+        "raid"
+      ]
     }
   },
   {
     "word": "airtel",
     "phonetic": "/'eәtel/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "机场内(或附近)的旅馆", "domain": "general", "coverage": 0.85 }],
-    "morphemes": [
-      { "order": 1, "form": "air", "role": "root", "canonical": "air", "variantOf": null, "coreMeaning": { "cn": "空气；航空", "en": "air" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "tel", "role": "root", "canonical": "tel", "variantOf": "hotel", "coreMeaning": { "cn": "旅馆（取自hotel后缀）", "en": "hotel-clipping" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["air", "hotel", "airtel"],
+    "coreMeaning": [
+      {
+        "cn": "机场内(或附近)的旅馆",
+        "domain": "general",
+        "coverage": 0.85
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "air",
+        "role": "root",
+        "canonical": "air",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "空气；航空",
+          "en": "air"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "tel",
+        "role": "root",
+        "canonical": "tel",
+        "variantOf": "hotel",
+        "coreMeaning": {
+          "cn": "旅馆（取自hotel后缀）",
+          "en": "hotel-clipping"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "air",
+      "hotel",
+      "airtel"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "航空旅馆",
-      "imageChain": ["机场", "旅馆", "供过境客人留宿"],
+      "imageChain": [
+        "机场",
+        "旅馆",
+        "供过境客人留宿"
+      ],
       "mnemonicExpr": "air(航空)+tel(hotel缩略) → 机场旅馆"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["business", "news"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "business",
+        "news"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["airport", "airway", "hotel", "motel"],
+      "sameRoot": [
+        "airport",
+        "airway",
+        "hotel",
+        "motel"
+      ],
       "sameAffix": [],
-      "synonyms": ["airport-hotel"],
+      "synonyms": [
+        "airport-hotel"
+      ],
       "antonyms": [],
-      "domainCohort": ["lodging", "transit", "travel"],
+      "domainCohort": [
+        "lodging",
+        "transit",
+        "travel"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["motel", "hotel"]
+      "sameImagery": [
+        "motel",
+        "hotel"
+      ]
     }
   },
   {
     "word": "airtight",
     "phonetic": "/'ɛrtaɪt/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "密闭的；无懈可击的", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "air", "role": "root", "canonical": "air", "variantOf": null, "coreMeaning": { "cn": "空气", "en": "air" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "tight", "role": "root", "canonical": "tight", "variantOf": null, "coreMeaning": { "cn": "紧", "en": "tight" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["air", "tight", "airtight"],
+    "coreMeaning": [
+      {
+        "cn": "密闭的；无懈可击的",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "air",
+        "role": "root",
+        "canonical": "air",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "空气",
+          "en": "air"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "tight",
+        "role": "root",
+        "canonical": "tight",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "紧",
+          "en": "tight"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "air",
+      "tight",
+      "airtight"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "空气紧闭",
-      "imageChain": ["空气", "紧闭", "密闭"],
+      "imageChain": [
+        "空气",
+        "紧闭",
+        "密闭"
+      ],
       "mnemonicExpr": "air(空气)+tight(紧) → 紧得连空气都透不进去 → 密闭、无懈可击"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["褒义"], "intensity": 0.3 },
-      "domain": ["general", "legal", "academic"],
+      "sentiment": {
+        "tags": [
+          "褒义"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "general",
+        "legal",
+        "academic"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["airport", "watertight", "tighten"],
+      "sameRoot": [
+        "airport",
+        "watertight",
+        "tighten"
+      ],
       "sameAffix": [],
-      "synonyms": ["sealed", "impermeable", "foolproof"],
-      "antonyms": ["leaky", "porous"],
-      "domainCohort": ["seal", "vacuum", "argument"],
+      "synonyms": [
+        "sealed",
+        "impermeable",
+        "foolproof"
+      ],
+      "antonyms": [
+        "leaky",
+        "porous"
+      ],
+      "domainCohort": [
+        "seal",
+        "vacuum",
+        "argument"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["watertight", "sealed"]
+      "sameImagery": [
+        "watertight",
+        "sealed"
+      ]
     }
   },
   {
     "word": "airways",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "航空公司；航线（airway的复数）", "domain": "business", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "air", "role": "root", "canonical": "air", "variantOf": null, "coreMeaning": { "cn": "空气；航空", "en": "air" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "way", "role": "root", "canonical": "way", "variantOf": null, "coreMeaning": { "cn": "道路；方式", "en": "way" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-s", "role": "suffix", "canonical": "-s", "coreMeaning": { "cn": "复数", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["air", "way", "airway", "airways"],
+    "coreMeaning": [
+      {
+        "cn": "航空公司；航线（airway的复数）",
+        "domain": "business",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "air",
+        "role": "root",
+        "canonical": "air",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "空气；航空",
+          "en": "air"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "way",
+        "role": "root",
+        "canonical": "way",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "道路；方式",
+          "en": "way"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-s",
+        "role": "suffix",
+        "canonical": "-s",
+        "coreMeaning": {
+          "cn": "复数",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "air",
+      "way",
+      "airway",
+      "airways"
+    ],
     "morphVariantOf": "airway",
     "memorySemantics": {
       "literal": "空中道路",
-      "imageChain": ["空气", "道路", "航线"],
+      "imageChain": [
+        "空气",
+        "道路",
+        "航线"
+      ],
       "mnemonicExpr": "air(空中)+way(道路)+s(复数) → 航线、航空公司"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["business", "news"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "business",
+        "news"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["airway", "airport", "highway", "subway"],
-      "sameAffix": [{ "affix": "-s", "members": ["railways", "motorways"] }],
-      "synonyms": ["airlines", "carriers"],
+      "sameRoot": [
+        "airway",
+        "airport",
+        "highway",
+        "subway"
+      ],
+      "sameAffix": [
+        "railways",
+        "motorways"
+      ],
+      "synonyms": [
+        "airlines",
+        "carriers"
+      ],
       "antonyms": [],
-      "domainCohort": ["aviation", "flight", "carrier"],
-      "derivationPair": ["airway"],
-      "morphVariants": ["airway"],
-      "sameImagery": ["flight-path", "airlines"]
+      "domainCohort": [
+        "aviation",
+        "flight",
+        "carrier"
+      ],
+      "derivationPair": [
+        "airway"
+      ],
+      "morphVariants": [
+        "airway"
+      ],
+      "sameImagery": [
+        "flight-path",
+        "airlines"
+      ]
     }
   },
   {
     "word": "airy",
     "phonetic": "/'ɛri/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "空气的；通风的；幻想的；轻快的", "domain": "general", "coverage": 0.85 }],
-    "morphemes": [
-      { "order": 1, "form": "air", "role": "root", "canonical": "air", "variantOf": null, "coreMeaning": { "cn": "空气", "en": "air" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-y", "role": "suffix", "canonical": "-y", "coreMeaning": { "cn": "具有…性质的（形容词后缀）", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["air", "airy"],
+    "coreMeaning": [
+      {
+        "cn": "空气的；通风的；幻想的；轻快的",
+        "domain": "general",
+        "coverage": 0.85
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "air",
+        "role": "root",
+        "canonical": "air",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "空气",
+          "en": "air"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-y",
+        "role": "suffix",
+        "canonical": "-y",
+        "coreMeaning": {
+          "cn": "具有…性质的（形容词后缀）",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "air",
+      "airy"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "带空气性质的",
-      "imageChain": ["空气", "通风", "飘逸"],
+      "imageChain": [
+        "空气",
+        "通风",
+        "飘逸"
+      ],
       "mnemonicExpr": "air(空气)+y(形容词) → 通风的、如空气般轻盈的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["褒义", "乐观"], "intensity": 0.3 },
-      "domain": ["general", "editorial"],
+      "sentiment": {
+        "tags": [
+          "褒义",
+          "乐观"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "general",
+        "editorial"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["air", "airport", "airway"],
-      "sameAffix": [{ "affix": "-y", "members": ["sunny", "cloudy", "breezy"] }],
-      "synonyms": ["breezy", "lofty", "ethereal"],
-      "antonyms": ["stuffy", "heavy"],
-      "domainCohort": ["breeze", "ventilation", "lightness"],
-      "derivationPair": ["air"],
+      "sameRoot": [
+        "air",
+        "airport",
+        "airway"
+      ],
+      "sameAffix": [
+        "sunny",
+        "cloudy",
+        "breezy"
+      ],
+      "synonyms": [
+        "breezy",
+        "lofty",
+        "ethereal"
+      ],
+      "antonyms": [
+        "stuffy",
+        "heavy"
+      ],
+      "domainCohort": [
+        "breeze",
+        "ventilation",
+        "lightness"
+      ],
+      "derivationPair": [
+        "air"
+      ],
       "morphVariants": [],
-      "sameImagery": ["breezy", "ethereal"]
+      "sameImagery": [
+        "breezy",
+        "ethereal"
+      ]
     }
   },
   {
     "word": "aisha",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "艾莎；阿以莎（女子名）", "domain": "news", "coverage": 1.0 }],
-    "morphemes": [
-      { "order": 1, "form": "aisha", "role": "root", "canonical": "aisha", "variantOf": null, "coreMeaning": { "cn": "女子名", "en": "female given name" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["aisha"],
+    "coreMeaning": [
+      {
+        "cn": "艾莎；阿以莎（女子名）",
+        "domain": "news",
+        "coverage": 1.0
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "aisha",
+        "role": "root",
+        "canonical": "aisha",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "女子名",
+          "en": "female given name"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "aisha"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "阿拉伯女子名",
-      "imageChain": ["人名", "女性"],
+      "imageChain": [
+        "人名",
+        "女性"
+      ],
       "mnemonicExpr": "Aisha → 阿拉伯语\"活着\" → 女子名"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["news", "general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "news",
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
       "sameRoot": [],
       "sameAffix": [],
-      "synonyms": ["Ayesha"],
+      "synonyms": [
+        "Ayesha"
+      ],
       "antonyms": [],
-      "domainCohort": ["name", "Arabic"],
+      "domainCohort": [
+        "name",
+        "Arabic"
+      ],
       "derivationPair": [],
-      "morphVariants": ["Ayesha"],
+      "morphVariants": [
+        "Ayesha"
+      ],
       "sameImagery": []
     }
   },
   {
     "word": "aishwarya",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "艾什瓦尔雅（尼泊尔、印度人名）", "domain": "news", "coverage": 1.0 }],
-    "morphemes": [
-      { "order": 1, "form": "aishwarya", "role": "root", "canonical": "aishwarya", "variantOf": null, "coreMeaning": { "cn": "人名；繁荣", "en": "given name; prosperity" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["aishwarya"],
+    "coreMeaning": [
+      {
+        "cn": "艾什瓦尔雅（尼泊尔、印度人名）",
+        "domain": "news",
+        "coverage": 1.0
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "aishwarya",
+        "role": "root",
+        "canonical": "aishwarya",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "人名；繁荣",
+          "en": "given name; prosperity"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "aishwarya"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "梵语\"富足\"",
-      "imageChain": ["人名", "繁荣"],
+      "imageChain": [
+        "人名",
+        "繁荣"
+      ],
       "mnemonicExpr": "Aishwarya → 梵语意为\"繁荣、富足\" → 女子名"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["news", "general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "news",
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -281,7 +941,10 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["name", "Sanskrit"],
+      "domainCohort": [
+        "name",
+        "Sanskrit"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -290,52 +953,140 @@
   {
     "word": "aisle",
     "phonetic": "/aɪl/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "通道；走道", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "aisle", "role": "root", "canonical": "aisle", "variantOf": null, "coreMeaning": { "cn": "通道", "en": "passageway; wing" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["aisle"],
+    "coreMeaning": [
+      {
+        "cn": "通道；走道",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "aisle",
+        "role": "root",
+        "canonical": "aisle",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "通道",
+          "en": "passageway; wing"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "aisle"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "翼侧通道",
-      "imageChain": ["侧翼", "走道", "通道"],
+      "imageChain": [
+        "侧翼",
+        "走道",
+        "通道"
+      ],
       "mnemonicExpr": "aisle(源自拉丁ala翅膀) → 建筑物侧翼 → 走道"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
       "sameRoot": [],
       "sameAffix": [],
-      "synonyms": ["passageway", "corridor", "gangway"],
+      "synonyms": [
+        "passageway",
+        "corridor",
+        "gangway"
+      ],
       "antonyms": [],
-      "domainCohort": ["hallway", "corridor", "supermarket"],
+      "domainCohort": [
+        "hallway",
+        "corridor",
+        "supermarket"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["corridor", "walkway"]
+      "sameImagery": [
+        "corridor",
+        "walkway"
+      ]
     }
   },
   {
     "word": "ajax",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "Ajax技术（Asynchronous JavaScript and XML）；爵士白；铅青铜轴承合金", "domain": "tech", "coverage": 0.8 }],
-    "morphemes": [
-      { "order": 1, "form": "ajax", "role": "root", "canonical": "ajax", "variantOf": null, "coreMeaning": { "cn": "异步JavaScript与XML技术", "en": "Asynchronous JavaScript and XML" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["ajax"],
+    "coreMeaning": [
+      {
+        "cn": "Ajax技术（Asynchronous JavaScript and XML）；爵士白；铅青铜轴承合金",
+        "domain": "tech",
+        "coverage": 0.8
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ajax",
+        "role": "root",
+        "canonical": "ajax",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "异步JavaScript与XML技术",
+          "en": "Asynchronous JavaScript and XML"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "ajax"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "异步JS与XML",
-      "imageChain": ["缩略", "Web技术", "异步请求"],
+      "imageChain": [
+        "缩略",
+        "Web技术",
+        "异步请求"
+      ],
       "mnemonicExpr": "A(synchronous)+J(avaScript)+A(nd)+X(ML) → Ajax技术"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["tech"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -343,30 +1094,75 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["JavaScript", "XML", "web"],
+      "domainCohort": [
+        "JavaScript",
+        "XML",
+        "web"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["async", "api"]
+      "sameImagery": [
+        "async",
+        "api"
+      ]
     }
   },
   {
     "word": "ajay",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "阿杰伊（男子名）", "domain": "news", "coverage": 1.0 }],
-    "morphemes": [
-      { "order": 1, "form": "ajay", "role": "root", "canonical": "ajay", "variantOf": null, "coreMeaning": { "cn": "人名；无敌", "en": "given name; invincible" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["ajay"],
+    "coreMeaning": [
+      {
+        "cn": "阿杰伊（男子名）",
+        "domain": "news",
+        "coverage": 1.0
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ajay",
+        "role": "root",
+        "canonical": "ajay",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "人名；无敌",
+          "en": "given name; invincible"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "ajay"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "梵语\"无敌\"",
-      "imageChain": ["人名", "不可战胜"],
+      "imageChain": [
+        "人名",
+        "不可战胜"
+      ],
       "mnemonicExpr": "Ajay → 梵语\"无敌\" → 男子名"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["news", "general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "news",
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -374,7 +1170,11 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["name", "Sanskrit", "Indian"],
+      "domainCohort": [
+        "name",
+        "Sanskrit",
+        "Indian"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -383,21 +1183,59 @@
   {
     "word": "ajit",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "阿吉特（马来、印度人名）", "domain": "news", "coverage": 1.0 }],
-    "morphemes": [
-      { "order": 1, "form": "ajit", "role": "root", "canonical": "ajit", "variantOf": null, "coreMeaning": { "cn": "人名；无敌", "en": "given name" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["ajit"],
+    "coreMeaning": [
+      {
+        "cn": "阿吉特（马来、印度人名）",
+        "domain": "news",
+        "coverage": 1.0
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ajit",
+        "role": "root",
+        "canonical": "ajit",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "人名；无敌",
+          "en": "given name"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "ajit"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "梵语\"不可征服\"",
-      "imageChain": ["人名", "不败"],
+      "imageChain": [
+        "人名",
+        "不败"
+      ],
       "mnemonicExpr": "Ajit → 梵语\"不可征服\" → 男子名"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["news", "general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "news",
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -405,30 +1243,73 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["name", "Sanskrit"],
+      "domainCohort": [
+        "name",
+        "Sanskrit"
+      ],
       "derivationPair": [],
-      "morphVariants": ["Ajay"],
+      "morphVariants": [
+        "Ajay"
+      ],
       "sameImagery": []
     }
   },
   {
     "word": "ajmer",
     "phonetic": "/ʌdʒ'mi:ə/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "阿杰梅尔（印度城市）", "domain": "news", "coverage": 1.0 }],
-    "morphemes": [
-      { "order": 1, "form": "ajmer", "role": "root", "canonical": "ajmer", "variantOf": null, "coreMeaning": { "cn": "印度城市名", "en": "Indian city" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["ajmer"],
+    "coreMeaning": [
+      {
+        "cn": "阿杰梅尔（印度城市）",
+        "domain": "news",
+        "coverage": 1.0
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ajmer",
+        "role": "root",
+        "canonical": "ajmer",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "印度城市名",
+          "en": "Indian city"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "ajmer"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "地名",
-      "imageChain": ["印度", "城市"],
+      "imageChain": [
+        "印度",
+        "城市"
+      ],
       "mnemonicExpr": "Ajmer → 印度拉贾斯坦邦的一座城市"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["news", "general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "news",
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -436,7 +1317,11 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["India", "city", "Rajasthan"],
+      "domainCohort": [
+        "India",
+        "city",
+        "Rajasthan"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -445,21 +1330,61 @@
   {
     "word": "akademgorodok",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "阿卡杰姆戈罗多克（俄罗斯科学城）", "domain": "finance", "coverage": 1.0 }],
-    "morphemes": [
-      { "order": 1, "form": "akademgorodok", "role": "root", "canonical": "akademgorodok", "variantOf": null, "coreMeaning": { "cn": "俄语地名，学术城", "en": "Russian academic town" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["akademgorodok"],
+    "coreMeaning": [
+      {
+        "cn": "阿卡杰姆戈罗多克（俄罗斯科学城）",
+        "domain": "finance",
+        "coverage": 1.0
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "akademgorodok",
+        "role": "root",
+        "canonical": "akademgorodok",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "俄语地名，学术城",
+          "en": "Russian academic town"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "akademgorodok"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "俄语\"学术城\"",
-      "imageChain": ["俄罗斯", "科学城", "地名"],
+      "imageChain": [
+        "俄罗斯",
+        "科学城",
+        "地名"
+      ],
       "mnemonicExpr": "akadem(academy)+gorodok(俄语小城) → 学术城"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.1 },
-      "domain": ["news", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "庄重"
+        ],
+        "intensity": 0.1
+      },
+      "domain": [
+        "news",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
@@ -467,7 +1392,11 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["Russia", "science-city", "Novosibirsk"],
+      "domainCohort": [
+        "Russia",
+        "science-city",
+        "Novosibirsk"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -476,21 +1405,59 @@
   {
     "word": "akamai",
     "phonetic": "/ɑ:kɑ:'mai/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "阿卡迈（公司名）", "domain": "news", "coverage": 1.0 }],
-    "morphemes": [
-      { "order": 1, "form": "akamai", "role": "root", "canonical": "akamai", "variantOf": null, "coreMeaning": { "cn": "公司名（夏威夷语：聪明）", "en": "company name; smart in Hawaiian" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["akamai"],
+    "coreMeaning": [
+      {
+        "cn": "阿卡迈（公司名）",
+        "domain": "news",
+        "coverage": 1.0
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "akamai",
+        "role": "root",
+        "canonical": "akamai",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "公司名（夏威夷语：聪明）",
+          "en": "company name; smart in Hawaiian"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "akamai"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "夏威夷语\"聪明\"",
-      "imageChain": ["公司名", "CDN"],
+      "imageChain": [
+        "公司名",
+        "CDN"
+      ],
       "mnemonicExpr": "Akamai → 夏威夷语意为\"聪明、机敏\" → CDN公司名"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["tech", "business"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech",
+        "business"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -498,7 +1465,11 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["CDN", "internet", "company"],
+      "domainCohort": [
+        "CDN",
+        "internet",
+        "company"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -507,29 +1478,73 @@
   {
     "word": "akebiaquinata",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "木通（学名）", "domain": "medical", "coverage": 1.0 }],
-    "morphemes": [
-      { "order": 1, "form": "akebiaquinata", "role": "root", "canonical": "akebiaquinata", "variantOf": null, "coreMeaning": { "cn": "木通（植物学名）", "en": "Akebia quinata" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["akebiaquinata"],
+    "coreMeaning": [
+      {
+        "cn": "木通（学名）",
+        "domain": "medical",
+        "coverage": 1.0
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "akebiaquinata",
+        "role": "root",
+        "canonical": "akebiaquinata",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "木通（植物学名）",
+          "en": "Akebia quinata"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "akebiaquinata"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "五叶木通",
-      "imageChain": ["植物", "学名", "药用"],
+      "imageChain": [
+        "植物",
+        "学名",
+        "药用"
+      ],
       "mnemonicExpr": "Akebia(木通属)+quinata(五叶的) → 五叶木通"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["medical", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
       "sameRoot": [],
       "sameAffix": [],
-      "synonyms": ["chocolate-vine"],
+      "synonyms": [
+        "chocolate-vine"
+      ],
       "antonyms": [],
-      "domainCohort": ["botany", "herbal-medicine"],
+      "domainCohort": [
+        "botany",
+        "herbal-medicine"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -538,21 +1553,59 @@
   {
     "word": "akhil",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "阿希尔（塞尔维亚人名）", "domain": "news", "coverage": 1.0 }],
-    "morphemes": [
-      { "order": 1, "form": "akhil", "role": "root", "canonical": "akhil", "variantOf": null, "coreMeaning": { "cn": "人名", "en": "given name" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["akhil"],
+    "coreMeaning": [
+      {
+        "cn": "阿希尔（塞尔维亚人名）",
+        "domain": "news",
+        "coverage": 1.0
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "akhil",
+        "role": "root",
+        "canonical": "akhil",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "人名",
+          "en": "given name"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "akhil"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "梵语\"完整\"",
-      "imageChain": ["人名", "完全"],
+      "imageChain": [
+        "人名",
+        "完全"
+      ],
       "mnemonicExpr": "Akhil → 梵语意为\"完整、全部\" → 男子名"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["news", "general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "news",
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -560,7 +1613,10 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["name", "Sanskrit"],
+      "domainCohort": [
+        "name",
+        "Sanskrit"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -569,21 +1625,59 @@
   {
     "word": "akhtar",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "阿赫塔尔（阿拉伯、阿富汗、巴基斯坦人名）", "domain": "news", "coverage": 1.0 }],
-    "morphemes": [
-      { "order": 1, "form": "akhtar", "role": "root", "canonical": "akhtar", "variantOf": null, "coreMeaning": { "cn": "人名；波斯语\"星\"", "en": "given name; star in Persian" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["akhtar"],
+    "coreMeaning": [
+      {
+        "cn": "阿赫塔尔（阿拉伯、阿富汗、巴基斯坦人名）",
+        "domain": "news",
+        "coverage": 1.0
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "akhtar",
+        "role": "root",
+        "canonical": "akhtar",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "人名；波斯语\"星\"",
+          "en": "given name; star in Persian"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "akhtar"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "波斯语\"星辰\"",
-      "imageChain": ["人名", "星辰"],
+      "imageChain": [
+        "人名",
+        "星辰"
+      ],
       "mnemonicExpr": "Akhtar → 波斯语意为\"星辰\" → 南亚姓氏"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["news", "general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "news",
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -591,7 +1685,11 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["name", "Persian", "Arabic"],
+      "domainCohort": [
+        "name",
+        "Persian",
+        "Arabic"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -600,53 +1698,173 @@
   {
     "word": "akin",
     "phonetic": "/ə'kɪn/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "类似的；同类的；同族的", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "a-", "role": "prefix", "canonical": "a-(to)", "variantOf": null, "coreMeaning": { "cn": "处于…状态；向", "en": "in a state of; to" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "kin", "role": "root", "canonical": "kin", "variantOf": null, "coreMeaning": { "cn": "亲属、族", "en": "kin, family" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["kin", "akin"],
+    "coreMeaning": [
+      {
+        "cn": "类似的；同类的；同族的",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "a-",
+        "role": "prefix",
+        "canonical": "a-(to)",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "处于…状态；向",
+          "en": "in a state of; to"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "kin",
+        "role": "root",
+        "canonical": "kin",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "亲属、族",
+          "en": "kin, family"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "kin",
+      "akin"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "有亲属关系的",
-      "imageChain": ["同族", "亲属", "类似"],
+      "imageChain": [
+        "同族",
+        "亲属",
+        "类似"
+      ],
       "mnemonicExpr": "a(处于)+kin(亲属) → 处于亲属关系 → 相似的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "褒义"], "intensity": 0.2 },
-      "domain": ["general", "academic", "editorial"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "褒义"
+        ],
+        "intensity": 0.2
+      },
+      "domain": [
+        "general",
+        "academic",
+        "editorial"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["kin", "kinship", "kindred"],
-      "sameAffix": [{ "affix": "a-", "members": ["asleep", "aboard", "afoot"] }],
-      "synonyms": ["similar", "analogous", "kindred"],
-      "antonyms": ["unrelated", "dissimilar"],
-      "domainCohort": ["kinship", "resemblance"],
-      "derivationPair": ["kin"],
+      "sameRoot": [
+        "kin",
+        "kinship",
+        "kindred"
+      ],
+      "sameAffix": [
+        "asleep",
+        "aboard",
+        "afoot"
+      ],
+      "synonyms": [
+        "similar",
+        "analogous",
+        "kindred"
+      ],
+      "antonyms": [
+        "unrelated",
+        "dissimilar"
+      ],
+      "domainCohort": [
+        "kinship",
+        "resemblance"
+      ],
+      "derivationPair": [
+        "kin"
+      ],
       "morphVariants": [],
-      "sameImagery": ["kindred", "related"]
+      "sameImagery": [
+        "kindred",
+        "related"
+      ]
     }
   },
   {
     "word": "akka",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "阿卡（法语人名）；或Akka开源框架", "domain": "tech", "coverage": 0.85 }],
-    "morphemes": [
-      { "order": 1, "form": "akka", "role": "root", "canonical": "akka", "variantOf": null, "coreMeaning": { "cn": "人名；框架名", "en": "given name; framework name" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["akka"],
+    "coreMeaning": [
+      {
+        "cn": "阿卡（法语人名）；或Akka开源框架",
+        "domain": "tech",
+        "coverage": 0.85
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "akka",
+        "role": "root",
+        "canonical": "akka",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "人名；框架名",
+          "en": "given name; framework name"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "akka"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "人名/框架名",
-      "imageChain": ["名字", "Scala框架"],
+      "imageChain": [
+        "名字",
+        "Scala框架"
+      ],
       "mnemonicExpr": "Akka → 法语人名或Scala并发框架"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["tech", "news"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech",
+        "news"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -654,7 +1872,11 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["Scala", "actor-model", "concurrency"],
+      "domainCohort": [
+        "Scala",
+        "actor-model",
+        "concurrency"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -663,21 +1885,59 @@
   {
     "word": "akshay",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "阿克沙伊（巴基斯坦人名）", "domain": "news", "coverage": 1.0 }],
-    "morphemes": [
-      { "order": 1, "form": "akshay", "role": "root", "canonical": "akshay", "variantOf": null, "coreMeaning": { "cn": "人名；梵语\"不朽的\"", "en": "given name; indestructible" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["akshay"],
+    "coreMeaning": [
+      {
+        "cn": "阿克沙伊（巴基斯坦人名）",
+        "domain": "news",
+        "coverage": 1.0
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "akshay",
+        "role": "root",
+        "canonical": "akshay",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "人名；梵语\"不朽的\"",
+          "en": "given name; indestructible"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "akshay"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "梵语\"不朽\"",
-      "imageChain": ["人名", "不灭"],
+      "imageChain": [
+        "人名",
+        "不灭"
+      ],
       "mnemonicExpr": "Akshay → 梵语意为\"不朽的、不灭的\" → 男子名"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["news", "general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "news",
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -685,7 +1945,11 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["name", "Sanskrit", "Indian"],
+      "domainCohort": [
+        "name",
+        "Sanskrit",
+        "Indian"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -694,21 +1958,60 @@
   {
     "word": "alaa",
     "phonetic": "",
-    "pos": ["n.", "abbr."],
-    "coreMeaning": [{ "cn": "阿拉（阿拉伯人名）；抗淋巴细胞自身抗体缩写", "domain": "medical", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "alaa", "role": "root", "canonical": "alaa", "variantOf": null, "coreMeaning": { "cn": "人名或缩写", "en": "name or abbreviation" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n.",
+      "abbr."
     ],
-    "derivationChain": ["alaa"],
+    "coreMeaning": [
+      {
+        "cn": "阿拉（阿拉伯人名）；抗淋巴细胞自身抗体缩写",
+        "domain": "medical",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "alaa",
+        "role": "root",
+        "canonical": "alaa",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "人名或缩写",
+          "en": "name or abbreviation"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "alaa"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "阿拉伯人名",
-      "imageChain": ["人名", "缩略"],
+      "imageChain": [
+        "人名",
+        "缩略"
+      ],
       "mnemonicExpr": "Alaa → 阿拉伯人名；或 antilymphocyte autoantibody 首字母缩写"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["news", "medical"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "news",
+        "medical"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -716,7 +2019,11 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["name", "Arabic", "antibody"],
+      "domainCohort": [
+        "name",
+        "Arabic",
+        "antibody"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -725,21 +2032,60 @@
   {
     "word": "alabama",
     "phonetic": "/.ælә'bæmә/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "亚拉巴马州（美国）", "domain": "news", "coverage": 1.0 }],
-    "morphemes": [
-      { "order": 1, "form": "alabama", "role": "root", "canonical": "alabama", "variantOf": null, "coreMeaning": { "cn": "美国州名", "en": "US state name" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["alabama"],
+    "coreMeaning": [
+      {
+        "cn": "亚拉巴马州（美国）",
+        "domain": "news",
+        "coverage": 1.0
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "alabama",
+        "role": "root",
+        "canonical": "alabama",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "美国州名",
+          "en": "US state name"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "alabama"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "印第安语地名",
-      "imageChain": ["美国", "南方州", "亚拉巴马"],
+      "imageChain": [
+        "美国",
+        "南方州",
+        "亚拉巴马"
+      ],
       "mnemonicExpr": "Alabama → 印第安语Choctaw词\"灌木清理者\" → 美国州名"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["news", "general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "news",
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -747,7 +2093,11 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["state", "USA", "Dixie"],
+      "domainCohort": [
+        "state",
+        "USA",
+        "Dixie"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -756,53 +2106,167 @@
   {
     "word": "alacrity",
     "phonetic": "/ə'lækrəti/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "敏捷；轻快；乐意", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "alacr", "role": "root", "canonical": "alacr", "variantOf": null, "coreMeaning": { "cn": "敏捷；活泼", "en": "brisk; eager" }, "sentiment": { "tags": ["褒义", "乐观"], "intensity": 0.5 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-ity", "role": "suffix", "canonical": "-ity", "coreMeaning": { "cn": "性质；状态", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["alacr", "alacrity"],
+    "coreMeaning": [
+      {
+        "cn": "敏捷；轻快；乐意",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "alacr",
+        "role": "root",
+        "canonical": "alacr",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "敏捷；活泼",
+          "en": "brisk; eager"
+        },
+        "sentiment": {
+          "tags": [
+            "褒义",
+            "乐观"
+          ],
+          "intensity": 0.5
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-ity",
+        "role": "suffix",
+        "canonical": "-ity",
+        "coreMeaning": {
+          "cn": "性质；状态",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "alacr",
+      "alacrity"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "敏捷之性质",
-      "imageChain": ["敏捷", "轻快", "乐意"],
+      "imageChain": [
+        "敏捷",
+        "轻快",
+        "乐意"
+      ],
       "mnemonicExpr": "alacr(敏捷)+ity(性质) → 欣然敏捷之态 → 爽快"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["褒义", "乐观"], "intensity": 0.7 },
-      "domain": ["general", "editorial"],
+      "sentiment": {
+        "tags": [
+          "褒义",
+          "乐观"
+        ],
+        "intensity": 0.7
+      },
+      "domain": [
+        "general",
+        "editorial"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["alacritous"],
-      "sameAffix": [{ "affix": "-ity", "members": ["celerity", "agility"] }],
-      "synonyms": ["eagerness", "readiness", "briskness"],
-      "antonyms": ["reluctance", "sluggishness"],
-      "domainCohort": ["speed", "willingness"],
+      "sameRoot": [
+        "alacritous"
+      ],
+      "sameAffix": [
+        "celerity",
+        "agility"
+      ],
+      "synonyms": [
+        "eagerness",
+        "readiness",
+        "briskness"
+      ],
+      "antonyms": [
+        "reluctance",
+        "sluggishness"
+      ],
+      "domainCohort": [
+        "speed",
+        "willingness"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["celerity", "agility"]
+      "sameImagery": [
+        "celerity",
+        "agility"
+      ]
     }
   },
   {
     "word": "alamy",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "阿拉米（法语人名）；或图片库公司", "domain": "news", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "alamy", "role": "root", "canonical": "alamy", "variantOf": null, "coreMeaning": { "cn": "人名；公司名", "en": "name; company name" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["alamy"],
+    "coreMeaning": [
+      {
+        "cn": "阿拉米（法语人名）；或图片库公司",
+        "domain": "news",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "alamy",
+        "role": "root",
+        "canonical": "alamy",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "人名；公司名",
+          "en": "name; company name"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "alamy"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "人名/公司名",
-      "imageChain": ["名字", "图片库"],
+      "imageChain": [
+        "名字",
+        "图片库"
+      ],
       "mnemonicExpr": "Alamy → 法语人名，也是知名图片库公司"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["news", "business"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "news",
+        "business"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -810,7 +2274,10 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["stock-photo", "image"],
+      "domainCohort": [
+        "stock-photo",
+        "image"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -819,223 +2286,751 @@
   {
     "word": "alan",
     "phonetic": "/'ælәn/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "艾伦（男子名）", "domain": "general", "coverage": 1.0 }],
-    "morphemes": [
-      { "order": 1, "form": "alan", "role": "root", "canonical": "alan", "variantOf": null, "coreMeaning": { "cn": "男子名", "en": "male given name" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["alan"],
+    "coreMeaning": [
+      {
+        "cn": "艾伦（男子名）",
+        "domain": "general",
+        "coverage": 1.0
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "alan",
+        "role": "root",
+        "canonical": "alan",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "男子名",
+          "en": "male given name"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "alan"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "凯尔特人名",
-      "imageChain": ["男子名"],
+      "imageChain": [
+        "男子名"
+      ],
       "mnemonicExpr": "Alan → 凯尔特语来源的男子名"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "news"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "news"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
       "sameRoot": [],
       "sameAffix": [],
-      "synonyms": ["Allan", "Allen"],
+      "synonyms": [
+        "Allan",
+        "Allen"
+      ],
       "antonyms": [],
-      "domainCohort": ["name", "Celtic", "English"],
+      "domainCohort": [
+        "name",
+        "Celtic",
+        "English"
+      ],
       "derivationPair": [],
-      "morphVariants": ["Allan", "Allen"],
+      "morphVariants": [
+        "Allan",
+        "Allen"
+      ],
       "sameImagery": []
     }
   },
   {
     "word": "alarm",
     "phonetic": "/ə'lɑrm/",
-    "pos": ["n.", "v."],
-    "coreMeaning": [{ "cn": "警报；惊慌；使警觉", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "al-", "role": "prefix", "canonical": "al-", "variantOf": null, "coreMeaning": { "cn": "向（源自意大利all'arme）", "en": "to the (from Italian all'arme)" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "arm", "role": "root", "canonical": "arm", "variantOf": null, "coreMeaning": { "cn": "武装；武器", "en": "arms, weapons" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": ["arm", "alarm"],
+    "coreMeaning": [
+      {
+        "cn": "警报；惊慌；使警觉",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "al-",
+        "role": "prefix",
+        "canonical": "al-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "向（源自意大利all'arme）",
+          "en": "to the (from Italian all'arme)"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "arm",
+        "role": "root",
+        "canonical": "arm",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "武装；武器",
+          "en": "arms, weapons"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "arm",
+      "alarm"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "拿起武器",
-      "imageChain": ["备战", "警报", "惊慌"],
+      "imageChain": [
+        "备战",
+        "警报",
+        "惊慌"
+      ],
       "mnemonicExpr": "al(向)+arm(武器) → 喊\"拿起武器\" → 警报、惊慌"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义", "担忧"], "intensity": 0.7 },
-      "domain": ["general", "news"],
+      "sentiment": {
+        "tags": [
+          "贬义",
+          "担忧"
+        ],
+        "intensity": 0.7
+      },
+      "domain": [
+        "general",
+        "news"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["arm", "armed", "army", "disarm"],
+      "sameRoot": [
+        "arm",
+        "armed",
+        "army",
+        "disarm"
+      ],
       "sameAffix": [],
-      "synonyms": ["warning", "panic", "fright"],
-      "antonyms": ["calm", "reassurance"],
-      "domainCohort": ["警报", "危险", "警戒"],
-      "derivationPair": ["alarmed", "alarms"],
+      "synonyms": [
+        "warning",
+        "panic",
+        "fright"
+      ],
+      "antonyms": [
+        "calm",
+        "reassurance"
+      ],
+      "domainCohort": [
+        "警报",
+        "危险",
+        "警戒"
+      ],
+      "derivationPair": [
+        "alarmed",
+        "alarms"
+      ],
       "morphVariants": [],
-      "sameImagery": ["warning", "siren"]
+      "sameImagery": [
+        "warning",
+        "siren"
+      ]
     }
   },
   {
     "word": "alarmed",
     "phonetic": "",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "受惊的；焦虑的；惊恐的", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "al-", "role": "prefix", "canonical": "al-", "variantOf": null, "coreMeaning": { "cn": "向（源自意大利all'arme）", "en": "to the" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "arm", "role": "root", "canonical": "arm", "variantOf": null, "coreMeaning": { "cn": "武装", "en": "arms" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ed", "role": "suffix", "canonical": "-ed", "coreMeaning": { "cn": "过去分词/形容词化", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["arm", "alarm", "alarmed"],
+    "coreMeaning": [
+      {
+        "cn": "受惊的；焦虑的；惊恐的",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "al-",
+        "role": "prefix",
+        "canonical": "al-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "向（源自意大利all'arme）",
+          "en": "to the"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "arm",
+        "role": "root",
+        "canonical": "arm",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "武装",
+          "en": "arms"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ed",
+        "role": "suffix",
+        "canonical": "-ed",
+        "coreMeaning": {
+          "cn": "过去分词/形容词化",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "arm",
+      "alarm",
+      "alarmed"
+    ],
     "morphVariantOf": "alarm",
     "memorySemantics": {
       "literal": "被警报的",
-      "imageChain": ["警报", "被惊动", "惊恐"],
+      "imageChain": [
+        "警报",
+        "被惊动",
+        "惊恐"
+      ],
       "mnemonicExpr": "alarm(警报)+ed(被…) → 受警报惊动 → 惊恐的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义", "担忧"], "intensity": 0.8 },
-      "domain": ["news", "general"],
+      "sentiment": {
+        "tags": [
+          "贬义",
+          "担忧"
+        ],
+        "intensity": 0.8
+      },
+      "domain": [
+        "news",
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["alarm", "alarms", "arm", "army"],
-      "sameAffix": [{ "affix": "-ed", "members": ["frightened", "worried"] }],
-      "synonyms": ["frightened", "worried", "panicked"],
-      "antonyms": ["calm", "reassured"],
-      "domainCohort": ["fear", "anxiety"],
-      "derivationPair": ["alarm"],
+      "sameRoot": [
+        "alarm",
+        "alarms",
+        "arm",
+        "army"
+      ],
+      "sameAffix": [
+        "frightened",
+        "worried"
+      ],
+      "synonyms": [
+        "frightened",
+        "worried",
+        "panicked"
+      ],
+      "antonyms": [
+        "calm",
+        "reassured"
+      ],
+      "domainCohort": [
+        "fear",
+        "anxiety"
+      ],
+      "derivationPair": [
+        "alarm"
+      ],
       "morphVariants": [],
-      "sameImagery": ["panicked", "startled"]
+      "sameImagery": [
+        "panicked",
+        "startled"
+      ]
     }
   },
   {
     "word": "alarms",
     "phonetic": "/əˈlɑ:mz/",
-    "pos": ["n.", "v."],
-    "coreMeaning": [{ "cn": "警钟；使警觉（alarm的复数/第三人称）", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "al-", "role": "prefix", "canonical": "al-", "variantOf": null, "coreMeaning": { "cn": "向（源自意大利all'arme）", "en": "to the" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "arm", "role": "root", "canonical": "arm", "variantOf": null, "coreMeaning": { "cn": "武装", "en": "arms" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-s", "role": "suffix", "canonical": "-s", "coreMeaning": { "cn": "复数/第三人称单数", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": ["arm", "alarm", "alarms"],
+    "coreMeaning": [
+      {
+        "cn": "警钟；使警觉（alarm的复数/第三人称）",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "al-",
+        "role": "prefix",
+        "canonical": "al-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "向（源自意大利all'arme）",
+          "en": "to the"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "arm",
+        "role": "root",
+        "canonical": "arm",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "武装",
+          "en": "arms"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-s",
+        "role": "suffix",
+        "canonical": "-s",
+        "coreMeaning": {
+          "cn": "复数/第三人称单数",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "arm",
+      "alarm",
+      "alarms"
+    ],
     "morphVariantOf": "alarm",
     "memorySemantics": {
       "literal": "警报们",
-      "imageChain": ["警报", "多次", "警告"],
+      "imageChain": [
+        "警报",
+        "多次",
+        "警告"
+      ],
       "mnemonicExpr": "alarm(警报)+s(复数) → 多次警报"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义", "担忧"], "intensity": 0.6 },
-      "domain": ["tech", "news"],
+      "sentiment": {
+        "tags": [
+          "贬义",
+          "担忧"
+        ],
+        "intensity": 0.6
+      },
+      "domain": [
+        "tech",
+        "news"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["alarm", "alarmed", "arm"],
-      "sameAffix": [{ "affix": "-s", "members": ["warnings", "signals"] }],
-      "synonyms": ["warnings", "sirens"],
+      "sameRoot": [
+        "alarm",
+        "alarmed",
+        "arm"
+      ],
+      "sameAffix": [
+        "warnings",
+        "signals"
+      ],
+      "synonyms": [
+        "warnings",
+        "sirens"
+      ],
       "antonyms": [],
-      "domainCohort": ["警报", "警示", "信号"],
-      "derivationPair": ["alarm"],
-      "morphVariants": ["alarm"],
-      "sameImagery": ["sirens", "warnings"]
+      "domainCohort": [
+        "警报",
+        "警示",
+        "信号"
+      ],
+      "derivationPair": [
+        "alarm"
+      ],
+      "morphVariants": [
+        "alarm"
+      ],
+      "sameImagery": [
+        "sirens",
+        "warnings"
+      ]
     }
   },
   {
     "word": "albedo",
     "phonetic": "/æl'bi:dәu/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "反照率；反射系数", "domain": "academic", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "alb", "role": "root", "canonical": "alb", "variantOf": null, "coreMeaning": { "cn": "白色", "en": "white" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-edo", "role": "suffix", "canonical": "-edo", "coreMeaning": { "cn": "名词后缀，表状态", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["alb", "albedo"],
+    "coreMeaning": [
+      {
+        "cn": "反照率；反射系数",
+        "domain": "academic",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "alb",
+        "role": "root",
+        "canonical": "alb",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "白色",
+          "en": "white"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-edo",
+        "role": "suffix",
+        "canonical": "-edo",
+        "coreMeaning": {
+          "cn": "名词后缀，表状态",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "alb",
+      "albedo"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "白色度",
-      "imageChain": ["白色", "反射", "反照率"],
+      "imageChain": [
+        "白色",
+        "反射",
+        "反照率"
+      ],
       "mnemonicExpr": "alb(白)+edo(状态) → 表面的白亮程度 → 反照率"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["academic", "tech"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "academic",
+        "tech"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["album", "albino", "albumen"],
+      "sameRoot": [
+        "album",
+        "albino",
+        "albumen"
+      ],
       "sameAffix": [],
-      "synonyms": ["reflectivity", "reflectance"],
-      "antonyms": ["absorptivity"],
-      "domainCohort": ["astronomy", "climate", "reflection"],
+      "synonyms": [
+        "reflectivity",
+        "reflectance"
+      ],
+      "antonyms": [
+        "absorptivity"
+      ],
+      "domainCohort": [
+        "astronomy",
+        "climate",
+        "reflection"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["reflectance"]
+      "sameImagery": [
+        "reflectance"
+      ]
     }
   },
   {
     "word": "albeit",
     "phonetic": "/,ɔl'biɪt/",
-    "pos": ["conj."],
-    "coreMeaning": [{ "cn": "虽然；尽管", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "al", "role": "root", "canonical": "al", "variantOf": null, "coreMeaning": { "cn": "全部；即使", "en": "all; although" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "be", "role": "root", "canonical": "be", "variantOf": null, "coreMeaning": { "cn": "是", "en": "be" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "it", "role": "root", "canonical": "it", "variantOf": null, "coreMeaning": { "cn": "它", "en": "it" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "conj."
     ],
-    "derivationChain": ["all be it", "albeit"],
+    "coreMeaning": [
+      {
+        "cn": "虽然；尽管",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "al",
+        "role": "root",
+        "canonical": "al",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "全部；即使",
+          "en": "all; although"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "be",
+        "role": "root",
+        "canonical": "be",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "是",
+          "en": "be"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "it",
+        "role": "root",
+        "canonical": "it",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "它",
+          "en": "it"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "all be it",
+      "albeit"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "all+be+it = 即使如此",
-      "imageChain": ["虽然", "即使", "让步"],
+      "imageChain": [
+        "虽然",
+        "即使",
+        "让步"
+      ],
       "mnemonicExpr": "al(all)+be(是)+it(它) → 虽然它是 → 虽然；尽管"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.1 },
-      "domain": ["editorial", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "庄重"
+        ],
+        "intensity": 0.1
+      },
+      "domain": [
+        "editorial",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["although", "albeit"],
+      "sameRoot": [
+        "although",
+        "albeit"
+      ],
       "sameAffix": [],
-      "synonyms": ["although", "though", "even-though"],
+      "synonyms": [
+        "although",
+        "though",
+        "even-though"
+      ],
       "antonyms": [],
-      "domainCohort": ["concession", "conjunction"],
+      "domainCohort": [
+        "concession",
+        "conjunction"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["although", "though"]
+      "sameImagery": [
+        "although",
+        "though"
+      ]
     }
   },
   {
     "word": "albert",
     "phonetic": "/'ælbәt/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "艾伯特（男子名）", "domain": "news", "coverage": 1.0 }],
-    "morphemes": [
-      { "order": 1, "form": "albert", "role": "root", "canonical": "albert", "variantOf": null, "coreMeaning": { "cn": "男子名；日耳曼语\"高贵光明\"", "en": "given name; noble + bright" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["albert"],
+    "coreMeaning": [
+      {
+        "cn": "艾伯特（男子名）",
+        "domain": "news",
+        "coverage": 1.0
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "albert",
+        "role": "root",
+        "canonical": "albert",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "男子名；日耳曼语\"高贵光明\"",
+          "en": "given name; noble + bright"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "albert"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "日耳曼\"高贵+光明\"",
-      "imageChain": ["男子名", "高贵", "光明"],
+      "imageChain": [
+        "男子名",
+        "高贵",
+        "光明"
+      ],
       "mnemonicExpr": "Albert → 日耳曼语adal(高贵)+beraht(光明) → 男子名"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["news", "general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "news",
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
       "sameRoot": [],
       "sameAffix": [],
-      "synonyms": ["Al", "Bert"],
+      "synonyms": [
+        "Al",
+        "Bert"
+      ],
       "antonyms": [],
-      "domainCohort": ["name", "German", "English"],
+      "domainCohort": [
+        "name",
+        "German",
+        "English"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -1044,544 +3039,1766 @@
   {
     "word": "albugo",
     "phonetic": "/æl'bju:^әu/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "角膜白斑", "domain": "medical", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "alb", "role": "root", "canonical": "alb", "variantOf": null, "coreMeaning": { "cn": "白色", "en": "white" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-ugo", "role": "suffix", "canonical": "-ugo", "coreMeaning": { "cn": "拉丁名词后缀，表状态", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["alb", "albugo"],
+    "coreMeaning": [
+      {
+        "cn": "角膜白斑",
+        "domain": "medical",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "alb",
+        "role": "root",
+        "canonical": "alb",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "白色",
+          "en": "white"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-ugo",
+        "role": "suffix",
+        "canonical": "-ugo",
+        "coreMeaning": {
+          "cn": "拉丁名词后缀，表状态",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "alb",
+      "albugo"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "白色物",
-      "imageChain": ["白色", "角膜", "斑点"],
+      "imageChain": [
+        "白色",
+        "角膜",
+        "斑点"
+      ],
       "mnemonicExpr": "alb(白)+ugo(状态) → 角膜上出现的白斑"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义"], "intensity": 0.4 },
-      "domain": ["medical"],
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": 0.4
+      },
+      "domain": [
+        "medical"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["album", "albino", "albedo"],
+      "sameRoot": [
+        "album",
+        "albino",
+        "albedo"
+      ],
       "sameAffix": [],
-      "synonyms": ["leukoma", "cornea-whitening"],
+      "synonyms": [
+        "leukoma",
+        "cornea-whitening"
+      ],
       "antonyms": [],
-      "domainCohort": ["cornea", "ophthalmology"],
+      "domainCohort": [
+        "cornea",
+        "ophthalmology"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["leukoma"]
+      "sameImagery": [
+        "leukoma"
+      ]
     }
   },
   {
     "word": "album",
     "phonetic": "/'ælbəm/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "相册；唱片集；集邮簿", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "alb", "role": "root", "canonical": "alb", "variantOf": null, "coreMeaning": { "cn": "白色", "en": "white" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-um", "role": "suffix", "canonical": "-um", "coreMeaning": { "cn": "拉丁中性名词后缀", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["alb", "album"],
+    "coreMeaning": [
+      {
+        "cn": "相册；唱片集；集邮簿",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "alb",
+        "role": "root",
+        "canonical": "alb",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "白色",
+          "en": "white"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-um",
+        "role": "suffix",
+        "canonical": "-um",
+        "coreMeaning": {
+          "cn": "拉丁中性名词后缀",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "alb",
+      "album"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "白色空白物",
-      "imageChain": ["白板", "空白册", "相册"],
+      "imageChain": [
+        "白板",
+        "空白册",
+        "相册"
+      ],
       "mnemonicExpr": "alb(白)+um(物) → 白色空白的册子 → 相册"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["albedo", "albino", "albumen"],
-      "sameAffix": [{ "affix": "-um", "members": ["datum", "stratum"] }],
-      "synonyms": ["scrapbook", "record"],
+      "sameRoot": [
+        "albedo",
+        "albino",
+        "albumen"
+      ],
+      "sameAffix": [
+        "datum",
+        "stratum"
+      ],
+      "synonyms": [
+        "scrapbook",
+        "record"
+      ],
       "antonyms": [],
-      "domainCohort": ["photo", "music", "collection"],
+      "domainCohort": [
+        "photo",
+        "music",
+        "collection"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["scrapbook", "portfolio"]
+      "sameImagery": [
+        "scrapbook",
+        "portfolio"
+      ]
     }
   },
   {
     "word": "albumoid",
     "phonetic": "",
-    "pos": ["n.", "adj."],
-    "coreMeaning": [{ "cn": "硬蛋白；蛋白样的", "domain": "medical", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "album", "role": "root", "canonical": "album", "variantOf": "alb", "coreMeaning": { "cn": "蛋白", "en": "albumin; white" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-oid", "role": "suffix", "canonical": "-oid", "coreMeaning": { "cn": "类似...的", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n.",
+      "adj."
     ],
-    "derivationChain": ["alb", "albumin", "albumoid"],
+    "coreMeaning": [
+      {
+        "cn": "硬蛋白；蛋白样的",
+        "domain": "medical",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "album",
+        "role": "root",
+        "canonical": "album",
+        "variantOf": "alb",
+        "coreMeaning": {
+          "cn": "蛋白",
+          "en": "albumin; white"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-oid",
+        "role": "suffix",
+        "canonical": "-oid",
+        "coreMeaning": {
+          "cn": "类似...的",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "alb",
+      "albumin",
+      "albumoid"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "类似蛋白的",
-      "imageChain": ["蛋白", "类似", "硬蛋白"],
+      "imageChain": [
+        "蛋白",
+        "类似",
+        "硬蛋白"
+      ],
       "mnemonicExpr": "album(蛋白)+oid(类似) → 类似蛋白的物质 → 硬蛋白"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["medical", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["album", "albumen", "albumin"],
-      "sameAffix": [{ "affix": "-oid", "members": ["humanoid", "rhomboid"] }],
-      "synonyms": ["scleroprotein"],
+      "sameRoot": [
+        "album",
+        "albumen",
+        "albumin"
+      ],
+      "sameAffix": [
+        "humanoid",
+        "rhomboid"
+      ],
+      "synonyms": [
+        "scleroprotein"
+      ],
       "antonyms": [],
-      "domainCohort": ["protein", "biochemistry"],
+      "domainCohort": [
+        "protein",
+        "biochemistry"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["protein"]
+      "sameImagery": [
+        "protein"
+      ]
     }
   },
   {
     "word": "alchemist",
     "phonetic": "/'ælkəmɪst/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "炼金术士", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "al-", "role": "prefix", "canonical": "al-(the)", "variantOf": null, "coreMeaning": { "cn": "阿拉伯定冠词\"the\"", "en": "Arabic definite article" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "chem", "role": "root", "canonical": "chem", "variantOf": null, "coreMeaning": { "cn": "化学", "en": "chemical" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ist", "role": "suffix", "canonical": "-ist", "coreMeaning": { "cn": "…者", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["chem", "alchemy", "alchemist"],
+    "coreMeaning": [
+      {
+        "cn": "炼金术士",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "al-",
+        "role": "prefix",
+        "canonical": "al-(the)",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "阿拉伯定冠词\"the\"",
+          "en": "Arabic definite article"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "chem",
+        "role": "root",
+        "canonical": "chem",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "化学",
+          "en": "chemical"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ist",
+        "role": "suffix",
+        "canonical": "-ist",
+        "coreMeaning": {
+          "cn": "…者",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "chem",
+      "alchemy",
+      "alchemist"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "炼金术之士",
-      "imageChain": ["阿拉伯", "化学", "点金术士"],
+      "imageChain": [
+        "阿拉伯",
+        "化学",
+        "点金术士"
+      ],
       "mnemonicExpr": "al(阿拉伯the)+chem(化学)+ist(者) → 炼金术者"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "讽刺"], "intensity": 0.2 },
-      "domain": ["academic", "editorial"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "讽刺"
+        ],
+        "intensity": 0.2
+      },
+      "domain": [
+        "academic",
+        "editorial"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["alchemy", "chemistry", "chemist"],
-      "sameAffix": [{ "affix": "-ist", "members": ["chemist", "biologist"] }],
-      "synonyms": ["magus", "wizard"],
+      "sameRoot": [
+        "alchemy",
+        "chemistry",
+        "chemist"
+      ],
+      "sameAffix": [
+        "chemist",
+        "biologist"
+      ],
+      "synonyms": [
+        "magus",
+        "wizard"
+      ],
       "antonyms": [],
-      "domainCohort": ["magic", "chemistry", "medieval"],
-      "derivationPair": ["alchemy"],
+      "domainCohort": [
+        "magic",
+        "chemistry",
+        "medieval"
+      ],
+      "derivationPair": [
+        "alchemy"
+      ],
       "morphVariants": [],
-      "sameImagery": ["magician", "wizard"]
+      "sameImagery": [
+        "magician",
+        "wizard"
+      ]
     }
   },
   {
     "word": "alchemy",
     "phonetic": "/'ælkəmi/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "炼金术；点金术；魔力", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "al-", "role": "prefix", "canonical": "al-(the)", "variantOf": null, "coreMeaning": { "cn": "阿拉伯定冠词\"the\"", "en": "Arabic definite article" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "chem", "role": "root", "canonical": "chem", "variantOf": null, "coreMeaning": { "cn": "化学", "en": "chemical" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-y", "role": "suffix", "canonical": "-y", "coreMeaning": { "cn": "名词后缀，表技艺/性质", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["chem", "alchemy"],
+    "coreMeaning": [
+      {
+        "cn": "炼金术；点金术；魔力",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "al-",
+        "role": "prefix",
+        "canonical": "al-(the)",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "阿拉伯定冠词\"the\"",
+          "en": "Arabic definite article"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "chem",
+        "role": "root",
+        "canonical": "chem",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "化学",
+          "en": "chemical"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-y",
+        "role": "suffix",
+        "canonical": "-y",
+        "coreMeaning": {
+          "cn": "名词后缀，表技艺/性质",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "chem",
+      "alchemy"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "点金之术",
-      "imageChain": ["化学", "魔法", "变金"],
+      "imageChain": [
+        "化学",
+        "魔法",
+        "变金"
+      ],
       "mnemonicExpr": "al(the)+chem(化学)+y(术) → 神秘的点金术"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["混合", "讽刺"], "intensity": 0.3 },
-      "domain": ["editorial", "academic"],
+      "sentiment": {
+        "tags": [
+          "混合",
+          "讽刺"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "editorial",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["alchemist", "chemistry", "chemical"],
-      "sameAffix": [{ "affix": "-y", "members": ["biology", "geology"] }],
-      "synonyms": ["magic", "sorcery", "transmutation"],
-      "antonyms": ["science"],
-      "domainCohort": ["magic", "medieval", "chemistry"],
-      "derivationPair": ["alchemist"],
+      "sameRoot": [
+        "alchemist",
+        "chemistry",
+        "chemical"
+      ],
+      "sameAffix": [
+        "biology",
+        "geology"
+      ],
+      "synonyms": [
+        "magic",
+        "sorcery",
+        "transmutation"
+      ],
+      "antonyms": [
+        "science"
+      ],
+      "domainCohort": [
+        "magic",
+        "medieval",
+        "chemistry"
+      ],
+      "derivationPair": [
+        "alchemist"
+      ],
       "morphVariants": [],
-      "sameImagery": ["magic", "transmutation"]
+      "sameImagery": [
+        "magic",
+        "transmutation"
+      ]
     }
   },
   {
     "word": "alcohol",
     "phonetic": "/'ælkəhɔl/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "酒精；乙醇", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "al-", "role": "prefix", "canonical": "al-(the)", "variantOf": null, "coreMeaning": { "cn": "阿拉伯定冠词\"the\"", "en": "Arabic the" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "cohol", "role": "root", "canonical": "cohol", "variantOf": null, "coreMeaning": { "cn": "源自阿拉伯语kuḥl（眼黑粉，精华）", "en": "kohl; fine powder" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["al-kuhl", "alcohol"],
+    "coreMeaning": [
+      {
+        "cn": "酒精；乙醇",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "al-",
+        "role": "prefix",
+        "canonical": "al-(the)",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "阿拉伯定冠词\"the\"",
+          "en": "Arabic the"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "cohol",
+        "role": "root",
+        "canonical": "cohol",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "源自阿拉伯语kuḥl（眼黑粉，精华）",
+          "en": "kohl; fine powder"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "al-kuhl",
+      "alcohol"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "阿拉伯\"精华\"",
-      "imageChain": ["提炼", "精华", "酒精"],
+      "imageChain": [
+        "提炼",
+        "精华",
+        "酒精"
+      ],
       "mnemonicExpr": "al(the)+cohol(kuḥl精粉) → 蒸馏精华 → 酒精"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "medical"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "medical"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["alcoholic", "alcoholism"],
+      "sameRoot": [
+        "alcoholic",
+        "alcoholism"
+      ],
       "sameAffix": [],
-      "synonyms": ["ethanol", "liquor", "spirit"],
-      "antonyms": ["non-alcohol"],
-      "domainCohort": ["drink", "ethanol", "chemistry"],
+      "synonyms": [
+        "ethanol",
+        "liquor",
+        "spirit"
+      ],
+      "antonyms": [
+        "non-alcohol"
+      ],
+      "domainCohort": [
+        "drink",
+        "ethanol",
+        "chemistry"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["ethanol", "spirit"]
+      "sameImagery": [
+        "ethanol",
+        "spirit"
+      ]
     }
   },
   {
     "word": "alcove",
     "phonetic": "/'ælkov/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "凹室；壁龛", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "al-", "role": "prefix", "canonical": "al-(the)", "variantOf": null, "coreMeaning": { "cn": "阿拉伯定冠词\"the\"", "en": "Arabic the" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "cove", "role": "root", "canonical": "cove", "variantOf": null, "coreMeaning": { "cn": "凹处；小湾", "en": "vault; small hollow" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["cove", "alcove"],
+    "coreMeaning": [
+      {
+        "cn": "凹室；壁龛",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "al-",
+        "role": "prefix",
+        "canonical": "al-(the)",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "阿拉伯定冠词\"the\"",
+          "en": "Arabic the"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "cove",
+        "role": "root",
+        "canonical": "cove",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "凹处；小湾",
+          "en": "vault; small hollow"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "cove",
+      "alcove"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "阿拉伯\"拱顶室\"",
-      "imageChain": ["凹陷", "壁龛", "小屋"],
+      "imageChain": [
+        "凹陷",
+        "壁龛",
+        "小屋"
+      ],
       "mnemonicExpr": "al(the)+cove(凹处) → 墙壁上的凹陷小空间"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.2 },
-      "domain": ["general", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "庄重"
+        ],
+        "intensity": 0.2
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["cove", "covey"],
+      "sameRoot": [
+        "cove",
+        "covey"
+      ],
       "sameAffix": [],
-      "synonyms": ["niche", "recess", "bay"],
+      "synonyms": [
+        "niche",
+        "recess",
+        "bay"
+      ],
       "antonyms": [],
-      "domainCohort": ["architecture", "nook", "niche"],
+      "domainCohort": [
+        "architecture",
+        "nook",
+        "niche"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["niche", "nook"]
+      "sameImagery": [
+        "niche",
+        "nook"
+      ]
     }
   },
   {
     "word": "alcoxide",
     "phonetic": "/æl'kɔksaid/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "烃氧基金属（alkoxide变体）", "domain": "academic", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "alc", "role": "root", "canonical": "alc", "variantOf": "alcohol", "coreMeaning": { "cn": "烃/醇（alcohol截短）", "en": "alcohol; alkyl" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "ox", "role": "root", "canonical": "ox", "variantOf": null, "coreMeaning": { "cn": "氧", "en": "oxygen" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ide", "role": "suffix", "canonical": "-ide", "coreMeaning": { "cn": "化合物", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["alcohol", "alcoxide"],
+    "coreMeaning": [
+      {
+        "cn": "烃氧基金属（alkoxide变体）",
+        "domain": "academic",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "alc",
+        "role": "root",
+        "canonical": "alc",
+        "variantOf": "alcohol",
+        "coreMeaning": {
+          "cn": "烃/醇（alcohol截短）",
+          "en": "alcohol; alkyl"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "ox",
+        "role": "root",
+        "canonical": "ox",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "氧",
+          "en": "oxygen"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ide",
+        "role": "suffix",
+        "canonical": "-ide",
+        "coreMeaning": {
+          "cn": "化合物",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "alcohol",
+      "alcoxide"
+    ],
     "morphVariantOf": "alkoxide",
     "memorySemantics": {
       "literal": "烃氧化合物",
-      "imageChain": ["醇", "氧", "化合物"],
+      "imageChain": [
+        "醇",
+        "氧",
+        "化合物"
+      ],
       "mnemonicExpr": "alc(醇)+ox(氧)+ide(化合物) → 烃氧基金属"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["academic", "tech"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "academic",
+        "tech"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["alcohol", "alkoxide"],
-      "sameAffix": [{ "affix": "-ide", "members": ["oxide", "chloride"] }],
-      "synonyms": ["alkoxide"],
+      "sameRoot": [
+        "alcohol",
+        "alkoxide"
+      ],
+      "sameAffix": [
+        "oxide",
+        "chloride"
+      ],
+      "synonyms": [
+        "alkoxide"
+      ],
       "antonyms": [],
-      "domainCohort": ["chemistry", "compound", "organic"],
+      "domainCohort": [
+        "chemistry",
+        "compound",
+        "organic"
+      ],
       "derivationPair": [],
-      "morphVariants": ["alkoxide"],
-      "sameImagery": ["oxide"]
+      "morphVariants": [
+        "alkoxide"
+      ],
+      "sameImagery": [
+        "oxide"
+      ]
     }
   },
   {
     "word": "alderman",
     "phonetic": "/'ɔldɚmən/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "市议员；市府参事；高级市政官", "domain": "legal", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "alder", "role": "root", "canonical": "alder", "variantOf": null, "coreMeaning": { "cn": "年长者（古英语ealdor）", "en": "elder; senior" }, "sentiment": { "tags": ["褒义", "庄重"], "intensity": 0.4 }, "positionTendency": "initial" },
-      { "order": 2, "form": "man", "role": "root", "canonical": "man", "variantOf": null, "coreMeaning": { "cn": "人", "en": "man; person" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["alder", "alderman"],
+    "coreMeaning": [
+      {
+        "cn": "市议员；市府参事；高级市政官",
+        "domain": "legal",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "alder",
+        "role": "root",
+        "canonical": "alder",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "年长者（古英语ealdor）",
+          "en": "elder; senior"
+        },
+        "sentiment": {
+          "tags": [
+            "褒义",
+            "庄重"
+          ],
+          "intensity": 0.4
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "man",
+        "role": "root",
+        "canonical": "man",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "人",
+          "en": "man; person"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "alder",
+      "alderman"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "长者之人",
-      "imageChain": ["年长", "智者", "市议员"],
+      "imageChain": [
+        "年长",
+        "智者",
+        "市议员"
+      ],
       "mnemonicExpr": "alder(长者)+man(人) → 资历深的人 → 市议员"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.3 },
-      "domain": ["legal", "news"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "庄重"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "legal",
+        "news"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["elder", "eldest"],
-      "sameAffix": [{ "affix": "-man", "members": ["chairman", "spokesman"] }],
-      "synonyms": ["councilor", "councilman"],
+      "sameRoot": [
+        "elder",
+        "eldest"
+      ],
+      "sameAffix": [
+        "chairman",
+        "spokesman"
+      ],
+      "synonyms": [
+        "councilor",
+        "councilman"
+      ],
       "antonyms": [],
-      "domainCohort": ["council", "municipal", "government"],
+      "domainCohort": [
+        "council",
+        "municipal",
+        "government"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["councilor", "senator"]
+      "sameImagery": [
+        "councilor",
+        "senator"
+      ]
     }
   },
   {
     "word": "aleatory",
     "phonetic": "/'elɪə'tɔri/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "侥幸的；偶然的；依靠运气的", "domain": "academic", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "aleat", "role": "root", "canonical": "aleat", "variantOf": null, "coreMeaning": { "cn": "骰子；偶然", "en": "dice; chance" }, "sentiment": { "tags": ["中性"], "intensity": 0.1 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-ory", "role": "suffix", "canonical": "-ory", "variantOf": "-ary", "coreMeaning": { "cn": "…的（形容词）", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["alea", "aleatory"],
+    "coreMeaning": [
+      {
+        "cn": "侥幸的；偶然的；依靠运气的",
+        "domain": "academic",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "aleat",
+        "role": "root",
+        "canonical": "aleat",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "骰子；偶然",
+          "en": "dice; chance"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0.1
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-ory",
+        "role": "suffix",
+        "canonical": "-ory",
+        "variantOf": "-ary",
+        "coreMeaning": {
+          "cn": "…的（形容词）",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "alea",
+      "aleatory"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "依赖骰子的",
-      "imageChain": ["骰子", "偶然", "侥幸"],
+      "imageChain": [
+        "骰子",
+        "偶然",
+        "侥幸"
+      ],
       "mnemonicExpr": "aleat(骰子)+ory(…的) → 取决于骰子 → 偶然的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "担忧"], "intensity": 0.3 },
-      "domain": ["legal", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "担忧"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "legal",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["aleatoric"],
-      "sameAffix": [{ "affix": "-ory", "members": ["obligatory", "mandatory"] }],
-      "synonyms": ["random", "chancy", "fortuitous"],
-      "antonyms": ["deterministic", "certain"],
-      "domainCohort": ["chance", "randomness", "gamble"],
+      "sameRoot": [
+        "aleatoric"
+      ],
+      "sameAffix": [
+        "obligatory",
+        "mandatory"
+      ],
+      "synonyms": [
+        "random",
+        "chancy",
+        "fortuitous"
+      ],
+      "antonyms": [
+        "deterministic",
+        "certain"
+      ],
+      "domainCohort": [
+        "chance",
+        "randomness",
+        "gamble"
+      ],
       "derivationPair": [],
-      "morphVariants": ["aleatoric"],
-      "sameImagery": ["random", "dice"]
+      "morphVariants": [
+        "aleatoric"
+      ],
+      "sameImagery": [
+        "random",
+        "dice"
+      ]
     }
   },
   {
     "word": "alek",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "阿列克（俄语人名）", "domain": "news", "coverage": 1.0 }],
-    "morphemes": [
-      { "order": 1, "form": "alek", "role": "root", "canonical": "alek", "variantOf": "alexander", "coreMeaning": { "cn": "人名（Alexander缩略）", "en": "diminutive of Alexander" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["alek"],
+    "coreMeaning": [
+      {
+        "cn": "阿列克（俄语人名）",
+        "domain": "news",
+        "coverage": 1.0
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "alek",
+        "role": "root",
+        "canonical": "alek",
+        "variantOf": "alexander",
+        "coreMeaning": {
+          "cn": "人名（Alexander缩略）",
+          "en": "diminutive of Alexander"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "alek"
+    ],
     "morphVariantOf": "Alexander",
     "memorySemantics": {
       "literal": "Alexander简称",
-      "imageChain": ["俄语人名", "昵称"],
+      "imageChain": [
+        "俄语人名",
+        "昵称"
+      ],
       "mnemonicExpr": "Alek → Alexander的俄语缩略 → 男子名"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["news", "general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "news",
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["alex", "aleksandr", "alexander"],
+      "sameRoot": [
+        "alex",
+        "aleksandr",
+        "alexander"
+      ],
       "sameAffix": [],
-      "synonyms": ["Alex"],
+      "synonyms": [
+        "Alex"
+      ],
       "antonyms": [],
-      "domainCohort": ["name", "Russian", "Greek"],
+      "domainCohort": [
+        "name",
+        "Russian",
+        "Greek"
+      ],
       "derivationPair": [],
-      "morphVariants": ["Alex", "Aleksandr"],
+      "morphVariants": [
+        "Alex",
+        "Aleksandr"
+      ],
       "sameImagery": []
     }
   },
   {
     "word": "aleksandr",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "亚历山大（俄语拼写）", "domain": "news", "coverage": 1.0 }],
-    "morphemes": [
-      { "order": 1, "form": "aleksandr", "role": "root", "canonical": "aleksandr", "variantOf": "alexander", "coreMeaning": { "cn": "人名；希腊\"捍卫者\"", "en": "defender of men" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["aleksandr"],
+    "coreMeaning": [
+      {
+        "cn": "亚历山大（俄语拼写）",
+        "domain": "news",
+        "coverage": 1.0
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "aleksandr",
+        "role": "root",
+        "canonical": "aleksandr",
+        "variantOf": "alexander",
+        "coreMeaning": {
+          "cn": "人名；希腊\"捍卫者\"",
+          "en": "defender of men"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "aleksandr"
+    ],
     "morphVariantOf": "Alexander",
     "memorySemantics": {
       "literal": "希腊\"人之捍卫者\"",
-      "imageChain": ["人名", "捍卫", "亚历山大大帝"],
+      "imageChain": [
+        "人名",
+        "捍卫",
+        "亚历山大大帝"
+      ],
       "mnemonicExpr": "Aleksandr → Alexander俄语拼写 → 人之捍卫者"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.2 },
-      "domain": ["news", "general"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "庄重"
+        ],
+        "intensity": 0.2
+      },
+      "domain": [
+        "news",
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["alex", "alek", "alexander", "alessandro"],
+      "sameRoot": [
+        "alex",
+        "alek",
+        "alexander",
+        "alessandro"
+      ],
       "sameAffix": [],
-      "synonyms": ["Alexander"],
+      "synonyms": [
+        "Alexander"
+      ],
       "antonyms": [],
-      "domainCohort": ["name", "Russian", "Greek"],
+      "domainCohort": [
+        "name",
+        "Russian",
+        "Greek"
+      ],
       "derivationPair": [],
-      "morphVariants": ["Alexander", "Alessandro"],
+      "morphVariants": [
+        "Alexander",
+        "Alessandro"
+      ],
       "sameImagery": []
     }
   },
   {
     "word": "alert",
     "phonetic": "/ə'lɝt/",
-    "pos": ["adj.", "n.", "v."],
-    "coreMeaning": [{ "cn": "警觉的；警报；警告", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "al-", "role": "prefix", "canonical": "al-", "variantOf": null, "coreMeaning": { "cn": "向（意大利all'erta）", "en": "to the (Italian)" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "ert", "role": "root", "canonical": "ert", "variantOf": null, "coreMeaning": { "cn": "高处；瞭望", "en": "watch-tower; on the lookout" }, "sentiment": { "tags": ["中性"], "intensity": 0.1 }, "positionTendency": "final" }
+    "pos": [
+      "adj.",
+      "n.",
+      "v."
     ],
-    "derivationChain": ["erta", "alert"],
+    "coreMeaning": [
+      {
+        "cn": "警觉的；警报；警告",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "al-",
+        "role": "prefix",
+        "canonical": "al-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "向（意大利all'erta）",
+          "en": "to the (Italian)"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "ert",
+        "role": "root",
+        "canonical": "ert",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "高处；瞭望",
+          "en": "watch-tower; on the lookout"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0.1
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "erta",
+      "alert"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "登高瞭望",
-      "imageChain": ["瞭望", "警觉", "警报"],
+      "imageChain": [
+        "瞭望",
+        "警觉",
+        "警报"
+      ],
       "mnemonicExpr": "al(向)+ert(高地) → 上高岗瞭望 → 警觉"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "担忧"], "intensity": 0.4 },
-      "domain": ["general", "news", "tech"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "担忧"
+        ],
+        "intensity": 0.4
+      },
+      "domain": [
+        "general",
+        "news",
+        "tech"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["alerts", "alertness"],
+      "sameRoot": [
+        "alerts",
+        "alertness"
+      ],
       "sameAffix": [],
-      "synonyms": ["vigilant", "attentive", "wary"],
-      "antonyms": ["careless", "inattentive"],
-      "domainCohort": ["警觉", "警告", "警戒"],
-      "derivationPair": ["alerts"],
+      "synonyms": [
+        "vigilant",
+        "attentive",
+        "wary"
+      ],
+      "antonyms": [
+        "careless",
+        "inattentive"
+      ],
+      "domainCohort": [
+        "警觉",
+        "警告",
+        "警戒"
+      ],
+      "derivationPair": [
+        "alerts"
+      ],
       "morphVariants": [],
-      "sameImagery": ["vigilant", "watchful"]
+      "sameImagery": [
+        "vigilant",
+        "watchful"
+      ]
     }
   },
   {
     "word": "alerts",
     "phonetic": "/əˈlə:ts/",
-    "pos": ["n.", "v."],
-    "coreMeaning": [{ "cn": "警戒；报警信号（alert的复数/第三人称）", "domain": "tech", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "al-", "role": "prefix", "canonical": "al-", "variantOf": null, "coreMeaning": { "cn": "向", "en": "to the" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "ert", "role": "root", "canonical": "ert", "variantOf": null, "coreMeaning": { "cn": "瞭望；高处", "en": "watch-tower" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-s", "role": "suffix", "canonical": "-s", "coreMeaning": { "cn": "复数/第三人称", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": ["alert", "alerts"],
+    "coreMeaning": [
+      {
+        "cn": "警戒；报警信号（alert的复数/第三人称）",
+        "domain": "tech",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "al-",
+        "role": "prefix",
+        "canonical": "al-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "向",
+          "en": "to the"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "ert",
+        "role": "root",
+        "canonical": "ert",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "瞭望；高处",
+          "en": "watch-tower"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-s",
+        "role": "suffix",
+        "canonical": "-s",
+        "coreMeaning": {
+          "cn": "复数/第三人称",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "alert",
+      "alerts"
+    ],
     "morphVariantOf": "alert",
     "memorySemantics": {
       "literal": "警报们",
-      "imageChain": ["警觉", "多次", "警报"],
+      "imageChain": [
+        "警觉",
+        "多次",
+        "警报"
+      ],
       "mnemonicExpr": "alert(警觉)+s → 多次报警"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "担忧"], "intensity": 0.4 },
-      "domain": ["tech", "news"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "担忧"
+        ],
+        "intensity": 0.4
+      },
+      "domain": [
+        "tech",
+        "news"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["alert", "alertness"],
-      "sameAffix": [{ "affix": "-s", "members": ["warnings", "notices"] }],
-      "synonyms": ["warnings", "notices"],
+      "sameRoot": [
+        "alert",
+        "alertness"
+      ],
+      "sameAffix": [
+        "warnings",
+        "notices"
+      ],
+      "synonyms": [
+        "warnings",
+        "notices"
+      ],
       "antonyms": [],
-      "domainCohort": ["警告", "警报", "监控"],
-      "derivationPair": ["alert"],
-      "morphVariants": ["alert"],
-      "sameImagery": ["notifications", "warnings"]
+      "domainCohort": [
+        "警告",
+        "警报",
+        "监控"
+      ],
+      "derivationPair": [
+        "alert"
+      ],
+      "morphVariants": [
+        "alert"
+      ],
+      "sameImagery": [
+        "notifications",
+        "warnings"
+      ]
     }
   },
   {
     "word": "alessandro",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "亚历山大（意大利男子名）", "domain": "news", "coverage": 1.0 }],
-    "morphemes": [
-      { "order": 1, "form": "alessandro", "role": "root", "canonical": "alessandro", "variantOf": "alexander", "coreMeaning": { "cn": "人名（意大利语）", "en": "Italian form of Alexander" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["alessandro"],
+    "coreMeaning": [
+      {
+        "cn": "亚历山大（意大利男子名）",
+        "domain": "news",
+        "coverage": 1.0
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "alessandro",
+        "role": "root",
+        "canonical": "alessandro",
+        "variantOf": "alexander",
+        "coreMeaning": {
+          "cn": "人名（意大利语）",
+          "en": "Italian form of Alexander"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "alessandro"
+    ],
     "morphVariantOf": "Alexander",
     "memorySemantics": {
       "literal": "Alexander意大利形",
-      "imageChain": ["意大利", "人名"],
+      "imageChain": [
+        "意大利",
+        "人名"
+      ],
       "mnemonicExpr": "Alessandro → Alexander的意大利语形式"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["news", "general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "news",
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["alexander", "aleksandr", "alek"],
+      "sameRoot": [
+        "alexander",
+        "aleksandr",
+        "alek"
+      ],
       "sameAffix": [],
-      "synonyms": ["Alexander"],
+      "synonyms": [
+        "Alexander"
+      ],
       "antonyms": [],
-      "domainCohort": ["name", "Italian", "Greek"],
+      "domainCohort": [
+        "name",
+        "Italian",
+        "Greek"
+      ],
       "derivationPair": [],
-      "morphVariants": ["Alexander", "Aleksandr"],
+      "morphVariants": [
+        "Alexander",
+        "Aleksandr"
+      ],
       "sameImagery": []
     }
   },
   {
     "word": "aleve",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "萘普生钠（一种消炎药品牌）", "domain": "medical", "coverage": 1.0 }],
-    "morphemes": [
-      { "order": 1, "form": "aleve", "role": "root", "canonical": "aleve", "variantOf": null, "coreMeaning": { "cn": "药品商标名", "en": "drug brand name" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["aleve"],
+    "coreMeaning": [
+      {
+        "cn": "萘普生钠（一种消炎药品牌）",
+        "domain": "medical",
+        "coverage": 1.0
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "aleve",
+        "role": "root",
+        "canonical": "aleve",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "药品商标名",
+          "en": "drug brand name"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "aleve"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "药品商标",
-      "imageChain": ["萘普生", "止痛", "消炎"],
+      "imageChain": [
+        "萘普生",
+        "止痛",
+        "消炎"
+      ],
       "mnemonicExpr": "Aleve → 萘普生钠品牌，取自relieve(缓解)的截短"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["medical", "business"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical",
+        "business"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
       "sameRoot": [],
       "sameAffix": [],
-      "synonyms": ["naproxen"],
+      "synonyms": [
+        "naproxen"
+      ],
       "antonyms": [],
-      "domainCohort": ["analgesic", "NSAID", "drug"],
+      "domainCohort": [
+        "analgesic",
+        "NSAID",
+        "drug"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["Advil", "Tylenol"]
+      "sameImagery": [
+        "Advil",
+        "Tylenol"
+      ]
     }
   },
   {
     "word": "alexa",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "亚莉克莎（女子名）；亚马逊语音助手", "domain": "tech", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "alexa", "role": "root", "canonical": "alexa", "variantOf": "alexander", "coreMeaning": { "cn": "人名；Alexander女性形", "en": "female form of Alexander" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["alexa"],
+    "coreMeaning": [
+      {
+        "cn": "亚莉克莎（女子名）；亚马逊语音助手",
+        "domain": "tech",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "alexa",
+        "role": "root",
+        "canonical": "alexa",
+        "variantOf": "alexander",
+        "coreMeaning": {
+          "cn": "人名；Alexander女性形",
+          "en": "female form of Alexander"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "alexa"
+    ],
     "morphVariantOf": "Alexandra",
     "memorySemantics": {
       "literal": "Alexander女子形",
-      "imageChain": ["女子名", "语音助手"],
+      "imageChain": [
+        "女子名",
+        "语音助手"
+      ],
       "mnemonicExpr": "Alexa → Alexandra的简称，也是Amazon语音助手名"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["tech", "news"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech",
+        "news"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["alexander", "alessandro", "alek"],
+      "sameRoot": [
+        "alexander",
+        "alessandro",
+        "alek"
+      ],
       "sameAffix": [],
-      "synonyms": ["Alexandra"],
+      "synonyms": [
+        "Alexandra"
+      ],
       "antonyms": [],
-      "domainCohort": ["name", "voice-assistant", "Amazon"],
+      "domainCohort": [
+        "name",
+        "voice-assistant",
+        "Amazon"
+      ],
       "derivationPair": [],
-      "morphVariants": ["Alexandra"],
-      "sameImagery": ["Siri", "Cortana"]
+      "morphVariants": [
+        "Alexandra"
+      ],
+      "sameImagery": [
+        "Siri",
+        "Cortana"
+      ]
     }
   }
 ]

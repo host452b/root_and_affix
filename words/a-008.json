@@ -2,119 +2,420 @@
   {
     "word": "addiction",
     "phonetic": "/ə'dɪkʃən/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "瘾；沉溺", "domain": "medical", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "ad-", "role": "prefix", "canonical": "ad-", "coreMeaning": { "cn": "向；朝", "en": "to; toward" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "dict", "role": "root", "canonical": "dict", "coreMeaning": { "cn": "说、宣告、约定", "en": "to say, speak" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ion", "role": "suffix", "canonical": "-tion", "coreMeaning": { "cn": "名词化：行为、状态", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["dict", "addict", "addiction"],
+    "coreMeaning": [
+      {
+        "cn": "瘾；沉溺",
+        "domain": "medical",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ad-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "coreMeaning": {
+          "cn": "向；朝",
+          "en": "to; toward"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "dict",
+        "role": "root",
+        "canonical": "dict",
+        "coreMeaning": {
+          "cn": "说、宣告、约定",
+          "en": "to say, speak"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ion",
+        "role": "suffix",
+        "canonical": "-tion",
+        "coreMeaning": {
+          "cn": "名词化：行为、状态",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "dict",
+      "addict",
+      "addiction"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "向…宣告的状态",
-      "imageChain": ["宣誓效忠", "无法自拔", "上瘾"],
+      "imageChain": [
+        "宣誓效忠",
+        "无法自拔",
+        "上瘾"
+      ],
       "mnemonicExpr": "ad(向)+dict(说、誓言)+ion → 把自己交付给某物 → 瘾"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义", "担忧"], "intensity": 0.7 },
-      "domain": ["medical", "news"],
+      "sentiment": {
+        "tags": [
+          "贬义",
+          "担忧"
+        ],
+        "intensity": 0.7
+      },
+      "domain": [
+        "medical",
+        "news"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["dictate", "predict", "contradict", "verdict"],
-      "sameAffix": [{ "affix": "-tion", "members": ["action", "reaction"] }],
-      "synonyms": ["dependency", "habit"],
-      "antonyms": ["abstinence"],
-      "domainCohort": ["drug", "gambling", "withdrawal"],
-      "derivationPair": ["addict", "addictive"],
+      "sameRoot": [
+        "dictate",
+        "predict",
+        "contradict",
+        "verdict"
+      ],
+      "sameAffix": [
+        "action",
+        "reaction"
+      ],
+      "synonyms": [
+        "dependency",
+        "habit"
+      ],
+      "antonyms": [
+        "abstinence"
+      ],
+      "domainCohort": [
+        "drug",
+        "gambling",
+        "withdrawal"
+      ],
+      "derivationPair": [
+        "addict",
+        "addictive"
+      ],
       "morphVariants": [],
-      "sameImagery": ["addict", "addictive"]
+      "sameImagery": [
+        "addict",
+        "addictive"
+      ]
     }
   },
   {
     "word": "addictive",
     "phonetic": "/ə'dɪktɪv/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "使人上瘾的；使人沉醉的", "domain": "medical", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "ad-", "role": "prefix", "canonical": "ad-", "coreMeaning": { "cn": "向；朝", "en": "to; toward" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "dict", "role": "root", "canonical": "dict", "coreMeaning": { "cn": "说、宣告、誓言", "en": "to say, speak" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ive", "role": "suffix", "canonical": "-ive", "coreMeaning": { "cn": "有…倾向的", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["dict", "addict", "addictive"],
+    "coreMeaning": [
+      {
+        "cn": "使人上瘾的；使人沉醉的",
+        "domain": "medical",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ad-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "coreMeaning": {
+          "cn": "向；朝",
+          "en": "to; toward"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "dict",
+        "role": "root",
+        "canonical": "dict",
+        "coreMeaning": {
+          "cn": "说、宣告、誓言",
+          "en": "to say, speak"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ive",
+        "role": "suffix",
+        "canonical": "-ive",
+        "coreMeaning": {
+          "cn": "有…倾向的",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "dict",
+      "addict",
+      "addictive"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "令人献身的",
-      "imageChain": ["令人献身", "欲罢不能", "使人上瘾"],
+      "imageChain": [
+        "令人献身",
+        "欲罢不能",
+        "使人上瘾"
+      ],
       "mnemonicExpr": "ad+dict(誓言)+ive → 让人誓死追求 → 使人上瘾的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义", "担忧"], "intensity": 0.6 },
-      "domain": ["medical", "general"],
+      "sentiment": {
+        "tags": [
+          "贬义",
+          "担忧"
+        ],
+        "intensity": 0.6
+      },
+      "domain": [
+        "medical",
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["contradict", "predict", "dictate"],
-      "sameAffix": [{ "affix": "-ive", "members": ["active", "creative"] }],
-      "synonyms": ["habit-forming", "compulsive"],
-      "antonyms": ["repellent"],
-      "domainCohort": ["drug", "craving"],
-      "derivationPair": ["addict", "addiction"],
+      "sameRoot": [
+        "contradict",
+        "predict",
+        "dictate"
+      ],
+      "sameAffix": [
+        "active",
+        "creative"
+      ],
+      "synonyms": [
+        "habit-forming",
+        "compulsive"
+      ],
+      "antonyms": [
+        "repellent"
+      ],
+      "domainCohort": [
+        "drug",
+        "craving"
+      ],
+      "derivationPair": [
+        "addict",
+        "addiction"
+      ],
       "morphVariants": [],
-      "sameImagery": ["addict", "addiction"]
+      "sameImagery": [
+        "addict",
+        "addiction"
+      ]
     }
   },
   {
     "word": "addin",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "外接程序；插件", "domain": "tech", "coverage": 0.85 }],
-    "morphemes": [
-      { "order": 1, "form": "add", "role": "root", "canonical": "add", "coreMeaning": { "cn": "加、增加", "en": "to add" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "in", "role": "root", "canonical": "in", "coreMeaning": { "cn": "进入；内", "en": "in, into" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["add", "addin"],
+    "coreMeaning": [
+      {
+        "cn": "外接程序；插件",
+        "domain": "tech",
+        "coverage": 0.85
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "add",
+        "role": "root",
+        "canonical": "add",
+        "coreMeaning": {
+          "cn": "加、增加",
+          "en": "to add"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "in",
+        "role": "root",
+        "canonical": "in",
+        "coreMeaning": {
+          "cn": "进入；内",
+          "en": "in, into"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "add",
+      "addin"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "加进去",
-      "imageChain": ["加入", "扩展功能", "插件"],
+      "imageChain": [
+        "加入",
+        "扩展功能",
+        "插件"
+      ],
       "mnemonicExpr": "add(加)+in(进) → 加进主程序的模块 → 插件"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["tech"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["add", "addition", "addon"],
+      "sameRoot": [
+        "add",
+        "addition",
+        "addon"
+      ],
       "sameAffix": [],
-      "synonyms": ["plugin", "add-on"],
+      "synonyms": [
+        "plugin",
+        "add-on"
+      ],
       "antonyms": [],
-      "domainCohort": ["software", "extension", "module"],
-      "derivationPair": ["add", "addon"],
-      "morphVariants": ["add-in"],
-      "sameImagery": ["addon", "plugin"]
+      "domainCohort": [
+        "software",
+        "extension",
+        "module"
+      ],
+      "derivationPair": [
+        "add",
+        "addon"
+      ],
+      "morphVariants": [
+        "add-in"
+      ],
+      "sameImagery": [
+        "addon",
+        "plugin"
+      ]
     }
   },
   {
     "word": "addis",
     "phonetic": "/'ædis/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "艾缔思（姓氏）", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "addis", "role": "root", "canonical": "addis", "coreMeaning": { "cn": "人名/地名", "en": "surname; Addis (as in Addis Ababa)" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["addis"],
+    "coreMeaning": [
+      {
+        "cn": "艾缔思（姓氏）",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "addis",
+        "role": "root",
+        "canonical": "addis",
+        "coreMeaning": {
+          "cn": "人名/地名",
+          "en": "surname; Addis (as in Addis Ababa)"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "addis"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "音译名",
-      "imageChain": ["Addis", "姓氏", "艾缔思"],
+      "imageChain": [
+        "Addis",
+        "姓氏",
+        "艾缔思"
+      ],
       "mnemonicExpr": "Addis → 专有名词 → 艾缔思"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["news", "general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "news",
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -122,7 +423,10 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["name", "surname"],
+      "domainCohort": [
+        "name",
+        "surname"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -131,21 +435,59 @@
   {
     "word": "addison",
     "phonetic": "/'ædisn/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "艾迪生（姓氏）", "domain": "medical", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "addison", "role": "root", "canonical": "addison", "coreMeaning": { "cn": "人名", "en": "surname Addison" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["addison"],
+    "coreMeaning": [
+      {
+        "cn": "艾迪生（姓氏）",
+        "domain": "medical",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "addison",
+        "role": "root",
+        "canonical": "addison",
+        "coreMeaning": {
+          "cn": "人名",
+          "en": "surname Addison"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "addison"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "音译名",
-      "imageChain": ["Addison", "人名", "艾迪生"],
+      "imageChain": [
+        "Addison",
+        "人名",
+        "艾迪生"
+      ],
       "mnemonicExpr": "Addison → 专有名词 → 艾迪生"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["medical", "news"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical",
+        "news"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -153,7 +495,11 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["name", "disease", "Addison's disease"],
+      "domainCohort": [
+        "name",
+        "disease",
+        "Addison's disease"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -162,445 +508,1569 @@
   {
     "word": "addition",
     "phonetic": "/ə'dɪʃən/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "加法；附加部分", "domain": "academic", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "ad-", "role": "prefix", "canonical": "ad-", "coreMeaning": { "cn": "向；加", "en": "to; toward" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "dit", "role": "root", "canonical": "don", "variantOf": "dit", "coreMeaning": { "cn": "给；放", "en": "to give, put" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ion", "role": "suffix", "canonical": "-tion", "coreMeaning": { "cn": "名词化", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["add", "addition"],
+    "coreMeaning": [
+      {
+        "cn": "加法；附加部分",
+        "domain": "academic",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ad-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "coreMeaning": {
+          "cn": "向；加",
+          "en": "to; toward"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "dit",
+        "role": "root",
+        "canonical": "don",
+        "variantOf": "dit",
+        "coreMeaning": {
+          "cn": "给；放",
+          "en": "to give, put"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ion",
+        "role": "suffix",
+        "canonical": "-tion",
+        "coreMeaning": {
+          "cn": "名词化",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "add",
+      "addition"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "加到一起的行为",
-      "imageChain": ["加放", "累积", "加法"],
+      "imageChain": [
+        "加放",
+        "累积",
+        "加法"
+      ],
       "mnemonicExpr": "ad(向)+dit(给)+ion → 加到一起 → 加法"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["academic", "general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "academic",
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["edit", "tradition", "edition"],
-      "sameAffix": [{ "affix": "-tion", "members": ["action", "nation"] }],
-      "synonyms": ["increase", "augmentation"],
-      "antonyms": ["subtraction"],
-      "domainCohort": ["math", "arithmetic"],
-      "derivationPair": ["add", "additional"],
+      "sameRoot": [
+        "edit",
+        "tradition",
+        "edition"
+      ],
+      "sameAffix": [
+        "action",
+        "nation"
+      ],
+      "synonyms": [
+        "increase",
+        "augmentation"
+      ],
+      "antonyms": [
+        "subtraction"
+      ],
+      "domainCohort": [
+        "math",
+        "arithmetic"
+      ],
+      "derivationPair": [
+        "add",
+        "additional"
+      ],
       "morphVariants": [],
-      "sameImagery": ["additional", "additive"]
+      "sameImagery": [
+        "additional",
+        "additive"
+      ]
     }
   },
   {
     "word": "additional",
     "phonetic": "/ə'dɪʃənl/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "附加的，额外的", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "ad-", "role": "prefix", "canonical": "ad-", "coreMeaning": { "cn": "向；加", "en": "to" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "dit", "role": "root", "canonical": "don", "variantOf": "dit", "coreMeaning": { "cn": "给；放", "en": "to give" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ion", "role": "suffix", "canonical": "-tion", "coreMeaning": { "cn": "名词化", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 4, "form": "-al", "role": "suffix", "canonical": "-al", "coreMeaning": { "cn": "…的", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["add", "addition", "additional"],
+    "coreMeaning": [
+      {
+        "cn": "附加的，额外的",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ad-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "coreMeaning": {
+          "cn": "向；加",
+          "en": "to"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "dit",
+        "role": "root",
+        "canonical": "don",
+        "variantOf": "dit",
+        "coreMeaning": {
+          "cn": "给；放",
+          "en": "to give"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ion",
+        "role": "suffix",
+        "canonical": "-tion",
+        "coreMeaning": {
+          "cn": "名词化",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 4,
+        "form": "-al",
+        "role": "suffix",
+        "canonical": "-al",
+        "coreMeaning": {
+          "cn": "…的",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "add",
+      "addition",
+      "additional"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "与加法有关的",
-      "imageChain": ["加法的", "附加", "额外的"],
+      "imageChain": [
+        "加法的",
+        "附加",
+        "额外的"
+      ],
       "mnemonicExpr": "addition(加法)+al(的) → 附加的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["edit", "tradition"],
-      "sameAffix": [{ "affix": "-al", "members": ["natural", "national"] }],
-      "synonyms": ["extra", "supplementary"],
-      "antonyms": ["basic"],
-      "domainCohort": ["extra", "supplement"],
-      "derivationPair": ["addition"],
+      "sameRoot": [
+        "edit",
+        "tradition"
+      ],
+      "sameAffix": [
+        "natural",
+        "national"
+      ],
+      "synonyms": [
+        "extra",
+        "supplementary"
+      ],
+      "antonyms": [
+        "basic"
+      ],
+      "domainCohort": [
+        "extra",
+        "supplement"
+      ],
+      "derivationPair": [
+        "addition"
+      ],
       "morphVariants": [],
-      "sameImagery": ["addition", "additive"]
+      "sameImagery": [
+        "addition",
+        "additive"
+      ]
     }
   },
   {
     "word": "additions",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "附加物；附件（addition的复数）", "domain": "finance", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "ad-", "role": "prefix", "canonical": "ad-", "coreMeaning": { "cn": "向；加", "en": "to" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "dit", "role": "root", "canonical": "don", "variantOf": "dit", "coreMeaning": { "cn": "给；放", "en": "to give" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ion", "role": "suffix", "canonical": "-tion", "coreMeaning": { "cn": "名词化", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 4, "form": "-s", "role": "suffix", "canonical": "-s", "coreMeaning": { "cn": "复数", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["add", "addition", "additions"],
+    "coreMeaning": [
+      {
+        "cn": "附加物；附件（addition的复数）",
+        "domain": "finance",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ad-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "coreMeaning": {
+          "cn": "向；加",
+          "en": "to"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "dit",
+        "role": "root",
+        "canonical": "don",
+        "variantOf": "dit",
+        "coreMeaning": {
+          "cn": "给；放",
+          "en": "to give"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ion",
+        "role": "suffix",
+        "canonical": "-tion",
+        "coreMeaning": {
+          "cn": "名词化",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 4,
+        "form": "-s",
+        "role": "suffix",
+        "canonical": "-s",
+        "coreMeaning": {
+          "cn": "复数",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "add",
+      "addition",
+      "additions"
+    ],
     "morphVariantOf": "addition",
     "memorySemantics": {
       "literal": "多个附加物",
-      "imageChain": ["附加物", "增加项", "多个"],
+      "imageChain": [
+        "附加物",
+        "增加项",
+        "多个"
+      ],
       "mnemonicExpr": "addition(附加)+s(复数) → 附加物；附件"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["finance", "tech"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "finance",
+        "tech"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["addition", "edit"],
-      "sameAffix": [{ "affix": "-s", "members": ["books", "items"] }],
-      "synonyms": ["attachments", "extras"],
-      "antonyms": ["deletions"],
-      "domainCohort": ["accounting", "supplement"],
-      "derivationPair": ["addition"],
+      "sameRoot": [
+        "addition",
+        "edit"
+      ],
+      "sameAffix": [
+        "books",
+        "items"
+      ],
+      "synonyms": [
+        "attachments",
+        "extras"
+      ],
+      "antonyms": [
+        "deletions"
+      ],
+      "domainCohort": [
+        "accounting",
+        "supplement"
+      ],
+      "derivationPair": [
+        "addition"
+      ],
       "morphVariants": [],
-      "sameImagery": ["addition"]
+      "sameImagery": [
+        "addition"
+      ]
     }
   },
   {
     "word": "additive",
     "phonetic": "/'ædətɪv/",
-    "pos": ["adj.", "n."],
-    "coreMeaning": [{ "cn": "附加的；添加剂", "domain": "academic", "coverage": 0.85 }],
-    "morphemes": [
-      { "order": 1, "form": "ad-", "role": "prefix", "canonical": "ad-", "coreMeaning": { "cn": "向；加", "en": "to" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "dit", "role": "root", "canonical": "don", "variantOf": "dit", "coreMeaning": { "cn": "给；放", "en": "to give" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ive", "role": "suffix", "canonical": "-ive", "coreMeaning": { "cn": "有…倾向的/性质的", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj.",
+      "n."
     ],
-    "derivationChain": ["add", "additive"],
+    "coreMeaning": [
+      {
+        "cn": "附加的；添加剂",
+        "domain": "academic",
+        "coverage": 0.85
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ad-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "coreMeaning": {
+          "cn": "向；加",
+          "en": "to"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "dit",
+        "role": "root",
+        "canonical": "don",
+        "variantOf": "dit",
+        "coreMeaning": {
+          "cn": "给；放",
+          "en": "to give"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ive",
+        "role": "suffix",
+        "canonical": "-ive",
+        "coreMeaning": {
+          "cn": "有…倾向的/性质的",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "add",
+      "additive"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "倾向于加的",
-      "imageChain": ["加入", "添加", "添加剂"],
+      "imageChain": [
+        "加入",
+        "添加",
+        "添加剂"
+      ],
       "mnemonicExpr": "ad+dit(给)+ive(的) → 可添加的 → 添加剂"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["academic", "medical"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "academic",
+        "medical"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["addition", "edit"],
-      "sameAffix": [{ "affix": "-ive", "members": ["active", "creative"] }],
-      "synonyms": ["supplement", "extra"],
-      "antonyms": ["subtractive"],
-      "domainCohort": ["food", "chemical", "preservative"],
-      "derivationPair": ["addition"],
+      "sameRoot": [
+        "addition",
+        "edit"
+      ],
+      "sameAffix": [
+        "active",
+        "creative"
+      ],
+      "synonyms": [
+        "supplement",
+        "extra"
+      ],
+      "antonyms": [
+        "subtractive"
+      ],
+      "domainCohort": [
+        "food",
+        "chemical",
+        "preservative"
+      ],
+      "derivationPair": [
+        "addition"
+      ],
       "morphVariants": [],
-      "sameImagery": ["addition"]
+      "sameImagery": [
+        "addition"
+      ]
     }
   },
   {
     "word": "addle",
     "phonetic": "/'ædl/",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "使腐坏；使混乱", "domain": "general", "coverage": 0.8 }],
-    "morphemes": [
-      { "order": 1, "form": "addle", "role": "root", "canonical": "addle", "coreMeaning": { "cn": "腐败、混乱", "en": "to become rotten; confuse" }, "sentiment": { "tags": ["贬义"], "intensity": 0.6 }, "positionTendency": "medial" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["addle"],
+    "coreMeaning": [
+      {
+        "cn": "使腐坏；使混乱",
+        "domain": "general",
+        "coverage": 0.8
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "addle",
+        "role": "root",
+        "canonical": "addle",
+        "coreMeaning": {
+          "cn": "腐败、混乱",
+          "en": "to become rotten; confuse"
+        },
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 0.6
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "addle"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "变臭变乱",
-      "imageChain": ["蛋变质", "脑袋发昏", "混乱"],
+      "imageChain": [
+        "蛋变质",
+        "脑袋发昏",
+        "混乱"
+      ],
       "mnemonicExpr": "addle(源自古英语'尿液' adela) → 腐臭 → 使混乱"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义"], "intensity": 0.6 },
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": 0.6
+      },
+      "domain": [
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["addled"],
+      "sameRoot": [
+        "addled"
+      ],
       "sameAffix": [],
-      "synonyms": ["confuse", "muddle"],
-      "antonyms": ["clarify"],
-      "domainCohort": ["confusion", "rot"],
-      "derivationPair": ["addled"],
+      "synonyms": [
+        "confuse",
+        "muddle"
+      ],
+      "antonyms": [
+        "clarify"
+      ],
+      "domainCohort": [
+        "confusion",
+        "rot"
+      ],
+      "derivationPair": [
+        "addled"
+      ],
       "morphVariants": [],
-      "sameImagery": ["muddle", "befuddle"]
+      "sameImagery": [
+        "muddle",
+        "befuddle"
+      ]
     }
   },
   {
     "word": "addled",
     "phonetic": "/'ædld/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "腐坏的；混乱的", "domain": "general", "coverage": 0.8 }],
-    "morphemes": [
-      { "order": 1, "form": "addle", "role": "root", "canonical": "addle", "coreMeaning": { "cn": "腐败、混乱", "en": "rotten; confused" }, "sentiment": { "tags": ["贬义"], "intensity": 0.6 }, "positionTendency": "medial" },
-      { "order": 2, "form": "-d", "role": "suffix", "canonical": "-ed", "coreMeaning": { "cn": "过去分词/形容词化", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["addle", "addled"],
+    "coreMeaning": [
+      {
+        "cn": "腐坏的；混乱的",
+        "domain": "general",
+        "coverage": 0.8
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "addle",
+        "role": "root",
+        "canonical": "addle",
+        "coreMeaning": {
+          "cn": "腐败、混乱",
+          "en": "rotten; confused"
+        },
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 0.6
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 2,
+        "form": "-d",
+        "role": "suffix",
+        "canonical": "-ed",
+        "coreMeaning": {
+          "cn": "过去分词/形容词化",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "addle",
+      "addled"
+    ],
     "morphVariantOf": "addle",
     "memorySemantics": {
       "literal": "被弄糊涂的",
-      "imageChain": ["臭蛋", "头昏眼花", "混乱的"],
+      "imageChain": [
+        "臭蛋",
+        "头昏眼花",
+        "混乱的"
+      ],
       "mnemonicExpr": "addle(糊涂)+d → 变糊涂的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义"], "intensity": 0.6 },
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": 0.6
+      },
+      "domain": [
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["addle"],
-      "sameAffix": [{ "affix": "-ed", "members": ["confused", "muddled"] }],
-      "synonyms": ["muddled", "confused"],
-      "antonyms": ["clear-headed"],
-      "domainCohort": ["confusion", "rotten"],
-      "derivationPair": ["addle"],
+      "sameRoot": [
+        "addle"
+      ],
+      "sameAffix": [
+        "confused",
+        "muddled"
+      ],
+      "synonyms": [
+        "muddled",
+        "confused"
+      ],
+      "antonyms": [
+        "clear-headed"
+      ],
+      "domainCohort": [
+        "confusion",
+        "rotten"
+      ],
+      "derivationPair": [
+        "addle"
+      ],
       "morphVariants": [],
-      "sameImagery": ["muddled", "befuddled"]
+      "sameImagery": [
+        "muddled",
+        "befuddled"
+      ]
     }
   },
   {
     "word": "addon",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "插件；附加组件", "domain": "tech", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "add", "role": "root", "canonical": "add", "coreMeaning": { "cn": "加、增加", "en": "to add" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "on", "role": "root", "canonical": "on", "coreMeaning": { "cn": "在…之上", "en": "on" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["add", "addon"],
+    "coreMeaning": [
+      {
+        "cn": "插件；附加组件",
+        "domain": "tech",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "add",
+        "role": "root",
+        "canonical": "add",
+        "coreMeaning": {
+          "cn": "加、增加",
+          "en": "to add"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "on",
+        "role": "root",
+        "canonical": "on",
+        "coreMeaning": {
+          "cn": "在…之上",
+          "en": "on"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "add",
+      "addon"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "加到上面",
-      "imageChain": ["加", "附加", "插件"],
+      "imageChain": [
+        "加",
+        "附加",
+        "插件"
+      ],
       "mnemonicExpr": "add(加)+on(上) → 加到主体上 → 插件"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["tech"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["add", "addin"],
+      "sameRoot": [
+        "add",
+        "addin"
+      ],
       "sameAffix": [],
-      "synonyms": ["plugin", "extension"],
+      "synonyms": [
+        "plugin",
+        "extension"
+      ],
       "antonyms": [],
-      "domainCohort": ["browser", "software", "extension"],
-      "derivationPair": ["addin"],
-      "morphVariants": ["add-on"],
-      "sameImagery": ["plugin", "extension"]
+      "domainCohort": [
+        "browser",
+        "software",
+        "extension"
+      ],
+      "derivationPair": [
+        "addin"
+      ],
+      "morphVariants": [
+        "add-on"
+      ],
+      "sameImagery": [
+        "plugin",
+        "extension"
+      ]
     }
   },
   {
     "word": "address",
     "phonetic": "/əˈdrɛs;(for n)ˈædres; ædrɛs/",
-    "pos": ["n.", "v."],
-    "coreMeaning": [{ "cn": "地址；演说；处理", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "ad-", "role": "prefix", "canonical": "ad-", "coreMeaning": { "cn": "向、朝", "en": "toward" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "dress", "role": "root", "canonical": "dress", "coreMeaning": { "cn": "引导、直起；准备（<拉 directiare）", "en": "to direct, make straight" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": ["dress", "address"],
+    "coreMeaning": [
+      {
+        "cn": "地址；演说；处理",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ad-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "coreMeaning": {
+          "cn": "向、朝",
+          "en": "toward"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "dress",
+        "role": "root",
+        "canonical": "dress",
+        "coreMeaning": {
+          "cn": "引导、直起；准备（<拉 directiare）",
+          "en": "to direct, make straight"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "dress",
+      "address"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "朝向某处",
-      "imageChain": ["指向", "信件地址", "演讲对象"],
+      "imageChain": [
+        "指向",
+        "信件地址",
+        "演讲对象"
+      ],
       "mnemonicExpr": "ad(向)+dress(引导) → 指向某人/处 → 地址/演说"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["business", "general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "business",
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["dress", "direct", "redress"],
+      "sameRoot": [
+        "dress",
+        "direct",
+        "redress"
+      ],
       "sameAffix": [],
-      "synonyms": ["speech", "location"],
+      "synonyms": [
+        "speech",
+        "location"
+      ],
       "antonyms": [],
-      "domainCohort": ["location", "speech", "mail"],
-      "derivationPair": ["addressed", "addressable"],
+      "domainCohort": [
+        "location",
+        "speech",
+        "mail"
+      ],
+      "derivationPair": [
+        "addressed",
+        "addressable"
+      ],
       "morphVariants": [],
-      "sameImagery": ["direct", "redress"]
+      "sameImagery": [
+        "direct",
+        "redress"
+      ]
     }
   },
   {
     "word": "addressable",
     "phonetic": "/ә'dresәbl/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "可寻址的", "domain": "tech", "coverage": 0.85 }],
-    "morphemes": [
-      { "order": 1, "form": "ad-", "role": "prefix", "canonical": "ad-", "coreMeaning": { "cn": "向、朝", "en": "toward" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "dress", "role": "root", "canonical": "dress", "coreMeaning": { "cn": "引导、指向", "en": "to direct" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-able", "role": "suffix", "canonical": "-able", "coreMeaning": { "cn": "能…的", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["address", "addressable"],
+    "coreMeaning": [
+      {
+        "cn": "可寻址的",
+        "domain": "tech",
+        "coverage": 0.85
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ad-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "coreMeaning": {
+          "cn": "向、朝",
+          "en": "toward"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "dress",
+        "role": "root",
+        "canonical": "dress",
+        "coreMeaning": {
+          "cn": "引导、指向",
+          "en": "to direct"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-able",
+        "role": "suffix",
+        "canonical": "-able",
+        "coreMeaning": {
+          "cn": "能…的",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "address",
+      "addressable"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "能被寻址的",
-      "imageChain": ["地址", "可被指向", "可寻址"],
+      "imageChain": [
+        "地址",
+        "可被指向",
+        "可寻址"
+      ],
       "mnemonicExpr": "address(地址)+able(能) → 可被寻址的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["tech", "news"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech",
+        "news"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["address", "dress", "direct"],
-      "sameAffix": [{ "affix": "-able", "members": ["readable", "portable"] }],
-      "synonyms": ["reachable"],
-      "antonyms": ["unaddressable"],
-      "domainCohort": ["memory", "computing"],
-      "derivationPair": ["address"],
+      "sameRoot": [
+        "address",
+        "dress",
+        "direct"
+      ],
+      "sameAffix": [
+        "readable",
+        "portable"
+      ],
+      "synonyms": [
+        "reachable"
+      ],
+      "antonyms": [
+        "unaddressable"
+      ],
+      "domainCohort": [
+        "memory",
+        "computing"
+      ],
+      "derivationPair": [
+        "address"
+      ],
       "morphVariants": [],
-      "sameImagery": ["reachable"]
+      "sameImagery": [
+        "reachable"
+      ]
     }
   },
   {
     "word": "addressed",
     "phonetic": "",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "编址的；处理；address的过去式", "domain": "tech", "coverage": 0.85 }],
-    "morphemes": [
-      { "order": 1, "form": "ad-", "role": "prefix", "canonical": "ad-", "coreMeaning": { "cn": "向、朝", "en": "toward" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "dress", "role": "root", "canonical": "dress", "coreMeaning": { "cn": "引导、指向", "en": "to direct" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ed", "role": "suffix", "canonical": "-ed", "coreMeaning": { "cn": "过去式/过去分词", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["address", "addressed"],
+    "coreMeaning": [
+      {
+        "cn": "编址的；处理；address的过去式",
+        "domain": "tech",
+        "coverage": 0.85
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ad-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "coreMeaning": {
+          "cn": "向、朝",
+          "en": "toward"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "dress",
+        "role": "root",
+        "canonical": "dress",
+        "coreMeaning": {
+          "cn": "引导、指向",
+          "en": "to direct"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ed",
+        "role": "suffix",
+        "canonical": "-ed",
+        "coreMeaning": {
+          "cn": "过去式/过去分词",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "address",
+      "addressed"
+    ],
     "morphVariantOf": "address",
     "memorySemantics": {
       "literal": "已被指向的",
-      "imageChain": ["已指向", "已编址", "已处理"],
+      "imageChain": [
+        "已指向",
+        "已编址",
+        "已处理"
+      ],
       "mnemonicExpr": "address(编址)+ed → 已编址/已处理"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["tech"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["address", "direct"],
-      "sameAffix": [{ "affix": "-ed", "members": ["handled", "located"] }],
-      "synonyms": ["handled", "tackled"],
-      "antonyms": ["ignored"],
-      "domainCohort": ["memory", "processing"],
-      "derivationPair": ["address"],
+      "sameRoot": [
+        "address",
+        "direct"
+      ],
+      "sameAffix": [
+        "handled",
+        "located"
+      ],
+      "synonyms": [
+        "handled",
+        "tackled"
+      ],
+      "antonyms": [
+        "ignored"
+      ],
+      "domainCohort": [
+        "memory",
+        "processing"
+      ],
+      "derivationPair": [
+        "address"
+      ],
       "morphVariants": [],
-      "sameImagery": ["address"]
+      "sameImagery": [
+        "address"
+      ]
     }
   },
   {
     "word": "addressline",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "地址线", "domain": "tech", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "address", "role": "root", "canonical": "address", "coreMeaning": { "cn": "地址", "en": "address" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "line", "role": "root", "canonical": "line", "coreMeaning": { "cn": "线", "en": "line" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["address", "addressline"],
+    "coreMeaning": [
+      {
+        "cn": "地址线",
+        "domain": "tech",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "address",
+        "role": "root",
+        "canonical": "address",
+        "coreMeaning": {
+          "cn": "地址",
+          "en": "address"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "line",
+        "role": "root",
+        "canonical": "line",
+        "coreMeaning": {
+          "cn": "线",
+          "en": "line"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "address",
+      "addressline"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "地址+线",
-      "imageChain": ["芯片", "地址线", "寻址通道"],
+      "imageChain": [
+        "芯片",
+        "地址线",
+        "寻址通道"
+      ],
       "mnemonicExpr": "address(地址)+line(线) → 传输地址的线 → 地址线"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["tech"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["address"],
+      "sameRoot": [
+        "address"
+      ],
       "sameAffix": [],
-      "synonyms": ["address bus"],
-      "antonyms": ["data line"],
-      "domainCohort": ["bus", "chip", "hardware"],
-      "derivationPair": ["address"],
-      "morphVariants": ["address line"],
-      "sameImagery": ["bus"]
+      "synonyms": [
+        "address bus"
+      ],
+      "antonyms": [
+        "data line"
+      ],
+      "domainCohort": [
+        "bus",
+        "chip",
+        "hardware"
+      ],
+      "derivationPair": [
+        "address"
+      ],
+      "morphVariants": [
+        "address line"
+      ],
+      "sameImagery": [
+        "bus"
+      ]
     }
   },
   {
     "word": "adduce",
     "phonetic": "/ə'dus/",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "举出；引证", "domain": "legal", "coverage": 0.85 }],
-    "morphemes": [
-      { "order": 1, "form": "ad-", "role": "prefix", "canonical": "ad-", "coreMeaning": { "cn": "向、朝", "en": "to, toward" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "duce", "role": "root", "canonical": "duc", "variantOf": "duce", "coreMeaning": { "cn": "引导、带领", "en": "to lead" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["duce", "adduce"],
+    "coreMeaning": [
+      {
+        "cn": "举出；引证",
+        "domain": "legal",
+        "coverage": 0.85
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ad-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "coreMeaning": {
+          "cn": "向、朝",
+          "en": "to, toward"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "duce",
+        "role": "root",
+        "canonical": "duc",
+        "variantOf": "duce",
+        "coreMeaning": {
+          "cn": "引导、带领",
+          "en": "to lead"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "duce",
+      "adduce"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "引向前面",
-      "imageChain": ["把证据引出", "呈上", "引证"],
+      "imageChain": [
+        "把证据引出",
+        "呈上",
+        "引证"
+      ],
       "mnemonicExpr": "ad(向)+duce(引) → 引出证据 → 举证"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.2 },
-      "domain": ["legal", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "庄重"
+        ],
+        "intensity": 0.2
+      },
+      "domain": [
+        "legal",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["induce", "reduce", "produce", "deduce"],
+      "sameRoot": [
+        "induce",
+        "reduce",
+        "produce",
+        "deduce"
+      ],
       "sameAffix": [],
-      "synonyms": ["cite", "present"],
-      "antonyms": ["withhold"],
-      "domainCohort": ["evidence", "argument", "court"],
-      "derivationPair": ["adducts"],
+      "synonyms": [
+        "cite",
+        "present"
+      ],
+      "antonyms": [
+        "withhold"
+      ],
+      "domainCohort": [
+        "evidence",
+        "argument",
+        "court"
+      ],
+      "derivationPair": [
+        "adducts"
+      ],
       "morphVariants": [],
-      "sameImagery": ["cite", "introduce"]
+      "sameImagery": [
+        "cite",
+        "introduce"
+      ]
     }
   },
   {
     "word": "adducts",
     "phonetic": "/'ædʌkts/",
-    "pos": ["n.", "v."],
-    "coreMeaning": [{ "cn": "加合物；使（肌肉）内收", "domain": "medical", "coverage": 0.85 }],
-    "morphemes": [
-      { "order": 1, "form": "ad-", "role": "prefix", "canonical": "ad-", "coreMeaning": { "cn": "向；朝", "en": "to, toward" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "duct", "role": "root", "canonical": "duc", "variantOf": "duct", "coreMeaning": { "cn": "引导、带", "en": "to lead" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-s", "role": "suffix", "canonical": "-s", "coreMeaning": { "cn": "复数/第三人称单数", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": ["duct", "adduct", "adducts"],
+    "coreMeaning": [
+      {
+        "cn": "加合物；使（肌肉）内收",
+        "domain": "medical",
+        "coverage": 0.85
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ad-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "coreMeaning": {
+          "cn": "向；朝",
+          "en": "to, toward"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "duct",
+        "role": "root",
+        "canonical": "duc",
+        "variantOf": "duct",
+        "coreMeaning": {
+          "cn": "引导、带",
+          "en": "to lead"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-s",
+        "role": "suffix",
+        "canonical": "-s",
+        "coreMeaning": {
+          "cn": "复数/第三人称单数",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "duct",
+      "adduct",
+      "adducts"
+    ],
     "morphVariantOf": "adduct",
     "memorySemantics": {
       "literal": "引向内的结合物",
-      "imageChain": ["引向", "向内结合", "加合物"],
+      "imageChain": [
+        "引向",
+        "向内结合",
+        "加合物"
+      ],
       "mnemonicExpr": "ad(向)+duct(引)+s → 将肌肉拉向中线 → 内收"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["medical", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["adduce", "conduct", "deduct", "induct"],
-      "sameAffix": [{ "affix": "-s", "members": ["products", "ducts"] }],
-      "synonyms": ["draws inward"],
-      "antonyms": ["abducts"],
-      "domainCohort": ["muscle", "anatomy", "chemistry"],
-      "derivationPair": ["adduct"],
+      "sameRoot": [
+        "adduce",
+        "conduct",
+        "deduct",
+        "induct"
+      ],
+      "sameAffix": [
+        "products",
+        "ducts"
+      ],
+      "synonyms": [
+        "draws inward"
+      ],
+      "antonyms": [
+        "abducts"
+      ],
+      "domainCohort": [
+        "muscle",
+        "anatomy",
+        "chemistry"
+      ],
+      "derivationPair": [
+        "adduct"
+      ],
       "morphVariants": [],
-      "sameImagery": ["abduct", "conduct"]
+      "sameImagery": [
+        "abduct",
+        "conduct"
+      ]
     }
   },
   {
     "word": "adel",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "爱迪尔（公司名）；阿德尔（男子名）", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "adel", "role": "root", "canonical": "adel", "coreMeaning": { "cn": "专有名词", "en": "proper noun" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["adel"],
+    "coreMeaning": [
+      {
+        "cn": "爱迪尔（公司名）；阿德尔（男子名）",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "adel",
+        "role": "root",
+        "canonical": "adel",
+        "coreMeaning": {
+          "cn": "专有名词",
+          "en": "proper noun"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "adel"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "音译名",
-      "imageChain": ["Adel", "名字", "阿德尔"],
+      "imageChain": [
+        "Adel",
+        "名字",
+        "阿德尔"
+      ],
       "mnemonicExpr": "Adel → 专有名词"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["news", "general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "news",
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -608,7 +2078,10 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["name", "company"],
+      "domainCohort": [
+        "name",
+        "company"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -617,29 +2090,74 @@
   {
     "word": "aden",
     "phonetic": "/'eidn/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "亚丁（也门城市）", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "aden", "role": "root", "canonical": "aden", "coreMeaning": { "cn": "地名/腺（希腊语 adēn）", "en": "place name; Gr. adēn 'gland'" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["aden"],
+    "coreMeaning": [
+      {
+        "cn": "亚丁（也门城市）",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "aden",
+        "role": "root",
+        "canonical": "aden",
+        "coreMeaning": {
+          "cn": "地名/腺（希腊语 adēn）",
+          "en": "place name; Gr. adēn 'gland'"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "aden"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "地名",
-      "imageChain": ["亚丁湾", "也门", "亚丁"],
+      "imageChain": [
+        "亚丁湾",
+        "也门",
+        "亚丁"
+      ],
       "mnemonicExpr": "Aden → 也门港口 → 亚丁"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["news", "general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "news",
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["adenoma", "adenovirus"],
+      "sameRoot": [
+        "adenoma",
+        "adenovirus"
+      ],
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["Yemen", "Gulf", "port"],
+      "domainCohort": [
+        "Yemen",
+        "Gulf",
+        "port"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -648,283 +2166,998 @@
   {
     "word": "adenomas",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "腺瘤", "domain": "medical", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "aden", "role": "root", "canonical": "aden", "coreMeaning": { "cn": "腺（希腊语 adēn）", "en": "gland" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-oma", "role": "suffix", "canonical": "-oma", "coreMeaning": { "cn": "瘤、肿瘤", "en": "tumor" }, "sentiment": { "tags": ["贬义", "担忧"], "intensity": 0.6 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-s", "role": "suffix", "canonical": "-s", "coreMeaning": { "cn": "复数", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["aden", "adenoma", "adenomas"],
+    "coreMeaning": [
+      {
+        "cn": "腺瘤",
+        "domain": "medical",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "aden",
+        "role": "root",
+        "canonical": "aden",
+        "coreMeaning": {
+          "cn": "腺（希腊语 adēn）",
+          "en": "gland"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-oma",
+        "role": "suffix",
+        "canonical": "-oma",
+        "coreMeaning": {
+          "cn": "瘤、肿瘤",
+          "en": "tumor"
+        },
+        "sentiment": {
+          "tags": [
+            "贬义",
+            "担忧"
+          ],
+          "intensity": 0.6
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-s",
+        "role": "suffix",
+        "canonical": "-s",
+        "coreMeaning": {
+          "cn": "复数",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "aden",
+      "adenoma",
+      "adenomas"
+    ],
     "morphVariantOf": "adenoma",
     "memorySemantics": {
       "literal": "多个腺瘤",
-      "imageChain": ["腺体", "瘤", "腺瘤"],
+      "imageChain": [
+        "腺体",
+        "瘤",
+        "腺瘤"
+      ],
       "mnemonicExpr": "aden(腺)+oma(瘤)+s → 腺瘤（复数）"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义", "担忧"], "intensity": 0.6 },
-      "domain": ["medical"],
+      "sentiment": {
+        "tags": [
+          "贬义",
+          "担忧"
+        ],
+        "intensity": 0.6
+      },
+      "domain": [
+        "medical"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["adenoma", "adenoviruses"],
-      "sameAffix": [{ "affix": "-oma", "members": ["carcinoma", "lymphoma"] }],
-      "synonyms": ["glandular tumors"],
+      "sameRoot": [
+        "adenoma",
+        "adenoviruses"
+      ],
+      "sameAffix": [
+        "carcinoma",
+        "lymphoma"
+      ],
+      "synonyms": [
+        "glandular tumors"
+      ],
       "antonyms": [],
-      "domainCohort": ["tumor", "cancer", "gland"],
-      "derivationPair": ["adenoma", "adenomata"],
-      "morphVariants": ["adenomata"],
-      "sameImagery": ["carcinoma", "lymphoma"]
+      "domainCohort": [
+        "tumor",
+        "cancer",
+        "gland"
+      ],
+      "derivationPair": [
+        "adenoma",
+        "adenomata"
+      ],
+      "morphVariants": [
+        "adenomata"
+      ],
+      "sameImagery": [
+        "carcinoma",
+        "lymphoma"
+      ]
     }
   },
   {
     "word": "adenomata",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "腺瘤（adenoma的拉丁复数）", "domain": "medical", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "aden", "role": "root", "canonical": "aden", "coreMeaning": { "cn": "腺", "en": "gland" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-omata", "role": "suffix", "canonical": "-omata", "coreMeaning": { "cn": "瘤（拉丁复数）", "en": "tumors (Latin plural)" }, "sentiment": { "tags": ["贬义", "担忧"], "intensity": 0.6 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["aden", "adenoma", "adenomata"],
+    "coreMeaning": [
+      {
+        "cn": "腺瘤（adenoma的拉丁复数）",
+        "domain": "medical",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "aden",
+        "role": "root",
+        "canonical": "aden",
+        "coreMeaning": {
+          "cn": "腺",
+          "en": "gland"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-omata",
+        "role": "suffix",
+        "canonical": "-omata",
+        "coreMeaning": {
+          "cn": "瘤（拉丁复数）",
+          "en": "tumors (Latin plural)"
+        },
+        "sentiment": {
+          "tags": [
+            "贬义",
+            "担忧"
+          ],
+          "intensity": 0.6
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "aden",
+      "adenoma",
+      "adenomata"
+    ],
     "morphVariantOf": "adenoma",
     "memorySemantics": {
       "literal": "多个腺瘤（拉丁式）",
-      "imageChain": ["腺体", "瘤", "多个瘤"],
+      "imageChain": [
+        "腺体",
+        "瘤",
+        "多个瘤"
+      ],
       "mnemonicExpr": "aden(腺)+omata(瘤复数) → 腺瘤"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义", "担忧"], "intensity": 0.6 },
-      "domain": ["medical"],
+      "sentiment": {
+        "tags": [
+          "贬义",
+          "担忧"
+        ],
+        "intensity": 0.6
+      },
+      "domain": [
+        "medical"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["adenoma", "adenomas"],
-      "sameAffix": [{ "affix": "-omata", "members": ["carcinomata", "lymphomata"] }],
-      "synonyms": ["adenomas"],
+      "sameRoot": [
+        "adenoma",
+        "adenomas"
+      ],
+      "sameAffix": [
+        "carcinomata",
+        "lymphomata"
+      ],
+      "synonyms": [
+        "adenomas"
+      ],
       "antonyms": [],
-      "domainCohort": ["tumor", "pathology"],
-      "derivationPair": ["adenoma"],
-      "morphVariants": ["adenomas"],
-      "sameImagery": ["carcinomata"]
+      "domainCohort": [
+        "tumor",
+        "pathology"
+      ],
+      "derivationPair": [
+        "adenoma"
+      ],
+      "morphVariants": [
+        "adenomas"
+      ],
+      "sameImagery": [
+        "carcinomata"
+      ]
     }
   },
   {
     "word": "adenosine",
     "phonetic": "/ә'denәsi:n/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "腺苷", "domain": "medical", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "aden", "role": "root", "canonical": "aden", "coreMeaning": { "cn": "腺", "en": "gland" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "os", "role": "root", "canonical": "os", "coreMeaning": { "cn": "糖（-ose）", "en": "sugar" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ine", "role": "suffix", "canonical": "-ine", "coreMeaning": { "cn": "化学物质名词后缀", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["aden", "adenosine"],
+    "coreMeaning": [
+      {
+        "cn": "腺苷",
+        "domain": "medical",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "aden",
+        "role": "root",
+        "canonical": "aden",
+        "coreMeaning": {
+          "cn": "腺",
+          "en": "gland"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "os",
+        "role": "root",
+        "canonical": "os",
+        "coreMeaning": {
+          "cn": "糖（-ose）",
+          "en": "sugar"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ine",
+        "role": "suffix",
+        "canonical": "-ine",
+        "coreMeaning": {
+          "cn": "化学物质名词后缀",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "aden",
+      "adenosine"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "腺糖化合物",
-      "imageChain": ["腺嘌呤", "糖", "腺苷"],
+      "imageChain": [
+        "腺嘌呤",
+        "糖",
+        "腺苷"
+      ],
       "mnemonicExpr": "aden(腺)+os(糖)+ine → 腺嘌呤核苷 → 腺苷"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["medical", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["adenine", "adenoma"],
-      "sameAffix": [{ "affix": "-ine", "members": ["caffeine", "nicotine"] }],
+      "sameRoot": [
+        "adenine",
+        "adenoma"
+      ],
+      "sameAffix": [
+        "caffeine",
+        "nicotine"
+      ],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["nucleoside", "ATP", "biochemistry"],
+      "domainCohort": [
+        "nucleoside",
+        "ATP",
+        "biochemistry"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["adenine", "guanosine"]
+      "sameImagery": [
+        "adenine",
+        "guanosine"
+      ]
     }
   },
   {
     "word": "adenoviruses",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "腺病毒（adenovirus的复数）", "domain": "medical", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "adeno-", "role": "root", "canonical": "aden", "variantOf": "adeno", "coreMeaning": { "cn": "腺", "en": "gland" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "virus", "role": "root", "canonical": "vir", "variantOf": "virus", "coreMeaning": { "cn": "病毒", "en": "virus" }, "sentiment": { "tags": ["贬义", "担忧"], "intensity": 0.7 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-es", "role": "suffix", "canonical": "-s", "variantOf": "-es", "coreMeaning": { "cn": "复数", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["virus", "adenovirus", "adenoviruses"],
+    "coreMeaning": [
+      {
+        "cn": "腺病毒（adenovirus的复数）",
+        "domain": "medical",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "adeno-",
+        "role": "root",
+        "canonical": "aden",
+        "variantOf": "adeno",
+        "coreMeaning": {
+          "cn": "腺",
+          "en": "gland"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "virus",
+        "role": "root",
+        "canonical": "vir",
+        "variantOf": "virus",
+        "coreMeaning": {
+          "cn": "病毒",
+          "en": "virus"
+        },
+        "sentiment": {
+          "tags": [
+            "贬义",
+            "担忧"
+          ],
+          "intensity": 0.7
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-es",
+        "role": "suffix",
+        "canonical": "-s",
+        "variantOf": "-es",
+        "coreMeaning": {
+          "cn": "复数",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "virus",
+      "adenovirus",
+      "adenoviruses"
+    ],
     "morphVariantOf": "adenovirus",
     "memorySemantics": {
       "literal": "腺体病毒（复数）",
-      "imageChain": ["腺体", "病毒", "腺病毒"],
+      "imageChain": [
+        "腺体",
+        "病毒",
+        "腺病毒"
+      ],
       "mnemonicExpr": "adeno(腺)+virus(病毒)+es → 腺病毒"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义", "担忧"], "intensity": 0.6 },
-      "domain": ["medical"],
+      "sentiment": {
+        "tags": [
+          "贬义",
+          "担忧"
+        ],
+        "intensity": 0.6
+      },
+      "domain": [
+        "medical"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["adenoma", "virus"],
-      "sameAffix": [{ "affix": "-es", "members": ["viruses", "buses"] }],
+      "sameRoot": [
+        "adenoma",
+        "virus"
+      ],
+      "sameAffix": [
+        "viruses",
+        "buses"
+      ],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["virus", "infection", "pathogen"],
-      "derivationPair": ["adenovirus"],
+      "domainCohort": [
+        "virus",
+        "infection",
+        "pathogen"
+      ],
+      "derivationPair": [
+        "adenovirus"
+      ],
       "morphVariants": [],
-      "sameImagery": ["virus", "retrovirus"]
+      "sameImagery": [
+        "virus",
+        "retrovirus"
+      ]
     }
   },
   {
     "word": "adenyl-",
     "phonetic": "",
-    "pos": ["combining form"],
-    "coreMeaning": [{ "cn": "腺嘌呤基；腺苷酰基", "domain": "medical", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "aden", "role": "root", "canonical": "aden", "coreMeaning": { "cn": "腺", "en": "gland; adenine" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-yl", "role": "suffix", "canonical": "-yl", "coreMeaning": { "cn": "化学基团后缀", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "combining form"
     ],
-    "derivationChain": ["aden", "adenyl-"],
+    "coreMeaning": [
+      {
+        "cn": "腺嘌呤基；腺苷酰基",
+        "domain": "medical",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "aden",
+        "role": "root",
+        "canonical": "aden",
+        "coreMeaning": {
+          "cn": "腺",
+          "en": "gland; adenine"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-yl",
+        "role": "suffix",
+        "canonical": "-yl",
+        "coreMeaning": {
+          "cn": "化学基团后缀",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "aden",
+      "adenyl-"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "腺+基",
-      "imageChain": ["腺嘌呤", "基团", "腺嘌呤基"],
+      "imageChain": [
+        "腺嘌呤",
+        "基团",
+        "腺嘌呤基"
+      ],
       "mnemonicExpr": "aden(腺嘌呤)+yl(基) → 腺嘌呤基"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["medical", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["adenine", "adenosine"],
-      "sameAffix": [{ "affix": "-yl", "members": ["methyl", "ethyl", "phenyl"] }],
-      "synonyms": ["adenylic"],
+      "sameRoot": [
+        "adenine",
+        "adenosine"
+      ],
+      "sameAffix": [
+        "methyl",
+        "ethyl",
+        "phenyl"
+      ],
+      "synonyms": [
+        "adenylic"
+      ],
       "antonyms": [],
-      "domainCohort": ["chemistry", "biochemistry"],
+      "domainCohort": [
+        "chemistry",
+        "biochemistry"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["methyl"]
+      "sameImagery": [
+        "methyl"
+      ]
     }
   },
   {
     "word": "adept",
     "phonetic": "/ə'dɛpt/",
-    "pos": ["adj.", "n."],
-    "coreMeaning": [{ "cn": "熟练的；擅长…的", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "ad-", "role": "prefix", "canonical": "ad-", "coreMeaning": { "cn": "加强", "en": "intensifier; to" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "ept", "role": "root", "canonical": "apt", "variantOf": "ept", "coreMeaning": { "cn": "适合、获得", "en": "to reach; fit" }, "sentiment": { "tags": ["褒义"], "intensity": 0.4 }, "positionTendency": "medial" }
+    "pos": [
+      "adj.",
+      "n."
     ],
-    "derivationChain": ["apt", "adept"],
+    "coreMeaning": [
+      {
+        "cn": "熟练的；擅长…的",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ad-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "coreMeaning": {
+          "cn": "加强",
+          "en": "intensifier; to"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "ept",
+        "role": "root",
+        "canonical": "apt",
+        "variantOf": "ept",
+        "coreMeaning": {
+          "cn": "适合、获得",
+          "en": "to reach; fit"
+        },
+        "sentiment": {
+          "tags": [
+            "褒义"
+          ],
+          "intensity": 0.4
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "apt",
+      "adept"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "完全获得了的",
-      "imageChain": ["完全掌握", "得心应手", "熟练"],
+      "imageChain": [
+        "完全掌握",
+        "得心应手",
+        "熟练"
+      ],
       "mnemonicExpr": "ad(完全)+ept(获得/适合) → 已全部掌握 → 熟练的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["褒义"], "intensity": 0.7 },
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "褒义"
+        ],
+        "intensity": 0.7
+      },
+      "domain": [
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["apt", "aptitude", "attitude"],
+      "sameRoot": [
+        "apt",
+        "aptitude",
+        "attitude"
+      ],
       "sameAffix": [],
-      "synonyms": ["skilled", "proficient"],
-      "antonyms": ["inept"],
-      "domainCohort": ["skill", "expertise"],
+      "synonyms": [
+        "skilled",
+        "proficient"
+      ],
+      "antonyms": [
+        "inept"
+      ],
+      "domainCohort": [
+        "skill",
+        "expertise"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["proficient", "skilled"]
+      "sameImagery": [
+        "proficient",
+        "skilled"
+      ]
     }
   },
   {
     "word": "adequate",
     "phonetic": "/ˈædɪkwət/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "充足的；胜任的", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "ad-", "role": "prefix", "canonical": "ad-", "coreMeaning": { "cn": "向；达到", "en": "to" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "equ", "role": "root", "canonical": "equ", "coreMeaning": { "cn": "平等；相同", "en": "equal" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ate", "role": "suffix", "canonical": "-ate", "coreMeaning": { "cn": "形容词后缀：具有…的", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["equ", "adequate"],
+    "coreMeaning": [
+      {
+        "cn": "充足的；胜任的",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ad-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "coreMeaning": {
+          "cn": "向；达到",
+          "en": "to"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "equ",
+        "role": "root",
+        "canonical": "equ",
+        "coreMeaning": {
+          "cn": "平等；相同",
+          "en": "equal"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ate",
+        "role": "suffix",
+        "canonical": "-ate",
+        "coreMeaning": {
+          "cn": "形容词后缀：具有…的",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "equ",
+      "adequate"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "达到相等的",
-      "imageChain": ["匹配需求", "相等", "足够"],
+      "imageChain": [
+        "匹配需求",
+        "相等",
+        "足够"
+      ],
       "mnemonicExpr": "ad(向)+equ(相等)+ate → 与需要相当 → 足够的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "偏正"], "intensity": 0.3 },
-      "domain": ["general", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "偏正"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["equal", "equity", "equator"],
-      "sameAffix": [{ "affix": "-ate", "members": ["accurate", "delicate"] }],
-      "synonyms": ["sufficient", "enough"],
-      "antonyms": ["inadequate", "insufficient"],
-      "domainCohort": ["sufficiency", "competence"],
-      "derivationPair": ["adequately"],
+      "sameRoot": [
+        "equal",
+        "equity",
+        "equator"
+      ],
+      "sameAffix": [
+        "accurate",
+        "delicate"
+      ],
+      "synonyms": [
+        "sufficient",
+        "enough"
+      ],
+      "antonyms": [
+        "inadequate",
+        "insufficient"
+      ],
+      "domainCohort": [
+        "sufficiency",
+        "competence"
+      ],
+      "derivationPair": [
+        "adequately"
+      ],
       "morphVariants": [],
-      "sameImagery": ["sufficient"]
+      "sameImagery": [
+        "sufficient"
+      ]
     }
   },
   {
     "word": "adequately",
     "phonetic": "/'ædikwitli/",
-    "pos": ["adv."],
-    "coreMeaning": [{ "cn": "充分地", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "ad-", "role": "prefix", "canonical": "ad-", "coreMeaning": { "cn": "向；达到", "en": "to" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "equ", "role": "root", "canonical": "equ", "coreMeaning": { "cn": "平等；相同", "en": "equal" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ate", "role": "suffix", "canonical": "-ate", "coreMeaning": { "cn": "形容词", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 4, "form": "-ly", "role": "suffix", "canonical": "-ly", "coreMeaning": { "cn": "副词化", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adv."
     ],
-    "derivationChain": ["equ", "adequate", "adequately"],
+    "coreMeaning": [
+      {
+        "cn": "充分地",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ad-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "coreMeaning": {
+          "cn": "向；达到",
+          "en": "to"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "equ",
+        "role": "root",
+        "canonical": "equ",
+        "coreMeaning": {
+          "cn": "平等；相同",
+          "en": "equal"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ate",
+        "role": "suffix",
+        "canonical": "-ate",
+        "coreMeaning": {
+          "cn": "形容词",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 4,
+        "form": "-ly",
+        "role": "suffix",
+        "canonical": "-ly",
+        "coreMeaning": {
+          "cn": "副词化",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "equ",
+      "adequate",
+      "adequately"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "以足够的方式",
-      "imageChain": ["充分", "恰到好处", "充分地"],
+      "imageChain": [
+        "充分",
+        "恰到好处",
+        "充分地"
+      ],
       "mnemonicExpr": "adequate(足够)+ly → 充分地"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "偏正"], "intensity": 0.3 },
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "偏正"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["equal", "equity"],
-      "sameAffix": [{ "affix": "-ly", "members": ["clearly", "sufficiently"] }],
-      "synonyms": ["sufficiently"],
-      "antonyms": ["inadequately"],
-      "domainCohort": ["sufficiency"],
-      "derivationPair": ["adequate"],
+      "sameRoot": [
+        "equal",
+        "equity"
+      ],
+      "sameAffix": [
+        "clearly",
+        "sufficiently"
+      ],
+      "synonyms": [
+        "sufficiently"
+      ],
+      "antonyms": [
+        "inadequately"
+      ],
+      "domainCohort": [
+        "sufficiency"
+      ],
+      "derivationPair": [
+        "adequate"
+      ],
       "morphVariants": [],
-      "sameImagery": ["sufficiently"]
+      "sameImagery": [
+        "sufficiently"
+      ]
     }
   },
   {
     "word": "adfs",
     "phonetic": "",
-    "pos": ["abbr."],
-    "coreMeaning": [{ "cn": "活动目录联合服务（ADFS）；自动测向系统", "domain": "tech", "coverage": 0.85 }],
-    "morphemes": [
-      { "order": 1, "form": "adfs", "role": "root", "canonical": "adfs", "coreMeaning": { "cn": "缩写", "en": "abbreviation" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "abbr."
     ],
-    "derivationChain": ["adfs"],
+    "coreMeaning": [
+      {
+        "cn": "活动目录联合服务（ADFS）；自动测向系统",
+        "domain": "tech",
+        "coverage": 0.85
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "adfs",
+        "role": "root",
+        "canonical": "adfs",
+        "coreMeaning": {
+          "cn": "缩写",
+          "en": "abbreviation"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "adfs"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "首字母缩写",
-      "imageChain": ["Active Directory Federation Services", "ADFS", "活动目录联合服务"],
+      "imageChain": [
+        "Active Directory Federation Services",
+        "ADFS",
+        "活动目录联合服务"
+      ],
       "mnemonicExpr": "ADFS → Active Directory Federation Services → 联合身份服务"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["tech"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
@@ -932,7 +3165,11 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["SSO", "identity", "Active Directory"],
+      "domainCohort": [
+        "SSO",
+        "identity",
+        "Active Directory"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -941,347 +3178,1232 @@
   {
     "word": "adhere",
     "phonetic": "/əd'hɪr/",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "粘着；坚持；遵守", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "ad-", "role": "prefix", "canonical": "ad-", "coreMeaning": { "cn": "向、朝", "en": "to" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "here", "role": "root", "canonical": "her", "variantOf": "here", "coreMeaning": { "cn": "粘附；粘合", "en": "to stick" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["her", "adhere"],
+    "coreMeaning": [
+      {
+        "cn": "粘着；坚持；遵守",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ad-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "coreMeaning": {
+          "cn": "向、朝",
+          "en": "to"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "here",
+        "role": "root",
+        "canonical": "her",
+        "variantOf": "here",
+        "coreMeaning": {
+          "cn": "粘附；粘合",
+          "en": "to stick"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "her",
+      "adhere"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "粘到…上",
-      "imageChain": ["粘住", "坚持不放", "遵守"],
+      "imageChain": [
+        "粘住",
+        "坚持不放",
+        "遵守"
+      ],
       "mnemonicExpr": "ad(向)+here(粘) → 紧紧粘着 → 坚持、遵守"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.3 },
-      "domain": ["general", "legal"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "庄重"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "general",
+        "legal"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["adhesion", "cohere", "inherent"],
+      "sameRoot": [
+        "adhesion",
+        "cohere",
+        "inherent"
+      ],
       "sameAffix": [],
-      "synonyms": ["cling", "stick", "abide"],
-      "antonyms": ["detach"],
-      "domainCohort": ["rule", "policy", "compliance"],
-      "derivationPair": ["adherence", "adherent"],
+      "synonyms": [
+        "cling",
+        "stick",
+        "abide"
+      ],
+      "antonyms": [
+        "detach"
+      ],
+      "domainCohort": [
+        "rule",
+        "policy",
+        "compliance"
+      ],
+      "derivationPair": [
+        "adherence",
+        "adherent"
+      ],
       "morphVariants": [],
-      "sameImagery": ["cohere", "cling"]
+      "sameImagery": [
+        "cohere",
+        "cling"
+      ]
     }
   },
   {
     "word": "adhered",
     "phonetic": "",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "坚持；粘附（adhere的过去分词）", "domain": "news", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "ad-", "role": "prefix", "canonical": "ad-", "coreMeaning": { "cn": "向、朝", "en": "to" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "here", "role": "root", "canonical": "her", "variantOf": "here", "coreMeaning": { "cn": "粘附", "en": "to stick" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-d", "role": "suffix", "canonical": "-ed", "coreMeaning": { "cn": "过去式/过去分词", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["her", "adhere", "adhered"],
+    "coreMeaning": [
+      {
+        "cn": "坚持；粘附（adhere的过去分词）",
+        "domain": "news",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ad-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "coreMeaning": {
+          "cn": "向、朝",
+          "en": "to"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "here",
+        "role": "root",
+        "canonical": "her",
+        "variantOf": "here",
+        "coreMeaning": {
+          "cn": "粘附",
+          "en": "to stick"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-d",
+        "role": "suffix",
+        "canonical": "-ed",
+        "coreMeaning": {
+          "cn": "过去式/过去分词",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "her",
+      "adhere",
+      "adhered"
+    ],
     "morphVariantOf": "adhere",
     "memorySemantics": {
       "literal": "粘附了的",
-      "imageChain": ["粘住", "坚持过", "已遵守"],
+      "imageChain": [
+        "粘住",
+        "坚持过",
+        "已遵守"
+      ],
       "mnemonicExpr": "adhere(坚持)+d → 坚持了"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["news", "legal"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "news",
+        "legal"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["adhere", "adhesion"],
-      "sameAffix": [{ "affix": "-ed", "members": ["followed", "obeyed"] }],
-      "synonyms": ["stuck", "followed"],
-      "antonyms": ["deviated"],
-      "domainCohort": ["rule", "policy"],
-      "derivationPair": ["adhere"],
+      "sameRoot": [
+        "adhere",
+        "adhesion"
+      ],
+      "sameAffix": [
+        "followed",
+        "obeyed"
+      ],
+      "synonyms": [
+        "stuck",
+        "followed"
+      ],
+      "antonyms": [
+        "deviated"
+      ],
+      "domainCohort": [
+        "rule",
+        "policy"
+      ],
+      "derivationPair": [
+        "adhere"
+      ],
       "morphVariants": [],
-      "sameImagery": ["adhere"]
+      "sameImagery": [
+        "adhere"
+      ]
     }
   },
   {
     "word": "adherence",
     "phonetic": "/əd'hɪrəns/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "坚持；依附；忠诚", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "ad-", "role": "prefix", "canonical": "ad-", "coreMeaning": { "cn": "向、朝", "en": "to" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "her", "role": "root", "canonical": "her", "coreMeaning": { "cn": "粘附", "en": "to stick" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ence", "role": "suffix", "canonical": "-ance", "variantOf": "-ence", "coreMeaning": { "cn": "状态、性质", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["her", "adhere", "adherence"],
+    "coreMeaning": [
+      {
+        "cn": "坚持；依附；忠诚",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ad-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "coreMeaning": {
+          "cn": "向、朝",
+          "en": "to"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "her",
+        "role": "root",
+        "canonical": "her",
+        "coreMeaning": {
+          "cn": "粘附",
+          "en": "to stick"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ence",
+        "role": "suffix",
+        "canonical": "-ance",
+        "variantOf": "-ence",
+        "coreMeaning": {
+          "cn": "状态、性质",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "her",
+      "adhere",
+      "adherence"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "粘附的状态",
-      "imageChain": ["粘附", "坚持", "忠诚"],
+      "imageChain": [
+        "粘附",
+        "坚持",
+        "忠诚"
+      ],
       "mnemonicExpr": "adhere(坚持)+ence(名词化) → 坚持、遵守"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["褒义", "庄重"], "intensity": 0.5 },
-      "domain": ["general", "legal"],
+      "sentiment": {
+        "tags": [
+          "褒义",
+          "庄重"
+        ],
+        "intensity": 0.5
+      },
+      "domain": [
+        "general",
+        "legal"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["adhere", "cohere", "inherent"],
-      "sameAffix": [{ "affix": "-ence", "members": ["difference", "reference"] }],
-      "synonyms": ["compliance", "loyalty"],
-      "antonyms": ["disobedience"],
-      "domainCohort": ["compliance", "commitment"],
-      "derivationPair": ["adhere", "adherent"],
+      "sameRoot": [
+        "adhere",
+        "cohere",
+        "inherent"
+      ],
+      "sameAffix": [
+        "difference",
+        "reference"
+      ],
+      "synonyms": [
+        "compliance",
+        "loyalty"
+      ],
+      "antonyms": [
+        "disobedience"
+      ],
+      "domainCohort": [
+        "compliance",
+        "commitment"
+      ],
+      "derivationPair": [
+        "adhere",
+        "adherent"
+      ],
       "morphVariants": [],
-      "sameImagery": ["compliance"]
+      "sameImagery": [
+        "compliance"
+      ]
     }
   },
   {
     "word": "adherent",
     "phonetic": "/əd'hɪrənt/",
-    "pos": ["n.", "adj."],
-    "coreMeaning": [{ "cn": "信徒；追随者", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "ad-", "role": "prefix", "canonical": "ad-", "coreMeaning": { "cn": "向、朝", "en": "to" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "her", "role": "root", "canonical": "her", "coreMeaning": { "cn": "粘附", "en": "to stick" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ent", "role": "suffix", "canonical": "-ent", "coreMeaning": { "cn": "…的人；有…性质的", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n.",
+      "adj."
     ],
-    "derivationChain": ["her", "adhere", "adherent"],
+    "coreMeaning": [
+      {
+        "cn": "信徒；追随者",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ad-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "coreMeaning": {
+          "cn": "向、朝",
+          "en": "to"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "her",
+        "role": "root",
+        "canonical": "her",
+        "coreMeaning": {
+          "cn": "粘附",
+          "en": "to stick"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ent",
+        "role": "suffix",
+        "canonical": "-ent",
+        "coreMeaning": {
+          "cn": "…的人；有…性质的",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "her",
+      "adhere",
+      "adherent"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "粘附者",
-      "imageChain": ["粘住不放", "追随", "信徒"],
+      "imageChain": [
+        "粘住不放",
+        "追随",
+        "信徒"
+      ],
       "mnemonicExpr": "adhere(坚持)+ent(的人) → 追随者、信徒"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "news"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "news"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["adhere", "adhesion", "cohere"],
-      "sameAffix": [{ "affix": "-ent", "members": ["student", "president"] }],
-      "synonyms": ["follower", "supporter"],
-      "antonyms": ["opponent"],
-      "domainCohort": ["follower", "believer", "disciple"],
-      "derivationPair": ["adhere"],
+      "sameRoot": [
+        "adhere",
+        "adhesion",
+        "cohere"
+      ],
+      "sameAffix": [
+        "student",
+        "president"
+      ],
+      "synonyms": [
+        "follower",
+        "supporter"
+      ],
+      "antonyms": [
+        "opponent"
+      ],
+      "domainCohort": [
+        "follower",
+        "believer",
+        "disciple"
+      ],
+      "derivationPair": [
+        "adhere"
+      ],
       "morphVariants": [],
-      "sameImagery": ["follower", "disciple"]
+      "sameImagery": [
+        "follower",
+        "disciple"
+      ]
     }
   },
   {
     "word": "adheres",
     "phonetic": "/ədˈhiəz/",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "黏附；坚持（adhere第三人称单数）", "domain": "finance", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "ad-", "role": "prefix", "canonical": "ad-", "coreMeaning": { "cn": "向", "en": "to" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "here", "role": "root", "canonical": "her", "variantOf": "here", "coreMeaning": { "cn": "粘附", "en": "to stick" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-s", "role": "suffix", "canonical": "-s", "coreMeaning": { "cn": "第三人称单数", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["her", "adhere", "adheres"],
+    "coreMeaning": [
+      {
+        "cn": "黏附；坚持（adhere第三人称单数）",
+        "domain": "finance",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ad-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "coreMeaning": {
+          "cn": "向",
+          "en": "to"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "here",
+        "role": "root",
+        "canonical": "her",
+        "variantOf": "here",
+        "coreMeaning": {
+          "cn": "粘附",
+          "en": "to stick"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-s",
+        "role": "suffix",
+        "canonical": "-s",
+        "coreMeaning": {
+          "cn": "第三人称单数",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "her",
+      "adhere",
+      "adheres"
+    ],
     "morphVariantOf": "adhere",
     "memorySemantics": {
       "literal": "他/她粘附",
-      "imageChain": ["粘着", "坚持", "遵守"],
+      "imageChain": [
+        "粘着",
+        "坚持",
+        "遵守"
+      ],
       "mnemonicExpr": "adhere+s → 第三人称单数"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["finance", "news"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "finance",
+        "news"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["adhere", "cohere"],
-      "sameAffix": [{ "affix": "-s", "members": ["sticks", "follows"] }],
-      "synonyms": ["sticks", "abides"],
-      "antonyms": ["deviates"],
-      "domainCohort": ["compliance"],
-      "derivationPair": ["adhere"],
+      "sameRoot": [
+        "adhere",
+        "cohere"
+      ],
+      "sameAffix": [
+        "sticks",
+        "follows"
+      ],
+      "synonyms": [
+        "sticks",
+        "abides"
+      ],
+      "antonyms": [
+        "deviates"
+      ],
+      "domainCohort": [
+        "compliance"
+      ],
+      "derivationPair": [
+        "adhere"
+      ],
       "morphVariants": [],
-      "sameImagery": ["adhere"]
+      "sameImagery": [
+        "adhere"
+      ]
     }
   },
   {
     "word": "adhesion",
     "phonetic": "/əd'hiʒn/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "粘附；支持；固定", "domain": "academic", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "ad-", "role": "prefix", "canonical": "ad-", "coreMeaning": { "cn": "向、朝", "en": "to" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "hes", "role": "root", "canonical": "her", "variantOf": "hes", "coreMeaning": { "cn": "粘附", "en": "to stick" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ion", "role": "suffix", "canonical": "-tion", "variantOf": "-ion", "coreMeaning": { "cn": "名词化", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["her", "adhere", "adhesion"],
+    "coreMeaning": [
+      {
+        "cn": "粘附；支持；固定",
+        "domain": "academic",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ad-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "coreMeaning": {
+          "cn": "向、朝",
+          "en": "to"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "hes",
+        "role": "root",
+        "canonical": "her",
+        "variantOf": "hes",
+        "coreMeaning": {
+          "cn": "粘附",
+          "en": "to stick"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ion",
+        "role": "suffix",
+        "canonical": "-tion",
+        "variantOf": "-ion",
+        "coreMeaning": {
+          "cn": "名词化",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "her",
+      "adhere",
+      "adhesion"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "粘附的行为",
-      "imageChain": ["粘合", "牢固结合", "粘附力"],
+      "imageChain": [
+        "粘合",
+        "牢固结合",
+        "粘附力"
+      ],
       "mnemonicExpr": "ad(向)+hes(粘)+ion → 粘附作用"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["academic", "medical"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "academic",
+        "medical"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["adhere", "cohesion", "inherent"],
-      "sameAffix": [{ "affix": "-ion", "members": ["cohesion", "tension"] }],
-      "synonyms": ["attachment", "bond"],
-      "antonyms": ["separation"],
-      "domainCohort": ["bond", "glue", "attachment"],
-      "derivationPair": ["adhere", "adhesive"],
+      "sameRoot": [
+        "adhere",
+        "cohesion",
+        "inherent"
+      ],
+      "sameAffix": [
+        "cohesion",
+        "tension"
+      ],
+      "synonyms": [
+        "attachment",
+        "bond"
+      ],
+      "antonyms": [
+        "separation"
+      ],
+      "domainCohort": [
+        "bond",
+        "glue",
+        "attachment"
+      ],
+      "derivationPair": [
+        "adhere",
+        "adhesive"
+      ],
       "morphVariants": [],
-      "sameImagery": ["cohesion", "attachment"]
+      "sameImagery": [
+        "cohesion",
+        "attachment"
+      ]
     }
   },
   {
     "word": "adhesive",
     "phonetic": "/əd'hisɪv/",
-    "pos": ["adj.", "n."],
-    "coreMeaning": [{ "cn": "带黏性的；黏合剂", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "ad-", "role": "prefix", "canonical": "ad-", "coreMeaning": { "cn": "向、朝", "en": "to" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "hes", "role": "root", "canonical": "her", "variantOf": "hes", "coreMeaning": { "cn": "粘附", "en": "to stick" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ive", "role": "suffix", "canonical": "-ive", "coreMeaning": { "cn": "有…性质的", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj.",
+      "n."
     ],
-    "derivationChain": ["her", "adhere", "adhesive"],
+    "coreMeaning": [
+      {
+        "cn": "带黏性的；黏合剂",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ad-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "coreMeaning": {
+          "cn": "向、朝",
+          "en": "to"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "hes",
+        "role": "root",
+        "canonical": "her",
+        "variantOf": "hes",
+        "coreMeaning": {
+          "cn": "粘附",
+          "en": "to stick"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ive",
+        "role": "suffix",
+        "canonical": "-ive",
+        "coreMeaning": {
+          "cn": "有…性质的",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "her",
+      "adhere",
+      "adhesive"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "有粘附性的",
-      "imageChain": ["粘", "胶水", "黏合剂"],
+      "imageChain": [
+        "粘",
+        "胶水",
+        "黏合剂"
+      ],
       "mnemonicExpr": "ad+hes(粘)+ive(的) → 带黏性的 → 黏合剂"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["adhere", "adhesion", "cohesive"],
-      "sameAffix": [{ "affix": "-ive", "members": ["cohesive", "massive"] }],
-      "synonyms": ["glue", "sticky"],
-      "antonyms": ["repellent"],
-      "domainCohort": ["glue", "tape", "bond"],
-      "derivationPair": ["adhere", "adhesion"],
+      "sameRoot": [
+        "adhere",
+        "adhesion",
+        "cohesive"
+      ],
+      "sameAffix": [
+        "cohesive",
+        "massive"
+      ],
+      "synonyms": [
+        "glue",
+        "sticky"
+      ],
+      "antonyms": [
+        "repellent"
+      ],
+      "domainCohort": [
+        "glue",
+        "tape",
+        "bond"
+      ],
+      "derivationPair": [
+        "adhere",
+        "adhesion"
+      ],
       "morphVariants": [],
-      "sameImagery": ["cohesive", "sticky"]
+      "sameImagery": [
+        "cohesive",
+        "sticky"
+      ]
     }
   },
   {
     "word": "adiazine",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "磺胺嘧啶", "domain": "medical", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "adi", "role": "root", "canonical": "adi", "coreMeaning": { "cn": "化学前缀（拟）", "en": "chemical prefix" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "azine", "role": "root", "canonical": "azine", "coreMeaning": { "cn": "含氮杂环", "en": "nitrogen heterocycle" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["azine", "adiazine"],
+    "coreMeaning": [
+      {
+        "cn": "磺胺嘧啶",
+        "domain": "medical",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "adi",
+        "role": "root",
+        "canonical": "adi",
+        "coreMeaning": {
+          "cn": "化学前缀（拟）",
+          "en": "chemical prefix"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "azine",
+        "role": "root",
+        "canonical": "azine",
+        "coreMeaning": {
+          "cn": "含氮杂环",
+          "en": "nitrogen heterocycle"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "azine",
+      "adiazine"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "含氮的化合物",
-      "imageChain": ["化学名", "磺胺", "嘧啶类"],
+      "imageChain": [
+        "化学名",
+        "磺胺",
+        "嘧啶类"
+      ],
       "mnemonicExpr": "adi+azine(嗪) → 磺胺嘧啶"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["medical"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["azine", "pyrazine"],
+      "sameRoot": [
+        "azine",
+        "pyrazine"
+      ],
       "sameAffix": [],
-      "synonyms": ["sulfadiazine"],
+      "synonyms": [
+        "sulfadiazine"
+      ],
       "antonyms": [],
-      "domainCohort": ["antibiotic", "sulfonamide"],
+      "domainCohort": [
+        "antibiotic",
+        "sulfonamide"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["sulfadiazine"]
+      "sameImagery": [
+        "sulfadiazine"
+      ]
     }
   },
   {
     "word": "adipocyte",
     "phonetic": "/ˈædipəuˌsait/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "脂肪细胞", "domain": "medical", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "adipo-", "role": "root", "canonical": "adipo", "coreMeaning": { "cn": "脂肪（拉丁 adeps）", "en": "fat" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "cyte", "role": "root", "canonical": "cyte", "coreMeaning": { "cn": "细胞（希腊 kytos）", "en": "cell" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["adipo", "adipocyte"],
+    "coreMeaning": [
+      {
+        "cn": "脂肪细胞",
+        "domain": "medical",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "adipo-",
+        "role": "root",
+        "canonical": "adipo",
+        "coreMeaning": {
+          "cn": "脂肪（拉丁 adeps）",
+          "en": "fat"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "cyte",
+        "role": "root",
+        "canonical": "cyte",
+        "coreMeaning": {
+          "cn": "细胞（希腊 kytos）",
+          "en": "cell"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "adipo",
+      "adipocyte"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "脂肪细胞",
-      "imageChain": ["脂肪", "细胞", "脂肪细胞"],
+      "imageChain": [
+        "脂肪",
+        "细胞",
+        "脂肪细胞"
+      ],
       "mnemonicExpr": "adipo(脂肪)+cyte(细胞) → 脂肪细胞"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["medical"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["adipose", "adiposity"],
-      "sameAffix": [{ "affix": "-cyte", "members": ["leukocyte", "erythrocyte"] }],
-      "synonyms": ["fat cell", "lipocyte"],
+      "sameRoot": [
+        "adipose",
+        "adiposity"
+      ],
+      "sameAffix": [
+        "leukocyte",
+        "erythrocyte"
+      ],
+      "synonyms": [
+        "fat cell",
+        "lipocyte"
+      ],
       "antonyms": [],
-      "domainCohort": ["cell", "tissue", "obesity"],
-      "derivationPair": ["adipose"],
+      "domainCohort": [
+        "cell",
+        "tissue",
+        "obesity"
+      ],
+      "derivationPair": [
+        "adipose"
+      ],
       "morphVariants": [],
-      "sameImagery": ["leukocyte", "lipocyte"]
+      "sameImagery": [
+        "leukocyte",
+        "lipocyte"
+      ]
     }
   },
   {
     "word": "adipose",
     "phonetic": "/'ædə'pos; 'ædə'poz/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "脂肪的；肥胖的", "domain": "medical", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "adip", "role": "root", "canonical": "adip", "coreMeaning": { "cn": "脂肪（拉丁 adeps）", "en": "fat" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-ose", "role": "suffix", "canonical": "-ose", "coreMeaning": { "cn": "充满…的/糖类", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["adip", "adipose"],
+    "coreMeaning": [
+      {
+        "cn": "脂肪的；肥胖的",
+        "domain": "medical",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "adip",
+        "role": "root",
+        "canonical": "adip",
+        "coreMeaning": {
+          "cn": "脂肪（拉丁 adeps）",
+          "en": "fat"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-ose",
+        "role": "suffix",
+        "canonical": "-ose",
+        "coreMeaning": {
+          "cn": "充满…的/糖类",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "adip",
+      "adipose"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "充满脂肪的",
-      "imageChain": ["脂肪", "丰满", "肥胖"],
+      "imageChain": [
+        "脂肪",
+        "丰满",
+        "肥胖"
+      ],
       "mnemonicExpr": "adip(脂肪)+ose(充满) → 脂肪的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["medical"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["adipocyte", "adiposity"],
-      "sameAffix": [{ "affix": "-ose", "members": ["verbose", "glucose"] }],
-      "synonyms": ["fatty"],
-      "antonyms": ["lean"],
-      "domainCohort": ["fat", "obesity", "tissue"],
-      "derivationPair": ["adipocyte"],
+      "sameRoot": [
+        "adipocyte",
+        "adiposity"
+      ],
+      "sameAffix": [
+        "verbose",
+        "glucose"
+      ],
+      "synonyms": [
+        "fatty"
+      ],
+      "antonyms": [
+        "lean"
+      ],
+      "domainCohort": [
+        "fat",
+        "obesity",
+        "tissue"
+      ],
+      "derivationPair": [
+        "adipocyte"
+      ],
       "morphVariants": [],
-      "sameImagery": ["fatty"]
+      "sameImagery": [
+        "fatty"
+      ]
     }
   },
   {
     "word": "aditi",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "阿底提（印度女神）", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "aditi", "role": "root", "canonical": "aditi", "coreMeaning": { "cn": "专有名词（梵语）", "en": "proper noun (Sanskrit)" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["aditi"],
+    "coreMeaning": [
+      {
+        "cn": "阿底提（印度女神）",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "aditi",
+        "role": "root",
+        "canonical": "aditi",
+        "coreMeaning": {
+          "cn": "专有名词（梵语）",
+          "en": "proper noun (Sanskrit)"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "aditi"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "音译",
-      "imageChain": ["梵语女神", "印度神话", "阿底提"],
+      "imageChain": [
+        "梵语女神",
+        "印度神话",
+        "阿底提"
+      ],
       "mnemonicExpr": "Aditi → 印度古女神 → 阿底提"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.3 },
-      "domain": ["news", "general"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "庄重"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "news",
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -1289,7 +4411,11 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["Hindu", "mythology", "goddess"],
+      "domainCohort": [
+        "Hindu",
+        "mythology",
+        "goddess"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -1298,29 +4424,72 @@
   {
     "word": "aditya",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "阿迪蒂亚（人名）", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "aditya", "role": "root", "canonical": "aditya", "coreMeaning": { "cn": "人名（梵语）", "en": "proper noun" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["aditya"],
+    "coreMeaning": [
+      {
+        "cn": "阿迪蒂亚（人名）",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "aditya",
+        "role": "root",
+        "canonical": "aditya",
+        "coreMeaning": {
+          "cn": "人名（梵语）",
+          "en": "proper noun"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "aditya"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "音译名",
-      "imageChain": ["Aditya", "人名", "阿迪蒂亚"],
+      "imageChain": [
+        "Aditya",
+        "人名",
+        "阿迪蒂亚"
+      ],
       "mnemonicExpr": "Aditya → 专有名词 → 阿迪蒂亚"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["news", "general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "news",
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["aditi"],
+      "sameRoot": [
+        "aditi"
+      ],
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["name", "Sanskrit"],
+      "domainCohort": [
+        "name",
+        "Sanskrit"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -1329,297 +4498,1096 @@
   {
     "word": "adjacent",
     "phonetic": "/ə'dʒesnt/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "邻近的，毗连的", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "ad-", "role": "prefix", "canonical": "ad-", "coreMeaning": { "cn": "向、朝", "en": "to" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "jac", "role": "root", "canonical": "ject", "variantOf": "jac", "coreMeaning": { "cn": "投、躺", "en": "to throw; lie" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ent", "role": "suffix", "canonical": "-ent", "coreMeaning": { "cn": "…的", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["ject", "adjacent"],
+    "coreMeaning": [
+      {
+        "cn": "邻近的，毗连的",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ad-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "coreMeaning": {
+          "cn": "向、朝",
+          "en": "to"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "jac",
+        "role": "root",
+        "canonical": "ject",
+        "variantOf": "jac",
+        "coreMeaning": {
+          "cn": "投、躺",
+          "en": "to throw; lie"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ent",
+        "role": "suffix",
+        "canonical": "-ent",
+        "coreMeaning": {
+          "cn": "…的",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "ject",
+      "adjacent"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "挨着躺在旁边的",
-      "imageChain": ["躺在旁边", "紧靠", "相邻"],
+      "imageChain": [
+        "躺在旁边",
+        "紧靠",
+        "相邻"
+      ],
       "mnemonicExpr": "ad(朝)+jac(躺)+ent → 躺在旁边的 → 毗连的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["project", "reject", "inject"],
-      "sameAffix": [{ "affix": "-ent", "members": ["apparent", "different"] }],
-      "synonyms": ["neighboring", "adjoining"],
-      "antonyms": ["distant"],
-      "domainCohort": ["proximity", "neighbor"],
-      "derivationPair": ["adjoin"],
+      "sameRoot": [
+        "project",
+        "reject",
+        "inject"
+      ],
+      "sameAffix": [
+        "apparent",
+        "different"
+      ],
+      "synonyms": [
+        "neighboring",
+        "adjoining"
+      ],
+      "antonyms": [
+        "distant"
+      ],
+      "domainCohort": [
+        "proximity",
+        "neighbor"
+      ],
+      "derivationPair": [
+        "adjoin"
+      ],
       "morphVariants": [],
-      "sameImagery": ["adjoining", "neighboring"]
+      "sameImagery": [
+        "adjoining",
+        "neighboring"
+      ]
     }
   },
   {
     "word": "adjoin",
     "phonetic": "/ə'dʒɔɪn/",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "贴近；与…毗连", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "ad-", "role": "prefix", "canonical": "ad-", "coreMeaning": { "cn": "向", "en": "to" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "join", "role": "root", "canonical": "junct", "variantOf": "join", "coreMeaning": { "cn": "连接、结合", "en": "to join" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["join", "adjoin"],
+    "coreMeaning": [
+      {
+        "cn": "贴近；与…毗连",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ad-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "coreMeaning": {
+          "cn": "向",
+          "en": "to"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "join",
+        "role": "root",
+        "canonical": "junct",
+        "variantOf": "join",
+        "coreMeaning": {
+          "cn": "连接、结合",
+          "en": "to join"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "join",
+      "adjoin"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "加入到…旁",
-      "imageChain": ["加入", "毗连", "相邻"],
+      "imageChain": [
+        "加入",
+        "毗连",
+        "相邻"
+      ],
       "mnemonicExpr": "ad(向)+join(加入) → 毗邻"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["join", "junction", "conjoin"],
+      "sameRoot": [
+        "join",
+        "junction",
+        "conjoin"
+      ],
       "sameAffix": [],
-      "synonyms": ["abut", "border"],
-      "antonyms": ["separate"],
-      "domainCohort": ["neighbor", "border"],
-      "derivationPair": ["adjacent"],
+      "synonyms": [
+        "abut",
+        "border"
+      ],
+      "antonyms": [
+        "separate"
+      ],
+      "domainCohort": [
+        "neighbor",
+        "border"
+      ],
+      "derivationPair": [
+        "adjacent"
+      ],
       "morphVariants": [],
-      "sameImagery": ["adjacent", "abut"]
+      "sameImagery": [
+        "adjacent",
+        "abut"
+      ]
     }
   },
   {
     "word": "adjourn",
     "phonetic": "/ə'dʒɝn/",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "延期；推迟；休会", "domain": "legal", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "ad-", "role": "prefix", "canonical": "ad-", "coreMeaning": { "cn": "向、到", "en": "to" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "journ", "role": "root", "canonical": "journ", "coreMeaning": { "cn": "日；白天", "en": "day" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["journ", "adjourn"],
+    "coreMeaning": [
+      {
+        "cn": "延期；推迟；休会",
+        "domain": "legal",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ad-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "coreMeaning": {
+          "cn": "向、到",
+          "en": "to"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "journ",
+        "role": "root",
+        "canonical": "journ",
+        "coreMeaning": {
+          "cn": "日；白天",
+          "en": "day"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "journ",
+      "adjourn"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "推到另一天",
-      "imageChain": ["另一天", "推迟", "休会"],
+      "imageChain": [
+        "另一天",
+        "推迟",
+        "休会"
+      ],
       "mnemonicExpr": "ad(到)+journ(日) → 定到他日 → 休会"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.3 },
-      "domain": ["legal", "news"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "庄重"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "legal",
+        "news"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["journal", "journey", "sojourn"],
+      "sameRoot": [
+        "journal",
+        "journey",
+        "sojourn"
+      ],
       "sameAffix": [],
-      "synonyms": ["postpone", "suspend"],
-      "antonyms": ["convene"],
-      "domainCohort": ["court", "meeting", "session"],
-      "derivationPair": ["adjournment", "adjourned"],
+      "synonyms": [
+        "postpone",
+        "suspend"
+      ],
+      "antonyms": [
+        "convene"
+      ],
+      "domainCohort": [
+        "court",
+        "meeting",
+        "session"
+      ],
+      "derivationPair": [
+        "adjournment",
+        "adjourned"
+      ],
       "morphVariants": [],
-      "sameImagery": ["postpone", "suspend"]
+      "sameImagery": [
+        "postpone",
+        "suspend"
+      ]
     }
   },
   {
     "word": "adjourned",
     "phonetic": "",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "休会；延期（adjourn的过去式）", "domain": "news", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "ad-", "role": "prefix", "canonical": "ad-", "coreMeaning": { "cn": "向、到", "en": "to" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "journ", "role": "root", "canonical": "journ", "coreMeaning": { "cn": "日；白天", "en": "day" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ed", "role": "suffix", "canonical": "-ed", "coreMeaning": { "cn": "过去式", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["journ", "adjourn", "adjourned"],
+    "coreMeaning": [
+      {
+        "cn": "休会；延期（adjourn的过去式）",
+        "domain": "news",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ad-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "coreMeaning": {
+          "cn": "向、到",
+          "en": "to"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "journ",
+        "role": "root",
+        "canonical": "journ",
+        "coreMeaning": {
+          "cn": "日；白天",
+          "en": "day"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ed",
+        "role": "suffix",
+        "canonical": "-ed",
+        "coreMeaning": {
+          "cn": "过去式",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "journ",
+      "adjourn",
+      "adjourned"
+    ],
     "morphVariantOf": "adjourn",
     "memorySemantics": {
       "literal": "已延期的",
-      "imageChain": ["敲槌", "已休会", "已延期"],
+      "imageChain": [
+        "敲槌",
+        "已休会",
+        "已延期"
+      ],
       "mnemonicExpr": "adjourn(休会)+ed → 已休会"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["news", "legal"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "news",
+        "legal"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["adjourn", "journal"],
-      "sameAffix": [{ "affix": "-ed", "members": ["postponed", "suspended"] }],
-      "synonyms": ["suspended", "postponed"],
-      "antonyms": ["convened"],
-      "domainCohort": ["court", "session"],
-      "derivationPair": ["adjourn"],
+      "sameRoot": [
+        "adjourn",
+        "journal"
+      ],
+      "sameAffix": [
+        "postponed",
+        "suspended"
+      ],
+      "synonyms": [
+        "suspended",
+        "postponed"
+      ],
+      "antonyms": [
+        "convened"
+      ],
+      "domainCohort": [
+        "court",
+        "session"
+      ],
+      "derivationPair": [
+        "adjourn"
+      ],
       "morphVariants": [],
-      "sameImagery": ["postponed"]
+      "sameImagery": [
+        "postponed"
+      ]
     }
   },
   {
     "word": "adjournments",
     "phonetic": "/əˈdʒə:nmənts/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "休会；休庭期（adjournment的复数）", "domain": "legal", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "ad-", "role": "prefix", "canonical": "ad-", "coreMeaning": { "cn": "向、到", "en": "to" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "journ", "role": "root", "canonical": "journ", "coreMeaning": { "cn": "日；白天", "en": "day" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ment", "role": "suffix", "canonical": "-ment", "coreMeaning": { "cn": "行为；状态", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 4, "form": "-s", "role": "suffix", "canonical": "-s", "coreMeaning": { "cn": "复数", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["journ", "adjourn", "adjournment", "adjournments"],
+    "coreMeaning": [
+      {
+        "cn": "休会；休庭期（adjournment的复数）",
+        "domain": "legal",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ad-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "coreMeaning": {
+          "cn": "向、到",
+          "en": "to"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "journ",
+        "role": "root",
+        "canonical": "journ",
+        "coreMeaning": {
+          "cn": "日；白天",
+          "en": "day"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ment",
+        "role": "suffix",
+        "canonical": "-ment",
+        "coreMeaning": {
+          "cn": "行为；状态",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 4,
+        "form": "-s",
+        "role": "suffix",
+        "canonical": "-s",
+        "coreMeaning": {
+          "cn": "复数",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "journ",
+      "adjourn",
+      "adjournment",
+      "adjournments"
+    ],
     "morphVariantOf": "adjournment",
     "memorySemantics": {
       "literal": "多次休会",
-      "imageChain": ["休会", "延期", "多次"],
+      "imageChain": [
+        "休会",
+        "延期",
+        "多次"
+      ],
       "mnemonicExpr": "adjournment(休会)+s → 休会/休庭期"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["legal", "finance"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "legal",
+        "finance"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["adjourn", "journey"],
-      "sameAffix": [{ "affix": "-ment", "members": ["statement", "agreement"] }],
-      "synonyms": ["recesses", "postponements"],
+      "sameRoot": [
+        "adjourn",
+        "journey"
+      ],
+      "sameAffix": [
+        "statement",
+        "agreement"
+      ],
+      "synonyms": [
+        "recesses",
+        "postponements"
+      ],
       "antonyms": [],
-      "domainCohort": ["court", "meeting"],
-      "derivationPair": ["adjournment"],
+      "domainCohort": [
+        "court",
+        "meeting"
+      ],
+      "derivationPair": [
+        "adjournment"
+      ],
       "morphVariants": [],
-      "sameImagery": ["postponements"]
+      "sameImagery": [
+        "postponements"
+      ]
     }
   },
   {
     "word": "adjourns",
     "phonetic": "/əˈdʒə:nz/",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "（使）休会（adjourn第三人称单数）", "domain": "news", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "ad-", "role": "prefix", "canonical": "ad-", "coreMeaning": { "cn": "向、到", "en": "to" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "journ", "role": "root", "canonical": "journ", "coreMeaning": { "cn": "日；白天", "en": "day" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-s", "role": "suffix", "canonical": "-s", "coreMeaning": { "cn": "第三人称单数", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["journ", "adjourn", "adjourns"],
+    "coreMeaning": [
+      {
+        "cn": "（使）休会（adjourn第三人称单数）",
+        "domain": "news",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ad-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "coreMeaning": {
+          "cn": "向、到",
+          "en": "to"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "journ",
+        "role": "root",
+        "canonical": "journ",
+        "coreMeaning": {
+          "cn": "日；白天",
+          "en": "day"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-s",
+        "role": "suffix",
+        "canonical": "-s",
+        "coreMeaning": {
+          "cn": "第三人称单数",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "journ",
+      "adjourn",
+      "adjourns"
+    ],
     "morphVariantOf": "adjourn",
     "memorySemantics": {
       "literal": "休会",
-      "imageChain": ["休会", "第三人称", "敲槌"],
+      "imageChain": [
+        "休会",
+        "第三人称",
+        "敲槌"
+      ],
       "mnemonicExpr": "adjourn+s → 第三人称单数"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["news", "legal"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "news",
+        "legal"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["adjourn", "journal"],
-      "sameAffix": [{ "affix": "-s", "members": ["postpones", "suspends"] }],
-      "synonyms": ["suspends"],
-      "antonyms": ["convenes"],
-      "domainCohort": ["court", "session"],
-      "derivationPair": ["adjourn"],
+      "sameRoot": [
+        "adjourn",
+        "journal"
+      ],
+      "sameAffix": [
+        "postpones",
+        "suspends"
+      ],
+      "synonyms": [
+        "suspends"
+      ],
+      "antonyms": [
+        "convenes"
+      ],
+      "domainCohort": [
+        "court",
+        "session"
+      ],
+      "derivationPair": [
+        "adjourn"
+      ],
       "morphVariants": [],
-      "sameImagery": ["suspends"]
+      "sameImagery": [
+        "suspends"
+      ]
     }
   },
   {
     "word": "adjudged",
     "phonetic": "",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "判定（adjudge的过去分词）", "domain": "legal", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "ad-", "role": "prefix", "canonical": "ad-", "coreMeaning": { "cn": "向、朝", "en": "to" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "judg", "role": "root", "canonical": "jud", "variantOf": "judg", "coreMeaning": { "cn": "判断、审判", "en": "to judge" }, "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.3 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ed", "role": "suffix", "canonical": "-ed", "coreMeaning": { "cn": "过去分词", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["jud", "adjudge", "adjudged"],
+    "coreMeaning": [
+      {
+        "cn": "判定（adjudge的过去分词）",
+        "domain": "legal",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ad-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "coreMeaning": {
+          "cn": "向、朝",
+          "en": "to"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "judg",
+        "role": "root",
+        "canonical": "jud",
+        "variantOf": "judg",
+        "coreMeaning": {
+          "cn": "判断、审判",
+          "en": "to judge"
+        },
+        "sentiment": {
+          "tags": [
+            "中性",
+            "庄重"
+          ],
+          "intensity": 0.3
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ed",
+        "role": "suffix",
+        "canonical": "-ed",
+        "coreMeaning": {
+          "cn": "过去分词",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "jud",
+      "adjudge",
+      "adjudged"
+    ],
     "morphVariantOf": "adjudge",
     "memorySemantics": {
       "literal": "判决过的",
-      "imageChain": ["法官", "判决", "已判定"],
+      "imageChain": [
+        "法官",
+        "判决",
+        "已判定"
+      ],
       "mnemonicExpr": "adjudge(判定)+d → 已判定"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.3 },
-      "domain": ["legal", "news"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "庄重"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "legal",
+        "news"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["judge", "judicial", "judgment"],
-      "sameAffix": [{ "affix": "-ed", "members": ["judged", "ruled"] }],
-      "synonyms": ["ruled", "adjudicated"],
+      "sameRoot": [
+        "judge",
+        "judicial",
+        "judgment"
+      ],
+      "sameAffix": [
+        "judged",
+        "ruled"
+      ],
+      "synonyms": [
+        "ruled",
+        "adjudicated"
+      ],
       "antonyms": [],
-      "domainCohort": ["court", "ruling"],
-      "derivationPair": ["adjudge"],
+      "domainCohort": [
+        "court",
+        "ruling"
+      ],
+      "derivationPair": [
+        "adjudge"
+      ],
       "morphVariants": [],
-      "sameImagery": ["judged", "ruled"]
+      "sameImagery": [
+        "judged",
+        "ruled"
+      ]
     }
   },
   {
     "word": "adjudges",
     "phonetic": "/əˈdʒʌdʒz/",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "判决；把…判给（adjudge第三人称单数）", "domain": "legal", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "ad-", "role": "prefix", "canonical": "ad-", "coreMeaning": { "cn": "向、朝", "en": "to" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "judg", "role": "root", "canonical": "jud", "variantOf": "judg", "coreMeaning": { "cn": "判断、审判", "en": "to judge" }, "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.3 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-es", "role": "suffix", "canonical": "-s", "variantOf": "-es", "coreMeaning": { "cn": "第三人称单数", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["jud", "adjudge", "adjudges"],
+    "coreMeaning": [
+      {
+        "cn": "判决；把…判给（adjudge第三人称单数）",
+        "domain": "legal",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ad-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "coreMeaning": {
+          "cn": "向、朝",
+          "en": "to"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "judg",
+        "role": "root",
+        "canonical": "jud",
+        "variantOf": "judg",
+        "coreMeaning": {
+          "cn": "判断、审判",
+          "en": "to judge"
+        },
+        "sentiment": {
+          "tags": [
+            "中性",
+            "庄重"
+          ],
+          "intensity": 0.3
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-es",
+        "role": "suffix",
+        "canonical": "-s",
+        "variantOf": "-es",
+        "coreMeaning": {
+          "cn": "第三人称单数",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "jud",
+      "adjudge",
+      "adjudges"
+    ],
     "morphVariantOf": "adjudge",
     "memorySemantics": {
       "literal": "判决",
-      "imageChain": ["法官", "判决", "分给"],
+      "imageChain": [
+        "法官",
+        "判决",
+        "分给"
+      ],
       "mnemonicExpr": "adjudge+es → 判决"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.3 },
-      "domain": ["legal"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "庄重"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "legal"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["judge", "judgment"],
-      "sameAffix": [{ "affix": "-es", "members": ["judges", "rules"] }],
-      "synonyms": ["adjudicates", "rules"],
+      "sameRoot": [
+        "judge",
+        "judgment"
+      ],
+      "sameAffix": [
+        "judges",
+        "rules"
+      ],
+      "synonyms": [
+        "adjudicates",
+        "rules"
+      ],
       "antonyms": [],
-      "domainCohort": ["court", "judgment"],
-      "derivationPair": ["adjudge"],
+      "domainCohort": [
+        "court",
+        "judgment"
+      ],
+      "derivationPair": [
+        "adjudge"
+      ],
       "morphVariants": [],
-      "sameImagery": ["judges"]
+      "sameImagery": [
+        "judges"
+      ]
     }
   },
   {
     "word": "adjudging",
     "phonetic": "/ə'dʒʌdʒ/",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "宣判；判决；认为（adjudge的现在分词）", "domain": "legal", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "ad-", "role": "prefix", "canonical": "ad-", "coreMeaning": { "cn": "向、朝", "en": "to" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "judg", "role": "root", "canonical": "jud", "variantOf": "judg", "coreMeaning": { "cn": "判断、审判", "en": "to judge" }, "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.3 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ing", "role": "suffix", "canonical": "-ing", "coreMeaning": { "cn": "现在分词/动名词", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["jud", "adjudge", "adjudging"],
+    "coreMeaning": [
+      {
+        "cn": "宣判；判决；认为（adjudge的现在分词）",
+        "domain": "legal",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ad-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "coreMeaning": {
+          "cn": "向、朝",
+          "en": "to"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "judg",
+        "role": "root",
+        "canonical": "jud",
+        "variantOf": "judg",
+        "coreMeaning": {
+          "cn": "判断、审判",
+          "en": "to judge"
+        },
+        "sentiment": {
+          "tags": [
+            "中性",
+            "庄重"
+          ],
+          "intensity": 0.3
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ing",
+        "role": "suffix",
+        "canonical": "-ing",
+        "coreMeaning": {
+          "cn": "现在分词/动名词",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "jud",
+      "adjudge",
+      "adjudging"
+    ],
     "morphVariantOf": "adjudge",
     "memorySemantics": {
       "literal": "正在判决",
-      "imageChain": ["法官", "正在判决", "宣判"],
+      "imageChain": [
+        "法官",
+        "正在判决",
+        "宣判"
+      ],
       "mnemonicExpr": "adjudge+ing → 正在判决"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.3 },
-      "domain": ["legal"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "庄重"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "legal"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["judge", "judgment", "judicial"],
-      "sameAffix": [{ "affix": "-ing", "members": ["judging", "ruling"] }],
-      "synonyms": ["adjudicating", "judging"],
+      "sameRoot": [
+        "judge",
+        "judgment",
+        "judicial"
+      ],
+      "sameAffix": [
+        "judging",
+        "ruling"
+      ],
+      "synonyms": [
+        "adjudicating",
+        "judging"
+      ],
       "antonyms": [],
-      "domainCohort": ["court", "ruling"],
-      "derivationPair": ["adjudge"],
+      "domainCohort": [
+        "court",
+        "ruling"
+      ],
+      "derivationPair": [
+        "adjudge"
+      ],
       "morphVariants": [],
-      "sameImagery": ["judging"]
+      "sameImagery": [
+        "judging"
+      ]
     }
   }
 ]

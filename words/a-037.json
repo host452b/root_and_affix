@@ -2,119 +2,428 @@
   {
     "word": "aviator",
     "phonetic": "/ˈeɪvieɪtə/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "飞行员", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "avi", "role": "root", "canonical": "avi", "variantOf": null, "coreMeaning": { "cn": "鸟；飞行", "en": "bird; flight" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-ate", "role": "suffix", "canonical": "-ate", "variantOf": null, "coreMeaning": { "cn": "动词化", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial", "note": "动词词尾" },
-      { "order": 3, "form": "-or", "role": "suffix", "canonical": "-er", "variantOf": "-or", "coreMeaning": { "cn": "表人；施事者", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["avi", "aviate", "aviator"],
+    "coreMeaning": [
+      {
+        "cn": "飞行员",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "avi",
+        "role": "root",
+        "canonical": "avi",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "鸟；飞行",
+          "en": "bird; flight"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-ate",
+        "role": "suffix",
+        "canonical": "-ate",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "动词化",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial",
+        "note": "动词词尾"
+      },
+      {
+        "order": 3,
+        "form": "-or",
+        "role": "suffix",
+        "canonical": "-er",
+        "variantOf": "-or",
+        "coreMeaning": {
+          "cn": "表人；施事者",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "avi",
+      "aviate",
+      "aviator"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "飞行者",
-      "imageChain": ["鸟", "飞行", "操纵飞机的人"],
+      "imageChain": [
+        "鸟",
+        "飞行",
+        "操纵飞机的人"
+      ],
       "mnemonicExpr": "avi(飞行)+ate+or(人) → 驾驶飞机的人 → 飞行员"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "tech"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "tech"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["aviation", "avian", "aviary"],
-      "sameAffix": [{ "affix": "-or", "members": ["actor", "director"] }],
-      "synonyms": ["pilot", "flyer"],
+      "sameRoot": [
+        "aviation",
+        "avian",
+        "aviary"
+      ],
+      "sameAffix": [
+        "actor",
+        "director"
+      ],
+      "synonyms": [
+        "pilot",
+        "flyer"
+      ],
       "antonyms": [],
-      "domainCohort": ["aircraft", "cockpit", "flight"],
-      "derivationPair": ["aviate"],
+      "domainCohort": [
+        "aircraft",
+        "cockpit",
+        "flight"
+      ],
+      "derivationPair": [
+        "aviate"
+      ],
       "morphVariants": [],
-      "sameImagery": ["aviation", "flight"]
+      "sameImagery": [
+        "aviation",
+        "flight"
+      ]
     }
   },
   {
     "word": "avid",
     "phonetic": "/ˈævɪd/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "渴望的；热衷的", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "av", "role": "root", "canonical": "av", "variantOf": null, "coreMeaning": { "cn": "渴望；贪", "en": "eager; crave" }, "sentiment": { "tags": ["偏正"], "intensity": 0.5 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-id", "role": "suffix", "canonical": "-id", "variantOf": null, "coreMeaning": { "cn": "形容词后缀，表状态", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["av", "avid"],
+    "coreMeaning": [
+      {
+        "cn": "渴望的；热衷的",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "av",
+        "role": "root",
+        "canonical": "av",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "渴望；贪",
+          "en": "eager; crave"
+        },
+        "sentiment": {
+          "tags": [
+            "偏正"
+          ],
+          "intensity": 0.5
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-id",
+        "role": "suffix",
+        "canonical": "-id",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "形容词后缀，表状态",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "av",
+      "avid"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "渴望的状态",
-      "imageChain": ["渴望", "贪婪地追求", "热衷的"],
+      "imageChain": [
+        "渴望",
+        "贪婪地追求",
+        "热衷的"
+      ],
       "mnemonicExpr": "av(渴望)+id(形容词) → 渴望的 → 热衷的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["偏正", "喜爱"], "intensity": 0.6 },
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "偏正",
+          "喜爱"
+        ],
+        "intensity": 0.6
+      },
+      "domain": [
+        "general"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["avidity", "avarice", "avaricious"],
-      "sameAffix": [{ "affix": "-id", "members": ["vivid", "rigid", "fluid"] }],
-      "synonyms": ["eager", "keen", "enthusiastic"],
-      "antonyms": ["indifferent", "apathetic"],
-      "domainCohort": ["enthusiasm", "zeal"],
-      "derivationPair": ["avidity"],
+      "sameRoot": [
+        "avidity",
+        "avarice",
+        "avaricious"
+      ],
+      "sameAffix": [
+        "vivid",
+        "rigid",
+        "fluid"
+      ],
+      "synonyms": [
+        "eager",
+        "keen",
+        "enthusiastic"
+      ],
+      "antonyms": [
+        "indifferent",
+        "apathetic"
+      ],
+      "domainCohort": [
+        "enthusiasm",
+        "zeal"
+      ],
+      "derivationPair": [
+        "avidity"
+      ],
       "morphVariants": [],
-      "sameImagery": ["avidity", "greed"]
+      "sameImagery": [
+        "avidity",
+        "greed"
+      ]
     }
   },
   {
     "word": "avidity",
     "phonetic": "/əˈvɪdəti/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "热望；贪欲", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "av", "role": "root", "canonical": "av", "variantOf": null, "coreMeaning": { "cn": "渴望；贪", "en": "eager; crave" }, "sentiment": { "tags": ["偏正"], "intensity": 0.5 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-id", "role": "suffix", "canonical": "-id", "variantOf": null, "coreMeaning": { "cn": "形容词后缀", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ity", "role": "suffix", "canonical": "-ity", "variantOf": null, "coreMeaning": { "cn": "名词化，表性质", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["av", "avid", "avidity"],
+    "coreMeaning": [
+      {
+        "cn": "热望；贪欲",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "av",
+        "role": "root",
+        "canonical": "av",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "渴望；贪",
+          "en": "eager; crave"
+        },
+        "sentiment": {
+          "tags": [
+            "偏正"
+          ],
+          "intensity": 0.5
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-id",
+        "role": "suffix",
+        "canonical": "-id",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "形容词后缀",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ity",
+        "role": "suffix",
+        "canonical": "-ity",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "名词化，表性质",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "av",
+      "avid",
+      "avidity"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "渴望的性质",
-      "imageChain": ["渴望状态", "急切想要", "热望"],
+      "imageChain": [
+        "渴望状态",
+        "急切想要",
+        "热望"
+      ],
       "mnemonicExpr": "avid(渴望的)+ity(性质) → 渴望的状态 → 热望"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["混合", "偏正"], "intensity": 0.5 },
-      "domain": ["general", "academic"],
+      "sentiment": {
+        "tags": [
+          "混合",
+          "偏正"
+        ],
+        "intensity": 0.5
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["avid", "avarice"],
-      "sameAffix": [{ "affix": "-ity", "members": ["rarity", "rigidity"] }],
-      "synonyms": ["eagerness", "greed", "keenness"],
-      "antonyms": ["indifference"],
-      "domainCohort": ["desire", "passion"],
-      "derivationPair": ["avid"],
+      "sameRoot": [
+        "avid",
+        "avarice"
+      ],
+      "sameAffix": [
+        "rarity",
+        "rigidity"
+      ],
+      "synonyms": [
+        "eagerness",
+        "greed",
+        "keenness"
+      ],
+      "antonyms": [
+        "indifference"
+      ],
+      "domainCohort": [
+        "desire",
+        "passion"
+      ],
+      "derivationPair": [
+        "avid"
+      ],
       "morphVariants": [],
-      "sameImagery": ["avid", "greed"]
+      "sameImagery": [
+        "avid",
+        "greed"
+      ]
     }
   },
   {
     "word": "aviv",
     "phonetic": "/ɑːˈviːv/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "（地名/人名）阿维夫；大自然的重生", "domain": "news", "coverage": 0.85 }],
-    "morphemes": [
-      { "order": 1, "form": "aviv", "role": "root", "canonical": "aviv", "variantOf": null, "coreMeaning": { "cn": "阿维夫（春；重生）", "en": "Aviv (spring, renewal)" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["aviv"],
+    "coreMeaning": [
+      {
+        "cn": "（地名/人名）阿维夫；大自然的重生",
+        "domain": "news",
+        "coverage": 0.85
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "aviv",
+        "role": "root",
+        "canonical": "aviv",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "阿维夫（春；重生）",
+          "en": "Aviv (spring, renewal)"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "aviv"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "阿维夫",
-      "imageChain": ["希伯来语春天", "万物复苏", "地名/人名"],
+      "imageChain": [
+        "希伯来语春天",
+        "万物复苏",
+        "地名/人名"
+      ],
       "mnemonicExpr": "aviv(希伯来：春) → 特拉维夫(Tel Aviv) → 阿维夫"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["news"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "news"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -122,7 +431,10 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["Tel Aviv", "Israel"],
+      "domainCohort": [
+        "Tel Aviv",
+        "Israel"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -131,278 +443,955 @@
   {
     "word": "avocation",
     "phonetic": "/ˌævəˈkeɪʃn/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "副业；业余爱好", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "a-", "role": "prefix", "canonical": "ab-", "variantOf": "a-", "coreMeaning": { "cn": "离开；分开", "en": "away from" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "voc", "role": "root", "canonical": "voc", "variantOf": null, "coreMeaning": { "cn": "叫；声音", "en": "call, voice" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ation", "role": "suffix", "canonical": "-tion", "variantOf": "-ation", "coreMeaning": { "cn": "名词化，表动作/结果", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["voc", "vocation", "avocation"],
+    "coreMeaning": [
+      {
+        "cn": "副业；业余爱好",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "a-",
+        "role": "prefix",
+        "canonical": "ab-",
+        "variantOf": "a-",
+        "coreMeaning": {
+          "cn": "离开；分开",
+          "en": "away from"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "voc",
+        "role": "root",
+        "canonical": "voc",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "叫；声音",
+          "en": "call, voice"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ation",
+        "role": "suffix",
+        "canonical": "-tion",
+        "variantOf": "-ation",
+        "coreMeaning": {
+          "cn": "名词化，表动作/结果",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "voc",
+      "vocation",
+      "avocation"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "从主业召唤开的事",
-      "imageChain": ["离开主职的召唤", "业余喜好", "副业"],
+      "imageChain": [
+        "离开主职的召唤",
+        "业余喜好",
+        "副业"
+      ],
       "mnemonicExpr": "a(离开)+voc(召唤)+ation → 从主业召开 → 副业/爱好"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "喜爱"], "intensity": 0.2 },
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "喜爱"
+        ],
+        "intensity": 0.2
+      },
+      "domain": [
+        "general"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["vocation", "vocal", "advocate", "provoke"],
-      "sameAffix": [{ "affix": "-ation", "members": ["vacation", "creation"] }],
-      "synonyms": ["hobby", "pastime", "sideline"],
-      "antonyms": ["vocation", "profession"],
-      "domainCohort": ["hobby", "leisure"],
-      "derivationPair": ["avocational"],
+      "sameRoot": [
+        "vocation",
+        "vocal",
+        "advocate",
+        "provoke"
+      ],
+      "sameAffix": [
+        "vacation",
+        "creation"
+      ],
+      "synonyms": [
+        "hobby",
+        "pastime",
+        "sideline"
+      ],
+      "antonyms": [
+        "vocation",
+        "profession"
+      ],
+      "domainCohort": [
+        "hobby",
+        "leisure"
+      ],
+      "derivationPair": [
+        "avocational"
+      ],
       "morphVariants": [],
-      "sameImagery": ["vocation", "pastime"]
+      "sameImagery": [
+        "vocation",
+        "pastime"
+      ]
     }
   },
   {
     "word": "avocational",
     "phonetic": "/ˌævəˈkeɪʃənl/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "业余爱好的；消遣的", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "a-", "role": "prefix", "canonical": "ab-", "variantOf": "a-", "coreMeaning": { "cn": "离开", "en": "away from" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "voc", "role": "root", "canonical": "voc", "variantOf": null, "coreMeaning": { "cn": "叫；声音", "en": "call, voice" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ation", "role": "suffix", "canonical": "-tion", "variantOf": "-ation", "coreMeaning": { "cn": "名词化", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 4, "form": "-al", "role": "suffix", "canonical": "-al", "variantOf": null, "coreMeaning": { "cn": "形容词后缀，……的", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["voc", "vocation", "avocation", "avocational"],
+    "coreMeaning": [
+      {
+        "cn": "业余爱好的；消遣的",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "a-",
+        "role": "prefix",
+        "canonical": "ab-",
+        "variantOf": "a-",
+        "coreMeaning": {
+          "cn": "离开",
+          "en": "away from"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "voc",
+        "role": "root",
+        "canonical": "voc",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "叫；声音",
+          "en": "call, voice"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ation",
+        "role": "suffix",
+        "canonical": "-tion",
+        "variantOf": "-ation",
+        "coreMeaning": {
+          "cn": "名词化",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 4,
+        "form": "-al",
+        "role": "suffix",
+        "canonical": "-al",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "形容词后缀，……的",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "voc",
+      "vocation",
+      "avocation",
+      "avocational"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "副业相关的",
-      "imageChain": ["副业", "业余活动", "消遣性质的"],
+      "imageChain": [
+        "副业",
+        "业余活动",
+        "消遣性质的"
+      ],
       "mnemonicExpr": "avocation(副业)+al(的) → 关于副业的 → 消遣的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "喜爱"], "intensity": 0.2 },
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "喜爱"
+        ],
+        "intensity": 0.2
+      },
+      "domain": [
+        "general"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["vocational", "vocation", "avocation"],
-      "sameAffix": [{ "affix": "-al", "members": ["national", "musical"] }],
-      "synonyms": ["recreational", "hobby-related"],
-      "antonyms": ["vocational", "professional"],
-      "domainCohort": ["leisure", "pastime"],
-      "derivationPair": ["avocation"],
+      "sameRoot": [
+        "vocational",
+        "vocation",
+        "avocation"
+      ],
+      "sameAffix": [
+        "national",
+        "musical"
+      ],
+      "synonyms": [
+        "recreational",
+        "hobby-related"
+      ],
+      "antonyms": [
+        "vocational",
+        "professional"
+      ],
+      "domainCohort": [
+        "leisure",
+        "pastime"
+      ],
+      "derivationPair": [
+        "avocation"
+      ],
       "morphVariants": [],
-      "sameImagery": ["avocation", "hobby"]
+      "sameImagery": [
+        "avocation",
+        "hobby"
+      ]
     }
   },
   {
     "word": "avoid",
     "phonetic": "/əˈvɔɪd/",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "避免；避开", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "avoid", "role": "root", "canonical": "avoid", "variantOf": null, "coreMeaning": { "cn": "避免；回避", "en": "to avoid" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["avoid"],
+    "coreMeaning": [
+      {
+        "cn": "避免；避开",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "avoid",
+        "role": "root",
+        "canonical": "avoid",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "避免；回避",
+          "en": "to avoid"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "avoid"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "使空出来",
-      "imageChain": ["a(出)+void(空)", "使自己从危险中空出", "避开"],
+      "imageChain": [
+        "a(出)+void(空)",
+        "使自己从危险中空出",
+        "避开"
+      ],
       "mnemonicExpr": "a(出)+void(空) → 使之空无一物 → 避开/避免"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "担忧"], "intensity": 0.3 },
-      "domain": ["general", "legal"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "担忧"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "general",
+        "legal"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["avoidance", "void", "devoid"],
+      "sameRoot": [
+        "avoidance",
+        "void",
+        "devoid"
+      ],
       "sameAffix": [],
-      "synonyms": ["evade", "shun", "sidestep"],
-      "antonyms": ["face", "confront", "encounter"],
-      "domainCohort": ["risk", "caution"],
-      "derivationPair": ["avoidance", "avoided", "avoiding"],
+      "synonyms": [
+        "evade",
+        "shun",
+        "sidestep"
+      ],
+      "antonyms": [
+        "face",
+        "confront",
+        "encounter"
+      ],
+      "domainCohort": [
+        "risk",
+        "caution"
+      ],
+      "derivationPair": [
+        "avoidance",
+        "avoided",
+        "avoiding"
+      ],
       "morphVariants": [],
-      "sameImagery": ["avoidance", "void"]
+      "sameImagery": [
+        "avoidance",
+        "void"
+      ]
     }
   },
   {
     "word": "avoidance",
     "phonetic": "/əˈvɔɪdəns/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "避免；回避", "domain": "business", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "avoid", "role": "root", "canonical": "avoid", "variantOf": null, "coreMeaning": { "cn": "避免", "en": "to avoid" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-ance", "role": "suffix", "canonical": "-ance", "variantOf": null, "coreMeaning": { "cn": "名词化，表动作/状态", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["avoid", "avoidance"],
+    "coreMeaning": [
+      {
+        "cn": "避免；回避",
+        "domain": "business",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "avoid",
+        "role": "root",
+        "canonical": "avoid",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "避免",
+          "en": "to avoid"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-ance",
+        "role": "suffix",
+        "canonical": "-ance",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "名词化，表动作/状态",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "avoid",
+      "avoidance"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "避开的行为",
-      "imageChain": ["避免", "回避行为", "避免的状态"],
+      "imageChain": [
+        "避免",
+        "回避行为",
+        "避免的状态"
+      ],
       "mnemonicExpr": "avoid(避免)+ance(状态) → 避免/回避"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "担忧"], "intensity": 0.3 },
-      "domain": ["business", "legal"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "担忧"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "business",
+        "legal"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["avoid", "void"],
-      "sameAffix": [{ "affix": "-ance", "members": ["assistance", "compliance"] }],
-      "synonyms": ["evasion", "shunning"],
-      "antonyms": ["engagement", "confrontation"],
-      "domainCohort": ["tax avoidance", "risk"],
-      "derivationPair": ["avoid"],
+      "sameRoot": [
+        "avoid",
+        "void"
+      ],
+      "sameAffix": [
+        "assistance",
+        "compliance"
+      ],
+      "synonyms": [
+        "evasion",
+        "shunning"
+      ],
+      "antonyms": [
+        "engagement",
+        "confrontation"
+      ],
+      "domainCohort": [
+        "tax avoidance",
+        "risk"
+      ],
+      "derivationPair": [
+        "avoid"
+      ],
       "morphVariants": [],
-      "sameImagery": ["avoid", "evasion"]
+      "sameImagery": [
+        "avoid",
+        "evasion"
+      ]
     }
   },
   {
     "word": "avoided",
     "phonetic": "/əˈvɔɪdɪd/",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "避免（avoid的过去式）", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "avoid", "role": "root", "canonical": "avoid", "variantOf": null, "coreMeaning": { "cn": "避免", "en": "to avoid" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-ed", "role": "suffix", "canonical": "-ed", "variantOf": null, "coreMeaning": { "cn": "过去式/过去分词", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["avoid", "avoided"],
+    "coreMeaning": [
+      {
+        "cn": "避免（avoid的过去式）",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "avoid",
+        "role": "root",
+        "canonical": "avoid",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "避免",
+          "en": "to avoid"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-ed",
+        "role": "suffix",
+        "canonical": "-ed",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "过去式/过去分词",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "avoid",
+      "avoided"
+    ],
     "morphVariantOf": "avoid",
     "memorySemantics": {
       "literal": "已避免",
-      "imageChain": ["回避过去", "完成的避免动作"],
+      "imageChain": [
+        "回避过去",
+        "完成的避免动作"
+      ],
       "mnemonicExpr": "avoid+ed → 避免的过去式"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "tech"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "tech"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["avoid", "avoidance", "avoiding"],
-      "sameAffix": [{ "affix": "-ed", "members": ["walked", "played"] }],
-      "synonyms": ["evaded", "shunned"],
-      "antonyms": ["faced", "confronted"],
+      "sameRoot": [
+        "avoid",
+        "avoidance",
+        "avoiding"
+      ],
+      "sameAffix": [
+        "walked",
+        "played"
+      ],
+      "synonyms": [
+        "evaded",
+        "shunned"
+      ],
+      "antonyms": [
+        "faced",
+        "confronted"
+      ],
       "domainCohort": [],
-      "derivationPair": ["avoid"],
-      "morphVariants": ["avoiding"],
-      "sameImagery": ["avoid"]
+      "derivationPair": [
+        "avoid"
+      ],
+      "morphVariants": [
+        "avoiding"
+      ],
+      "sameImagery": [
+        "avoid"
+      ]
     }
   },
   {
     "word": "avoiding",
     "phonetic": "/əˈvɔɪdɪŋ/",
-    "pos": ["v.", "adj."],
-    "coreMeaning": [{ "cn": "回避（avoid的ing形式）", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "avoid", "role": "root", "canonical": "avoid", "variantOf": null, "coreMeaning": { "cn": "避免", "en": "to avoid" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-ing", "role": "suffix", "canonical": "-ing", "variantOf": null, "coreMeaning": { "cn": "进行时/动名词", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "v.",
+      "adj."
     ],
-    "derivationChain": ["avoid", "avoiding"],
+    "coreMeaning": [
+      {
+        "cn": "回避（avoid的ing形式）",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "avoid",
+        "role": "root",
+        "canonical": "avoid",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "避免",
+          "en": "to avoid"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-ing",
+        "role": "suffix",
+        "canonical": "-ing",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "进行时/动名词",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "avoid",
+      "avoiding"
+    ],
     "morphVariantOf": "avoid",
     "memorySemantics": {
       "literal": "避免中",
-      "imageChain": ["正在回避", "回避动作"],
+      "imageChain": [
+        "正在回避",
+        "回避动作"
+      ],
       "mnemonicExpr": "avoid+ing → 正在避免 → 回避"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "tech"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "tech"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["avoid", "avoidance", "avoided"],
-      "sameAffix": [{ "affix": "-ing", "members": ["walking", "playing"] }],
-      "synonyms": ["evading", "shunning"],
-      "antonyms": ["confronting"],
+      "sameRoot": [
+        "avoid",
+        "avoidance",
+        "avoided"
+      ],
+      "sameAffix": [
+        "walking",
+        "playing"
+      ],
+      "synonyms": [
+        "evading",
+        "shunning"
+      ],
+      "antonyms": [
+        "confronting"
+      ],
       "domainCohort": [],
-      "derivationPair": ["avoid"],
-      "morphVariants": ["avoided"],
-      "sameImagery": ["avoid"]
+      "derivationPair": [
+        "avoid"
+      ],
+      "morphVariants": [
+        "avoided"
+      ],
+      "sameImagery": [
+        "avoid"
+      ]
     }
   },
   {
     "word": "avoir",
     "phonetic": "/avˈwaʁ/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "（法语）财产；资产", "domain": "finance", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "avoir", "role": "root", "canonical": "avoir", "variantOf": null, "coreMeaning": { "cn": "（法语）拥有；财产", "en": "to have; assets" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["avoir"],
+    "coreMeaning": [
+      {
+        "cn": "（法语）财产；资产",
+        "domain": "finance",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "avoir",
+        "role": "root",
+        "canonical": "avoir",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "（法语）拥有；财产",
+          "en": "to have; assets"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "avoir"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "所拥有之物",
-      "imageChain": ["法语动词to have", "所有的东西", "财产"],
+      "imageChain": [
+        "法语动词to have",
+        "所有的东西",
+        "财产"
+      ],
       "mnemonicExpr": "法语avoir(拥有) → 所拥有物 → 财产"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["finance"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "finance"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["avoirdupois"],
+      "sameRoot": [
+        "avoirdupois"
+      ],
       "sameAffix": [],
-      "synonyms": ["assets", "property"],
-      "antonyms": ["liabilities", "debts"],
-      "domainCohort": ["credit", "account"],
+      "synonyms": [
+        "assets",
+        "property"
+      ],
+      "antonyms": [
+        "liabilities",
+        "debts"
+      ],
+      "domainCohort": [
+        "credit",
+        "account"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["assets", "holdings"]
+      "sameImagery": [
+        "assets",
+        "holdings"
+      ]
     }
   },
   {
     "word": "avow",
     "phonetic": "/əˈvaʊ/",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "承认；公开宣称", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "a-", "role": "prefix", "canonical": "ad-", "variantOf": "a-", "coreMeaning": { "cn": "向；趋于", "en": "to, toward" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "vow", "role": "root", "canonical": "vot", "variantOf": "vow", "coreMeaning": { "cn": "誓愿；发誓", "en": "vow, declare" }, "sentiment": { "tags": ["庄重"], "intensity": 0.5 }, "positionTendency": "medial" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["vow", "avow"],
+    "coreMeaning": [
+      {
+        "cn": "承认；公开宣称",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "a-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "variantOf": "a-",
+        "coreMeaning": {
+          "cn": "向；趋于",
+          "en": "to, toward"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "vow",
+        "role": "root",
+        "canonical": "vot",
+        "variantOf": "vow",
+        "coreMeaning": {
+          "cn": "誓愿；发誓",
+          "en": "vow, declare"
+        },
+        "sentiment": {
+          "tags": [
+            "庄重"
+          ],
+          "intensity": 0.5
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "vow",
+      "avow"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "发誓确认",
-      "imageChain": ["向……发誓", "公开宣誓", "坦率承认"],
+      "imageChain": [
+        "向……发誓",
+        "公开宣誓",
+        "坦率承认"
+      ],
       "mnemonicExpr": "a(向)+vow(发誓) → 发誓承认 → 公开承认"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["庄重", "偏正"], "intensity": 0.5 },
-      "domain": ["legal", "editorial"],
+      "sentiment": {
+        "tags": [
+          "庄重",
+          "偏正"
+        ],
+        "intensity": 0.5
+      },
+      "domain": [
+        "legal",
+        "editorial"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["vow", "vote", "devote", "votary"],
-      "sameAffix": [{ "affix": "a-(ad)", "members": ["avert", "avouch"] }],
-      "synonyms": ["declare", "acknowledge", "assert"],
-      "antonyms": ["deny", "disavow", "repudiate"],
-      "domainCohort": ["confession", "declaration"],
-      "derivationPair": ["avowal", "avowed"],
-      "morphVariants": ["vow"],
-      "sameImagery": ["vow", "declare"]
+      "sameRoot": [
+        "vow",
+        "vote",
+        "devote",
+        "votary"
+      ],
+      "sameAffix": [
+        "avert",
+        "avouch"
+      ],
+      "synonyms": [
+        "declare",
+        "acknowledge",
+        "assert"
+      ],
+      "antonyms": [
+        "deny",
+        "disavow",
+        "repudiate"
+      ],
+      "domainCohort": [
+        "confession",
+        "declaration"
+      ],
+      "derivationPair": [
+        "avowal",
+        "avowed"
+      ],
+      "morphVariants": [
+        "vow"
+      ],
+      "sameImagery": [
+        "vow",
+        "declare"
+      ]
     }
   },
   {
     "word": "avro",
     "phonetic": "/ˈævroʊ/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "阿弗罗（航空公司/数据序列化框架）", "domain": "tech", "coverage": 0.85 }],
-    "morphemes": [
-      { "order": 1, "form": "avro", "role": "root", "canonical": "avro", "variantOf": null, "coreMeaning": { "cn": "阿弗罗（专有名词）", "en": "Avro (proper noun)" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["avro"],
+    "coreMeaning": [
+      {
+        "cn": "阿弗罗（航空公司/数据序列化框架）",
+        "domain": "tech",
+        "coverage": 0.85
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "avro",
+        "role": "root",
+        "canonical": "avro",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "阿弗罗（专有名词）",
+          "en": "Avro (proper noun)"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "avro"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "阿弗罗",
-      "imageChain": ["A.V. Roe公司缩写", "航空/数据框架", "专有名词"],
+      "imageChain": [
+        "A.V. Roe公司缩写",
+        "航空/数据框架",
+        "专有名词"
+      ],
       "mnemonicExpr": "A.V.Roe(航空先驱)→Avro → 阿弗罗"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["tech"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -410,7 +1399,11 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["Apache Avro", "serialization", "aviation"],
+      "domainCohort": [
+        "Apache Avro",
+        "serialization",
+        "aviation"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -419,760 +1412,2624 @@
   {
     "word": "avuncular",
     "phonetic": "/əˈvʌŋkjələ/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "伯父的；慈祥的", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "avunc", "role": "root", "canonical": "avunc", "variantOf": null, "coreMeaning": { "cn": "叔伯；舅舅", "en": "uncle" }, "sentiment": { "tags": ["中性", "喜爱"], "intensity": 0.3 }, "positionTendency": "initial" },
-      { "order": 2, "form": "ul", "role": "linker", "canonical": "-ul-", "variantOf": null, "coreMeaning": { "cn": "拉丁小词缀", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial", "note": "连接元素" },
-      { "order": 3, "form": "-ar", "role": "suffix", "canonical": "-ar", "variantOf": null, "coreMeaning": { "cn": "形容词后缀", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["avunculus", "avuncular"],
+    "coreMeaning": [
+      {
+        "cn": "伯父的；慈祥的",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "avunc",
+        "role": "root",
+        "canonical": "avunc",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "叔伯；舅舅",
+          "en": "uncle"
+        },
+        "sentiment": {
+          "tags": [
+            "中性",
+            "喜爱"
+          ],
+          "intensity": 0.3
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "ul",
+        "role": "linker",
+        "canonical": "-ul-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "拉丁小词缀",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial",
+        "note": "连接元素"
+      },
+      {
+        "order": 3,
+        "form": "-ar",
+        "role": "suffix",
+        "canonical": "-ar",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "形容词后缀",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "avunculus",
+      "avuncular"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "如伯父般的",
-      "imageChain": ["拉丁avunculus(舅舅)", "长辈般的慈祥", "伯父般"],
+      "imageChain": [
+        "拉丁avunculus(舅舅)",
+        "长辈般的慈祥",
+        "伯父般"
+      ],
       "mnemonicExpr": "avunc(叔舅)+ul+ar(的) → 像伯父一样的 → 慈祥的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["褒义", "喜爱"], "intensity": 0.6 },
-      "domain": ["general", "editorial"],
+      "sentiment": {
+        "tags": [
+          "褒义",
+          "喜爱"
+        ],
+        "intensity": 0.6
+      },
+      "domain": [
+        "general",
+        "editorial"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["uncle"],
-      "sameAffix": [{ "affix": "-ar", "members": ["stellar", "linear"] }],
-      "synonyms": ["kindly", "benevolent", "paternal"],
-      "antonyms": ["hostile", "cold"],
-      "domainCohort": ["kinship", "elder"],
+      "sameRoot": [
+        "uncle"
+      ],
+      "sameAffix": [
+        "stellar",
+        "linear"
+      ],
+      "synonyms": [
+        "kindly",
+        "benevolent",
+        "paternal"
+      ],
+      "antonyms": [
+        "hostile",
+        "cold"
+      ],
+      "domainCohort": [
+        "kinship",
+        "elder"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["uncle", "paternal"]
+      "sameImagery": [
+        "uncle",
+        "paternal"
+      ]
     }
   },
   {
     "word": "await",
     "phonetic": "/əˈweɪt/",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "等候；等待", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "a-", "role": "prefix", "canonical": "ad-", "variantOf": "a-", "coreMeaning": { "cn": "向；趋于", "en": "to, toward" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "wait", "role": "root", "canonical": "await", "variantOf": "wait", "coreMeaning": { "cn": "等待", "en": "to wait" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["wait", "await"],
+    "coreMeaning": [
+      {
+        "cn": "等候；等待",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "a-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "variantOf": "a-",
+        "coreMeaning": {
+          "cn": "向；趋于",
+          "en": "to, toward"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "wait",
+        "role": "root",
+        "canonical": "await",
+        "variantOf": "wait",
+        "coreMeaning": {
+          "cn": "等待",
+          "en": "to wait"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "wait",
+      "await"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "向着……等待",
-      "imageChain": ["朝向某物等待", "期待", "等候"],
+      "imageChain": [
+        "朝向某物等待",
+        "期待",
+        "等候"
+      ],
       "mnemonicExpr": "a(向)+wait(等) → 朝向等待 → 等候"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "news"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "news"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["wait", "waiting", "awaited"],
-      "sameAffix": [{ "affix": "a-(ad)", "members": ["arise", "ascend"] }],
-      "synonyms": ["expect", "anticipate", "wait for"],
-      "antonyms": ["ignore"],
-      "domainCohort": ["expectation", "anticipation"],
-      "derivationPair": ["awaited", "awaits"],
-      "morphVariants": ["wait"],
-      "sameImagery": ["wait", "expect"]
+      "sameRoot": [
+        "wait",
+        "waiting",
+        "awaited"
+      ],
+      "sameAffix": [
+        "arise",
+        "ascend"
+      ],
+      "synonyms": [
+        "expect",
+        "anticipate",
+        "wait for"
+      ],
+      "antonyms": [
+        "ignore"
+      ],
+      "domainCohort": [
+        "expectation",
+        "anticipation"
+      ],
+      "derivationPair": [
+        "awaited",
+        "awaits"
+      ],
+      "morphVariants": [
+        "wait"
+      ],
+      "sameImagery": [
+        "wait",
+        "expect"
+      ]
     }
   },
   {
     "word": "awaited",
     "phonetic": "/əˈweɪtɪd/",
-    "pos": ["v.", "adj."],
-    "coreMeaning": [{ "cn": "等候（await的过去式/分词）", "domain": "news", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "a-", "role": "prefix", "canonical": "ad-", "variantOf": "a-", "coreMeaning": { "cn": "向；趋于", "en": "to, toward" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "wait", "role": "root", "canonical": "await", "variantOf": "wait", "coreMeaning": { "cn": "等待", "en": "to wait" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ed", "role": "suffix", "canonical": "-ed", "variantOf": null, "coreMeaning": { "cn": "过去式/过去分词", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "v.",
+      "adj."
     ],
-    "derivationChain": ["wait", "await", "awaited"],
+    "coreMeaning": [
+      {
+        "cn": "等候（await的过去式/分词）",
+        "domain": "news",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "a-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "variantOf": "a-",
+        "coreMeaning": {
+          "cn": "向；趋于",
+          "en": "to, toward"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "wait",
+        "role": "root",
+        "canonical": "await",
+        "variantOf": "wait",
+        "coreMeaning": {
+          "cn": "等待",
+          "en": "to wait"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ed",
+        "role": "suffix",
+        "canonical": "-ed",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "过去式/过去分词",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "wait",
+      "await",
+      "awaited"
+    ],
     "morphVariantOf": "await",
     "memorySemantics": {
       "literal": "已等待",
-      "imageChain": ["等候过", "期待已久"],
+      "imageChain": [
+        "等候过",
+        "期待已久"
+      ],
       "mnemonicExpr": "await+ed → 等候/期待过"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "乐观"], "intensity": 0.3 },
-      "domain": ["news", "editorial"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "乐观"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "news",
+        "editorial"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["await", "wait", "awaits"],
-      "sameAffix": [{ "affix": "-ed", "members": ["waited", "expected"] }],
-      "synonyms": ["expected", "anticipated"],
-      "antonyms": ["unexpected"],
+      "sameRoot": [
+        "await",
+        "wait",
+        "awaits"
+      ],
+      "sameAffix": [
+        "waited",
+        "expected"
+      ],
+      "synonyms": [
+        "expected",
+        "anticipated"
+      ],
+      "antonyms": [
+        "unexpected"
+      ],
       "domainCohort": [],
-      "derivationPair": ["await"],
-      "morphVariants": ["awaiting", "awaits"],
-      "sameImagery": ["await", "expect"]
+      "derivationPair": [
+        "await"
+      ],
+      "morphVariants": [
+        "awaiting",
+        "awaits"
+      ],
+      "sameImagery": [
+        "await",
+        "expect"
+      ]
     }
   },
   {
     "word": "awaits",
     "phonetic": "/əˈweɪts/",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "等候（await的第三人称单数）", "domain": "news", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "a-", "role": "prefix", "canonical": "ad-", "variantOf": "a-", "coreMeaning": { "cn": "向；趋于", "en": "to, toward" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "wait", "role": "root", "canonical": "await", "variantOf": "wait", "coreMeaning": { "cn": "等待", "en": "to wait" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-s", "role": "suffix", "canonical": "-s", "variantOf": null, "coreMeaning": { "cn": "第三人称单数/复数", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["wait", "await", "awaits"],
+    "coreMeaning": [
+      {
+        "cn": "等候（await的第三人称单数）",
+        "domain": "news",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "a-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "variantOf": "a-",
+        "coreMeaning": {
+          "cn": "向；趋于",
+          "en": "to, toward"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "wait",
+        "role": "root",
+        "canonical": "await",
+        "variantOf": "wait",
+        "coreMeaning": {
+          "cn": "等待",
+          "en": "to wait"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-s",
+        "role": "suffix",
+        "canonical": "-s",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "第三人称单数/复数",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "wait",
+      "await",
+      "awaits"
+    ],
     "morphVariantOf": "await",
     "memorySemantics": {
       "literal": "正在等待",
-      "imageChain": ["他/她/它等候", "第三人称等候"],
+      "imageChain": [
+        "他/她/它等候",
+        "第三人称等候"
+      ],
       "mnemonicExpr": "await+s → 第三人称单数 → 等候"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["news"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "news"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["await", "awaited"],
-      "sameAffix": [{ "affix": "-s", "members": ["walks", "expects"] }],
-      "synonyms": ["expects", "anticipates"],
+      "sameRoot": [
+        "await",
+        "awaited"
+      ],
+      "sameAffix": [
+        "walks",
+        "expects"
+      ],
+      "synonyms": [
+        "expects",
+        "anticipates"
+      ],
       "antonyms": [],
       "domainCohort": [],
-      "derivationPair": ["await"],
-      "morphVariants": ["awaited", "awaiting"],
-      "sameImagery": ["await"]
+      "derivationPair": [
+        "await"
+      ],
+      "morphVariants": [
+        "awaited",
+        "awaiting"
+      ],
+      "sameImagery": [
+        "await"
+      ]
     }
   },
   {
     "word": "awake",
     "phonetic": "/əˈweɪk/",
-    "pos": ["v.", "adj."],
-    "coreMeaning": [{ "cn": "觉醒；醒着的", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "a-", "role": "prefix", "canonical": "a-", "variantOf": null, "coreMeaning": { "cn": "处于……状态；加强", "en": "in a state of" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "wake", "role": "root", "canonical": "wake", "variantOf": null, "coreMeaning": { "cn": "醒来", "en": "to wake" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "v.",
+      "adj."
     ],
-    "derivationChain": ["wake", "awake"],
+    "coreMeaning": [
+      {
+        "cn": "觉醒；醒着的",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "a-",
+        "role": "prefix",
+        "canonical": "a-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "处于……状态；加强",
+          "en": "in a state of"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "wake",
+        "role": "root",
+        "canonical": "wake",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "醒来",
+          "en": "to wake"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "wake",
+      "awake"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "处于醒来状态",
-      "imageChain": ["a(处于)+wake(醒)", "清醒", "意识到"],
+      "imageChain": [
+        "a(处于)+wake(醒)",
+        "清醒",
+        "意识到"
+      ],
       "mnemonicExpr": "a(状态)+wake(醒) → 处于醒着的状态 → 觉醒"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "偏正"], "intensity": 0.3 },
-      "domain": ["general", "editorial"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "偏正"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "general",
+        "editorial"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["wake", "waken", "awaken"],
-      "sameAffix": [{ "affix": "a-", "members": ["ablaze", "afloat", "asleep"] }],
-      "synonyms": ["conscious", "aware", "alert"],
-      "antonyms": ["asleep", "unconscious"],
-      "domainCohort": ["alertness", "consciousness"],
-      "derivationPair": ["awaken"],
-      "morphVariants": ["wake"],
-      "sameImagery": ["wake", "arouse"]
+      "sameRoot": [
+        "wake",
+        "waken",
+        "awaken"
+      ],
+      "sameAffix": [
+        "ablaze",
+        "afloat",
+        "asleep"
+      ],
+      "synonyms": [
+        "conscious",
+        "aware",
+        "alert"
+      ],
+      "antonyms": [
+        "asleep",
+        "unconscious"
+      ],
+      "domainCohort": [
+        "alertness",
+        "consciousness"
+      ],
+      "derivationPair": [
+        "awaken"
+      ],
+      "morphVariants": [
+        "wake"
+      ],
+      "sameImagery": [
+        "wake",
+        "arouse"
+      ]
     }
   },
   {
     "word": "award",
     "phonetic": "/əˈwɔːd/",
-    "pos": ["n.", "v."],
-    "coreMeaning": [{ "cn": "授予；奖项", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "a-", "role": "prefix", "canonical": "ad-", "variantOf": "a-", "coreMeaning": { "cn": "向；加强", "en": "to, toward" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "ward", "role": "root", "canonical": "wary", "variantOf": "ward", "coreMeaning": { "cn": "看守；裁定", "en": "guard, consider" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": ["ward", "award"],
+    "coreMeaning": [
+      {
+        "cn": "授予；奖项",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "a-",
+        "role": "prefix",
+        "canonical": "ad-",
+        "variantOf": "a-",
+        "coreMeaning": {
+          "cn": "向；加强",
+          "en": "to, toward"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "ward",
+        "role": "root",
+        "canonical": "wary",
+        "variantOf": "ward",
+        "coreMeaning": {
+          "cn": "看守；裁定",
+          "en": "guard, consider"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "ward",
+      "award"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "经考察后判给",
-      "imageChain": ["评审/看护", "经过审视", "授予奖项"],
+      "imageChain": [
+        "评审/看护",
+        "经过审视",
+        "授予奖项"
+      ],
       "mnemonicExpr": "a(加强)+ward(守/审) → 评审后授予 → 授予/奖项"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["褒义"], "intensity": 0.7 },
-      "domain": ["general", "academic"],
+      "sentiment": {
+        "tags": [
+          "褒义"
+        ],
+        "intensity": 0.7
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["reward", "ward", "warden"],
-      "sameAffix": [{ "affix": "a-(ad)", "members": ["await", "avow"] }],
-      "synonyms": ["prize", "grant", "bestow"],
-      "antonyms": ["penalty", "punishment"],
-      "domainCohort": ["honor", "ceremony", "prize"],
-      "derivationPair": ["awarded", "awarding"],
+      "sameRoot": [
+        "reward",
+        "ward",
+        "warden"
+      ],
+      "sameAffix": [
+        "await",
+        "avow"
+      ],
+      "synonyms": [
+        "prize",
+        "grant",
+        "bestow"
+      ],
+      "antonyms": [
+        "penalty",
+        "punishment"
+      ],
+      "domainCohort": [
+        "honor",
+        "ceremony",
+        "prize"
+      ],
+      "derivationPair": [
+        "awarded",
+        "awarding"
+      ],
       "morphVariants": [],
-      "sameImagery": ["reward", "prize"]
+      "sameImagery": [
+        "reward",
+        "prize"
+      ]
     }
   },
   {
     "word": "aware",
     "phonetic": "/əˈweə/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "意识到的；知道的", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "a-", "role": "prefix", "canonical": "a-", "variantOf": null, "coreMeaning": { "cn": "处于……状态", "en": "in a state of" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "ware", "role": "root", "canonical": "aware", "variantOf": "ware", "coreMeaning": { "cn": "察觉；警觉", "en": "watchful; aware" }, "sentiment": { "tags": ["偏正"], "intensity": 0.3 }, "positionTendency": "medial" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["ware", "aware"],
+    "coreMeaning": [
+      {
+        "cn": "意识到的；知道的",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "a-",
+        "role": "prefix",
+        "canonical": "a-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "处于……状态",
+          "en": "in a state of"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "ware",
+        "role": "root",
+        "canonical": "aware",
+        "variantOf": "ware",
+        "coreMeaning": {
+          "cn": "察觉；警觉",
+          "en": "watchful; aware"
+        },
+        "sentiment": {
+          "tags": [
+            "偏正"
+          ],
+          "intensity": 0.3
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "ware",
+      "aware"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "处于警觉状态",
-      "imageChain": ["警惕", "留意", "意识到"],
+      "imageChain": [
+        "警惕",
+        "留意",
+        "意识到"
+      ],
       "mnemonicExpr": "a(状态)+ware(警觉) → 处于留心状态 → 意识到的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["偏正"], "intensity": 0.4 },
-      "domain": ["general", "editorial"],
+      "sentiment": {
+        "tags": [
+          "偏正"
+        ],
+        "intensity": 0.4
+      },
+      "domain": [
+        "general",
+        "editorial"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["awareness", "beware", "wary"],
-      "sameAffix": [{ "affix": "a-", "members": ["afloat", "asleep"] }],
-      "synonyms": ["conscious", "cognizant", "mindful"],
-      "antonyms": ["unaware", "oblivious"],
-      "domainCohort": ["perception", "consciousness"],
-      "derivationPair": ["awareness"],
+      "sameRoot": [
+        "awareness",
+        "beware",
+        "wary"
+      ],
+      "sameAffix": [
+        "afloat",
+        "asleep"
+      ],
+      "synonyms": [
+        "conscious",
+        "cognizant",
+        "mindful"
+      ],
+      "antonyms": [
+        "unaware",
+        "oblivious"
+      ],
+      "domainCohort": [
+        "perception",
+        "consciousness"
+      ],
+      "derivationPair": [
+        "awareness"
+      ],
       "morphVariants": [],
-      "sameImagery": ["beware", "wary"]
+      "sameImagery": [
+        "beware",
+        "wary"
+      ]
     }
   },
   {
     "word": "awareness",
     "phonetic": "/əˈweənəs/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "意识；察觉", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "a-", "role": "prefix", "canonical": "a-", "variantOf": null, "coreMeaning": { "cn": "处于……状态", "en": "in a state of" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "ware", "role": "root", "canonical": "aware", "variantOf": "ware", "coreMeaning": { "cn": "察觉；警觉", "en": "watchful" }, "sentiment": { "tags": ["偏正"], "intensity": 0.3 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ness", "role": "suffix", "canonical": "-ness", "variantOf": null, "coreMeaning": { "cn": "名词化，表性质/状态", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["ware", "aware", "awareness"],
+    "coreMeaning": [
+      {
+        "cn": "意识；察觉",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "a-",
+        "role": "prefix",
+        "canonical": "a-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "处于……状态",
+          "en": "in a state of"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "ware",
+        "role": "root",
+        "canonical": "aware",
+        "variantOf": "ware",
+        "coreMeaning": {
+          "cn": "察觉；警觉",
+          "en": "watchful"
+        },
+        "sentiment": {
+          "tags": [
+            "偏正"
+          ],
+          "intensity": 0.3
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ness",
+        "role": "suffix",
+        "canonical": "-ness",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "名词化，表性质/状态",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "ware",
+      "aware",
+      "awareness"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "察觉的状态",
-      "imageChain": ["意识到的状态", "觉知", "意识"],
+      "imageChain": [
+        "意识到的状态",
+        "觉知",
+        "意识"
+      ],
       "mnemonicExpr": "aware(意识到的)+ness(状态) → 意识/察觉"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "偏正"], "intensity": 0.3 },
-      "domain": ["general", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "偏正"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["aware", "beware", "wary"],
-      "sameAffix": [{ "affix": "-ness", "members": ["kindness", "happiness"] }],
-      "synonyms": ["consciousness", "cognizance", "perception"],
-      "antonyms": ["ignorance", "oblivion"],
-      "domainCohort": ["mindfulness", "perception"],
-      "derivationPair": ["aware"],
+      "sameRoot": [
+        "aware",
+        "beware",
+        "wary"
+      ],
+      "sameAffix": [
+        "kindness",
+        "happiness"
+      ],
+      "synonyms": [
+        "consciousness",
+        "cognizance",
+        "perception"
+      ],
+      "antonyms": [
+        "ignorance",
+        "oblivion"
+      ],
+      "domainCohort": [
+        "mindfulness",
+        "perception"
+      ],
+      "derivationPair": [
+        "aware"
+      ],
       "morphVariants": [],
-      "sameImagery": ["aware", "consciousness"]
+      "sameImagery": [
+        "aware",
+        "consciousness"
+      ]
     }
   },
   {
     "word": "away",
     "phonetic": "/əˈweɪ/",
-    "pos": ["adv.", "adj."],
-    "coreMeaning": [{ "cn": "离去；远离", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "a-", "role": "prefix", "canonical": "a-", "variantOf": null, "coreMeaning": { "cn": "向；状态", "en": "on, to" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "way", "role": "root", "canonical": "way", "variantOf": null, "coreMeaning": { "cn": "路；道路", "en": "way, road" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "adv.",
+      "adj."
     ],
-    "derivationChain": ["way", "away"],
+    "coreMeaning": [
+      {
+        "cn": "离去；远离",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "a-",
+        "role": "prefix",
+        "canonical": "a-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "向；状态",
+          "en": "on, to"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "way",
+        "role": "root",
+        "canonical": "way",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "路；道路",
+          "en": "way, road"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "way",
+      "away"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "在路上",
-      "imageChain": ["a(在)+way(路上)", "离开原地", "远离"],
+      "imageChain": [
+        "a(在)+way(路上)",
+        "离开原地",
+        "远离"
+      ],
       "mnemonicExpr": "a(在)+way(路) → 在路上/远去 → 离去"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["way", "highway", "pathway"],
-      "sameAffix": [{ "affix": "a-", "members": ["aloft", "aside"] }],
-      "synonyms": ["off", "aside", "afar"],
-      "antonyms": ["near", "close"],
-      "domainCohort": ["departure", "distance"],
+      "sameRoot": [
+        "way",
+        "highway",
+        "pathway"
+      ],
+      "sameAffix": [
+        "aloft",
+        "aside"
+      ],
+      "synonyms": [
+        "off",
+        "aside",
+        "afar"
+      ],
+      "antonyms": [
+        "near",
+        "close"
+      ],
+      "domainCohort": [
+        "departure",
+        "distance"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["off", "far"]
+      "sameImagery": [
+        "off",
+        "far"
+      ]
     }
   },
   {
     "word": "awe",
     "phonetic": "/ɔː/",
-    "pos": ["n.", "v."],
-    "coreMeaning": [{ "cn": "敬畏；使敬畏", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "awe", "role": "root", "canonical": "awe", "variantOf": null, "coreMeaning": { "cn": "敬畏", "en": "awe, reverence" }, "sentiment": { "tags": ["庄重"], "intensity": 0.7 }, "positionTendency": "medial" }
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": ["awe"],
+    "coreMeaning": [
+      {
+        "cn": "敬畏；使敬畏",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "awe",
+        "role": "root",
+        "canonical": "awe",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "敬畏",
+          "en": "awe, reverence"
+        },
+        "sentiment": {
+          "tags": [
+            "庄重"
+          ],
+          "intensity": 0.7
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "awe"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "敬畏",
-      "imageChain": ["肃然起敬", "畏怯交织", "敬畏"],
+      "imageChain": [
+        "肃然起敬",
+        "畏怯交织",
+        "敬畏"
+      ],
       "mnemonicExpr": "awe(敬畏) → 既敬且畏 → 敬畏"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["庄重", "混合"], "intensity": 0.7 },
-      "domain": ["general", "editorial"],
+      "sentiment": {
+        "tags": [
+          "庄重",
+          "混合"
+        ],
+        "intensity": 0.7
+      },
+      "domain": [
+        "general",
+        "editorial"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["awful", "awesome", "awe-struck", "awe-inspiring"],
+      "sameRoot": [
+        "awful",
+        "awesome",
+        "awe-struck",
+        "awe-inspiring"
+      ],
       "sameAffix": [],
-      "synonyms": ["reverence", "wonder", "amazement"],
-      "antonyms": ["contempt", "disdain"],
-      "domainCohort": ["reverence", "wonder"],
-      "derivationPair": ["awesome", "awful"],
+      "synonyms": [
+        "reverence",
+        "wonder",
+        "amazement"
+      ],
+      "antonyms": [
+        "contempt",
+        "disdain"
+      ],
+      "domainCohort": [
+        "reverence",
+        "wonder"
+      ],
+      "derivationPair": [
+        "awesome",
+        "awful"
+      ],
       "morphVariants": [],
-      "sameImagery": ["awesome", "awful"]
+      "sameImagery": [
+        "awesome",
+        "awful"
+      ]
     }
   },
   {
     "word": "awe-inspiring",
     "phonetic": "/ˈɔːɪnˌspaɪərɪŋ/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "令人敬畏的；壮观的", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "awe", "role": "root", "canonical": "awe", "variantOf": null, "coreMeaning": { "cn": "敬畏", "en": "awe" }, "sentiment": { "tags": ["庄重"], "intensity": 0.7 }, "positionTendency": "initial" },
-      { "order": 2, "form": "in-", "role": "prefix", "canonical": "in-", "variantOf": null, "coreMeaning": { "cn": "向内；进入", "en": "into" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "spir", "role": "root", "canonical": "spir", "variantOf": null, "coreMeaning": { "cn": "呼吸", "en": "breathe" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 4, "form": "-ing", "role": "suffix", "canonical": "-ing", "variantOf": null, "coreMeaning": { "cn": "现在分词/形容词化", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["spir", "inspire", "inspiring", "awe-inspiring"],
+    "coreMeaning": [
+      {
+        "cn": "令人敬畏的；壮观的",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "awe",
+        "role": "root",
+        "canonical": "awe",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "敬畏",
+          "en": "awe"
+        },
+        "sentiment": {
+          "tags": [
+            "庄重"
+          ],
+          "intensity": 0.7
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "in-",
+        "role": "prefix",
+        "canonical": "in-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "向内；进入",
+          "en": "into"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "spir",
+        "role": "root",
+        "canonical": "spir",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "呼吸",
+          "en": "breathe"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 4,
+        "form": "-ing",
+        "role": "suffix",
+        "canonical": "-ing",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "现在分词/形容词化",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "spir",
+      "inspire",
+      "inspiring",
+      "awe-inspiring"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "吹起敬畏之气的",
-      "imageChain": ["awe(敬畏)+inspire(激发)", "令人心生敬畏", "壮观"],
+      "imageChain": [
+        "awe(敬畏)+inspire(激发)",
+        "令人心生敬畏",
+        "壮观"
+      ],
       "mnemonicExpr": "awe(敬畏)+inspiring(激发) → 激发敬畏 → 令人敬畏的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["褒义", "庄重"], "intensity": 0.8 },
-      "domain": ["general", "editorial"],
+      "sentiment": {
+        "tags": [
+          "褒义",
+          "庄重"
+        ],
+        "intensity": 0.8
+      },
+      "domain": [
+        "general",
+        "editorial"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["awe", "awesome", "inspire", "inspiration"],
-      "sameAffix": [{ "affix": "-ing", "members": ["striking", "moving"] }],
-      "synonyms": ["majestic", "breathtaking", "magnificent"],
-      "antonyms": ["mundane", "dull"],
-      "domainCohort": ["grandeur", "majesty"],
-      "derivationPair": ["inspire"],
+      "sameRoot": [
+        "awe",
+        "awesome",
+        "inspire",
+        "inspiration"
+      ],
+      "sameAffix": [
+        "striking",
+        "moving"
+      ],
+      "synonyms": [
+        "majestic",
+        "breathtaking",
+        "magnificent"
+      ],
+      "antonyms": [
+        "mundane",
+        "dull"
+      ],
+      "domainCohort": [
+        "grandeur",
+        "majesty"
+      ],
+      "derivationPair": [
+        "inspire"
+      ],
       "morphVariants": [],
-      "sameImagery": ["awe", "inspire"]
+      "sameImagery": [
+        "awe",
+        "inspire"
+      ]
     }
   },
   {
     "word": "awe-struck",
     "phonetic": "/ˈɔːstrʌk/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "充满敬畏的；惊叹的", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "awe", "role": "root", "canonical": "awe", "variantOf": null, "coreMeaning": { "cn": "敬畏", "en": "awe" }, "sentiment": { "tags": ["庄重"], "intensity": 0.7 }, "positionTendency": "initial" },
-      { "order": 2, "form": "struck", "role": "root", "canonical": "strike", "variantOf": "struck", "coreMeaning": { "cn": "击打（strike的过去分词）", "en": "struck, hit" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["strike", "struck", "awe-struck"],
+    "coreMeaning": [
+      {
+        "cn": "充满敬畏的；惊叹的",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "awe",
+        "role": "root",
+        "canonical": "awe",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "敬畏",
+          "en": "awe"
+        },
+        "sentiment": {
+          "tags": [
+            "庄重"
+          ],
+          "intensity": 0.7
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "struck",
+        "role": "root",
+        "canonical": "strike",
+        "variantOf": "struck",
+        "coreMeaning": {
+          "cn": "击打（strike的过去分词）",
+          "en": "struck, hit"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "strike",
+      "struck",
+      "awe-struck"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "被敬畏击中",
-      "imageChain": ["敬畏之情袭来", "如被击中", "惊叹得说不出话"],
+      "imageChain": [
+        "敬畏之情袭来",
+        "如被击中",
+        "惊叹得说不出话"
+      ],
       "mnemonicExpr": "awe(敬畏)+struck(击中) → 被敬畏击中 → 充满敬畏的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["庄重", "混合"], "intensity": 0.7 },
-      "domain": ["general", "editorial"],
+      "sentiment": {
+        "tags": [
+          "庄重",
+          "混合"
+        ],
+        "intensity": 0.7
+      },
+      "domain": [
+        "general",
+        "editorial"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["awe", "awesome", "strike", "struck"],
+      "sameRoot": [
+        "awe",
+        "awesome",
+        "strike",
+        "struck"
+      ],
       "sameAffix": [],
-      "synonyms": ["awed", "astounded", "amazed"],
-      "antonyms": ["unimpressed", "indifferent"],
-      "domainCohort": ["astonishment", "wonder"],
-      "derivationPair": ["awe"],
+      "synonyms": [
+        "awed",
+        "astounded",
+        "amazed"
+      ],
+      "antonyms": [
+        "unimpressed",
+        "indifferent"
+      ],
+      "domainCohort": [
+        "astonishment",
+        "wonder"
+      ],
+      "derivationPair": [
+        "awe"
+      ],
       "morphVariants": [],
-      "sameImagery": ["awe", "amazed"]
+      "sameImagery": [
+        "awe",
+        "amazed"
+      ]
     }
   },
   {
     "word": "awesome",
     "phonetic": "/ˈɔːsəm/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "可怕的；了不起的", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "awe", "role": "root", "canonical": "awe", "variantOf": null, "coreMeaning": { "cn": "敬畏", "en": "awe" }, "sentiment": { "tags": ["庄重"], "intensity": 0.7 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-some", "role": "suffix", "canonical": "-some", "variantOf": null, "coreMeaning": { "cn": "……的；具有……性质的", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["awe", "awesome"],
+    "coreMeaning": [
+      {
+        "cn": "可怕的；了不起的",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "awe",
+        "role": "root",
+        "canonical": "awe",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "敬畏",
+          "en": "awe"
+        },
+        "sentiment": {
+          "tags": [
+            "庄重"
+          ],
+          "intensity": 0.7
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-some",
+        "role": "suffix",
+        "canonical": "-some",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "……的；具有……性质的",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "awe",
+      "awesome"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "充满敬畏的",
-      "imageChain": ["引人敬畏", "令人惊叹", "棒极了"],
+      "imageChain": [
+        "引人敬畏",
+        "令人惊叹",
+        "棒极了"
+      ],
       "mnemonicExpr": "awe(敬畏)+some(具有) → 令人敬畏的 → 了不起的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["褒义", "喜爱"], "intensity": 0.8 },
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "褒义",
+          "喜爱"
+        ],
+        "intensity": 0.8
+      },
+      "domain": [
+        "general"
+      ],
       "registerFormality": "informal"
     },
     "relations": {
-      "sameRoot": ["awe", "awful", "awe-struck"],
-      "sameAffix": [{ "affix": "-some", "members": ["handsome", "troublesome"] }],
-      "synonyms": ["amazing", "impressive", "wonderful"],
-      "antonyms": ["terrible", "awful"],
-      "domainCohort": ["admiration", "praise"],
-      "derivationPair": ["awe"],
+      "sameRoot": [
+        "awe",
+        "awful",
+        "awe-struck"
+      ],
+      "sameAffix": [
+        "handsome",
+        "troublesome"
+      ],
+      "synonyms": [
+        "amazing",
+        "impressive",
+        "wonderful"
+      ],
+      "antonyms": [
+        "terrible",
+        "awful"
+      ],
+      "domainCohort": [
+        "admiration",
+        "praise"
+      ],
+      "derivationPair": [
+        "awe"
+      ],
       "morphVariants": [],
-      "sameImagery": ["awe", "impressive"]
+      "sameImagery": [
+        "awe",
+        "impressive"
+      ]
     }
   },
   {
     "word": "aweto",
     "phonetic": "/ɑːˈwetoʊ/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "冬虫夏草", "domain": "medical", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "aweto", "role": "root", "canonical": "aweto", "variantOf": null, "coreMeaning": { "cn": "冬虫夏草（毛利语）", "en": "aweto (Maori term for caterpillar fungus)" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["aweto"],
+    "coreMeaning": [
+      {
+        "cn": "冬虫夏草",
+        "domain": "medical",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "aweto",
+        "role": "root",
+        "canonical": "aweto",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "冬虫夏草（毛利语）",
+          "en": "aweto (Maori term for caterpillar fungus)"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "aweto"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "冬虫夏草",
-      "imageChain": ["毛利语词源", "虫草菌类", "冬虫夏草"],
+      "imageChain": [
+        "毛利语词源",
+        "虫草菌类",
+        "冬虫夏草"
+      ],
       "mnemonicExpr": "毛利语aweto → 虫草 → 冬虫夏草"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["medical"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
       "sameRoot": [],
       "sameAffix": [],
-      "synonyms": ["caterpillar fungus", "cordyceps"],
+      "synonyms": [
+        "caterpillar fungus",
+        "cordyceps"
+      ],
       "antonyms": [],
-      "domainCohort": ["fungus", "Chinese medicine"],
+      "domainCohort": [
+        "fungus",
+        "Chinese medicine"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["cordyceps", "fungus"]
+      "sameImagery": [
+        "cordyceps",
+        "fungus"
+      ]
     }
   },
   {
     "word": "awful",
     "phonetic": "/ˈɔːfl/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "可怕的；极坏的", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "awe", "role": "root", "canonical": "awe", "variantOf": null, "coreMeaning": { "cn": "敬畏；恐惧", "en": "awe, dread" }, "sentiment": { "tags": ["庄重"], "intensity": 0.6 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-ful", "role": "suffix", "canonical": "-ful", "variantOf": null, "coreMeaning": { "cn": "充满……的", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["awe", "awful"],
+    "coreMeaning": [
+      {
+        "cn": "可怕的；极坏的",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "awe",
+        "role": "root",
+        "canonical": "awe",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "敬畏；恐惧",
+          "en": "awe, dread"
+        },
+        "sentiment": {
+          "tags": [
+            "庄重"
+          ],
+          "intensity": 0.6
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-ful",
+        "role": "suffix",
+        "canonical": "-ful",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "充满……的",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "awe",
+      "awful"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "充满敬畏/恐惧的",
-      "imageChain": ["令人敬畏", "转为可怕", "极坏的"],
+      "imageChain": [
+        "令人敬畏",
+        "转为可怕",
+        "极坏的"
+      ],
       "mnemonicExpr": "awe(畏)+ful(充满) → 充满畏惧的 → 可怕的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义", "厌恶"], "intensity": 0.8 },
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "贬义",
+          "厌恶"
+        ],
+        "intensity": 0.8
+      },
+      "domain": [
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["awe", "awesome", "awe-struck"],
-      "sameAffix": [{ "affix": "-ful", "members": ["useful", "grateful"] }],
-      "synonyms": ["terrible", "horrible", "dreadful"],
-      "antonyms": ["wonderful", "delightful"],
-      "domainCohort": ["unpleasantness", "dread"],
-      "derivationPair": ["awe"],
+      "sameRoot": [
+        "awe",
+        "awesome",
+        "awe-struck"
+      ],
+      "sameAffix": [
+        "useful",
+        "grateful"
+      ],
+      "synonyms": [
+        "terrible",
+        "horrible",
+        "dreadful"
+      ],
+      "antonyms": [
+        "wonderful",
+        "delightful"
+      ],
+      "domainCohort": [
+        "unpleasantness",
+        "dread"
+      ],
+      "derivationPair": [
+        "awe"
+      ],
       "morphVariants": [],
-      "sameImagery": ["awe", "dreadful"]
+      "sameImagery": [
+        "awe",
+        "dreadful"
+      ]
     }
   },
   {
     "word": "awkward",
     "phonetic": "/ˈɔːkwəd/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "尴尬的；笨拙的", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "awk", "role": "root", "canonical": "awk", "variantOf": null, "coreMeaning": { "cn": "反向；错向", "en": "turned the wrong way" }, "sentiment": { "tags": ["偏负"], "intensity": 0.4 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-ward", "role": "suffix", "canonical": "-ward", "variantOf": null, "coreMeaning": { "cn": "向……方向", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["awk", "awkward"],
+    "coreMeaning": [
+      {
+        "cn": "尴尬的；笨拙的",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "awk",
+        "role": "root",
+        "canonical": "awk",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "反向；错向",
+          "en": "turned the wrong way"
+        },
+        "sentiment": {
+          "tags": [
+            "偏负"
+          ],
+          "intensity": 0.4
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-ward",
+        "role": "suffix",
+        "canonical": "-ward",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "向……方向",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "awk",
+      "awkward"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "朝错误方向的",
-      "imageChain": ["awk(反向)+ward(方向)", "动作别扭", "笨拙/尴尬"],
+      "imageChain": [
+        "awk(反向)+ward(方向)",
+        "动作别扭",
+        "笨拙/尴尬"
+      ],
       "mnemonicExpr": "awk(反)+ward(向) → 方向不对 → 笨拙的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义"], "intensity": 0.6 },
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": 0.6
+      },
+      "domain": [
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
       "sameRoot": [],
-      "sameAffix": [{ "affix": "-ward", "members": ["backward", "forward"] }],
-      "synonyms": ["clumsy", "uncomfortable", "embarrassing"],
-      "antonyms": ["graceful", "comfortable"],
-      "domainCohort": ["embarrassment", "clumsiness"],
-      "derivationPair": ["awkwardly", "awkwardness"],
+      "sameAffix": [
+        "backward",
+        "forward"
+      ],
+      "synonyms": [
+        "clumsy",
+        "uncomfortable",
+        "embarrassing"
+      ],
+      "antonyms": [
+        "graceful",
+        "comfortable"
+      ],
+      "domainCohort": [
+        "embarrassment",
+        "clumsiness"
+      ],
+      "derivationPair": [
+        "awkwardly",
+        "awkwardness"
+      ],
       "morphVariants": [],
-      "sameImagery": ["clumsy", "embarrass"]
+      "sameImagery": [
+        "clumsy",
+        "embarrass"
+      ]
     }
   },
   {
     "word": "awry",
     "phonetic": "/əˈraɪ/",
-    "pos": ["adv.", "adj."],
-    "coreMeaning": [{ "cn": "错误的；扭曲的", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "a-", "role": "prefix", "canonical": "a-", "variantOf": null, "coreMeaning": { "cn": "处于……状态", "en": "in a state of" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "wry", "role": "root", "canonical": "wry", "variantOf": null, "coreMeaning": { "cn": "歪；扭", "en": "twisted" }, "sentiment": { "tags": ["偏负"], "intensity": 0.4 }, "positionTendency": "medial" }
+    "pos": [
+      "adv.",
+      "adj."
     ],
-    "derivationChain": ["wry", "awry"],
+    "coreMeaning": [
+      {
+        "cn": "错误的；扭曲的",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "a-",
+        "role": "prefix",
+        "canonical": "a-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "处于……状态",
+          "en": "in a state of"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "wry",
+        "role": "root",
+        "canonical": "wry",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "歪；扭",
+          "en": "twisted"
+        },
+        "sentiment": {
+          "tags": [
+            "偏负"
+          ],
+          "intensity": 0.4
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "wry",
+      "awry"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "处于歪扭状态",
-      "imageChain": ["a(状态)+wry(歪)", "偏离正道", "不对劲"],
+      "imageChain": [
+        "a(状态)+wry(歪)",
+        "偏离正道",
+        "不对劲"
+      ],
       "mnemonicExpr": "a(状态)+wry(歪) → 歪斜状态 → 出错/扭曲"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义", "偏负"], "intensity": 0.6 },
-      "domain": ["general", "editorial"],
+      "sentiment": {
+        "tags": [
+          "贬义",
+          "偏负"
+        ],
+        "intensity": 0.6
+      },
+      "domain": [
+        "general",
+        "editorial"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["wry", "wrist", "wrong"],
-      "sameAffix": [{ "affix": "a-", "members": ["afloat", "ablaze", "aside"] }],
-      "synonyms": ["askew", "crooked", "amiss"],
-      "antonyms": ["straight", "correct"],
-      "domainCohort": ["error", "distortion"],
+      "sameRoot": [
+        "wry",
+        "wrist",
+        "wrong"
+      ],
+      "sameAffix": [
+        "afloat",
+        "ablaze",
+        "aside"
+      ],
+      "synonyms": [
+        "askew",
+        "crooked",
+        "amiss"
+      ],
+      "antonyms": [
+        "straight",
+        "correct"
+      ],
+      "domainCohort": [
+        "error",
+        "distortion"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["askew", "amiss"]
+      "sameImagery": [
+        "askew",
+        "amiss"
+      ]
     }
   },
   {
     "word": "axe",
     "phonetic": "/æks/",
-    "pos": ["n.", "v."],
-    "coreMeaning": [{ "cn": "斧头；大砍", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "axe", "role": "root", "canonical": "ax", "variantOf": "axe", "coreMeaning": { "cn": "斧子", "en": "axe" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": ["ax", "axe"],
+    "coreMeaning": [
+      {
+        "cn": "斧头；大砍",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "axe",
+        "role": "root",
+        "canonical": "ax",
+        "variantOf": "axe",
+        "coreMeaning": {
+          "cn": "斧子",
+          "en": "axe"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "ax",
+      "axe"
+    ],
     "morphVariantOf": "ax",
     "memorySemantics": {
       "literal": "斧头",
-      "imageChain": ["砍伐工具", "斧头形状", "砍断"],
+      "imageChain": [
+        "砍伐工具",
+        "斧头形状",
+        "砍断"
+      ],
       "mnemonicExpr": "axe(斧头) → 砍伐之具 → 斧/砍"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "business"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "business"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["ax", "hatchet"],
+      "sameRoot": [
+        "ax",
+        "hatchet"
+      ],
       "sameAffix": [],
-      "synonyms": ["hatchet", "chopper"],
+      "synonyms": [
+        "hatchet",
+        "chopper"
+      ],
       "antonyms": [],
-      "domainCohort": ["cutting", "tool"],
+      "domainCohort": [
+        "cutting",
+        "tool"
+      ],
       "derivationPair": [],
-      "morphVariants": ["ax"],
-      "sameImagery": ["chop", "cut"]
+      "morphVariants": [
+        "ax"
+      ],
+      "sameImagery": [
+        "chop",
+        "cut"
+      ]
     }
   },
   {
     "word": "axiom",
     "phonetic": "/ˈæksiəm/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "公理；定理", "domain": "academic", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "axi", "role": "root", "canonical": "ax", "variantOf": "axi", "coreMeaning": { "cn": "公理；轴心", "en": "axiom; axis" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-om", "role": "suffix", "canonical": "-om", "variantOf": null, "coreMeaning": { "cn": "名词后缀（希腊）", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["ax", "axiom"],
+    "coreMeaning": [
+      {
+        "cn": "公理；定理",
+        "domain": "academic",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "axi",
+        "role": "root",
+        "canonical": "ax",
+        "variantOf": "axi",
+        "coreMeaning": {
+          "cn": "公理；轴心",
+          "en": "axiom; axis"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-om",
+        "role": "suffix",
+        "canonical": "-om",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "名词后缀（希腊）",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "ax",
+      "axiom"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "被认为有价值的",
-      "imageChain": ["希腊axios(有价值)", "公认真理", "公理"],
+      "imageChain": [
+        "希腊axios(有价值)",
+        "公认真理",
+        "公理"
+      ],
       "mnemonicExpr": "axi(有价值)+om → 公认之理 → 公理"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.3 },
-      "domain": ["academic"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "庄重"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["axiomatic", "axis"],
+      "sameRoot": [
+        "axiomatic",
+        "axis"
+      ],
       "sameAffix": [],
-      "synonyms": ["principle", "truism", "maxim"],
-      "antonyms": ["hypothesis", "conjecture"],
-      "domainCohort": ["mathematics", "logic", "philosophy"],
-      "derivationPair": ["axiomatic"],
+      "synonyms": [
+        "principle",
+        "truism",
+        "maxim"
+      ],
+      "antonyms": [
+        "hypothesis",
+        "conjecture"
+      ],
+      "domainCohort": [
+        "mathematics",
+        "logic",
+        "philosophy"
+      ],
+      "derivationPair": [
+        "axiomatic"
+      ],
       "morphVariants": [],
-      "sameImagery": ["principle", "truism"]
+      "sameImagery": [
+        "principle",
+        "truism"
+      ]
     }
   },
   {
     "word": "axiomatic",
     "phonetic": "/ˌæksiəˈmætɪk/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "自明的；公理的", "domain": "academic", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "axi", "role": "root", "canonical": "ax", "variantOf": "axi", "coreMeaning": { "cn": "公理；轴心", "en": "axiom" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-om", "role": "suffix", "canonical": "-om", "variantOf": null, "coreMeaning": { "cn": "名词后缀", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-atic", "role": "suffix", "canonical": "-atic", "variantOf": null, "coreMeaning": { "cn": "……的", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["ax", "axiom", "axiomatic"],
+    "coreMeaning": [
+      {
+        "cn": "自明的；公理的",
+        "domain": "academic",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "axi",
+        "role": "root",
+        "canonical": "ax",
+        "variantOf": "axi",
+        "coreMeaning": {
+          "cn": "公理；轴心",
+          "en": "axiom"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-om",
+        "role": "suffix",
+        "canonical": "-om",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "名词后缀",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-atic",
+        "role": "suffix",
+        "canonical": "-atic",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "……的",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "ax",
+      "axiom",
+      "axiomatic"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "关于公理的",
-      "imageChain": ["公理性", "无需证明", "自明的"],
+      "imageChain": [
+        "公理性",
+        "无需证明",
+        "自明的"
+      ],
       "mnemonicExpr": "axiom(公理)+atic(的) → 公理般的 → 自明的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.3 },
-      "domain": ["academic"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "庄重"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["axiom", "axis"],
-      "sameAffix": [{ "affix": "-atic", "members": ["dramatic", "systematic"] }],
-      "synonyms": ["self-evident", "unquestionable"],
-      "antonyms": ["debatable", "dubious"],
-      "domainCohort": ["mathematics", "logic"],
-      "derivationPair": ["axiom"],
+      "sameRoot": [
+        "axiom",
+        "axis"
+      ],
+      "sameAffix": [
+        "dramatic",
+        "systematic"
+      ],
+      "synonyms": [
+        "self-evident",
+        "unquestionable"
+      ],
+      "antonyms": [
+        "debatable",
+        "dubious"
+      ],
+      "domainCohort": [
+        "mathematics",
+        "logic"
+      ],
+      "derivationPair": [
+        "axiom"
+      ],
       "morphVariants": [],
-      "sameImagery": ["axiom", "self-evident"]
+      "sameImagery": [
+        "axiom",
+        "self-evident"
+      ]
     }
   },
   {
     "word": "axis",
     "phonetic": "/ˈæksɪs/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "轴；轴线；轴心国", "domain": "academic", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "ax", "role": "root", "canonical": "ax", "variantOf": null, "coreMeaning": { "cn": "轴", "en": "axis" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-is", "role": "suffix", "canonical": "-is", "variantOf": null, "coreMeaning": { "cn": "名词后缀（希腊/拉丁）", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["ax", "axis"],
+    "coreMeaning": [
+      {
+        "cn": "轴；轴线；轴心国",
+        "domain": "academic",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ax",
+        "role": "root",
+        "canonical": "ax",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "轴",
+          "en": "axis"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-is",
+        "role": "suffix",
+        "canonical": "-is",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "名词后缀（希腊/拉丁）",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "ax",
+      "axis"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "轴",
-      "imageChain": ["中心线", "旋转轴", "轴心"],
+      "imageChain": [
+        "中心线",
+        "旋转轴",
+        "轴心"
+      ],
       "mnemonicExpr": "ax(轴)+is → 中心之轴 → 轴线"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["academic", "tech"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "academic",
+        "tech"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["axiom", "axial", "axle"],
-      "sameAffix": [{ "affix": "-is", "members": ["basis", "thesis"] }],
-      "synonyms": ["pivot", "shaft"],
+      "sameRoot": [
+        "axiom",
+        "axial",
+        "axle"
+      ],
+      "sameAffix": [
+        "basis",
+        "thesis"
+      ],
+      "synonyms": [
+        "pivot",
+        "shaft"
+      ],
       "antonyms": [],
-      "domainCohort": ["geometry", "rotation", "coordinate"],
-      "derivationPair": ["axial"],
+      "domainCohort": [
+        "geometry",
+        "rotation",
+        "coordinate"
+      ],
+      "derivationPair": [
+        "axial"
+      ],
       "morphVariants": [],
-      "sameImagery": ["axle", "pivot"]
+      "sameImagery": [
+        "axle",
+        "pivot"
+      ]
     }
   },
   {
     "word": "axle",
     "phonetic": "/ˈæksl/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "车轴；轮轴", "domain": "tech", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "ax", "role": "root", "canonical": "ax", "variantOf": null, "coreMeaning": { "cn": "轴", "en": "axis" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-le", "role": "suffix", "canonical": "-le", "variantOf": null, "coreMeaning": { "cn": "表工具/小东西", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["ax", "axle"],
+    "coreMeaning": [
+      {
+        "cn": "车轴；轮轴",
+        "domain": "tech",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ax",
+        "role": "root",
+        "canonical": "ax",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "轴",
+          "en": "axis"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-le",
+        "role": "suffix",
+        "canonical": "-le",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "表工具/小东西",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "ax",
+      "axle"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "小轴",
-      "imageChain": ["ax(轴)+le(小)", "车辆的轴", "车轴"],
+      "imageChain": [
+        "ax(轴)+le(小)",
+        "车辆的轴",
+        "车轴"
+      ],
       "mnemonicExpr": "ax(轴)+le(工具) → 车辆之轴 → 车轴"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["tech"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["axis", "axial"],
-      "sameAffix": [{ "affix": "-le", "members": ["handle", "saddle"] }],
-      "synonyms": ["shaft", "spindle"],
+      "sameRoot": [
+        "axis",
+        "axial"
+      ],
+      "sameAffix": [
+        "handle",
+        "saddle"
+      ],
+      "synonyms": [
+        "shaft",
+        "spindle"
+      ],
       "antonyms": [],
-      "domainCohort": ["wheel", "vehicle", "mechanics"],
+      "domainCohort": [
+        "wheel",
+        "vehicle",
+        "mechanics"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["axis", "shaft"]
+      "sameImagery": [
+        "axis",
+        "shaft"
+      ]
     }
   },
   {
     "word": "aye",
     "phonetic": "/aɪ/",
-    "pos": ["n.", "adv."],
-    "coreMeaning": [{ "cn": "赞成票；是", "domain": "legal", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "aye", "role": "root", "canonical": "aye", "variantOf": null, "coreMeaning": { "cn": "赞成；是", "en": "yes, aye" }, "sentiment": { "tags": ["褒义"], "intensity": 0.5 }, "positionTendency": "medial" }
+    "pos": [
+      "n.",
+      "adv."
     ],
-    "derivationChain": ["aye"],
+    "coreMeaning": [
+      {
+        "cn": "赞成票；是",
+        "domain": "legal",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "aye",
+        "role": "root",
+        "canonical": "aye",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "赞成；是",
+          "en": "yes, aye"
+        },
+        "sentiment": {
+          "tags": [
+            "褒义"
+          ],
+          "intensity": 0.5
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "aye"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "是",
-      "imageChain": ["议会中喊yes", "赞成票", "肯定"],
+      "imageChain": [
+        "议会中喊yes",
+        "赞成票",
+        "肯定"
+      ],
       "mnemonicExpr": "aye(是/赞成) → 投赞成票 → 赞成票"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["褒义"], "intensity": 0.5 },
-      "domain": ["legal", "news"],
+      "sentiment": {
+        "tags": [
+          "褒义"
+        ],
+        "intensity": 0.5
+      },
+      "domain": [
+        "legal",
+        "news"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
       "sameRoot": [],
       "sameAffix": [],
-      "synonyms": ["yes", "yea", "affirmative"],
-      "antonyms": ["nay", "no"],
-      "domainCohort": ["voting", "parliament"],
+      "synonyms": [
+        "yes",
+        "yea",
+        "affirmative"
+      ],
+      "antonyms": [
+        "nay",
+        "no"
+      ],
+      "domainCohort": [
+        "voting",
+        "parliament"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["yes", "affirmative"]
+      "sameImagery": [
+        "yes",
+        "affirmative"
+      ]
     }
   },
   {
     "word": "ayodhya",
     "phonetic": "/əˈjəʊdjə/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "阿约提亚（印度古城）", "domain": "news", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "ayodhya", "role": "root", "canonical": "ayodhya", "variantOf": null, "coreMeaning": { "cn": "阿约提亚（地名）", "en": "Ayodhya (place name)" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["ayodhya"],
+    "coreMeaning": [
+      {
+        "cn": "阿约提亚（印度古城）",
+        "domain": "news",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ayodhya",
+        "role": "root",
+        "canonical": "ayodhya",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "阿约提亚（地名）",
+          "en": "Ayodhya (place name)"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "ayodhya"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "阿约提亚",
-      "imageChain": ["印度古城", "梵语：不可战胜之城", "宗教圣地"],
+      "imageChain": [
+        "印度古城",
+        "梵语：不可战胜之城",
+        "宗教圣地"
+      ],
       "mnemonicExpr": "梵语Ayodhya(不可战胜) → 印度古城 → 阿约提亚"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["news"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "news"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -1180,7 +4037,11 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["India", "Hinduism", "Ramayana"],
+      "domainCohort": [
+        "India",
+        "Hinduism",
+        "Ramayana"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -1189,85 +4050,260 @@
   {
     "word": "aypnia",
     "phonetic": "/æˈɪpniə/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "失眠", "domain": "medical", "coverage": 0.85 }],
-    "morphemes": [
-      { "order": 1, "form": "a-", "role": "prefix", "canonical": "a-", "variantOf": null, "coreMeaning": { "cn": "无；不", "en": "without" }, "sentiment": { "tags": ["偏负"], "intensity": 0.3 }, "positionTendency": "initial" },
-      { "order": 2, "form": "ypn", "role": "root", "canonical": "hypn", "variantOf": "ypn", "coreMeaning": { "cn": "睡眠", "en": "sleep" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ia", "role": "suffix", "canonical": "-ia", "variantOf": null, "coreMeaning": { "cn": "名词后缀（疾病/状态）", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["hypn", "aypnia"],
+    "coreMeaning": [
+      {
+        "cn": "失眠",
+        "domain": "medical",
+        "coverage": 0.85
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "a-",
+        "role": "prefix",
+        "canonical": "a-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "无；不",
+          "en": "without"
+        },
+        "sentiment": {
+          "tags": [
+            "偏负"
+          ],
+          "intensity": 0.3
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "ypn",
+        "role": "root",
+        "canonical": "hypn",
+        "variantOf": "ypn",
+        "coreMeaning": {
+          "cn": "睡眠",
+          "en": "sleep"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ia",
+        "role": "suffix",
+        "canonical": "-ia",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "名词后缀（疾病/状态）",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "hypn",
+      "aypnia"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "无眠状态",
-      "imageChain": ["a(无)+ypn(眠)+ia(症)", "睡不着", "失眠症"],
+      "imageChain": [
+        "a(无)+ypn(眠)+ia(症)",
+        "睡不着",
+        "失眠症"
+      ],
       "mnemonicExpr": "a(无)+ypn(睡)+ia(症) → 无眠之症 → 失眠"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义", "担忧"], "intensity": 0.6 },
-      "domain": ["medical"],
+      "sentiment": {
+        "tags": [
+          "贬义",
+          "担忧"
+        ],
+        "intensity": 0.6
+      },
+      "domain": [
+        "medical"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["hypnosis", "hypnotic", "insomnia"],
-      "sameAffix": [{ "affix": "-ia", "members": ["anemia", "pneumonia"] }],
-      "synonyms": ["insomnia", "sleeplessness"],
-      "antonyms": ["hypersomnia"],
-      "domainCohort": ["sleep disorder", "health"],
+      "sameRoot": [
+        "hypnosis",
+        "hypnotic",
+        "insomnia"
+      ],
+      "sameAffix": [
+        "anemia",
+        "pneumonia"
+      ],
+      "synonyms": [
+        "insomnia",
+        "sleeplessness"
+      ],
+      "antonyms": [
+        "hypersomnia"
+      ],
+      "domainCohort": [
+        "sleep disorder",
+        "health"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["insomnia", "sleepless"]
+      "sameImagery": [
+        "insomnia",
+        "sleepless"
+      ]
     }
   },
   {
     "word": "azactam",
     "phonetic": "/əˈzæktəm/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "氨曲南（抗菌药商品名）", "domain": "medical", "coverage": 0.85 }],
-    "morphemes": [
-      { "order": 1, "form": "azactam", "role": "root", "canonical": "azactam", "variantOf": null, "coreMeaning": { "cn": "氨曲南（专有商品名）", "en": "Azactam (brand name for aztreonam)" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["azactam"],
+    "coreMeaning": [
+      {
+        "cn": "氨曲南（抗菌药商品名）",
+        "domain": "medical",
+        "coverage": 0.85
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "azactam",
+        "role": "root",
+        "canonical": "azactam",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "氨曲南（专有商品名）",
+          "en": "Azactam (brand name for aztreonam)"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "azactam"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "氨曲南",
-      "imageChain": ["aza(氮原子)+ctam(内酰胺)", "单环β-内酰胺抗生素", "氨曲南"],
+      "imageChain": [
+        "aza(氮原子)+ctam(内酰胺)",
+        "单环β-内酰胺抗生素",
+        "氨曲南"
+      ],
       "mnemonicExpr": "aza(氮)+ctam(内酰胺) → 氮杂内酰胺 → 氨曲南"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["medical"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
       "sameRoot": [],
       "sameAffix": [],
-      "synonyms": ["aztreonam"],
+      "synonyms": [
+        "aztreonam"
+      ],
       "antonyms": [],
-      "domainCohort": ["antibiotic", "pharmacology"],
+      "domainCohort": [
+        "antibiotic",
+        "pharmacology"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["antibiotic"]
+      "sameImagery": [
+        "antibiotic"
+      ]
     }
   },
   {
     "word": "azad",
     "phonetic": "/əˈzɑːd/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "阿扎德（人名）", "domain": "news", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "azad", "role": "root", "canonical": "azad", "variantOf": null, "coreMeaning": { "cn": "阿扎德（波斯语：自由）", "en": "Azad (Persian: free)" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["azad"],
+    "coreMeaning": [
+      {
+        "cn": "阿扎德（人名）",
+        "domain": "news",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "azad",
+        "role": "root",
+        "canonical": "azad",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "阿扎德（波斯语：自由）",
+          "en": "Azad (Persian: free)"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "azad"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "阿扎德",
-      "imageChain": ["波斯语：自由", "常见人名", "阿扎德"],
+      "imageChain": [
+        "波斯语：自由",
+        "常见人名",
+        "阿扎德"
+      ],
       "mnemonicExpr": "波斯语azad(自由) → 阿扎德"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["news"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "news"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -1275,7 +4311,10 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["Persian name", "South Asia"],
+      "domainCohort": [
+        "Persian name",
+        "South Asia"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -1284,21 +4323,59 @@
   {
     "word": "azevedo",
     "phonetic": "/ˌæzəˈveɪdoʊ/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "阿泽维多（人名）", "domain": "news", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "azevedo", "role": "root", "canonical": "azevedo", "variantOf": null, "coreMeaning": { "cn": "阿泽维多（葡/法姓氏）", "en": "Azevedo (Portuguese surname)" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["azevedo"],
+    "coreMeaning": [
+      {
+        "cn": "阿泽维多（人名）",
+        "domain": "news",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "azevedo",
+        "role": "root",
+        "canonical": "azevedo",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "阿泽维多（葡/法姓氏）",
+          "en": "Azevedo (Portuguese surname)"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "azevedo"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "阿泽维多",
-      "imageChain": ["葡萄牙冬青树", "家族姓氏", "人名"],
+      "imageChain": [
+        "葡萄牙冬青树",
+        "家族姓氏",
+        "人名"
+      ],
       "mnemonicExpr": "葡语azevinho(冬青树)→Azevedo → 阿泽维多"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["news"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "news"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -1306,7 +4383,10 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["Portuguese name", "Brazil"],
+      "domainCohort": [
+        "Portuguese name",
+        "Brazil"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -1315,21 +4395,60 @@
   {
     "word": "aziz",
     "phonetic": "/əˈziːz/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "阿齐兹（男子名）", "domain": "news", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "aziz", "role": "root", "canonical": "aziz", "variantOf": null, "coreMeaning": { "cn": "阿齐兹（阿拉伯语：尊贵）", "en": "Aziz (Arabic: noble, mighty)" }, "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.3 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["aziz"],
+    "coreMeaning": [
+      {
+        "cn": "阿齐兹（男子名）",
+        "domain": "news",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "aziz",
+        "role": "root",
+        "canonical": "aziz",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "阿齐兹（阿拉伯语：尊贵）",
+          "en": "Aziz (Arabic: noble, mighty)"
+        },
+        "sentiment": {
+          "tags": [
+            "中性",
+            "庄重"
+          ],
+          "intensity": 0.3
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "aziz"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "阿齐兹",
-      "imageChain": ["阿拉伯语：尊贵", "常见男名", "人名"],
+      "imageChain": [
+        "阿拉伯语：尊贵",
+        "常见男名",
+        "人名"
+      ],
       "mnemonicExpr": "阿语Aziz(尊贵) → 阿齐兹"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["news"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "news"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -1337,7 +4456,10 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["Arabic name", "Middle East"],
+      "domainCohort": [
+        "Arabic name",
+        "Middle East"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -1346,97 +4468,320 @@
   {
     "word": "azoic",
     "phonetic": "/eɪˈzoʊɪk/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "无生命的；无生命时代的", "domain": "academic", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "a-", "role": "prefix", "canonical": "a-", "variantOf": null, "coreMeaning": { "cn": "无；不", "en": "without" }, "sentiment": { "tags": ["偏负"], "intensity": 0.3 }, "positionTendency": "initial" },
-      { "order": 2, "form": "zo", "role": "root", "canonical": "zo", "variantOf": null, "coreMeaning": { "cn": "生命；动物", "en": "life; animal" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ic", "role": "suffix", "canonical": "-ic", "variantOf": null, "coreMeaning": { "cn": "……的", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["zo", "azoic"],
+    "coreMeaning": [
+      {
+        "cn": "无生命的；无生命时代的",
+        "domain": "academic",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "a-",
+        "role": "prefix",
+        "canonical": "a-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "无；不",
+          "en": "without"
+        },
+        "sentiment": {
+          "tags": [
+            "偏负"
+          ],
+          "intensity": 0.3
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "zo",
+        "role": "root",
+        "canonical": "zo",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "生命；动物",
+          "en": "life; animal"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ic",
+        "role": "suffix",
+        "canonical": "-ic",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "……的",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "zo",
+      "azoic"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "无生命的",
-      "imageChain": ["a(无)+zo(生命)+ic(的)", "无生物时期", "原生代"],
+      "imageChain": [
+        "a(无)+zo(生命)+ic(的)",
+        "无生物时期",
+        "原生代"
+      ],
       "mnemonicExpr": "a(无)+zo(生命)+ic(的) → 无生命的 → 无生时代的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "偏负"], "intensity": 0.3 },
-      "domain": ["academic"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "偏负"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["zoology", "zoo", "zodiac", "protozoa"],
-      "sameAffix": [{ "affix": "-ic", "members": ["basic", "classic"] }],
-      "synonyms": ["lifeless", "sterile"],
-      "antonyms": ["biotic", "living"],
-      "domainCohort": ["geology", "biology"],
+      "sameRoot": [
+        "zoology",
+        "zoo",
+        "zodiac",
+        "protozoa"
+      ],
+      "sameAffix": [
+        "basic",
+        "classic"
+      ],
+      "synonyms": [
+        "lifeless",
+        "sterile"
+      ],
+      "antonyms": [
+        "biotic",
+        "living"
+      ],
+      "domainCohort": [
+        "geology",
+        "biology"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["lifeless", "barren"]
+      "sameImagery": [
+        "lifeless",
+        "barren"
+      ]
     }
   },
   {
     "word": "azure",
     "phonetic": "/ˈæʒə/",
-    "pos": ["adj.", "n."],
-    "coreMeaning": [{ "cn": "蔚蓝的；蔚蓝色", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "azure", "role": "root", "canonical": "azure", "variantOf": null, "coreMeaning": { "cn": "蔚蓝色；天青色", "en": "azure, sky blue" }, "sentiment": { "tags": ["褒义"], "intensity": 0.5 }, "positionTendency": "medial" }
+    "pos": [
+      "adj.",
+      "n."
     ],
-    "derivationChain": ["azure"],
+    "coreMeaning": [
+      {
+        "cn": "蔚蓝的；蔚蓝色",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "azure",
+        "role": "root",
+        "canonical": "azure",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "蔚蓝色；天青色",
+          "en": "azure, sky blue"
+        },
+        "sentiment": {
+          "tags": [
+            "褒义"
+          ],
+          "intensity": 0.5
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "azure"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "蔚蓝",
-      "imageChain": ["波斯lapis lazuli(青金石)", "天空之蓝", "蔚蓝"],
+      "imageChain": [
+        "波斯lapis lazuli(青金石)",
+        "天空之蓝",
+        "蔚蓝"
+      ],
       "mnemonicExpr": "azure源自青金石lazuli → 天蓝色 → 蔚蓝"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["褒义", "喜爱"], "intensity": 0.6 },
-      "domain": ["general", "editorial"],
+      "sentiment": {
+        "tags": [
+          "褒义",
+          "喜爱"
+        ],
+        "intensity": 0.6
+      },
+      "domain": [
+        "general",
+        "editorial"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["lazuli", "lapis"],
+      "sameRoot": [
+        "lazuli",
+        "lapis"
+      ],
       "sameAffix": [],
-      "synonyms": ["sky-blue", "cerulean", "sapphire"],
+      "synonyms": [
+        "sky-blue",
+        "cerulean",
+        "sapphire"
+      ],
       "antonyms": [],
-      "domainCohort": ["color", "sky", "cloud"],
+      "domainCohort": [
+        "color",
+        "sky",
+        "cloud"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["sky", "blue", "cerulean"]
+      "sameImagery": [
+        "sky",
+        "blue",
+        "cerulean"
+      ]
     }
   },
   {
     "word": "azyl",
     "phonetic": "/ˈæzɪl/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "氨基；酰基（化学术语）", "domain": "medical", "coverage": 0.8 }],
-    "morphemes": [
-      { "order": 1, "form": "az", "role": "root", "canonical": "az", "variantOf": null, "coreMeaning": { "cn": "氮；氮杂", "en": "nitrogen; aza" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-yl", "role": "suffix", "canonical": "-yl", "variantOf": null, "coreMeaning": { "cn": "化学基团后缀", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["az", "azyl"],
+    "coreMeaning": [
+      {
+        "cn": "氨基；酰基（化学术语）",
+        "domain": "medical",
+        "coverage": 0.8
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "az",
+        "role": "root",
+        "canonical": "az",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "氮；氮杂",
+          "en": "nitrogen; aza"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-yl",
+        "role": "suffix",
+        "canonical": "-yl",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "化学基团后缀",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "az",
+      "azyl"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "氮基",
-      "imageChain": ["az(氮)+yl(基)", "化学官能团", "含氮基团"],
+      "imageChain": [
+        "az(氮)+yl(基)",
+        "化学官能团",
+        "含氮基团"
+      ],
       "mnemonicExpr": "az(氮)+yl(基) → 含氮基团 → 氨基"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["medical", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["azide", "azo", "azine"],
-      "sameAffix": [{ "affix": "-yl", "members": ["methyl", "ethyl", "phenyl"] }],
-      "synonyms": ["azyl group"],
+      "sameRoot": [
+        "azide",
+        "azo",
+        "azine"
+      ],
+      "sameAffix": [
+        "methyl",
+        "ethyl",
+        "phenyl"
+      ],
+      "synonyms": [
+        "azyl group"
+      ],
       "antonyms": [],
-      "domainCohort": ["chemistry", "organic compound"],
+      "domainCohort": [
+        "chemistry",
+        "organic compound"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["nitrogen", "amine"]
+      "sameImagery": [
+        "nitrogen",
+        "amine"
+      ]
     }
   }
 ]

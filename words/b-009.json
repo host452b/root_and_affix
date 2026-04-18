@@ -2,149 +2,488 @@
   {
     "word": "benighted",
     "phonetic": "/bɪ'naɪtɪd/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "愚昧的；暮色笼罩的", "domain": "general", "coverage": 0.8 }],
-    "morphemes": [
-      { "order": 1, "form": "be-", "role": "prefix", "canonical": "be-", "coreMeaning": { "cn": "使……；围绕", "en": "to cause; around" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "night", "role": "root", "canonical": "night", "coreMeaning": { "cn": "夜晚", "en": "night" }, "sentiment": { "tags": ["偏负"], "intensity": 0.3 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ed", "role": "suffix", "canonical": "-ed", "coreMeaning": { "cn": "过去分词/形容词化", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["night", "benight", "benighted"],
+    "coreMeaning": [
+      {
+        "cn": "愚昧的；暮色笼罩的",
+        "domain": "general",
+        "coverage": 0.8
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "be-",
+        "role": "prefix",
+        "canonical": "be-",
+        "coreMeaning": {
+          "cn": "使……；围绕",
+          "en": "to cause; around"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "night",
+        "role": "root",
+        "canonical": "night",
+        "coreMeaning": {
+          "cn": "夜晚",
+          "en": "night"
+        },
+        "sentiment": {
+          "tags": [
+            "偏负"
+          ],
+          "intensity": 0.3
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ed",
+        "role": "suffix",
+        "canonical": "-ed",
+        "coreMeaning": {
+          "cn": "过去分词/形容词化",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "night",
+      "benight",
+      "benighted"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "被夜笼罩的",
-      "imageChain": ["被黑夜笼罩", "看不见光", "愚昧无知"],
+      "imageChain": [
+        "被黑夜笼罩",
+        "看不见光",
+        "愚昧无知"
+      ],
       "mnemonicExpr": "be(使)+night(夜)+ed → 被黑夜笼罩 → 愚昧的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义", "偏负"], "intensity": 0.6 },
-      "domain": ["general", "editorial"],
+      "sentiment": {
+        "tags": [
+          "贬义",
+          "偏负"
+        ],
+        "intensity": 0.6
+      },
+      "domain": [
+        "general",
+        "editorial"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["night", "nightly", "midnight"],
-      "sameAffix": [{ "affix": "be-", "members": ["beloved", "besieged"] }],
-      "synonyms": ["ignorant", "unenlightened"],
-      "antonyms": ["enlightened"],
-      "domainCohort": ["darkness", "ignorance"],
-      "derivationPair": ["benight"],
+      "sameRoot": [
+        "night",
+        "nightly",
+        "midnight"
+      ],
+      "sameAffix": [
+        "beloved",
+        "besieged"
+      ],
+      "synonyms": [
+        "ignorant",
+        "unenlightened"
+      ],
+      "antonyms": [
+        "enlightened"
+      ],
+      "domainCohort": [
+        "darkness",
+        "ignorance"
+      ],
+      "derivationPair": [
+        "benight"
+      ],
       "morphVariants": [],
-      "sameImagery": ["dark", "gloomy"]
+      "sameImagery": [
+        "dark",
+        "gloomy"
+      ]
     }
   },
   {
     "word": "benign",
     "phonetic": "/bɪ'naɪn/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "良性的；和蔼的", "domain": "medical", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "benign", "role": "root", "canonical": "benign", "coreMeaning": { "cn": "善良、温和", "en": "kind, gentle" }, "sentiment": { "tags": ["褒义"], "intensity": 0.6 }, "positionTendency": "medial" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["benign"],
+    "coreMeaning": [
+      {
+        "cn": "良性的；和蔼的",
+        "domain": "medical",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "benign",
+        "role": "root",
+        "canonical": "benign",
+        "coreMeaning": {
+          "cn": "善良、温和",
+          "en": "kind, gentle"
+        },
+        "sentiment": {
+          "tags": [
+            "褒义"
+          ],
+          "intensity": 0.6
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "benign"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "善良的",
-      "imageChain": ["善良", "温和", "良性"],
+      "imageChain": [
+        "善良",
+        "温和",
+        "良性"
+      ],
       "mnemonicExpr": "bene(好)+gn(出生) → 生来就好 → 良性的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["褒义", "喜爱"], "intensity": 0.7 },
-      "domain": ["medical", "general"],
+      "sentiment": {
+        "tags": [
+          "褒义",
+          "喜爱"
+        ],
+        "intensity": 0.7
+      },
+      "domain": [
+        "medical",
+        "general"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["benignant", "benignity", "benediction"],
+      "sameRoot": [
+        "benignant",
+        "benignity",
+        "benediction"
+      ],
       "sameAffix": [],
-      "synonyms": ["kind", "mild", "harmless"],
-      "antonyms": ["malignant", "harmful"],
-      "domainCohort": ["tumor", "diagnosis"],
-      "derivationPair": ["benignity"],
+      "synonyms": [
+        "kind",
+        "mild",
+        "harmless"
+      ],
+      "antonyms": [
+        "malignant",
+        "harmful"
+      ],
+      "domainCohort": [
+        "tumor",
+        "diagnosis"
+      ],
+      "derivationPair": [
+        "benignity"
+      ],
       "morphVariants": [],
-      "sameImagery": ["gentle", "kindly"]
+      "sameImagery": [
+        "gentle",
+        "kindly"
+      ]
     }
   },
   {
     "word": "benignant",
     "phonetic": "/bi'niɡnənt/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "仁慈的；良性的", "domain": "general", "coverage": 0.85 }],
-    "morphemes": [
-      { "order": 1, "form": "benign", "role": "root", "canonical": "benign", "coreMeaning": { "cn": "善良、温和", "en": "kind, gentle" }, "sentiment": { "tags": ["褒义"], "intensity": 0.6 }, "positionTendency": "medial" },
-      { "order": 2, "form": "-ant", "role": "suffix", "canonical": "-ant", "coreMeaning": { "cn": "形容词后缀", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["benign", "benignant"],
+    "coreMeaning": [
+      {
+        "cn": "仁慈的；良性的",
+        "domain": "general",
+        "coverage": 0.85
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "benign",
+        "role": "root",
+        "canonical": "benign",
+        "coreMeaning": {
+          "cn": "善良、温和",
+          "en": "kind, gentle"
+        },
+        "sentiment": {
+          "tags": [
+            "褒义"
+          ],
+          "intensity": 0.6
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 2,
+        "form": "-ant",
+        "role": "suffix",
+        "canonical": "-ant",
+        "coreMeaning": {
+          "cn": "形容词后缀",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "benign",
+      "benignant"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "仁慈的",
-      "imageChain": ["善良的", "宽厚的", "仁慈的"],
+      "imageChain": [
+        "善良的",
+        "宽厚的",
+        "仁慈的"
+      ],
       "mnemonicExpr": "benign(善)+ant → 有仁慈之性的 → 仁慈的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["褒义", "喜爱"], "intensity": 0.7 },
-      "domain": ["general", "medical"],
+      "sentiment": {
+        "tags": [
+          "褒义",
+          "喜爱"
+        ],
+        "intensity": 0.7
+      },
+      "domain": [
+        "general",
+        "medical"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["benign", "benignity"],
-      "sameAffix": [{ "affix": "-ant", "members": ["malignant", "brilliant"] }],
-      "synonyms": ["kind", "benevolent"],
-      "antonyms": ["malignant"],
-      "domainCohort": ["kindness", "gentleness"],
-      "derivationPair": ["benign"],
+      "sameRoot": [
+        "benign",
+        "benignity"
+      ],
+      "sameAffix": [
+        "malignant",
+        "brilliant"
+      ],
+      "synonyms": [
+        "kind",
+        "benevolent"
+      ],
+      "antonyms": [
+        "malignant"
+      ],
+      "domainCohort": [
+        "kindness",
+        "gentleness"
+      ],
+      "derivationPair": [
+        "benign"
+      ],
       "morphVariants": [],
-      "sameImagery": ["gracious", "gentle"]
+      "sameImagery": [
+        "gracious",
+        "gentle"
+      ]
     }
   },
   {
     "word": "benignity",
     "phonetic": "/bɪ'nɪgnəti/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "仁慈；善举", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "benign", "role": "root", "canonical": "benign", "coreMeaning": { "cn": "善良、温和", "en": "kind, gentle" }, "sentiment": { "tags": ["褒义"], "intensity": 0.6 }, "positionTendency": "medial" },
-      { "order": 2, "form": "-ity", "role": "suffix", "canonical": "-ity", "coreMeaning": { "cn": "性质；状态", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["benign", "benignity"],
+    "coreMeaning": [
+      {
+        "cn": "仁慈；善举",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "benign",
+        "role": "root",
+        "canonical": "benign",
+        "coreMeaning": {
+          "cn": "善良、温和",
+          "en": "kind, gentle"
+        },
+        "sentiment": {
+          "tags": [
+            "褒义"
+          ],
+          "intensity": 0.6
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 2,
+        "form": "-ity",
+        "role": "suffix",
+        "canonical": "-ity",
+        "coreMeaning": {
+          "cn": "性质；状态",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "benign",
+      "benignity"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "善良性",
-      "imageChain": ["善良品质", "仁慈之心", "善举"],
+      "imageChain": [
+        "善良品质",
+        "仁慈之心",
+        "善举"
+      ],
       "mnemonicExpr": "benign(善)+ity(性) → 善良品质 → 仁慈"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["褒义", "喜爱"], "intensity": 0.8 },
-      "domain": ["general", "legal"],
+      "sentiment": {
+        "tags": [
+          "褒义",
+          "喜爱"
+        ],
+        "intensity": 0.8
+      },
+      "domain": [
+        "general",
+        "legal"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["benign", "benignant"],
-      "sameAffix": [{ "affix": "-ity", "members": ["dignity", "purity"] }],
-      "synonyms": ["kindness", "benevolence"],
-      "antonyms": ["malignity", "cruelty"],
-      "domainCohort": ["charity", "compassion"],
-      "derivationPair": ["benign"],
+      "sameRoot": [
+        "benign",
+        "benignant"
+      ],
+      "sameAffix": [
+        "dignity",
+        "purity"
+      ],
+      "synonyms": [
+        "kindness",
+        "benevolence"
+      ],
+      "antonyms": [
+        "malignity",
+        "cruelty"
+      ],
+      "domainCohort": [
+        "charity",
+        "compassion"
+      ],
+      "derivationPair": [
+        "benign"
+      ],
       "morphVariants": [],
-      "sameImagery": ["grace", "mercy"]
+      "sameImagery": [
+        "grace",
+        "mercy"
+      ]
     }
   },
   {
     "word": "beniol",
     "phonetic": "/'beniәul/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "脉通（防治血管硬化药）", "domain": "medical", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "beniol", "role": "root", "canonical": "beniol", "coreMeaning": { "cn": "脉通药", "en": "beniol drug" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["beniol"],
+    "coreMeaning": [
+      {
+        "cn": "脉通（防治血管硬化药）",
+        "domain": "medical",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "beniol",
+        "role": "root",
+        "canonical": "beniol",
+        "coreMeaning": {
+          "cn": "脉通药",
+          "en": "beniol drug"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "beniol"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "脉通",
-      "imageChain": ["药品名", "血管硬化药", "脉通"],
+      "imageChain": [
+        "药品名",
+        "血管硬化药",
+        "脉通"
+      ],
       "mnemonicExpr": "beniol → 医药品牌名 → 脉通"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["medical"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
@@ -152,7 +491,10 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["pharmaceutical", "cardiovascular"],
+      "domainCohort": [
+        "pharmaceutical",
+        "cardiovascular"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -161,53 +503,163 @@
   {
     "word": "benison",
     "phonetic": "/'benizən/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "祝福", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "beni", "role": "root", "canonical": "bene-", "coreMeaning": { "cn": "好、善、有益的", "en": "good, well" }, "sentiment": { "tags": ["褒义"], "intensity": 0.6 }, "positionTendency": "initial" },
-      { "order": 2, "form": "son", "role": "suffix", "canonical": "-ion", "coreMeaning": { "cn": "名词化", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["bene-", "benison"],
+    "coreMeaning": [
+      {
+        "cn": "祝福",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "beni",
+        "role": "root",
+        "canonical": "bene-",
+        "coreMeaning": {
+          "cn": "好、善、有益的",
+          "en": "good, well"
+        },
+        "sentiment": {
+          "tags": [
+            "褒义"
+          ],
+          "intensity": 0.6
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "son",
+        "role": "suffix",
+        "canonical": "-ion",
+        "coreMeaning": {
+          "cn": "名词化",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "bene-",
+      "benison"
+    ],
     "morphVariantOf": "benediction",
     "memorySemantics": {
       "literal": "说好话",
-      "imageChain": ["好话", "神佑之言", "祝福"],
+      "imageChain": [
+        "好话",
+        "神佑之言",
+        "祝福"
+      ],
       "mnemonicExpr": "beni(好)+son(说) → 说好话 → 祝福"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["褒义", "庄重"], "intensity": 0.7 },
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "褒义",
+          "庄重"
+        ],
+        "intensity": 0.7
+      },
+      "domain": [
+        "general"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["benediction", "benefactor", "benevolent"],
+      "sameRoot": [
+        "benediction",
+        "benefactor",
+        "benevolent"
+      ],
       "sameAffix": [],
-      "synonyms": ["blessing", "benediction"],
-      "antonyms": ["curse", "malediction"],
-      "domainCohort": ["prayer", "invocation"],
+      "synonyms": [
+        "blessing",
+        "benediction"
+      ],
+      "antonyms": [
+        "curse",
+        "malediction"
+      ],
+      "domainCohort": [
+        "prayer",
+        "invocation"
+      ],
       "derivationPair": [],
-      "morphVariants": ["benediction"],
-      "sameImagery": ["grace", "blessing"]
+      "morphVariants": [
+        "benediction"
+      ],
+      "sameImagery": [
+        "grace",
+        "blessing"
+      ]
     }
   },
   {
     "word": "benitez",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "贝尼特斯（人名）", "domain": "news", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "benitez", "role": "root", "canonical": "benitez", "coreMeaning": { "cn": "贝尼特斯", "en": "Benitez (proper name)" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["benitez"],
+    "coreMeaning": [
+      {
+        "cn": "贝尼特斯（人名）",
+        "domain": "news",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "benitez",
+        "role": "root",
+        "canonical": "benitez",
+        "coreMeaning": {
+          "cn": "贝尼特斯",
+          "en": "Benitez (proper name)"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "benitez"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "人名",
-      "imageChain": ["西班牙姓氏", "足球教练", "贝尼特斯"],
+      "imageChain": [
+        "西班牙姓氏",
+        "足球教练",
+        "贝尼特斯"
+      ],
       "mnemonicExpr": "Benitez → 西班牙足球教练名字"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["news"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "news"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -215,7 +667,10 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["football", "coach"],
+      "domainCohort": [
+        "football",
+        "coach"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -224,21 +679,58 @@
   {
     "word": "bennett",
     "phonetic": "/'benit/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "班尼特（男子名）", "domain": "news", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "bennett", "role": "root", "canonical": "bennett", "coreMeaning": { "cn": "班尼特", "en": "Bennett (proper name)" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["bennett"],
+    "coreMeaning": [
+      {
+        "cn": "班尼特（男子名）",
+        "domain": "news",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bennett",
+        "role": "root",
+        "canonical": "bennett",
+        "coreMeaning": {
+          "cn": "班尼特",
+          "en": "Bennett (proper name)"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "bennett"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "人名",
-      "imageChain": ["英语姓氏", "男子名", "班尼特"],
+      "imageChain": [
+        "英语姓氏",
+        "男子名",
+        "班尼特"
+      ],
       "mnemonicExpr": "Bennett → 英语男子名"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["news"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "news"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -246,7 +738,10 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["surname", "given name"],
+      "domainCohort": [
+        "surname",
+        "given name"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -255,53 +750,167 @@
   {
     "word": "bent",
     "phonetic": "/bɛnt/",
-    "pos": ["adj.", "n."],
-    "coreMeaning": [{ "cn": "弯曲的；倾向", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "bend", "role": "root", "canonical": "bend", "coreMeaning": { "cn": "弯曲", "en": "to bend" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 2, "form": "-t", "role": "suffix", "canonical": "-ed", "coreMeaning": { "cn": "过去分词", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj.",
+      "n."
     ],
-    "derivationChain": ["bend", "bent"],
+    "coreMeaning": [
+      {
+        "cn": "弯曲的；倾向",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bend",
+        "role": "root",
+        "canonical": "bend",
+        "coreMeaning": {
+          "cn": "弯曲",
+          "en": "to bend"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 2,
+        "form": "-t",
+        "role": "suffix",
+        "canonical": "-ed",
+        "coreMeaning": {
+          "cn": "过去分词",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "bend",
+      "bent"
+    ],
     "morphVariantOf": "bend",
     "memorySemantics": {
       "literal": "被弄弯的",
-      "imageChain": ["弯曲", "不直", "倾向"],
+      "imageChain": [
+        "弯曲",
+        "不直",
+        "倾向"
+      ],
       "mnemonicExpr": "bend的过去分词 → 被弯的 → 弯曲的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["bend", "bending"],
-      "sameAffix": [{ "affix": "-ed", "members": ["sent", "spent"] }],
-      "synonyms": ["curved", "crooked"],
-      "antonyms": ["straight"],
-      "domainCohort": ["shape", "posture"],
-      "derivationPair": ["bend"],
-      "morphVariants": ["bend"],
-      "sameImagery": ["curve", "arc"]
+      "sameRoot": [
+        "bend",
+        "bending"
+      ],
+      "sameAffix": [
+        "sent",
+        "spent"
+      ],
+      "synonyms": [
+        "curved",
+        "crooked"
+      ],
+      "antonyms": [
+        "straight"
+      ],
+      "domainCohort": [
+        "shape",
+        "posture"
+      ],
+      "derivationPair": [
+        "bend"
+      ],
+      "morphVariants": [
+        "bend"
+      ],
+      "sameImagery": [
+        "curve",
+        "arc"
+      ]
     }
   },
   {
     "word": "bentley",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "宾利（汽车品牌/姓氏）", "domain": "news", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "bentley", "role": "root", "canonical": "bentley", "coreMeaning": { "cn": "宾利", "en": "Bentley" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["bentley"],
+    "coreMeaning": [
+      {
+        "cn": "宾利（汽车品牌/姓氏）",
+        "domain": "news",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bentley",
+        "role": "root",
+        "canonical": "bentley",
+        "coreMeaning": {
+          "cn": "宾利",
+          "en": "Bentley"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "bentley"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "品牌/姓氏",
-      "imageChain": ["英国豪车", "品牌名", "宾利"],
+      "imageChain": [
+        "英国豪车",
+        "品牌名",
+        "宾利"
+      ],
       "mnemonicExpr": "Bentley → 英国豪车品牌 → 宾利"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["褒义"], "intensity": 0.3 },
-      "domain": ["news", "business"],
+      "sentiment": {
+        "tags": [
+          "褒义"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "news",
+        "business"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -309,38 +918,88 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["luxury car", "automobile"],
+      "domainCohort": [
+        "luxury car",
+        "automobile"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["Rolls-Royce", "luxury"]
+      "sameImagery": [
+        "Rolls-Royce",
+        "luxury"
+      ]
     }
   },
   {
     "word": "benzalagen",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "安乃近", "domain": "medical", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "benzalagen", "role": "root", "canonical": "benzalagen", "coreMeaning": { "cn": "安乃近（药物）", "en": "analgin" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["benzalagen"],
+    "coreMeaning": [
+      {
+        "cn": "安乃近",
+        "domain": "medical",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "benzalagen",
+        "role": "root",
+        "canonical": "benzalagen",
+        "coreMeaning": {
+          "cn": "安乃近（药物）",
+          "en": "analgin"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "benzalagen"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "药名",
-      "imageChain": ["药品名", "止痛药", "安乃近"],
+      "imageChain": [
+        "药品名",
+        "止痛药",
+        "安乃近"
+      ],
       "mnemonicExpr": "benzalagen → 镇痛药名 → 安乃近"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["medical"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["benzedrine"],
+      "sameRoot": [
+        "benzedrine"
+      ],
       "sameAffix": [],
-      "synonyms": ["analgin"],
+      "synonyms": [
+        "analgin"
+      ],
       "antonyms": [],
-      "domainCohort": ["analgesic", "drug"],
+      "domainCohort": [
+        "analgesic",
+        "drug"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -349,148 +1008,438 @@
   {
     "word": "benzedrine",
     "phonetic": "/'benzәdri:n/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "安非他明（中枢兴奋剂）", "domain": "medical", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "benzedr", "role": "root", "canonical": "benzedr", "coreMeaning": { "cn": "苯丙胺（化学）", "en": "benzedrine stem" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 2, "form": "-ine", "role": "suffix", "canonical": "-ine", "coreMeaning": { "cn": "化合物后缀", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["benzedrine"],
+    "coreMeaning": [
+      {
+        "cn": "安非他明（中枢兴奋剂）",
+        "domain": "medical",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "benzedr",
+        "role": "root",
+        "canonical": "benzedr",
+        "coreMeaning": {
+          "cn": "苯丙胺（化学）",
+          "en": "benzedrine stem"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 2,
+        "form": "-ine",
+        "role": "suffix",
+        "canonical": "-ine",
+        "coreMeaning": {
+          "cn": "化合物后缀",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "benzedrine"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "苯丙胺化合物",
-      "imageChain": ["苯基丙胺", "兴奋剂", "安非他明"],
+      "imageChain": [
+        "苯基丙胺",
+        "兴奋剂",
+        "安非他明"
+      ],
       "mnemonicExpr": "benzedr+ine(化合物) → 安非他明"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义", "担忧"], "intensity": 0.4 },
-      "domain": ["medical"],
+      "sentiment": {
+        "tags": [
+          "贬义",
+          "担忧"
+        ],
+        "intensity": 0.4
+      },
+      "domain": [
+        "medical"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["benzedrinum", "benzolism"],
-      "sameAffix": [{ "affix": "-ine", "members": ["caffeine", "morphine"] }],
-      "synonyms": ["amphetamine"],
-      "antonyms": ["sedative"],
-      "domainCohort": ["stimulant", "pharmaceutical"],
+      "sameRoot": [
+        "benzedrinum",
+        "benzolism"
+      ],
+      "sameAffix": [
+        "caffeine",
+        "morphine"
+      ],
+      "synonyms": [
+        "amphetamine"
+      ],
+      "antonyms": [
+        "sedative"
+      ],
+      "domainCohort": [
+        "stimulant",
+        "pharmaceutical"
+      ],
       "derivationPair": [],
-      "morphVariants": ["benzedrinum"],
-      "sameImagery": ["stimulant", "speed"]
+      "morphVariants": [
+        "benzedrinum"
+      ],
+      "sameImagery": [
+        "stimulant",
+        "speed"
+      ]
     }
   },
   {
     "word": "benzedrinum",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "苯丙胺", "domain": "medical", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "benzedr", "role": "root", "canonical": "benzedr", "coreMeaning": { "cn": "苯丙胺（化学）", "en": "benzedrine stem" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 2, "form": "-inum", "role": "suffix", "canonical": "-ine", "coreMeaning": { "cn": "化合物拉丁后缀", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["benzedrine", "benzedrinum"],
+    "coreMeaning": [
+      {
+        "cn": "苯丙胺",
+        "domain": "medical",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "benzedr",
+        "role": "root",
+        "canonical": "benzedr",
+        "coreMeaning": {
+          "cn": "苯丙胺（化学）",
+          "en": "benzedrine stem"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 2,
+        "form": "-inum",
+        "role": "suffix",
+        "canonical": "-ine",
+        "coreMeaning": {
+          "cn": "化合物拉丁后缀",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "benzedrine",
+      "benzedrinum"
+    ],
     "morphVariantOf": "benzedrine",
     "memorySemantics": {
       "literal": "苯丙胺化合物",
-      "imageChain": ["苯环", "药用化合物", "苯丙胺"],
+      "imageChain": [
+        "苯环",
+        "药用化合物",
+        "苯丙胺"
+      ],
       "mnemonicExpr": "benzedr+inum(拉丁化合物后缀) → 苯丙胺"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["medical"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["benzedrine"],
+      "sameRoot": [
+        "benzedrine"
+      ],
       "sameAffix": [],
-      "synonyms": ["amphetamine"],
+      "synonyms": [
+        "amphetamine"
+      ],
       "antonyms": [],
-      "domainCohort": ["compound", "pharmaceutical"],
-      "derivationPair": ["benzedrine"],
-      "morphVariants": ["benzedrine"],
+      "domainCohort": [
+        "compound",
+        "pharmaceutical"
+      ],
+      "derivationPair": [
+        "benzedrine"
+      ],
+      "morphVariants": [
+        "benzedrine"
+      ],
       "sameImagery": []
     }
   },
   {
     "word": "benzion",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "安息香", "domain": "medical", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "benzion", "role": "root", "canonical": "benzion", "coreMeaning": { "cn": "安息香（树脂）", "en": "benzoin resin" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["benzion"],
+    "coreMeaning": [
+      {
+        "cn": "安息香",
+        "domain": "medical",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "benzion",
+        "role": "root",
+        "canonical": "benzion",
+        "coreMeaning": {
+          "cn": "安息香（树脂）",
+          "en": "benzoin resin"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "benzion"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "安息香",
-      "imageChain": ["树脂", "香料", "安息香"],
+      "imageChain": [
+        "树脂",
+        "香料",
+        "安息香"
+      ],
       "mnemonicExpr": "benzion → 树脂香料 → 安息香"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["medical"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["benzoin"],
+      "sameRoot": [
+        "benzoin"
+      ],
       "sameAffix": [],
-      "synonyms": ["benzoin"],
+      "synonyms": [
+        "benzoin"
+      ],
       "antonyms": [],
-      "domainCohort": ["resin", "herbal medicine"],
+      "domainCohort": [
+        "resin",
+        "herbal medicine"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["incense", "aroma"]
+      "sameImagery": [
+        "incense",
+        "aroma"
+      ]
     }
   },
   {
     "word": "benzolism",
     "phonetic": "/'benzәlizm/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "苯中毒", "domain": "medical", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "benzol", "role": "root", "canonical": "benzol", "coreMeaning": { "cn": "苯", "en": "benzene" }, "sentiment": { "tags": ["贬义"], "intensity": 0.4 }, "positionTendency": "medial" },
-      { "order": 2, "form": "-ism", "role": "suffix", "canonical": "-ism", "coreMeaning": { "cn": "状态；中毒症", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["benzol", "benzolism"],
+    "coreMeaning": [
+      {
+        "cn": "苯中毒",
+        "domain": "medical",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "benzol",
+        "role": "root",
+        "canonical": "benzol",
+        "coreMeaning": {
+          "cn": "苯",
+          "en": "benzene"
+        },
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 0.4
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 2,
+        "form": "-ism",
+        "role": "suffix",
+        "canonical": "-ism",
+        "coreMeaning": {
+          "cn": "状态；中毒症",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "benzol",
+      "benzolism"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "苯的状态",
-      "imageChain": ["苯化学品", "中毒症", "苯中毒"],
+      "imageChain": [
+        "苯化学品",
+        "中毒症",
+        "苯中毒"
+      ],
       "mnemonicExpr": "benzol(苯)+ism(症) → 苯中毒"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义", "担忧"], "intensity": 0.6 },
-      "domain": ["medical"],
+      "sentiment": {
+        "tags": [
+          "贬义",
+          "担忧"
+        ],
+        "intensity": 0.6
+      },
+      "domain": [
+        "medical"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["benzene", "benzol"],
-      "sameAffix": [{ "affix": "-ism", "members": ["alcoholism", "botulism"] }],
-      "synonyms": ["benzene poisoning"],
+      "sameRoot": [
+        "benzene",
+        "benzol"
+      ],
+      "sameAffix": [
+        "alcoholism",
+        "botulism"
+      ],
+      "synonyms": [
+        "benzene poisoning"
+      ],
       "antonyms": [],
-      "domainCohort": ["toxicology", "poisoning"],
+      "domainCohort": [
+        "toxicology",
+        "poisoning"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["toxicity", "poison"]
+      "sameImagery": [
+        "toxicity",
+        "poison"
+      ]
     }
   },
   {
     "word": "benzonatate",
     "phonetic": "/bәn'zәunәteit/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "镇咳药（苯甲酸甲氧聚乙烯氧基乙酯）", "domain": "medical", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "benzonatate", "role": "root", "canonical": "benzonatate", "coreMeaning": { "cn": "苯佐那酯", "en": "benzonatate drug" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["benzonatate"],
+    "coreMeaning": [
+      {
+        "cn": "镇咳药（苯甲酸甲氧聚乙烯氧基乙酯）",
+        "domain": "medical",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "benzonatate",
+        "role": "root",
+        "canonical": "benzonatate",
+        "coreMeaning": {
+          "cn": "苯佐那酯",
+          "en": "benzonatate drug"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "benzonatate"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "药名",
-      "imageChain": ["镇咳药", "苯佐那酯", "药品"],
+      "imageChain": [
+        "镇咳药",
+        "苯佐那酯",
+        "药品"
+      ],
       "mnemonicExpr": "benzonatate → 镇咳药 → 苯佐那酯"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["medical"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
@@ -498,7 +1447,10 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["antitussive", "cough suppressant"],
+      "domainCohort": [
+        "antitussive",
+        "cough suppressant"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -507,182 +1459,611 @@
   {
     "word": "bequeath",
     "phonetic": "/bɪ'kwið/",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "遗赠；流传", "domain": "legal", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "be-", "role": "prefix", "canonical": "be-", "coreMeaning": { "cn": "使……", "en": "to cause" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "queath", "role": "root", "canonical": "queath", "coreMeaning": { "cn": "说、宣告（古英语）", "en": "to say; declare" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["queath", "bequeath"],
+    "coreMeaning": [
+      {
+        "cn": "遗赠；流传",
+        "domain": "legal",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "be-",
+        "role": "prefix",
+        "canonical": "be-",
+        "coreMeaning": {
+          "cn": "使……",
+          "en": "to cause"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "queath",
+        "role": "root",
+        "canonical": "queath",
+        "coreMeaning": {
+          "cn": "说、宣告（古英语）",
+          "en": "to say; declare"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "queath",
+      "bequeath"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "宣告给予",
-      "imageChain": ["宣告", "临终声明", "遗赠"],
+      "imageChain": [
+        "宣告",
+        "临终声明",
+        "遗赠"
+      ],
       "mnemonicExpr": "be(使)+queath(宣告) → 立遗嘱宣告 → 遗赠"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["庄重", "中性"], "intensity": 0.3 },
-      "domain": ["legal"],
+      "sentiment": {
+        "tags": [
+          "庄重",
+          "中性"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "legal"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["bequest"],
-      "sameAffix": [{ "affix": "be-", "members": ["befall", "belong"] }],
-      "synonyms": ["devise", "leave", "pass down"],
-      "antonyms": ["inherit", "receive"],
-      "domainCohort": ["will", "inheritance"],
-      "derivationPair": ["bequest"],
+      "sameRoot": [
+        "bequest"
+      ],
+      "sameAffix": [
+        "befall",
+        "belong"
+      ],
+      "synonyms": [
+        "devise",
+        "leave",
+        "pass down"
+      ],
+      "antonyms": [
+        "inherit",
+        "receive"
+      ],
+      "domainCohort": [
+        "will",
+        "inheritance"
+      ],
+      "derivationPair": [
+        "bequest"
+      ],
       "morphVariants": [],
-      "sameImagery": ["legacy", "heritage"]
+      "sameImagery": [
+        "legacy",
+        "heritage"
+      ]
     }
   },
   {
     "word": "bequests",
     "phonetic": "/bɪˈkwests/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "遗赠；遗产（复数）", "domain": "legal", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "be-", "role": "prefix", "canonical": "be-", "coreMeaning": { "cn": "使……", "en": "to cause" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "quest", "role": "root", "canonical": "quir", "coreMeaning": { "cn": "寻求；宣告", "en": "seek; declare" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-s", "role": "suffix", "canonical": "-s", "coreMeaning": { "cn": "复数", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["bequeath", "bequest", "bequests"],
+    "coreMeaning": [
+      {
+        "cn": "遗赠；遗产（复数）",
+        "domain": "legal",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "be-",
+        "role": "prefix",
+        "canonical": "be-",
+        "coreMeaning": {
+          "cn": "使……",
+          "en": "to cause"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "quest",
+        "role": "root",
+        "canonical": "quir",
+        "coreMeaning": {
+          "cn": "寻求；宣告",
+          "en": "seek; declare"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-s",
+        "role": "suffix",
+        "canonical": "-s",
+        "coreMeaning": {
+          "cn": "复数",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "bequeath",
+      "bequest",
+      "bequests"
+    ],
     "morphVariantOf": "bequest",
     "memorySemantics": {
       "literal": "宣告所给之物",
-      "imageChain": ["遗嘱声明", "所赠物品", "遗产"],
+      "imageChain": [
+        "遗嘱声明",
+        "所赠物品",
+        "遗产"
+      ],
       "mnemonicExpr": "bequest(遗赠)+s → 遗赠物品"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["庄重", "中性"], "intensity": 0.3 },
-      "domain": ["legal"],
+      "sentiment": {
+        "tags": [
+          "庄重",
+          "中性"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "legal"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["bequeath", "request", "conquest"],
+      "sameRoot": [
+        "bequeath",
+        "request",
+        "conquest"
+      ],
       "sameAffix": [],
-      "synonyms": ["legacies", "inheritances"],
+      "synonyms": [
+        "legacies",
+        "inheritances"
+      ],
       "antonyms": [],
-      "domainCohort": ["estate", "will"],
-      "derivationPair": ["bequest"],
-      "morphVariants": ["bequest"],
-      "sameImagery": ["heritage", "endowment"]
+      "domainCohort": [
+        "estate",
+        "will"
+      ],
+      "derivationPair": [
+        "bequest"
+      ],
+      "morphVariants": [
+        "bequest"
+      ],
+      "sameImagery": [
+        "heritage",
+        "endowment"
+      ]
     }
   },
   {
     "word": "berate",
     "phonetic": "/bɪ'ret/",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "严责；申斥", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "be-", "role": "prefix", "canonical": "be-", "coreMeaning": { "cn": "加强语气", "en": "intensifier" }, "sentiment": { "tags": ["偏负"], "intensity": 0.3 }, "positionTendency": "initial" },
-      { "order": 2, "form": "rate", "role": "root", "canonical": "rate", "coreMeaning": { "cn": "责骂；评价", "en": "to scold; rate" }, "sentiment": { "tags": ["贬义"], "intensity": 0.5 }, "positionTendency": "medial" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["rate", "berate"],
+    "coreMeaning": [
+      {
+        "cn": "严责；申斥",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "be-",
+        "role": "prefix",
+        "canonical": "be-",
+        "coreMeaning": {
+          "cn": "加强语气",
+          "en": "intensifier"
+        },
+        "sentiment": {
+          "tags": [
+            "偏负"
+          ],
+          "intensity": 0.3
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "rate",
+        "role": "root",
+        "canonical": "rate",
+        "coreMeaning": {
+          "cn": "责骂；评价",
+          "en": "to scold; rate"
+        },
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 0.5
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "rate",
+      "berate"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "严厉责骂",
-      "imageChain": ["狠狠地评判", "大声斥责", "严责"],
+      "imageChain": [
+        "狠狠地评判",
+        "大声斥责",
+        "严责"
+      ],
       "mnemonicExpr": "be(使)+rate(评判) → 狠狠评判 → 严责"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义", "厌恶"], "intensity": 0.7 },
-      "domain": ["general", "editorial"],
+      "sentiment": {
+        "tags": [
+          "贬义",
+          "厌恶"
+        ],
+        "intensity": 0.7
+      },
+      "domain": [
+        "general",
+        "editorial"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["rate", "overrate"],
-      "sameAffix": [{ "affix": "be-", "members": ["bemoan", "belittle"] }],
-      "synonyms": ["scold", "rebuke", "reproach"],
-      "antonyms": ["praise", "commend"],
-      "domainCohort": ["criticism", "reprimand"],
+      "sameRoot": [
+        "rate",
+        "overrate"
+      ],
+      "sameAffix": [
+        "bemoan",
+        "belittle"
+      ],
+      "synonyms": [
+        "scold",
+        "rebuke",
+        "reproach"
+      ],
+      "antonyms": [
+        "praise",
+        "commend"
+      ],
+      "domainCohort": [
+        "criticism",
+        "reprimand"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["chastise", "rail"]
+      "sameImagery": [
+        "chastise",
+        "rail"
+      ]
     }
   },
   {
     "word": "bereave",
     "phonetic": "/bɪ'riv/",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "使丧失；剥夺", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "be-", "role": "prefix", "canonical": "be-", "coreMeaning": { "cn": "使……；完全", "en": "to cause; away" }, "sentiment": { "tags": ["偏负"], "intensity": 0.3 }, "positionTendency": "initial" },
-      { "order": 2, "form": "reave", "role": "root", "canonical": "reave", "coreMeaning": { "cn": "抢夺、剥夺", "en": "to rob; plunder" }, "sentiment": { "tags": ["贬义"], "intensity": 0.7 }, "positionTendency": "medial" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["reave", "bereave"],
+    "coreMeaning": [
+      {
+        "cn": "使丧失；剥夺",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "be-",
+        "role": "prefix",
+        "canonical": "be-",
+        "coreMeaning": {
+          "cn": "使……；完全",
+          "en": "to cause; away"
+        },
+        "sentiment": {
+          "tags": [
+            "偏负"
+          ],
+          "intensity": 0.3
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "reave",
+        "role": "root",
+        "canonical": "reave",
+        "coreMeaning": {
+          "cn": "抢夺、剥夺",
+          "en": "to rob; plunder"
+        },
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 0.7
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "reave",
+      "bereave"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "完全夺去",
-      "imageChain": ["抢走", "夺去亲人", "使丧失"],
+      "imageChain": [
+        "抢走",
+        "夺去亲人",
+        "使丧失"
+      ],
       "mnemonicExpr": "be(完全)+reave(夺) → 完全夺去 → 剥夺"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义", "担忧"], "intensity": 0.8 },
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "贬义",
+          "担忧"
+        ],
+        "intensity": 0.8
+      },
+      "domain": [
+        "general"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["bereft", "bereavement"],
-      "sameAffix": [{ "affix": "be-", "members": ["bereft", "beset"] }],
-      "synonyms": ["deprive", "rob"],
-      "antonyms": ["restore", "grant"],
-      "domainCohort": ["grief", "loss"],
-      "derivationPair": ["bereft"],
-      "morphVariants": ["bereft"],
-      "sameImagery": ["loss", "mourning"]
+      "sameRoot": [
+        "bereft",
+        "bereavement"
+      ],
+      "sameAffix": [
+        "bereft",
+        "beset"
+      ],
+      "synonyms": [
+        "deprive",
+        "rob"
+      ],
+      "antonyms": [
+        "restore",
+        "grant"
+      ],
+      "domainCohort": [
+        "grief",
+        "loss"
+      ],
+      "derivationPair": [
+        "bereft"
+      ],
+      "morphVariants": [
+        "bereft"
+      ],
+      "sameImagery": [
+        "loss",
+        "mourning"
+      ]
     }
   },
   {
     "word": "bereft",
     "phonetic": "/bɪ'rɛft/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "丧失的；失去亲人的", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "be-", "role": "prefix", "canonical": "be-", "coreMeaning": { "cn": "使……；完全", "en": "to cause; away" }, "sentiment": { "tags": ["偏负"], "intensity": 0.3 }, "positionTendency": "initial" },
-      { "order": 2, "form": "reft", "role": "root", "canonical": "reave", "coreMeaning": { "cn": "抢夺、剥夺（过去分词）", "en": "to rob (past participle)" }, "sentiment": { "tags": ["贬义"], "intensity": 0.7 }, "positionTendency": "medial" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["reave", "bereave", "bereft"],
+    "coreMeaning": [
+      {
+        "cn": "丧失的；失去亲人的",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "be-",
+        "role": "prefix",
+        "canonical": "be-",
+        "coreMeaning": {
+          "cn": "使……；完全",
+          "en": "to cause; away"
+        },
+        "sentiment": {
+          "tags": [
+            "偏负"
+          ],
+          "intensity": 0.3
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "reft",
+        "role": "root",
+        "canonical": "reave",
+        "coreMeaning": {
+          "cn": "抢夺、剥夺（过去分词）",
+          "en": "to rob (past participle)"
+        },
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 0.7
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "reave",
+      "bereave",
+      "bereft"
+    ],
     "morphVariantOf": "bereave",
     "memorySemantics": {
       "literal": "被夺去的",
-      "imageChain": ["被剥夺", "失去亲人", "丧失的"],
+      "imageChain": [
+        "被剥夺",
+        "失去亲人",
+        "丧失的"
+      ],
       "mnemonicExpr": "be(完全)+reft(夺去) → 被完全夺去的 → 丧失的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义", "担忧"], "intensity": 0.8 },
-      "domain": ["general", "editorial"],
+      "sentiment": {
+        "tags": [
+          "贬义",
+          "担忧"
+        ],
+        "intensity": 0.8
+      },
+      "domain": [
+        "general",
+        "editorial"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["bereave", "bereavement"],
+      "sameRoot": [
+        "bereave",
+        "bereavement"
+      ],
       "sameAffix": [],
-      "synonyms": ["deprived", "bereaved"],
-      "antonyms": ["endowed", "blessed"],
-      "domainCohort": ["mourning", "grief"],
-      "derivationPair": ["bereave"],
-      "morphVariants": ["bereave"],
-      "sameImagery": ["loss", "absence"]
+      "synonyms": [
+        "deprived",
+        "bereaved"
+      ],
+      "antonyms": [
+        "endowed",
+        "blessed"
+      ],
+      "domainCohort": [
+        "mourning",
+        "grief"
+      ],
+      "derivationPair": [
+        "bereave"
+      ],
+      "morphVariants": [
+        "bereave"
+      ],
+      "sameImagery": [
+        "loss",
+        "absence"
+      ]
     }
   },
   {
     "word": "berger",
     "phonetic": "/'bә:dʒә/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "伯杰（姓氏）", "domain": "news", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "berger", "role": "root", "canonical": "berger", "coreMeaning": { "cn": "伯杰", "en": "Berger (proper name)" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["berger"],
+    "coreMeaning": [
+      {
+        "cn": "伯杰（姓氏）",
+        "domain": "news",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "berger",
+        "role": "root",
+        "canonical": "berger",
+        "coreMeaning": {
+          "cn": "伯杰",
+          "en": "Berger (proper name)"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "berger"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "姓氏",
-      "imageChain": ["西欧姓氏", "牧羊人", "伯杰"],
+      "imageChain": [
+        "西欧姓氏",
+        "牧羊人",
+        "伯杰"
+      ],
       "mnemonicExpr": "Berger → 西欧姓氏 → 伯杰"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["news"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "news"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -690,7 +2071,9 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["surname"],
+      "domainCohort": [
+        "surname"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -699,477 +2082,1539 @@
   {
     "word": "berserk",
     "phonetic": "/bə'sə:k/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "狂怒的；狂暴的", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "ber", "role": "root", "canonical": "ber", "coreMeaning": { "cn": "熊（古北欧语）", "en": "bear" }, "sentiment": { "tags": ["贬义"], "intensity": 0.5 }, "positionTendency": "initial" },
-      { "order": 2, "form": "serk", "role": "root", "canonical": "serk", "coreMeaning": { "cn": "衣、甲（古北欧语）", "en": "shirt, coat" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["berserk"],
+    "coreMeaning": [
+      {
+        "cn": "狂怒的；狂暴的",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ber",
+        "role": "root",
+        "canonical": "ber",
+        "coreMeaning": {
+          "cn": "熊（古北欧语）",
+          "en": "bear"
+        },
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 0.5
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "serk",
+        "role": "root",
+        "canonical": "serk",
+        "coreMeaning": {
+          "cn": "衣、甲（古北欧语）",
+          "en": "shirt, coat"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "berserk"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "穿熊皮的（战士）",
-      "imageChain": ["穿熊皮战士", "陷入狂怒", "狂暴的"],
+      "imageChain": [
+        "穿熊皮战士",
+        "陷入狂怒",
+        "狂暴的"
+      ],
       "mnemonicExpr": "ber(熊)+serk(皮) → 穿熊皮的北欧战士 → 狂暴的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义", "厌恶"], "intensity": 0.8 },
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "贬义",
+          "厌恶"
+        ],
+        "intensity": 0.8
+      },
+      "domain": [
+        "general"
+      ],
       "registerFormality": "informal"
     },
     "relations": {
       "sameRoot": [],
       "sameAffix": [],
-      "synonyms": ["frenzied", "wild", "crazy"],
-      "antonyms": ["calm", "composed"],
-      "domainCohort": ["rage", "frenzy"],
+      "synonyms": [
+        "frenzied",
+        "wild",
+        "crazy"
+      ],
+      "antonyms": [
+        "calm",
+        "composed"
+      ],
+      "domainCohort": [
+        "rage",
+        "frenzy"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["rampage", "fury"]
+      "sameImagery": [
+        "rampage",
+        "fury"
+      ]
     }
   },
   {
     "word": "berth",
     "phonetic": "/bɝθ/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "卧铺；停泊处", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "berth", "role": "root", "canonical": "berth", "coreMeaning": { "cn": "停泊处、铺位", "en": "mooring; bunk" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["berth"],
+    "coreMeaning": [
+      {
+        "cn": "卧铺；停泊处",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "berth",
+        "role": "root",
+        "canonical": "berth",
+        "coreMeaning": {
+          "cn": "停泊处、铺位",
+          "en": "mooring; bunk"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "berth"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "停泊位",
-      "imageChain": ["船位", "卧铺位置", "停泊处"],
+      "imageChain": [
+        "船位",
+        "卧铺位置",
+        "停泊处"
+      ],
       "mnemonicExpr": "berth → 船或车内的安置位置 → 卧铺/停泊处"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
       "sameRoot": [],
       "sameAffix": [],
-      "synonyms": ["bunk", "mooring", "dock"],
+      "synonyms": [
+        "bunk",
+        "mooring",
+        "dock"
+      ],
       "antonyms": [],
-      "domainCohort": ["port", "harbor", "ship"],
+      "domainCohort": [
+        "port",
+        "harbor",
+        "ship"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["dock", "bed"]
+      "sameImagery": [
+        "dock",
+        "bed"
+      ]
     }
   },
   {
     "word": "beseech",
     "phonetic": "/bɪ'sitʃ/",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "恳求，哀求", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "be-", "role": "prefix", "canonical": "be-", "coreMeaning": { "cn": "加强语气", "en": "intensifier" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "seech", "role": "root", "canonical": "seech", "coreMeaning": { "cn": "寻求（古英语）", "en": "to seek" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["seech", "beseech"],
+    "coreMeaning": [
+      {
+        "cn": "恳求，哀求",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "be-",
+        "role": "prefix",
+        "canonical": "be-",
+        "coreMeaning": {
+          "cn": "加强语气",
+          "en": "intensifier"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "seech",
+        "role": "root",
+        "canonical": "seech",
+        "coreMeaning": {
+          "cn": "寻求（古英语）",
+          "en": "to seek"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "seech",
+      "beseech"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "苦苦寻求",
-      "imageChain": ["苦苦恳求", "哀求", "恳求"],
+      "imageChain": [
+        "苦苦恳求",
+        "哀求",
+        "恳求"
+      ],
       "mnemonicExpr": "be(加强)+seech(seek) → 苦苦寻求 → 恳求"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["庄重", "担忧"], "intensity": 0.6 },
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "庄重",
+          "担忧"
+        ],
+        "intensity": 0.6
+      },
+      "domain": [
+        "general"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["seek", "besought"],
-      "sameAffix": [{ "affix": "be-", "members": ["bemoan", "besiege"] }],
-      "synonyms": ["implore", "plead", "entreat"],
-      "antonyms": ["demand", "command"],
-      "domainCohort": ["petition", "plea"],
+      "sameRoot": [
+        "seek",
+        "besought"
+      ],
+      "sameAffix": [
+        "bemoan",
+        "besiege"
+      ],
+      "synonyms": [
+        "implore",
+        "plead",
+        "entreat"
+      ],
+      "antonyms": [
+        "demand",
+        "command"
+      ],
+      "domainCohort": [
+        "petition",
+        "plea"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["prayer", "supplication"]
+      "sameImagery": [
+        "prayer",
+        "supplication"
+      ]
     }
   },
   {
     "word": "beset",
     "phonetic": "/bɪ'sɛt/",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "困扰；围绕", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "be-", "role": "prefix", "canonical": "be-", "coreMeaning": { "cn": "使……；围绕", "en": "to cause; around" }, "sentiment": { "tags": ["偏负"], "intensity": 0.3 }, "positionTendency": "initial" },
-      { "order": 2, "form": "set", "role": "root", "canonical": "set", "coreMeaning": { "cn": "放置；安置", "en": "set, place" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["set", "beset"],
+    "coreMeaning": [
+      {
+        "cn": "困扰；围绕",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "be-",
+        "role": "prefix",
+        "canonical": "be-",
+        "coreMeaning": {
+          "cn": "使……；围绕",
+          "en": "to cause; around"
+        },
+        "sentiment": {
+          "tags": [
+            "偏负"
+          ],
+          "intensity": 0.3
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "set",
+        "role": "root",
+        "canonical": "set",
+        "coreMeaning": {
+          "cn": "放置；安置",
+          "en": "set, place"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "set",
+      "beset"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "围绕放置",
-      "imageChain": ["围绕设置", "困扰包围", "困扰"],
+      "imageChain": [
+        "围绕设置",
+        "困扰包围",
+        "困扰"
+      ],
       "mnemonicExpr": "be(围绕)+set(放) → 围绕放置 → 困扰"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义", "担忧"], "intensity": 0.7 },
-      "domain": ["general", "editorial"],
+      "sentiment": {
+        "tags": [
+          "贬义",
+          "担忧"
+        ],
+        "intensity": 0.7
+      },
+      "domain": [
+        "general",
+        "editorial"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["set", "upset"],
-      "sameAffix": [{ "affix": "be-", "members": ["besiege", "bereave"] }],
-      "synonyms": ["plague", "trouble", "surround"],
-      "antonyms": ["relieve", "free"],
-      "domainCohort": ["difficulty", "obstacle"],
+      "sameRoot": [
+        "set",
+        "upset"
+      ],
+      "sameAffix": [
+        "besiege",
+        "bereave"
+      ],
+      "synonyms": [
+        "plague",
+        "trouble",
+        "surround"
+      ],
+      "antonyms": [
+        "relieve",
+        "free"
+      ],
+      "domainCohort": [
+        "difficulty",
+        "obstacle"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["besiege", "encircle"]
+      "sameImagery": [
+        "besiege",
+        "encircle"
+      ]
     }
   },
   {
     "word": "besides",
     "phonetic": "/bɪ'saɪdz/",
-    "pos": ["adv.", "prep."],
-    "coreMeaning": [{ "cn": "除此之外", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "be-", "role": "prefix", "canonical": "be-", "coreMeaning": { "cn": "在……旁", "en": "by; beside" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "side", "role": "root", "canonical": "side", "coreMeaning": { "cn": "边；侧", "en": "side" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-s", "role": "suffix", "canonical": "-s", "coreMeaning": { "cn": "副词后缀", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adv.",
+      "prep."
     ],
-    "derivationChain": ["side", "beside", "besides"],
+    "coreMeaning": [
+      {
+        "cn": "除此之外",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "be-",
+        "role": "prefix",
+        "canonical": "be-",
+        "coreMeaning": {
+          "cn": "在……旁",
+          "en": "by; beside"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "side",
+        "role": "root",
+        "canonical": "side",
+        "coreMeaning": {
+          "cn": "边；侧",
+          "en": "side"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-s",
+        "role": "suffix",
+        "canonical": "-s",
+        "coreMeaning": {
+          "cn": "副词后缀",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "side",
+      "beside",
+      "besides"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "在旁边",
-      "imageChain": ["在旁边", "另外还有", "除此之外"],
+      "imageChain": [
+        "在旁边",
+        "另外还有",
+        "除此之外"
+      ],
       "mnemonicExpr": "be(在旁)+side(边)+s → 在边上 → 除此之外"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["beside", "aside", "side"],
-      "sameAffix": [{ "affix": "be-", "members": ["below", "behind"] }],
-      "synonyms": ["moreover", "additionally"],
+      "sameRoot": [
+        "beside",
+        "aside",
+        "side"
+      ],
+      "sameAffix": [
+        "below",
+        "behind"
+      ],
+      "synonyms": [
+        "moreover",
+        "additionally"
+      ],
       "antonyms": [],
-      "domainCohort": ["conjunction", "addition"],
-      "derivationPair": ["beside"],
-      "morphVariants": ["beside"],
+      "domainCohort": [
+        "conjunction",
+        "addition"
+      ],
+      "derivationPair": [
+        "beside"
+      ],
+      "morphVariants": [
+        "beside"
+      ],
       "sameImagery": []
     }
   },
   {
     "word": "besiege",
     "phonetic": "/bɪ'sidʒ/",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "围困；围攻", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "be-", "role": "prefix", "canonical": "be-", "coreMeaning": { "cn": "围绕", "en": "around" }, "sentiment": { "tags": ["偏负"], "intensity": 0.3 }, "positionTendency": "initial" },
-      { "order": 2, "form": "siege", "role": "root", "canonical": "siege", "coreMeaning": { "cn": "围攻、坐攻", "en": "siege, seat" }, "sentiment": { "tags": ["贬义"], "intensity": 0.6 }, "positionTendency": "medial" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["siege", "besiege"],
+    "coreMeaning": [
+      {
+        "cn": "围困；围攻",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "be-",
+        "role": "prefix",
+        "canonical": "be-",
+        "coreMeaning": {
+          "cn": "围绕",
+          "en": "around"
+        },
+        "sentiment": {
+          "tags": [
+            "偏负"
+          ],
+          "intensity": 0.3
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "siege",
+        "role": "root",
+        "canonical": "siege",
+        "coreMeaning": {
+          "cn": "围攻、坐攻",
+          "en": "siege, seat"
+        },
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 0.6
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "siege",
+      "besiege"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "围起来攻打",
-      "imageChain": ["军队围城", "持续围攻", "围困"],
+      "imageChain": [
+        "军队围城",
+        "持续围攻",
+        "围困"
+      ],
       "mnemonicExpr": "be(围绕)+siege(围攻) → 围起来攻打 → 围困"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义", "担忧"], "intensity": 0.7 },
-      "domain": ["general", "news"],
+      "sentiment": {
+        "tags": [
+          "贬义",
+          "担忧"
+        ],
+        "intensity": 0.7
+      },
+      "domain": [
+        "general",
+        "news"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["siege"],
-      "sameAffix": [{ "affix": "be-", "members": ["beset", "besmirch"] }],
-      "synonyms": ["surround", "blockade"],
-      "antonyms": ["liberate", "free"],
-      "domainCohort": ["warfare", "attack"],
-      "derivationPair": ["siege"],
+      "sameRoot": [
+        "siege"
+      ],
+      "sameAffix": [
+        "beset",
+        "besmirch"
+      ],
+      "synonyms": [
+        "surround",
+        "blockade"
+      ],
+      "antonyms": [
+        "liberate",
+        "free"
+      ],
+      "domainCohort": [
+        "warfare",
+        "attack"
+      ],
+      "derivationPair": [
+        "siege"
+      ],
       "morphVariants": [],
-      "sameImagery": ["surround", "encircle"]
+      "sameImagery": [
+        "surround",
+        "encircle"
+      ]
     }
   },
   {
     "word": "besmear",
     "phonetic": "/bi'smiə/",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "弄脏；涂抹；玷污", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "be-", "role": "prefix", "canonical": "be-", "coreMeaning": { "cn": "完全；遍布", "en": "completely; all over" }, "sentiment": { "tags": ["偏负"], "intensity": 0.3 }, "positionTendency": "initial" },
-      { "order": 2, "form": "smear", "role": "root", "canonical": "smear", "coreMeaning": { "cn": "涂抹、弄脏", "en": "to smear" }, "sentiment": { "tags": ["贬义"], "intensity": 0.5 }, "positionTendency": "medial" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["smear", "besmear"],
+    "coreMeaning": [
+      {
+        "cn": "弄脏；涂抹；玷污",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "be-",
+        "role": "prefix",
+        "canonical": "be-",
+        "coreMeaning": {
+          "cn": "完全；遍布",
+          "en": "completely; all over"
+        },
+        "sentiment": {
+          "tags": [
+            "偏负"
+          ],
+          "intensity": 0.3
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "smear",
+        "role": "root",
+        "canonical": "smear",
+        "coreMeaning": {
+          "cn": "涂抹、弄脏",
+          "en": "to smear"
+        },
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 0.5
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "smear",
+      "besmear"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "彻底涂抹",
-      "imageChain": ["四处涂抹", "弄脏一片", "玷污"],
+      "imageChain": [
+        "四处涂抹",
+        "弄脏一片",
+        "玷污"
+      ],
       "mnemonicExpr": "be(完全)+smear(涂抹) → 满是污渍 → 弄脏"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义", "厌恶"], "intensity": 0.6 },
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "贬义",
+          "厌恶"
+        ],
+        "intensity": 0.6
+      },
+      "domain": [
+        "general"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["smear"],
-      "sameAffix": [{ "affix": "be-", "members": ["besmirch", "beset"] }],
-      "synonyms": ["smear", "daub", "soil"],
-      "antonyms": ["clean", "cleanse"],
-      "domainCohort": ["dirt", "stain"],
-      "derivationPair": ["smear"],
+      "sameRoot": [
+        "smear"
+      ],
+      "sameAffix": [
+        "besmirch",
+        "beset"
+      ],
+      "synonyms": [
+        "smear",
+        "daub",
+        "soil"
+      ],
+      "antonyms": [
+        "clean",
+        "cleanse"
+      ],
+      "domainCohort": [
+        "dirt",
+        "stain"
+      ],
+      "derivationPair": [
+        "smear"
+      ],
       "morphVariants": [],
-      "sameImagery": ["besmirch", "stain"]
+      "sameImagery": [
+        "besmirch",
+        "stain"
+      ]
     }
   },
   {
     "word": "besmirch",
     "phonetic": "/bi'smə:tʃ/",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "弄污；损害；诽谤", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "be-", "role": "prefix", "canonical": "be-", "coreMeaning": { "cn": "完全", "en": "completely" }, "sentiment": { "tags": ["偏负"], "intensity": 0.3 }, "positionTendency": "initial" },
-      { "order": 2, "form": "smirch", "role": "root", "canonical": "smirch", "coreMeaning": { "cn": "弄脏、污点", "en": "to smirch; stain" }, "sentiment": { "tags": ["贬义"], "intensity": 0.6 }, "positionTendency": "medial" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["smirch", "besmirch"],
+    "coreMeaning": [
+      {
+        "cn": "弄污；损害；诽谤",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "be-",
+        "role": "prefix",
+        "canonical": "be-",
+        "coreMeaning": {
+          "cn": "完全",
+          "en": "completely"
+        },
+        "sentiment": {
+          "tags": [
+            "偏负"
+          ],
+          "intensity": 0.3
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "smirch",
+        "role": "root",
+        "canonical": "smirch",
+        "coreMeaning": {
+          "cn": "弄脏、污点",
+          "en": "to smirch; stain"
+        },
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 0.6
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "smirch",
+      "besmirch"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "完全弄脏",
-      "imageChain": ["染黑", "玷污名誉", "诽谤"],
+      "imageChain": [
+        "染黑",
+        "玷污名誉",
+        "诽谤"
+      ],
       "mnemonicExpr": "be(完全)+smirch(弄脏) → 完全玷污 → 诽谤"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义", "厌恶"], "intensity": 0.7 },
-      "domain": ["general", "editorial"],
+      "sentiment": {
+        "tags": [
+          "贬义",
+          "厌恶"
+        ],
+        "intensity": 0.7
+      },
+      "domain": [
+        "general",
+        "editorial"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["smirch"],
-      "sameAffix": [{ "affix": "be-", "members": ["besmear", "beset"] }],
-      "synonyms": ["tarnish", "sully", "defame"],
-      "antonyms": ["honor", "praise"],
-      "domainCohort": ["slander", "reputation"],
-      "derivationPair": ["smirch"],
+      "sameRoot": [
+        "smirch"
+      ],
+      "sameAffix": [
+        "besmear",
+        "beset"
+      ],
+      "synonyms": [
+        "tarnish",
+        "sully",
+        "defame"
+      ],
+      "antonyms": [
+        "honor",
+        "praise"
+      ],
+      "domainCohort": [
+        "slander",
+        "reputation"
+      ],
+      "derivationPair": [
+        "smirch"
+      ],
       "morphVariants": [],
-      "sameImagery": ["besmear", "tarnish"]
+      "sameImagery": [
+        "besmear",
+        "tarnish"
+      ]
     }
   },
   {
     "word": "bestial",
     "phonetic": "/'bɛtʃəl/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "兽性的；野蛮的", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "besti", "role": "root", "canonical": "beast", "coreMeaning": { "cn": "野兽、兽性", "en": "beast, animal" }, "sentiment": { "tags": ["贬义"], "intensity": 0.6 }, "positionTendency": "medial" },
-      { "order": 2, "form": "-al", "role": "suffix", "canonical": "-al", "coreMeaning": { "cn": "…的", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["beast", "bestial"],
+    "coreMeaning": [
+      {
+        "cn": "兽性的；野蛮的",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "besti",
+        "role": "root",
+        "canonical": "beast",
+        "coreMeaning": {
+          "cn": "野兽、兽性",
+          "en": "beast, animal"
+        },
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 0.6
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 2,
+        "form": "-al",
+        "role": "suffix",
+        "canonical": "-al",
+        "coreMeaning": {
+          "cn": "…的",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "beast",
+      "bestial"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "兽性的",
-      "imageChain": ["野兽一般", "残忍野蛮", "兽性的"],
+      "imageChain": [
+        "野兽一般",
+        "残忍野蛮",
+        "兽性的"
+      ],
       "mnemonicExpr": "besti(兽)+al(的) → 野兽般的 → 兽性的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义", "厌恶"], "intensity": 0.9 },
-      "domain": ["general", "editorial"],
+      "sentiment": {
+        "tags": [
+          "贬义",
+          "厌恶"
+        ],
+        "intensity": 0.9
+      },
+      "domain": [
+        "general",
+        "editorial"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["beast", "beastly"],
-      "sameAffix": [{ "affix": "-al", "members": ["brutal", "animal"] }],
-      "synonyms": ["brutal", "savage", "beastly"],
-      "antonyms": ["humane", "civilized"],
-      "domainCohort": ["cruelty", "barbarism"],
-      "derivationPair": ["beast"],
+      "sameRoot": [
+        "beast",
+        "beastly"
+      ],
+      "sameAffix": [
+        "brutal",
+        "animal"
+      ],
+      "synonyms": [
+        "brutal",
+        "savage",
+        "beastly"
+      ],
+      "antonyms": [
+        "humane",
+        "civilized"
+      ],
+      "domainCohort": [
+        "cruelty",
+        "barbarism"
+      ],
+      "derivationPair": [
+        "beast"
+      ],
       "morphVariants": [],
-      "sameImagery": ["brutal", "savage"]
+      "sameImagery": [
+        "brutal",
+        "savage"
+      ]
     }
   },
   {
     "word": "bestow",
     "phonetic": "/bɪ'sto/",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "给予；授予", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "be-", "role": "prefix", "canonical": "be-", "coreMeaning": { "cn": "使……", "en": "to cause" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "stow", "role": "root", "canonical": "stow", "coreMeaning": { "cn": "放置；安置", "en": "to stow; place" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["stow", "bestow"],
+    "coreMeaning": [
+      {
+        "cn": "给予；授予",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "be-",
+        "role": "prefix",
+        "canonical": "be-",
+        "coreMeaning": {
+          "cn": "使……",
+          "en": "to cause"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "stow",
+        "role": "root",
+        "canonical": "stow",
+        "coreMeaning": {
+          "cn": "放置；安置",
+          "en": "to stow; place"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "stow",
+      "bestow"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "放置给予",
-      "imageChain": ["放在某处", "郑重给予", "授予"],
+      "imageChain": [
+        "放在某处",
+        "郑重给予",
+        "授予"
+      ],
       "mnemonicExpr": "be(使)+stow(放置) → 给予放置 → 授予"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["褒义", "庄重"], "intensity": 0.6 },
-      "domain": ["general", "legal"],
+      "sentiment": {
+        "tags": [
+          "褒义",
+          "庄重"
+        ],
+        "intensity": 0.6
+      },
+      "domain": [
+        "general",
+        "legal"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["stow", "stowaway"],
-      "sameAffix": [{ "affix": "be-", "members": ["bequeath", "become"] }],
-      "synonyms": ["grant", "confer", "award"],
-      "antonyms": ["withhold", "deny"],
-      "domainCohort": ["award", "gift"],
+      "sameRoot": [
+        "stow",
+        "stowaway"
+      ],
+      "sameAffix": [
+        "bequeath",
+        "become"
+      ],
+      "synonyms": [
+        "grant",
+        "confer",
+        "award"
+      ],
+      "antonyms": [
+        "withhold",
+        "deny"
+      ],
+      "domainCohort": [
+        "award",
+        "gift"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["confer", "endow"]
+      "sameImagery": [
+        "confer",
+        "endow"
+      ]
     }
   },
   {
     "word": "bestrew",
     "phonetic": "/bi'stru:/",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "布满；散布", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "be-", "role": "prefix", "canonical": "be-", "coreMeaning": { "cn": "遍布", "en": "all over" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "strew", "role": "root", "canonical": "strew", "coreMeaning": { "cn": "散播、撒", "en": "to strew; scatter" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["strew", "bestrew"],
+    "coreMeaning": [
+      {
+        "cn": "布满；散布",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "be-",
+        "role": "prefix",
+        "canonical": "be-",
+        "coreMeaning": {
+          "cn": "遍布",
+          "en": "all over"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "strew",
+        "role": "root",
+        "canonical": "strew",
+        "coreMeaning": {
+          "cn": "散播、撒",
+          "en": "to strew; scatter"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "strew",
+      "bestrew"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "到处撒",
-      "imageChain": ["遍处散布", "撒满花瓣", "布满"],
+      "imageChain": [
+        "遍处散布",
+        "撒满花瓣",
+        "布满"
+      ],
       "mnemonicExpr": "be(遍布)+strew(撒) → 到处撒 → 布满"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["strew"],
-      "sameAffix": [{ "affix": "be-", "members": ["besmear", "besprinkle"] }],
-      "synonyms": ["scatter", "strew"],
-      "antonyms": ["gather", "collect"],
-      "domainCohort": ["distribution", "scattering"],
-      "derivationPair": ["strew"],
+      "sameRoot": [
+        "strew"
+      ],
+      "sameAffix": [
+        "besmear",
+        "besprinkle"
+      ],
+      "synonyms": [
+        "scatter",
+        "strew"
+      ],
+      "antonyms": [
+        "gather",
+        "collect"
+      ],
+      "domainCohort": [
+        "distribution",
+        "scattering"
+      ],
+      "derivationPair": [
+        "strew"
+      ],
       "morphVariants": [],
-      "sameImagery": ["sprinkle", "scatter"]
+      "sameImagery": [
+        "sprinkle",
+        "scatter"
+      ]
     }
   },
   {
     "word": "bestride",
     "phonetic": "/bi'straid/",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "跨骑；跨立", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "be-", "role": "prefix", "canonical": "be-", "coreMeaning": { "cn": "围绕、跨", "en": "around; across" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "stride", "role": "root", "canonical": "stride", "coreMeaning": { "cn": "跨步、迈步", "en": "to stride" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["stride", "bestride"],
+    "coreMeaning": [
+      {
+        "cn": "跨骑；跨立",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "be-",
+        "role": "prefix",
+        "canonical": "be-",
+        "coreMeaning": {
+          "cn": "围绕、跨",
+          "en": "around; across"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "stride",
+        "role": "root",
+        "canonical": "stride",
+        "coreMeaning": {
+          "cn": "跨步、迈步",
+          "en": "to stride"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "stride",
+      "bestride"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "跨立在上",
-      "imageChain": ["跨坐", "骑在上面", "跨骑"],
+      "imageChain": [
+        "跨坐",
+        "骑在上面",
+        "跨骑"
+      ],
       "mnemonicExpr": "be(跨)+stride(迈步) → 跨立在上 → 跨骑"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.3 },
-      "domain": ["general", "editorial"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "庄重"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "general",
+        "editorial"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["stride", "astride"],
-      "sameAffix": [{ "affix": "be-", "members": ["besiege", "beset"] }],
-      "synonyms": ["straddle", "mount"],
+      "sameRoot": [
+        "stride",
+        "astride"
+      ],
+      "sameAffix": [
+        "besiege",
+        "beset"
+      ],
+      "synonyms": [
+        "straddle",
+        "mount"
+      ],
       "antonyms": [],
-      "domainCohort": ["posture", "horse riding"],
-      "derivationPair": ["stride"],
+      "domainCohort": [
+        "posture",
+        "horse riding"
+      ],
+      "derivationPair": [
+        "stride"
+      ],
       "morphVariants": [],
-      "sameImagery": ["straddle", "mount"]
+      "sameImagery": [
+        "straddle",
+        "mount"
+      ]
     }
   },
   {
     "word": "bestseller",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "畅销书", "domain": "business", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "best", "role": "root", "canonical": "best", "coreMeaning": { "cn": "最好", "en": "best" }, "sentiment": { "tags": ["褒义"], "intensity": 0.7 }, "positionTendency": "initial" },
-      { "order": 2, "form": "sell", "role": "root", "canonical": "sell", "coreMeaning": { "cn": "卖", "en": "sell" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-er", "role": "suffix", "canonical": "-er", "coreMeaning": { "cn": "表物/人", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["sell", "seller", "bestseller"],
+    "coreMeaning": [
+      {
+        "cn": "畅销书",
+        "domain": "business",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "best",
+        "role": "root",
+        "canonical": "best",
+        "coreMeaning": {
+          "cn": "最好",
+          "en": "best"
+        },
+        "sentiment": {
+          "tags": [
+            "褒义"
+          ],
+          "intensity": 0.7
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "sell",
+        "role": "root",
+        "canonical": "sell",
+        "coreMeaning": {
+          "cn": "卖",
+          "en": "sell"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-er",
+        "role": "suffix",
+        "canonical": "-er",
+        "coreMeaning": {
+          "cn": "表物/人",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "sell",
+      "seller",
+      "bestseller"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "最佳销售品",
-      "imageChain": ["卖得最好", "畅销", "畅销书"],
+      "imageChain": [
+        "卖得最好",
+        "畅销",
+        "畅销书"
+      ],
       "mnemonicExpr": "best(最好)+sell(卖)+er → 卖得最好的 → 畅销书"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["褒义", "喜爱"], "intensity": 0.6 },
-      "domain": ["business", "news"],
+      "sentiment": {
+        "tags": [
+          "褒义",
+          "喜爱"
+        ],
+        "intensity": 0.6
+      },
+      "domain": [
+        "business",
+        "news"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["seller", "sale", "sell"],
-      "sameAffix": [{ "affix": "-er", "members": ["player", "maker"] }],
-      "synonyms": ["hit", "blockbuster"],
-      "antonyms": ["flop"],
-      "domainCohort": ["book", "publishing"],
-      "derivationPair": ["sell"],
+      "sameRoot": [
+        "seller",
+        "sale",
+        "sell"
+      ],
+      "sameAffix": [
+        "player",
+        "maker"
+      ],
+      "synonyms": [
+        "hit",
+        "blockbuster"
+      ],
+      "antonyms": [
+        "flop"
+      ],
+      "domainCohort": [
+        "book",
+        "publishing"
+      ],
+      "derivationPair": [
+        "sell"
+      ],
       "morphVariants": [],
-      "sameImagery": ["hit", "popular"]
+      "sameImagery": [
+        "hit",
+        "popular"
+      ]
     }
   },
   {
     "word": "bet",
     "phonetic": "/bɛt/",
-    "pos": ["v.", "n."],
-    "coreMeaning": [{ "cn": "打赌；赌注", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "bet", "role": "root", "canonical": "bet", "coreMeaning": { "cn": "打赌", "en": "to bet" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "v.",
+      "n."
     ],
-    "derivationChain": ["bet"],
+    "coreMeaning": [
+      {
+        "cn": "打赌；赌注",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bet",
+        "role": "root",
+        "canonical": "bet",
+        "coreMeaning": {
+          "cn": "打赌",
+          "en": "to bet"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "bet"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "打赌",
-      "imageChain": ["下注", "押赌", "赌博"],
+      "imageChain": [
+        "下注",
+        "押赌",
+        "赌博"
+      ],
       "mnemonicExpr": "bet → 下注 → 打赌"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
       "registerFormality": "informal"
     },
     "relations": {
-      "sameRoot": ["better", "betting"],
+      "sameRoot": [
+        "better",
+        "betting"
+      ],
       "sameAffix": [],
-      "synonyms": ["wager", "gamble"],
+      "synonyms": [
+        "wager",
+        "gamble"
+      ],
       "antonyms": [],
-      "domainCohort": ["gambling", "wager"],
+      "domainCohort": [
+        "gambling",
+        "wager"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["wager", "stake"]
+      "sameImagery": [
+        "wager",
+        "stake"
+      ]
     }
   },
   {
     "word": "betaproplolactone",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "羟丙酸β-内酯（灭菌剂）", "domain": "medical", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "betaproplolactone", "role": "root", "canonical": "betaproplolactone", "coreMeaning": { "cn": "β-丙内酯", "en": "beta-propiolactone" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["betaproplolactone"],
+    "coreMeaning": [
+      {
+        "cn": "羟丙酸β-内酯（灭菌剂）",
+        "domain": "medical",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "betaproplolactone",
+        "role": "root",
+        "canonical": "betaproplolactone",
+        "coreMeaning": {
+          "cn": "β-丙内酯",
+          "en": "beta-propiolactone"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "betaproplolactone"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "化合物名",
-      "imageChain": ["β-内酯", "灭菌剂", "羟丙酸β-内酯"],
+      "imageChain": [
+        "β-内酯",
+        "灭菌剂",
+        "羟丙酸β-内酯"
+      ],
       "mnemonicExpr": "beta+propl+lactone → β-丙内酯"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["medical"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
       "sameRoot": [],
       "sameAffix": [],
-      "synonyms": ["beta-propiolactone"],
+      "synonyms": [
+        "beta-propiolactone"
+      ],
       "antonyms": [],
-      "domainCohort": ["sterilizer", "chemistry"],
+      "domainCohort": [
+        "sterilizer",
+        "chemistry"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -1178,53 +3623,163 @@
   {
     "word": "bethink",
     "phonetic": "/bi'θiŋk/",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "想起；使思考", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "be-", "role": "prefix", "canonical": "be-", "coreMeaning": { "cn": "使……", "en": "to cause" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "think", "role": "root", "canonical": "think", "coreMeaning": { "cn": "想、思考", "en": "to think" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["think", "bethink"],
+    "coreMeaning": [
+      {
+        "cn": "想起；使思考",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "be-",
+        "role": "prefix",
+        "canonical": "be-",
+        "coreMeaning": {
+          "cn": "使……",
+          "en": "to cause"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "think",
+        "role": "root",
+        "canonical": "think",
+        "coreMeaning": {
+          "cn": "想、思考",
+          "en": "to think"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "think",
+      "bethink"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "使思考",
-      "imageChain": ["引起思考", "回想起", "想起"],
+      "imageChain": [
+        "引起思考",
+        "回想起",
+        "想起"
+      ],
       "mnemonicExpr": "be(使)+think(想) → 使想起 → 忆起"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.3 },
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "庄重"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "general"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["think", "thought"],
-      "sameAffix": [{ "affix": "be-", "members": ["become", "beware"] }],
-      "synonyms": ["recall", "remember", "consider"],
-      "antonyms": ["forget"],
-      "domainCohort": ["thought", "memory"],
+      "sameRoot": [
+        "think",
+        "thought"
+      ],
+      "sameAffix": [
+        "become",
+        "beware"
+      ],
+      "synonyms": [
+        "recall",
+        "remember",
+        "consider"
+      ],
+      "antonyms": [
+        "forget"
+      ],
+      "domainCohort": [
+        "thought",
+        "memory"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["reflect", "ponder"]
+      "sameImagery": [
+        "reflect",
+        "ponder"
+      ]
     }
   },
   {
     "word": "beti",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "贝蒂（人名）", "domain": "news", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "beti", "role": "root", "canonical": "beti", "coreMeaning": { "cn": "贝蒂", "en": "Beti (proper name)" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["beti"],
+    "coreMeaning": [
+      {
+        "cn": "贝蒂（人名）",
+        "domain": "news",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "beti",
+        "role": "root",
+        "canonical": "beti",
+        "coreMeaning": {
+          "cn": "贝蒂",
+          "en": "Beti (proper name)"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "beti"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "人名",
-      "imageChain": ["意大利/罗马尼亚姓氏", "人名", "贝蒂"],
+      "imageChain": [
+        "意大利/罗马尼亚姓氏",
+        "人名",
+        "贝蒂"
+      ],
       "mnemonicExpr": "Beti → 人名 → 贝蒂"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["news"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "news"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -1232,7 +3787,9 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["surname"],
+      "domainCohort": [
+        "surname"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -1241,356 +3798,1203 @@
   {
     "word": "betide",
     "phonetic": "/bɪ'taɪd/",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "降临；发生于", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "be-", "role": "prefix", "canonical": "be-", "coreMeaning": { "cn": "使……", "en": "to cause" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "tide", "role": "root", "canonical": "tide", "coreMeaning": { "cn": "时间、潮汐", "en": "tide; time" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["tide", "betide"],
+    "coreMeaning": [
+      {
+        "cn": "降临；发生于",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "be-",
+        "role": "prefix",
+        "canonical": "be-",
+        "coreMeaning": {
+          "cn": "使……",
+          "en": "to cause"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "tide",
+        "role": "root",
+        "canonical": "tide",
+        "coreMeaning": {
+          "cn": "时间、潮汐",
+          "en": "tide; time"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "tide",
+      "betide"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "时候来到",
-      "imageChain": ["潮汐来到", "事情发生", "降临"],
+      "imageChain": [
+        "潮汐来到",
+        "事情发生",
+        "降临"
+      ],
       "mnemonicExpr": "be(使)+tide(时间) → 时候到来 → 降临"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.3 },
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "庄重"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "general"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["tide", "tidings"],
-      "sameAffix": [{ "affix": "be-", "members": ["befall", "become"] }],
-      "synonyms": ["happen", "befall", "occur"],
+      "sameRoot": [
+        "tide",
+        "tidings"
+      ],
+      "sameAffix": [
+        "befall",
+        "become"
+      ],
+      "synonyms": [
+        "happen",
+        "befall",
+        "occur"
+      ],
       "antonyms": [],
-      "domainCohort": ["fate", "event"],
+      "domainCohort": [
+        "fate",
+        "event"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["befall", "fate"]
+      "sameImagery": [
+        "befall",
+        "fate"
+      ]
     }
   },
   {
     "word": "betimes",
     "phonetic": "/bɪ'taɪmz/",
-    "pos": ["adv."],
-    "coreMeaning": [{ "cn": "及时；早", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "be-", "role": "prefix", "canonical": "be-", "coreMeaning": { "cn": "在……", "en": "at; by" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "time", "role": "root", "canonical": "time", "coreMeaning": { "cn": "时间", "en": "time" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-s", "role": "suffix", "canonical": "-s", "coreMeaning": { "cn": "副词后缀", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adv."
     ],
-    "derivationChain": ["time", "betime", "betimes"],
+    "coreMeaning": [
+      {
+        "cn": "及时；早",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "be-",
+        "role": "prefix",
+        "canonical": "be-",
+        "coreMeaning": {
+          "cn": "在……",
+          "en": "at; by"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "time",
+        "role": "root",
+        "canonical": "time",
+        "coreMeaning": {
+          "cn": "时间",
+          "en": "time"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-s",
+        "role": "suffix",
+        "canonical": "-s",
+        "coreMeaning": {
+          "cn": "副词后缀",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "time",
+      "betime",
+      "betimes"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "在时间上",
-      "imageChain": ["按时", "准时", "及时"],
+      "imageChain": [
+        "按时",
+        "准时",
+        "及时"
+      ],
       "mnemonicExpr": "be(在)+time(时间)+s → 按时间 → 及时"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["褒义", "庄重"], "intensity": 0.4 },
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "褒义",
+          "庄重"
+        ],
+        "intensity": 0.4
+      },
+      "domain": [
+        "general"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["time", "timely"],
+      "sameRoot": [
+        "time",
+        "timely"
+      ],
       "sameAffix": [],
-      "synonyms": ["early", "in good time", "timely"],
-      "antonyms": ["late"],
-      "domainCohort": ["time", "punctuality"],
+      "synonyms": [
+        "early",
+        "in good time",
+        "timely"
+      ],
+      "antonyms": [
+        "late"
+      ],
+      "domainCohort": [
+        "time",
+        "punctuality"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["punctual", "timely"]
+      "sameImagery": [
+        "punctual",
+        "timely"
+      ]
     }
   },
   {
     "word": "betoken",
     "phonetic": "/bɪ'tokən/",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "预示；表示", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "be-", "role": "prefix", "canonical": "be-", "coreMeaning": { "cn": "使……", "en": "to cause" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "token", "role": "root", "canonical": "token", "coreMeaning": { "cn": "标记", "en": "token" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["token", "betoken"],
+    "coreMeaning": [
+      {
+        "cn": "预示；表示",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "be-",
+        "role": "prefix",
+        "canonical": "be-",
+        "coreMeaning": {
+          "cn": "使……",
+          "en": "to cause"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "token",
+        "role": "root",
+        "canonical": "token",
+        "coreMeaning": {
+          "cn": "标记",
+          "en": "token"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "token",
+      "betoken"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "作标记",
-      "imageChain": ["作为标记", "显示征兆", "预示"],
+      "imageChain": [
+        "作为标记",
+        "显示征兆",
+        "预示"
+      ],
       "mnemonicExpr": "be(使)+token(标记) → 作为标记 → 预示"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.3 },
-      "domain": ["general", "editorial"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "庄重"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "general",
+        "editorial"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["token"],
-      "sameAffix": [{ "affix": "be-", "members": ["befall", "betide"] }],
-      "synonyms": ["indicate", "signify", "portend"],
+      "sameRoot": [
+        "token"
+      ],
+      "sameAffix": [
+        "befall",
+        "betide"
+      ],
+      "synonyms": [
+        "indicate",
+        "signify",
+        "portend"
+      ],
       "antonyms": [],
-      "domainCohort": ["omen", "sign"],
-      "derivationPair": ["token"],
+      "domainCohort": [
+        "omen",
+        "sign"
+      ],
+      "derivationPair": [
+        "token"
+      ],
       "morphVariants": [],
-      "sameImagery": ["portend", "presage"]
+      "sameImagery": [
+        "portend",
+        "presage"
+      ]
     }
   },
   {
     "word": "betray",
     "phonetic": "/bɪ'tre/",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "背叛；出卖；泄露", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "be-", "role": "prefix", "canonical": "be-", "coreMeaning": { "cn": "加强语气", "en": "intensifier" }, "sentiment": { "tags": ["偏负"], "intensity": 0.3 }, "positionTendency": "initial" },
-      { "order": 2, "form": "tray", "role": "root", "canonical": "betray", "coreMeaning": { "cn": "背叛、交出", "en": "to hand over; betray" }, "sentiment": { "tags": ["贬义"], "intensity": 0.8 }, "positionTendency": "medial" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["tray", "betray"],
+    "coreMeaning": [
+      {
+        "cn": "背叛；出卖；泄露",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "be-",
+        "role": "prefix",
+        "canonical": "be-",
+        "coreMeaning": {
+          "cn": "加强语气",
+          "en": "intensifier"
+        },
+        "sentiment": {
+          "tags": [
+            "偏负"
+          ],
+          "intensity": 0.3
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "tray",
+        "role": "root",
+        "canonical": "betray",
+        "coreMeaning": {
+          "cn": "背叛、交出",
+          "en": "to hand over; betray"
+        },
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 0.8
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "tray",
+      "betray"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "交出（同伴）",
-      "imageChain": ["出卖", "交给敌人", "背叛"],
+      "imageChain": [
+        "出卖",
+        "交给敌人",
+        "背叛"
+      ],
       "mnemonicExpr": "be(加强)+tray(交付) → 交给敌人 → 背叛"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义", "厌恶"], "intensity": 0.9 },
-      "domain": ["general", "editorial"],
+      "sentiment": {
+        "tags": [
+          "贬义",
+          "厌恶"
+        ],
+        "intensity": 0.9
+      },
+      "domain": [
+        "general",
+        "editorial"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["betrayal", "betrayals"],
-      "sameAffix": [{ "affix": "be-", "members": ["besiege", "beset"] }],
-      "synonyms": ["double-cross", "deceive"],
-      "antonyms": ["defend", "protect", "support"],
-      "domainCohort": ["treason", "disloyalty"],
-      "derivationPair": ["betrayal"],
+      "sameRoot": [
+        "betrayal",
+        "betrayals"
+      ],
+      "sameAffix": [
+        "besiege",
+        "beset"
+      ],
+      "synonyms": [
+        "double-cross",
+        "deceive"
+      ],
+      "antonyms": [
+        "defend",
+        "protect",
+        "support"
+      ],
+      "domainCohort": [
+        "treason",
+        "disloyalty"
+      ],
+      "derivationPair": [
+        "betrayal"
+      ],
       "morphVariants": [],
-      "sameImagery": ["treason", "disloyal"]
+      "sameImagery": [
+        "treason",
+        "disloyal"
+      ]
     }
   },
   {
     "word": "betrayals",
     "phonetic": "/bɪˈtreɪəlz/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "背叛（复数）", "domain": "legal", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "be-", "role": "prefix", "canonical": "be-", "coreMeaning": { "cn": "加强语气", "en": "intensifier" }, "sentiment": { "tags": ["偏负"], "intensity": 0.3 }, "positionTendency": "initial" },
-      { "order": 2, "form": "tray", "role": "root", "canonical": "betray", "coreMeaning": { "cn": "背叛、交出", "en": "to hand over; betray" }, "sentiment": { "tags": ["贬义"], "intensity": 0.8 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-al", "role": "suffix", "canonical": "-al", "coreMeaning": { "cn": "名词化", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" },
-      { "order": 4, "form": "-s", "role": "suffix", "canonical": "-s", "coreMeaning": { "cn": "复数", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["betray", "betrayal", "betrayals"],
+    "coreMeaning": [
+      {
+        "cn": "背叛（复数）",
+        "domain": "legal",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "be-",
+        "role": "prefix",
+        "canonical": "be-",
+        "coreMeaning": {
+          "cn": "加强语气",
+          "en": "intensifier"
+        },
+        "sentiment": {
+          "tags": [
+            "偏负"
+          ],
+          "intensity": 0.3
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "tray",
+        "role": "root",
+        "canonical": "betray",
+        "coreMeaning": {
+          "cn": "背叛、交出",
+          "en": "to hand over; betray"
+        },
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 0.8
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-al",
+        "role": "suffix",
+        "canonical": "-al",
+        "coreMeaning": {
+          "cn": "名词化",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      },
+      {
+        "order": 4,
+        "form": "-s",
+        "role": "suffix",
+        "canonical": "-s",
+        "coreMeaning": {
+          "cn": "复数",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "betray",
+      "betrayal",
+      "betrayals"
+    ],
     "morphVariantOf": "betrayal",
     "memorySemantics": {
       "literal": "多次背叛",
-      "imageChain": ["多次背叛", "出卖行为", "背叛"],
+      "imageChain": [
+        "多次背叛",
+        "出卖行为",
+        "背叛"
+      ],
       "mnemonicExpr": "betray+al+s → 多次背叛行为 → 背叛"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义", "厌恶"], "intensity": 0.9 },
-      "domain": ["legal", "editorial"],
+      "sentiment": {
+        "tags": [
+          "贬义",
+          "厌恶"
+        ],
+        "intensity": 0.9
+      },
+      "domain": [
+        "legal",
+        "editorial"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["betray", "betrayal"],
-      "sameAffix": [{ "affix": "-al", "members": ["refusal", "denial"] }],
-      "synonyms": ["treacheries", "disloyalties"],
-      "antonyms": ["loyalties"],
-      "domainCohort": ["treason", "breach"],
-      "derivationPair": ["betrayal"],
-      "morphVariants": ["betrayal"],
-      "sameImagery": ["treason", "deceit"]
+      "sameRoot": [
+        "betray",
+        "betrayal"
+      ],
+      "sameAffix": [
+        "refusal",
+        "denial"
+      ],
+      "synonyms": [
+        "treacheries",
+        "disloyalties"
+      ],
+      "antonyms": [
+        "loyalties"
+      ],
+      "domainCohort": [
+        "treason",
+        "breach"
+      ],
+      "derivationPair": [
+        "betrayal"
+      ],
+      "morphVariants": [
+        "betrayal"
+      ],
+      "sameImagery": [
+        "treason",
+        "deceit"
+      ]
     }
   },
   {
     "word": "betrothal",
     "phonetic": "/bi'trəuðəl/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "订婚；婚约", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "be-", "role": "prefix", "canonical": "be-", "coreMeaning": { "cn": "使……", "en": "to cause" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "troth", "role": "root", "canonical": "troth", "coreMeaning": { "cn": "誓言、忠诚", "en": "pledge; truth" }, "sentiment": { "tags": ["褒义"], "intensity": 0.5 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-al", "role": "suffix", "canonical": "-al", "coreMeaning": { "cn": "名词化", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["troth", "betroth", "betrothal"],
+    "coreMeaning": [
+      {
+        "cn": "订婚；婚约",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "be-",
+        "role": "prefix",
+        "canonical": "be-",
+        "coreMeaning": {
+          "cn": "使……",
+          "en": "to cause"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "troth",
+        "role": "root",
+        "canonical": "troth",
+        "coreMeaning": {
+          "cn": "誓言、忠诚",
+          "en": "pledge; truth"
+        },
+        "sentiment": {
+          "tags": [
+            "褒义"
+          ],
+          "intensity": 0.5
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-al",
+        "role": "suffix",
+        "canonical": "-al",
+        "coreMeaning": {
+          "cn": "名词化",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "troth",
+      "betroth",
+      "betrothal"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "誓言之事",
-      "imageChain": ["立誓约", "订立婚约", "订婚"],
+      "imageChain": [
+        "立誓约",
+        "订立婚约",
+        "订婚"
+      ],
       "mnemonicExpr": "be(使)+troth(誓言)+al → 立下誓言 → 订婚"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["褒义", "庄重"], "intensity": 0.6 },
-      "domain": ["general", "legal"],
+      "sentiment": {
+        "tags": [
+          "褒义",
+          "庄重"
+        ],
+        "intensity": 0.6
+      },
+      "domain": [
+        "general",
+        "legal"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["betroth", "troth", "truth"],
-      "sameAffix": [{ "affix": "-al", "members": ["arrival", "proposal"] }],
-      "synonyms": ["engagement", "espousal"],
+      "sameRoot": [
+        "betroth",
+        "troth",
+        "truth"
+      ],
+      "sameAffix": [
+        "arrival",
+        "proposal"
+      ],
+      "synonyms": [
+        "engagement",
+        "espousal"
+      ],
       "antonyms": [],
-      "domainCohort": ["marriage", "wedding"],
-      "derivationPair": ["betroth"],
+      "domainCohort": [
+        "marriage",
+        "wedding"
+      ],
+      "derivationPair": [
+        "betroth"
+      ],
       "morphVariants": [],
-      "sameImagery": ["engagement", "pledge"]
+      "sameImagery": [
+        "engagement",
+        "pledge"
+      ]
     }
   },
   {
     "word": "bettas",
     "phonetic": "/'betə/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "搏鱼（观赏鱼）", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "betta", "role": "root", "canonical": "betta", "coreMeaning": { "cn": "搏鱼", "en": "betta fish" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 2, "form": "-s", "role": "suffix", "canonical": "-s", "coreMeaning": { "cn": "复数", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["betta", "bettas"],
+    "coreMeaning": [
+      {
+        "cn": "搏鱼（观赏鱼）",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "betta",
+        "role": "root",
+        "canonical": "betta",
+        "coreMeaning": {
+          "cn": "搏鱼",
+          "en": "betta fish"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 2,
+        "form": "-s",
+        "role": "suffix",
+        "canonical": "-s",
+        "coreMeaning": {
+          "cn": "复数",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "betta",
+      "bettas"
+    ],
     "morphVariantOf": "betta",
     "memorySemantics": {
       "literal": "搏鱼复数",
-      "imageChain": ["观赏鱼", "好斗的鱼", "搏鱼"],
+      "imageChain": [
+        "观赏鱼",
+        "好斗的鱼",
+        "搏鱼"
+      ],
       "mnemonicExpr": "betta+s → 搏鱼（复数） → 搏鱼"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["betta"],
+      "sameRoot": [
+        "betta"
+      ],
       "sameAffix": [],
-      "synonyms": ["fighting fish"],
+      "synonyms": [
+        "fighting fish"
+      ],
       "antonyms": [],
-      "domainCohort": ["fish", "aquarium"],
-      "derivationPair": ["betta"],
-      "morphVariants": ["betta"],
+      "domainCohort": [
+        "fish",
+        "aquarium"
+      ],
+      "derivationPair": [
+        "betta"
+      ],
+      "morphVariants": [
+        "betta"
+      ],
       "sameImagery": []
     }
   },
   {
     "word": "between",
     "phonetic": "/bi'twi:n/",
-    "pos": ["prep."],
-    "coreMeaning": [{ "cn": "在……之间", "domain": "general", "coverage": 0.98 }],
-    "morphemes": [
-      { "order": 1, "form": "be-", "role": "prefix", "canonical": "be-", "coreMeaning": { "cn": "在……", "en": "at; by" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "tween", "role": "root", "canonical": "tween", "coreMeaning": { "cn": "二、两者", "en": "two" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "prep."
     ],
-    "derivationChain": ["tween", "between"],
+    "coreMeaning": [
+      {
+        "cn": "在……之间",
+        "domain": "general",
+        "coverage": 0.98
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "be-",
+        "role": "prefix",
+        "canonical": "be-",
+        "coreMeaning": {
+          "cn": "在……",
+          "en": "at; by"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "tween",
+        "role": "root",
+        "canonical": "tween",
+        "coreMeaning": {
+          "cn": "二、两者",
+          "en": "two"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "tween",
+      "between"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "在二者旁",
-      "imageChain": ["在两者之间", "中间", "之间"],
+      "imageChain": [
+        "在两者之间",
+        "中间",
+        "之间"
+      ],
       "mnemonicExpr": "be(在)+tween(二) → 在两者之间"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "tech"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "tech"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["twin", "two", "twain"],
-      "sameAffix": [{ "affix": "be-", "members": ["beside", "below"] }],
-      "synonyms": ["amid", "among"],
+      "sameRoot": [
+        "twin",
+        "two",
+        "twain"
+      ],
+      "sameAffix": [
+        "beside",
+        "below"
+      ],
+      "synonyms": [
+        "amid",
+        "among"
+      ],
       "antonyms": [],
-      "domainCohort": ["position", "relation"],
+      "domainCohort": [
+        "position",
+        "relation"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["amid", "middle"]
+      "sameImagery": [
+        "amid",
+        "middle"
+      ]
     }
   },
   {
     "word": "betweens",
     "phonetic": "/bɪ'twiːn/",
-    "pos": ["prep.", "adv."],
-    "coreMeaning": [{ "cn": "位于之间（复数/用法）", "domain": "general", "coverage": 0.85 }],
-    "morphemes": [
-      { "order": 1, "form": "be-", "role": "prefix", "canonical": "be-", "coreMeaning": { "cn": "在……", "en": "at; by" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "tween", "role": "root", "canonical": "tween", "coreMeaning": { "cn": "二、两者", "en": "two" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-s", "role": "suffix", "canonical": "-s", "coreMeaning": { "cn": "复数/副词后缀", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "prep.",
+      "adv."
     ],
-    "derivationChain": ["tween", "between", "betweens"],
+    "coreMeaning": [
+      {
+        "cn": "位于之间（复数/用法）",
+        "domain": "general",
+        "coverage": 0.85
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "be-",
+        "role": "prefix",
+        "canonical": "be-",
+        "coreMeaning": {
+          "cn": "在……",
+          "en": "at; by"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "tween",
+        "role": "root",
+        "canonical": "tween",
+        "coreMeaning": {
+          "cn": "二、两者",
+          "en": "two"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-s",
+        "role": "suffix",
+        "canonical": "-s",
+        "coreMeaning": {
+          "cn": "复数/副词后缀",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "tween",
+      "between",
+      "betweens"
+    ],
     "morphVariantOf": "between",
     "memorySemantics": {
       "literal": "在多者之间",
-      "imageChain": ["之间", "中间位置", "介乎两者间"],
+      "imageChain": [
+        "之间",
+        "中间位置",
+        "介乎两者间"
+      ],
       "mnemonicExpr": "between+s → 介乎之间"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "finance"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "finance"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["between", "twin"],
+      "sameRoot": [
+        "between",
+        "twin"
+      ],
       "sameAffix": [],
-      "synonyms": ["amid"],
+      "synonyms": [
+        "amid"
+      ],
       "antonyms": [],
-      "domainCohort": ["position"],
-      "derivationPair": ["between"],
-      "morphVariants": ["between"],
+      "domainCohort": [
+        "position"
+      ],
+      "derivationPair": [
+        "between"
+      ],
+      "morphVariants": [
+        "between"
+      ],
       "sameImagery": []
     }
   },
   {
     "word": "beverage",
     "phonetic": "/'bɛvərɪdʒ/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "饮料", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "beverage", "role": "root", "canonical": "beverage", "coreMeaning": { "cn": "饮料", "en": "beverage, drink" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["beverage"],
+    "coreMeaning": [
+      {
+        "cn": "饮料",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "beverage",
+        "role": "root",
+        "canonical": "beverage",
+        "coreMeaning": {
+          "cn": "饮料",
+          "en": "beverage, drink"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "beverage"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "饮用之物",
-      "imageChain": ["喝的东西", "饮品", "饮料"],
+      "imageChain": [
+        "喝的东西",
+        "饮品",
+        "饮料"
+      ],
       "mnemonicExpr": "bever(喝)+age → 喝的东西 → 饮料"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "business"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "business"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["beverages"],
-      "sameAffix": [{ "affix": "-age", "members": ["storage", "carriage"] }],
-      "synonyms": ["drink", "refreshment"],
+      "sameRoot": [
+        "beverages"
+      ],
+      "sameAffix": [
+        "storage",
+        "carriage"
+      ],
+      "synonyms": [
+        "drink",
+        "refreshment"
+      ],
       "antonyms": [],
-      "domainCohort": ["drink", "food"],
+      "domainCohort": [
+        "drink",
+        "food"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["drink", "liquid"]
+      "sameImagery": [
+        "drink",
+        "liquid"
+      ]
     }
   },
   {
     "word": "beverages",
     "phonetic": "/be'vərɪdʒɪz/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "饮料（复数）", "domain": "business", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "beverage", "role": "root", "canonical": "beverage", "coreMeaning": { "cn": "饮料", "en": "beverage, drink" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 2, "form": "-s", "role": "suffix", "canonical": "-s", "coreMeaning": { "cn": "复数", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["beverage", "beverages"],
+    "coreMeaning": [
+      {
+        "cn": "饮料（复数）",
+        "domain": "business",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "beverage",
+        "role": "root",
+        "canonical": "beverage",
+        "coreMeaning": {
+          "cn": "饮料",
+          "en": "beverage, drink"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 2,
+        "form": "-s",
+        "role": "suffix",
+        "canonical": "-s",
+        "coreMeaning": {
+          "cn": "复数",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "beverage",
+      "beverages"
+    ],
     "morphVariantOf": "beverage",
     "memorySemantics": {
       "literal": "饮料复数",
-      "imageChain": ["众多饮品", "多种饮料", "饮料"],
+      "imageChain": [
+        "众多饮品",
+        "多种饮料",
+        "饮料"
+      ],
       "mnemonicExpr": "beverage+s → 多种饮料"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["business", "news"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "business",
+        "news"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["beverage"],
+      "sameRoot": [
+        "beverage"
+      ],
       "sameAffix": [],
-      "synonyms": ["drinks"],
+      "synonyms": [
+        "drinks"
+      ],
       "antonyms": [],
-      "domainCohort": ["drink industry", "consumption"],
-      "derivationPair": ["beverage"],
-      "morphVariants": ["beverage"],
+      "domainCohort": [
+        "drink industry",
+        "consumption"
+      ],
+      "derivationPair": [
+        "beverage"
+      ],
+      "morphVariants": [
+        "beverage"
+      ],
       "sameImagery": []
     }
   }

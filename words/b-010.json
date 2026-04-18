@@ -2,120 +2,455 @@
   {
     "word": "beware",
     "phonetic": "/bɪ'wɛr/",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "当心、小心", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "be-", "role": "prefix", "canonical": "be-", "variantOf": null, "coreMeaning": { "cn": "使、加强语气", "en": "thoroughly, make" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "ware", "role": "root", "canonical": "ware", "variantOf": null, "coreMeaning": { "cn": "警觉、留意", "en": "aware, cautious" }, "sentiment": { "tags": ["担忧"], "intensity": 0.4 }, "positionTendency": "final" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["ware", "aware", "beware"],
+    "coreMeaning": [
+      {
+        "cn": "当心、小心",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "be-",
+        "role": "prefix",
+        "canonical": "be-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "使、加强语气",
+          "en": "thoroughly, make"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "ware",
+        "role": "root",
+        "canonical": "ware",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "警觉、留意",
+          "en": "aware, cautious"
+        },
+        "sentiment": {
+          "tags": [
+            "担忧"
+          ],
+          "intensity": 0.4
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "ware",
+      "aware",
+      "beware"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "使警觉",
-      "imageChain": ["使警觉", "提防", "当心"],
+      "imageChain": [
+        "使警觉",
+        "提防",
+        "当心"
+      ],
       "mnemonicExpr": "be(使)+ware(警觉的) → 使警觉起来 → 当心"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["担忧", "中性"], "intensity": 0.3 },
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "担忧",
+          "中性"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["aware", "wary", "ware"],
-      "sameAffix": [{ "affix": "be-", "members": ["behold", "become", "bewail"] }],
-      "synonyms": ["watch out", "take care"],
-      "antonyms": ["ignore", "overlook"],
-      "domainCohort": ["caution", "warning", "alert"],
-      "derivationPair": ["aware"],
+      "sameRoot": [
+        "aware",
+        "wary",
+        "ware"
+      ],
+      "sameAffix": [
+        "behold",
+        "become",
+        "bewail"
+      ],
+      "synonyms": [
+        "watch out",
+        "take care"
+      ],
+      "antonyms": [
+        "ignore",
+        "overlook"
+      ],
+      "domainCohort": [
+        "caution",
+        "warning",
+        "alert"
+      ],
+      "derivationPair": [
+        "aware"
+      ],
       "morphVariants": [],
-      "sameImagery": ["aware", "wary"]
+      "sameImagery": [
+        "aware",
+        "wary"
+      ]
     }
   },
   {
     "word": "bewilder",
     "phonetic": "/bɪ'wɪldɚ/",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "使迷惑、使不知所措", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "be-", "role": "prefix", "canonical": "be-", "variantOf": null, "coreMeaning": { "cn": "使", "en": "make, cause" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "wild", "role": "root", "canonical": "wild", "variantOf": null, "coreMeaning": { "cn": "荒野、野生", "en": "wild, untamed" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-er", "role": "suffix", "canonical": "-er", "variantOf": null, "coreMeaning": { "cn": "反复动作", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["wild", "wilder", "bewilder"],
+    "coreMeaning": [
+      {
+        "cn": "使迷惑、使不知所措",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "be-",
+        "role": "prefix",
+        "canonical": "be-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "使",
+          "en": "make, cause"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "wild",
+        "role": "root",
+        "canonical": "wild",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "荒野、野生",
+          "en": "wild, untamed"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-er",
+        "role": "suffix",
+        "canonical": "-er",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "反复动作",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "wild",
+      "wilder",
+      "bewilder"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "使陷入荒野",
-      "imageChain": ["使陷入荒野", "迷失方向", "使迷惑"],
+      "imageChain": [
+        "使陷入荒野",
+        "迷失方向",
+        "使迷惑"
+      ],
       "mnemonicExpr": "be(使)+wild(荒野)+er → 使陷入荒野、不知所措 → 使迷惑"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["偏负"], "intensity": 0.5 },
-      "domain": ["general", "academic"],
+      "sentiment": {
+        "tags": [
+          "偏负"
+        ],
+        "intensity": 0.5
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["wild", "wilderness", "wildly"],
-      "sameAffix": [{ "affix": "be-", "members": ["beware", "becalm", "befog"] }],
-      "synonyms": ["confuse", "perplex", "baffle"],
-      "antonyms": ["enlighten", "clarify"],
-      "domainCohort": ["confusion", "puzzle", "disorient"],
-      "derivationPair": ["bewildering", "bewildered"],
+      "sameRoot": [
+        "wild",
+        "wilderness",
+        "wildly"
+      ],
+      "sameAffix": [
+        "beware",
+        "becalm",
+        "befog"
+      ],
+      "synonyms": [
+        "confuse",
+        "perplex",
+        "baffle"
+      ],
+      "antonyms": [
+        "enlighten",
+        "clarify"
+      ],
+      "domainCohort": [
+        "confusion",
+        "puzzle",
+        "disorient"
+      ],
+      "derivationPair": [
+        "bewildering",
+        "bewildered"
+      ],
       "morphVariants": [],
-      "sameImagery": ["confuse", "perplex"]
+      "sameImagery": [
+        "confuse",
+        "perplex"
+      ]
     }
   },
   {
     "word": "bewildering",
     "phonetic": "/bɪ'wɪldərɪŋ/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "令人困惑的、令人费解的", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "be-", "role": "prefix", "canonical": "be-", "variantOf": null, "coreMeaning": { "cn": "使", "en": "make, cause" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "wild", "role": "root", "canonical": "wild", "variantOf": null, "coreMeaning": { "cn": "荒野、野生", "en": "wild" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-er", "role": "suffix", "canonical": "-er", "variantOf": null, "coreMeaning": { "cn": "反复动作", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 4, "form": "-ing", "role": "suffix", "canonical": "-ing", "variantOf": null, "coreMeaning": { "cn": "形容词后缀、令人…的", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["wild", "bewilder", "bewildering"],
+    "coreMeaning": [
+      {
+        "cn": "令人困惑的、令人费解的",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "be-",
+        "role": "prefix",
+        "canonical": "be-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "使",
+          "en": "make, cause"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "wild",
+        "role": "root",
+        "canonical": "wild",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "荒野、野生",
+          "en": "wild"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-er",
+        "role": "suffix",
+        "canonical": "-er",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "反复动作",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 4,
+        "form": "-ing",
+        "role": "suffix",
+        "canonical": "-ing",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "形容词后缀、令人…的",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "wild",
+      "bewilder",
+      "bewildering"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "让人陷入荒野的",
-      "imageChain": ["使迷惑", "让人不知所措", "令人困惑的"],
+      "imageChain": [
+        "使迷惑",
+        "让人不知所措",
+        "令人困惑的"
+      ],
       "mnemonicExpr": "bewilder(使迷惑)+ing → 令人困惑的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["偏负"], "intensity": 0.5 },
-      "domain": ["general", "academic"],
+      "sentiment": {
+        "tags": [
+          "偏负"
+        ],
+        "intensity": 0.5
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["bewilder", "wild", "wilderness"],
-      "sameAffix": [{ "affix": "-ing", "members": ["confusing", "puzzling", "amazing"] }],
-      "synonyms": ["confusing", "perplexing", "baffling"],
-      "antonyms": ["clear", "obvious"],
-      "domainCohort": ["confusion", "complexity"],
-      "derivationPair": ["bewilder"],
+      "sameRoot": [
+        "bewilder",
+        "wild",
+        "wilderness"
+      ],
+      "sameAffix": [
+        "confusing",
+        "puzzling",
+        "amazing"
+      ],
+      "synonyms": [
+        "confusing",
+        "perplexing",
+        "baffling"
+      ],
+      "antonyms": [
+        "clear",
+        "obvious"
+      ],
+      "domainCohort": [
+        "confusion",
+        "complexity"
+      ],
+      "derivationPair": [
+        "bewilder"
+      ],
       "morphVariants": [],
-      "sameImagery": ["perplexing", "confusing"]
+      "sameImagery": [
+        "perplexing",
+        "confusing"
+      ]
     }
   },
   {
     "word": "beyer",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "拜尔（男子名）", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "beyer", "role": "root", "canonical": "beyer", "variantOf": null, "coreMeaning": { "cn": "人名", "en": "proper name" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["beyer"],
+    "coreMeaning": [
+      {
+        "cn": "拜尔（男子名）",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "beyer",
+        "role": "root",
+        "canonical": "beyer",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "人名",
+          "en": "proper name"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "beyer"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "拜尔",
-      "imageChain": ["人名", "德语姓氏", "拜尔"],
+      "imageChain": [
+        "人名",
+        "德语姓氏",
+        "拜尔"
+      ],
       "mnemonicExpr": "beyer → 拜尔（男子名）"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "medical"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "medical"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -123,7 +458,10 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["name", "person"],
+      "domainCohort": [
+        "name",
+        "person"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -132,61 +470,186 @@
   {
     "word": "beyond",
     "phonetic": "/bɪ'jɑnd/",
-    "pos": ["prep.", "adv."],
-    "coreMeaning": [{ "cn": "在…较远的一边；超出、除…之外", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "be-", "role": "prefix", "canonical": "be-", "variantOf": null, "coreMeaning": { "cn": "在…旁", "en": "by, at" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "yond", "role": "root", "canonical": "yond", "variantOf": null, "coreMeaning": { "cn": "那边、远处", "en": "that side, yonder" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "prep.",
+      "adv."
     ],
-    "derivationChain": ["yond", "yonder", "beyond"],
+    "coreMeaning": [
+      {
+        "cn": "在…较远的一边；超出、除…之外",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "be-",
+        "role": "prefix",
+        "canonical": "be-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "在…旁",
+          "en": "by, at"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "yond",
+        "role": "root",
+        "canonical": "yond",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "那边、远处",
+          "en": "that side, yonder"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "yond",
+      "yonder",
+      "beyond"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "在那一边",
-      "imageChain": ["在远处", "更远的一边", "超出"],
+      "imageChain": [
+        "在远处",
+        "更远的一边",
+        "超出"
+      ],
       "mnemonicExpr": "be(在)+yond(那边) → 在那一边 → 超出、在…之外"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["yonder"],
-      "sameAffix": [{ "affix": "be-", "members": ["before", "beside", "behind"] }],
-      "synonyms": ["past", "over", "exceeding"],
-      "antonyms": ["within", "short of"],
-      "domainCohort": ["distance", "position", "limit"],
+      "sameRoot": [
+        "yonder"
+      ],
+      "sameAffix": [
+        "before",
+        "beside",
+        "behind"
+      ],
+      "synonyms": [
+        "past",
+        "over",
+        "exceeding"
+      ],
+      "antonyms": [
+        "within",
+        "short of"
+      ],
+      "domainCohort": [
+        "distance",
+        "position",
+        "limit"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["further", "past"]
+      "sameImagery": [
+        "further",
+        "past"
+      ]
     }
   },
   {
     "word": "bgcolor",
     "phonetic": "",
-    "pos": ["abbr."],
-    "coreMeaning": [{ "cn": "背景颜色（background color）", "domain": "tech", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "bgcolor", "role": "root", "canonical": "bgcolor", "variantOf": null, "coreMeaning": { "cn": "背景颜色缩写", "en": "background color abbr." }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "abbr."
     ],
-    "derivationChain": ["bgcolor"],
+    "coreMeaning": [
+      {
+        "cn": "背景颜色（background color）",
+        "domain": "tech",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bgcolor",
+        "role": "root",
+        "canonical": "bgcolor",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "背景颜色缩写",
+          "en": "background color abbr."
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "bgcolor"
+    ],
     "morphVariantOf": "background color",
     "memorySemantics": {
       "literal": "bg(背景)+color(颜色)",
-      "imageChain": ["HTML属性", "背景颜色", "bgcolor"],
+      "imageChain": [
+        "HTML属性",
+        "背景颜色",
+        "bgcolor"
+      ],
       "mnemonicExpr": "background+color → bgcolor → HTML背景色属性"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["tech"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech"
+      ],
       "registerFormality": "informal"
     },
     "relations": {
       "sameRoot": [],
       "sameAffix": [],
-      "synonyms": ["background-color"],
-      "antonyms": ["fgcolor"],
-      "domainCohort": ["html", "css", "attribute"],
+      "synonyms": [
+        "background-color"
+      ],
+      "antonyms": [
+        "fgcolor"
+      ],
+      "domainCohort": [
+        "html",
+        "css",
+        "attribute"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -195,21 +658,60 @@
   {
     "word": "bhagat",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "巴加特（人名）", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "bhagat", "role": "root", "canonical": "bhagat", "variantOf": null, "coreMeaning": { "cn": "人名", "en": "proper name" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["bhagat"],
+    "coreMeaning": [
+      {
+        "cn": "巴加特（人名）",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bhagat",
+        "role": "root",
+        "canonical": "bhagat",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "人名",
+          "en": "proper name"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "bhagat"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "巴加特",
-      "imageChain": ["印度/阿拉伯人名", "Bhagat", "巴加特"],
+      "imageChain": [
+        "印度/阿拉伯人名",
+        "Bhagat",
+        "巴加特"
+      ],
       "mnemonicExpr": "bhagat → 巴加特（姓氏/人名）"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "news"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "news"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -217,7 +719,10 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["name", "person"],
+      "domainCohort": [
+        "name",
+        "person"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -226,21 +731,60 @@
   {
     "word": "bhai",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "巴伊（印度人名）", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "bhai", "role": "root", "canonical": "bhai", "variantOf": null, "coreMeaning": { "cn": "人名", "en": "proper name" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["bhai"],
+    "coreMeaning": [
+      {
+        "cn": "巴伊（印度人名）",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bhai",
+        "role": "root",
+        "canonical": "bhai",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "人名",
+          "en": "proper name"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "bhai"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "巴伊",
-      "imageChain": ["印度人名", "Bhai", "巴伊"],
+      "imageChain": [
+        "印度人名",
+        "Bhai",
+        "巴伊"
+      ],
       "mnemonicExpr": "bhai → 巴伊（印度人名）"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "news"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "news"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -248,7 +792,10 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["name", "person"],
+      "domainCohort": [
+        "name",
+        "person"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -257,62 +804,179 @@
   {
     "word": "bharat",
     "phonetic": "/'bʌrʌt/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "巴拉特、婆罗多（梵文，印度的别称）", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "bharat", "role": "root", "canonical": "bharat", "variantOf": null, "coreMeaning": { "cn": "印度别称", "en": "India (Sanskrit)" }, "sentiment": { "tags": ["庄重"], "intensity": 0.3 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["bharat"],
+    "coreMeaning": [
+      {
+        "cn": "巴拉特、婆罗多（梵文，印度的别称）",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bharat",
+        "role": "root",
+        "canonical": "bharat",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "印度别称",
+          "en": "India (Sanskrit)"
+        },
+        "sentiment": {
+          "tags": [
+            "庄重"
+          ],
+          "intensity": 0.3
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "bharat"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "婆罗多",
-      "imageChain": ["梵文", "印度古名", "巴拉特"],
+      "imageChain": [
+        "梵文",
+        "印度古名",
+        "巴拉特"
+      ],
       "mnemonicExpr": "bharat → 婆罗多、巴拉特（印度）"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.3 },
-      "domain": ["general", "news"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "庄重"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "general",
+        "news"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["bharati"],
+      "sameRoot": [
+        "bharati"
+      ],
       "sameAffix": [],
-      "synonyms": ["india"],
+      "synonyms": [
+        "india"
+      ],
       "antonyms": [],
-      "domainCohort": ["country", "india", "sanskrit"],
-      "derivationPair": ["bharati"],
+      "domainCohort": [
+        "country",
+        "india",
+        "sanskrit"
+      ],
+      "derivationPair": [
+        "bharati"
+      ],
       "morphVariants": [],
-      "sameImagery": ["india"]
+      "sameImagery": [
+        "india"
+      ]
     }
   },
   {
     "word": "bharati",
     "phonetic": "/'bʌrʌti/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "巴拉蒂（印度作家）；电影名", "domain": "general", "coverage": 0.85 }],
-    "morphemes": [
-      { "order": 1, "form": "bharat", "role": "root", "canonical": "bharat", "variantOf": null, "coreMeaning": { "cn": "印度", "en": "India (Skt.)" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 2, "form": "-i", "role": "suffix", "canonical": "-i", "variantOf": null, "coreMeaning": { "cn": "属于…的", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["bharat", "bharati"],
+    "coreMeaning": [
+      {
+        "cn": "巴拉蒂（印度作家）；电影名",
+        "domain": "general",
+        "coverage": 0.85
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bharat",
+        "role": "root",
+        "canonical": "bharat",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "印度",
+          "en": "India (Skt.)"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 2,
+        "form": "-i",
+        "role": "suffix",
+        "canonical": "-i",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "属于…的",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "bharat",
+      "bharati"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "与印度有关的",
-      "imageChain": ["印度", "印度人", "巴拉蒂"],
+      "imageChain": [
+        "印度",
+        "印度人",
+        "巴拉蒂"
+      ],
       "mnemonicExpr": "bharat(印度)+i → 巴拉蒂（印度作家名）"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "news"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "news"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["bharat"],
+      "sameRoot": [
+        "bharat"
+      ],
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["india", "author", "name"],
-      "derivationPair": ["bharat"],
+      "domainCohort": [
+        "india",
+        "author",
+        "name"
+      ],
+      "derivationPair": [
+        "bharat"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -320,21 +984,60 @@
   {
     "word": "bhaskar",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "巴斯卡尔（人名）", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "bhaskar", "role": "root", "canonical": "bhaskar", "variantOf": null, "coreMeaning": { "cn": "人名", "en": "proper name" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["bhaskar"],
+    "coreMeaning": [
+      {
+        "cn": "巴斯卡尔（人名）",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bhaskar",
+        "role": "root",
+        "canonical": "bhaskar",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "人名",
+          "en": "proper name"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "bhaskar"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "巴斯卡尔",
-      "imageChain": ["尼泊尔/印度人名", "Bhaskar", "巴斯卡尔"],
+      "imageChain": [
+        "尼泊尔/印度人名",
+        "Bhaskar",
+        "巴斯卡尔"
+      ],
       "mnemonicExpr": "bhaskar → 巴斯卡尔（人名）"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "news"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "news"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -342,7 +1045,10 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["name", "person"],
+      "domainCohort": [
+        "name",
+        "person"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -351,29 +1057,73 @@
   {
     "word": "bhat",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "巴特（人名）", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "bhat", "role": "root", "canonical": "bhat", "variantOf": null, "coreMeaning": { "cn": "人名", "en": "proper name" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["bhat"],
+    "coreMeaning": [
+      {
+        "cn": "巴特（人名）",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bhat",
+        "role": "root",
+        "canonical": "bhat",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "人名",
+          "en": "proper name"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "bhat"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "巴特",
-      "imageChain": ["印度人名", "Bhat", "巴特"],
+      "imageChain": [
+        "印度人名",
+        "Bhat",
+        "巴特"
+      ],
       "mnemonicExpr": "bhat → 巴特（人名）"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "news"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "news"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["bhatt"],
+      "sameRoot": [
+        "bhatt"
+      ],
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["name", "person"],
+      "domainCohort": [
+        "name",
+        "person"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -382,29 +1132,73 @@
   {
     "word": "bhatt",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "巴特（人名）", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "bhatt", "role": "root", "canonical": "bhatt", "variantOf": null, "coreMeaning": { "cn": "人名", "en": "proper name" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["bhatt"],
+    "coreMeaning": [
+      {
+        "cn": "巴特（人名）",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bhatt",
+        "role": "root",
+        "canonical": "bhatt",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "人名",
+          "en": "proper name"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "bhatt"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "巴特",
-      "imageChain": ["印度人名", "Bhatt", "巴特"],
+      "imageChain": [
+        "印度人名",
+        "Bhatt",
+        "巴特"
+      ],
       "mnemonicExpr": "bhatt → 巴特（人名）"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "news"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "news"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["bhat"],
+      "sameRoot": [
+        "bhat"
+      ],
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["name", "person"],
+      "domainCohort": [
+        "name",
+        "person"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -413,21 +1207,60 @@
   {
     "word": "bhopal",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "博帕尔（印度城市名）", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "bhopal", "role": "root", "canonical": "bhopal", "variantOf": null, "coreMeaning": { "cn": "地名、印度城市", "en": "city in India" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["bhopal"],
+    "coreMeaning": [
+      {
+        "cn": "博帕尔（印度城市名）",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bhopal",
+        "role": "root",
+        "canonical": "bhopal",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "地名、印度城市",
+          "en": "city in India"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "bhopal"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "博帕尔",
-      "imageChain": ["印度中央邦", "化学泄漏事件", "博帕尔"],
+      "imageChain": [
+        "印度中央邦",
+        "化学泄漏事件",
+        "博帕尔"
+      ],
       "mnemonicExpr": "bhopal → 博帕尔（印度城市）"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "news"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "news"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -435,7 +1268,11 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["city", "india", "geography"],
+      "domainCohort": [
+        "city",
+        "india",
+        "geography"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -444,21 +1281,60 @@
   {
     "word": "bhushan",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "布尚（人名）", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "bhushan", "role": "root", "canonical": "bhushan", "variantOf": null, "coreMeaning": { "cn": "人名", "en": "proper name" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["bhushan"],
+    "coreMeaning": [
+      {
+        "cn": "布尚（人名）",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bhushan",
+        "role": "root",
+        "canonical": "bhushan",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "人名",
+          "en": "proper name"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "bhushan"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "布尚",
-      "imageChain": ["印度/孟加拉人名", "Bhushan", "布尚"],
+      "imageChain": [
+        "印度/孟加拉人名",
+        "Bhushan",
+        "布尚"
+      ],
       "mnemonicExpr": "bhushan → 布尚（人名）"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "news"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "news"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
@@ -466,7 +1342,10 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["name", "person"],
+      "domainCohort": [
+        "name",
+        "person"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -475,375 +1354,1289 @@
   {
     "word": "biannual",
     "phonetic": "/baɪ'ænjuəl/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "一年两次的", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "bi-", "role": "prefix", "canonical": "bi-", "variantOf": null, "coreMeaning": { "cn": "二、两", "en": "two" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "annu", "role": "root", "canonical": "ann", "variantOf": "annu", "coreMeaning": { "cn": "年", "en": "year" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-al", "role": "suffix", "canonical": "-al", "variantOf": null, "coreMeaning": { "cn": "形容词后缀、有关的", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["ann", "annual", "biannual"],
+    "coreMeaning": [
+      {
+        "cn": "一年两次的",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bi-",
+        "role": "prefix",
+        "canonical": "bi-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "二、两",
+          "en": "two"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "annu",
+        "role": "root",
+        "canonical": "ann",
+        "variantOf": "annu",
+        "coreMeaning": {
+          "cn": "年",
+          "en": "year"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-al",
+        "role": "suffix",
+        "canonical": "-al",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "形容词后缀、有关的",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "ann",
+      "annual",
+      "biannual"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "一年两次的",
-      "imageChain": ["两个年度周期", "每年两次", "一年两次的"],
+      "imageChain": [
+        "两个年度周期",
+        "每年两次",
+        "一年两次的"
+      ],
       "mnemonicExpr": "bi(二)+annu(年)+al → 一年两次的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["annual", "anniversary", "biennial"],
-      "sameAffix": [{ "affix": "bi-", "members": ["bicycle", "bilateral", "bipolar"] }],
-      "synonyms": ["semiannual"],
-      "antonyms": ["annual"],
-      "domainCohort": ["frequency", "year", "schedule"],
-      "derivationPair": ["annual"],
-      "morphVariants": ["biennial"],
-      "sameImagery": ["biennial", "semiannual"]
+      "sameRoot": [
+        "annual",
+        "anniversary",
+        "biennial"
+      ],
+      "sameAffix": [
+        "bicycle",
+        "bilateral",
+        "bipolar"
+      ],
+      "synonyms": [
+        "semiannual"
+      ],
+      "antonyms": [
+        "annual"
+      ],
+      "domainCohort": [
+        "frequency",
+        "year",
+        "schedule"
+      ],
+      "derivationPair": [
+        "annual"
+      ],
+      "morphVariants": [
+        "biennial"
+      ],
+      "sameImagery": [
+        "biennial",
+        "semiannual"
+      ]
     }
   },
   {
     "word": "bias",
     "phonetic": "/'baɪəs/",
-    "pos": ["n.", "v."],
-    "coreMeaning": [{ "cn": "偏见、偏爱、斜纹", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "bias", "role": "root", "canonical": "bias", "variantOf": null, "coreMeaning": { "cn": "斜、偏", "en": "slant, oblique" }, "sentiment": { "tags": ["偏负"], "intensity": 0.4 }, "positionTendency": "medial" }
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": ["bias"],
+    "coreMeaning": [
+      {
+        "cn": "偏见、偏爱、斜纹",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bias",
+        "role": "root",
+        "canonical": "bias",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "斜、偏",
+          "en": "slant, oblique"
+        },
+        "sentiment": {
+          "tags": [
+            "偏负"
+          ],
+          "intensity": 0.4
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "bias"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "斜线、偏向",
-      "imageChain": ["斜线", "心理偏向", "偏见"],
+      "imageChain": [
+        "斜线",
+        "心理偏向",
+        "偏见"
+      ],
       "mnemonicExpr": "bias(斜线、偏斜) → 思想偏斜 → 偏见"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["偏负", "贬义"], "intensity": 0.5 },
-      "domain": ["academic", "general", "news"],
+      "sentiment": {
+        "tags": [
+          "偏负",
+          "贬义"
+        ],
+        "intensity": 0.5
+      },
+      "domain": [
+        "academic",
+        "general",
+        "news"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["biased", "biases"],
+      "sameRoot": [
+        "biased",
+        "biases"
+      ],
       "sameAffix": [],
-      "synonyms": ["prejudice", "partiality", "slant"],
-      "antonyms": ["impartiality", "fairness"],
-      "domainCohort": ["prejudice", "opinion", "slant"],
-      "derivationPair": ["biased"],
+      "synonyms": [
+        "prejudice",
+        "partiality",
+        "slant"
+      ],
+      "antonyms": [
+        "impartiality",
+        "fairness"
+      ],
+      "domainCohort": [
+        "prejudice",
+        "opinion",
+        "slant"
+      ],
+      "derivationPair": [
+        "biased"
+      ],
       "morphVariants": [],
-      "sameImagery": ["prejudice", "slant"]
+      "sameImagery": [
+        "prejudice",
+        "slant"
+      ]
     }
   },
   {
     "word": "biased",
     "phonetic": "/'baɪəst/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "有偏见的、结果偏倚的", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "bias", "role": "root", "canonical": "bias", "variantOf": null, "coreMeaning": { "cn": "偏、斜", "en": "slant" }, "sentiment": { "tags": ["偏负"], "intensity": 0.4 }, "positionTendency": "medial" },
-      { "order": 2, "form": "-ed", "role": "suffix", "canonical": "-ed", "variantOf": null, "coreMeaning": { "cn": "形容词后缀、…的", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["bias", "biased"],
+    "coreMeaning": [
+      {
+        "cn": "有偏见的、结果偏倚的",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bias",
+        "role": "root",
+        "canonical": "bias",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "偏、斜",
+          "en": "slant"
+        },
+        "sentiment": {
+          "tags": [
+            "偏负"
+          ],
+          "intensity": 0.4
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 2,
+        "form": "-ed",
+        "role": "suffix",
+        "canonical": "-ed",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "形容词后缀、…的",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "bias",
+      "biased"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "带偏斜的",
-      "imageChain": ["带偏斜", "有倾向", "有偏见的"],
+      "imageChain": [
+        "带偏斜",
+        "有倾向",
+        "有偏见的"
+      ],
       "mnemonicExpr": "bias(偏)+ed → 带偏斜的 → 有偏见的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义", "偏负"], "intensity": 0.6 },
-      "domain": ["general", "news", "academic"],
+      "sentiment": {
+        "tags": [
+          "贬义",
+          "偏负"
+        ],
+        "intensity": 0.6
+      },
+      "domain": [
+        "general",
+        "news",
+        "academic"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["bias", "biases"],
-      "sameAffix": [{ "affix": "-ed", "members": ["prejudiced", "skewed", "slanted"] }],
-      "synonyms": ["prejudiced", "partial", "slanted"],
-      "antonyms": ["impartial", "unbiased", "fair"],
-      "domainCohort": ["prejudice", "opinion"],
-      "derivationPair": ["bias"],
+      "sameRoot": [
+        "bias",
+        "biases"
+      ],
+      "sameAffix": [
+        "prejudiced",
+        "skewed",
+        "slanted"
+      ],
+      "synonyms": [
+        "prejudiced",
+        "partial",
+        "slanted"
+      ],
+      "antonyms": [
+        "impartial",
+        "unbiased",
+        "fair"
+      ],
+      "domainCohort": [
+        "prejudice",
+        "opinion"
+      ],
+      "derivationPair": [
+        "bias"
+      ],
       "morphVariants": [],
-      "sameImagery": ["prejudiced", "skewed"]
+      "sameImagery": [
+        "prejudiced",
+        "skewed"
+      ]
     }
   },
   {
     "word": "biases",
     "phonetic": "/ˈbaiəsiz/",
-    "pos": ["n.", "v."],
-    "coreMeaning": [{ "cn": "偏见（复数）；使偏向（第三人称单数）", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "bias", "role": "root", "canonical": "bias", "variantOf": null, "coreMeaning": { "cn": "偏、斜", "en": "slant" }, "sentiment": { "tags": ["偏负"], "intensity": 0.4 }, "positionTendency": "medial" },
-      { "order": 2, "form": "-es", "role": "suffix", "canonical": "-s", "variantOf": "-es", "coreMeaning": { "cn": "复数或第三人称单数", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": ["bias", "biases"],
+    "coreMeaning": [
+      {
+        "cn": "偏见（复数）；使偏向（第三人称单数）",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bias",
+        "role": "root",
+        "canonical": "bias",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "偏、斜",
+          "en": "slant"
+        },
+        "sentiment": {
+          "tags": [
+            "偏负"
+          ],
+          "intensity": 0.4
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 2,
+        "form": "-es",
+        "role": "suffix",
+        "canonical": "-s",
+        "variantOf": "-es",
+        "coreMeaning": {
+          "cn": "复数或第三人称单数",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "bias",
+      "biases"
+    ],
     "morphVariantOf": "bias",
     "memorySemantics": {
       "literal": "多种偏见",
-      "imageChain": ["多种偏见", "偏见复数", "biases"],
+      "imageChain": [
+        "多种偏见",
+        "偏见复数",
+        "biases"
+      ],
       "mnemonicExpr": "bias+es → 偏见的复数"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["偏负"], "intensity": 0.4 },
-      "domain": ["tech", "academic", "general"],
+      "sentiment": {
+        "tags": [
+          "偏负"
+        ],
+        "intensity": 0.4
+      },
+      "domain": [
+        "tech",
+        "academic",
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["bias", "biased"],
-      "sameAffix": [{ "affix": "-s", "members": ["opinions", "prejudices"] }],
-      "synonyms": ["prejudices"],
-      "antonyms": ["impartialities"],
-      "domainCohort": ["prejudice", "statistics"],
-      "derivationPair": ["bias"],
+      "sameRoot": [
+        "bias",
+        "biased"
+      ],
+      "sameAffix": [
+        "opinions",
+        "prejudices"
+      ],
+      "synonyms": [
+        "prejudices"
+      ],
+      "antonyms": [
+        "impartialities"
+      ],
+      "domainCohort": [
+        "prejudice",
+        "statistics"
+      ],
+      "derivationPair": [
+        "bias"
+      ],
       "morphVariants": [],
-      "sameImagery": ["prejudices"]
+      "sameImagery": [
+        "prejudices"
+      ]
     }
   },
   {
     "word": "biaxin",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "克拉霉素（商品名）", "domain": "medical", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "biaxin", "role": "root", "canonical": "biaxin", "variantOf": null, "coreMeaning": { "cn": "药物商品名", "en": "drug brand name" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["biaxin"],
+    "coreMeaning": [
+      {
+        "cn": "克拉霉素（商品名）",
+        "domain": "medical",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "biaxin",
+        "role": "root",
+        "canonical": "biaxin",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "药物商品名",
+          "en": "drug brand name"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "biaxin"
+    ],
     "morphVariantOf": "clarithromycin",
     "memorySemantics": {
       "literal": "克拉霉素",
-      "imageChain": ["抗生素商标", "Biaxin", "克拉霉素"],
+      "imageChain": [
+        "抗生素商标",
+        "Biaxin",
+        "克拉霉素"
+      ],
       "mnemonicExpr": "biaxin → 克拉霉素（抗生素商品名）"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["medical"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
       "sameRoot": [],
       "sameAffix": [],
-      "synonyms": ["clarithromycin"],
+      "synonyms": [
+        "clarithromycin"
+      ],
       "antonyms": [],
-      "domainCohort": ["antibiotic", "drug", "medicine"],
+      "domainCohort": [
+        "antibiotic",
+        "drug",
+        "medicine"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["antibiotic"]
+      "sameImagery": [
+        "antibiotic"
+      ]
     }
   },
   {
     "word": "bible",
     "phonetic": "/'baɪbl/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "《圣经》；有权威的书", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "bibl", "role": "root", "canonical": "libr", "variantOf": "bibl", "coreMeaning": { "cn": "书", "en": "book" }, "sentiment": { "tags": ["庄重"], "intensity": 0.4 }, "positionTendency": "medial" },
-      { "order": 2, "form": "-e", "role": "linker", "canonical": "-e-", "variantOf": null, "coreMeaning": { "cn": "拼写尾", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["bibl", "bible"],
+    "coreMeaning": [
+      {
+        "cn": "《圣经》；有权威的书",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bibl",
+        "role": "root",
+        "canonical": "libr",
+        "variantOf": "bibl",
+        "coreMeaning": {
+          "cn": "书",
+          "en": "book"
+        },
+        "sentiment": {
+          "tags": [
+            "庄重"
+          ],
+          "intensity": 0.4
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 2,
+        "form": "-e",
+        "role": "linker",
+        "canonical": "-e-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "拼写尾",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "bibl",
+      "bible"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "书",
-      "imageChain": ["希腊文书", "经书", "圣经/权威著作"],
+      "imageChain": [
+        "希腊文书",
+        "经书",
+        "圣经/权威著作"
+      ],
       "mnemonicExpr": "bibl(书)+e → 书之书 → 圣经/权威书"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["庄重"], "intensity": 0.4 },
-      "domain": ["general", "academic"],
+      "sentiment": {
+        "tags": [
+          "庄重"
+        ],
+        "intensity": 0.4
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["bibliography", "bibliophile", "bibliomania"],
+      "sameRoot": [
+        "bibliography",
+        "bibliophile",
+        "bibliomania"
+      ],
       "sameAffix": [],
-      "synonyms": ["scripture", "holy book"],
+      "synonyms": [
+        "scripture",
+        "holy book"
+      ],
       "antonyms": [],
-      "domainCohort": ["religion", "book", "authority"],
-      "derivationPair": ["biblical"],
+      "domainCohort": [
+        "religion",
+        "book",
+        "authority"
+      ],
+      "derivationPair": [
+        "biblical"
+      ],
       "morphVariants": [],
-      "sameImagery": ["scripture", "book"]
+      "sameImagery": [
+        "scripture",
+        "book"
+      ]
     }
   },
   {
     "word": "bibliography",
     "phonetic": "/,bɪblɪ'ɑɡrəfi/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "参考书目、文献目录", "domain": "academic", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "biblio", "role": "root", "canonical": "libr", "variantOf": "biblio", "coreMeaning": { "cn": "书", "en": "book" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "graph", "role": "root", "canonical": "graph", "variantOf": null, "coreMeaning": { "cn": "写、记录", "en": "write" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-y", "role": "suffix", "canonical": "-y", "variantOf": null, "coreMeaning": { "cn": "名词后缀", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["biblio", "graph", "bibliography"],
+    "coreMeaning": [
+      {
+        "cn": "参考书目、文献目录",
+        "domain": "academic",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "biblio",
+        "role": "root",
+        "canonical": "libr",
+        "variantOf": "biblio",
+        "coreMeaning": {
+          "cn": "书",
+          "en": "book"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "graph",
+        "role": "root",
+        "canonical": "graph",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "写、记录",
+          "en": "write"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-y",
+        "role": "suffix",
+        "canonical": "-y",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "名词后缀",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "biblio",
+      "graph",
+      "bibliography"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "书的记录",
-      "imageChain": ["书", "记录书名", "参考书目"],
+      "imageChain": [
+        "书",
+        "记录书名",
+        "参考书目"
+      ],
       "mnemonicExpr": "biblio(书)+graph(写)+y → 书的记录 → 参考书目"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.2 },
-      "domain": ["academic"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "庄重"
+        ],
+        "intensity": 0.2
+      },
+      "domain": [
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["bibliophile", "bibliomania", "bible", "biography"],
-      "sameAffix": [{ "affix": "-graphy", "members": ["geography", "biography", "photography"] }],
-      "synonyms": ["references", "citation list"],
+      "sameRoot": [
+        "bibliophile",
+        "bibliomania",
+        "bible",
+        "biography"
+      ],
+      "sameAffix": [
+        "geography",
+        "biography",
+        "photography"
+      ],
+      "synonyms": [
+        "references",
+        "citation list"
+      ],
       "antonyms": [],
-      "domainCohort": ["academic", "reference", "book"],
-      "derivationPair": ["bibliographic"],
+      "domainCohort": [
+        "academic",
+        "reference",
+        "book"
+      ],
+      "derivationPair": [
+        "bibliographic"
+      ],
       "morphVariants": [],
-      "sameImagery": ["reference", "book list"]
+      "sameImagery": [
+        "reference",
+        "book list"
+      ]
     }
   },
   {
     "word": "bibliomania",
     "phonetic": "/,bɪblɪə'menɪə/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "藏书癖、收藏珍本狂", "domain": "academic", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "biblio", "role": "root", "canonical": "libr", "variantOf": "biblio", "coreMeaning": { "cn": "书", "en": "book" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "mania", "role": "root", "canonical": "mania", "variantOf": null, "coreMeaning": { "cn": "狂热、癖好", "en": "mania, obsession" }, "sentiment": { "tags": ["偏负"], "intensity": 0.5 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["biblio", "mania", "bibliomania"],
+    "coreMeaning": [
+      {
+        "cn": "藏书癖、收藏珍本狂",
+        "domain": "academic",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "biblio",
+        "role": "root",
+        "canonical": "libr",
+        "variantOf": "biblio",
+        "coreMeaning": {
+          "cn": "书",
+          "en": "book"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "mania",
+        "role": "root",
+        "canonical": "mania",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "狂热、癖好",
+          "en": "mania, obsession"
+        },
+        "sentiment": {
+          "tags": [
+            "偏负"
+          ],
+          "intensity": 0.5
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "biblio",
+      "mania",
+      "bibliomania"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "书狂",
-      "imageChain": ["书", "狂热爱好", "藏书癖"],
+      "imageChain": [
+        "书",
+        "狂热爱好",
+        "藏书癖"
+      ],
       "mnemonicExpr": "biblio(书)+mania(狂) → 对书的狂热 → 藏书癖"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["偏负", "喜爱"], "intensity": 0.5 },
-      "domain": ["academic", "general"],
+      "sentiment": {
+        "tags": [
+          "偏负",
+          "喜爱"
+        ],
+        "intensity": 0.5
+      },
+      "domain": [
+        "academic",
+        "general"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["bibliophile", "bibliography", "bible"],
-      "sameAffix": [{ "affix": "-mania", "members": ["kleptomania", "pyromania"] }],
-      "synonyms": ["book obsession"],
+      "sameRoot": [
+        "bibliophile",
+        "bibliography",
+        "bible"
+      ],
+      "sameAffix": [
+        "kleptomania",
+        "pyromania"
+      ],
+      "synonyms": [
+        "book obsession"
+      ],
       "antonyms": [],
-      "domainCohort": ["obsession", "book", "collector"],
-      "derivationPair": ["bibliomaniac"],
+      "domainCohort": [
+        "obsession",
+        "book",
+        "collector"
+      ],
+      "derivationPair": [
+        "bibliomaniac"
+      ],
       "morphVariants": [],
-      "sameImagery": ["bibliophile", "obsession"]
+      "sameImagery": [
+        "bibliophile",
+        "obsession"
+      ]
     }
   },
   {
     "word": "bibliophile",
     "phonetic": "/'bɪblɪəfaɪl/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "藏书家、爱书的人", "domain": "academic", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "biblio", "role": "root", "canonical": "libr", "variantOf": "biblio", "coreMeaning": { "cn": "书", "en": "book" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-phile", "role": "suffix", "canonical": "-phile", "variantOf": null, "coreMeaning": { "cn": "爱好者", "en": "lover of" }, "sentiment": { "tags": ["喜爱"], "intensity": 0.5 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["biblio", "phil", "bibliophile"],
+    "coreMeaning": [
+      {
+        "cn": "藏书家、爱书的人",
+        "domain": "academic",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "biblio",
+        "role": "root",
+        "canonical": "libr",
+        "variantOf": "biblio",
+        "coreMeaning": {
+          "cn": "书",
+          "en": "book"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-phile",
+        "role": "suffix",
+        "canonical": "-phile",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "爱好者",
+          "en": "lover of"
+        },
+        "sentiment": {
+          "tags": [
+            "喜爱"
+          ],
+          "intensity": 0.5
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "biblio",
+      "phil",
+      "bibliophile"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "爱书者",
-      "imageChain": ["书", "爱好者", "藏书家"],
+      "imageChain": [
+        "书",
+        "爱好者",
+        "藏书家"
+      ],
       "mnemonicExpr": "biblio(书)+phile(爱) → 爱书的人 → 藏书家"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["喜爱", "褒义"], "intensity": 0.5 },
-      "domain": ["academic", "general"],
+      "sentiment": {
+        "tags": [
+          "喜爱",
+          "褒义"
+        ],
+        "intensity": 0.5
+      },
+      "domain": [
+        "academic",
+        "general"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["bibliography", "bibliomania", "bible"],
-      "sameAffix": [{ "affix": "-phile", "members": ["audiophile", "francophile"] }],
-      "synonyms": ["book lover", "bookworm"],
+      "sameRoot": [
+        "bibliography",
+        "bibliomania",
+        "bible"
+      ],
+      "sameAffix": [
+        "audiophile",
+        "francophile"
+      ],
+      "synonyms": [
+        "book lover",
+        "bookworm"
+      ],
       "antonyms": [],
-      "domainCohort": ["book", "collector", "love"],
-      "derivationPair": ["bibliophilic"],
+      "domainCohort": [
+        "book",
+        "collector",
+        "love"
+      ],
+      "derivationPair": [
+        "bibliophilic"
+      ],
       "morphVariants": [],
-      "sameImagery": ["book lover"]
+      "sameImagery": [
+        "book lover"
+      ]
     }
   },
   {
     "word": "bibulous",
     "phonetic": "/'bɪbjʊləs/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "吸水的；嗜酒的", "domain": "general", "coverage": 0.85 }],
-    "morphemes": [
-      { "order": 1, "form": "bib", "role": "root", "canonical": "bib", "variantOf": null, "coreMeaning": { "cn": "喝、饮", "en": "to drink" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-ul", "role": "linker", "canonical": "-ul-", "variantOf": null, "coreMeaning": { "cn": "拉丁连接元音", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ous", "role": "suffix", "canonical": "-ous", "variantOf": null, "coreMeaning": { "cn": "形容词后缀、富于…的", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["bib", "bibulous"],
+    "coreMeaning": [
+      {
+        "cn": "吸水的；嗜酒的",
+        "domain": "general",
+        "coverage": 0.85
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bib",
+        "role": "root",
+        "canonical": "bib",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "喝、饮",
+          "en": "to drink"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-ul",
+        "role": "linker",
+        "canonical": "-ul-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "拉丁连接元音",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ous",
+        "role": "suffix",
+        "canonical": "-ous",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "形容词后缀、富于…的",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "bib",
+      "bibulous"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "嗜饮的",
-      "imageChain": ["不停喝", "吸水/嗜酒", "bibulous"],
+      "imageChain": [
+        "不停喝",
+        "吸水/嗜酒",
+        "bibulous"
+      ],
       "mnemonicExpr": "bib(喝)+ul+ous → 爱喝的 → 嗜酒的/吸水的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["偏负", "讽刺"], "intensity": 0.4 },
-      "domain": ["general", "academic"],
+      "sentiment": {
+        "tags": [
+          "偏负",
+          "讽刺"
+        ],
+        "intensity": 0.4
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["imbibe", "beverage"],
-      "sameAffix": [{ "affix": "-ous", "members": ["porous", "curious"] }],
-      "synonyms": ["absorbent", "boozy"],
-      "antonyms": ["abstemious", "waterproof"],
-      "domainCohort": ["drink", "absorb"],
+      "sameRoot": [
+        "imbibe",
+        "beverage"
+      ],
+      "sameAffix": [
+        "porous",
+        "curious"
+      ],
+      "synonyms": [
+        "absorbent",
+        "boozy"
+      ],
+      "antonyms": [
+        "abstemious",
+        "waterproof"
+      ],
+      "domainCohort": [
+        "drink",
+        "absorb"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["imbibe", "drink"]
+      "sameImagery": [
+        "imbibe",
+        "drink"
+      ]
     }
   },
   {
     "word": "bicameral",
     "phonetic": "/,baɪ'kæmərəl/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "两院制的、有两个议院的", "domain": "legal", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "bi-", "role": "prefix", "canonical": "bi-", "variantOf": null, "coreMeaning": { "cn": "二、两", "en": "two" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "camer", "role": "root", "canonical": "camer", "variantOf": null, "coreMeaning": { "cn": "房间、议院", "en": "chamber" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-al", "role": "suffix", "canonical": "-al", "variantOf": null, "coreMeaning": { "cn": "形容词后缀", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["camer", "cameral", "bicameral"],
+    "coreMeaning": [
+      {
+        "cn": "两院制的、有两个议院的",
+        "domain": "legal",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bi-",
+        "role": "prefix",
+        "canonical": "bi-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "二、两",
+          "en": "two"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "camer",
+        "role": "root",
+        "canonical": "camer",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "房间、议院",
+          "en": "chamber"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-al",
+        "role": "suffix",
+        "canonical": "-al",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "形容词后缀",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "camer",
+      "cameral",
+      "bicameral"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "两个议院的",
-      "imageChain": ["两个房间", "两个议院", "两院制的"],
+      "imageChain": [
+        "两个房间",
+        "两个议院",
+        "两院制的"
+      ],
       "mnemonicExpr": "bi(二)+camer(房/院)+al → 两个议院的 → 两院制的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "庄重"], "intensity": 0.2 },
-      "domain": ["legal", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "庄重"
+        ],
+        "intensity": 0.2
+      },
+      "domain": [
+        "legal",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["chamber", "camera"],
-      "sameAffix": [{ "affix": "bi-", "members": ["biannual", "bicycle", "bilingual"] }],
-      "synonyms": ["two-chamber"],
-      "antonyms": ["unicameral"],
-      "domainCohort": ["parliament", "government", "chamber"],
-      "derivationPair": ["bicameralism"],
+      "sameRoot": [
+        "chamber",
+        "camera"
+      ],
+      "sameAffix": [
+        "biannual",
+        "bicycle",
+        "bilingual"
+      ],
+      "synonyms": [
+        "two-chamber"
+      ],
+      "antonyms": [
+        "unicameral"
+      ],
+      "domainCohort": [
+        "parliament",
+        "government",
+        "chamber"
+      ],
+      "derivationPair": [
+        "bicameralism"
+      ],
       "morphVariants": [],
-      "sameImagery": ["parliament", "chamber"]
+      "sameImagery": [
+        "parliament",
+        "chamber"
+      ]
     }
   },
   {
     "word": "bicine",
     "phonetic": "/bai'sini/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "N-二(羟乙基)甘氨酸", "domain": "medical", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "bicine", "role": "root", "canonical": "bicine", "variantOf": null, "coreMeaning": { "cn": "化学名称", "en": "chemical compound" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["bicine"],
+    "coreMeaning": [
+      {
+        "cn": "N-二(羟乙基)甘氨酸",
+        "domain": "medical",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bicine",
+        "role": "root",
+        "canonical": "bicine",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "化学名称",
+          "en": "chemical compound"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "bicine"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "N-二(羟乙基)甘氨酸",
-      "imageChain": ["缓冲剂", "生化试剂", "bicine"],
+      "imageChain": [
+        "缓冲剂",
+        "生化试剂",
+        "bicine"
+      ],
       "mnemonicExpr": "bi(二)+cine → 生化缓冲剂 → bicine"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["medical", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
@@ -851,7 +2644,11 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["chemistry", "buffer", "biochemistry"],
+      "domainCohort": [
+        "chemistry",
+        "buffer",
+        "biochemistry"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -860,438 +2657,1477 @@
   {
     "word": "bicker",
     "phonetic": "/'bɪkɚ/",
-    "pos": ["v.", "n."],
-    "coreMeaning": [{ "cn": "争吵、口角", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "bick", "role": "root", "canonical": "bick", "variantOf": null, "coreMeaning": { "cn": "攻击、争吵", "en": "attack, quarrel" }, "sentiment": { "tags": ["贬义"], "intensity": 0.5 }, "positionTendency": "medial" },
-      { "order": 2, "form": "-er", "role": "suffix", "canonical": "-er", "variantOf": null, "coreMeaning": { "cn": "反复动作", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "v.",
+      "n."
     ],
-    "derivationChain": ["bick", "bicker"],
+    "coreMeaning": [
+      {
+        "cn": "争吵、口角",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bick",
+        "role": "root",
+        "canonical": "bick",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "攻击、争吵",
+          "en": "attack, quarrel"
+        },
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 0.5
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 2,
+        "form": "-er",
+        "role": "suffix",
+        "canonical": "-er",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "反复动作",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "bick",
+      "bicker"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "反复争执",
-      "imageChain": ["口头攻击", "反复争执", "口角"],
+      "imageChain": [
+        "口头攻击",
+        "反复争执",
+        "口角"
+      ],
       "mnemonicExpr": "bick(攻击)+er(反复) → 反复争执 → 争吵"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义", "厌恶"], "intensity": 0.6 },
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "贬义",
+          "厌恶"
+        ],
+        "intensity": 0.6
+      },
+      "domain": [
+        "general"
+      ],
       "registerFormality": "informal"
     },
     "relations": {
       "sameRoot": [],
-      "sameAffix": [{ "affix": "-er", "members": ["flicker", "chatter", "stutter"] }],
-      "synonyms": ["squabble", "quarrel", "wrangle"],
-      "antonyms": ["agree", "concur"],
-      "domainCohort": ["argument", "quarrel", "dispute"],
-      "derivationPair": ["bickering"],
+      "sameAffix": [
+        "flicker",
+        "chatter",
+        "stutter"
+      ],
+      "synonyms": [
+        "squabble",
+        "quarrel",
+        "wrangle"
+      ],
+      "antonyms": [
+        "agree",
+        "concur"
+      ],
+      "domainCohort": [
+        "argument",
+        "quarrel",
+        "dispute"
+      ],
+      "derivationPair": [
+        "bickering"
+      ],
       "morphVariants": [],
-      "sameImagery": ["squabble", "quarrel"]
+      "sameImagery": [
+        "squabble",
+        "quarrel"
+      ]
     }
   },
   {
     "word": "bicycle",
     "phonetic": "/'baisikl/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "自行车", "domain": "general", "coverage": 0.98 }],
-    "morphemes": [
-      { "order": 1, "form": "bi-", "role": "prefix", "canonical": "bi-", "variantOf": null, "coreMeaning": { "cn": "二、两", "en": "two" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "cycl", "role": "root", "canonical": "cycl", "variantOf": null, "coreMeaning": { "cn": "轮、圆", "en": "circle, wheel" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-e", "role": "linker", "canonical": "-e-", "variantOf": null, "coreMeaning": { "cn": "拼写尾", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["cycl", "cycle", "bicycle"],
+    "coreMeaning": [
+      {
+        "cn": "自行车",
+        "domain": "general",
+        "coverage": 0.98
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bi-",
+        "role": "prefix",
+        "canonical": "bi-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "二、两",
+          "en": "two"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "cycl",
+        "role": "root",
+        "canonical": "cycl",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "轮、圆",
+          "en": "circle, wheel"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-e",
+        "role": "linker",
+        "canonical": "-e-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "拼写尾",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "cycl",
+      "cycle",
+      "bicycle"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "两轮",
-      "imageChain": ["两个轮子", "两轮车", "自行车"],
+      "imageChain": [
+        "两个轮子",
+        "两轮车",
+        "自行车"
+      ],
       "mnemonicExpr": "bi(二)+cycl(轮)+e → 两轮车 → 自行车"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "tech"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "tech"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["cycle", "cyclone", "tricycle"],
-      "sameAffix": [{ "affix": "bi-", "members": ["biannual", "bilateral", "bipolar"] }],
-      "synonyms": ["bike"],
+      "sameRoot": [
+        "cycle",
+        "cyclone",
+        "tricycle"
+      ],
+      "sameAffix": [
+        "biannual",
+        "bilateral",
+        "bipolar"
+      ],
+      "synonyms": [
+        "bike"
+      ],
       "antonyms": [],
-      "domainCohort": ["vehicle", "transport", "wheel"],
-      "derivationPair": ["bicyclist"],
-      "morphVariants": ["bike"],
-      "sameImagery": ["bike", "tricycle"]
+      "domainCohort": [
+        "vehicle",
+        "transport",
+        "wheel"
+      ],
+      "derivationPair": [
+        "bicyclist"
+      ],
+      "morphVariants": [
+        "bike"
+      ],
+      "sameImagery": [
+        "bike",
+        "tricycle"
+      ]
     }
   },
   {
     "word": "bid",
     "phonetic": "/bɪd/",
-    "pos": ["v.", "n."],
-    "coreMeaning": [{ "cn": "投标、出价、表示、吩咐", "domain": "business", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "bid", "role": "root", "canonical": "bide", "variantOf": "bid", "coreMeaning": { "cn": "出价、吩咐", "en": "to bid, command" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "v.",
+      "n."
     ],
-    "derivationChain": ["bid"],
+    "coreMeaning": [
+      {
+        "cn": "投标、出价、表示、吩咐",
+        "domain": "business",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bid",
+        "role": "root",
+        "canonical": "bide",
+        "variantOf": "bid",
+        "coreMeaning": {
+          "cn": "出价、吩咐",
+          "en": "to bid, command"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "bid"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "出价",
-      "imageChain": ["举手叫价", "投标", "出价"],
+      "imageChain": [
+        "举手叫价",
+        "投标",
+        "出价"
+      ],
       "mnemonicExpr": "bid → 叫价 → 投标/出价"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["business", "finance", "general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "business",
+        "finance",
+        "general"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["bidder", "bidding", "biddable"],
+      "sameRoot": [
+        "bidder",
+        "bidding",
+        "biddable"
+      ],
       "sameAffix": [],
-      "synonyms": ["offer", "tender", "propose"],
-      "antonyms": ["withdraw"],
-      "domainCohort": ["auction", "price", "tender"],
-      "derivationPair": ["bidder"],
+      "synonyms": [
+        "offer",
+        "tender",
+        "propose"
+      ],
+      "antonyms": [
+        "withdraw"
+      ],
+      "domainCohort": [
+        "auction",
+        "price",
+        "tender"
+      ],
+      "derivationPair": [
+        "bidder"
+      ],
       "morphVariants": [],
-      "sameImagery": ["offer", "tender"]
+      "sameImagery": [
+        "offer",
+        "tender"
+      ]
     }
   },
   {
     "word": "biddable",
     "phonetic": "/'bɪdəbl/",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "顺从的、可叫牌的", "domain": "general", "coverage": 0.85 }],
-    "morphemes": [
-      { "order": 1, "form": "bid", "role": "root", "canonical": "bide", "variantOf": "bid", "coreMeaning": { "cn": "吩咐、出价", "en": "to bid" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-d-", "role": "linker", "canonical": "-d-", "variantOf": null, "coreMeaning": { "cn": "拼写连接", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-able", "role": "suffix", "canonical": "-able", "variantOf": null, "coreMeaning": { "cn": "可…的", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["bid", "biddable"],
+    "coreMeaning": [
+      {
+        "cn": "顺从的、可叫牌的",
+        "domain": "general",
+        "coverage": 0.85
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bid",
+        "role": "root",
+        "canonical": "bide",
+        "variantOf": "bid",
+        "coreMeaning": {
+          "cn": "吩咐、出价",
+          "en": "to bid"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-d-",
+        "role": "linker",
+        "canonical": "-d-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "拼写连接",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-able",
+        "role": "suffix",
+        "canonical": "-able",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "可…的",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "bid",
+      "biddable"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "可吩咐的",
-      "imageChain": ["可被吩咐", "听话", "顺从的"],
+      "imageChain": [
+        "可被吩咐",
+        "听话",
+        "顺从的"
+      ],
       "mnemonicExpr": "bid(吩咐)+d+able(可…的) → 可吩咐的 → 顺从的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["褒义", "偏正"], "intensity": 0.4 },
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "褒义",
+          "偏正"
+        ],
+        "intensity": 0.4
+      },
+      "domain": [
+        "general"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["bid", "bidder"],
-      "sameAffix": [{ "affix": "-able", "members": ["manageable", "amiable", "tractable"] }],
-      "synonyms": ["obedient", "compliant", "docile"],
-      "antonyms": ["defiant", "unruly"],
-      "domainCohort": ["obedience", "temperament"],
-      "derivationPair": ["bid"],
+      "sameRoot": [
+        "bid",
+        "bidder"
+      ],
+      "sameAffix": [
+        "manageable",
+        "amiable",
+        "tractable"
+      ],
+      "synonyms": [
+        "obedient",
+        "compliant",
+        "docile"
+      ],
+      "antonyms": [
+        "defiant",
+        "unruly"
+      ],
+      "domainCohort": [
+        "obedience",
+        "temperament"
+      ],
+      "derivationPair": [
+        "bid"
+      ],
       "morphVariants": [],
-      "sameImagery": ["obedient", "compliant"]
+      "sameImagery": [
+        "obedient",
+        "compliant"
+      ]
     }
   },
   {
     "word": "bidder",
     "phonetic": "/'bɪdɚ/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "投标人", "domain": "business", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "bid", "role": "root", "canonical": "bide", "variantOf": "bid", "coreMeaning": { "cn": "出价、投标", "en": "to bid" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-d-", "role": "linker", "canonical": "-d-", "variantOf": null, "coreMeaning": { "cn": "辅音重复", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-er", "role": "suffix", "canonical": "-er", "variantOf": null, "coreMeaning": { "cn": "表人", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["bid", "bidder"],
+    "coreMeaning": [
+      {
+        "cn": "投标人",
+        "domain": "business",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bid",
+        "role": "root",
+        "canonical": "bide",
+        "variantOf": "bid",
+        "coreMeaning": {
+          "cn": "出价、投标",
+          "en": "to bid"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-d-",
+        "role": "linker",
+        "canonical": "-d-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "辅音重复",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-er",
+        "role": "suffix",
+        "canonical": "-er",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "表人",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "bid",
+      "bidder"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "出价者",
-      "imageChain": ["出价的人", "投标者", "bidder"],
+      "imageChain": [
+        "出价的人",
+        "投标者",
+        "bidder"
+      ],
       "mnemonicExpr": "bid(出价)+d+er(人) → 出价者 → 投标人"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["business", "finance"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "business",
+        "finance"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["bid", "bidding", "biddable"],
-      "sameAffix": [{ "affix": "-er", "members": ["buyer", "seller", "offerer"] }],
-      "synonyms": ["tenderer", "offerer"],
-      "antonyms": ["seller"],
-      "domainCohort": ["auction", "tender", "business"],
-      "derivationPair": ["bid"],
+      "sameRoot": [
+        "bid",
+        "bidding",
+        "biddable"
+      ],
+      "sameAffix": [
+        "buyer",
+        "seller",
+        "offerer"
+      ],
+      "synonyms": [
+        "tenderer",
+        "offerer"
+      ],
+      "antonyms": [
+        "seller"
+      ],
+      "domainCohort": [
+        "auction",
+        "tender",
+        "business"
+      ],
+      "derivationPair": [
+        "bid"
+      ],
       "morphVariants": [],
-      "sameImagery": ["offerer", "tenderer"]
+      "sameImagery": [
+        "offerer",
+        "tenderer"
+      ]
     }
   },
   {
     "word": "bide",
     "phonetic": "/baid/",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "等待、面临、禁得起", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "bide", "role": "root", "canonical": "bide", "variantOf": null, "coreMeaning": { "cn": "等待、逗留", "en": "to wait, abide" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["bide"],
+    "coreMeaning": [
+      {
+        "cn": "等待、面临、禁得起",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bide",
+        "role": "root",
+        "canonical": "bide",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "等待、逗留",
+          "en": "to wait, abide"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "bide"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "等待",
-      "imageChain": ["停留", "等候时机", "等待"],
+      "imageChain": [
+        "停留",
+        "等候时机",
+        "等待"
+      ],
       "mnemonicExpr": "bide → 停留/等候 → 等待时机"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["abide", "abode"],
+      "sameRoot": [
+        "abide",
+        "abode"
+      ],
       "sameAffix": [],
-      "synonyms": ["await", "wait", "tarry"],
-      "antonyms": ["hasten", "rush"],
-      "domainCohort": ["time", "patience", "wait"],
-      "derivationPair": ["abide"],
-      "morphVariants": ["abide"],
-      "sameImagery": ["wait", "abide"]
+      "synonyms": [
+        "await",
+        "wait",
+        "tarry"
+      ],
+      "antonyms": [
+        "hasten",
+        "rush"
+      ],
+      "domainCohort": [
+        "time",
+        "patience",
+        "wait"
+      ],
+      "derivationPair": [
+        "abide"
+      ],
+      "morphVariants": [
+        "abide"
+      ],
+      "sameImagery": [
+        "wait",
+        "abide"
+      ]
     }
   },
   {
     "word": "biennial",
     "phonetic": "/baɪ'ɛnɪəl/",
-    "pos": ["adj.", "n."],
-    "coreMeaning": [{ "cn": "两年一次的", "domain": "general", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "bi-", "role": "prefix", "canonical": "bi-", "variantOf": null, "coreMeaning": { "cn": "二、两", "en": "two" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "enni", "role": "root", "canonical": "ann", "variantOf": "enni", "coreMeaning": { "cn": "年", "en": "year" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-al", "role": "suffix", "canonical": "-al", "variantOf": null, "coreMeaning": { "cn": "形容词后缀", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj.",
+      "n."
     ],
-    "derivationChain": ["enni", "biennial"],
+    "coreMeaning": [
+      {
+        "cn": "两年一次的",
+        "domain": "general",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bi-",
+        "role": "prefix",
+        "canonical": "bi-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "二、两",
+          "en": "two"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "enni",
+        "role": "root",
+        "canonical": "ann",
+        "variantOf": "enni",
+        "coreMeaning": {
+          "cn": "年",
+          "en": "year"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-al",
+        "role": "suffix",
+        "canonical": "-al",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "形容词后缀",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "enni",
+      "biennial"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "两年的",
-      "imageChain": ["两年一次", "两年周期", "两年一次的"],
+      "imageChain": [
+        "两年一次",
+        "两年周期",
+        "两年一次的"
+      ],
       "mnemonicExpr": "bi(二)+enni(年)+al → 两年一次的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["annual", "biannual", "perennial"],
-      "sameAffix": [{ "affix": "bi-", "members": ["biannual", "bicycle"] }],
-      "synonyms": ["two-yearly"],
-      "antonyms": ["annual"],
-      "domainCohort": ["frequency", "year", "cycle"],
-      "derivationPair": ["biennium"],
-      "morphVariants": ["biannual"],
-      "sameImagery": ["biannual", "perennial"]
+      "sameRoot": [
+        "annual",
+        "biannual",
+        "perennial"
+      ],
+      "sameAffix": [
+        "biannual",
+        "bicycle"
+      ],
+      "synonyms": [
+        "two-yearly"
+      ],
+      "antonyms": [
+        "annual"
+      ],
+      "domainCohort": [
+        "frequency",
+        "year",
+        "cycle"
+      ],
+      "derivationPair": [
+        "biennium"
+      ],
+      "morphVariants": [
+        "biannual"
+      ],
+      "sameImagery": [
+        "biannual",
+        "perennial"
+      ]
     }
   },
   {
     "word": "bifidobacteria",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "双歧杆菌", "domain": "medical", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "bifido", "role": "root", "canonical": "bifido", "variantOf": null, "coreMeaning": { "cn": "分叉", "en": "split in two" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "bacteri", "role": "root", "canonical": "acter", "variantOf": "bacter", "coreMeaning": { "cn": "细菌", "en": "bacterium" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-a", "role": "suffix", "canonical": "-a", "variantOf": null, "coreMeaning": { "cn": "复数/分类名后缀", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["bacteri", "bifidobacterium", "bifidobacteria"],
+    "coreMeaning": [
+      {
+        "cn": "双歧杆菌",
+        "domain": "medical",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bifido",
+        "role": "root",
+        "canonical": "bifido",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "分叉",
+          "en": "split in two"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "bacteri",
+        "role": "root",
+        "canonical": "acter",
+        "variantOf": "bacter",
+        "coreMeaning": {
+          "cn": "细菌",
+          "en": "bacterium"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-a",
+        "role": "suffix",
+        "canonical": "-a",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "复数/分类名后缀",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "bacteri",
+      "bifidobacterium",
+      "bifidobacteria"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "分叉的细菌",
-      "imageChain": ["Y形分叉", "肠道益生菌", "双歧杆菌"],
+      "imageChain": [
+        "Y形分叉",
+        "肠道益生菌",
+        "双歧杆菌"
+      ],
       "mnemonicExpr": "bifido(分叉)+bacteri(细菌)+a → 双歧杆菌"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["medical", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["bacteria", "bifurcate", "bifidum"],
+      "sameRoot": [
+        "bacteria",
+        "bifurcate",
+        "bifidum"
+      ],
       "sameAffix": [],
-      "synonyms": ["bifidum"],
+      "synonyms": [
+        "bifidum"
+      ],
       "antonyms": [],
-      "domainCohort": ["microbiology", "probiotic", "gut"],
-      "derivationPair": ["bifidum"],
-      "morphVariants": ["bifidum"],
-      "sameImagery": ["probiotic", "gut bacteria"]
+      "domainCohort": [
+        "microbiology",
+        "probiotic",
+        "gut"
+      ],
+      "derivationPair": [
+        "bifidum"
+      ],
+      "morphVariants": [
+        "bifidum"
+      ],
+      "sameImagery": [
+        "probiotic",
+        "gut bacteria"
+      ]
     }
   },
   {
     "word": "bifidum",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "双歧杆菌（种名）", "domain": "medical", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "bifid", "role": "root", "canonical": "bifid", "variantOf": null, "coreMeaning": { "cn": "分叉", "en": "split in two" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-um", "role": "suffix", "canonical": "-um", "variantOf": null, "coreMeaning": { "cn": "拉丁名词后缀", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["bifid", "bifidum"],
+    "coreMeaning": [
+      {
+        "cn": "双歧杆菌（种名）",
+        "domain": "medical",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bifid",
+        "role": "root",
+        "canonical": "bifid",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "分叉",
+          "en": "split in two"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-um",
+        "role": "suffix",
+        "canonical": "-um",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "拉丁名词后缀",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "bifid",
+      "bifidum"
+    ],
     "morphVariantOf": "bifidobacterium",
     "memorySemantics": {
       "literal": "分叉",
-      "imageChain": ["Y形分叉", "细菌种名", "双歧杆菌"],
+      "imageChain": [
+        "Y形分叉",
+        "细菌种名",
+        "双歧杆菌"
+      ],
       "mnemonicExpr": "bifid(分叉)+um → 双歧杆菌"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["medical", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["bifidobacteria", "bifurcate"],
-      "sameAffix": [{ "affix": "-um", "members": ["medium", "spectrum"] }],
-      "synonyms": ["bifidobacterium"],
+      "sameRoot": [
+        "bifidobacteria",
+        "bifurcate"
+      ],
+      "sameAffix": [
+        "medium",
+        "spectrum"
+      ],
+      "synonyms": [
+        "bifidobacterium"
+      ],
       "antonyms": [],
-      "domainCohort": ["microbiology", "probiotic"],
-      "derivationPair": ["bifidobacteria"],
-      "morphVariants": ["bifidobacteria"],
-      "sameImagery": ["probiotic", "bacteria"]
+      "domainCohort": [
+        "microbiology",
+        "probiotic"
+      ],
+      "derivationPair": [
+        "bifidobacteria"
+      ],
+      "morphVariants": [
+        "bifidobacteria"
+      ],
+      "sameImagery": [
+        "probiotic",
+        "bacteria"
+      ]
     }
   },
   {
     "word": "bifurcate",
     "phonetic": "/'baɪfɚ'ket/",
-    "pos": ["v."],
-    "coreMeaning": [{ "cn": "分为两支、分叉", "domain": "academic", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "bi-", "role": "prefix", "canonical": "bi-", "variantOf": null, "coreMeaning": { "cn": "二、两", "en": "two" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "furc", "role": "root", "canonical": "furc", "variantOf": null, "coreMeaning": { "cn": "叉、分叉", "en": "fork" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-ate", "role": "suffix", "canonical": "-ate", "variantOf": null, "coreMeaning": { "cn": "动词化后缀", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "v."
     ],
-    "derivationChain": ["furc", "bifurc", "bifurcate"],
+    "coreMeaning": [
+      {
+        "cn": "分为两支、分叉",
+        "domain": "academic",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bi-",
+        "role": "prefix",
+        "canonical": "bi-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "二、两",
+          "en": "two"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "furc",
+        "role": "root",
+        "canonical": "furc",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "叉、分叉",
+          "en": "fork"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-ate",
+        "role": "suffix",
+        "canonical": "-ate",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "动词化后缀",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "furc",
+      "bifurc",
+      "bifurcate"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "分出两叉",
-      "imageChain": ["两个叉", "道路分岔", "分为两支"],
+      "imageChain": [
+        "两个叉",
+        "道路分岔",
+        "分为两支"
+      ],
       "mnemonicExpr": "bi(二)+furc(叉)+ate → 分为两叉 → 分叉"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["academic"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["trifurcate", "fork"],
-      "sameAffix": [{ "affix": "bi-", "members": ["biannual", "bicycle", "bicameral"] }],
-      "synonyms": ["fork", "split", "branch"],
-      "antonyms": ["merge", "converge"],
-      "domainCohort": ["branch", "split", "divergence"],
-      "derivationPair": ["bifurcation"],
+      "sameRoot": [
+        "trifurcate",
+        "fork"
+      ],
+      "sameAffix": [
+        "biannual",
+        "bicycle",
+        "bicameral"
+      ],
+      "synonyms": [
+        "fork",
+        "split",
+        "branch"
+      ],
+      "antonyms": [
+        "merge",
+        "converge"
+      ],
+      "domainCohort": [
+        "branch",
+        "split",
+        "divergence"
+      ],
+      "derivationPair": [
+        "bifurcation"
+      ],
       "morphVariants": [],
-      "sameImagery": ["fork", "branch"]
+      "sameImagery": [
+        "fork",
+        "branch"
+      ]
     }
   },
   {
     "word": "big-business",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "大企业、财团", "domain": "finance", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "big-business", "role": "root", "canonical": "big-business", "variantOf": null, "coreMeaning": { "cn": "大企业", "en": "big business" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["big-business"],
+    "coreMeaning": [
+      {
+        "cn": "大企业、财团",
+        "domain": "finance",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "big-business",
+        "role": "root",
+        "canonical": "big-business",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "大企业",
+          "en": "big business"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "big-business"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "大生意",
-      "imageChain": ["大生意", "财团", "大企业"],
+      "imageChain": [
+        "大生意",
+        "财团",
+        "大企业"
+      ],
       "mnemonicExpr": "big(大)+business(企业) → 大企业/财团"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "偏负"], "intensity": 0.3 },
-      "domain": ["finance", "business", "economics"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "偏负"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "finance",
+        "business",
+        "economics"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
       "sameRoot": [],
       "sameAffix": [],
-      "synonyms": ["conglomerate", "corporation"],
-      "antonyms": ["small business", "startup"],
-      "domainCohort": ["corporation", "economy", "business"],
+      "synonyms": [
+        "conglomerate",
+        "corporation"
+      ],
+      "antonyms": [
+        "small business",
+        "startup"
+      ],
+      "domainCohort": [
+        "corporation",
+        "economy",
+        "business"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["corporation"]
+      "sameImagery": [
+        "corporation"
+      ]
     }
   },
   {
     "word": "big-deal",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "大人物、了不起的事", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "big-deal", "role": "root", "canonical": "big-deal", "variantOf": null, "coreMeaning": { "cn": "重要的事/人", "en": "big deal" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["big-deal"],
+    "coreMeaning": [
+      {
+        "cn": "大人物、了不起的事",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "big-deal",
+        "role": "root",
+        "canonical": "big-deal",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "重要的事/人",
+          "en": "big deal"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "big-deal"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "大交易",
-      "imageChain": ["大交易", "了不起的事", "大人物"],
+      "imageChain": [
+        "大交易",
+        "了不起的事",
+        "大人物"
+      ],
       "mnemonicExpr": "big(大)+deal(交易) → 了不起的事/大人物"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "讽刺"], "intensity": 0.3 },
-      "domain": ["general", "finance"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "讽刺"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "general",
+        "finance"
+      ],
       "registerFormality": "informal"
     },
     "relations": {
       "sameRoot": [],
       "sameAffix": [],
-      "synonyms": ["vip", "big shot"],
-      "antonyms": ["trivial matter"],
-      "domainCohort": ["importance", "prestige"],
+      "synonyms": [
+        "vip",
+        "big shot"
+      ],
+      "antonyms": [
+        "trivial matter"
+      ],
+      "domainCohort": [
+        "importance",
+        "prestige"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["big shot"]
+      "sameImagery": [
+        "big shot"
+      ]
     }
   },
   {
     "word": "big-dog",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "看门狗、大人物", "domain": "finance", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "big-dog", "role": "root", "canonical": "big-dog", "variantOf": null, "coreMeaning": { "cn": "大人物/看门狗", "en": "big dog, VIP" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["big-dog"],
+    "coreMeaning": [
+      {
+        "cn": "看门狗、大人物",
+        "domain": "finance",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "big-dog",
+        "role": "root",
+        "canonical": "big-dog",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "大人物/看门狗",
+          "en": "big dog, VIP"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "big-dog"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "大狗",
-      "imageChain": ["大狗守门", "有权势者", "大人物"],
+      "imageChain": [
+        "大狗守门",
+        "有权势者",
+        "大人物"
+      ],
       "mnemonicExpr": "big(大)+dog(狗) → 看门狗/大人物"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性", "偏正"], "intensity": 0.3 },
-      "domain": ["finance", "general"],
+      "sentiment": {
+        "tags": [
+          "中性",
+          "偏正"
+        ],
+        "intensity": 0.3
+      },
+      "domain": [
+        "finance",
+        "general"
+      ],
       "registerFormality": "informal"
     },
     "relations": {
       "sameRoot": [],
       "sameAffix": [],
-      "synonyms": ["big shot", "vip"],
-      "antonyms": ["underdog"],
-      "domainCohort": ["power", "leader"],
+      "synonyms": [
+        "big shot",
+        "vip"
+      ],
+      "antonyms": [
+        "underdog"
+      ],
+      "domainCohort": [
+        "power",
+        "leader"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["big shot"]
+      "sameImagery": [
+        "big shot"
+      ]
     }
   },
   {
     "word": "big-five",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "英国五大银行", "domain": "finance", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "big-five", "role": "root", "canonical": "big-five", "variantOf": null, "coreMeaning": { "cn": "五大（行业巨头）", "en": "big five" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["big-five"],
+    "coreMeaning": [
+      {
+        "cn": "英国五大银行",
+        "domain": "finance",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "big-five",
+        "role": "root",
+        "canonical": "big-five",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "五大（行业巨头）",
+          "en": "big five"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "big-five"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "大五",
-      "imageChain": ["五大", "英国五大银行", "big five"],
+      "imageChain": [
+        "五大",
+        "英国五大银行",
+        "big five"
+      ],
       "mnemonicExpr": "big(大)+five(五) → 五大（银行）"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["finance", "business"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "finance",
+        "business"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
@@ -1299,161 +4135,560 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["banking", "uk", "economy"],
+      "domainCohort": [
+        "banking",
+        "uk",
+        "economy"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["banking giants"]
+      "sameImagery": [
+        "banking giants"
+      ]
     }
   },
   {
     "word": "bigamist",
     "phonetic": "/'bɪɡəmɪst/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "重婚者", "domain": "legal", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "bigam", "role": "root", "canonical": "bigam", "variantOf": null, "coreMeaning": { "cn": "重婚", "en": "bigamy" }, "sentiment": { "tags": ["贬义"], "intensity": 0.6 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-ist", "role": "suffix", "canonical": "-ist", "variantOf": null, "coreMeaning": { "cn": "表人", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["bigam", "bigamist"],
+    "coreMeaning": [
+      {
+        "cn": "重婚者",
+        "domain": "legal",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bigam",
+        "role": "root",
+        "canonical": "bigam",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "重婚",
+          "en": "bigamy"
+        },
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 0.6
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-ist",
+        "role": "suffix",
+        "canonical": "-ist",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "表人",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "bigam",
+      "bigamist"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "重婚的人",
-      "imageChain": ["两次结婚", "违法行为", "重婚者"],
+      "imageChain": [
+        "两次结婚",
+        "违法行为",
+        "重婚者"
+      ],
       "mnemonicExpr": "bigam(重婚)+ist(人) → 重婚者"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义"], "intensity": 0.7 },
-      "domain": ["legal"],
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": 0.7
+      },
+      "domain": [
+        "legal"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["bigamy", "monogamy", "polygamy"],
-      "sameAffix": [{ "affix": "-ist", "members": ["monogamist", "polygamist"] }],
+      "sameRoot": [
+        "bigamy",
+        "monogamy",
+        "polygamy"
+      ],
+      "sameAffix": [
+        "monogamist",
+        "polygamist"
+      ],
       "synonyms": [],
-      "antonyms": ["monogamist"],
-      "domainCohort": ["marriage", "law", "crime"],
-      "derivationPair": ["bigamy"],
+      "antonyms": [
+        "monogamist"
+      ],
+      "domainCohort": [
+        "marriage",
+        "law",
+        "crime"
+      ],
+      "derivationPair": [
+        "bigamy"
+      ],
       "morphVariants": [],
-      "sameImagery": ["polygamist"]
+      "sameImagery": [
+        "polygamist"
+      ]
     }
   },
   {
     "word": "bigamy",
     "phonetic": "/'bɪɡəmi/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "重婚、重婚罪", "domain": "legal", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "bi-", "role": "prefix", "canonical": "bi-", "variantOf": null, "coreMeaning": { "cn": "二、两", "en": "two" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "gam", "role": "root", "canonical": "gam", "variantOf": null, "coreMeaning": { "cn": "婚姻", "en": "marriage" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-y", "role": "suffix", "canonical": "-y", "variantOf": null, "coreMeaning": { "cn": "名词后缀", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["gam", "bigam", "bigamy"],
+    "coreMeaning": [
+      {
+        "cn": "重婚、重婚罪",
+        "domain": "legal",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bi-",
+        "role": "prefix",
+        "canonical": "bi-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "二、两",
+          "en": "two"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "gam",
+        "role": "root",
+        "canonical": "gam",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "婚姻",
+          "en": "marriage"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-y",
+        "role": "suffix",
+        "canonical": "-y",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "名词后缀",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "gam",
+      "bigam",
+      "bigamy"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "两次婚姻",
-      "imageChain": ["两次婚姻", "违法婚姻", "重婚罪"],
+      "imageChain": [
+        "两次婚姻",
+        "违法婚姻",
+        "重婚罪"
+      ],
       "mnemonicExpr": "bi(二)+gam(婚)+y → 两次婚姻 → 重婚罪"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义"], "intensity": 0.7 },
-      "domain": ["legal"],
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": 0.7
+      },
+      "domain": [
+        "legal"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["bigamist", "monogamy", "polygamy"],
-      "sameAffix": [{ "affix": "-y", "members": ["monogamy", "polygamy", "misogamy"] }],
+      "sameRoot": [
+        "bigamist",
+        "monogamy",
+        "polygamy"
+      ],
+      "sameAffix": [
+        "monogamy",
+        "polygamy",
+        "misogamy"
+      ],
       "synonyms": [],
-      "antonyms": ["monogamy"],
-      "domainCohort": ["marriage", "law", "crime"],
-      "derivationPair": ["bigamist"],
+      "antonyms": [
+        "monogamy"
+      ],
+      "domainCohort": [
+        "marriage",
+        "law",
+        "crime"
+      ],
+      "derivationPair": [
+        "bigamist"
+      ],
       "morphVariants": [],
-      "sameImagery": ["polygamy", "monogamy"]
+      "sameImagery": [
+        "polygamy",
+        "monogamy"
+      ]
     }
   },
   {
     "word": "bigger",
     "phonetic": "",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "更大的（big的比较级）", "domain": "general", "coverage": 0.98 }],
-    "morphemes": [
-      { "order": 1, "form": "big", "role": "root", "canonical": "big", "variantOf": null, "coreMeaning": { "cn": "大", "en": "big, large" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-g-", "role": "linker", "canonical": "-g-", "variantOf": null, "coreMeaning": { "cn": "辅音重复", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-er", "role": "suffix", "canonical": "-er", "variantOf": null, "coreMeaning": { "cn": "比较级", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["big", "bigger"],
+    "coreMeaning": [
+      {
+        "cn": "更大的（big的比较级）",
+        "domain": "general",
+        "coverage": 0.98
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "big",
+        "role": "root",
+        "canonical": "big",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "大",
+          "en": "big, large"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-g-",
+        "role": "linker",
+        "canonical": "-g-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "辅音重复",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-er",
+        "role": "suffix",
+        "canonical": "-er",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "比较级",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "big",
+      "bigger"
+    ],
     "morphVariantOf": "big",
     "memorySemantics": {
       "literal": "更大的",
-      "imageChain": ["大", "比较级", "更大的"],
+      "imageChain": [
+        "大",
+        "比较级",
+        "更大的"
+      ],
       "mnemonicExpr": "big(大)+g+er(更) → 更大的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "tech"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "tech"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["big", "biggest"],
-      "sameAffix": [{ "affix": "-er", "members": ["larger", "greater", "higher"] }],
-      "synonyms": ["larger", "greater"],
-      "antonyms": ["smaller"],
-      "domainCohort": ["size", "comparison"],
-      "derivationPair": ["big", "biggest"],
+      "sameRoot": [
+        "big",
+        "biggest"
+      ],
+      "sameAffix": [
+        "larger",
+        "greater",
+        "higher"
+      ],
+      "synonyms": [
+        "larger",
+        "greater"
+      ],
+      "antonyms": [
+        "smaller"
+      ],
+      "domainCohort": [
+        "size",
+        "comparison"
+      ],
+      "derivationPair": [
+        "big",
+        "biggest"
+      ],
       "morphVariants": [],
-      "sameImagery": ["larger"]
+      "sameImagery": [
+        "larger"
+      ]
     }
   },
   {
     "word": "biggest",
     "phonetic": "",
-    "pos": ["adj."],
-    "coreMeaning": [{ "cn": "最大的（big的最高级）", "domain": "general", "coverage": 0.98 }],
-    "morphemes": [
-      { "order": 1, "form": "big", "role": "root", "canonical": "big", "variantOf": null, "coreMeaning": { "cn": "大", "en": "big" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-g-", "role": "linker", "canonical": "-g-", "variantOf": null, "coreMeaning": { "cn": "辅音重复", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" },
-      { "order": 3, "form": "-est", "role": "suffix", "canonical": "-est", "variantOf": null, "coreMeaning": { "cn": "最高级", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": ["big", "biggest"],
+    "coreMeaning": [
+      {
+        "cn": "最大的（big的最高级）",
+        "domain": "general",
+        "coverage": 0.98
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "big",
+        "role": "root",
+        "canonical": "big",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "大",
+          "en": "big"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-g-",
+        "role": "linker",
+        "canonical": "-g-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "辅音重复",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "-est",
+        "role": "suffix",
+        "canonical": "-est",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "最高级",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "big",
+      "biggest"
+    ],
     "morphVariantOf": "big",
     "memorySemantics": {
       "literal": "最大的",
-      "imageChain": ["大", "最高级", "最大的"],
+      "imageChain": [
+        "大",
+        "最高级",
+        "最大的"
+      ],
       "mnemonicExpr": "big(大)+g+est(最) → 最大的"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "tech"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "tech"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["big", "bigger"],
-      "sameAffix": [{ "affix": "-est", "members": ["largest", "greatest", "highest"] }],
-      "synonyms": ["largest", "greatest"],
-      "antonyms": ["smallest"],
-      "domainCohort": ["size", "comparison"],
-      "derivationPair": ["big", "bigger"],
+      "sameRoot": [
+        "big",
+        "bigger"
+      ],
+      "sameAffix": [
+        "largest",
+        "greatest",
+        "highest"
+      ],
+      "synonyms": [
+        "largest",
+        "greatest"
+      ],
+      "antonyms": [
+        "smallest"
+      ],
+      "domainCohort": [
+        "size",
+        "comparison"
+      ],
+      "derivationPair": [
+        "big",
+        "bigger"
+      ],
       "morphVariants": [],
-      "sameImagery": ["largest"]
+      "sameImagery": [
+        "largest"
+      ]
     }
   },
   {
     "word": "biggies",
     "phonetic": "",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "甘氨酸铋葡糖酵母琼脂（缩写）", "domain": "medical", "coverage": 0.85 }],
-    "morphemes": [
-      { "order": 1, "form": "biggies", "role": "root", "canonical": "biggies", "variantOf": null, "coreMeaning": { "cn": "医学缩写", "en": "medical abbreviation" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["biggies"],
+    "coreMeaning": [
+      {
+        "cn": "甘氨酸铋葡糖酵母琼脂（缩写）",
+        "domain": "medical",
+        "coverage": 0.85
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "biggies",
+        "role": "root",
+        "canonical": "biggies",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "医学缩写",
+          "en": "medical abbreviation"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "biggies"
+    ],
     "morphVariantOf": "bismuth glycine glucose yeast agar",
     "memorySemantics": {
       "literal": "BiGGY琼脂",
-      "imageChain": ["实验室培养基", "缩写", "biggies"],
+      "imageChain": [
+        "实验室培养基",
+        "缩写",
+        "biggies"
+      ],
       "mnemonicExpr": "biggy(BiGGY培养基)+s → 多个琼脂样本"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["medical", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
@@ -1461,7 +4696,11 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["microbiology", "agar", "culture medium"],
+      "domainCohort": [
+        "microbiology",
+        "agar",
+        "culture medium"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -1470,127 +4709,390 @@
   {
     "word": "bight",
     "phonetic": "/baɪt/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "海湾、绳圈、曲线", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "bight", "role": "root", "canonical": "bight", "variantOf": null, "coreMeaning": { "cn": "弯、曲线", "en": "bend, curve" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["bight"],
+    "coreMeaning": [
+      {
+        "cn": "海湾、绳圈、曲线",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bight",
+        "role": "root",
+        "canonical": "bight",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "弯、曲线",
+          "en": "bend, curve"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "bight"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "弯曲",
-      "imageChain": ["海岸线弯曲", "绳子圈", "海湾/绳圈"],
+      "imageChain": [
+        "海岸线弯曲",
+        "绳子圈",
+        "海湾/绳圈"
+      ],
       "mnemonicExpr": "bight → 弯曲 → 海湾/绳圈"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["general", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
       "sameRoot": [],
       "sameAffix": [],
-      "synonyms": ["bay", "cove", "loop"],
+      "synonyms": [
+        "bay",
+        "cove",
+        "loop"
+      ],
       "antonyms": [],
-      "domainCohort": ["geography", "coast", "curve"],
+      "domainCohort": [
+        "geography",
+        "coast",
+        "curve"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["bay", "curve"]
+      "sameImagery": [
+        "bay",
+        "curve"
+      ]
     }
   },
   {
     "word": "bigot",
     "phonetic": "/'bɪɡət/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "顽固盲从者、偏执者", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "bigot", "role": "root", "canonical": "bigot", "variantOf": null, "coreMeaning": { "cn": "顽固、偏执", "en": "bigot, zealot" }, "sentiment": { "tags": ["贬义"], "intensity": 0.7 }, "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["bigot"],
+    "coreMeaning": [
+      {
+        "cn": "顽固盲从者、偏执者",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bigot",
+        "role": "root",
+        "canonical": "bigot",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "顽固、偏执",
+          "en": "bigot, zealot"
+        },
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 0.7
+        },
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "bigot"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "顽固盲从者",
-      "imageChain": ["死守观念", "不听劝", "偏执者"],
+      "imageChain": [
+        "死守观念",
+        "不听劝",
+        "偏执者"
+      ],
       "mnemonicExpr": "bigot → 顽固盲从者 → 偏执者"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义", "厌恶"], "intensity": 0.8 },
-      "domain": ["general", "news"],
+      "sentiment": {
+        "tags": [
+          "贬义",
+          "厌恶"
+        ],
+        "intensity": 0.8
+      },
+      "domain": [
+        "general",
+        "news"
+      ],
       "registerFormality": "neutral"
     },
     "relations": {
-      "sameRoot": ["bigotry", "bigoted"],
+      "sameRoot": [
+        "bigotry",
+        "bigoted"
+      ],
       "sameAffix": [],
-      "synonyms": ["fanatic", "zealot", "dogmatist"],
-      "antonyms": ["liberal", "tolerant person"],
-      "domainCohort": ["prejudice", "intolerance", "fanaticism"],
-      "derivationPair": ["bigotry"],
+      "synonyms": [
+        "fanatic",
+        "zealot",
+        "dogmatist"
+      ],
+      "antonyms": [
+        "liberal",
+        "tolerant person"
+      ],
+      "domainCohort": [
+        "prejudice",
+        "intolerance",
+        "fanaticism"
+      ],
+      "derivationPair": [
+        "bigotry"
+      ],
       "morphVariants": [],
-      "sameImagery": ["fanatic", "zealot"]
+      "sameImagery": [
+        "fanatic",
+        "zealot"
+      ]
     }
   },
   {
     "word": "bigotry",
     "phonetic": "/'bɪɡətri/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "固执、顽固、偏执", "domain": "general", "coverage": 0.9 }],
-    "morphemes": [
-      { "order": 1, "form": "bigot", "role": "root", "canonical": "bigot", "variantOf": null, "coreMeaning": { "cn": "顽固", "en": "bigot" }, "sentiment": { "tags": ["贬义"], "intensity": 0.7 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-ry", "role": "suffix", "canonical": "-ry", "variantOf": null, "coreMeaning": { "cn": "名词后缀、状态/行为", "grammatical": true }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["bigot", "bigotry"],
+    "coreMeaning": [
+      {
+        "cn": "固执、顽固、偏执",
+        "domain": "general",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bigot",
+        "role": "root",
+        "canonical": "bigot",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "顽固",
+          "en": "bigot"
+        },
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 0.7
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-ry",
+        "role": "suffix",
+        "canonical": "-ry",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "名词后缀、状态/行为",
+          "grammatical": true
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "bigot",
+      "bigotry"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "偏执状态",
-      "imageChain": ["顽固偏执", "抱残守缺", "偏执"],
+      "imageChain": [
+        "顽固偏执",
+        "抱残守缺",
+        "偏执"
+      ],
       "mnemonicExpr": "bigot(顽固者)+ry → 偏执状态 → 顽固"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["贬义", "厌恶"], "intensity": 0.8 },
-      "domain": ["general", "news"],
+      "sentiment": {
+        "tags": [
+          "贬义",
+          "厌恶"
+        ],
+        "intensity": 0.8
+      },
+      "domain": [
+        "general",
+        "news"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["bigot", "bigoted"],
-      "sameAffix": [{ "affix": "-ry", "members": ["rivalry", "mimicry"] }],
-      "synonyms": ["intolerance", "prejudice", "fanaticism"],
-      "antonyms": ["tolerance", "open-mindedness"],
-      "domainCohort": ["prejudice", "intolerance"],
-      "derivationPair": ["bigot"],
+      "sameRoot": [
+        "bigot",
+        "bigoted"
+      ],
+      "sameAffix": [
+        "rivalry",
+        "mimicry"
+      ],
+      "synonyms": [
+        "intolerance",
+        "prejudice",
+        "fanaticism"
+      ],
+      "antonyms": [
+        "tolerance",
+        "open-mindedness"
+      ],
+      "domainCohort": [
+        "prejudice",
+        "intolerance"
+      ],
+      "derivationPair": [
+        "bigot"
+      ],
       "morphVariants": [],
-      "sameImagery": ["intolerance", "prejudice"]
+      "sameImagery": [
+        "intolerance",
+        "prejudice"
+      ]
     }
   },
   {
     "word": "bigram",
     "phonetic": "/'bɪɡræm/",
-    "pos": ["n."],
-    "coreMeaning": [{ "cn": "二元语法、二元组", "domain": "tech", "coverage": 0.95 }],
-    "morphemes": [
-      { "order": 1, "form": "bi-", "role": "prefix", "canonical": "bi-", "variantOf": null, "coreMeaning": { "cn": "二、两", "en": "two" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "initial" },
-      { "order": 2, "form": "-gram", "role": "suffix", "canonical": "-gram", "variantOf": null, "coreMeaning": { "cn": "字母/书写单位", "en": "letter, unit of writing" }, "sentiment": { "tags": ["中性"], "intensity": 0 }, "positionTendency": "final" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": ["gram", "bigram"],
+    "coreMeaning": [
+      {
+        "cn": "二元语法、二元组",
+        "domain": "tech",
+        "coverage": 0.95
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "bi-",
+        "role": "prefix",
+        "canonical": "bi-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "二、两",
+          "en": "two"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "-gram",
+        "role": "suffix",
+        "canonical": "-gram",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "字母/书写单位",
+          "en": "letter, unit of writing"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "gram",
+      "bigram"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "二元组",
-      "imageChain": ["两字节/两词", "NLP模型", "二元语法"],
+      "imageChain": [
+        "两字节/两词",
+        "NLP模型",
+        "二元语法"
+      ],
       "mnemonicExpr": "bi(二)+gram(字节) → 二元组 → 二元语法"
     },
     "wordLevel": {
-      "sentiment": { "tags": ["中性"], "intensity": 0 },
-      "domain": ["tech", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech",
+        "academic"
+      ],
       "registerFormality": "formal"
     },
     "relations": {
-      "sameRoot": ["unigram", "trigram", "n-gram"],
-      "sameAffix": [{ "affix": "bi-", "members": ["bicycle", "biennial"] }],
-      "synonyms": ["2-gram"],
-      "antonyms": ["unigram"],
-      "domainCohort": ["nlp", "language model", "n-gram"],
+      "sameRoot": [
+        "unigram",
+        "trigram",
+        "n-gram"
+      ],
+      "sameAffix": [
+        "bicycle",
+        "biennial"
+      ],
+      "synonyms": [
+        "2-gram"
+      ],
+      "antonyms": [
+        "unigram"
+      ],
+      "domainCohort": [
+        "nlp",
+        "language model",
+        "n-gram"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["trigram", "unigram"]
+      "sameImagery": [
+        "trigram",
+        "unigram"
+      ]
     }
   }
 ]
