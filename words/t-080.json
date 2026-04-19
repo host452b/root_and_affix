@@ -1,178 +1,480 @@
 [
   {
-    "word": "triumph",
-    "phonetic": "/'traɪʌmf/",
+    "word": "triskaidekaphobia",
+    "phonetic": "/ˌtrɪskaɪˌdɛkəˈfəʊbiə/",
     "pos": [
-      "n.",
-      "vi."
+      "n."
     ],
     "coreMeaning": {
-      "cn": "胜利；凯旋；欢欣",
-      "en": "a great victory or achievement; to win decisively"
+      "cn": "对13的恐惧症",
+      "en": "extreme superstitious fear of the number 13"
     },
     "morphemes": [
       {
-        "canonical": "triumph",
-        "role": "root",
-        "meaning": "胜利（L. triumphus，凯旋式）",
+        "canonical": "tri-",
+        "role": "prefix",
+        "form": "triskaideka",
+        "meaning": "thirteen (Greek)",
+        "order": 1,
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
-            "积极"
+            "消极"
           ],
-          "intensity": 2
+          "intensity": -1
         },
-        "order": 1,
-        "form": "triumph",
-        "positionTendency": "medial"
+        "coreMeaning": {
+          "cn": "十三",
+          "en": "thirteen"
+        }
+      },
+      {
+        "canonical": "phobia",
+        "role": "suffix",
+        "form": "phobia",
+        "meaning": "fear",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -2
+        },
+        "coreMeaning": {
+          "cn": "恐惧",
+          "en": "fear"
+        }
       }
     ],
     "derivationChain": [
-      "L. triumphus",
-      "triumph"
+      "Greek triskaideka (13) + phobia"
     ],
     "memorySemantics": {
-      "imageKey": "athlete raising arms at finish line",
-      "scene": "运动员冲过终点线，双臂高举，泪水与笑容交织",
-      "emotionalHook": "历尽艰辛后胜利的无上喜悦",
-      "imageChain": []
+      "mnemonicExpr": "tris(三)+kai(和)+deka(十)+phobia(恐惧)=对13的恐惧",
+      "imageChain": [
+        "数字13→不吉→恐惧"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "general",
-        "academic",
-        "literary"
-      ],
+      "domain": "medical",
       "sentiment": {
         "tags": [
-          "积极"
+          "消极"
         ],
-        "intensity": 2
+        "intensity": -1
       }
     },
     "relations": {
       "sameRoot": [
-        "triumphal",
-        "triumphant",
-        "triumphantly"
+        "claustrophobia",
+        "arachnophobia"
       ],
-      "sameAffix": [],
-      "synonyms": [
-        "victory",
-        "conquest",
-        "success",
-        "win"
+      "sameAffix": [
+        "phobia",
+        "-phobia"
       ],
-      "antonyms": [
-        "defeat",
-        "failure",
-        "loss",
-        "debacle"
-      ],
+      "synonyms": [],
+      "antonyms": [],
       "domainCohort": [
-        "victory",
-        "conquest",
-        "achievement",
-        "glory"
+        "phobia",
+        "superstition"
       ],
-      "derivationPair": [
-        "triumphal",
-        "triumphant"
-      ],
+      "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
     }
   },
   {
-    "word": "triumphant",
-    "phonetic": "/traɪ'ʌmfənt/",
+    "word": "triskelion",
+    "phonetic": "/trɪˈskɛliən/",
     "pos": [
-      "adj."
+      "n."
     ],
     "coreMeaning": {
-      "cn": "得胜的；得意洋洋的",
-      "en": "having achieved victory; feeling great elation"
+      "cn": "三旋标；三腿旋转图形",
+      "en": "a motif consisting of three spirals or legs radiating from a center"
     },
     "morphemes": [
       {
-        "canonical": "triumph",
-        "role": "root",
-        "meaning": "胜利",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 2
-        },
+        "canonical": "tri-",
+        "role": "prefix",
+        "form": "tri",
+        "meaning": "three",
         "order": 1,
-        "form": "triumph",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-ant",
-        "role": "suffix",
-        "meaning": "具有…特征的（形容词后缀）",
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
+        "coreMeaning": {
+          "cn": "三",
+          "en": "three"
+        }
+      },
+      {
+        "canonical": "skelos",
+        "role": "root",
+        "form": "skelion",
+        "meaning": "leg (Greek)",
         "order": 2,
-        "form": "ant",
-        "positionTendency": "final"
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "腿",
+          "en": "leg"
+        }
       }
     ],
     "derivationChain": [
-      "triumph (n./v.)",
-      "triumphant (adj.)"
+      "Greek triskeles"
     ],
     "memorySemantics": {
-      "imageKey": "crowd cheering champions",
-      "scene": "球队夺冠，球迷涌上街头欢庆，球员得意洋洋",
-      "emotionalHook": "胜利者的骄傲与喜悦",
-      "imageChain": []
+      "mnemonicExpr": "tri(三)+skelion(腿)=三条腿旋转的纹章图案",
+      "imageChain": [
+        "三腿→旋转→凯尔特符号"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "general",
-        "ielts"
-      ],
+      "domain": "academic",
       "sentiment": {
         "tags": [
-          "积极"
+          "中性"
         ],
-        "intensity": 2
+        "intensity": 0
       }
     },
     "relations": {
       "sameRoot": [
-        "triumph",
-        "triumphal"
+        "tricycle",
+        "trilogy"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "heraldry",
+        "Celtic",
+        "symbol"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "trismus",
+    "phonetic": "/ˈtrɪzməs/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "牙关紧闭症；锁颌",
+      "en": "persistent spasm of the jaw muscles causing inability to open the mouth"
+    },
+    "morphemes": [
+      {
+        "canonical": "trismus",
+        "role": "root",
+        "form": "trismus",
+        "meaning": "grinding, gnashing (Greek trismos)",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "磨牙痉挛",
+          "en": "jaw spasm"
+        }
+      }
+    ],
+    "derivationChain": [
+      "Greek trismos"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "trismus = 下颌肌肉痉挛，无法张口",
+      "imageChain": [
+        "下颌→痉挛→紧咬"
+      ]
+    },
+    "wordLevel": {
+      "domain": "medical",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "lockjaw"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "tetanus",
+        "jaw",
+        "muscle"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "trisodium",
+    "phonetic": "/traɪˈsəʊdiəm/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "三钠的；含三个钠原子的",
+      "en": "containing three sodium atoms"
+    },
+    "morphemes": [
+      {
+        "canonical": "tri-",
+        "role": "prefix",
+        "form": "tri",
+        "meaning": "three",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "三",
+          "en": "three"
+        }
+      },
+      {
+        "canonical": "sodium",
+        "role": "root",
+        "form": "sodium",
+        "meaning": "sodium (chemical element)",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "钠",
+          "en": "sodium"
+        }
+      }
+    ],
+    "derivationChain": [
+      "tri + sodium"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "tri(三)+sodium(钠)=含三个钠的化合物",
+      "imageChain": [
+        "三→钠→化学式"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "sodium",
+        "disodium"
       ],
       "sameAffix": [
-        "dominant",
-        "exultant",
-        "jubilant"
+        "tricycle",
+        "triangle"
       ],
-      "synonyms": [
-        "victorious",
-        "exultant",
-        "jubilant",
-        "elated"
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "chemistry",
+        "compound"
       ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "trisomy",
+    "phonetic": "/ˈtrɪsəmi/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "三体性；三染色体性",
+      "en": "a condition in which an extra chromosome is present in cell nuclei"
+    },
+    "morphemes": [
+      {
+        "canonical": "tri-",
+        "role": "prefix",
+        "form": "tri",
+        "meaning": "three",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "三",
+          "en": "three"
+        }
+      },
+      {
+        "canonical": "soma",
+        "role": "root",
+        "form": "somy",
+        "meaning": "body, chromosome (Greek soma)",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "体；染色体",
+          "en": "body/chromosome"
+        }
+      }
+    ],
+    "derivationChain": [
+      "tri + -somy"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "tri(三)+somy(染色体)=三条染色体，如唐氏综合征",
+      "imageChain": [
+        "染色体→三条→异常"
+      ]
+    },
+    "wordLevel": {
+      "domain": "medical",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "chromosome",
+        "monosomy"
+      ],
+      "sameAffix": [
+        "trisodium",
+        "triangle"
+      ],
+      "synonyms": [],
       "antonyms": [
-        "defeated",
-        "dejected",
-        "crestfallen"
+        "monosomy"
       ],
       "domainCohort": [
-        "victorious",
-        "exultant",
-        "jubilant"
+        "genetics",
+        "chromosome",
+        "Down syndrome"
       ],
-      "derivationPair": [
-        "triumph"
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "triste",
+    "phonetic": "/triːst/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "悲哀的；忧郁的",
+      "en": "sad; mournful (borrowed from French)"
+    },
+    "morphemes": [
+      {
+        "canonical": "triste",
+        "role": "root",
+        "form": "triste",
+        "meaning": "sad (French/Latin tristis)",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "悲哀",
+          "en": "sad"
+        }
+      }
+    ],
+    "derivationChain": [
+      "Latin tristis"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "triste = 法语悲伤，文学语境中使用",
+      "imageChain": [
+        "法语→忧郁→悲哀"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "trist"
       ],
+      "sameAffix": [],
+      "synonyms": [
+        "sad",
+        "melancholy"
+      ],
+      "antonyms": [
+        "joyful",
+        "happy"
+      ],
+      "domainCohort": [
+        "literature",
+        "emotion"
+      ],
+      "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -184,42 +486,40 @@
       "adj."
     ],
     "coreMeaning": {
-      "cn": "陈腐的；平庸的",
-      "en": "overused and lacking originality; hackneyed"
+      "cn": "陈腐的；平庸的；老一套的",
+      "en": "overused and consequently of little thought or originality; clichéd"
     },
     "morphemes": [
       {
-        "canonical": "trite",
+        "canonical": "trit",
         "role": "root",
-        "meaning": "磨损的（L. tritus，磨碎）",
+        "form": "trite",
+        "meaning": "worn out, rubbed (Latin tritus)",
+        "order": 1,
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "消极"
           ],
           "intensity": -1
         },
-        "order": 1,
-        "form": "trite",
-        "positionTendency": "medial"
+        "coreMeaning": {
+          "cn": "磨损的",
+          "en": "worn out"
+        }
       }
     ],
     "derivationChain": [
-      "L. terere",
-      "tritus",
-      "trite"
+      "Latin tritus (worn)"
     ],
     "memorySemantics": {
-      "imageKey": "worn-out coin",
-      "scene": "钱币被用了太多次，花纹已经模糊不清",
-      "emotionalHook": "听到第N遍老套话的疲倦感",
-      "imageChain": []
+      "mnemonicExpr": "trite来自Latin tritus(磨光了的)=被磨光了的陈词滥调",
+      "imageChain": [
+        "磨损→老掉牙→陈腐"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "general",
-        "literary",
-        "gre"
-      ],
+      "domain": "academic",
       "sentiment": {
         "tags": [
           "消极"
@@ -229,226 +529,93 @@
     },
     "relations": {
       "sameRoot": [
-        "attrition",
-        "contrite",
-        "detriment"
+        "tritely",
+        "triteness",
+        "triter",
+        "tritest"
       ],
       "sameAffix": [],
       "synonyms": [
+        "clichéd",
         "hackneyed",
-        "banal",
-        "cliche",
-        "stale",
-        "commonplace"
+        "banal"
       ],
       "antonyms": [
         "original",
         "fresh",
-        "novel",
-        "innovative"
+        "novel"
       ],
       "domainCohort": [
-        "hackneyed",
-        "banal",
-        "stale",
-        "commonplace"
+        "writing",
+        "expression",
+        "rhetoric"
       ],
       "derivationPair": [
-        "triteness",
-        "tritely"
+        "triteness"
       ],
       "morphVariants": [],
       "sameImagery": []
     }
   },
   {
-    "word": "trivial",
-    "phonetic": "/'trɪvɪəl/",
+    "word": "tritely",
+    "phonetic": "/ˈtraɪtli/",
     "pos": [
-      "adj."
+      "adv."
     ],
     "coreMeaning": {
-      "cn": "琐碎的；不重要的",
-      "en": "of little significance or value"
+      "cn": "陈腐地；平庸地",
+      "en": "in a trite manner"
     },
     "morphemes": [
       {
-        "canonical": "tri-",
-        "role": "prefix",
-        "meaning": "三",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "tri",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "via",
+        "canonical": "trit",
         "role": "root",
-        "meaning": "路；道路（L. via）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "vi",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-al",
-        "role": "suffix",
-        "meaning": "…的（形容词后缀）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "al",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "L. trivium",
-      "trivialis",
-      "trivial"
-    ],
-    "memorySemantics": {
-      "imageKey": "crossroads gossip",
-      "scene": "古罗马三岔路口，人们聚集闲聊小事，无关紧要",
-      "emotionalHook": "被细枝末节耗费精力的无奈",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general",
-        "academic",
-        "gre"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": -1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "trivia",
-        "trivialize",
-        "trivially",
-        "trivium"
-      ],
-      "sameAffix": [
-        "initial",
-        "final",
-        "central"
-      ],
-      "synonyms": [
-        "insignificant",
-        "minor",
-        "petty",
-        "trifling",
-        "unimportant"
-      ],
-      "antonyms": [
-        "significant",
-        "important",
-        "crucial",
-        "vital"
-      ],
-      "domainCohort": [
-        "insignificant",
-        "trifling",
-        "petty",
-        "negligible"
-      ],
-      "derivationPair": [
-        "trivia",
-        "triviality",
-        "trivialize"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "trivialize",
-    "phonetic": "/'trɪvɪəlaɪz/",
-    "pos": [
-      "vt."
-    ],
-    "coreMeaning": {
-      "cn": "使显得不重要；轻视",
-      "en": "to make something seem unimportant"
-    },
-    "morphemes": [
-      {
-        "canonical": "tri-",
-        "role": "prefix",
-        "meaning": "三",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
+        "form": "trite",
+        "meaning": "worn out",
         "order": 1,
-        "form": "tri",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "via",
-        "role": "root",
-        "meaning": "路；道路（平凡之处）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "vi",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ize",
-        "role": "suffix",
-        "meaning": "使…化",
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "消极"
           ],
           "intensity": -1
         },
-        "order": 3,
-        "form": "ize",
-        "positionTendency": "final"
+        "coreMeaning": {
+          "cn": "陈腐",
+          "en": "trite"
+        }
+      },
+      {
+        "canonical": "-ly",
+        "role": "suffix",
+        "form": "ly",
+        "meaning": "adverb",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "副词化",
+          "en": "adverb"
+        }
       }
     ],
     "derivationChain": [
-      "trivial (adj.)",
-      "trivialize (v.)"
+      "trite"
     ],
     "memorySemantics": {
-      "imageKey": "dismissive wave of hand",
-      "scene": "上司轻描淡写地挥手，把员工的重要建议一笔带过",
-      "emotionalHook": "努力被否定的委屈感",
-      "imageChain": []
+      "mnemonicExpr": "trite + ly = 以陈腐方式",
+      "imageChain": [
+        "陈腐→方式"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "general",
-        "academic",
-        "toefl"
-      ],
+      "domain": "academic",
       "sentiment": {
         "tags": [
           "消极"
@@ -458,110 +625,258 @@
     },
     "relations": {
       "sameRoot": [
-        "trivial",
-        "trivia",
-        "trivium"
+        "trite",
+        "triteness"
       ],
-      "sameAffix": [
-        "minimize",
-        "marginalize",
-        "downplay"
-      ],
+      "sameAffix": [],
       "synonyms": [
-        "minimize",
-        "downplay",
-        "belittle",
-        "diminish"
+        "banally",
+        "clichédly"
       ],
-      "antonyms": [
-        "emphasize",
-        "magnify",
-        "exaggerate",
-        "highlight"
-      ],
-      "domainCohort": [
-        "minimize",
-        "downplay",
-        "belittle"
-      ],
+      "antonyms": [],
+      "domainCohort": [],
       "derivationPair": [
-        "trivial",
-        "triviality"
+        "trite"
       ],
       "morphVariants": [],
       "sameImagery": []
     }
   },
   {
-    "word": "triumvirate",
-    "phonetic": "/traɪ'ʌmvɪrɪt/",
+    "word": "triteness",
+    "phonetic": "/ˈtraɪtnəs/",
     "pos": [
       "n."
     ],
     "coreMeaning": {
-      "cn": "三头政治；三人执政团",
-      "en": "a group of three powerful rulers or leaders"
+      "cn": "陈腐；平庸",
+      "en": "the quality of being trite; lack of originality"
+    },
+    "morphemes": [
+      {
+        "canonical": "trit",
+        "role": "root",
+        "form": "trite",
+        "meaning": "worn out",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "陈腐",
+          "en": "trite"
+        }
+      },
+      {
+        "canonical": "-ness",
+        "role": "suffix",
+        "form": "ness",
+        "meaning": "quality of",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "性质",
+          "en": "quality"
+        }
+      }
+    ],
+    "derivationChain": [
+      "trite"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "trite + ness = 陈腐的性质",
+      "imageChain": [
+        "缺乏新意→性质"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "trite",
+        "tritely"
+      ],
+      "sameAffix": [
+        "banality",
+        "commonplace"
+      ],
+      "synonyms": [
+        "banality",
+        "cliché",
+        "hackneyed-ness"
+      ],
+      "antonyms": [
+        "originality",
+        "novelty"
+      ],
+      "domainCohort": [
+        "writing",
+        "rhetoric"
+      ],
+      "derivationPair": [
+        "trite"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "triticale",
+    "phonetic": "/ˌtrɪtɪˈkeɪli/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "小黑麦；黑小麦杂交品种",
+      "en": "a hybrid cereal grain created by crossing wheat and rye"
+    },
+    "morphemes": [
+      {
+        "canonical": "triticum",
+        "role": "root",
+        "form": "tritic",
+        "meaning": "wheat (Latin)",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "小麦",
+          "en": "wheat"
+        }
+      },
+      {
+        "canonical": "secale",
+        "role": "root",
+        "form": "ale",
+        "meaning": "rye (Latin)",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "黑麦",
+          "en": "rye"
+        }
+      }
+    ],
+    "derivationChain": [
+      "Triticum (wheat) + Secale (rye)"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "Triticum(小麦)+Secale(黑麦)=小黑麦杂交种",
+      "imageChain": [
+        "小麦→黑麦→杂交→小黑麦"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "cereal",
+        "grain",
+        "hybrid"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "tritium",
+    "phonetic": "/ˈtrɪtiəm/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "氚（氢的同位素）",
+      "en": "a radioactive isotope of hydrogen with mass number 3"
     },
     "morphemes": [
       {
         "canonical": "tri-",
         "role": "prefix",
-        "meaning": "三",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
         "form": "tri",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "vir-",
-        "role": "root",
-        "meaning": "男人（L. vir）",
+        "meaning": "three",
+        "order": 1,
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 2,
-        "form": "umvir",
-        "positionTendency": "medial"
+        "coreMeaning": {
+          "cn": "三",
+          "en": "three"
+        }
       },
       {
-        "canonical": "-ate",
+        "canonical": "-ium",
         "role": "suffix",
-        "meaning": "集体；职位（名词后缀）",
+        "form": "ium",
+        "meaning": "element suffix",
+        "order": 2,
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 3,
-        "form": "ate",
-        "positionTendency": "final"
+        "coreMeaning": {
+          "cn": "元素",
+          "en": "element"
+        }
       }
     ],
     "derivationChain": [
-      "L. triumviri",
-      "triumvirate"
+      "Greek tritos (third) + -ium"
     ],
     "memorySemantics": {
-      "imageKey": "three Roman senators",
-      "scene": "凯撒、庞培、克拉苏三人分权统治罗马共和国",
-      "emotionalHook": "权力三分的历史感",
-      "imageChain": []
+      "mnemonicExpr": "tri(三)+ium=质量数为3的氢同位素",
+      "imageChain": [
+        "三→质子中子→氚"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "history",
-        "academic",
-        "literary"
-      ],
+      "domain": "academic",
       "sentiment": {
         "tags": [
           "中性"
@@ -571,27 +886,3083 @@
     },
     "relations": {
       "sameRoot": [
-        "virile",
-        "virtue",
-        "trio"
+        "deuterium",
+        "protium"
+      ],
+      "sameAffix": [
+        "helium",
+        "uranium"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "isotope",
+        "hydrogen",
+        "nuclear"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "triumph",
+    "phonetic": "/ˈtraɪʌmf/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "胜利；凯旋；成功",
+      "en": "a great victory or achievement"
+    },
+    "morphemes": [
+      {
+        "canonical": "triumph",
+        "role": "root",
+        "form": "triumph",
+        "meaning": "victory, procession (Latin triumphus)",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 2
+        },
+        "coreMeaning": {
+          "cn": "胜利",
+          "en": "victory"
+        }
+      }
+    ],
+    "derivationChain": [],
+    "memorySemantics": {
+      "mnemonicExpr": "triumph = 罗马将军凯旋仪式→胜利",
+      "imageChain": [
+        "战争→胜利→凯旋游行"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "triumphal",
+        "triumphant",
+        "triumphed",
+        "triumphs"
       ],
       "sameAffix": [],
       "synonyms": [
-        "troika",
-        "trio",
-        "triad"
+        "victory",
+        "success",
+        "conquest"
+      ],
+      "antonyms": [
+        "defeat",
+        "failure"
+      ],
+      "domainCohort": [
+        "victory",
+        "achievement",
+        "success"
+      ],
+      "derivationPair": [
+        "triumphant"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "triumphal",
+    "phonetic": "/traɪˈʌmfəl/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "凯旋的；庆功的",
+      "en": "relating to or celebrating a triumph"
+    },
+    "morphemes": [
+      {
+        "canonical": "triumph",
+        "role": "root",
+        "form": "triumph",
+        "meaning": "victory",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 2
+        },
+        "coreMeaning": {
+          "cn": "胜利",
+          "en": "victory"
+        }
+      },
+      {
+        "canonical": "-al",
+        "role": "suffix",
+        "form": "al",
+        "meaning": "relating to",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "有关的",
+          "en": "relating to"
+        }
+      }
+    ],
+    "derivationChain": [
+      "triumph"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "triumph + al = 凯旋相关的；triumphal arch = 凯旋门",
+      "imageChain": [
+        "凯旋→庆典→建筑"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "triumph",
+        "triumphant"
+      ],
+      "sameAffix": [
+        "regal",
+        "royal"
+      ],
+      "synonyms": [
+        "victorious",
+        "celebratory"
       ],
       "antonyms": [],
       "domainCohort": [
-        "triumvir",
-        "troika",
-        "triad",
-        "consortium"
+        "ceremony",
+        "monument",
+        "military"
       ],
+      "derivationPair": [
+        "triumph"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "triumphant",
+    "phonetic": "/traɪˈʌmfənt/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "得胜的；洋洋得意的",
+      "en": "having achieved a victory; rejoicing in a victory"
+    },
+    "morphemes": [
+      {
+        "canonical": "triumph",
+        "role": "root",
+        "form": "triumph",
+        "meaning": "victory",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 2
+        },
+        "coreMeaning": {
+          "cn": "胜利",
+          "en": "victory"
+        }
+      },
+      {
+        "canonical": "-ant",
+        "role": "suffix",
+        "form": "ant",
+        "meaning": "having the quality, performing",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "具有…性质",
+          "en": "having quality"
+        }
+      }
+    ],
+    "derivationChain": [
+      "triumph"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "triumph + ant = 正在享受胜利的",
+      "imageChain": [
+        "胜利→得意→欢呼"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "triumph",
+        "triumphantly",
+        "triumphal"
+      ],
+      "sameAffix": [
+        "exuberant",
+        "radiant"
+      ],
+      "synonyms": [
+        "victorious",
+        "exultant",
+        "jubilant"
+      ],
+      "antonyms": [
+        "defeated",
+        "crushed"
+      ],
+      "domainCohort": [
+        "victory",
+        "success",
+        "achievement"
+      ],
+      "derivationPair": [
+        "triumphantly"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "triumphantly",
+    "phonetic": "/traɪˈʌmfəntli/",
+    "pos": [
+      "adv."
+    ],
+    "coreMeaning": {
+      "cn": "得意洋洋地；凯旋地",
+      "en": "in a triumphant manner"
+    },
+    "morphemes": [
+      {
+        "canonical": "triumph",
+        "role": "root",
+        "form": "triumph",
+        "meaning": "victory",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 2
+        },
+        "coreMeaning": {
+          "cn": "胜利",
+          "en": "victory"
+        }
+      },
+      {
+        "canonical": "-ly",
+        "role": "suffix",
+        "form": "antly",
+        "meaning": "adverb",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "副词化",
+          "en": "adverb"
+        }
+      }
+    ],
+    "derivationChain": [
+      "triumphant"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "triumphant + ly = 欢呼雀跃地",
+      "imageChain": [
+        "胜利→方式→得意"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "triumphant",
+        "triumph"
+      ],
+      "sameAffix": [
+        "victoriously",
+        "jubilantly"
+      ],
+      "synonyms": [
+        "victoriously",
+        "exultantly"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "triumphant"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "triumphed",
+    "phonetic": "/ˈtraɪʌmft/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "获胜（过去时）",
+      "en": "past tense of triumph; won a victory"
+    },
+    "morphemes": [
+      {
+        "canonical": "triumph",
+        "role": "root",
+        "form": "triumph",
+        "meaning": "victory",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 2
+        },
+        "coreMeaning": {
+          "cn": "胜利",
+          "en": "victory"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "form": "ed",
+        "meaning": "past tense",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "过去时",
+          "en": "past tense"
+        }
+      }
+    ],
+    "derivationChain": [
+      "triumph"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "triumph + ed = 已经胜利了",
+      "imageChain": [
+        "胜利→完成"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "triumph",
+        "triumphing"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "won",
+        "prevailed"
+      ],
+      "antonyms": [
+        "failed",
+        "lost"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "triumph"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "triumphing",
+    "phonetic": "/ˈtraɪʌmfɪŋ/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "正在获胜；正在凯旋",
+      "en": "present participle of triumph"
+    },
+    "morphemes": [
+      {
+        "canonical": "triumph",
+        "role": "root",
+        "form": "triumph",
+        "meaning": "victory",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 2
+        },
+        "coreMeaning": {
+          "cn": "胜利",
+          "en": "victory"
+        }
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "form": "ing",
+        "meaning": "present participle",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "进行时",
+          "en": "present participle"
+        }
+      }
+    ],
+    "derivationChain": [
+      "triumph"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "triumph + ing = 正在获胜中",
+      "imageChain": [
+        "胜利进行时"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "triumph",
+        "triumphed"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "triumph"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "triumphs",
+    "phonetic": "/ˈtraɪʌmfs/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "胜利（复数）",
+      "en": "plural of triumph"
+    },
+    "morphemes": [
+      {
+        "canonical": "triumph",
+        "role": "root",
+        "form": "triumph",
+        "meaning": "victory",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 2
+        },
+        "coreMeaning": {
+          "cn": "胜利",
+          "en": "victory"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "plural",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "triumph"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "triumph的复数",
+      "imageChain": [
+        "多个胜利"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "triumph",
+        "triumphant"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "triumph"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "triumvir",
+    "phonetic": "/traɪˈʌmvər/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "三头政治成员；三执政之一",
+      "en": "one of three leaders sharing power equally"
+    },
+    "morphemes": [
+      {
+        "canonical": "tri-",
+        "role": "prefix",
+        "form": "tri",
+        "meaning": "three",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "三",
+          "en": "three"
+        }
+      },
+      {
+        "canonical": "vir",
+        "role": "root",
+        "form": "vir",
+        "meaning": "man (Latin)",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "男人",
+          "en": "man"
+        }
+      }
+    ],
+    "derivationChain": [
+      "Latin triumvir"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "tri(三)+vir(男人/大人)=三执政之一",
+      "imageChain": [
+        "三人→共同执政→三头制"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "triumvirate",
+        "triumvirs"
+      ],
+      "sameAffix": [
+        "virile",
+        "virtue"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "Rome",
+        "politics",
+        "history"
+      ],
+      "derivationPair": [
+        "triumvirate"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "triumvirate",
+    "phonetic": "/traɪˈʌmvɪrɪt/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "三头政治；三巨头",
+      "en": "a political regime dominated by three powerful leaders"
+    },
+    "morphemes": [
+      {
+        "canonical": "tri-",
+        "role": "prefix",
+        "form": "tri",
+        "meaning": "three",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "三",
+          "en": "three"
+        }
+      },
+      {
+        "canonical": "vir",
+        "role": "root",
+        "form": "vir",
+        "meaning": "man",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "男人",
+          "en": "man"
+        }
+      },
+      {
+        "canonical": "-ate",
+        "role": "suffix",
+        "form": "ate",
+        "meaning": "group, collective",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "集体",
+          "en": "group"
+        }
+      }
+    ],
+    "derivationChain": [
+      "triumvir"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "tri(三)+vir(人)+ate=三人执政集体；如凯撒三头政治",
+      "imageChain": [
+        "三人→权力→执政集团"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "triumvir",
+        "triumvirates"
+      ],
+      "sameAffix": [
+        "directorate",
+        "electorate"
+      ],
+      "synonyms": [
+        "trio",
+        "troika"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "politics",
+        "government",
+        "Rome"
+      ],
+      "derivationPair": [
+        "triumvirates"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "triumvirates",
+    "phonetic": "/traɪˈʌmvɪrɪts/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "三头政治（复数）",
+      "en": "plural of triumvirate"
+    },
+    "morphemes": [
+      {
+        "canonical": "tri-",
+        "role": "prefix",
+        "form": "tri",
+        "meaning": "three",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "三",
+          "en": "three"
+        }
+      },
+      {
+        "canonical": "vir",
+        "role": "root",
+        "form": "vir",
+        "meaning": "man",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "男人",
+          "en": "man"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "plural",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "triumvirate"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "triumvirate的复数",
+      "imageChain": [
+        "多个三头政治"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "triumvirate",
+        "triumvir"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "triumvirate"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "triumvirs",
+    "phonetic": "/traɪˈʌmvərz/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "三执政（复数）",
+      "en": "plural of triumvir"
+    },
+    "morphemes": [
+      {
+        "canonical": "tri-",
+        "role": "prefix",
+        "form": "tri",
+        "meaning": "three",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "三",
+          "en": "three"
+        }
+      },
+      {
+        "canonical": "vir",
+        "role": "root",
+        "form": "vir",
+        "meaning": "man",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "男人",
+          "en": "man"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "plural",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "triumvir"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "triumvir的复数",
+      "imageChain": [
+        "三位执政者"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "triumvir",
+        "triumvirate"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
       "derivationPair": [
         "triumvir"
       ],
       "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "triune",
+    "phonetic": "/ˈtraɪjuːn/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "三位一体的；三而一的",
+      "en": "three in one; being three in one (especially the Trinity)"
+    },
+    "morphemes": [
+      {
+        "canonical": "tri-",
+        "role": "prefix",
+        "form": "tri",
+        "meaning": "three",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "三",
+          "en": "three"
+        }
+      },
+      {
+        "canonical": "un-",
+        "role": "root",
+        "form": "une",
+        "meaning": "one (Latin unus)",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "一",
+          "en": "one"
+        }
+      }
+    ],
+    "derivationChain": [
+      "Latin tri + unus"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "tri(三)+une(一)=三合一的；三位一体",
+      "imageChain": [
+        "父子灵→三→一体"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "trinity",
+        "unite"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "trinitarian"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "theology",
+        "Christianity",
+        "Trinity"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "trivet",
+    "phonetic": "/ˈtrɪvɪt/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "三脚架；锅架",
+      "en": "a tripod or three-legged stand for supporting cookware over a fire"
+    },
+    "morphemes": [
+      {
+        "canonical": "tri-",
+        "role": "prefix",
+        "form": "tri",
+        "meaning": "three",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "三",
+          "en": "three"
+        }
+      },
+      {
+        "canonical": "pes",
+        "role": "root",
+        "form": "vet",
+        "meaning": "foot (Latin pes)",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "脚",
+          "en": "foot"
+        }
+      }
+    ],
+    "derivationChain": [
+      "Old English trefet, Latin tripede"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "tri(三)+vet(脚)=三脚锅架",
+      "imageChain": [
+        "三条腿→支撑→锅架"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "tripod",
+        "trivets"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "tripod",
+        "stand"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "kitchen",
+        "cooking",
+        "stand"
+      ],
+      "derivationPair": [
+        "trivets"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "trivets",
+    "phonetic": "/ˈtrɪvɪts/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "三脚架（复数）",
+      "en": "plural of trivet"
+    },
+    "morphemes": [
+      {
+        "canonical": "tri-",
+        "role": "prefix",
+        "form": "tri",
+        "meaning": "three",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "三",
+          "en": "three"
+        }
+      },
+      {
+        "canonical": "pes",
+        "role": "root",
+        "form": "vet",
+        "meaning": "foot",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "脚",
+          "en": "foot"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "plural",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "trivet"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "trivet的复数",
+      "imageChain": [
+        "多个锅架"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "trivet"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "trivet"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "trivia",
+    "phonetic": "/ˈtrɪviə/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "琐事；无关紧要的细节",
+      "en": "details, considerations, or pieces of information of little importance"
+    },
+    "morphemes": [
+      {
+        "canonical": "tri-",
+        "role": "prefix",
+        "form": "tri",
+        "meaning": "three",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "三",
+          "en": "three"
+        }
+      },
+      {
+        "canonical": "via",
+        "role": "root",
+        "form": "via",
+        "meaning": "road, way (Latin)",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "路",
+          "en": "road"
+        }
+      }
+    ],
+    "derivationChain": [
+      "Latin trivium (three roads = crossroads, commonplace)"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "tri(三)+via(路)=三叉路口=俗事→琐事",
+      "imageChain": [
+        "路口→人来人往→话题琐碎"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "trivial",
+        "trivialize",
+        "trivium"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "minutiae",
+        "details"
+      ],
+      "antonyms": [
+        "essentials"
+      ],
+      "domainCohort": [
+        "quiz",
+        "game",
+        "details"
+      ],
+      "derivationPair": [
+        "trivial"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "trivial",
+    "phonetic": "/ˈtrɪviəl/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "琐碎的；不重要的",
+      "en": "of little value or importance"
+    },
+    "morphemes": [
+      {
+        "canonical": "tri-",
+        "role": "prefix",
+        "form": "tri",
+        "meaning": "three (crossroads)",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "三",
+          "en": "three"
+        }
+      },
+      {
+        "canonical": "via",
+        "role": "root",
+        "form": "via",
+        "meaning": "road",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "路",
+          "en": "road"
+        }
+      },
+      {
+        "canonical": "-al",
+        "role": "suffix",
+        "form": "al",
+        "meaning": "relating to",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "有关的",
+          "en": "relating to"
+        }
+      }
+    ],
+    "derivationChain": [
+      "trivia"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "trivium(三叉路口)+al=大路边传播的平凡话题=琐碎的",
+      "imageChain": [
+        "路口→俗谈→琐碎"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "trivia",
+        "triviality",
+        "trivialize"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "insignificant",
+        "minor",
+        "trifling"
+      ],
+      "antonyms": [
+        "significant",
+        "important",
+        "crucial"
+      ],
+      "domainCohort": [
+        "importance",
+        "value"
+      ],
+      "derivationPair": [
+        "trivialize"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "trivialities",
+    "phonetic": "/ˌtrɪviˈælɪtiz/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "琐碎之事（复数）",
+      "en": "plural of triviality"
+    },
+    "morphemes": [
+      {
+        "canonical": "tri-",
+        "role": "prefix",
+        "form": "tri",
+        "meaning": "three (crossroads)",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "三",
+          "en": "three"
+        }
+      },
+      {
+        "canonical": "via",
+        "role": "root",
+        "form": "via",
+        "meaning": "road",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "路",
+          "en": "road"
+        }
+      },
+      {
+        "canonical": "-ities",
+        "role": "suffix",
+        "form": "alities",
+        "meaning": "plural nouns",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "triviality"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "triviality的复数",
+      "imageChain": [
+        "多件琐事"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "triviality",
+        "trivial",
+        "trivia"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "trifles",
+        "minutiae"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "triviality"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "triviality",
+    "phonetic": "/ˌtrɪviˈælɪti/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "琐碎；不重要性",
+      "en": "the quality of being trivial; something trivial"
+    },
+    "morphemes": [
+      {
+        "canonical": "tri-",
+        "role": "prefix",
+        "form": "tri",
+        "meaning": "three (crossroads)",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "三",
+          "en": "three"
+        }
+      },
+      {
+        "canonical": "via",
+        "role": "root",
+        "form": "via",
+        "meaning": "road",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "路",
+          "en": "road"
+        }
+      },
+      {
+        "canonical": "-ity",
+        "role": "suffix",
+        "form": "ality",
+        "meaning": "quality of",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "性质",
+          "en": "quality"
+        }
+      }
+    ],
+    "derivationChain": [
+      "trivial"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "trivial + ity = 琐碎的性质",
+      "imageChain": [
+        "不重要→性质→琐碎"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "trivial",
+        "trivia"
+      ],
+      "sameAffix": [
+        "banality",
+        "insignificance"
+      ],
+      "synonyms": [
+        "insignificance",
+        "pettiness"
+      ],
+      "antonyms": [
+        "importance",
+        "significance"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "trivial"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "trivialize",
+    "phonetic": "/ˈtrɪviəlaɪz/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "使显得不重要；轻视；淡化",
+      "en": "to make something appear less important than it is"
+    },
+    "morphemes": [
+      {
+        "canonical": "tri-",
+        "role": "prefix",
+        "form": "tri",
+        "meaning": "three (crossroads)",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "三",
+          "en": "three"
+        }
+      },
+      {
+        "canonical": "via",
+        "role": "root",
+        "form": "via",
+        "meaning": "road",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "路",
+          "en": "road"
+        }
+      },
+      {
+        "canonical": "-ize",
+        "role": "suffix",
+        "form": "ialize",
+        "meaning": "make, cause to be",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "使…化",
+          "en": "make"
+        }
+      }
+    ],
+    "derivationChain": [
+      "trivial"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "trivial + ize = 主动让某事显得微不足道",
+      "imageChain": [
+        "重要事→贬低→变琐碎"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "trivial",
+        "trivia",
+        "trivialized"
+      ],
+      "sameAffix": [
+        "minimize",
+        "belittle"
+      ],
+      "synonyms": [
+        "downplay",
+        "minimize",
+        "belittle"
+      ],
+      "antonyms": [
+        "emphasize",
+        "magnify"
+      ],
+      "domainCohort": [
+        "rhetoric",
+        "argument"
+      ],
+      "derivationPair": [
+        "trivialized"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "trivialized",
+    "phonetic": "/ˈtrɪviəlaɪzd/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "被淡化的；被轻视的",
+      "en": "made to appear less important"
+    },
+    "morphemes": [
+      {
+        "canonical": "tri-",
+        "role": "prefix",
+        "form": "tri",
+        "meaning": "three",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "三",
+          "en": "three"
+        }
+      },
+      {
+        "canonical": "via",
+        "role": "root",
+        "form": "via",
+        "meaning": "road",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "路",
+          "en": "road"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "form": "ialized",
+        "meaning": "past participle",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "完成态",
+          "en": "past participle"
+        }
+      }
+    ],
+    "derivationChain": [
+      "trivialize"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "trivialize + d = 已被轻视淡化的",
+      "imageChain": [
+        "重要→被淡化"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "trivialize",
+        "trivial"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "downplayed",
+        "minimized"
+      ],
+      "antonyms": [
+        "emphasized"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "trivialize"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "trivializes",
+    "phonetic": "/ˈtrɪviəlaɪzɪz/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "淡化（第三人称单数）",
+      "en": "third person singular of trivialize"
+    },
+    "morphemes": [
+      {
+        "canonical": "tri-",
+        "role": "prefix",
+        "form": "tri",
+        "meaning": "three",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "三",
+          "en": "three"
+        }
+      },
+      {
+        "canonical": "via",
+        "role": "root",
+        "form": "via",
+        "meaning": "road",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "路",
+          "en": "road"
+        }
+      },
+      {
+        "canonical": "-es",
+        "role": "suffix",
+        "form": "ializes",
+        "meaning": "3rd person singular",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "第三人称单数",
+          "en": "3rd person"
+        }
+      }
+    ],
+    "derivationChain": [
+      "trivialize"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "trivialize的第三人称单数",
+      "imageChain": [
+        "它淡化…"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "trivialize",
+        "trivial"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "trivialize"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "trivializing",
+    "phonetic": "/ˈtrɪviəlaɪzɪŋ/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "正在淡化；轻视中",
+      "en": "present participle of trivialize"
+    },
+    "morphemes": [
+      {
+        "canonical": "tri-",
+        "role": "prefix",
+        "form": "tri",
+        "meaning": "three",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "三",
+          "en": "three"
+        }
+      },
+      {
+        "canonical": "via",
+        "role": "root",
+        "form": "via",
+        "meaning": "road",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "路",
+          "en": "road"
+        }
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "form": "ializing",
+        "meaning": "present participle",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "进行时",
+          "en": "present participle"
+        }
+      }
+    ],
+    "derivationChain": [
+      "trivialize"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "trivialize + ing = 正在淡化中",
+      "imageChain": [
+        "淡化→进行中"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "trivialize",
+        "trivial"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "trivialize"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "trivially",
+    "phonetic": "/ˈtrɪviəli/",
+    "pos": [
+      "adv."
+    ],
+    "coreMeaning": {
+      "cn": "无足轻重地；琐碎地",
+      "en": "in a trivial manner; with little importance"
+    },
+    "morphemes": [
+      {
+        "canonical": "tri-",
+        "role": "prefix",
+        "form": "tri",
+        "meaning": "three",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "三",
+          "en": "three"
+        }
+      },
+      {
+        "canonical": "via",
+        "role": "root",
+        "form": "via",
+        "meaning": "road",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "路",
+          "en": "road"
+        }
+      },
+      {
+        "canonical": "-ly",
+        "role": "suffix",
+        "form": "ally",
+        "meaning": "adverb",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "副词化",
+          "en": "adverb"
+        }
+      }
+    ],
+    "derivationChain": [
+      "trivial"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "trivial + ly = 无足轻重地",
+      "imageChain": [
+        "琐碎→方式→轻描淡写"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "trivial",
+        "trivia"
+      ],
+      "sameAffix": [
+        "insignificantly",
+        "negligibly"
+      ],
+      "synonyms": [
+        "insignificantly",
+        "slightly"
+      ],
+      "antonyms": [
+        "significantly",
+        "importantly"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "trivial"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "trivium",
+    "phonetic": "/ˈtrɪviəm/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "三科（中世纪文法、修辞、逻辑三学科）",
+      "en": "three subjects of grammar, rhetoric, and logic in medieval education"
+    },
+    "morphemes": [
+      {
+        "canonical": "tri-",
+        "role": "prefix",
+        "form": "tri",
+        "meaning": "three",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "三",
+          "en": "three"
+        }
+      },
+      {
+        "canonical": "via",
+        "role": "root",
+        "form": "vium",
+        "meaning": "road, way",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "路",
+          "en": "road"
+        }
+      }
+    ],
+    "derivationChain": [
+      "Latin trivium (three roads)"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "tri(三)+vium(路)=三条路=中世纪文科三基础",
+      "imageChain": [
+        "三叉路→三学科→文法修辞逻辑"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "trivia",
+        "trivial",
+        "quadrivium"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "education",
+        "liberal arts",
+        "medieval"
+      ],
+      "derivationPair": [
+        "trivia"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "trochaic",
+    "phonetic": "/trəʊˈkeɪɪk/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "扬抑格的；强弱格的",
+      "en": "relating to or consisting of trochees (strong-weak metrical feet)"
+    },
+    "morphemes": [
+      {
+        "canonical": "trochee",
+        "role": "root",
+        "form": "troch",
+        "meaning": "running, trochee (Greek trochaios)",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "扬抑",
+          "en": "trochee"
+        }
+      },
+      {
+        "canonical": "-ic",
+        "role": "suffix",
+        "form": "aic",
+        "meaning": "relating to",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "有关的",
+          "en": "relating to"
+        }
+      }
+    ],
+    "derivationChain": [
+      "trochee"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "trochee(扬抑格)+ic=扬抑格的诗歌节奏",
+      "imageChain": [
+        "强音→弱音→节奏"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "trochee"
+      ],
+      "sameAffix": [
+        "iambic",
+        "dactylic"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "iambic"
+      ],
+      "domainCohort": [
+        "poetry",
+        "meter",
+        "prosody"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "trochee",
+    "phonetic": "/ˈtrəʊkiː/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "扬抑格；强弱格",
+      "en": "a metrical foot with one stressed syllable followed by one unstressed"
+    },
+    "morphemes": [
+      {
+        "canonical": "trochee",
+        "role": "root",
+        "form": "trochee",
+        "meaning": "running foot (Greek trochaios)",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "扬抑格",
+          "en": "trochee"
+        }
+      }
+    ],
+    "derivationChain": [
+      "Greek trochaios"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "trochee = 强弱拍，如'tiger'→TI-ger",
+      "imageChain": [
+        "强音→弱音→一拍"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "trochaic"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [
+        "iamb"
+      ],
+      "domainCohort": [
+        "poetry",
+        "meter",
+        "prosody"
+      ],
+      "derivationPair": [
+        "trochaic"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "trod",
+    "phonetic": "/trɒd/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "踩踏（过去时）",
+      "en": "past tense of tread; walked or stepped on"
+    },
+    "morphemes": [
+      {
+        "canonical": "tread",
+        "role": "root",
+        "form": "trod",
+        "meaning": "tread, walk (Old English tredan)",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "踩踏",
+          "en": "tread"
+        }
+      }
+    ],
+    "derivationChain": [
+      "tread"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "trod = tread的不规则过去时，步行踩过",
+      "imageChain": [
+        "脚→踩地→走过"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "tread",
+        "trodden",
+        "trodden"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "walked",
+        "stepped",
+        "trampled"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "walk",
+        "path",
+        "step"
+      ],
+      "derivationPair": [
+        "tread"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "tristan",
+    "phonetic": "/ˈtrɪstən/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "特里斯坦（人名）",
+      "en": "a proper name; a knight of the Round Table in Arthurian legend"
+    },
+    "morphemes": [
+      {
+        "canonical": "tristan",
+        "role": "root",
+        "form": "tristan",
+        "meaning": "proper noun, personal name",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "人名",
+          "en": "personal name"
+        }
+      }
+    ],
+    "derivationChain": [],
+    "memorySemantics": {
+      "mnemonicExpr": "Tristan = 亚瑟王传说中的骑士，与Isolde的爱情故事",
+      "imageChain": [
+        "骑士→爱情→悲剧"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "Arthurian legend",
+        "opera",
+        "literature"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "tristram",
+    "phonetic": "/ˈtrɪstrəm/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "特里斯特拉姆（人名）",
+      "en": "a variant of the name Tristan; character in Arthurian legend"
+    },
+    "morphemes": [
+      {
+        "canonical": "tristram",
+        "role": "root",
+        "form": "tristram",
+        "meaning": "proper noun, personal name variant",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "人名",
+          "en": "personal name"
+        }
+      }
+    ],
+    "derivationChain": [],
+    "memorySemantics": {
+      "mnemonicExpr": "Tristram = Tristan的变体，也是Sterne小说主角",
+      "imageChain": [
+        "小说→人物→18世纪"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "tristan"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "literature",
+        "character"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "tristan"
+      ],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "triturate",
+    "phonetic": "/ˈtrɪtjʊreɪt/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "研磨；磨细",
+      "en": "to grind or crush something to a fine powder"
+    },
+    "morphemes": [
+      {
+        "canonical": "trit",
+        "role": "root",
+        "form": "tritur",
+        "meaning": "rub, grind (Latin terere)",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "研磨",
+          "en": "grind"
+        }
+      },
+      {
+        "canonical": "-ate",
+        "role": "suffix",
+        "form": "ate",
+        "meaning": "verb forming",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "动词化",
+          "en": "verb"
+        }
+      }
+    ],
+    "derivationChain": [
+      "Latin triturare"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "tritur(磨)+ate=把东西磨碎成粉末",
+      "imageChain": [
+        "药物→研磨→粉末"
+      ]
+    },
+    "wordLevel": {
+      "domain": "medical",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "trituration"
+      ],
+      "sameAffix": [
+        "macerate",
+        "pulverize"
+      ],
+      "synonyms": [
+        "grind",
+        "pulverize"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "pharmacy",
+        "chemistry",
+        "grinding"
+      ],
+      "derivationPair": [
+        "trituration"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "trituration",
+    "phonetic": "/ˌtrɪtjʊˈreɪʃən/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "研磨；粉碎",
+      "en": "the process of grinding or crushing to a fine powder"
+    },
+    "morphemes": [
+      {
+        "canonical": "trit",
+        "role": "root",
+        "form": "tritur",
+        "meaning": "grind, rub",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "研磨",
+          "en": "grind"
+        }
+      },
+      {
+        "canonical": "-ation",
+        "role": "suffix",
+        "form": "ation",
+        "meaning": "process, act",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "过程",
+          "en": "process"
+        }
+      }
+    ],
+    "derivationChain": [
+      "triturate"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "triturate + ation = 研磨过程",
+      "imageChain": [
+        "研磨→粉末→药物制备"
+      ]
+    },
+    "wordLevel": {
+      "domain": "medical",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "triturate"
+      ],
+      "sameAffix": [
+        "pulverization",
+        "maceration"
+      ],
+      "synonyms": [
+        "grinding",
+        "pulverization"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "pharmacy",
+        "chemistry"
+      ],
+      "derivationPair": [
+        "triturate"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "triton",
+    "phonetic": "/ˈtraɪtən/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "海神特里同；蝾螈；氚核",
+      "en": "a sea god in Greek mythology; a genus of newts; a tritium nucleus"
+    },
+    "morphemes": [
+      {
+        "canonical": "triton",
+        "role": "root",
+        "form": "triton",
+        "meaning": "Triton (Greek sea god)",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "海神",
+          "en": "sea god"
+        }
+      }
+    ],
+    "derivationChain": [
+      "Greek Triton"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "Triton = 波塞冬之子，半人半鱼海神；也指蝾螈",
+      "imageChain": [
+        "希腊神话→海神→半鱼人"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "mythology",
+        "biology",
+        "newt"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "trisomy",
+    "phonetic": "/ˈtrɪsəmi/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "三体综合征；三体性",
+      "en": "a chromosomal condition with an extra copy of a chromosome"
+    },
+    "morphemes": [
+      {
+        "canonical": "tri-",
+        "role": "prefix",
+        "form": "tri",
+        "meaning": "three",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "三",
+          "en": "three"
+        }
+      },
+      {
+        "canonical": "soma",
+        "role": "root",
+        "form": "somy",
+        "meaning": "chromosome body",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "染色体",
+          "en": "chromosome"
+        }
+      }
+    ],
+    "derivationChain": [
+      "tri + -somy"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "tri(三)+somy(染色体)=三体21→唐氏综合征",
+      "imageChain": [
+        "三→染色体→异常"
+      ]
+    },
+    "wordLevel": {
+      "domain": "medical",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "monosomy"
+      ],
+      "sameAffix": [
+        "tricycle"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "monosomy"
+      ],
+      "domainCohort": [
+        "genetics",
+        "Down syndrome"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "trivandrum",
+    "phonetic": "/trɪˈvændrəm/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "特里凡得琅（印度城市）",
+      "en": "former name of Thiruvananthapuram, capital of Kerala, India"
+    },
+    "morphemes": [
+      {
+        "canonical": "trivandrum",
+        "role": "root",
+        "form": "trivandrum",
+        "meaning": "Trivandrum, proper noun (from Malayalam)",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "地名",
+          "en": "place name"
+        }
+      }
+    ],
+    "derivationChain": [
+      "Malayalam Thiruvananthapuram"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "Trivandrum = 喀拉拉邦首府的旧英文名",
+      "imageChain": [
+        "印度→南部→港口城市"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "Thiruvananthapuram"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "India",
+        "Kerala",
+        "geography"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "Thiruvananthapuram"
+      ],
       "sameImagery": []
     }
   }

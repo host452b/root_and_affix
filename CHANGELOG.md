@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## v1.0.2 — 2026-04-19
+
+- 补全 Agent 20 写入的桶：v-020、w-022、w-042 等（共 9 个）
+- 全量修复 derivationChain/pos/wordLevel 格式（817 个文件）
+- Stage 2 重建：53,505 词 → 8,148 形素
+- Stage 3 重建：120,881 条边（12 类），较 v1.0.1 +557
+- 推送至 GitHub：host452b/root_and_affix（v1.0.2）
+
 ## v1.0.1 — 2026-04-19
 
 - Stage 1b 最终完成：1498/1498 桶（100%），补全 out-u-002 桶（25 词）

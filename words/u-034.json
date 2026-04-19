@@ -1,5 +1,214 @@
 [
   {
+    "word": "untangled",
+    "phonetic": "/ʌnˈtæŋɡəld/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "解开；理清（过去时）",
+      "en": "past tense of untangle; freed from tangles or confusion"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "reverse, not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "反转",
+          "en": "reverse"
+        }
+      },
+      {
+        "canonical": "tangle",
+        "role": "root",
+        "form": "tangle",
+        "meaning": "tangle, entwine",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "缠绕",
+          "en": "tangle"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "form": "d",
+        "meaning": "past tense",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "过去时",
+          "en": "past tense"
+        }
+      }
+    ],
+    "derivationChain": [
+      "tangle",
+      "untangle"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "un(解)+tangle(缠绕)+d=已解开的",
+      "imageChain": [
+        "缠绕→解开→理清"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "untangle",
+        "untangles"
+      ],
+      "sameAffix": [
+        "disentangled"
+      ],
+      "synonyms": [
+        "unraveled",
+        "resolved"
+      ],
+      "antonyms": [
+        "tangled",
+        "entangled"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "untangle"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untangles",
+    "phonetic": "/ʌnˈtæŋɡəlz/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "解开；理清（第三人称单数）",
+      "en": "third person singular of untangle"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "reverse",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "反转",
+          "en": "reverse"
+        }
+      },
+      {
+        "canonical": "tangle",
+        "role": "root",
+        "form": "tangle",
+        "meaning": "tangle",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "缠绕",
+          "en": "tangle"
+        }
+      },
+      {
+        "canonical": "-es",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "3rd person singular",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "第三人称",
+          "en": "3rd person"
+        }
+      }
+    ],
+    "derivationChain": [
+      "untangle"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "untangle的第三人称单数",
+      "imageChain": [
+        "它解开"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "untangle",
+        "untangled"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "untangle"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
     "word": "untapped",
     "phonetic": "/ˌʌnˈtæpt/",
     "pos": [
@@ -11,59 +220,71 @@
     },
     "morphemes": [
       {
-        "morpheme": "un-",
-        "role": "prefix",
         "canonical": "un-",
-        "meaning": "否定；未……的",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "未",
+          "en": "not"
         }
       },
       {
-        "morpheme": "tap",
-        "role": "root",
         "canonical": "tap",
-        "meaning": "轻叩；开采；利用",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        }
-      },
-      {
-        "morpheme": "-ed",
-        "role": "suffix",
-        "canonical": "-ed",
-        "meaning": "过去分词，表状态",
+        "role": "root",
+        "form": "tap",
+        "meaning": "tap into, access",
+        "order": 2,
+        "positionTendency": "medial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "开发利用",
+          "en": "tap"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "form": "ped",
+        "meaning": "past participle, adjective",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "完成态",
+          "en": "past participle"
         }
       }
     ],
     "derivationChain": [
-      "tap",
-      "tapped",
-      "untapped"
+      "tap"
     ],
     "memorySemantics": {
-      "imageKey": "未打开的油井",
-      "scene": "广袤的荒原下蕴藏着丰富的石油资源，油井管道还未插入，巨大的财富静静等待",
-      "emotionalHook": "untapped potential（未开发的潜力）——每个人内心都有尚未被触及的巨大能量",
-      "imageChain": []
+      "mnemonicExpr": "un(未)+tapped(被开发)=尚未被开采的宝藏",
+      "imageChain": [
+        "资源→未开发→潜力"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "gre",
-        "toefl",
-        "business"
-      ],
+      "domain": "business",
       "sentiment": {
         "tags": [
           "积极"
@@ -74,854 +295,108 @@
     "relations": {
       "sameRoot": [
         "tap",
-        "tapped",
-        "tapping"
+        "tapped"
       ],
       "sameAffix": [
-        "unused",
-        "untouched",
-        "unexplored"
+        "unexplored",
+        "undeveloped"
       ],
       "synonyms": [
         "unexploited",
         "undeveloped",
-        "latent",
-        "dormant"
+        "latent"
       ],
       "antonyms": [
         "tapped",
-        "exploited",
-        "developed"
+        "exploited"
       ],
       "domainCohort": [
-        "potential",
         "resource",
-        "reserve"
+        "potential",
+        "market"
       ],
-      "derivationPair": [
-        "tap → untapped"
-      ],
+      "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": [
-        "unexplored",
-        "dormant"
-      ]
+      "sameImagery": []
     }
   },
   {
-    "word": "untenable",
-    "phonetic": "/ʌnˈtɛnəbl/",
+    "word": "untarnished",
+    "phonetic": "/ʌnˈtɑːnɪʃt/",
     "pos": [
       "adj."
     ],
     "coreMeaning": {
-      "cn": "站不住脚的；无法防守的；不可维持的",
-      "en": "not able to be maintained or defended against attack or objection"
+      "cn": "未失去光泽的；未玷污的",
+      "en": "not tarnished; keeping original brightness and purity"
     },
     "morphemes": [
       {
-        "morpheme": "un-",
-        "role": "prefix",
         "canonical": "un-",
-        "meaning": "否定",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      },
-      {
-        "morpheme": "ten-",
-        "role": "root",
-        "canonical": "ten-",
-        "meaning": "持有；保持（拉丁语 tenere）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      },
-      {
-        "morpheme": "-able",
-        "role": "suffix",
-        "canonical": "-able",
-        "meaning": "能够……的",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      }
-    ],
-    "derivationChain": [
-      "tenere",
-      "tenable",
-      "untenable"
-    ],
-    "memorySemantics": {
-      "imageKey": "摇摇欲坠的论点",
-      "scene": "辩论赛中，一方的论点被对手逐一击破，像纸牌屋一样轰然倒塌",
-      "emotionalHook": "un-（不）+ ten（持）+ able（能）= 不能持守的，引申为论点站不住脚——学术争论中的关键判断词",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "gre",
-        "gmat",
-        "academic"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": -1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "tenable",
-        "tenant",
-        "tenure",
-        "retain",
-        "obtain"
-      ],
-      "sameAffix": [
-        "unteachable",
-        "unthinkable",
-        "untouchable"
-      ],
-      "synonyms": [
-        "indefensible",
-        "unsupportable",
-        "baseless",
-        "flimsy"
-      ],
-      "antonyms": [
-        "tenable",
-        "defensible",
-        "sound",
-        "valid"
-      ],
-      "domainCohort": [
-        "baseless",
-        "unfounded",
-        "groundless"
-      ],
-      "derivationPair": [
-        "tenable → untenable"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "groundless",
-        "baseless"
-      ]
-    }
-  },
-  {
-    "word": "untimely",
-    "phonetic": "/ʌnˈtaɪmli/",
-    "pos": [
-      "adj.",
-      "adv."
-    ],
-    "coreMeaning": {
-      "cn": "不合时宜的；过早的；时机不当的",
-      "en": "happening at an unsuitable or unfortunate time; happening too soon"
-    },
-    "morphemes": [
-      {
-        "morpheme": "un-",
         "role": "prefix",
-        "canonical": "un-",
-        "meaning": "否定",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      },
-      {
-        "morpheme": "time",
-        "role": "root",
-        "canonical": "time",
-        "meaning": "时间；时机",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      },
-      {
-        "morpheme": "-ly",
-        "role": "suffix",
-        "canonical": "-ly",
-        "meaning": "副词/形容词后缀",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      }
-    ],
-    "derivationChain": [
-      "time",
-      "timely",
-      "untimely"
-    ],
-    "memorySemantics": {
-      "imageKey": "英年早逝",
-      "scene": "莎士比亚剧中，年轻的罗密欧与朱丽叶在命运最不合适的时刻相爱、死亡",
-      "emotionalHook": "untimely death（英年早逝）——最令人扼腕的是时间错位，一切本可以不同",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "gre",
-        "sat",
-        "literary-corpus"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": -1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "time",
-        "timely",
-        "timeless",
-        "overtime"
-      ],
-      "sameAffix": [
-        "untimeliness",
-        "unseemly",
-        "ungainly"
-      ],
-      "synonyms": [
-        "premature",
-        "inopportune",
-        "ill-timed",
-        "unseasonable"
-      ],
-      "antonyms": [
-        "timely",
-        "opportune",
-        "seasonable"
-      ],
-      "domainCohort": [
-        "premature",
-        "inopportune",
-        "inappropriate"
-      ],
-      "derivationPair": [
-        "timely → untimely"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "premature",
-        "inopportune"
-      ]
-    }
-  },
-  {
-    "word": "untiring",
-    "phonetic": "/ʌnˈtaɪərɪŋ/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "不知疲倦的；不懈的",
-      "en": "not becoming tired; continuing with great energy and persistence"
-    },
-    "morphemes": [
-      {
-        "morpheme": "un-",
-        "role": "prefix",
-        "canonical": "un-",
-        "meaning": "否定",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      },
-      {
-        "morpheme": "tire",
-        "role": "root",
-        "canonical": "tire",
-        "meaning": "疲倦；使疲劳",
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": -1
-        }
-      },
-      {
-        "morpheme": "-ing",
-        "role": "suffix",
-        "canonical": "-ing",
-        "meaning": "形容词化，表持续状态",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      }
-    ],
-    "derivationChain": [
-      "tire",
-      "tiring",
-      "untiring",
-      "untiringly"
-    ],
-    "memorySemantics": {
-      "imageKey": "马拉松跑者",
-      "scene": "一位马拉松运动员在第40公里处仍然坚持奔跑，步伐稳健，意志力战胜了一切疲惫",
-      "emotionalHook": "untiring efforts（不懈的努力）——不知疲倦是成功者最珍贵的品质之一",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "academic",
-        "general"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "tire",
-        "tired",
-        "tireless",
-        "tiresome"
-      ],
-      "sameAffix": [
-        "unrelenting",
-        "unflagging",
-        "unwavering"
-      ],
-      "synonyms": [
-        "tireless",
-        "indefatigable",
-        "relentless",
-        "persistent"
-      ],
-      "antonyms": [
-        "tired",
-        "weary",
-        "fatigued",
-        "exhausted"
-      ],
-      "domainCohort": [
-        "persistent",
-        "tenacious",
-        "indefatigable"
-      ],
-      "derivationPair": [
-        "tiring → untiring"
-      ],
-      "morphVariants": [
-        "tireless"
-      ],
-      "sameImagery": [
-        "tireless",
-        "indefatigable"
-      ]
-    }
-  },
-  {
-    "word": "untold",
-    "phonetic": "/ˌʌnˈtoʊld/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "数不清的；无数的；未讲述的",
-      "en": "too much or too many to be counted; not narrated or revealed"
-    },
-    "morphemes": [
-      {
-        "morpheme": "un-",
-        "role": "prefix",
-        "canonical": "un-",
-        "meaning": "否定；未……的",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      },
-      {
-        "morpheme": "tell",
-        "role": "root",
-        "canonical": "tell",
-        "meaning": "讲述；计数",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      },
-      {
-        "morpheme": "-d",
-        "role": "suffix",
-        "canonical": "-ed",
-        "meaning": "过去分词",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      }
-    ],
-    "derivationChain": [
-      "tell",
-      "told",
-      "untold"
-    ],
-    "memorySemantics": {
-      "imageKey": "无数星辰",
-      "scene": "浩瀚宇宙中有无数颗无名星球，其中的故事从未被人类讲述——untold stories of the universe",
-      "emotionalHook": "untold suffering（难以言说的苦难）——有些痛苦已超越语言所能描述的极限",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "gre",
-        "ielts",
-        "literary-corpus"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "tell",
-        "told",
-        "teller",
-        "retell",
-        "foretell"
-      ],
-      "sameAffix": [
-        "unspoken",
-        "unwritten",
-        "unseen"
-      ],
-      "synonyms": [
-        "innumerable",
-        "incalculable",
-        "boundless",
-        "undisclosed"
-      ],
-      "antonyms": [
-        "told",
-        "narrated",
-        "countable",
-        "finite"
-      ],
-      "domainCohort": [
-        "countless",
-        "innumerable",
-        "myriad"
-      ],
-      "derivationPair": [
-        "tell → untold"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "countless",
-        "innumerable"
-      ]
-    }
-  },
-  {
-    "word": "untoward",
-    "phonetic": "/ˌʌnˈtɔːrd/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "不幸的；麻烦的；不顺的；倔强的",
-      "en": "unexpected and inappropriate or unfortunate; perverse"
-    },
-    "morphemes": [
-      {
-        "morpheme": "un-",
-        "role": "prefix",
-        "canonical": "un-",
-        "meaning": "否定",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      },
-      {
-        "morpheme": "toward",
-        "role": "root",
-        "canonical": "toward",
-        "meaning": "朝向；顺应",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "积极"
           ],
           "intensity": 1
-        }
-      }
-    ],
-    "derivationChain": [
-      "toward",
-      "towardly",
-      "untoward"
-    ],
-    "memorySemantics": {
-      "imageKey": "逆风而行",
-      "scene": "当所有事情都不按预期发展，像逆风行舟一样处处碰壁，令人沮丧",
-      "emotionalHook": "nothing untoward happened（没有发生意外）——负面含义的委婉表达，常用于正式场合",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "gre",
-        "sat",
-        "literary-corpus"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": -1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "toward",
-        "towards"
-      ],
-      "sameAffix": [
-        "unruly",
-        "ungovernable"
-      ],
-      "synonyms": [
-        "adverse",
-        "unfortunate",
-        "inauspicious",
-        "unseemly"
-      ],
-      "antonyms": [
-        "favorable",
-        "auspicious",
-        "propitious"
-      ],
-      "domainCohort": [
-        "adverse",
-        "unfavorable",
-        "inauspicious"
-      ],
-      "derivationPair": [
-        "toward → untoward"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "adverse",
-        "inauspicious"
-      ]
-    }
-  },
-  {
-    "word": "untouched",
-    "phonetic": "/ʌnˈtʌtʃt/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "未触及的；未改变的；完好无损的",
-      "en": "not touched, handled, or affected; left in original state"
-    },
-    "morphemes": [
-      {
-        "morpheme": "un-",
-        "role": "prefix",
-        "canonical": "un-",
-        "meaning": "否定",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "未",
+          "en": "not"
         }
       },
       {
-        "morpheme": "touch",
-        "role": "root",
-        "canonical": "touch",
-        "meaning": "触摸；触及",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      },
-      {
-        "morpheme": "-ed",
-        "role": "suffix",
-        "canonical": "-ed",
-        "meaning": "过去分词，表状态",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      }
-    ],
-    "derivationChain": [
-      "touch",
-      "touched",
-      "untouched"
-    ],
-    "memorySemantics": {
-      "imageKey": "原始雨林",
-      "scene": "亚马逊深处一片人迹未至的原始雨林，完全保存着自然最初的面貌",
-      "emotionalHook": "untouched wilderness（原始荒野）——在人类文明不断侵蚀的今天，untouched之处弥足珍贵",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "gre",
-        "general"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "touch",
-        "touched",
-        "touching",
-        "touchstone"
-      ],
-      "sameAffix": [
-        "unharmed",
-        "undamaged",
-        "unaffected"
-      ],
-      "synonyms": [
-        "unaffected",
-        "pristine",
-        "intact",
-        "unspoiled"
-      ],
-      "antonyms": [
-        "touched",
-        "affected",
-        "altered",
-        "disturbed"
-      ],
-      "domainCohort": [
-        "pristine",
-        "intact",
-        "unspoiled"
-      ],
-      "derivationPair": [
-        "touch → untouched"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "pristine",
-        "intact"
-      ]
-    }
-  },
-  {
-    "word": "untie",
-    "phonetic": "/ʌnˈtaɪ/",
-    "pos": [
-      "v."
-    ],
-    "coreMeaning": {
-      "cn": "解开；松开；解除束缚",
-      "en": "to undo a knot; to release from bonds"
-    },
-    "morphemes": [
-      {
-        "morpheme": "un-",
-        "role": "prefix",
-        "canonical": "un-",
-        "meaning": "反转动作；解除",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      },
-      {
-        "morpheme": "tie",
-        "role": "root",
-        "canonical": "tie",
-        "meaning": "系；绑；扎",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      }
-    ],
-    "derivationChain": [
-      "tie",
-      "untie",
-      "untied"
-    ],
-    "memorySemantics": {
-      "imageKey": "解开绳结",
-      "scene": "水手用熟练的手法解开复杂的绳结，船只重获自由，扬帆远航",
-      "emotionalHook": "untie the knot（解开绳结）——不仅是字面行动，更是解除一段束缚关系的隐喻",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general",
-        "cefr-b2"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "tie",
-        "tied",
-        "retie",
-        "untied"
-      ],
-      "sameAffix": [
-        "unwind",
-        "unbind",
-        "unfasten"
-      ],
-      "synonyms": [
-        "unfasten",
-        "loosen",
-        "undo",
-        "unbind"
-      ],
-      "antonyms": [
-        "tie",
-        "bind",
-        "fasten",
-        "knot"
-      ],
-      "domainCohort": [
-        "loosen",
-        "release",
-        "free"
-      ],
-      "derivationPair": [
-        "tie → untie"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "unbind",
-        "loosen"
-      ]
-    }
-  },
-  {
-    "word": "untarnished",
-    "phonetic": "/ʌnˈtɑːrnɪʃt/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "未失去光泽的；清白无瑕的；名誉未受损的",
-      "en": "not tarnished; remaining bright; not spoiled by criticism or dishonesty"
-    },
-    "morphemes": [
-      {
-        "morpheme": "un-",
-        "role": "prefix",
-        "canonical": "un-",
-        "meaning": "否定",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      },
-      {
-        "morpheme": "tarnish",
-        "role": "root",
         "canonical": "tarnish",
-        "meaning": "使失去光泽；玷污（名誉）",
+        "role": "root",
+        "form": "tarnish",
+        "meaning": "dull, stain",
+        "order": 2,
+        "positionTendency": "medial",
         "sentiment": {
           "tags": [
             "消极"
           ],
           "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "使失去光泽",
+          "en": "tarnish"
         }
       },
       {
-        "morpheme": "-ed",
-        "role": "suffix",
         "canonical": "-ed",
-        "meaning": "过去分词，表状态",
+        "role": "suffix",
+        "form": "ed",
+        "meaning": "past participle, adjective",
+        "order": 3,
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "完成态",
+          "en": "past participle"
         }
       }
     ],
     "derivationChain": [
-      "tarnish",
-      "tarnished",
-      "untarnished"
+      "tarnish"
     ],
     "memorySemantics": {
-      "imageKey": "银器光泽",
-      "scene": "一套保存完好的银质餐具，历经百年依然锃亮，没有丝毫锈斑",
-      "emotionalHook": "untarnished reputation（清白的声誉）——在政界或商界，声誉是最宝贵的资产，一旦玷污难以挽回",
-      "imageChain": []
+      "mnemonicExpr": "un(未)+tarnish(失泽)+ed=从未失去光泽的",
+      "imageChain": [
+        "金属→光亮→声誉完好"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "gre"
-      ],
+      "domain": "general",
       "sentiment": {
         "tags": [
           "积极"
@@ -935,101 +410,1048 @@
         "tarnished"
       ],
       "sameAffix": [
-        "unstained",
-        "unblemished",
-        "unsullied"
+        "unsullied",
+        "unblemished"
       ],
       "synonyms": [
         "unblemished",
-        "spotless",
         "pristine",
-        "unsullied"
+        "immaculate"
       ],
       "antonyms": [
         "tarnished",
-        "tainted",
-        "blemished",
         "sullied"
       ],
       "domainCohort": [
-        "spotless",
-        "impeccable",
-        "irreproachable"
+        "reputation",
+        "honor",
+        "metal"
       ],
-      "derivationPair": [
-        "tarnish → untarnished"
-      ],
+      "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": [
-        "spotless",
-        "pristine"
-      ]
+      "sameImagery": []
     }
   },
   {
-    "word": "unthinkable",
-    "phonetic": "/ʌnˈθɪŋkəbl/",
+    "word": "untasted",
+    "phonetic": "/ˌʌnˈteɪstɪd/",
     "pos": [
       "adj."
     ],
     "coreMeaning": {
-      "cn": "不可思议的；难以想象的；不堪设想的",
-      "en": "too unlikely or undesirable to be considered possible"
+      "cn": "未尝过的；未体验过的",
+      "en": "not tasted; not yet experienced"
     },
     "morphemes": [
       {
-        "morpheme": "un-",
-        "role": "prefix",
         "canonical": "un-",
-        "meaning": "否定",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "未",
+          "en": "not"
         }
       },
       {
-        "morpheme": "think",
+        "canonical": "tast",
         "role": "root",
-        "canonical": "think",
-        "meaning": "思考；想",
+        "form": "taste",
+        "meaning": "taste, try",
+        "order": 2,
+        "positionTendency": "medial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "品尝",
+          "en": "taste"
         }
       },
       {
-        "morpheme": "-able",
+        "canonical": "-ed",
         "role": "suffix",
-        "canonical": "-able",
-        "meaning": "能够……的",
+        "form": "d",
+        "meaning": "past participle, adjective",
+        "order": 3,
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "完成态",
+          "en": "past participle"
         }
       }
     ],
     "derivationChain": [
-      "think",
-      "thinkable",
-      "unthinkable"
+      "taste"
     ],
     "memorySemantics": {
-      "imageKey": "核战争威胁",
-      "scene": "冷战时期，核战争是人类不敢想象的最终噩梦——the unthinkable scenario",
-      "emotionalHook": "the unthinkable happened（不可思议的事发生了）——用于描述超出常规认知边界的极端事件",
-      "imageChain": []
+      "mnemonicExpr": "un(未)+tasted(品尝过)=尚未尝过的滋味",
+      "imageChain": [
+        "食物→从未品尝→未知"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "general",
-        "academic"
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "taste",
+        "tasted"
       ],
+      "sameAffix": [],
+      "synonyms": [
+        "unsampled",
+        "unexperienced"
+      ],
+      "antonyms": [
+        "tasted",
+        "experienced"
+      ],
+      "domainCohort": [
+        "experience",
+        "sensation"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untaught",
+    "phonetic": "/ʌnˈtɔːt/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "未经教导的；自然的；本能的",
+      "en": "not instructed; natural; instinctive"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "未",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "teach",
+        "role": "root",
+        "form": "taught",
+        "meaning": "taught (past participle of teach)",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "被教授",
+          "en": "taught"
+        }
+      }
+    ],
+    "derivationChain": [
+      "taught"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "un(未)+taught(被教)=没有经过正式教育的",
+      "imageChain": [
+        "教育→缺失→本能"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "teach",
+        "taught"
+      ],
+      "sameAffix": [
+        "unlearned",
+        "uneducated"
+      ],
+      "synonyms": [
+        "unschooled",
+        "instinctive",
+        "natural"
+      ],
+      "antonyms": [
+        "taught",
+        "instructed",
+        "educated"
+      ],
+      "domainCohort": [
+        "education",
+        "learning"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "unteach",
+    "phonetic": "/ʌnˈtiːtʃ/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "消除所学；使忘记所学",
+      "en": "to cause someone to forget or discard what they have learned"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "reverse",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "反转",
+          "en": "reverse"
+        }
+      },
+      {
+        "canonical": "teach",
+        "role": "root",
+        "form": "teach",
+        "meaning": "teach, instruct",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "教授",
+          "en": "teach"
+        }
+      }
+    ],
+    "derivationChain": [
+      "teach"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "un(反)+teach(教)=消除已学的东西",
+      "imageChain": [
+        "学习→纠正→消除"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "teach",
+        "untaught"
+      ],
+      "sameAffix": [
+        "unlearn"
+      ],
+      "synonyms": [
+        "unlearn"
+      ],
+      "antonyms": [
+        "teach",
+        "instruct"
+      ],
+      "domainCohort": [
+        "education",
+        "behavior",
+        "habit"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untellable",
+    "phonetic": "/ʌnˈtɛləbəl/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "难以言说的；不可言传的",
+      "en": "unable to be told or expressed in words"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "不",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "tell",
+        "role": "root",
+        "form": "tell",
+        "meaning": "tell, express",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "讲述",
+          "en": "tell"
+        }
+      },
+      {
+        "canonical": "-able",
+        "role": "suffix",
+        "form": "able",
+        "meaning": "capable of",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "可以…",
+          "en": "capable of"
+        }
+      }
+    ],
+    "derivationChain": [
+      "tell"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "un(不)+tell(言说)+able=无法用语言表达的",
+      "imageChain": [
+        "情感→超越语言→难以言说"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "tell",
+        "untold"
+      ],
+      "sameAffix": [
+        "unspeakable",
+        "ineffable"
+      ],
+      "synonyms": [
+        "unspeakable",
+        "ineffable",
+        "inexpressible"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "emotion",
+        "literature"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untempered",
+    "phonetic": "/ʌnˈtɛmpərd/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "未回火的；未缓和的；毫无节制的",
+      "en": "not tempered or moderated; without restraint"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "未",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "temper",
+        "role": "root",
+        "form": "temper",
+        "meaning": "temper, moderate",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "缓和",
+          "en": "moderate"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "form": "ed",
+        "meaning": "past participle, adjective",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "完成态",
+          "en": "past participle"
+        }
+      }
+    ],
+    "derivationChain": [
+      "temper"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "un(未)+tempered(回火/缓和)=未经回火处理的金属/未加节制的情绪",
+      "imageChain": [
+        "金属→未淬火→脆弱/情绪不加控制"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "temper",
+        "tempered"
+      ],
+      "sameAffix": [
+        "unmoderated",
+        "unchecked"
+      ],
+      "synonyms": [
+        "unmoderated",
+        "unchecked",
+        "unbridled"
+      ],
+      "antonyms": [
+        "tempered",
+        "moderated"
+      ],
+      "domainCohort": [
+        "metal",
+        "emotion",
+        "control"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untenable",
+    "phonetic": "/ʌnˈtɛnəbəl/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "站不住脚的；无法防守的",
+      "en": "not able to be maintained or defended against attack or objection"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "不",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "ten",
+        "role": "root",
+        "form": "ten",
+        "meaning": "hold, maintain (Latin tenere)",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "持有",
+          "en": "hold"
+        }
+      },
+      {
+        "canonical": "-able",
+        "role": "suffix",
+        "form": "able",
+        "meaning": "capable of being",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "可以…",
+          "en": "capable"
+        }
+      }
+    ],
+    "derivationChain": [
+      "tenable"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "un(不)+ten(持守)+able=无法坚守的阵地/站不住脚的论点",
+      "imageChain": [
+        "论点→受攻击→站不住"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "tenable",
+        "tenant",
+        "tenacious"
+      ],
+      "sameAffix": [
+        "indefensible",
+        "unsustainable"
+      ],
+      "synonyms": [
+        "indefensible",
+        "unsustainable",
+        "baseless"
+      ],
+      "antonyms": [
+        "tenable",
+        "defensible",
+        "valid"
+      ],
+      "domainCohort": [
+        "argument",
+        "logic",
+        "position"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untenanted",
+    "phonetic": "/ʌnˈtɛnəntɪd/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "无租户的；空置的",
+      "en": "not occupied by a tenant; empty"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "未",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "ten",
+        "role": "root",
+        "form": "tenant",
+        "meaning": "one who holds (Latin tenere)",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "租户",
+          "en": "tenant"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "form": "ed",
+        "meaning": "past participle, adjective",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "完成态",
+          "en": "past participle"
+        }
+      }
+    ],
+    "derivationChain": [
+      "tenant"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "un(无)+tenant(租户)+ed=没有租户居住的",
+      "imageChain": [
+        "房子→空置→无人租住"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "tenant",
+        "tenancy"
+      ],
+      "sameAffix": [
+        "vacant",
+        "unoccupied"
+      ],
+      "synonyms": [
+        "vacant",
+        "empty",
+        "unoccupied"
+      ],
+      "antonyms": [
+        "tenanted",
+        "occupied"
+      ],
+      "domainCohort": [
+        "real estate",
+        "property"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untether",
+    "phonetic": "/ʌnˈtɛðər/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "解除束缚；松开绳索",
+      "en": "to release from a tether or restraint"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "reverse",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "反转",
+          "en": "reverse"
+        }
+      },
+      {
+        "canonical": "tether",
+        "role": "root",
+        "form": "tether",
+        "meaning": "rope, restraint",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "束缚",
+          "en": "tether"
+        }
+      }
+    ],
+    "derivationChain": [
+      "tether"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "un(解除)+tether(束缚)=解除绳索",
+      "imageChain": [
+        "绑绳→解开→自由"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "tether",
+        "untethered"
+      ],
+      "sameAffix": [
+        "unfetter",
+        "unbind"
+      ],
+      "synonyms": [
+        "release",
+        "free"
+      ],
+      "antonyms": [
+        "tether",
+        "bind"
+      ],
+      "domainCohort": [
+        "freedom",
+        "restraint"
+      ],
+      "derivationPair": [
+        "untethered"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untethered",
+    "phonetic": "/ʌnˈtɛðərd/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "无拘束的；不受约束的",
+      "en": "not tethered; free from restraint"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "未",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "tether",
+        "role": "root",
+        "form": "tether",
+        "meaning": "rope, restraint",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "束缚",
+          "en": "tether"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "form": "ed",
+        "meaning": "past participle, adjective",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "完成态",
+          "en": "past participle"
+        }
+      }
+    ],
+    "derivationChain": [
+      "untether"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "untether + d = 已解除束缚的",
+      "imageChain": [
+        "自由→无绳索→漂浮"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "untether",
+        "tether"
+      ],
+      "sameAffix": [
+        "unfettered",
+        "unbound"
+      ],
+      "synonyms": [
+        "free",
+        "unrestrained"
+      ],
+      "antonyms": [
+        "tethered",
+        "restrained"
+      ],
+      "domainCohort": [
+        "freedom",
+        "technology"
+      ],
+      "derivationPair": [
+        "untether"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "unthinkable",
+    "phonetic": "/ʌnˈθɪŋkəbəl/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "不可想象的；难以置信的",
+      "en": "too unlikely or undesirable to be considered; inconceivable"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "不",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "think",
+        "role": "root",
+        "form": "think",
+        "meaning": "think, conceive",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "思考",
+          "en": "think"
+        }
+      },
+      {
+        "canonical": "-able",
+        "role": "suffix",
+        "form": "able",
+        "meaning": "capable of",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "可以…",
+          "en": "capable"
+        }
+      }
+    ],
+    "derivationChain": [
+      "think"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "un(不)+think(想象)+able=不可想象的",
+      "imageChain": [
+        "恐惧→极端→无法设想"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
       "sentiment": {
         "tags": [
           "消极"
@@ -1040,39 +1462,3242 @@
     "relations": {
       "sameRoot": [
         "think",
-        "thought",
-        "thinkable",
-        "rethink"
+        "unthinking"
       ],
       "sameAffix": [
-        "unimaginable",
         "inconceivable",
-        "unfathomable"
+        "unimaginable"
       ],
       "synonyms": [
         "inconceivable",
         "unimaginable",
-        "impossible",
-        "absurd"
+        "outrageous"
       ],
       "antonyms": [
         "thinkable",
-        "conceivable",
-        "imaginable"
+        "conceivable"
       ],
       "domainCohort": [
-        "inconceivable",
-        "impossible",
-        "unimaginable"
+        "extreme",
+        "horror",
+        "surprise"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "unthinking",
+    "phonetic": "/ʌnˈθɪŋkɪŋ/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "不假思索的；轻率的",
+      "en": "done without consideration; thoughtless"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "未",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "think",
+        "role": "root",
+        "form": "think",
+        "meaning": "think, consider",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "思考",
+          "en": "think"
+        }
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "form": "ing",
+        "meaning": "participial adjective",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "形容词化",
+          "en": "adjective"
+        }
+      }
+    ],
+    "derivationChain": [
+      "thinking"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "un(不)+thinking(思考)=不加思考的鲁莽行为",
+      "imageChain": [
+        "冲动→不思考→轻率"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "think",
+        "unthinkingly"
+      ],
+      "sameAffix": [
+        "thoughtless",
+        "heedless"
+      ],
+      "synonyms": [
+        "thoughtless",
+        "heedless",
+        "impulsive"
+      ],
+      "antonyms": [
+        "thoughtful",
+        "considerate"
+      ],
+      "domainCohort": [
+        "behavior",
+        "decision"
       ],
       "derivationPair": [
-        "thinkable → unthinkable"
+        "unthinkingly"
       ],
       "morphVariants": [],
-      "sameImagery": [
-        "inconceivable",
-        "unimaginable"
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "unthinkingly",
+    "phonetic": "/ʌnˈθɪŋkɪŋli/",
+    "pos": [
+      "adv."
+    ],
+    "coreMeaning": {
+      "cn": "不假思索地；轻率地",
+      "en": "in an unthinking manner; without thought"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "未",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "think",
+        "role": "root",
+        "form": "think",
+        "meaning": "think",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "思考",
+          "en": "think"
+        }
+      },
+      {
+        "canonical": "-ly",
+        "role": "suffix",
+        "form": "ingly",
+        "meaning": "adverb",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "副词化",
+          "en": "adverb"
+        }
+      }
+    ],
+    "derivationChain": [
+      "unthinking"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "unthinking + ly = 不思考地",
+      "imageChain": [
+        "冲动→方式"
       ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "unthinking",
+        "think"
+      ],
+      "sameAffix": [
+        "thoughtlessly",
+        "heedlessly"
+      ],
+      "synonyms": [
+        "thoughtlessly",
+        "impulsively"
+      ],
+      "antonyms": [
+        "thoughtfully"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "unthinking"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "unthreatening",
+    "phonetic": "/ʌnˈθrɛtənɪŋ/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "不危险的；无威胁的",
+      "en": "not causing a feeling of threat or danger"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "不",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "threat",
+        "role": "root",
+        "form": "threaten",
+        "meaning": "threaten, intimidate",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "威胁",
+          "en": "threaten"
+        }
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "form": "ing",
+        "meaning": "participial adjective",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "形容词化",
+          "en": "adjective"
+        }
+      }
+    ],
+    "derivationChain": [
+      "threatening"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "un(不)+threatening(威胁的)=没有威胁感的",
+      "imageChain": [
+        "外表→温和→无害"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "threaten",
+        "threatening"
+      ],
+      "sameAffix": [
+        "nonthreatening",
+        "harmless"
+      ],
+      "synonyms": [
+        "harmless",
+        "benign",
+        "nonthreatening"
+      ],
+      "antonyms": [
+        "threatening",
+        "intimidating"
+      ],
+      "domainCohort": [
+        "safety",
+        "danger"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untidy",
+    "phonetic": "/ʌnˈtaɪdi/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "不整洁的；杂乱的",
+      "en": "not arranged neatly; messy"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "不",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "tidy",
+        "role": "root",
+        "form": "tidy",
+        "meaning": "tidy, neat",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "整洁",
+          "en": "tidy"
+        }
+      }
+    ],
+    "derivationChain": [
+      "tidy"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "un(不)+tidy(整洁)=杂乱的",
+      "imageChain": [
+        "房间→凌乱→杂乱"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "tidy",
+        "untidiness",
+        "untidily"
+      ],
+      "sameAffix": [
+        "messy",
+        "disorderly"
+      ],
+      "synonyms": [
+        "messy",
+        "disheveled",
+        "disorderly"
+      ],
+      "antonyms": [
+        "tidy",
+        "neat",
+        "orderly"
+      ],
+      "domainCohort": [
+        "order",
+        "appearance"
+      ],
+      "derivationPair": [
+        "untidiness"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untie",
+    "phonetic": "/ʌnˈtaɪ/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "解开；松开",
+      "en": "to undo a knot or fastening; to release"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "reverse",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "反转",
+          "en": "reverse"
+        }
+      },
+      {
+        "canonical": "tie",
+        "role": "root",
+        "form": "tie",
+        "meaning": "tie, bind",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "系",
+          "en": "tie"
+        }
+      }
+    ],
+    "derivationChain": [
+      "tie"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "un(解)+tie(系)=解开绳结",
+      "imageChain": [
+        "绑绳→打结→解开"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "tie",
+        "untied"
+      ],
+      "sameAffix": [
+        "unwind",
+        "unfasten"
+      ],
+      "synonyms": [
+        "unfasten",
+        "loosen",
+        "undo"
+      ],
+      "antonyms": [
+        "tie",
+        "bind",
+        "fasten"
+      ],
+      "domainCohort": [
+        "knot",
+        "fastening"
+      ],
+      "derivationPair": [
+        "untied"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untied",
+    "phonetic": "/ʌnˈtaɪd/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "未系住的；已解开的",
+      "en": "not tied; released from a fastening"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "未",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "tie",
+        "role": "root",
+        "form": "tie",
+        "meaning": "tie, bind",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "系",
+          "en": "tie"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "form": "d",
+        "meaning": "past participle, adjective",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "完成态",
+          "en": "past participle"
+        }
+      }
+    ],
+    "derivationChain": [
+      "untie"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "untie + d = 已解开的",
+      "imageChain": [
+        "绳结→已解开"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "untie",
+        "tie"
+      ],
+      "sameAffix": [
+        "unbound",
+        "loose"
+      ],
+      "synonyms": [
+        "loose",
+        "unfastened"
+      ],
+      "antonyms": [
+        "tied",
+        "fastened"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "untie"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "until",
+    "phonetic": "/ənˈtɪl/",
+    "pos": [
+      "prep."
+    ],
+    "coreMeaning": {
+      "cn": "直到；在…之前",
+      "en": "up to the point in time when; before"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "up to (Old Norse und)",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "直到",
+          "en": "up to"
+        }
+      },
+      {
+        "canonical": "til",
+        "role": "root",
+        "form": "til",
+        "meaning": "to (Old Norse til)",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "到",
+          "en": "to"
+        }
+      }
+    ],
+    "derivationChain": [
+      "Old Norse und + til"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "until = 直到某时间点为止",
+      "imageChain": [
+        "时间→终点→直到"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "till",
+        "until"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "till",
+        "up to",
+        "before"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "time",
+        "condition"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "till"
+      ],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untilled",
+    "phonetic": "/ʌnˈtɪld/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "未耕种的；荒芜的",
+      "en": "not cultivated or plowed"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "未",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "till",
+        "role": "root",
+        "form": "till",
+        "meaning": "till, cultivate land",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "耕种",
+          "en": "till"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "form": "ed",
+        "meaning": "past participle, adjective",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "完成态",
+          "en": "past participle"
+        }
+      }
+    ],
+    "derivationChain": [
+      "till"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "un(未)+till(耕)+ed=未经耕种的荒地",
+      "imageChain": [
+        "土地→荒废→未耕"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "till",
+        "tilled"
+      ],
+      "sameAffix": [
+        "uncultivated",
+        "fallow"
+      ],
+      "synonyms": [
+        "uncultivated",
+        "fallow"
+      ],
+      "antonyms": [
+        "tilled",
+        "cultivated"
+      ],
+      "domainCohort": [
+        "farming",
+        "agriculture"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untimeliness",
+    "phonetic": "/ʌnˈtaɪmlɪnəs/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "不合时宜；时机不当",
+      "en": "the quality of being untimely; inappropriate timing"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "不",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "time",
+        "role": "root",
+        "form": "time",
+        "meaning": "time, timing",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "时间",
+          "en": "time"
+        }
+      },
+      {
+        "canonical": "-ness",
+        "role": "suffix",
+        "form": "liness",
+        "meaning": "quality of",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "性质",
+          "en": "quality"
+        }
+      }
+    ],
+    "derivationChain": [
+      "untimely"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "untimely + ness = 时机不当的性质",
+      "imageChain": [
+        "时机→错误→不合时宜"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "untimely",
+        "timely"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "inopportuneness"
+      ],
+      "antonyms": [
+        "timeliness"
+      ],
+      "domainCohort": [
+        "timing",
+        "appropriateness"
+      ],
+      "derivationPair": [
+        "untimely"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untimely",
+    "phonetic": "/ʌnˈtaɪmli/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "不合时宜的；过早的",
+      "en": "happening at an unsuitable or unfortunate time; premature"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "不",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "time",
+        "role": "root",
+        "form": "time",
+        "meaning": "time",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "时间",
+          "en": "time"
+        }
+      },
+      {
+        "canonical": "-ly",
+        "role": "suffix",
+        "form": "ly",
+        "meaning": "adjective/adverb",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "形容词",
+          "en": "adjective"
+        }
+      }
+    ],
+    "derivationChain": [
+      "timely"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "un(不)+timely(及时)=时机不对；过早而来的死亡",
+      "imageChain": [
+        "时间→错位→突然"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "timely",
+        "untimeliness"
+      ],
+      "sameAffix": [
+        "premature",
+        "inopportune"
+      ],
+      "synonyms": [
+        "premature",
+        "inopportune"
+      ],
+      "antonyms": [
+        "timely",
+        "opportune"
+      ],
+      "domainCohort": [
+        "timing",
+        "death",
+        "event"
+      ],
+      "derivationPair": [
+        "untimeliness"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untinged",
+    "phonetic": "/ʌnˈtɪndʒd/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "未染色的；未渗杂的",
+      "en": "not tinged; without a trace of something"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "未",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "tinge",
+        "role": "root",
+        "form": "ting",
+        "meaning": "tinge, color slightly",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "浸染",
+          "en": "tinge"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "form": "ed",
+        "meaning": "past participle, adjective",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "完成态",
+          "en": "past participle"
+        }
+      }
+    ],
+    "derivationChain": [
+      "tinge"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "un(未)+tinged(染色)=纯粹无杂质的",
+      "imageChain": [
+        "纯净→无杂→未受影响"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "tinge",
+        "tinged"
+      ],
+      "sameAffix": [
+        "unpolluted",
+        "untainted"
+      ],
+      "synonyms": [
+        "untainted",
+        "pure"
+      ],
+      "antonyms": [
+        "tinged",
+        "tainted"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untiring",
+    "phonetic": "/ʌnˈtaɪərɪŋ/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "不知疲倦的；坚持不懈的",
+      "en": "not becoming tired; showing great effort"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "不",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "tire",
+        "role": "root",
+        "form": "tire",
+        "meaning": "tire, exhaust",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "疲倦",
+          "en": "tire"
+        }
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "form": "ing",
+        "meaning": "participial adjective",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "形容词化",
+          "en": "adjective"
+        }
+      }
+    ],
+    "derivationChain": [
+      "tiring"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "un(不)+tiring(让人疲倦的)=永不疲倦的努力",
+      "imageChain": [
+        "劳作→不停歇→坚持"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "tire",
+        "untiringly"
+      ],
+      "sameAffix": [
+        "indefatigable",
+        "unwavering"
+      ],
+      "synonyms": [
+        "indefatigable",
+        "tireless",
+        "relentless"
+      ],
+      "antonyms": [
+        "tired",
+        "flagging"
+      ],
+      "domainCohort": [
+        "effort",
+        "dedication",
+        "work"
+      ],
+      "derivationPair": [
+        "untiringly"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untiringly",
+    "phonetic": "/ʌnˈtaɪərɪŋli/",
+    "pos": [
+      "adv."
+    ],
+    "coreMeaning": {
+      "cn": "不知疲倦地；孜孜不倦地",
+      "en": "in an untiring manner; tirelessly"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "不",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "tire",
+        "role": "root",
+        "form": "tire",
+        "meaning": "tire",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "疲倦",
+          "en": "tire"
+        }
+      },
+      {
+        "canonical": "-ly",
+        "role": "suffix",
+        "form": "ingly",
+        "meaning": "adverb",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "副词化",
+          "en": "adverb"
+        }
+      }
+    ],
+    "derivationChain": [
+      "untiring"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "untiring + ly = 不知疲倦地",
+      "imageChain": [
+        "坚持→方式→不懈"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "untiring",
+        "tire"
+      ],
+      "sameAffix": [
+        "tirelessly",
+        "relentlessly"
+      ],
+      "synonyms": [
+        "tirelessly",
+        "incessantly"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "untiring"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untitled",
+    "phonetic": "/ʌnˈtaɪtəld/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "无标题的；无头衔的",
+      "en": "having no title; not holding a noble title"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "未",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "title",
+        "role": "root",
+        "form": "title",
+        "meaning": "title, name, rank",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "标题；头衔",
+          "en": "title"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "form": "d",
+        "meaning": "past participle, adjective",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "完成态",
+          "en": "past participle"
+        }
+      }
+    ],
+    "derivationChain": [
+      "title"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "un(无)+titled(有标题)=没有标题的作品",
+      "imageChain": [
+        "作品→无名→无题"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "title",
+        "titled"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "nameless",
+        "unnamed"
+      ],
+      "antonyms": [
+        "titled",
+        "named"
+      ],
+      "domainCohort": [
+        "art",
+        "nobility",
+        "publication"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "unto",
+    "phonetic": "/ˈʌntʊ/",
+    "pos": [
+      "prep."
+    ],
+    "coreMeaning": {
+      "cn": "到；给；直至（古英语）",
+      "en": "archaic form of 'to' or 'until'; towards"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "up to (Old English)",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "直到",
+          "en": "up to"
+        }
+      },
+      {
+        "canonical": "to",
+        "role": "root",
+        "form": "to",
+        "meaning": "to",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "到",
+          "en": "to"
+        }
+      }
+    ],
+    "derivationChain": [
+      "Old English un + to"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "unto = 到…/给…，文学/圣经语体",
+      "imageChain": [
+        "古英语→宗教文本→到达"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "until",
+        "to"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "to",
+        "towards"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "Bible",
+        "archaic",
+        "literature"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untold",
+    "phonetic": "/ˌʌnˈtəʊld/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "数不清的；未说出的；不可言喻的",
+      "en": "not told or revealed; too great to be measured"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "未",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "tell",
+        "role": "root",
+        "form": "told",
+        "meaning": "told (past of tell)",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "讲述",
+          "en": "tell"
+        }
+      }
+    ],
+    "derivationChain": [
+      "told"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "un(未)+told(讲述)=未曾讲述的；数不清的苦难",
+      "imageChain": [
+        "秘密→未言说→无数"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "tell",
+        "told",
+        "untellable"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "incalculable",
+        "immeasurable"
+      ],
+      "antonyms": [
+        "told"
+      ],
+      "domainCohort": [
+        "mystery",
+        "suffering",
+        "wealth"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untouchable",
+    "phonetic": "/ʌnˈtʌtʃəbəl/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "不可触碰的；不可打败的；不可侵犯的",
+      "en": "unable to be touched or influenced; beyond criticism"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "不",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "touch",
+        "role": "root",
+        "form": "touch",
+        "meaning": "touch, contact",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "触碰",
+          "en": "touch"
+        }
+      },
+      {
+        "canonical": "-able",
+        "role": "suffix",
+        "form": "able",
+        "meaning": "capable of",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "可以…",
+          "en": "capable"
+        }
+      }
+    ],
+    "derivationChain": [
+      "touchable"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "un(不)+touchable(可触碰)=不可侵犯的；社会低种姓不可接触者",
+      "imageChain": [
+        "禁忌→不可触→印度种姓"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "touch",
+        "touchable",
+        "untouchables"
+      ],
+      "sameAffix": [
+        "inviolable",
+        "impervious"
+      ],
+      "synonyms": [
+        "inviolable",
+        "invulnerable"
+      ],
+      "antonyms": [
+        "touchable",
+        "reachable"
+      ],
+      "domainCohort": [
+        "social",
+        "India",
+        "caste"
+      ],
+      "derivationPair": [
+        "untouchables"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untouchables",
+    "phonetic": "/ʌnˈtʌtʃəbəlz/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "不可接触者（印度低种姓）；不可侵犯者",
+      "en": "plural of untouchable; members of the lowest caste in India"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "不",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "touch",
+        "role": "root",
+        "form": "touch",
+        "meaning": "touch",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "触碰",
+          "en": "touch"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "ables",
+        "meaning": "plural",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "untouchable"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "untouchable的复数",
+      "imageChain": [
+        "种姓制度→底层→不可接触"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "untouchable",
+        "touch"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "Dalits"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "India",
+        "caste",
+        "sociology"
+      ],
+      "derivationPair": [
+        "untouchable"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untouched",
+    "phonetic": "/ʌnˈtʌtʃt/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "未触碰的；未改变的；原封不动的",
+      "en": "not touched; remaining in original state"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "未",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "touch",
+        "role": "root",
+        "form": "touch",
+        "meaning": "touch",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "触碰",
+          "en": "touch"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "form": "ed",
+        "meaning": "past participle, adjective",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "完成态",
+          "en": "past participle"
+        }
+      }
+    ],
+    "derivationChain": [
+      "touch"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "un(未)+touched(触碰过)=原封不动的，未受影响的",
+      "imageChain": [
+        "食物→未动过→原封不动"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "touch",
+        "touched"
+      ],
+      "sameAffix": [
+        "pristine",
+        "intact"
+      ],
+      "synonyms": [
+        "intact",
+        "pristine",
+        "undisturbed"
+      ],
+      "antonyms": [
+        "touched",
+        "altered"
+      ],
+      "domainCohort": [
+        "preservation",
+        "wilderness"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untoward",
+    "phonetic": "/ʌnˈtɔːd/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "不吉利的；不合适的；麻烦的",
+      "en": "unexpected and undesirable; causing inconvenience or difficulty"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "不",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "toward",
+        "role": "root",
+        "form": "toward",
+        "meaning": "promising, compliant (archaic)",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "顺从的",
+          "en": "compliant"
+        }
+      }
+    ],
+    "derivationChain": [
+      "toward (archaic adj.)"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "un(不)+toward(顺从)=不顺从的；不顺利的麻烦",
+      "imageChain": [
+        "顺利→相反→麻烦不利"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "untowardly",
+        "untowardness"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "unfortunate",
+        "adverse",
+        "troublesome"
+      ],
+      "antonyms": [
+        "favorable",
+        "auspicious"
+      ],
+      "domainCohort": [
+        "event",
+        "difficulty"
+      ],
+      "derivationPair": [
+        "untowardly"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untowardly",
+    "phonetic": "/ʌnˈtɔːdli/",
+    "pos": [
+      "adv."
+    ],
+    "coreMeaning": {
+      "cn": "不吉利地；麻烦地",
+      "en": "in an untoward manner; unfortunately"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "不",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "toward",
+        "role": "root",
+        "form": "toward",
+        "meaning": "compliant",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "顺从",
+          "en": "compliant"
+        }
+      },
+      {
+        "canonical": "-ly",
+        "role": "suffix",
+        "form": "ly",
+        "meaning": "adverb",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "副词化",
+          "en": "adverb"
+        }
+      }
+    ],
+    "derivationChain": [
+      "untoward"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "untoward + ly = 不利地，麻烦地",
+      "imageChain": [
+        "麻烦→方式"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "untoward",
+        "untowardness"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "unfortunately",
+        "adversely"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "untoward"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untowardness",
+    "phonetic": "/ʌnˈtɔːdnəs/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "不顺利；不幸",
+      "en": "the quality of being untoward; inconvenience"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "不",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "toward",
+        "role": "root",
+        "form": "toward",
+        "meaning": "compliant",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "顺从",
+          "en": "compliant"
+        }
+      },
+      {
+        "canonical": "-ness",
+        "role": "suffix",
+        "form": "ness",
+        "meaning": "quality of",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "性质",
+          "en": "quality"
+        }
+      }
+    ],
+    "derivationChain": [
+      "untoward"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "untoward + ness = 不顺的性质",
+      "imageChain": [
+        "麻烦→性质→不利"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "untoward",
+        "untowardly"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "untoward"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untracked",
+    "phonetic": "/ʌnˈtrækt/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "未追踪的；无迹可寻的",
+      "en": "not tracked or followed; leaving no trace"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "未",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "track",
+        "role": "root",
+        "form": "track",
+        "meaning": "track, trace",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "追踪",
+          "en": "track"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "form": "ed",
+        "meaning": "past participle, adjective",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "完成态",
+          "en": "past participle"
+        }
+      }
+    ],
+    "derivationChain": [
+      "track"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "un(未)+tracked(追踪)=未被追踪监控的",
+      "imageChain": [
+        "数据→未记录→匿名"
+      ]
+    },
+    "wordLevel": {
+      "domain": "tech",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "track",
+        "tracked"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "unmonitored",
+        "anonymous"
+      ],
+      "antonyms": [
+        "tracked",
+        "monitored"
+      ],
+      "domainCohort": [
+        "privacy",
+        "data",
+        "wilderness"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untraditional",
+    "phonetic": "/ˌʌntrəˈdɪʃənəl/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "非传统的；不因循守旧的",
+      "en": "not following tradition or convention"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "非",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "tradition",
+        "role": "root",
+        "form": "tradition",
+        "meaning": "tradition, custom",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "传统",
+          "en": "tradition"
+        }
+      },
+      {
+        "canonical": "-al",
+        "role": "suffix",
+        "form": "al",
+        "meaning": "relating to",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "有关的",
+          "en": "relating to"
+        }
+      }
+    ],
+    "derivationChain": [
+      "traditional"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "un(非)+traditional(传统的)=打破传统的",
+      "imageChain": [
+        "传统→打破→创新"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "traditional",
+        "tradition"
+      ],
+      "sameAffix": [
+        "nontraditional",
+        "unconventional"
+      ],
+      "synonyms": [
+        "nontraditional",
+        "unconventional"
+      ],
+      "antonyms": [
+        "traditional",
+        "conventional"
+      ],
+      "domainCohort": [
+        "custom",
+        "culture",
+        "innovation"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untrained",
+    "phonetic": "/ˌʌnˈtreɪnd/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "未经训练的；未受过专业教育的",
+      "en": "not having received training or instruction"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "未",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "train",
+        "role": "root",
+        "form": "train",
+        "meaning": "train, instruct",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "训练",
+          "en": "train"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "form": "ed",
+        "meaning": "past participle, adjective",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "完成态",
+          "en": "past participle"
+        }
+      }
+    ],
+    "derivationChain": [
+      "train"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "un(未)+trained(训练过的)=没有经过专业训练的",
+      "imageChain": [
+        "新手→未培训→生疏"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "train",
+        "trained"
+      ],
+      "sameAffix": [
+        "unskilled",
+        "unqualified"
+      ],
+      "synonyms": [
+        "unskilled",
+        "inexperienced",
+        "raw"
+      ],
+      "antonyms": [
+        "trained",
+        "skilled",
+        "qualified"
+      ],
+      "domainCohort": [
+        "skill",
+        "education",
+        "work"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untidier",
+    "phonetic": "/ʌnˈtaɪdiər/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "更凌乱的",
+      "en": "comparative form of untidy"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "不",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "tidy",
+        "role": "root",
+        "form": "tidi",
+        "meaning": "tidy",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "整洁",
+          "en": "tidy"
+        }
+      },
+      {
+        "canonical": "-er",
+        "role": "suffix",
+        "form": "er",
+        "meaning": "comparative",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "比较级",
+          "en": "comparative"
+        }
+      }
+    ],
+    "derivationChain": [
+      "untidy"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "untidy + er = 比…更凌乱",
+      "imageChain": [
+        "凌乱→更凌乱"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "untidy",
+        "untidiest"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "untidy"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untidiest",
+    "phonetic": "/ʌnˈtaɪdiɪst/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "最凌乱的",
+      "en": "superlative form of untidy"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "不",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "tidy",
+        "role": "root",
+        "form": "tidi",
+        "meaning": "tidy",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "整洁",
+          "en": "tidy"
+        }
+      },
+      {
+        "canonical": "-est",
+        "role": "suffix",
+        "form": "iest",
+        "meaning": "superlative",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "最高级",
+          "en": "superlative"
+        }
+      }
+    ],
+    "derivationChain": [
+      "untidy"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "untidy + est = 最凌乱的",
+      "imageChain": [
+        "凌乱→最混乱"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "untidy",
+        "untidier"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "untidy"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untidily",
+    "phonetic": "/ʌnˈtaɪdɪli/",
+    "pos": [
+      "adv."
+    ],
+    "coreMeaning": {
+      "cn": "凌乱地；不整洁地",
+      "en": "in an untidy manner"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "不",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "tidy",
+        "role": "root",
+        "form": "tidy",
+        "meaning": "tidy",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "整洁",
+          "en": "tidy"
+        }
+      },
+      {
+        "canonical": "-ly",
+        "role": "suffix",
+        "form": "ily",
+        "meaning": "adverb",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "副词化",
+          "en": "adverb"
+        }
+      }
+    ],
+    "derivationChain": [
+      "untidy"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "untidy + ily = 凌乱地",
+      "imageChain": [
+        "凌乱→方式"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "untidy",
+        "untidiness"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "messily",
+        "sloppily"
+      ],
+      "antonyms": [
+        "tidily",
+        "neatly"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "untidy"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untidiness",
+    "phonetic": "/ʌnˈtaɪdinəs/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "不整洁；凌乱",
+      "en": "the state of being untidy; messiness"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "不",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "tidy",
+        "role": "root",
+        "form": "tidy",
+        "meaning": "tidy",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "整洁",
+          "en": "tidy"
+        }
+      },
+      {
+        "canonical": "-ness",
+        "role": "suffix",
+        "form": "ness",
+        "meaning": "quality of",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "性质",
+          "en": "quality"
+        }
+      }
+    ],
+    "derivationChain": [
+      "untidy"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "untidy + ness = 不整洁的状态",
+      "imageChain": [
+        "杂乱→性质→混乱"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "untidy",
+        "untidily"
+      ],
+      "sameAffix": [
+        "messiness",
+        "sloppiness"
+      ],
+      "synonyms": [
+        "messiness",
+        "disorder"
+      ],
+      "antonyms": [
+        "tidiness",
+        "neatness"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "untidy"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untill",
+    "phonetic": "/ənˈtɪl/",
+    "pos": [
+      "prep."
+    ],
+    "coreMeaning": {
+      "cn": "直到（until的变体拼写）",
+      "en": "variant spelling of 'until'"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "up to",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "直到",
+          "en": "up to"
+        }
+      },
+      {
+        "canonical": "til",
+        "role": "root",
+        "form": "till",
+        "meaning": "to (Old Norse)",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "到",
+          "en": "to"
+        }
+      }
+    ],
+    "derivationChain": [
+      "until"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "untill = until的双l变体拼法，功能相同",
+      "imageChain": [
+        "直到→时间→终点"
+      ]
+    },
+    "wordLevel": {
+      "domain": "tech",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "until",
+        "till"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "until",
+        "till"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [
+        "until",
+        "till"
+      ],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "untilt",
+    "phonetic": "/ʌnˈtɪlt/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "恢复水平；解除倾斜",
+      "en": "to restore to an untilted position"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "reverse",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "反转",
+          "en": "reverse"
+        }
+      },
+      {
+        "canonical": "tilt",
+        "role": "root",
+        "form": "tilt",
+        "meaning": "tilt, slant",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "倾斜",
+          "en": "tilt"
+        }
+      }
+    ],
+    "derivationChain": [
+      "tilt"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "un(解除)+tilt(倾斜)=恢复到水平位置",
+      "imageChain": [
+        "倾斜→校正→水平"
+      ]
+    },
+    "wordLevel": {
+      "domain": "tech",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "tilt",
+        "tilted"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "level",
+        "straighten"
+      ],
+      "antonyms": [
+        "tilt"
+      ],
+      "domainCohort": [
+        "adjustment",
+        "camera",
+        "angle"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
     }
   }
 ]

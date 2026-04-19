@@ -1,9 +1,793 @@
 [
   {
-    "word": "sunrise",
-    "phonetic": "/'sʌnraɪz/",
+    "word": "sunny",
+    "phonetic": "/ˈsʌni/",
     "pos": [
-      "n."
+      "adj"
+    ],
+    "coreMeaning": {
+      "cn": "阳光充足的；开朗的",
+      "en": "bright with sunlight; cheerful"
+    },
+    "morphemes": [
+      {
+        "canonical": "sun",
+        "role": "root",
+        "form": "sun",
+        "meaning": "太阳",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 2
+        },
+        "coreMeaning": {
+          "cn": "太阳",
+          "en": "sun"
+        }
+      },
+      {
+        "canonical": "-ny",
+        "role": "suffix",
+        "form": "ny",
+        "meaning": "形容词化（双n）",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "形容词化",
+          "en": "adjectival"
+        }
+      }
+    ],
+    "derivationChain": [
+      "sun"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "sun + ny → 充满阳光的；阳光明媚",
+      "imageChain": [
+        "阳光",
+        "晴朗",
+        "开朗"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "sun",
+        "sunnier",
+        "sunniest",
+        "sunnily",
+        "sunniness",
+        "sunshine"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "bright",
+        "cheerful",
+        "radiant"
+      ],
+      "antonyms": [
+        "cloudy",
+        "gloomy"
+      ],
+      "domainCohort": [
+        "bright",
+        "radiant",
+        "cheerful"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "sunnier",
+    "phonetic": "/ˈsʌniər/",
+    "pos": [
+      "adj"
+    ],
+    "coreMeaning": {
+      "cn": "更阳光的（比较级）",
+      "en": "comparative of sunny"
+    },
+    "morphemes": [
+      {
+        "canonical": "sun",
+        "role": "root",
+        "form": "sun",
+        "meaning": "太阳",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 2
+        },
+        "coreMeaning": {
+          "cn": "太阳",
+          "en": "sun"
+        }
+      },
+      {
+        "canonical": "-ny",
+        "role": "suffix",
+        "form": "ny",
+        "meaning": "形容词化",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "形容词",
+          "en": "adjectival"
+        }
+      },
+      {
+        "canonical": "-er",
+        "role": "suffix",
+        "form": "ier",
+        "meaning": "比较级",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "比较级后缀",
+          "en": "comparative suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "sunny"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "sunny + er → 更阳光",
+      "imageChain": [
+        "更晴朗",
+        "比较",
+        "阳光"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "sunny",
+        "sunniest",
+        "sun"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "sunny"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "sunniest",
+    "phonetic": "/ˈsʌniɪst/",
+    "pos": [
+      "adj"
+    ],
+    "coreMeaning": {
+      "cn": "最阳光的（最高级）",
+      "en": "superlative of sunny"
+    },
+    "morphemes": [
+      {
+        "canonical": "sun",
+        "role": "root",
+        "form": "sun",
+        "meaning": "太阳",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 2
+        },
+        "coreMeaning": {
+          "cn": "太阳",
+          "en": "sun"
+        }
+      },
+      {
+        "canonical": "-ny",
+        "role": "suffix",
+        "form": "ny",
+        "meaning": "形容词化",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "形容词",
+          "en": "adjectival"
+        }
+      },
+      {
+        "canonical": "-est",
+        "role": "suffix",
+        "form": "iest",
+        "meaning": "最高级",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "最高级后缀",
+          "en": "superlative suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "sunny"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "sunny + est → 最阳光",
+      "imageChain": [
+        "最晴朗",
+        "最高级",
+        "阳光"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "sunny",
+        "sunnier",
+        "sun"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "sunny"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "sunnily",
+    "phonetic": "/ˈsʌnɪli/",
+    "pos": [
+      "adv"
+    ],
+    "coreMeaning": {
+      "cn": "阳光地；愉快地",
+      "en": "in a sunny or cheerful manner"
+    },
+    "morphemes": [
+      {
+        "canonical": "sun",
+        "role": "root",
+        "form": "sun",
+        "meaning": "太阳",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 2
+        },
+        "coreMeaning": {
+          "cn": "太阳",
+          "en": "sun"
+        }
+      },
+      {
+        "canonical": "-ny",
+        "role": "suffix",
+        "form": "ny",
+        "meaning": "形容词化",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "形容词化",
+          "en": "adjectival"
+        }
+      },
+      {
+        "canonical": "-ly",
+        "role": "suffix",
+        "form": "ily",
+        "meaning": "副词化",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "副词后缀",
+          "en": "adverbial suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "sunny"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "sunny + ly → 阳光地；愉快地",
+      "imageChain": [
+        "阳光",
+        "副词",
+        "愉快"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "sunny",
+        "sun"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "cheerfully",
+        "brightly"
+      ],
+      "antonyms": [
+        "gloomily"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "sunny"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "sunniness",
+    "phonetic": "/ˈsʌninɪs/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "阳光充足；开朗",
+      "en": "the quality of being sunny or cheerful"
+    },
+    "morphemes": [
+      {
+        "canonical": "sun",
+        "role": "root",
+        "form": "sun",
+        "meaning": "太阳",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 2
+        },
+        "coreMeaning": {
+          "cn": "太阳",
+          "en": "sun"
+        }
+      },
+      {
+        "canonical": "-ny",
+        "role": "suffix",
+        "form": "ny",
+        "meaning": "形容词化",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "形容词化",
+          "en": "adjectival"
+        }
+      },
+      {
+        "canonical": "-ness",
+        "role": "suffix",
+        "form": "ness",
+        "meaning": "名词化",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "名词后缀",
+          "en": "nominalization"
+        }
+      }
+    ],
+    "derivationChain": [
+      "sunny"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "sunny + ness → 阳光的特质",
+      "imageChain": [
+        "阳光",
+        "品质",
+        "开朗"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "sunny",
+        "sun"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "brightness",
+        "cheerfulness"
+      ],
+      "antonyms": [
+        "gloom",
+        "cloudiness"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "sunny"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "sunned",
+    "phonetic": "/sʌnd/",
+    "pos": [
+      "v"
+    ],
+    "coreMeaning": {
+      "cn": "晒太阳（过去式）",
+      "en": "exposed to sunlight"
+    },
+    "morphemes": [
+      {
+        "canonical": "sun",
+        "role": "root",
+        "form": "sun",
+        "meaning": "太阳；晒",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "晒太阳",
+          "en": "to expose to sun"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "form": "ned",
+        "meaning": "过去式（双n）",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "过去式后缀",
+          "en": "past tense suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "sun (v)"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "sun + ned → 曾晒太阳",
+      "imageChain": [
+        "晒太阳",
+        "完成",
+        "温暖"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "sun",
+        "sunning",
+        "sunny"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "sunbathed",
+        "basked"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "sun"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "sunning",
+    "phonetic": "/ˈsʌnɪŋ/",
+    "pos": [
+      "v"
+    ],
+    "coreMeaning": {
+      "cn": "晒太阳（进行时）",
+      "en": "exposing to sunlight"
+    },
+    "morphemes": [
+      {
+        "canonical": "sun",
+        "role": "root",
+        "form": "sun",
+        "meaning": "晒太阳",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "晒太阳",
+          "en": "to sun"
+        }
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "form": "ning",
+        "meaning": "进行时",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "进行时后缀",
+          "en": "present participle suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "sun"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "sun + ning → 正在晒太阳",
+      "imageChain": [
+        "晒太阳",
+        "进行中",
+        "温暖"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "sun",
+        "sunned",
+        "sunny"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "sunbathing",
+        "basking"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "sun"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "sunray",
+    "phonetic": "/ˈsʌnreɪ/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "阳光射线；阳光",
+      "en": "a ray of sunlight"
+    },
+    "morphemes": [
+      {
+        "canonical": "sun",
+        "role": "root",
+        "form": "sun",
+        "meaning": "太阳",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 2
+        },
+        "coreMeaning": {
+          "cn": "太阳",
+          "en": "sun"
+        }
+      },
+      {
+        "canonical": "ray",
+        "role": "root",
+        "form": "ray",
+        "meaning": "光线",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "光线",
+          "en": "ray"
+        }
+      }
+    ],
+    "derivationChain": [
+      "sun + ray"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "sun(太阳)+ray(光线) → 阳光射线",
+      "imageChain": [
+        "阳光",
+        "光线",
+        "温暖"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "sun",
+        "sunshine",
+        "sunbeam"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "sunbeam",
+        "shaft of light"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "sunbeam",
+        "shaft",
+        "beam"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "sunrise",
+    "phonetic": "/ˈsʌnraɪz/",
+    "pos": [
+      "n"
     ],
     "coreMeaning": {
       "cn": "日出；黎明",
@@ -15,46 +799,51 @@
         "role": "root",
         "form": "sun",
         "meaning": "太阳",
+        "order": 1,
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "积极"
           ],
-          "intensity": 1
+          "intensity": 2
         },
-        "order": 1,
-        "positionTendency": "initial"
+        "coreMeaning": {
+          "cn": "太阳",
+          "en": "sun"
+        }
       },
       {
         "canonical": "rise",
         "role": "root",
         "form": "rise",
-        "meaning": "升起",
+        "meaning": "上升；升起",
+        "order": 2,
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "积极"
           ],
           "intensity": 1
         },
-        "order": 2,
-        "positionTendency": "final"
+        "coreMeaning": {
+          "cn": "上升",
+          "en": "to rise"
+        }
       }
     ],
     "derivationChain": [
-      "sun",
-      "rise",
-      "sunrise"
+      "sun + rise"
     ],
     "memorySemantics": {
-      "imageKey": "golden horizon",
-      "scene": "清晨第一缕阳光从地平线升起，天空由黑变红再变金",
-      "emotionalHook": "新开始的希望与美丽",
-      "imageChain": []
+      "mnemonicExpr": "sun(太阳)+rise(升起) → 太阳升起 → 日出",
+      "imageChain": [
+        "日出",
+        "黎明",
+        "新开始"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "general",
-        "literary"
-      ],
+      "domain": "general",
       "sentiment": {
         "tags": [
           "积极"
@@ -64,44 +853,38 @@
     },
     "relations": {
       "sameRoot": [
-        "sunset",
-        "sunshine",
-        "sunspot"
+        "sun",
+        "sunrises",
+        "sunset"
       ],
       "sameAffix": [],
       "synonyms": [
         "dawn",
-        "daybreak",
-        "aurora"
+        "daybreak"
       ],
       "antonyms": [
         "sunset",
-        "dusk",
-        "nightfall"
+        "dusk"
       ],
       "domainCohort": [
         "dawn",
-        "daybreak"
+        "daybreak",
+        "aurora"
       ],
-      "derivationPair": [
-        "sunset"
-      ],
+      "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": [
-        "dawn",
-        "daybreak"
-      ]
+      "sameImagery": []
     }
   },
   {
-    "word": "sunset",
-    "phonetic": "/'sʌnsɛt/",
+    "word": "sunrises",
+    "phonetic": "/ˈsʌnraɪzɪz/",
     "pos": [
-      "n."
+      "n"
     ],
     "coreMeaning": {
-      "cn": "日落；傍晚",
-      "en": "the time when the sun sets below the horizon"
+      "cn": "日出（复数）",
+      "en": "instances of the sun rising"
     },
     "morphemes": [
       {
@@ -109,46 +892,1107 @@
         "role": "root",
         "form": "sun",
         "meaning": "太阳",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 2
+        },
+        "coreMeaning": {
+          "cn": "太阳",
+          "en": "sun"
+        }
+      },
+      {
+        "canonical": "rise",
+        "role": "root",
+        "form": "rise",
+        "meaning": "升起",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "升起",
+          "en": "to rise"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "复数",
+        "order": 3,
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
+        "coreMeaning": {
+          "cn": "复数后缀",
+          "en": "plural suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "sunrise"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "sunrise + s → 多次日出",
+      "imageChain": [
+        "日出",
+        "多次",
+        "清晨"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "sunrise",
+        "sun"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "sunrise"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "sunroof",
+    "phonetic": "/ˈsʌnruːf/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "天窗（汽车）",
+      "en": "a glass panel in a car roof that can be opened"
+    },
+    "morphemes": [
+      {
+        "canonical": "sun",
+        "role": "root",
+        "form": "sun",
+        "meaning": "阳光",
         "order": 1,
-        "positionTendency": "initial"
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "阳光",
+          "en": "sunlight"
+        }
+      },
+      {
+        "canonical": "roof",
+        "role": "root",
+        "form": "roof",
+        "meaning": "屋顶",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "屋顶",
+          "en": "roof"
+        }
+      }
+    ],
+    "derivationChain": [
+      "sun + roof"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "sun(阳光)+roof(顶) → 采光天窗",
+      "imageChain": [
+        "天窗",
+        "汽车",
+        "阳光"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "sun",
+        "sunroofs"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "moonroof",
+        "sunroof panel"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "moonroof",
+        "convertible top"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "sunroofs",
+    "phonetic": "/ˈsʌnruːfs/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "天窗（复数）",
+      "en": "glass panels in car roofs"
+    },
+    "morphemes": [
+      {
+        "canonical": "sun",
+        "role": "root",
+        "form": "sun",
+        "meaning": "阳光",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "阳光",
+          "en": "sunlight"
+        }
+      },
+      {
+        "canonical": "roof",
+        "role": "root",
+        "form": "roof",
+        "meaning": "屋顶",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "屋顶",
+          "en": "roof"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "复数",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数后缀",
+          "en": "plural suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "sunroof"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "sunroof + s → 多个天窗",
+      "imageChain": [
+        "天窗",
+        "多个",
+        "汽车"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "sunroof",
+        "sun"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "sunroof"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "suns",
+    "phonetic": "/sʌnz/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "太阳（复数）；恒星",
+      "en": "stars; the sun and similar stars"
+    },
+    "morphemes": [
+      {
+        "canonical": "sun",
+        "role": "root",
+        "form": "sun",
+        "meaning": "太阳",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 2
+        },
+        "coreMeaning": {
+          "cn": "太阳",
+          "en": "sun"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "复数",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数后缀",
+          "en": "plural suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "sun"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "sun + s → 多个太阳/恒星",
+      "imageChain": [
+        "太阳",
+        "多颗",
+        "宇宙"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "sun",
+        "sunny",
+        "sunshine"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "sun"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "sunscreen",
+    "phonetic": "/ˈsʌnskriːn/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "防晒霜；防晒品",
+      "en": "a lotion that protects skin from sunburn"
+    },
+    "morphemes": [
+      {
+        "canonical": "sun",
+        "role": "root",
+        "form": "sun",
+        "meaning": "太阳",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "太阳",
+          "en": "sun"
+        }
+      },
+      {
+        "canonical": "screen",
+        "role": "root",
+        "form": "screen",
+        "meaning": "遮蔽；保护",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "遮蔽",
+          "en": "to screen/protect"
+        }
+      }
+    ],
+    "derivationChain": [
+      "sun + screen"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "sun(太阳)+screen(遮蔽) → 遮挡太阳 → 防晒霜",
+      "imageChain": [
+        "防晒",
+        "皮肤保护",
+        "夏天"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "sun",
+        "sunblock"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "sunblock",
+        "sun protection"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "sunblock",
+        "SPF",
+        "skin protection"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "sunset",
+    "phonetic": "/ˈsʌnsɛt/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "日落；傍晚",
+      "en": "the time when the sun descends below the horizon"
+    },
+    "morphemes": [
+      {
+        "canonical": "sun",
+        "role": "root",
+        "form": "sun",
+        "meaning": "太阳",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "太阳",
+          "en": "sun"
+        }
       },
       {
         "canonical": "set",
         "role": "root",
         "form": "set",
-        "meaning": "沉落",
+        "meaning": "落下；沉落",
+        "order": 2,
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 2,
-        "positionTendency": "final"
+        "coreMeaning": {
+          "cn": "落下",
+          "en": "to set (descend)"
+        }
       }
     ],
     "derivationChain": [
-      "sun",
-      "set",
+      "sun + set"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "sun(太阳)+set(落下) → 太阳落下 → 日落",
+      "imageChain": [
+        "日落",
+        "傍晚",
+        "黄昏"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "sun",
+        "sunsets",
+        "sunrise"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "dusk",
+        "sundown",
+        "twilight"
+      ],
+      "antonyms": [
+        "sunrise",
+        "dawn"
+      ],
+      "domainCohort": [
+        "dusk",
+        "twilight",
+        "gloaming"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "sunsets",
+    "phonetic": "/ˈsʌnsɛts/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "日落（复数）",
+      "en": "instances of the sun going below horizon"
+    },
+    "morphemes": [
+      {
+        "canonical": "sun",
+        "role": "root",
+        "form": "sun",
+        "meaning": "太阳",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "太阳",
+          "en": "sun"
+        }
+      },
+      {
+        "canonical": "set",
+        "role": "root",
+        "form": "set",
+        "meaning": "落下",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "落下",
+          "en": "to set"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "复数",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数后缀",
+          "en": "plural suffix"
+        }
+      }
+    ],
+    "derivationChain": [
       "sunset"
     ],
     "memorySemantics": {
-      "imageKey": "red sky at dusk",
-      "scene": "夕阳西下，天际线被橙红色渲染，暮色渐深",
-      "emotionalHook": "美丽与终结并存的感伤",
-      "imageChain": []
+      "mnemonicExpr": "sunset + s → 多次日落",
+      "imageChain": [
+        "日落",
+        "多次",
+        "傍晚"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "general",
-        "literary"
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "sunset",
+        "sun"
       ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "sunset"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "sunshade",
+    "phonetic": "/ˈsʌnʃeɪd/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "遮阳物；遮阳篷",
+      "en": "something that provides shade from the sun"
+    },
+    "morphemes": [
+      {
+        "canonical": "sun",
+        "role": "root",
+        "form": "sun",
+        "meaning": "太阳",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "太阳",
+          "en": "sun"
+        }
+      },
+      {
+        "canonical": "shade",
+        "role": "root",
+        "form": "shade",
+        "meaning": "遮蔽；阴影",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "遮蔽",
+          "en": "shade"
+        }
+      }
+    ],
+    "derivationChain": [
+      "sun + shade"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "sun(太阳)+shade(遮蔽) → 遮挡阳光的物品",
+      "imageChain": [
+        "遮阳",
+        "篷子",
+        "凉爽"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "sun",
+        "sunshades"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "parasol",
+        "awning",
+        "canopy"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "parasol",
+        "umbrella",
+        "awning"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "sunshades",
+    "phonetic": "/ˈsʌnʃeɪdz/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "遮阳物（复数）",
+      "en": "things providing shade from the sun"
+    },
+    "morphemes": [
+      {
+        "canonical": "sun",
+        "role": "root",
+        "form": "sun",
+        "meaning": "太阳",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "太阳",
+          "en": "sun"
+        }
+      },
+      {
+        "canonical": "shade",
+        "role": "root",
+        "form": "shade",
+        "meaning": "遮蔽",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "遮蔽",
+          "en": "shade"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "复数",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数后缀",
+          "en": "plural suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "sunshade"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "sunshade + s → 多个遮阳物",
+      "imageChain": [
+        "遮阳物",
+        "多个",
+        "防晒"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "sunshade",
+        "sun"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "sunshade"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "sunshine",
+    "phonetic": "/ˈsʌnʃaɪn/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "阳光；愉快",
+      "en": "light and warmth from the sun; cheerfulness"
+    },
+    "morphemes": [
+      {
+        "canonical": "sun",
+        "role": "root",
+        "form": "sun",
+        "meaning": "太阳",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 2
+        },
+        "coreMeaning": {
+          "cn": "太阳",
+          "en": "sun"
+        }
+      },
+      {
+        "canonical": "shine",
+        "role": "root",
+        "form": "shine",
+        "meaning": "闪光；光辉",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 2
+        },
+        "coreMeaning": {
+          "cn": "光辉",
+          "en": "shine"
+        }
+      }
+    ],
+    "derivationChain": [
+      "sun + shine"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "sun(太阳)+shine(光辉) → 阳光灿烂",
+      "imageChain": [
+        "阳光",
+        "光辉",
+        "温暖"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "sun",
+        "sunshiny",
+        "sunray"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "sunlight",
+        "radiance"
+      ],
+      "antonyms": [
+        "darkness",
+        "shadow"
+      ],
+      "domainCohort": [
+        "sunlight",
+        "daylight",
+        "radiance"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "sunshiny",
+    "phonetic": "/ˈsʌnʃaɪni/",
+    "pos": [
+      "adj"
+    ],
+    "coreMeaning": {
+      "cn": "阳光灿烂的",
+      "en": "full of bright sunshine"
+    },
+    "morphemes": [
+      {
+        "canonical": "sun",
+        "role": "root",
+        "form": "sun",
+        "meaning": "太阳",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 2
+        },
+        "coreMeaning": {
+          "cn": "太阳",
+          "en": "sun"
+        }
+      },
+      {
+        "canonical": "shine",
+        "role": "root",
+        "form": "shine",
+        "meaning": "光辉",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "光辉",
+          "en": "shine"
+        }
+      },
+      {
+        "canonical": "-y",
+        "role": "suffix",
+        "form": "y",
+        "meaning": "形容词化",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "形容词后缀",
+          "en": "adjectival suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "sunshine"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "sunshine + y → 阳光灿烂的",
+      "imageChain": [
+        "阳光",
+        "灿烂",
+        "形容词"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "sunshine",
+        "sun"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "sunny",
+        "radiant",
+        "bright"
+      ],
+      "antonyms": [
+        "gloomy",
+        "overcast"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "sunshine"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "sunspot",
+    "phonetic": "/ˈsʌnspɒt/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "太阳黑子；阳光明媚的胜地",
+      "en": "a dark spot on the sun's surface; a sunny holiday resort"
+    },
+    "morphemes": [
+      {
+        "canonical": "sun",
+        "role": "root",
+        "form": "sun",
+        "meaning": "太阳",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "太阳",
+          "en": "sun"
+        }
+      },
+      {
+        "canonical": "spot",
+        "role": "root",
+        "form": "spot",
+        "meaning": "斑点；地点",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "斑点；地点",
+          "en": "spot"
+        }
+      }
+    ],
+    "derivationChain": [
+      "sun + spot"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "sun(太阳)+spot(斑点) → 太阳黑子",
+      "imageChain": [
+        "太阳黑子",
+        "天文",
+        "阳光"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
       "sentiment": {
         "tags": [
           "中性"
@@ -158,43 +2002,33 @@
     },
     "relations": {
       "sameRoot": [
-        "sunrise",
-        "sunshine",
-        "sunspot"
+        "sun",
+        "sunspots"
       ],
       "sameAffix": [],
       "synonyms": [
-        "dusk",
-        "twilight",
-        "nightfall"
+        "solar spot"
       ],
-      "antonyms": [
-        "sunrise",
-        "dawn"
-      ],
+      "antonyms": [],
       "domainCohort": [
-        "dusk",
-        "twilight"
+        "solar flare",
+        "corona",
+        "photosphere"
       ],
-      "derivationPair": [
-        "sunrise"
-      ],
+      "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": [
-        "dusk",
-        "twilight"
-      ]
+      "sameImagery": []
     }
   },
   {
-    "word": "sunshine",
-    "phonetic": "/'sʌnʃaɪn/",
+    "word": "sunspots",
+    "phonetic": "/ˈsʌnspɒts/",
     "pos": [
-      "n."
+      "n"
     ],
     "coreMeaning": {
-      "cn": "阳光；晴天；快乐",
-      "en": "sunlight; cheerfulness"
+      "cn": "太阳黑子（复数）",
+      "en": "dark spots on the sun's surface"
     },
     "morphemes": [
       {
@@ -202,46 +2036,543 @@
         "role": "root",
         "form": "sun",
         "meaning": "太阳",
+        "order": 1,
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
-            "积极"
+            "中性"
           ],
-          "intensity": 1
+          "intensity": 0
         },
-        "order": 1,
-        "positionTendency": "initial"
+        "coreMeaning": {
+          "cn": "太阳",
+          "en": "sun"
+        }
       },
       {
-        "canonical": "shine",
+        "canonical": "spot",
         "role": "root",
-        "form": "shine",
-        "meaning": "照耀；发光",
+        "form": "spot",
+        "meaning": "斑点",
+        "order": 2,
+        "positionTendency": "medial",
         "sentiment": {
           "tags": [
-            "积极"
+            "中性"
           ],
-          "intensity": 1
+          "intensity": 0
         },
-        "order": 2,
-        "positionTendency": "final"
+        "coreMeaning": {
+          "cn": "斑点",
+          "en": "spot"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "复数",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数后缀",
+          "en": "plural suffix"
+        }
       }
     ],
     "derivationChain": [
-      "sun",
-      "shine",
-      "sunshine"
+      "sunspot"
     ],
     "memorySemantics": {
-      "imageKey": "sunny day picnic",
-      "scene": "阳光普照的午后，人们在户外享受温暖和快乐",
-      "emotionalHook": "阳光灿烂时的幸福感",
-      "imageChain": []
+      "mnemonicExpr": "sunspot + s → 多个太阳黑子",
+      "imageChain": [
+        "太阳黑子",
+        "多个",
+        "天文"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "general",
-        "literary"
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "sunspot",
+        "sun"
       ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "sunspot"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "sunstroke",
+    "phonetic": "/ˈsʌnstroʊk/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "中暑；日射病",
+      "en": "heatstroke caused by excessive exposure to the sun"
+    },
+    "morphemes": [
+      {
+        "canonical": "sun",
+        "role": "root",
+        "form": "sun",
+        "meaning": "太阳",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "太阳",
+          "en": "sun"
+        }
+      },
+      {
+        "canonical": "stroke",
+        "role": "root",
+        "form": "stroke",
+        "meaning": "中风；击打",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 2
+        },
+        "coreMeaning": {
+          "cn": "中风",
+          "en": "stroke"
+        }
+      }
+    ],
+    "derivationChain": [
+      "sun + stroke"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "sun(太阳)+stroke(打击) → 太阳打击 → 中暑",
+      "imageChain": [
+        "中暑",
+        "阳光",
+        "热病"
+      ]
+    },
+    "wordLevel": {
+      "domain": "medical",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "sun",
+        "stroke"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "heatstroke",
+        "insolation"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "heatstroke",
+        "heat exhaustion",
+        "hyperthermia"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "suntan",
+    "phonetic": "/ˈsʌntæn/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "晒黑；棕褐色晒肤",
+      "en": "a browning of the skin from sun exposure"
+    },
+    "morphemes": [
+      {
+        "canonical": "sun",
+        "role": "root",
+        "form": "sun",
+        "meaning": "太阳",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "太阳",
+          "en": "sun"
+        }
+      },
+      {
+        "canonical": "tan",
+        "role": "root",
+        "form": "tan",
+        "meaning": "晒黑；棕褐色",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "晒黑",
+          "en": "to tan"
+        }
+      }
+    ],
+    "derivationChain": [
+      "sun + tan"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "sun(太阳)+tan(晒黑) → 日晒棕褐肤色",
+      "imageChain": [
+        "晒黑",
+        "棕褐色",
+        "夏日"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "sun",
+        "suntanned",
+        "suntans"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "tan",
+        "bronze",
+        "golden brown"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "tan",
+        "bronze",
+        "glow"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "suntanned",
+    "phonetic": "/ˈsʌntænd/",
+    "pos": [
+      "adj"
+    ],
+    "coreMeaning": {
+      "cn": "晒黑的；棕褐色肤色",
+      "en": "having a brown skin from sun exposure"
+    },
+    "morphemes": [
+      {
+        "canonical": "sun",
+        "role": "root",
+        "form": "sun",
+        "meaning": "太阳",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "太阳",
+          "en": "sun"
+        }
+      },
+      {
+        "canonical": "tan",
+        "role": "root",
+        "form": "tan",
+        "meaning": "晒黑",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "晒黑",
+          "en": "tan"
+        }
+      },
+      {
+        "canonical": "-ned",
+        "role": "suffix",
+        "form": "ned",
+        "meaning": "过去分词/形容词",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "过去分词",
+          "en": "past participle"
+        }
+      }
+    ],
+    "derivationChain": [
+      "suntan"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "suntan + ned → 已晒黑的",
+      "imageChain": [
+        "晒黑",
+        "棕褐",
+        "形容词"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "suntan",
+        "sun"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "bronzed",
+        "tanned"
+      ],
+      "antonyms": [
+        "pale",
+        "fair"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "suntan"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "suntans",
+    "phonetic": "/ˈsʌntænz/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "晒黑（复数）",
+      "en": "brownings of the skin from sun"
+    },
+    "morphemes": [
+      {
+        "canonical": "sun",
+        "role": "root",
+        "form": "sun",
+        "meaning": "太阳",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "太阳",
+          "en": "sun"
+        }
+      },
+      {
+        "canonical": "tan",
+        "role": "root",
+        "form": "tan",
+        "meaning": "晒黑",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "晒黑",
+          "en": "tan"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "复数",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数后缀",
+          "en": "plural suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "suntan"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "suntan + s → 多种晒黑",
+      "imageChain": [
+        "晒黑",
+        "多次",
+        "肤色"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "suntan",
+        "sun"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "suntan"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "suntrap",
+    "phonetic": "/ˈsʌntræp/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "向阳处；阳光充足的地方",
+      "en": "a sunny sheltered spot"
+    },
+    "morphemes": [
+      {
+        "canonical": "sun",
+        "role": "root",
+        "form": "sun",
+        "meaning": "阳光",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 2
+        },
+        "coreMeaning": {
+          "cn": "阳光",
+          "en": "sunlight"
+        }
+      },
+      {
+        "canonical": "trap",
+        "role": "root",
+        "form": "trap",
+        "meaning": "陷阱；聚集",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "聚集",
+          "en": "to catch/trap"
+        }
+      }
+    ],
+    "derivationChain": [
+      "sun + trap"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "sun(阳光)+trap(聚集) → 阳光聚集处 → 向阳地",
+      "imageChain": [
+        "向阳处",
+        "阳光充足",
+        "温暖"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
       "sentiment": {
         "tags": [
           "积极"
@@ -251,104 +2582,409 @@
     },
     "relations": {
       "sameRoot": [
-        "sunrise",
-        "sunset",
-        "sunspot"
+        "sun",
+        "suntraps"
       ],
       "sameAffix": [],
       "synonyms": [
-        "sunlight",
-        "radiance",
-        "cheerfulness"
+        "sun trap",
+        "sunny spot"
       ],
-      "antonyms": [
-        "darkness",
-        "gloom",
-        "shadow"
-      ],
+      "antonyms": [],
       "domainCohort": [
-        "sunlight",
-        "radiance"
+        "conservatory",
+        "sun deck"
       ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": [
-        "radiance",
-        "warmth"
-      ]
+      "sameImagery": []
     }
   },
   {
-    "word": "superannuated",
-    "phonetic": "/suːpə'rænjʊeɪtɪd/",
+    "word": "suntraps",
+    "phonetic": "/ˈsʌntræps/",
     "pos": [
-      "adj."
+      "n"
     ],
     "coreMeaning": {
-      "cn": "退休的；过时的；陈旧的",
-      "en": "retired due to age; obsolete"
+      "cn": "向阳处（复数）",
+      "en": "sunny sheltered spots"
+    },
+    "morphemes": [
+      {
+        "canonical": "sun",
+        "role": "root",
+        "form": "sun",
+        "meaning": "阳光",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 2
+        },
+        "coreMeaning": {
+          "cn": "阳光",
+          "en": "sunlight"
+        }
+      },
+      {
+        "canonical": "trap",
+        "role": "root",
+        "form": "trap",
+        "meaning": "聚集",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "聚集",
+          "en": "trap"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "复数",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数后缀",
+          "en": "plural suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "suntrap"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "suntrap + s → 多处向阳地",
+      "imageChain": [
+        "向阳处",
+        "多处",
+        "阳光"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "suntrap",
+        "sun"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "suntrap"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "sunshield",
+    "phonetic": "/ˈsʌnʃiːld/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "遮阳板；防热盾",
+      "en": "a device protecting against solar radiation"
+    },
+    "morphemes": [
+      {
+        "canonical": "sun",
+        "role": "root",
+        "form": "sun",
+        "meaning": "太阳",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "太阳",
+          "en": "sun"
+        }
+      },
+      {
+        "canonical": "shield",
+        "role": "root",
+        "form": "shield",
+        "meaning": "遮蔽；防护",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "防护",
+          "en": "shield"
+        }
+      }
+    ],
+    "derivationChain": [
+      "sun + shield"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "sun(太阳)+shield(盾) → 防太阳辐射的盾",
+      "imageChain": [
+        "遮阳板",
+        "防护",
+        "航天"
+      ]
+    },
+    "wordLevel": {
+      "domain": "tech",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "sun",
+        "sunshade"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "sun visor",
+        "sun shade"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "visor",
+        "heat shield",
+        "sunscreen"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "superb",
+    "phonetic": "/suːˈpɜːrb/",
+    "pos": [
+      "adj"
+    ],
+    "coreMeaning": {
+      "cn": "极好的；宏伟的；卓越的",
+      "en": "excellent; of the highest quality"
     },
     "morphemes": [
       {
         "canonical": "super-",
         "role": "prefix",
         "form": "super",
-        "meaning": "超过；过分",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
+        "meaning": "超过；极度",
         "order": 1,
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "annu",
-        "role": "root",
-        "form": "annu",
-        "meaning": "年（拉丁 annus，年）",
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
-            "中性"
+            "积极"
           ],
-          "intensity": 0
+          "intensity": 2
         },
-        "order": 2,
-        "positionTendency": "medial"
+        "coreMeaning": {
+          "cn": "超级",
+          "en": "above, beyond"
+        }
       },
       {
-        "canonical": "-ated",
+        "canonical": "-b",
         "role": "suffix",
-        "form": "ated",
-        "meaning": "形容词后缀，已…的",
+        "form": "b",
+        "meaning": "拉丁形容词后缀",
+        "order": 2,
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 3,
-        "positionTendency": "final"
+        "coreMeaning": {
+          "cn": "拉丁形容词词尾",
+          "en": "Latin adjectival ending"
+        }
       }
     ],
     "derivationChain": [
-      "year",
-      "annual",
-      "superannuate",
-      "superannuated"
+      "Latin superbus (above; proud)"
     ],
     "memorySemantics": {
-      "imageKey": "old dusty equipment",
-      "scene": "年份已超过使用期限的机器，或已超龄退休的工人",
-      "emotionalHook": "时光流逝后的淘汰感",
-      "imageChain": []
+      "mnemonicExpr": "super(超级)+b → 超级棒 → 极好的",
+      "imageChain": [
+        "极好",
+        "卓越",
+        "顶级"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "gre",
-        "academic"
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "superbly",
+        "superbus"
       ],
+      "sameAffix": [
+        "superior",
+        "superlative"
+      ],
+      "synonyms": [
+        "excellent",
+        "magnificent",
+        "splendid"
+      ],
+      "antonyms": [
+        "poor",
+        "mediocre"
+      ],
+      "domainCohort": [
+        "magnificent",
+        "excellent",
+        "outstanding"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "superannuated",
+    "phonetic": "/ˌsuːpərˈænjʊeɪtɪd/",
+    "pos": [
+      "adj"
+    ],
+    "coreMeaning": {
+      "cn": "退休的；过时的；老朽的",
+      "en": "retired on a pension; outdated"
+    },
+    "morphemes": [
+      {
+        "canonical": "super-",
+        "role": "prefix",
+        "form": "super",
+        "meaning": "超过",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "超过",
+          "en": "beyond"
+        }
+      },
+      {
+        "canonical": "annu-",
+        "role": "root",
+        "form": "annu",
+        "meaning": "年；年份",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "年",
+          "en": "year"
+        }
+      },
+      {
+        "canonical": "-ate",
+        "role": "suffix",
+        "form": "ate",
+        "meaning": "动词化",
+        "order": 3,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "动词后缀",
+          "en": "verbal suffix"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "form": "d",
+        "meaning": "过去分词/形容词",
+        "order": 4,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "过去分词",
+          "en": "past participle"
+        }
+      }
+    ],
+    "derivationChain": [
+      "super + annus + ate",
+      "superannuate"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "super(超过)+annu(年)+ated → 超过年龄的 → 退休的；过时的",
+      "imageChain": [
+        "退休",
+        "过时",
+        "超龄"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
       "sentiment": {
         "tags": [
           "消极"
@@ -358,194 +2994,112 @@
     },
     "relations": {
       "sameRoot": [
-        "annual",
-        "annuity",
-        "anniversary"
+        "superannuate",
+        "superannuation",
+        "superannuating"
       ],
-      "sameAffix": [
-        "outdated",
-        "antiquated"
-      ],
+      "sameAffix": [],
       "synonyms": [
+        "retired",
         "obsolete",
-        "antiquated",
-        "outdated",
-        "retired"
+        "outdated"
       ],
       "antonyms": [
         "current",
         "modern",
-        "up-to-date"
+        "active"
       ],
       "domainCohort": [
+        "retired",
         "obsolete",
-        "antiquated"
+        "archaic"
       ],
       "derivationPair": [
-        "superannuate",
-        "superannuation"
+        "superannuate"
       ],
       "morphVariants": [],
-      "sameImagery": [
-        "obsolete",
-        "outdated"
-      ]
+      "sameImagery": []
     }
   },
   {
-    "word": "superb",
-    "phonetic": "/suːˈpɜːrb/",
+    "word": "superannuation",
+    "phonetic": "/ˌsuːpərˌænjʊˈeɪʃən/",
     "pos": [
-      "adj."
+      "n"
     ],
     "coreMeaning": {
-      "cn": "极好的；华丽的；宏伟的",
-      "en": "of the highest quality; magnificent"
+      "cn": "退休金；养老金；退休制度",
+      "en": "a pension; retirement on a pension"
     },
     "morphemes": [
       {
         "canonical": "super-",
         "role": "prefix",
         "form": "super",
-        "meaning": "超越；超级",
+        "meaning": "超过",
+        "order": 1,
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
-            "积极"
+            "中性"
           ],
-          "intensity": 2
+          "intensity": 0
         },
-        "order": 1,
-        "positionTendency": "initial"
+        "coreMeaning": {
+          "cn": "超过",
+          "en": "beyond"
+        }
       },
       {
-        "canonical": "superb",
+        "canonical": "annu-",
         "role": "root",
-        "form": "b",
-        "meaning": "优越（源自拉丁 superbus，骄傲、壮丽）",
+        "form": "annu",
+        "meaning": "年",
+        "order": 2,
+        "positionTendency": "medial",
         "sentiment": {
           "tags": [
-            "积极"
+            "中性"
           ],
-          "intensity": 2
+          "intensity": 0
         },
-        "order": 2,
-        "positionTendency": "final"
+        "coreMeaning": {
+          "cn": "年",
+          "en": "year"
+        }
+      },
+      {
+        "canonical": "-ation",
+        "role": "suffix",
+        "form": "ation",
+        "meaning": "名词化",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "名词后缀",
+          "en": "nominalization"
+        }
       }
     ],
     "derivationChain": [
-      "superbus",
-      "superb",
-      "superbly"
+      "superannuate"
     ],
     "memorySemantics": {
-      "imageKey": "standing ovation",
-      "scene": "观众起立为一场无与伦比的演出鼓掌，超越了所有期待",
-      "emotionalHook": "被卓越震撼时的由衷赞叹",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general",
-        "gre"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 2
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "superior",
-        "superlative",
-        "supreme"
-      ],
-      "sameAffix": [
-        "exquisite",
-        "magnificent"
-      ],
-      "synonyms": [
-        "magnificent",
-        "outstanding",
-        "excellent",
-        "splendid"
-      ],
-      "antonyms": [
-        "mediocre",
-        "inferior",
-        "poor"
-      ],
-      "domainCohort": [
-        "magnificent",
-        "outstanding"
-      ],
-      "derivationPair": [
-        "superbly"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "magnificent",
-        "outstanding"
+      "mnemonicExpr": "super(超)+annu(年)+ation → 超龄退休制度 → 养老金",
+      "imageChain": [
+        "养老金",
+        "退休",
+        "积累"
       ]
-    }
-  },
-  {
-    "word": "sunspot",
-    "phonetic": "/'sʌnspɒt/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "太阳黑子",
-      "en": "a temporary dark area on the sun's surface"
-    },
-    "morphemes": [
-      {
-        "canonical": "sun",
-        "role": "root",
-        "form": "sun",
-        "meaning": "太阳",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "spot",
-        "role": "root",
-        "form": "spot",
-        "meaning": "斑点；点",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "sun",
-      "spot",
-      "sunspot"
-    ],
-    "memorySemantics": {
-      "imageKey": "telescope sun view",
-      "scene": "通过天文望远镜观察太阳表面的黑色斑点区域，磁场活动的痕迹",
-      "emotionalHook": "宇宙神秘带来的好奇",
-      "imageChain": []
     },
     "wordLevel": {
-      "domain": [
-        "academic",
-        "science"
-      ],
+      "domain": "finance",
       "sentiment": {
         "tags": [
           "中性"
@@ -555,29 +3109,245 @@
     },
     "relations": {
       "sameRoot": [
-        "sunshine",
-        "sunrise",
-        "sunset"
+        "superannuated",
+        "superannuate"
       ],
-      "sameAffix": [
-        "birthmark",
-        "freckle"
-      ],
+      "sameAffix": [],
       "synonyms": [
-        "solar spot",
-        "solar flare"
+        "pension",
+        "retirement fund",
+        "annuity"
       ],
       "antonyms": [],
       "domainCohort": [
-        "solar flare",
-        "corona"
+        "pension",
+        "retirement",
+        "annuity"
+      ],
+      "derivationPair": [
+        "superannuate"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "superabundance",
+    "phonetic": "/ˌsuːpərəˈbʌndəns/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "过剩；大量；超量",
+      "en": "an excessively large quantity"
+    },
+    "morphemes": [
+      {
+        "canonical": "super-",
+        "role": "prefix",
+        "form": "super",
+        "meaning": "超过",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "超过",
+          "en": "beyond, above"
+        }
+      },
+      {
+        "canonical": "abund-",
+        "role": "root",
+        "form": "abund",
+        "meaning": "充裕；丰富",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "丰富",
+          "en": "to overflow"
+        }
+      },
+      {
+        "canonical": "-ance",
+        "role": "suffix",
+        "form": "ance",
+        "meaning": "名词化",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "名词后缀",
+          "en": "noun suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "super + abundance"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "super(超)+abundance(丰富) → 超量丰富 → 过剩",
+      "imageChain": [
+        "过剩",
+        "超量",
+        "富余"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "superabundant",
+        "abundant",
+        "abundance"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "surplus",
+        "excess",
+        "overabundance"
+      ],
+      "antonyms": [
+        "shortage",
+        "scarcity"
+      ],
+      "domainCohort": [
+        "surplus",
+        "excess",
+        "glut"
       ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": [
-        "solar activity",
-        "magnetic field"
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "superabundant",
+    "phonetic": "/ˌsuːpərəˈbʌndənt/",
+    "pos": [
+      "adj"
+    ],
+    "coreMeaning": {
+      "cn": "过于丰富的；过剩的",
+      "en": "existing in excessive quantities"
+    },
+    "morphemes": [
+      {
+        "canonical": "super-",
+        "role": "prefix",
+        "form": "super",
+        "meaning": "超过",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "超过",
+          "en": "beyond"
+        }
+      },
+      {
+        "canonical": "abund-",
+        "role": "root",
+        "form": "abund",
+        "meaning": "丰富",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "丰富",
+          "en": "abundant"
+        }
+      },
+      {
+        "canonical": "-ant",
+        "role": "suffix",
+        "form": "ant",
+        "meaning": "形容词化",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "形容词后缀",
+          "en": "adjectival suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "super + abundant"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "super(超)+abundant(丰富) → 超级丰富 → 过剩的",
+      "imageChain": [
+        "过剩",
+        "超量",
+        "形容词"
       ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "superabundance",
+        "abundant"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "excessive",
+        "surplus",
+        "overflowing"
+      ],
+      "antonyms": [
+        "scarce",
+        "insufficient"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
     }
   }
 ]

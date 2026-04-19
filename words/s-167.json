@@ -1,208 +1,962 @@
 [
   {
-    "word": "stealth",
-    "phonetic": "/stɛlθ/",
+    "word": "steal",
+    "phonetic": "/stiːl/",
     "pos": [
-      "n."
+      "v"
     ],
     "coreMeaning": {
-      "cn": "秘密行动；鬼祟；隐蔽性",
-      "en": "careful, secret action or movement"
+      "cn": "偷窃；悄悄移动",
+      "en": "to take without permission; to move quietly"
     },
     "morphemes": [
       {
         "canonical": "steal",
         "role": "root",
-        "meaning": "偷；悄悄行动",
+        "form": "steal",
+        "meaning": "偷窃",
+        "order": 1,
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
-            "中性"
+            "消极"
           ],
-          "intensity": 0
+          "intensity": 2
         },
+        "coreMeaning": {
+          "cn": "偷窃",
+          "en": "to take secretly"
+        }
+      }
+    ],
+    "derivationChain": [],
+    "memorySemantics": {
+      "mnemonicExpr": "steal → 联想steel(钢铁)，偷走钢铁般坚硬的东西",
+      "imageChain": [
+        "偷窃",
+        "秘密",
+        "悄悄"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "stealer",
+        "stealing",
+        "steals",
+        "stolen",
+        "stole"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "pilfer",
+        "filch",
+        "purloin"
+      ],
+      "antonyms": [
+        "return",
+        "give"
+      ],
+      "domainCohort": [
+        "rob",
+        "pilfer",
+        "filch"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "stealer",
+    "phonetic": "/ˈstiːlər/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "偷窃者",
+      "en": "one who steals"
+    },
+    "morphemes": [
+      {
+        "canonical": "steal",
+        "role": "root",
+        "form": "steal",
+        "meaning": "偷窃",
         "order": 1,
-        "form": "steal"
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 2
+        },
+        "coreMeaning": {
+          "cn": "偷窃",
+          "en": "to steal"
+        }
       },
       {
-        "canonical": "-th",
+        "canonical": "-er",
         "role": "suffix",
-        "meaning": "名词化（古英语）",
+        "form": "er",
+        "meaning": "施动者",
+        "order": 2,
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 2,
-        "form": "th"
+        "coreMeaning": {
+          "cn": "施动者后缀",
+          "en": "agent suffix"
+        }
       }
     ],
     "derivationChain": [
-      "stelan (OE steal) + -th → stealth"
+      "steal"
     ],
     "memorySemantics": {
-      "imageKey": "ninja-move",
-      "scene": "特种兵隐形作战，悄无声息",
-      "emotionalHook": "steal → stealth，偷偷行动的状态；隐形战机叫stealth bomber",
-      "imageChain": []
+      "mnemonicExpr": "steal + er → 偷窃者",
+      "imageChain": [
+        "窃贼",
+        "偷窃",
+        "犯罪"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "military",
-        "academic",
-        "general"
-      ],
+      "domain": "general",
       "sentiment": {
         "tags": [
-          "中性"
+          "消极"
         ],
-        "intensity": 0
+        "intensity": 2
       }
     },
     "relations": {
       "sameRoot": [
         "steal",
-        "stealthy"
+        "stealing"
       ],
-      "sameAffix": [
-        "health",
-        "wealth",
-        "growth"
-      ],
-      "synonyms": [
-        "secrecy",
-        "furtiveness",
-        "covertness"
-      ],
-      "antonyms": [
-        "openness",
-        "transparency",
-        "candor"
-      ],
-      "domainCohort": [
-        "covert",
-        "clandestine",
-        "furtive"
-      ],
-      "derivationPair": [
-        "stealthy",
-        "stealthily"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "furtive",
-        "covert"
-      ]
-    }
-  },
-  {
-    "word": "steed",
-    "phonetic": "/sti:d/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "战马；骏马",
-      "en": "a horse, especially a spirited one"
-    },
-    "morphemes": [
-      {
-        "canonical": "steed",
-        "role": "root",
-        "meaning": "骏马",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "steed"
-      }
-    ],
-    "derivationChain": [
-      "steda (OE stallion) → steed"
-    ],
-    "memorySemantics": {
-      "imageKey": "galloping-warhorse",
-      "scene": "骑士骑着骏马驰骋战场",
-      "emotionalHook": "steed = 诗歌/文学中对马的高雅称呼，GRE词汇",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "literary",
-        "academic"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [],
       "sameAffix": [],
       "synonyms": [
-        "horse",
-        "charger",
-        "mount"
+        "thief",
+        "robber",
+        "pilferer"
       ],
       "antonyms": [],
-      "domainCohort": [
-        "charger",
-        "stallion",
-        "courser"
+      "domainCohort": [],
+      "derivationPair": [
+        "steal"
       ],
-      "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": [
-        "charger"
-      ]
+      "sameImagery": []
     }
   },
   {
-    "word": "steam",
-    "phonetic": "/stim/",
+    "word": "stealing",
+    "phonetic": "/ˈstiːlɪŋ/",
     "pos": [
-      "n.",
-      "v."
+      "v"
     ],
     "coreMeaning": {
-      "cn": "蒸汽；热气",
-      "en": "water vapor; to emit or cook with steam"
+      "cn": "偷窃（进行时）",
+      "en": "taking without permission"
     },
     "morphemes": [
       {
-        "canonical": "steam",
+        "canonical": "steal",
         "role": "root",
-        "meaning": "蒸汽",
+        "form": "steal",
+        "meaning": "偷窃",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 2
+        },
+        "coreMeaning": {
+          "cn": "偷窃",
+          "en": "to steal"
+        }
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "form": "ing",
+        "meaning": "进行时",
+        "order": 2,
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 1,
-        "form": "steam"
+        "coreMeaning": {
+          "cn": "进行时后缀",
+          "en": "present participle suffix"
+        }
       }
     ],
     "derivationChain": [
-      "steam (OE) → steam"
+      "steal"
     ],
     "memorySemantics": {
-      "imageKey": "boiling-kettle",
-      "scene": "沸腾的水壶冒出白色蒸汽",
-      "emotionalHook": "steam = 工业革命的动力来源，蒸汽机的核心",
-      "imageChain": []
+      "mnemonicExpr": "steal + ing → 正在偷窃",
+      "imageChain": [
+        "偷窃",
+        "进行中",
+        "犯罪"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "general",
-        "physics",
-        "food"
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "steal",
+        "stealer",
+        "steals"
       ],
+      "sameAffix": [],
+      "synonyms": [
+        "pilfering",
+        "robbing"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "steal"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "steals",
+    "phonetic": "/stiːlz/",
+    "pos": [
+      "v"
+    ],
+    "coreMeaning": {
+      "cn": "偷窃（三单）；断球",
+      "en": "takes without permission; intercepts in basketball"
+    },
+    "morphemes": [
+      {
+        "canonical": "steal",
+        "role": "root",
+        "form": "steal",
+        "meaning": "偷窃",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 2
+        },
+        "coreMeaning": {
+          "cn": "偷窃",
+          "en": "to steal"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "三单后缀",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "三单后缀",
+          "en": "3rd person singular suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "steal"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "steal + s → 他偷；断球",
+      "imageChain": [
+        "偷窃",
+        "三单",
+        "篮球"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "steal",
+        "stealer",
+        "stealing"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "steal"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "stealth",
+    "phonetic": "/stɛlθ/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "秘密行动；鬼鬼祟祟",
+      "en": "cautious, secret movement or action"
+    },
+    "morphemes": [
+      {
+        "canonical": "steal",
+        "role": "root",
+        "form": "steal",
+        "meaning": "偷偷地",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "偷偷地移动",
+          "en": "to steal/creep"
+        }
+      },
+      {
+        "canonical": "-th",
+        "role": "suffix",
+        "form": "th",
+        "meaning": "名词化（抽象）",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "名词后缀",
+          "en": "abstract noun suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "steal"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "steal(偷)+th → 偷偷行动的方式 → 秘密行动",
+      "imageChain": [
+        "潜行",
+        "隐秘",
+        "悄无声息"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "steal",
+        "stealthy",
+        "stealthily",
+        "stealthier",
+        "stealthiest"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "secrecy",
+        "furtiveness",
+        "surreptitousness"
+      ],
+      "antonyms": [
+        "openness",
+        "transparency"
+      ],
+      "domainCohort": [
+        "secrecy",
+        "covertness",
+        "subterfuge"
+      ],
+      "derivationPair": [
+        "steal"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "stealthier",
+    "phonetic": "/ˈstɛlθiər/",
+    "pos": [
+      "adj"
+    ],
+    "coreMeaning": {
+      "cn": "更隐秘的（比较级）",
+      "en": "comparative of stealthy; more secretive"
+    },
+    "morphemes": [
+      {
+        "canonical": "steal",
+        "role": "root",
+        "form": "steal",
+        "meaning": "偷偷",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "偷偷",
+          "en": "stealthy"
+        }
+      },
+      {
+        "canonical": "-th",
+        "role": "suffix",
+        "form": "th",
+        "meaning": "名词化",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "名词后缀",
+          "en": "noun suffix"
+        }
+      },
+      {
+        "canonical": "-y",
+        "role": "suffix",
+        "form": "y",
+        "meaning": "形容词化",
+        "order": 3,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "形容词后缀",
+          "en": "adjectival suffix"
+        }
+      },
+      {
+        "canonical": "-er",
+        "role": "suffix",
+        "form": "ier",
+        "meaning": "比较级",
+        "order": 4,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "比较级后缀",
+          "en": "comparative suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "stealthy"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "stealthy + er → 更隐秘的",
+      "imageChain": [
+        "更隐秘",
+        "比较",
+        "潜行"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "stealthy",
+        "stealth",
+        "stealthiest"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "stealthy"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "stealthiest",
+    "phonetic": "/ˈstɛlθiɪst/",
+    "pos": [
+      "adj"
+    ],
+    "coreMeaning": {
+      "cn": "最隐秘的（最高级）",
+      "en": "superlative of stealthy"
+    },
+    "morphemes": [
+      {
+        "canonical": "steal",
+        "role": "root",
+        "form": "steal",
+        "meaning": "偷偷",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "偷偷",
+          "en": "stealthy"
+        }
+      },
+      {
+        "canonical": "-th",
+        "role": "suffix",
+        "form": "th",
+        "meaning": "名词化",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "名词后缀",
+          "en": "noun suffix"
+        }
+      },
+      {
+        "canonical": "-y",
+        "role": "suffix",
+        "form": "y",
+        "meaning": "形容词化",
+        "order": 3,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "形容词后缀",
+          "en": "adjectival suffix"
+        }
+      },
+      {
+        "canonical": "-est",
+        "role": "suffix",
+        "form": "iest",
+        "meaning": "最高级",
+        "order": 4,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "最高级后缀",
+          "en": "superlative suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "stealthy"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "stealthy + est → 最隐秘的",
+      "imageChain": [
+        "最隐秘",
+        "潜行",
+        "无声"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "stealthy",
+        "stealth",
+        "stealthier"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "stealthy"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "stealthily",
+    "phonetic": "/ˈstɛlθɪli/",
+    "pos": [
+      "adv"
+    ],
+    "coreMeaning": {
+      "cn": "秘密地；鬼鬼祟祟地",
+      "en": "in a stealthy manner"
+    },
+    "morphemes": [
+      {
+        "canonical": "steal",
+        "role": "root",
+        "form": "steal",
+        "meaning": "偷偷",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "偷偷",
+          "en": "stealthy"
+        }
+      },
+      {
+        "canonical": "-th",
+        "role": "suffix",
+        "form": "th",
+        "meaning": "名词化",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "名词后缀",
+          "en": "noun suffix"
+        }
+      },
+      {
+        "canonical": "-y",
+        "role": "suffix",
+        "form": "y",
+        "meaning": "形容词化",
+        "order": 3,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "形容词化",
+          "en": "adjectival"
+        }
+      },
+      {
+        "canonical": "-ly",
+        "role": "suffix",
+        "form": "ily",
+        "meaning": "副词化",
+        "order": 4,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "副词后缀",
+          "en": "adverbial suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "stealthy"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "stealthy + ly → 秘密地；鬼祟地",
+      "imageChain": [
+        "潜行",
+        "副词",
+        "隐秘"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "stealthy",
+        "stealth"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "furtively",
+        "covertly",
+        "surreptitiously"
+      ],
+      "antonyms": [
+        "openly"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "stealthy"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "stealthy",
+    "phonetic": "/ˈstɛlθi/",
+    "pos": [
+      "adj"
+    ],
+    "coreMeaning": {
+      "cn": "鬼鬼祟祟的；秘密的",
+      "en": "characterized by quiet and caution; secretive"
+    },
+    "morphemes": [
+      {
+        "canonical": "steal",
+        "role": "root",
+        "form": "steal",
+        "meaning": "偷偷",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "偷偷",
+          "en": "furtive"
+        }
+      },
+      {
+        "canonical": "-th",
+        "role": "suffix",
+        "form": "th",
+        "meaning": "名词化",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "名词后缀",
+          "en": "noun suffix"
+        }
+      },
+      {
+        "canonical": "-y",
+        "role": "suffix",
+        "form": "y",
+        "meaning": "形容词化",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "形容词后缀",
+          "en": "adjectival suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "stealth"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "stealth + y → 鬼鬼祟祟的",
+      "imageChain": [
+        "鬼祟",
+        "隐秘",
+        "无声"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "stealth",
+        "steal",
+        "stealthily"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "furtive",
+        "covert",
+        "surreptitious"
+      ],
+      "antonyms": [
+        "open",
+        "obvious"
+      ],
+      "domainCohort": [
+        "covert",
+        "furtive",
+        "clandestine"
+      ],
+      "derivationPair": [
+        "stealth"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "steam",
+    "phonetic": "/stiːm/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "蒸汽；水蒸气",
+      "en": "water in the form of gas from boiling"
+    },
+    "morphemes": [
+      {
+        "canonical": "steam",
+        "role": "root",
+        "form": "steam",
+        "meaning": "蒸汽",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "蒸汽",
+          "en": "water vapor"
+        }
+      }
+    ],
+    "derivationChain": [],
+    "memorySemantics": {
+      "mnemonicExpr": "steam → 联想蒸汽机steam engine，工业革命",
+      "imageChain": [
+        "蒸汽",
+        "热气",
+        "工业"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
       "sentiment": {
         "tags": [
           "中性"
@@ -212,9 +966,14 @@
     },
     "relations": {
       "sameRoot": [
+        "steamed",
         "steamer",
+        "steaming",
+        "steams",
+        "steamboat",
+        "steamroller",
         "steamship",
-        "steamroller"
+        "steamy"
       ],
       "sameAffix": [],
       "synonyms": [
@@ -224,72 +983,75 @@
       "antonyms": [],
       "domainCohort": [
         "vapor",
-        "boiler",
-        "engine"
+        "mist",
+        "gas"
       ],
-      "derivationPair": [
-        "steamer",
-        "steamy"
-      ],
+      "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": [
-        "vapor"
-      ]
+      "sameImagery": []
     }
   },
   {
-    "word": "steamer",
-    "phonetic": "/'stimɚ/",
+    "word": "steamboat",
+    "phonetic": "/ˈstiːmboʊt/",
     "pos": [
-      "n."
+      "n"
     ],
     "coreMeaning": {
-      "cn": "汽船；蒸锅",
-      "en": "a ship driven by steam; a cooking vessel using steam"
+      "cn": "蒸汽船",
+      "en": "a boat propelled by steam power"
     },
     "morphemes": [
       {
         "canonical": "steam",
         "role": "root",
+        "form": "steam",
         "meaning": "蒸汽",
+        "order": 1,
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 1,
-        "form": "steam"
+        "coreMeaning": {
+          "cn": "蒸汽",
+          "en": "steam"
+        }
       },
       {
-        "canonical": "-er",
-        "role": "suffix",
-        "meaning": "工具或行为者",
+        "canonical": "boat",
+        "role": "root",
+        "form": "boat",
+        "meaning": "船",
+        "order": 2,
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 2,
-        "form": "er"
+        "coreMeaning": {
+          "cn": "船",
+          "en": "boat"
+        }
       }
     ],
     "derivationChain": [
-      "steam + -er → steamer"
+      "steam + boat"
     ],
     "memorySemantics": {
-      "imageKey": "paddlewheel-ship",
-      "scene": "19世纪密西西比河上的蒸汽轮船",
-      "emotionalHook": "steam(蒸汽) + er(工具) = 蒸汽动力的船或锅",
-      "imageChain": []
+      "mnemonicExpr": "steam(蒸汽)+boat(船) → 蒸汽船",
+      "imageChain": [
+        "蒸汽船",
+        "河流",
+        "历史"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "general",
-        "history",
-        "food"
-      ],
+      "domain": "general",
       "sentiment": {
         "tags": [
           "中性"
@@ -300,14 +1062,291 @@
     "relations": {
       "sameRoot": [
         "steam",
-        "steamship",
-        "steamroller"
+        "steamboats",
+        "steamship"
       ],
-      "sameAffix": [
-        "tanker",
-        "freighter",
-        "liner"
+      "sameAffix": [],
+      "synonyms": [
+        "steamer",
+        "paddleboat"
       ],
+      "antonyms": [],
+      "domainCohort": [
+        "steamer",
+        "paddle steamer",
+        "riverboat"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "steamboats",
+    "phonetic": "/ˈstiːmboʊts/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "蒸汽船（复数）",
+      "en": "boats propelled by steam"
+    },
+    "morphemes": [
+      {
+        "canonical": "steam",
+        "role": "root",
+        "form": "steam",
+        "meaning": "蒸汽",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "蒸汽",
+          "en": "steam"
+        }
+      },
+      {
+        "canonical": "boat",
+        "role": "root",
+        "form": "boat",
+        "meaning": "船",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "船",
+          "en": "boat"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "复数",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数后缀",
+          "en": "plural suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "steamboat"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "steamboat + s → 多艘蒸汽船",
+      "imageChain": [
+        "蒸汽船",
+        "多艘",
+        "航运"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "steamboat",
+        "steam"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "steamboat"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "steamed",
+    "phonetic": "/stiːmd/",
+    "pos": [
+      "adj"
+    ],
+    "coreMeaning": {
+      "cn": "蒸过的；愤怒的",
+      "en": "cooked by steam; angry or upset"
+    },
+    "morphemes": [
+      {
+        "canonical": "steam",
+        "role": "root",
+        "form": "steam",
+        "meaning": "蒸汽",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "蒸汽",
+          "en": "steam"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "form": "ed",
+        "meaning": "过去式/形容词",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "过去分词/形容词",
+          "en": "past participle/adjective"
+        }
+      }
+    ],
+    "derivationChain": [
+      "steam"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "steam + ed → 蒸过的；气愤的",
+      "imageChain": [
+        "蒸熟",
+        "愤怒",
+        "冒蒸汽"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "steam",
+        "steamer",
+        "steaming"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "cooked",
+        "furious",
+        "irate"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "steam"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "steamer",
+    "phonetic": "/ˈstiːmər/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "汽船；蒸锅",
+      "en": "a ship powered by steam; a vessel for steaming food"
+    },
+    "morphemes": [
+      {
+        "canonical": "steam",
+        "role": "root",
+        "form": "steam",
+        "meaning": "蒸汽",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "蒸汽",
+          "en": "steam"
+        }
+      },
+      {
+        "canonical": "-er",
+        "role": "suffix",
+        "form": "er",
+        "meaning": "施动者/装置",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "装置/施动者后缀",
+          "en": "agent/device suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "steam"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "steam + er → 蒸汽船；蒸锅",
+      "imageChain": [
+        "汽船",
+        "蒸锅",
+        "蒸汽"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "steam",
+        "steamers",
+        "steamboat"
+      ],
+      "sameAffix": [],
       "synonyms": [
         "steamship",
         "steamboat"
@@ -315,8 +1354,8 @@
       "antonyms": [],
       "domainCohort": [
         "steamship",
-        "liner",
-        "vessel"
+        "vessel",
+        "cooker"
       ],
       "derivationPair": [
         "steam"
@@ -326,47 +1365,84 @@
     }
   },
   {
-    "word": "steel",
-    "phonetic": "/stil/",
+    "word": "steamers",
+    "phonetic": "/ˈstiːmərz/",
     "pos": [
-      "n.",
-      "vt.",
-      "adj."
+      "n"
     ],
     "coreMeaning": {
-      "cn": "钢铁；坚硬；使坚定",
-      "en": "a strong metal alloy; to harden mentally"
+      "cn": "汽船（复数）；蒸锅",
+      "en": "steam-powered ships or vessels for steaming"
     },
     "morphemes": [
       {
-        "canonical": "steel",
+        "canonical": "steam",
         "role": "root",
-        "meaning": "钢铁；坚硬",
+        "form": "steam",
+        "meaning": "蒸汽",
+        "order": 1,
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 1,
-        "form": "steel"
+        "coreMeaning": {
+          "cn": "蒸汽",
+          "en": "steam"
+        }
+      },
+      {
+        "canonical": "-er",
+        "role": "suffix",
+        "form": "er",
+        "meaning": "装置",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "装置",
+          "en": "device"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "复数",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数后缀",
+          "en": "plural suffix"
+        }
       }
     ],
     "derivationChain": [
-      "stele (OE) → steel"
+      "steamer"
     ],
     "memorySemantics": {
-      "imageKey": "iron-resolve",
-      "scene": "炼制精钢，象征意志坚定",
-      "emotionalHook": "steel yourself = 使自己振作，精神上如钢铁般坚硬",
-      "imageChain": []
+      "mnemonicExpr": "steamer + s → 多艘汽船",
+      "imageChain": [
+        "汽船",
+        "多艘",
+        "航运"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "general",
-        "literary",
-        "business"
-      ],
+      "domain": "general",
       "sentiment": {
         "tags": [
           "中性"
@@ -375,83 +1451,384 @@
       }
     },
     "relations": {
-      "sameRoot": [],
+      "sameRoot": [
+        "steamer",
+        "steam"
+      ],
       "sameAffix": [],
-      "synonyms": [
-        "iron",
-        "metal",
-        "resolve"
-      ],
-      "antonyms": [
-        "soften",
-        "weaken"
-      ],
-      "domainCohort": [
-        "iron",
-        "alloy",
-        "metal"
-      ],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
       "derivationPair": [
-        "steely",
-        "steelwork"
+        "steamer"
       ],
       "morphVariants": [],
-      "sameImagery": [
-        "iron"
-      ]
+      "sameImagery": []
     }
   },
   {
-    "word": "steatosis",
-    "phonetic": "/ˌsti:ə'toʊsɪs/",
+    "word": "steaming",
+    "phonetic": "/ˈstiːmɪŋ/",
     "pos": [
-      "n."
+      "adj"
     ],
     "coreMeaning": {
-      "cn": "脂肪变性；脂肪沉积",
-      "en": "fatty degeneration of cells or organs"
+      "cn": "冒蒸汽的；非常热的",
+      "en": "emitting steam; very hot"
     },
     "morphemes": [
       {
-        "canonical": "steat-",
+        "canonical": "steam",
         "role": "root",
-        "meaning": "脂肪",
+        "form": "steam",
+        "meaning": "蒸汽",
+        "order": 1,
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 1,
-        "form": "steat"
+        "coreMeaning": {
+          "cn": "蒸汽",
+          "en": "steam"
+        }
       },
       {
-        "canonical": "-osis",
+        "canonical": "-ing",
         "role": "suffix",
-        "meaning": "病理状态",
+        "form": "ing",
+        "meaning": "进行时/形容词",
+        "order": 2,
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
-            "消极"
+            "中性"
           ],
-          "intensity": 1
+          "intensity": 0
         },
-        "order": 2,
-        "form": "osis"
+        "coreMeaning": {
+          "cn": "进行时/形容词后缀",
+          "en": "participle/adjective suffix"
+        }
       }
     ],
     "derivationChain": [
-      "stear (Gk fat) + -osis → steatosis"
+      "steam"
     ],
     "memorySemantics": {
-      "imageKey": "fatty-liver",
-      "scene": "脂肪肝的超声图像",
-      "emotionalHook": "steat(脂肪) + osis(病变) = 脂肪变性，医学词",
-      "imageChain": []
+      "mnemonicExpr": "steam + ing → 冒热气的",
+      "imageChain": [
+        "蒸汽",
+        "热气",
+        "高温"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "medical"
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "steam",
+        "steamed",
+        "steamy"
       ],
+      "sameAffix": [],
+      "synonyms": [
+        "hot",
+        "scalding",
+        "sweltering"
+      ],
+      "antonyms": [
+        "cooling",
+        "freezing"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "steam"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "steamroller",
+    "phonetic": "/ˈstiːmroʊlər/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "蒸汽压路机；横扫一切的力量",
+      "en": "a large vehicle for rolling roads; an overwhelming force"
+    },
+    "morphemes": [
+      {
+        "canonical": "steam",
+        "role": "root",
+        "form": "steam",
+        "meaning": "蒸汽",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "蒸汽",
+          "en": "steam"
+        }
+      },
+      {
+        "canonical": "roller",
+        "role": "root",
+        "form": "roller",
+        "meaning": "滚压机",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "滚压机",
+          "en": "rolling machine"
+        }
+      }
+    ],
+    "derivationChain": [
+      "steam + roller"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "steam(蒸汽)+roller(滚压) → 蒸汽压路机；势如破竹",
+      "imageChain": [
+        "压路机",
+        "碾压",
+        "势不可挡"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "steam",
+        "steamrollered",
+        "steamrollering",
+        "steamrollers"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "bulldoze",
+        "overpower"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "bulldozer",
+        "juggernaut"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "steamrollers",
+    "phonetic": "/ˈstiːmroʊlərz/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "蒸汽压路机（复数）",
+      "en": "large road-rolling vehicles"
+    },
+    "morphemes": [
+      {
+        "canonical": "steam",
+        "role": "root",
+        "form": "steam",
+        "meaning": "蒸汽",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "蒸汽",
+          "en": "steam"
+        }
+      },
+      {
+        "canonical": "roller",
+        "role": "root",
+        "form": "roller",
+        "meaning": "滚压机",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "滚压机",
+          "en": "roller"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "复数",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数后缀",
+          "en": "plural suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "steamroller"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "steamroller + s → 多台压路机",
+      "imageChain": [
+        "压路机",
+        "多台",
+        "工程"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "steamroller",
+        "steam"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "steamroller"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "steamrollered",
+    "phonetic": "/ˈstiːmroʊlərd/",
+    "pos": [
+      "v"
+    ],
+    "coreMeaning": {
+      "cn": "强行推进（过去式）；碾压",
+      "en": "forced through by overwhelming pressure"
+    },
+    "morphemes": [
+      {
+        "canonical": "steam",
+        "role": "root",
+        "form": "steam",
+        "meaning": "蒸汽",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "蒸汽",
+          "en": "steam"
+        }
+      },
+      {
+        "canonical": "roller",
+        "role": "root",
+        "form": "roller",
+        "meaning": "滚压",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "滚压",
+          "en": "to roll"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "form": "ed",
+        "meaning": "过去式",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "过去式后缀",
+          "en": "past tense suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "steamroller"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "steamroller + ed → 已被强行推进",
+      "imageChain": [
+        "碾压",
+        "强行",
+        "完成"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
       "sentiment": {
         "tags": [
           "消极"
@@ -461,24 +1838,1663 @@
     },
     "relations": {
       "sameRoot": [
-        "stearic",
-        "stearin"
+        "steamroller",
+        "steamrollering"
       ],
-      "sameAffix": [
-        "fibrosis",
-        "cirrhosis",
-        "necrosis"
-      ],
+      "sameAffix": [],
       "synonyms": [
-        "fatty degeneration"
+        "bulldozed",
+        "overpowered"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "steamroller"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "steamrollering",
+    "phonetic": "/ˈstiːmroʊlərɪŋ/",
+    "pos": [
+      "v"
+    ],
+    "coreMeaning": {
+      "cn": "强行推进（进行时）",
+      "en": "forcing through by overwhelming pressure"
+    },
+    "morphemes": [
+      {
+        "canonical": "steam",
+        "role": "root",
+        "form": "steam",
+        "meaning": "蒸汽",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "蒸汽",
+          "en": "steam"
+        }
+      },
+      {
+        "canonical": "roller",
+        "role": "root",
+        "form": "roller",
+        "meaning": "滚压",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "滚压",
+          "en": "to roll"
+        }
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "form": "ing",
+        "meaning": "进行时",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "进行时后缀",
+          "en": "present participle suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "steamroller"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "steamroller + ing → 正在强行推进",
+      "imageChain": [
+        "碾压",
+        "进行中",
+        "强硬"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "steamroller",
+        "steamrollered"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "bulldozing",
+        "ramming through"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "steamroller"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "steams",
+    "phonetic": "/stiːmz/",
+    "pos": [
+      "v"
+    ],
+    "coreMeaning": {
+      "cn": "冒蒸汽（三单）",
+      "en": "emits steam"
+    },
+    "morphemes": [
+      {
+        "canonical": "steam",
+        "role": "root",
+        "form": "steam",
+        "meaning": "蒸汽",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "蒸汽",
+          "en": "steam"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "三单后缀",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "三单后缀",
+          "en": "3rd person singular suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "steam"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "steam + s → 它冒蒸汽",
+      "imageChain": [
+        "蒸汽",
+        "三单",
+        "热气"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "steam",
+        "steamed",
+        "steaming"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "steam"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "steamship",
+    "phonetic": "/ˈstiːmʃɪp/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "轮船；汽轮",
+      "en": "a ship powered by steam engines"
+    },
+    "morphemes": [
+      {
+        "canonical": "steam",
+        "role": "root",
+        "form": "steam",
+        "meaning": "蒸汽",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "蒸汽",
+          "en": "steam"
+        }
+      },
+      {
+        "canonical": "ship",
+        "role": "root",
+        "form": "ship",
+        "meaning": "船",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "船",
+          "en": "ship"
+        }
+      }
+    ],
+    "derivationChain": [
+      "steam + ship"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "steam(蒸汽)+ship(船) → 蒸汽动力船",
+      "imageChain": [
+        "轮船",
+        "蒸汽",
+        "航运"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "steam",
+        "steamships",
+        "steamboat"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "steamer",
+        "ocean liner"
       ],
       "antonyms": [],
       "domainCohort": [
-        "fibrosis",
-        "cirrhosis",
-        "hepatosis"
+        "steamer",
+        "liner",
+        "vessel"
       ],
       "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "steamships",
+    "phonetic": "/ˈstiːmʃɪps/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "轮船（复数）",
+      "en": "ships powered by steam engines"
+    },
+    "morphemes": [
+      {
+        "canonical": "steam",
+        "role": "root",
+        "form": "steam",
+        "meaning": "蒸汽",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "蒸汽",
+          "en": "steam"
+        }
+      },
+      {
+        "canonical": "ship",
+        "role": "root",
+        "form": "ship",
+        "meaning": "船",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "船",
+          "en": "ship"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "复数",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数后缀",
+          "en": "plural suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "steamship"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "steamship + s → 多艘轮船",
+      "imageChain": [
+        "轮船",
+        "多艘",
+        "航运"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "steamship",
+        "steam"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "steamship"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "steamy",
+    "phonetic": "/ˈstiːmi/",
+    "pos": [
+      "adj"
+    ],
+    "coreMeaning": {
+      "cn": "充满蒸汽的；激情的",
+      "en": "full of steam; sexually arousing"
+    },
+    "morphemes": [
+      {
+        "canonical": "steam",
+        "role": "root",
+        "form": "steam",
+        "meaning": "蒸汽；热情",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "蒸汽",
+          "en": "steam"
+        }
+      },
+      {
+        "canonical": "-y",
+        "role": "suffix",
+        "form": "y",
+        "meaning": "形容词化",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "形容词后缀",
+          "en": "adjectival suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "steam"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "steam + y → 充满热气；热情的",
+      "imageChain": [
+        "热气",
+        "湿热",
+        "激情"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "steam",
+        "steamier",
+        "steamiest",
+        "steamily"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "humid",
+        "sultry",
+        "torrid"
+      ],
+      "antonyms": [
+        "cool",
+        "cold"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "steamin",
+    "phonetic": "/ˈstiːmɪn/",
+    "pos": [
+      "v"
+    ],
+    "coreMeaning": {
+      "cn": "冒蒸汽（口语省略形式）",
+      "en": "informal variant of steaming"
+    },
+    "morphemes": [
+      {
+        "canonical": "steam",
+        "role": "root",
+        "form": "steam",
+        "meaning": "蒸汽",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "蒸汽",
+          "en": "steam"
+        }
+      },
+      {
+        "canonical": "-in",
+        "role": "suffix",
+        "form": "in",
+        "meaning": "口语-ing省略",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "口语进行时",
+          "en": "colloquial -ing form"
+        }
+      }
+    ],
+    "derivationChain": [
+      "steaming"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "steaming 口语省略 → steamin",
+      "imageChain": [
+        "口语",
+        "蒸汽",
+        "非正式"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "steam",
+        "steaming"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "steaming"
+      ],
+      "morphVariants": [
+        "steaming"
+      ],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "steed",
+    "phonetic": "/stiːd/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "战马；骏马（诗语）",
+      "en": "a horse, especially a spirited one (literary)"
+    },
+    "morphemes": [
+      {
+        "canonical": "steed",
+        "role": "root",
+        "form": "steed",
+        "meaning": "骏马",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "骏马",
+          "en": "spirited horse"
+        }
+      }
+    ],
+    "derivationChain": [],
+    "memorySemantics": {
+      "mnemonicExpr": "steed → 来自古英语 steda，联想英雄骑马出征",
+      "imageChain": [
+        "骏马",
+        "战马",
+        "英勇"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "steeds"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "horse",
+        "charger",
+        "mount"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "charger",
+        "warhorse",
+        "stallion"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "steeds",
+    "phonetic": "/stiːdz/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "骏马（复数）",
+      "en": "horses, especially spirited ones"
+    },
+    "morphemes": [
+      {
+        "canonical": "steed",
+        "role": "root",
+        "form": "steed",
+        "meaning": "骏马",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "骏马",
+          "en": "spirited horse"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "复数",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数后缀",
+          "en": "plural suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "steed"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "steed + s → 多匹骏马",
+      "imageChain": [
+        "骏马",
+        "多匹",
+        "驰骋"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "steed"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "steed"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "steel",
+    "phonetic": "/stiːl/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "钢铁；钢制品",
+      "en": "a hard strong metal alloy made from iron"
+    },
+    "morphemes": [
+      {
+        "canonical": "steel",
+        "role": "root",
+        "form": "steel",
+        "meaning": "钢铁",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "钢铁",
+          "en": "iron-based alloy"
+        }
+      }
+    ],
+    "derivationChain": [],
+    "memorySemantics": {
+      "mnemonicExpr": "steel → 联想钢铁钢铁意志，steel one's nerves",
+      "imageChain": [
+        "钢铁",
+        "坚硬",
+        "意志"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "steeled",
+        "steelier",
+        "steeliest",
+        "steeling",
+        "steelmaker",
+        "steels"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "iron",
+        "alloy"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "iron",
+        "alloy",
+        "metal"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "steeled",
+    "phonetic": "/stiːld/",
+    "pos": [
+      "v"
+    ],
+    "coreMeaning": {
+      "cn": "使坚强；加强（过去式）",
+      "en": "mentally prepared or hardened"
+    },
+    "morphemes": [
+      {
+        "canonical": "steel",
+        "role": "root",
+        "form": "steel",
+        "meaning": "钢铁；坚硬",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "坚强",
+          "en": "to harden"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "form": "ed",
+        "meaning": "过去式",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "过去式后缀",
+          "en": "past tense suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "steel (v)"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "steel + ed → 已使内心坚强",
+      "imageChain": [
+        "坚强",
+        "钢铁意志",
+        "准备好"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "steel",
+        "steeling"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "hardened",
+        "braced",
+        "fortified"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "steel"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "steeling",
+    "phonetic": "/ˈstiːlɪŋ/",
+    "pos": [
+      "v"
+    ],
+    "coreMeaning": {
+      "cn": "使坚强（进行时）",
+      "en": "mentally hardening oneself"
+    },
+    "morphemes": [
+      {
+        "canonical": "steel",
+        "role": "root",
+        "form": "steel",
+        "meaning": "使坚强",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "使坚强",
+          "en": "to harden"
+        }
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "form": "ing",
+        "meaning": "进行时",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "进行时后缀",
+          "en": "present participle suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "steel"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "steel + ing → 正在使内心坚强",
+      "imageChain": [
+        "坚强",
+        "进行中",
+        "钢铁意志"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "steel",
+        "steeled"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "bracing",
+        "fortifying"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "steel"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "steelmaker",
+    "phonetic": "/ˈstiːlmeɪkər/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "炼钢者；钢铁制造商",
+      "en": "a company or person that manufactures steel"
+    },
+    "morphemes": [
+      {
+        "canonical": "steel",
+        "role": "root",
+        "form": "steel",
+        "meaning": "钢铁",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "钢铁",
+          "en": "steel"
+        }
+      },
+      {
+        "canonical": "mak-",
+        "role": "root",
+        "form": "make",
+        "meaning": "制造",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "制造",
+          "en": "to make"
+        }
+      },
+      {
+        "canonical": "-er",
+        "role": "suffix",
+        "form": "er",
+        "meaning": "施动者",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "施动者后缀",
+          "en": "agent suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "steel + make + er"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "steel(钢)+maker(制造者) → 钢铁制造商",
+      "imageChain": [
+        "炼钢",
+        "工厂",
+        "制造"
+      ]
+    },
+    "wordLevel": {
+      "domain": "business",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "steel"
+      ],
+      "sameAffix": [
+        "shoemaker",
+        "watchmaker"
+      ],
+      "synonyms": [
+        "steelworks",
+        "steel producer"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "manufacturer",
+        "producer",
+        "ironworks"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "steaks",
+    "phonetic": "/steɪks/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "牛排（复数）",
+      "en": "thick slices of meat or fish"
+    },
+    "morphemes": [
+      {
+        "canonical": "steak",
+        "role": "root",
+        "form": "steak",
+        "meaning": "牛排",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "牛排",
+          "en": "thick meat slice"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "复数",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数后缀",
+          "en": "plural suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "steak"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "steak + s → 多块牛排",
+      "imageChain": [
+        "牛排",
+        "多块",
+        "美食"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "steak"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "steak"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "stearin",
+    "phonetic": "/ˈstiːərɪn/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "硬脂；硬脂酸甘油酯",
+      "en": "a white solid fat used in candle-making"
+    },
+    "morphemes": [
+      {
+        "canonical": "stear-",
+        "role": "root",
+        "form": "stear",
+        "meaning": "硬脂（希腊）",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "固体脂肪",
+          "en": "solid fat"
+        }
+      },
+      {
+        "canonical": "-in",
+        "role": "suffix",
+        "form": "in",
+        "meaning": "化学物质后缀",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "化学名词后缀",
+          "en": "chemical suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "Greek stear (fat)"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "stear(脂肪)+in → 硬脂成分",
+      "imageChain": [
+        "硬脂",
+        "蜡烛",
+        "脂肪"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "stearic acid"
+      ],
+      "sameAffix": [
+        "glycerin",
+        "albumin"
+      ],
+      "synonyms": [
+        "tristearin",
+        "stearic fat"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "stearin",
+        "glycerol",
+        "fatty acid"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "steatosis",
+    "phonetic": "/ˌstiːəˈtoʊsɪs/",
+    "pos": [
+      "n"
+    ],
+    "coreMeaning": {
+      "cn": "脂肪变性；脂肪肝",
+      "en": "excessive accumulation of fat in cells"
+    },
+    "morphemes": [
+      {
+        "canonical": "steat-",
+        "role": "root",
+        "form": "steat",
+        "meaning": "脂肪",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
+        "coreMeaning": {
+          "cn": "脂肪",
+          "en": "fat"
+        }
+      },
+      {
+        "canonical": "-osis",
+        "role": "suffix",
+        "form": "osis",
+        "meaning": "病症",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 2
+        },
+        "coreMeaning": {
+          "cn": "病症后缀",
+          "en": "pathological condition"
+        }
+      }
+    ],
+    "derivationChain": [
+      "steat + osis"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "steat(脂肪)+osis(病症) → 脂肪堆积病症",
+      "imageChain": [
+        "脂肪",
+        "肝脏",
+        "疾病"
+      ]
+    },
+    "wordLevel": {
+      "domain": "medical",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [
+        "fibrosis",
+        "cirrhosis"
+      ],
+      "synonyms": [
+        "fatty degeneration",
+        "lipidosis"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "fatty liver",
+        "hepatic steatosis",
+        "fibrosis"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "steamily",
+    "phonetic": "/ˈstiːmɪli/",
+    "pos": [
+      "adv"
+    ],
+    "coreMeaning": {
+      "cn": "热气腾腾地；激情地",
+      "en": "in a steamy manner"
+    },
+    "morphemes": [
+      {
+        "canonical": "steam",
+        "role": "root",
+        "form": "steam",
+        "meaning": "蒸汽",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "蒸汽",
+          "en": "steam"
+        }
+      },
+      {
+        "canonical": "-y",
+        "role": "suffix",
+        "form": "y",
+        "meaning": "形容词化",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "形容词化",
+          "en": "adjectival"
+        }
+      },
+      {
+        "canonical": "-ly",
+        "role": "suffix",
+        "form": "ily",
+        "meaning": "副词化",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "副词后缀",
+          "en": "adverbial suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "steamy"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "steamy + ly → 热气腾腾地",
+      "imageChain": [
+        "热气",
+        "副词",
+        "激情"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "steamy",
+        "steam",
+        "steamier",
+        "steamiest"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "hotly",
+        "torridly"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "steamy"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "steamier",
+    "phonetic": "/ˈstiːmiər/",
+    "pos": [
+      "adj"
+    ],
+    "coreMeaning": {
+      "cn": "更热气腾腾的（比较级）",
+      "en": "comparative of steamy"
+    },
+    "morphemes": [
+      {
+        "canonical": "steam",
+        "role": "root",
+        "form": "steam",
+        "meaning": "蒸汽",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "蒸汽",
+          "en": "steam"
+        }
+      },
+      {
+        "canonical": "-y",
+        "role": "suffix",
+        "form": "y",
+        "meaning": "形容词化",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "形容词化",
+          "en": "adjectival"
+        }
+      },
+      {
+        "canonical": "-er",
+        "role": "suffix",
+        "form": "ier",
+        "meaning": "比较级",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "比较级后缀",
+          "en": "comparative suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "steamy"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "steamy + er → 更热气腾腾",
+      "imageChain": [
+        "更热气",
+        "比较",
+        "蒸汽"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "steamy",
+        "steamiest",
+        "steam"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "steamy"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "steamiest",
+    "phonetic": "/ˈstiːmiɪst/",
+    "pos": [
+      "adj"
+    ],
+    "coreMeaning": {
+      "cn": "最热气腾腾的（最高级）",
+      "en": "superlative of steamy"
+    },
+    "morphemes": [
+      {
+        "canonical": "steam",
+        "role": "root",
+        "form": "steam",
+        "meaning": "蒸汽",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "蒸汽",
+          "en": "steam"
+        }
+      },
+      {
+        "canonical": "-y",
+        "role": "suffix",
+        "form": "y",
+        "meaning": "形容词化",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "形容词化",
+          "en": "adjectival"
+        }
+      },
+      {
+        "canonical": "-est",
+        "role": "suffix",
+        "form": "iest",
+        "meaning": "最高级",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "最高级后缀",
+          "en": "superlative suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "steamy"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "steamy + est → 最热气腾腾",
+      "imageChain": [
+        "最热气",
+        "最高级",
+        "蒸汽"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "steamy",
+        "steamier",
+        "steam"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "steamy"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }

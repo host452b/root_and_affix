@@ -1,72 +1,167 @@
 [
   {
-    "word": "unstinting",
-    "phonetic": "/ʌnˈstɪntɪŋ/",
+    "word": "unstinted",
+    "phonetic": "/ʌn'stɪntɪd/",
     "pos": [
-      "adj."
+      "adjective"
     ],
     "coreMeaning": {
-      "cn": "慷慨大方的；毫不吝惜的",
-      "en": "giving or given without restraint; generous"
+      "cn": "不受限制的，慷慨的",
+      "en": "not limited or restricted; generous"
     },
     "morphemes": [
       {
-        "canonical": "un-",
-        "role": "prefix",
-        "morpheme": "un-",
-        "meaning": "否定；相反",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
         "form": "un-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "stint",
-        "role": "root",
-        "morpheme": "stint",
-        "meaning": "限量；节省（古英语 styntan，使迟钝、限制）",
+        "role": "prefix",
+        "canonical": "un-",
+        "meaning": "不，否定",
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
-        },
-        "order": 2,
+        }
+      },
+      {
         "form": "stint",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ing",
-        "role": "suffix",
-        "morpheme": "-ing",
-        "meaning": "形容词后缀，表示持续状态",
+        "role": "root",
+        "canonical": "stintan",
+        "meaning": "限制，节省",
+        "positionTendency": "medial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
-        },
-        "order": 3,
-        "form": "-ing",
-        "positionTendency": "final"
+        }
+      },
+      {
+        "form": "-ed",
+        "role": "suffix",
+        "canonical": "-ed",
+        "meaning": "形容词后缀",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
       }
     ],
     "derivationChain": [
-      "Old English styntan (to blunt/limit) → stint (v./n.) → unstinting (adj.) = not limiting"
+      "stinted"
     ],
+    "morphVariantOf": "unstinting",
     "memorySemantics": {
-      "imageKey": "慷慨打开的粮仓大门",
-      "scene": "un(否定)+stinting(吝啬的)= 毫不吝啬的——粮仓大门全打开，慷慨分发",
-      "emotionalHook": "unstinting praise / effort 是发自内心、毫无保留的赞美与付出",
-      "imageChain": []
+      "mnemonicExpr": "un(不)+stinted(被限制的)→不受限制的→慷慨的",
+      "imageChain": [
+        "无限供应",
+        "慷慨给予",
+        "不加限制"
+      ]
     },
     "wordLevel": {
       "domain": [
+        "literary"
+      ],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "unstinting"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "unrestricted",
+        "unlimited",
+        "unstinting"
+      ],
+      "antonyms": [
+        "stinted",
+        "restricted",
+        "limited"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [
+        "unstinting"
+      ],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "unstinting",
+    "phonetic": "/'ʌn'stɪntɪŋ/",
+    "pos": [
+      "adjective"
+    ],
+    "coreMeaning": {
+      "cn": "慷慨的，大方的；不遗余力的",
+      "en": "given without restraint; generous and wholehearted"
+    },
+    "morphemes": [
+      {
+        "form": "un-",
+        "role": "prefix",
+        "canonical": "un-",
+        "meaning": "不，否定",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "stint",
+        "role": "root",
+        "canonical": "stintan",
+        "meaning": "限制，节省",
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "-ing",
+        "role": "suffix",
+        "canonical": "-ing",
+        "meaning": "形容词后缀：正在/具有…特征",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "un- + stinting"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "un(不)+stinting(节省的)→不节省的→慷慨大方",
+      "imageChain": [
+        "敞开心扉",
+        "慷慨付出",
+        "全力以赴"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
         "gre"
       ],
       "sentiment": {
@@ -78,108 +173,93 @@
     },
     "relations": {
       "sameRoot": [
-        "stint",
         "unstinted"
       ],
       "sameAffix": [
-        "unsparing",
-        "unselfish"
+        "unswaying",
+        "unswerving"
       ],
       "synonyms": [
         "generous",
         "lavish",
-        "unsparing",
-        "bountiful"
+        "wholehearted",
+        "unstinted"
       ],
       "antonyms": [
-        "stingy",
+        "stinting",
         "miserly",
-        "parsimonious"
+        "grudging",
+        "reluctant"
       ],
       "domainCohort": [
         "generous",
-        "munificent",
-        "liberal"
+        "lavish",
+        "wholehearted",
+        "magnanimous"
       ],
-      "derivationPair": [
-        "stint → unstinting"
+      "derivationPair": [],
+      "morphVariants": [
+        "unstinted"
       ],
-      "morphVariants": [],
       "sameImagery": [
         "generous",
-        "lavish"
+        "wholehearted"
       ]
     }
   },
   {
-    "word": "unstudied",
-    "phonetic": "/ʌnˈstʌdɪd/",
+    "word": "unstop",
+    "phonetic": "/ʌn'stɒp/",
     "pos": [
-      "adj."
+      "verb"
     ],
     "coreMeaning": {
-      "cn": "自然流露的；非刻意造作的；未学过的",
-      "en": "not artificial or affected; natural and spontaneous"
+      "cn": "开通，疏通；拔掉塞子",
+      "en": "to remove a stopper from; to unblock"
     },
     "morphemes": [
       {
-        "canonical": "un-",
-        "role": "prefix",
-        "morpheme": "un-",
-        "meaning": "否定",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
         "form": "un-",
-        "positionTendency": "initial"
+        "role": "prefix",
+        "canonical": "un-",
+        "meaning": "逆转，取消",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
       },
       {
-        "canonical": "study",
+        "form": "stop",
         "role": "root",
-        "morpheme": "studi",
-        "meaning": "学习；研究（拉丁 studium，热情/努力）",
+        "canonical": "stop",
+        "meaning": "堵塞，停止",
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
-        },
-        "order": 2,
-        "form": "studi",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ed",
-        "role": "suffix",
-        "morpheme": "-ed",
-        "meaning": "过去分词作形容词",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "-ed",
-        "positionTendency": "final"
+        }
       }
     ],
     "derivationChain": [
-      "study + -ed → studied (deliberate, affected) → un- + studied → unstudied (natural)"
+      "un- + stop"
     ],
+    "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "孩子天真无邪的笑容",
-      "scene": "unstudied grace——未经排练的自然优雅，像孩子不加掩饰的喜悦",
-      "emotionalHook": "unstudied就是没有'学过表演'的真实，反而最动人",
-      "imageChain": []
+      "mnemonicExpr": "un(取消)+stop(堵塞)→取消堵塞→疏通",
+      "imageChain": [
+        "拔掉塞子",
+        "疏通管道",
+        "解除阻塞"
+      ]
     },
     "wordLevel": {
       "domain": [
-        "gre"
+        "general"
       ],
       "sentiment": {
         "tags": [
@@ -190,19 +270,427 @@
     },
     "relations": {
       "sameRoot": [
-        "studied",
-        "study",
-        "studious"
+        "unstopped",
+        "unstopping",
+        "unstops",
+        "unstoppable"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "unblock",
+        "unclog",
+        "open"
+      ],
+      "antonyms": [
+        "stop",
+        "block",
+        "plug"
+      ],
+      "domainCohort": [
+        "unblock",
+        "unclog",
+        "open"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "unstopped",
+        "unstopping",
+        "unstops",
+        "unstoppable"
+      ],
+      "sameImagery": [
+        "unblock",
+        "unclog"
+      ]
+    }
+  },
+  {
+    "word": "unstoppable",
+    "phonetic": "/ʌn'stɒpəbl/",
+    "pos": [
+      "adjective"
+    ],
+    "coreMeaning": {
+      "cn": "不可阻挡的，势不可挡的",
+      "en": "impossible to stop or prevent"
+    },
+    "morphemes": [
+      {
+        "form": "un-",
+        "role": "prefix",
+        "canonical": "un-",
+        "meaning": "不，否定",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "stop",
+        "role": "root",
+        "canonical": "stop",
+        "meaning": "停止，阻止",
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "-able",
+        "role": "suffix",
+        "canonical": "-able",
+        "meaning": "形容词后缀：可…的（此处加否定）",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "un- + stoppable"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "un(不)+stop(停止)+-able(可以)→不可阻止的→势不可挡",
+      "imageChain": [
+        "洪水",
+        "奔马",
+        "不可阻挡的力量"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "unstop",
+        "unstopped"
       ],
       "sameAffix": [
-        "unaffected",
-        "unfeigned"
+        "unsurmountable",
+        "unsurpassable"
+      ],
+      "synonyms": [
+        "irresistible",
+        "unstemmable",
+        "relentless"
+      ],
+      "antonyms": [
+        "stoppable",
+        "containable"
+      ],
+      "domainCohort": [
+        "irresistible",
+        "relentless",
+        "invincible"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "irresistible",
+        "relentless"
+      ]
+    }
+  },
+  {
+    "word": "unstressed",
+    "phonetic": "/ʌn'strɛst/",
+    "pos": [
+      "adjective"
+    ],
+    "coreMeaning": {
+      "cn": "非重读的；未受压力的",
+      "en": "not stressed or accented; not under physical or mental stress"
+    },
+    "morphemes": [
+      {
+        "form": "un-",
+        "role": "prefix",
+        "canonical": "un-",
+        "meaning": "不，否定",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "stress",
+        "role": "root",
+        "canonical": "strictus",
+        "meaning": "压力，重音",
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "-ed",
+        "role": "suffix",
+        "canonical": "-ed",
+        "meaning": "形容词后缀",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "un- + stressed"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "un(不)+stressed(受重音/压力的)→非重读的/无压力的",
+      "imageChain": [
+        "轻读音节",
+        "放松状态",
+        "无压力"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "academic",
+        "linguistics"
+      ],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [
+        "unstructured",
+        "unstuffy"
+      ],
+      "synonyms": [
+        "unaccented",
+        "weak",
+        "relaxed"
+      ],
+      "antonyms": [
+        "stressed",
+        "accented",
+        "tense"
+      ],
+      "domainCohort": [
+        "linguistics",
+        "phonetics",
+        "rhythm"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "unstrung",
+    "phonetic": "/ʌn'strʌŋ/",
+    "pos": [
+      "adjective"
+    ],
+    "coreMeaning": {
+      "cn": "松弛的；情绪崩溃的",
+      "en": "having the strings removed; in a state of nervous collapse"
+    },
+    "morphemes": [
+      {
+        "form": "un-",
+        "role": "prefix",
+        "canonical": "un-",
+        "meaning": "逆转，取消",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "strung",
+        "role": "root",
+        "canonical": "string",
+        "meaning": "弦，张紧",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "un- + strung (past participle of string)"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "un(逆转)+strung(张紧的弦)→弦断/情绪崩溃",
+      "imageChain": [
+        "断弦",
+        "情绪崩溃",
+        "紧绷到断裂"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "literary"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "unstring",
+        "unstringing",
+        "unstrings"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "unnerved",
+        "distraught",
+        "unhinged"
+      ],
+      "antonyms": [
+        "composed",
+        "calm",
+        "strung"
+      ],
+      "domainCohort": [
+        "unnerved",
+        "distraught",
+        "shaken"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "unstring",
+        "unstringing"
+      ],
+      "sameImagery": [
+        "distraught",
+        "unnerved"
+      ]
+    }
+  },
+  {
+    "word": "unstudied",
+    "phonetic": "/ʌn'stʌdɪd/",
+    "pos": [
+      "adjective"
+    ],
+    "coreMeaning": {
+      "cn": "非刻意的，自然的；未学过的",
+      "en": "not affected or artificial; not learnt through study; natural"
+    },
+    "morphemes": [
+      {
+        "form": "un-",
+        "role": "prefix",
+        "canonical": "un-",
+        "meaning": "不，否定",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "studi",
+        "role": "root",
+        "canonical": "studium",
+        "meaning": "学习，钻研",
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "-ed",
+        "role": "suffix",
+        "canonical": "-ed",
+        "meaning": "形容词后缀",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "un- + studied"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "un(非)+studied(经过学习的/刻意的)→非刻意的→自然流露的",
+      "imageChain": [
+        "自然举止",
+        "不加雕饰",
+        "天然流露"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "gre"
+      ],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [
+        "unstilted",
+        "unsubstantiated"
       ],
       "synonyms": [
         "natural",
-        "spontaneous",
+        "artless",
         "unaffected",
-        "artless"
+        "spontaneous"
       ],
       "antonyms": [
         "studied",
@@ -211,118 +699,98 @@
         "contrived"
       ],
       "domainCohort": [
+        "natural",
         "artless",
-        "genuine",
-        "unaffected"
+        "unaffected",
+        "spontaneous"
       ],
-      "derivationPair": [
-        "studied → unstudied"
-      ],
+      "derivationPair": [],
       "morphVariants": [],
       "sameImagery": [
         "natural",
-        "artless"
+        "unaffected"
       ]
     }
   },
   {
     "word": "unsubstantiated",
-    "phonetic": "/ˌʌnsəbˈstænʃɪeɪtɪd/",
+    "phonetic": "/,ʌnsəb'stænʃɪeɪtɪd/",
     "pos": [
-      "adj."
+      "adjective"
     ],
     "coreMeaning": {
-      "cn": "未经证实的；无事实根据的",
-      "en": "not supported or proved by evidence"
+      "cn": "未经证实的，无事实根据的",
+      "en": "not supported by evidence; not proven"
     },
     "morphemes": [
       {
-        "canonical": "un-",
-        "role": "prefix",
-        "morpheme": "un-",
-        "meaning": "否定",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
         "form": "un-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "sub-",
         "role": "prefix",
-        "morpheme": "sub-",
-        "meaning": "在下面；支撑",
+        "canonical": "un-",
+        "meaning": "不，否定",
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
-        },
-        "order": 2,
+        }
+      },
+      {
         "form": "sub-",
-        "positionTendency": "initial"
+        "role": "prefix",
+        "canonical": "sub-",
+        "meaning": "在…下面",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
       },
       {
-        "canonical": "stan-",
+        "form": "stant",
         "role": "root",
-        "morpheme": "stanti",
-        "meaning": "站立；实质（拉丁 substantia，本质）",
+        "canonical": "stare",
+        "meaning": "站立，存在",
+        "positionTendency": "medial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
-        },
-        "order": 3,
-        "form": "stanti",
-        "positionTendency": "medial"
+        }
       },
       {
-        "canonical": "-ate",
+        "form": "-iated",
         "role": "suffix",
-        "morpheme": "-ate",
-        "meaning": "动词后缀，使…",
+        "canonical": "-iated",
+        "meaning": "形容词后缀",
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
-        },
-        "order": 4,
-        "form": "-ate",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ed",
-        "role": "suffix",
-        "morpheme": "-ed",
-        "meaning": "过去分词作形容词",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 5,
-        "form": "-ed",
-        "positionTendency": "final"
+        }
       }
     ],
     "derivationChain": [
-      "Latin substantia (substance) → substantiate (to prove) → unsubstantiated (unproven)"
+      "un- + substantiated"
     ],
+    "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "法庭上没有证据的指控",
-      "scene": "un+sub(下)+stanti(站立)+ated = 底座站不稳——指控没有证据支撑，站不住脚",
-      "emotionalHook": "unsubstantiated claims 在法庭和科学中都是零分答卷",
-      "imageChain": []
+      "mnemonicExpr": "un(无)+sub(下)+stant(站立)+-iated→没有根基站立的→无据可查",
+      "imageChain": [
+        "谣言",
+        "无证据",
+        "空口白牙"
+      ]
     },
     "wordLevel": {
       "domain": [
+        "academic",
         "gre",
         "gmat",
         "toefl"
@@ -331,41 +799,36 @@
         "tags": [
           "消极"
         ],
-        "intensity": 1
+        "intensity": 2
       }
     },
     "relations": {
       "sameRoot": [
-        "substantiate",
-        "substance",
-        "substantial",
-        "substantive"
+        "unsubstantial"
       ],
       "sameAffix": [
-        "unverified",
-        "unconfirmed"
+        "unsubscribe",
+        "unsubsidized"
       ],
       "synonyms": [
-        "unverified",
-        "unfounded",
+        "unproven",
+        "unsupported",
         "baseless",
-        "unproven"
+        "groundless"
       ],
       "antonyms": [
         "substantiated",
-        "verified",
-        "confirmed",
-        "proven"
+        "proven",
+        "supported",
+        "verified"
       ],
       "domainCohort": [
-        "allegation",
-        "rumor",
-        "claim",
-        "evidence"
+        "unproven",
+        "baseless",
+        "unfounded",
+        "speculative"
       ],
-      "derivationPair": [
-        "substantiate → unsubstantiated"
-      ],
+      "derivationPair": [],
       "morphVariants": [],
       "sameImagery": [
         "baseless",
@@ -374,791 +837,277 @@
     }
   },
   {
-    "word": "unsure",
-    "phonetic": "/ʌnˈʃʊr/",
+    "word": "unsuccessful",
+    "phonetic": "/,ʌnsək'sɛsfl/",
     "pos": [
-      "adj."
+      "adjective"
     ],
     "coreMeaning": {
-      "cn": "不确定的；没有自信的",
-      "en": "lacking certainty or confidence"
+      "cn": "不成功的，失败的",
+      "en": "not achieving the desired aim or result"
     },
     "morphemes": [
       {
-        "canonical": "un-",
+        "form": "un-",
         "role": "prefix",
-        "morpheme": "un-",
-        "meaning": "否定",
+        "canonical": "un-",
+        "meaning": "不，否定",
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
-        },
-        "order": 1,
-        "form": "un-",
-        "positionTendency": "initial"
+        }
       },
       {
-        "canonical": "sure",
+        "form": "success",
         "role": "root",
-        "morpheme": "sure",
-        "meaning": "确定的；肯定的（拉丁 securus，安全的）",
+        "canonical": "succedere",
+        "meaning": "成功，接续",
+        "positionTendency": "medial",
         "sentiment": {
           "tags": [
-            "积极"
+            "中性"
           ],
-          "intensity": 1
-        },
-        "order": 2,
-        "form": "sure",
-        "positionTendency": "final"
+          "intensity": 0
+        }
+      },
+      {
+        "form": "-ful",
+        "role": "suffix",
+        "canonical": "-ful",
+        "meaning": "形容词后缀：充满…的",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
       }
     ],
     "derivationChain": [
-      "Latin securus → Old French seur → sure → unsure"
+      "un- + successful"
     ],
+    "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "站在十字路口犹豫不决",
-      "scene": "站在人生十字路口，四条路都看不清——unsure of which way to go",
-      "emotionalHook": "unsure是青春期的常态，也是诚实面对未知的勇气",
-      "imageChain": []
+      "mnemonicExpr": "un(不)+success(成功)+-ful(充满)→充满失败的→不成功的",
+      "imageChain": [
+        "失败",
+        "落空",
+        "徒劳"
+      ]
     },
     "wordLevel": {
       "domain": [
-        "gre",
+        "general",
         "cefr-b2"
       ],
       "sentiment": {
         "tags": [
           "消极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "sure",
-        "surely",
-        "surety",
-        "ensure",
-        "assure"
-      ],
-      "sameAffix": [
-        "uncertain",
-        "unconfident"
-      ],
-      "synonyms": [
-        "uncertain",
-        "doubtful",
-        "hesitant",
-        "irresolute"
-      ],
-      "antonyms": [
-        "sure",
-        "certain",
-        "confident",
-        "assured"
-      ],
-      "domainCohort": [
-        "uncertain",
-        "dubious",
-        "tentative"
-      ],
-      "derivationPair": [
-        "sure → unsure"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "uncertain",
-        "hesitant"
-      ]
-    }
-  },
-  {
-    "word": "unsurpassed",
-    "phonetic": "/ˌʌnsɜːˈpæst/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "未被超越的；无与伦比的",
-      "en": "better or greater than any other; unequaled"
-    },
-    "morphemes": [
-      {
-        "canonical": "un-",
-        "role": "prefix",
-        "morpheme": "un-",
-        "meaning": "否定",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "un-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "sur-",
-        "role": "prefix",
-        "morpheme": "sur-",
-        "meaning": "超越；在上方（法语 sur，拉丁 super）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "sur-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "pass",
-        "role": "root",
-        "morpheme": "pass",
-        "meaning": "通过；超过",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "pass",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ed",
-        "role": "suffix",
-        "morpheme": "-ed",
-        "meaning": "过去分词作形容词",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 4,
-        "form": "-ed",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "French surpasser (to surpass) → surpassed → un- + surpassed → unsurpassed"
-    ],
-    "memorySemantics": {
-      "imageKey": "奥运金牌得主站在最高领奖台",
-      "scene": "un+sur(超)+pass(过)+ed = 没有被超越的——永远站在领奖台最高处",
-      "emotionalHook": "unsurpassed excellence 是苹果产品发布会的常用词，代表极致",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "gre"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
         ],
         "intensity": 2
       }
     },
     "relations": {
       "sameRoot": [
-        "surpass",
-        "surpassing",
-        "surpassed"
+        "unsuccessfully"
       ],
       "sameAffix": [
-        "unmatched",
-        "unrivaled"
-      ],
-      "synonyms": [
-        "unrivaled",
-        "unequaled",
-        "incomparable",
-        "matchless"
-      ],
-      "antonyms": [
-        "mediocre",
-        "ordinary",
-        "surpassed"
-      ],
-      "domainCohort": [
-        "excellence",
-        "supreme",
-        "paramount"
-      ],
-      "derivationPair": [
-        "surpass → unsurpassed"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "unrivaled",
-        "peerless"
-      ]
-    }
-  },
-  {
-    "word": "unsuspecting",
-    "phonetic": "/ˌʌnsəˈspɛktɪŋ/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "不怀疑的；无猜疑的；毫无防备的",
-      "en": "not aware of potential danger; feeling no suspicion"
-    },
-    "morphemes": [
-      {
-        "canonical": "un-",
-        "role": "prefix",
-        "morpheme": "un-",
-        "meaning": "否定",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "un-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "sus-",
-        "role": "prefix",
-        "morpheme": "sus-",
-        "meaning": "在下；秘密（拉丁 sub+spicere）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "sus-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "spec-",
-        "role": "root",
-        "morpheme": "spect",
-        "meaning": "看；观察（拉丁 specere）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "spect",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ing",
-        "role": "suffix",
-        "morpheme": "-ing",
-        "meaning": "形容词后缀",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 4,
-        "form": "-ing",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "Latin suspicere (to look under/distrust) → suspect → suspecting → unsuspecting"
-    ],
-    "memorySemantics": {
-      "imageKey": "走进陷阱却浑然不知的人",
-      "scene": "unsuspecting victim走进精心设计的骗局——毫无防备地'没往下看'",
-      "emotionalHook": "诈骗犯专门寻找unsuspecting targets，而批判性思维是最好的防护",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "gre"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "suspect",
-        "suspicion",
-        "suspicious",
-        "unsuspected"
-      ],
-      "sameAffix": [
-        "unwary",
-        "unsuspicious"
-      ],
-      "synonyms": [
-        "unwary",
-        "naive",
-        "credulous",
-        "trusting"
-      ],
-      "antonyms": [
-        "suspicious",
-        "wary",
-        "vigilant",
-        "skeptical"
-      ],
-      "domainCohort": [
-        "naive",
-        "gullible",
-        "credulous"
-      ],
-      "derivationPair": [
-        "suspicious → unsuspecting"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "naive",
-        "unsuspecting"
-      ]
-    }
-  },
-  {
-    "word": "untainted",
-    "phonetic": "/ʌnˈteɪntɪd/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "无污点的；纯洁的；未受腐化的",
-      "en": "not contaminated or morally corrupted; pure"
-    },
-    "morphemes": [
-      {
-        "canonical": "un-",
-        "role": "prefix",
-        "morpheme": "un-",
-        "meaning": "否定",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "un-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "taint",
-        "role": "root",
-        "morpheme": "taint",
-        "meaning": "污点；污染（古法语 teindre，染色）",
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": 2
-        },
-        "order": 2,
-        "form": "taint",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ed",
-        "role": "suffix",
-        "morpheme": "-ed",
-        "meaning": "过去分词作形容词",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "-ed",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "Old French teindre (to dye/stain) → taint (n./v.) → tainted → untainted"
-    ],
-    "memorySemantics": {
-      "imageKey": "一杯纯净透明的山泉水",
-      "scene": "un(否定)+taint(染色/污染)= 未被染色——纯净如山泉，未受任何腐化",
-      "emotionalHook": "untainted reputation 是政治家最珍贵也最脆弱的资产",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "gre",
-        "gmat"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "taint",
-        "tainted"
-      ],
-      "sameAffix": [
-        "unsullied",
-        "unblemished"
-      ],
-      "synonyms": [
-        "pure",
-        "unsullied",
-        "unblemished",
-        "spotless"
-      ],
-      "antonyms": [
-        "tainted",
-        "contaminated",
-        "corrupt",
-        "polluted"
-      ],
-      "domainCohort": [
-        "purity",
-        "integrity",
-        "uncorrupted"
-      ],
-      "derivationPair": [
-        "taint → untainted"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "pure",
-        "spotless"
-      ]
-    }
-  },
-  {
-    "word": "untamed",
-    "phonetic": "/ʌnˈteɪmd/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "未驯服的；野性的；难驾驭的",
-      "en": "not domesticated or controlled; wild and fierce"
-    },
-    "morphemes": [
-      {
-        "canonical": "un-",
-        "role": "prefix",
-        "morpheme": "un-",
-        "meaning": "否定",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "un-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "tame",
-        "role": "root",
-        "morpheme": "tame",
-        "meaning": "驯服（古英语 tam，顺从的）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "tame",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ed",
-        "role": "suffix",
-        "morpheme": "-ed",
-        "meaning": "过去分词作形容词",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "-ed",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "Old English tam (tame) → tame (v.) → tamed → untamed"
-    ],
-    "memorySemantics": {
-      "imageKey": "荒野中奔跑的野狼",
-      "scene": "untamed wilderness——未被人类文明触及的原始荒野，充满生命力与危险",
-      "emotionalHook": "untamed spirit 是创业者最宝贵的品质——拒绝被规则驯化",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "gre",
-        "toefl"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "tame",
-        "tamed",
-        "tamable"
-      ],
-      "sameAffix": [
-        "unruly",
-        "uncontrolled"
-      ],
-      "synonyms": [
-        "wild",
-        "feral",
-        "unruly",
-        "savage"
-      ],
-      "antonyms": [
-        "tame",
-        "domesticated",
-        "docile",
-        "subdued"
-      ],
-      "domainCohort": [
-        "wild",
-        "feral",
-        "primal"
-      ],
-      "derivationPair": [
-        "tame → untamed"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "wild",
-        "feral"
-      ]
-    }
-  },
-  {
-    "word": "unsuccessful",
-    "phonetic": "/ˌʌnsəkˈsɛsfʊl/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "不成功的；失败的",
-      "en": "not achieving the desired outcome; failing"
-    },
-    "morphemes": [
-      {
-        "canonical": "un-",
-        "role": "prefix",
-        "morpheme": "un-",
-        "meaning": "否定",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "un-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "suc-",
-        "role": "prefix",
-        "morpheme": "suc-",
-        "meaning": "在下；接着（拉丁 sub+cedere）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "suc-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "ced-",
-        "role": "root",
-        "morpheme": "cess",
-        "meaning": "走；进行（拉丁 cedere，前行）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "cess",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ful",
-        "role": "suffix",
-        "morpheme": "-ful",
-        "meaning": "充满…的；具有…特性的",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 4,
-        "form": "-ful",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "Latin succedere (to follow/succeed) → success → successful → unsuccessful"
-    ],
-    "memorySemantics": {
-      "imageKey": "登山到一半被迫折返",
-      "scene": "un+suc(跟上)+cess(走)+ful = 没能走成功的路——爬山到一半因天气折返",
-      "emotionalHook": "unsuccessful attempts 是爱迪生的日常，也是通向成功的必经之路",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "cefr-b2"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "success",
-        "successful",
-        "succeed",
-        "succession"
-      ],
-      "sameAffix": [
-        "unsuccessful",
-        "unfruitful"
+        "unsuitable",
+        "unsure"
       ],
       "synonyms": [
         "failed",
+        "abortive",
         "fruitless",
-        "futile",
-        "abortive"
+        "futile"
       ],
       "antonyms": [
         "successful",
-        "effective",
-        "fruitful"
+        "triumphant",
+        "effective"
       ],
       "domainCohort": [
-        "failure",
-        "defeat",
-        "setback"
+        "failed",
+        "abortive",
+        "vain",
+        "futile"
       ],
-      "derivationPair": [
-        "successful → unsuccessful"
+      "derivationPair": [],
+      "morphVariants": [
+        "unsuccessfully"
       ],
-      "morphVariants": [],
       "sameImagery": [
         "failed",
-        "fruitless"
+        "futile"
       ]
+    }
+  },
+  {
+    "word": "unsuccessfully",
+    "phonetic": "/,ʌnsək'sɛsfli/",
+    "pos": [
+      "adverb"
+    ],
+    "coreMeaning": {
+      "cn": "不成功地，失败地",
+      "en": "in an unsuccessful manner; without success"
+    },
+    "morphemes": [
+      {
+        "form": "un-",
+        "role": "prefix",
+        "canonical": "un-",
+        "meaning": "不，否定",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "success",
+        "role": "root",
+        "canonical": "succedere",
+        "meaning": "成功",
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "-fully",
+        "role": "suffix",
+        "canonical": "-fully",
+        "meaning": "副词后缀",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "unsuccessful"
+    ],
+    "morphVariantOf": "unsuccessful",
+    "memorySemantics": {
+      "mnemonicExpr": "unsuccessful(失败的)+-ly→失败地",
+      "imageChain": [
+        "徒劳地",
+        "无功而返"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "unsuccessful"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "fruitlessly",
+        "futilely",
+        "vainly"
+      ],
+      "antonyms": [
+        "successfully",
+        "effectively"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "unsuccessful",
+        "unsuccessfully"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
     }
   },
   {
     "word": "unsuitable",
-    "phonetic": "/ʌnˈsuːtəbəl/",
+    "phonetic": "/ʌn'suːtəbl/",
     "pos": [
-      "adj."
+      "adjective"
     ],
     "coreMeaning": {
-      "cn": "不适宜的；不合适的",
-      "en": "not fitting or appropriate for a particular purpose"
+      "cn": "不适宜的，不合适的",
+      "en": "not fitting for the purpose; inappropriate"
     },
     "morphemes": [
       {
-        "canonical": "un-",
-        "role": "prefix",
-        "morpheme": "un-",
-        "meaning": "否定",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
         "form": "un-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "suit",
-        "role": "root",
-        "morpheme": "suit",
-        "meaning": "适合；一套（古法语 siute，跟随）",
+        "role": "prefix",
+        "canonical": "un-",
+        "meaning": "不，否定",
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
-        },
-        "order": 2,
+        }
+      },
+      {
         "form": "suit",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-able",
-        "role": "suffix",
-        "morpheme": "-able",
-        "meaning": "能够…的；适合…的",
+        "role": "root",
+        "canonical": "sequi",
+        "meaning": "适合，配套",
+        "positionTendency": "medial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
-        },
-        "order": 3,
+        }
+      },
+      {
         "form": "-able",
-        "positionTendency": "final"
+        "role": "suffix",
+        "canonical": "-able",
+        "meaning": "形容词后缀：可…的",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
       }
     ],
     "derivationChain": [
-      "Old French siute (to follow/suit) → suit → suitable → unsuitable"
+      "un- + suitable"
     ],
+    "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "穿着西装去海滩",
-      "scene": "穿着正式西装去沙滩冲浪——unsuitable attire，格格不入",
-      "emotionalHook": "unsuitable candidate让HR直皱眉——完全不match岗位要求",
-      "imageChain": []
+      "mnemonicExpr": "un(不)+suit(适合)+-able(可)→不适合的",
+      "imageChain": [
+        "方头圆孔",
+        "格格不入",
+        "不合身的衣服"
+      ]
     },
     "wordLevel": {
       "domain": [
+        "general",
         "cefr-b2"
       ],
       "sentiment": {
@@ -1170,14 +1119,12 @@
     },
     "relations": {
       "sameRoot": [
-        "suit",
-        "suitable",
-        "suited",
-        "suitability"
+        "unsuitably",
+        "unsuited"
       ],
       "sameAffix": [
-        "inappropriate",
-        "unfit"
+        "unsuccessful",
+        "unsure"
       ],
       "synonyms": [
         "inappropriate",
@@ -1192,16 +1139,1003 @@
       ],
       "domainCohort": [
         "inappropriate",
-        "mismatched",
-        "incompatible"
+        "unfit",
+        "improper"
       ],
-      "derivationPair": [
-        "suitable → unsuitable"
+      "derivationPair": [],
+      "morphVariants": [
+        "unsuitably",
+        "unsuited"
       ],
+      "sameImagery": [
+        "inappropriate"
+      ]
+    }
+  },
+  {
+    "word": "unsullied",
+    "phonetic": "/ʌn'sʌlid/",
+    "pos": [
+      "adjective"
+    ],
+    "coreMeaning": {
+      "cn": "无污点的，纯洁的",
+      "en": "not spoiled or made impure; spotless"
+    },
+    "morphemes": [
+      {
+        "form": "un-",
+        "role": "prefix",
+        "canonical": "un-",
+        "meaning": "不，否定",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "sully",
+        "role": "root",
+        "canonical": "souiller",
+        "meaning": "玷污，弄脏",
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "-ied",
+        "role": "suffix",
+        "canonical": "-ied",
+        "meaning": "形容词后缀（过去分词）",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "un- + sullied"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "un(未)+sully(玷污)+-ied→未被玷污的→纯洁无瑕",
+      "imageChain": [
+        "白雪",
+        "荣誉",
+        "纯洁"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "literary",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [
+        "untainted",
+        "unsung"
+      ],
+      "synonyms": [
+        "unblemished",
+        "spotless",
+        "pure",
+        "immaculate"
+      ],
+      "antonyms": [
+        "sullied",
+        "tainted",
+        "impure",
+        "stained"
+      ],
+      "domainCohort": [
+        "pure",
+        "spotless",
+        "immaculate",
+        "untainted"
+      ],
+      "derivationPair": [],
       "morphVariants": [],
       "sameImagery": [
-        "inappropriate",
-        "mismatched"
+        "spotless",
+        "pure"
+      ]
+    }
+  },
+  {
+    "word": "unsure",
+    "phonetic": "/ʌn'ʃʊər/",
+    "pos": [
+      "adjective"
+    ],
+    "coreMeaning": {
+      "cn": "不确定的；没有自信的",
+      "en": "not certain; lacking confidence"
+    },
+    "morphemes": [
+      {
+        "form": "un-",
+        "role": "prefix",
+        "canonical": "un-",
+        "meaning": "不，否定",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "sure",
+        "role": "root",
+        "canonical": "securus",
+        "meaning": "确定，有把握",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "un- + sure"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "un(不)+sure(确定的)→不确定的/缺乏自信的",
+      "imageChain": [
+        "犹豫",
+        "疑惑表情",
+        "脚步迟疑"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "gre",
+        "cefr-b2"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [
+        "unsuitable",
+        "unsuccessful",
+        "unstinting"
+      ],
+      "synonyms": [
+        "uncertain",
+        "doubtful",
+        "hesitant",
+        "insecure"
+      ],
+      "antonyms": [
+        "sure",
+        "certain",
+        "confident"
+      ],
+      "domainCohort": [
+        "uncertain",
+        "doubtful",
+        "hesitant",
+        "indecisive"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "uncertain",
+        "doubtful"
+      ]
+    }
+  },
+  {
+    "word": "unsurpassed",
+    "phonetic": "/,ʌnsər'pæst/",
+    "pos": [
+      "adjective"
+    ],
+    "coreMeaning": {
+      "cn": "无与伦比的，未被超越的",
+      "en": "better or greater than all others; unequaled"
+    },
+    "morphemes": [
+      {
+        "form": "un-",
+        "role": "prefix",
+        "canonical": "un-",
+        "meaning": "不，否定",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "sur-",
+        "role": "prefix",
+        "canonical": "sur-",
+        "meaning": "超过，上面",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "pass",
+        "role": "root",
+        "canonical": "passare",
+        "meaning": "通过，超越",
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "-ed",
+        "role": "suffix",
+        "canonical": "-ed",
+        "meaning": "形容词后缀",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "un- + surpassed"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "un(未)+sur(超)+pass(过)+-ed→从未被超越的→无与伦比",
+      "imageChain": [
+        "冠军",
+        "第一名",
+        "无法超越的高峰"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "gre"
+      ],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 3
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "unsurpassable",
+        "unsurmountable"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "unmatched",
+        "unequaled",
+        "unrivaled",
+        "supreme"
+      ],
+      "antonyms": [
+        "surpassed",
+        "exceeded",
+        "inferior"
+      ],
+      "domainCohort": [
+        "unmatched",
+        "unequaled",
+        "supreme",
+        "peerless"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "unsurpassable"
+      ],
+      "sameImagery": [
+        "supreme",
+        "peerless"
+      ]
+    }
+  },
+  {
+    "word": "unsuspecting",
+    "phonetic": "/'ʌnsə'spɛktɪŋ/",
+    "pos": [
+      "adjective"
+    ],
+    "coreMeaning": {
+      "cn": "不怀疑的，无警戒心的，毫不知情的",
+      "en": "not aware of the presence of danger or deception; trusting"
+    },
+    "morphemes": [
+      {
+        "form": "un-",
+        "role": "prefix",
+        "canonical": "un-",
+        "meaning": "不，否定",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "sus-",
+        "role": "prefix",
+        "canonical": "sub-",
+        "meaning": "在…下面",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "spect",
+        "role": "root",
+        "canonical": "specere",
+        "meaning": "看，观察",
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "-ing",
+        "role": "suffix",
+        "canonical": "-ing",
+        "meaning": "形容词后缀",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "un- + suspecting"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "un(无)+sus(下)+spect(看)+-ing→没有从下面审视/怀疑的→毫不知情的",
+      "imageChain": [
+        "蒙在鼓里",
+        "被骗",
+        "天真无邪"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "gre"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "unsuspected"
+      ],
+      "sameAffix": [
+        "unswerving",
+        "unsympathetic"
+      ],
+      "synonyms": [
+        "trusting",
+        "naive",
+        "unsuspicious",
+        "credulous"
+      ],
+      "antonyms": [
+        "suspicious",
+        "wary",
+        "alert",
+        "vigilant"
+      ],
+      "domainCohort": [
+        "naive",
+        "credulous",
+        "unsuspicious",
+        "gullible"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "unsuspected"
+      ],
+      "sameImagery": [
+        "naive",
+        "trusting"
+      ]
+    }
+  },
+  {
+    "word": "unswerving",
+    "phonetic": "/ʌn'swɜːrvɪŋ/",
+    "pos": [
+      "adjective"
+    ],
+    "coreMeaning": {
+      "cn": "坚定不移的，始终如一的",
+      "en": "not changing or becoming weaker; steady and resolute"
+    },
+    "morphemes": [
+      {
+        "form": "un-",
+        "role": "prefix",
+        "canonical": "un-",
+        "meaning": "不，否定",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "swerve",
+        "role": "root",
+        "canonical": "swerve",
+        "meaning": "转向，偏离",
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "-ing",
+        "role": "suffix",
+        "canonical": "-ing",
+        "meaning": "形容词后缀",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "un- + swerving"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "un(不)+swerve(偏转)+-ing→不会偏转的→坚定不移的",
+      "imageChain": [
+        "指南针",
+        "直线行进",
+        "坚定意志"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "literary"
+      ],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "unswervingly",
+        "unswayed"
+      ],
+      "sameAffix": [
+        "unstinting",
+        "unsurpassed"
+      ],
+      "synonyms": [
+        "steadfast",
+        "unwavering",
+        "resolute",
+        "determined"
+      ],
+      "antonyms": [
+        "wavering",
+        "vacillating",
+        "inconstant"
+      ],
+      "domainCohort": [
+        "steadfast",
+        "unwavering",
+        "resolute",
+        "firm"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "unswervingly"
+      ],
+      "sameImagery": [
+        "steadfast",
+        "unwavering"
+      ]
+    }
+  },
+  {
+    "word": "unsympathetic",
+    "phonetic": "/,ʌnsɪmpə'θɛtɪk/",
+    "pos": [
+      "adjective"
+    ],
+    "coreMeaning": {
+      "cn": "无同情心的；不赞同的",
+      "en": "not showing or feeling sympathy; not supportive"
+    },
+    "morphemes": [
+      {
+        "form": "un-",
+        "role": "prefix",
+        "canonical": "un-",
+        "meaning": "不，否定",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "sym-",
+        "role": "prefix",
+        "canonical": "sym-",
+        "meaning": "共同",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "path",
+        "role": "root",
+        "canonical": "pathos",
+        "meaning": "感情，痛苦",
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "-etic",
+        "role": "suffix",
+        "canonical": "-etic",
+        "meaning": "形容词后缀",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "un- + sympathetic"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "un(无)+sym(共同)+path(感情)+-etic→没有共情的→冷漠无情的",
+      "imageChain": [
+        "冷漠面孔",
+        "无动于衷",
+        "铁石心肠"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "sympathetic",
+        "sympathy"
+      ],
+      "sameAffix": [
+        "unsuccessful",
+        "unsuitable"
+      ],
+      "synonyms": [
+        "callous",
+        "indifferent",
+        "cold",
+        "unfeeling"
+      ],
+      "antonyms": [
+        "sympathetic",
+        "compassionate",
+        "empathetic"
+      ],
+      "domainCohort": [
+        "callous",
+        "indifferent",
+        "cold",
+        "unfeeling"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "callous",
+        "cold"
+      ]
+    }
+  },
+  {
+    "word": "untainted",
+    "phonetic": "/ʌn'teɪntɪd/",
+    "pos": [
+      "adjective"
+    ],
+    "coreMeaning": {
+      "cn": "无污点的，未被玷污的",
+      "en": "not contaminated or corrupted; pure"
+    },
+    "morphemes": [
+      {
+        "form": "un-",
+        "role": "prefix",
+        "canonical": "un-",
+        "meaning": "不，否定",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "taint",
+        "role": "root",
+        "canonical": "tingere",
+        "meaning": "玷污，感染",
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "-ed",
+        "role": "suffix",
+        "canonical": "-ed",
+        "meaning": "形容词后缀",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "un- + tainted"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "un(未)+taint(玷污)+-ed→未被玷污的→清白纯净",
+      "imageChain": [
+        "纯净水源",
+        "洁白荣誉",
+        "未受污染"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "gre",
+        "gmat"
+      ],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [
+        "unsullied",
+        "untamed"
+      ],
+      "synonyms": [
+        "pure",
+        "unspoiled",
+        "unblemished",
+        "spotless"
+      ],
+      "antonyms": [
+        "tainted",
+        "contaminated",
+        "corrupt"
+      ],
+      "domainCohort": [
+        "pure",
+        "unspoiled",
+        "pristine",
+        "immaculate"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "pure",
+        "spotless"
+      ]
+    }
+  },
+  {
+    "word": "untamed",
+    "phonetic": "/ʌn'teɪmd/",
+    "pos": [
+      "adjective"
+    ],
+    "coreMeaning": {
+      "cn": "未驯服的，难驾驭的；狂野的",
+      "en": "not domesticated or controlled; wild"
+    },
+    "morphemes": [
+      {
+        "form": "un-",
+        "role": "prefix",
+        "canonical": "un-",
+        "meaning": "不，否定",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "tame",
+        "role": "root",
+        "canonical": "tamian",
+        "meaning": "驯服，控制",
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "-d",
+        "role": "suffix",
+        "canonical": "-ed",
+        "meaning": "形容词后缀",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "un- + tamed"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "un(未)+tame(驯服)+-d→未被驯服的→野性的",
+      "imageChain": [
+        "荒野",
+        "野狼",
+        "未驯野马"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "gre",
+        "toefl"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [
+        "untainted",
+        "untangle"
+      ],
+      "synonyms": [
+        "wild",
+        "untrained",
+        "feral",
+        "unruly"
+      ],
+      "antonyms": [
+        "tame",
+        "domesticated",
+        "controlled"
+      ],
+      "domainCohort": [
+        "wild",
+        "feral",
+        "savage",
+        "unruly"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "wild",
+        "feral"
+      ]
+    }
+  },
+  {
+    "word": "untangle",
+    "phonetic": "/ʌn'tæŋgl/",
+    "pos": [
+      "verb"
+    ],
+    "coreMeaning": {
+      "cn": "解开，理清；阐明",
+      "en": "to free from a tangled state; to make clear or understandable"
+    },
+    "morphemes": [
+      {
+        "form": "un-",
+        "role": "prefix",
+        "canonical": "un-",
+        "meaning": "逆转，取消",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "tangle",
+        "role": "root",
+        "canonical": "tangle",
+        "meaning": "缠绕，混乱",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "un- + tangle"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "un(逆转)+tangle(缠绕)→解开缠绕→理清脉络",
+      "imageChain": [
+        "解开绳结",
+        "理清思路",
+        "梳理关系"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "untangible"
+      ],
+      "sameAffix": [
+        "unstop",
+        "unstring"
+      ],
+      "synonyms": [
+        "disentangle",
+        "unravel",
+        "clarify",
+        "resolve"
+      ],
+      "antonyms": [
+        "tangle",
+        "entangle",
+        "complicate"
+      ],
+      "domainCohort": [
+        "disentangle",
+        "unravel",
+        "clarify",
+        "sort out"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "disentangle",
+        "unravel"
       ]
     }
   }

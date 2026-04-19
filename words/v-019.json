@@ -1,47 +1,161 @@
 [
   {
-    "word": "vine",
-    "phonetic": "/vaɪn/",
+    "word": "vindictiveness",
+    "phonetic": "/vɪn'dɪktɪvnɪs/",
     "pos": [
-      "n."
+      "noun"
     ],
     "coreMeaning": {
-      "cn": "葡萄树；藤本植物",
-      "en": "a climbing plant, especially a grapevine"
+      "cn": "报复心，怀恨性",
+      "en": "the quality of being vindictive; a desire for revenge"
     },
     "morphemes": [
       {
-        "canonical": "vine",
+        "form": "vind",
         "role": "root",
-        "meaning": "藤蔓；葡萄（拉丁 vinum：葡萄酒）",
+        "canonical": "vindicare",
+        "meaning": "为…报仇，主张权利",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 2
+        }
+      },
+      {
+        "form": "-ict",
+        "role": "suffix",
+        "canonical": "-ict",
+        "meaning": "动词化后缀",
+        "positionTendency": "medial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
-        },
-        "order": 1,
-        "form": "vine",
-        "positionTendency": "medial"
+        }
+      },
+      {
+        "form": "-ive",
+        "role": "suffix",
+        "canonical": "-ive",
+        "meaning": "形容词后缀：有…倾向的",
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "-ness",
+        "role": "suffix",
+        "canonical": "-ness",
+        "meaning": "名词后缀：性质/状态",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
       }
     ],
     "derivationChain": [
-      "vinum",
-      "vinea",
-      "vine"
+      "vindictive"
     ],
     "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "攀爬在木架上的葡萄藤",
-      "scene": "阳光充足的葡萄园中，葡萄藤蜿蜒攀爬在木桩上，挂满了饱满的紫色果实",
-      "emotionalHook": "vine是vineyard（葡萄园）和wine（葡萄酒）的词根核心",
-      "imageChain": []
+      "mnemonicExpr": "vindictive(报复的)+-ness→报复心性",
+      "imageChain": [
+        "报复",
+        "怨恨",
+        "寻仇"
+      ]
     },
     "wordLevel": {
       "domain": [
         "general",
-        "nature",
-        "agriculture"
+        "literary"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "spite",
+        "malice",
+        "vengefulness",
+        "rancor"
+      ],
+      "antonyms": [
+        "forgiveness",
+        "magnanimity",
+        "benevolence"
+      ],
+      "domainCohort": [
+        "spite",
+        "malice",
+        "rancor",
+        "vengeance"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "spite",
+        "malice"
+      ]
+    }
+  },
+  {
+    "word": "vine",
+    "phonetic": "/vaɪn/",
+    "pos": [
+      "noun"
+    ],
+    "coreMeaning": {
+      "cn": "葡萄藤；藤本植物",
+      "en": "a plant with a long stem that climbs or creeps; especially a grapevine"
+    },
+    "morphemes": [
+      {
+        "form": "vine",
+        "role": "root",
+        "canonical": "vinum",
+        "meaning": "葡萄，葡萄酒",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "Latin vinum (wine, grape)"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "vine(葡萄藤)→vinum(拉丁语酒/葡萄)→葡萄藤/藤本植物",
+      "imageChain": [
+        "葡萄园",
+        "蔓延藤蔓",
+        "攀援植物"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "gmat"
       ],
       "sentiment": {
         "tags": [
@@ -52,32 +166,218 @@
     },
     "relations": {
       "sameRoot": [
-        "vineyard",
-        "vintage",
+        "vinegar",
         "vinery",
-        "vinegar"
+        "vineyard",
+        "vines",
+        "vino",
+        "vinous",
+        "vintage",
+        "vintner",
+        "vinyl"
       ],
       "sameAffix": [],
       "synonyms": [
+        "grapevine",
         "creeper",
+        "climber"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "grapevine",
+        "ivy",
         "climber",
-        "grapevine"
+        "creeper"
+      ],
+      "derivationPair": [
+        "vine",
+        "vineyard"
+      ],
+      "morphVariants": [
+        "vines"
+      ],
+      "sameImagery": [
+        "grapevine",
+        "climber"
+      ]
+    }
+  },
+  {
+    "word": "vinegar",
+    "phonetic": "/'vɪnɪgər/",
+    "pos": [
+      "noun"
+    ],
+    "coreMeaning": {
+      "cn": "醋；酸性液体",
+      "en": "a sour liquid made by fermenting dilute alcoholic liquids; sour temperament"
+    },
+    "morphemes": [
+      {
+        "form": "vin",
+        "role": "root",
+        "canonical": "vinum",
+        "meaning": "葡萄酒",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "egar",
+        "role": "root",
+        "canonical": "acer",
+        "meaning": "酸，尖锐",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "Old French vinaigre (vin=wine + aigre=sour)"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "vin(酒)+egar(酸)→酸酒→醋",
+      "imageChain": [
+        "醋瓶",
+        "发酵的酒",
+        "酸味"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "vine",
+        "vino"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "acetic acid",
+        "sour liquid"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "acid",
+        "fermentation",
+        "condiment"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "vinegars",
+        "vinegary"
+      ],
+      "sameImagery": [
+        "acid",
+        "sour"
+      ]
+    }
+  },
+  {
+    "word": "vinery",
+    "phonetic": "/'vaɪnəri/",
+    "pos": [
+      "noun"
+    ],
+    "coreMeaning": {
+      "cn": "葡萄园；葡萄温室",
+      "en": "a greenhouse for growing grapes; a vineyard"
+    },
+    "morphemes": [
+      {
+        "form": "vine",
+        "role": "root",
+        "canonical": "vinum",
+        "meaning": "葡萄藤",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "-ery",
+        "role": "suffix",
+        "canonical": "-ery",
+        "meaning": "名词后缀：场所/从事…的地方",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "vine"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "vine(葡萄藤)+-ery(场所)→种植葡萄的地方→葡萄园/温室",
+      "imageChain": [
+        "葡萄温室",
+        "棚架",
+        "葡萄种植场"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "sat"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "vine",
+        "vineyard"
+      ],
+      "sameAffix": [
+        "bakery",
+        "brewery",
+        "distillery"
+      ],
+      "synonyms": [
+        "vineyard",
+        "greenhouse"
       ],
       "antonyms": [],
       "domainCohort": [
         "vineyard",
-        "grape",
-        "harvest",
-        "trellis"
+        "greenhouse",
+        "orchard"
       ],
-      "derivationPair": [
-        "vine → vinery → vineyard"
+      "derivationPair": [],
+      "morphVariants": [
+        "vineries"
       ],
-      "morphVariants": [],
       "sameImagery": [
-        "creeper",
-        "tendril",
-        "grapevine"
+        "vineyard"
       ]
     }
   },
@@ -85,99 +385,167 @@
     "word": "vineyard",
     "phonetic": "/'vɪnjərd/",
     "pos": [
-      "n."
+      "noun"
     ],
     "coreMeaning": {
       "cn": "葡萄园",
-      "en": "a plantation of grapevines where wine grapes are grown"
+      "en": "a plantation of grapevines, typically producing grapes for winemaking"
     },
     "morphemes": [
       {
-        "canonical": "vine",
-        "role": "root",
-        "meaning": "葡萄藤",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
         "form": "vine",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "yard",
         "role": "root",
-        "meaning": "院子；围地",
+        "canonical": "vinum",
+        "meaning": "葡萄藤",
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
-        },
-        "order": 2,
+        }
+      },
+      {
         "form": "yard",
-        "positionTendency": "final"
+        "role": "root",
+        "canonical": "geard",
+        "meaning": "围地，院子",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
       }
     ],
     "derivationChain": [
-      "vine",
-      "yard",
-      "vineyard"
+      "vine + yard (enclosure)"
     ],
     "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "法国普罗旺斯阳光下的葡萄园",
-      "scene": "整齐排列的葡萄树在阳光下郁郁葱葱，葡萄园主人巡视着即将成熟的葡萄",
-      "emotionalHook": "vine（葡萄藤）+ yard（院子）= 种满葡萄藤的院子，一目了然",
-      "imageChain": []
+      "mnemonicExpr": "vine(葡萄藤)+yard(围地/院子)→种葡萄的园地→葡萄园",
+      "imageChain": [
+        "法国酒庄",
+        "葡萄园景",
+        "采摘季节"
+      ]
     },
     "wordLevel": {
       "domain": [
         "general",
-        "agriculture",
         "literary"
       ],
       "sentiment": {
         "tags": [
-          "积极"
+          "中性"
         ],
-        "intensity": 1
+        "intensity": 0
       }
     },
     "relations": {
       "sameRoot": [
         "vine",
-        "vintage",
-        "vinery",
-        "vinegar"
+        "vinery"
       ],
       "sameAffix": [
         "orchard",
-        "courtyard",
-        "backyard"
+        "courtyard"
       ],
       "synonyms": [
         "winery",
-        "vinery",
-        "wine estate"
+        "vinery"
       ],
       "antonyms": [],
       "domainCohort": [
         "winery",
-        "harvest",
-        "vintage",
-        "chateau"
+        "orchard",
+        "plantation"
       ],
       "derivationPair": [
-        "vine → vineyard → vineyards"
+        "vine",
+        "vineyard"
       ],
-      "morphVariants": [],
+      "morphVariants": [
+        "vineyards"
+      ],
       "sameImagery": [
-        "orchard",
-        "plantation",
-        "estate"
+        "garden",
+        "orchard"
+      ]
+    }
+  },
+  {
+    "word": "vino",
+    "phonetic": "/'viːnoʊ/",
+    "pos": [
+      "noun"
+    ],
+    "coreMeaning": {
+      "cn": "（口语/意/西班牙语）葡萄酒",
+      "en": "wine (informal, from Italian/Spanish)"
+    },
+    "morphemes": [
+      {
+        "form": "vino",
+        "role": "root",
+        "canonical": "vinum",
+        "meaning": "葡萄酒（拉丁语根）",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "Latin vinum"
+    ],
+    "morphVariantOf": "wine",
+    "memorySemantics": {
+      "mnemonicExpr": "意大利语/西班牙语的酒→vino",
+      "imageChain": [
+        "红酒",
+        "意大利餐厅",
+        "干杯"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "vine",
+        "vinegar",
+        "vintage"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "wine",
+        "plonk"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "wine",
+        "beverage",
+        "alcohol"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "vinoes"
+      ],
+      "sameImagery": [
+        "wine"
       ]
     }
   },
@@ -185,60 +553,55 @@
     "word": "vintage",
     "phonetic": "/'vɪntɪdʒ/",
     "pos": [
-      "n.",
-      "adj."
+      "adjective"
     ],
     "coreMeaning": {
-      "cn": "（葡萄酒）年份；经典的；最好的",
-      "en": "the year a wine was produced; denoting something of high quality from the past"
+      "cn": "经典的；最好的；高质量的（葡萄酒）某年份的",
+      "en": "of high quality and lasting value; denoting wine of high quality from a particular year"
     },
     "morphemes": [
       {
-        "canonical": "vine",
+        "form": "vin",
         "role": "root",
-        "meaning": "葡萄藤",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "vint-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-age",
-        "role": "suffix",
-        "meaning": "名词后缀：集合/状态",
+        "canonical": "vinum",
+        "meaning": "葡萄酒",
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
-        },
-        "order": 2,
-        "form": "-age",
-        "positionTendency": "final"
+        }
+      },
+      {
+        "form": "tage",
+        "role": "suffix",
+        "canonical": "vendange",
+        "meaning": "收获（法语）",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
       }
     ],
     "derivationChain": [
-      "vinum",
-      "vindemia",
-      "vendange",
-      "vintage"
+      "Old French vendange (grape harvest)"
     ],
     "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "酒窖里标注年份的名酒瓶",
-      "scene": "酒窖深处，一瓶标注着1982年的波尔多红酒，岁月赋予它无与伦比的醇厚",
-      "emotionalHook": "vintage年份酒 → 延伸为任何经历时间洗礼的精华之物",
-      "imageChain": []
+      "mnemonicExpr": "vin(葡萄酒)+tage(收获期)→收获年份的→经典的/最优质的",
+      "imageChain": [
+        "陈年佳酿",
+        "葡萄收获",
+        "经典老货"
+      ]
     },
     "wordLevel": {
       "domain": [
         "general",
-        "academic",
         "gre"
       ],
       "sentiment": {
@@ -251,101 +614,89 @@
     "relations": {
       "sameRoot": [
         "vine",
-        "vineyard",
-        "vinery",
-        "vinegar"
+        "vintner"
       ],
-      "sameAffix": [
-        "heritage",
-        "foliage",
-        "plumage"
-      ],
+      "sameAffix": [],
       "synonyms": [
         "classic",
-        "antique",
         "timeless",
-        "prime"
+        "classic-quality"
       ],
       "antonyms": [
         "modern",
         "contemporary",
-        "current",
         "new"
       ],
       "domainCohort": [
         "classic",
         "antique",
-        "heritage",
-        "retro"
+        "timeless",
+        "premium"
       ],
-      "derivationPair": [
-        "vintage → vintages"
+      "derivationPair": [],
+      "morphVariants": [
+        "vintages"
       ],
-      "morphVariants": [],
       "sameImagery": [
         "classic",
-        "antique",
         "timeless"
       ]
     }
   },
   {
-    "word": "vinegar",
-    "phonetic": "/'vɪnɪɡər/",
+    "word": "vintner",
+    "phonetic": "/'vɪntnər/",
     "pos": [
-      "n."
+      "noun"
     ],
     "coreMeaning": {
-      "cn": "醋；酸味；尖刻",
-      "en": "a sour liquid made from fermented wine, used in cooking"
+      "cn": "葡萄酒商人；酿酒者",
+      "en": "a wine merchant; a person who makes or sells wine"
     },
     "morphemes": [
       {
-        "canonical": "vine",
+        "form": "vint",
         "role": "root",
-        "meaning": "葡萄酒（法语 vin）",
+        "canonical": "vinum",
+        "meaning": "葡萄酒",
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
-        },
-        "order": 1,
-        "form": "vine-",
-        "positionTendency": "initial"
+        }
       },
       {
-        "canonical": "egar",
-        "role": "root",
-        "meaning": "酸（法语 aigre：尖酸的）",
+        "form": "-ner",
+        "role": "suffix",
+        "canonical": "-ner",
+        "meaning": "名词后缀：…商/者（古英语）",
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
-            "消极"
+            "中性"
           ],
-          "intensity": -1
-        },
-        "order": 2,
-        "form": "-egar",
-        "positionTendency": "final"
+          "intensity": 0
+        }
       }
     ],
     "derivationChain": [
-      "vin",
-      "aigre",
-      "vinaigre",
-      "vinegar"
+      "Anglo-French vinetier"
     ],
     "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "变酸的葡萄酒即为醋",
-      "scene": "葡萄酒暴露在空气中发酵变酸，成为厨房中常用的调味料",
-      "emotionalHook": "vin（酒）+ aigre（酸）= 酸酒 = 醋，词源故事妙不可言",
-      "imageChain": []
+      "mnemonicExpr": "vint(葡萄酒)+ner(商人)→葡萄酒商",
+      "imageChain": [
+        "酒窖",
+        "品酒师",
+        "葡萄酒商店"
+      ]
     },
     "wordLevel": {
       "domain": [
         "general",
-        "culinary"
+        "literary"
       ],
       "sentiment": {
         "tags": [
@@ -357,30 +708,190 @@
     "relations": {
       "sameRoot": [
         "vine",
-        "vineyard",
         "vintage",
         "vinery"
       ],
       "sameAffix": [],
       "synonyms": [
-        "acid",
-        "acetic acid"
+        "wine merchant",
+        "winemaker",
+        "oenologist"
       ],
       "antonyms": [],
       "domainCohort": [
-        "acid",
-        "balsamic",
-        "marinade",
-        "condiment"
+        "winemaker",
+        "sommelier",
+        "oenologist"
       ],
-      "derivationPair": [
-        "vinegar → vinegary → vinegarish"
+      "derivationPair": [],
+      "morphVariants": [
+        "vintners"
       ],
-      "morphVariants": [],
       "sameImagery": [
-        "sour",
-        "tart",
-        "acidic"
+        "wine merchant"
+      ]
+    }
+  },
+  {
+    "word": "vinyl",
+    "phonetic": "/'vaɪnl/",
+    "pos": [
+      "noun"
+    ],
+    "coreMeaning": {
+      "cn": "乙烯基；黑胶唱片（材料）",
+      "en": "a type of flexible plastic; a gramophone record"
+    },
+    "morphemes": [
+      {
+        "form": "vin",
+        "role": "root",
+        "canonical": "vinum",
+        "meaning": "葡萄酒（古化学词根）",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "-yl",
+        "role": "suffix",
+        "canonical": "-yl",
+        "meaning": "化学后缀：有机基团",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "Latin vinum + Greek hyle (wood/matter)"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "vin(酒/乙基)+yl(化学基)→乙烯基→vinyl塑料/黑胶",
+      "imageChain": [
+        "黑胶唱片",
+        "塑料地板",
+        "化工材料"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "tech",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "vine"
+      ],
+      "sameAffix": [
+        "methyl",
+        "ethyl"
+      ],
+      "synonyms": [
+        "PVC",
+        "plastic record"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "plastic",
+        "PVC",
+        "polymer"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "vinyls"
+      ],
+      "sameImagery": [
+        "plastic",
+        "record"
+      ]
+    }
+  },
+  {
+    "word": "viola",
+    "phonetic": "/vi'oʊlə/",
+    "pos": [
+      "noun"
+    ],
+    "coreMeaning": {
+      "cn": "中提琴；堇菜属植物",
+      "en": "a stringed instrument of the violin family; a genus of flowering plants"
+    },
+    "morphemes": [
+      {
+        "form": "viola",
+        "role": "root",
+        "canonical": "viola",
+        "meaning": "中提琴（意大利语：紫罗兰）",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "Italian viola (viol, bowed instrument)"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "viola(意大利语：紫罗兰/弦乐)→中提琴或紫色花卉",
+      "imageChain": [
+        "弦乐四重奏",
+        "中提琴",
+        "堇菜花"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "music",
+        "botany"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "viol",
+        "violin",
+        "violoncello"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "violin",
+        "cello",
+        "viol",
+        "string instrument"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "violas"
+      ],
+      "sameImagery": [
+        "violin"
       ]
     }
   },
@@ -388,104 +899,107 @@
     "word": "violate",
     "phonetic": "/'vaɪəleɪt/",
     "pos": [
-      "vt."
+      "verb"
     ],
     "coreMeaning": {
-      "cn": "违反；侵犯；亵渎",
-      "en": "to break a rule or law; to fail to respect someone's rights"
+      "cn": "违反；侵犯，妨碍；亵渎",
+      "en": "to break a rule or law; to treat irreverently; to assault sexually"
     },
     "morphemes": [
       {
-        "canonical": "viol",
+        "form": "viol",
         "role": "root",
-        "meaning": "暴力；强制（拉丁 vis/violentus：力量）",
+        "canonical": "violare",
+        "meaning": "侵犯，强力作用",
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "消极"
           ],
-          "intensity": -2
-        },
-        "order": 1,
-        "form": "viol",
-        "positionTendency": "initial"
+          "intensity": 2
+        }
       },
       {
-        "canonical": "-ate",
+        "form": "-ate",
         "role": "suffix",
-        "meaning": "动词化后缀",
+        "canonical": "-ate",
+        "meaning": "动词后缀：使…发生",
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
-        },
-        "order": 2,
-        "form": "-ate",
-        "positionTendency": "final"
+        }
       }
     ],
     "derivationChain": [
-      "vis",
-      "violare",
-      "violate"
+      "Latin violare (to treat with violence)"
     ],
     "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "强行闯入禁区的动作",
-      "scene": "无视警告牌，强行越过警戒线进入禁区，或不顾法规擅自行事",
-      "emotionalHook": "viol（暴力）+ ate：用暴力强行突破界限",
-      "imageChain": []
+      "mnemonicExpr": "viol(暴力/强制)+ate→强制行使→侵犯/违反",
+      "imageChain": [
+        "交通违章",
+        "侵权",
+        "禁区闯入"
+      ]
     },
     "wordLevel": {
       "domain": [
-        "legal",
         "academic",
-        "gre"
+        "gre",
+        "gmat",
+        "toefl",
+        "ielts",
+        "npee",
+        "cet4"
       ],
       "sentiment": {
         "tags": [
           "消极"
         ],
-        "intensity": -2
+        "intensity": 2
       }
     },
     "relations": {
       "sameRoot": [
-        "violence",
-        "violent",
         "violation",
-        "inviolable"
+        "violations",
+        "violated",
+        "violates",
+        "violating"
       ],
-      "sameAffix": [
-        "create",
-        "operate",
-        "generate",
-        "liberate"
-      ],
+      "sameAffix": [],
       "synonyms": [
+        "breach",
         "infringe",
         "transgress",
-        "contravene",
-        "breach"
+        "desecrate"
       ],
       "antonyms": [
+        "respect",
+        "honor",
         "obey",
-        "observe",
-        "comply",
-        "respect"
+        "uphold"
       ],
       "domainCohort": [
+        "breach",
         "infringe",
         "transgress",
-        "breach",
-        "trespass"
+        "contravene"
       ],
       "derivationPair": [
-        "violate → violation → violator"
+        "violate",
+        "violation"
       ],
-      "morphVariants": [],
+      "morphVariants": [
+        "violated",
+        "violates",
+        "violating",
+        "violation"
+      ],
       "sameImagery": [
-        "trespass",
         "breach",
         "transgress"
       ]
@@ -493,103 +1007,103 @@
   },
   {
     "word": "violation",
-    "phonetic": "/ˌvaɪə'leɪʃən/",
+    "phonetic": "/,vaɪə'leɪʃən/",
     "pos": [
-      "n."
+      "noun"
     ],
     "coreMeaning": {
-      "cn": "违反；侵犯；违背",
-      "en": "the action of breaking a law or rule; infringement"
+      "cn": "违反；侵害；亵渎",
+      "en": "the action of violating someone or something; a breach of a rule or agreement"
     },
     "morphemes": [
       {
-        "canonical": "viol",
+        "form": "viol",
         "role": "root",
-        "meaning": "暴力；侵犯",
+        "canonical": "violare",
+        "meaning": "侵犯",
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "消极"
           ],
-          "intensity": -2
-        },
-        "order": 1,
-        "form": "viol",
-        "positionTendency": "initial"
+          "intensity": 2
+        }
       },
       {
-        "canonical": "-ation",
+        "form": "-ation",
         "role": "suffix",
-        "meaning": "名词化后缀：行为/状态",
+        "canonical": "-ation",
+        "meaning": "名词后缀：行为/结果",
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
-        },
-        "order": 2,
-        "form": "-ation",
-        "positionTendency": "final"
+        }
       }
     ],
     "derivationChain": [
-      "violare",
-      "violatio",
-      "violation"
+      "violate"
     ],
     "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "法院判决书上的违规记录",
-      "scene": "交通违规罚单、合同违约通知，或人权侵犯的法律文书",
-      "emotionalHook": "viol（暴力侵犯）+ -ation（名词化）= 侵犯行为",
-      "imageChain": []
+      "mnemonicExpr": "violate(侵犯)+-ation(行为)→侵犯行为/违规",
+      "imageChain": [
+        "违规单",
+        "法规条文",
+        "侵权行为"
+      ]
     },
     "wordLevel": {
       "domain": [
-        "legal",
-        "academic"
+        "academic",
+        "sat",
+        "legal"
       ],
       "sentiment": {
         "tags": [
           "消极"
         ],
-        "intensity": -2
+        "intensity": 2
       }
     },
     "relations": {
       "sameRoot": [
         "violate",
-        "violence",
-        "violent",
-        "inviolable"
+        "violated",
+        "violates",
+        "violating"
       ],
       "sameAffix": [
-        "creation",
-        "operation",
-        "generation"
+        "transgression",
+        "infringement"
       ],
       "synonyms": [
-        "infringement",
         "breach",
+        "infringement",
         "transgression",
         "contravention"
       ],
       "antonyms": [
         "compliance",
         "observance",
-        "adherence"
+        "respect"
       ],
       "domainCohort": [
-        "infringement",
         "breach",
-        "trespass",
-        "offence"
+        "infringement",
+        "transgression",
+        "offense"
       ],
       "derivationPair": [
-        "violate → violation → violator"
+        "violate",
+        "violation"
       ],
-      "morphVariants": [],
+      "morphVariants": [
+        "violations"
+      ],
       "sameImagery": [
-        "infringement",
         "breach",
         "transgression"
       ]
@@ -599,107 +1113,104 @@
     "word": "violence",
     "phonetic": "/'vaɪələns/",
     "pos": [
-      "n."
+      "noun"
     ],
     "coreMeaning": {
-      "cn": "暴力；激烈；侵犯",
-      "en": "behavior involving physical force intended to hurt or kill"
+      "cn": "暴力；侵犯；激烈；歪曲",
+      "en": "behavior involving physical force with intent to hurt or kill; great force or intensity"
     },
     "morphemes": [
       {
-        "canonical": "viol",
+        "form": "viol",
         "role": "root",
-        "meaning": "力量；暴力（拉丁 vis）",
+        "canonical": "vis",
+        "meaning": "力量，强制",
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "消极"
           ],
-          "intensity": -3
-        },
-        "order": 1,
-        "form": "viol",
-        "positionTendency": "initial"
+          "intensity": 2
+        }
       },
       {
-        "canonical": "-ence",
+        "form": "-ence",
         "role": "suffix",
-        "meaning": "名词后缀：状态/性质",
+        "canonical": "-ence",
+        "meaning": "名词后缀：状态/行为",
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
-        },
-        "order": 2,
-        "form": "-ence",
-        "positionTendency": "final"
+        }
       }
     ],
     "derivationChain": [
-      "vis",
-      "violentus",
-      "violentia",
-      "violence"
+      "Latin violentia (vis=force)"
     ],
     "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "冲突与暴力行为的场景",
-      "scene": "街头冲突、战争画面，或强迫性的极端行为，代表对他人的暴力侵害",
-      "emotionalHook": "viol（力量/暴力）+ -ence（名词）= 暴力状态",
-      "imageChain": []
+      "mnemonicExpr": "viol(强力)+ence→强力施加的行为→暴力",
+      "imageChain": [
+        "冲突",
+        "暴力行为",
+        "激烈对抗"
+      ]
     },
     "wordLevel": {
       "domain": [
         "general",
         "academic",
-        "legal"
+        "ielts",
+        "npee",
+        "cet4",
+        "cefr-b2"
       ],
       "sentiment": {
         "tags": [
           "消极"
         ],
-        "intensity": -3
+        "intensity": 3
       }
     },
     "relations": {
       "sameRoot": [
         "violent",
+        "violently",
         "violate",
-        "violation",
-        "inviolable"
+        "violation"
       ],
       "sameAffix": [
-        "patience",
-        "sentence",
-        "evidence",
-        "presence"
+        "turbulence",
+        "aggressiveness"
       ],
       "synonyms": [
         "brutality",
-        "ferocity",
+        "force",
         "aggression",
-        "force"
+        "savagery"
       ],
       "antonyms": [
         "peace",
-        "gentleness",
         "nonviolence",
         "calm"
       ],
       "domainCohort": [
         "aggression",
         "brutality",
-        "conflict",
-        "war"
+        "force",
+        "conflict"
       ],
       "derivationPair": [
-        "violent → violence → violently"
+        "violence",
+        "violent"
       ],
       "morphVariants": [],
       "sameImagery": [
         "brutality",
-        "aggression",
-        "force"
+        "aggression"
       ]
     }
   },
@@ -707,163 +1218,242 @@
     "word": "violent",
     "phonetic": "/'vaɪələnt/",
     "pos": [
-      "adj."
+      "adjective"
     ],
     "coreMeaning": {
       "cn": "暴力的；猛烈的；激烈的",
-      "en": "using or involving physical force to cause harm; very strong or intense"
+      "en": "using or involving physical force intended to hurt; very strong or intense"
     },
     "morphemes": [
       {
-        "canonical": "viol",
+        "form": "viol",
         "role": "root",
-        "meaning": "暴力；强烈（拉丁 violentus）",
+        "canonical": "vis",
+        "meaning": "力量，强制",
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "消极"
           ],
-          "intensity": -2
-        },
-        "order": 1,
-        "form": "viol",
-        "positionTendency": "initial"
+          "intensity": 2
+        }
       },
       {
-        "canonical": "-ent",
+        "form": "-ent",
         "role": "suffix",
-        "meaning": "形容词后缀：具有……性质的",
+        "canonical": "-ent",
+        "meaning": "形容词后缀：具有…特质的",
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
-        },
-        "order": 2,
-        "form": "-ent",
-        "positionTendency": "final"
+        }
       }
     ],
     "derivationChain": [
-      "violentus",
-      "violent"
+      "violence"
     ],
     "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "狂风暴雨或激烈冲突",
-      "scene": "狂风大作、电闪雷鸣，或两人激烈争吵动手，充满强烈破坏力",
-      "emotionalHook": "viol（暴力）+ -ent（形容词）= 充满暴力的",
-      "imageChain": []
+      "mnemonicExpr": "viol(强力/暴力)+-ent(的)→使用暴力的/猛烈的",
+      "imageChain": [
+        "激烈冲突",
+        "猛烈风暴",
+        "暴力行为"
+      ]
     },
     "wordLevel": {
       "domain": [
         "general",
-        "academic"
+        "academic",
+        "toefl",
+        "ielts",
+        "sat",
+        "npee",
+        "cet4",
+        "cefr-b2"
       ],
       "sentiment": {
         "tags": [
           "消极"
         ],
-        "intensity": -2
+        "intensity": 2
       }
     },
     "relations": {
       "sameRoot": [
         "violence",
+        "violently",
         "violate",
-        "violation",
-        "inviolable"
+        "violation"
       ],
       "sameAffix": [
-        "patient",
-        "confident",
-        "evident",
-        "frequent"
+        "turbulent",
+        "virulent"
       ],
       "synonyms": [
         "brutal",
-        "ferocious",
+        "savage",
         "fierce",
-        "savage"
+        "intense"
       ],
       "antonyms": [
         "peaceful",
         "gentle",
         "mild",
-        "calm"
+        "nonviolent"
       ],
       "domainCohort": [
         "brutal",
         "fierce",
-        "aggressive",
-        "turbulent"
+        "savage",
+        "aggressive"
       ],
       "derivationPair": [
-        "violent → violence → violently"
+        "violence",
+        "violent"
       ],
-      "morphVariants": [],
+      "morphVariants": [
+        "violently"
+      ],
       "sameImagery": [
-        "fierce",
         "brutal",
-        "turbulent"
+        "fierce"
       ]
     }
   },
   {
-    "word": "violin",
-    "phonetic": "/ˌvaɪə'lɪn/",
+    "word": "violently",
+    "phonetic": "/'vaɪələntli/",
     "pos": [
-      "n."
+      "adverb"
     ],
     "coreMeaning": {
-      "cn": "小提琴",
-      "en": "a bowed string musical instrument held under the chin"
+      "cn": "猛烈地，激烈地",
+      "en": "in a violent manner; with great force"
     },
     "morphemes": [
       {
-        "canonical": "viol",
+        "form": "viol",
         "role": "root",
-        "meaning": "维奥尔琴（古弦乐器）",
+        "canonical": "vis",
+        "meaning": "力量，强制",
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
-            "积极"
+            "消极"
           ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "viol",
-        "positionTendency": "initial"
+          "intensity": 2
+        }
       },
       {
-        "canonical": "-in",
+        "form": "-ently",
         "role": "suffix",
-        "meaning": "小型化后缀（意大利语）",
+        "canonical": "-ently",
+        "meaning": "副词后缀",
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
-        },
-        "order": 2,
-        "form": "-in",
-        "positionTendency": "final"
+        }
       }
     ],
     "derivationChain": [
-      "viola",
-      "violino",
-      "violin"
+      "violent"
     ],
-    "morphVariantOf": null,
+    "morphVariantOf": "violent",
     "memorySemantics": {
-      "imageKey": "演奏家夹在肩下演奏的弦乐器",
-      "scene": "音乐会上，小提琴手用弓拉出悠扬的乐声，情感丰富，穿透人心",
-      "emotionalHook": "viol（维奥尔琴）+ -in（小型）= 小型维奥尔琴 = 小提琴",
-      "imageChain": []
+      "mnemonicExpr": "violent(暴力的)+-ly→猛烈地",
+      "imageChain": [
+        "猛烈冲撞",
+        "激烈爆发"
+      ]
     },
     "wordLevel": {
       "domain": [
-        "music",
-        "general"
+        "general",
+        "cefr-b2"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "violent",
+        "violence"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "brutally",
+        "fiercely",
+        "savagely",
+        "forcefully"
+      ],
+      "antonyms": [
+        "gently",
+        "peacefully",
+        "mildly"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "violent",
+        "violently"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "violet",
+    "phonetic": "/'vaɪələt/",
+    "pos": [
+      "noun"
+    ],
+    "coreMeaning": {
+      "cn": "紫罗兰；堇菜；紫色",
+      "en": "a small plant with purple, blue, or white flowers; a bluish-purple color"
+    },
+    "morphemes": [
+      {
+        "form": "violet",
+        "role": "root",
+        "canonical": "viola",
+        "meaning": "紫罗兰（拉丁语花名）",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "Latin viola (violet flower)"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "viola(紫罗兰)→violet(紫罗兰/紫色)→彩虹中V代表violet",
+      "imageChain": [
+        "紫色花朵",
+        "彩虹紫色",
+        "芳香小花"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "gre",
+        "npee",
+        "cet4"
       ],
       "sentiment": {
         "tags": [
@@ -875,8 +1465,98 @@
     "relations": {
       "sameRoot": [
         "viola",
-        "violoncello",
-        "viol"
+        "violoncello"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "purple",
+        "mauve"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "lavender",
+        "purple",
+        "indigo"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "violets"
+      ],
+      "sameImagery": [
+        "purple",
+        "flower"
+      ]
+    }
+  },
+  {
+    "word": "violin",
+    "phonetic": "/,vaɪə'lɪn/",
+    "pos": [
+      "noun"
+    ],
+    "coreMeaning": {
+      "cn": "小提琴；小提琴手",
+      "en": "a stringed musical instrument of treble pitch; a violin player"
+    },
+    "morphemes": [
+      {
+        "form": "viol",
+        "role": "root",
+        "canonical": "viola",
+        "meaning": "中提琴/弦乐器",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "-in",
+        "role": "suffix",
+        "canonical": "-ino",
+        "meaning": "小型化后缀（意大利语）",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "Italian violino (diminutive of viola)"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "viola(中提琴)+-in(小)→小型中提琴→小提琴",
+      "imageChain": [
+        "小提琴",
+        "琴弓",
+        "弦乐四重奏"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "music",
+        "npee",
+        "cet4"
+      ],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "viola",
+        "viol",
+        "violoncello"
       ],
       "sameAffix": [],
       "synonyms": [
@@ -886,98 +1566,300 @@
       "domainCohort": [
         "viola",
         "cello",
-        "double bass",
-        "string quartet"
+        "fiddle",
+        "string instrument"
       ],
       "derivationPair": [
-        "violin → violinist → violinists"
+        "violin",
+        "violinist"
       ],
-      "morphVariants": [],
+      "morphVariants": [
+        "violins",
+        "violinist"
+      ],
       "sameImagery": [
         "fiddle",
-        "string instrument",
-        "bow"
+        "string instrument"
       ]
     }
   },
   {
-    "word": "violet",
-    "phonetic": "/'vaɪələt/",
+    "word": "violinist",
+    "phonetic": "/,vaɪə'lɪnɪst/",
     "pos": [
-      "n.",
-      "adj."
+      "noun"
     ],
     "coreMeaning": {
-      "cn": "紫罗兰；紫色",
-      "en": "a small plant with purple flowers; a bluish-purple color"
+      "cn": "小提琴手",
+      "en": "a person who plays the violin"
     },
     "morphemes": [
       {
-        "canonical": "violet",
+        "form": "violin",
         "role": "root",
-        "meaning": "紫罗兰花（法语 violette，拉丁 viola）",
+        "canonical": "viola",
+        "meaning": "小提琴",
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
-            "积极"
+            "中性"
           ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "violet",
-        "positionTendency": "medial"
+          "intensity": 0
+        }
+      },
+      {
+        "form": "-ist",
+        "role": "suffix",
+        "canonical": "-ist",
+        "meaning": "名词后缀：…者/演奏者",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
       }
     ],
     "derivationChain": [
-      "viola",
-      "violette",
-      "violet"
+      "violin"
     ],
     "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "小巧的紫色花朵和紫色光谱",
-      "scene": "春天花园里低矮的紫罗兰花，彩虹中最内侧的紫色光带，也是谦逊低调的象征",
-      "emotionalHook": "viola（乐器/花）同源，都与紫色相关",
-      "imageChain": []
+      "mnemonicExpr": "violin(小提琴)+-ist(演奏者)→小提琴演奏者",
+      "imageChain": [
+        "舞台上的小提琴手",
+        "演奏会",
+        "独奏"
+      ]
     },
     "wordLevel": {
       "domain": [
         "general",
-        "nature"
+        "music"
       ],
       "sentiment": {
         "tags": [
-          "积极"
+          "中性"
         ],
-        "intensity": 1
+        "intensity": 0
       }
     },
     "relations": {
       "sameRoot": [
-        "viola",
         "violin",
-        "violoncello"
+        "viola"
       ],
-      "sameAffix": [],
+      "sameAffix": [
+        "cellist",
+        "pianist"
+      ],
       "synonyms": [
-        "purple",
-        "mauve",
-        "lavender"
+        "fiddler"
       ],
       "antonyms": [],
       "domainCohort": [
-        "indigo",
-        "purple",
-        "lavender",
-        "mauve"
+        "musician",
+        "cellist",
+        "pianist",
+        "performer"
       ],
       "derivationPair": [
-        "violet → violets"
+        "violin",
+        "violinist"
       ],
+      "morphVariants": [
+        "violinists"
+      ],
+      "sameImagery": [
+        "musician"
+      ]
+    }
+  },
+  {
+    "word": "violoncello",
+    "phonetic": "/,vaɪələn'tʃɛloʊ/",
+    "pos": [
+      "noun"
+    ],
+    "coreMeaning": {
+      "cn": "大提琴（全称）",
+      "en": "the formal name for the cello; a large bass stringed instrument"
+    },
+    "morphemes": [
+      {
+        "form": "viol",
+        "role": "root",
+        "canonical": "viola",
+        "meaning": "弦乐器",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "on",
+        "role": "suffix",
+        "canonical": "-one",
+        "meaning": "扩大化后缀（意大利语）",
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "cello",
+        "role": "suffix",
+        "canonical": "-cello",
+        "meaning": "小型化后缀（意大利语）",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "Italian violone (large viola) + cello (small)"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "violone(大提琴前身)+cello(小化)→演化为大提琴全名",
+      "imageChain": [
+        "大提琴",
+        "巴赫",
+        "低沉弦音"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "music",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "violin",
+        "viola",
+        "viol"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "cello"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "cello",
+        "violin",
+        "viola",
+        "bass"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "violoncellos",
+        "violoncellist"
+      ],
+      "sameImagery": [
+        "cello"
+      ]
+    }
+  },
+  {
+    "word": "viper",
+    "phonetic": "/'vaɪpər/",
+    "pos": [
+      "noun"
+    ],
+    "coreMeaning": {
+      "cn": "蝰蛇；奸诈的人",
+      "en": "a venomous snake; a spiteful or treacherous person"
+    },
+    "morphemes": [
+      {
+        "form": "vip",
+        "role": "root",
+        "canonical": "vivipara",
+        "meaning": "产活仔的（拉丁语 vivus=活+parere=生）",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        }
+      },
+      {
+        "form": "-er",
+        "role": "suffix",
+        "canonical": "-er",
+        "meaning": "名词后缀：…者/物",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "Latin vipera (vivi-=alive + parere=to bring forth)"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "vip(活体生产)+er→产活仔的毒蛇→蝰蛇；引申为奸诈之人",
+      "imageChain": [
+        "毒蛇",
+        "蜷曲攻击",
+        "奸邪之人"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "literary"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "snake",
+        "serpent",
+        "traitor"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "snake",
+        "cobra",
+        "asp",
+        "serpent"
+      ],
+      "derivationPair": [],
       "morphVariants": [],
       "sameImagery": [
-        "lavender",
-        "purple",
-        "amethyst"
+        "snake",
+        "serpent"
       ]
     }
   }

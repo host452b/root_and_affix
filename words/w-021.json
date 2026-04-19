@@ -1,59 +1,58 @@
 [
   {
-    "word": "western",
-    "phonetic": "/'westərn/",
+    "word": "wesleyan",
+    "phonetic": "/'wɛzliən/",
     "pos": [
-      "adj.",
-      "n."
+      "adjective"
     ],
     "coreMeaning": {
-      "cn": "西方的；西部的；西部片",
-      "en": "of, relating to, or situated in the west; a movie set in the American West"
+      "cn": "卫斯理派的；约翰·卫斯理的",
+      "en": "of or relating to John Wesley or the Methodist movement he founded"
     },
     "morphemes": [
       {
-        "canonical": "west",
+        "form": "wesley",
         "role": "root",
-        "meaning": "西方；西部",
+        "canonical": "wesleyan",
+        "meaning": "人名Wesley（卫斯理）",
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
-        },
-        "order": 1,
-        "form": "west",
-        "positionTendency": "initial"
+        }
       },
       {
-        "canonical": "-ern",
+        "form": "-an",
         "role": "suffix",
-        "meaning": "方位形容词后缀",
+        "canonical": "-an",
+        "meaning": "形容词/名词后缀：…的/…派的",
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
-        },
-        "order": 2,
-        "form": "ern",
-        "positionTendency": "final"
+        }
       }
     ],
     "derivationChain": [
-      "west + -ern"
+      "Wesley (surname) + -an"
     ],
+    "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "日落西山的景象",
-      "scene": "Western civilization（西方文明）是文化比较中的核心术语",
-      "emotionalHook": "-ern是方位后缀，同类词：northern, southern, eastern",
-      "imageChain": []
+      "mnemonicExpr": "Wesley(约翰卫斯理)+-an→卫斯理派的→循道宗/卫理公会",
+      "imageChain": [
+        "循道宗",
+        "卫理公会",
+        "约翰卫斯理"
+      ]
     },
     "wordLevel": {
       "domain": [
-        "general",
-        "culture",
-        "geography"
+        "academic",
+        "theology"
       ],
       "sentiment": {
         "tags": [
@@ -64,103 +63,68 @@
     },
     "relations": {
       "sameRoot": [
-        "westward",
-        "westerner",
-        "westernmost"
+        "wesleyans"
       ],
       "sameAffix": [
-        "northern",
-        "southern",
-        "eastern"
+        "puritan",
+        "calvinian"
       ],
       "synonyms": [
-        "occidental",
-        "westerly"
+        "Methodist"
       ],
-      "antonyms": [
-        "eastern",
-        "oriental"
-      ],
+      "antonyms": [],
       "domainCohort": [
-        "northern",
-        "southern",
-        "eastern"
+        "Methodist",
+        "Protestant",
+        "evangelical"
       ],
-      "derivationPair": [
-        "westerner",
-        "westernize"
+      "derivationPair": [],
+      "morphVariants": [
+        "wesleyans"
       ],
-      "morphVariants": [],
       "sameImagery": []
     }
   },
   {
-    "word": "westerner",
-    "phonetic": "/'westənər/",
+    "word": "west",
+    "phonetic": "/wɛst/",
     "pos": [
-      "n."
+      "noun"
     ],
     "coreMeaning": {
-      "cn": "西方人；美国西部人",
-      "en": "a person from the western part of a country or the Western world"
+      "cn": "西方，西部；西方国家",
+      "en": "the direction toward the setting sun; the western part of a place"
     },
     "morphemes": [
       {
-        "canonical": "west",
-        "role": "root",
-        "meaning": "西方",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
         "form": "west",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-ern",
-        "role": "suffix",
-        "meaning": "方位形容词后缀",
+        "role": "root",
+        "canonical": "west",
+        "meaning": "西方（日落方向）",
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
-        },
-        "order": 2,
-        "form": "ern",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-er",
-        "role": "suffix",
-        "meaning": "…之人",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "er",
-        "positionTendency": "final"
+        }
       }
     ],
     "derivationChain": [
-      "western + -er"
+      "Old English west (toward the sunset)"
     ],
+    "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "来自西方文化背景的人",
-      "scene": "东西方文化交流中，westerner和easterner代表不同的价值观背景",
-      "emotionalHook": "Westerner常大写，特指来自西方世界（欧美）的人",
-      "imageChain": []
+      "mnemonicExpr": "日落方向→west(西)",
+      "imageChain": [
+        "落日",
+        "西方地图",
+        "指南针"
+      ]
     },
     "wordLevel": {
       "domain": [
-        "general",
-        "culture"
+        "general"
       ],
       "sentiment": {
         "tags": [
@@ -172,88 +136,180 @@
     "relations": {
       "sameRoot": [
         "western",
+        "westward",
+        "westerly",
+        "westernmost",
+        "wester"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "occident"
+      ],
+      "antonyms": [
+        "east"
+      ],
+      "domainCohort": [
+        "north",
+        "south",
+        "east",
+        "direction"
+      ],
+      "derivationPair": [
+        "west",
+        "western"
+      ],
+      "morphVariants": [
+        "western",
+        "westward"
+      ],
+      "sameImagery": [
+        "sunset",
+        "occident"
+      ]
+    }
+  },
+  {
+    "word": "westbound",
+    "phonetic": "/'wɛstbaʊnd/",
+    "pos": [
+      "adjective"
+    ],
+    "coreMeaning": {
+      "cn": "向西行驶的，西行的",
+      "en": "traveling or leading toward the west"
+    },
+    "morphemes": [
+      {
+        "form": "west",
+        "role": "root",
+        "canonical": "west",
+        "meaning": "西方",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "bound",
+        "role": "suffix",
+        "canonical": "bound",
+        "meaning": "前往，趋向",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "west + bound"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "west(西)+bound(前往)→向西行驶的",
+      "imageChain": [
+        "高速路标",
+        "向西行驶",
+        "西行列车"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
         "west",
         "westward"
       ],
       "sameAffix": [
-        "northerner",
-        "southerner",
-        "easterner"
+        "eastbound",
+        "northbound"
       ],
       "synonyms": [
-        "Occidental",
-        "Westman"
+        "westward"
       ],
       "antonyms": [
-        "easterner",
-        "Oriental"
+        "eastbound"
       ],
       "domainCohort": [
-        "European",
-        "American",
-        "Occidental"
+        "eastbound",
+        "northbound",
+        "southbound"
       ],
-      "derivationPair": [
-        "western"
-      ],
+      "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": []
+      "sameImagery": [
+        "westward"
+      ]
     }
   },
   {
-    "word": "westernize",
-    "phonetic": "/'westərnaɪz/",
+    "word": "westerly",
+    "phonetic": "/'wɛstərli/",
     "pos": [
-      "v."
+      "adjective"
     ],
     "coreMeaning": {
-      "cn": "使西方化；西化",
-      "en": "to bring under the influence of western culture"
+      "cn": "向西的；来自西方的（风）",
+      "en": "situated in or moving toward the west; of wind: blowing from the west"
     },
     "morphemes": [
       {
-        "canonical": "west",
+        "form": "west",
         "role": "root",
+        "canonical": "west",
         "meaning": "西方",
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
-        },
-        "order": 1,
-        "form": "western",
-        "positionTendency": "initial"
+        }
       },
       {
-        "canonical": "-ize",
+        "form": "-erly",
         "role": "suffix",
-        "meaning": "使…化；按…方式处理",
+        "canonical": "-erly",
+        "meaning": "方向形容词/副词后缀",
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
-        },
-        "order": 2,
-        "form": "ize",
-        "positionTendency": "final"
+        }
       }
     ],
     "derivationChain": [
-      "western + -ize"
+      "west"
     ],
+    "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "传统文化在西方影响下发生变迁",
-      "scene": "19世纪明治维新：日本积极westernize（西化），引进西方技术和制度",
-      "emotionalHook": "-ize是使动后缀（如modernize现代化，globalize全球化）",
-      "imageChain": []
+      "mnemonicExpr": "west(西)+-erly(方向)→朝西的/来自西方的",
+      "imageChain": [
+        "西风",
+        "向西吹",
+        "西向"
+      ]
     },
     "wordLevel": {
       "domain": [
-        "culture",
-        "history",
-        "politics"
+        "general",
+        "meteorology"
       ],
       "sentiment": {
         "tags": [
@@ -264,102 +320,88 @@
     },
     "relations": {
       "sameRoot": [
-        "western",
         "west",
-        "westernization"
+        "western",
+        "westward",
+        "westerlies"
       ],
       "sameAffix": [
-        "modernize",
-        "globalize",
-        "democratize"
+        "easterly",
+        "northerly"
       ],
       "synonyms": [
-        "Occidentalize"
+        "westward"
       ],
       "antonyms": [
-        "Orientalize",
-        "de-westernize"
+        "easterly"
       ],
       "domainCohort": [
-        "modernize",
-        "globalize",
-        "civilize"
+        "wind direction",
+        "compass",
+        "meteorology"
       ],
-      "derivationPair": [
-        "westernization",
-        "westernized"
+      "derivationPair": [],
+      "morphVariants": [
+        "westerlies"
       ],
-      "morphVariants": [],
-      "sameImagery": []
+      "sameImagery": [
+        "westward"
+      ]
     }
   },
   {
-    "word": "westernization",
-    "phonetic": "/,westənaɪ'zeɪʃən/",
+    "word": "western",
+    "phonetic": "/'wɛstərn/",
     "pos": [
-      "n."
+      "adjective"
     ],
     "coreMeaning": {
-      "cn": "西方化；西化过程",
-      "en": "the process of adopting or imposing western culture, values, or practices"
+      "cn": "西方的；西部的；西洋的",
+      "en": "situated in or directed toward the west; relating to the Western world"
     },
     "morphemes": [
       {
-        "canonical": "west",
+        "form": "west",
         "role": "root",
+        "canonical": "west",
         "meaning": "西方",
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
-        },
-        "order": 1,
-        "form": "western",
-        "positionTendency": "initial"
+        }
       },
       {
-        "canonical": "-ize",
+        "form": "-ern",
         "role": "suffix",
-        "meaning": "使…化",
+        "canonical": "-ern",
+        "meaning": "方向形容词后缀：…方的",
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
-        },
-        "order": 2,
-        "form": "iz",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ation",
-        "role": "suffix",
-        "meaning": "行为；过程；结果",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "ation",
-        "positionTendency": "final"
+        }
       }
     ],
     "derivationChain": [
-      "westernize + -ation"
+      "west"
     ],
+    "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "全球化下本土文化的转变",
-      "scene": "学者讨论东亚国家在20世纪经历的快速westernization及其对传统文化的冲击",
-      "emotionalHook": "文化研究和历史学的核心概念，常与globalization对比讨论",
-      "imageChain": []
+      "mnemonicExpr": "west(西)+-ern(方的)→西方的/西部的",
+      "imageChain": [
+        "西部牛仔",
+        "西方文化",
+        "太阳落山方向"
+      ]
     },
     "wordLevel": {
       "domain": [
-        "culture",
-        "history",
+        "general",
         "academic"
       ],
       "sentiment": {
@@ -371,89 +413,588 @@
     },
     "relations": {
       "sameRoot": [
-        "western",
+        "west",
+        "westerner",
         "westernize",
+        "westernization",
+        "westerns"
+      ],
+      "sameAffix": [
+        "eastern",
+        "northern",
+        "southern"
+      ],
+      "synonyms": [
+        "occidental",
+        "westerly"
+      ],
+      "antonyms": [
+        "eastern",
+        "oriental"
+      ],
+      "domainCohort": [
+        "occidental",
+        "Atlantic",
+        "European"
+      ],
+      "derivationPair": [
+        "west",
+        "western"
+      ],
+      "morphVariants": [
+        "westerner",
+        "westerns"
+      ],
+      "sameImagery": [
+        "occidental"
+      ]
+    }
+  },
+  {
+    "word": "westerner",
+    "phonetic": "/'wɛstərnər/",
+    "pos": [
+      "noun"
+    ],
+    "coreMeaning": {
+      "cn": "西方人；西部人",
+      "en": "a native or inhabitant of the west; a person from Western civilization"
+    },
+    "morphemes": [
+      {
+        "form": "west",
+        "role": "root",
+        "canonical": "west",
+        "meaning": "西方",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "-erner",
+        "role": "suffix",
+        "canonical": "-erner",
+        "meaning": "名词后缀：…方人",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "western"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "western(西方的)+-er(人)→西方人/西部人",
+      "imageChain": [
+        "西方人",
+        "美国西部人",
+        "欧洲人"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "western",
+        "west",
+        "westernize"
+      ],
+      "sameAffix": [
+        "easterner",
+        "northerner"
+      ],
+      "synonyms": [
+        "Occidental"
+      ],
+      "antonyms": [
+        "Easterner",
+        "Oriental"
+      ],
+      "domainCohort": [
+        "occidental",
+        "European",
+        "American"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "westerners"
+      ],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "westernization",
+    "phonetic": "/,wɛstərnɪ'zeɪʃən/",
+    "pos": [
+      "noun"
+    ],
+    "coreMeaning": {
+      "cn": "西化；西方化",
+      "en": "the process of adopting or being influenced by Western culture, values, or practices"
+    },
+    "morphemes": [
+      {
+        "form": "west",
+        "role": "root",
+        "canonical": "west",
+        "meaning": "西方",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "-ern",
+        "role": "suffix",
+        "canonical": "-ern",
+        "meaning": "方向形容词后缀",
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "-ization",
+        "role": "suffix",
+        "canonical": "-ization",
+        "meaning": "名词后缀：…化过程",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "westernize"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "western(西方)+-ization(化的过程)→西方化的过程",
+      "imageChain": [
+        "文化影响",
+        "麦当劳",
+        "好莱坞"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "academic",
+        "social science"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "westernize",
+        "western",
         "westerner"
       ],
       "sameAffix": [
         "modernization",
-        "globalization",
-        "democratization"
+        "globalization"
       ],
       "synonyms": [
-        "Occidentalization"
+        "Westernizing",
+        "occidental influence"
       ],
       "antonyms": [
-        "de-westernization",
-        "traditionalism"
+        "easternization",
+        "localization"
       ],
       "domainCohort": [
-        "modernization",
         "globalization",
-        "imperialism"
+        "modernization",
+        "cultural influence"
       ],
       "derivationPair": [
-        "westernize"
+        "westernize",
+        "westernization"
       ],
+      "morphVariants": [],
+      "sameImagery": [
+        "globalization"
+      ]
+    }
+  },
+  {
+    "word": "westernize",
+    "phonetic": "/'wɛstərnaɪz/",
+    "pos": [
+      "verb"
+    ],
+    "coreMeaning": {
+      "cn": "使西化；采纳西方习俗",
+      "en": "to make or become Western in character or culture"
+    },
+    "morphemes": [
+      {
+        "form": "west",
+        "role": "root",
+        "canonical": "west",
+        "meaning": "西方",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "-ern",
+        "role": "suffix",
+        "canonical": "-ern",
+        "meaning": "方向形容词后缀",
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "-ize",
+        "role": "suffix",
+        "canonical": "-ize",
+        "meaning": "动词后缀：使…化",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "western"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "western(西方)+-ize(使)→使西方化",
+      "imageChain": [
+        "西化改革",
+        "文化输出",
+        "引进西方制度"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "academic",
+        "social science"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "westernization",
+        "western",
+        "westerner"
+      ],
+      "sameAffix": [
+        "modernize",
+        "globalize"
+      ],
+      "synonyms": [
+        "occidentalize"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "modernize",
+        "globalize",
+        "adapt"
+      ],
+      "derivationPair": [
+        "westernize",
+        "westernization"
+      ],
+      "morphVariants": [
+        "westernized",
+        "westernizes",
+        "westernizing"
+      ],
+      "sameImagery": [
+        "modernize"
+      ]
+    }
+  },
+  {
+    "word": "westernmost",
+    "phonetic": "/'wɛstərnmoʊst/",
+    "pos": [
+      "adjective"
+    ],
+    "coreMeaning": {
+      "cn": "最西端的",
+      "en": "furthest toward the west"
+    },
+    "morphemes": [
+      {
+        "form": "west",
+        "role": "root",
+        "canonical": "west",
+        "meaning": "西方",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "-ern",
+        "role": "suffix",
+        "canonical": "-ern",
+        "meaning": "方向形容词后缀",
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "-most",
+        "role": "suffix",
+        "canonical": "-most",
+        "meaning": "最高级后缀：最…的",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "western"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "western(西方)+-most(最)→最西端的",
+      "imageChain": [
+        "地图边界",
+        "最西端城市",
+        "世界尽头"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "geography"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "western",
+        "west"
+      ],
+      "sameAffix": [
+        "easternmost",
+        "northernmost",
+        "southernmost"
+      ],
+      "synonyms": [
+        "furthest west"
+      ],
+      "antonyms": [
+        "easternmost"
+      ],
+      "domainCohort": [
+        "geography",
+        "boundary",
+        "extreme"
+      ],
+      "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
     }
   },
   {
-    "word": "westward",
-    "phonetic": "/'westwərd/",
+    "word": "westminster",
+    "phonetic": "/'wɛstmɪnstər/",
     "pos": [
-      "adj.",
-      "adv."
+      "noun"
     ],
     "coreMeaning": {
-      "cn": "向西的；向西地",
-      "en": "towards or facing the west"
+      "cn": "威斯敏斯特（英国议会/宫殿所在地）",
+      "en": "a district in London; the seat of British Parliament"
     },
     "morphemes": [
       {
-        "canonical": "west",
+        "form": "west",
         "role": "root",
+        "canonical": "west",
         "meaning": "西方",
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
-        },
-        "order": 1,
-        "form": "west",
-        "positionTendency": "initial"
+        }
       },
       {
-        "canonical": "-ward",
-        "role": "suffix",
-        "meaning": "向…方向",
+        "form": "minster",
+        "role": "root",
+        "canonical": "monasterium",
+        "meaning": "修道院，大教堂",
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
-        },
-        "order": 2,
-        "form": "ward",
-        "positionTendency": "final"
+        }
+      }
+    ],
+    "derivationChain": [
+      "Old English west + minster (monastery)"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "west(西)+minster(修道院)→西侧的修道院→威斯敏斯特",
+      "imageChain": [
+        "英国议会",
+        "大本钟",
+        "泰晤士河畔"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "political science"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "west"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "Parliament",
+        "House of Commons"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "Parliament",
+        "London",
+        "British government"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "Parliament",
+        "London"
+      ]
+    }
+  },
+  {
+    "word": "westward",
+    "phonetic": "/'wɛstwərd/",
+    "pos": [
+      "adverb"
+    ],
+    "coreMeaning": {
+      "cn": "向西，朝西",
+      "en": "toward the west; in the direction of the west"
+    },
+    "morphemes": [
+      {
+        "form": "west",
+        "role": "root",
+        "canonical": "west",
+        "meaning": "西方",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "-ward",
+        "role": "suffix",
+        "canonical": "-ward",
+        "meaning": "方向副词后缀：向…",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
       }
     ],
     "derivationChain": [
       "west + -ward"
     ],
+    "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "美国西进运动",
-      "scene": "美国历史上著名的Westward Expansion（西进运动），开拓者向西部迁移",
-      "emotionalHook": "-ward=朝向（northward北向，eastward东向，homeward回家方向）",
-      "imageChain": []
+      "mnemonicExpr": "west(西)+-ward(向)→向西方",
+      "imageChain": [
+        "向西迁移",
+        "西进运动",
+        "朝西走"
+      ]
     },
     "wordLevel": {
       "domain": [
-        "general",
-        "geography",
-        "history"
+        "general"
       ],
       "sentiment": {
         "tags": [
@@ -466,100 +1007,74 @@
       "sameRoot": [
         "west",
         "western",
-        "westerner"
+        "westbound"
       ],
       "sameAffix": [
+        "eastward",
         "northward",
-        "southward",
-        "eastward"
+        "southward"
       ],
       "synonyms": [
-        "westwards",
-        "to the west"
+        "toward the west",
+        "westbound"
       ],
       "antonyms": [
         "eastward"
       ],
       "domainCohort": [
-        "northward",
-        "southward",
-        "eastward"
+        "direction",
+        "compass",
+        "movement"
       ],
       "derivationPair": [],
       "morphVariants": [
         "westwards"
       ],
-      "sameImagery": []
+      "sameImagery": [
+        "direction"
+      ]
     }
   },
   {
-    "word": "wetlands",
-    "phonetic": "/'wetlændz/",
+    "word": "wet",
+    "phonetic": "/wɛt/",
     "pos": [
-      "n."
+      "adjective"
     ],
     "coreMeaning": {
-      "cn": "湿地；沼泽地",
-      "en": "areas of land that are saturated with water, such as marshes or swamps"
+      "cn": "湿的，潮湿的；下雨的",
+      "en": "covered or soaked with water or another liquid; rainy"
     },
     "morphemes": [
       {
-        "canonical": "wet",
-        "role": "root",
-        "meaning": "湿的；潮湿",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
         "form": "wet",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "land",
         "role": "root",
-        "meaning": "陆地；土地",
+        "canonical": "wet",
+        "meaning": "湿润（古英语 waet）",
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
-        },
-        "order": 2,
-        "form": "land",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-s",
-        "role": "suffix",
-        "meaning": "复数",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "s",
-        "positionTendency": "final"
+        }
       }
     ],
     "derivationChain": [
-      "wet + land + s"
+      "Old English waet (wet, moist)"
     ],
+    "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "芦苇丛生的沼泽湿地",
-      "scene": "湿地是重要的生态系统，过滤水源、储存碳、为候鸟提供栖息地",
-      "emotionalHook": "wet=湿，land=地，wetlands=湿地，环保和生态学核心词汇",
-      "imageChain": []
+      "mnemonicExpr": "wet=潮湿，与water(水)同源感",
+      "imageChain": [
+        "雨水",
+        "湿地",
+        "浸湿的衣物"
+      ]
     },
     "wordLevel": {
       "domain": [
-        "environment",
-        "ecology",
-        "geography"
+        "general"
       ],
       "sentiment": {
         "tags": [
@@ -570,80 +1085,92 @@
     },
     "relations": {
       "sameRoot": [
-        "wet",
-        "land",
-        "wetland"
+        "wetness",
+        "wetlands",
+        "wetly",
+        "wets",
+        "wetted",
+        "wetter",
+        "wetadj",
+        "wetn"
       ],
-      "sameAffix": [
-        "grasslands",
-        "farmlands",
-        "highlands"
-      ],
+      "sameAffix": [],
       "synonyms": [
-        "marsh",
-        "swamp",
-        "bog",
-        "fen"
+        "moist",
+        "damp",
+        "soaked",
+        "soggy"
       ],
       "antonyms": [
-        "drylands",
-        "uplands"
+        "dry",
+        "arid",
+        "parched"
       ],
       "domainCohort": [
-        "marsh",
-        "swamp",
-        "estuary",
-        "mangrove"
+        "moist",
+        "damp",
+        "soaked",
+        "humid"
       ],
-      "derivationPair": [],
+      "derivationPair": [
+        "wet",
+        "wetness"
+      ],
       "morphVariants": [
-        "wetland"
+        "wetter",
+        "wettest",
+        "wetted",
+        "wets",
+        "wetadj",
+        "wetn"
       ],
       "sameImagery": [
-        "marsh",
-        "swamp"
+        "moist",
+        "damp"
       ]
     }
   },
   {
     "word": "wether",
-    "phonetic": "/'weðər/",
+    "phonetic": "/'wɛðər/",
     "pos": [
-      "n."
+      "noun"
     ],
     "coreMeaning": {
-      "cn": "阉羊（已去势的公羊）",
+      "cn": "阉羊",
       "en": "a castrated male sheep"
     },
     "morphemes": [
       {
-        "canonical": "wether",
+        "form": "wether",
         "role": "root",
+        "canonical": "wether",
         "meaning": "阉羊（古英语 weðer）",
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
-        },
-        "order": 1,
-        "form": "wether",
-        "positionTendency": "medial"
+        }
       }
     ],
     "derivationChain": [
-      "古英语 weðer→ 公羊"
+      "Old English weðer (male sheep, ram)"
     ],
+    "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "羊群中挂铃铛的领头羊",
-      "scene": "wether bell=引路铃羊，通常在羊群中挂铃铛，带领羊群行进",
-      "emotionalHook": "注意与weather（天气）、whether（是否）区分，三词同音",
-      "imageChain": []
+      "mnemonicExpr": "wether ≠ weather(天气)，是阉割的公羊",
+      "imageChain": [
+        "羊圈",
+        "阉羊",
+        "牧场"
+      ]
     },
     "wordLevel": {
       "domain": [
-        "agriculture",
-        "farming"
+        "general",
+        "agriculture"
       ],
       "sentiment": {
         "tags": [
@@ -656,22 +1183,221 @@
       "sameRoot": [],
       "sameAffix": [],
       "synonyms": [
-        "gelded ram",
         "castrated ram"
       ],
-      "antonyms": [
-        "ram",
-        "ewe"
-      ],
+      "antonyms": [],
       "domainCohort": [
         "ram",
         "ewe",
-        "lamb",
-        "sheep"
+        "sheep",
+        "livestock"
       ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": []
+      "sameImagery": [
+        "sheep"
+      ]
+    }
+  },
+  {
+    "word": "wetlands",
+    "phonetic": "/'wɛtlændz/",
+    "pos": [
+      "noun"
+    ],
+    "coreMeaning": {
+      "cn": "湿地（复数）",
+      "en": "areas of land saturated with water; swamps, marshes, and bogs"
+    },
+    "morphemes": [
+      {
+        "form": "wet",
+        "role": "root",
+        "canonical": "wet",
+        "meaning": "湿润",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "land",
+        "role": "root",
+        "canonical": "land",
+        "meaning": "土地，陆地",
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "-s",
+        "role": "suffix",
+        "canonical": "-s",
+        "meaning": "复数",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "wet + land"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "wet(湿)+land(土地)→湿地",
+      "imageChain": [
+        "沼泽",
+        "水鸟栖息地",
+        "湿地保护区"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "ecology",
+        "geography"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "wet"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "marsh",
+        "swamp",
+        "bog",
+        "fen"
+      ],
+      "antonyms": [
+        "dryland",
+        "arid land"
+      ],
+      "domainCohort": [
+        "marsh",
+        "swamp",
+        "bog",
+        "ecosystem"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "marsh",
+        "swamp"
+      ]
+    }
+  },
+  {
+    "word": "wetness",
+    "phonetic": "/'wɛtnɪs/",
+    "pos": [
+      "noun"
+    ],
+    "coreMeaning": {
+      "cn": "湿润；潮湿的状态",
+      "en": "the state of being wet; moisture"
+    },
+    "morphemes": [
+      {
+        "form": "wet",
+        "role": "root",
+        "canonical": "wet",
+        "meaning": "湿润",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "-ness",
+        "role": "suffix",
+        "canonical": "-ness",
+        "meaning": "名词后缀：状态/性质",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "wet"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "wet(湿)+-ness(状态)→湿润的状态→湿度",
+      "imageChain": [
+        "水分",
+        "湿气",
+        "潮湿感"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "wet",
+        "wetlands",
+        "wetly"
+      ],
+      "sameAffix": [
+        "dryness",
+        "dampness"
+      ],
+      "synonyms": [
+        "moisture",
+        "dampness",
+        "humidity"
+      ],
+      "antonyms": [
+        "dryness",
+        "aridity"
+      ],
+      "domainCohort": [
+        "moisture",
+        "humidity",
+        "dampness"
+      ],
+      "derivationPair": [
+        "wet",
+        "wetness"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "moisture",
+        "dampness"
+      ]
     }
   }
 ]

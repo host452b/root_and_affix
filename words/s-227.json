@@ -1,75 +1,1847 @@
 [
   {
-    "word": "synchronize",
-    "phonetic": "/'sɪŋkrənaɪz/",
+    "word": "symptomology",
+    "phonetic": "/ˌsɪmptəˈmɒlədʒi/",
     "pos": [
-      "vt.",
-      "vi."
+      "n."
     ],
     "coreMeaning": {
-      "cn": "使同步；同时发生",
+      "cn": "症状学",
+      "en": "the study of symptoms of disease"
+    },
+    "morphemes": [
+      {
+        "canonical": "symptom",
+        "role": "root",
+        "form": "symptom",
+        "meaning": "symptom, sign",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "症状",
+          "en": "symptom"
+        }
+      },
+      {
+        "canonical": "-ology",
+        "role": "suffix",
+        "form": "ology",
+        "meaning": "study of",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "学科",
+          "en": "science of"
+        }
+      }
+    ],
+    "derivationChain": [
+      "symptom"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "symptom + ology = 症状的学问",
+      "imageChain": [
+        "症状→记录→分析"
+      ]
+    },
+    "wordLevel": {
+      "domain": "medical",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "symptoms",
+        "symptomatic"
+      ],
+      "sameAffix": [
+        "biology",
+        "cardiology"
+      ],
+      "synonyms": [
+        "symptomatology"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "diagnosis",
+        "pathology"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "symptomatology"
+      ],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "symptoms",
+    "phonetic": "/ˈsɪmptəmz/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "症状；迹象",
+      "en": "signs of disease or condition"
+    },
+    "morphemes": [
+      {
+        "canonical": "sym-",
+        "role": "prefix",
+        "form": "sym",
+        "meaning": "together, with",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "ptom",
+        "role": "root",
+        "form": "ptom",
+        "meaning": "fall, chance",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "落下",
+          "en": "fall"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "plural",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "symptom"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "sym(共同)+ptom(落下)=一起显现的迹象",
+      "imageChain": [
+        "迹象→病症→复数"
+      ]
+    },
+    "wordLevel": {
+      "domain": "medical",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "symptom",
+        "symptomatic",
+        "symptomology"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "signs",
+        "indicators"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "diagnosis",
+        "disease"
+      ],
+      "derivationPair": [
+        "symptom"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "warning signs"
+      ]
+    }
+  },
+  {
+    "word": "syn-",
+    "phonetic": "/sɪn/",
+    "pos": [
+      "prefix"
+    ],
+    "coreMeaning": {
+      "cn": "共同；一起",
+      "en": "together, with, at the same time"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn-",
+        "meaning": "together, with",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      }
+    ],
+    "derivationChain": [],
+    "memorySemantics": {
+      "mnemonicExpr": "syn = together, 合在一起",
+      "imageChain": [
+        "合并→协同→同步"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [
+        "synchronize",
+        "synthesis",
+        "synonym"
+      ],
+      "synonyms": [
+        "co-",
+        "com-",
+        "con-"
+      ],
+      "antonyms": [
+        "anti-"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [
+        "sym-",
+        "syl-",
+        "sys-"
+      ],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "synaesthesia",
+    "phonetic": "/ˌsɪnɪsˈθiːziə/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "联觉；通感",
+      "en": "condition where one sense triggers another involuntarily"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "aesthesia",
+        "role": "root",
+        "form": "aesthesia",
+        "meaning": "sensation, feeling",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "感觉",
+          "en": "sensation"
+        }
+      }
+    ],
+    "derivationChain": [
+      "aesthesia"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "syn(一起)+aesthesia(感觉)=感觉混合在一起",
+      "imageChain": [
+        "声音→颜色→联觉"
+      ]
+    },
+    "wordLevel": {
+      "domain": "medical",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "anaesthesia",
+        "aesthetics"
+      ],
+      "sameAffix": [
+        "synthesis",
+        "synchronize"
+      ],
+      "synonyms": [
+        "synesthesia"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "perception",
+        "neurology"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "synesthesia"
+      ],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "synagogue",
+    "phonetic": "/ˈsɪnəɡɒɡ/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "犹太会堂；犹太教堂",
+      "en": "a Jewish house of worship and assembly"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "agog",
+        "role": "root",
+        "form": "agogue",
+        "meaning": "lead, bring",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "引导",
+          "en": "lead"
+        }
+      }
+    ],
+    "derivationChain": [
+      "Greek synagogē"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "syn(共同)+agogue(引导)=引领众人聚集的场所",
+      "imageChain": [
+        "聚集→礼拜→会堂"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "pedagogue",
+        "demagogue"
+      ],
+      "sameAffix": [
+        "synthesis"
+      ],
+      "synonyms": [
+        "temple",
+        "shul"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "church",
+        "mosque",
+        "temple"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "synagogues",
+    "phonetic": "/ˈsɪnəɡɒɡz/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "犹太会堂（复数）",
+      "en": "plural of synagogue"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "agog",
+        "role": "root",
+        "form": "agogue",
+        "meaning": "lead",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "引导",
+          "en": "lead"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "plural",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "synagogue"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "synagogue的复数",
+      "imageChain": [
+        "多处会堂"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "synagogue"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "synagogue"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "synallagmatic",
+    "phonetic": "/ˌsɪnəlæɡˈmætɪk/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "双务的；相互的（法律）",
+      "en": "relating to a contract imposing mutual obligations"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together, mutual",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "mutual"
+        }
+      },
+      {
+        "canonical": "allagma",
+        "role": "root",
+        "form": "allagmat",
+        "meaning": "exchange",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "交换",
+          "en": "exchange"
+        }
+      },
+      {
+        "canonical": "-ic",
+        "role": "suffix",
+        "form": "ic",
+        "meaning": "relating to",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "有关的",
+          "en": "relating to"
+        }
+      }
+    ],
+    "derivationChain": [
+      "Greek synallagma"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "syn(共同)+allagma(交换)+ic = 双方互相交换义务的",
+      "imageChain": [
+        "合同→双务→互约"
+      ]
+    },
+    "wordLevel": {
+      "domain": "legal",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [
+        "synthesis",
+        "synonym"
+      ],
+      "synonyms": [
+        "bilateral",
+        "reciprocal"
+      ],
+      "antonyms": [
+        "unilateral"
+      ],
+      "domainCohort": [
+        "contract",
+        "obligation"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "synapse",
+    "phonetic": "/ˈsɪnæps/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "突触；神经元连接处",
+      "en": "junction between two nerve cells"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "haps",
+        "role": "root",
+        "form": "apse",
+        "meaning": "fasten, join",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "连接",
+          "en": "join"
+        }
+      }
+    ],
+    "derivationChain": [
+      "Greek synapsis"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "syn(共同)+apse(连接)=神经元连接的地方",
+      "imageChain": [
+        "神经元→间隙→信号传递"
+      ]
+    },
+    "wordLevel": {
+      "domain": "medical",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "synapses",
+        "synaptic",
+        "synapsis"
+      ],
+      "sameAffix": [
+        "synthesis"
+      ],
+      "synonyms": [
+        "neural junction"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "neuron",
+        "axon",
+        "dendrite"
+      ],
+      "derivationPair": [
+        "synaptic"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "synapses",
+    "phonetic": "/ˈsɪnæpsɪz/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "突触（复数）",
+      "en": "plural of synapse"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "haps",
+        "role": "root",
+        "form": "apse",
+        "meaning": "join",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "连接",
+          "en": "join"
+        }
+      },
+      {
+        "canonical": "-es",
+        "role": "suffix",
+        "form": "es",
+        "meaning": "plural",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "synapse"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "synapse的复数",
+      "imageChain": [
+        "多处突触"
+      ]
+    },
+    "wordLevel": {
+      "domain": "medical",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "synapse",
+        "synaptic"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "neurons",
+        "dendrites"
+      ],
+      "derivationPair": [
+        "synapse"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "synapsis",
+    "phonetic": "/sɪˈnæpsɪs/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "联会；突触连接",
+      "en": "pairing of homologous chromosomes during meiosis"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "haps",
+        "role": "root",
+        "form": "apsis",
+        "meaning": "join, fasten",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "连接",
+          "en": "join"
+        }
+      }
+    ],
+    "derivationChain": [
+      "Greek"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "syn(共同)+apsis(连接)=染色体共同连接",
+      "imageChain": [
+        "染色体→配对→联会"
+      ]
+    },
+    "wordLevel": {
+      "domain": "medical",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "synapse",
+        "synaptic"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "meiosis",
+        "chromosome"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "synaptic",
+    "phonetic": "/sɪˈnæptɪk/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "突触的；联会的",
+      "en": "relating to a synapse"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "haps",
+        "role": "root",
+        "form": "apt",
+        "meaning": "join",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "连接",
+          "en": "join"
+        }
+      },
+      {
+        "canonical": "-ic",
+        "role": "suffix",
+        "form": "ic",
+        "meaning": "relating to",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "有关的",
+          "en": "relating to"
+        }
+      }
+    ],
+    "derivationChain": [
+      "synapse"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "synapse + ic = 突触的",
+      "imageChain": [
+        "突触→信号→神经传递"
+      ]
+    },
+    "wordLevel": {
+      "domain": "medical",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "synapse",
+        "synapses"
+      ],
+      "sameAffix": [
+        "synthetic",
+        "synchronic"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "neural",
+        "neurological"
+      ],
+      "derivationPair": [
+        "synapse"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "sync",
+    "phonetic": "/sɪŋk/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "同步；协调",
+      "en": "synchronization; state of being in unison"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "root",
+        "form": "sync",
+        "meaning": "synchronization (abbrev.)",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "同步",
+          "en": "synchronization"
+        }
+      }
+    ],
+    "derivationChain": [
+      "synchronize"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "synchronize的缩写，sync = 同步",
+      "imageChain": [
+        "齿轮→对齐→同步"
+      ]
+    },
+    "wordLevel": {
+      "domain": "tech",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "synchronize",
+        "synchronous",
+        "syncing"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "synchronization",
+        "coordination"
+      ],
+      "antonyms": [
+        "desync"
+      ],
+      "domainCohort": [
+        "backup",
+        "update",
+        "data"
+      ],
+      "derivationPair": [
+        "syncing"
+      ],
+      "morphVariants": [
+        "synch"
+      ],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "synchronic",
+    "phonetic": "/sɪŋˈkrɒnɪk/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "共时的；同时期的",
+      "en": "relating to the study of something at a particular point in time"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "chron",
+        "role": "root",
+        "form": "chron",
+        "meaning": "time",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "时间",
+          "en": "time"
+        }
+      },
+      {
+        "canonical": "-ic",
+        "role": "suffix",
+        "form": "ic",
+        "meaning": "relating to",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "有关的",
+          "en": "relating to"
+        }
+      }
+    ],
+    "derivationChain": [
+      "synchronous"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "syn(共同)+chron(时间)+ic=共同时间的研究",
+      "imageChain": [
+        "时间→横截面→共时分析"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "synchronize",
+        "synchronous",
+        "diachronic"
+      ],
+      "sameAffix": [
+        "chronic",
+        "anachronism"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "diachronic"
+      ],
+      "domainCohort": [
+        "linguistics",
+        "analysis"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "synchronicity",
+    "phonetic": "/ˌsɪŋkrəˈnɪsɪti/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "同步性；共时性；有意义的巧合",
+      "en": "meaningful coincidence of events; the quality of being synchronous"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "chron",
+        "role": "root",
+        "form": "chron",
+        "meaning": "time",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "时间",
+          "en": "time"
+        }
+      },
+      {
+        "canonical": "-icity",
+        "role": "suffix",
+        "form": "icity",
+        "meaning": "quality of",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "性质",
+          "en": "quality"
+        }
+      }
+    ],
+    "derivationChain": [
+      "synchronic"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "synchronic + ity = 共时性，有意义的巧合",
+      "imageChain": [
+        "巧合→意义→共振"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "synchronize",
+        "synchronous",
+        "synchronic"
+      ],
+      "sameAffix": [
+        "periodicity",
+        "elasticity"
+      ],
+      "synonyms": [
+        "coincidence",
+        "simultaneity"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "Jung",
+        "psychology",
+        "coincidence"
+      ],
+      "derivationPair": [
+        "synchronic"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "synchronise",
+    "phonetic": "/ˈsɪŋkrənaɪz/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "使同步；使同时发生",
+      "en": "to cause to occur at the same time; to coordinate"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "chron",
+        "role": "root",
+        "form": "chron",
+        "meaning": "time",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "时间",
+          "en": "time"
+        }
+      },
+      {
+        "canonical": "-ize",
+        "role": "suffix",
+        "form": "ise",
+        "meaning": "make, cause to be",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "使…化",
+          "en": "make"
+        }
+      }
+    ],
+    "derivationChain": [
+      "synchronous"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "syn(共同)+chron(时间)+ise=使时间共同步调",
+      "imageChain": [
+        "钟表→对齐→同步"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "synchronize",
+        "synchronous",
+        "synchronization"
+      ],
+      "sameAffix": [
+        "recognise",
+        "organise"
+      ],
+      "synonyms": [
+        "synchronize",
+        "coordinate"
+      ],
+      "antonyms": [
+        "desynchronize"
+      ],
+      "domainCohort": [
+        "coordinate",
+        "align"
+      ],
+      "derivationPair": [
+        "synchronize"
+      ],
+      "morphVariants": [
+        "synchronize"
+      ],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "synchronism",
+    "phonetic": "/ˈsɪŋkrənɪz(ə)m/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "同步；同时性",
+      "en": "the state of occurring at the same time"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "chron",
+        "role": "root",
+        "form": "chron",
+        "meaning": "time",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "时间",
+          "en": "time"
+        }
+      },
+      {
+        "canonical": "-ism",
+        "role": "suffix",
+        "form": "ism",
+        "meaning": "state, condition",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "状态",
+          "en": "state"
+        }
+      }
+    ],
+    "derivationChain": [
+      "synchronous"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "syn+chron+ism=同时性的状态",
+      "imageChain": [
+        "时间→一致→同步状态"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "synchronize",
+        "synchronous",
+        "synchronic"
+      ],
+      "sameAffix": [
+        "anachronism",
+        "organism"
+      ],
+      "synonyms": [
+        "simultaneity",
+        "concurrence"
+      ],
+      "antonyms": [
+        "asynchronism"
+      ],
+      "domainCohort": [
+        "coordination",
+        "timing"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "synchronization",
+    "phonetic": "/ˌsɪŋkrənaɪˈzeɪʃən/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "同步化；同步",
+      "en": "the process of coordinating events to operate at the same time"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "chron",
+        "role": "root",
+        "form": "chron",
+        "meaning": "time",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "时间",
+          "en": "time"
+        }
+      },
+      {
+        "canonical": "-ation",
+        "role": "suffix",
+        "form": "ization",
+        "meaning": "process of",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "过程",
+          "en": "process"
+        }
+      }
+    ],
+    "derivationChain": [
+      "synchronize"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "synchronize + ation = 同步化的过程",
+      "imageChain": [
+        "操作→同步→完成"
+      ]
+    },
+    "wordLevel": {
+      "domain": "tech",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "synchronize",
+        "synchronous",
+        "synchronism"
+      ],
+      "sameAffix": [
+        "organization",
+        "realization"
+      ],
+      "synonyms": [
+        "sync",
+        "coordination"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "data",
+        "system",
+        "network"
+      ],
+      "derivationPair": [
+        "synchronize"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "synchronizations",
+    "phonetic": "/ˌsɪŋkrənaɪˈzeɪʃənz/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "同步化（复数）",
+      "en": "plural of synchronization"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "chron",
+        "role": "root",
+        "form": "chron",
+        "meaning": "time",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "时间",
+          "en": "time"
+        }
+      },
+      {
+        "canonical": "-ation",
+        "role": "suffix",
+        "form": "izations",
+        "meaning": "process, plural",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "过程复数",
+          "en": "processes"
+        }
+      }
+    ],
+    "derivationChain": [
+      "synchronization"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "synchronization的复数",
+      "imageChain": [
+        "多次同步"
+      ]
+    },
+    "wordLevel": {
+      "domain": "tech",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "synchronization",
+        "synchronize"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "synchronization"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "synchronize",
+    "phonetic": "/ˈsɪŋkrənaɪz/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "使同步；协调一致",
       "en": "to cause to operate at the same time or rate"
     },
     "morphemes": [
       {
         "canonical": "syn-",
         "role": "prefix",
-        "meaning": "共同；一起（Gk. syn）",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 1,
-        "form": "syn",
-        "positionTendency": "initial"
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
       },
       {
-        "canonical": "chron-",
+        "canonical": "chron",
         "role": "root",
-        "meaning": "时间（Gk. chronos）",
+        "form": "chron",
+        "meaning": "time",
+        "order": 2,
+        "positionTendency": "medial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 2,
-        "form": "chron",
-        "positionTendency": "medial"
+        "coreMeaning": {
+          "cn": "时间",
+          "en": "time"
+        }
       },
       {
         "canonical": "-ize",
         "role": "suffix",
-        "meaning": "使…；使成为（动词化）",
+        "form": "ize",
+        "meaning": "make, cause to be",
+        "order": 3,
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 3,
-        "form": "ize",
-        "positionTendency": "final"
+        "coreMeaning": {
+          "cn": "使…化",
+          "en": "make"
+        }
       }
     ],
     "derivationChain": [
-      "Gk. synchronos",
-      "synchronize"
+      "synchronous"
     ],
     "memorySemantics": {
-      "imageKey": "clocks all showing same time",
-      "scene": "世界各地的时钟同时被调到相同时刻",
-      "emotionalHook": "精密协作的秩序美感",
-      "imageChain": []
+      "mnemonicExpr": "syn(共同)+chron(时间)+ize=使时间对齐",
+      "imageChain": [
+        "时钟→对齐→同步运行"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "tech",
-        "academic",
-        "toefl"
-      ],
+      "domain": "tech",
       "sentiment": {
         "tags": [
           "中性"
@@ -81,32 +1853,26 @@
       "sameRoot": [
         "synchronous",
         "synchronization",
-        "synchronism",
-        "chronicle"
+        "synchronic"
       ],
       "sameAffix": [
-        "modernize",
         "organize",
-        "harmonize"
+        "realize"
       ],
       "synonyms": [
         "coordinate",
-        "align",
         "harmonize"
       ],
       "antonyms": [
-        "desynchronize",
-        "clash",
-        "conflict"
+        "desynchronize"
       ],
       "domainCohort": [
-        "coordinate",
-        "align",
-        "calibrate"
+        "data",
+        "network",
+        "system"
       ],
       "derivationPair": [
-        "synchronization",
-        "synchronous"
+        "synchronization"
       ],
       "morphVariants": [
         "synchronise"
@@ -115,75 +1881,598 @@
     }
   },
   {
-    "word": "synchronous",
-    "phonetic": "/'sɪŋkrənəs/",
+    "word": "synchronized",
+    "phonetic": "/ˈsɪŋkrənaɪzd/",
     "pos": [
       "adj."
     ],
     "coreMeaning": {
-      "cn": "同步的；同时的",
+      "cn": "同步的；协调的",
       "en": "occurring at the same time or rate"
     },
     "morphemes": [
       {
         "canonical": "syn-",
         "role": "prefix",
-        "meaning": "共同；一起",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 1,
-        "form": "syn",
-        "positionTendency": "initial"
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
       },
       {
-        "canonical": "chron-",
+        "canonical": "chron",
         "role": "root",
-        "meaning": "时间",
+        "form": "chron",
+        "meaning": "time",
+        "order": 2,
+        "positionTendency": "medial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 2,
+        "coreMeaning": {
+          "cn": "时间",
+          "en": "time"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "form": "ized",
+        "meaning": "past participle, adjective",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "完成状态",
+          "en": "past participle"
+        }
+      }
+    ],
+    "derivationChain": [
+      "synchronize"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "synchronize + d = 已同步的",
+      "imageChain": [
+        "同步完成→状态"
+      ]
+    },
+    "wordLevel": {
+      "domain": "tech",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "synchronize",
+        "synchronous"
+      ],
+      "sameAffix": [
+        "organized",
+        "realized"
+      ],
+      "synonyms": [
+        "coordinated",
+        "aligned"
+      ],
+      "antonyms": [
+        "desynchronized",
+        "unsynchronized"
+      ],
+      "domainCohort": [
+        "data",
+        "system"
+      ],
+      "derivationPair": [
+        "synchronize"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "synchronizer",
+    "phonetic": "/ˈsɪŋkrənaɪzər/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "同步器；同步装置",
+      "en": "a device or mechanism that synchronizes"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "chron",
+        "role": "root",
         "form": "chron",
-        "positionTendency": "medial"
+        "meaning": "time",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "时间",
+          "en": "time"
+        }
+      },
+      {
+        "canonical": "-er",
+        "role": "suffix",
+        "form": "izer",
+        "meaning": "agent, device",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "装置",
+          "en": "device"
+        }
+      }
+    ],
+    "derivationChain": [
+      "synchronize"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "synchronize + r = 执行同步的装置",
+      "imageChain": [
+        "装置→同步→运行"
+      ]
+    },
+    "wordLevel": {
+      "domain": "tech",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "synchronize",
+        "synchronization"
+      ],
+      "sameAffix": [
+        "organizer",
+        "realizer"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "device",
+        "hardware"
+      ],
+      "derivationPair": [
+        "synchronize"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "synchronizers",
+    "phonetic": "/ˈsɪŋkrənaɪzərz/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "同步器（复数）",
+      "en": "plural of synchronizer"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "chron",
+        "role": "root",
+        "form": "chron",
+        "meaning": "time",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "时间",
+          "en": "time"
+        }
+      },
+      {
+        "canonical": "-ers",
+        "role": "suffix",
+        "form": "izers",
+        "meaning": "agents, plural",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数装置",
+          "en": "devices"
+        }
+      }
+    ],
+    "derivationChain": [
+      "synchronizer"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "synchronizer的复数",
+      "imageChain": [
+        "多个同步器"
+      ]
+    },
+    "wordLevel": {
+      "domain": "tech",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "synchronizer",
+        "synchronize"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "synchronizer"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "synchronizes",
+    "phonetic": "/ˈsɪŋkrənaɪzɪz/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "同步（第三人称单数）",
+      "en": "third person singular of synchronize"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "chron",
+        "role": "root",
+        "form": "chron",
+        "meaning": "time",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "时间",
+          "en": "time"
+        }
+      },
+      {
+        "canonical": "-es",
+        "role": "suffix",
+        "form": "izes",
+        "meaning": "third person singular",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "第三人称单数",
+          "en": "3rd person singular"
+        }
+      }
+    ],
+    "derivationChain": [
+      "synchronize"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "synchronize的第三人称单数",
+      "imageChain": [
+        "它同步"
+      ]
+    },
+    "wordLevel": {
+      "domain": "tech",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "synchronize"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "synchronize"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "synchronizing",
+    "phonetic": "/ˈsɪŋkrənaɪzɪŋ/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "正在同步",
+      "en": "present participle of synchronize"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "chron",
+        "role": "root",
+        "form": "chron",
+        "meaning": "time",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "时间",
+          "en": "time"
+        }
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "form": "izing",
+        "meaning": "present participle",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "进行时",
+          "en": "present participle"
+        }
+      }
+    ],
+    "derivationChain": [
+      "synchronize"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "synchronize + ing = 正在同步中",
+      "imageChain": [
+        "进行→同步→完成中"
+      ]
+    },
+    "wordLevel": {
+      "domain": "tech",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "synchronize"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "synchronize"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "synchronous",
+    "phonetic": "/ˈsɪŋkrənəs/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "同步的；同时发生的",
+      "en": "occurring or existing at the same time"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "chron",
+        "role": "root",
+        "form": "chron",
+        "meaning": "time",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "时间",
+          "en": "time"
+        }
       },
       {
         "canonical": "-ous",
         "role": "suffix",
-        "meaning": "具有…性质的",
+        "form": "ous",
+        "meaning": "having the quality of",
+        "order": 3,
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 3,
-        "form": "ous",
-        "positionTendency": "final"
+        "coreMeaning": {
+          "cn": "具有…特性",
+          "en": "having quality"
+        }
       }
     ],
     "derivationChain": [
-      "Gk. syn + chronos",
-      "synchronous"
+      "Greek synchronos"
     ],
     "memorySemantics": {
-      "imageKey": "synchronized swimmers",
-      "scene": "花样游泳队员整齐划一，动作完全同步",
-      "emotionalHook": "完美同步的震撼美",
-      "imageChain": []
+      "mnemonicExpr": "syn(同)+chron(时)+ous=同时发生的",
+      "imageChain": [
+        "时间→同步→并发"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "tech",
-        "academic",
-        "gre"
-      ],
+      "domain": "tech",
       "sentiment": {
         "tags": [
           "中性"
@@ -195,91 +2484,108 @@
       "sameRoot": [
         "synchronize",
         "synchronization",
-        "chronic",
-        "chronicle"
+        "synchronic"
       ],
       "sameAffix": [
-        "numerous",
-        "harmonious",
-        "glorious"
+        "chronous",
+        "asynchronous"
       ],
       "synonyms": [
-        "simultaneous",
         "concurrent",
-        "in sync"
+        "simultaneous"
       ],
       "antonyms": [
-        "asynchronous",
-        "unsynchronized"
+        "asynchronous"
       ],
       "domainCohort": [
+        "parallel",
         "concurrent",
-        "simultaneous",
-        "parallel"
+        "real-time"
       ],
       "derivationPair": [
-        "synchronize",
-        "synchronization"
+        "asynchronous"
       ],
       "morphVariants": [],
       "sameImagery": []
     }
   },
   {
-    "word": "synapse",
-    "phonetic": "/ˈsɪnˌæps/",
+    "word": "synchronously",
+    "phonetic": "/ˈsɪŋkrənəsli/",
     "pos": [
-      "n."
+      "adv."
     ],
     "coreMeaning": {
-      "cn": "突触；神经键",
-      "en": "junction between two nerve cells"
+      "cn": "同步地；同时地",
+      "en": "in a synchronous manner"
     },
     "morphemes": [
       {
         "canonical": "syn-",
         "role": "prefix",
-        "meaning": "共同；一起",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 1,
-        "form": "syn",
-        "positionTendency": "initial"
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
       },
       {
-        "canonical": "haps-",
+        "canonical": "chron",
         "role": "root",
-        "meaning": "接触；扣合（Gk. haptein）",
+        "form": "chron",
+        "meaning": "time",
+        "order": 2,
+        "positionTendency": "medial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 2,
-        "form": "apse",
-        "positionTendency": "final"
+        "coreMeaning": {
+          "cn": "时间",
+          "en": "time"
+        }
+      },
+      {
+        "canonical": "-ly",
+        "role": "suffix",
+        "form": "ously",
+        "meaning": "in a manner",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "副词化",
+          "en": "adverb"
+        }
       }
     ],
     "derivationChain": [
-      "Gk. synapsis",
-      "synapse"
+      "synchronous"
     ],
     "memorySemantics": {
-      "imageKey": "glowing nerve connection",
-      "scene": "显微镜下两个神经元之间的电信号跳跃闪烁",
-      "emotionalHook": "思维传递的神秘微观奇迹",
-      "imageChain": []
+      "mnemonicExpr": "synchronous + ly = 同步地执行",
+      "imageChain": [
+        "同步→执行方式"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "medical",
-        "academic"
-      ],
+      "domain": "tech",
       "sentiment": {
         "tags": [
           "中性"
@@ -289,100 +2595,1919 @@
     },
     "relations": {
       "sameRoot": [
-        "synapsis",
-        "synaptic"
+        "synchronous",
+        "synchronize"
       ],
-      "sameAffix": [],
+      "sameAffix": [
+        "asynchronously",
+        "concurrently"
+      ],
       "synonyms": [
-        "neural junction",
-        "nerve junction"
+        "concurrently",
+        "simultaneously"
       ],
-      "antonyms": [],
+      "antonyms": [
+        "asynchronously"
+      ],
       "domainCohort": [
-        "neuron",
-        "axon",
-        "dendrite",
-        "receptor"
+        "programming",
+        "execution"
       ],
       "derivationPair": [
-        "synaptic",
-        "synapses"
+        "synchronous"
       ],
       "morphVariants": [],
       "sameImagery": []
     }
   },
   {
-    "word": "syndicate",
-    "phonetic": "/'sɪndɪkɪt/",
+    "word": "synchrony",
+    "phonetic": "/ˈsɪŋkrəni/",
     "pos": [
-      "n.",
-      "vt."
+      "n."
     ],
     "coreMeaning": {
-      "cn": "辛迪加；联合组织；联合发行",
-      "en": "a group of individuals or organizations combined to promote a common interest"
+      "cn": "同步性；同时性",
+      "en": "the state of occurring at the same time; simultaneity"
     },
     "morphemes": [
       {
         "canonical": "syn-",
         "role": "prefix",
-        "meaning": "共同；一起",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 1,
-        "form": "syn",
-        "positionTendency": "initial"
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
       },
       {
-        "canonical": "dik-",
+        "canonical": "chron",
         "role": "root",
-        "meaning": "正义；判决（Gk. dike）",
+        "form": "chron",
+        "meaning": "time",
+        "order": 2,
+        "positionTendency": "medial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
+        "coreMeaning": {
+          "cn": "时间",
+          "en": "time"
+        }
+      },
+      {
+        "canonical": "-y",
+        "role": "suffix",
+        "form": "y",
+        "meaning": "state, condition",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "状态",
+          "en": "state"
+        }
+      }
+    ],
+    "derivationChain": [
+      "synchronous"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "syn+chron+y=共时状态",
+      "imageChain": [
+        "时间→一致→同步状态"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "synchronous",
+        "synchronize",
+        "synchronic"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "simultaneity",
+        "concurrence"
+      ],
+      "antonyms": [
+        "asynchrony"
+      ],
+      "domainCohort": [
+        "coordination",
+        "harmony"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "synchrotron",
+    "phonetic": "/ˈsɪŋkrətrɒn/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "同步加速器",
+      "en": "a cyclotron in which the magnetic field strength increases with particle energy"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "chron",
+        "role": "root",
+        "form": "chro",
+        "meaning": "time, rhythm",
         "order": 2,
-        "form": "dic",
-        "positionTendency": "medial"
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "时间",
+          "en": "time"
+        }
+      },
+      {
+        "canonical": "-tron",
+        "role": "suffix",
+        "form": "tron",
+        "meaning": "device, instrument",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "仪器",
+          "en": "device"
+        }
+      }
+    ],
+    "derivationChain": [
+      "synchronous + -tron"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "synchro(同步)+tron(装置)=同步加速装置",
+      "imageChain": [
+        "粒子→加速→同步回旋"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "synchronize",
+        "synchronous"
+      ],
+      "sameAffix": [
+        "cyclotron",
+        "betatron"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "accelerator",
+        "physics",
+        "particle"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "synchrotrons",
+    "phonetic": "/ˈsɪŋkrətrɒnz/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "同步加速器（复数）",
+      "en": "plural of synchrotron"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "chron",
+        "role": "root",
+        "form": "chro",
+        "meaning": "time",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "时间",
+          "en": "time"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "plural",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "synchrotron"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "synchrotron的复数",
+      "imageChain": [
+        "多台加速器"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "synchrotron"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "synchrotron"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "syncing",
+    "phonetic": "/ˈsɪŋkɪŋ/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "正在同步",
+      "en": "present participle of sync; performing synchronization"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "root",
+        "form": "sync",
+        "meaning": "synchronize (abbrev.)",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "同步",
+          "en": "synchronize"
+        }
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "form": "ing",
+        "meaning": "present participle",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "进行时",
+          "en": "present participle"
+        }
+      }
+    ],
+    "derivationChain": [
+      "sync"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "sync + ing = 正在同步中",
+      "imageChain": [
+        "进行中→同步→更新"
+      ]
+    },
+    "wordLevel": {
+      "domain": "tech",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "sync",
+        "synchronize"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "uploading",
+        "downloading",
+        "updating"
+      ],
+      "derivationPair": [
+        "sync"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "synclinal",
+    "phonetic": "/sɪnˈklaɪnəl/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "向斜的；向斜层的",
+      "en": "relating to a syncline; having strata dipping toward each other"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "clin",
+        "role": "root",
+        "form": "clin",
+        "meaning": "slope, lean",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "倾斜",
+          "en": "slope"
+        }
+      },
+      {
+        "canonical": "-al",
+        "role": "suffix",
+        "form": "al",
+        "meaning": "relating to",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "有关的",
+          "en": "relating to"
+        }
+      }
+    ],
+    "derivationChain": [
+      "syncline"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "syn(共同)+clin(倾斜)+al=共同向中间倾斜的地质构造",
+      "imageChain": [
+        "地层→向斜→盆地"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "syncline",
+        "anticline",
+        "anticlinal"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [
+        "anticlinal"
+      ],
+      "domainCohort": [
+        "geology",
+        "stratum",
+        "fold"
+      ],
+      "derivationPair": [
+        "syncline"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "syncline",
+    "phonetic": "/ˈsɪŋklaɪn/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "向斜；向斜层",
+      "en": "a trough or fold of rock strata dipping inward from both sides"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "clin",
+        "role": "root",
+        "form": "cline",
+        "meaning": "slope, lean",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "倾斜",
+          "en": "slope"
+        }
+      }
+    ],
+    "derivationChain": [
+      "Greek"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "syn(共同)+cline(斜面)=两侧共同向内倾斜",
+      "imageChain": [
+        "地层→U形→向斜"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "synclinal",
+        "anticline",
+        "incline"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [
+        "anticline"
+      ],
+      "domainCohort": [
+        "geology",
+        "fold",
+        "stratum"
+      ],
+      "derivationPair": [
+        "synclinal"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "syncopate",
+    "phonetic": "/ˈsɪŋkəpeɪt/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "切分；省略字母；使节奏错拍",
+      "en": "to displace the beats or accents in music; to shorten by omitting letters"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together, with",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "cop",
+        "role": "root",
+        "form": "cop",
+        "meaning": "cut, strike",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "切",
+          "en": "cut"
+        }
       },
       {
         "canonical": "-ate",
         "role": "suffix",
-        "meaning": "使…；具有…的（动词/名词化）",
+        "form": "ate",
+        "meaning": "verb forming",
+        "order": 3,
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 3,
-        "form": "ate",
-        "positionTendency": "final"
+        "coreMeaning": {
+          "cn": "动词化",
+          "en": "make"
+        }
       }
     ],
     "derivationChain": [
-      "Gk. syndikos",
-      "syndicate"
+      "syncope"
     ],
     "memorySemantics": {
-      "imageKey": "boardroom handshake circle",
-      "scene": "多家企业代表围桌签约，共同操控市场",
-      "emotionalHook": "权力联合的震慑感",
-      "imageChain": []
+      "mnemonicExpr": "syn+cop(剪切)+ate=切分节奏",
+      "imageChain": [
+        "节拍→切分→错拍"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "business",
-        "finance",
-        "legal"
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "syncopation",
+        "syncope",
+        "syncopated"
       ],
+      "sameAffix": [
+        "truncate",
+        "obliterate"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "music",
+        "rhythm",
+        "beat"
+      ],
+      "derivationPair": [
+        "syncopation"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "syncopated",
+    "phonetic": "/ˈsɪŋkəpeɪtɪd/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "切分的；节奏错位的",
+      "en": "having displaced rhythmic accents"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "cop",
+        "role": "root",
+        "form": "cop",
+        "meaning": "cut",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "切",
+          "en": "cut"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "form": "ated",
+        "meaning": "past participle, adjective",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "完成态",
+          "en": "past participle"
+        }
+      }
+    ],
+    "derivationChain": [
+      "syncopate"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "syncopate + d = 切分的（节奏）",
+      "imageChain": [
+        "爵士→切分→律动"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "syncopate",
+        "syncopation"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "jazz",
+        "rhythm",
+        "music"
+      ],
+      "derivationPair": [
+        "syncopate"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "syncopates",
+    "phonetic": "/ˈsɪŋkəpeɪts/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "切分（第三人称单数）",
+      "en": "third person singular of syncopate"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "cop",
+        "role": "root",
+        "form": "cop",
+        "meaning": "cut",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "切",
+          "en": "cut"
+        }
+      },
+      {
+        "canonical": "-es",
+        "role": "suffix",
+        "form": "ates",
+        "meaning": "3rd person singular",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "第三人称",
+          "en": "3rd person"
+        }
+      }
+    ],
+    "derivationChain": [
+      "syncopate"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "syncopate的第三人称单数",
+      "imageChain": [
+        "它切分节奏"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "syncopate"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "syncopate"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "syncopating",
+    "phonetic": "/ˈsɪŋkəpeɪtɪŋ/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "正在切分",
+      "en": "present participle of syncopate"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "cop",
+        "role": "root",
+        "form": "cop",
+        "meaning": "cut",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "切",
+          "en": "cut"
+        }
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "form": "ating",
+        "meaning": "present participle",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "进行时",
+          "en": "present participle"
+        }
+      }
+    ],
+    "derivationChain": [
+      "syncopate"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "syncopate + ing = 正在切分",
+      "imageChain": [
+        "节拍→切分中"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "syncopate"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "syncopate"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "syncopation",
+    "phonetic": "/ˌsɪŋkəˈpeɪʃən/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "切分音；节奏错位",
+      "en": "displacement of the normal metrical accent in music"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "cop",
+        "role": "root",
+        "form": "cop",
+        "meaning": "cut",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "切",
+          "en": "cut"
+        }
+      },
+      {
+        "canonical": "-ation",
+        "role": "suffix",
+        "form": "ation",
+        "meaning": "act, process",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "动作",
+          "en": "act"
+        }
+      }
+    ],
+    "derivationChain": [
+      "syncopate"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "syncopate + ation = 切分音的效果",
+      "imageChain": [
+        "爵士乐→切分音→律动感"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "syncopate",
+        "syncope"
+      ],
+      "sameAffix": [
+        "organization",
+        "truncation"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "music",
+        "rhythm",
+        "jazz"
+      ],
+      "derivationPair": [
+        "syncopate"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "syncopations",
+    "phonetic": "/ˌsɪŋkəˈpeɪʃənz/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "切分音（复数）",
+      "en": "plural of syncopation"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "cop",
+        "role": "root",
+        "form": "cop",
+        "meaning": "cut",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "切",
+          "en": "cut"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "plural",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "syncopation"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "syncopation的复数",
+      "imageChain": [
+        "多处切分"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "syncopation",
+        "syncopate"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "syncopation"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "syncope",
+    "phonetic": "/ˈsɪŋkəpi/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "昏厥；晕厥；字母省略",
+      "en": "a brief loss of consciousness; omission of sounds in a word"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "cop",
+        "role": "root",
+        "form": "cope",
+        "meaning": "cut, strike",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "切断",
+          "en": "cut"
+        }
+      }
+    ],
+    "derivationChain": [
+      "Greek synkopē"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "syn(共同)+cope(切断)=突然断掉→昏厥",
+      "imageChain": [
+        "血流→减少→昏厥"
+      ]
+    },
+    "wordLevel": {
+      "domain": "medical",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "syncopate",
+        "syncopation"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "fainting",
+        "blackout"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "fainting",
+        "hypotension",
+        "unconsciousness"
+      ],
+      "derivationPair": [
+        "syncopate"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "syncretism",
+    "phonetic": "/ˈsɪŋkrɪtɪz(ə)m/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "折中主义；宗教融合",
+      "en": "the combining of different beliefs or practices"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "cret",
+        "role": "root",
+        "form": "cret",
+        "meaning": "Cretan (orig.), mixed federation",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "混合",
+          "en": "combine"
+        }
+      },
+      {
+        "canonical": "-ism",
+        "role": "suffix",
+        "form": "ism",
+        "meaning": "doctrine, practice",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "主义",
+          "en": "doctrine"
+        }
+      }
+    ],
+    "derivationChain": [
+      "Greek synkretismos"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "syn(共同)+cret(联合)+ism=不同文化宗教的融合",
+      "imageChain": [
+        "宗教→融合→折中"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "syncretize"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "eclecticism",
+        "fusion"
+      ],
+      "antonyms": [
+        "fundamentalism",
+        "orthodoxy"
+      ],
+      "domainCohort": [
+        "religion",
+        "philosophy",
+        "culture"
+      ],
+      "derivationPair": [
+        "syncretize"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "syncretize",
+    "phonetic": "/ˈsɪŋkrɪtaɪz/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "融合；折中统一",
+      "en": "to combine different beliefs or practices into a unified whole"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "cret",
+        "role": "root",
+        "form": "cret",
+        "meaning": "combine, federate",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "合并",
+          "en": "combine"
+        }
+      },
+      {
+        "canonical": "-ize",
+        "role": "suffix",
+        "form": "ize",
+        "meaning": "make, cause",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "使…化",
+          "en": "make"
+        }
+      }
+    ],
+    "derivationChain": [
+      "syncretism"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "syncret(融合)+ize=主动融合不同体系",
+      "imageChain": [
+        "不同信仰→融合→新体系"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "syncretism"
+      ],
+      "sameAffix": [
+        "synthesize",
+        "harmonize"
+      ],
+      "synonyms": [
+        "amalgamate",
+        "blend"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "religion",
+        "philosophy"
+      ],
+      "derivationPair": [
+        "syncretism"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "syncytial",
+    "phonetic": "/sɪnˈsɪtiəl/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "合胞体的；多核细胞的",
+      "en": "relating to a syncytium; a multinucleated mass of cytoplasm"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "cyt",
+        "role": "root",
+        "form": "cyt",
+        "meaning": "cell",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "细胞",
+          "en": "cell"
+        }
+      },
+      {
+        "canonical": "-ial",
+        "role": "suffix",
+        "form": "ial",
+        "meaning": "relating to",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "有关的",
+          "en": "relating to"
+        }
+      }
+    ],
+    "derivationChain": [
+      "syncytium"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "syn(共同)+cyt(细胞)+ial=多细胞融合的",
+      "imageChain": [
+        "细胞→融合→合胞体"
+      ]
+    },
+    "wordLevel": {
+      "domain": "medical",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "cytoplasm",
+        "cytology"
+      ],
+      "sameAffix": [
+        "synthesis"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "cell",
+        "biology",
+        "virology"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "syndetic",
+    "phonetic": "/sɪnˈdɛtɪk/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "联结的；用连接词连接的",
+      "en": "using conjunctions to connect clauses or words"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "det",
+        "role": "root",
+        "form": "det",
+        "meaning": "bind, tie",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "绑缚",
+          "en": "bind"
+        }
+      },
+      {
+        "canonical": "-ic",
+        "role": "suffix",
+        "form": "ic",
+        "meaning": "relating to",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "有关的",
+          "en": "relating to"
+        }
+      }
+    ],
+    "derivationChain": [
+      "Greek syndetikos"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "syn(共同)+det(绑)+ic=用连接词把词语绑在一起",
+      "imageChain": [
+        "连词→and/or→联结"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [
+        "asyndetic",
+        "polysyndetic"
+      ],
+      "domainCohort": [
+        "grammar",
+        "rhetoric",
+        "syntax"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "syndic",
+    "phonetic": "/ˈsɪndɪk/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "代理人；工会理事",
+      "en": "a government official or magistrate; a representative of a corporation"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "dic",
+        "role": "root",
+        "form": "dic",
+        "meaning": "justice, right",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "公正",
+          "en": "justice"
+        }
+      }
+    ],
+    "derivationChain": [
+      "Greek syndikos"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "syn(共同)+dic(正义)=代表集体主持公道的人",
+      "imageChain": [
+        "集体→代表→管理"
+      ]
+    },
+    "wordLevel": {
+      "domain": "legal",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "syndicate",
+        "syndicalism"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "representative",
+        "agent"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "representative",
+        "magistrate",
+        "official"
+      ],
+      "derivationPair": [
+        "syndicate"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "syndical",
+    "phonetic": "/ˈsɪndɪkəl/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "工会的；总工会的",
+      "en": "relating to a syndic or trade union"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "dic",
+        "role": "root",
+        "form": "dic",
+        "meaning": "justice",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "公正",
+          "en": "justice"
+        }
+      },
+      {
+        "canonical": "-al",
+        "role": "suffix",
+        "form": "al",
+        "meaning": "relating to",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "有关的",
+          "en": "relating to"
+        }
+      }
+    ],
+    "derivationChain": [
+      "syndic"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "syndic + al = 工会相关的",
+      "imageChain": [
+        "工会→代表→劳动"
+      ]
+    },
+    "wordLevel": {
+      "domain": "legal",
       "sentiment": {
         "tags": [
           "中性"
@@ -393,372 +4518,103 @@
     "relations": {
       "sameRoot": [
         "syndic",
-        "syndical",
+        "syndicate",
         "syndicalism"
       ],
       "sameAffix": [],
       "synonyms": [
-        "consortium",
-        "cartel",
-        "alliance",
-        "combine"
+        "trade union"
       ],
       "antonyms": [],
       "domainCohort": [
-        "consortium",
-        "cartel",
-        "trust",
-        "combine"
+        "labor",
+        "union",
+        "workers"
       ],
       "derivationPair": [
-        "syndicalism"
+        "syndic"
       ],
       "morphVariants": [],
       "sameImagery": []
     }
   },
   {
-    "word": "syncretize",
-    "phonetic": "/'sɪnkrɪtaɪz/",
+    "word": "syndicalism",
+    "phonetic": "/ˈsɪndɪkəlɪz(ə)m/",
     "pos": [
-      "vt.",
-      "vi."
+      "n."
     ],
     "coreMeaning": {
-      "cn": "融合；结合（不同信仰或文化）",
-      "en": "to attempt to unite or reconcile different beliefs"
+      "cn": "工团主义；工会运动",
+      "en": "a movement advocating workers' control through trade unions"
     },
     "morphemes": [
       {
         "canonical": "syn-",
         "role": "prefix",
-        "meaning": "共同；一起",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
         "form": "syn",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "cret-",
-        "role": "root",
-        "meaning": "联合；克里特人联盟（Gk. synkretismos）",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 2,
-        "form": "cret",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ize",
-        "role": "suffix",
-        "meaning": "使…",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "dic",
+        "role": "root",
+        "form": "dic",
+        "meaning": "justice, right",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "公正",
+          "en": "justice"
+        }
+      },
+      {
+        "canonical": "-ism",
+        "role": "suffix",
+        "form": "alism",
+        "meaning": "doctrine, movement",
         "order": 3,
-        "form": "ize",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "Gk. synkretismos (Cretan federation)",
-      "syncretize"
-    ],
-    "memorySemantics": {
-      "imageKey": "East-West symbols merging",
-      "scene": "佛教莲花与基督教十字架融为一体，象征文化汇流",
-      "emotionalHook": "文明交汇的包容之美",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "academic",
-        "religious"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "syncretism"
-      ],
-      "sameAffix": [
-        "synthesize",
-        "modernize"
-      ],
-      "synonyms": [
-        "fuse",
-        "blend",
-        "harmonize",
-        "amalgamate"
-      ],
-      "antonyms": [
-        "separate",
-        "divide",
-        "segregate"
-      ],
-      "domainCohort": [
-        "synthesize",
-        "amalgamate",
-        "integrate"
-      ],
-      "derivationPair": [
-        "syncretism"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "suave",
-    "phonetic": "/swɑv/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "文雅的；温文尔雅的",
-      "en": "charming, confident, and elegant in manner"
-    },
-    "morphemes": [
-      {
-        "canonical": "suave",
-        "role": "root",
-        "meaning": "甜美；愉快（L. suavis）",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "suave",
-        "positionTendency": "medial"
-      }
-    ],
-    "derivationChain": [
-      "L. suavis",
-      "suave"
-    ],
-    "memorySemantics": {
-      "imageKey": "well-dressed man smiling calmly",
-      "scene": "派对上，男士从容不迫地与人交谈，举止优雅无懈可击",
-      "emotionalHook": "无需努力就展现的优雅魅力",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general",
-        "literary",
-        "gre"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "suavity",
-        "suavely"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "urbane",
-        "sophisticated",
-        "debonair",
-        "charming"
-      ],
-      "antonyms": [
-        "gauche",
-        "awkward",
-        "boorish",
-        "uncouth"
-      ],
-      "domainCohort": [
-        "urbane",
-        "debonair",
-        "charming",
-        "polished"
-      ],
-      "derivationPair": [
-        "suavity",
-        "suavely"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "suavity",
-    "phonetic": "/'swævəti/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "温文尔雅；文雅",
-      "en": "the quality of being suave"
-    },
-    "morphemes": [
-      {
-        "canonical": "suave",
-        "role": "root",
-        "meaning": "优雅；文雅",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "suav",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-ity",
-        "role": "suffix",
-        "meaning": "性质；状态（名词后缀）",
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 2,
-        "form": "ity",
-        "positionTendency": "final"
+        "coreMeaning": {
+          "cn": "主义",
+          "en": "doctrine"
+        }
       }
     ],
     "derivationChain": [
-      "suave (adj.)",
-      "suavity (n.)"
+      "syndical"
     ],
     "memorySemantics": {
-      "imageKey": "diplomatic handshake",
-      "scene": "外交官举止得体，用恰到好处的笑容化解紧张气氛",
-      "emotionalHook": "高情商社交技巧的体现",
-      "imageChain": []
+      "mnemonicExpr": "syndical + ism = 工团主义思想体系",
+      "imageChain": [
+        "工人→联合→自治"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "general",
-        "literary",
-        "gre"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "suave",
-        "suavely"
-      ],
-      "sameAffix": [
-        "urbanity",
-        "clarity",
-        "brevity"
-      ],
-      "synonyms": [
-        "urbanity",
-        "sophistication",
-        "elegance",
-        "polish"
-      ],
-      "antonyms": [
-        "gaucheness",
-        "rudeness",
-        "boorishness"
-      ],
-      "domainCohort": [
-        "urbanity",
-        "sophistication",
-        "charm",
-        "elegance"
-      ],
-      "derivationPair": [
-        "suave"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "suasion",
-    "phonetic": "/'sweiʒən/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "说服；劝告",
-      "en": "persuasion; the act of urging through argument"
-    },
-    "morphemes": [
-      {
-        "canonical": "suas-",
-        "role": "root",
-        "meaning": "劝说（L. suadere）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "suas",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-ion",
-        "role": "suffix",
-        "meaning": "行为；结果（名词化）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "ion",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "L. suadere",
-      "suasion"
-    ],
-    "memorySemantics": {
-      "imageKey": "speaker at podium",
-      "scene": "演讲者用有力的词语和温和的语气说服听众",
-      "emotionalHook": "理性说服的艺术",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "legal",
-        "academic",
-        "literary"
-      ],
+      "domain": "academic",
       "sentiment": {
         "tags": [
           "中性"
@@ -768,33 +4624,448 @@
     },
     "relations": {
       "sameRoot": [
-        "suasive",
-        "persuade",
-        "dissuade",
-        "persuasion"
+        "syndic",
+        "syndicate",
+        "syndical"
       ],
       "sameAffix": [
-        "persuasion",
-        "discussion",
-        "comparison"
+        "socialism",
+        "capitalism"
       ],
-      "synonyms": [
-        "persuasion",
-        "entreaty",
-        "inducement"
-      ],
+      "synonyms": [],
       "antonyms": [
-        "coercion",
-        "compulsion",
-        "force"
+        "capitalism"
       ],
       "domainCohort": [
-        "persuasion",
-        "inducement",
-        "advocacy"
+        "labor",
+        "unions",
+        "socialism"
       ],
       "derivationPair": [
-        "suasive"
+        "syndicalist"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "syndicalist",
+    "phonetic": "/ˈsɪndɪkəlɪst/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "工团主义者",
+      "en": "an advocate of syndicalism"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "dic",
+        "role": "root",
+        "form": "dic",
+        "meaning": "justice",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "公正",
+          "en": "justice"
+        }
+      },
+      {
+        "canonical": "-ist",
+        "role": "suffix",
+        "form": "alist",
+        "meaning": "person who follows",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "倡导者",
+          "en": "advocate"
+        }
+      }
+    ],
+    "derivationChain": [
+      "syndicalism"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "syndicalism + ist = 工团主义者",
+      "imageChain": [
+        "主义→信奉者→实践"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "syndicalism",
+        "syndic"
+      ],
+      "sameAffix": [
+        "socialist",
+        "capitalist"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "labor",
+        "unions",
+        "political"
+      ],
+      "derivationPair": [
+        "syndicalism"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "syndicalists",
+    "phonetic": "/ˈsɪndɪkəlɪsts/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "工团主义者（复数）",
+      "en": "plural of syndicalist"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "dic",
+        "role": "root",
+        "form": "dic",
+        "meaning": "justice",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "公正",
+          "en": "justice"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "sts",
+        "meaning": "plural",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "syndicalist"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "syndicalist的复数",
+      "imageChain": [
+        "多名工团主义者"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "syndicalist",
+        "syndicalism"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "syndicalist"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "syndicate",
+    "phonetic": "/ˈsɪndɪkɪt/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "辛迪加；联合企业；犯罪集团",
+      "en": "a group of individuals or organizations combined to promote a common interest"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "dic",
+        "role": "root",
+        "form": "dic",
+        "meaning": "right, justice",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "公正",
+          "en": "justice"
+        }
+      },
+      {
+        "canonical": "-ate",
+        "role": "suffix",
+        "form": "ate",
+        "meaning": "collective body",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "集体",
+          "en": "collective"
+        }
+      }
+    ],
+    "derivationChain": [
+      "syndic"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "syn(共同)+dic(正当)+ate=共同经营正当业务的联合体",
+      "imageChain": [
+        "企业→联合→共同利益"
+      ]
+    },
+    "wordLevel": {
+      "domain": "business",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "syndic",
+        "syndicalism",
+        "syndicated"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "consortium",
+        "cartel",
+        "alliance"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "consortium",
+        "organization",
+        "corporation"
+      ],
+      "derivationPair": [
+        "syndicated"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "syndicated",
+    "phonetic": "/ˈsɪndɪkeɪtɪd/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "联合分销的；辛迪加化的",
+      "en": "published or broadcast by a syndicate to multiple outlets"
+    },
+    "morphemes": [
+      {
+        "canonical": "syn-",
+        "role": "prefix",
+        "form": "syn",
+        "meaning": "together",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "共同",
+          "en": "together"
+        }
+      },
+      {
+        "canonical": "dic",
+        "role": "root",
+        "form": "dic",
+        "meaning": "right",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "公正",
+          "en": "justice"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "form": "ated",
+        "meaning": "past participle, adjective",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "完成态",
+          "en": "past participle"
+        }
+      }
+    ],
+    "derivationChain": [
+      "syndicate"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "syndicate + d = 已联合分发的",
+      "imageChain": [
+        "节目→联合→多地播出"
+      ]
+    },
+    "wordLevel": {
+      "domain": "news",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "syndicate",
+        "syndication"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "distributed",
+        "broadcast"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "media",
+        "broadcast",
+        "publication"
+      ],
+      "derivationPair": [
+        "syndicate"
       ],
       "morphVariants": [],
       "sameImagery": []

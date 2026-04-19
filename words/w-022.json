@@ -1,134 +1,64 @@
 [
   {
-    "word": "whacked",
-    "phonetic": "/wækt/",
+    "word": "wettest",
+    "phonetic": "/ˈwɛtɪst/",
     "pos": [
       "adj."
     ],
     "coreMeaning": {
-      "cn": "疲惫不堪的；精神错乱的",
-      "en": "exhausted; crazy"
+      "cn": "最湿的；最潮湿的",
+      "en": "superlative of wet; most wet"
     },
     "morphemes": [
       {
-        "morpheme": "whack",
+        "canonical": "wet",
         "role": "root",
-        "canonical": "whack",
-        "meaning": "猛击；重击",
+        "form": "wett",
+        "meaning": "湿的；潮湿的",
         "sentiment": {
           "tags": [
-            "消极"
+            "中性"
           ],
-          "intensity": 1
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "湿的",
+          "en": "wet; moist"
         }
       },
       {
-        "morpheme": "-ed",
+        "canonical": "-est",
         "role": "suffix",
-        "canonical": "-ed",
-        "meaning": "形容词后缀，表状态",
+        "form": "est",
+        "meaning": "最高级后缀",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
+        },
+        "order": 2,
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "最高级后缀",
+          "en": "superlative suffix"
         }
       }
     ],
     "derivationChain": [
-      "whack (v. 猛击) → whacked (adj. 被打垮的/精神崩溃的)"
+      "wet"
     ],
     "memorySemantics": {
-      "imageKey": "被重击后倒下",
-      "scene": "拳击手被猛击后瘫软在地，眼神涣散，精疲力竭",
-      "emotionalHook": "重击之后的无力感与茫然",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general",
-        "colloquial"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "whack",
-        "whacking",
-        "whacker"
-      ],
-      "sameAffix": [
-        "exhausted",
-        "wrecked"
-      ],
-      "synonyms": [
-        "exhausted",
-        "drained",
-        "crazy"
-      ],
-      "antonyms": [
-        "energized",
-        "alert"
-      ],
-      "domainCohort": [
-        "fatigued",
-        "depleted"
-      ],
-      "derivationPair": [
-        "whack → whacked"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "beaten",
-        "wrecked"
+      "mnemonicExpr": "wet(湿) + test(最高级) = 最湿的",
+      "imageChain": [
+        "雨后最潮湿",
+        "彻底湿透"
       ]
-    }
-  },
-  {
-    "word": "whale",
-    "phonetic": "/weɪl/",
-    "pos": [
-      "n.",
-      "v."
-    ],
-    "coreMeaning": {
-      "cn": "鲸鱼；猛揍；使惨败",
-      "en": "whale; to thrash"
-    },
-    "morphemes": [
-      {
-        "morpheme": "whale",
-        "role": "root",
-        "canonical": "whale",
-        "meaning": "鲸；巨大之物",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      }
-    ],
-    "derivationChain": [
-      "Old English hwæl (鲸) → whale (n./v.)"
-    ],
-    "memorySemantics": {
-      "imageKey": "海洋巨兽",
-      "scene": "一头蓝鲸浮出水面，喷出水柱，体型巨大令人震撼",
-      "emotionalHook": "大自然最大生物带来的敬畏感",
-      "imageChain": []
     },
     "wordLevel": {
-      "domain": [
-        "general",
-        "academic",
-        "cet4"
-      ],
+      "domain": "general",
       "sentiment": {
         "tags": [
           "中性"
@@ -138,184 +68,81 @@
     },
     "relations": {
       "sameRoot": [
-        "whaling",
-        "whaler",
-        "whalebone"
+        "wet",
+        "wetting",
+        "wettings"
       ],
       "sameAffix": [],
-      "synonyms": [
-        "cetacean"
+      "synonyms": [],
+      "antonyms": [
+        "driest"
       ],
-      "antonyms": [],
-      "domainCohort": [
-        "dolphin",
-        "shark",
-        "ocean"
-      ],
-      "derivationPair": [
-        "whale → whaling",
-        "whale → whaler"
-      ],
+      "domainCohort": [],
+      "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": [
-        "leviathan",
-        "behemoth"
-      ]
+      "sameImagery": []
     }
   },
   {
-    "word": "whaling",
-    "phonetic": "/ˈweɪlɪŋ/",
+    "word": "wetting",
+    "phonetic": "/ˈwɛtɪŋ/",
     "pos": [
-      "n.",
-      "adj."
+      "v."
     ],
     "coreMeaning": {
-      "cn": "捕鲸（业）",
-      "en": "the hunting of whales"
+      "cn": "弄湿；使潮湿（进行时）",
+      "en": "present participle of wet; making something wet"
     },
     "morphemes": [
       {
-        "morpheme": "whale",
+        "canonical": "wet",
         "role": "root",
-        "canonical": "whale",
-        "meaning": "鲸鱼",
+        "form": "wett",
+        "meaning": "弄湿；使潮湿",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "弄湿",
+          "en": "to make wet"
         }
       },
       {
-        "morpheme": "-ing",
-        "role": "suffix",
         "canonical": "-ing",
-        "meaning": "动名词后缀，表行为/行业",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      }
-    ],
-    "derivationChain": [
-      "whale (n.) → whaling (n. 捕鲸业)"
-    ],
-    "memorySemantics": {
-      "imageKey": "捕鲸船追逐鲸鱼",
-      "scene": "19世纪捕鲸船在波涛中追赶巨鲸，水手投掷鱼叉",
-      "emotionalHook": "传统渔业文化与现代保护主义的冲突",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "ielts",
-        "academic",
-        "environmental"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "whale",
-        "whaler"
-      ],
-      "sameAffix": [
-        "fishing",
-        "hunting"
-      ],
-      "synonyms": [
-        "whale hunting",
-        "cetacean hunting"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "fishing",
-        "maritime",
-        "conservation"
-      ],
-      "derivationPair": [
-        "whale → whaling"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "hunting",
-        "maritime industry"
-      ]
-    }
-  },
-  {
-    "word": "whatsoever",
-    "phonetic": "/ˌwɒtsəʊˈevə/",
-    "pos": [
-      "pron.",
-      "adj.",
-      "adv."
-    ],
-    "coreMeaning": {
-      "cn": "无论什么；丝毫（用于否定句加强语气）",
-      "en": "of any kind at all"
-    },
-    "morphemes": [
-      {
-        "morpheme": "what",
-        "role": "root",
-        "canonical": "what",
-        "meaning": "什么",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      },
-      {
-        "morpheme": "so",
-        "role": "root",
-        "canonical": "so",
-        "meaning": "如此；这样",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      },
-      {
-        "morpheme": "-ever",
         "role": "suffix",
-        "canonical": "-ever",
-        "meaning": "强调任意性，无论",
+        "form": "ing",
+        "meaning": "进行时后缀",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
+        },
+        "order": 2,
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "进行时后缀",
+          "en": "present participle suffix"
         }
       }
     ],
     "derivationChain": [
-      "what + so + ever → whatsoever (强调无论何种情形)"
+      "wet"
     ],
     "memorySemantics": {
-      "imageKey": "全否定的手势",
-      "scene": "某人双手交叉摇头：没有任何理由，whatsoever！",
-      "emotionalHook": "强烈否定时的决绝语气",
-      "imageChain": []
+      "mnemonicExpr": "wet(弄湿) + ing = 正在弄湿，润湿过程",
+      "imageChain": [
+        "浸湿过程",
+        "水分渗入"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "general",
-        "academic",
-        "formal"
-      ],
+      "domain": "general",
       "sentiment": {
         "tags": [
           "中性"
@@ -325,240 +152,102 @@
     },
     "relations": {
       "sameRoot": [
-        "whatever",
-        "whenever",
-        "whoever",
-        "however"
-      ],
-      "sameAffix": [
-        "whatever",
-        "whoever"
-      ],
-      "synonyms": [
-        "at all",
-        "of any kind",
-        "in any way"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "nothing",
-        "none",
-        "no"
-      ],
-      "derivationPair": [
-        "what → whatever → whatsoever"
-      ],
-      "morphVariants": [
-        "whatever"
-      ],
-      "sameImagery": [
-        "emphatic negation"
-      ]
-    }
-  },
-  {
-    "word": "wheat",
-    "phonetic": "/wiːt/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "小麦",
-      "en": "wheat; a cereal grass"
-    },
-    "morphemes": [
-      {
-        "morpheme": "wheat",
-        "role": "root",
-        "canonical": "wheat",
-        "meaning": "小麦",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      }
-    ],
-    "derivationChain": [
-      "Old English hwǣte (小麦) → wheat"
-    ],
-    "memorySemantics": {
-      "imageKey": "金色麦田",
-      "scene": "秋日金色麦田在微风中起伏，收割机隆隆作响",
-      "emotionalHook": "丰收的喜悦与粮食的生命意义",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "cefr-b2",
-        "academic",
-        "agriculture"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "wheaten",
-        "wheatgerm",
-        "wheatfield"
+        "wet",
+        "wettest",
+        "wettings"
       ],
       "sameAffix": [],
       "synonyms": [
-        "grain",
-        "cereal"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "corn",
-        "barley",
-        "rice",
-        "flour"
-      ],
-      "derivationPair": [
-        "wheat → wheaten",
-        "wheat → wheatgerm"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "harvest",
-        "golden field"
-      ]
-    }
-  },
-  {
-    "word": "wheedle",
-    "phonetic": "/ˈwiːdl/",
-    "pos": [
-      "v."
-    ],
-    "coreMeaning": {
-      "cn": "哄骗；诱骗；甜言蜜语地说服",
-      "en": "to persuade by coaxing or flattering"
-    },
-    "morphemes": [
-      {
-        "morpheme": "wheedle",
-        "role": "root",
-        "canonical": "wheedle",
-        "meaning": "哄骗，用甜言蜜语说服",
-        "sentiment": {
-          "tags": [
-            "贬义"
-          ],
-          "intensity": 1
-        }
-      }
-    ],
-    "derivationChain": [
-      "German wedeln (摇尾巴，讨好) → wheedle (v. 哄骗)"
-    ],
-    "memorySemantics": {
-      "imageKey": "撒娇的小狗",
-      "scene": "一个人用甜蜜的声音和夸张的笑容哄骗对方，像摇尾巴的小狗讨好主人",
-      "emotionalHook": "表面温柔背后的操控意图令人警惕",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "gre",
-        "literary"
-      ],
-      "sentiment": {
-        "tags": [
-          "贬义"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "wheedling",
-        "wheedled"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "cajole",
-        "coax",
-        "inveigle",
-        "beguile"
+        "moistening",
+        "dampening"
       ],
       "antonyms": [
-        "demand",
-        "compel",
-        "force"
+        "drying"
       ],
-      "domainCohort": [
-        "flatter",
-        "persuade",
-        "manipulate"
-      ],
-      "derivationPair": [
-        "wheedle → wheedling"
-      ],
+      "domainCohort": [],
+      "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": [
-        "coax",
-        "cajole"
-      ]
+      "sameImagery": []
     }
   },
   {
-    "word": "wheelchair",
-    "phonetic": "/ˈwiːltʃeə/",
+    "word": "wettings",
+    "phonetic": "/ˈwɛtɪŋz/",
     "pos": [
       "n."
     ],
     "coreMeaning": {
-      "cn": "轮椅",
-      "en": "a chair on wheels for people unable to walk"
+      "cn": "润湿；弄湿（复数）",
+      "en": "plural of wetting; instances of making wet"
     },
     "morphemes": [
       {
-        "morpheme": "wheel",
+        "canonical": "wet",
         "role": "root",
-        "canonical": "wheel",
-        "meaning": "轮子；车轮",
+        "form": "wett",
+        "meaning": "弄湿",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "弄湿",
+          "en": "wetting"
         }
       },
       {
-        "morpheme": "chair",
-        "role": "root",
-        "canonical": "chair",
-        "meaning": "椅子",
+        "canonical": "-ing",
+        "role": "suffix",
+        "form": "ing",
+        "meaning": "动名词后缀",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
+        },
+        "order": 2,
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "动名词后缀",
+          "en": "gerund suffix"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "复数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数后缀",
+          "en": "plural suffix"
         }
       }
     ],
     "derivationChain": [
-      "wheel (轮子) + chair (椅子) → wheelchair (轮椅)"
+      "wetting"
     ],
     "memorySemantics": {
-      "imageKey": "带轮子的椅子",
-      "scene": "一个人坐在轮椅上，护士推着他在走廊里穿行，阳光透过窗户洒落",
-      "emotionalHook": "轮椅代表身体的限制，也代表辅助技术给人带来的自由",
-      "imageChain": []
+      "mnemonicExpr": "wetting + s = 多次润湿",
+      "imageChain": [
+        "多次浸湿",
+        "反复润湿"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "ielts",
-        "medical",
-        "general"
-      ],
+      "domain": "general",
       "sentiment": {
         "tags": [
           "中性"
@@ -568,149 +257,255 @@
     },
     "relations": {
       "sameRoot": [
-        "wheel",
-        "wheelbarrow",
-        "wheelhouse"
+        "wet",
+        "wetting",
+        "wettest"
       ],
-      "sameAffix": [
-        "armchair",
-        "highchair"
-      ],
-      "synonyms": [
-        "mobility chair",
-        "rolling chair"
-      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "wetv",
+    "phonetic": "/wɛt viː/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "WetV（一种视频格式/平台缩写）",
+      "en": "WetV; an informal shorthand or brand name"
+    },
+    "morphemes": [
+      {
+        "canonical": "wetv",
+        "role": "root",
+        "form": "wetv",
+        "meaning": "品牌或缩写词",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "品牌缩写",
+          "en": "brand abbreviation"
+        }
+      }
+    ],
+    "derivationChain": [
+      "wet + v(ideo)"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "wetv = wet + video 的组合缩写",
+      "imageChain": [
+        "视频内容",
+        "网络媒体"
+      ]
+    },
+    "wordLevel": {
+      "domain": "tech",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "wey",
+    "phonetic": "/weɪ/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "韦（英国旧制重量单位）",
+      "en": "a former English unit of weight or dry measure"
+    },
+    "morphemes": [
+      {
+        "canonical": "wey",
+        "role": "root",
+        "form": "wey",
+        "meaning": "重量单位（古英语）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "旧英制重量单位",
+          "en": "old English unit of weight"
+        }
+      }
+    ],
+    "derivationChain": [
+      "古英语 wæge (weight)"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "wey 来自古英语 weigh，旧式重量单位，约180-252磅",
+      "imageChain": [
+        "古老秤砣",
+        "重量计量",
+        "历史单位"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [],
       "antonyms": [],
       "domainCohort": [
-        "crutch",
-        "walker",
-        "prosthetic"
+        "bushel",
+        "peck",
+        "stone"
       ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": [
-        "mobility aid",
-        "disability equipment"
-      ]
+      "sameImagery": []
     }
   },
   {
-    "word": "wheeze",
-    "phonetic": "/wiːz/",
+    "word": "wh-",
+    "phonetic": "/wh/",
     "pos": [
-      "v.",
       "n."
     ],
     "coreMeaning": {
-      "cn": "喘息；发出呼哧呼哧的声音",
-      "en": "to breathe with difficulty, making a whistling sound"
+      "cn": "wh-（英语疑问词前缀）",
+      "en": "wh-; the initial consonant cluster in English interrogative words"
     },
     "morphemes": [
       {
-        "morpheme": "wheeze",
-        "role": "root",
-        "canonical": "wheeze",
-        "meaning": "喘鸣声；气喘",
+        "canonical": "wh-",
+        "role": "prefix",
+        "form": "wh",
+        "meaning": "疑问词前缀（who/what/where/when/why/which等）",
         "sentiment": {
           "tags": [
-            "消极"
+            "中性"
           ],
-          "intensity": 1
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "疑问词初始辅音群",
+          "en": "initial cluster in interrogative words"
         }
       }
     ],
     "derivationChain": [
-      "Old Norse hvæsa (嘶嘶声) → wheeze (v./n. 喘息)"
+      "古英语 hw- (疑问词)"
     ],
     "memorySemantics": {
-      "imageKey": "哮喘发作",
-      "scene": "哮喘患者在寒冷空气中努力呼吸，每次吸气都伴随着尖锐的呼哧声",
-      "emotionalHook": "呼吸困难带来的焦虑与窒息感",
-      "imageChain": []
+      "mnemonicExpr": "wh- 是英语疑问词的标志性字母组合，源自古英语 hw-",
+      "imageChain": [
+        "问号符号",
+        "疑问探索",
+        "信息询问"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "gre",
-        "medical",
-        "literary"
-      ],
+      "domain": "academic",
       "sentiment": {
         "tags": [
-          "消极"
+          "中性"
         ],
-        "intensity": 1
+        "intensity": 0
       }
     },
     "relations": {
       "sameRoot": [
-        "wheezy",
-        "wheezing",
-        "wheezily"
+        "what",
+        "when",
+        "where",
+        "why",
+        "who",
+        "which"
       ],
       "sameAffix": [],
-      "synonyms": [
-        "gasp",
-        "pant",
-        "rasp"
-      ],
-      "antonyms": [
-        "breathe easily"
-      ],
-      "domainCohort": [
-        "cough",
-        "asthma",
-        "dyspnea"
-      ],
-      "derivationPair": [
-        "wheeze → wheezy",
-        "wheeze → wheezing"
-      ],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": [
-        "gasp",
-        "rasp"
-      ]
+      "sameImagery": []
     }
   },
   {
     "word": "whack",
     "phonetic": "/wæk/",
     "pos": [
-      "v.",
-      "n."
+      "v."
     ],
     "coreMeaning": {
-      "cn": "猛击；重打；（非正式）尝试",
-      "en": "to strike with a sharp blow"
+      "cn": "猛击；重打；份额",
+      "en": "to strike with a hard blow; a share or portion"
     },
     "morphemes": [
       {
-        "morpheme": "whack",
-        "role": "root",
         "canonical": "whack",
-        "meaning": "猛击；重打",
+        "role": "root",
+        "form": "whack",
+        "meaning": "猛击；重打（拟声词）",
         "sentiment": {
           "tags": [
-            "消极"
+            "中性"
           ],
-          "intensity": 1
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "猛击；重打",
+          "en": "to strike hard; a hard blow"
         }
       }
     ],
     "derivationChain": [
-      "onomatopoeic (拟声词) → whack (v./n. 猛击声)"
+      "拟声词，模仿重击声"
     ],
     "memorySemantics": {
-      "imageKey": "拟声重击",
-      "scene": "球棒击打棒球发出\"WHACK\"的清脆声响，球飞向远方",
-      "emotionalHook": "拟声词让人直接感受到击打的力量",
-      "imageChain": []
+      "mnemonicExpr": "whack 是拟声词，模仿重击发出的声音",
+      "imageChain": [
+        "重击声音",
+        "猛力敲打",
+        "清脆拍打"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "general",
-        "colloquial"
-      ],
+      "domain": "general",
       "sentiment": {
         "tags": [
           "中性"
@@ -721,32 +516,3532 @@
     "relations": {
       "sameRoot": [
         "whacked",
+        "whacker",
+        "whackers",
         "whacking",
+        "whacks"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "strike",
+        "hit",
+        "smack"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "whacked",
+    "phonetic": "/wækt/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "疲惫不堪的；被打昏的；（俚）精疲力竭的",
+      "en": "exhausted; also past tense of whack"
+    },
+    "morphemes": [
+      {
+        "canonical": "whack",
+        "role": "root",
+        "form": "whack",
+        "meaning": "猛击；重打",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "猛击",
+          "en": "to strike hard"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "form": "ed",
+        "meaning": "过去式/形容词后缀",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "过去式或形容词后缀",
+          "en": "past tense or adjective suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "whack"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "whack(重打) + ed = 被打倒了，引申为精疲力竭",
+      "imageChain": [
+        "重击后瘫软",
+        "精力耗尽",
+        "疲惫无力"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "whack",
+        "whacker",
+        "whacking",
+        "whacks"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "exhausted",
+        "tired out",
+        "beat"
+      ],
+      "antonyms": [
+        "energized",
+        "refreshed"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "whacker",
+    "phonetic": "/ˈwækər/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "打击者；极大的东西；谎言",
+      "en": "one who whacks; something very large; an outright lie"
+    },
+    "morphemes": [
+      {
+        "canonical": "whack",
+        "role": "root",
+        "form": "whack",
+        "meaning": "猛击",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "猛击",
+          "en": "hard blow"
+        }
+      },
+      {
+        "canonical": "-er",
+        "role": "suffix",
+        "form": "er",
+        "meaning": "做…的人；表示施动者",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "施动者后缀",
+          "en": "agent suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "whack"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "whack(打) + er(人/物) = 打击者，或极大的东西",
+      "imageChain": [
+        "重击的人",
+        "强壮猛力",
+        "惊人谎言"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "whack",
+        "whacked",
+        "whackers",
+        "whacking"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [
+        "whackers"
+      ],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "whackers",
+    "phonetic": "/ˈwækərz/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "打击者（复数）；极大的东西（复数）",
+      "en": "plural of whacker"
+    },
+    "morphemes": [
+      {
+        "canonical": "whack",
+        "role": "root",
+        "form": "whack",
+        "meaning": "猛击",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "猛击",
+          "en": "hard blow"
+        }
+      },
+      {
+        "canonical": "-er",
+        "role": "suffix",
+        "form": "er",
+        "meaning": "施动者后缀",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "施动者后缀",
+          "en": "agent suffix"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "复数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数后缀",
+          "en": "plural suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "whacker"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "whacker + s = 多个打击者",
+      "imageChain": [
+        "多位打击者"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "whack",
+        "whacker",
+        "whacking"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "whacking",
+    "phonetic": "/ˈwækɪŋ/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "巨大的；极大的；猛击（进行时）",
+      "en": "very large; the action of striking hard"
+    },
+    "morphemes": [
+      {
+        "canonical": "whack",
+        "role": "root",
+        "form": "whack",
+        "meaning": "猛击；极大",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "猛击",
+          "en": "hard blow"
+        }
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "form": "ing",
+        "meaning": "进行时后缀/形容词后缀",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "进行时或形容词后缀",
+          "en": "present participle or adjective suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "whack"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "whack + ing = 正在猛打，或形容极大的",
+      "imageChain": [
+        "重击进行中",
+        "极为巨大"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "whack",
+        "whacked",
         "whacker"
       ],
       "sameAffix": [],
       "synonyms": [
-        "hit",
-        "strike",
-        "smack",
-        "thwack"
+        "enormous",
+        "huge",
+        "thumping"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "whacks",
+    "phonetic": "/wæks/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "猛击（第三人称单数）；份额（复数）",
+      "en": "third person singular of whack; plural of whack as noun"
+    },
+    "morphemes": [
+      {
+        "canonical": "whack",
+        "role": "root",
+        "form": "whack",
+        "meaning": "猛击",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "猛击",
+          "en": "hard blow"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "第三人称单数/复数后缀",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "第三人称单数或复数后缀",
+          "en": "third person singular or plural suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "whack"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "whack + s = 他/她猛打，或多次打击",
+      "imageChain": [
+        "反复重击",
+        "连续打击"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "whack",
+        "whacked",
+        "whacking"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "whaddya",
+    "phonetic": "/ˈwʌdʒə/",
+    "pos": [
+      "pron."
+    ],
+    "coreMeaning": {
+      "cn": "你想要什么（口语缩略，what do you的变体）",
+      "en": "informal contraction of \"what do you\""
+    },
+    "morphemes": [
+      {
+        "canonical": "whaddya",
+        "role": "root",
+        "form": "whaddya",
+        "meaning": "what do you 的口语缩写",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "口语缩略词",
+          "en": "informal contraction"
+        }
+      }
+    ],
+    "derivationChain": [
+      "what do you"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "whaddya = what do you 的极速口语发音",
+      "imageChain": [
+        "快速口语",
+        "非正式交流"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "what",
+        "whatcha"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "what do you"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "whale",
+    "phonetic": "/weɪl/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "鲸；猛打；大量",
+      "en": "a very large marine mammal; informal: to strike hard"
+    },
+    "morphemes": [
+      {
+        "canonical": "whale",
+        "role": "root",
+        "form": "whale",
+        "meaning": "鲸鱼（古英语 hwæl）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "鲸鱼",
+          "en": "large marine mammal"
+        }
+      }
+    ],
+    "derivationChain": [
+      "古英语 hwæl"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "whale = 鲸鱼，海洋最大生物，引申为巨大",
+      "imageChain": [
+        "巨鲸跃出海面",
+        "庞大身躯",
+        "深海霸主"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "whaled",
+        "whaler",
+        "whalers",
+        "whales",
+        "whaling",
+        "whalebone"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "dolphin",
+        "porpoise",
+        "orca"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "whalebone",
+    "phonetic": "/ˈweɪlboʊn/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "鲸须；鲸骨（旧时用于紧身胸衣等）",
+      "en": "baleen; a hard flexible substance from the upper jaw of baleen whales"
+    },
+    "morphemes": [
+      {
+        "canonical": "whale",
+        "role": "root",
+        "form": "whale",
+        "meaning": "鲸鱼",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "鲸鱼",
+          "en": "whale"
+        }
+      },
+      {
+        "canonical": "bone",
+        "role": "root",
+        "form": "bone",
+        "meaning": "骨头",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "骨头",
+          "en": "bone"
+        }
+      }
+    ],
+    "derivationChain": [
+      "whale + bone"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "whale(鲸) + bone(骨) = 鲸须/鲸骨，坚韧弹性材料",
+      "imageChain": [
+        "古代紧身胸衣",
+        "鲸须板",
+        "弹性材料"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "whale",
+        "whaling"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "baleen"
       ],
       "antonyms": [],
       "domainCohort": [
-        "strike",
-        "beat",
-        "bash"
+        "ivory",
+        "baleen",
+        "ambergris"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "whaled",
+    "phonetic": "/weɪld/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "猛打；参与捕鲸（过去式）",
+      "en": "past tense of whale; struck hard; hunted whales"
+    },
+    "morphemes": [
+      {
+        "canonical": "whale",
+        "role": "root",
+        "form": "whale",
+        "meaning": "猛打；捕鲸",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "猛打；捕鲸",
+          "en": "to strike hard; to hunt whales"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "form": "ed",
+        "meaning": "过去式后缀",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "过去式后缀",
+          "en": "past tense suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "whale"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "whale(动词猛打) + d = 过去时，曾猛打",
+      "imageChain": [
+        "捕鲸历史",
+        "用力重打"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "whale",
+        "whaler",
+        "whalers",
+        "whales",
+        "whaling"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "whalen",
+    "phonetic": "/ˈweɪlən/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "惠伦（人名）",
+      "en": "Whalen; a surname"
+    },
+    "morphemes": [
+      {
+        "canonical": "whalen",
+        "role": "root",
+        "form": "whalen",
+        "meaning": "人名（姓氏）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "人名/姓氏",
+          "en": "surname"
+        }
+      }
+    ],
+    "derivationChain": [
+      "爱尔兰 Ó Faoláin (wolf)"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "Whalen = 爱尔兰裔英语姓氏，源自狼（wolf）词根",
+      "imageChain": [
+        "姓氏来源",
+        "爱尔兰血统"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "whaler",
+    "phonetic": "/ˈweɪlər/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "捕鲸者；捕鲸船",
+      "en": "a person or ship engaged in whaling"
+    },
+    "morphemes": [
+      {
+        "canonical": "whale",
+        "role": "root",
+        "form": "whale",
+        "meaning": "鲸鱼",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "鲸鱼",
+          "en": "whale"
+        }
+      },
+      {
+        "canonical": "-er",
+        "role": "suffix",
+        "form": "er",
+        "meaning": "从事…的人/船",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "施动者后缀",
+          "en": "agent suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "whale"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "whale(鲸) + er(人/船) = 捕鲸者或捕鲸船",
+      "imageChain": [
+        "捕鲸船出海",
+        "鱼叉捕鲸",
+        "历史渔业"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "whale",
+        "whaling",
+        "whalers"
+      ],
+      "sameAffix": [
+        "fisher",
+        "hunter"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "whaling",
+        "fisherman",
+        "harpooner"
       ],
       "derivationPair": [
-        "whack → whacked",
-        "whack → whacking"
+        {
+          "base": "whale",
+          "derived": "whaler"
+        }
+      ],
+      "morphVariants": [
+        "whalers"
+      ],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "whalers",
+    "phonetic": "/ˈweɪlərz/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "捕鲸者（复数）；捕鲸船（复数）",
+      "en": "plural of whaler"
+    },
+    "morphemes": [
+      {
+        "canonical": "whale",
+        "role": "root",
+        "form": "whale",
+        "meaning": "鲸鱼",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "鲸鱼",
+          "en": "whale"
+        }
+      },
+      {
+        "canonical": "-er",
+        "role": "suffix",
+        "form": "er",
+        "meaning": "施动者",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "施动者后缀",
+          "en": "agent suffix"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "复数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数后缀",
+          "en": "plural suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "whaler"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "whaler + s = 多艘捕鲸船/捕鲸者",
+      "imageChain": [
+        "捕鲸船队",
+        "捕鲸社区"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "whale",
+        "whaler",
+        "whaling"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "whales",
+    "phonetic": "/weɪlz/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "鲸（复数）",
+      "en": "plural of whale"
+    },
+    "morphemes": [
+      {
+        "canonical": "whale",
+        "role": "root",
+        "form": "whale",
+        "meaning": "鲸鱼",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "鲸鱼",
+          "en": "whale"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "复数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数后缀",
+          "en": "plural suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "whale"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "whale + s = 多头鲸鱼",
+      "imageChain": [
+        "鲸群游弋",
+        "深海巨兽"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "whale",
+        "whaler",
+        "whaling"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "dolphins",
+        "porpoises"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "whalev",
+    "phonetic": "/weɪl viː/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "鲸V（缩写/标记）",
+      "en": "whaleV; an informal shorthand or label"
+    },
+    "morphemes": [
+      {
+        "canonical": "whalev",
+        "role": "root",
+        "form": "whalev",
+        "meaning": "whale + v 的组合缩写",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "缩写词",
+          "en": "compound abbreviation"
+        }
+      }
+    ],
+    "derivationChain": [
+      "whale + v"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "whalev = 词源数据库中鲸鱼族词汇标记",
+      "imageChain": [
+        "词库标记",
+        "分类符号"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "whale"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "whaling",
+    "phonetic": "/ˈweɪlɪŋ/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "捕鲸业；捕鲸活动",
+      "en": "the practice or industry of hunting and killing whales"
+    },
+    "morphemes": [
+      {
+        "canonical": "whale",
+        "role": "root",
+        "form": "whal",
+        "meaning": "鲸鱼；捕鲸",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "鲸鱼",
+          "en": "whale"
+        }
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "form": "ing",
+        "meaning": "动名词后缀，表示活动/行业",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "动名词或行业后缀",
+          "en": "gerund or industry suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "whale"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "whale(鲸) + ing(行业/活动) = 捕鲸业",
+      "imageChain": [
+        "远洋捕鲸",
+        "渔业历史",
+        "鱼叉投掷"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "whale",
+        "whaler",
+        "whalers",
+        "whales"
+      ],
+      "sameAffix": [
+        "fishing",
+        "hunting"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "fishing",
+        "hunting",
+        "maritime"
+      ],
+      "derivationPair": [
+        {
+          "base": "whale",
+          "derived": "whaling"
+        }
       ],
       "morphVariants": [],
-      "sameImagery": [
-        "smack",
-        "thwack",
-        "bash"
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "wham",
+    "phonetic": "/wæm/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "猛然撞击；发出砰的一声",
+      "en": "to strike with a heavy blow; to make a loud impact sound"
+    },
+    "morphemes": [
+      {
+        "canonical": "wham",
+        "role": "root",
+        "form": "wham",
+        "meaning": "猛击；砰声（拟声词）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "猛击声",
+          "en": "a heavy blow or impact sound"
+        }
+      }
+    ],
+    "derivationChain": [
+      "拟声词，模仿重击声"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "wham 是拟声词，模仿猛击发出的砰声",
+      "imageChain": [
+        "猛然撞击",
+        "砰的一声",
+        "强力冲击"
       ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "whams",
+        "whammo"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "whack",
+        "bang",
+        "slam"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "whammo",
+    "phonetic": "/ˈwæmoʊ/",
+    "pos": [
+      "interj."
+    ],
+    "coreMeaning": {
+      "cn": "砰！（感叹词，表示突然的猛烈撞击）",
+      "en": "exclamation expressing a sudden, violent impact"
+    },
+    "morphemes": [
+      {
+        "canonical": "wham",
+        "role": "root",
+        "form": "wham",
+        "meaning": "猛击；砰声",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "猛击",
+          "en": "heavy blow"
+        }
+      },
+      {
+        "canonical": "-o",
+        "role": "suffix",
+        "form": "mo",
+        "meaning": "强调后缀（口语）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "口语强调后缀",
+          "en": "informal intensifying suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "wham"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "wham(砰) + mo(强调) = 更响亮的砰！感叹词",
+      "imageChain": [
+        "漫画音效",
+        "夸张撞击",
+        "强力冲击"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "wham",
+        "whams"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "wham",
+        "bang",
+        "pow"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "whams",
+    "phonetic": "/wæmz/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "猛击（三单）；砰击（复数）",
+      "en": "third person singular of wham; plural noun"
+    },
+    "morphemes": [
+      {
+        "canonical": "wham",
+        "role": "root",
+        "form": "wham",
+        "meaning": "猛击",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "猛击",
+          "en": "heavy blow"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "三单/复数后缀",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "三单或复数后缀",
+          "en": "third person singular or plural suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "wham"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "wham + s = 他/她猛撞；多次撞击",
+      "imageChain": [
+        "连续撞击",
+        "反复冲击"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "wham",
+        "whammo"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "whangdoodle",
+    "phonetic": "/ˈwæŋduːdəl/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "虚构的怪兽；胡说八道；无意义的东西",
+      "en": "a fanciful imaginary creature; nonsense"
+    },
+    "morphemes": [
+      {
+        "canonical": "whangdoodle",
+        "role": "root",
+        "form": "whangdoodle",
+        "meaning": "想象中的怪物；无稽之谈",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "虚构怪兽；胡说",
+          "en": "imaginary creature; nonsense"
+        }
+      }
+    ],
+    "derivationChain": [
+      "whang(拍打声) + doodle(涂鸦/无意义)"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "whangdoodle = 完全虚构的词，指无法描述的神奇/荒谬事物",
+      "imageChain": [
+        "奇异怪兽",
+        "想象虚构",
+        "无稽之谈"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "nonsense",
+        "whatchamacallit"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "wharf",
+    "phonetic": "/wɔːrf/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "码头；泊船处",
+      "en": "a flat structure along a waterway where ships may load or unload"
+    },
+    "morphemes": [
+      {
+        "canonical": "wharf",
+        "role": "root",
+        "form": "wharf",
+        "meaning": "码头（古英语 hwearf）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "码头；泊船处",
+          "en": "dock; landing place for ships"
+        }
+      }
+    ],
+    "derivationChain": [
+      "古英语 hwearf (bank, dam)"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "wharf = 码头，船只停靠装卸货物的地方",
+      "imageChain": [
+        "海港码头",
+        "船只停靠",
+        "货物装卸"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "wharfs",
+        "wharves",
+        "wharfinger"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "dock",
+        "pier",
+        "quay"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "pier",
+        "dock",
+        "harbor",
+        "port"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "wharfs",
+        "wharves"
+      ],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "wharfinger",
+    "phonetic": "/ˈwɔːrfɪndʒər/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "码头管理者；码头经营者",
+      "en": "the owner or manager of a wharf"
+    },
+    "morphemes": [
+      {
+        "canonical": "wharf",
+        "role": "root",
+        "form": "wharf",
+        "meaning": "码头",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "码头",
+          "en": "wharf; dock"
+        }
+      },
+      {
+        "canonical": "-inger",
+        "role": "suffix",
+        "form": "inger",
+        "meaning": "…管理者；…者（古英语后缀）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "管理者后缀",
+          "en": "agent/manager suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "wharf + -inger"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "wharf(码头) + inger(管理者) = 码头管理者",
+      "imageChain": [
+        "码头管理",
+        "港口官员",
+        "货运监督"
+      ]
+    },
+    "wordLevel": {
+      "domain": "business",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "wharf",
+        "wharfs",
+        "wharves"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "dockmaster",
+        "harbormaster"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "harbormaster",
+        "dockmaster"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "wharfs",
+    "phonetic": "/wɔːrfs/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "码头（复数，非标准形式）",
+      "en": "non-standard plural of wharf"
+    },
+    "morphemes": [
+      {
+        "canonical": "wharf",
+        "role": "root",
+        "form": "wharf",
+        "meaning": "码头",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "码头",
+          "en": "wharf"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "复数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数后缀",
+          "en": "plural suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "wharf"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "wharf + s = 多个码头（非标准复数）",
+      "imageChain": [
+        "多处码头",
+        "港口群"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "wharf",
+        "wharves",
+        "wharfinger"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [
+        "wharves"
+      ],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "wharton",
+    "phonetic": "/ˈwɔːrtən/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "沃顿（人名/地名）",
+      "en": "Wharton; a surname or place name"
+    },
+    "morphemes": [
+      {
+        "canonical": "wharton",
+        "role": "root",
+        "form": "wharton",
+        "meaning": "沃顿（英语姓氏）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "英语姓氏",
+          "en": "English surname"
+        }
+      }
+    ],
+    "derivationChain": [
+      "英语地名 Wharton (wharf + town)"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "Wharton = wharf(码头) + ton(城镇) = 码头城镇，以沃顿商学院闻名",
+      "imageChain": [
+        "商业精英",
+        "名校标识",
+        "金融学府"
+      ]
+    },
+    "wordLevel": {
+      "domain": "business",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "wharf"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "wharves",
+    "phonetic": "/wɔːrvz/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "码头（复数，标准形式）",
+      "en": "standard plural of wharf"
+    },
+    "morphemes": [
+      {
+        "canonical": "wharf",
+        "role": "root",
+        "form": "wharv",
+        "meaning": "码头",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "码头",
+          "en": "wharf"
+        }
+      },
+      {
+        "canonical": "-es",
+        "role": "suffix",
+        "form": "es",
+        "meaning": "复数后缀（f→v变音）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数后缀（f音变为v）",
+          "en": "plural suffix with f-to-v alternation"
+        }
+      }
+    ],
+    "derivationChain": [
+      "wharf"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "wharves = wharf 的标准复数，多个码头",
+      "imageChain": [
+        "多处港口码头",
+        "繁忙海港"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "wharf",
+        "wharfs",
+        "wharfinger"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [
+        "wharfs"
+      ],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "what",
+    "phonetic": "/wɒt/",
+    "pos": [
+      "pron."
+    ],
+    "coreMeaning": {
+      "cn": "什么；哪些；多么",
+      "en": "used in questions to ask about things; that which"
+    },
+    "morphemes": [
+      {
+        "canonical": "what",
+        "role": "root",
+        "form": "what",
+        "meaning": "什么（古英语 hwæt）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "什么",
+          "en": "what; which thing"
+        }
+      }
+    ],
+    "derivationChain": [
+      "古英语 hwæt"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "what = 最基本的疑问代词，询问事物",
+      "imageChain": [
+        "疑问问号",
+        "询问信息",
+        "探索未知"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "what'd",
+        "what'll",
+        "what're",
+        "what's",
+        "whatever",
+        "whatnot",
+        "whatsoever"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "who",
+        "where",
+        "when",
+        "why",
+        "how"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "what'd",
+    "phonetic": "/wɒtd/",
+    "pos": [
+      "pron."
+    ],
+    "coreMeaning": {
+      "cn": "what did/would 的缩略形式",
+      "en": "contraction of what did or what would"
+    },
+    "morphemes": [
+      {
+        "canonical": "what",
+        "role": "root",
+        "form": "what",
+        "meaning": "什么",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "什么",
+          "en": "what"
+        }
+      },
+      {
+        "canonical": "'d",
+        "role": "suffix",
+        "form": "'d",
+        "meaning": "did/would 的缩略",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "did/would 缩略",
+          "en": "contraction of did or would"
+        }
+      }
+    ],
+    "derivationChain": [
+      "what did/would"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "what'd = what did 或 what would 的口语缩略",
+      "imageChain": [
+        "口语表达",
+        "快速发音"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "what",
+        "what'll",
+        "what're",
+        "what's"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "what'll",
+    "phonetic": "/ˈwɒtl/",
+    "pos": [
+      "pron."
+    ],
+    "coreMeaning": {
+      "cn": "what will 的缩略形式",
+      "en": "contraction of what will"
+    },
+    "morphemes": [
+      {
+        "canonical": "what",
+        "role": "root",
+        "form": "what",
+        "meaning": "什么",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "什么",
+          "en": "what"
+        }
+      },
+      {
+        "canonical": "'ll",
+        "role": "suffix",
+        "form": "'ll",
+        "meaning": "will 的缩略",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "will 的缩略",
+          "en": "contraction of will"
+        }
+      }
+    ],
+    "derivationChain": [
+      "what will"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "what'll = what will 的口语缩略",
+      "imageChain": [
+        "预测提问",
+        "将来时疑问"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "what",
+        "what'd",
+        "what're",
+        "what's"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "what're",
+    "phonetic": "/ˈwɒtər/",
+    "pos": [
+      "pron."
+    ],
+    "coreMeaning": {
+      "cn": "what are 的缩略形式",
+      "en": "contraction of what are"
+    },
+    "morphemes": [
+      {
+        "canonical": "what",
+        "role": "root",
+        "form": "what",
+        "meaning": "什么",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "什么",
+          "en": "what"
+        }
+      },
+      {
+        "canonical": "'re",
+        "role": "suffix",
+        "form": "'re",
+        "meaning": "are 的缩略",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "are 的缩略",
+          "en": "contraction of are"
+        }
+      }
+    ],
+    "derivationChain": [
+      "what are"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "what're = what are 的口语缩略",
+      "imageChain": [
+        "口语询问",
+        "日常对话"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "what",
+        "what'd",
+        "what'll",
+        "what's"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "what's",
+    "phonetic": "/wɒts/",
+    "pos": [
+      "pron."
+    ],
+    "coreMeaning": {
+      "cn": "what is/has 的缩略形式",
+      "en": "contraction of what is or what has"
+    },
+    "morphemes": [
+      {
+        "canonical": "what",
+        "role": "root",
+        "form": "what",
+        "meaning": "什么",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "什么",
+          "en": "what"
+        }
+      },
+      {
+        "canonical": "'s",
+        "role": "suffix",
+        "form": "'s",
+        "meaning": "is/has 的缩略",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "is/has 的缩略",
+          "en": "contraction of is or has"
+        }
+      }
+    ],
+    "derivationChain": [
+      "what is/has"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "what's = what is 的口语缩略，最常见缩略形式",
+      "imageChain": [
+        "日常疑问",
+        "现状询问"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "what",
+        "what'd",
+        "what'll",
+        "what're"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "whatever",
+    "phonetic": "/wɒtˈɛvər/",
+    "pos": [
+      "pron."
+    ],
+    "coreMeaning": {
+      "cn": "任何…的；无论什么；随便",
+      "en": "anything or everything; no matter what"
+    },
+    "morphemes": [
+      {
+        "canonical": "what",
+        "role": "root",
+        "form": "what",
+        "meaning": "什么",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "什么",
+          "en": "what"
+        }
+      },
+      {
+        "canonical": "-ever",
+        "role": "suffix",
+        "form": "ever",
+        "meaning": "无论…；任何…",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "无论…的后缀",
+          "en": "suffix meaning no matter which"
+        }
+      }
+    ],
+    "derivationChain": [
+      "what + ever"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "what(什么) + ever(任何) = 无论什么，任何事",
+      "imageChain": [
+        "无所谓态度",
+        "随意选择",
+        "包容一切"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "what",
+        "whatsoever"
+      ],
+      "sameAffix": [
+        "whoever",
+        "whenever",
+        "wherever"
+      ],
+      "synonyms": [
+        "anything",
+        "no matter what"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "whatnot",
+    "phonetic": "/ˈwɒtnɒt/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "诸如此类；小摆件架；杂物",
+      "en": "other similar things; a small piece of furniture with shelves"
+    },
+    "morphemes": [
+      {
+        "canonical": "what",
+        "role": "root",
+        "form": "what",
+        "meaning": "什么",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "什么",
+          "en": "what"
+        }
+      },
+      {
+        "canonical": "not",
+        "role": "root",
+        "form": "not",
+        "meaning": "不；否",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "否定词",
+          "en": "negation"
+        }
+      }
+    ],
+    "derivationChain": [
+      "what + not"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "whatnot = what not（什么不是），指各种杂七杂八的东西",
+      "imageChain": [
+        "博物架",
+        "小摆件",
+        "各种杂物"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "what",
+        "whatnots"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "etcetera",
+        "and so on",
+        "sundries"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [
+        "whatnots"
+      ],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "whatnots",
+    "phonetic": "/ˈwɒtnɒts/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "诸如此类（复数）；小摆件架（复数）",
+      "en": "plural of whatnot"
+    },
+    "morphemes": [
+      {
+        "canonical": "what",
+        "role": "root",
+        "form": "what",
+        "meaning": "什么",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "什么",
+          "en": "what"
+        }
+      },
+      {
+        "canonical": "not",
+        "role": "root",
+        "form": "not",
+        "meaning": "不；否",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "否定词",
+          "en": "negation"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "复数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数后缀",
+          "en": "plural suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "whatnot"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "whatnot + s = 多个小摆件架或杂物",
+      "imageChain": [
+        "多个博物架",
+        "各类杂物"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "what",
+        "whatnot"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "whatsoever",
+    "phonetic": "/ˌwɒtsəʊˈɛvər/",
+    "pos": [
+      "pron."
+    ],
+    "coreMeaning": {
+      "cn": "任何（用于强调否定）；无论什么",
+      "en": "at all; of any kind (used for emphasis in negative statements)"
+    },
+    "morphemes": [
+      {
+        "canonical": "what",
+        "role": "root",
+        "form": "what",
+        "meaning": "什么",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "什么",
+          "en": "what"
+        }
+      },
+      {
+        "canonical": "so",
+        "role": "linker",
+        "form": "so",
+        "meaning": "如此；强调",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "强调副词",
+          "en": "intensifying adverb"
+        }
+      },
+      {
+        "canonical": "-ever",
+        "role": "suffix",
+        "form": "ever",
+        "meaning": "无论…；任何",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "无论…后缀",
+          "en": "suffix meaning no matter which"
+        }
+      }
+    ],
+    "derivationChain": [
+      "what + so + ever"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "whatsoever = whatever 的强调形式，丝毫没有/完全不",
+      "imageChain": [
+        "绝对否定",
+        "毫无例外",
+        "彻底强调"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "what",
+        "whatever"
+      ],
+      "sameAffix": [
+        "whosoever",
+        "wheresoever"
+      ],
+      "synonyms": [
+        "whatever",
+        "at all",
+        "in any way"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "wheal",
+    "phonetic": "/wiːl/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "皮肤上的疙瘩；风疹块；矿坑",
+      "en": "a raised mark on the skin; a pustule; also a Cornish term for a mine"
+    },
+    "morphemes": [
+      {
+        "canonical": "wheal",
+        "role": "root",
+        "form": "wheal",
+        "meaning": "皮疹；矿坑（方言）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "皮疹块；矿坑",
+          "en": "skin weal or pustule; Cornish mine"
+        }
+      }
+    ],
+    "derivationChain": [
+      "古英语 hwele (pustule)"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "wheal 指皮肤上的红斑疙瘩，也指康沃尔方言中的矿坑",
+      "imageChain": [
+        "皮肤红肿",
+        "过敏反应",
+        "康沃尔矿场"
+      ]
+    },
+    "wordLevel": {
+      "domain": "medical",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "weal",
+        "welt",
+        "pustule"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "welt",
+        "weal",
+        "hive"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "weal"
+      ],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "wheat",
+    "phonetic": "/wiːt/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "小麦；小麦色（浅黄色）",
+      "en": "a cereal grain used for making flour; a pale yellow color"
+    },
+    "morphemes": [
+      {
+        "canonical": "wheat",
+        "role": "root",
+        "form": "wheat",
+        "meaning": "小麦（古英语 hwæte）",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "小麦",
+          "en": "wheat grain"
+        }
+      }
+    ],
+    "derivationChain": [
+      "古英语 hwæte"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "wheat = 小麦，人类最重要的粮食作物之一，麦田金黄",
+      "imageChain": [
+        "金黄麦田",
+        "面包粮食",
+        "丰收景象"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "wheaten",
+        "wheatear",
+        "wheatgerm",
+        "wheaton"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "barley",
+        "rice",
+        "corn",
+        "rye"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "wheatear",
+    "phonetic": "/ˈwiːtɪər/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "石鸫（一种鸣禽）；小麦穗",
+      "en": "a small migratory bird; also the ear of wheat"
+    },
+    "morphemes": [
+      {
+        "canonical": "wheat",
+        "role": "root",
+        "form": "wheat",
+        "meaning": "小麦；（俚语 white-arse 的谐音）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "小麦",
+          "en": "wheat"
+        }
+      },
+      {
+        "canonical": "ear",
+        "role": "root",
+        "form": "ear",
+        "meaning": "穗；耳朵",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "穗；耳",
+          "en": "ear; spike"
+        }
+      }
+    ],
+    "derivationChain": [
+      "white-arse (白尾巴) → wheat + ear"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "wheatear = 石鸫鸟，因尾部白色而得名（委婉化 white-arse）",
+      "imageChain": [
+        "小鸟白尾",
+        "迁徙鸣禽",
+        "开阔田野"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "wheat",
+        "wheaten"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "sparrow",
+        "warbler",
+        "pipit"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "wheaten",
+    "phonetic": "/ˈwiːtən/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "小麦制的；小麦色的；浅黄色的",
+      "en": "made of wheat; of a pale yellow color like wheat"
+    },
+    "morphemes": [
+      {
+        "canonical": "wheat",
+        "role": "root",
+        "form": "wheat",
+        "meaning": "小麦",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "小麦",
+          "en": "wheat"
+        }
+      },
+      {
+        "canonical": "-en",
+        "role": "suffix",
+        "form": "en",
+        "meaning": "由…制成的；…色的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "形容词后缀，由…制成的",
+          "en": "adjective suffix meaning made of or resembling"
+        }
+      }
+    ],
+    "derivationChain": [
+      "wheat"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "wheat(小麦) + en(的) = 小麦制的，麦黄色的",
+      "imageChain": [
+        "小麦颜色",
+        "浅黄面包",
+        "全麦食品"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "wheat",
+        "wheatear",
+        "wheatgerm"
+      ],
+      "sameAffix": [
+        "golden",
+        "oaken"
+      ],
+      "synonyms": [
+        "wheat-colored",
+        "pale yellow"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "wheatgerm",
+    "phonetic": "/ˈwiːtdʒɜːrm/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "小麦胚芽；麦芽",
+      "en": "the nutritious embryo of a wheat grain"
+    },
+    "morphemes": [
+      {
+        "canonical": "wheat",
+        "role": "root",
+        "form": "wheat",
+        "meaning": "小麦",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "小麦",
+          "en": "wheat"
+        }
+      },
+      {
+        "canonical": "germ",
+        "role": "root",
+        "form": "germ",
+        "meaning": "胚芽；细菌；起源",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "胚芽；细菌",
+          "en": "embryo; germ; sprout"
+        }
+      }
+    ],
+    "derivationChain": [
+      "wheat + germ"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "wheat(小麦) + germ(胚芽) = 小麦胚芽，营养丰富",
+      "imageChain": [
+        "营养胚芽",
+        "健康食品",
+        "维生素E"
+      ]
+    },
+    "wordLevel": {
+      "domain": "medical",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "wheat",
+        "wheaten"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "bran",
+        "endosperm",
+        "oatgerm"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "wheaton",
+    "phonetic": "/ˈwiːtən/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "惠顿（地名/人名）",
+      "en": "Wheaton; a place name or surname"
+    },
+    "morphemes": [
+      {
+        "canonical": "wheaton",
+        "role": "root",
+        "form": "wheaton",
+        "meaning": "地名/姓氏（小麦城）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "地名或姓氏",
+          "en": "place name or surname"
+        }
+      }
+    ],
+    "derivationChain": [
+      "wheat + ton (小麦城镇)"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "Wheaton = wheat(小麦) + ton(城镇) = 小麦产地/城镇",
+      "imageChain": [
+        "小镇名称",
+        "农业地名",
+        "美国地名"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "wheat",
+        "wheaten"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "whee",
+    "phonetic": "/wiː/",
+    "pos": [
+      "interj."
+    ],
+    "coreMeaning": {
+      "cn": "哇！（表示快乐和兴奋的感叹词）",
+      "en": "exclamation expressing delight or excitement"
+    },
+    "morphemes": [
+      {
+        "canonical": "whee",
+        "role": "root",
+        "form": "whee",
+        "meaning": "快乐感叹（拟声/感情词）",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 2
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "快乐感叹",
+          "en": "exclamation of joy"
+        }
+      }
+    ],
+    "derivationChain": [
+      "模仿欢乐呼声的感叹词"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "whee = 欢呼声，表示极度快乐和兴奋",
+      "imageChain": [
+        "滑梯滑下",
+        "孩子欢呼",
+        "快乐大叫"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "yay",
+        "hooray",
+        "yahoo"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "wheedle",
+    "phonetic": "/ˈwiːdəl/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "哄骗；用甜言蜜语诱使",
+      "en": "to influence or entice by soft words or flattery; to cajole"
+    },
+    "morphemes": [
+      {
+        "canonical": "wheedle",
+        "role": "root",
+        "form": "wheedle",
+        "meaning": "哄骗；甜言蜜语（可能源自德语 wedeln 摇尾）",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "哄骗；诱骗",
+          "en": "to cajole; to coax"
+        }
+      }
+    ],
+    "derivationChain": [
+      "可能源自德语 wedeln (to wag a tail)"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "wheedle = 像狗摇尾巴一样甜言蜜语，哄骗讨好",
+      "imageChain": [
+        "甜言蜜语",
+        "讨好谄媚",
+        "巧言诱骗"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "wheedled",
+        "wheedles"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "cajole",
+        "coax",
+        "flatter",
+        "inveigle"
+      ],
+      "antonyms": [
+        "bully",
+        "coerce"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "cajole"
+      ]
+    }
+  },
+  {
+    "word": "wheedled",
+    "phonetic": "/ˈwiːdəld/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "哄骗了；诱使了（过去式）",
+      "en": "past tense of wheedle; coaxed or flattered"
+    },
+    "morphemes": [
+      {
+        "canonical": "wheedle",
+        "role": "root",
+        "form": "wheedl",
+        "meaning": "哄骗",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "哄骗",
+          "en": "to cajole"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "form": "ed",
+        "meaning": "过去式后缀",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "过去式后缀",
+          "en": "past tense suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "wheedle"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "wheedle(哄骗) + d = 过去式，曾经哄骗",
+      "imageChain": [
+        "哄骗成功",
+        "甜言蜜语已达目的"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "wheedle",
+        "wheedles"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "cajoled",
+        "coaxed"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "wheedles",
+    "phonetic": "/ˈwiːdəlz/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "哄骗（三单）；诱使（三单）",
+      "en": "third person singular of wheedle"
+    },
+    "morphemes": [
+      {
+        "canonical": "wheedle",
+        "role": "root",
+        "form": "wheedl",
+        "meaning": "哄骗",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "哄骗",
+          "en": "to cajole"
+        }
+      },
+      {
+        "canonical": "-es",
+        "role": "suffix",
+        "form": "es",
+        "meaning": "三单后缀",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "三单后缀",
+          "en": "third person singular suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "wheedle"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "wheedle + s = 他/她哄骗，正在甜言蜜语",
+      "imageChain": [
+        "奉承讨好",
+        "持续哄骗"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "wheedle",
+        "wheedled"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
     }
   }
 ]

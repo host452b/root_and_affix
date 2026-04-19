@@ -1,46 +1,318 @@
 [
   {
-    "word": "thumb",
-    "phonetic": "/θʌm/",
+    "word": "thuggery",
+    "phonetic": "/ˈθʌɡəri/",
     "pos": [
-      "n.",
-      "v."
+      "n."
     ],
     "coreMeaning": {
-      "cn": "大拇指；翻阅",
-      "en": "the short thick finger on the inner side of the hand; to leaf through"
+      "cn": "暴行；流氓行为",
+      "en": "violent or brutal behavior"
     },
     "morphemes": [
       {
-        "canonical": "thumb",
+        "canonical": "thug",
         "role": "root",
-        "meaning": "大拇指",
+        "form": "thugg",
+        "meaning": "robber, ruffian (Hindi origin)",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -2
+        },
+        "coreMeaning": {
+          "cn": "暴徒",
+          "en": "thug"
+        }
+      },
+      {
+        "canonical": "-ery",
+        "role": "suffix",
+        "form": "ery",
+        "meaning": "practice, behavior",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "行为方式",
+          "en": "practice"
+        }
+      }
+    ],
+    "derivationChain": [
+      "thug"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "thug(暴徒)+ery=暴徒的行为方式",
+      "imageChain": [
+        "暴徒→暴力→恶行"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thug",
+        "thugs",
+        "thuggish"
+      ],
+      "sameAffix": [
+        "snobbery",
+        "trickery"
+      ],
+      "synonyms": [
+        "brutality",
+        "violence"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "crime",
+        "violence"
+      ],
+      "derivationPair": [
+        "thuggish"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thuggish",
+    "phonetic": "/ˈθʌɡɪʃ/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "流氓的；粗暴的",
+      "en": "resembling or characteristic of a thug"
+    },
+    "morphemes": [
+      {
+        "canonical": "thug",
+        "role": "root",
+        "form": "thugg",
+        "meaning": "ruffian",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -2
+        },
+        "coreMeaning": {
+          "cn": "暴徒",
+          "en": "thug"
+        }
+      },
+      {
+        "canonical": "-ish",
+        "role": "suffix",
+        "form": "ish",
+        "meaning": "having the quality of",
+        "order": 2,
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 1,
-        "form": "thumb",
-        "positionTendency": "initial"
+        "coreMeaning": {
+          "cn": "具有…特性",
+          "en": "like, relating to"
+        }
       }
     ],
     "derivationChain": [
-      "thumb",
-      "thumbnail",
-      "thumbscrew"
+      "thug"
     ],
     "memorySemantics": {
-      "imageKey": "大拇指比赞",
-      "scene": "社交媒体点赞按钮是大拇指图标，集体认可的文化符号",
-      "emotionalHook": "认可与赞美的温暖共鸣",
-      "imageChain": []
+      "mnemonicExpr": "thug + ish = 像暴徒一样的",
+      "imageChain": [
+        "暴徒→特质→粗暴"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "general"
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thug",
+        "thuggery"
       ],
+      "sameAffix": [
+        "oafish",
+        "loutish"
+      ],
+      "synonyms": [
+        "brutish",
+        "violent"
+      ],
+      "antonyms": [
+        "gentle",
+        "refined"
+      ],
+      "domainCohort": [
+        "crime",
+        "behavior"
+      ],
+      "derivationPair": [
+        "thuggery"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thugs",
+    "phonetic": "/θʌɡz/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "暴徒；恶棍（复数）",
+      "en": "plural of thug; violent criminals"
+    },
+    "morphemes": [
+      {
+        "canonical": "thug",
+        "role": "root",
+        "form": "thug",
+        "meaning": "robber, ruffian",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -2
+        },
+        "coreMeaning": {
+          "cn": "暴徒",
+          "en": "thug"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "plural",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "thug"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "thug的复数",
+      "imageChain": [
+        "多名暴徒"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thug",
+        "thuggery",
+        "thuggish"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "criminals",
+        "ruffians"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "crime",
+        "gangs"
+      ],
+      "derivationPair": [
+        "thug"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thule",
+    "phonetic": "/ˈθjuːli/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "图勒；极北之地",
+      "en": "a remote northern land; the northernmost known region of the ancient world"
+    },
+    "morphemes": [
+      {
+        "canonical": "thule",
+        "role": "root",
+        "form": "thule",
+        "meaning": "Thule, northern land (proper noun origin)",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "极北之地",
+          "en": "northern land"
+        }
+      }
+    ],
+    "derivationChain": [],
+    "memorySemantics": {
+      "mnemonicExpr": "Thule = 古代地理上已知的最北端之地",
+      "imageChain": [
+        "北方→极地→神秘"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
       "sentiment": {
         "tags": [
           "中性"
@@ -50,8 +322,160 @@
     },
     "relations": {
       "sameRoot": [
+        "thulium"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "geography",
+        "history",
+        "mythology"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thulium",
+    "phonetic": "/ˈθjuːliəm/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "铥（化学元素）",
+      "en": "a rare metallic element, symbol Tm, atomic number 69"
+    },
+    "morphemes": [
+      {
+        "canonical": "thule",
+        "role": "root",
+        "form": "thul",
+        "meaning": "Thule (Scandinavia, named after)",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "图勒（斯堪的纳维亚）",
+          "en": "Thule (Scandinavia)"
+        }
+      },
+      {
+        "canonical": "-ium",
+        "role": "suffix",
+        "form": "ium",
+        "meaning": "chemical element",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "元素",
+          "en": "element"
+        }
+      }
+    ],
+    "derivationChain": [
+      "Thule"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "Thule(北欧)+ium=以北欧命名的金属元素",
+      "imageChain": [
+        "北欧→命名→稀土元素"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thule"
+      ],
+      "sameAffix": [
+        "uranium",
+        "calcium",
+        "helium"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "element",
+        "rare earth",
+        "chemistry"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thumb",
+    "phonetic": "/θʌm/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "大拇指",
+      "en": "the short thick first digit of the hand"
+    },
+    "morphemes": [
+      {
+        "canonical": "thumb",
+        "role": "root",
+        "form": "thumb",
+        "meaning": "thumb (Old English þūma)",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "大拇指",
+          "en": "thumb"
+        }
+      }
+    ],
+    "derivationChain": [],
+    "memorySemantics": {
+      "mnemonicExpr": "thumb = 大拇指，最粗的手指",
+      "imageChain": [
+        "手→最粗→拇指"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thumbed",
+        "thumbing",
+        "thumbs",
         "thumbnail",
-        "thumbscrew",
         "thumbtack"
       ],
       "sameAffix": [],
@@ -62,135 +486,74 @@
       "domainCohort": [
         "finger",
         "hand",
-        "grip"
+        "digit"
       ],
       "derivationPair": [
         "thumbnail"
       ],
       "morphVariants": [],
-      "sameImagery": [
-        "digit",
-        "finger"
-      ]
+      "sameImagery": []
     }
   },
   {
-    "word": "thump",
-    "phonetic": "/θʌmp/",
+    "word": "thumbed",
+    "phonetic": "/θʌmd/",
     "pos": [
-      "n.",
       "v."
     ],
     "coreMeaning": {
-      "cn": "重击；捶击；砰地一声",
-      "en": "a heavy blow; to hit with a heavy dull sound"
+      "cn": "翻阅；用拇指翻",
+      "en": "past tense of thumb; leafed through with the thumb"
     },
     "morphemes": [
       {
-        "canonical": "thump",
+        "canonical": "thumb",
         "role": "root",
-        "meaning": "重击；砰击",
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": -1
-        },
+        "form": "thumb",
+        "meaning": "thumb",
         "order": 1,
-        "form": "thump",
-        "positionTendency": "initial"
-      }
-    ],
-    "derivationChain": [
-      "thump",
-      "thumping"
-    ],
-    "memorySemantics": {
-      "imageKey": "拳头砸桌子",
-      "scene": "愤怒的谈判者用拳头重击桌面，发出震耳的砰响",
-      "emotionalHook": "愤怒爆发的强烈冲击感",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": -1
-      }
-    },
-    "relations": {
-      "sameRoot": [],
-      "sameAffix": [],
-      "synonyms": [
-        "bang",
-        "pound",
-        "beat",
-        "knock"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "bang",
-        "pound",
-        "thud"
-      ],
-      "derivationPair": [
-        "thumping"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "pound",
-        "bang"
-      ]
-    }
-  },
-  {
-    "word": "thunder",
-    "phonetic": "/'θʌndɚ/",
-    "pos": [
-      "n.",
-      "v."
-    ],
-    "coreMeaning": {
-      "cn": "雷；雷声；发出轰鸣",
-      "en": "the loud rumbling sound after lightning; to make a loud noise"
-    },
-    "morphemes": [
-      {
-        "canonical": "thunder",
-        "role": "root",
-        "meaning": "雷；轰鸣",
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 1,
-        "form": "thunder",
-        "positionTendency": "initial"
+        "coreMeaning": {
+          "cn": "拇指",
+          "en": "thumb"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "form": "ed",
+        "meaning": "past tense",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "过去时",
+          "en": "past tense"
+        }
       }
     ],
     "derivationChain": [
-      "thunder",
-      "thunderous",
-      "thunderstorm",
-      "thunderstruck"
+      "thumb"
     ],
     "memorySemantics": {
-      "imageKey": "暴风雨中的雷声",
-      "scene": "黑云密布，闪电划过天空，随即传来震耳欲聋的雷声",
-      "emotionalHook": "自然力量的震撼与敬畏",
-      "imageChain": []
+      "mnemonicExpr": "thumb + ed = 用拇指翻过",
+      "imageChain": [
+        "书→翻阅→拇指痕迹"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "general",
-        "literary"
-      ],
+      "domain": "general",
       "sentiment": {
         "tags": [
           "中性"
@@ -200,92 +563,1380 @@
     },
     "relations": {
       "sameRoot": [
-        "thunderstruck",
-        "thunderous",
-        "thunderstorm",
-        "thunderbolt"
+        "thumb",
+        "thumbing"
       ],
       "sameAffix": [],
       "synonyms": [
-        "boom",
-        "rumble",
-        "roar"
+        "leafed",
+        "browsed"
       ],
-      "antonyms": [
-        "silence",
-        "whisper"
-      ],
-      "domainCohort": [
-        "lightning",
-        "storm",
-        "thunder"
-      ],
+      "antonyms": [],
+      "domainCohort": [],
       "derivationPair": [
-        "thunderstruck",
-        "thunderous"
+        "thumb"
       ],
       "morphVariants": [],
-      "sameImagery": [
-        "boom",
-        "roar"
-      ]
+      "sameImagery": []
     }
   },
   {
-    "word": "thunderous",
-    "phonetic": "/'θʌndərəs/",
+    "word": "thumbing",
+    "phonetic": "/ˈθʌmɪŋ/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "翻阅；搭便车",
+      "en": "present participle of thumb; leafing through or hitchhiking"
+    },
+    "morphemes": [
+      {
+        "canonical": "thumb",
+        "role": "root",
+        "form": "thumb",
+        "meaning": "thumb",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "拇指",
+          "en": "thumb"
+        }
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "form": "ing",
+        "meaning": "present participle",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "进行时",
+          "en": "present participle"
+        }
+      }
+    ],
+    "derivationChain": [
+      "thumb"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "thumb + ing = 用拇指翻阅或招手",
+      "imageChain": [
+        "拇指→翻书/招车"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thumb",
+        "thumbed"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "thumb"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thumbkin",
+    "phonetic": "/ˈθʌmkɪn/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "拇指夹（旧式刑具）",
+      "en": "an instrument of torture for squeezing the thumb; thumbscrew"
+    },
+    "morphemes": [
+      {
+        "canonical": "thumb",
+        "role": "root",
+        "form": "thumb",
+        "meaning": "thumb",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "拇指",
+          "en": "thumb"
+        }
+      },
+      {
+        "canonical": "-kin",
+        "role": "suffix",
+        "form": "kin",
+        "meaning": "diminutive, small device",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "小型",
+          "en": "small"
+        }
+      }
+    ],
+    "derivationChain": [
+      "thumb"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "thumb(拇指)+kin(小)=夹拇指的小刑具",
+      "imageChain": [
+        "拇指→夹紧→刑具"
+      ]
+    },
+    "wordLevel": {
+      "domain": "medical",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thumb",
+        "thumbscrew"
+      ],
+      "sameAffix": [
+        "lambkin",
+        "manikin"
+      ],
+      "synonyms": [
+        "thumbscrew"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "torture",
+        "history"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thumbnail",
+    "phonetic": "/ˈθʌmneɪl/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "拇指甲；缩略图",
+      "en": "the nail of the thumb; a small version of an image"
+    },
+    "morphemes": [
+      {
+        "canonical": "thumb",
+        "role": "root",
+        "form": "thumb",
+        "meaning": "thumb",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "拇指",
+          "en": "thumb"
+        }
+      },
+      {
+        "canonical": "nail",
+        "role": "root",
+        "form": "nail",
+        "meaning": "nail, fingernail",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "指甲",
+          "en": "nail"
+        }
+      }
+    ],
+    "derivationChain": [
+      "thumb + nail"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "thumb(拇指)+nail(指甲)=拇指甲；引申为缩略图",
+      "imageChain": [
+        "拇指甲→小尺寸→缩略图"
+      ]
+    },
+    "wordLevel": {
+      "domain": "tech",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thumb",
+        "thumbnails"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "preview",
+        "miniature"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "image",
+        "icon",
+        "preview"
+      ],
+      "derivationPair": [
+        "thumbnails"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thumbnails",
+    "phonetic": "/ˈθʌmneɪlz/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "缩略图（复数）；拇指甲（复数）",
+      "en": "plural of thumbnail"
+    },
+    "morphemes": [
+      {
+        "canonical": "thumb",
+        "role": "root",
+        "form": "thumb",
+        "meaning": "thumb",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "拇指",
+          "en": "thumb"
+        }
+      },
+      {
+        "canonical": "nail",
+        "role": "root",
+        "form": "nail",
+        "meaning": "nail",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "指甲",
+          "en": "nail"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "plural",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "thumbnail"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "thumbnail的复数",
+      "imageChain": [
+        "多个缩略图"
+      ]
+    },
+    "wordLevel": {
+      "domain": "tech",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thumbnail",
+        "thumb"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "images",
+        "icons"
+      ],
+      "derivationPair": [
+        "thumbnail"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thumbs",
+    "phonetic": "/θʌmz/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "大拇指（复数）",
+      "en": "plural of thumb"
+    },
+    "morphemes": [
+      {
+        "canonical": "thumb",
+        "role": "root",
+        "form": "thumb",
+        "meaning": "thumb",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "拇指",
+          "en": "thumb"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "plural",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "thumb"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "thumb的复数；thumbs up = 点赞",
+      "imageChain": [
+        "拇指→竖起→赞同"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thumb",
+        "thumbnail"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "thumb"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thumbscrew",
+    "phonetic": "/ˈθʌmskruː/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "拇指螺丝；拇指刑具",
+      "en": "a screw turned by the thumb; an instrument of torture"
+    },
+    "morphemes": [
+      {
+        "canonical": "thumb",
+        "role": "root",
+        "form": "thumb",
+        "meaning": "thumb",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "拇指",
+          "en": "thumb"
+        }
+      },
+      {
+        "canonical": "screw",
+        "role": "root",
+        "form": "screw",
+        "meaning": "screw, twist",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "螺丝",
+          "en": "screw"
+        }
+      }
+    ],
+    "derivationChain": [
+      "thumb + screw"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "thumb(拇指)+screw(螺丝)=用拇指拧的螺丝/夹拇指的刑具",
+      "imageChain": [
+        "螺丝→拇指→刑具"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thumb",
+        "thumbkin"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "thumbkin"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "tool",
+        "torture"
+      ],
+      "derivationPair": [
+        "thumbscrews"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thumbscrews",
+    "phonetic": "/ˈθʌmskruːz/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "拇指螺丝（复数）",
+      "en": "plural of thumbscrew"
+    },
+    "morphemes": [
+      {
+        "canonical": "thumb",
+        "role": "root",
+        "form": "thumb",
+        "meaning": "thumb",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "拇指",
+          "en": "thumb"
+        }
+      },
+      {
+        "canonical": "screw",
+        "role": "root",
+        "form": "screw",
+        "meaning": "screw",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "螺丝",
+          "en": "screw"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "plural",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "thumbscrew"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "thumbscrew的复数",
+      "imageChain": [
+        "多个拇指螺丝"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thumbscrew",
+        "thumb"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "thumbscrew"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thumbtack",
+    "phonetic": "/ˈθʌmtæk/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "图钉（美）",
+      "en": "a short pin with a large flat head for fastening paper"
+    },
+    "morphemes": [
+      {
+        "canonical": "thumb",
+        "role": "root",
+        "form": "thumb",
+        "meaning": "thumb",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "拇指",
+          "en": "thumb"
+        }
+      },
+      {
+        "canonical": "tack",
+        "role": "root",
+        "form": "tack",
+        "meaning": "small nail, pin",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "小钉",
+          "en": "tack"
+        }
+      }
+    ],
+    "derivationChain": [
+      "thumb + tack"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "thumb(拇指)+tack(小钉)=用拇指按的小图钉",
+      "imageChain": [
+        "拇指→按压→图钉"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thumb",
+        "thumbtacks"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "drawing pin",
+        "pushpin"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "pin",
+        "stationery"
+      ],
+      "derivationPair": [
+        "thumbtacks"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thumbtacks",
+    "phonetic": "/ˈθʌmtæks/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "图钉（复数）",
+      "en": "plural of thumbtack"
+    },
+    "morphemes": [
+      {
+        "canonical": "thumb",
+        "role": "root",
+        "form": "thumb",
+        "meaning": "thumb",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "拇指",
+          "en": "thumb"
+        }
+      },
+      {
+        "canonical": "tack",
+        "role": "root",
+        "form": "tack",
+        "meaning": "pin",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "小钉",
+          "en": "tack"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "plural",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "thumbtack"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "thumbtack的复数",
+      "imageChain": [
+        "多枚图钉"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thumbtack",
+        "thumb"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "thumbtack"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thump",
+    "phonetic": "/θʌmp/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "重击；砰的一声",
+      "en": "a heavy dull blow or its sound"
+    },
+    "morphemes": [
+      {
+        "canonical": "thump",
+        "role": "root",
+        "form": "thump",
+        "meaning": "heavy blow (imitative)",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "重击",
+          "en": "heavy blow"
+        }
+      }
+    ],
+    "derivationChain": [],
+    "memorySemantics": {
+      "mnemonicExpr": "thump = 拟声词，砰的重击声",
+      "imageChain": [
+        "拳头→重击→砰声"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thumped",
+        "thumping",
+        "thumps"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "bang",
+        "pound",
+        "beat"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "blow",
+        "hit",
+        "sound"
+      ],
+      "derivationPair": [
+        "thumped"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thumped",
+    "phonetic": "/θʌmpt/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "重击（过去时）",
+      "en": "past tense of thump; struck with a heavy blow"
+    },
+    "morphemes": [
+      {
+        "canonical": "thump",
+        "role": "root",
+        "form": "thump",
+        "meaning": "heavy blow",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "重击",
+          "en": "thump"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "form": "ed",
+        "meaning": "past tense",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "过去时",
+          "en": "past tense"
+        }
+      }
+    ],
+    "derivationChain": [
+      "thump"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "thump + ed = 重击了",
+      "imageChain": [
+        "重击→完成"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thump",
+        "thumping"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "struck",
+        "pounded"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "thump"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thumping",
+    "phonetic": "/ˈθʌmpɪŋ/",
     "pos": [
       "adj."
     ],
     "coreMeaning": {
-      "cn": "雷鸣般的；震耳欲聋的",
-      "en": "very loud like thunder; making a thunderous noise"
+      "cn": "重击的；巨大的",
+      "en": "making heavy blows; impressively large"
+    },
+    "morphemes": [
+      {
+        "canonical": "thump",
+        "role": "root",
+        "form": "thump",
+        "meaning": "heavy blow",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "重击",
+          "en": "thump"
+        }
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "form": "ing",
+        "meaning": "participial adjective",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "形容词化",
+          "en": "adjective"
+        }
+      }
+    ],
+    "derivationChain": [
+      "thump"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "thump + ing = 砰砰作响的；巨大的",
+      "imageChain": [
+        "重击→强调→巨大"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thump",
+        "thumped"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "resounding",
+        "massive"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "emphasis"
+      ],
+      "derivationPair": [
+        "thump"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thumps",
+    "phonetic": "/θʌmps/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "重击（复数）",
+      "en": "plural of thump"
+    },
+    "morphemes": [
+      {
+        "canonical": "thump",
+        "role": "root",
+        "form": "thump",
+        "meaning": "heavy blow",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "重击",
+          "en": "thump"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "plural",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "thump"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "thump的复数",
+      "imageChain": [
+        "多次重击"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thump",
+        "thumped"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "thump"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thunder",
+    "phonetic": "/ˈθʌndər/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "雷声；轰鸣声",
+      "en": "the loud rumbling sound following lightning"
     },
     "morphemes": [
       {
         "canonical": "thunder",
         "role": "root",
-        "meaning": "雷；轰鸣",
+        "form": "thunder",
+        "meaning": "thunder (Old English þunor)",
+        "order": 1,
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 1,
+        "coreMeaning": {
+          "cn": "雷声",
+          "en": "thunder"
+        }
+      }
+    ],
+    "derivationChain": [],
+    "memorySemantics": {
+      "mnemonicExpr": "thunder = 轰隆雷鸣，来自Thor（雷神）",
+      "imageChain": [
+        "闪电→雷声→轰鸣"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thunderstorm",
+        "thunderbolt",
+        "thunderclap",
+        "thunderous",
+        "thunderstruck"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "rumble",
+        "boom"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "lightning",
+        "storm",
+        "rain"
+      ],
+      "derivationPair": [
+        "thunderous"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thunderbird",
+    "phonetic": "/ˈθʌndəbɜːd/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "雷鸟（北美原住民神话）",
+      "en": "a mythical bird of North American Indigenous peoples said to cause thunder"
+    },
+    "morphemes": [
+      {
+        "canonical": "thunder",
+        "role": "root",
         "form": "thunder",
-        "positionTendency": "initial"
+        "meaning": "thunder",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "雷声",
+          "en": "thunder"
+        }
       },
       {
-        "canonical": "-ous",
-        "role": "suffix",
-        "meaning": "充满……的（形容词后缀）",
+        "canonical": "bird",
+        "role": "root",
+        "form": "bird",
+        "meaning": "bird",
+        "order": 2,
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 2,
-        "form": "ous",
-        "positionTendency": "final"
+        "coreMeaning": {
+          "cn": "鸟",
+          "en": "bird"
+        }
       }
     ],
     "derivationChain": [
-      "thunder",
-      "thunderous"
+      "thunder + bird"
     ],
     "memorySemantics": {
-      "imageKey": "雷鸣般的掌声",
-      "scene": "音乐会结束，全场观众发出如雷贯耳的掌声，震动整个大厅",
-      "emotionalHook": "震撼人心的巨大声响带来的情绪高潮",
-      "imageChain": []
+      "mnemonicExpr": "thunder(雷)+bird(鸟)=雷鸟神话形象",
+      "imageChain": [
+        "神鸟→雷声→神话"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "literary",
-        "general"
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thunder"
       ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "mythology",
+        "native"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thunderbolt",
+    "phonetic": "/ˈθʌndəbəʊlt/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "霹雳；雷电；意外打击",
+      "en": "a lightning flash with simultaneous thunder; a sudden overwhelming event"
+    },
+    "morphemes": [
+      {
+        "canonical": "thunder",
+        "role": "root",
+        "form": "thunder",
+        "meaning": "thunder",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "雷声",
+          "en": "thunder"
+        }
+      },
+      {
+        "canonical": "bolt",
+        "role": "root",
+        "form": "bolt",
+        "meaning": "bolt, shaft of lightning",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "闪电",
+          "en": "bolt"
+        }
+      }
+    ],
+    "derivationChain": [
+      "thunder + bolt"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "thunder(雷)+bolt(闪电箭)=霹雳雷电",
+      "imageChain": [
+        "雷声→闪电→突然打击"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
       "sentiment": {
         "tags": [
           "中性"
@@ -296,218 +1947,1693 @@
     "relations": {
       "sameRoot": [
         "thunder",
-        "thunderstruck"
+        "thunderbolts"
       ],
-      "sameAffix": [
-        "glamorous",
-        "raucous"
-      ],
+      "sameAffix": [],
       "synonyms": [
-        "deafening",
-        "booming",
-        "roaring",
-        "resounding"
+        "lightning bolt",
+        "thunderclap"
       ],
-      "antonyms": [
-        "quiet",
-        "silent",
-        "hushed"
-      ],
+      "antonyms": [],
       "domainCohort": [
-        "deafening",
-        "booming",
-        "reverberating"
+        "lightning",
+        "storm"
       ],
       "derivationPair": [
-        "thunder"
+        "thunderbolts"
       ],
       "morphVariants": [],
-      "sameImagery": [
-        "deafening",
-        "roaring"
-      ]
+      "sameImagery": []
     }
   },
   {
-    "word": "thunderstruck",
-    "phonetic": "/'θʌndəstrʌk/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "极度震惊的；目瞪口呆的",
-      "en": "extremely surprised or shocked; astonished"
-    },
-    "morphemes": [
-      {
-        "canonical": "thunder",
-        "role": "root",
-        "meaning": "雷击",
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": -1
-        },
-        "order": 1,
-        "form": "thunder",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "strike",
-        "role": "root",
-        "meaning": "击打",
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": -1
-        },
-        "order": 2,
-        "form": "struck",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "thunder",
-      "thunderstruck"
-    ],
-    "memorySemantics": {
-      "imageKey": "被雷劈到的震惊",
-      "scene": "人被晴天霹雳劈中，整个人呆在原地，无法动弹——比喻极度震惊",
-      "emotionalHook": "突如其来的震惊令人瞬间石化",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general",
-        "literary"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": -1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "thunder"
-      ],
-      "sameAffix": [
-        "awestruck",
-        "dumbstruck"
-      ],
-      "synonyms": [
-        "astonished",
-        "dumbfounded",
-        "flabbergasted",
-        "stunned"
-      ],
-      "antonyms": [
-        "unsurprised",
-        "calm"
-      ],
-      "domainCohort": [
-        "astonished",
-        "aghast",
-        "dumbfounded"
-      ],
-      "derivationPair": [
-        "thunder"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "dumbfounded",
-        "awestruck"
-      ]
-    }
-  },
-  {
-    "word": "thunderbolt",
-    "phonetic": "/'θʌndəbəʊlt/",
+    "word": "thunderbolts",
+    "phonetic": "/ˈθʌndəbəʊlts/",
     "pos": [
       "n."
     ],
     "coreMeaning": {
-      "cn": "雷电；霹雳；突如其来的震惊事件",
-      "en": "a flash of lightning with the sound of thunder; a sudden and unexpected event"
+      "cn": "霹雳（复数）",
+      "en": "plural of thunderbolt"
     },
     "morphemes": [
       {
         "canonical": "thunder",
         "role": "root",
-        "meaning": "雷",
+        "form": "thunder",
+        "meaning": "thunder",
+        "order": 1,
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 1,
-        "form": "thunder",
-        "positionTendency": "initial"
+        "coreMeaning": {
+          "cn": "雷声",
+          "en": "thunder"
+        }
       },
       {
         "canonical": "bolt",
         "role": "root",
-        "meaning": "闪射；箭",
+        "form": "bolt",
+        "meaning": "bolt",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "闪电",
+          "en": "bolt"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "plural",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "thunderbolt"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "thunderbolt的复数",
+      "imageChain": [
+        "多道霹雳"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thunderbolt",
+        "thunder"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "thunderbolt"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thunderclap",
+    "phonetic": "/ˈθʌndəklæp/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "雷鸣；霹雳一声",
+      "en": "a single crash of thunder; a sudden shocking event"
+    },
+    "morphemes": [
+      {
+        "canonical": "thunder",
+        "role": "root",
+        "form": "thunder",
+        "meaning": "thunder",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "雷声",
+          "en": "thunder"
+        }
+      },
+      {
+        "canonical": "clap",
+        "role": "root",
+        "form": "clap",
+        "meaning": "sudden loud noise, strike",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "拍击声",
+          "en": "clap"
+        }
+      }
+    ],
+    "derivationChain": [
+      "thunder + clap"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "thunder(雷)+clap(拍击)=雷鸣一声",
+      "imageChain": [
+        "雷声→一声→震撼"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thunder",
+        "thunderclaps"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "thunderbolt",
+        "crack of thunder"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "storm",
+        "thunder"
+      ],
+      "derivationPair": [
+        "thunderclaps"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thunderclaps",
+    "phonetic": "/ˈθʌndəklæps/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "雷鸣声（复数）",
+      "en": "plural of thunderclap"
+    },
+    "morphemes": [
+      {
+        "canonical": "thunder",
+        "role": "root",
+        "form": "thunder",
+        "meaning": "thunder",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "雷声",
+          "en": "thunder"
+        }
+      },
+      {
+        "canonical": "clap",
+        "role": "root",
+        "form": "clap",
+        "meaning": "strike",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "拍击",
+          "en": "clap"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "plural",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "thunderclap"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "thunderclap的复数",
+      "imageChain": [
+        "多声雷鸣"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thunderclap",
+        "thunder"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "thunderclap"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thundercloud",
+    "phonetic": "/ˈθʌndəklaʊd/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "雷雨云；乌云",
+      "en": "a cumulonimbus cloud producing thunder and lightning"
+    },
+    "morphemes": [
+      {
+        "canonical": "thunder",
+        "role": "root",
+        "form": "thunder",
+        "meaning": "thunder",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "雷声",
+          "en": "thunder"
+        }
+      },
+      {
+        "canonical": "cloud",
+        "role": "root",
+        "form": "cloud",
+        "meaning": "cloud",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "云",
+          "en": "cloud"
+        }
+      }
+    ],
+    "derivationChain": [
+      "thunder + cloud"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "thunder(雷)+cloud(云)=会打雷的云",
+      "imageChain": [
+        "乌云→闪电→雷鸣"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thunder",
+        "thunderclouds"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "cumulonimbus",
+        "storm cloud"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "weather",
+        "storm"
+      ],
+      "derivationPair": [
+        "thunderclouds"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thunderclouds",
+    "phonetic": "/ˈθʌndəklaʊdz/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "雷雨云（复数）",
+      "en": "plural of thundercloud"
+    },
+    "morphemes": [
+      {
+        "canonical": "thunder",
+        "role": "root",
+        "form": "thunder",
+        "meaning": "thunder",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "雷声",
+          "en": "thunder"
+        }
+      },
+      {
+        "canonical": "cloud",
+        "role": "root",
+        "form": "cloud",
+        "meaning": "cloud",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "云",
+          "en": "cloud"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "plural",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "thundercloud"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "thundercloud的复数",
+      "imageChain": [
+        "多团雷雨云"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thundercloud",
+        "thunder"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "thundercloud"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thundered",
+    "phonetic": "/ˈθʌndəd/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "发出雷声；大声说（过去时）",
+      "en": "past tense of thunder; made a thundering noise"
+    },
+    "morphemes": [
+      {
+        "canonical": "thunder",
+        "role": "root",
+        "form": "thunder",
+        "meaning": "thunder",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "雷声",
+          "en": "thunder"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "form": "ed",
+        "meaning": "past tense",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "过去时",
+          "en": "past tense"
+        }
+      }
+    ],
+    "derivationChain": [
+      "thunder"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "thunder + ed = 打了雷",
+      "imageChain": [
+        "雷鸣→响过"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thunder",
+        "thundering"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "roared",
+        "rumbled"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "thunder"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thunderer",
+    "phonetic": "/ˈθʌndərər/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "雷神；发出雷鸣声的人或物",
+      "en": "one that thunders; the Thunderer (Zeus/Thor)"
+    },
+    "morphemes": [
+      {
+        "canonical": "thunder",
+        "role": "root",
+        "form": "thunder",
+        "meaning": "thunder",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "雷声",
+          "en": "thunder"
+        }
+      },
+      {
+        "canonical": "-er",
+        "role": "suffix",
+        "form": "er",
+        "meaning": "agent noun",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "施动者",
+          "en": "agent"
+        }
+      }
+    ],
+    "derivationChain": [
+      "thunder"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "thunder + er = 打雷者，雷神",
+      "imageChain": [
+        "雷声→神话→雷神"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thunder",
+        "thunderers"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "mythology",
+        "deity"
+      ],
+      "derivationPair": [
+        "thunderers"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thunderers",
+    "phonetic": "/ˈθʌndərərz/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "雷神（复数）",
+      "en": "plural of thunderer"
+    },
+    "morphemes": [
+      {
+        "canonical": "thunder",
+        "role": "root",
+        "form": "thunder",
+        "meaning": "thunder",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "雷声",
+          "en": "thunder"
+        }
+      },
+      {
+        "canonical": "-ers",
+        "role": "suffix",
+        "form": "ers",
+        "meaning": "plural agents",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数施动者",
+          "en": "plural agents"
+        }
+      }
+    ],
+    "derivationChain": [
+      "thunderer"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "thunderer的复数",
+      "imageChain": [
+        "多个雷神"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thunderer",
+        "thunder"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "thunderer"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thunderhead",
+    "phonetic": "/ˈθʌndəhɛd/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "积雨云顶部；雷云顶",
+      "en": "a rounded mass of cumulus cloud at the top of a thunderstorm"
+    },
+    "morphemes": [
+      {
+        "canonical": "thunder",
+        "role": "root",
+        "form": "thunder",
+        "meaning": "thunder",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "雷声",
+          "en": "thunder"
+        }
+      },
+      {
+        "canonical": "head",
+        "role": "root",
+        "form": "head",
+        "meaning": "top, upper part",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "顶部",
+          "en": "top"
+        }
+      }
+    ],
+    "derivationChain": [
+      "thunder + head"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "thunder(雷)+head(顶)=雷云的顶部",
+      "imageChain": [
+        "积雨云→顶部→砧状"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thunder",
+        "thundercloud"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "anvil cloud",
+        "cumulonimbus"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "weather",
+        "cloud",
+        "storm"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thundering",
+    "phonetic": "/ˈθʌndərɪŋ/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "雷鸣的；巨大的",
+      "en": "making a thundering sound; impressively great"
+    },
+    "morphemes": [
+      {
+        "canonical": "thunder",
+        "role": "root",
+        "form": "thunder",
+        "meaning": "thunder",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "雷声",
+          "en": "thunder"
+        }
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "form": "ing",
+        "meaning": "participial adjective",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "形容词化",
+          "en": "adjective"
+        }
+      }
+    ],
+    "derivationChain": [
+      "thunder"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "thunder + ing = 雷鸣般的",
+      "imageChain": [
+        "雷声→形容→巨大"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thunder",
+        "thundered"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "booming",
+        "roaring"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "thunder"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thunderous",
+    "phonetic": "/ˈθʌndərəs/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "雷鸣般的；震耳欲聋的",
+      "en": "making a very loud, deep, resonant noise like thunder"
+    },
+    "morphemes": [
+      {
+        "canonical": "thunder",
+        "role": "root",
+        "form": "thunder",
+        "meaning": "thunder",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "雷声",
+          "en": "thunder"
+        }
+      },
+      {
+        "canonical": "-ous",
+        "role": "suffix",
+        "form": "ous",
+        "meaning": "having the quality of",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "具有…特性",
+          "en": "having quality"
+        }
+      }
+    ],
+    "derivationChain": [
+      "thunder"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "thunder + ous = 充满雷鸣特质的",
+      "imageChain": [
+        "雷声→震耳→振荡"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thunder",
+        "thunderously"
+      ],
+      "sameAffix": [
+        "boisterous",
+        "tumultuous"
+      ],
+      "synonyms": [
+        "deafening",
+        "booming",
+        "resounding"
+      ],
+      "antonyms": [
+        "quiet",
+        "silent"
+      ],
+      "domainCohort": [
+        "sound",
+        "noise",
+        "applause"
+      ],
+      "derivationPair": [
+        "thunderously"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thunderously",
+    "phonetic": "/ˈθʌndərəsli/",
+    "pos": [
+      "adv."
+    ],
+    "coreMeaning": {
+      "cn": "雷鸣般地；震耳欲聋地",
+      "en": "in a thunderous manner"
+    },
+    "morphemes": [
+      {
+        "canonical": "thunder",
+        "role": "root",
+        "form": "thunder",
+        "meaning": "thunder",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "雷声",
+          "en": "thunder"
+        }
+      },
+      {
+        "canonical": "-ly",
+        "role": "suffix",
+        "form": "ously",
+        "meaning": "adverb",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "副词化",
+          "en": "adverb"
+        }
+      }
+    ],
+    "derivationChain": [
+      "thunderous"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "thunderous + ly = 以雷鸣般方式",
+      "imageChain": [
+        "震耳→方式→副词"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thunderous",
+        "thunder"
+      ],
+      "sameAffix": [
+        "deafeningly",
+        "boisterously"
+      ],
+      "synonyms": [
+        "deafeningly",
+        "loudly"
+      ],
+      "antonyms": [
+        "quietly",
+        "softly"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "thunderous"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thunders",
+    "phonetic": "/ˈθʌndərz/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "打雷（第三人称单数）",
+      "en": "third person singular of thunder"
+    },
+    "morphemes": [
+      {
+        "canonical": "thunder",
+        "role": "root",
+        "form": "thunder",
+        "meaning": "thunder",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "雷声",
+          "en": "thunder"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "3rd person singular",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "第三人称单数",
+          "en": "3rd person"
+        }
+      }
+    ],
+    "derivationChain": [
+      "thunder"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "thunder的第三人称",
+      "imageChain": [
+        "雷声→打"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thunder",
+        "thundered"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "thunder"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thunderstorm",
+    "phonetic": "/ˈθʌndəstɔːm/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "雷暴；雷雨",
+      "en": "a storm with thunder and lightning and usually heavy rain"
+    },
+    "morphemes": [
+      {
+        "canonical": "thunder",
+        "role": "root",
+        "form": "thunder",
+        "meaning": "thunder",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "雷声",
+          "en": "thunder"
+        }
+      },
+      {
+        "canonical": "storm",
+        "role": "root",
+        "form": "storm",
+        "meaning": "storm, tempest",
+        "order": 2,
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "消极"
           ],
           "intensity": -1
         },
-        "order": 2,
-        "form": "bolt",
-        "positionTendency": "final"
+        "coreMeaning": {
+          "cn": "风暴",
+          "en": "storm"
+        }
       }
     ],
     "derivationChain": [
-      "thunder",
-      "bolt",
-      "thunderbolt"
+      "thunder + storm"
     ],
     "memorySemantics": {
-      "imageKey": "宙斯的雷电之矢",
-      "scene": "希腊神话中宙斯将雷电之矢投向人间，作为神的惩罚",
-      "emotionalHook": "神圣力量与突然打击的双重震撼",
-      "imageChain": []
+      "mnemonicExpr": "thunder(雷)+storm(风暴)=雷雨风暴",
+      "imageChain": [
+        "雷电→暴雨→雷暴"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "literary",
-        "general"
-      ],
+      "domain": "general",
       "sentiment": {
         "tags": [
-          "消极"
+          "中性"
         ],
-        "intensity": -1
+        "intensity": 0
       }
     },
     "relations": {
       "sameRoot": [
-        "thunder"
+        "thunder",
+        "thunderstorms"
       ],
       "sameAffix": [],
       "synonyms": [
-        "lightning bolt",
-        "thunderclap",
-        "bombshell"
+        "electrical storm",
+        "tempest"
       ],
       "antonyms": [],
       "domainCohort": [
-        "lightning",
-        "thunderclap",
-        "bombshell"
+        "weather",
+        "rain",
+        "lightning"
+      ],
+      "derivationPair": [
+        "thunderstorms"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thunderstorms",
+    "phonetic": "/ˈθʌndəstɔːmz/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "雷暴（复数）",
+      "en": "plural of thunderstorm"
+    },
+    "morphemes": [
+      {
+        "canonical": "thunder",
+        "role": "root",
+        "form": "thunder",
+        "meaning": "thunder",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "雷声",
+          "en": "thunder"
+        }
+      },
+      {
+        "canonical": "storm",
+        "role": "root",
+        "form": "storm",
+        "meaning": "storm",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "风暴",
+          "en": "storm"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "plural",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "thunderstorm"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "thunderstorm的复数",
+      "imageChain": [
+        "多场雷暴"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thunderstorm",
+        "thunder"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "thunderstorm"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thunderstruck",
+    "phonetic": "/ˈθʌndəstrʌk/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "目瞪口呆的；大为震惊的",
+      "en": "extremely surprised and shocked"
+    },
+    "morphemes": [
+      {
+        "canonical": "thunder",
+        "role": "root",
+        "form": "thunder",
+        "meaning": "thunder",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "雷声",
+          "en": "thunder"
+        }
+      },
+      {
+        "canonical": "struck",
+        "role": "root",
+        "form": "struck",
+        "meaning": "past participle of strike, hit",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "被击中",
+          "en": "struck"
+        }
+      }
+    ],
+    "derivationChain": [
+      "thunder + struck"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "thunder(雷)+struck(击中)=被雷打中般震惊",
+      "imageChain": [
+        "闪电→打中→震惊"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thunder",
+        "thunderbolt"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "astonished",
+        "flabbergasted",
+        "dumbstruck"
+      ],
+      "antonyms": [
+        "unmoved",
+        "unfazed"
+      ],
+      "domainCohort": [
+        "surprise",
+        "shock",
+        "amazement"
       ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": [
-        "lightning",
-        "bombshell"
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thundery",
+    "phonetic": "/ˈθʌndəri/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "有雷声的；雷雨般的",
+      "en": "accompanied by or suggestive of thunder"
+    },
+    "morphemes": [
+      {
+        "canonical": "thunder",
+        "role": "root",
+        "form": "thunder",
+        "meaning": "thunder",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "雷声",
+          "en": "thunder"
+        }
+      },
+      {
+        "canonical": "-y",
+        "role": "suffix",
+        "form": "y",
+        "meaning": "full of, like",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "充满…",
+          "en": "full of"
+        }
+      }
+    ],
+    "derivationChain": [
+      "thunder"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "thunder + y = 充满雷声的天气",
+      "imageChain": [
+        "乌云→雷声→阴沉"
       ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thunder",
+        "thunderous"
+      ],
+      "sameAffix": [
+        "stormy",
+        "cloudy"
+      ],
+      "synonyms": [
+        "stormy",
+        "threatening"
+      ],
+      "antonyms": [
+        "clear",
+        "sunny"
+      ],
+      "domainCohort": [
+        "weather",
+        "storm"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thunny",
+    "phonetic": "/ˈθʌni/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "金枪鱼（古称）",
+      "en": "an archaic or dialectal term for a tunny fish (tuna)"
+    },
+    "morphemes": [
+      {
+        "canonical": "thunny",
+        "role": "root",
+        "form": "thunny",
+        "meaning": "tunny/tuna (archaic form)",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "金枪鱼",
+          "en": "tuna fish"
+        }
+      }
+    ],
+    "derivationChain": [
+      "Latin thunnus"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "thunny = tunny的古体词，金枪鱼",
+      "imageChain": [
+        "地中海→大鱼→金枪鱼"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "tunny",
+        "tuna"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "fish",
+        "seafood"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "tunny",
+        "tuna"
+      ],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "thurio",
+    "phonetic": "/ˈθjʊəriəʊ/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "蒂里奥（莎士比亚人名）",
+      "en": "a character name in Shakespeare's The Two Gentlemen of Verona"
+    },
+    "morphemes": [
+      {
+        "canonical": "thurio",
+        "role": "root",
+        "form": "thurio",
+        "meaning": "proper noun, character name",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "人名",
+          "en": "character name"
+        }
+      }
+    ],
+    "derivationChain": [],
+    "memorySemantics": {
+      "mnemonicExpr": "Thurio = 莎士比亚《维罗纳两绅士》中的人物",
+      "imageChain": [
+        "莎士比亚→戏剧→人物"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "Shakespeare",
+        "literature",
+        "character"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
     }
   }
 ]

@@ -1,68 +1,771 @@
 [
   {
-    "word": "understudy",
-    "phonetic": "/'ʌndə,stʌdi/",
+    "word": "understatement",
+    "phonetic": "/ˌʌndəˈsteɪtmənt/",
     "pos": [
-      "n.",
-      "vt."
+      "n."
     ],
     "coreMeaning": {
-      "cn": "替角；充当…的替补演员",
-      "en": "a person who learns another's role in order to be able to act as a replacement; to learn a role as a substitute"
+      "cn": "轻描淡写；低调陈述",
+      "en": "the practice of stating less than the truth for effect"
     },
     "morphemes": [
       {
         "canonical": "under-",
         "role": "prefix",
-        "meaning": "在…之下；作为替补",
+        "form": "under",
+        "meaning": "below, less than",
+        "order": 1,
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 1,
-        "form": "under",
-        "positionTendency": "initial",
         "coreMeaning": {
-          "cn": "",
-          "en": ""
+          "cn": "不足",
+          "en": "below"
+        }
+      },
+      {
+        "canonical": "stat",
+        "role": "root",
+        "form": "state",
+        "meaning": "state, declare",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "陈述",
+          "en": "state"
+        }
+      },
+      {
+        "canonical": "-ment",
+        "role": "suffix",
+        "form": "ment",
+        "meaning": "result, act",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "行为",
+          "en": "act"
+        }
+      }
+    ],
+    "derivationChain": [
+      "understate"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "under(低于)+state(陈述)+ment=说得比实际要低的表达",
+      "imageChain": [
+        "事实→低调表达→轻描淡写"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "understate",
+        "understates",
+        "understating"
+      ],
+      "sameAffix": [
+        "overstatement",
+        "misstatement"
+      ],
+      "synonyms": [
+        "litotes",
+        "underemphasis"
+      ],
+      "antonyms": [
+        "overstatement",
+        "exaggeration"
+      ],
+      "domainCohort": [
+        "rhetoric",
+        "irony",
+        "British humor"
+      ],
+      "derivationPair": [
+        "understate"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "understatements",
+    "phonetic": "/ˌʌndəˈsteɪtmənts/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "轻描淡写（复数）",
+      "en": "plural of understatement"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "below",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "不足",
+          "en": "below"
+        }
+      },
+      {
+        "canonical": "stat",
+        "role": "root",
+        "form": "state",
+        "meaning": "state",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "陈述",
+          "en": "state"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "plural",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "understatement"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "understatement的复数",
+      "imageChain": [
+        "多次低调陈述"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "understatement",
+        "understate"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "understatement"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "understates",
+    "phonetic": "/ˌʌndəˈsteɪts/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "轻描淡写（第三人称单数）",
+      "en": "third person singular of understate"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "below",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "不足",
+          "en": "below"
+        }
+      },
+      {
+        "canonical": "stat",
+        "role": "root",
+        "form": "state",
+        "meaning": "state",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "陈述",
+          "en": "state"
+        }
+      },
+      {
+        "canonical": "-es",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "3rd person singular",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "第三人称单数",
+          "en": "3rd person"
+        }
+      }
+    ],
+    "derivationChain": [
+      "understate"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "understate的第三人称单数",
+      "imageChain": [
+        "它低调表达"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "understate",
+        "understatement"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "understatement"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "understating",
+    "phonetic": "/ˌʌndəˈsteɪtɪŋ/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "轻描淡写中；低调陈述中",
+      "en": "present participle of understate"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "below",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "不足",
+          "en": "below"
+        }
+      },
+      {
+        "canonical": "stat",
+        "role": "root",
+        "form": "state",
+        "meaning": "state",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "陈述",
+          "en": "state"
+        }
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "form": "ing",
+        "meaning": "present participle",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "进行时",
+          "en": "present participle"
+        }
+      }
+    ],
+    "derivationChain": [
+      "understate"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "understate + ing = 正在低调陈述",
+      "imageChain": [
+        "低调→进行中"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "understate",
+        "understatement"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "understatement"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "understocked",
+    "phonetic": "/ˌʌndəˈstɒkt/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "库存不足的；存货短缺的",
+      "en": "having insufficient stock or inventory"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "below, insufficient",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "不足",
+          "en": "insufficient"
+        }
+      },
+      {
+        "canonical": "stock",
+        "role": "root",
+        "form": "stock",
+        "meaning": "supply, inventory",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "库存",
+          "en": "stock"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "form": "ed",
+        "meaning": "past participle, adjective",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "完成态",
+          "en": "past participle"
+        }
+      }
+    ],
+    "derivationChain": [
+      "under + stocked"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "under(不足)+stocked(库存)=库存不够",
+      "imageChain": [
+        "货架→空货→库存不足"
+      ]
+    },
+    "wordLevel": {
+      "domain": "business",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "overstocked",
+        "stock"
+      ],
+      "sameAffix": [
+        "underprepared",
+        "underfunded"
+      ],
+      "synonyms": [
+        "short-stocked",
+        "inventory-low"
+      ],
+      "antonyms": [
+        "overstocked",
+        "well-stocked"
+      ],
+      "domainCohort": [
+        "inventory",
+        "supply chain"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "understood",
+    "phonetic": "/ˌʌndəˈstʊd/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "理解；明白（过去时）",
+      "en": "past tense of understand; grasped the meaning of"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "among, within",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "在…之中",
+          "en": "among"
+        }
+      },
+      {
+        "canonical": "stand",
+        "role": "root",
+        "form": "stood",
+        "meaning": "stand, comprehend",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "站立；理解",
+          "en": "stand"
+        }
+      }
+    ],
+    "derivationChain": [
+      "understand"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "under(置于…中)+stood(站)=站在知识里面=理解了",
+      "imageChain": [
+        "知识→置身其中→理解"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "understand",
+        "understanding",
+        "misunderstood"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "grasped",
+        "comprehended",
+        "got"
+      ],
+      "antonyms": [
+        "misunderstood"
+      ],
+      "domainCohort": [
+        "learning",
+        "comprehension"
+      ],
+      "derivationPair": [
+        "understand"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "understory",
+    "phonetic": "/ˈʌndəstɔːri/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "林下层；下层植被",
+      "en": "the layer of plants below the main forest canopy"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "below",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "下面",
+          "en": "below"
+        }
+      },
+      {
+        "canonical": "story",
+        "role": "root",
+        "form": "story",
+        "meaning": "layer, floor",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "层",
+          "en": "layer"
+        }
+      }
+    ],
+    "derivationChain": [
+      "under + story"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "under(下面)+story(层)=森林主冠层下面的植被层",
+      "imageChain": [
+        "大树→遮蔽→灌木层"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "canopy",
+        "forest floor"
+      ],
+      "sameAffix": [
+        "underbrush",
+        "undergrowth"
+      ],
+      "synonyms": [
+        "understory vegetation",
+        "undergrowth"
+      ],
+      "antonyms": [
+        "canopy"
+      ],
+      "domainCohort": [
+        "forest",
+        "ecology",
+        "botany"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "understudied",
+    "phonetic": "/ˌʌndəˈstʌdid/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "替代研究；当替角（过去时）",
+      "en": "past tense of understudy; learned a role to replace another actor"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "below, in substitute for",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "替代",
+          "en": "in substitute for"
         }
       },
       {
         "canonical": "study",
         "role": "root",
-        "meaning": "学习；研究",
+        "form": "studied",
+        "meaning": "study, learn",
+        "order": 2,
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 2,
-        "form": "study",
-        "positionTendency": "final",
         "coreMeaning": {
-          "cn": "",
-          "en": ""
+          "cn": "学习",
+          "en": "study"
         }
       }
     ],
     "derivationChain": [
       "understudy"
     ],
-    "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "替角在幕后苦练台词",
-      "scene": "演员在舞台侧翼悄悄跟读台词，随时准备替补主角上场",
-      "emotionalHook": "默默付出、备而不用，成功时却极少出场",
-      "imageChain": []
+      "mnemonicExpr": "understudy + ed = 已经当过替角",
+      "imageChain": [
+        "替角→学习→随时顶替"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "general",
-        "literary"
-      ],
+      "domain": "general",
       "sentiment": {
         "tags": [
           "中性"
@@ -72,102 +775,100 @@
     },
     "relations": {
       "sameRoot": [
-        "study",
-        "studious"
+        "understudy",
+        "understudying"
       ],
-      "sameAffix": [
-        "underling",
-        "undermine",
-        "undergo"
-      ],
-      "synonyms": [
-        "stand-in",
-        "substitute",
-        "backup",
-        "double"
-      ],
-      "antonyms": [
-        "lead",
-        "protagonist",
-        "star"
-      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
       "domainCohort": [
-        "actor",
         "theater",
-        "performance"
+        "acting"
       ],
-      "derivationPair": [],
+      "derivationPair": [
+        "understudy"
+      ],
       "morphVariants": [],
-      "sameImagery": [
-        "stand-in",
-        "backup"
-      ]
+      "sameImagery": []
     }
   },
   {
-    "word": "undertake",
-    "phonetic": "/,ʌndɚ'tek/",
+    "word": "understudies",
+    "phonetic": "/ˈʌndəstʌdiz/",
     "pos": [
-      "vt."
+      "n."
     ],
     "coreMeaning": {
-      "cn": "承担；从事；保证；试图",
-      "en": "to commit oneself to and begin (an enterprise or responsibility); to guarantee"
+      "cn": "替角演员（复数）",
+      "en": "plural of understudy"
     },
     "morphemes": [
       {
         "canonical": "under-",
         "role": "prefix",
-        "meaning": "在…之下（表示承担、接受）",
+        "form": "under",
+        "meaning": "substitute",
+        "order": 1,
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 1,
-        "form": "under",
-        "positionTendency": "initial",
         "coreMeaning": {
-          "cn": "",
-          "en": ""
+          "cn": "替代",
+          "en": "substitute"
         }
       },
       {
-        "canonical": "take",
+        "canonical": "study",
         "role": "root",
-        "meaning": "拿取；承担",
+        "form": "studi",
+        "meaning": "study, learn",
+        "order": 2,
+        "positionTendency": "medial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 2,
-        "form": "take",
-        "positionTendency": "final",
         "coreMeaning": {
-          "cn": "",
-          "en": ""
+          "cn": "学习",
+          "en": "study"
+        }
+      },
+      {
+        "canonical": "-ies",
+        "role": "suffix",
+        "form": "ies",
+        "meaning": "plural",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
         }
       }
     ],
     "derivationChain": [
-      "undertake"
+      "understudy"
     ],
-    "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "将责任扛在肩上",
-      "scene": "经理人正式接受一项艰巨任务，签字画押承担全责",
-      "emotionalHook": "承诺的重量，勇担重任的决心",
-      "imageChain": []
+      "mnemonicExpr": "understudy的复数",
+      "imageChain": [
+        "多名替角演员"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "general",
-        "business",
-        "academic"
-      ],
+      "domain": "general",
       "sentiment": {
         "tags": [
           "中性"
@@ -177,24 +878,299 @@
     },
     "relations": {
       "sameRoot": [
-        "take",
-        "overtake",
-        "intake"
+        "understudy"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "theater"
+      ],
+      "derivationPair": [
+        "understudy"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "understudy",
+    "phonetic": "/ˈʌndəstʌdi/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "替角演员；替补",
+      "en": "a person who learns another's role to be their substitute"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "below, in substitute for",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "替代",
+          "en": "substitute"
+        }
+      },
+      {
+        "canonical": "study",
+        "role": "root",
+        "form": "study",
+        "meaning": "study, learn",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "学习",
+          "en": "study"
+        }
+      }
+    ],
+    "derivationChain": [
+      "under + study"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "under(以防万一)+study(学习)=学习别人的角色准备顶替",
+      "imageChain": [
+        "备用→学习→顶替"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "understudies",
+        "understudied",
+        "understudying"
       ],
       "sameAffix": [
-        "undergo",
-        "underwrite"
+        "underling"
       ],
       "synonyms": [
-        "assume",
-        "tackle",
+        "substitute",
+        "backup",
+        "stand-in"
+      ],
+      "antonyms": [
+        "lead",
+        "principal"
+      ],
+      "domainCohort": [
+        "theater",
+        "film",
+        "acting"
+      ],
+      "derivationPair": [
+        "understudied"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "understudying",
+    "phonetic": "/ˈʌndəstʌdiɪŋ/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "当替角学习中",
+      "en": "present participle of understudy"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "substitute",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "替代",
+          "en": "substitute"
+        }
+      },
+      {
+        "canonical": "study",
+        "role": "root",
+        "form": "study",
+        "meaning": "study",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "学习",
+          "en": "study"
+        }
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "form": "ing",
+        "meaning": "present participle",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "进行时",
+          "en": "present participle"
+        }
+      }
+    ],
+    "derivationChain": [
+      "understudy"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "understudy + ing = 正在担任替角",
+      "imageChain": [
+        "替角→进行中"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "understudy",
+        "understudied"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "understudy"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "undertake",
+    "phonetic": "/ˌʌndəˈteɪk/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "承担；从事；保证",
+      "en": "to commit to and begin an enterprise or task"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "into, taking on",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "承担",
+          "en": "take on"
+        }
+      },
+      {
+        "canonical": "take",
+        "role": "root",
+        "form": "take",
+        "meaning": "take, grasp",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "取得",
+          "en": "take"
+        }
+      }
+    ],
+    "derivationChain": [
+      "under + take"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "under(承担)+take(接受)=主动承担任务",
+      "imageChain": [
+        "任务→接受→承担"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "undertaken",
+        "undertaker",
+        "undertaking",
+        "undertook"
+      ],
+      "sameAffix": [],
+      "synonyms": [
         "embark on",
-        "commit to"
+        "take on",
+        "commence"
       ],
       "antonyms": [
         "abandon",
-        "relinquish",
-        "forgo"
+        "relinquish"
       ],
       "domainCohort": [
         "project",
@@ -202,98 +1178,71 @@
         "responsibility"
       ],
       "derivationPair": [
-        "undertaking",
-        "undertaken"
+        "undertaking"
       ],
       "morphVariants": [],
-      "sameImagery": [
-        "assume",
-        "shoulder"
-      ]
+      "sameImagery": []
     }
   },
   {
-    "word": "undertaking",
-    "phonetic": "/'ʌndɚ'tekɪŋ/",
+    "word": "undertaken",
+    "phonetic": "/ˌʌndəˈteɪkən/",
     "pos": [
-      "n."
+      "v."
     ],
     "coreMeaning": {
-      "cn": "任务；项目；事业；承诺；保证",
-      "en": "a task or enterprise; a formal pledge or promise"
+      "cn": "已承担（过去分词）",
+      "en": "past participle of undertake"
     },
     "morphemes": [
       {
         "canonical": "under-",
         "role": "prefix",
-        "meaning": "承担",
+        "form": "under",
+        "meaning": "taking on",
+        "order": 1,
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 1,
-        "form": "under",
-        "positionTendency": "initial",
         "coreMeaning": {
-          "cn": "",
-          "en": ""
+          "cn": "承担",
+          "en": "take on"
         }
       },
       {
         "canonical": "take",
         "role": "root",
-        "meaning": "拿取；承接",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
+        "form": "taken",
+        "meaning": "take",
         "order": 2,
-        "form": "tak",
-        "positionTendency": "medial",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      },
-      {
-        "canonical": "-ing",
-        "role": "suffix",
-        "meaning": "名词化（行为/过程）",
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 3,
-        "form": "ing",
-        "positionTendency": "final",
         "coreMeaning": {
-          "cn": "",
-          "en": ""
+          "cn": "取得",
+          "en": "take"
         }
       }
     ],
     "derivationChain": [
-      "undertaking"
+      "undertake"
     ],
-    "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "正式签订的承诺书",
-      "scene": "合同签署仪式，双方握手确认一项重大事业的启动",
-      "emotionalHook": "大事业、大承诺，背后是沉甸甸的责任",
-      "imageChain": []
+      "mnemonicExpr": "undertake的过去分词",
+      "imageChain": [
+        "任务→已承担"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "business",
-        "academic",
-        "general"
-      ],
+      "domain": "academic",
       "sentiment": {
         "tags": [
           "中性"
@@ -304,24 +1253,535 @@
     "relations": {
       "sameRoot": [
         "undertake",
-        "take"
+        "undertook"
       ],
       "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "undertake"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "undertaker",
+    "phonetic": "/ˈʌndəteɪkər/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "殡仪师；承办人",
+      "en": "a funeral director; one who undertakes a task"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "taking on",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "承担",
+          "en": "take on"
+        }
+      },
+      {
+        "canonical": "take",
+        "role": "root",
+        "form": "take",
+        "meaning": "take",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "取得",
+          "en": "take"
+        }
+      },
+      {
+        "canonical": "-er",
+        "role": "suffix",
+        "form": "er",
+        "meaning": "agent noun",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "施动者",
+          "en": "agent"
+        }
+      }
+    ],
+    "derivationChain": [
+      "undertake"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "undertake + r = 承担殓葬工作的人=殡仪师",
+      "imageChain": [
+        "承担→殓葬→殡仪师"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "undertake",
+        "undertakers"
+      ],
+      "sameAffix": [
+        "contractor",
+        "organizer"
+      ],
       "synonyms": [
-        "enterprise",
-        "venture",
-        "project",
-        "endeavor",
-        "pledge"
+        "funeral director",
+        "mortician"
       ],
       "antonyms": [],
       "domainCohort": [
-        "business",
-        "project management"
+        "funeral",
+        "death",
+        "ceremony"
       ],
       "derivationPair": [
+        "undertakers"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "undertakers",
+    "phonetic": "/ˈʌndəteɪkərz/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "殡仪师（复数）",
+      "en": "plural of undertaker"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "taking on",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "承担",
+          "en": "take on"
+        }
+      },
+      {
+        "canonical": "take",
+        "role": "root",
+        "form": "take",
+        "meaning": "take",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "取",
+          "en": "take"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "rs",
+        "meaning": "plural agents",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "undertaker"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "undertaker的复数",
+      "imageChain": [
+        "多名殡仪师"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "undertaker",
+        "undertake"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "undertaker"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "undertakes",
+    "phonetic": "/ˌʌndəˈteɪks/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "承担（第三人称单数）",
+      "en": "third person singular of undertake"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "taking on",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "承担",
+          "en": "take on"
+        }
+      },
+      {
+        "canonical": "take",
+        "role": "root",
+        "form": "take",
+        "meaning": "take",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "取",
+          "en": "take"
+        }
+      },
+      {
+        "canonical": "-es",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "3rd person singular",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "第三人称",
+          "en": "3rd person"
+        }
+      }
+    ],
+    "derivationChain": [
+      "undertake"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "undertake的第三人称单数",
+      "imageChain": [
+        "它承担"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
         "undertake",
         "undertaken"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "undertake"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "undertaking",
+    "phonetic": "/ˌʌndəˈteɪkɪŋ/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "任务；事业；承诺",
+      "en": "a task or project that is taken on; a formal pledge"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "taking on",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "承担",
+          "en": "take on"
+        }
+      },
+      {
+        "canonical": "take",
+        "role": "root",
+        "form": "take",
+        "meaning": "take",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "取",
+          "en": "take"
+        }
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "form": "ing",
+        "meaning": "gerund, noun",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "动名词",
+          "en": "gerund"
+        }
+      }
+    ],
+    "derivationChain": [
+      "undertake"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "undertake + ing = 承担的事项=项目/承诺",
+      "imageChain": [
+        "任务→承担→执行"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "undertake",
+        "undertakings"
+      ],
+      "sameAffix": [
+        "endeavor",
+        "venture"
+      ],
+      "synonyms": [
+        "venture",
+        "project",
+        "enterprise"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "project",
+        "commitment",
+        "task"
+      ],
+      "derivationPair": [
+        "undertake"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "undertakings",
+    "phonetic": "/ˌʌndəˈteɪkɪŋz/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "任务；承诺（复数）",
+      "en": "plural of undertaking"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "taking on",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "承担",
+          "en": "take on"
+        }
+      },
+      {
+        "canonical": "take",
+        "role": "root",
+        "form": "take",
+        "meaning": "take",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "取",
+          "en": "take"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "plural",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "undertaking"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "undertaking的复数",
+      "imageChain": [
+        "多个项目/承诺"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "undertaking",
+        "undertake"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "undertaking"
       ],
       "morphVariants": [],
       "sameImagery": []
@@ -329,68 +1789,176 @@
   },
   {
     "word": "undertone",
-    "phonetic": "/'ʌndətəun/",
+    "phonetic": "/ˈʌndətəʊn/",
     "pos": [
       "n."
     ],
     "coreMeaning": {
-      "cn": "低沉的语调；潜流；隐含的含义",
-      "en": "a subdued or quiet tone; an underlying quality or feeling"
+      "cn": "低沉语调；潜在情绪；底色",
+      "en": "a subdued or unobtrusive quality, implication, or feeling beneath the surface"
     },
     "morphemes": [
       {
         "canonical": "under-",
         "role": "prefix",
-        "meaning": "在下面；隐含的",
+        "form": "under",
+        "meaning": "below, subdued",
+        "order": 1,
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 1,
-        "form": "under",
-        "positionTendency": "initial",
         "coreMeaning": {
-          "cn": "",
-          "en": ""
+          "cn": "低于",
+          "en": "below"
         }
       },
       {
         "canonical": "tone",
         "role": "root",
-        "meaning": "音调；语气；色调",
+        "form": "tone",
+        "meaning": "tone, quality",
+        "order": 2,
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 2,
-        "form": "tone",
-        "positionTendency": "final",
         "coreMeaning": {
-          "cn": "",
-          "en": ""
+          "cn": "音调；基调",
+          "en": "tone"
+        }
+      }
+    ],
+    "derivationChain": [
+      "under + tone"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "under(下面)+tone(调子)=隐藏在下面的基调/情绪",
+      "imageChain": [
+        "表面→底层→隐约情绪"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "undertones",
+        "overtone"
+      ],
+      "sameAffix": [
+        "understatement",
+        "subtext"
+      ],
+      "synonyms": [
+        "subtext",
+        "implication",
+        "connotation"
+      ],
+      "antonyms": [
+        "overtone"
+      ],
+      "domainCohort": [
+        "emotion",
+        "implication",
+        "tone"
+      ],
+      "derivationPair": [
+        "undertones"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "undertones",
+    "phonetic": "/ˈʌndətəʊnz/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "潜在情绪；底色（复数）",
+      "en": "plural of undertone"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "below",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "低于",
+          "en": "below"
+        }
+      },
+      {
+        "canonical": "tone",
+        "role": "root",
+        "form": "tone",
+        "meaning": "tone",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "基调",
+          "en": "tone"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "plural",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
         }
       }
     ],
     "derivationChain": [
       "undertone"
     ],
-    "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "隐藏在平静水面下的暗流",
-      "scene": "谈判桌上表面客气，但每句话都带着不满的弦外之音",
-      "emotionalHook": "言外之意，话中有话，读懂潜台词的能力",
-      "imageChain": []
+      "mnemonicExpr": "undertone的复数",
+      "imageChain": [
+        "多种潜在情绪"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "general",
-        "academic",
-        "literary"
-      ],
+      "domain": "general",
       "sentiment": {
         "tags": [
           "中性"
@@ -400,469 +1968,270 @@
     },
     "relations": {
       "sameRoot": [
-        "tone",
-        "overtone",
-        "tonal"
+        "undertone",
+        "overtones"
       ],
-      "sameAffix": [
-        "undertow",
-        "underway"
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "undertone"
       ],
-      "synonyms": [
-        "undercurrent",
-        "subtext",
-        "hint",
-        "suggestion",
-        "nuance"
-      ],
-      "antonyms": [
-        "overtone",
-        "explicit statement"
-      ],
-      "domainCohort": [
-        "communication",
-        "rhetoric"
-      ],
-      "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": [
-        "undercurrent",
-        "subtext"
-      ]
+      "sameImagery": []
     }
   },
   {
-    "word": "undertow",
-    "phonetic": "/'ʌndətəu/",
+    "word": "undertook",
+    "phonetic": "/ˌʌndəˈtʊk/",
     "pos": [
-      "n."
+      "v."
     ],
     "coreMeaning": {
-      "cn": "回头浪；海底逆流；潜流",
-      "en": "a current beneath the surface of water moving in the opposite direction to the surface current; a hidden tendency"
+      "cn": "承担（过去时）",
+      "en": "past tense of undertake; began and committed to a task"
     },
     "morphemes": [
       {
         "canonical": "under-",
         "role": "prefix",
-        "meaning": "在下面；隐藏的",
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": -1
-        },
-        "order": 1,
         "form": "under",
+        "meaning": "taking on",
+        "order": 1,
         "positionTendency": "initial",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      },
-      {
-        "canonical": "tow",
-        "role": "root",
-        "meaning": "拖拉；牵引",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 2,
-        "form": "tow",
-        "positionTendency": "final",
         "coreMeaning": {
-          "cn": "",
-          "en": ""
+          "cn": "承担",
+          "en": "take on"
+        }
+      },
+      {
+        "canonical": "take",
+        "role": "root",
+        "form": "took",
+        "meaning": "take (past)",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "取（过去）",
+          "en": "took"
+        }
+      }
+    ],
+    "derivationChain": [
+      "undertake"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "undertake的不规则过去时",
+      "imageChain": [
+        "任务→已承担"
+      ]
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "undertake",
+        "undertaken"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "embarked on",
+        "commenced"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "undertake"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "undertow",
+    "phonetic": "/ˈʌndətəʊ/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "暗流；回头浪",
+      "en": "a current of water below the surface moving in a different direction from the surface current"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "below",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "下面",
+          "en": "below"
+        }
+      },
+      {
+        "canonical": "tow",
+        "role": "root",
+        "form": "tow",
+        "meaning": "pull, drag",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "拉",
+          "en": "pull"
+        }
+      }
+    ],
+    "derivationChain": [
+      "under + tow"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "under(水下)+tow(拉)=水下把你拉走的暗流",
+      "imageChain": [
+        "水面→水下→暗流→危险"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "undertows"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "riptide",
+        "rip current"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "ocean",
+        "current",
+        "swimming"
+      ],
+      "derivationPair": [
+        "undertows"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "undertows",
+    "phonetic": "/ˈʌndətəʊz/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "暗流（复数）",
+      "en": "plural of undertow"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "below",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "下面",
+          "en": "below"
+        }
+      },
+      {
+        "canonical": "tow",
+        "role": "root",
+        "form": "tow",
+        "meaning": "pull",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "拉",
+          "en": "pull"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "plural",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
         }
       }
     ],
     "derivationChain": [
       "undertow"
     ],
-    "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "海浪退去时拉着人向外拖的暗流",
-      "scene": "游泳者被海底强力逆流拖离海岸，岸上的人毫无察觉",
-      "emotionalHook": "危险往往隐藏于平静表面之下，暗中把人拖向深渊",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general",
-        "tech"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": -1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "tow",
-        "towboat"
-      ],
-      "sameAffix": [
-        "undertone",
-        "undercurrent"
-      ],
-      "synonyms": [
-        "undercurrent",
-        "riptide",
-        "backflow"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "ocean",
-        "water",
-        "physics"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": [
-        "undercurrent",
-        "riptide"
+      "mnemonicExpr": "undertow的复数",
+      "imageChain": [
+        "多处暗流"
       ]
-    }
-  },
-  {
-    "word": "undervalue",
-    "phonetic": "/,ʌndɚ'vælju/",
-    "pos": [
-      "vt."
-    ],
-    "coreMeaning": {
-      "cn": "低估；看轻；定价过低",
-      "en": "to regard or value insufficiently; to set too low a price on"
-    },
-    "morphemes": [
-      {
-        "canonical": "under-",
-        "role": "prefix",
-        "meaning": "不足；低于应有水平",
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": -1
-        },
-        "order": 1,
-        "form": "under",
-        "positionTendency": "initial",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      },
-      {
-        "canonical": "val",
-        "role": "root",
-        "meaning": "价值（L. valere=be worth）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "valu",
-        "positionTendency": "medial",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      },
-      {
-        "canonical": "-e",
-        "role": "suffix",
-        "meaning": "动词词尾",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "e",
-        "positionTendency": "final",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      }
-    ],
-    "derivationChain": [
-      "undervalue"
-    ],
-    "morphVariantOf": null,
-    "memorySemantics": {
-      "imageKey": "拍卖师以远低于市场价的价格落锤",
-      "scene": "名画以低价被售出，内行人扼腕叹息，知道这件艺术品被严重低估",
-      "emotionalHook": "才华被忽视、贡献未被认可的郁郁不平之气",
-      "imageChain": []
     },
     "wordLevel": {
-      "domain": [
-        "business",
-        "finance",
-        "general"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": -1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "value",
-        "devalue",
-        "evaluate",
-        "overvalue"
-      ],
-      "sameAffix": [
-        "underestimate",
-        "underrate"
-      ],
-      "synonyms": [
-        "underestimate",
-        "underrate",
-        "underprice",
-        "belittle"
-      ],
-      "antonyms": [
-        "overvalue",
-        "overestimate",
-        "overrate"
-      ],
-      "domainCohort": [
-        "finance",
-        "economics",
-        "assessment"
-      ],
-      "derivationPair": [
-        "undervalued",
-        "undervaluation"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "underestimate",
-        "underrate"
-      ]
-    }
-  },
-  {
-    "word": "underutilized",
-    "phonetic": "/ˌʌndər'juːtəlaɪzd/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "未充分利用的；使用不足的",
-      "en": "not used to full capacity or potential"
-    },
-    "morphemes": [
-      {
-        "canonical": "under-",
-        "role": "prefix",
-        "meaning": "不足；低于充分",
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": -1
-        },
-        "order": 1,
-        "form": "under",
-        "positionTendency": "initial",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      },
-      {
-        "canonical": "util",
-        "role": "root",
-        "meaning": "用；有用（L. utilis=useful）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "util",
-        "positionTendency": "medial",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      },
-      {
-        "canonical": "-ize",
-        "role": "suffix",
-        "meaning": "动词化",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "iz",
-        "positionTendency": "medial",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      },
-      {
-        "canonical": "-ed",
-        "role": "suffix",
-        "meaning": "形容词化（过去分词）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 4,
-        "form": "ed",
-        "positionTendency": "final",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      }
-    ],
-    "derivationChain": [
-      "underutilized"
-    ],
-    "morphVariantOf": null,
-    "memorySemantics": {
-      "imageKey": "空旷的工厂只开了一条生产线",
-      "scene": "企业审计发现设备只用了三成产能，大量资源闲置浪费",
-      "emotionalHook": "资源浪费的遗憾，潜力未被发掘的惋惜",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "business",
-        "academic",
-        "general"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": -1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "utilize",
-        "utility",
-        "utilization"
-      ],
-      "sameAffix": [
-        "underemployed",
-        "underused"
-      ],
-      "synonyms": [
-        "underused",
-        "idle",
-        "inefficient",
-        "wasted"
-      ],
-      "antonyms": [
-        "fully utilized",
-        "efficient",
-        "maximized"
-      ],
-      "domainCohort": [
-        "resource management",
-        "economics"
-      ],
-      "derivationPair": [
-        "underutilize",
-        "underutilization"
-      ],
-      "morphVariants": [
-        "underused"
-      ],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "underwater",
-    "phonetic": "/,ʌndɚ'wɔtɚ/",
-    "pos": [
-      "adj.",
-      "adv."
-    ],
-    "coreMeaning": {
-      "cn": "水下的；水中的；（抵押）资不抵债的",
-      "en": "situated, done, or used beneath the surface of water; (finance) owing more than current value"
-    },
-    "morphemes": [
-      {
-        "canonical": "under-",
-        "role": "prefix",
-        "meaning": "在…之下",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "under",
-        "positionTendency": "initial",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      },
-      {
-        "canonical": "water",
-        "role": "root",
-        "meaning": "水",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "water",
-        "positionTendency": "final",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      }
-    ],
-    "derivationChain": [
-      "underwater"
-    ],
-    "morphVariantOf": null,
-    "memorySemantics": {
-      "imageKey": "潜水员在珊瑚礁间穿行",
-      "scene": "水下摄影师拍摄海洋生物；金融语境中指房贷超过房产价值陷入负资产",
-      "emotionalHook": "神秘的水下世界；也是债务压顶的窒息感",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general",
-        "finance",
-        "tech"
-      ],
+      "domain": "general",
       "sentiment": {
         "tags": [
           "中性"
@@ -872,16 +2241,1109 @@
     },
     "relations": {
       "sameRoot": [
-        "water",
-        "waterway"
+        "undertow"
       ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "undertow"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "undertrading",
+    "phonetic": "/ˌʌndəˈtreɪdɪŋ/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "资本利用不足；低于潜力的交易",
+      "en": "operating a business with inadequate capital relative to its sales"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "below capacity",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "低于",
+          "en": "below"
+        }
+      },
+      {
+        "canonical": "trade",
+        "role": "root",
+        "form": "trading",
+        "meaning": "trade, commerce",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "贸易",
+          "en": "trade"
+        }
+      }
+    ],
+    "derivationChain": [
+      "under + trading"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "under(不足)+trading(贸易)=资本相对于交易量不足",
+      "imageChain": [
+        "销售→资金不足→风险"
+      ]
+    },
+    "wordLevel": {
+      "domain": "finance",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "overtrading",
+        "trade"
+      ],
+      "sameAffix": [
+        "underfunding",
+        "underperforming"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "overtrading"
+      ],
+      "domainCohort": [
+        "finance",
+        "business",
+        "capital"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "underuse",
+    "phonetic": "/ˌʌndəˈjuːz/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "未充分利用；使用不足",
+      "en": "to use something less than it could or should be used"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "insufficient",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "不足",
+          "en": "insufficient"
+        }
+      },
+      {
+        "canonical": "us",
+        "role": "root",
+        "form": "use",
+        "meaning": "use, employ",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "使用",
+          "en": "use"
+        }
+      }
+    ],
+    "derivationChain": [
+      "under + use"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "under(不足)+use(使用)=使用不够充分",
+      "imageChain": [
+        "资源→闲置→浪费"
+      ]
+    },
+    "wordLevel": {
+      "domain": "business",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "overuse",
+        "use",
+        "underutilize"
+      ],
+      "sameAffix": [
+        "underutilize",
+        "underspend"
+      ],
+      "synonyms": [
+        "underutilize"
+      ],
+      "antonyms": [
+        "overuse",
+        "maximize"
+      ],
+      "domainCohort": [
+        "resource",
+        "capacity"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "underutilize",
+    "phonetic": "/ˌʌndərˈjuːtɪlaɪz/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "未充分利用",
+      "en": "to fail to use something fully or effectively"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "insufficient",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "不足",
+          "en": "insufficient"
+        }
+      },
+      {
+        "canonical": "util",
+        "role": "root",
+        "form": "util",
+        "meaning": "use, make useful (Latin utilis)",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "有用",
+          "en": "use"
+        }
+      },
+      {
+        "canonical": "-ize",
+        "role": "suffix",
+        "form": "ize",
+        "meaning": "make, cause",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "使…化",
+          "en": "make"
+        }
+      }
+    ],
+    "derivationChain": [
+      "under + utilize"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "under(不足)+util(有用)+ize=未能充分发挥作用",
+      "imageChain": [
+        "资源→低效利用→浪费"
+      ]
+    },
+    "wordLevel": {
+      "domain": "business",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "underutilized",
+        "utilize",
+        "underuse"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "underuse",
+        "squander"
+      ],
+      "antonyms": [
+        "maximize",
+        "optimize"
+      ],
+      "domainCohort": [
+        "resource",
+        "efficiency"
+      ],
+      "derivationPair": [
+        "underutilized"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "underutilized",
+    "phonetic": "/ˌʌndərˈjuːtɪlaɪzd/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "未被充分利用的",
+      "en": "not used to its full potential"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "insufficient",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "不足",
+          "en": "insufficient"
+        }
+      },
+      {
+        "canonical": "util",
+        "role": "root",
+        "form": "util",
+        "meaning": "use",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "使用",
+          "en": "use"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "form": "ized",
+        "meaning": "past participle, adjective",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "完成态",
+          "en": "past participle"
+        }
+      }
+    ],
+    "derivationChain": [
+      "underutilize"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "underutilize + d = 被低效利用的",
+      "imageChain": [
+        "资源→闲置→低效"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "underutilize",
+        "underuse"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "underused",
+        "underemployed"
+      ],
+      "antonyms": [
+        "optimized",
+        "maximized"
+      ],
+      "domainCohort": [
+        "resource",
+        "capacity",
+        "efficiency"
+      ],
+      "derivationPair": [
+        "underutilize"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "undervaluation",
+    "phonetic": "/ˌʌndəˌvæljuˈeɪʃən/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "低估；估价不足",
+      "en": "the act of valuing something at less than its actual worth"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "below",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "低于",
+          "en": "below"
+        }
+      },
+      {
+        "canonical": "val",
+        "role": "root",
+        "form": "valu",
+        "meaning": "worth, value (Latin valere)",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "价值",
+          "en": "value"
+        }
+      },
+      {
+        "canonical": "-ation",
+        "role": "suffix",
+        "form": "ation",
+        "meaning": "process, act",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "行为",
+          "en": "process"
+        }
+      }
+    ],
+    "derivationChain": [
+      "undervalue"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "under(低于)+valuation(估价)=低于市值的估价",
+      "imageChain": [
+        "资产→低估→机会"
+      ]
+    },
+    "wordLevel": {
+      "domain": "finance",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "undervalue",
+        "undervalued"
+      ],
+      "sameAffix": [
+        "overvaluation",
+        "devaluation"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "overvaluation"
+      ],
+      "domainCohort": [
+        "finance",
+        "market",
+        "investment"
+      ],
+      "derivationPair": [
+        "undervalue"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "undervaluations",
+    "phonetic": "/ˌʌndəˌvæljuˈeɪʃənz/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "低估（复数）",
+      "en": "plural of undervaluation"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "below",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "低于",
+          "en": "below"
+        }
+      },
+      {
+        "canonical": "val",
+        "role": "root",
+        "form": "valu",
+        "meaning": "value",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "价值",
+          "en": "value"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "plural",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "undervaluation"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "undervaluation的复数",
+      "imageChain": [
+        "多次低估"
+      ]
+    },
+    "wordLevel": {
+      "domain": "finance",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "undervaluation",
+        "undervalue"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "undervaluation"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "undervalue",
+    "phonetic": "/ˌʌndəˈvæljuː/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "低估；看轻",
+      "en": "to place too low a value on; to underestimate the worth of"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "below",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "低于",
+          "en": "below"
+        }
+      },
+      {
+        "canonical": "val",
+        "role": "root",
+        "form": "value",
+        "meaning": "value, worth",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "价值",
+          "en": "value"
+        }
+      }
+    ],
+    "derivationChain": [
+      "under + value"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "under(低于)+value(价值)=给予低于应有价值的评价",
+      "imageChain": [
+        "才能→低估→埋没"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "undervalued",
+        "undervalues",
+        "undervaluation"
+      ],
+      "sameAffix": [
+        "overvalue",
+        "devalue"
+      ],
+      "synonyms": [
+        "depreciate",
+        "underestimate"
+      ],
+      "antonyms": [
+        "overvalue",
+        "appreciate"
+      ],
+      "domainCohort": [
+        "estimation",
+        "worth",
+        "market"
+      ],
+      "derivationPair": [
+        "undervaluation"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "undervalued",
+    "phonetic": "/ˌʌndəˈvæljuːd/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "被低估的；被看轻的",
+      "en": "not valued highly enough"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "below",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "低于",
+          "en": "below"
+        }
+      },
+      {
+        "canonical": "val",
+        "role": "root",
+        "form": "value",
+        "meaning": "value",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "价值",
+          "en": "value"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "form": "d",
+        "meaning": "past participle, adjective",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "完成态",
+          "en": "past participle"
+        }
+      }
+    ],
+    "derivationChain": [
+      "undervalue"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "undervalue + d = 被低估的资产/人才",
+      "imageChain": [
+        "价值→未被认可→低估"
+      ]
+    },
+    "wordLevel": {
+      "domain": "finance",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "undervalue",
+        "undervaluation"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "underpriced",
+        "underappreciated"
+      ],
+      "antonyms": [
+        "overvalued",
+        "overpriced"
+      ],
+      "domainCohort": [
+        "stock",
+        "asset",
+        "talent"
+      ],
+      "derivationPair": [
+        "undervalue"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "undervalues",
+    "phonetic": "/ˌʌndəˈvæljuːz/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "低估（第三人称单数）",
+      "en": "third person singular of undervalue"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "below",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "低于",
+          "en": "below"
+        }
+      },
+      {
+        "canonical": "val",
+        "role": "root",
+        "form": "value",
+        "meaning": "value",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "价值",
+          "en": "value"
+        }
+      },
+      {
+        "canonical": "-es",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "3rd person singular",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "第三人称",
+          "en": "3rd person"
+        }
+      }
+    ],
+    "derivationChain": [
+      "undervalue"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "undervalue的第三人称单数",
+      "imageChain": [
+        "它低估…"
+      ]
+    },
+    "wordLevel": {
+      "domain": "finance",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "undervalue",
+        "undervalued"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "undervalue"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "undervaluing",
+    "phonetic": "/ˌʌndəˈvæljuːɪŋ/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "正在低估",
+      "en": "present participle of undervalue"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "below",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "低于",
+          "en": "below"
+        }
+      },
+      {
+        "canonical": "val",
+        "role": "root",
+        "form": "value",
+        "meaning": "value",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "价值",
+          "en": "value"
+        }
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "form": "ing",
+        "meaning": "present participle",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "进行时",
+          "en": "present participle"
+        }
+      }
+    ],
+    "derivationChain": [
+      "undervalue"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "undervalue + ing = 正在低估",
+      "imageChain": [
+        "低估中"
+      ]
+    },
+    "wordLevel": {
+      "domain": "finance",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "undervalue",
+        "undervalued"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "undervalue"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "underwater",
+    "phonetic": "/ˌʌndəˈwɔːtər/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "水下的；水面以下的",
+      "en": "situated, operating, or done below the surface of water"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "below",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "下面",
+          "en": "below"
+        }
+      },
+      {
+        "canonical": "water",
+        "role": "root",
+        "form": "water",
+        "meaning": "water",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "水",
+          "en": "water"
+        }
+      }
+    ],
+    "derivationChain": [
+      "under + water"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "under(下面)+water(水)=在水面以下",
+      "imageChain": [
+        "水面→水下→深海"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [],
       "sameAffix": [
         "underground",
         "underworld"
       ],
       "synonyms": [
-        "subaqueous",
-        "submerged",
+        "subaquatic",
         "submarine"
       ],
       "antonyms": [
@@ -889,309 +3351,347 @@
         "surface"
       ],
       "domainCohort": [
-        "marine",
+        "ocean",
         "diving",
-        "finance"
+        "submarine"
       ],
       "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": [
-        "submerged"
-      ]
-    }
-  },
-  {
-    "word": "underworld",
-    "phonetic": "/'ʌndəwɜːld/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "地下世界；黑社会；冥界",
-      "en": "the criminal world; (mythology) the realm of the dead beneath the earth"
-    },
-    "morphemes": [
-      {
-        "canonical": "under-",
-        "role": "prefix",
-        "meaning": "在下面；隐藏的",
-        "sentiment": {
-          "tags": [
-            "贬义"
-          ],
-          "intensity": -1
-        },
-        "order": 1,
-        "form": "under",
-        "positionTendency": "initial",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      },
-      {
-        "canonical": "world",
-        "role": "root",
-        "meaning": "世界；领域",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "world",
-        "positionTendency": "final",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      }
-    ],
-    "derivationChain": [
-      "underworld"
-    ],
-    "morphVariantOf": null,
-    "memorySemantics": {
-      "imageKey": "黑暗地下城市中的犯罪网络",
-      "scene": "神话中冥王哈迪斯统治的冥界；现实中是犯罪组织运作的黑暗地带",
-      "emotionalHook": "罪恶与黑暗的象征，恐惧与神秘并存",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general",
-        "literary",
-        "legal"
-      ],
-      "sentiment": {
-        "tags": [
-          "贬义"
-        ],
-        "intensity": -2
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "world",
-        "worldly"
-      ],
-      "sameAffix": [
-        "underground",
-        "underwater"
-      ],
-      "synonyms": [
-        "criminal underworld",
-        "organized crime",
-        "Hades",
-        "netherworld"
-      ],
-      "antonyms": [
-        "heaven",
-        "upper world",
-        "law-abiding society"
-      ],
-      "domainCohort": [
-        "crime",
-        "mythology"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": [
-        "netherworld",
-        "underground"
-      ]
-    }
-  },
-  {
-    "word": "underwrite",
-    "phonetic": "/,ʌndɚ'raɪt/",
-    "pos": [
-      "vt."
-    ],
-    "coreMeaning": {
-      "cn": "承保；认购；同意赔款；资助",
-      "en": "to sign and accept liability under (an insurance policy); to guarantee financial support for"
-    },
-    "morphemes": [
-      {
-        "canonical": "under-",
-        "role": "prefix",
-        "meaning": "在下方（签名）；为…承担责任",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "under",
-        "positionTendency": "initial",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      },
-      {
-        "canonical": "write",
-        "role": "root",
-        "meaning": "书写；签名（OE writan）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "write",
-        "positionTendency": "final",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      }
-    ],
-    "derivationChain": [
-      "underwrite"
-    ],
-    "morphVariantOf": null,
-    "memorySemantics": {
-      "imageKey": "保险公司在合同底部签名承保",
-      "scene": "Lloyd's of London的保险商在保单下方签名，表示愿意承担风险赔付责任",
-      "emotionalHook": "一签之重，承诺背后是巨大的财务责任",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "finance",
-        "business",
-        "legal"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "write",
-        "writing",
-        "written"
-      ],
-      "sameAffix": [
-        "undertake",
-        "underpin"
-      ],
-      "synonyms": [
-        "insure",
-        "guarantee",
-        "sponsor",
-        "fund",
-        "back"
-      ],
-      "antonyms": [
-        "refuse",
-        "reject",
-        "disclaim"
-      ],
-      "domainCohort": [
-        "insurance",
-        "finance",
-        "banking"
-      ],
-      "derivationPair": [
-        "underwriter",
-        "underwriting",
-        "underwritten"
-      ],
       "morphVariants": [],
       "sameImagery": []
     }
   },
   {
-    "word": "underwriting",
-    "phonetic": "/'ʌndəˌraɪtɪŋ/",
+    "word": "underway",
+    "phonetic": "/ˌʌndəˈweɪ/",
     "pos": [
-      "n."
+      "adv."
     ],
     "coreMeaning": {
-      "cn": "保险业；承保；证券承销",
-      "en": "the business of insurance; the process of issuing insurance policies; guarantee of purchase of securities"
+      "cn": "进行中；在途中",
+      "en": "in motion; in progress; currently happening"
     },
     "morphemes": [
       {
         "canonical": "under-",
         "role": "prefix",
-        "meaning": "在下方签名承担",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
         "form": "under",
+        "meaning": "in progress",
+        "order": 1,
         "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "coreMeaning": {
-          "cn": "",
-          "en": ""
+          "cn": "进行中",
+          "en": "in progress"
         }
       },
       {
-        "canonical": "write",
+        "canonical": "way",
         "role": "root",
-        "meaning": "书写；签名",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
+        "form": "way",
+        "meaning": "way, path",
         "order": 2,
-        "form": "writ",
-        "positionTendency": "medial",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      },
-      {
-        "canonical": "-ing",
-        "role": "suffix",
-        "meaning": "名词化",
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 3,
-        "form": "ing",
-        "positionTendency": "final",
         "coreMeaning": {
-          "cn": "",
-          "en": ""
+          "cn": "路程",
+          "en": "way"
         }
       }
     ],
     "derivationChain": [
-      "underwriting"
+      "under + way"
     ],
-    "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "保险公司评估风险决定是否承保",
-      "scene": "投行承销部门评估IPO风险，决定股票发行价格和承购数量",
-      "emotionalHook": "金融风险评估的专业技艺，背后是数字与责任的精密计算",
-      "imageChain": []
+      "mnemonicExpr": "under(进行中)+way(路)=已经在路上=正在进行",
+      "imageChain": [
+        "启动→行进→进行中"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "finance",
-        "business",
-        "legal"
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "in progress",
+        "in motion",
+        "ongoing"
       ],
+      "antonyms": [
+        "halted",
+        "stopped"
+      ],
+      "domainCohort": [
+        "navigation",
+        "project",
+        "progress"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "under way"
+      ],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "underwear",
+    "phonetic": "/ˈʌndəwɛː/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "内衣；内裤",
+      "en": "clothing worn under other clothes, next to the skin"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "below, beneath",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "下面",
+          "en": "beneath"
+        }
+      },
+      {
+        "canonical": "wear",
+        "role": "root",
+        "form": "wear",
+        "meaning": "clothing, garment",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "衣物",
+          "en": "clothing"
+        }
+      }
+    ],
+    "derivationChain": [
+      "under + wear"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "under(下面)+wear(穿着)=穿在里面的衣物",
+      "imageChain": [
+        "皮肤→贴身→内衣"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [
+        "outerwear",
+        "knitwear"
+      ],
+      "synonyms": [
+        "lingerie",
+        "underclothes",
+        "underpants"
+      ],
+      "antonyms": [
+        "outerwear",
+        "outergament"
+      ],
+      "domainCohort": [
+        "clothing",
+        "garment",
+        "fashion"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "underweight",
+    "phonetic": "/ˌʌndəˈweɪt/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "体重不足的；分量不足的",
+      "en": "below the normal or desirable weight"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "below",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "低于",
+          "en": "below"
+        }
+      },
+      {
+        "canonical": "weight",
+        "role": "root",
+        "form": "weight",
+        "meaning": "weight, heaviness",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "重量",
+          "en": "weight"
+        }
+      }
+    ],
+    "derivationChain": [
+      "under + weight"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "under(低于)+weight(体重)=体重低于标准",
+      "imageChain": [
+        "体重→标准→低于"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "overweight"
+      ],
+      "sameAffix": [
+        "underestimate",
+        "underpay"
+      ],
+      "synonyms": [
+        "light",
+        "thin"
+      ],
+      "antonyms": [
+        "overweight",
+        "heavy"
+      ],
+      "domainCohort": [
+        "health",
+        "nutrition",
+        "body"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "underwent",
+    "phonetic": "/ˌʌndəˈwɛnt/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "经历（过去时）；经受",
+      "en": "past tense of undergo; experienced or was subjected to"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "through, experiencing",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "经历",
+          "en": "undergo"
+        }
+      },
+      {
+        "canonical": "go",
+        "role": "root",
+        "form": "went",
+        "meaning": "go (irregular past)",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "走过",
+          "en": "go"
+        }
+      }
+    ],
+    "derivationChain": [
+      "undergo"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "undergo的不规则过去时 = 经历了",
+      "imageChain": [
+        "过程→经历→完成"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
       "sentiment": {
         "tags": [
           "中性"
@@ -1201,25 +3701,22 @@
     },
     "relations": {
       "sameRoot": [
-        "underwrite",
-        "write"
+        "undergo",
+        "undergone"
       ],
       "sameAffix": [],
       "synonyms": [
-        "insurance",
-        "risk assessment",
-        "guarantee",
-        "backing"
+        "experienced",
+        "endured"
       ],
       "antonyms": [],
       "domainCohort": [
-        "insurance",
-        "banking",
-        "IPO"
+        "change",
+        "process",
+        "surgery"
       ],
       "derivationPair": [
-        "underwrite",
-        "underwriter"
+        "undergo"
       ],
       "morphVariants": [],
       "sameImagery": []
@@ -1227,67 +3724,63 @@
   },
   {
     "word": "underwhelm",
-    "phonetic": "/ˌʌndəˈwelm/",
+    "phonetic": "/ˌʌndəˈwɛlm/",
     "pos": [
-      "vt."
+      "v."
     ],
     "coreMeaning": {
-      "cn": "使失望；未能给人留下深刻印象",
-      "en": "to fail to impress or make an impact; the opposite of overwhelm"
+      "cn": "令人失望；给人印象不深",
+      "en": "to fail to impress or make a positive impact on"
     },
     "morphemes": [
       {
         "canonical": "under-",
         "role": "prefix",
-        "meaning": "不足；低于预期",
+        "form": "under",
+        "meaning": "insufficient",
+        "order": 1,
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "消极"
           ],
           "intensity": -1
         },
-        "order": 1,
-        "form": "under",
-        "positionTendency": "initial",
         "coreMeaning": {
-          "cn": "",
-          "en": ""
+          "cn": "不足",
+          "en": "insufficient"
         }
       },
       {
         "canonical": "whelm",
         "role": "root",
-        "meaning": "淹没；压倒（OE hwelman）",
+        "form": "whelm",
+        "meaning": "overwhelm, submerge",
+        "order": 2,
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 2,
-        "form": "whelm",
-        "positionTendency": "final",
         "coreMeaning": {
-          "cn": "",
-          "en": ""
+          "cn": "压倒",
+          "en": "overwhelm"
         }
       }
     ],
     "derivationChain": [
-      "underwhelm"
+      "overwhelm (antonym model)"
     ],
-    "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "期待盛宴却端上一碟花生",
-      "scene": "万众期待的电影首映，观众走出影院时面面相觑，只说了句'还好吧'",
-      "emotionalHook": "期望落空的失落，刻意轻描淡写的幽默反讽",
-      "imageChain": []
+      "mnemonicExpr": "under(不足)+whelm(震撼)=无法震撼人，令人失望",
+      "imageChain": [
+        "期待→不满足→失望"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "general",
-        "literary"
-      ],
+      "domain": "general",
       "sentiment": {
         "tags": [
           "消极"
@@ -1300,101 +3793,877 @@
         "overwhelm",
         "whelm"
       ],
-      "sameAffix": [
-        "underperform",
-        "underachieve"
-      ],
+      "sameAffix": [],
       "synonyms": [
         "disappoint",
-        "fail to impress",
-        "let down"
+        "fail to impress"
       ],
       "antonyms": [
         "overwhelm",
-        "impress",
-        "astound",
-        "dazzle"
+        "impress"
       ],
       "domainCohort": [
-        "criticism",
-        "review",
-        "reaction"
+        "reaction",
+        "impression"
       ],
-      "derivationPair": [
-        "underwhelming",
-        "underwhelmed"
-      ],
+      "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": [
-        "disappoint"
-      ]
+      "sameImagery": []
     }
   },
   {
-    "word": "underweight",
-    "phonetic": "/ˌʌndəˈweɪt/",
+    "word": "underworld",
+    "phonetic": "/ˈʌndəwɜːld/",
     "pos": [
-      "adj.",
       "n."
     ],
     "coreMeaning": {
-      "cn": "体重不足的；分量不够的；低配权重的",
-      "en": "below the normal, desirable, or permitted weight; (finance) holding less than the benchmark proportion"
+      "cn": "地下世界；黑社会；冥界",
+      "en": "the criminal world; in mythology, the realm of the dead below the earth"
     },
     "morphemes": [
       {
         "canonical": "under-",
         "role": "prefix",
-        "meaning": "低于标准；不足",
+        "form": "under",
+        "meaning": "below",
+        "order": 1,
+        "positionTendency": "initial",
         "sentiment": {
           "tags": [
             "消极"
           ],
           "intensity": -1
         },
-        "order": 1,
-        "form": "under",
-        "positionTendency": "initial",
         "coreMeaning": {
-          "cn": "",
-          "en": ""
+          "cn": "下面",
+          "en": "below"
         }
       },
       {
-        "canonical": "weight",
+        "canonical": "world",
         "role": "root",
-        "meaning": "重量；分量",
+        "form": "world",
+        "meaning": "world, realm",
+        "order": 2,
+        "positionTendency": "final",
         "sentiment": {
           "tags": [
             "中性"
           ],
           "intensity": 0
         },
-        "order": 2,
-        "form": "weight",
-        "positionTendency": "final",
         "coreMeaning": {
-          "cn": "",
-          "en": ""
+          "cn": "世界",
+          "en": "world"
         }
       }
     ],
     "derivationChain": [
-      "underweight"
+      "under + world"
     ],
-    "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "体检秤盘上数字偏低的警示灯",
-      "scene": "医生指着身体质量指数图表，指出患者体重低于正常范围需要补充营养",
-      "emotionalHook": "健康警示；投资组合中也用来表示低于标准的配置比例",
-      "imageChain": []
+      "mnemonicExpr": "under(下面)+world(世界)=地下世界=黑社会/冥界",
+      "imageChain": [
+        "地底→黑暗→犯罪/冥界"
+      ]
     },
     "wordLevel": {
-      "domain": [
-        "general",
-        "finance",
-        "medical"
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [
+        "underground",
+        "underworld"
       ],
+      "synonyms": [
+        "crime world",
+        "Hades",
+        "Underworld"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "crime",
+        "mythology",
+        "death"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "underwrite",
+    "phonetic": "/ˌʌndəˈraɪt/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "承保；签署保险；提供资金保证",
+      "en": "to accept financial responsibility for; to insure"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "signing below (guarantee)",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "签署担保",
+          "en": "sign below"
+        }
+      },
+      {
+        "canonical": "write",
+        "role": "root",
+        "form": "write",
+        "meaning": "write, inscribe",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "书写",
+          "en": "write"
+        }
+      }
+    ],
+    "derivationChain": [
+      "under + write"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "under(下面)+write(签名)=在保险单下面签名承保",
+      "imageChain": [
+        "保险单→签名→承保"
+      ]
+    },
+    "wordLevel": {
+      "domain": "finance",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "underwriter",
+        "underwriting",
+        "underwritten",
+        "underwrote"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "insure",
+        "guarantee",
+        "finance"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "insurance",
+        "finance",
+        "investment"
+      ],
+      "derivationPair": [
+        "underwriting"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "underwriter",
+    "phonetic": "/ˈʌndəraɪtər/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "承保人；保险商；认购人",
+      "en": "a person or company that underwrites insurance policies or securities"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "signing below",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "签署担保",
+          "en": "sign below"
+        }
+      },
+      {
+        "canonical": "write",
+        "role": "root",
+        "form": "write",
+        "meaning": "write",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "书写",
+          "en": "write"
+        }
+      },
+      {
+        "canonical": "-er",
+        "role": "suffix",
+        "form": "r",
+        "meaning": "agent noun",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "施动者",
+          "en": "agent"
+        }
+      }
+    ],
+    "derivationChain": [
+      "underwrite"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "underwrite + r = 在保险单上签名的人=保险商",
+      "imageChain": [
+        "保险单→签名者→承保机构"
+      ]
+    },
+    "wordLevel": {
+      "domain": "finance",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "underwrite",
+        "underwriters"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "insurer",
+        "guarantor"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "insurance",
+        "Lloyd's",
+        "finance"
+      ],
+      "derivationPair": [
+        "underwriters"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "underwriters",
+    "phonetic": "/ˈʌndəraɪtərz/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "承保人（复数）",
+      "en": "plural of underwriter"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "signing below",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "签署担保",
+          "en": "sign below"
+        }
+      },
+      {
+        "canonical": "write",
+        "role": "root",
+        "form": "write",
+        "meaning": "write",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "书写",
+          "en": "write"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "form": "rs",
+        "meaning": "plural agents",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "underwriter"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "underwriter的复数",
+      "imageChain": [
+        "多名承保人"
+      ]
+    },
+    "wordLevel": {
+      "domain": "finance",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "underwriter",
+        "underwrite"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "underwriter"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "underwrites",
+    "phonetic": "/ˌʌndəˈraɪts/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "承保（第三人称单数）",
+      "en": "third person singular of underwrite"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "signing below",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "签署担保",
+          "en": "sign below"
+        }
+      },
+      {
+        "canonical": "write",
+        "role": "root",
+        "form": "write",
+        "meaning": "write",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "书写",
+          "en": "write"
+        }
+      },
+      {
+        "canonical": "-es",
+        "role": "suffix",
+        "form": "s",
+        "meaning": "3rd person singular",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "第三人称",
+          "en": "3rd person"
+        }
+      }
+    ],
+    "derivationChain": [
+      "underwrite"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "underwrite的第三人称单数",
+      "imageChain": [
+        "它承保"
+      ]
+    },
+    "wordLevel": {
+      "domain": "finance",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "underwrite",
+        "underwriter"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "underwrite"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "underwriting",
+    "phonetic": "/ˈʌndəraɪtɪŋ/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "保险业；承保；认购",
+      "en": "the business of underwriting; the process of evaluating and accepting risk"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "signing below",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "签署担保",
+          "en": "sign below"
+        }
+      },
+      {
+        "canonical": "write",
+        "role": "root",
+        "form": "write",
+        "meaning": "write",
+        "order": 2,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "书写",
+          "en": "write"
+        }
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "form": "ing",
+        "meaning": "gerund, noun",
+        "order": 3,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "动名词",
+          "en": "gerund"
+        }
+      }
+    ],
+    "derivationChain": [
+      "underwrite"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "underwrite + ing = 保险/证券承保业务",
+      "imageChain": [
+        "风险→评估→承保"
+      ]
+    },
+    "wordLevel": {
+      "domain": "finance",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "underwrite",
+        "underwriter"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "insurance",
+        "risk assessment"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "insurance",
+        "IPO",
+        "securities"
+      ],
+      "derivationPair": [
+        "underwrite"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "underwritten",
+    "phonetic": "/ˌʌndəˈrɪtən/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "已承保（过去分词）",
+      "en": "past participle of underwrite"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "signing below",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "签署担保",
+          "en": "sign below"
+        }
+      },
+      {
+        "canonical": "write",
+        "role": "root",
+        "form": "written",
+        "meaning": "written (past participle)",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "已签名",
+          "en": "written"
+        }
+      }
+    ],
+    "derivationChain": [
+      "underwrite"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "underwrite的过去分词=已承保的",
+      "imageChain": [
+        "保险单→签名→已承保"
+      ]
+    },
+    "wordLevel": {
+      "domain": "finance",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "underwrite",
+        "underwrote"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "underwrite"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "underwrote",
+    "phonetic": "/ˌʌndəˈrəʊt/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": {
+      "cn": "承保（过去时）",
+      "en": "past tense of underwrite"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "signing below",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "签署担保",
+          "en": "sign below"
+        }
+      },
+      {
+        "canonical": "write",
+        "role": "root",
+        "form": "wrote",
+        "meaning": "wrote (past)",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "写了",
+          "en": "wrote"
+        }
+      }
+    ],
+    "derivationChain": [
+      "underwrite"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "underwrite的不规则过去时",
+      "imageChain": [
+        "承保→过去完成"
+      ]
+    },
+    "wordLevel": {
+      "domain": "finance",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "underwrite",
+        "underwritten"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "underwrite"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "undeserved",
+    "phonetic": "/ˌʌndɪˈzɜːvd/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": {
+      "cn": "不应得的；无功受禄的",
+      "en": "not warranted or merited; unjust"
+    },
+    "morphemes": [
+      {
+        "canonical": "un-",
+        "role": "prefix",
+        "form": "un",
+        "meaning": "not",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "coreMeaning": {
+          "cn": "不",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "de-",
+        "role": "prefix",
+        "form": "de",
+        "meaning": "fully",
+        "order": 2,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "完全",
+          "en": "fully"
+        }
+      },
+      {
+        "canonical": "serv",
+        "role": "root",
+        "form": "serv",
+        "meaning": "serve, merit",
+        "order": 3,
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "应得",
+          "en": "merit"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "form": "ed",
+        "meaning": "past participle, adjective",
+        "order": 4,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "完成态",
+          "en": "past participle"
+        }
+      }
+    ],
+    "derivationChain": [
+      "deserve"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "un(不)+deserved(应得)=不应该获得的",
+      "imageChain": [
+        "奖励→不公平→不应得"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
       "sentiment": {
         "tags": [
           "消极"
@@ -1404,28 +4673,115 @@
     },
     "relations": {
       "sameRoot": [
-        "weight",
-        "overweight",
-        "weigh"
+        "deserve",
+        "deserved",
+        "deserving"
       ],
       "sameAffix": [
-        "underfed",
-        "undernourished"
+        "unmerited",
+        "unwarranted"
       ],
       "synonyms": [
-        "thin",
-        "light",
-        "undersize"
+        "unmerited",
+        "unjustified"
       ],
       "antonyms": [
-        "overweight",
-        "obese",
-        "heavy"
+        "deserved",
+        "merited",
+        "earned"
       ],
       "domainCohort": [
-        "health",
-        "nutrition",
-        "finance"
+        "fairness",
+        "justice",
+        "merit"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "underwood",
+    "phonetic": "/ˈʌndəwʊd/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": {
+      "cn": "林下灌木丛；矮树丛",
+      "en": "small trees and shrubs growing beneath large trees; undergrowth"
+    },
+    "morphemes": [
+      {
+        "canonical": "under-",
+        "role": "prefix",
+        "form": "under",
+        "meaning": "below, beneath",
+        "order": 1,
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "下面",
+          "en": "beneath"
+        }
+      },
+      {
+        "canonical": "wood",
+        "role": "root",
+        "form": "wood",
+        "meaning": "wood, forest",
+        "order": 2,
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "coreMeaning": {
+          "cn": "森林",
+          "en": "forest"
+        }
+      }
+    ],
+    "derivationChain": [
+      "under + wood"
+    ],
+    "memorySemantics": {
+      "mnemonicExpr": "under(下面)+wood(木/森林)=大树下的小灌木",
+      "imageChain": [
+        "大树→遮蔽→灌木丛"
+      ]
+    },
+    "wordLevel": {
+      "domain": "general",
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "understory",
+        "undergrowth"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "undergrowth",
+        "understory",
+        "brush"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "forest",
+        "ecology",
+        "botany"
       ],
       "derivationPair": [],
       "morphVariants": [],
