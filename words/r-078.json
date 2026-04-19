@@ -1,580 +1,754 @@
 [
   {
+    "word": "rider's",
+    "phonetic": "/ˈraɪdərz/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "骑手的（所有格）", "en": "possessive form of rider" },
+    "morphemes": [
+      { "form": "ride", "role": "root", "canonical": "ride", "meaning": "骑", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "er", "role": "suffix", "canonical": "-er", "meaning": "做…的人", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "'s", "role": "suffix", "canonical": "-'s", "meaning": "所有格", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rider", "to": "rider's", "by": "possessive inflection" }] },
+    "morphVariantOf": "rider",
+    "memorySemantics": { "mnemonicExpr": "rider的所有格", "imageChain": ["骑手所有物"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rider", "riders", "ride"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["transport", "sport"], "derivationPair": [], "morphVariants": ["rider"], "sameImagery": [] }
+  },
+  {
+    "word": "riderless",
+    "phonetic": "/ˈraɪdərləs/",
+    "pos": "adjective",
+    "coreMeaning": { "cn": "无骑手的；无人骑乘的", "en": "without a rider; having no rider" },
+    "morphemes": [
+      { "form": "ride", "role": "root", "canonical": "ride", "meaning": "骑", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "er", "role": "suffix", "canonical": "-er", "meaning": "做…的人", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "less", "role": "suffix", "canonical": "-less", "meaning": "无…的", "positionTendency": "final", "sentiment": { "tags": ["消极"], "intensity": 1 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rider", "to": "riderless", "by": "negative suffix -less" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "rider（骑手）+ less = 没有骑手的", "imageChain": ["空鞍的马", "无人驾驭"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rider", "ride", "riders"], "sameAffix": [], "synonyms": ["unmounted", "unoccupied"], "antonyms": ["ridden"], "domainCohort": ["equestrian", "transport"], "derivationPair": [["rider", "riderless"]], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "riders",
+    "phonetic": "/ˈraɪdərz/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "骑手（复数）；附加条款", "en": "plural of rider; also: additional clauses or amendments" },
+    "morphemes": [
+      { "form": "ride", "role": "root", "canonical": "ride", "meaning": "骑", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "er", "role": "suffix", "canonical": "-er", "meaning": "做…的人", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rider", "to": "riders", "by": "plural inflection" }] },
+    "morphVariantOf": "rider",
+    "memorySemantics": { "mnemonicExpr": "rider的复数，骑手们，也指附加条款", "imageChain": ["多位骑手", "合同附款"] },
+    "wordLevel": { "domain": ["日常", "法律"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rider", "ride"], "sameAffix": [], "synonyms": ["cyclists", "jockeys", "amendments"], "antonyms": [], "domainCohort": ["sport", "law"], "derivationPair": [], "morphVariants": ["rider"], "sameImagery": [] }
+  },
+  {
+    "word": "ridership",
+    "phonetic": "/ˈraɪdərʃɪp/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "乘客数量；搭乘人数", "en": "the number of passengers using a particular form of transportation" },
+    "morphemes": [
+      { "form": "ride", "role": "root", "canonical": "ride", "meaning": "乘车", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "er", "role": "suffix", "canonical": "-er", "meaning": "做…的人", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "ship", "role": "suffix", "canonical": "-ship", "meaning": "集合名词/状态", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rider", "to": "ridership", "by": "collective suffix -ship" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "rider（乘客）+ ship（集合）= 乘客总数", "imageChain": ["地铁人流", "公交乘客"] },
+    "wordLevel": { "domain": ["交通", "商业", "新闻"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rider", "ride"], "sameAffix": [], "synonyms": ["passenger numbers", "transit usage"], "antonyms": [], "domainCohort": ["transportation", "statistics"], "derivationPair": [["rider", "ridership"]], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "rides",
+    "phonetic": "/raɪdz/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "骑（第三人称单数）；乘坐", "en": "third person singular present of ride; also noun: amusement rides" },
+    "morphemes": [
+      { "form": "ride", "role": "root", "canonical": "ride", "meaning": "骑；乘", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "s", "role": "suffix", "canonical": "-s", "meaning": "第三人称单数/复数名词", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "ride", "to": "rides", "by": "third person singular inflection" }] },
+    "morphVariantOf": "ride",
+    "memorySemantics": { "mnemonicExpr": "ride的第三人称单数", "imageChain": ["骑行动作"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["ride", "rider", "riding"], "sameAffix": [], "synonyms": ["journeys", "trips"], "antonyms": [], "domainCohort": ["transport", "sport"], "derivationPair": [], "morphVariants": ["ride"], "sameImagery": [] }
+  },
+  {
+    "word": "ridev",
+    "phonetic": "/raɪd/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "骑（动词形式）", "en": "verb form variant of ride" },
+    "morphemes": [
+      { "form": "ride", "role": "root", "canonical": "ride", "meaning": "骑；乘", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "ride", "to": "ridev", "by": "POS tagging variant" }] },
+    "morphVariantOf": "ride",
+    "memorySemantics": { "mnemonicExpr": "ride动词形式标注变体", "imageChain": ["骑行"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["ride", "rider"], "sameAffix": [], "synonyms": ["mount", "travel"], "antonyms": [], "domainCohort": ["transport"], "derivationPair": [], "morphVariants": ["ride"], "sameImagery": [] }
+  },
+  {
     "word": "ridge",
     "phonetic": "/rɪdʒ/",
-    "pos": [
-      "n.",
-      "v."
-    ],
-    "coreMeaning": {
-      "cn": "山脊；屋脊；垄",
-      "en": "a long narrow raised area on a surface; a mountain ridge"
-    },
+    "pos": "noun",
+    "coreMeaning": { "cn": "山脊；山脉；屋脊", "en": "a long narrow elevated section of land or mountain; the top of a roof" },
     "morphemes": [
-      {
-        "canonical": "ridge",
-        "role": "root",
-        "meaning": "山脊；脊背",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "ridge",
-        "positionTendency": "initial"
-      }
+      { "form": "ridge", "role": "root", "canonical": "ridge", "meaning": "山脊；脊梁（古英语 hrycg）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } }
     ],
-    "derivationChain": [
-      "ridge",
-      "ridgepole",
-      "ridged"
+    "derivationChain": { "steps": [{ "from": "Old English hrycg (back, spine, ridge)", "to": "ridge", "by": "sound change" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "ridge = 山脊，就像背脊一样的山峰线", "imageChain": ["连绵山脊", "屋脊屋顶", "山脉线条"] },
+    "wordLevel": { "domain": ["GRE", "地理", "日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["ridged", "ridges", "ridgepole", "ridging"], "sameAffix": [], "synonyms": ["crest", "spine", "peak", "range"], "antonyms": ["valley", "trough"], "domainCohort": ["geography", "architecture"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "ridged",
+    "phonetic": "/rɪdʒd/",
+    "pos": "adjective",
+    "coreMeaning": { "cn": "有脊的；凸脊状的", "en": "having ridges; marked with ridges" },
+    "morphemes": [
+      { "form": "ridge", "role": "root", "canonical": "ridge", "meaning": "山脊", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "ed", "role": "suffix", "canonical": "-ed", "meaning": "形容词化（具有…特征）", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
     ],
-    "memorySemantics": {
-      "imageKey": "山脊如刀刃",
-      "scene": "徒步登山者沿着狭窄的山脊小心行进，两侧是陡峭的山坡",
-      "emotionalHook": "险峻地形带来的紧张与壮观",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general",
-        "geography"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [],
-      "sameAffix": [],
-      "synonyms": [
-        "crest",
-        "spine",
-        "range"
-      ],
-      "antonyms": [
-        "valley",
-        "trough"
-      ],
-      "domainCohort": [
-        "peak",
-        "summit",
-        "slope"
-      ],
-      "derivationPair": [
-        "ridgepole"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "crest",
-        "spine"
-      ]
-    }
+    "derivationChain": { "steps": [{ "from": "ridge", "to": "ridged", "by": "adjectival suffix -ed" }] },
+    "morphVariantOf": "ridge",
+    "memorySemantics": { "mnemonicExpr": "ridge（脊）+ ed = 有脊纹的", "imageChain": ["带纹路的表面", "凸起的条纹"] },
+    "wordLevel": { "domain": ["日常", "地理"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["ridge", "ridges"], "sameAffix": [], "synonyms": ["furrowed", "corrugated", "grooved"], "antonyms": ["smooth", "flat"], "domainCohort": ["geography", "texture"], "derivationPair": [], "morphVariants": ["ridge"], "sameImagery": [] }
+  },
+  {
+    "word": "ridgepole",
+    "phonetic": "/ˈrɪdʒˌpoʊl/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "屋脊檩条；帐篷顶杆", "en": "the horizontal pole at the top of a tent or roof ridge" },
+    "morphemes": [
+      { "form": "ridge", "role": "root", "canonical": "ridge", "meaning": "屋脊", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "pole", "role": "root", "canonical": "pole", "meaning": "杆子；柱子", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "ridge + pole", "to": "ridgepole", "by": "compounding" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "ridge（脊）+ pole（杆）= 屋脊上的横杆", "imageChain": ["帐篷顶杆", "屋脊横梁"] },
+    "wordLevel": { "domain": ["建筑", "日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["ridge", "ridgepoles"], "sameAffix": [], "synonyms": ["rooftree", "ridge beam"], "antonyms": [], "domainCohort": ["architecture", "camping"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "ridgepoles",
+    "phonetic": "/ˈrɪdʒˌpoʊlz/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "屋脊檩条（复数）", "en": "plural of ridgepole" },
+    "morphemes": [
+      { "form": "ridge", "role": "root", "canonical": "ridge", "meaning": "屋脊", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "pole", "role": "root", "canonical": "pole", "meaning": "杆子", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "ridgepole", "to": "ridgepoles", "by": "plural inflection" }] },
+    "morphVariantOf": "ridgepole",
+    "memorySemantics": { "mnemonicExpr": "ridgepole的复数", "imageChain": ["多根屋脊杆"] },
+    "wordLevel": { "domain": ["建筑"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["ridgepole", "ridge"], "sameAffix": [], "synonyms": ["ridge beams"], "antonyms": [], "domainCohort": ["architecture"], "derivationPair": [], "morphVariants": ["ridgepole"], "sameImagery": [] }
+  },
+  {
+    "word": "ridges",
+    "phonetic": "/ˈrɪdʒɪz/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "山脊（复数）；山脉", "en": "plural of ridge; series of crests or ridges" },
+    "morphemes": [
+      { "form": "ridge", "role": "root", "canonical": "ridge", "meaning": "山脊", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "ridge", "to": "ridges", "by": "plural inflection" }] },
+    "morphVariantOf": "ridge",
+    "memorySemantics": { "mnemonicExpr": "ridge的复数", "imageChain": ["多条山脊"] },
+    "wordLevel": { "domain": ["地理"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["ridge", "ridged"], "sameAffix": [], "synonyms": ["crests", "spines"], "antonyms": ["valleys"], "domainCohort": ["geography"], "derivationPair": [], "morphVariants": ["ridge"], "sameImagery": [] }
+  },
+  {
+    "word": "ridging",
+    "phonetic": "/ˈrɪdʒɪŋ/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "形成脊状；做脊（进行时）", "en": "forming into ridges; the act of making ridges" },
+    "morphemes": [
+      { "form": "ridge", "role": "root", "canonical": "ridge", "meaning": "山脊", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "ing", "role": "suffix", "canonical": "-ing", "meaning": "进行时", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "ridge", "to": "ridging", "by": "present participle -ing" }] },
+    "morphVariantOf": "ridge",
+    "memorySemantics": { "mnemonicExpr": "ridge的进行时，形成脊状", "imageChain": ["地貌形成", "屋顶施工"] },
+    "wordLevel": { "domain": ["建筑", "地理"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["ridge", "ridged"], "sameAffix": [], "synonyms": ["cresting", "corrugating"], "antonyms": ["smoothing", "leveling"], "domainCohort": ["construction", "geography"], "derivationPair": [], "morphVariants": ["ridge"], "sameImagery": [] }
+  },
+  {
+    "word": "ridgway",
+    "phonetic": "/ˈrɪdʒweɪ/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "里奇韦（人名/地名）", "en": "proper name; a surname or place name" },
+    "morphemes": [
+      { "form": "ridge", "role": "root", "canonical": "ridge", "meaning": "山脊", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "way", "role": "root", "canonical": "way", "meaning": "道路", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "ridge + way", "to": "Ridgway", "by": "topographic surname" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "ridge（脊）+ way（路）= 脊道，山脊上的道路，常见地名", "imageChain": ["山脊小路", "英国地名"] },
+    "wordLevel": { "domain": ["地理", "历史"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["ridge"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["proper noun", "geography"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
   },
   {
     "word": "ridicule",
-    "phonetic": "/'rɪdɪkjʊl/",
-    "pos": [
-      "n.",
-      "v."
-    ],
-    "coreMeaning": {
-      "cn": "嘲笑；嘲弄；愚弄",
-      "en": "mockery; to make fun of someone"
-    },
+    "phonetic": "/ˈrɪdɪkjuːl/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "嘲笑；嘲弄；讥讽", "en": "the subjection to contemptuous and dismissive language or behavior" },
     "morphemes": [
-      {
-        "canonical": "ridic",
-        "role": "root",
-        "meaning": "笑；可笑",
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": -1
-        },
-        "order": 1,
-        "form": "ridic",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-ule",
-        "role": "suffix",
-        "meaning": "小；轻视（词缀）",
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": -1
-        },
-        "order": 2,
-        "form": "ule",
-        "positionTendency": "final"
-      }
+      { "form": "ridic-", "role": "root", "canonical": "ridere", "meaning": "嘲笑（拉丁语 ridere = to laugh）", "positionTendency": "initial", "sentiment": { "tags": ["消极"], "intensity": 2 } },
+      { "form": "ule", "role": "suffix", "canonical": "-ule", "meaning": "名词后缀（小/贬义）", "positionTendency": "final", "sentiment": { "tags": ["消极"], "intensity": 1 } }
     ],
-    "derivationChain": [
-      "ridere",
-      "ridicule",
-      "ridiculous"
+    "derivationChain": { "steps": [{ "from": "Latin ridiculus (laughable)", "to": "ridicule", "by": "borrowing via French" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "ridic（笑）+ ule = 被人嘲笑，取笑", "imageChain": ["众人指指点点", "冷嘲热讽", "公开羞辱"] },
+    "wordLevel": { "domain": ["GRE", "SAT", "日常"], "sentiment": { "tags": ["消极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["ridiculed", "ridiculous", "ridiculing", "ridicules"], "sameAffix": [], "synonyms": ["mockery", "derision", "scorn", "contempt"], "antonyms": ["praise", "respect", "admiration"], "domainCohort": ["social", "emotion", "communication"], "derivationPair": [["ridicule", "ridiculous"]], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "ridiculed",
+    "phonetic": "/ˈrɪdɪkjuːld/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "嘲笑了（过去式）", "en": "past tense of ridicule; subjected to mockery" },
+    "morphemes": [
+      { "form": "ridic-", "role": "root", "canonical": "ridere", "meaning": "嘲笑", "positionTendency": "initial", "sentiment": { "tags": ["消极"], "intensity": 2 } },
+      { "form": "ule", "role": "suffix", "canonical": "-ule", "meaning": "名词后缀", "positionTendency": "medial", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+      { "form": "ed", "role": "suffix", "canonical": "-ed", "meaning": "过去式", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
     ],
-    "memorySemantics": {
-      "imageKey": "众人哄笑",
-      "scene": "演讲者说了荒唐的话，台下观众哄堂大笑并指指点点",
-      "emotionalHook": "被嘲笑的羞耻与难堪",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": -2
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "ridiculous"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "mockery",
-        "derision",
-        "scorn"
-      ],
-      "antonyms": [
-        "praise",
-        "admiration",
-        "respect"
-      ],
-      "domainCohort": [
-        "sarcasm",
-        "ridicule",
-        "derision"
-      ],
-      "derivationPair": [
-        "ridiculous",
-        "ridiculously"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "mock",
-        "deride"
-      ]
-    }
+    "derivationChain": { "steps": [{ "from": "ridicule", "to": "ridiculed", "by": "past tense inflection" }] },
+    "morphVariantOf": "ridicule",
+    "memorySemantics": { "mnemonicExpr": "ridicule的过去式，被嘲笑了", "imageChain": ["被嘲讽后的难堪"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["消极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["ridicule", "ridiculous"], "sameAffix": [], "synonyms": ["mocked", "derided", "scorned"], "antonyms": ["praised", "admired"], "domainCohort": ["social", "emotion"], "derivationPair": [], "morphVariants": ["ridicule"], "sameImagery": [] }
+  },
+  {
+    "word": "ridiculen",
+    "phonetic": "/ˈrɪdɪkjuːl/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "嘲笑（名词形式）", "en": "noun form variant of ridicule" },
+    "morphemes": [
+      { "form": "ridic-", "role": "root", "canonical": "ridere", "meaning": "嘲笑", "positionTendency": "initial", "sentiment": { "tags": ["消极"], "intensity": 2 } },
+      { "form": "ule", "role": "suffix", "canonical": "-ule", "meaning": "名词后缀", "positionTendency": "final", "sentiment": { "tags": ["消极"], "intensity": 1 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "ridicule", "to": "ridiculen", "by": "POS tagging variant" }] },
+    "morphVariantOf": "ridicule",
+    "memorySemantics": { "mnemonicExpr": "ridicule名词形式标注变体", "imageChain": ["嘲笑讥讽"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["消极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["ridicule"], "sameAffix": [], "synonyms": ["mockery", "derision"], "antonyms": [], "domainCohort": ["social"], "derivationPair": [], "morphVariants": ["ridicule"], "sameImagery": [] }
+  },
+  {
+    "word": "ridicules",
+    "phonetic": "/ˈrɪdɪkjuːlz/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "嘲笑（第三人称单数）", "en": "third person singular present of ridicule" },
+    "morphemes": [
+      { "form": "ridic-", "role": "root", "canonical": "ridere", "meaning": "嘲笑", "positionTendency": "initial", "sentiment": { "tags": ["消极"], "intensity": 2 } },
+      { "form": "ule", "role": "suffix", "canonical": "-ule", "meaning": "名词后缀", "positionTendency": "medial", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+      { "form": "s", "role": "suffix", "canonical": "-s", "meaning": "第三人称单数", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "ridicule", "to": "ridicules", "by": "third person singular inflection" }] },
+    "morphVariantOf": "ridicule",
+    "memorySemantics": { "mnemonicExpr": "ridicule的第三人称单数", "imageChain": ["他/她嘲讽"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["消极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["ridicule", "ridiculed"], "sameAffix": [], "synonyms": ["mocks", "derides"], "antonyms": ["praises"], "domainCohort": ["social"], "derivationPair": [], "morphVariants": ["ridicule"], "sameImagery": [] }
+  },
+  {
+    "word": "ridiculev",
+    "phonetic": "/ˈrɪdɪkjuːl/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "嘲笑（动词形式）", "en": "verb form variant of ridicule" },
+    "morphemes": [
+      { "form": "ridic-", "role": "root", "canonical": "ridere", "meaning": "嘲笑", "positionTendency": "initial", "sentiment": { "tags": ["消极"], "intensity": 2 } },
+      { "form": "ule", "role": "suffix", "canonical": "-ule", "meaning": "名词后缀", "positionTendency": "final", "sentiment": { "tags": ["消极"], "intensity": 1 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "ridicule", "to": "ridiculev", "by": "POS tagging variant" }] },
+    "morphVariantOf": "ridicule",
+    "memorySemantics": { "mnemonicExpr": "ridicule动词形式标注变体", "imageChain": ["嘲笑动作"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["消极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["ridicule"], "sameAffix": [], "synonyms": ["mock", "deride", "scorn"], "antonyms": ["praise", "honor"], "domainCohort": ["social"], "derivationPair": [], "morphVariants": ["ridicule"], "sameImagery": [] }
+  },
+  {
+    "word": "ridiculing",
+    "phonetic": "/ˈrɪdɪkjuːlɪŋ/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "正在嘲笑（进行时）", "en": "present participle of ridicule" },
+    "morphemes": [
+      { "form": "ridic-", "role": "root", "canonical": "ridere", "meaning": "嘲笑", "positionTendency": "initial", "sentiment": { "tags": ["消极"], "intensity": 2 } },
+      { "form": "ule", "role": "suffix", "canonical": "-ule", "meaning": "名词后缀", "positionTendency": "medial", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+      { "form": "ing", "role": "suffix", "canonical": "-ing", "meaning": "进行时", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "ridicule", "to": "ridiculing", "by": "present participle -ing" }] },
+    "morphVariantOf": "ridicule",
+    "memorySemantics": { "mnemonicExpr": "ridicule的进行时，正在嘲笑", "imageChain": ["嘲讽进行中"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["消极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["ridicule", "ridiculed"], "sameAffix": [], "synonyms": ["mocking", "deriding"], "antonyms": ["praising"], "domainCohort": ["social"], "derivationPair": [], "morphVariants": ["ridicule"], "sameImagery": [] }
   },
   {
     "word": "ridiculous",
-    "phonetic": "/rɪ'dɪkjələs/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "荒谬的；可笑的",
-      "en": "absurd; deserving to be laughed at"
-    },
+    "phonetic": "/rɪˈdɪkjʊləs/",
+    "pos": "adjective",
+    "coreMeaning": { "cn": "可笑的；荒谬的；荒唐的", "en": "deserving or inviting ridicule; absurd or unreasonable" },
     "morphemes": [
-      {
-        "canonical": "ridic",
-        "role": "root",
-        "meaning": "笑；可笑",
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": -1
-        },
-        "order": 1,
-        "form": "ridic",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-ulous",
-        "role": "suffix",
-        "meaning": "充满……的（形容词后缀）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "ulous",
-        "positionTendency": "final"
-      }
+      { "form": "ridic-", "role": "root", "canonical": "ridere", "meaning": "嘲笑", "positionTendency": "initial", "sentiment": { "tags": ["消极"], "intensity": 2 } },
+      { "form": "ul-", "role": "linker", "canonical": "-ul-", "meaning": "连接词缀", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "ous", "role": "suffix", "canonical": "-ous", "meaning": "形容词化（充满…）", "positionTendency": "final", "sentiment": { "tags": ["消极"], "intensity": 1 } }
     ],
-    "derivationChain": [
-      "ridere",
-      "ridicule",
-      "ridiculous"
+    "derivationChain": { "steps": [{ "from": "Latin ridiculus (laughable)", "to": "ridiculous", "by": "adjectival suffix -ous" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "ridic（笑）+ ulous = 令人发笑的，可笑的，荒谬的", "imageChain": ["荒唐的理由", "令人捧腹", "荒谬逻辑"] },
+    "wordLevel": { "domain": ["GRE", "SAT", "日常"], "sentiment": { "tags": ["消极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["ridicule", "ridiculously", "ridiculousness"], "sameAffix": [], "synonyms": ["absurd", "ludicrous", "preposterous", "laughable"], "antonyms": ["reasonable", "sensible", "serious"], "domainCohort": ["logic", "humor", "social"], "derivationPair": [["ridiculous", "ridiculously"]], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "ridiculously",
+    "phonetic": "/rɪˈdɪkjʊləsli/",
+    "pos": "adverb",
+    "coreMeaning": { "cn": "荒谬地；可笑地", "en": "in a ridiculous manner; absurdly; to an extreme degree" },
+    "morphemes": [
+      { "form": "ridic-", "role": "root", "canonical": "ridere", "meaning": "嘲笑", "positionTendency": "initial", "sentiment": { "tags": ["消极"], "intensity": 2 } },
+      { "form": "ulous", "role": "suffix", "canonical": "-ulous", "meaning": "形容词化", "positionTendency": "medial", "sentiment": { "tags": ["消极"], "intensity": 2 } },
+      { "form": "ly", "role": "suffix", "canonical": "-ly", "meaning": "副词化", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
     ],
-    "memorySemantics": {
-      "imageKey": "荒唐可笑的场景",
-      "scene": "小丑穿着不合身的大鞋踩到香蕉皮摔倒，令人发笑",
-      "emotionalHook": "对荒唐事物的好笑与轻视",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": -1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "ridicule"
-      ],
-      "sameAffix": [
-        "populous",
-        "fabulous"
-      ],
-      "synonyms": [
-        "absurd",
-        "ludicrous",
-        "preposterous"
-      ],
-      "antonyms": [
-        "sensible",
-        "reasonable",
-        "rational"
-      ],
-      "domainCohort": [
-        "absurd",
-        "ludicrous"
-      ],
-      "derivationPair": [
-        "ridiculously",
-        "ridiculousness"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "absurd",
-        "farcical"
-      ]
-    }
+    "derivationChain": { "steps": [{ "from": "ridiculous", "to": "ridiculously", "by": "adverbial suffix -ly" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "ridiculous（荒谬）+ ly = 荒谬地，也常用于夸张强调", "imageChain": ["荒谬至极", "极度不合理"] },
+    "wordLevel": { "domain": ["日常", "口语"], "sentiment": { "tags": ["消极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["ridiculous", "ridicule"], "sameAffix": [], "synonyms": ["absurdly", "ludicrously", "outrageously"], "antonyms": ["reasonably", "sensibly"], "domainCohort": ["humor", "emotion"], "derivationPair": [["ridiculous", "ridiculously"]], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "ridiculousness",
+    "phonetic": "/rɪˈdɪkjʊləsnəs/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "荒谬性；可笑的程度", "en": "the quality of being ridiculous; absurdity" },
+    "morphemes": [
+      { "form": "ridic-", "role": "root", "canonical": "ridere", "meaning": "嘲笑", "positionTendency": "initial", "sentiment": { "tags": ["消极"], "intensity": 2 } },
+      { "form": "ulous", "role": "suffix", "canonical": "-ulous", "meaning": "形容词化", "positionTendency": "medial", "sentiment": { "tags": ["消极"], "intensity": 2 } },
+      { "form": "ness", "role": "suffix", "canonical": "-ness", "meaning": "名词化（性质）", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "ridiculous", "to": "ridiculousness", "by": "nominal suffix -ness" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "ridiculous（荒谬）+ ness = 荒谬性", "imageChain": ["荒谬的本质"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["消极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["ridiculous", "ridicule"], "sameAffix": [], "synonyms": ["absurdity", "ludicrousness", "preposterousness"], "antonyms": ["reasonableness", "sensibleness"], "domainCohort": ["logic", "humor"], "derivationPair": [["ridiculous", "ridiculousness"]], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "riding",
+    "phonetic": "/ˈraɪdɪŋ/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "骑行（进行时）；骑马运动", "en": "present participle of ride; the sport of horse riding" },
+    "morphemes": [
+      { "form": "ride", "role": "root", "canonical": "ride", "meaning": "骑；乘", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "ing", "role": "suffix", "canonical": "-ing", "meaning": "进行时/名词化", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "ride", "to": "riding", "by": "present participle -ing" }] },
+    "morphVariantOf": "ride",
+    "memorySemantics": { "mnemonicExpr": "ride的进行时，骑行中", "imageChain": ["骑马疾驰", "骑自行车"] },
+    "wordLevel": { "domain": ["日常", "体育"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["ride", "rider", "rides"], "sameAffix": [], "synonyms": ["horseback riding", "cycling"], "antonyms": [], "domainCohort": ["sport", "transport"], "derivationPair": [], "morphVariants": ["ride"], "sameImagery": [] }
+  },
+  {
+    "word": "ridingn",
+    "phonetic": "/ˈraɪdɪŋ/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "骑马运动；行政区（名词形式）", "en": "noun form: horse riding; also a historical administrative division" },
+    "morphemes": [
+      { "form": "ride", "role": "root", "canonical": "ride", "meaning": "骑", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "ing", "role": "suffix", "canonical": "-ing", "meaning": "名词化", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "riding", "to": "ridingn", "by": "POS tagging variant" }] },
+    "morphVariantOf": "riding",
+    "memorySemantics": { "mnemonicExpr": "riding名词形式，也指英国约克郡的行政分区", "imageChain": ["骑马运动", "行政区划"] },
+    "wordLevel": { "domain": ["体育", "历史"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["riding", "ride"], "sameAffix": [], "synonyms": ["equitation", "district"], "antonyms": [], "domainCohort": ["sport", "history"], "derivationPair": [], "morphVariants": ["riding"], "sameImagery": [] }
+  },
+  {
+    "word": "ridings",
+    "phonetic": "/ˈraɪdɪŋz/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "行政区（复数）", "en": "plural of riding; historical administrative divisions of Yorkshire" },
+    "morphemes": [
+      { "form": "ride", "role": "root", "canonical": "ride", "meaning": "骑", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "ing", "role": "suffix", "canonical": "-ing", "meaning": "名词化", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "riding", "to": "ridings", "by": "plural inflection" }] },
+    "morphVariantOf": "riding",
+    "memorySemantics": { "mnemonicExpr": "riding的复数，约克郡三分区", "imageChain": ["约克郡地图", "行政分区"] },
+    "wordLevel": { "domain": ["历史", "地理"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["riding", "ride"], "sameAffix": [], "synonyms": ["districts", "divisions"], "antonyms": [], "domainCohort": ["history", "geography"], "derivationPair": [], "morphVariants": ["riding"], "sameImagery": [] }
+  },
+  {
+    "word": "ridley",
+    "phonetic": "/ˈrɪdli/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "丽龟（一种海龟）；里德利（人名）", "en": "a type of sea turtle (Lepidochelys); also a surname" },
+    "morphemes": [
+      { "form": "ridley", "role": "root", "canonical": "ridley", "meaning": "里德利（专有名词）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "surname Ridley", "to": "ridley (turtle species)", "by": "eponymous naming" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "ridley = 以人名命名的丽龟；也是英国历史上的新教殉道者尼古拉斯·里德利", "imageChain": ["海龟", "物种命名"] },
+    "wordLevel": { "domain": ["生物", "历史"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": ["sea turtle"], "antonyms": [], "domainCohort": ["biology", "proper noun"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "riemann's",
+    "phonetic": "/ˈriːmənz/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "黎曼的（所有格）；黎曼（数学家名字）", "en": "possessive of Riemann; German mathematician Bernhard Riemann" },
+    "morphemes": [
+      { "form": "Riemann", "role": "root", "canonical": "riemann's", "meaning": "黎曼（专有名词）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "'s", "role": "suffix", "canonical": "-'s", "meaning": "所有格", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Riemann", "to": "Riemann's", "by": "possessive inflection" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "黎曼（Bernhard Riemann），19世纪德国数学家，黎曼假设之名", "imageChain": ["数学公式", "数论研究"] },
+    "wordLevel": { "domain": ["数学", "学术"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["mathematics", "proper noun"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "rifat",
+    "phonetic": "/ˈriːfæt/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "里法特（人名）", "en": "a given name, common in South Asian and Middle Eastern cultures" },
+    "morphemes": [
+      { "form": "rifat", "role": "root", "canonical": "rifat", "meaning": "里法特（专有名词）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Arabic rif'at (elevation, dignity)", "to": "Rifat", "by": "given name" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "Rifat = 阿拉伯语名字，意为「高贵、尊严」", "imageChain": ["人名", "南亚文化"] },
+    "wordLevel": { "domain": ["人名", "文化"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["proper noun"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
   },
   {
     "word": "rife",
     "phonetic": "/raɪf/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "充斥的；盛行的；普遍的",
-      "en": "full of something undesirable; widespread"
-    },
+    "pos": "adjective",
+    "coreMeaning": { "cn": "普遍的；盛行的；充斥的", "en": "widespread; full of something undesirable; common" },
     "morphemes": [
-      {
-        "canonical": "rife",
-        "role": "root",
-        "meaning": "充满；盛行",
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": -1
-        },
-        "order": 1,
-        "form": "rife",
-        "positionTendency": "initial"
-      }
+      { "form": "rife", "role": "root", "canonical": "rife", "meaning": "普遍；盛行（古英语 ryfe）", "positionTendency": "initial", "sentiment": { "tags": ["消极"], "intensity": 1 } }
     ],
-    "derivationChain": [
-      "rife"
+    "derivationChain": { "steps": [{ "from": "Old English ryfe (abundant, prevalent)", "to": "rife", "by": "simplification" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "rife with = 充斥着，到处都是（负面事物）", "imageChain": ["腐败横行", "谣言四起", "问题遍布"] },
+    "wordLevel": { "domain": ["GRE", "SAT", "正式"], "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": ["prevalent", "widespread", "rampant", "abundant"], "antonyms": ["rare", "scarce", "uncommon"], "domainCohort": ["social", "epidemic", "general"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "riff",
+    "phonetic": "/rɪf/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "（音乐）反复的短小乐句；即兴段落", "en": "a short repeated phrase in music; an improvised variation or elaboration" },
+    "morphemes": [
+      { "form": "riff", "role": "root", "canonical": "riff", "meaning": "音乐短句（缩自 riffle 或 refrain）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } }
     ],
-    "memorySemantics": {
-      "imageKey": "腐败盛行",
-      "scene": "一个城市腐败横行，到处都是不诚实和欺骗",
-      "emotionalHook": "普遍存在的负面现象令人忧虑",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "academic",
-        "general"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": -1
-      }
-    },
-    "relations": {
-      "sameRoot": [],
-      "sameAffix": [],
-      "synonyms": [
-        "rampant",
-        "widespread",
-        "prevalent"
-      ],
-      "antonyms": [
-        "rare",
-        "scarce",
-        "uncommon"
-      ],
-      "domainCohort": [
-        "prevalent",
-        "rampant",
-        "epidemic"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": [
-        "rampant",
-        "pervasive"
-      ]
-    }
+    "derivationChain": { "steps": [{ "from": "possibly from refrain or riffle", "to": "riff", "by": "clipping" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "riff = 音乐中反复的短句，吉他乐段", "imageChain": ["吉他弦", "爵士乐句", "即兴演奏"] },
+    "wordLevel": { "domain": ["音乐", "日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["riffs", "riffing"], "sameAffix": [], "synonyms": ["phrase", "lick", "motif"], "antonyms": [], "domainCohort": ["music", "jazz"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "riffle",
+    "phonetic": "/ˈrɪfəl/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "快速翻阅；（水）急流浅滩", "en": "to flip through pages quickly; a stretch of shallow rippling water" },
+    "morphemes": [
+      { "form": "riffle", "role": "root", "canonical": "riffle", "meaning": "翻动；浅流（可能源自 ruffle）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "possibly from ruffle or rifle (to turn over)", "to": "riffle", "by": "variant formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "riffle = 快速翻动（书页），也指浅水激流", "imageChain": ["翻阅书页", "浅滩急流"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["riffled", "riffles", "riffling"], "sameAffix": [], "synonyms": ["flip through", "thumb", "shuffle"], "antonyms": [], "domainCohort": ["reading", "nature"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "riffled",
+    "phonetic": "/ˈrɪfəld/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "快速翻过（过去式）", "en": "past tense of riffle" },
+    "morphemes": [
+      { "form": "riffle", "role": "root", "canonical": "riffle", "meaning": "翻动", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "ed", "role": "suffix", "canonical": "-ed", "meaning": "过去式", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "riffle", "to": "riffled", "by": "past tense inflection" }] },
+    "morphVariantOf": "riffle",
+    "memorySemantics": { "mnemonicExpr": "riffle的过去式", "imageChain": ["已翻阅过"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["riffle", "riffles"], "sameAffix": [], "synonyms": ["flipped through", "thumbed"], "antonyms": [], "domainCohort": ["reading"], "derivationPair": [], "morphVariants": ["riffle"], "sameImagery": [] }
+  },
+  {
+    "word": "riffles",
+    "phonetic": "/ˈrɪfəlz/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "浅水急流处（复数）", "en": "plural of riffle; shallow areas of rippling water in a stream" },
+    "morphemes": [
+      { "form": "riffle", "role": "root", "canonical": "riffle", "meaning": "翻动；浅流", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "riffle", "to": "riffles", "by": "plural inflection" }] },
+    "morphVariantOf": "riffle",
+    "memorySemantics": { "mnemonicExpr": "riffle的复数，溪流中的多处浅滩", "imageChain": ["多处急流", "涟漪水面"] },
+    "wordLevel": { "domain": ["自然", "地理"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["riffle", "riffled"], "sameAffix": [], "synonyms": ["rapids", "shallows"], "antonyms": [], "domainCohort": ["nature", "hydrology"], "derivationPair": [], "morphVariants": ["riffle"], "sameImagery": [] }
+  },
+  {
+    "word": "riffling",
+    "phonetic": "/ˈrɪfəlɪŋ/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "快速翻动（进行时）", "en": "present participle of riffle" },
+    "morphemes": [
+      { "form": "riffle", "role": "root", "canonical": "riffle", "meaning": "翻动", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "ing", "role": "suffix", "canonical": "-ing", "meaning": "进行时", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "riffle", "to": "riffling", "by": "present participle -ing" }] },
+    "morphVariantOf": "riffle",
+    "memorySemantics": { "mnemonicExpr": "riffle的进行时，正在翻阅", "imageChain": ["手指翻书"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["riffle", "riffled"], "sameAffix": [], "synonyms": ["flipping through", "thumbing"], "antonyms": [], "domainCohort": ["reading"], "derivationPair": [], "morphVariants": ["riffle"], "sameImagery": [] }
+  },
+  {
+    "word": "riffraff",
+    "phonetic": "/ˈrɪfˌræf/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "乌合之众；下层社会；不入流的人", "en": "undesirable or disreputable people; the rabble" },
+    "morphemes": [
+      { "form": "riff", "role": "root", "canonical": "riffraff", "meaning": "废物（中古英语 rif and raf）", "positionTendency": "initial", "sentiment": { "tags": ["贬义"], "intensity": 2 } },
+      { "form": "raff", "role": "root", "canonical": "riffraff", "meaning": "废物（中古英语）", "positionTendency": "final", "sentiment": { "tags": ["贬义"], "intensity": 2 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Middle French rif et raf (every scrap)", "to": "riffraff", "by": "rhyming reduplication" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "riff + raff 叠韵构词，指无用之物/乌合之众", "imageChain": ["街头混混", "乌合之众", "不入流"] },
+    "wordLevel": { "domain": ["日常", "口语"], "sentiment": { "tags": ["贬义"], "intensity": 2 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": ["rabble", "ruffians", "lowlifes", "dregs"], "antonyms": ["elite", "nobility", "gentry"], "domainCohort": ["social", "class"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "riffs",
+    "phonetic": "/rɪfs/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "（音乐）短小乐句（复数）", "en": "plural of riff; repeated musical phrases" },
+    "morphemes": [
+      { "form": "riff", "role": "root", "canonical": "riff", "meaning": "音乐短句", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "riff", "to": "riffs", "by": "plural inflection" }] },
+    "morphVariantOf": "riff",
+    "memorySemantics": { "mnemonicExpr": "riff的复数", "imageChain": ["多个音乐短句"] },
+    "wordLevel": { "domain": ["音乐"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["riff"], "sameAffix": [], "synonyms": ["phrases", "licks", "motifs"], "antonyms": [], "domainCohort": ["music"], "derivationPair": [], "morphVariants": ["riff"], "sameImagery": [] }
   },
   {
     "word": "rifle",
-    "phonetic": "/'raɪfl/",
-    "pos": [
-      "n.",
-      "v."
-    ],
-    "coreMeaning": {
-      "cn": "步枪；来复枪；搜刮",
-      "en": "a firearm with a long barrel; to search through and steal"
-    },
+    "phonetic": "/ˈraɪfəl/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "步枪；来复枪", "en": "a shoulder gun with a long barrel with a spiral groove; to search and steal" },
     "morphemes": [
-      {
-        "canonical": "rifle",
-        "role": "root",
-        "meaning": "步枪；搜刮",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "rifle",
-        "positionTendency": "initial"
-      }
+      { "form": "rifle", "role": "root", "canonical": "rifle", "meaning": "螺旋刻纹（德语 Riffel = groove）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } }
     ],
-    "derivationChain": [
-      "riffle",
-      "rifle",
-      "rifleman"
+    "derivationChain": { "steps": [{ "from": "German Riffel/rifeln (to groove)", "to": "rifle (gun with rifled barrel)", "by": "metonymy" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "rifle = 枪管内有螺旋槽的枪 = 来复枪；也作动词意思是翻动搜查", "imageChain": ["步枪枪管", "螺旋纹路", "精准射击"] },
+    "wordLevel": { "domain": ["军事", "日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rifles", "rifled", "rifleman", "riflemen", "rifling"], "sameAffix": [], "synonyms": ["carbine", "musket", "firearm"], "antonyms": [], "domainCohort": ["military", "weapons"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "rifle's",
+    "phonetic": "/ˈraɪfəlz/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "步枪的（所有格）", "en": "possessive form of rifle" },
+    "morphemes": [
+      { "form": "rifle", "role": "root", "canonical": "rifle", "meaning": "步枪", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "'s", "role": "suffix", "canonical": "-'s", "meaning": "所有格", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
     ],
-    "memorySemantics": {
-      "imageKey": "螺旋膛线步枪",
-      "scene": "士兵手持步枪，枪管内的螺旋线让子弹旋转飞行更精准",
-      "emotionalHook": "军事精准与战争残酷的双重印象",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "military",
-        "general"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [],
-      "sameAffix": [],
-      "synonyms": [
-        "carbine",
-        "musket"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "firearm",
-        "weapon",
-        "ammunition"
-      ],
-      "derivationPair": [
-        "rifleman"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "firearm",
-        "weapon"
-      ]
-    }
+    "derivationChain": { "steps": [{ "from": "rifle", "to": "rifle's", "by": "possessive inflection" }] },
+    "morphVariantOf": "rifle",
+    "memorySemantics": { "mnemonicExpr": "rifle的所有格", "imageChain": ["步枪所有物"] },
+    "wordLevel": { "domain": ["军事"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rifle", "rifles"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["military"], "derivationPair": [], "morphVariants": ["rifle"], "sameImagery": [] }
+  },
+  {
+    "word": "rifled",
+    "phonetic": "/ˈraɪfəld/",
+    "pos": "adjective",
+    "coreMeaning": { "cn": "有螺旋纹的；翻搜过的", "en": "having spiral grooves; having been ransacked" },
+    "morphemes": [
+      { "form": "rifle", "role": "root", "canonical": "rifle", "meaning": "螺旋刻纹；翻搜", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "ed", "role": "suffix", "canonical": "-ed", "meaning": "过去式/形容词", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rifle", "to": "rifled", "by": "past participle -ed" }] },
+    "morphVariantOf": "rifle",
+    "memorySemantics": { "mnemonicExpr": "rifle的形容词：有螺旋膛线的；或翻搜过的", "imageChain": ["膛线枪管", "被翻搜的房间"] },
+    "wordLevel": { "domain": ["军事", "日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rifle", "rifling"], "sameAffix": [], "synonyms": ["grooved", "ransacked", "plundered"], "antonyms": [], "domainCohort": ["military", "crime"], "derivationPair": [], "morphVariants": ["rifle"], "sameImagery": [] }
+  },
+  {
+    "word": "rifleman",
+    "phonetic": "/ˈraɪfəlmən/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "步枪手；射手", "en": "a soldier or person skilled in shooting with a rifle" },
+    "morphemes": [
+      { "form": "rifle", "role": "root", "canonical": "rifle", "meaning": "步枪", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "man", "role": "suffix", "canonical": "-man", "meaning": "男性；专职人员", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rifle + man", "to": "rifleman", "by": "compounding" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "rifle（步枪）+ man（人）= 步枪手", "imageChain": ["士兵持枪", "精确射手"] },
+    "wordLevel": { "domain": ["军事", "历史"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rifle", "riflemen"], "sameAffix": [], "synonyms": ["marksman", "sharpshooter", "sniper"], "antonyms": [], "domainCohort": ["military", "warfare"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "rifleman's",
+    "phonetic": "/ˈraɪfəlmənz/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "步枪手的（所有格）", "en": "possessive form of rifleman" },
+    "morphemes": [
+      { "form": "rifle", "role": "root", "canonical": "rifle", "meaning": "步枪", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "man", "role": "suffix", "canonical": "-man", "meaning": "专职人员", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "'s", "role": "suffix", "canonical": "-'s", "meaning": "所有格", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rifleman", "to": "rifleman's", "by": "possessive inflection" }] },
+    "morphVariantOf": "rifleman",
+    "memorySemantics": { "mnemonicExpr": "rifleman的所有格", "imageChain": ["步枪手所有物"] },
+    "wordLevel": { "domain": ["军事"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rifleman", "rifle"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["military"], "derivationPair": [], "morphVariants": ["rifleman"], "sameImagery": [] }
+  },
+  {
+    "word": "riflemen",
+    "phonetic": "/ˈraɪfəlmən/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "步枪手（复数）", "en": "plural of rifleman; soldiers armed with rifles" },
+    "morphemes": [
+      { "form": "rifle", "role": "root", "canonical": "rifle", "meaning": "步枪", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "men", "role": "suffix", "canonical": "-men", "meaning": "复数（man→men）", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rifleman", "to": "riflemen", "by": "irregular plural (man→men)" }] },
+    "morphVariantOf": "rifleman",
+    "memorySemantics": { "mnemonicExpr": "rifleman的不规则复数", "imageChain": ["一队步枪手"] },
+    "wordLevel": { "domain": ["军事", "历史"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rifleman", "rifle"], "sameAffix": [], "synonyms": ["marksmen", "shooters"], "antonyms": [], "domainCohort": ["military"], "derivationPair": [], "morphVariants": ["rifleman"], "sameImagery": [] }
+  },
+  {
+    "word": "riflemen's",
+    "phonetic": "/ˈraɪfəlmənz/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "步枪手们的（所有格复数）", "en": "possessive plural of rifleman" },
+    "morphemes": [
+      { "form": "rifle", "role": "root", "canonical": "rifle", "meaning": "步枪", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "men", "role": "suffix", "canonical": "-men", "meaning": "复数", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "'s", "role": "suffix", "canonical": "-'s", "meaning": "所有格", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "riflemen", "to": "riflemen's", "by": "possessive inflection" }] },
+    "morphVariantOf": "riflemen",
+    "memorySemantics": { "mnemonicExpr": "riflemen的所有格", "imageChain": ["步枪手们的装备"] },
+    "wordLevel": { "domain": ["军事"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["riflemen", "rifleman", "rifle"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["military"], "derivationPair": [], "morphVariants": ["riflemen"], "sameImagery": [] }
+  },
+  {
+    "word": "riflen",
+    "phonetic": "/ˈraɪfəl/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "步枪（名词形式）", "en": "noun form variant of rifle" },
+    "morphemes": [
+      { "form": "rifle", "role": "root", "canonical": "rifle", "meaning": "步枪", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rifle", "to": "riflen", "by": "POS tagging variant" }] },
+    "morphVariantOf": "rifle",
+    "memorySemantics": { "mnemonicExpr": "rifle名词形式标注变体", "imageChain": ["步枪"] },
+    "wordLevel": { "domain": ["军事"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rifle"], "sameAffix": [], "synonyms": ["firearm", "gun"], "antonyms": [], "domainCohort": ["military"], "derivationPair": [], "morphVariants": ["rifle"], "sameImagery": [] }
+  },
+  {
+    "word": "rifles",
+    "phonetic": "/ˈraɪfəlz/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "步枪（复数）", "en": "plural of rifle; also third person singular verb" },
+    "morphemes": [
+      { "form": "rifle", "role": "root", "canonical": "rifle", "meaning": "步枪", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rifle", "to": "rifles", "by": "plural inflection" }] },
+    "morphVariantOf": "rifle",
+    "memorySemantics": { "mnemonicExpr": "rifle的复数，多支步枪", "imageChain": ["武器库", "多支枪支"] },
+    "wordLevel": { "domain": ["军事"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rifle", "rifleman"], "sameAffix": [], "synonyms": ["firearms", "muskets"], "antonyms": [], "domainCohort": ["military"], "derivationPair": [], "morphVariants": ["rifle"], "sameImagery": [] }
+  },
+  {
+    "word": "riflev",
+    "phonetic": "/ˈraɪfəl/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "翻搜（动词形式）", "en": "verb form variant of rifle; to search through and steal" },
+    "morphemes": [
+      { "form": "rifle", "role": "root", "canonical": "rifle", "meaning": "翻搜", "positionTendency": "initial", "sentiment": { "tags": ["消极"], "intensity": 1 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rifle", "to": "riflev", "by": "POS tagging variant" }] },
+    "morphVariantOf": "rifle",
+    "memorySemantics": { "mnemonicExpr": "rifle动词形式：翻搜，洗劫", "imageChain": ["翻抽屉", "洗劫现场"] },
+    "wordLevel": { "domain": ["日常", "犯罪"], "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["rifle"], "sameAffix": [], "synonyms": ["ransack", "search", "plunder"], "antonyms": [], "domainCohort": ["crime"], "derivationPair": [], "morphVariants": ["rifle"], "sameImagery": [] }
+  },
+  {
+    "word": "rifling",
+    "phonetic": "/ˈraɪfəlɪŋ/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "膛线；来复线", "en": "spiral grooves in a gun barrel; the act of ransacking" },
+    "morphemes": [
+      { "form": "rifle", "role": "root", "canonical": "rifle", "meaning": "螺旋刻纹；翻搜", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "ing", "role": "suffix", "canonical": "-ing", "meaning": "名词化/进行时", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rifle", "to": "rifling", "by": "gerund -ing" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "rifle的名词化：枪膛中的螺旋线，使子弹旋转精准", "imageChain": ["枪管截面", "螺旋膛线"] },
+    "wordLevel": { "domain": ["军事", "工程"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rifle", "rifled"], "sameAffix": [], "synonyms": ["grooves", "spiral grooves"], "antonyms": [], "domainCohort": ["military", "ballistics"], "derivationPair": [["rifle", "rifling"]], "morphVariants": [], "sameImagery": [] }
   },
   {
     "word": "rift",
     "phonetic": "/rɪft/",
-    "pos": [
-      "n.",
-      "v."
-    ],
-    "coreMeaning": {
-      "cn": "裂缝；裂口；不和",
-      "en": "a crack or split; a serious break in friendly relations"
-    },
+    "pos": "noun",
+    "coreMeaning": { "cn": "裂缝；裂口；不和；分裂", "en": "a crack or split; a serious break in friendly relations" },
     "morphemes": [
-      {
-        "canonical": "rift",
-        "role": "root",
-        "meaning": "裂开；分裂",
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": -1
-        },
-        "order": 1,
-        "form": "rift",
-        "positionTendency": "initial"
-      }
+      { "form": "rift", "role": "root", "canonical": "rift", "meaning": "裂缝（古斯堪的纳维亚语 ript = quarrel）", "positionTendency": "initial", "sentiment": { "tags": ["消极"], "intensity": 1 } }
     ],
-    "derivationChain": [
-      "rift"
-    ],
-    "memorySemantics": {
-      "imageKey": "大地裂缝",
-      "scene": "两块大陆板块分离形成巨大的地堑，象征关系的破裂",
-      "emotionalHook": "裂痕与疏离的痛苦感",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general",
-        "geology"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": -1
-      }
-    },
-    "relations": {
-      "sameRoot": [],
-      "sameAffix": [],
-      "synonyms": [
-        "split",
-        "crack",
-        "rupture",
-        "breach"
-      ],
-      "antonyms": [
-        "union",
-        "reconciliation"
-      ],
-      "domainCohort": [
-        "fracture",
-        "schism",
-        "divide"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": [
-        "crack",
-        "split"
-      ]
-    }
+    "derivationChain": { "steps": [{ "from": "Old Norse ript (quarrel, breach)", "to": "rift", "by": "borrowing" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "rift = 裂缝，引申为关系破裂。rift valley = 裂谷", "imageChain": ["地壳裂缝", "裂谷", "关系破裂"] },
+    "wordLevel": { "domain": ["GRE", "地理", "日常"], "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["rifts"], "sameAffix": [], "synonyms": ["crack", "split", "fissure", "breach", "schism"], "antonyms": ["unity", "harmony", "reconciliation"], "domainCohort": ["geology", "social", "politics"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
   },
   {
-    "word": "ridership",
-    "phonetic": "/'raɪdəʃɪp/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "（交通工具的）乘客数量",
-      "en": "the number of passengers using a public transport system"
-    },
+    "word": "rifts",
+    "phonetic": "/rɪfts/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "裂缝（复数）；分裂", "en": "plural of rift; cracks, splits or breaches" },
     "morphemes": [
-      {
-        "canonical": "ride",
-        "role": "root",
-        "meaning": "乘坐；骑行",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "rider",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-ship",
-        "role": "suffix",
-        "meaning": "状态；身份；集合（名词后缀）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "ship",
-        "positionTendency": "final"
-      }
+      { "form": "rift", "role": "root", "canonical": "rift", "meaning": "裂缝", "positionTendency": "initial", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+      { "form": "s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
     ],
-    "derivationChain": [
-      "ride",
-      "rider",
-      "ridership"
+    "derivationChain": { "steps": [{ "from": "rift", "to": "rifts", "by": "plural inflection" }] },
+    "morphVariantOf": "rift",
+    "memorySemantics": { "mnemonicExpr": "rift的复数", "imageChain": ["多处裂缝", "多重分裂"] },
+    "wordLevel": { "domain": ["地理", "日常"], "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["rift"], "sameAffix": [], "synonyms": ["cracks", "splits", "schisms"], "antonyms": ["unities", "bonds"], "domainCohort": ["geology", "social"], "derivationPair": [], "morphVariants": ["rift"], "sameImagery": [] }
+  },
+  {
+    "word": "rig",
+    "phonetic": "/rɪɡ/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "给船装帆；操纵；操控", "en": "to fit out a boat with sails; to manipulate or fix unfairly" },
+    "morphemes": [
+      { "form": "rig", "role": "root", "canonical": "rig", "meaning": "装配；操纵（可能来自斯堪的纳维亚语 rigga）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } }
     ],
-    "memorySemantics": {
-      "imageKey": "地铁满座的高峰期",
-      "scene": "统计每日乘地铁的人次数量，用于城市交通规划",
-      "emotionalHook": "城市运转与公共交通的效率感",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "business",
-        "urban planning"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "rider",
-        "ride"
-      ],
-      "sameAffix": [
-        "readership",
-        "membership"
-      ],
-      "synonyms": [
-        "passenger count",
-        "traffic volume"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "commuter",
-        "transit",
-        "passenger"
-      ],
-      "derivationPair": [
-        "rider"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "commuters",
-        "passengers"
-      ]
-    }
+    "derivationChain": { "steps": [{ "from": "possibly Scandinavian rigga (to bind, wrap)", "to": "rig", "by": "borrowing" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "rig = 装备船帆；也指操控（比赛/选举），弄虚作假", "imageChain": ["帆船装备", "操纵选举", "石油钻机"] },
+    "wordLevel": { "domain": ["GRE", "航运", "日常"], "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": ["equip", "outfit", "manipulate", "fix", "doctor"], "antonyms": ["dismantle", "play fair"], "domainCohort": ["maritime", "politics", "industry"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
   }
 ]

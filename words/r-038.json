@@ -1,785 +1,778 @@
 [
   {
     "word": "refund",
-    "phonetic": "/ˈrifʌnd/",
-    "pos": [
-      "n.",
-      "vt."
-    ],
-    "coreMeaning": {
-      "cn": "退款；偿还",
-      "en": "to return money paid; a repayment"
-    },
+    "phonetic": "/ˈriːfʌnd/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "退款；偿还", "en": "a repayment of money previously paid; also verb: to pay back" },
     "morphemes": [
-      {
-        "canonical": "re-",
-        "role": "prefix",
-        "meaning": "回；再",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "re",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "fund",
-        "role": "root",
-        "meaning": "资金；注入",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "fund",
-        "positionTendency": "final"
-      }
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "返回；再", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "fund", "role": "root", "canonical": "fundus", "meaning": "底部；资金（拉丁语）", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
     ],
-    "derivationChain": [
-      "fund (L. fundere)",
-      "refund"
+    "derivationChain": { "steps": [{ "from": "re- + fund", "to": "refund", "by": "prefix addition" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "re（回）+ fund（资金）= 把钱还回去 = 退款", "imageChain": ["退货收据", "返还资金", "退款通知"] },
+    "wordLevel": { "domain": ["商业", "日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["refunds", "refunded", "refunding", "refundable"], "sameAffix": ["rebuild", "reclaim"], "synonyms": ["reimbursement", "repayment"], "antonyms": ["charge", "payment"], "domainCohort": ["finance", "commerce"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "refundable",
+    "phonetic": "/rɪˈfʌndəbl/",
+    "pos": "adjective",
+    "coreMeaning": { "cn": "可退款的；可偿还的", "en": "able to be refunded" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "返回", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "fund", "role": "root", "canonical": "fundus", "meaning": "资金", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "able", "role": "suffix", "canonical": "-able", "meaning": "可以…的", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
     ],
-    "memorySemantics": {
-      "imageKey": "money returning to wallet",
-      "scene": "收银员把钞票推回到顾客手上",
-      "emotionalHook": "购物失望后得到的安慰",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "business",
-        "finance",
-        "legal"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "fund",
-        "refundable",
-        "fundamental"
-      ],
-      "sameAffix": [
-        "refurbish",
-        "refusal",
-        "refute"
-      ],
-      "synonyms": [
-        "reimbursement",
-        "rebate",
-        "repayment"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "rebate",
-        "reimbursement",
-        "discount"
-      ],
-      "derivationPair": [
-        "refundable"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": { "steps": [{ "from": "refund", "to": "refundable", "by": "adjectival suffix -able" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "refund（退款）+ able = 可以退款的", "imageChain": ["可退款标签", "购物保障"] },
+    "wordLevel": { "domain": ["商业", "日常"], "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["refund", "refunds"], "sameAffix": [], "synonyms": ["returnable", "reimbursable"], "antonyms": ["non-refundable"], "domainCohort": ["finance", "commerce"], "derivationPair": [["refund", "refundable"]], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "refunded",
+    "phonetic": "/rɪˈfʌndɪd/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "已退款（过去式）", "en": "past tense of refund" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "返回", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "fund", "role": "root", "canonical": "fundus", "meaning": "资金", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "ed", "role": "suffix", "canonical": "-ed", "meaning": "过去式", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "refund", "to": "refunded", "by": "past tense inflection" }] },
+    "morphVariantOf": "refund",
+    "memorySemantics": { "mnemonicExpr": "refund的过去式", "imageChain": ["已完成退款"] },
+    "wordLevel": { "domain": ["商业"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["refund", "refunding"], "sameAffix": [], "synonyms": ["reimbursed", "repaid"], "antonyms": [], "domainCohort": ["finance"], "derivationPair": [], "morphVariants": ["refund"], "sameImagery": [] }
+  },
+  {
+    "word": "refunding",
+    "phonetic": "/rɪˈfʌndɪŋ/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "正在退款（进行时）", "en": "present participle of refund" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "返回", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "fund", "role": "root", "canonical": "fundus", "meaning": "资金", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "ing", "role": "suffix", "canonical": "-ing", "meaning": "进行时", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "refund", "to": "refunding", "by": "present participle -ing" }] },
+    "morphVariantOf": "refund",
+    "memorySemantics": { "mnemonicExpr": "refund的进行时", "imageChain": ["处理退款中"] },
+    "wordLevel": { "domain": ["商业"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["refund", "refunded"], "sameAffix": [], "synonyms": ["reimbursing", "repaying"], "antonyms": [], "domainCohort": ["finance"], "derivationPair": [], "morphVariants": ["refund"], "sameImagery": [] }
+  },
+  {
+    "word": "refundn",
+    "phonetic": "/ˈriːfʌnd/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "退款（名词形式）", "en": "noun form variant of refund" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "返回", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "fund", "role": "root", "canonical": "fundus", "meaning": "资金", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "refund", "to": "refundn", "by": "POS tagging variant" }] },
+    "morphVariantOf": "refund",
+    "memorySemantics": { "mnemonicExpr": "refund名词形式标注变体", "imageChain": ["退款"] },
+    "wordLevel": { "domain": ["商业"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["refund"], "sameAffix": [], "synonyms": ["reimbursement"], "antonyms": [], "domainCohort": ["finance"], "derivationPair": [], "morphVariants": ["refund"], "sameImagery": [] }
+  },
+  {
+    "word": "refunds",
+    "phonetic": "/rɪˈfʌndz/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "退款（复数）", "en": "plural of refund; also third-person singular present verb" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "返回", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "fund", "role": "root", "canonical": "fundus", "meaning": "资金", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "s", "role": "suffix", "canonical": "-s", "meaning": "复数/第三人称单数", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "refund", "to": "refunds", "by": "plural inflection" }] },
+    "morphVariantOf": "refund",
+    "memorySemantics": { "mnemonicExpr": "refund的复数", "imageChain": ["多笔退款"] },
+    "wordLevel": { "domain": ["商业"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["refund", "refunded"], "sameAffix": [], "synonyms": ["reimbursements"], "antonyms": [], "domainCohort": ["finance"], "derivationPair": [], "morphVariants": ["refund"], "sameImagery": [] }
+  },
+  {
+    "word": "refundv",
+    "phonetic": "/rɪˈfʌnd/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "退款（动词形式）", "en": "verb form variant of refund" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "返回", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "fund", "role": "root", "canonical": "fundus", "meaning": "资金", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "refund", "to": "refundv", "by": "POS tagging variant" }] },
+    "morphVariantOf": "refund",
+    "memorySemantics": { "mnemonicExpr": "refund动词形式标注变体", "imageChain": ["退款动作"] },
+    "wordLevel": { "domain": ["商业"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["refund"], "sameAffix": [], "synonyms": ["reimburse", "repay"], "antonyms": [], "domainCohort": ["finance"], "derivationPair": [], "morphVariants": ["refund"], "sameImagery": [] }
   },
   {
     "word": "refurbish",
-    "phonetic": "/,ri'fɝbɪʃ/",
-    "pos": [
-      "vt."
-    ],
-    "coreMeaning": {
-      "cn": "翻新；修缮",
-      "en": "to renovate and redecorate"
-    },
+    "phonetic": "/ˌriːˈfɜːrbɪʃ/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "翻新；修葺；重新装修", "en": "to renovate and redecorate; to restore to good condition" },
     "morphemes": [
-      {
-        "canonical": "re-",
-        "role": "prefix",
-        "meaning": "再；重新",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "re",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "furbish",
-        "role": "root",
-        "meaning": "磨光；整修（OF furbir）",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "furbish",
-        "positionTendency": "final"
-      }
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "再；重新", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "furbish", "role": "root", "canonical": "furbir", "meaning": "磨光；整修（古法语 furbir）", "positionTendency": "final", "sentiment": { "tags": ["积极"], "intensity": 1 } }
     ],
-    "derivationChain": [
-      "furbish (OF furbir)",
-      "refurbish"
-    ],
-    "memorySemantics": {
-      "imageKey": "restored old building",
-      "scene": "破旧公寓经过改造，焕然一新",
-      "emotionalHook": "旧物重获新生的满足感",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general",
-        "business"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [],
-      "sameAffix": [
-        "refund",
-        "refute",
-        "regain"
-      ],
-      "synonyms": [
-        "renovate",
-        "restore",
-        "revamp"
-      ],
-      "antonyms": [
-        "demolish",
-        "neglect",
-        "dilapidate"
-      ],
-      "domainCohort": [
-        "renovate",
-        "restore",
-        "remodel"
-      ],
-      "derivationPair": [
-        "refurbishment"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": { "steps": [{ "from": "re- + furbish (from Old French furbir)", "to": "refurbish", "by": "prefix addition" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "re（再次）+ furbish（磨光）= 重新磨光翻新", "imageChain": ["旧家具", "打磨翻新", "焕然一新"] },
+    "wordLevel": { "domain": ["日常", "建筑", "GRE"], "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["refurbished", "refurbishes", "refurbishing", "refurbishment"], "sameAffix": [], "synonyms": ["renovate", "restore", "redecorate", "overhaul"], "antonyms": ["deteriorate", "neglect"], "domainCohort": ["construction", "maintenance"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
   },
   {
-    "word": "refute",
-    "phonetic": "/ri'fjʊt/",
-    "pos": [
-      "vt."
-    ],
-    "coreMeaning": {
-      "cn": "反驳；驳斥",
-      "en": "to prove wrong by argument or evidence"
-    },
+    "word": "refurbished",
+    "phonetic": "/ˌriːˈfɜːrbɪʃt/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "翻新过的；已修葺的（过去式/形容词）", "en": "past tense/adjective of refurbish; restored to good condition" },
     "morphemes": [
-      {
-        "canonical": "re-",
-        "role": "prefix",
-        "meaning": "反；回击",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "re",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "fute",
-        "role": "root",
-        "meaning": "打；驳倒（L. futare）",
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": -1
-        },
-        "order": 2,
-        "form": "fute",
-        "positionTendency": "final"
-      }
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "重新", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "furbish", "role": "root", "canonical": "furbir", "meaning": "磨光整修", "positionTendency": "medial", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+      { "form": "ed", "role": "suffix", "canonical": "-ed", "meaning": "过去式", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
     ],
-    "derivationChain": [
-      "L. refutare",
-      "refute"
+    "derivationChain": { "steps": [{ "from": "refurbish", "to": "refurbished", "by": "past tense inflection" }] },
+    "morphVariantOf": "refurbish",
+    "memorySemantics": { "mnemonicExpr": "refurbish的过去式，也用作形容词：翻新的", "imageChain": ["已翻新的商品"] },
+    "wordLevel": { "domain": ["日常", "商业"], "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["refurbish", "refurbishment"], "sameAffix": [], "synonyms": ["renovated", "restored", "reconditioned"], "antonyms": ["dilapidated"], "domainCohort": ["commerce", "maintenance"], "derivationPair": [], "morphVariants": ["refurbish"], "sameImagery": [] }
+  },
+  {
+    "word": "refurbishes",
+    "phonetic": "/ˌriːˈfɜːrbɪʃɪz/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "翻新（第三人称单数）", "en": "third person singular present of refurbish" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "重新", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "furbish", "role": "root", "canonical": "furbir", "meaning": "磨光整修", "positionTendency": "medial", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+      { "form": "es", "role": "suffix", "canonical": "-es", "meaning": "第三人称单数", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
     ],
-    "memorySemantics": {
-      "imageKey": "lawyer overturning argument",
-      "scene": "法庭上律师拍出证据，对方论点轰然崩塌",
-      "emotionalHook": "用逻辑击败谎言的痛快",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "academic",
-        "legal"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "confute",
-        "refutable",
-        "refutation"
-      ],
-      "sameAffix": [
-        "refund",
-        "refurbish",
-        "refuse"
-      ],
-      "synonyms": [
-        "rebut",
-        "disprove",
-        "confute",
-        "contradict"
-      ],
-      "antonyms": [
-        "confirm",
-        "corroborate",
-        "validate"
-      ],
-      "domainCohort": [
-        "rebut",
-        "counter",
-        "challenge"
-      ],
-      "derivationPair": [
-        "refutation",
-        "refutable"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": { "steps": [{ "from": "refurbish", "to": "refurbishes", "by": "third person singular inflection" }] },
+    "morphVariantOf": "refurbish",
+    "memorySemantics": { "mnemonicExpr": "refurbish的第三人称单数", "imageChain": ["他/她翻新"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["refurbish", "refurbished"], "sameAffix": [], "synonyms": ["renovates", "restores"], "antonyms": [], "domainCohort": ["maintenance"], "derivationPair": [], "morphVariants": ["refurbish"], "sameImagery": [] }
+  },
+  {
+    "word": "refurbishing",
+    "phonetic": "/ˌriːˈfɜːrbɪʃɪŋ/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "正在翻新（进行时）", "en": "present participle of refurbish" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "重新", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "furbish", "role": "root", "canonical": "furbir", "meaning": "磨光整修", "positionTendency": "medial", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+      { "form": "ing", "role": "suffix", "canonical": "-ing", "meaning": "进行时", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "refurbish", "to": "refurbishing", "by": "present participle -ing" }] },
+    "morphVariantOf": "refurbish",
+    "memorySemantics": { "mnemonicExpr": "refurbish的进行时", "imageChain": ["翻新施工中"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["refurbish", "refurbished"], "sameAffix": [], "synonyms": ["renovating", "restoring"], "antonyms": [], "domainCohort": ["maintenance"], "derivationPair": [], "morphVariants": ["refurbish"], "sameImagery": [] }
+  },
+  {
+    "word": "refurbishment",
+    "phonetic": "/rɪˈfɜːrbɪʃmənt/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "翻新；改造工程", "en": "the act of refurbishing; a renovation project" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "重新", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "furbish", "role": "root", "canonical": "furbir", "meaning": "磨光整修", "positionTendency": "medial", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+      { "form": "ment", "role": "suffix", "canonical": "-ment", "meaning": "名词化（行为/结果）", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "refurbish", "to": "refurbishment", "by": "nominal suffix -ment" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "refurbish（翻新）+ ment = 翻新工程", "imageChain": ["建筑翻新", "改造工程"] },
+    "wordLevel": { "domain": ["商业", "建筑"], "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["refurbish", "refurbished"], "sameAffix": [], "synonyms": ["renovation", "restoration", "overhaul"], "antonyms": [], "domainCohort": ["construction", "property"], "derivationPair": [["refurbish", "refurbishment"]], "morphVariants": [], "sameImagery": [] }
   },
   {
     "word": "refusal",
-    "phonetic": "/rɪ'fjuzl/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "拒绝；谢绝",
-      "en": "the act of refusing; denial"
-    },
+    "phonetic": "/rɪˈfjuːzəl/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "拒绝；回绝", "en": "the act of refusing or declining" },
     "morphemes": [
-      {
-        "canonical": "re-",
-        "role": "prefix",
-        "meaning": "反；回",
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": -1
-        },
-        "order": 1,
-        "form": "re",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "fuse",
-        "role": "root",
-        "meaning": "倒出；放弃（L. fusus）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "fus",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-al",
-        "role": "suffix",
-        "meaning": "行为；结果（名词化）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "al",
-        "positionTendency": "final"
-      }
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "反对；回", "positionTendency": "initial", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+      { "form": "fus-", "role": "root", "canonical": "fundere", "meaning": "倒出；驱散（拉丁语 fundere）", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "al", "role": "suffix", "canonical": "-al", "meaning": "名词化（行为）", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
     ],
-    "derivationChain": [
-      "refuse (v.)",
-      "refusal (n.)"
+    "derivationChain": { "steps": [{ "from": "refuse", "to": "refusal", "by": "nominal suffix -al" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "refuse（拒绝）+ al = 拒绝的行为", "imageChain": ["摇头拒绝", "拒绝信", "婉拒邀请"] },
+    "wordLevel": { "domain": ["日常", "正式"], "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["refuse", "refused", "refusing", "refusals"], "sameAffix": [], "synonyms": ["rejection", "denial", "declination"], "antonyms": ["acceptance", "consent", "approval"], "domainCohort": ["social", "communication"], "derivationPair": [["refuse", "refusal"]], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "refusals",
+    "phonetic": "/rɪˈfjuːzəlz/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "拒绝（复数）", "en": "plural of refusal" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "反对", "positionTendency": "initial", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+      { "form": "fus-", "role": "root", "canonical": "fundere", "meaning": "驱散", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "al", "role": "suffix", "canonical": "-al", "meaning": "名词化", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
     ],
-    "memorySemantics": {
-      "imageKey": "closed door",
-      "scene": "敲门却听到一声冷冷的'No'",
-      "emotionalHook": "被拒绝时的落寞",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": -1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "refuse",
-        "diffuse",
-        "infuse"
-      ],
-      "sameAffix": [
-        "arrival",
-        "approval",
-        "denial"
-      ],
-      "synonyms": [
-        "rejection",
-        "denial",
-        "declination"
-      ],
-      "antonyms": [
-        "acceptance",
-        "approval",
-        "consent"
-      ],
-      "domainCohort": [
-        "rejection",
-        "veto",
-        "objection"
-      ],
-      "derivationPair": [
-        "refuse"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": { "steps": [{ "from": "refusal", "to": "refusals", "by": "plural inflection" }] },
+    "morphVariantOf": "refusal",
+    "memorySemantics": { "mnemonicExpr": "refusal的复数", "imageChain": ["多次拒绝"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["refusal", "refuse"], "sameAffix": [], "synonyms": ["rejections", "denials"], "antonyms": ["acceptances"], "domainCohort": ["social", "communication"], "derivationPair": [], "morphVariants": ["refusal"], "sameImagery": [] }
+  },
+  {
+    "word": "refuse",
+    "phonetic": "/rɪˈfjuːz/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "拒绝；谢绝；不肯", "en": "to decline to do or accept something" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "反对；回", "positionTendency": "initial", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+      { "form": "fus-", "role": "root", "canonical": "fundere", "meaning": "倒出；驱散", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Latin refusare (to refuse)", "to": "refuse", "by": "borrowing via Old French refuser" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "re（反）+ fuse（倒）= 把对方的要求倒回去 = 拒绝", "imageChain": ["摇头拒绝", "婉言谢绝"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["refusal", "refused", "refusing", "refusable"], "sameAffix": [], "synonyms": ["decline", "reject", "deny", "turn down"], "antonyms": ["accept", "agree", "consent"], "domainCohort": ["social", "communication"], "derivationPair": [["refuse", "refusal"]], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "refused",
+    "phonetic": "/rɪˈfjuːzd/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "拒绝了（过去式）", "en": "past tense of refuse" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "反对", "positionTendency": "initial", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+      { "form": "fus-", "role": "root", "canonical": "fundere", "meaning": "驱散", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "ed", "role": "suffix", "canonical": "-ed", "meaning": "过去式", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "refuse", "to": "refused", "by": "past tense inflection" }] },
+    "morphVariantOf": "refuse",
+    "memorySemantics": { "mnemonicExpr": "refuse的过去式", "imageChain": ["已经拒绝了"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["refuse", "refusal"], "sameAffix": [], "synonyms": ["declined", "rejected"], "antonyms": ["accepted"], "domainCohort": ["social"], "derivationPair": [], "morphVariants": ["refuse"], "sameImagery": [] }
+  },
+  {
+    "word": "refusen",
+    "phonetic": "/ˈrefjuːs/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "废物；垃圾（名词形式）", "en": "noun form: waste matter; garbage" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "回；废弃", "positionTendency": "initial", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+      { "form": "fus-", "role": "root", "canonical": "fundere", "meaning": "倒出", "positionTendency": "final", "sentiment": { "tags": ["消极"], "intensity": 1 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "refuse (noun, garbage)", "to": "refusen", "by": "POS tagging variant" }] },
+    "morphVariantOf": "refuse",
+    "memorySemantics": { "mnemonicExpr": "refuse名词形式，指废物垃圾", "imageChain": ["垃圾桶", "废弃物"] },
+    "wordLevel": { "domain": ["日常", "环境"], "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["refuse"], "sameAffix": [], "synonyms": ["garbage", "rubbish", "waste"], "antonyms": [], "domainCohort": ["environment", "sanitation"], "derivationPair": [], "morphVariants": ["refuse"], "sameImagery": [] }
+  },
+  {
+    "word": "refusenik",
+    "phonetic": "/rɪˈfjuːznɪk/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "拒绝服从者；（前苏联）被拒绝移民者", "en": "a person who refuses to comply; historically a Soviet Jew denied emigration" },
+    "morphemes": [
+      { "form": "refuse", "role": "root", "canonical": "refuse", "meaning": "拒绝", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "nik", "role": "suffix", "canonical": "-nik", "meaning": "人（俄语借词后缀）", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "refuse + -nik (from Russian)", "to": "refusenik", "by": "suffix addition" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "refuse（拒绝）+ nik（人后缀）= 拒绝服从者", "imageChain": ["被拒绝的申请人", "异见者", "苏联移民申请"] },
+    "wordLevel": { "domain": ["历史", "政治"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["refuse", "refusal"], "sameAffix": [], "synonyms": ["dissenter", "objector"], "antonyms": [], "domainCohort": ["history", "politics"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "refuses",
+    "phonetic": "/rɪˈfjuːzɪz/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "拒绝（第三人称单数）", "en": "third person singular present of refuse" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "反对", "positionTendency": "initial", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+      { "form": "fus-", "role": "root", "canonical": "fundere", "meaning": "驱散", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "es", "role": "suffix", "canonical": "-es", "meaning": "第三人称单数", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "refuse", "to": "refuses", "by": "third person singular inflection" }] },
+    "morphVariantOf": "refuse",
+    "memorySemantics": { "mnemonicExpr": "refuse的第三人称单数", "imageChain": ["他/她拒绝"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["refuse", "refused"], "sameAffix": [], "synonyms": ["declines", "rejects"], "antonyms": ["accepts"], "domainCohort": ["social"], "derivationPair": [], "morphVariants": ["refuse"], "sameImagery": [] }
+  },
+  {
+    "word": "refusev",
+    "phonetic": "/rɪˈfjuːz/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "拒绝（动词形式）", "en": "verb form variant of refuse" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "反对", "positionTendency": "initial", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+      { "form": "fus-", "role": "root", "canonical": "fundere", "meaning": "驱散", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "refuse", "to": "refusev", "by": "POS tagging variant" }] },
+    "morphVariantOf": "refuse",
+    "memorySemantics": { "mnemonicExpr": "refuse动词形式标注变体", "imageChain": ["拒绝动作"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["refuse"], "sameAffix": [], "synonyms": ["decline", "reject"], "antonyms": ["accept"], "domainCohort": ["social"], "derivationPair": [], "morphVariants": ["refuse"], "sameImagery": [] }
+  },
+  {
+    "word": "refusing",
+    "phonetic": "/rɪˈfjuːzɪŋ/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "正在拒绝（进行时）", "en": "present participle of refuse" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "反对", "positionTendency": "initial", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+      { "form": "fus-", "role": "root", "canonical": "fundere", "meaning": "驱散", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "ing", "role": "suffix", "canonical": "-ing", "meaning": "进行时", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "refuse", "to": "refusing", "by": "present participle -ing" }] },
+    "morphVariantOf": "refuse",
+    "memorySemantics": { "mnemonicExpr": "refuse的进行时", "imageChain": ["正在拒绝"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["refuse", "refused"], "sameAffix": [], "synonyms": ["declining", "rejecting"], "antonyms": ["accepting"], "domainCohort": ["social"], "derivationPair": [], "morphVariants": ["refuse"], "sameImagery": [] }
+  },
+  {
+    "word": "refutable",
+    "phonetic": "/rɪˈfjuːtəbl/",
+    "pos": "adjective",
+    "coreMeaning": { "cn": "可反驳的；可驳倒的", "en": "capable of being refuted or disproved" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "反对", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "fut-", "role": "root", "canonical": "futare", "meaning": "反驳（拉丁语）", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "able", "role": "suffix", "canonical": "-able", "meaning": "可以…的", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "refute", "to": "refutable", "by": "adjectival suffix -able" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "refute（反驳）+ able = 可以被反驳的", "imageChain": ["论点漏洞", "可被推翻"] },
+    "wordLevel": { "domain": ["学术", "逻辑"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["refute", "refutation"], "sameAffix": [], "synonyms": ["disprovable", "falsifiable"], "antonyms": ["irrefutable", "incontrovertible"], "domainCohort": ["logic", "debate"], "derivationPair": [["refute", "refutable"]], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "refutation",
+    "phonetic": "/ˌrefjʊˈteɪʃən/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "反驳；驳斥", "en": "the action of proving a statement or theory wrong; disproof" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "反对", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "fut-", "role": "root", "canonical": "futare", "meaning": "反驳", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "ation", "role": "suffix", "canonical": "-ation", "meaning": "名词化（行为/过程）", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "refute", "to": "refutation", "by": "nominal suffix -ation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "refute（驳斥）+ ation = 驳斥的行为/过程", "imageChain": ["辩论驳斥", "证明错误", "推翻论点"] },
+    "wordLevel": { "domain": ["学术", "GRE", "逻辑"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["refute", "refuted", "refutable"], "sameAffix": [], "synonyms": ["disproof", "rebuttal", "counterargument"], "antonyms": ["confirmation", "proof", "validation"], "domainCohort": ["logic", "debate", "academic"], "derivationPair": [["refute", "refutation"]], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "refutations",
+    "phonetic": "/ˌrefjʊˈteɪʃənz/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "反驳（复数）", "en": "plural of refutation" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "反对", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "fut-", "role": "root", "canonical": "futare", "meaning": "反驳", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "ation", "role": "suffix", "canonical": "-ation", "meaning": "名词化", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "refutation", "to": "refutations", "by": "plural inflection" }] },
+    "morphVariantOf": "refutation",
+    "memorySemantics": { "mnemonicExpr": "refutation的复数", "imageChain": ["多次驳斥"] },
+    "wordLevel": { "domain": ["学术"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["refutation", "refute"], "sameAffix": [], "synonyms": ["rebuttals", "disproofs"], "antonyms": [], "domainCohort": ["logic", "debate"], "derivationPair": [], "morphVariants": ["refutation"], "sameImagery": [] }
+  },
+  {
+    "word": "refute",
+    "phonetic": "/rɪˈfjuːt/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "反驳；驳斥；驳倒", "en": "to prove (a statement or theory) to be wrong or false" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "反对", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "fut-", "role": "root", "canonical": "futare", "meaning": "反驳；击退（拉丁语 refutare）", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Latin refutare (to repel, check)", "to": "refute", "by": "borrowing" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "re（反）+ fute（击）= 反击对方论点 = 驳斥", "imageChain": ["辩论台上", "指出对方漏洞", "逻辑推翻"] },
+    "wordLevel": { "domain": ["GRE", "SAT", "学术", "逻辑"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["refutation", "refuted", "refutes", "refutable"], "sameAffix": [], "synonyms": ["disprove", "rebut", "counter", "debunk"], "antonyms": ["confirm", "prove", "validate", "corroborate"], "domainCohort": ["logic", "debate", "rhetoric"], "derivationPair": [["refute", "refutation"]], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "refuted",
+    "phonetic": "/rɪˈfjuːtɪd/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "已驳斥（过去式）", "en": "past tense of refute" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "反对", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "fut-", "role": "root", "canonical": "futare", "meaning": "反驳", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "ed", "role": "suffix", "canonical": "-ed", "meaning": "过去式", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "refute", "to": "refuted", "by": "past tense inflection" }] },
+    "morphVariantOf": "refute",
+    "memorySemantics": { "mnemonicExpr": "refute的过去式", "imageChain": ["论点已被推翻"] },
+    "wordLevel": { "domain": ["学术"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["refute", "refutation"], "sameAffix": [], "synonyms": ["disproved", "rebutted"], "antonyms": ["confirmed"], "domainCohort": ["logic", "debate"], "derivationPair": [], "morphVariants": ["refute"], "sameImagery": [] }
+  },
+  {
+    "word": "refutes",
+    "phonetic": "/rɪˈfjuːts/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "驳斥（第三人称单数）", "en": "third person singular present of refute" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "反对", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "fut-", "role": "root", "canonical": "futare", "meaning": "反驳", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "s", "role": "suffix", "canonical": "-s", "meaning": "第三人称单数", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "refute", "to": "refutes", "by": "third person singular inflection" }] },
+    "morphVariantOf": "refute",
+    "memorySemantics": { "mnemonicExpr": "refute的第三人称单数", "imageChain": ["他/她驳斥"] },
+    "wordLevel": { "domain": ["学术"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["refute", "refuted"], "sameAffix": [], "synonyms": ["disproves", "rebuts"], "antonyms": [], "domainCohort": ["logic"], "derivationPair": [], "morphVariants": ["refute"], "sameImagery": [] }
+  },
+  {
+    "word": "refuting",
+    "phonetic": "/rɪˈfjuːtɪŋ/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "正在驳斥（进行时）", "en": "present participle of refute" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "反对", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "fut-", "role": "root", "canonical": "futare", "meaning": "反驳", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "ing", "role": "suffix", "canonical": "-ing", "meaning": "进行时", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "refute", "to": "refuting", "by": "present participle -ing" }] },
+    "morphVariantOf": "refute",
+    "memorySemantics": { "mnemonicExpr": "refute的进行时", "imageChain": ["正在驳斥论点"] },
+    "wordLevel": { "domain": ["学术"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["refute", "refuted"], "sameAffix": [], "synonyms": ["disproving", "rebutting"], "antonyms": [], "domainCohort": ["logic"], "derivationPair": [], "morphVariants": ["refute"], "sameImagery": [] }
+  },
+  {
+    "word": "reg",
+    "phonetic": "/rɛɡ/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "规定（regulation缩写）；法规", "en": "informal abbreviation for regulation" },
+    "morphemes": [
+      { "form": "reg", "role": "root", "canonical": "reg", "meaning": "规则；法规（缩写）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "regulation", "to": "reg", "by": "abbreviation clipping" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "regulation的缩写，法规规定", "imageChain": ["规章手册", "法规条款"] },
+    "wordLevel": { "domain": ["日常", "法律"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["regulate", "regulation", "regular"], "sameAffix": [], "synonyms": ["regulation", "rule"], "antonyms": [], "domainCohort": ["law", "governance"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "reg-",
+    "phonetic": "/rɛɡ/",
+    "pos": "root",
+    "coreMeaning": { "cn": "统治；规则（词根）", "en": "root meaning rule, govern (Latin regere)" },
+    "morphemes": [
+      { "form": "reg-", "role": "root", "canonical": "regere", "meaning": "统治；规则（拉丁语 regere）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Latin regere (to rule, govern)", "to": "reg-", "by": "root extraction" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "reg- = 统治规则根，见于 regal/regimen/regulate", "imageChain": ["王权", "统治", "规则"] },
+    "wordLevel": { "domain": ["词根", "学术"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["regal", "regale", "regiment", "regulate", "regime", "regent"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["morphology", "etymology"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "regae",
+    "phonetic": "/ˈreɡeɪ/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "雷鬼（reggae的异形拼写）", "en": "variant spelling of reggae; a style of popular music from Jamaica" },
+    "morphemes": [
+      { "form": "regae", "role": "root", "canonical": "regae", "meaning": "雷鬼音乐（牙买加俚语，variant）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Jamaican patois rege-rege", "to": "reggae/regae", "by": "phonetic borrowing" }] },
+    "morphVariantOf": "reggae",
+    "memorySemantics": { "mnemonicExpr": "reggae的变体拼写，牙买加雷鬼音乐", "imageChain": ["雷鬼节奏", "牙买加音乐"] },
+    "wordLevel": { "domain": ["音乐", "文化"], "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": ["reggae"], "antonyms": [], "domainCohort": ["music", "culture"], "derivationPair": [], "morphVariants": ["reggae"], "sameImagery": [] }
   },
   {
     "word": "regain",
-    "phonetic": "/rɪ'ɡen/",
-    "pos": [
-      "vt."
-    ],
-    "coreMeaning": {
-      "cn": "恢复；重新获得",
-      "en": "to obtain again; to get back"
-    },
+    "phonetic": "/rɪˈɡeɪn/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "收回；重新获得；恢复", "en": "to obtain or reach again; to recover" },
     "morphemes": [
-      {
-        "canonical": "re-",
-        "role": "prefix",
-        "meaning": "再；重新",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "re",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "gain",
-        "role": "root",
-        "meaning": "获得；得到",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 2,
-        "form": "gain",
-        "positionTendency": "final"
-      }
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "再；重新", "positionTendency": "initial", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+      { "form": "gain", "role": "root", "canonical": "gain", "meaning": "获得", "positionTendency": "final", "sentiment": { "tags": ["积极"], "intensity": 1 } }
     ],
-    "derivationChain": [
-      "gain (OF gagner)",
-      "regain"
+    "derivationChain": { "steps": [{ "from": "re- + gain", "to": "regain", "by": "prefix addition" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "re（再次）+ gain（获得）= 重新获得，失而复得", "imageChain": ["失去", "努力", "重新拿回"] },
+    "wordLevel": { "domain": ["日常", "学术"], "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["regained", "regaining", "regains"], "sameAffix": [], "synonyms": ["recover", "retrieve", "reclaim", "recoup"], "antonyms": ["lose", "forfeit"], "domainCohort": ["health", "sports", "general"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "regained",
+    "phonetic": "/rɪˈɡeɪnd/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "重新获得了（过去式）", "en": "past tense of regain; recovered" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "再次", "positionTendency": "initial", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+      { "form": "gain", "role": "root", "canonical": "gain", "meaning": "获得", "positionTendency": "medial", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+      { "form": "ed", "role": "suffix", "canonical": "-ed", "meaning": "过去式", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
     ],
-    "memorySemantics": {
-      "imageKey": "recovering athlete",
-      "scene": "运动员受伤后复健，重回赛场",
-      "emotionalHook": "失而复得的珍贵",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general",
-        "academic"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "gain",
-        "gainful",
-        "gainful"
-      ],
-      "sameAffix": [
-        "refund",
-        "refurbish",
-        "refute"
-      ],
-      "synonyms": [
-        "recover",
-        "recoup",
-        "retrieve",
-        "reclaim"
-      ],
-      "antonyms": [
-        "lose",
-        "forfeit",
-        "surrender"
-      ],
-      "domainCohort": [
-        "recover",
-        "restore",
-        "reclaim"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": { "steps": [{ "from": "regain", "to": "regained", "by": "past tense inflection" }] },
+    "morphVariantOf": "regain",
+    "memorySemantics": { "mnemonicExpr": "regain的过去式，已经找回来了", "imageChain": ["已恢复健康", "已夺回失地"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["regain", "regaining"], "sameAffix": [], "synonyms": ["recovered", "retrieved"], "antonyms": ["lost"], "domainCohort": ["health", "sports"], "derivationPair": [], "morphVariants": ["regain"], "sameImagery": [] }
+  },
+  {
+    "word": "regaining",
+    "phonetic": "/rɪˈɡeɪnɪŋ/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "正在恢复（进行时）", "en": "present participle of regain" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "再次", "positionTendency": "initial", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+      { "form": "gain", "role": "root", "canonical": "gain", "meaning": "获得", "positionTendency": "medial", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+      { "form": "ing", "role": "suffix", "canonical": "-ing", "meaning": "进行时", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "regain", "to": "regaining", "by": "present participle -ing" }] },
+    "morphVariantOf": "regain",
+    "memorySemantics": { "mnemonicExpr": "regain的进行时", "imageChain": ["正在恢复中"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["regain", "regained"], "sameAffix": [], "synonyms": ["recovering", "retrieving"], "antonyms": [], "domainCohort": ["health"], "derivationPair": [], "morphVariants": ["regain"], "sameImagery": [] }
+  },
+  {
+    "word": "regains",
+    "phonetic": "/rɪˈɡeɪnz/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "重新获得（第三人称单数）", "en": "third person singular present of regain" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "再次", "positionTendency": "initial", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+      { "form": "gain", "role": "root", "canonical": "gain", "meaning": "获得", "positionTendency": "medial", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+      { "form": "s", "role": "suffix", "canonical": "-s", "meaning": "第三人称单数", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "regain", "to": "regains", "by": "third person singular inflection" }] },
+    "morphVariantOf": "regain",
+    "memorySemantics": { "mnemonicExpr": "regain的第三人称单数", "imageChain": ["他/她重获"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["regain", "regained"], "sameAffix": [], "synonyms": ["recovers", "retrieves"], "antonyms": [], "domainCohort": ["health"], "derivationPair": [], "morphVariants": ["regain"], "sameImagery": [] }
   },
   {
     "word": "regal",
-    "phonetic": "/'ri:ɡəl/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "帝王的；威严的",
-      "en": "relating to or fit for a king or queen"
-    },
+    "phonetic": "/ˈriːɡəl/",
+    "pos": "adjective",
+    "coreMeaning": { "cn": "帝王的；庄严华贵的", "en": "of, resembling, or fit for a monarch; grand and impressive" },
     "morphemes": [
-      {
-        "canonical": "reg-",
-        "role": "root",
-        "meaning": "王；统治（L. rex/regis）",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "regal",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-al",
-        "role": "suffix",
-        "meaning": "…的（形容词后缀）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "al",
-        "positionTendency": "final"
-      }
+      { "form": "reg-", "role": "root", "canonical": "regere", "meaning": "统治（拉丁语 rex/regis）", "positionTendency": "initial", "sentiment": { "tags": ["积极"], "intensity": 2 } },
+      { "form": "al", "role": "suffix", "canonical": "-al", "meaning": "形容词化（属于…的）", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
     ],
-    "derivationChain": [
-      "L. rex (gen. regis)",
-      "regalis",
-      "regal"
-    ],
-    "memorySemantics": {
-      "imageKey": "golden crown on velvet",
-      "scene": "宫廷中，国王端坐王座，气度不凡",
-      "emotionalHook": "王权象征的庄严肃穆",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general",
-        "literary"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "regale",
-        "regalia",
-        "regent",
-        "royal",
-        "regal"
-      ],
-      "sameAffix": [
-        "royal",
-        "legal",
-        "loyal"
-      ],
-      "synonyms": [
-        "royal",
-        "majestic",
-        "kingly",
-        "sovereign"
-      ],
-      "antonyms": [
-        "plebeian",
-        "common",
-        "lowly"
-      ],
-      "domainCohort": [
-        "majestic",
-        "stately",
-        "imperial"
-      ],
-      "derivationPair": [
-        "regally"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": { "steps": [{ "from": "Latin regalis (of a king)", "to": "regal", "by": "borrowing via Old French" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "reg（王）+ al = 帝王般的，庄严华贵", "imageChain": ["王冠权杖", "气宇轩昂", "帝王气质"] },
+    "wordLevel": { "domain": ["GRE", "文学", "正式"], "sentiment": { "tags": ["积极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["regally", "regale", "regime", "regent", "regnant"], "sameAffix": [], "synonyms": ["majestic", "royal", "imperial", "kingly"], "antonyms": ["plebeian", "common", "ignoble"], "domainCohort": ["royalty", "majesty"], "derivationPair": [["regal", "regally"]], "morphVariants": [], "sameImagery": [] }
   },
   {
     "word": "regale",
-    "phonetic": "/rɪ'ɡel/",
-    "pos": [
-      "vt."
-    ],
-    "coreMeaning": {
-      "cn": "盛情款待；以美食/故事取悦",
-      "en": "to entertain lavishly with food or talk"
-    },
+    "phonetic": "/rɪˈɡeɪl/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "盛情款待；用故事逗乐", "en": "to entertain lavishly; to amuse with stories or talk" },
     "morphemes": [
-      {
-        "canonical": "re-",
-        "role": "prefix",
-        "meaning": "再；充分",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "re",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "gale",
-        "role": "root",
-        "meaning": "欢乐；享乐（OF gale）",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 2
-        },
-        "order": 2,
-        "form": "gale",
-        "positionTendency": "final"
-      }
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "再；强调", "positionTendency": "initial", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+      { "form": "gal-", "role": "root", "canonical": "gale", "meaning": "欢乐；款待（古法语 gale）", "positionTendency": "final", "sentiment": { "tags": ["积极"], "intensity": 2 } }
     ],
-    "derivationChain": [
-      "OF galer",
-      "regale"
+    "derivationChain": { "steps": [{ "from": "French régaler (to treat sumptuously)", "to": "regale", "by": "borrowing" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "re（强化）+ gale（欢乐）= 盛情款待，让人开心", "imageChain": ["盛宴款待", "讲有趣故事", "宾主尽欢"] },
+    "wordLevel": { "domain": ["GRE", "文学", "正式"], "sentiment": { "tags": ["积极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["regaled", "regalia"], "sameAffix": [], "synonyms": ["entertain", "amuse", "delight", "feast"], "antonyms": ["bore", "neglect"], "domainCohort": ["hospitality", "entertainment"], "derivationPair": [["regale", "regaled"]], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "regaled",
+    "phonetic": "/rɪˈɡeɪld/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "款待了；逗乐了（过去式）", "en": "past tense of regale; entertained lavishly" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "强化", "positionTendency": "initial", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+      { "form": "gal-", "role": "root", "canonical": "gale", "meaning": "欢乐；款待", "positionTendency": "medial", "sentiment": { "tags": ["积极"], "intensity": 2 } },
+      { "form": "ed", "role": "suffix", "canonical": "-ed", "meaning": "过去式", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
     ],
-    "memorySemantics": {
-      "imageKey": "banquet storyteller",
-      "scene": "主人一边摆上珍馐，一边讲着精彩故事，宾客尽欢",
-      "emotionalHook": "被款待时的温暖满足",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "literary",
-        "general"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 2
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "regal",
-        "regalia"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "entertain",
-        "feast",
-        "delight",
-        "amuse"
-      ],
-      "antonyms": [
-        "bore",
-        "neglect",
-        "deprive"
-      ],
-      "domainCohort": [
-        "entertain",
-        "feast",
-        "amuse"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": { "steps": [{ "from": "regale", "to": "regaled", "by": "past tense inflection" }] },
+    "morphVariantOf": "regale",
+    "memorySemantics": { "mnemonicExpr": "regale的过去式", "imageChain": ["已经款待过了"] },
+    "wordLevel": { "domain": ["文学"], "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["regale", "regalia"], "sameAffix": [], "synonyms": ["entertained", "amused", "delighted"], "antonyms": ["bored"], "domainCohort": ["hospitality"], "derivationPair": [], "morphVariants": ["regale"], "sameImagery": [] }
+  },
+  {
+    "word": "regalia",
+    "phonetic": "/rɪˈɡeɪliə/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "王权象征（王冠、权杖等）；盛装", "en": "the emblems or insignia of royalty; the distinctive symbols of an office" },
+    "morphemes": [
+      { "form": "reg-", "role": "root", "canonical": "regere", "meaning": "统治；王权", "positionTendency": "initial", "sentiment": { "tags": ["积极"], "intensity": 2 } },
+      { "form": "alia", "role": "suffix", "canonical": "-alia", "meaning": "名词复数（拉丁语）", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Latin regalia (things of royalty)", "to": "regalia", "by": "borrowing" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "reg（王）+ alia（物品复数）= 王权的器物，权杖王冠", "imageChain": ["王冠", "权杖", "皇家徽章", "加冕典礼"] },
+    "wordLevel": { "domain": ["GRE", "历史", "正式"], "sentiment": { "tags": ["积极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["regal", "regale", "regent"], "sameAffix": [], "synonyms": ["insignia", "emblems", "trappings", "finery"], "antonyms": [], "domainCohort": ["royalty", "ceremony"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "regally",
+    "phonetic": "/ˈriːɡəli/",
+    "pos": "adverb",
+    "coreMeaning": { "cn": "以帝王之姿；庄严地", "en": "in a regal manner; in a grand and dignified way" },
+    "morphemes": [
+      { "form": "reg-", "role": "root", "canonical": "regere", "meaning": "统治；王权", "positionTendency": "initial", "sentiment": { "tags": ["积极"], "intensity": 2 } },
+      { "form": "al", "role": "suffix", "canonical": "-al", "meaning": "形容词化", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "ly", "role": "suffix", "canonical": "-ly", "meaning": "副词化", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "regal", "to": "regally", "by": "adverbial suffix -ly" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "regal（帝王的）+ ly = 以帝王之姿", "imageChain": ["昂首阔步", "庄严走过"] },
+    "wordLevel": { "domain": ["文学", "正式"], "sentiment": { "tags": ["积极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["regal", "regalia", "regale"], "sameAffix": [], "synonyms": ["majestically", "imperially", "grandly"], "antonyms": ["humbly", "meekly"], "domainCohort": ["royalty", "manner"], "derivationPair": [["regal", "regally"]], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "regan",
+    "phonetic": "/ˈriːɡən/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "里根（人名）；《李尔王》中的角色", "en": "a proper name; character in King Lear; also Ronald Reagan" },
+    "morphemes": [
+      { "form": "Regan", "role": "root", "canonical": "regan", "meaning": "里根（专有名词）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "proper name (Irish/Gaelic origin)", "to": "Regan", "by": "proper noun" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "Regan：莎士比亚《李尔王》中的角色，也是Reagan的变体", "imageChain": ["李尔王剧本", "人物角色"] },
+    "wordLevel": { "domain": ["文学", "历史"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["literature", "proper noun"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "regard",
+    "phonetic": "/rɪˈɡɑːrd/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "把…看作；注意；尊重", "en": "to consider or think of in a specified way; to look steadily at" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "再；回", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "guard", "role": "root", "canonical": "wardon", "meaning": "守卫；注视（古法语 garder）", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Old French regarder (re- + garder, to guard)", "to": "regard", "by": "borrowing" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "re（回）+ guard（注视）= 回头凝视 = 注意；把…视为", "imageChain": ["凝视", "重新审视", "尊重看待"] },
+    "wordLevel": { "domain": ["日常", "正式"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["regarded", "regarding", "regardless", "regards", "regardful"], "sameAffix": [], "synonyms": ["consider", "view", "esteem", "respect"], "antonyms": ["disregard", "ignore"], "domainCohort": ["perception", "attitude"], "derivationPair": [["regard", "regardless"]], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "regarded",
+    "phonetic": "/rɪˈɡɑːrdɪd/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "被视为；曾注视（过去式）", "en": "past tense/passive of regard; considered or viewed" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "回", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "guard", "role": "root", "canonical": "wardon", "meaning": "注视", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "ed", "role": "suffix", "canonical": "-ed", "meaning": "过去式", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "regard", "to": "regarded", "by": "past tense inflection" }] },
+    "morphVariantOf": "regard",
+    "memorySemantics": { "mnemonicExpr": "regard的过去式", "imageChain": ["被视为权威", "受到尊重"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["regard", "regarding"], "sameAffix": [], "synonyms": ["considered", "viewed", "esteemed"], "antonyms": ["disregarded"], "domainCohort": ["attitude"], "derivationPair": [], "morphVariants": ["regard"], "sameImagery": [] }
+  },
+  {
+    "word": "regardful",
+    "phonetic": "/rɪˈɡɑːrdfʊl/",
+    "pos": "adjective",
+    "coreMeaning": { "cn": "注意的；关心的；体贴的", "en": "showing consideration or attention; mindful" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "回", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "guard", "role": "root", "canonical": "wardon", "meaning": "注视", "positionTendency": "medial", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+      { "form": "ful", "role": "suffix", "canonical": "-ful", "meaning": "充满…的", "positionTendency": "final", "sentiment": { "tags": ["积极"], "intensity": 1 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "regard", "to": "regardful", "by": "adjectival suffix -ful" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "regard（注意）+ ful = 充满注意和体贴的", "imageChain": ["细心观察", "关注他人需求"] },
+    "wordLevel": { "domain": ["正式", "文学"], "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["regard", "regarding", "regardless"], "sameAffix": [], "synonyms": ["attentive", "mindful", "heedful"], "antonyms": ["regardless", "heedless"], "domainCohort": ["attitude", "behavior"], "derivationPair": [["regard", "regardful"]], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "regarding",
+    "phonetic": "/rɪˈɡɑːrdɪŋ/",
+    "pos": "preposition",
+    "coreMeaning": { "cn": "关于；涉及", "en": "with respect to; concerning" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "回", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "guard", "role": "root", "canonical": "wardon", "meaning": "注视", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "ing", "role": "suffix", "canonical": "-ing", "meaning": "介词化/进行时", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "regard", "to": "regarding", "by": "grammaticalization as preposition" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "regarding = 关于，正式介词，用于信函邮件开头", "imageChain": ["商业信函", "正式邮件", "关于此事"] },
+    "wordLevel": { "domain": ["日常", "正式", "学术"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["regard", "regardless"], "sameAffix": [], "synonyms": ["concerning", "about", "with respect to", "apropos of"], "antonyms": [], "domainCohort": ["communication", "formal writing"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
   },
   {
     "word": "regardless",
-    "phonetic": "/rɪ'ɡɑrdləs/",
-    "pos": [
-      "adj.",
-      "adv."
-    ],
-    "coreMeaning": {
-      "cn": "不管；不顾",
-      "en": "without regard; despite everything"
-    },
+    "phonetic": "/rɪˈɡɑːrdləs/",
+    "pos": "adjective",
+    "coreMeaning": { "cn": "不管的；不顾的；无论如何", "en": "without regard to; despite everything; heedless" },
     "morphemes": [
-      {
-        "canonical": "re-",
-        "role": "prefix",
-        "meaning": "回；关注",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "re",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "guard",
-        "role": "root",
-        "meaning": "注意；看守（OF garder）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "gard",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-less",
-        "role": "suffix",
-        "meaning": "无…的",
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": -1
-        },
-        "order": 3,
-        "form": "less",
-        "positionTendency": "final"
-      }
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "回", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "guard", "role": "root", "canonical": "wardon", "meaning": "注视", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "less", "role": "suffix", "canonical": "-less", "meaning": "无…的；缺乏", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
     ],
-    "derivationChain": [
-      "OF regarder",
-      "regard (n.)",
-      "regardless"
+    "derivationChain": { "steps": [{ "from": "regard", "to": "regardless", "by": "negative suffix -less" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "regard（注意）+ less = 不注意，不顾一切，无论如何", "imageChain": ["置之不理", "无视障碍", "坚持前行"] },
+    "wordLevel": { "domain": ["日常", "学术"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["regard", "regarding", "regardful"], "sameAffix": [], "synonyms": ["irrespective", "heedless", "notwithstanding", "anyway"], "antonyms": ["regardful", "mindful"], "domainCohort": ["attitude", "determination"], "derivationPair": [["regard", "regardless"]], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "regardn",
+    "phonetic": "/rɪˈɡɑːrd/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "尊重；问候（名词形式）", "en": "noun form variant of regard; esteem or respect" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "回", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "guard", "role": "root", "canonical": "wardon", "meaning": "注视", "positionTendency": "final", "sentiment": { "tags": ["积极"], "intensity": 1 } }
     ],
-    "memorySemantics": {
-      "imageKey": "bulldozer ignoring obstacles",
-      "scene": "无论风雨还是阻碍，依然前行",
-      "emotionalHook": "顽强不屈、毫不在乎的姿态",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general",
-        "academic"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "regard",
-        "regarding"
-      ],
-      "sameAffix": [
-        "careless",
-        "helpless",
-        "worthless"
-      ],
-      "synonyms": [
-        "irrespective",
-        "nevertheless",
-        "despite",
-        "notwithstanding"
-      ],
-      "antonyms": [
-        "mindful",
-        "attentive",
-        "heedful"
-      ],
-      "domainCohort": [
-        "despite",
-        "nevertheless",
-        "notwithstanding"
-      ],
-      "derivationPair": [
-        "regard",
-        "regarding"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": { "steps": [{ "from": "regard", "to": "regardn", "by": "POS tagging variant" }] },
+    "morphVariantOf": "regard",
+    "memorySemantics": { "mnemonicExpr": "regard名词形式，如 my regards = 问候", "imageChain": ["尊重", "问候语"] },
+    "wordLevel": { "domain": ["日常", "正式"], "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["regard"], "sameAffix": [], "synonyms": ["esteem", "respect", "greetings"], "antonyms": ["disregard"], "domainCohort": ["social", "communication"], "derivationPair": [], "morphVariants": ["regard"], "sameImagery": [] }
+  },
+  {
+    "word": "regards",
+    "phonetic": "/rɪˈɡɑːrdz/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "问候；致意（复数）", "en": "plural of regard; greetings or good wishes" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "回", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "guard", "role": "root", "canonical": "wardon", "meaning": "注视", "positionTendency": "medial", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+      { "form": "s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "regard", "to": "regards", "by": "plural inflection" }] },
+    "morphVariantOf": "regard",
+    "memorySemantics": { "mnemonicExpr": "Best regards = 致以最诚挚的问候", "imageChain": ["邮件结尾", "友好问候"] },
+    "wordLevel": { "domain": ["日常", "正式"], "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["regard", "regarding"], "sameAffix": [], "synonyms": ["greetings", "best wishes"], "antonyms": [], "domainCohort": ["communication", "social"], "derivationPair": [], "morphVariants": ["regard"], "sameImagery": [] }
+  },
+  {
+    "word": "regardv",
+    "phonetic": "/rɪˈɡɑːrd/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "注视；视为（动词形式）", "en": "verb form variant of regard" },
+    "morphemes": [
+      { "form": "re-", "role": "prefix", "canonical": "re-", "meaning": "回", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "guard", "role": "root", "canonical": "wardon", "meaning": "注视", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "regard", "to": "regardv", "by": "POS tagging variant" }] },
+    "morphVariantOf": "regard",
+    "memorySemantics": { "mnemonicExpr": "regard动词形式标注变体", "imageChain": ["注视凝视"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["regard"], "sameAffix": [], "synonyms": ["consider", "view"], "antonyms": ["disregard"], "domainCohort": ["perception"], "derivationPair": [], "morphVariants": ["regard"], "sameImagery": [] }
+  },
+  {
+    "word": "regatta",
+    "phonetic": "/rɪˈɡætə/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "帆船赛；划船比赛", "en": "a sporting event consisting of a series of boat races" },
+    "morphemes": [
+      { "form": "regatta", "role": "root", "canonical": "regatta", "meaning": "赛舟（意大利语 regata = strife/contest）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Venetian Italian regata (a contest, strife)", "to": "regatta", "by": "loanword" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "regatta = 帆船赛，来自意大利威尼斯方言，想象威尼斯大运河上的赛船", "imageChain": ["帆船", "赛道", "水上比赛", "威尼斯"] },
+    "wordLevel": { "domain": ["体育", "日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": ["boat race", "sailing race"], "antonyms": [], "domainCohort": ["sports", "maritime"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
   }
 ]

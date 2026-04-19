@@ -1,3166 +1,801 @@
 [
   {
     "word": "photocopying",
-    "phonetic": "/ˈfoʊtoʊˌkɒpiɪŋ/",
-    "pos": "v./n.",
-    "coreMeaning": {
-      "cn": "复印，影印",
-      "en": "making copies using a photocopier"
-    },
+    "phonetic": "/ˈfoʊtəˌkɑpiɪŋ/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "正在复印", "en": "present participle of photocopy; making copies using a photocopier" },
     "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "光",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "copy",
-        "role": "root",
-        "meaning": "复制，抄写",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "copy-",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ing",
-        "role": "suffix",
-        "meaning": "进行时",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "-ing",
-        "positionTendency": "final"
-      }
+      { "canonical": "photo-", "role": "prefix", "meaning": "light (Gk phos/photos)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "copy", "role": "root", "meaning": "to reproduce; a duplicate", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "copy", "positionTendency": "medial", "coreMeaning": { "cn": "复制", "en": "to copy" } },
+      { "canonical": "-ing", "role": "suffix", "meaning": "present participle", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ing", "positionTendency": "final", "coreMeaning": { "cn": "进行时", "en": "ongoing action" } }
     ],
-    "derivationChain": [
-      "photo + copy → photocopy → photocopying"
-    ],
-    "morphVariantOf": "",
-    "memorySemantics": {
-      "mnemonicExpr": "用光（photo）复制（copy）= 复印",
-      "imageChain": [
-        "复印机发出强光扫描文件"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "general",
-        "office"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "formality": 1
-    },
-    "relations": {
-      "sameRoot": [
-        "photograph",
-        "photographic"
-      ],
-      "sameAffix": [
-        "photosynthesis",
-        "photon"
-      ],
-      "synonyms": [
-        "duplicating",
-        "reproducing"
-      ],
-      "antonyms": [],
-      "domainCohort": [],
-      "derivationPair": [
-        "photocopy"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": { "steps": [{ "from": "photocopy", "to": "photocopying", "operation": "+-ing (present participle)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photo(光)+copy(复制)+ing → 用光学原理正在复印", "imageChain": ["复印中", "打印机", "复印文件"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photocopy", "photocopier"], "sameAffix": [], "synonyms": ["duplicating", "copying", "xeroxing"], "antonyms": [], "domainCohort": ["office", "document"], "derivationPair": ["photocopy"], "morphVariants": [], "sameImagery": [] }
   },
   {
     "word": "photodissociation",
     "phonetic": "/ˌfoʊtoʊdɪˌsoʊsiˈeɪʃən/",
     "pos": "n.",
-    "coreMeaning": {
-      "cn": "光解（分子被光能分解）",
-      "en": "the decomposition of a molecule into fragments by the absorption of light"
-    },
+    "coreMeaning": { "cn": "光解；光致分解", "en": "the decomposition of a molecule by the absorption of light" },
     "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "光",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "socio-",
-        "role": "root",
-        "meaning": "结合，伙伴",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "dissoci-",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ation",
-        "role": "suffix",
-        "meaning": "过程，结果",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "-ation",
-        "positionTendency": "final"
-      }
+      { "canonical": "photo-", "role": "prefix", "meaning": "light", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "dis-", "role": "prefix", "meaning": "apart; separation", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "dis", "positionTendency": "medial", "coreMeaning": { "cn": "分离", "en": "separation" } },
+      { "canonical": "soci", "role": "root", "meaning": "to join; to associate", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "socia", "positionTendency": "medial", "coreMeaning": { "cn": "结合", "en": "to join" } },
+      { "canonical": "-ation", "role": "suffix", "meaning": "process or result", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 4, "form": "ation", "positionTendency": "final", "coreMeaning": { "cn": "过程", "en": "process" } }
     ],
-    "derivationChain": [
-      "photo + dissociate → photodissociation"
-    ],
-    "morphVariantOf": "",
-    "memorySemantics": {
-      "mnemonicExpr": "photo(光) + dissociation(分解) = 光解",
-      "imageChain": [
-        "紫外线打断分子化学键"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "toefl",
-        "chemistry",
-        "physics"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "formality": 5
-    },
-    "relations": {
-      "sameRoot": [
-        "dissociate",
-        "photosynthesis"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "photolysis"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "photolysis",
-        "photochemistry"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "photograph",
-    "phonetic": "/ˈfoʊtəɡræf/",
-    "pos": "n./v.",
-    "coreMeaning": {
-      "cn": "照片；用相机拍摄",
-      "en": "a picture produced by a camera; to take a picture"
-    },
-    "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "光",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "graph-",
-        "role": "root",
-        "meaning": "书写，记录",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "-graph",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "phos(light) + graphein(write) → photograph"
-    ],
-    "morphVariantOf": "",
-    "memorySemantics": {
-      "mnemonicExpr": "photo(光) + graph(记录) = 用光记录影像",
-      "imageChain": [
-        "光线通过镜头在胶卷上留下影像"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "toefl",
-        "general"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "formality": 1
-    },
-    "relations": {
-      "sameRoot": [
-        "photography",
-        "photographer",
-        "photographic"
-      ],
-      "sameAffix": [
-        "autograph",
-        "paragraph",
-        "biography"
-      ],
-      "synonyms": [
-        "photo",
-        "picture",
-        "snapshot"
-      ],
-      "antonyms": [],
-      "domainCohort": [],
-      "derivationPair": [
-        "photography",
-        "photographer"
-      ],
-      "morphVariants": [
-        "photo"
-      ],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "photographer",
-    "phonetic": "/fəˈtɒɡrəfər/",
-    "pos": "n.",
-    "coreMeaning": {
-      "cn": "摄影师；摄影者",
-      "en": "a person who takes photographs, especially professionally"
-    },
-    "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "光",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "graph-",
-        "role": "root",
-        "meaning": "书写，记录",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "-graph-",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-er",
-        "role": "suffix",
-        "meaning": "行为者",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "-er",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "photograph → photographer"
-    ],
-    "morphVariantOf": "",
-    "memorySemantics": {
-      "mnemonicExpr": "photograph(照片) + -er(人) = 拍照的人",
-      "imageChain": [
-        "手持相机的专业摄影师"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "general"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "formality": 1
-    },
-    "relations": {
-      "sameRoot": [
-        "photograph",
-        "photography"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "lensman",
-        "shutterbug"
-      ],
-      "antonyms": [],
-      "domainCohort": [],
-      "derivationPair": [
-        "photograph",
-        "photography"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "photographic",
-    "phonetic": "/ˌfoʊtəˈɡræfɪk/",
-    "pos": "adj.",
-    "coreMeaning": {
-      "cn": "摄影的；照相的；逼真的",
-      "en": "of or relating to photography; very detailed and accurate"
-    },
-    "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "光",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "graph-",
-        "role": "root",
-        "meaning": "书写，记录",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "-graph-",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ic",
-        "role": "suffix",
-        "meaning": "形容词化",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "-ic",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "photograph → photographic"
-    ],
-    "morphVariantOf": "",
-    "memorySemantics": {
-      "mnemonicExpr": "摄影术的；拥有照片般清晰的记忆",
-      "imageChain": [
-        "photographic memory = 照相机般的记忆力"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "general"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "formality": 2
-    },
-    "relations": {
-      "sameRoot": [
-        "photograph",
-        "photography"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "pictorial",
-        "detailed"
-      ],
-      "antonyms": [],
-      "domainCohort": [],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "photography",
-    "phonetic": "/fəˈtɒɡrəfi/",
-    "pos": "n.",
-    "coreMeaning": {
-      "cn": "摄影术；摄影",
-      "en": "the art, process, or occupation of taking photographs"
-    },
-    "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "光",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "graph-",
-        "role": "root",
-        "meaning": "书写，记录",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "-graph-",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-y",
-        "role": "suffix",
-        "meaning": "学科，技艺（名词化）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "-y",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "photograph → photography"
-    ],
-    "morphVariantOf": "",
-    "memorySemantics": {
-      "mnemonicExpr": "photo(光) + graphy(记录的学科) = 摄影术",
-      "imageChain": [
-        "暗房中显影的胶片"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "sat",
-        "ielts",
-        "general"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "formality": 1
-    },
-    "relations": {
-      "sameRoot": [
-        "photograph",
-        "photographer"
-      ],
-      "sameAffix": [
-        "geography",
-        "biography",
-        "calligraphy"
-      ],
-      "synonyms": [],
-      "antonyms": [],
-      "domainCohort": [],
-      "derivationPair": [
-        "photograph",
-        "photographer"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "photon",
-    "phonetic": "/ˈfoʊtɒn/",
-    "pos": "n.",
-    "coreMeaning": {
-      "cn": "光子；辐射量子",
-      "en": "a particle representing a quantum of light or other electromagnetic radiation"
-    },
-    "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "光",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "phot-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-on",
-        "role": "suffix",
-        "meaning": "粒子（物理学词尾）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "-on",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "phos(light) + -on(particle) → photon"
-    ],
-    "morphVariantOf": "",
-    "memorySemantics": {
-      "mnemonicExpr": "phot(光) + -on(粒子) = 光的基本粒子",
-      "imageChain": [
-        "太阳射出的无数光子穿越宇宙"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "sat",
-        "gmat",
-        "physics"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "formality": 4
-    },
-    "relations": {
-      "sameRoot": [
-        "photo",
-        "photosynthesis",
-        "photoelectric"
-      ],
-      "sameAffix": [
-        "electron",
-        "proton",
-        "neutron"
-      ],
-      "synonyms": [
-        "light quantum"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "electron",
-        "proton",
-        "quantum"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "photosensitive",
-    "phonetic": "/ˌfoʊtoʊˈsɛnsɪtɪv/",
-    "pos": "adj.",
-    "coreMeaning": {
-      "cn": "感光的；对光敏感的",
-      "en": "sensitive to or altered by light"
-    },
-    "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "光",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "sens-",
-        "role": "root",
-        "meaning": "感觉，感知",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "sensitiv-",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ive",
-        "role": "suffix",
-        "meaning": "形容词化",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "-ive",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "photo + sensitive → photosensitive"
-    ],
-    "morphVariantOf": "",
-    "memorySemantics": {
-      "mnemonicExpr": "photo(光) + sensitive(敏感的) = 对光敏感的",
-      "imageChain": [
-        "胶卷和皮肤对光的敏感反应"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "gre",
-        "medical",
-        "chemistry"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "formality": 4
-    },
-    "relations": {
-      "sameRoot": [
-        "sensitive",
-        "sensation",
-        "photon"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "light-sensitive"
-      ],
-      "antonyms": [
-        "light-resistant"
-      ],
-      "domainCohort": [],
-      "derivationPair": [
-        "photosensitization",
-        "photosensitize"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "photosynthesis",
-    "phonetic": "/ˌfoʊtoʊˈsɪnθəsɪs/",
-    "pos": "n.",
-    "coreMeaning": {
-      "cn": "光合作用",
-      "en": "the process by which plants use sunlight, water, and CO₂ to produce food"
-    },
-    "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "光",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "syn-",
-        "role": "prefix",
-        "meaning": "共同，一起",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "syn-",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "thes-",
-        "role": "root",
-        "meaning": "放置，合成",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "-thesis",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "photo + syn + thesis → photosynthesis"
-    ],
-    "morphVariantOf": "",
-    "memorySemantics": {
-      "mnemonicExpr": "photo(光) + synthesis(合成) = 利用光合成有机物",
-      "imageChain": [
-        "绿叶在阳光下将CO₂转化为糖"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "sat",
-        "gmat",
-        "gre",
-        "toefl",
-        "biology"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      },
-      "formality": 3
-    },
-    "relations": {
-      "sameRoot": [
-        "synthesis",
-        "synthesize",
-        "photon"
-      ],
-      "sameAffix": [
-        "synthesis",
-        "hypothesis",
-        "parenthesis"
-      ],
-      "synonyms": [],
-      "antonyms": [
-        "respiration"
-      ],
-      "domainCohort": [
-        "chlorophyll",
-        "respiration",
-        "metabolism"
-      ],
-      "derivationPair": [
-        "photosynthesize"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "photogenic",
-    "phonetic": "/ˌfoʊtəˈdʒɛnɪk/",
-    "pos": "adj.",
-    "coreMeaning": {
-      "cn": "上镜的；容易拍出好照片的",
-      "en": "looking attractive in photographs"
-    },
-    "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "光，照片",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "gen-",
-        "role": "root",
-        "meaning": "产生，生成",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "-gen-",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ic",
-        "role": "suffix",
-        "meaning": "形容词化",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "-ic",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "photo + gen + ic → photogenic"
-    ],
-    "morphVariantOf": "",
-    "memorySemantics": {
-      "mnemonicExpr": "photo(照片) + genic(产生好效果的) = 上镜的",
-      "imageChain": [
-        "镜头前自然发光的模特"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "general"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      },
-      "formality": 2
-    },
-    "relations": {
-      "sameRoot": [
-        "generate",
-        "genetic",
-        "photon"
-      ],
-      "sameAffix": [
-        "carcinogenic",
-        "pathogenic"
-      ],
-      "synonyms": [
-        "telegenic"
-      ],
-      "antonyms": [],
-      "domainCohort": [],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "photometer",
-    "phonetic": "/foʊˈtɒmɪtər/",
-    "pos": "n.",
-    "coreMeaning": {
-      "cn": "光度计；照度计",
-      "en": "an instrument for measuring light intensity"
-    },
-    "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "光",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "metr-",
-        "role": "root",
-        "meaning": "测量",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "-meter",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "photo + meter → photometer"
-    ],
-    "morphVariantOf": "",
-    "memorySemantics": {
-      "mnemonicExpr": "photo(光) + meter(测量仪) = 测光仪",
-      "imageChain": [
-        "摄影师用测光表测量光线强度"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "physics",
-        "photography"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "formality": 4
-    },
-    "relations": {
-      "sameRoot": [
-        "meter",
-        "barometer",
-        "thermometer"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "light meter",
-        "exposure meter"
-      ],
-      "antonyms": [],
-      "domainCohort": [],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "phototropism",
-    "phonetic": "/foʊˈtɒtrəpɪzəm/",
-    "pos": "n.",
-    "coreMeaning": {
-      "cn": "趋光性；植物朝向光源生长的现象",
-      "en": "the growth of a plant in response to light"
-    },
-    "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "光",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "trop-",
-        "role": "root",
-        "meaning": "转向，应对",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "-trop-",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ism",
-        "role": "suffix",
-        "meaning": "现象，行为",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "-ism",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "photo + trop + ism → phototropism"
-    ],
-    "morphVariantOf": "",
-    "memorySemantics": {
-      "mnemonicExpr": "photo(光) + tropism(趋向) = 向光性",
-      "imageChain": [
-        "向日葵追随太阳转动"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "biology",
-        "toefl"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "formality": 4
-    },
-    "relations": {
-      "sameRoot": [
-        "geotropism",
-        "heliotropism",
-        "tropism"
-      ],
-      "sameAffix": [],
-      "synonyms": [],
-      "antonyms": [],
-      "domainCohort": [
-        "geotropism",
-        "heliotropism"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "photophilous",
-    "phonetic": "/foʊˈtɒfɪləs/",
-    "pos": "adj.",
-    "coreMeaning": {
-      "cn": "喜光的；嗜光的（生物学）",
-      "en": "preferring or thriving in bright light (biology)"
-    },
-    "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "光",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "phil-",
-        "role": "root",
-        "meaning": "喜爱",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 2,
-        "form": "-phil-",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ous",
-        "role": "suffix",
-        "meaning": "形容词化",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "-ous",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "photo + philos → photophilous"
-    ],
-    "morphVariantOf": "",
-    "memorySemantics": {
-      "mnemonicExpr": "photo(光) + philous(爱好的) = 喜欢光的",
-      "imageChain": [
-        "喜光植物在阳光下繁茂生长"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "gre",
-        "biology"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      },
-      "formality": 5
-    },
-    "relations": {
-      "sameRoot": [
-        "philosophy",
-        "philanthrope"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "heliophilic",
-        "sun-loving"
-      ],
-      "antonyms": [
-        "photophobic",
-        "sciophilous"
-      ],
-      "domainCohort": [],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "photogravure",
-    "phonetic": "/ˌfoʊtəɡrəˈvjʊər/",
-    "pos": "n.",
-    "coreMeaning": {
-      "cn": "照相凹版印刷；凹版雕刻版画",
-      "en": "an intaglio printing process using a plate etched through a photographic process"
-    },
-    "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "光，照相",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "graver",
-        "role": "root",
-        "meaning": "雕刻（法语）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "-gravure",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "photo + gravure(Fr: engraving) → photogravure"
-    ],
-    "morphVariantOf": "",
-    "memorySemantics": {
-      "mnemonicExpr": "photo(照相) + gravure(雕版) = 照相雕版印刷",
-      "imageChain": [
-        "用照相腐蚀法制作的精美印版"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "printing",
-        "arts"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "formality": 5
-    },
-    "relations": {
-      "sameRoot": [
-        "engrave",
-        "photograph"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "heliogravure",
-        "rotogravure"
-      ],
-      "antonyms": [],
-      "domainCohort": [],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "photojournalism",
-    "phonetic": "/ˌfoʊtoʊˈdʒɜːrnəlɪzəm/",
-    "pos": "n.",
-    "coreMeaning": {
-      "cn": "新闻摄影；图片新闻报道",
-      "en": "the practice of journalism using photographs to tell news stories"
-    },
-    "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "照片，摄影",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "journal",
-        "role": "root",
-        "meaning": "日志，新闻",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "journal-",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ism",
-        "role": "suffix",
-        "meaning": "职业，主义",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "-ism",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "photo + journalism → photojournalism"
-    ],
-    "morphVariantOf": "",
-    "memorySemantics": {
-      "mnemonicExpr": "photo(照片) + journalism(新闻) = 新闻摄影",
-      "imageChain": [
-        "战地摄影师捕捉历史瞬间"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "news",
-        "journalism"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "formality": 3
-    },
-    "relations": {
-      "sameRoot": [
-        "journalist",
-        "journal",
-        "photograph"
-      ],
-      "sameAffix": [],
-      "synonyms": [],
-      "antonyms": [],
-      "domainCohort": [],
-      "derivationPair": [
-        "photojournalist"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "photojournalist",
-    "phonetic": "/ˌfoʊtoʊˈdʒɜːrnəlɪst/",
-    "pos": "n.",
-    "coreMeaning": {
-      "cn": "新闻摄影记者",
-      "en": "a journalist who uses photographs to report news"
-    },
-    "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "照片",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "journal",
-        "role": "root",
-        "meaning": "新闻",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "journal-",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ist",
-        "role": "suffix",
-        "meaning": "职业者",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "-ist",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "photojournalism → photojournalist"
-    ],
-    "morphVariantOf": "",
-    "memorySemantics": {
-      "mnemonicExpr": "photo(摄影) + journalist(记者) = 新闻摄影记者",
-      "imageChain": [
-        "扛着相机奔赴新闻现场的记者"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "news",
-        "journalism"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "formality": 2
-    },
-    "relations": {
-      "sameRoot": [
-        "photojournalism",
-        "journalist"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "news photographer"
-      ],
-      "antonyms": [],
-      "domainCohort": [],
-      "derivationPair": [
-        "photojournalism"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": { "steps": [{ "from": "photo + dissociation", "to": "photodissociation", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photo(光)+dis(分离)+socia(结合)+ation → 光照导致化学键断裂", "imageChain": ["光解", "分子分裂", "紫外线"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photosynthesis", "photoluminescence"], "sameAffix": [], "synonyms": ["photolysis", "photodecomposition"], "antonyms": [], "domainCohort": ["chemistry", "physics"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
   },
   {
     "word": "photoelectric",
     "phonetic": "/ˌfoʊtoʊɪˈlɛktrɪk/",
     "pos": "adj.",
-    "coreMeaning": {
-      "cn": "光电的；光电效应的",
-      "en": "relating to or involving the emission of electrons by substances exposed to light"
-    },
+    "coreMeaning": { "cn": "光电的", "en": "relating to the electric effects produced by the action of light" },
     "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "光",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "electr-",
-        "role": "root",
-        "meaning": "电",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "electr-",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ic",
-        "role": "suffix",
-        "meaning": "形容词化",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "-ic",
-        "positionTendency": "final"
-      }
+      { "canonical": "photo-", "role": "prefix", "meaning": "light", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "electr", "role": "root", "meaning": "electricity; electron", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "electr", "positionTendency": "medial", "coreMeaning": { "cn": "电", "en": "electricity" } },
+      { "canonical": "-ic", "role": "suffix", "meaning": "relating to", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ic", "positionTendency": "final", "coreMeaning": { "cn": "…的", "en": "relating to" } }
     ],
-    "derivationChain": [
-      "photo + electric → photoelectric"
-    ],
-    "morphVariantOf": "",
-    "memorySemantics": {
-      "mnemonicExpr": "photo(光) + electric(电) = 光电的",
-      "imageChain": [
-        "太阳能电池将光转化为电能"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "physics",
-        "tech"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "formality": 4
-    },
-    "relations": {
-      "sameRoot": [
-        "electric",
-        "electron",
-        "photon"
-      ],
-      "sameAffix": [],
-      "synonyms": [],
-      "antonyms": [],
-      "domainCohort": [
-        "photovoltaic",
-        "solar energy"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": { "steps": [{ "from": "photo + electric", "to": "photoelectric", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photo(光)+electric(电)+ic → 光能转换为电能的现象", "imageChain": ["光电效应", "爱因斯坦", "太阳能板"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photon", "photoelectronic"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["physics", "solar energy"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
   },
   {
-    "word": "photosphere",
-    "phonetic": "/ˈfoʊtəsfɪər/",
-    "pos": "n.",
-    "coreMeaning": {
-      "cn": "光球（太阳或恒星的发光层）",
-      "en": "the luminous surface layer of the sun or a star"
-    },
-    "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "光",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "sphaira",
-        "role": "root",
-        "meaning": "球体（希腊语）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "-sphere",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "photo + sphere → photosphere"
-    ],
-    "morphVariantOf": "",
-    "memorySemantics": {
-      "mnemonicExpr": "photo(光) + sphere(球层) = 太阳发光的球层",
-      "imageChain": [
-        "太阳表面发出耀眼光芒的光球层"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "astronomy",
-        "physics"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "formality": 4
-    },
-    "relations": {
-      "sameRoot": [
-        "atmosphere",
-        "hemisphere",
-        "photon"
-      ],
-      "sameAffix": [],
-      "synonyms": [],
-      "antonyms": [],
-      "domainCohort": [
-        "chromosphere",
-        "corona"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "photoperiodism",
-    "phonetic": "/ˌfoʊtoʊˈpɪərɪədɪzəm/",
-    "pos": "n.",
-    "coreMeaning": {
-      "cn": "光周期性；光周期现象（生物对昼夜长短的反应）",
-      "en": "the response of organisms to seasonal changes in day length"
-    },
-    "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "光",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "peri-",
-        "role": "prefix",
-        "meaning": "周围，周期",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "period-",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ism",
-        "role": "suffix",
-        "meaning": "现象，主义",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "-ism",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "photo + period + ism → photoperiodism"
-    ],
-    "morphVariantOf": "",
-    "memorySemantics": {
-      "mnemonicExpr": "photo(光) + period(周期) + ism = 生物对光周期的反应",
-      "imageChain": [
-        "菊花在秋天短日照下开花"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "biology"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "formality": 5
-    },
-    "relations": {
-      "sameRoot": [
-        "period",
-        "periodic",
-        "photosynthesis"
-      ],
-      "sameAffix": [],
-      "synonyms": [],
-      "antonyms": [],
-      "domainCohort": [
-        "circadian rhythm",
-        "phenology"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "photophobia",
-    "phonetic": "/ˌfoʊtəˈfoʊbɪə/",
-    "pos": "n.",
-    "coreMeaning": {
-      "cn": "畏光症；光恐惧症",
-      "en": "abnormal sensitivity to or intolerance of light"
-    },
-    "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "光",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "phobia",
-        "role": "root",
-        "meaning": "恐惧，厌恶",
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": -1
-        },
-        "order": 2,
-        "form": "-phobia",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "photo + phobia → photophobia"
-    ],
-    "morphVariantOf": "",
-    "memorySemantics": {
-      "mnemonicExpr": "photo(光) + phobia(恐惧) = 畏光症",
-      "imageChain": [
-        "偏头痛患者对强光的痛苦反应"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "medical"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": -1
-      },
-      "formality": 4
-    },
-    "relations": {
-      "sameRoot": [
-        "phobia",
-        "claustrophobia",
-        "agoraphobia"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "light sensitivity"
-      ],
-      "antonyms": [
-        "photophilia"
-      ],
-      "domainCohort": [
-        "migraine",
-        "uveitis"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "photomontage",
-    "phonetic": "/ˌfoʊtoʊmɒnˈtɑːʒ/",
-    "pos": "n.",
-    "coreMeaning": {
-      "cn": "照片蒙太奇；照片拼贴",
-      "en": "a picture made by combining several photographs"
-    },
-    "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "照片",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "montage",
-        "role": "root",
-        "meaning": "蒙太奇，拼贴（法语 monter=mount）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "-montage",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "photo + montage(Fr) → photomontage"
-    ],
-    "morphVariantOf": "",
-    "memorySemantics": {
-      "mnemonicExpr": "photo(照片) + montage(拼贴) = 照片拼贴艺术",
-      "imageChain": [
-        "达达主义艺术家剪切拼贴报纸照片"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "arts",
-        "photography"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "formality": 3
-    },
-    "relations": {
-      "sameRoot": [
-        "montage",
-        "photograph"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "photo collage"
-      ],
-      "antonyms": [],
-      "domainCohort": [],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "photostat",
-    "phonetic": "/ˈfoʊtəstæt/",
-    "pos": "n./v.",
-    "coreMeaning": {
-      "cn": "影印；光电复印机",
-      "en": "a type of photographic copying machine; a copy made by such a machine"
-    },
-    "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "光，照相",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "stat-",
-        "role": "root",
-        "meaning": "静止，固定（=statos）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "-stat",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "photo + stat → photostat"
-    ],
-    "morphVariantOf": "",
-    "memorySemantics": {
-      "mnemonicExpr": "photo(照相) + stat(固定) = 照相固定复印",
-      "imageChain": [
-        "早期复印机留下的文件复印件"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "office",
-        "archaic"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "formality": 3
-    },
-    "relations": {
-      "sameRoot": [
-        "thermostat",
-        "rheostat",
-        "photograph"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "photocopy",
-        "duplicate"
-      ],
-      "antonyms": [],
-      "domainCohort": [],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "photostatic",
-    "phonetic": "/ˌfoʊtəˈstætɪk/",
+    "word": "photoelectronic",
+    "phonetic": "/ˌfoʊtoʊɪlɛkˈtrɑnɪk/",
     "pos": "adj.",
-    "coreMeaning": {
-      "cn": "光电复印的；照相复制的",
-      "en": "relating to or made by a photostat machine"
-    },
+    "coreMeaning": { "cn": "光电子的；光电子学的", "en": "relating to the interaction of light with electrons" },
     "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "光，照相",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "stat-",
-        "role": "root",
-        "meaning": "固定",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "-stat-",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ic",
-        "role": "suffix",
-        "meaning": "形容词化",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "-ic",
-        "positionTendency": "final"
-      }
+      { "canonical": "photo-", "role": "prefix", "meaning": "light", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "electr", "role": "root", "meaning": "electricity; electron", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "electron", "positionTendency": "medial", "coreMeaning": { "cn": "电子", "en": "electron" } },
+      { "canonical": "-ic", "role": "suffix", "meaning": "relating to", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ic", "positionTendency": "final", "coreMeaning": { "cn": "…的", "en": "relating to" } }
     ],
-    "derivationChain": [
-      "photostat → photostatic"
-    ],
-    "morphVariantOf": "photostat",
-    "memorySemantics": {
-      "mnemonicExpr": "photostat的形容词形式",
-      "imageChain": [
-        "photostat copy=影印副本"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "office",
-        "archaic"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "formality": 3
-    },
-    "relations": {
-      "sameRoot": [
-        "photostat",
-        "photograph"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "photographic",
-        "reproduced"
-      ],
-      "antonyms": [],
-      "domainCohort": [],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "photosensitize",
-    "phonetic": "/ˌfoʊtoʊˈsɛnsɪtaɪz/",
-    "pos": "v.",
-    "coreMeaning": {
-      "cn": "使光敏化；增加对光的敏感性",
-      "en": "to make sensitive to light, especially by chemical treatment"
-    },
-    "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "光",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "sens-",
-        "role": "root",
-        "meaning": "感知，感觉",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "sensitiz-",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ize",
-        "role": "suffix",
-        "meaning": "动词化",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "-ize",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "photosensitive → photosensitize"
-    ],
-    "morphVariantOf": "",
-    "memorySemantics": {
-      "mnemonicExpr": "photo(光) + sensitize(使敏感) = 使其对光敏感",
-      "imageChain": [
-        "胶片厂在暗室中对胶片进行光敏处理"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "chemistry",
-        "photography"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "formality": 5
-    },
-    "relations": {
-      "sameRoot": [
-        "sensitive",
-        "photosensitive",
-        "sensitize"
-      ],
-      "sameAffix": [],
-      "synonyms": [],
-      "antonyms": [],
-      "domainCohort": [],
-      "derivationPair": [
-        "photosensitization"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "photolithography",
-    "phonetic": "/ˌfoʊtəlɪˈθɒɡrəfi/",
-    "pos": "n.",
-    "coreMeaning": {
-      "cn": "光刻（术）；照相平版印刷",
-      "en": "a process for making microcircuits using photographic techniques"
-    },
-    "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "光，照相",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "lith-",
-        "role": "root",
-        "meaning": "石，版",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "litho-",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "graph-",
-        "role": "root",
-        "meaning": "书写，印刷",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "-graphy",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "photo + litho + graphy → photolithography"
-    ],
-    "morphVariantOf": "",
-    "memorySemantics": {
-      "mnemonicExpr": "photo(光) + litho(版) + graphy(印刷) = 光刻技术",
-      "imageChain": [
-        "芯片制造中用紫外线光刻电路"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "tech",
-        "chemistry"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "formality": 5
-    },
-    "relations": {
-      "sameRoot": [
-        "lithography",
-        "photograph",
-        "graphic"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "photolithography"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "semiconductor",
-        "nanofabrication"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": { "steps": [{ "from": "photo + electronic", "to": "photoelectronic", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photo(光)+electron(电子)+ic → 光与电子相互作用的", "imageChain": ["光电子", "光子电子交互"] },
+    "wordLevel": { "domain": "tech", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photoelectric", "photon"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["physics", "optics"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
   },
   {
     "word": "photoflash",
-    "phonetic": "/ˈfoʊtoʊflæʃ/",
+    "phonetic": "/ˈfoʊtəˌflæʃ/",
     "pos": "n.",
-    "coreMeaning": {
-      "cn": "闪光灯；摄影闪光",
-      "en": "a brief brilliant flash of light used in photography"
-    },
+    "coreMeaning": { "cn": "闪光灯；摄影闪光", "en": "a device producing a brief, bright flash of light for photography" },
     "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "光，摄影",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "flash",
-        "role": "root",
-        "meaning": "闪光",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "-flash",
-        "positionTendency": "final"
-      }
+      { "canonical": "photo-", "role": "prefix", "meaning": "light; photography", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光/摄影", "en": "light; photography" } },
+      { "canonical": "flash", "role": "root", "meaning": "a sudden brief light", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "flash", "positionTendency": "final", "coreMeaning": { "cn": "闪光", "en": "a sudden burst of light" } }
     ],
-    "derivationChain": [
-      "photo + flash → photoflash"
-    ],
-    "morphVariantOf": "",
-    "memorySemantics": {
-      "mnemonicExpr": "photo(摄影) + flash(闪光) = 摄影闪光灯",
-      "imageChain": [
-        "拍证件照时的强烈白色闪光"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "photography"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "formality": 2
-    },
-    "relations": {
-      "sameRoot": [
-        "flash",
-        "flashbulb"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "camera flash",
-        "strobe"
-      ],
-      "antonyms": [],
-      "domainCohort": [],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": { "steps": [{ "from": "photo + flash", "to": "photoflash", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photo(摄影)+flash(闪光) → 摄影用闪光灯", "imageChain": ["闪光灯", "摄影", "闪闪发光"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photoflashes", "photograph"], "sameAffix": [], "synonyms": ["camera flash", "flash bulb"], "antonyms": [], "domainCohort": ["camera", "photography"], "derivationPair": ["photoflashes"], "morphVariants": [], "sameImagery": [] }
   },
   {
-    "word": "photoluminescence",
-    "phonetic": "/ˌfoʊtoʊˌluːmɪˈnɛsəns/",
+    "word": "photoflashes",
+    "phonetic": "/ˈfoʊtəˌflæʃɪz/",
     "pos": "n.",
-    "coreMeaning": {
-      "cn": "光致发光；光辐射发光",
-      "en": "luminescence resulting from absorption of visible light or infrared"
-    },
+    "coreMeaning": { "cn": "闪光灯（复数）", "en": "plural of photoflash; multiple photography flash devices" },
     "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "光，辐射",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "lumen",
-        "role": "root",
-        "meaning": "光，光明",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 2,
-        "form": "lumin-",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-escence",
-        "role": "suffix",
-        "meaning": "过程，状态",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "-escence",
-        "positionTendency": "final"
-      }
+      { "canonical": "photo-", "role": "prefix", "meaning": "light; photography", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "摄影", "en": "photography" } },
+      { "canonical": "flash", "role": "root", "meaning": "a sudden brief light", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "flash", "positionTendency": "medial", "coreMeaning": { "cn": "闪光", "en": "flash" } },
+      { "canonical": "-es", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "es", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
     ],
-    "derivationChain": [
-      "photo + luminescence → photoluminescence"
-    ],
-    "morphVariantOf": "",
-    "memorySemantics": {
-      "mnemonicExpr": "photo(光激发) + luminescence(发光) = 光激发发光",
-      "imageChain": [
-        "荧光笔在紫外灯下发出明亮颜色"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "physics",
-        "chemistry"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "formality": 5
-    },
-    "relations": {
-      "sameRoot": [
-        "luminescence",
-        "fluorescence",
-        "phosphorescence"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "fluorescence"
-      ],
-      "antonyms": [],
-      "domainCohort": [],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "photorealism",
-    "phonetic": "/ˌfoʊtoʊˈriːəlɪzəm/",
-    "pos": "n.",
-    "coreMeaning": {
-      "cn": "照相写实主义（艺术流派）",
-      "en": "a style of painting depicting subjects with photographic accuracy"
-    },
-    "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "照片般",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "real-",
-        "role": "root",
-        "meaning": "真实",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "realis-",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ism",
-        "role": "suffix",
-        "meaning": "主义，流派",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "-ism",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "photo + realism → photorealism"
-    ],
-    "morphVariantOf": "",
-    "memorySemantics": {
-      "mnemonicExpr": "photo(照片) + realism(写实主义) = 照片般写实的画风",
-      "imageChain": [
-        "令人难辨照片与绘画的超写实油画"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "arts"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "formality": 3
-    },
-    "relations": {
-      "sameRoot": [
-        "realism",
-        "realistic",
-        "photograph"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "hyperrealism",
-        "superrealism"
-      ],
-      "antonyms": [
-        "abstraction",
-        "impressionism"
-      ],
-      "domainCohort": [],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "photoshop",
-    "phonetic": "/ˈfoʊtoʊʃɒp/",
-    "pos": "n./v.",
-    "coreMeaning": {
-      "cn": "Adobe Photoshop软件；（通俗）用图像处理软件修改照片",
-      "en": "image editing software by Adobe; to digitally alter an image"
-    },
-    "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "照片",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "shop",
-        "role": "root",
-        "meaning": "工作室，商店",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "-shop",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "photo + shop → Photoshop (trademark)"
-    ],
-    "morphVariantOf": "",
-    "memorySemantics": {
-      "mnemonicExpr": "photo(照片) + shop(工作室) = 照片处理工作室",
-      "imageChain": [
-        "设计师在电脑前修图"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "tech",
-        "general"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "formality": 1
-    },
-    "relations": {
-      "sameRoot": [
-        "photograph",
-        "workshop"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "edit",
-        "retouch",
-        "digitally alter"
-      ],
-      "antonyms": [],
-      "domainCohort": [],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "photosynthesize",
-    "phonetic": "/ˌfoʊtoʊˈsɪnθəsaɪz/",
-    "pos": "v.",
-    "coreMeaning": {
-      "cn": "进行光合作用",
-      "en": "to produce by or undergo photosynthesis"
-    },
-    "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "光",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "syn-",
-        "role": "prefix",
-        "meaning": "共同，一起",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "syn-",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "thes-",
-        "role": "root",
-        "meaning": "合成，放置",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "-thes-",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ize",
-        "role": "suffix",
-        "meaning": "动词化",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 4,
-        "form": "-ize",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "photosynthesis → photosynthesize"
-    ],
-    "morphVariantOf": "",
-    "memorySemantics": {
-      "mnemonicExpr": "photosynthesis的动词形式",
-      "imageChain": [
-        "植物进行光合作用产生糖分"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "biology"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "formality": 3
-    },
-    "relations": {
-      "sameRoot": [
-        "photosynthesis",
-        "synthesize"
-      ],
-      "sameAffix": [],
-      "synonyms": [],
-      "antonyms": [],
-      "domainCohort": [],
-      "derivationPair": [
-        "photosynthesis"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": { "steps": [{ "from": "photoflash", "to": "photoflashes", "operation": "+-es (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photoflash+es → 多个闪光灯", "imageChain": ["多个闪光灯"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photoflash"], "sameAffix": [], "synonyms": ["flashes"], "antonyms": [], "domainCohort": [], "derivationPair": ["photoflash"], "morphVariants": [], "sameImagery": [] }
   },
   {
     "word": "photofloodlights",
-    "phonetic": "/ˈfoʊtoʊflʌdlaɪts/",
+    "phonetic": "/ˈfoʊtəˌflʌdlaɪts/",
     "pos": "n.",
-    "coreMeaning": {
-      "cn": "摄影泛光灯（复数）",
-      "en": "powerful lights used in photography or filming (plural)"
-    },
+    "coreMeaning": { "cn": "摄影泛光灯（复数）", "en": "high-intensity floodlights used in photography or filming" },
     "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "摄影",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "flood",
-        "role": "root",
-        "meaning": "泛滥，漫射",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "flood-",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "light",
-        "role": "root",
-        "meaning": "光，灯",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 3,
-        "form": "-light",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-s",
-        "role": "suffix",
-        "meaning": "复数",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 4,
-        "form": "-s",
-        "positionTendency": "final"
-      }
+      { "canonical": "photo-", "role": "prefix", "meaning": "light; photography", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "摄影", "en": "photography" } },
+      { "canonical": "flood", "role": "root", "meaning": "to fill with light; to inundate", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "flood", "positionTendency": "medial", "coreMeaning": { "cn": "泛光", "en": "flood" } },
+      { "canonical": "light", "role": "root", "meaning": "illumination", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "light", "positionTendency": "medial", "coreMeaning": { "cn": "灯光", "en": "light" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 4, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
     ],
-    "derivationChain": [
-      "photo + floodlight → photofloodlight → photofloodlights"
+    "derivationChain": { "steps": [{ "from": "photo + floodlight", "to": "photofloodlight", "operation": "compound formation" }, { "from": "photofloodlight", "to": "photofloodlights", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photo+flood(泛)+light(灯)+s → 摄影用大功率泛光灯", "imageChain": ["摄影棚灯", "泛光照明"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photoflash"], "sameAffix": [], "synonyms": ["studio lights", "floodlights"], "antonyms": [], "domainCohort": ["photography", "film"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photogenic",
+    "phonetic": "/ˌfoʊtəˈdʒɛnɪk/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "上镜的；适合拍照的", "en": "looking attractive in photographs; suitable for being photographed" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light; photography", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光/摄影", "en": "light; photography" } },
+      { "canonical": "gen", "role": "root", "meaning": "to produce; birth (Gk genos)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "gen", "positionTendency": "medial", "coreMeaning": { "cn": "产生", "en": "to produce" } },
+      { "canonical": "-ic", "role": "suffix", "meaning": "relating to", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ic", "positionTendency": "final", "coreMeaning": { "cn": "…的", "en": "relating to" } }
     ],
-    "morphVariantOf": "",
-    "memorySemantics": {
-      "mnemonicExpr": "photo(摄影) + floodlight(泛光灯) = 摄影用大灯",
-      "imageChain": [
-        "影棚内照亮场景的强力灯具"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "photography",
-        "film"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "formality": 3
-    },
-    "relations": {
-      "sameRoot": [
-        "floodlight",
-        "spotlight",
-        "photoflash"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "studio lights",
-        "floodlights"
-      ],
-      "antonyms": [],
-      "domainCohort": [],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": { "steps": [{ "from": "photo(light)+gen(produce)+-ic", "to": "photogenic", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photo(照片)+genic(产生良好) → 在照片中产生良好效果，上镜", "imageChain": ["上镜", "美照", "模特"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["photograph", "photography"], "sameAffix": [], "synonyms": ["camera-friendly", "telegenic"], "antonyms": ["unphotogenic"], "domainCohort": ["photography", "modeling"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photograph",
+    "phonetic": "/ˈfoʊtəɡræf/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "照片；拍照", "en": "a picture made by a camera using light" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light (Gk phos/photos)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "graph", "role": "root", "meaning": "to write; to record (Gk graphein)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "graph", "positionTendency": "final", "coreMeaning": { "cn": "书写/记录", "en": "to write; to record" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Gk photos(light)+graphein(write)", "to": "photograph", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photo(光)+graph(记录) → 用光记录下的图像，照片", "imageChain": ["照片", "相机", "影像记录"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photography", "photographer", "photographic"], "sameAffix": [], "synonyms": ["photo", "picture", "image", "shot"], "antonyms": [], "domainCohort": ["camera", "media"], "derivationPair": ["photographer", "photography", "photographs"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photographed",
+    "phonetic": "/ˈfoʊtəɡræft/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "拍摄了（过去式）", "en": "past tense of photograph; took a picture of" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "graph", "role": "root", "meaning": "to record", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "graph", "positionTendency": "medial", "coreMeaning": { "cn": "记录", "en": "to record" } },
+      { "canonical": "-ed", "role": "suffix", "meaning": "past tense", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ed", "positionTendency": "final", "coreMeaning": { "cn": "过去式", "en": "past tense" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "photograph", "to": "photographed", "operation": "+-ed (past tense)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photograph+ed → 已经拍照了", "imageChain": ["已拍摄", "留下影像"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photograph", "photographer"], "sameAffix": [], "synonyms": ["pictured", "shot", "captured on camera"], "antonyms": [], "domainCohort": [], "derivationPair": ["photograph"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photographer",
+    "phonetic": "/fəˈtɑɡrəfər/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "摄影师；摄影者", "en": "a person who takes photographs, especially professionally" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "graph", "role": "root", "meaning": "to record", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "graph", "positionTendency": "medial", "coreMeaning": { "cn": "记录", "en": "to record" } },
+      { "canonical": "-er", "role": "suffix", "meaning": "agent; one who does", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "er", "positionTendency": "final", "coreMeaning": { "cn": "…者", "en": "agent" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "photograph", "to": "photographer", "operation": "+-er (agent noun)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photograph+er → 拍照片的人，摄影师", "imageChain": ["摄影师", "相机", "拍摄"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photograph", "photography", "photographic"], "sameAffix": [], "synonyms": ["shutterbug", "lensman", "cameraman"], "antonyms": [], "domainCohort": ["journalism", "art"], "derivationPair": ["photographers", "photography"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photographers",
+    "phonetic": "/fəˈtɑɡrəfərz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "摄影师（复数）", "en": "plural of photographer; multiple people who take photographs" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "graph", "role": "root", "meaning": "to record", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "graph", "positionTendency": "medial", "coreMeaning": { "cn": "记录", "en": "to record" } },
+      { "canonical": "-er", "role": "suffix", "meaning": "agent", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "er", "positionTendency": "medial", "coreMeaning": { "cn": "…者", "en": "agent" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 4, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "photographer", "to": "photographers", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photographer+s → 一群摄影师", "imageChain": ["摄影师群", "新闻摄影师们"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photographer", "photograph"], "sameAffix": [], "synonyms": ["cameramen", "shutterbugs"], "antonyms": [], "domainCohort": [], "derivationPair": ["photographer"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photographic",
+    "phonetic": "/ˌfoʊtəˈɡræfɪk/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "摄影的；摄影术的；逼真的", "en": "relating to photography; producing or produced by photography" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "graph", "role": "root", "meaning": "to record", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "graph", "positionTendency": "medial", "coreMeaning": { "cn": "记录", "en": "to record" } },
+      { "canonical": "-ic", "role": "suffix", "meaning": "relating to", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ic", "positionTendency": "final", "coreMeaning": { "cn": "…的", "en": "relating to" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "photograph", "to": "photographic", "operation": "+-ic (adj.)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photograph+ic → 与摄影相关的", "imageChain": ["摄影的", "照片级真实"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photograph", "photography", "photographer"], "sameAffix": [], "synonyms": ["pictorial", "visual"], "antonyms": [], "domainCohort": [], "derivationPair": ["photographically"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photographical",
+    "phonetic": "/ˌfoʊtəˈɡræfɪkəl/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "摄影的（古旧形式）", "en": "archaic or variant form of photographic" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "graph", "role": "root", "meaning": "to record", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "graph", "positionTendency": "medial", "coreMeaning": { "cn": "记录", "en": "to record" } },
+      { "canonical": "-ical", "role": "suffix", "meaning": "relating to", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ical", "positionTendency": "final", "coreMeaning": { "cn": "…的", "en": "relating to" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "photographic", "to": "photographical", "operation": "+al (variant adj.)" }] },
+    "morphVariantOf": "photographic",
+    "memorySemantics": { "mnemonicExpr": "photograph+ical → 摄影的（加-al后缀的变体）", "imageChain": ["摄影的", "历史用法"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photographic", "photograph"], "sameAffix": [], "synonyms": ["photographic"], "antonyms": [], "domainCohort": [], "derivationPair": ["photographically"], "morphVariants": ["photographic"], "sameImagery": [] }
+  },
+  {
+    "word": "photographically",
+    "phonetic": "/ˌfoʊtəˈɡræfɪkli/",
+    "pos": "adv.",
+    "coreMeaning": { "cn": "摄影式地；照片般地", "en": "in a photographic manner; as if captured by a camera" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "graph", "role": "root", "meaning": "to record", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "graph", "positionTendency": "medial", "coreMeaning": { "cn": "记录", "en": "to record" } },
+      { "canonical": "-ic", "role": "suffix", "meaning": "relating to", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ic", "positionTendency": "medial", "coreMeaning": { "cn": "…的", "en": "relating to" } },
+      { "canonical": "-ally", "role": "suffix", "meaning": "in the manner of", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 4, "form": "ally", "positionTendency": "final", "coreMeaning": { "cn": "地", "en": "in the manner of" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "photographic", "to": "photographically", "operation": "+-ally (adv.)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photographic+ally → 以摄影方式，像照片一样", "imageChain": ["摄影般", "逼真地"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photographic", "photograph"], "sameAffix": [], "synonyms": ["pictorially", "visually"], "antonyms": [], "domainCohort": [], "derivationPair": ["photographic"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photographing",
+    "phonetic": "/ˈfoʊtəɡræfɪŋ/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "正在拍摄", "en": "present participle of photograph; taking pictures" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "graph", "role": "root", "meaning": "to record", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "graph", "positionTendency": "medial", "coreMeaning": { "cn": "记录", "en": "to record" } },
+      { "canonical": "-ing", "role": "suffix", "meaning": "present participle", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ing", "positionTendency": "final", "coreMeaning": { "cn": "进行时", "en": "ongoing action" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "photograph", "to": "photographing", "operation": "+-ing" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photograph+ing → 正在拍照", "imageChain": ["拍摄中", "按快门"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photograph", "photographer"], "sameAffix": [], "synonyms": ["shooting", "snapping", "capturing"], "antonyms": [], "domainCohort": [], "derivationPair": ["photograph"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photographs",
+    "phonetic": "/ˈfoʊtəɡræfs/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "照片（复数）", "en": "plural of photograph; multiple pictures made with a camera" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "graph", "role": "root", "meaning": "to record", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "graph", "positionTendency": "medial", "coreMeaning": { "cn": "记录", "en": "to record" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "photograph", "to": "photographs", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photograph+s → 多张照片", "imageChain": ["照片集", "相册"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photograph", "photography"], "sameAffix": [], "synonyms": ["photos", "pictures", "images", "shots"], "antonyms": [], "domainCohort": [], "derivationPair": ["photograph"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photography",
+    "phonetic": "/fəˈtɑɡrəfi/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "摄影术；摄影", "en": "the art or practice of taking photographs" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light (Gk phos)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "graph", "role": "root", "meaning": "to write; to record", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "graph", "positionTendency": "medial", "coreMeaning": { "cn": "记录", "en": "to write; to record" } },
+      { "canonical": "-y", "role": "suffix", "meaning": "science or art of", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "y", "positionTendency": "final", "coreMeaning": { "cn": "学科/艺术", "en": "art or science of" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "photograph", "to": "photography", "operation": "+-y (art/practice)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photo(光)+graphy(记录艺术) → 用光记录的艺术，摄影", "imageChain": ["摄影艺术", "暗房", "相机"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photograph", "photographer", "photographic"], "sameAffix": [], "synonyms": ["picture-taking", "imaging"], "antonyms": [], "domainCohort": ["art", "media"], "derivationPair": ["photograph", "photographer"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photogravure",
+    "phonetic": "/ˌfoʊtəɡrəˈvjʊər/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "影版印刷；照相凹版印刷", "en": "a printing process using a metal plate with an image photographically transferred onto it" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light; photography", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "摄影/光", "en": "photography; light" } },
+      { "canonical": "gravure", "role": "root", "meaning": "engraving; intaglio printing (F graver=to engrave)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "gravure", "positionTendency": "final", "coreMeaning": { "cn": "雕版", "en": "engraving" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "photo + F gravure (engraving)", "to": "photogravure", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photo(照相)+gravure(雕刻) → 照相凹版印刷技术", "imageChain": ["印刷版", "凹版", "高精度印刷"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photogravures", "photograph"], "sameAffix": [], "synonyms": ["intaglio printing", "rotogravure"], "antonyms": [], "domainCohort": ["printing", "publishing"], "derivationPair": ["photogravures"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photogravures",
+    "phonetic": "/ˌfoʊtəɡrəˈvjʊərz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "影版印刷（复数）", "en": "plural of photogravure; multiple photomechanical prints" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "photography", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "摄影", "en": "photography" } },
+      { "canonical": "gravure", "role": "root", "meaning": "engraving", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "gravure", "positionTendency": "medial", "coreMeaning": { "cn": "雕版", "en": "engraving" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "photogravure", "to": "photogravures", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photogravure+s → 多件影版印刷品", "imageChain": ["印刷品集"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photogravure"], "sameAffix": [], "synonyms": ["prints", "intaglios"], "antonyms": [], "domainCohort": [], "derivationPair": ["photogravure"], "morphVariants": [], "sameImagery": [] }
   },
   {
     "word": "photoinduction",
     "phonetic": "/ˌfoʊtoʊɪnˈdʌkʃən/",
     "pos": "n.",
-    "coreMeaning": {
-      "cn": "光诱导；光感应（生物对光的反应触发机制）",
-      "en": "the induction of a biological process by light"
-    },
+    "coreMeaning": { "cn": "光诱导；光致感应", "en": "induction of a physiological or chemical process by light" },
     "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "光",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "duc-",
-        "role": "root",
-        "meaning": "引导，带入",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "induct-",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ion",
-        "role": "suffix",
-        "meaning": "过程，结果",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "-ion",
-        "positionTendency": "final"
-      }
+      { "canonical": "photo-", "role": "prefix", "meaning": "light", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "in-", "role": "prefix", "meaning": "into; upon", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "in", "positionTendency": "medial", "coreMeaning": { "cn": "引入", "en": "into" } },
+      { "canonical": "duc", "role": "root", "meaning": "to lead; to bring about", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "duct", "positionTendency": "medial", "coreMeaning": { "cn": "引导", "en": "to lead" } },
+      { "canonical": "-ion", "role": "suffix", "meaning": "process or result", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 4, "form": "ion", "positionTendency": "final", "coreMeaning": { "cn": "过程", "en": "process" } }
     ],
-    "derivationChain": [
-      "photo + induction → photoinduction"
-    ],
-    "morphVariantOf": "",
-    "memorySemantics": {
-      "mnemonicExpr": "photo(光) + induction(诱导) = 光诱导生物过程",
-      "imageChain": [
-        "光照触发植物开花的诱导过程"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "biology",
-        "physics"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "formality": 5
-    },
-    "relations": {
-      "sameRoot": [
-        "induce",
-        "induction",
-        "photoperiodism"
-      ],
-      "sameAffix": [],
-      "synonyms": [],
-      "antonyms": [],
-      "domainCohort": [],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": { "steps": [{ "from": "photo + induction", "to": "photoinduction", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photo(光)+induction(感应) → 光触发的感应过程", "imageChain": ["光诱导", "生物感光"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photosensitive", "phototropism"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["biology", "photobiology"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
   },
   {
-    "word": "photoelectronic",
-    "phonetic": "/ˌfoʊtoʊɪlɛkˈtrɒnɪk/",
-    "pos": "adj.",
-    "coreMeaning": {
-      "cn": "光电子的；光电效应的",
-      "en": "relating to the emission of electrons by photoelectric effect"
-    },
+    "word": "photojournalism",
+    "phonetic": "/ˌfoʊtoʊˈdʒɜrnəlɪzəm/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "新闻摄影；图片新闻", "en": "journalism in which photographs are used as the primary medium to tell stories" },
     "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "光",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "electr-",
-        "role": "root",
-        "meaning": "电子",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "electron-",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ic",
-        "role": "suffix",
-        "meaning": "形容词化",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "-ic",
-        "positionTendency": "final"
-      }
+      { "canonical": "photo-", "role": "prefix", "meaning": "light; photography", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "摄影", "en": "photography" } },
+      { "canonical": "journ", "role": "root", "meaning": "daily; journal (F journee)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "journal", "positionTendency": "medial", "coreMeaning": { "cn": "日报/新闻", "en": "journal; daily" } },
+      { "canonical": "-ism", "role": "suffix", "meaning": "practice; doctrine", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ism", "positionTendency": "final", "coreMeaning": { "cn": "主义/实践", "en": "practice" } }
     ],
-    "derivationChain": [
-      "photo + electronic → photoelectronic"
+    "derivationChain": { "steps": [{ "from": "photo + journalism", "to": "photojournalism", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photo(摄影)+journalism(新闻) → 用照片报道新闻的行业", "imageChain": ["新闻摄影", "纪实摄影", "战地记者"] },
+    "wordLevel": { "domain": "news", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photojournalist", "photograph"], "sameAffix": [], "synonyms": ["news photography", "press photography"], "antonyms": [], "domainCohort": ["journalism", "media"], "derivationPair": ["photojournalist"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photojournalist",
+    "phonetic": "/ˌfoʊtoʊˈdʒɜrnəlɪst/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "新闻摄影记者", "en": "a journalist who uses photography to report news" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "photography", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "摄影", "en": "photography" } },
+      { "canonical": "journ", "role": "root", "meaning": "journal; daily news", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "journal", "positionTendency": "medial", "coreMeaning": { "cn": "新闻", "en": "journal" } },
+      { "canonical": "-ist", "role": "suffix", "meaning": "practitioner", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ist", "positionTendency": "final", "coreMeaning": { "cn": "…者/师", "en": "practitioner" } }
     ],
-    "morphVariantOf": "",
-    "memorySemantics": {
-      "mnemonicExpr": "photo(光) + electronic(电子的) = 光电子的",
-      "imageChain": [
-        "光电管探测光线信号"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "physics",
-        "tech"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "formality": 4
-    },
-    "relations": {
-      "sameRoot": [
-        "electron",
-        "electronic",
-        "photoelectric"
-      ],
-      "sameAffix": [],
-      "synonyms": [],
-      "antonyms": [],
-      "domainCohort": [],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": { "steps": [{ "from": "photojournalism", "to": "photojournalist", "operation": "+-ist (agent)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photojournalism+ist → 从事新闻摄影的记者", "imageChain": ["摄影记者", "战地相机", "现场报道"] },
+    "wordLevel": { "domain": "news", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photojournalism", "photograph"], "sameAffix": [], "synonyms": ["press photographer", "news photographer"], "antonyms": [], "domainCohort": ["journalism", "media"], "derivationPair": ["photojournalism"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photolithography",
+    "phonetic": "/ˌfoʊtoʊlɪˈθɑɡrəfi/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "光刻；光印刷；照相平版印刷", "en": "a process using light to transfer patterns onto a substrate; used in semiconductor manufacturing" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "lith", "role": "root", "meaning": "stone (Gk lithos)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "litho", "positionTendency": "medial", "coreMeaning": { "cn": "石", "en": "stone" } },
+      { "canonical": "graph", "role": "root", "meaning": "to write; to record", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "graph", "positionTendency": "medial", "coreMeaning": { "cn": "记录", "en": "to write" } },
+      { "canonical": "-y", "role": "suffix", "meaning": "art or process", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 4, "form": "y", "positionTendency": "final", "coreMeaning": { "cn": "工艺", "en": "art/process" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "photo + lithography", "to": "photolithography", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photo(光)+litho(石)+graphy(印刷) → 光刻技术，芯片制造核心工艺", "imageChain": ["光刻机", "芯片", "半导体"] },
+    "wordLevel": { "domain": "tech", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photograph", "lithography"], "sameAffix": [], "synonyms": ["optical lithography"], "antonyms": [], "domainCohort": ["semiconductor", "chip manufacturing"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photoluminescence",
+    "phonetic": "/ˌfoʊtoʊˌluːmɪˈnɛsəns/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "光致发光；光致荧光", "en": "emission of light from a substance after it has absorbed photons" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "lumin", "role": "root", "meaning": "light; to shine (L lumen)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "lumin", "positionTendency": "medial", "coreMeaning": { "cn": "发光", "en": "light; to shine" } },
+      { "canonical": "-escence", "role": "suffix", "meaning": "process of becoming; emission", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "escence", "positionTendency": "final", "coreMeaning": { "cn": "发光过程", "en": "process of emitting" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "photo + luminescence", "to": "photoluminescence", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photo(光照)+lumin(发光)+escence → 吸收光子后再发光的现象", "imageChain": ["荧光", "磷光", "发光材料"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photon", "luminescent"], "sameAffix": [], "synonyms": ["fluorescence", "phosphorescence"], "antonyms": [], "domainCohort": ["optics", "materials science"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photometer",
+    "phonetic": "/foʊˈtɑmɪtər/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "光度计；照度计", "en": "an instrument for measuring the intensity of light" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "metr", "role": "root", "meaning": "to measure (Gk metron)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "meter", "positionTendency": "final", "coreMeaning": { "cn": "测量", "en": "to measure" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "photo(light)+meter(measure)", "to": "photometer", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photo(光)+meter(计量器) → 测量光强度的仪器", "imageChain": ["光度计", "亮度测量", "测光仪"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photometers", "photometry"], "sameAffix": [], "synonyms": ["light meter", "lux meter"], "antonyms": [], "domainCohort": ["physics", "astronomy"], "derivationPair": ["photometers"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photometers",
+    "phonetic": "/foʊˈtɑmɪtərz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "光度计（复数）", "en": "plural of photometer; multiple light-measuring instruments" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "metr", "role": "root", "meaning": "to measure", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "meter", "positionTendency": "medial", "coreMeaning": { "cn": "测量", "en": "to measure" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "photometer", "to": "photometers", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photometer+s → 多台光度计", "imageChain": ["多台测光仪"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photometer"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["photometer"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photomicrography",
+    "phonetic": "/ˌfoʊtoʊmaɪˈkrɑɡrəfi/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "显微摄影（术）", "en": "the photography of objects too small to be seen with the naked eye" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light; photography", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "摄影", "en": "photography" } },
+      { "canonical": "micro-", "role": "prefix", "meaning": "small (Gk mikros)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "micro", "positionTendency": "medial", "coreMeaning": { "cn": "微小", "en": "small" } },
+      { "canonical": "graph", "role": "root", "meaning": "to record", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "graph", "positionTendency": "medial", "coreMeaning": { "cn": "记录", "en": "to record" } },
+      { "canonical": "-y", "role": "suffix", "meaning": "art or practice", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 4, "form": "y", "positionTendency": "final", "coreMeaning": { "cn": "技术", "en": "art or practice" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "photo + micrography", "to": "photomicrography", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photo(摄影)+micro(微小)+graphy(记录) → 拍摄显微镜下微小物体的技术", "imageChain": ["显微摄影", "细胞图像", "微观世界"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photograph", "microscope"], "sameAffix": [], "synonyms": ["microphotography"], "antonyms": [], "domainCohort": ["biology", "medicine"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photomontage",
+    "phonetic": "/ˌfoʊtoʊmɑnˈtɑʒ/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "照片蒙太奇；合成照片", "en": "a composition made by combining several photographs or images" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "photography", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "摄影", "en": "photography" } },
+      { "canonical": "montage", "role": "root", "meaning": "assemblage; composite (F monter=to mount)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "montage", "positionTendency": "final", "coreMeaning": { "cn": "蒙太奇/拼接", "en": "assemblage; montage" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "photo + F montage (assembly)", "to": "photomontage", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photo(照片)+montage(拼接) → 将多张照片拼合的创作技法", "imageChain": ["照片合成", "拼贴艺术", "蒙太奇"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photograph"], "sameAffix": [], "synonyms": ["collage", "composite image"], "antonyms": [], "domainCohort": ["art", "graphic design"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photon",
+    "phonetic": "/ˈfoʊtɑn/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "光子；辐射量子", "en": "a quantum of electromagnetic radiation; the basic unit of light" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light (Gk phos/photos)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "phot", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "-on", "role": "suffix", "meaning": "elementary particle", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "on", "positionTendency": "final", "coreMeaning": { "cn": "粒子", "en": "particle" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Gk photos (light) + -on (particle)", "to": "photon", "operation": "scientific coinage" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photo(光)+on(粒子) → 光的基本粒子单元", "imageChain": ["光子", "量子", "光速"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photons", "photoelectric", "photosynthesis"], "sameAffix": ["electron", "proton", "neutron"], "synonyms": ["light quantum"], "antonyms": [], "domainCohort": ["quantum mechanics", "optics", "physics"], "derivationPair": ["photons"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photons",
+    "phonetic": "/ˈfoʊtɑnz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "光子（复数）", "en": "plural of photon; multiple quanta of light" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "phot", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "-on", "role": "suffix", "meaning": "particle", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "on", "positionTendency": "medial", "coreMeaning": { "cn": "粒子", "en": "particle" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "photon", "to": "photons", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photon+s → 多个光子", "imageChain": ["光子流", "量子束"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photon"], "sameAffix": [], "synonyms": ["light quanta"], "antonyms": [], "domainCohort": ["quantum physics"], "derivationPair": ["photon"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photoperiodism",
+    "phonetic": "/ˌfoʊtoʊˈpɪəriədɪzəm/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "光周期现象；光周期性", "en": "the physiological response of organisms to the length of day and night" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "period", "role": "root", "meaning": "a cycle of time", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "period", "positionTendency": "medial", "coreMeaning": { "cn": "周期", "en": "period; cycle" } },
+      { "canonical": "-ism", "role": "suffix", "meaning": "condition; phenomenon", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ism", "positionTendency": "final", "coreMeaning": { "cn": "现象", "en": "condition" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "photo + period + -ism", "to": "photoperiodism", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photo(光)+period(周期)+ism → 生物对光照周期变化的反应", "imageChain": ["日照时长", "植物开花", "季节适应"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["phototropism", "photosensitive"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["biology", "botany", "ecology"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photophilous",
+    "phonetic": "/foʊˈtɑfɪləs/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "喜光的；嗜光的", "en": "thriving in or requiring light; light-loving" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light (Gk phos)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "phil", "role": "root", "meaning": "to love; affinity for (Gk philein)", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 2, "form": "phil", "positionTendency": "medial", "coreMeaning": { "cn": "喜爱", "en": "to love" } },
+      { "canonical": "-ous", "role": "suffix", "meaning": "having the nature of", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ous", "positionTendency": "final", "coreMeaning": { "cn": "具有…性质的", "en": "having the nature of" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "photo(light)+phil(love)+ous", "to": "photophilous", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photo(光)+phil(爱)+ous → 喜欢光照的（生物）", "imageChain": ["喜光植物", "阳光爱好者", "向阳生长"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["photophobia", "phototropism"], "sameAffix": [], "synonyms": ["light-loving", "heliophilic"], "antonyms": ["photophobic", "shade-loving"], "domainCohort": ["biology", "ecology"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photophobia",
+    "phonetic": "/ˌfoʊtoʊˈfoʊbiə/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "畏光；恐光症", "en": "abnormal sensitivity to or discomfort from bright light" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "phob", "role": "root", "meaning": "fear; aversion (Gk phobos)", "sentiment": { "tags": ["消极"], "intensity": 2 }, "order": 2, "form": "phob", "positionTendency": "medial", "coreMeaning": { "cn": "恐惧", "en": "fear; aversion" } },
+      { "canonical": "-ia", "role": "suffix", "meaning": "condition; state", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ia", "positionTendency": "final", "coreMeaning": { "cn": "病症", "en": "condition" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "photo(light)+phobia(fear)", "to": "photophobia", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photo(光)+phobia(恐惧) → 对光线异常敏感或恐惧", "imageChain": ["畏光", "强光不适", "眼睛敏感"] },
+    "wordLevel": { "domain": "medical", "sentiment": { "tags": ["消极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["photophilous", "photosensitive"], "sameAffix": ["claustrophobia", "agoraphobia"], "synonyms": ["light sensitivity", "light aversion"], "antonyms": ["photophilous"], "domainCohort": ["ophthalmology", "neurology"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photorealism",
+    "phonetic": "/ˌfoʊtoʊˈriəlɪzəm/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "照片写实主义；超写实主义", "en": "an art movement creating paintings or sculptures resembling high-resolution photographs" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "photography", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "摄影", "en": "photography" } },
+      { "canonical": "real", "role": "root", "meaning": "actual; existing in reality", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "real", "positionTendency": "medial", "coreMeaning": { "cn": "真实", "en": "real" } },
+      { "canonical": "-ism", "role": "suffix", "meaning": "art movement; doctrine", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ism", "positionTendency": "final", "coreMeaning": { "cn": "主义", "en": "movement; doctrine" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "photo + realism", "to": "photorealism", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photo(照片)+realism(写实) → 逼真到照片级别的艺术风格", "imageChain": ["超写实绘画", "照片级精细", "以假乱真"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["photograph"], "sameAffix": [], "synonyms": ["hyperrealism", "super-realism"], "antonyms": ["abstraction", "impressionism"], "domainCohort": ["art", "painting"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
   },
   {
     "word": "photos",
     "phonetic": "/ˈfoʊtoʊz/",
     "pos": "n.",
-    "coreMeaning": {
-      "cn": "照片（复数）",
-      "en": "photographs (plural)"
-    },
+    "coreMeaning": { "cn": "照片（复数）", "en": "plural of photo; multiple photographs" },
     "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "光，照相",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-s",
-        "role": "suffix",
-        "meaning": "复数",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "-s",
-        "positionTendency": "final"
-      }
+      { "canonical": "photo-", "role": "prefix", "meaning": "light; photograph", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光/照片", "en": "photo" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
     ],
-    "derivationChain": [
-      "photograph → photo → photos"
-    ],
-    "morphVariantOf": "photograph",
-    "memorySemantics": {
-      "mnemonicExpr": "photograph的口语复数简称",
-      "imageChain": [
-        "相册里的一张张照片"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "general"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "formality": 1
-    },
-    "relations": {
-      "sameRoot": [
-        "photograph",
-        "photo",
-        "photography"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "pictures",
-        "snapshots"
-      ],
-      "antonyms": [],
-      "domainCohort": [],
-      "derivationPair": [],
-      "morphVariants": [
-        "photographs"
-      ],
-      "sameImagery": []
-    }
+    "derivationChain": { "steps": [{ "from": "photo (short for photograph)", "to": "photos", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photo+s → 多张照片", "imageChain": ["相册", "图片集"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photograph", "photography"], "sameAffix": [], "synonyms": ["pictures", "images", "snapshots"], "antonyms": [], "domainCohort": [], "derivationPair": ["photograph"], "morphVariants": [], "sameImagery": [] }
   },
   {
-    "word": "photomicrography",
-    "phonetic": "/ˌfoʊtoʊmaɪˈkrɒɡrəfi/",
-    "pos": "n.",
-    "coreMeaning": {
-      "cn": "显微摄影术；显微照相",
-      "en": "photography of objects through a microscope"
-    },
+    "word": "photosensitive",
+    "phonetic": "/ˌfoʊtoʊˈsɛnsɪtɪv/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "感光的；对光敏感的", "en": "having a chemical or physiological response to light; easily affected by light" },
     "morphemes": [
-      {
-        "canonical": "phot-",
-        "role": "prefix",
-        "meaning": "光，摄影",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "photo-",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "micro-",
-        "role": "prefix",
-        "meaning": "微小",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "micro-",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "graph-",
-        "role": "root",
-        "meaning": "记录，书写",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "-graphy",
-        "positionTendency": "final"
-      }
+      { "canonical": "photo-", "role": "prefix", "meaning": "light", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "sens", "role": "root", "meaning": "to feel; to perceive (L sentire)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "sensitiv", "positionTendency": "medial", "coreMeaning": { "cn": "感知", "en": "to feel; to sense" } },
+      { "canonical": "-ive", "role": "suffix", "meaning": "having the quality of", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ive", "positionTendency": "final", "coreMeaning": { "cn": "具有…能力的", "en": "having the quality of" } }
     ],
-    "derivationChain": [
-      "photo + micrography → photomicrography"
+    "derivationChain": { "steps": [{ "from": "photo + sensitive", "to": "photosensitive", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photo(光)+sensitive(敏感) → 对光反应敏感的", "imageChain": ["感光胶片", "太阳能板", "光敏材料"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photosensitize", "photophobia"], "sameAffix": [], "synonyms": ["light-sensitive", "photoreactive"], "antonyms": ["light-insensitive"], "domainCohort": ["chemistry", "biology", "photography"], "derivationPair": ["photosensitization", "photosensitize"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photosensitization",
+    "phonetic": "/ˌfoʊtoʊˌsɛnsɪtɪˈzeɪʃən/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "光敏化作用；光敏化处理", "en": "the process of making something sensitive to light" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "sens", "role": "root", "meaning": "to feel; to perceive", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "sensitiz", "positionTendency": "medial", "coreMeaning": { "cn": "感知", "en": "to sense" } },
+      { "canonical": "-ation", "role": "suffix", "meaning": "process or result", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ation", "positionTendency": "final", "coreMeaning": { "cn": "过程", "en": "process" } }
     ],
-    "morphVariantOf": "",
-    "memorySemantics": {
-      "mnemonicExpr": "photo(摄影) + micro(微小) + graphy(记录) = 显微摄影",
-      "imageChain": [
-        "通过显微镜拍摄细胞结构"
-      ]
-    },
-    "wordLevel": {
-      "domain": [
-        "biology",
-        "medical"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "formality": 5
-    },
-    "relations": {
-      "sameRoot": [
-        "microscope",
-        "photography",
-        "micrograph"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "microphotography"
-      ],
-      "antonyms": [],
-      "domainCohort": [],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": { "steps": [{ "from": "photosensitize", "to": "photosensitization", "operation": "+-ation (noun)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photo+sensitiz+ation → 使之对光变得敏感的过程", "imageChain": ["光敏处理", "光动力疗法"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photosensitive", "photosensitize"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["chemistry", "medical"], "derivationPair": ["photosensitize"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photosensitizations",
+    "phonetic": "/ˌfoʊtoʊˌsɛnsɪtɪˈzeɪʃənz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "光敏化（复数）", "en": "plural of photosensitization" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "sens", "role": "root", "meaning": "to sense", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "sensitiz", "positionTendency": "medial", "coreMeaning": { "cn": "感知", "en": "to sense" } },
+      { "canonical": "-ation", "role": "suffix", "meaning": "process", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ation", "positionTendency": "medial", "coreMeaning": { "cn": "过程", "en": "process" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 4, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "photosensitization", "to": "photosensitizations", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photosensitization+s → 多次光敏化过程", "imageChain": ["多次光敏化"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photosensitization", "photosensitive"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["photosensitization"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photosensitize",
+    "phonetic": "/ˌfoʊtoʊˈsɛnsɪtaɪz/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "使感光；使对光敏感", "en": "to make sensitive to the effects of light" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "sens", "role": "root", "meaning": "to feel; to sense", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "sensitiv", "positionTendency": "medial", "coreMeaning": { "cn": "感知", "en": "to sense" } },
+      { "canonical": "-ize", "role": "suffix", "meaning": "to make; to cause to be", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ize", "positionTendency": "final", "coreMeaning": { "cn": "使…化", "en": "to make" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "photosensitive", "to": "photosensitize", "operation": "+-ize (v.)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photo+sensitive+ize → 使某物对光产生敏感性", "imageChain": ["感光处理", "增敏"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photosensitive", "photosensitization"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["chemistry", "biology"], "derivationPair": ["photosensitized", "photosensitizing", "photosensitization"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photosensitized",
+    "phonetic": "/ˌfoʊtoʊˈsɛnsɪtaɪzd/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "已被光敏化的；感光处理过的", "en": "having been made sensitive to light" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "sens", "role": "root", "meaning": "to sense", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "sensitiz", "positionTendency": "medial", "coreMeaning": { "cn": "感知", "en": "to sense" } },
+      { "canonical": "-ed", "role": "suffix", "meaning": "past participle/adj.", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ed", "positionTendency": "final", "coreMeaning": { "cn": "已…的", "en": "having been" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "photosensitize", "to": "photosensitized", "operation": "+-d (adj.)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photosensitize+d → 已被处理为感光状态", "imageChain": ["已感光", "光敏涂层"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photosensitize", "photosensitive"], "sameAffix": [], "synonyms": ["light-sensitized"], "antonyms": [], "domainCohort": [], "derivationPair": ["photosensitize"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photosensitizes",
+    "phonetic": "/ˌfoʊtoʊˈsɛnsɪtaɪzɪz/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "使感光（第三人称单数）", "en": "third-person singular of photosensitize" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "sens", "role": "root", "meaning": "to sense", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "sensitiz", "positionTendency": "medial", "coreMeaning": { "cn": "感知", "en": "to sense" } },
+      { "canonical": "-es", "role": "suffix", "meaning": "3rd person singular", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "es", "positionTendency": "final", "coreMeaning": { "cn": "第三人称单数", "en": "3rd person singular" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "photosensitize", "to": "photosensitizes", "operation": "+-s/es (3rd person singular)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photosensitize+s → 该物质使…感光", "imageChain": ["使感光"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photosensitize", "photosensitive"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["photosensitize"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photosensitizing",
+    "phonetic": "/ˌfoʊtoʊˈsɛnsɪtaɪzɪŋ/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "使感光（进行时）", "en": "present participle of photosensitize" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "sens", "role": "root", "meaning": "to sense", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "sensitiz", "positionTendency": "medial", "coreMeaning": { "cn": "感知", "en": "to sense" } },
+      { "canonical": "-ing", "role": "suffix", "meaning": "present participle", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ing", "positionTendency": "final", "coreMeaning": { "cn": "进行时", "en": "ongoing action" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "photosensitize", "to": "photosensitizing", "operation": "+-ing" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photosensitize+ing → 正在进行光敏化处理", "imageChain": ["光敏化中"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photosensitize", "photosensitive"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["photosensitize"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photoshop",
+    "phonetic": "/ˈfoʊtoʊʃɑp/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "用Photoshop修改；合成图片", "en": "to alter or manipulate a digital image using Photoshop or similar software" },
+    "morphemes": [
+      { "canonical": "photoshop", "role": "root", "meaning": "Adobe Photoshop (brand name used as verb)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photoshop", "positionTendency": "initial", "coreMeaning": { "cn": "Photoshop软件", "en": "Adobe Photoshop" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Adobe Photoshop (proper noun)", "to": "photoshop", "operation": "brand name used as common verb" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photoshop → 品牌名变成动词，意为修图、PS图片", "imageChain": ["修图", "PS处理", "图像合成"] },
+    "wordLevel": { "domain": "tech", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photograph"], "sameAffix": [], "synonyms": ["retouch", "manipulate", "airbrush", "edit"], "antonyms": [], "domainCohort": ["graphic design", "digital art"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photosphere",
+    "phonetic": "/ˈfoʊtoʊˌsfɪər/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "光球层；（太阳的）光球", "en": "the luminous outer layer of a star from which light is emitted" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "spher", "role": "root", "meaning": "sphere; ball (Gk sphaira)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "sphere", "positionTendency": "final", "coreMeaning": { "cn": "球层", "en": "sphere" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "photo(light)+sphere(ball)", "to": "photosphere", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photo(光)+sphere(球层) → 恒星发光的球层，太阳光球", "imageChain": ["太阳光球", "发光层", "日冕"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photon", "photograph"], "sameAffix": [], "synonyms": ["solar surface", "stellar surface"], "antonyms": [], "domainCohort": ["astronomy", "astrophysics"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photostat",
+    "phonetic": "/ˈfoʊtoʊˌstæt/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "影印机；影印件", "en": "a type of photocopying machine; a copy made by a Photostat machine" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light; photography", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "摄影", "en": "photography" } },
+      { "canonical": "stat", "role": "root", "meaning": "standing; stationary; instrument (Gk statos)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "stat", "positionTendency": "final", "coreMeaning": { "cn": "静止/仪器", "en": "instrument" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "photo + stat (instrument)", "to": "Photostat", "operation": "brand name creation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photo(摄影)+stat(仪器) → 早期影印机的品牌名", "imageChain": ["复印机", "影印件", "复制文件"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photostatic", "photograph"], "sameAffix": [], "synonyms": ["photocopy", "copy"], "antonyms": [], "domainCohort": ["office", "reproduction"], "derivationPair": ["photostatic"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photostatic",
+    "phonetic": "/ˌfoʊtoʊˈstætɪk/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "影印的；光印的", "en": "relating to or produced by a photostat or similar copying process" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light; photography", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "摄影", "en": "photography" } },
+      { "canonical": "stat", "role": "root", "meaning": "instrument; standing", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "stat", "positionTendency": "medial", "coreMeaning": { "cn": "仪器", "en": "instrument" } },
+      { "canonical": "-ic", "role": "suffix", "meaning": "relating to", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ic", "positionTendency": "final", "coreMeaning": { "cn": "…的", "en": "relating to" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "photostat", "to": "photostatic", "operation": "+-ic (adj.)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photostat+ic → 影印机的，影印方式的", "imageChain": ["影印的", "复印的"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photostat"], "sameAffix": [], "synonyms": ["xerographic"], "antonyms": [], "domainCohort": [], "derivationPair": ["photostat"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photosynthesis",
+    "phonetic": "/ˌfoʊtoʊˈsɪnθɪsɪs/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "光合作用", "en": "the process by which plants use sunlight, water, and CO2 to produce oxygen and energy" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light (Gk phos)", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "syn-", "role": "prefix", "meaning": "together; with", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "syn", "positionTendency": "medial", "coreMeaning": { "cn": "共同", "en": "together" } },
+      { "canonical": "thes", "role": "root", "meaning": "to put; to arrange (Gk tithenai)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "thesis", "positionTendency": "medial", "coreMeaning": { "cn": "合成", "en": "to put together" } },
+      { "canonical": "-is", "role": "suffix", "meaning": "process; condition", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 4, "form": "is", "positionTendency": "final", "coreMeaning": { "cn": "过程", "en": "process" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "photo(light)+synthesis(putting together)", "to": "photosynthesis", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photo(光)+synthesis(合成) → 利用光进行合成的生命过程", "imageChain": ["光合作用", "叶绿素", "植物生长", "氧气产生"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["photon", "photosynthesize"], "sameAffix": [], "synonyms": [], "antonyms": ["cellular respiration"], "domainCohort": ["biology", "botany", "ecology"], "derivationPair": ["photosynthesize"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "photosynthesize",
+    "phonetic": "/ˌfoʊtoʊˈsɪnθɪsaɪz/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "进行光合作用", "en": "to carry out photosynthesis; to produce food using light" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "syn-", "role": "prefix", "meaning": "together", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "syn", "positionTendency": "medial", "coreMeaning": { "cn": "合成", "en": "together" } },
+      { "canonical": "thes", "role": "root", "meaning": "to put together", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "thes", "positionTendency": "medial", "coreMeaning": { "cn": "合成", "en": "to put together" } },
+      { "canonical": "-ize", "role": "suffix", "meaning": "to perform; to do", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 4, "form": "ize", "positionTendency": "final", "coreMeaning": { "cn": "进行", "en": "to perform" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "photosynthesis", "to": "photosynthesize", "operation": "back-formation + -ize" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photosynthesis+ize → 进行光合作用这一过程", "imageChain": ["植物光合", "叶片绿色机器"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["photosynthesis", "photon"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["biology", "botany"], "derivationPair": ["photosynthesis"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "phototropism",
+    "phonetic": "/foʊˈtɑtrəpɪzəm/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "趋光性；向光性", "en": "the growth or turning of a plant or organism in response to light" },
+    "morphemes": [
+      { "canonical": "photo-", "role": "prefix", "meaning": "light", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": { "cn": "光", "en": "light" } },
+      { "canonical": "trop", "role": "root", "meaning": "turning; change of direction (Gk tropos)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "trop", "positionTendency": "medial", "coreMeaning": { "cn": "转向/变向", "en": "turning; direction" } },
+      { "canonical": "-ism", "role": "suffix", "meaning": "biological phenomenon", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ism", "positionTendency": "final", "coreMeaning": { "cn": "现象", "en": "phenomenon" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "photo(light)+tropos(turning)+ism", "to": "phototropism", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "photo(光)+trop(转向)+ism → 生物朝向光源弯曲生长的现象", "imageChain": ["向日葵", "植物朝光", "趋光生长"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["photoperiodism", "photophilous"], "sameAffix": ["geotropism", "thigmotropism"], "synonyms": [], "antonyms": ["skototropism"], "domainCohort": ["biology", "botany", "ecology"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
   }
 ]

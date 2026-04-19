@@ -1,610 +1,744 @@
 [
   {
-    "word": "rugged",
-    "phonetic": "/'rʌɡɪd/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "崎岖的；粗犷的；坚强的",
-      "en": "having a rough, uneven surface; strongly built; harsh"
-    },
+    "word": "rugae",
+    "phonetic": "/ˈruːdʒiː/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "皱褶（解剖学复数）", "en": "folds or wrinkles in the lining of an organ, especially the stomach" },
     "morphemes": [
-      {
-        "canonical": "rugged",
-        "role": "root",
-        "meaning": "粗糙；凹凸不平",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "rugged",
-        "positionTendency": "medial"
-      }
+      { "form": "rugae", "role": "root", "canonical": "rugae", "meaning": "皱纹（拉丁语 ruga = wrinkle）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } }
     ],
-    "derivationChain": [
-      "中古英语 rugged（粗糙的）→ rugged（崎岖的；坚强的）"
+    "derivationChain": { "steps": [{ "from": "Latin ruga (wrinkle)", "to": "rugae (plural)", "by": "Latin plural" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "ruga（皱纹）的拉丁复数，指胃壁或器官内壁的皱折", "imageChain": ["胃壁皱褶", "黏膜折叠"] },
+    "wordLevel": { "domain": ["医学", "解剖学"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rugged", "rugose"], "sameAffix": [], "synonyms": ["folds", "wrinkles", "plicae"], "antonyms": [], "domainCohort": ["anatomy", "medicine"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "rugby",
+    "phonetic": "/ˈrʌɡbi/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "橄榄球运动", "en": "a form of football played with an oval ball that may be carried, kicked, or passed" },
+    "morphemes": [
+      { "form": "rugby", "role": "root", "canonical": "rugby", "meaning": "橄榄球（以英国拉格比学校命名）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } }
     ],
-    "memorySemantics": {
-      "imageKey": "崎岖山路",
-      "scene": "探险家在rugged的山地中艰难前行，展现出rugged的性格",
-      "emotionalHook": "GRE词汇，兼有地形和性格双重含义",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "gre",
-        "gmat",
-        "toefl"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "ruggedness",
-        "ruggedly"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "rough",
-        "craggy",
-        "sturdy",
-        "robust"
-      ],
-      "antonyms": [
-        "smooth",
-        "gentle",
-        "fragile"
-      ],
-      "domainCohort": [
-        "craggy",
-        "jagged",
-        "rough"
-      ],
-      "derivationPair": [
-        "ruggedness"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "craggy",
-        "rough"
-      ]
-    }
+    "derivationChain": { "steps": [{ "from": "Rugby School (England)", "to": "rugby (sport)", "by": "eponymous naming" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "rugby = 橄榄球，1823年在英国Rugby学校发明", "imageChain": ["橄榄球", "奔跑进攻", "英式足球"] },
+    "wordLevel": { "domain": ["体育", "日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rugger"], "sameAffix": [], "synonyms": ["rugger", "rugby football"], "antonyms": [], "domainCohort": ["sport", "UK"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "rugged",
+    "phonetic": "/ˈrʌɡɪd/",
+    "pos": "adjective",
+    "coreMeaning": { "cn": "崎岖的；粗犷的；坚韧的", "en": "having a rocky or irregular surface; strongly built and sturdy; showing toughness" },
+    "morphemes": [
+      { "form": "rug-", "role": "root", "canonical": "rugged", "meaning": "粗糙；崎岖（可能来自斯堪的纳维亚语 rugg = rough）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "ged", "role": "suffix", "canonical": "-ed", "meaning": "形容词化", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "possibly Scandinavian rugg (rough, tangled)", "to": "rugged", "by": "adjectival formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "rugged = 崎岖坎坷的地形；也形容人的粗犷坚毅", "imageChain": ["崎岖山路", "粗犷男人", "坚韧特质"] },
+    "wordLevel": { "domain": ["GRE", "日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["ruggedly", "ruggedness", "rugger"], "sameAffix": [], "synonyms": ["rough", "craggy", "hardy", "sturdy", "rugged"], "antonyms": ["smooth", "gentle", "delicate"], "domainCohort": ["geography", "character", "outdoor"], "derivationPair": [["rugged", "ruggedness"]], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "ruggedly",
+    "phonetic": "/ˈrʌɡɪdli/",
+    "pos": "adverb",
+    "coreMeaning": { "cn": "粗犷地；崎岖地；坚韧地", "en": "in a rugged manner; robustly; with toughness" },
+    "morphemes": [
+      { "form": "rug-", "role": "root", "canonical": "rugged", "meaning": "粗糙；坚韧", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "ged", "role": "suffix", "canonical": "-ed", "meaning": "形容词化", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "ly", "role": "suffix", "canonical": "-ly", "meaning": "副词化", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rugged", "to": "ruggedly", "by": "adverbial suffix -ly" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "rugged（崎岖坚韧）+ ly = 坚韧地，粗犷地", "imageChain": ["坚毅前行", "强健体魄"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rugged", "ruggedness"], "sameAffix": [], "synonyms": ["sturdily", "robustly", "toughly"], "antonyms": ["smoothly", "delicately"], "domainCohort": ["character", "outdoor"], "derivationPair": [["rugged", "ruggedly"]], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "ruggedness",
+    "phonetic": "/ˈrʌɡɪdnəs/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "崎岖；粗犷；坚韧性", "en": "the quality of being rugged; toughness; roughness" },
+    "morphemes": [
+      { "form": "rug-", "role": "root", "canonical": "rugged", "meaning": "粗糙；坚韧", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "ged", "role": "suffix", "canonical": "-ed", "meaning": "形容词化", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "ness", "role": "suffix", "canonical": "-ness", "meaning": "名词化（性质）", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rugged", "to": "ruggedness", "by": "nominal suffix -ness" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "rugged（崎岖坚韧）+ ness = 崎岖性；坚韧质地", "imageChain": ["地形崎岖感", "粗犷的性格特征"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rugged", "ruggedly"], "sameAffix": [], "synonyms": ["roughness", "toughness", "hardiness"], "antonyms": ["smoothness", "delicacy"], "domainCohort": ["character", "geography"], "derivationPair": [["rugged", "ruggedness"]], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "rugger",
+    "phonetic": "/ˈrʌɡər/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "橄榄球（英式俚语）", "en": "British informal term for rugby football" },
+    "morphemes": [
+      { "form": "rugby", "role": "root", "canonical": "rugby", "meaning": "橄榄球", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "er", "role": "suffix", "canonical": "-er", "meaning": "俚语变形（英式口语）", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rugby", "to": "rugger", "by": "British slang suffix -er" }] },
+    "morphVariantOf": "rugby",
+    "memorySemantics": { "mnemonicExpr": "英式口语，rugby变成rugger，英国学生口语用法", "imageChain": ["英国校园", "橄榄球场"] },
+    "wordLevel": { "domain": ["体育", "口语"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rugby"], "sameAffix": [], "synonyms": ["rugby", "rugby football"], "antonyms": [], "domainCohort": ["sport", "UK slang"], "derivationPair": [], "morphVariants": ["rugby"], "sameImagery": [] }
+  },
+  {
+    "word": "rugrat",
+    "phonetic": "/ˈrʌɡˌræt/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "幼儿；小孩（口语）", "en": "informal term for a small child, especially a crawling baby" },
+    "morphemes": [
+      { "form": "rug", "role": "root", "canonical": "rug", "meaning": "地毯（在地毯上爬）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "rat", "role": "root", "canonical": "rat", "meaning": "鼠（贬低性昵称）", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rug + rat", "to": "rugrat", "by": "compounding (humorous)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "rug（地毯）+ rat（小鼠）= 在地毯上爬的小家伙 = 幼儿", "imageChain": ["爬行婴儿", "地毯游戏", "幼儿玩耍"] },
+    "wordLevel": { "domain": ["日常", "口语"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": ["toddler", "infant", "kid", "little one"], "antonyms": [], "domainCohort": ["family", "informal"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "rugs",
+    "phonetic": "/rʌɡz/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "地毯（复数）；小地毯", "en": "plural of rug; small floor coverings" },
+    "morphemes": [
+      { "form": "rug", "role": "root", "canonical": "rug", "meaning": "地毯（斯堪的纳维亚语 rugga）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rug", "to": "rugs", "by": "plural inflection" }] },
+    "morphVariantOf": "rug",
+    "memorySemantics": { "mnemonicExpr": "rug的复数，多块地毯", "imageChain": ["铺在地板上的地毯"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rug", "rugrat"], "sameAffix": [], "synonyms": ["carpets", "mats"], "antonyms": [], "domainCohort": ["furniture", "home"], "derivationPair": [], "morphVariants": ["rug"], "sameImagery": [] }
   },
   {
     "word": "ruin",
-    "phonetic": "/'ruɪn/",
-    "pos": [
-      "n.",
-      "v."
-    ],
-    "coreMeaning": {
-      "cn": "废墟；毁坏；灭亡",
-      "en": "destruction or decay; to damage irreparably"
-    },
+    "phonetic": "/ˈruːɪn/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "废墟；毁坏；灭亡", "en": "the physical destruction or disintegration of something; remains of destroyed buildings" },
     "morphemes": [
-      {
-        "canonical": "ruin",
-        "role": "root",
-        "meaning": "倒塌；毁坏（拉丁ruere，倒塌）",
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": -2
-        },
-        "order": 1,
-        "form": "ruin",
-        "positionTendency": "initial"
-      }
+      { "form": "ruin", "role": "root", "canonical": "ruina", "meaning": "倒塌（拉丁语 ruina = a falling down）", "positionTendency": "initial", "sentiment": { "tags": ["消极"], "intensity": 2 } }
     ],
-    "derivationChain": [
-      "拉丁 ruere（倒塌）→ ruina → ruin → ruinous → ruination"
+    "derivationChain": { "steps": [{ "from": "Latin ruina (collapse)", "to": "ruin", "by": "borrowing via Old French ruine" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "ruin = 废墟，倒塌毁灭，也作动词：毁掉某事", "imageChain": ["古罗马遗迹", "倒塌建筑", "毁灭一切"] },
+    "wordLevel": { "domain": ["GRE", "SAT", "日常", "历史"], "sentiment": { "tags": ["消极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["ruination", "ruined", "ruinous", "ruins"], "sameAffix": [], "synonyms": ["destruction", "devastation", "collapse", "wreckage"], "antonyms": ["construction", "creation", "restoration", "preservation"], "domainCohort": ["history", "disaster", "architecture"], "derivationPair": [["ruin", "ruinous"]], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "ruination",
+    "phonetic": "/ˌruːɪˈneɪʃən/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "毁灭；破坏；彻底毁掉", "en": "the process of being brought to ruin; destruction" },
+    "morphemes": [
+      { "form": "ruin", "role": "root", "canonical": "ruina", "meaning": "倒塌；毁坏", "positionTendency": "initial", "sentiment": { "tags": ["消极"], "intensity": 2 } },
+      { "form": "ation", "role": "suffix", "canonical": "-ation", "meaning": "名词化（过程）", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
     ],
-    "memorySemantics": {
-      "imageKey": "古迹废墟",
-      "scene": "古罗马废墟（ruins）诉说着帝国的兴衰，警示着文明的脆弱",
-      "emotionalHook": "GRE高频词，形容彻底的毁灭",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "gre",
-        "sat",
-        "gmat",
-        "toefl",
-        "academic"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": -2
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "ruinous",
-        "ruination",
-        "ruined"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "destruction",
-        "devastation",
-        "wreck",
-        "havoc"
-      ],
-      "antonyms": [
-        "construction",
-        "restoration",
-        "salvation"
-      ],
-      "domainCohort": [
-        "devastation",
-        "collapse"
-      ],
-      "derivationPair": [
-        "ruination",
-        "ruinous"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "wreckage",
-        "debris"
-      ]
-    }
+    "derivationChain": { "steps": [{ "from": "ruin", "to": "ruination", "by": "nominal suffix -ation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "ruin（毁灭）+ ation = 走向毁灭的过程", "imageChain": ["彻底毁坏", "一落千丈", "身败名裂"] },
+    "wordLevel": { "domain": ["日常", "正式"], "sentiment": { "tags": ["消极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["ruin", "ruinous", "ruined"], "sameAffix": [], "synonyms": ["destruction", "devastation", "downfall", "undoing"], "antonyms": ["salvation", "preservation", "restoration"], "domainCohort": ["disaster", "consequence"], "derivationPair": [["ruin", "ruination"]], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "ruined",
+    "phonetic": "/ˈruːɪnd/",
+    "pos": "adjective",
+    "coreMeaning": { "cn": "被毁的；成为废墟的；破败的", "en": "destroyed or devastated; reduced to ruins" },
+    "morphemes": [
+      { "form": "ruin", "role": "root", "canonical": "ruina", "meaning": "倒塌；毁坏", "positionTendency": "initial", "sentiment": { "tags": ["消极"], "intensity": 2 } },
+      { "form": "ed", "role": "suffix", "canonical": "-ed", "meaning": "过去分词/形容词", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "ruin", "to": "ruined", "by": "past participle used as adjective" }] },
+    "morphVariantOf": "ruin",
+    "memorySemantics": { "mnemonicExpr": "ruin的形容词形式，已被毁坏的", "imageChain": ["残垣断壁", "破败建筑"] },
+    "wordLevel": { "domain": ["日常", "历史"], "sentiment": { "tags": ["消极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["ruin", "ruination", "ruinous"], "sameAffix": [], "synonyms": ["destroyed", "devastated", "wrecked", "decrepit"], "antonyms": ["preserved", "restored", "intact"], "domainCohort": ["history", "disaster"], "derivationPair": [], "morphVariants": ["ruin"], "sameImagery": [] }
+  },
+  {
+    "word": "ruing",
+    "phonetic": "/ˈruːɪŋ/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "对…感到懊悔（进行时）", "en": "present participle of rue; feeling sorrow or regret about" },
+    "morphemes": [
+      { "form": "rue", "role": "root", "canonical": "rue", "meaning": "懊悔；后悔（古英语 hreowan）", "positionTendency": "initial", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+      { "form": "ing", "role": "suffix", "canonical": "-ing", "meaning": "进行时", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rue", "to": "ruing", "by": "present participle -ing" }] },
+    "morphVariantOf": "rue",
+    "memorySemantics": { "mnemonicExpr": "rue（后悔）的进行时，正在懊悔", "imageChain": ["后悔莫及", "懊恼叹息"] },
+    "wordLevel": { "domain": ["日常", "文学"], "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["rue", "rueful", "ruefully"], "sameAffix": [], "synonyms": ["regretting", "lamenting", "bewailing"], "antonyms": ["celebrating", "rejoicing"], "domainCohort": ["emotion", "regret"], "derivationPair": [], "morphVariants": ["rue"], "sameImagery": [] }
+  },
+  {
+    "word": "ruining",
+    "phonetic": "/ˈruːɪnɪŋ/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "正在毁坏（进行时）", "en": "present participle of ruin; destroying or devastating" },
+    "morphemes": [
+      { "form": "ruin", "role": "root", "canonical": "ruina", "meaning": "倒塌；毁坏", "positionTendency": "initial", "sentiment": { "tags": ["消极"], "intensity": 2 } },
+      { "form": "ing", "role": "suffix", "canonical": "-ing", "meaning": "进行时", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "ruin", "to": "ruining", "by": "present participle -ing" }] },
+    "morphVariantOf": "ruin",
+    "memorySemantics": { "mnemonicExpr": "ruin的进行时，正在毁坏", "imageChain": ["破坏进行中"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["消极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["ruin", "ruined"], "sameAffix": [], "synonyms": ["destroying", "devastating", "wrecking"], "antonyms": ["building", "preserving"], "domainCohort": ["disaster"], "derivationPair": [], "morphVariants": ["ruin"], "sameImagery": [] }
+  },
+  {
+    "word": "ruinn",
+    "phonetic": "/ˈruːɪn/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "废墟（名词形式）", "en": "noun form variant of ruin" },
+    "morphemes": [
+      { "form": "ruin", "role": "root", "canonical": "ruina", "meaning": "倒塌；废墟", "positionTendency": "initial", "sentiment": { "tags": ["消极"], "intensity": 2 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "ruin", "to": "ruinn", "by": "POS tagging variant" }] },
+    "morphVariantOf": "ruin",
+    "memorySemantics": { "mnemonicExpr": "ruin名词形式标注变体", "imageChain": ["废墟"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["消极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["ruin"], "sameAffix": [], "synonyms": ["rubble", "wreckage"], "antonyms": [], "domainCohort": ["history", "disaster"], "derivationPair": [], "morphVariants": ["ruin"], "sameImagery": [] }
   },
   {
     "word": "ruinous",
-    "phonetic": "/'ruɪnəs/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "毁灭性的；破坏性的",
-      "en": "causing great damage; extremely harmful"
-    },
+    "phonetic": "/ˈruːɪnəs/",
+    "pos": "adjective",
+    "coreMeaning": { "cn": "毁灭性的；破坏性的；导致毁灭的", "en": "causing ruin; disastrously bad; in a state of ruin" },
     "morphemes": [
-      {
-        "canonical": "ruin",
-        "role": "root",
-        "meaning": "毁坏",
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": -2
-        },
-        "order": 1,
-        "form": "ruin",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-ous",
-        "role": "suffix",
-        "meaning": "充满...的",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "ous",
-        "positionTendency": "final"
-      }
+      { "form": "ruin", "role": "root", "canonical": "ruina", "meaning": "倒塌；毁坏", "positionTendency": "initial", "sentiment": { "tags": ["消极"], "intensity": 2 } },
+      { "form": "ous", "role": "suffix", "canonical": "-ous", "meaning": "形容词化（充满…）", "positionTendency": "final", "sentiment": { "tags": ["消极"], "intensity": 1 } }
     ],
-    "derivationChain": [
-      "ruin + -ous → ruinous（毁灭性的）"
-    ],
-    "memorySemantics": {
-      "imageKey": "毁灭性后果",
-      "scene": "ruinous的决策使公司破产，员工流离失所",
-      "emotionalHook": "SAT/IELTS词汇，强调彻底的破坏性",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "sat",
-        "ielts"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": -2
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "ruin",
-        "ruination"
-      ],
-      "sameAffix": [
-        "disastrous",
-        "calamitous"
-      ],
-      "synonyms": [
-        "destructive",
-        "devastating",
-        "catastrophic",
-        "disastrous"
-      ],
-      "antonyms": [
-        "beneficial",
-        "constructive",
-        "restorative"
-      ],
-      "domainCohort": [
-        "catastrophic",
-        "devastating"
-      ],
-      "derivationPair": [
-        "ruin"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": { "steps": [{ "from": "ruin", "to": "ruinous", "by": "adjectival suffix -ous" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "ruin（毁灭）+ ous = 毁灭性的，导致废墟的", "imageChain": ["灾难性后果", "一落千丈", "彻底毁灭"] },
+    "wordLevel": { "domain": ["SAT", "日常", "正式"], "sentiment": { "tags": ["消极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["ruin", "ruination", "ruinously"], "sameAffix": [], "synonyms": ["disastrous", "catastrophic", "devastating", "destructive"], "antonyms": ["beneficial", "constructive", "helpful"], "domainCohort": ["consequence", "disaster", "finance"], "derivationPair": [["ruin", "ruinous"]], "morphVariants": [], "sameImagery": [] }
   },
   {
-    "word": "ruling",
-    "phonetic": "/'ruːlɪŋ/",
-    "pos": [
-      "n.",
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "裁定；统治的；支配的",
-      "en": "an official decision; exercising authority"
-    },
+    "word": "ruinously",
+    "phonetic": "/ˈruːɪnəsli/",
+    "pos": "adverb",
+    "coreMeaning": { "cn": "毁灭性地；灾难性地", "en": "in a ruinous manner; disastrously" },
     "morphemes": [
-      {
-        "canonical": "rule",
-        "role": "root",
-        "meaning": "统治；规则",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "rul",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-ing",
-        "role": "suffix",
-        "meaning": "动名词/现在分词",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "ing",
-        "positionTendency": "final"
-      }
+      { "form": "ruin", "role": "root", "canonical": "ruina", "meaning": "倒塌；毁坏", "positionTendency": "initial", "sentiment": { "tags": ["消极"], "intensity": 2 } },
+      { "form": "ous", "role": "suffix", "canonical": "-ous", "meaning": "形容词化", "positionTendency": "medial", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+      { "form": "ly", "role": "suffix", "canonical": "-ly", "meaning": "副词化", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
     ],
-    "derivationChain": [
-      "rule → ruling（裁定；统治的）"
-    ],
-    "memorySemantics": {
-      "imageKey": "法庭裁定",
-      "scene": "法官宣读ruling（裁定），全场鸦雀无声",
-      "emotionalHook": "academic/legal词汇，law领域核心词",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "academic",
-        "legal"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "rule",
-        "ruler",
-        "overrule"
-      ],
-      "sameAffix": [
-        "governing",
-        "controlling"
-      ],
-      "synonyms": [
-        "decision",
-        "verdict",
-        "judgment",
-        "decree"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "verdict",
-        "judgment",
-        "decree"
-      ],
-      "derivationPair": [
-        "rule"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "verdict",
-        "judgment"
-      ]
-    }
+    "derivationChain": { "steps": [{ "from": "ruinous", "to": "ruinously", "by": "adverbial suffix -ly" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "ruinous（毁灭性）+ ly = 毁灭性地", "imageChain": ["灾难性的影响"] },
+    "wordLevel": { "domain": ["日常", "正式"], "sentiment": { "tags": ["消极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["ruinous", "ruin"], "sameAffix": [], "synonyms": ["disastrously", "catastrophically", "devastatingly"], "antonyms": ["beneficially", "constructively"], "domainCohort": ["consequence", "disaster"], "derivationPair": [["ruinous", "ruinously"]], "morphVariants": [], "sameImagery": [] }
   },
   {
-    "word": "ruminant",
-    "phonetic": "/'ruːmɪnənt/",
-    "pos": [
-      "n.",
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "反刍动物；沉思的",
-      "en": "a cud-chewing animal; given to deep thought"
-    },
+    "word": "ruins",
+    "phonetic": "/ˈruːɪnz/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "废墟（复数）；遗址", "en": "plural of ruin; the remains of destroyed buildings or civilizations" },
     "morphemes": [
-      {
-        "canonical": "rumin",
-        "role": "root",
-        "meaning": "反刍；沉思（拉丁ruminare，反复咀嚼）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "rumin",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-ant",
-        "role": "suffix",
-        "meaning": "...的；...者",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "ant",
-        "positionTendency": "final"
-      }
+      { "form": "ruin", "role": "root", "canonical": "ruina", "meaning": "废墟", "positionTendency": "initial", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+      { "form": "s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
     ],
-    "derivationChain": [
-      "拉丁 ruminare（反复咀嚼）→ ruminant → ruminate（深思）"
-    ],
-    "memorySemantics": {
-      "imageKey": "反刍牛思考",
-      "scene": "牛是典型的ruminant——既反刍食物，又象征着慢慢思考",
-      "emotionalHook": "GRE词汇，ruminate(沉思)同源，比喻深思熟虑",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "gre"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "ruminate",
-        "rumination"
-      ],
-      "sameAffix": [
-        "dominant",
-        "relevant"
-      ],
-      "synonyms": [
-        "contemplative",
-        "meditative",
-        "reflective"
-      ],
-      "antonyms": [
-        "impulsive",
-        "unreflective"
-      ],
-      "domainCohort": [
-        "ruminate",
-        "ponder",
-        "meditate"
-      ],
-      "derivationPair": [
-        "ruminate"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "meditative",
-        "contemplative"
-      ]
-    }
+    "derivationChain": { "steps": [{ "from": "ruin", "to": "ruins", "by": "plural inflection" }] },
+    "morphVariantOf": "ruin",
+    "memorySemantics": { "mnemonicExpr": "ruin的复数，古代废墟遗址", "imageChain": ["古罗马遗址", "废弃城市"] },
+    "wordLevel": { "domain": ["历史", "日常"], "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["ruin", "ruined"], "sameAffix": [], "synonyms": ["remnants", "rubble", "wreckage", "remains"], "antonyms": [], "domainCohort": ["history", "archaeology"], "derivationPair": [], "morphVariants": ["ruin"], "sameImagery": [] }
   },
   {
-    "word": "rumble",
-    "phonetic": "/'rʌmbl/",
-    "pos": [
-      "v.",
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "隆隆作响；低沉地说",
-      "en": "to make a continuous deep sound; to detect or expose"
-    },
+    "word": "ruinv",
+    "phonetic": "/ˈruːɪn/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "毁坏（动词形式）", "en": "verb form variant of ruin; to destroy or devastate" },
     "morphemes": [
-      {
-        "canonical": "rumble",
-        "role": "root",
-        "meaning": "隆隆声（拟声词）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "rumble",
-        "positionTendency": "medial"
-      }
+      { "form": "ruin", "role": "root", "canonical": "ruina", "meaning": "倒塌；毁坏", "positionTendency": "initial", "sentiment": { "tags": ["消极"], "intensity": 2 } }
     ],
-    "derivationChain": [
-      "中古英语 romblen（发隆隆声）→ rumble"
+    "derivationChain": { "steps": [{ "from": "ruin", "to": "ruinv", "by": "POS tagging variant" }] },
+    "morphVariantOf": "ruin",
+    "memorySemantics": { "mnemonicExpr": "ruin动词形式标注变体，毁掉", "imageChain": ["毁坏动作"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["消极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["ruin"], "sameAffix": [], "synonyms": ["destroy", "devastate", "wreck"], "antonyms": ["build", "preserve"], "domainCohort": ["disaster"], "derivationPair": [], "morphVariants": ["ruin"], "sameImagery": [] }
+  },
+  {
+    "word": "rule",
+    "phonetic": "/ruːl/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "规则；统治；裁决", "en": "a principle or regulation; control or authority; a legal ruling" },
+    "morphemes": [
+      { "form": "rule", "role": "root", "canonical": "regula", "meaning": "规则；直线（拉丁语 regula）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } }
     ],
-    "memorySemantics": {
-      "imageKey": "雷声隆隆",
-      "scene": "远处雷声隆隆rumble，预示着暴风雨的来临",
-      "emotionalHook": "GRE词汇，拟声词，生动描绘低沉连续的声音",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "gre"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "rumblings"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "thunder",
-        "roar",
-        "grumble"
-      ],
-      "antonyms": [
-        "silence",
-        "hush"
-      ],
-      "domainCohort": [
-        "thunder",
-        "roar",
-        "grumble"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": [
-        "thunder",
-        "roar"
-      ]
-    }
+    "derivationChain": { "steps": [{ "from": "Latin regula (bar, rule)", "to": "rule", "by": "borrowing via Old French reule" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "rule = 规则、统治，来自拉丁语 regula（直尺），延伸为规范、支配", "imageChain": ["法规条文", "统治权威", "裁决判断"] },
+    "wordLevel": { "domain": ["日常", "商业", "法律"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["ruled", "ruler", "rulers", "rules", "ruling", "rulings", "rulebook"], "sameAffix": [], "synonyms": ["regulation", "principle", "law", "govern"], "antonyms": ["exception", "chaos", "disorder"], "domainCohort": ["law", "governance", "social"], "derivationPair": [["rule", "ruler"]], "morphVariants": [], "sameImagery": [] }
   },
   {
     "word": "rule-of-thumb",
-    "phonetic": "/'ruːl əv θʌm/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "经验法则；大致原则",
-      "en": "a practical method based on experience rather than exact calculation"
-    },
+    "phonetic": "/ˌruːl əv ˈθʌm/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "经验法则；粗略的方法", "en": "a broadly accurate guide based on experience rather than exact calculation" },
     "morphemes": [
-      {
-        "canonical": "rule",
-        "role": "root",
-        "meaning": "规则",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "rule",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "thumb",
-        "role": "root",
-        "meaning": "拇指（古代用拇指测量）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "thumb",
-        "positionTendency": "final"
-      }
+      { "form": "rule", "role": "root", "canonical": "regula", "meaning": "规则", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "thumb", "role": "root", "canonical": "thumb", "meaning": "拇指（用拇指测量）", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
     ],
-    "derivationChain": [
-      "rule + of + thumb → rule-of-thumb（经验法则）"
+    "derivationChain": { "steps": [{ "from": "rule + of + thumb", "to": "rule-of-thumb", "by": "idiomatic phrase" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "用拇指丈量的方法 = 大概的经验法则", "imageChain": ["用拇指测量", "经验估算", "实用方法"] },
+    "wordLevel": { "domain": ["日常", "法律", "商业"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rule"], "sameAffix": [], "synonyms": ["guideline", "general principle", "heuristic"], "antonyms": ["exact formula", "precise method"], "domainCohort": ["practice", "decision-making"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "rulebook",
+    "phonetic": "/ˈruːlbʊk/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "规则手册；规章汇编", "en": "a book containing rules or regulations, especially for a sport or organization" },
+    "morphemes": [
+      { "form": "rule", "role": "root", "canonical": "regula", "meaning": "规则", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "book", "role": "root", "canonical": "book", "meaning": "书本", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
     ],
-    "memorySemantics": {
-      "imageKey": "用拇指测量",
-      "scene": "古代工匠用拇指（thumb）作测量尺——不精确但实用",
-      "emotionalHook": "法律/商业惯用语，强调实践经验",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "legal",
-        "business"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "rule",
-        "ruling"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "heuristic",
-        "guideline",
-        "principle",
-        "convention"
-      ],
-      "antonyms": [
-        "exact formula",
-        "precise calculation"
-      ],
-      "domainCohort": [
-        "heuristic",
-        "guideline",
-        "best practice"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": [
-        "guideline",
-        "heuristic"
-      ]
-    }
+    "derivationChain": { "steps": [{ "from": "rule + book", "to": "rulebook", "by": "compounding" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "rule（规则）+ book（书）= 规则手册", "imageChain": ["规章手册", "体育规则书"] },
+    "wordLevel": { "domain": ["日常", "体育", "商业"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rule", "rulebooks"], "sameAffix": [], "synonyms": ["manual", "handbook", "code"], "antonyms": [], "domainCohort": ["sport", "governance"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "rulebooks",
+    "phonetic": "/ˈruːlbʊks/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "规则手册（复数）", "en": "plural of rulebook" },
+    "morphemes": [
+      { "form": "rule", "role": "root", "canonical": "regula", "meaning": "规则", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "book", "role": "root", "canonical": "book", "meaning": "书本", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rulebook", "to": "rulebooks", "by": "plural inflection" }] },
+    "morphVariantOf": "rulebook",
+    "memorySemantics": { "mnemonicExpr": "rulebook的复数", "imageChain": ["多本规则手册"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rulebook", "rule"], "sameAffix": [], "synonyms": ["manuals", "handbooks"], "antonyms": [], "domainCohort": ["governance"], "derivationPair": [], "morphVariants": ["rulebook"], "sameImagery": [] }
+  },
+  {
+    "word": "ruled",
+    "phonetic": "/ruːld/",
+    "pos": "adjective",
+    "coreMeaning": { "cn": "统治的；有横线的（纸张）", "en": "controlled or governed; having printed lines (of paper)" },
+    "morphemes": [
+      { "form": "rule", "role": "root", "canonical": "regula", "meaning": "规则；统治", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "d", "role": "suffix", "canonical": "-ed", "meaning": "过去分词/形容词", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rule", "to": "ruled", "by": "past participle -ed (used as adjective)" }] },
+    "morphVariantOf": "rule",
+    "memorySemantics": { "mnemonicExpr": "rule的形容词形式：被统治的；有划线的", "imageChain": ["殖民统治", "横线稿纸"] },
+    "wordLevel": { "domain": ["日常", "历史"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rule", "ruling", "ruler"], "sameAffix": [], "synonyms": ["governed", "controlled", "lined"], "antonyms": ["free", "unlined", "independent"], "domainCohort": ["governance", "stationery"], "derivationPair": [], "morphVariants": ["rule"], "sameImagery": [] }
+  },
+  {
+    "word": "rulen",
+    "phonetic": "/ruːl/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "规则（名词形式）", "en": "noun form variant of rule" },
+    "morphemes": [
+      { "form": "rule", "role": "root", "canonical": "regula", "meaning": "规则；统治", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rule", "to": "rulen", "by": "POS tagging variant" }] },
+    "morphVariantOf": "rule",
+    "memorySemantics": { "mnemonicExpr": "rule名词形式标注变体", "imageChain": ["规则"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rule"], "sameAffix": [], "synonyms": ["regulation", "law"], "antonyms": [], "domainCohort": ["governance"], "derivationPair": [], "morphVariants": ["rule"], "sameImagery": [] }
+  },
+  {
+    "word": "ruler",
+    "phonetic": "/ˈruːlər/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "统治者；尺子", "en": "a person who governs; a straight-edged measuring strip" },
+    "morphemes": [
+      { "form": "rule", "role": "root", "canonical": "regula", "meaning": "规则；统治", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "er", "role": "suffix", "canonical": "-er", "meaning": "做…的人/工具", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rule", "to": "ruler", "by": "agentive suffix -er" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "rule（统治）+ er = 统治者；直尺（划直线的工具）", "imageChain": ["帝王统治", "量尺画线"] },
+    "wordLevel": { "domain": ["日常", "历史"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rule", "rulers", "ruling"], "sameAffix": [], "synonyms": ["sovereign", "monarch", "leader", "straightedge"], "antonyms": ["subject", "subordinate"], "domainCohort": ["governance", "measurement"], "derivationPair": [["rule", "ruler"]], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "rulers",
+    "phonetic": "/ˈruːlərz/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "统治者（复数）；尺子（复数）", "en": "plural of ruler; those who rule; straight measuring tools" },
+    "morphemes": [
+      { "form": "rule", "role": "root", "canonical": "regula", "meaning": "规则；统治", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "er", "role": "suffix", "canonical": "-er", "meaning": "做…的人/工具", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "ruler", "to": "rulers", "by": "plural inflection" }] },
+    "morphVariantOf": "ruler",
+    "memorySemantics": { "mnemonicExpr": "ruler的复数，多位统治者", "imageChain": ["历代帝王", "多把尺子"] },
+    "wordLevel": { "domain": ["历史", "日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["ruler", "rule"], "sameAffix": [], "synonyms": ["sovereigns", "monarchs", "leaders"], "antonyms": ["subjects"], "domainCohort": ["governance", "history"], "derivationPair": [], "morphVariants": ["ruler"], "sameImagery": [] }
+  },
+  {
+    "word": "rules",
+    "phonetic": "/ruːlz/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "规则（复数）；裁定", "en": "plural of rule; also third person singular verb: governs" },
+    "morphemes": [
+      { "form": "rule", "role": "root", "canonical": "regula", "meaning": "规则；统治", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "s", "role": "suffix", "canonical": "-s", "meaning": "复数/第三人称单数", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rule", "to": "rules", "by": "plural inflection" }] },
+    "morphVariantOf": "rule",
+    "memorySemantics": { "mnemonicExpr": "rule的复数，多条规则", "imageChain": ["法规条文", "规章制度"] },
+    "wordLevel": { "domain": ["日常", "法律"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rule", "ruler", "ruling"], "sameAffix": [], "synonyms": ["regulations", "laws", "governs"], "antonyms": [], "domainCohort": ["law", "governance"], "derivationPair": [], "morphVariants": ["rule"], "sameImagery": [] }
+  },
+  {
+    "word": "rules-based",
+    "phonetic": "/ˈruːlzˌbeɪst/",
+    "pos": "adjective",
+    "coreMeaning": { "cn": "基于规则的；规则导向的", "en": "based on or governed by a system of rules" },
+    "morphemes": [
+      { "form": "rule", "role": "root", "canonical": "regula", "meaning": "规则", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "based", "role": "root", "canonical": "based", "meaning": "基于", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rules + based", "to": "rules-based", "by": "compound adjective" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "rules（规则）+ based（基于）= 基于规则的", "imageChain": ["规则体系", "技术标准"] },
+    "wordLevel": { "domain": ["技术", "法律", "商业"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rule", "rules"], "sameAffix": [], "synonyms": ["regulatory", "principled", "systematic"], "antonyms": ["discretionary", "ad hoc"], "domainCohort": ["technology", "law", "governance"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "rulev",
+    "phonetic": "/ruːl/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "统治；裁定（动词形式）", "en": "verb form variant of rule; to govern or decide" },
+    "morphemes": [
+      { "form": "rule", "role": "root", "canonical": "regula", "meaning": "规则；统治", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rule", "to": "rulev", "by": "POS tagging variant" }] },
+    "morphVariantOf": "rule",
+    "memorySemantics": { "mnemonicExpr": "rule动词形式标注变体", "imageChain": ["统治动作"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rule"], "sameAffix": [], "synonyms": ["govern", "control", "decree"], "antonyms": ["submit", "obey"], "domainCohort": ["governance"], "derivationPair": [], "morphVariants": ["rule"], "sameImagery": [] }
+  },
+  {
+    "word": "ruling",
+    "phonetic": "/ˈruːlɪŋ/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "裁定；裁决；判决", "en": "an official decision or judgment; the act of ruling" },
+    "morphemes": [
+      { "form": "rule", "role": "root", "canonical": "regula", "meaning": "规则；统治", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "ing", "role": "suffix", "canonical": "-ing", "meaning": "名词化/进行时", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rule", "to": "ruling", "by": "gerund/present participle -ing" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "rule（裁判）的名词化，法院裁定", "imageChain": ["法官裁决", "上诉裁定", "掌权统治"] },
+    "wordLevel": { "domain": ["法律", "政治", "学术"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rule", "ruled", "ruler", "rulings"], "sameAffix": [], "synonyms": ["decision", "judgment", "verdict", "decree"], "antonyms": [], "domainCohort": ["law", "governance"], "derivationPair": [["rule", "ruling"]], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "rulings",
+    "phonetic": "/ˈruːlɪŋz/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "裁定（复数）；多项裁决", "en": "plural of ruling; official decisions or judgments" },
+    "morphemes": [
+      { "form": "rule", "role": "root", "canonical": "regula", "meaning": "规则；统治", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "ing", "role": "suffix", "canonical": "-ing", "meaning": "名词化", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "ruling", "to": "rulings", "by": "plural inflection" }] },
+    "morphVariantOf": "ruling",
+    "memorySemantics": { "mnemonicExpr": "ruling的复数，多份裁决", "imageChain": ["多项法院裁定"] },
+    "wordLevel": { "domain": ["法律", "政治"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["ruling", "rule"], "sameAffix": [], "synonyms": ["decisions", "judgments", "verdicts"], "antonyms": [], "domainCohort": ["law"], "derivationPair": [], "morphVariants": ["ruling"], "sameImagery": [] }
+  },
+  {
+    "word": "ruly",
+    "phonetic": "/ˈruːli/",
+    "pos": "adjective",
+    "coreMeaning": { "cn": "顺从的；守规矩的（现罕用，常以unruly出现）", "en": "amenable to rule or discipline; orderly (rare; mainly known through its opposite unruly)" },
+    "morphemes": [
+      { "form": "rule", "role": "root", "canonical": "regula", "meaning": "规则；统治", "positionTendency": "initial", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+      { "form": "y", "role": "suffix", "canonical": "-y", "meaning": "形容词化", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rule", "to": "ruly", "by": "adjectival suffix -y" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "rule（规则）+ y = 守规则的，与unruly（不守规矩）相对", "imageChain": ["守规矩的行为", "温顺乖巧"] },
+    "wordLevel": { "domain": ["正式", "文学"], "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["rule", "unruly", "ruler"], "sameAffix": [], "synonyms": ["obedient", "orderly", "docile"], "antonyms": ["unruly", "disorderly", "rebellious"], "domainCohort": ["behavior", "social"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "rum",
+    "phonetic": "/rʌm/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "朗姆酒；（英式俚语）奇怪的", "en": "an alcoholic drink distilled from sugar cane; British slang: odd or strange" },
+    "morphemes": [
+      { "form": "rum", "role": "root", "canonical": "rum", "meaning": "朗姆酒（可能来自荷兰语 rumbullion）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "possibly Dutch rumbullion (tumult)", "to": "rum", "by": "shortening" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "rum = 朗姆酒，加勒比海蒸馏酒；英式俚语：奇怪的", "imageChain": ["加勒比海", "甘蔗酿酒", "朗姆酒瓶"] },
+    "wordLevel": { "domain": ["日常", "饮食"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rum-runner"], "sameAffix": [], "synonyms": ["spirit", "alcohol"], "antonyms": [], "domainCohort": ["beverage", "Caribbean"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "rum-runner",
+    "phonetic": "/ˈrʌmˌrʌnər/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "私酒走私者（禁酒令时期）", "en": "a person who smuggles rum or other alcoholic beverages, especially during Prohibition" },
+    "morphemes": [
+      { "form": "rum", "role": "root", "canonical": "rum", "meaning": "朗姆酒；私酒", "positionTendency": "initial", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+      { "form": "runner", "role": "root", "canonical": "runner", "meaning": "奔跑者；走私者", "positionTendency": "final", "sentiment": { "tags": ["消极"], "intensity": 1 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rum + runner", "to": "rum-runner", "by": "compounding" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "rum（私酒）+ runner（跑者）= 私酒走私者，美国禁酒令时期", "imageChain": ["禁酒令", "秘密走私", "快艇运酒"] },
+    "wordLevel": { "domain": ["历史", "犯罪"], "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["rum"], "sameAffix": [], "synonyms": ["bootlegger", "smuggler"], "antonyms": [], "domainCohort": ["crime", "history", "US Prohibition"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "rumadj",
+    "phonetic": "/rʌm/",
+    "pos": "adjective",
+    "coreMeaning": { "cn": "奇怪的；古怪的（形容词形式）", "en": "adjective form variant of rum (British slang: odd, strange)" },
+    "morphemes": [
+      { "form": "rum", "role": "root", "canonical": "rum", "meaning": "奇怪（英式俚语）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rum (adjective use)", "to": "rumadj", "by": "POS tagging variant" }] },
+    "morphVariantOf": "rum",
+    "memorySemantics": { "mnemonicExpr": "rum形容词形式标注变体，英式俚语：奇怪的", "imageChain": ["奇怪的事物"] },
+    "wordLevel": { "domain": ["口语", "英式"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rum"], "sameAffix": [], "synonyms": ["odd", "strange", "queer"], "antonyms": ["normal", "ordinary"], "domainCohort": ["British slang"], "derivationPair": [], "morphVariants": ["rum"], "sameImagery": [] }
+  },
+  {
+    "word": "rumania",
+    "phonetic": "/ruːˈmeɪniə/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "罗马尼亚（旧拼写）", "en": "older spelling of Romania; a country in southeastern Europe" },
+    "morphemes": [
+      { "form": "Rumania", "role": "root", "canonical": "rumania", "meaning": "罗马尼亚（专有名词）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Latin Romani (Romans)", "to": "Rumania", "by": "toponym" }] },
+    "morphVariantOf": "Romania",
+    "memorySemantics": { "mnemonicExpr": "Rumania = Romania的旧拼写，东欧国家", "imageChain": ["东欧地图", "罗马尼亚国旗"] },
+    "wordLevel": { "domain": ["地理", "历史"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rumanian"], "sameAffix": [], "synonyms": ["Romania"], "antonyms": [], "domainCohort": ["geography", "history"], "derivationPair": [], "morphVariants": ["Romania"], "sameImagery": [] }
+  },
+  {
+    "word": "rumanian",
+    "phonetic": "/ruːˈmeɪniən/",
+    "pos": "adjective",
+    "coreMeaning": { "cn": "罗马尼亚的；罗马尼亚人的（旧拼写）", "en": "older spelling of Romanian; of or relating to Romania" },
+    "morphemes": [
+      { "form": "Rumania", "role": "root", "canonical": "rumania", "meaning": "罗马尼亚", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "n", "role": "suffix", "canonical": "-an", "meaning": "形容词/人名词（…的）", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Rumania", "to": "Rumanian", "by": "demonym suffix -an" }] },
+    "morphVariantOf": "Romanian",
+    "memorySemantics": { "mnemonicExpr": "Rumania的形容词形式，罗马尼亚的", "imageChain": ["罗马尼亚文化"] },
+    "wordLevel": { "domain": ["地理", "历史"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rumania", "rumanians"], "sameAffix": [], "synonyms": ["Romanian"], "antonyms": [], "domainCohort": ["geography"], "derivationPair": [], "morphVariants": ["Romanian"], "sameImagery": [] }
+  },
+  {
+    "word": "rumanians",
+    "phonetic": "/ruːˈmeɪniənz/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "罗马尼亚人（复数，旧拼写）", "en": "plural of Rumanian; people from Romania" },
+    "morphemes": [
+      { "form": "Rumania", "role": "root", "canonical": "rumania", "meaning": "罗马尼亚", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "n", "role": "suffix", "canonical": "-an", "meaning": "人名词", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Rumanian", "to": "Rumanians", "by": "plural inflection" }] },
+    "morphVariantOf": "Romanians",
+    "memorySemantics": { "mnemonicExpr": "Rumanian的复数，罗马尼亚人们", "imageChain": ["罗马尼亚人"] },
+    "wordLevel": { "domain": ["地理"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rumanian", "rumania"], "sameAffix": [], "synonyms": ["Romanians"], "antonyms": [], "domainCohort": ["geography"], "derivationPair": [], "morphVariants": ["Romanians"], "sameImagery": [] }
+  },
+  {
+    "word": "rumba",
+    "phonetic": "/ˈrʌmbə/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "伦巴舞；伦巴舞曲", "en": "a rhythmic dance originating in Cuba; the music for this dance" },
+    "morphemes": [
+      { "form": "rumba", "role": "root", "canonical": "rumba", "meaning": "伦巴（古巴西班牙语）", "positionTendency": "initial", "sentiment": { "tags": ["积极"], "intensity": 1 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Cuban Spanish rumba (party)", "to": "rumba", "by": "cultural borrowing" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "rumba = 伦巴舞，古巴节奏舞蹈，热情奔放", "imageChain": ["拉丁舞蹈", "古巴音乐", "热带节奏"] },
+    "wordLevel": { "domain": ["音乐", "舞蹈"], "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": ["Latin dance"], "antonyms": [], "domainCohort": ["dance", "music", "Cuba"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "rumble",
+    "phonetic": "/ˈrʌmbəl/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "隆隆声；低沉的持续声音", "en": "a continuous deep resonant sound; a street fight (slang)" },
+    "morphemes": [
+      { "form": "rumble", "role": "root", "canonical": "rumble", "meaning": "隆隆（拟声词）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Middle English romblen (to rumble)", "to": "rumble", "by": "onomatopoeia" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "rumble = 隆隆声，thunder rumbles = 雷声轰鸣", "imageChain": ["雷声滚滚", "肚子咕咕叫", "街头械斗"] },
+    "wordLevel": { "domain": ["GRE", "日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rumbled", "rumbles", "rumbling", "rumblings"], "sameAffix": [], "synonyms": ["thunder", "roar", "boom", "grumble"], "antonyms": ["silence", "quiet"], "domainCohort": ["sound", "weather"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "rumbled",
+    "phonetic": "/ˈrʌmbəld/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "隆隆作响了；被识破了（过去式）", "en": "past tense of rumble; also British slang: was found out or exposed" },
+    "morphemes": [
+      { "form": "rumble", "role": "root", "canonical": "rumble", "meaning": "隆隆；识破", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "d", "role": "suffix", "canonical": "-ed", "meaning": "过去式", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rumble", "to": "rumbled", "by": "past tense inflection" }] },
+    "morphVariantOf": "rumble",
+    "memorySemantics": { "mnemonicExpr": "rumble的过去式；英式俚语：被识破了", "imageChain": ["隆隆声过去", "阴谋被揭穿"] },
+    "wordLevel": { "domain": ["日常", "口语"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rumble", "rumbling"], "sameAffix": [], "synonyms": ["thundered", "roared", "exposed"], "antonyms": [], "domainCohort": ["sound", "detection"], "derivationPair": [], "morphVariants": ["rumble"], "sameImagery": [] }
+  },
+  {
+    "word": "rumblen",
+    "phonetic": "/ˈrʌmbəl/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "隆隆声（名词形式）", "en": "noun form variant of rumble" },
+    "morphemes": [
+      { "form": "rumble", "role": "root", "canonical": "rumble", "meaning": "隆隆", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rumble", "to": "rumblen", "by": "POS tagging variant" }] },
+    "morphVariantOf": "rumble",
+    "memorySemantics": { "mnemonicExpr": "rumble名词形式标注变体", "imageChain": ["隆隆声"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rumble"], "sameAffix": [], "synonyms": ["thunder", "roar"], "antonyms": [], "domainCohort": ["sound"], "derivationPair": [], "morphVariants": ["rumble"], "sameImagery": [] }
+  },
+  {
+    "word": "rumbles",
+    "phonetic": "/ˈrʌmbəlz/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "隆隆作响（第三人称单数）", "en": "third person singular present of rumble" },
+    "morphemes": [
+      { "form": "rumble", "role": "root", "canonical": "rumble", "meaning": "隆隆", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "s", "role": "suffix", "canonical": "-s", "meaning": "第三人称单数", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rumble", "to": "rumbles", "by": "third person singular inflection" }] },
+    "morphVariantOf": "rumble",
+    "memorySemantics": { "mnemonicExpr": "rumble的第三人称单数", "imageChain": ["雷声滚滚"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rumble", "rumbled"], "sameAffix": [], "synonyms": ["thunders", "roars"], "antonyms": [], "domainCohort": ["sound"], "derivationPair": [], "morphVariants": ["rumble"], "sameImagery": [] }
+  },
+  {
+    "word": "rumblev",
+    "phonetic": "/ˈrʌmbəl/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "隆隆作响（动词形式）", "en": "verb form variant of rumble" },
+    "morphemes": [
+      { "form": "rumble", "role": "root", "canonical": "rumble", "meaning": "隆隆", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rumble", "to": "rumblev", "by": "POS tagging variant" }] },
+    "morphVariantOf": "rumble",
+    "memorySemantics": { "mnemonicExpr": "rumble动词形式标注变体", "imageChain": ["隆隆作响"] },
+    "wordLevel": { "domain": ["日常"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rumble"], "sameAffix": [], "synonyms": ["thunder", "roar", "boom"], "antonyms": [], "domainCohort": ["sound"], "derivationPair": [], "morphVariants": ["rumble"], "sameImagery": [] }
+  },
+  {
+    "word": "rumbling",
+    "phonetic": "/ˈrʌmblɪŋ/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "隆隆声（进行时/名词）；苗头；不满迹象", "en": "a low continuous sound; early signs of discontent or trouble" },
+    "morphemes": [
+      { "form": "rumble", "role": "root", "canonical": "rumble", "meaning": "隆隆", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "ing", "role": "suffix", "canonical": "-ing", "meaning": "名词化/进行时", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rumble", "to": "rumbling", "by": "gerund -ing" }] },
+    "morphVariantOf": "rumble",
+    "memorySemantics": { "mnemonicExpr": "rumble的名词/进行时；rumblings = 不满的苗头", "imageChain": ["低沉隆隆", "动乱前兆"] },
+    "wordLevel": { "domain": ["日常", "政治"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rumble", "rumblings"], "sameAffix": [], "synonyms": ["grumbling", "murmuring", "discontent"], "antonyms": ["silence", "approval"], "domainCohort": ["sound", "politics"], "derivationPair": [], "morphVariants": ["rumble"], "sameImagery": [] }
+  },
+  {
+    "word": "rumblings",
+    "phonetic": "/ˈrʌmblɪŋz/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "隆隆声（复数）；不满的苗头", "en": "plural of rumbling; sounds of discontent or distant rumbling" },
+    "morphemes": [
+      { "form": "rumble", "role": "root", "canonical": "rumble", "meaning": "隆隆", "positionTendency": "initial", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+      { "form": "ing", "role": "suffix", "canonical": "-ing", "meaning": "名词化", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "rumbling", "to": "rumblings", "by": "plural inflection" }] },
+    "morphVariantOf": "rumbling",
+    "memorySemantics": { "mnemonicExpr": "rumbling的复数，多次隆隆声或不满迹象", "imageChain": ["动乱前兆", "民间抱怨"] },
+    "wordLevel": { "domain": ["日常", "政治"], "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["rumbling", "rumble"], "sameAffix": [], "synonyms": ["murmurings", "grumblings", "stirrings"], "antonyms": [], "domainCohort": ["sound", "politics", "social"], "derivationPair": [], "morphVariants": ["rumbling"], "sameImagery": [] }
+  },
+  {
+    "word": "rumbustious",
+    "phonetic": "/rʌmˈbʌstʃəs/",
+    "pos": "adjective",
+    "coreMeaning": { "cn": "喧嚣的；吵闹活跃的；嘈杂热闹的", "en": "exuberantly noisy and lacking restraint; boisterous" },
+    "morphemes": [
+      { "form": "rumbust-", "role": "root", "canonical": "rumbustious", "meaning": "嘈杂（可能源自 robustious 或 robustus）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "ious", "role": "suffix", "canonical": "-ious", "meaning": "形容词化", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "possibly robustious (robust + -ious) + rum- intensifier", "to": "rumbustious", "by": "variant formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "rumbustious = 嘈杂喧嚣的，活跃热闹的，像隆隆声一样吵闹", "imageChain": ["喧嚣的孩子们", "热闹的聚会", "吵闹活泼"] },
+    "wordLevel": { "domain": ["日常", "文学"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": ["boisterous", "rowdy", "noisy", "exuberant"], "antonyms": ["quiet", "restrained", "sedate"], "domainCohort": ["behavior", "sound"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "rumen",
+    "phonetic": "/ˈruːmɛn/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "瘤胃（反刍动物的第一个胃）", "en": "the first stomach of a ruminant animal, in which food is partly digested" },
+    "morphemes": [
+      { "form": "rumen", "role": "root", "canonical": "rumen", "meaning": "瘤胃（拉丁语 rumen = throat, gullet）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Latin rumen (gullet)", "to": "rumen", "by": "scientific borrowing" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "rumen = 反刍动物的瘤胃，食物经过的第一个胃室", "imageChain": ["牛的消化系统", "瘤胃", "草料发酵"] },
+    "wordLevel": { "domain": ["生物", "医学", "兽医"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["ruminant", "ruminate"], "sameAffix": [], "synonyms": ["first stomach", "paunch"], "antonyms": [], "domainCohort": ["anatomy", "zoology"], "derivationPair": [["rumen", "ruminant"]], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "rumford",
+    "phonetic": "/ˈrʌmfərd/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "拉姆福德（人名/地名）", "en": "a proper name; Count Rumford, Benjamin Thompson, American-born physicist" },
+    "morphemes": [
+      { "form": "Rumford", "role": "root", "canonical": "rumford", "meaning": "拉姆福德（专有名词）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "place name Rumford, New Hampshire", "to": "Count Rumford", "by": "title + place name" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "拉姆福德伯爵（Benjamin Thompson），热力学先驱，发明拉姆福德壁炉", "imageChain": ["科学实验", "壁炉设计", "热力学"] },
+    "wordLevel": { "domain": ["历史", "科学"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["history", "physics", "proper noun"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "ruminant",
+    "phonetic": "/ˈruːmɪnənt/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "反刍动物；沉思者", "en": "an animal that chews the cud (cow, sheep, etc.); a contemplative person" },
+    "morphemes": [
+      { "form": "rumin-", "role": "root", "canonical": "ruminare", "meaning": "反刍；沉思（拉丁语 ruminare = to chew cud）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "ant", "role": "suffix", "canonical": "-ant", "meaning": "名词/形容词（做…的）", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Latin ruminare (to chew cud, meditate)", "to": "ruminant", "by": "participle suffix -ant" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "rumin（反刍/沉思）+ ant = 反复咀嚼的动物；也比喻深思熟虑的人", "imageChain": ["牛羊反刍", "细嚼慢咽", "沉思冥想"] },
+    "wordLevel": { "domain": ["GRE", "生物", "文学"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["rumen", "ruminate", "rumination"], "sameAffix": [], "synonyms": ["cud-chewer", "contemplative"], "antonyms": [], "domainCohort": ["zoology", "biology", "character"], "derivationPair": [["ruminant", "ruminate"]], "morphVariants": [], "sameImagery": [] }
   }
 ]

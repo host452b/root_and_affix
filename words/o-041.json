@@ -1,2029 +1,783 @@
 [
   {
     "word": "oversize",
-    "phonetic": "/'ovɚsaɪz/",
+    "phonetic": "/ˈoʊvərsaɪz/",
     "pos": "adj.",
-    "coreMeaning": {
-      "cn": "超大尺寸的",
-      "en": "larger than the usual or standard size"
-    },
+    "coreMeaning": { "cn": "特大的；超大号的", "en": "larger than the usual or standard size" },
     "morphemes": [
-      {
-        "role": "prefix",
-        "form": "over-",
-        "canonical": "over-",
-        "coreMeaning": "超过/过度",
-        "positionTendency": "initial",
-        "order": 1,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      },
-      {
-        "role": "root",
-        "form": "size",
-        "canonical": "size",
-        "coreMeaning": "尺寸",
-        "positionTendency": "final",
-        "order": 2,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      }
+      { "canonical": "over-", "role": "prefix", "meaning": "above; beyond; excessive", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "超过", "en": "over; beyond" } },
+      { "canonical": "size", "role": "root", "meaning": "dimensions; magnitude", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "size", "positionTendency": "final", "coreMeaning": { "cn": "尺寸", "en": "size" } }
     ],
-    "derivationChain": [
-      "over- + size → oversize → oversized"
-    ],
+    "derivationChain": { "steps": [{ "from": "over + size", "to": "oversize", "operation": "prefix addition" }] },
     "morphVariantOf": null,
-    "memorySemantics": {
-      "mnemonicExpr": "over(超)+size(尺寸)→超大号的",
-      "imageChain": [
-        "穿着一件明显过大的衣服"
-      ]
-    },
-    "wordLevel": {
-      "domain": "general",
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "oversized"
-      ],
-      "sameAffix": [
-        "overload",
-        "overweight"
-      ],
-      "synonyms": [
-        "outsized",
-        "oversized"
-      ],
-      "antonyms": [
-        "undersize",
-        "small"
-      ],
-      "domainCohort": [
-        "oversized",
-        "large",
-        "jumbo"
-      ],
-      "derivationPair": [
-        "oversize",
-        "oversized"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "memorySemantics": { "mnemonicExpr": "over(超)+size(尺寸) → 尺寸超大的", "imageChain": ["特大号", "超大尺寸"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["oversized"], "sameAffix": ["overweight", "overload"], "synonyms": ["jumbo", "extra-large", "XXL"], "antonyms": ["undersized", "miniature"], "domainCohort": [], "derivationPair": ["oversized"], "morphVariants": [], "sameImagery": [] }
   },
   {
     "word": "oversized",
-    "phonetic": "/'ovɚsaɪzd/",
+    "phonetic": "/ˈoʊvərsaɪzd/",
     "pos": "adj.",
-    "coreMeaning": {
-      "cn": "超大号的；特大的",
-      "en": "larger than the normal or appropriate size"
-    },
+    "coreMeaning": { "cn": "超大号的；过大的", "en": "larger than the normal or standard size" },
     "morphemes": [
-      {
-        "role": "prefix",
-        "form": "over-",
-        "canonical": "over-",
-        "coreMeaning": "超过",
-        "positionTendency": "initial",
-        "order": 1,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      },
-      {
-        "role": "root",
-        "form": "size",
-        "canonical": "size",
-        "coreMeaning": "尺寸",
-        "positionTendency": "medial",
-        "order": 2,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      },
-      {
-        "role": "suffix",
-        "form": "-d",
-        "canonical": "-ed",
-        "coreMeaning": "形容词后缀",
-        "positionTendency": "final",
-        "order": 3,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      }
+      { "canonical": "over-", "role": "prefix", "meaning": "above; beyond", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "超过", "en": "over; beyond" } },
+      { "canonical": "size", "role": "root", "meaning": "dimensions", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "siz", "positionTendency": "medial", "coreMeaning": { "cn": "尺寸", "en": "size" } },
+      { "canonical": "-ed", "role": "suffix", "meaning": "having the quality of", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ed", "positionTendency": "final", "coreMeaning": { "cn": "具有…特性的", "en": "having the quality of" } }
     ],
-    "derivationChain": [
-      "oversize → oversized"
-    ],
-    "morphVariantOf": "oversize",
-    "memorySemantics": {
-      "mnemonicExpr": "over+sized→已超出正常尺寸的",
-      "imageChain": [
-        "特大号外套"
-      ]
-    },
-    "wordLevel": {
-      "domain": "general",
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "oversize"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "oversize",
-        "outsized",
-        "huge"
-      ],
-      "antonyms": [
-        "undersized",
-        "small"
-      ],
-      "domainCohort": [],
-      "derivationPair": [],
-      "morphVariants": [
-        "oversize"
-      ],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "oversleep",
-    "phonetic": "/ovə'slip/",
-    "pos": "v.",
-    "coreMeaning": {
-      "cn": "睡过头；睡得过久",
-      "en": "to sleep beyond the intended time"
-    },
-    "morphemes": [
-      {
-        "role": "prefix",
-        "form": "over-",
-        "canonical": "over-",
-        "coreMeaning": "超过",
-        "positionTendency": "initial",
-        "order": 1,
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": 1
-        }
-      },
-      {
-        "role": "root",
-        "form": "sleep",
-        "canonical": "sleep",
-        "coreMeaning": "睡眠",
-        "positionTendency": "final",
-        "order": 2,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      }
-    ],
-    "derivationChain": [
-      "over- + sleep → oversleep → overslept"
-    ],
+    "derivationChain": { "steps": [{ "from": "oversize", "to": "oversized", "operation": "+-d (adj.)" }] },
     "morphVariantOf": null,
-    "memorySemantics": {
-      "mnemonicExpr": "over(超过)+sleep(睡眠)→睡过头",
-      "imageChain": [
-        "闹钟响了却没听见，错过早班地铁"
-      ]
-    },
-    "wordLevel": {
-      "domain": "general",
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "overslept",
-        "oversleeps",
-        "oversleeping"
-      ],
-      "sameAffix": [
-        "overeat",
-        "overwork"
-      ],
-      "synonyms": [
-        "sleep in",
-        "sleep late"
-      ],
-      "antonyms": [
-        "wake early"
-      ],
-      "domainCohort": [
-        "sleep in",
-        "nap"
-      ],
-      "derivationPair": [
-        "oversleep",
-        "overslept"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "overstate",
-    "phonetic": "/,ovɚ'stet/",
-    "pos": "v.",
-    "coreMeaning": {
-      "cn": "夸大；夸张陈述",
-      "en": "to state too strongly; to exaggerate"
-    },
-    "morphemes": [
-      {
-        "role": "prefix",
-        "form": "over-",
-        "canonical": "over-",
-        "coreMeaning": "过度",
-        "positionTendency": "initial",
-        "order": 1,
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": 1
-        }
-      },
-      {
-        "role": "root",
-        "form": "state",
-        "canonical": "state",
-        "coreMeaning": "陈述",
-        "positionTendency": "final",
-        "order": 2,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      }
-    ],
-    "derivationChain": [
-      "over- + state → overstate → overstatement"
-    ],
-    "morphVariantOf": null,
-    "memorySemantics": {
-      "mnemonicExpr": "over(过度)+state(陈述)→夸大其词",
-      "imageChain": [
-        "政客吹嘘政绩时言过其实"
-      ]
-    },
-    "wordLevel": {
-      "domain": "academic",
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "overstated",
-        "overstatement",
-        "overstates"
-      ],
-      "sameAffix": [
-        "exaggerate",
-        "overplay"
-      ],
-      "synonyms": [
-        "exaggerate",
-        "magnify",
-        "overplay"
-      ],
-      "antonyms": [
-        "understate",
-        "minimize"
-      ],
-      "domainCohort": [
-        "exaggerate",
-        "embellish"
-      ],
-      "derivationPair": [
-        "overstate",
-        "overstatement"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "exaggerate"
-      ]
-    }
-  },
-  {
-    "word": "overstatement",
-    "phonetic": "/'ovɚ'stetmənt/",
-    "pos": "n.",
-    "coreMeaning": {
-      "cn": "夸大；夸张的陈述",
-      "en": "an exaggerated statement"
-    },
-    "morphemes": [
-      {
-        "role": "prefix",
-        "form": "over-",
-        "canonical": "over-",
-        "coreMeaning": "过度",
-        "positionTendency": "initial",
-        "order": 1,
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": 1
-        }
-      },
-      {
-        "role": "root",
-        "form": "state",
-        "canonical": "state",
-        "coreMeaning": "陈述",
-        "positionTendency": "medial",
-        "order": 2,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      },
-      {
-        "role": "suffix",
-        "form": "-ment",
-        "canonical": "-ment",
-        "coreMeaning": "名词后缀",
-        "positionTendency": "final",
-        "order": 3,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      }
-    ],
-    "derivationChain": [
-      "overstate → overstatement"
-    ],
-    "morphVariantOf": null,
-    "memorySemantics": {
-      "mnemonicExpr": "over+statement→夸大的陈述",
-      "imageChain": [
-        "演讲中过分夸张的说辞"
-      ]
-    },
-    "wordLevel": {
-      "domain": "academic",
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "overstate",
-        "overstated"
-      ],
-      "sameAffix": [
-        "exaggeration",
-        "hyperbole"
-      ],
-      "synonyms": [
-        "exaggeration",
-        "hyperbole"
-      ],
-      "antonyms": [
-        "understatement"
-      ],
-      "domainCohort": [
-        "hyperbole",
-        "exaggeration"
-      ],
-      "derivationPair": [
-        "overstate",
-        "overstatement"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "overstep",
-    "phonetic": "/'ovɚstep/",
-    "pos": "v.",
-    "coreMeaning": {
-      "cn": "超越界限；越权",
-      "en": "to go beyond a limit or boundary"
-    },
-    "morphemes": [
-      {
-        "role": "prefix",
-        "form": "over-",
-        "canonical": "over-",
-        "coreMeaning": "越过/超出",
-        "positionTendency": "initial",
-        "order": 1,
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": 1
-        }
-      },
-      {
-        "role": "root",
-        "form": "step",
-        "canonical": "step",
-        "coreMeaning": "步伐/界限",
-        "positionTendency": "final",
-        "order": 2,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      }
-    ],
-    "derivationChain": [
-      "over- + step → overstep → overstepped"
-    ],
-    "morphVariantOf": null,
-    "memorySemantics": {
-      "mnemonicExpr": "over(越过)+step(界限)→逾越界限",
-      "imageChain": [
-        "越过警戒线进入禁区"
-      ]
-    },
-    "wordLevel": {
-      "domain": "general",
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "overstepped",
-        "overstepping",
-        "oversteps"
-      ],
-      "sameAffix": [
-        "overstride",
-        "overreach"
-      ],
-      "synonyms": [
-        "exceed",
-        "transgress",
-        "encroach"
-      ],
-      "antonyms": [
-        "respect",
-        "comply"
-      ],
-      "domainCohort": [
-        "transgress",
-        "exceed"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": [
-        "transgress",
-        "encroach"
-      ]
-    }
-  },
-  {
-    "word": "overstock",
-    "phonetic": "/'ovɚstɒk/",
-    "pos": "v./n.",
-    "coreMeaning": {
-      "cn": "库存过多；积压",
-      "en": "to stock with more than needed"
-    },
-    "morphemes": [
-      {
-        "role": "prefix",
-        "form": "over-",
-        "canonical": "over-",
-        "coreMeaning": "过度",
-        "positionTendency": "initial",
-        "order": 1,
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": 1
-        }
-      },
-      {
-        "role": "root",
-        "form": "stock",
-        "canonical": "stock",
-        "coreMeaning": "库存",
-        "positionTendency": "final",
-        "order": 2,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      }
-    ],
-    "derivationChain": [
-      "over- + stock → overstock → overstocked"
-    ],
-    "morphVariantOf": null,
-    "memorySemantics": {
-      "mnemonicExpr": "over(过多)+stock(库存)→积压过多",
-      "imageChain": [
-        "仓库里堆满卖不出去的货物"
-      ]
-    },
-    "wordLevel": {
-      "domain": "business",
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "overstocked",
-        "overstocks",
-        "overstocking"
-      ],
-      "sameAffix": [
-        "oversupply",
-        "glut"
-      ],
-      "synonyms": [
-        "surplus",
-        "oversupply"
-      ],
-      "antonyms": [
-        "shortage",
-        "understock"
-      ],
-      "domainCohort": [
-        "surplus",
-        "inventory",
-        "glut"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "overstride",
-    "phonetic": "/'ovəstraɪd/",
-    "pos": "v.",
-    "coreMeaning": {
-      "cn": "跨过；超过；大步走过",
-      "en": "to stride over or beyond; to exceed"
-    },
-    "morphemes": [
-      {
-        "role": "prefix",
-        "form": "over-",
-        "canonical": "over-",
-        "coreMeaning": "越过",
-        "positionTendency": "initial",
-        "order": 1,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      },
-      {
-        "role": "root",
-        "form": "stride",
-        "canonical": "stride",
-        "coreMeaning": "大步走",
-        "positionTendency": "final",
-        "order": 2,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      }
-    ],
-    "derivationChain": [
-      "over- + stride → overstride"
-    ],
-    "morphVariantOf": null,
-    "memorySemantics": {
-      "mnemonicExpr": "over(超)+stride(大步)→大步跨越",
-      "imageChain": [
-        "一步跨过障碍物"
-      ]
-    },
-    "wordLevel": {
-      "domain": "academic",
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [],
-      "sameAffix": [
-        "overstep",
-        "overreach"
-      ],
-      "synonyms": [
-        "surpass",
-        "exceed"
-      ],
-      "antonyms": [],
-      "domainCohort": [],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "oversubscribe",
-    "phonetic": "/'ovɚsəb'skraɪbd/",
-    "pos": "v.",
-    "coreMeaning": {
-      "cn": "超额认购；超额订阅",
-      "en": "to subscribe for more than is available"
-    },
-    "morphemes": [
-      {
-        "role": "prefix",
-        "form": "over-",
-        "canonical": "over-",
-        "coreMeaning": "超过",
-        "positionTendency": "initial",
-        "order": 1,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      },
-      {
-        "role": "prefix",
-        "form": "sub-",
-        "canonical": "sub-",
-        "coreMeaning": "在下/订阅",
-        "positionTendency": "medial",
-        "order": 2,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      },
-      {
-        "role": "root",
-        "form": "scribe",
-        "canonical": "scrib-",
-        "coreMeaning": "写/签名",
-        "positionTendency": "final",
-        "order": 3,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      }
-    ],
-    "derivationChain": [
-      "over- + subscribe → oversubscribe → oversubscribed"
-    ],
-    "morphVariantOf": null,
-    "memorySemantics": {
-      "mnemonicExpr": "over(超)+subscribe(认购)→超额认购",
-      "imageChain": [
-        "热门股票IPO被投资者超额认购"
-      ]
-    },
-    "wordLevel": {
-      "domain": "finance",
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "oversubscribed"
-      ],
-      "sameAffix": [],
-      "synonyms": [],
-      "antonyms": [],
-      "domainCohort": [
-        "IPO",
-        "shares",
-        "investment"
-      ],
-      "derivationPair": [
-        "oversubscribe",
-        "oversubscribed"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "overt",
-    "phonetic": "/o'vɝt/",
-    "pos": "adj.",
-    "coreMeaning": {
-      "cn": "公开的；明显的；明目张胆的",
-      "en": "done openly; not concealed"
-    },
-    "morphemes": [
-      {
-        "role": "prefix",
-        "form": "o-",
-        "canonical": "ob-",
-        "coreMeaning": "朝向/完全",
-        "positionTendency": "initial",
-        "order": 1,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      },
-      {
-        "role": "root",
-        "form": "vert",
-        "canonical": "vert-",
-        "coreMeaning": "转向/开放",
-        "positionTendency": "final",
-        "order": 2,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      }
-    ],
-    "derivationChain": [
-      "Old French overt (open) → overt → overtly → covert (antonym)"
-    ],
-    "morphVariantOf": null,
-    "memorySemantics": {
-      "mnemonicExpr": "overt=公开的（对比covert隐蔽的）",
-      "imageChain": [
-        "在众目睽睽之下公然进行的行为"
-      ]
-    },
-    "wordLevel": {
-      "domain": "academic",
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [],
-      "sameAffix": [],
-      "synonyms": [
-        "open",
-        "public",
-        "unconcealed",
-        "manifest"
-      ],
-      "antonyms": [
-        "covert",
-        "hidden",
-        "clandestine"
-      ],
-      "domainCohort": [
-        "covert",
-        "conspicuous",
-        "blatant"
-      ],
-      "derivationPair": [
-        "overt",
-        "overtly"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "open",
-        "public"
-      ]
-    }
-  },
-  {
-    "word": "overtake",
-    "phonetic": "/,ovɚ'tek/",
-    "pos": "v.",
-    "coreMeaning": {
-      "cn": "赶上；超过；突然来袭",
-      "en": "to catch up with and pass; to come upon suddenly"
-    },
-    "morphemes": [
-      {
-        "role": "prefix",
-        "form": "over-",
-        "canonical": "over-",
-        "coreMeaning": "超过",
-        "positionTendency": "initial",
-        "order": 1,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      },
-      {
-        "role": "root",
-        "form": "take",
-        "canonical": "take",
-        "coreMeaning": "取得/超越",
-        "positionTendency": "final",
-        "order": 2,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      }
-    ],
-    "derivationChain": [
-      "over- + take → overtake → overtaken"
-    ],
-    "morphVariantOf": null,
-    "memorySemantics": {
-      "mnemonicExpr": "over(越过)+take→赶上并超越",
-      "imageChain": [
-        "赛跑中超过对手"
-      ]
-    },
-    "wordLevel": {
-      "domain": "general",
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "overtaken",
-        "overtakes",
-        "overtaking"
-      ],
-      "sameAffix": [
-        "overcome",
-        "overpass"
-      ],
-      "synonyms": [
-        "surpass",
-        "pass",
-        "outstrip"
-      ],
-      "antonyms": [
-        "fall behind",
-        "lag"
-      ],
-      "domainCohort": [
-        "surpass",
-        "outpace",
-        "outstrip"
-      ],
-      "derivationPair": [
-        "overtake",
-        "overtaken"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "surpass",
-        "outstrip"
-      ]
-    }
-  },
-  {
-    "word": "overtaken",
-    "phonetic": "/,ovɚ'tekən/",
-    "pos": "v.",
-    "coreMeaning": {
-      "cn": "已被超过；已赶上（overtake的过去分词）",
-      "en": "past participle of overtake"
-    },
-    "morphemes": [
-      {
-        "role": "prefix",
-        "form": "over-",
-        "canonical": "over-",
-        "coreMeaning": "超过",
-        "positionTendency": "initial",
-        "order": 1,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      },
-      {
-        "role": "root",
-        "form": "take",
-        "canonical": "take",
-        "coreMeaning": "取得",
-        "positionTendency": "medial",
-        "order": 2,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      },
-      {
-        "role": "suffix",
-        "form": "-en",
-        "canonical": "-en",
-        "coreMeaning": "过去分词后缀",
-        "positionTendency": "final",
-        "order": 3,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      }
-    ],
-    "derivationChain": [
-      "overtake → overtaken"
-    ],
-    "morphVariantOf": null,
-    "memorySemantics": {
-      "mnemonicExpr": "overtake+en→已被超越",
-      "imageChain": [
-        "被对手超过的运动员"
-      ]
-    },
-    "wordLevel": {
-      "domain": "general",
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "overtake"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "surpassed",
-        "passed"
-      ],
-      "antonyms": [],
-      "domainCohort": [],
-      "derivationPair": [
-        "overtake",
-        "overtaken"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "overtax",
-    "phonetic": "/'ovɚ'tæks/",
-    "pos": "v.",
-    "coreMeaning": {
-      "cn": "课税过重；使负担过度",
-      "en": "to tax too heavily; to burden excessively"
-    },
-    "morphemes": [
-      {
-        "role": "prefix",
-        "form": "over-",
-        "canonical": "over-",
-        "coreMeaning": "过度",
-        "positionTendency": "initial",
-        "order": 1,
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": 1
-        }
-      },
-      {
-        "role": "root",
-        "form": "tax",
-        "canonical": "tax",
-        "coreMeaning": "税/负担",
-        "positionTendency": "final",
-        "order": 2,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      }
-    ],
-    "derivationChain": [
-      "over- + tax → overtax"
-    ],
-    "morphVariantOf": null,
-    "memorySemantics": {
-      "mnemonicExpr": "over(过度)+tax(税)→课税过重",
-      "imageChain": [
-        "政府征收过高赋税压垮百姓"
-      ]
-    },
-    "wordLevel": {
-      "domain": "finance",
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [],
-      "sameAffix": [
-        "overburden",
-        "overload"
-      ],
-      "synonyms": [
-        "overburden",
-        "overtax",
-        "overload"
-      ],
-      "antonyms": [
-        "ease",
-        "relieve"
-      ],
-      "domainCohort": [
-        "tax burden",
-        "revenue"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "overspill",
-    "phonetic": "/ˈəʊ.və.spɪl/",
-    "pos": "n./v.",
-    "coreMeaning": {
-      "cn": "溢出；过剩部分",
-      "en": "overflow; excess population moving from city to suburbs"
-    },
-    "morphemes": [
-      {
-        "role": "prefix",
-        "form": "over-",
-        "canonical": "over-",
-        "coreMeaning": "超过/外溢",
-        "positionTendency": "initial",
-        "order": 1,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      },
-      {
-        "role": "root",
-        "form": "spill",
-        "canonical": "spill",
-        "coreMeaning": "溢出",
-        "positionTendency": "final",
-        "order": 2,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      }
-    ],
-    "derivationChain": [
-      "over- + spill → overspill"
-    ],
-    "morphVariantOf": null,
-    "memorySemantics": {
-      "mnemonicExpr": "over(超)+spill(溢)→城市人口外溢到郊区",
-      "imageChain": [
-        "城市拥挤，人口外扩到卫星城"
-      ]
-    },
-    "wordLevel": {
-      "domain": "academic",
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [],
-      "sameAffix": [
-        "overflow",
-        "overrun"
-      ],
-      "synonyms": [
-        "overflow",
-        "surplus"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "suburb",
-        "migration",
-        "urban"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "overstay",
-    "phonetic": "/'ovɚste/",
-    "pos": "v.",
-    "coreMeaning": {
-      "cn": "超过预定停留时间；逾期居留",
-      "en": "to stay longer than the time allowed"
-    },
-    "morphemes": [
-      {
-        "role": "prefix",
-        "form": "over-",
-        "canonical": "over-",
-        "coreMeaning": "超过",
-        "positionTendency": "initial",
-        "order": 1,
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": 1
-        }
-      },
-      {
-        "role": "root",
-        "form": "stay",
-        "canonical": "stay",
-        "coreMeaning": "停留",
-        "positionTendency": "final",
-        "order": 2,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      }
-    ],
-    "derivationChain": [
-      "over- + stay → overstay → overstayed"
-    ],
-    "morphVariantOf": null,
-    "memorySemantics": {
-      "mnemonicExpr": "over(超)+stay(停留)→逾期不走",
-      "imageChain": [
-        "签证过期仍不离境"
-      ]
-    },
-    "wordLevel": {
-      "domain": "general",
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "overstayed",
-        "overstaying",
-        "overstays"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "outstay",
-        "linger"
-      ],
-      "antonyms": [
-        "leave early"
-      ],
-      "domainCohort": [
-        "visa",
-        "immigration"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "overstuffed",
-    "phonetic": "/'ovɚstʌft/",
-    "pos": "adj.",
-    "coreMeaning": {
-      "cn": "填塞过满的；过度填充的",
-      "en": "stuffed to excess; having too much padding"
-    },
-    "morphemes": [
-      {
-        "role": "prefix",
-        "form": "over-",
-        "canonical": "over-",
-        "coreMeaning": "过度",
-        "positionTendency": "initial",
-        "order": 1,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      },
-      {
-        "role": "root",
-        "form": "stuff",
-        "canonical": "stuff",
-        "coreMeaning": "填充",
-        "positionTendency": "medial",
-        "order": 2,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      },
-      {
-        "role": "suffix",
-        "form": "-ed",
-        "canonical": "-ed",
-        "coreMeaning": "形容词后缀",
-        "positionTendency": "final",
-        "order": 3,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      }
-    ],
-    "derivationChain": [
-      "over- + stuff → overstuff → overstuffed"
-    ],
-    "morphVariantOf": null,
-    "memorySemantics": {
-      "mnemonicExpr": "over+stuffed→填得太满",
-      "imageChain": [
-        "塞满弹簧和棉花的超厚沙发"
-      ]
-    },
-    "wordLevel": {
-      "domain": "general",
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [],
-      "sameAffix": [],
-      "synonyms": [
-        "overloaded",
-        "crammed",
-        "packed"
-      ],
-      "antonyms": [
-        "empty"
-      ],
-      "domainCohort": [],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "overstrung",
-    "phonetic": "/'ovɚstrʌŋ/",
-    "pos": "adj.",
-    "coreMeaning": {
-      "cn": "神经紧绷的；过度紧张的",
-      "en": "too highly strung; overly tense"
-    },
-    "morphemes": [
-      {
-        "role": "prefix",
-        "form": "over-",
-        "canonical": "over-",
-        "coreMeaning": "过度",
-        "positionTendency": "initial",
-        "order": 1,
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": 1
-        }
-      },
-      {
-        "role": "root",
-        "form": "strung",
-        "canonical": "string",
-        "coreMeaning": "弦紧绷",
-        "positionTendency": "final",
-        "order": 2,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      }
-    ],
-    "derivationChain": [
-      "over- + strung → overstrung"
-    ],
-    "morphVariantOf": null,
-    "memorySemantics": {
-      "mnemonicExpr": "over(过度)+strung(绷紧)→神经紧绷到极点",
-      "imageChain": [
-        "赛前过度紧张的运动员"
-      ]
-    },
-    "wordLevel": {
-      "domain": "general",
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [],
-      "sameAffix": [
-        "overwrought",
-        "high-strung"
-      ],
-      "synonyms": [
-        "overwrought",
-        "tense",
-        "high-strung"
-      ],
-      "antonyms": [
-        "relaxed",
-        "calm"
-      ],
-      "domainCohort": [
-        "anxious",
-        "nervous",
-        "tense"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "oversteer",
-    "phonetic": "/'ovɚstɪə/",
-    "pos": "v./n.",
-    "coreMeaning": {
-      "cn": "（车辆）过度转向",
-      "en": "to steer a vehicle more than intended; the tendency to turn more than expected"
-    },
-    "morphemes": [
-      {
-        "role": "prefix",
-        "form": "over-",
-        "canonical": "over-",
-        "coreMeaning": "过度",
-        "positionTendency": "initial",
-        "order": 1,
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": 1
-        }
-      },
-      {
-        "role": "root",
-        "form": "steer",
-        "canonical": "steer",
-        "coreMeaning": "操控/方向",
-        "positionTendency": "final",
-        "order": 2,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      }
-    ],
-    "derivationChain": [
-      "over- + steer → oversteer"
-    ],
-    "morphVariantOf": null,
-    "memorySemantics": {
-      "mnemonicExpr": "over+steer→转向过度（汽车失控）",
-      "imageChain": [
-        "赛车过弯时后轮甩尾"
-      ]
-    },
-    "wordLevel": {
-      "domain": "tech",
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "oversteered",
-        "oversteers",
-        "oversteering"
-      ],
-      "sameAffix": [],
-      "synonyms": [],
-      "antonyms": [
-        "understeer"
-      ],
-      "domainCohort": [
-        "understeer",
-        "handling",
-        "traction"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "overstraining",
-    "phonetic": "/'ovɚstreɪnɪŋ/",
-    "pos": "v.",
-    "coreMeaning": {
-      "cn": "过度用力；过度紧张",
-      "en": "straining excessively"
-    },
-    "morphemes": [
-      {
-        "role": "prefix",
-        "form": "over-",
-        "canonical": "over-",
-        "coreMeaning": "过度",
-        "positionTendency": "initial",
-        "order": 1,
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": 1
-        }
-      },
-      {
-        "role": "root",
-        "form": "strain",
-        "canonical": "strain",
-        "coreMeaning": "用力/拉伸",
-        "positionTendency": "medial",
-        "order": 2,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      },
-      {
-        "role": "suffix",
-        "form": "-ing",
-        "canonical": "-ing",
-        "coreMeaning": "现在分词",
-        "positionTendency": "final",
-        "order": 3,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      }
-    ],
-    "derivationChain": [
-      "over- + strain → overstraining"
-    ],
-    "morphVariantOf": null,
-    "memorySemantics": {
-      "mnemonicExpr": "over(过)+strain(用力)→过度拉伸肌肉",
-      "imageChain": [
-        "举重运动员因过度用力肌肉受伤"
-      ]
-    },
-    "wordLevel": {
-      "domain": "general",
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [],
-      "sameAffix": [
-        "overexerting"
-      ],
-      "synonyms": [
-        "overexerting",
-        "overtaxing"
-      ],
-      "antonyms": [],
-      "domainCohort": [],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "overspend",
-    "phonetic": "/'ovɚspend/",
-    "pos": "v.",
-    "coreMeaning": {
-      "cn": "超支；花费过多",
-      "en": "to spend more than is allowed or available"
-    },
-    "morphemes": [
-      {
-        "role": "prefix",
-        "form": "over-",
-        "canonical": "over-",
-        "coreMeaning": "超过",
-        "positionTendency": "initial",
-        "order": 1,
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": 1
-        }
-      },
-      {
-        "role": "root",
-        "form": "spend",
-        "canonical": "spend",
-        "coreMeaning": "花费",
-        "positionTendency": "final",
-        "order": 2,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      }
-    ],
-    "derivationChain": [
-      "over- + spend → overspend"
-    ],
-    "morphVariantOf": null,
-    "memorySemantics": {
-      "mnemonicExpr": "over(超)+spend(花费)→超出预算",
-      "imageChain": [
-        "购物狂刷爆信用卡"
-      ]
-    },
-    "wordLevel": {
-      "domain": "finance",
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [],
-      "sameAffix": [
-        "overrun",
-        "deficit"
-      ],
-      "synonyms": [
-        "overspend",
-        "exceed budget"
-      ],
-      "antonyms": [
-        "underspend",
-        "save"
-      ],
-      "domainCohort": [
-        "budget",
-        "deficit",
-        "expenditure"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "oversoft",
-    "phonetic": "/'ovɚsɒft/",
-    "pos": "adj.",
-    "coreMeaning": {
-      "cn": "过软的；过于柔软的",
-      "en": "excessively soft"
-    },
-    "morphemes": [
-      {
-        "role": "prefix",
-        "form": "over-",
-        "canonical": "over-",
-        "coreMeaning": "过度",
-        "positionTendency": "initial",
-        "order": 1,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      },
-      {
-        "role": "root",
-        "form": "soft",
-        "canonical": "soft",
-        "coreMeaning": "柔软",
-        "positionTendency": "final",
-        "order": 2,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      }
-    ],
-    "derivationChain": [
-      "over- + soft → oversoft"
-    ],
-    "morphVariantOf": null,
-    "memorySemantics": {
-      "mnemonicExpr": "over+soft→过于柔软",
-      "imageChain": [
-        "床垫太软导致腰疼"
-      ]
-    },
-    "wordLevel": {
-      "domain": "general",
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "oversoftness"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "too soft",
-        "flaccid"
-      ],
-      "antonyms": [
-        "firm",
-        "hard"
-      ],
-      "domainCohort": [],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "oversold",
-    "phonetic": "/'ovɚsold/",
-    "pos": "adj./v.",
-    "coreMeaning": {
-      "cn": "超卖的；过度推销的",
-      "en": "sold beyond available supply; having sold more than can be delivered"
-    },
-    "morphemes": [
-      {
-        "role": "prefix",
-        "form": "over-",
-        "canonical": "over-",
-        "coreMeaning": "超过",
-        "positionTendency": "initial",
-        "order": 1,
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": 1
-        }
-      },
-      {
-        "role": "root",
-        "form": "sold",
-        "canonical": "sell",
-        "coreMeaning": "卖出",
-        "positionTendency": "final",
-        "order": 2,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      }
-    ],
-    "derivationChain": [
-      "over- + sell → oversell → oversold"
-    ],
-    "morphVariantOf": null,
-    "memorySemantics": {
-      "mnemonicExpr": "over+sold→卖出超过库存量",
-      "imageChain": [
-        "航空公司机票超卖导致乘客无法登机"
-      ]
-    },
-    "wordLevel": {
-      "domain": "finance",
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [],
-      "sameAffix": [],
-      "synonyms": [],
-      "antonyms": [
-        "overbought"
-      ],
-      "domainCohort": [
-        "overbought",
-        "short",
-        "market"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "memorySemantics": { "mnemonicExpr": "oversize+d → 标注为超大号的", "imageChain": ["特大号", "超大"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["oversize"], "sameAffix": [], "synonyms": ["jumbo", "outsize", "extra-large"], "antonyms": ["undersized", "compact"], "domainCohort": [], "derivationPair": ["oversize"], "morphVariants": [], "sameImagery": [] }
   },
   {
     "word": "overskirt",
-    "phonetic": "/'ovɚskɜːt/",
+    "phonetic": "/ˈoʊvərskɜrt/",
     "pos": "n.",
-    "coreMeaning": {
-      "cn": "外裙；罩裙",
-      "en": "a skirt worn over another skirt"
-    },
+    "coreMeaning": { "cn": "外裙；上裙", "en": "a skirt worn over another skirt or dress" },
     "morphemes": [
-      {
-        "role": "prefix",
-        "form": "over-",
-        "canonical": "over-",
-        "coreMeaning": "在…之上",
-        "positionTendency": "initial",
-        "order": 1,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      },
-      {
-        "role": "root",
-        "form": "skirt",
-        "canonical": "skirt",
-        "coreMeaning": "裙子",
-        "positionTendency": "final",
-        "order": 2,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      }
+      { "canonical": "over-", "role": "prefix", "meaning": "above; on top of", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "在…之上", "en": "above; on top of" } },
+      { "canonical": "skirt", "role": "root", "meaning": "garment for lower body", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "skirt", "positionTendency": "final", "coreMeaning": { "cn": "裙子", "en": "skirt" } }
     ],
-    "derivationChain": [
-      "over- + skirt → overskirt"
-    ],
+    "derivationChain": { "steps": [{ "from": "over + skirt", "to": "overskirt", "operation": "prefix addition" }] },
     "morphVariantOf": null,
-    "memorySemantics": {
-      "mnemonicExpr": "over(上面)+skirt(裙)→套在裙子上的外裙",
-      "imageChain": [
-        "维多利亚时代贵妇穿的多层裙装"
-      ]
-    },
-    "wordLevel": {
-      "domain": "general",
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "overskirts"
-      ],
-      "sameAffix": [],
-      "synonyms": [],
-      "antonyms": [],
-      "domainCohort": [
-        "petticoat",
-        "underskirt"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "memorySemantics": { "mnemonicExpr": "over(上面)+skirt(裙子) → 穿在外面的裙子", "imageChain": ["外裙", "叠穿裙装"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["overskirts"], "sameAffix": [], "synonyms": ["outer skirt"], "antonyms": [], "domainCohort": ["fashion", "dress"], "derivationPair": ["overskirts"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "overskirts",
+    "phonetic": "/ˈoʊvərskɜrts/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "外裙（复数）", "en": "plural of overskirt" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "above; on top of", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "在…之上", "en": "above" } },
+      { "canonical": "skirt", "role": "root", "meaning": "garment", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "skirt", "positionTendency": "medial", "coreMeaning": { "cn": "裙子", "en": "skirt" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "overskirt", "to": "overskirts", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "overskirt+s → 多条外裙", "imageChain": ["外裙们"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["overskirt"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["overskirt"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "oversleep",
+    "phonetic": "/ˌoʊvərˈsliːp/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "睡过头；睡得过久", "en": "to sleep longer than intended; to fail to wake up in time" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "beyond the proper limit; excessively", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "过度", "en": "excessively" } },
+      { "canonical": "sleep", "role": "root", "meaning": "to rest in sleep", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "sleep", "positionTendency": "final", "coreMeaning": { "cn": "睡眠", "en": "to sleep" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "over + sleep", "to": "oversleep", "operation": "prefix addition" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "over(超过)+sleep(睡) → 超出计划睡太久，睡过头", "imageChain": ["睡过头", "错过闹铃", "迟到"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["oversleeping", "oversleeps", "overslept"], "sameAffix": ["overeat", "overindulge"], "synonyms": ["sleep in", "sleep too long"], "antonyms": ["wake up on time"], "domainCohort": [], "derivationPair": ["overslept", "oversleeping"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "oversleeping",
+    "phonetic": "/ˌoʊvərˈsliːpɪŋ/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "正在睡过头", "en": "present participle of oversleep; sleeping beyond the intended time" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "excessively", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "过度", "en": "excessively" } },
+      { "canonical": "sleep", "role": "root", "meaning": "to rest in sleep", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "sleep", "positionTendency": "medial", "coreMeaning": { "cn": "睡眠", "en": "to sleep" } },
+      { "canonical": "-ing", "role": "suffix", "meaning": "present participle", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ing", "positionTendency": "final", "coreMeaning": { "cn": "进行时", "en": "ongoing action" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "oversleep", "to": "oversleeping", "operation": "+-ing (present participle)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "oversleep+ing → 正在睡过头", "imageChain": ["赖床中", "睡过时"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["oversleep", "overslept"], "sameAffix": [], "synonyms": ["sleeping in"], "antonyms": [], "domainCohort": [], "derivationPair": ["oversleep"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "oversleeps",
+    "phonetic": "/ˌoʊvərˈsliːps/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "睡过头（第三人称单数）", "en": "third-person singular present of oversleep" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "excessively", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "过度", "en": "excessively" } },
+      { "canonical": "sleep", "role": "root", "meaning": "to sleep", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "sleep", "positionTendency": "medial", "coreMeaning": { "cn": "睡眠", "en": "to sleep" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "3rd person singular", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "第三人称单数", "en": "3rd person singular" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "oversleep", "to": "oversleeps", "operation": "+-s (3rd person singular)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "oversleep+s → 他/她常睡过头", "imageChain": ["经常睡过头"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["oversleep", "oversleeping", "overslept"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["oversleep"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "overslept",
+    "phonetic": "/ˌoʊvərˈslɛpt/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "睡过头了（过去式）", "en": "past tense of oversleep; slept beyond the intended time" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "excessively", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "过度", "en": "excessively" } },
+      { "canonical": "sleep", "role": "root", "meaning": "to sleep", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "slept", "positionTendency": "final", "coreMeaning": { "cn": "睡眠", "en": "to sleep" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "oversleep", "to": "overslept", "operation": "irregular past tense" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "over+slept → 已经睡过头了，错过了", "imageChain": ["睡过了", "迟到了"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["oversleep", "oversleeping"], "sameAffix": [], "synonyms": ["slept in"], "antonyms": [], "domainCohort": [], "derivationPair": ["oversleep"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "oversoft",
+    "phonetic": "/ˈoʊvərˌsɔft/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "过于柔软的", "en": "excessively soft or yielding" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "excessively", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "过度", "en": "excessively" } },
+      { "canonical": "soft", "role": "root", "meaning": "not hard; yielding to pressure", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "soft", "positionTendency": "final", "coreMeaning": { "cn": "柔软", "en": "soft" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "over + soft", "to": "oversoft", "operation": "prefix addition" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "over(过)+soft(软) → 过于软烂", "imageChain": ["过软", "软到变形"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["oversoftness"], "sameAffix": [], "synonyms": ["too soft", "mushy"], "antonyms": ["firm", "hard"], "domainCohort": [], "derivationPair": ["oversoftness"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "oversoftness",
+    "phonetic": "/ˈoʊvərˌsɔftnɪs/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "过于柔软的状态", "en": "the state of being excessively soft" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "excessively", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "过度", "en": "excessively" } },
+      { "canonical": "soft", "role": "root", "meaning": "soft", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "soft", "positionTendency": "medial", "coreMeaning": { "cn": "柔软", "en": "soft" } },
+      { "canonical": "-ness", "role": "suffix", "meaning": "state or quality", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ness", "positionTendency": "final", "coreMeaning": { "cn": "性质/状态", "en": "state or quality" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "oversoft", "to": "oversoftness", "operation": "+-ness (noun)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "oversoft+ness → 过于柔软的程度", "imageChain": ["过软状态"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["oversoft"], "sameAffix": [], "synonyms": ["excessive softness", "mushiness"], "antonyms": ["firmness"], "domainCohort": [], "derivationPair": ["oversoft"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "oversold",
+    "phonetic": "/ˌoʊvərˈsoʊld/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "超卖的；过度宣传的", "en": "sold beyond available supply; promoted with excessive enthusiasm" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "beyond; excessively", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "超过", "en": "beyond" } },
+      { "canonical": "sell", "role": "root", "meaning": "to exchange for money", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "sold", "positionTendency": "final", "coreMeaning": { "cn": "出售", "en": "to sell" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "oversell", "to": "oversold", "operation": "irregular past tense/adj." }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "over(超)+sold(售出) → 超出库存卖出，超卖", "imageChain": ["超卖", "票房爆满", "炒过头"] },
+    "wordLevel": { "domain": "business", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": [], "sameAffix": ["overbought"], "synonyms": ["hyped", "overbooked"], "antonyms": ["undersold"], "domainCohort": ["stock", "ticket", "inventory"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "overspend",
+    "phonetic": "/ˌoʊvərˈspɛnd/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "超支；花钱过多", "en": "to spend more than what is budgeted or available" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "beyond; exceeding", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "超过", "en": "beyond" } },
+      { "canonical": "spend", "role": "root", "meaning": "to pay out money", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "spend", "positionTendency": "final", "coreMeaning": { "cn": "花费", "en": "to spend" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "over + spend", "to": "overspend", "operation": "prefix addition" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "over(超)+spend(花钱) → 花费超出预算", "imageChain": ["超支", "花超预算", "财务赤字"] },
+    "wordLevel": { "domain": "finance", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": [], "sameAffix": ["overpay", "overborrow"], "synonyms": ["overshoot budget", "splurge"], "antonyms": ["underspend", "save"], "domainCohort": ["budget", "finance"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "overspill",
+    "phonetic": "/ˈoʊvərˌspɪl/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "溢出；过剩部分；人口外溢", "en": "something that spills over; overflow; a population moving to surrounding areas" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "beyond; overflowing", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "溢出/超过", "en": "over; beyond" } },
+      { "canonical": "spill", "role": "root", "meaning": "to flow or fall out", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "spill", "positionTendency": "final", "coreMeaning": { "cn": "溢出", "en": "to spill" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "over + spill", "to": "overspill", "operation": "prefix addition" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "over(溢出)+spill(洒落) → 超过容量而溢出的部分", "imageChain": ["溢出", "过剩", "人口外流"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["overspills"], "sameAffix": [], "synonyms": ["overflow", "surplus", "excess"], "antonyms": [], "domainCohort": ["population", "urban planning"], "derivationPair": ["overspills"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "overspills",
+    "phonetic": "/ˈoʊvərˌspɪlz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "溢出物（复数）", "en": "plural of overspill; multiple instances of overflow" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "beyond", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "溢出", "en": "beyond" } },
+      { "canonical": "spill", "role": "root", "meaning": "to flow out", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "spill", "positionTendency": "medial", "coreMeaning": { "cn": "溢出", "en": "to spill" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "overspill", "to": "overspills", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "overspill+s → 多处溢出", "imageChain": ["多处溢出"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["overspill"], "sameAffix": [], "synonyms": ["overflows", "surpluses"], "antonyms": [], "domainCohort": [], "derivationPair": ["overspill"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "overstate",
+    "phonetic": "/ˌoʊvərˈsteɪt/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "夸大；夸张地陈述", "en": "to state with too much emphasis; to exaggerate" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "beyond; excessively", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "过度", "en": "excessively" } },
+      { "canonical": "state", "role": "root", "meaning": "to declare; to express in words", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "state", "positionTendency": "final", "coreMeaning": { "cn": "陈述", "en": "to state" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "over + state", "to": "overstate", "operation": "prefix addition" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "over(过度)+state(陈述) → 过度陈述，夸大其词", "imageChain": ["夸大", "夸张", "言过其实"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["overstated", "overstatement", "overstates", "overstating"], "sameAffix": [], "synonyms": ["exaggerate", "embellish", "magnify"], "antonyms": ["understate", "minimize"], "domainCohort": [], "derivationPair": ["overstatement", "overstated"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "overstated",
+    "phonetic": "/ˌoʊvərˈsteɪtɪd/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "被夸大的；言过其实的", "en": "expressed with too much emphasis; exaggerated" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "excessively", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "过度", "en": "excessively" } },
+      { "canonical": "state", "role": "root", "meaning": "to declare", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "stat", "positionTendency": "medial", "coreMeaning": { "cn": "陈述", "en": "to state" } },
+      { "canonical": "-ed", "role": "suffix", "meaning": "past participle/adj.", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ed", "positionTendency": "final", "coreMeaning": { "cn": "已…的", "en": "having been" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "overstate", "to": "overstated", "operation": "+-d (past participle/adj.)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "overstate+d → 已被夸大了的", "imageChain": ["夸大了的", "言过其实"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["overstate", "overstatement"], "sameAffix": [], "synonyms": ["exaggerated", "embellished"], "antonyms": ["understated", "measured"], "domainCohort": [], "derivationPair": ["overstate"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "overstatement",
+    "phonetic": "/ˌoʊvərˈsteɪtmənt/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "夸大；过甚其词", "en": "the act of overstating something; an exaggerated statement" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "excessively", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "过度", "en": "excessively" } },
+      { "canonical": "state", "role": "root", "meaning": "to declare", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "state", "positionTendency": "medial", "coreMeaning": { "cn": "陈述", "en": "to state" } },
+      { "canonical": "-ment", "role": "suffix", "meaning": "result of an action; state", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ment", "positionTendency": "final", "coreMeaning": { "cn": "结果/状态", "en": "result or state" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "overstate", "to": "overstatement", "operation": "+-ment (noun)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "overstate+ment → 夸大其词这一行为的结果", "imageChain": ["夸大", "谎言", "过分陈述"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["overstate", "overstated"], "sameAffix": [], "synonyms": ["exaggeration", "hyperbole", "embellishment"], "antonyms": ["understatement"], "domainCohort": [], "derivationPair": ["overstate"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "overstatements",
+    "phonetic": "/ˌoʊvərˈsteɪtmənts/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "夸大（复数）", "en": "plural of overstatement; multiple exaggerated statements" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "excessively", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "过度", "en": "excessively" } },
+      { "canonical": "state", "role": "root", "meaning": "to declare", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "state", "positionTendency": "medial", "coreMeaning": { "cn": "陈述", "en": "to state" } },
+      { "canonical": "-ment", "role": "suffix", "meaning": "result", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ment", "positionTendency": "medial", "coreMeaning": { "cn": "结果", "en": "result" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 4, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "overstatement", "to": "overstatements", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "overstatement+s → 多次夸大", "imageChain": ["多次夸张", "一系列过分言辞"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["overstatement", "overstate"], "sameAffix": [], "synonyms": ["exaggerations", "hyperboles"], "antonyms": ["understatements"], "domainCohort": [], "derivationPair": ["overstatement"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "overstates",
+    "phonetic": "/ˌoʊvərˈsteɪts/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "夸大（第三人称单数）", "en": "third-person singular of overstate" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "excessively", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "过度", "en": "excessively" } },
+      { "canonical": "state", "role": "root", "meaning": "to declare", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "state", "positionTendency": "medial", "coreMeaning": { "cn": "陈述", "en": "to state" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "3rd person singular", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "第三人称单数", "en": "3rd person singular" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "overstate", "to": "overstates", "operation": "+-s (3rd person singular)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "overstate+s → 他/她夸大", "imageChain": ["夸大言辞"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["overstate", "overstated", "overstatement"], "sameAffix": [], "synonyms": ["exaggerates"], "antonyms": ["understates"], "domainCohort": [], "derivationPair": ["overstate"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "overstating",
+    "phonetic": "/ˌoʊvərˈsteɪtɪŋ/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "正在夸大", "en": "present participle of overstate; currently exaggerating" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "excessively", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "过度", "en": "excessively" } },
+      { "canonical": "state", "role": "root", "meaning": "to declare", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "stat", "positionTendency": "medial", "coreMeaning": { "cn": "陈述", "en": "to state" } },
+      { "canonical": "-ing", "role": "suffix", "meaning": "present participle", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ing", "positionTendency": "final", "coreMeaning": { "cn": "进行时", "en": "ongoing action" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "overstate", "to": "overstating", "operation": "+-ing" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "overstate+ing → 正在夸大其词", "imageChain": ["夸大中"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["overstate", "overstatement"], "sameAffix": [], "synonyms": ["exaggerating"], "antonyms": ["understating"], "domainCohort": [], "derivationPair": ["overstate"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "overstay",
+    "phonetic": "/ˌoʊvərˈsteɪ/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "超时停留；逗留过久", "en": "to stay beyond the appropriate or allowed time" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "beyond; too much", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "超过", "en": "beyond" } },
+      { "canonical": "stay", "role": "root", "meaning": "to remain in a place", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "stay", "positionTendency": "final", "coreMeaning": { "cn": "停留", "en": "to stay" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "over + stay", "to": "overstay", "operation": "prefix addition" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "over(超)+stay(停留) → 停留超过允许时间", "imageChain": ["逾期停留", "超期滞留", "签证过期"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["overstayed", "overstaying", "overstays"], "sameAffix": [], "synonyms": ["linger too long", "outstay"], "antonyms": ["leave on time"], "domainCohort": ["visa", "immigration"], "derivationPair": ["overstayed"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "overstayed",
+    "phonetic": "/ˌoʊvərˈsteɪd/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "超时停留了（过去式）", "en": "past tense of overstay; remained longer than allowed" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "beyond", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "超过", "en": "beyond" } },
+      { "canonical": "stay", "role": "root", "meaning": "to remain", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "stay", "positionTendency": "medial", "coreMeaning": { "cn": "停留", "en": "to stay" } },
+      { "canonical": "-ed", "role": "suffix", "meaning": "past tense", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ed", "positionTendency": "final", "coreMeaning": { "cn": "过去式", "en": "past tense" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "overstay", "to": "overstayed", "operation": "+-ed (past tense)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "overstay+ed → 已经超期停留了", "imageChain": ["超期了", "非法滞留"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["overstay", "overstaying"], "sameAffix": [], "synonyms": ["outstayed"], "antonyms": [], "domainCohort": [], "derivationPair": ["overstay"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "overstaying",
+    "phonetic": "/ˌoʊvərˈsteɪɪŋ/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "正在超时停留", "en": "present participle of overstay" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "beyond", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "超过", "en": "beyond" } },
+      { "canonical": "stay", "role": "root", "meaning": "to remain", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "stay", "positionTendency": "medial", "coreMeaning": { "cn": "停留", "en": "to stay" } },
+      { "canonical": "-ing", "role": "suffix", "meaning": "present participle", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ing", "positionTendency": "final", "coreMeaning": { "cn": "进行时", "en": "ongoing action" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "overstay", "to": "overstaying", "operation": "+-ing" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "overstay+ing → 正在超期逗留", "imageChain": ["超期中", "仍未离开"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["overstay", "overstayed"], "sameAffix": [], "synonyms": ["lingering too long"], "antonyms": [], "domainCohort": [], "derivationPair": ["overstay"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "overstays",
+    "phonetic": "/ˌoʊvərˈsteɪz/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "超时停留（第三人称单数）", "en": "third-person singular of overstay" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "beyond", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "超过", "en": "beyond" } },
+      { "canonical": "stay", "role": "root", "meaning": "to remain", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "stay", "positionTendency": "medial", "coreMeaning": { "cn": "停留", "en": "to stay" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "3rd person singular", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "第三人称单数", "en": "3rd person singular" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "overstay", "to": "overstays", "operation": "+-s" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "overstay+s → 他/她经常超期", "imageChain": ["惯常超期"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["overstay", "overstayed"], "sameAffix": [], "synonyms": ["outstays"], "antonyms": [], "domainCohort": [], "derivationPair": ["overstay"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "oversteer",
+    "phonetic": "/ˌoʊvərˈstɪər/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "过度转向（驾驶）", "en": "to steer a vehicle more than necessary; to overcorrect in steering" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "beyond; excessively", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "过度", "en": "excessively" } },
+      { "canonical": "steer", "role": "root", "meaning": "to guide direction of a vehicle", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "steer", "positionTendency": "final", "coreMeaning": { "cn": "转向", "en": "to steer" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "over + steer", "to": "oversteer", "operation": "prefix addition" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "over(过度)+steer(操控方向) → 方向盘打过头", "imageChain": ["过度转向", "失控", "驾驶"] },
+    "wordLevel": { "domain": "tech", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["oversteered", "oversteering", "oversteers"], "sameAffix": [], "synonyms": [], "antonyms": ["understeer"], "domainCohort": ["driving", "vehicle control"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "oversteered",
+    "phonetic": "/ˌoʊvərˈstɪərd/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "过度转向了（过去式）", "en": "past tense of oversteer" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "excessively", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "过度", "en": "excessively" } },
+      { "canonical": "steer", "role": "root", "meaning": "to guide direction", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "steer", "positionTendency": "medial", "coreMeaning": { "cn": "转向", "en": "to steer" } },
+      { "canonical": "-ed", "role": "suffix", "meaning": "past tense", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ed", "positionTendency": "final", "coreMeaning": { "cn": "过去式", "en": "past tense" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "oversteer", "to": "oversteered", "operation": "+-ed" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "oversteer+ed → 打了方向盘过头", "imageChain": ["打方向过猛"] },
+    "wordLevel": { "domain": "tech", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["oversteer"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["oversteer"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "oversteering",
+    "phonetic": "/ˌoʊvərˈstɪərɪŋ/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "正在过度转向", "en": "present participle of oversteer" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "excessively", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "过度", "en": "excessively" } },
+      { "canonical": "steer", "role": "root", "meaning": "to guide direction", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "steer", "positionTendency": "medial", "coreMeaning": { "cn": "转向", "en": "to steer" } },
+      { "canonical": "-ing", "role": "suffix", "meaning": "present participle", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ing", "positionTendency": "final", "coreMeaning": { "cn": "进行时", "en": "ongoing action" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "oversteer", "to": "oversteering", "operation": "+-ing" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "oversteer+ing → 方向打过头中", "imageChain": ["方向过猛"] },
+    "wordLevel": { "domain": "tech", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["oversteer", "oversteered"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["oversteer"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "oversteers",
+    "phonetic": "/ˌoʊvərˈstɪərz/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "过度转向（第三人称单数）", "en": "third-person singular of oversteer" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "excessively", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "过度", "en": "excessively" } },
+      { "canonical": "steer", "role": "root", "meaning": "to guide direction", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "steer", "positionTendency": "medial", "coreMeaning": { "cn": "转向", "en": "to steer" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "3rd person singular", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "第三人称单数", "en": "3rd person singular" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "oversteer", "to": "oversteers", "operation": "+-s" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "oversteer+s → 该车辆容易过度转向", "imageChain": ["容易打过头"] },
+    "wordLevel": { "domain": "tech", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["oversteer", "oversteered"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["oversteer"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "overstep",
+    "phonetic": "/ˌoʊvərˈstɛp/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "越权；超越（界限）", "en": "to go beyond a limit or boundary; to exceed what is proper" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "beyond; across", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "越过", "en": "beyond" } },
+      { "canonical": "step", "role": "root", "meaning": "to move the foot; a pace", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "step", "positionTendency": "final", "coreMeaning": { "cn": "步伐/踏", "en": "to step" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "over + step", "to": "overstep", "operation": "prefix addition" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "over(越过)+step(步伐) → 跨越界限，越权", "imageChain": ["越权", "逾越界限", "踩红线"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["消极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["overstepped", "overstepping", "oversteps"], "sameAffix": [], "synonyms": ["transgress", "exceed", "violate"], "antonyms": ["respect boundaries", "stay within limits"], "domainCohort": [], "derivationPair": ["overstepped"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "overstepped",
+    "phonetic": "/ˌoʊvərˈstɛpt/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "越权了（过去式）", "en": "past tense of overstep; went beyond a limit or boundary" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "beyond", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "越过", "en": "beyond" } },
+      { "canonical": "step", "role": "root", "meaning": "to move forward", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "stepp", "positionTendency": "medial", "coreMeaning": { "cn": "步伐", "en": "to step" } },
+      { "canonical": "-ed", "role": "suffix", "meaning": "past tense", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ed", "positionTendency": "final", "coreMeaning": { "cn": "过去式", "en": "past tense" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "overstep", "to": "overstepped", "operation": "+-ped (past tense)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "overstep+ped → 已经越权了", "imageChain": ["已越权", "已踩界"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["消极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["overstep", "overstepping"], "sameAffix": [], "synonyms": ["transgressed", "exceeded"], "antonyms": [], "domainCohort": [], "derivationPair": ["overstep"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "overstepping",
+    "phonetic": "/ˌoʊvərˈstɛpɪŋ/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "正在越权", "en": "present participle of overstep; currently exceeding limits" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "beyond", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "越过", "en": "beyond" } },
+      { "canonical": "step", "role": "root", "meaning": "to step", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "stepp", "positionTendency": "medial", "coreMeaning": { "cn": "步伐", "en": "to step" } },
+      { "canonical": "-ing", "role": "suffix", "meaning": "present participle", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ing", "positionTendency": "final", "coreMeaning": { "cn": "进行时", "en": "ongoing action" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "overstep", "to": "overstepping", "operation": "+-ping" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "overstep+ping → 正在越权行事", "imageChain": ["越界中", "正踩红线"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["消极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["overstep", "overstepped"], "sameAffix": [], "synonyms": ["transgressing", "exceeding"], "antonyms": [], "domainCohort": [], "derivationPair": ["overstep"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "oversteps",
+    "phonetic": "/ˌoʊvərˈstɛps/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "越权（第三人称单数）", "en": "third-person singular of overstep" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "beyond", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "越过", "en": "beyond" } },
+      { "canonical": "step", "role": "root", "meaning": "to step", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "step", "positionTendency": "medial", "coreMeaning": { "cn": "步伐", "en": "to step" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "3rd person singular", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "第三人称单数", "en": "3rd person singular" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "overstep", "to": "oversteps", "operation": "+-s" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "overstep+s → 他越权", "imageChain": ["越权行为"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["消极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["overstep", "overstepped"], "sameAffix": [], "synonyms": ["transgresses"], "antonyms": [], "domainCohort": [], "derivationPair": ["overstep"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "overstock",
+    "phonetic": "/ˌoʊvərˈstɑk/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "库存过多；超额进货", "en": "to supply with more stock than is needed; to accumulate excess inventory" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "beyond; excessively", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "超过", "en": "excessively" } },
+      { "canonical": "stock", "role": "root", "meaning": "supply; inventory", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "stock", "positionTendency": "final", "coreMeaning": { "cn": "库存", "en": "stock; inventory" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "over + stock", "to": "overstock", "operation": "prefix addition" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "over(超)+stock(库存) → 进货超过实际需要", "imageChain": ["超额库存", "积压货物"] },
+    "wordLevel": { "domain": "business", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["overstocked", "overstocking", "overstocks"], "sameAffix": [], "synonyms": ["overinventory", "stockpile excessively"], "antonyms": ["understock"], "domainCohort": ["inventory", "warehouse"], "derivationPair": ["overstocked"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "overstocked",
+    "phonetic": "/ˌoʊvərˈstɑkt/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "库存过多的；积压的", "en": "having more stock than needed; excessively supplied" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "excessively", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "过度", "en": "excessively" } },
+      { "canonical": "stock", "role": "root", "meaning": "supply", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "stock", "positionTendency": "medial", "coreMeaning": { "cn": "库存", "en": "stock" } },
+      { "canonical": "-ed", "role": "suffix", "meaning": "having the quality of", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ed", "positionTendency": "final", "coreMeaning": { "cn": "具有…性质的", "en": "having the quality of" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "overstock", "to": "overstocked", "operation": "+-ed (adj.)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "overstock+ed → 已经进货过多了", "imageChain": ["货物积压", "库存堆满"] },
+    "wordLevel": { "domain": "business", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["overstock"], "sameAffix": [], "synonyms": ["surplus", "oversupplied"], "antonyms": ["understocked", "out-of-stock"], "domainCohort": [], "derivationPair": ["overstock"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "overstocking",
+    "phonetic": "/ˌoʊvərˈstɑkɪŋ/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "库存过多（进行时）", "en": "present participle of overstock; accumulating excess inventory" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "excessively", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "过度", "en": "excessively" } },
+      { "canonical": "stock", "role": "root", "meaning": "supply", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "stock", "positionTendency": "medial", "coreMeaning": { "cn": "库存", "en": "stock" } },
+      { "canonical": "-ing", "role": "suffix", "meaning": "present participle", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ing", "positionTendency": "final", "coreMeaning": { "cn": "进行时", "en": "ongoing action" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "overstock", "to": "overstocking", "operation": "+-ing" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "overstock+ing → 正在超额进货中", "imageChain": ["进货过多中"] },
+    "wordLevel": { "domain": "business", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["overstock", "overstocked"], "sameAffix": [], "synonyms": ["oversupplying"], "antonyms": [], "domainCohort": [], "derivationPair": ["overstock"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "overstocks",
+    "phonetic": "/ˌoʊvərˈstɑks/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "库存过多（第三人称单数）", "en": "third-person singular of overstock" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "excessively", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "过度", "en": "excessively" } },
+      { "canonical": "stock", "role": "root", "meaning": "supply", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "stock", "positionTendency": "medial", "coreMeaning": { "cn": "库存", "en": "stock" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "3rd person singular", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "第三人称单数", "en": "3rd person singular" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "overstock", "to": "overstocks", "operation": "+-s" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "overstock+s → 该店经常过度进货", "imageChain": ["超额进货"] },
+    "wordLevel": { "domain": "business", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["overstock", "overstocked"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["overstock"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "overstraining",
+    "phonetic": "/ˌoʊvərˈstreɪnɪŋ/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "过度拉伸；用力过猛", "en": "present participle of overstrain; exerting too much force or effort" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "excessively", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "过度", "en": "excessively" } },
+      { "canonical": "strain", "role": "root", "meaning": "to exert force; to stretch", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "strain", "positionTendency": "medial", "coreMeaning": { "cn": "拉伸/用力", "en": "to strain" } },
+      { "canonical": "-ing", "role": "suffix", "meaning": "present participle", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ing", "positionTendency": "final", "coreMeaning": { "cn": "进行时", "en": "ongoing action" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "overstrain", "to": "overstraining", "operation": "+-ing" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "overstrain+ing → 正在过度用力导致拉伤风险", "imageChain": ["过度用力", "拉伤危险"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": ["overtaxing", "over-exerting"], "antonyms": [], "domainCohort": ["sports", "injury"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "overstride",
+    "phonetic": "/ˌoʊvərˈstraɪd/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "跨越；步子迈太大", "en": "to stride over or beyond; to overstep" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "beyond; across", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "跨过", "en": "beyond; across" } },
+      { "canonical": "stride", "role": "root", "meaning": "to walk with long steps", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "stride", "positionTendency": "final", "coreMeaning": { "cn": "大步走", "en": "to stride" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "over + stride", "to": "overstride", "operation": "prefix addition" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "over(跨越)+stride(大步) → 大步跨过，超越", "imageChain": ["跨步", "越过", "步幅过大"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": ["overstep"], "synonyms": ["overstep", "exceed"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "overstrong",
+    "phonetic": "/ˌoʊvərˈstrɔŋ/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "过于强烈的；力量过大的", "en": "excessively strong or powerful" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "excessively", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "过度", "en": "excessively" } },
+      { "canonical": "strong", "role": "root", "meaning": "having great power or force", "sentiment": { "tags": ["积极"], "intensity": 2 }, "order": 2, "form": "strong", "positionTendency": "final", "coreMeaning": { "cn": "强壮/强烈", "en": "strong" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "over + strong", "to": "overstrong", "operation": "prefix addition" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "over(过)+strong(强) → 强到过头，反而负面", "imageChain": ["过于强烈", "力道过猛"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": [], "sameAffix": ["overhard", "overheated"], "synonyms": ["too strong", "excessive"], "antonyms": ["moderate", "balanced"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "overstrung",
+    "phonetic": "/ˌoʊvərˈstrʌŋ/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "过于紧张的；神经过敏的", "en": "too highly strung; in a state of extreme tension or nervousness" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "excessively", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "过度", "en": "excessively" } },
+      { "canonical": "string", "role": "root", "meaning": "to tension; to draw tight", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "strung", "positionTendency": "final", "coreMeaning": { "cn": "张紧/绷紧", "en": "to string tightly" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "overstring", "to": "overstrung", "operation": "irregular past participle → adj." }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "over+strung(拉紧) → 弦绷太紧，神经过敏", "imageChain": ["神经紧绷", "过于敏感", "弦崩太紧"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["消极"], "intensity": 2 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": ["highly strung", "tense", "nervous", "edgy"], "antonyms": ["relaxed", "calm", "easygoing"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "overstuffed",
+    "phonetic": "/ˌoʊvərˈstʌft/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "塞得过满的；过度填充的", "en": "filled too full; excessively padded or crammed" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "excessively", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "过度", "en": "excessively" } },
+      { "canonical": "stuff", "role": "root", "meaning": "to fill tightly", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "stuff", "positionTendency": "medial", "coreMeaning": { "cn": "填塞", "en": "to stuff" } },
+      { "canonical": "-ed", "role": "suffix", "meaning": "past participle/adj.", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ed", "positionTendency": "final", "coreMeaning": { "cn": "已…的", "en": "having been" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "overstuff", "to": "overstuffed", "operation": "+-ed (adj.)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "overstuff+ed → 塞得满满当当，过分填充", "imageChain": ["塞得满满的", "过度填充沙发"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": ["crammed", "packed", "overloaded"], "antonyms": ["sparse", "empty", "lean"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "oversubscribe",
+    "phonetic": "/ˌoʊvərˌsʌbˈskraɪb/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "超额认购；订阅超出供应", "en": "to subscribe to or apply for more of something than is available" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "beyond; excessively", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "超过", "en": "beyond" } },
+      { "canonical": "sub-", "role": "prefix", "meaning": "under; secondary", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "sub", "positionTendency": "medial", "coreMeaning": { "cn": "下/附属", "en": "under" } },
+      { "canonical": "scrib", "role": "root", "meaning": "to write; to sign up", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "scribe", "positionTendency": "final", "coreMeaning": { "cn": "书写/签约", "en": "to write; to sign up" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "over + subscribe", "to": "oversubscribe", "operation": "prefix addition" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "over(超)+subscribe(认购) → 认购量超过发行量", "imageChain": ["超额认购", "IPO爆满", "供不应求"] },
+    "wordLevel": { "domain": "finance", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["oversubscribed"], "sameAffix": [], "synonyms": [], "antonyms": ["undersubscribe"], "domainCohort": ["IPO", "bond", "shares"], "derivationPair": ["oversubscribed"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "oversubscribed",
+    "phonetic": "/ˌoʊvərˌsʌbˈskraɪbd/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "超额认购的；申请者过多的", "en": "having more applications or subscriptions than places available" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "beyond", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "超过", "en": "beyond" } },
+      { "canonical": "sub-", "role": "prefix", "meaning": "secondary", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "sub", "positionTendency": "medial", "coreMeaning": { "cn": "附属", "en": "secondary" } },
+      { "canonical": "scrib", "role": "root", "meaning": "to sign up", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "scrib", "positionTendency": "medial", "coreMeaning": { "cn": "签约", "en": "to sign up" } },
+      { "canonical": "-ed", "role": "suffix", "meaning": "past participle/adj.", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 4, "form": "ed", "positionTendency": "final", "coreMeaning": { "cn": "已…的", "en": "having been" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "oversubscribe", "to": "oversubscribed", "operation": "+-d (adj.)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "oversubscribe+d → 已超额认购了，供不应求", "imageChain": ["供不应求", "超额认购"] },
+    "wordLevel": { "domain": "finance", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["oversubscribe"], "sameAffix": [], "synonyms": ["oversubscribed", "in high demand"], "antonyms": ["undersubscribed"], "domainCohort": ["IPO", "bond offering"], "derivationPair": ["oversubscribe"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "overt",
+    "phonetic": "/oʊˈvɜrt/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "公开的；明显的；明目张胆的", "en": "done openly; not secret or hidden" },
+    "morphemes": [
+      { "canonical": "overt", "role": "root", "meaning": "open; disclosed (OF overt, ouvert)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "overt", "positionTendency": "initial", "coreMeaning": { "cn": "公开", "en": "open; unconcealed" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "OF overt (open)", "to": "overt", "operation": "borrowed" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "overt → 公开的，与covert(秘密的)相对", "imageChain": ["公开", "明目张胆", "昭然若揭"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": ["open", "blatant", "undisguised", "unconcealed"], "antonyms": ["covert", "hidden", "secret", "clandestine"], "domainCohort": [], "derivationPair": ["overtly"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "overtake",
+    "phonetic": "/ˌoʊvərˈteɪk/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "超过；赶上；压倒；突然来袭", "en": "to catch up with and pass; to overcome; to come upon suddenly" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "beyond; across", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "超过", "en": "beyond" } },
+      { "canonical": "take", "role": "root", "meaning": "to seize; to gain", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "take", "positionTendency": "final", "coreMeaning": { "cn": "取得", "en": "to take" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "over + take", "to": "overtake", "operation": "prefix addition" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "over(越过)+take(取得) → 越过前者而取得优势，超越", "imageChain": ["超越", "赶超", "被突袭"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["overtaken", "overtakes", "overtaking"], "sameAffix": [], "synonyms": ["surpass", "pass", "outpace"], "antonyms": ["fall behind", "lag"], "domainCohort": [], "derivationPair": ["overtaken", "overtaking"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "overtaken",
+    "phonetic": "/ˌoʊvərˈteɪkən/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "被超越（过去分词）", "en": "past participle of overtake; passed or overcome" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "beyond", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "超过", "en": "beyond" } },
+      { "canonical": "take", "role": "root", "meaning": "to seize", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "tak", "positionTendency": "medial", "coreMeaning": { "cn": "取得", "en": "to take" } },
+      { "canonical": "-en", "role": "suffix", "meaning": "past participle", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "en", "positionTendency": "final", "coreMeaning": { "cn": "过去分词", "en": "past participle" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "overtake", "to": "overtaken", "operation": "irregular past participle" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "overtake+n → 已被超越了", "imageChain": ["被超越", "落后了"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["overtake", "overtaking"], "sameAffix": [], "synonyms": ["surpassed", "passed"], "antonyms": [], "domainCohort": [], "derivationPair": ["overtake"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "overtakes",
+    "phonetic": "/ˌoʊvərˈteɪks/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "超越（第三人称单数）", "en": "third-person singular of overtake" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "beyond", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "超过", "en": "beyond" } },
+      { "canonical": "take", "role": "root", "meaning": "to seize", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "take", "positionTendency": "medial", "coreMeaning": { "cn": "取得", "en": "to take" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "3rd person singular", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "第三人称单数", "en": "3rd person singular" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "overtake", "to": "overtakes", "operation": "+-s" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "overtake+s → 他/她超越", "imageChain": ["超越他人"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["overtake", "overtaken"], "sameAffix": [], "synonyms": ["surpasses", "passes"], "antonyms": [], "domainCohort": [], "derivationPair": ["overtake"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "overtakin",
+    "phonetic": "/ˌoʊvərˈteɪkɪn/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "超越（非标准拼写，见overtaking）", "en": "non-standard spelling of overtaking; present participle of overtake" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "beyond", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "超过", "en": "beyond" } },
+      { "canonical": "take", "role": "root", "meaning": "to seize", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "takin", "positionTendency": "final", "coreMeaning": { "cn": "取得", "en": "to take" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "overtaking", "to": "overtakin", "operation": "informal/dialectal dropping of final -g" }] },
+    "morphVariantOf": "overtaking",
+    "memorySemantics": { "mnemonicExpr": "overtakin = overtaking的非正式写法，超越进行中", "imageChain": ["超越中（非正式）"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["overtake", "overtaking"], "sameAffix": [], "synonyms": ["overtaking"], "antonyms": [], "domainCohort": [], "derivationPair": ["overtaking"], "morphVariants": ["overtaking"], "sameImagery": [] }
   },
   {
     "word": "overtaking",
-    "phonetic": "/'ovɚteɪkɪŋ/",
-    "pos": "v./n.",
-    "coreMeaning": {
-      "cn": "超越；超车（overtake的现在分词）",
-      "en": "surpassing; passing another vehicle"
-    },
+    "phonetic": "/ˌoʊvərˈteɪkɪŋ/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "正在超越；超车（进行时）", "en": "present participle of overtake; in the process of passing or surpassing" },
     "morphemes": [
-      {
-        "role": "prefix",
-        "form": "over-",
-        "canonical": "over-",
-        "coreMeaning": "超过",
-        "positionTendency": "initial",
-        "order": 1,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      },
-      {
-        "role": "root",
-        "form": "take",
-        "canonical": "take",
-        "coreMeaning": "取得/超越",
-        "positionTendency": "medial",
-        "order": 2,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      },
-      {
-        "role": "suffix",
-        "form": "-ing",
-        "canonical": "-ing",
-        "coreMeaning": "现在分词",
-        "positionTendency": "final",
-        "order": 3,
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        }
-      }
+      { "canonical": "over-", "role": "prefix", "meaning": "beyond", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "超过", "en": "beyond" } },
+      { "canonical": "take", "role": "root", "meaning": "to seize", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "tak", "positionTendency": "medial", "coreMeaning": { "cn": "取得", "en": "to take" } },
+      { "canonical": "-ing", "role": "suffix", "meaning": "present participle", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ing", "positionTendency": "final", "coreMeaning": { "cn": "进行时", "en": "ongoing action" } }
     ],
-    "derivationChain": [
-      "overtake → overtaking"
-    ],
+    "derivationChain": { "steps": [{ "from": "overtake", "to": "overtaking", "operation": "+-ing" }] },
     "morphVariantOf": null,
-    "memorySemantics": {
-      "mnemonicExpr": "overtake+ing→正在超越",
-      "imageChain": [
-        "高速公路上变道超车"
-      ]
-    },
-    "wordLevel": {
-      "domain": "general",
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "overtake",
-        "overtaken"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "passing",
-        "surpassing"
-      ],
-      "antonyms": [],
-      "domainCohort": [],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "memorySemantics": { "mnemonicExpr": "overtake+ing → 正在超越，超车进行中", "imageChain": ["超车中", "正在赶超"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["overtake", "overtaken"], "sameAffix": [], "synonyms": ["surpassing", "passing"], "antonyms": ["falling behind"], "domainCohort": [], "derivationPair": ["overtake"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "overtax",
+    "phonetic": "/ˌoʊvərˈtæks/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "课税过重；使负担过重", "en": "to tax too heavily; to place excessive demands on" },
+    "morphemes": [
+      { "canonical": "over-", "role": "prefix", "meaning": "excessively; beyond", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "over", "positionTendency": "initial", "coreMeaning": { "cn": "过度", "en": "excessively" } },
+      { "canonical": "tax", "role": "root", "meaning": "to charge; to impose a burden", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "tax", "positionTendency": "final", "coreMeaning": { "cn": "征税/负担", "en": "to tax; to burden" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "over + tax", "to": "overtax", "operation": "prefix addition" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "over(过度)+tax(税) → 征税过重，或使人负担过重", "imageChain": ["重税", "过重负担", "透支"] },
+    "wordLevel": { "domain": "finance", "sentiment": { "tags": ["消极"], "intensity": 2 } },
+    "relations": { "sameRoot": [], "sameAffix": ["overburden", "overload"], "synonyms": ["overburden", "overload", "strain excessively"], "antonyms": [], "domainCohort": ["taxation", "economy"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
   }
 ]
