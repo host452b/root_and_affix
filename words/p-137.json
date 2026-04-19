@@ -1,998 +1,517 @@
 [
   {
-    "word": "propose",
-    "phonetic": "/prə'poz/",
-    "pos": [
-      "v."
-    ],
-    "coreMeaning": {
-      "cn": "提议；建议；求婚",
-      "en": "to put forward a plan or idea; to offer marriage"
-    },
+    "word": "proposals",
+    "phonetic": "/prəˈpoʊzəlz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "提案；求婚（复数）", "en": "plural of proposal" },
     "morphemes": [
-      {
-        "canonical": "pro-",
-        "role": "prefix",
-        "meaning": "向前；公开",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "pro",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "pos",
-        "role": "root",
-        "meaning": "放置",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "pose",
-        "positionTendency": "final"
-      }
+      { "canonical": "pro-", "role": "prefix", "meaning": "向前；赞成", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pro", "positionTendency": "initial", "coreMeaning": { "cn": "向前", "en": "forward" } },
+      { "canonical": "pos-", "role": "root", "meaning": "放置", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "pos", "positionTendency": "medial", "coreMeaning": { "cn": "放置", "en": "place/put" } },
+      { "canonical": "-al", "role": "suffix", "meaning": "名词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "al", "positionTendency": "medial", "coreMeaning": { "cn": "名词化", "en": "nominalizer" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "复数", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 4, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
     ],
-    "derivationChain": [
-      "pose",
-      "propose",
-      "proposition",
-      "proposer"
+    "derivationChain": { "steps": [{ "from": "proposal", "to": "proposals", "operation": "plural" }] },
+    "memorySemantics": { "mnemonicExpr": "proposal+s→多个提案/求婚", "imageChain": ["商业提案", "求婚场景", "建议方案"] },
+    "wordLevel": { "domain": "business", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": ["bids", "suggestions", "offers"], "antonyms": [], "domainCohort": ["bids", "offers", "plans"], "derivationPair": [], "morphVariants": ["proposal"], "sameImagery": [] }
+  },
+  {
+    "word": "propose",
+    "phonetic": "/prəˈpoʊz/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "提议；求婚；打算", "en": "to put forward a plan or suggestion for consideration" },
+    "morphemes": [
+      { "canonical": "pro-", "role": "prefix", "meaning": "向前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pro", "positionTendency": "initial", "coreMeaning": { "cn": "向前", "en": "forward" } },
+      { "canonical": "pos-", "role": "root", "meaning": "放置；提出", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "pose", "positionTendency": "final", "coreMeaning": { "cn": "放置", "en": "place/put" } }
     ],
-    "memorySemantics": {
-      "imageKey": "向前放置想法",
-      "scene": "在会议室将计划书推到桌面中央，所有人可见",
-      "emotionalHook": "主动出击、勇于表达的积极姿态",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general",
-        "academic",
-        "business"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "position",
-        "posit",
-        "compose",
-        "dispose",
-        "expose",
-        "impose",
-        "oppose",
-        "suppose"
-      ],
-      "sameAffix": [
-        "proceed",
-        "progress",
-        "project"
-      ],
-      "synonyms": [
-        "suggest",
-        "recommend",
-        "put forward"
-      ],
-      "antonyms": [
-        "oppose",
-        "reject"
-      ],
-      "domainCohort": [
-        "proposition",
-        "proposal"
-      ],
-      "derivationPair": [
-        "proposal",
-        "proposer"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "present",
-        "submit"
-      ]
-    }
+    "derivationChain": { "steps": [{ "from": "Latin proponere (pro- forward + ponere place)", "to": "propose", "operation": "borrowing via French" }] },
+    "memorySemantics": { "mnemonicExpr": "pro(前)+pose(放)→向前放出→提出建议", "imageChain": ["举手提议", "求婚戒指", "商业提案"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["proposal", "proposition"], "sameAffix": [], "synonyms": ["suggest", "recommend", "offer"], "antonyms": ["oppose", "reject"], "domainCohort": ["suggest", "recommend"], "derivationPair": ["proposal", "proposition"], "morphVariants": ["proposed", "proposes", "proposing", "proposer"], "sameImagery": [] }
+  },
+  {
+    "word": "proposed",
+    "phonetic": "/prəˈpoʊzd/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "提议了（过去式）", "en": "past tense of propose" },
+    "morphemes": [
+      { "canonical": "pro-", "role": "prefix", "meaning": "向前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pro", "positionTendency": "initial", "coreMeaning": { "cn": "向前", "en": "forward" } },
+      { "canonical": "pos-", "role": "root", "meaning": "放置", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "pos", "positionTendency": "medial", "coreMeaning": { "cn": "放置", "en": "place" } },
+      { "canonical": "-ed", "role": "suffix", "meaning": "过去式", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ed", "positionTendency": "final", "coreMeaning": { "cn": "过去式", "en": "past tense" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "propose", "to": "proposed", "operation": "past tense" }] },
+    "memorySemantics": { "mnemonicExpr": "propose+d→曾经提议", "imageChain": ["昔日求婚", "过去提案"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["propose"], "sameImagery": [] }
+  },
+  {
+    "word": "proposer",
+    "phonetic": "/prəˈpoʊzər/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "提议者", "en": "a person who proposes something" },
+    "morphemes": [
+      { "canonical": "pro-", "role": "prefix", "meaning": "向前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pro", "positionTendency": "initial", "coreMeaning": { "cn": "向前", "en": "forward" } },
+      { "canonical": "pos-", "role": "root", "meaning": "放置", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "pos", "positionTendency": "medial", "coreMeaning": { "cn": "放置", "en": "place" } },
+      { "canonical": "-er", "role": "suffix", "meaning": "执行者", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "er", "positionTendency": "final", "coreMeaning": { "cn": "执行者", "en": "agent" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "propose", "to": "proposer", "operation": "agent noun via -er" }] },
+    "memorySemantics": { "mnemonicExpr": "propos(提议)+er→提议的人", "imageChain": ["倡议人", "提案者"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["propose", "proposal"], "sameAffix": [], "synonyms": ["advocate", "initiator"], "antonyms": [], "domainCohort": ["initiator", "advocate"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "proposes",
+    "phonetic": "/prəˈpoʊzɪz/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "提议（三单）", "en": "third person singular of propose" },
+    "morphemes": [
+      { "canonical": "pro-", "role": "prefix", "meaning": "向前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pro", "positionTendency": "initial", "coreMeaning": { "cn": "向前", "en": "forward" } },
+      { "canonical": "pos-", "role": "root", "meaning": "放置", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "pos", "positionTendency": "medial", "coreMeaning": { "cn": "放置", "en": "place" } },
+      { "canonical": "-es", "role": "suffix", "meaning": "三单", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "es", "positionTendency": "final", "coreMeaning": { "cn": "三单", "en": "3sg" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "propose", "to": "proposes", "operation": "third person singular" }] },
+    "memorySemantics": { "mnemonicExpr": "propose+s→（他/她）提议", "imageChain": ["提案者", "求婚者"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["propose"], "sameImagery": [] }
+  },
+  {
+    "word": "proposing",
+    "phonetic": "/prəˈpoʊzɪŋ/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "提议（进行时）", "en": "present participle of propose" },
+    "morphemes": [
+      { "canonical": "pro-", "role": "prefix", "meaning": "向前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pro", "positionTendency": "initial", "coreMeaning": { "cn": "向前", "en": "forward" } },
+      { "canonical": "pos-", "role": "root", "meaning": "放置", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "pos", "positionTendency": "medial", "coreMeaning": { "cn": "放置", "en": "place" } },
+      { "canonical": "-ing", "role": "suffix", "meaning": "进行时", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ing", "positionTendency": "final", "coreMeaning": { "cn": "进行时", "en": "present participle" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "propose", "to": "proposing", "operation": "present participle" }] },
+    "memorySemantics": { "mnemonicExpr": "propos+ing→正在提议", "imageChain": ["当场求婚", "现场提案"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["propose"], "sameImagery": [] }
   },
   {
     "word": "proposition",
-    "phonetic": "/,prɑpə'zɪʃən/",
-    "pos": [
-      "n.",
-      "v."
-    ],
-    "coreMeaning": {
-      "cn": "命题；陈述；主张；提案",
-      "en": "a statement or plan put forward for consideration"
-    },
+    "phonetic": "/ˌprɒpəˈzɪʃən/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "命题；建议；主张", "en": "a statement or proposal; a task or undertaking" },
     "morphemes": [
-      {
-        "canonical": "pro-",
-        "role": "prefix",
-        "meaning": "向前",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "pro",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "pos",
-        "role": "root",
-        "meaning": "放置",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "posit",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ion",
-        "role": "suffix",
-        "meaning": "行为；状态；结果（名词化）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "ion",
-        "positionTendency": "final"
-      }
+      { "canonical": "pro-", "role": "prefix", "meaning": "向前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pro", "positionTendency": "initial", "coreMeaning": { "cn": "向前", "en": "forward" } },
+      { "canonical": "pos-", "role": "root", "meaning": "放置", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "posit", "positionTendency": "medial", "coreMeaning": { "cn": "放置", "en": "place" } },
+      { "canonical": "-ion", "role": "suffix", "meaning": "名词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ion", "positionTendency": "final", "coreMeaning": { "cn": "名词化", "en": "nominalizer" } }
     ],
-    "derivationChain": [
-      "pose",
-      "propose",
-      "proposition"
-    ],
-    "memorySemantics": {
-      "imageKey": "正式提交的命题",
-      "scene": "逻辑学家在黑板上写下一个待证明的命题",
-      "emotionalHook": "严肃的学术辩论语境",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "academic",
-        "logic",
-        "business"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "propose",
-        "position",
-        "deposition",
-        "composition"
-      ],
-      "sameAffix": [
-        "conclusion",
-        "submission"
-      ],
-      "synonyms": [
-        "proposal",
-        "thesis",
-        "assertion"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "hypothesis",
-        "premise",
-        "argument"
-      ],
-      "derivationPair": [
-        "propose"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "theorem",
-        "claim"
-      ]
-    }
+    "derivationChain": { "steps": [{ "from": "propose", "to": "proposition", "operation": "noun via -ition" }] },
+    "memorySemantics": { "mnemonicExpr": "pro(前)+posit(放)+ion→向前放出的陈述→命题", "imageChain": ["逻辑命题", "数学命题", "商业主张"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["propose", "proposal"], "sameAffix": [], "synonyms": ["proposal", "assertion", "claim"], "antonyms": [], "domainCohort": ["theorem", "claim", "assertion"], "derivationPair": ["propose"], "morphVariants": ["propositions", "propositional"], "sameImagery": [] }
   },
   {
-    "word": "proprietary",
-    "phonetic": "/prə'praɪətɛri/",
-    "pos": [
-      "adj.",
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "私有的；专利的；业主的",
-      "en": "relating to ownership; exclusively owned"
-    },
+    "word": "propositional",
+    "phonetic": "/ˌprɒpəˈzɪʃənl/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "命题的；主张性的", "en": "relating to or of the nature of a proposition" },
     "morphemes": [
-      {
-        "canonical": "propri",
-        "role": "root",
-        "meaning": "自己的；所有权",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "propri",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-ary",
-        "role": "suffix",
-        "meaning": "与……有关的（形容词后缀）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "etary",
-        "positionTendency": "final"
-      }
+      { "canonical": "pro-", "role": "prefix", "meaning": "向前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pro", "positionTendency": "initial", "coreMeaning": { "cn": "向前", "en": "forward" } },
+      { "canonical": "pos-", "role": "root", "meaning": "放置", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "posit", "positionTendency": "medial", "coreMeaning": { "cn": "放置", "en": "place" } },
+      { "canonical": "-ional", "role": "suffix", "meaning": "形容词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ional", "positionTendency": "final", "coreMeaning": { "cn": "相关于", "en": "relating to" } }
     ],
-    "derivationChain": [
-      "proper",
-      "property",
-      "proprietary"
-    ],
-    "memorySemantics": {
-      "imageKey": "加锁的专利箱",
-      "scene": "科技公司将技术标注'Proprietary'，拒绝外部访问",
-      "emotionalHook": "排他性所有权带来的保护感",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "business",
-        "legal",
-        "tech"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "proper",
-        "property",
-        "proprietor",
-        "propriety"
-      ],
-      "sameAffix": [
-        "customary",
-        "honorary"
-      ],
-      "synonyms": [
-        "exclusive",
-        "patented",
-        "private"
-      ],
-      "antonyms": [
-        "open-source",
-        "public"
-      ],
-      "domainCohort": [
-        "copyright",
-        "trademark",
-        "patent"
-      ],
-      "derivationPair": [
-        "proprietor"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "exclusive",
-        "licensed"
-      ]
-    }
+    "derivationChain": { "steps": [{ "from": "proposition", "to": "propositional", "operation": "adjective via -al" }] },
+    "memorySemantics": { "mnemonicExpr": "proposition(命题)+al→与命题相关的", "imageChain": ["命题逻辑", "逻辑推理", "学术讨论"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["proposition"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["logical", "axiomatic"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
   },
   {
-    "word": "proprietor",
-    "phonetic": "/prə'praɪətɚ/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "业主；所有者",
-      "en": "the owner of a business or property"
-    },
+    "word": "propositions",
+    "phonetic": "/ˌprɒpəˈzɪʃənz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "命题（复数）", "en": "plural of proposition" },
     "morphemes": [
-      {
-        "canonical": "propri",
-        "role": "root",
-        "meaning": "自己的；所有权",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "propri",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-or",
-        "role": "suffix",
-        "meaning": "做……的人（名词后缀）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "etor",
-        "positionTendency": "final"
-      }
+      { "canonical": "pro-", "role": "prefix", "meaning": "向前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pro", "positionTendency": "initial", "coreMeaning": { "cn": "向前", "en": "forward" } },
+      { "canonical": "pos-", "role": "root", "meaning": "放置", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "posit", "positionTendency": "medial", "coreMeaning": { "cn": "放置", "en": "place" } },
+      { "canonical": "-ions", "role": "suffix", "meaning": "复数名词", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ions", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
     ],
-    "derivationChain": [
-      "proper",
-      "property",
-      "proprietor"
-    ],
-    "memorySemantics": {
-      "imageKey": "小店主站在门口",
-      "scene": "一家小书店主人站在门口，店就是他的全部",
-      "emotionalHook": "个人经营、独立自主的自豪感",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "business",
-        "legal"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "proprietary",
-        "propriety",
-        "property"
-      ],
-      "sameAffix": [
-        "creditor",
-        "senator"
-      ],
-      "synonyms": [
-        "owner",
-        "landlord"
-      ],
-      "antonyms": [
-        "tenant",
-        "employee"
-      ],
-      "domainCohort": [
-        "entrepreneur",
-        "manager"
-      ],
-      "derivationPair": [
-        "proprietorship"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "owner",
-        "landlord"
-      ]
-    }
-  },
-  {
-    "word": "propriety",
-    "phonetic": "/prə'praɪəti/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "得体；适当；礼节",
-      "en": "conformity to correct social behavior; appropriateness"
-    },
-    "morphemes": [
-      {
-        "canonical": "propri",
-        "role": "root",
-        "meaning": "适当；合宜",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "propri",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-ty",
-        "role": "suffix",
-        "meaning": "性质；状态（抽象名词后缀）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "ety",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "proper",
-      "propriety"
-    ],
-    "memorySemantics": {
-      "imageKey": "优雅举止的规范",
-      "scene": "维多利亚时代的绅士严格遵守社交礼仪规范",
-      "emotionalHook": "对得体行为的追求与规范",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "academic",
-        "social"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "proper",
-        "proprietor",
-        "proprietary"
-      ],
-      "sameAffix": [
-        "decency",
-        "modesty"
-      ],
-      "synonyms": [
-        "decorum",
-        "decency",
-        "etiquette"
-      ],
-      "antonyms": [
-        "impropriety",
-        "indecency"
-      ],
-      "domainCohort": [
-        "etiquette",
-        "decorum",
-        "convention"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": [
-        "decorum",
-        "manners"
-      ]
-    }
-  },
-  {
-    "word": "propulsion",
-    "phonetic": "/prə'pʌlʃən/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "推进；推进力",
-      "en": "the action of driving or pushing forward"
-    },
-    "morphemes": [
-      {
-        "canonical": "pro-",
-        "role": "prefix",
-        "meaning": "向前",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "pro",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "puls",
-        "role": "root",
-        "meaning": "推；驱动",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "puls",
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ion",
-        "role": "suffix",
-        "meaning": "行为；过程（名词化）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "ion",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "pulse",
-      "propel",
-      "propulsion"
-    ],
-    "memorySemantics": {
-      "imageKey": "火箭向前推进",
-      "scene": "火箭发动机提供巨大推力将飞船送入轨道",
-      "emotionalHook": "强大前行动力的震撼感",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "academic",
-        "tech"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "propel",
-        "pulse",
-        "compulsion",
-        "expulsion",
-        "repulsion",
-        "impulsion"
-      ],
-      "sameAffix": [
-        "explosion",
-        "propulsion"
-      ],
-      "synonyms": [
-        "thrust",
-        "drive",
-        "momentum"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "thrust",
-        "momentum",
-        "jet propulsion"
-      ],
-      "derivationPair": [
-        "propel",
-        "propulsive"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "thrust",
-        "drive"
-      ]
-    }
-  },
-  {
-    "word": "prorogue",
-    "phonetic": "/prəu'rəuɡ/",
-    "pos": [
-      "v."
-    ],
-    "coreMeaning": {
-      "cn": "休会；使延期",
-      "en": "to discontinue a legislative session without dissolving it"
-    },
-    "morphemes": [
-      {
-        "canonical": "pro-",
-        "role": "prefix",
-        "meaning": "向前；代替",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "pro",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "rog",
-        "role": "root",
-        "meaning": "要求；询问",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "rogue",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "rogare",
-      "prorogue"
-    ],
-    "memorySemantics": {
-      "imageKey": "议会宣布休会",
-      "scene": "英国女王命令议会延期休会，议员们暂时散去",
-      "emotionalHook": "政治权力与程序的庄严感",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "legal",
-        "political"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "interrogate",
-        "abrogate",
-        "derogatory",
-        "arrogant"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "adjourn",
-        "suspend",
-        "postpone"
-      ],
-      "antonyms": [
-        "convene",
-        "summon"
-      ],
-      "domainCohort": [
-        "parliament",
-        "legislature",
-        "dissolution"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": [
-        "adjourn",
-        "recess"
-      ]
-    }
-  },
-  {
-    "word": "prosaic",
-    "phonetic": "/prə'zeɪk/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "平淡无奇的；乏味的；散文体的",
-      "en": "lacking imaginative or poetic quality; dull and ordinary"
-    },
-    "morphemes": [
-      {
-        "canonical": "prosa",
-        "role": "root",
-        "meaning": "散文",
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": -1
-        },
-        "order": 1,
-        "form": "prosa",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-ic",
-        "role": "suffix",
-        "meaning": "……的（形容词后缀）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "ic",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "prose",
-      "prosaic"
-    ],
-    "memorySemantics": {
-      "imageKey": "枯燥乏味的日常",
-      "scene": "千篇一律的办公室工作，没有任何诗意或新奇",
-      "emotionalHook": "对平淡生活的轻微失落",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "academic",
-        "literary"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": -1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "prose"
-      ],
-      "sameAffix": [
-        "comic",
-        "heroic"
-      ],
-      "synonyms": [
-        "mundane",
-        "dull",
-        "pedestrian",
-        "banal"
-      ],
-      "antonyms": [
-        "poetic",
-        "lyrical",
-        "imaginative"
-      ],
-      "domainCohort": [
-        "mundane",
-        "banal",
-        "commonplace"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": [
-        "mundane",
-        "humdrum"
-      ]
-    }
-  },
-  {
-    "word": "proscribe",
-    "phonetic": "/pro'skraɪb/",
-    "pos": [
-      "v."
-    ],
-    "coreMeaning": {
-      "cn": "禁止；剥夺公权",
-      "en": "to forbid by law; to outlaw"
-    },
-    "morphemes": [
-      {
-        "canonical": "pro-",
-        "role": "prefix",
-        "meaning": "公开地；向前",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "pro",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "scrib",
-        "role": "root",
-        "meaning": "写",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "scribe",
-        "positionTendency": "final"
-      }
-    ],
-    "derivationChain": [
-      "scribere",
-      "proscribe"
-    ],
-    "memorySemantics": {
-      "imageKey": "公示禁令榜",
-      "scene": "古罗马将罪犯名字公开书写在榜上，宣告其被驱逐",
-      "emotionalHook": "公开剥夺权利的严峻氛围",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "legal",
-        "academic"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": -1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "prescribe",
-        "describe",
-        "inscribe",
-        "subscribe",
-        "transcribe"
-      ],
-      "sameAffix": [
-        "proclaim",
-        "prohibit"
-      ],
-      "synonyms": [
-        "prohibit",
-        "ban",
-        "outlaw",
-        "forbid"
-      ],
-      "antonyms": [
-        "permit",
-        "allow",
-        "prescribe"
-      ],
-      "domainCohort": [
-        "ban",
-        "prohibition",
-        "injunction"
-      ],
-      "derivationPair": [
-        "proscription"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "ban",
-        "outlaw"
-      ]
-    }
+    "derivationChain": { "steps": [{ "from": "proposition", "to": "propositions", "operation": "plural" }] },
+    "memorySemantics": { "mnemonicExpr": "proposition+s→多个命题/提案", "imageChain": ["多个逻辑命题", "各类建议"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["proposition"], "sameImagery": [] }
   },
   {
     "word": "propound",
-    "phonetic": "/prə'paʊnd/",
-    "pos": [
-      "v."
-    ],
-    "coreMeaning": {
-      "cn": "提出（问题或理论）；提议",
-      "en": "to put forward an idea or theory for consideration"
-    },
+    "phonetic": "/prəˈpaʊnd/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "提出；提议（供考虑）", "en": "to put forward (an idea, theory, or point of view) for consideration" },
     "morphemes": [
-      {
-        "canonical": "pro-",
-        "role": "prefix",
-        "meaning": "向前；公开",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "pro",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "pon",
-        "role": "root",
-        "meaning": "放置",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "pound",
-        "positionTendency": "final"
-      }
+      { "canonical": "pro-", "role": "prefix", "meaning": "向前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pro", "positionTendency": "initial", "coreMeaning": { "cn": "向前", "en": "forward" } },
+      { "canonical": "pon-", "role": "root", "meaning": "放置", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "pound", "positionTendency": "final", "coreMeaning": { "cn": "放置", "en": "place/put" } }
     ],
-    "derivationChain": [
-      "ponere",
-      "propound"
+    "derivationChain": { "steps": [{ "from": "Latin proponere (put forward)", "to": "propound", "operation": "borrowing" }] },
+    "memorySemantics": { "mnemonicExpr": "pro(前)+pound(放)→向前放出→提出（供考虑）", "imageChain": ["学术提议", "理论阐述", "正式提出"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["propose", "proposition"], "sameAffix": [], "synonyms": ["propose", "advance", "posit"], "antonyms": [], "domainCohort": ["advance", "posit", "submit"], "derivationPair": [], "morphVariants": ["propounded", "propounding", "propounds"], "sameImagery": [] }
+  },
+  {
+    "word": "propounded",
+    "phonetic": "/prəˈpaʊndɪd/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "提出了（过去式）", "en": "past tense of propound" },
+    "morphemes": [
+      { "canonical": "pro-", "role": "prefix", "meaning": "向前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pro", "positionTendency": "initial", "coreMeaning": { "cn": "向前", "en": "forward" } },
+      { "canonical": "pon-", "role": "root", "meaning": "放置", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "pound", "positionTendency": "medial", "coreMeaning": { "cn": "放置", "en": "place" } },
+      { "canonical": "-ed", "role": "suffix", "meaning": "过去式", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ed", "positionTendency": "final", "coreMeaning": { "cn": "过去式", "en": "past tense" } }
     ],
-    "memorySemantics": {
-      "imageKey": "哲学家公开提出理论",
-      "scene": "苏格拉底在广场上向人们提出新的哲学观点",
-      "emotionalHook": "智识探求与公开辩论的热情",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "academic",
-        "philosophical"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "compound",
-        "expound",
-        "component",
-        "opponent"
-      ],
-      "sameAffix": [
-        "propose",
-        "proclaim"
-      ],
-      "synonyms": [
-        "propose",
-        "suggest",
-        "posit",
-        "advance"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "thesis",
-        "hypothesis",
-        "theory"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": [
-        "expound",
-        "advocate"
-      ]
-    }
+    "derivationChain": { "steps": [{ "from": "propound", "to": "propounded", "operation": "past tense" }] },
+    "memorySemantics": { "mnemonicExpr": "propound+ed→曾经提出", "imageChain": ["历史理论", "昔日主张"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["propound"], "sameImagery": [] }
+  },
+  {
+    "word": "propounding",
+    "phonetic": "/prəˈpaʊndɪŋ/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "提出（进行时）", "en": "present participle of propound" },
+    "morphemes": [
+      { "canonical": "pro-", "role": "prefix", "meaning": "向前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pro", "positionTendency": "initial", "coreMeaning": { "cn": "向前", "en": "forward" } },
+      { "canonical": "pon-", "role": "root", "meaning": "放置", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "pound", "positionTendency": "medial", "coreMeaning": { "cn": "放置", "en": "place" } },
+      { "canonical": "-ing", "role": "suffix", "meaning": "进行时", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ing", "positionTendency": "final", "coreMeaning": { "cn": "进行时", "en": "present participle" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "propound", "to": "propounding", "operation": "present participle" }] },
+    "memorySemantics": { "mnemonicExpr": "propound+ing→正在提出", "imageChain": ["讨论理论", "提出见解"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["propound"], "sameImagery": [] }
+  },
+  {
+    "word": "propounds",
+    "phonetic": "/prəˈpaʊndz/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "提出（三单）", "en": "third person singular of propound" },
+    "morphemes": [
+      { "canonical": "pro-", "role": "prefix", "meaning": "向前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pro", "positionTendency": "initial", "coreMeaning": { "cn": "向前", "en": "forward" } },
+      { "canonical": "pon-", "role": "root", "meaning": "放置", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "pound", "positionTendency": "medial", "coreMeaning": { "cn": "放置", "en": "place" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "三单", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "三单", "en": "3sg" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "propound", "to": "propounds", "operation": "third person singular" }] },
+    "memorySemantics": { "mnemonicExpr": "propound+s→（他/她）提出", "imageChain": ["论者主张", "理论提出"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["propound"], "sameImagery": [] }
+  },
+  {
+    "word": "proprietor",
+    "phonetic": "/prəˈpraɪətər/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "所有者；业主", "en": "the owner of a business or property" },
+    "morphemes": [
+      { "canonical": "propri-", "role": "root", "meaning": "自己的；专有的", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "propri", "positionTendency": "initial", "coreMeaning": { "cn": "自己的", "en": "one's own" } },
+      { "canonical": "-etor", "role": "suffix", "meaning": "人/执行者", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "etor", "positionTendency": "final", "coreMeaning": { "cn": "执行者", "en": "agent" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Latin proprietarius (owner)", "to": "proprietor", "operation": "borrowing" }] },
+    "memorySemantics": { "mnemonicExpr": "propri(自己)+etor(人)→拥有自己财产的人→业主", "imageChain": ["餐厅老板", "土地所有者", "业主证"] },
+    "wordLevel": { "domain": "business", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["proprietary", "proprietorship", "propriety"], "sameAffix": [], "synonyms": ["owner", "landlord", "holder"], "antonyms": [], "domainCohort": ["owner", "landlord", "operator"], "derivationPair": ["proprietorship"], "morphVariants": ["proprietors"], "sameImagery": [] }
+  },
+  {
+    "word": "proprietors",
+    "phonetic": "/prəˈpraɪətərz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "所有者（复数）", "en": "plural of proprietor" },
+    "morphemes": [
+      { "canonical": "propri-", "role": "root", "meaning": "自己的", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "propri", "positionTendency": "initial", "coreMeaning": { "cn": "自己的", "en": "one's own" } },
+      { "canonical": "-etors", "role": "suffix", "meaning": "复数执行者", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "etors", "positionTendency": "final", "coreMeaning": { "cn": "复数执行者", "en": "plural agents" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "proprietor", "to": "proprietors", "operation": "plural" }] },
+    "memorySemantics": { "mnemonicExpr": "proprietor+s→多位业主", "imageChain": ["多家商铺老板", "业主群体"] },
+    "wordLevel": { "domain": "business", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["proprietor"], "sameImagery": [] }
+  },
+  {
+    "word": "proprietorship",
+    "phonetic": "/prəˈpraɪətərʃɪp/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "所有权；个人经营", "en": "the state or fact of owning something; sole proprietorship" },
+    "morphemes": [
+      { "canonical": "propri-", "role": "root", "meaning": "自己的", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "propri", "positionTendency": "initial", "coreMeaning": { "cn": "自己的", "en": "own" } },
+      { "canonical": "-etor", "role": "suffix", "meaning": "人", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "etor", "positionTendency": "medial", "coreMeaning": { "cn": "人", "en": "agent" } },
+      { "canonical": "-ship", "role": "suffix", "meaning": "状态/职位", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ship", "positionTendency": "final", "coreMeaning": { "cn": "状态/职位", "en": "state/position" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "proprietor", "to": "proprietorship", "operation": "abstract noun via -ship" }] },
+    "memorySemantics": { "mnemonicExpr": "proprietor(业主)+ship→业主身份→所有权", "imageChain": ["个人企业", "所有权证书", "独资经营"] },
+    "wordLevel": { "domain": "business", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["proprietor", "proprietary"], "sameAffix": [], "synonyms": ["ownership", "tenure"], "antonyms": [], "domainCohort": ["partnership", "corporation"], "derivationPair": ["proprietor"], "morphVariants": ["proprietorships"], "sameImagery": [] }
+  },
+  {
+    "word": "proprietorships",
+    "phonetic": "/prəˈpraɪətərʃɪps/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "所有权（复数）", "en": "plural of proprietorship" },
+    "morphemes": [
+      { "canonical": "propri-", "role": "root", "meaning": "自己的", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "propri", "positionTendency": "initial", "coreMeaning": { "cn": "自己的", "en": "own" } },
+      { "canonical": "-etorship", "role": "suffix", "meaning": "所有权状态", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "etorship", "positionTendency": "medial", "coreMeaning": { "cn": "所有权", "en": "ownership" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "复数", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "proprietorship", "to": "proprietorships", "operation": "plural" }] },
+    "memorySemantics": { "mnemonicExpr": "proprietorship+s→多种所有权/经营形式", "imageChain": ["多家独资企业", "各类所有权"] },
+    "wordLevel": { "domain": "business", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["proprietorship"], "sameImagery": [] }
+  },
+  {
+    "word": "propriety",
+    "phonetic": "/prəˈpraɪəti/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "礼节；得体；适当", "en": "the condition of being correct or appropriate; conformity to convention" },
+    "morphemes": [
+      { "canonical": "propri-", "role": "root", "meaning": "自己的；适当的", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "propri", "positionTendency": "initial", "coreMeaning": { "cn": "适当的", "en": "proper" } },
+      { "canonical": "-ety", "role": "suffix", "meaning": "名词后缀（性质）", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ety", "positionTendency": "final", "coreMeaning": { "cn": "性质/状态", "en": "quality/state" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Latin proprietas (ownership, quality)", "to": "propriety", "operation": "borrowing" }] },
+    "memorySemantics": { "mnemonicExpr": "propri(适当)+ety→得体状态→礼节", "imageChain": ["社交礼仪", "举止得体", "行为规范"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["proprietor", "proprietary"], "sameAffix": [], "synonyms": ["decorum", "decency", "correctness"], "antonyms": ["impropriety", "indecency"], "domainCohort": ["decorum", "etiquette"], "derivationPair": [], "morphVariants": ["proprieties"], "sameImagery": [] }
+  },
+  {
+    "word": "proprieties",
+    "phonetic": "/prəˈpraɪətiz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "礼节（复数）", "en": "plural of propriety" },
+    "morphemes": [
+      { "canonical": "propri-", "role": "root", "meaning": "适当的", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "propri", "positionTendency": "initial", "coreMeaning": { "cn": "适当的", "en": "proper" } },
+      { "canonical": "-eties", "role": "suffix", "meaning": "复数名词", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "eties", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "propriety", "to": "proprieties", "operation": "plural" }] },
+    "memorySemantics": { "mnemonicExpr": "propriety→proprieties→多种社交礼节", "imageChain": ["社交规范", "礼仪准则"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["propriety"], "sameImagery": [] }
+  },
+  {
+    "word": "proprioception",
+    "phonetic": "/ˌproʊpriəˈsepʃən/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "本体感觉；肌体感知", "en": "the sense of the relative position of one's own body parts" },
+    "morphemes": [
+      { "canonical": "propri-", "role": "root", "meaning": "自己的", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "proprio", "positionTendency": "initial", "coreMeaning": { "cn": "自己的", "en": "one's own" } },
+      { "canonical": "cept-", "role": "root", "meaning": "接受；感知", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "cept", "positionTendency": "medial", "coreMeaning": { "cn": "感知", "en": "receive/perceive" } },
+      { "canonical": "-ion", "role": "suffix", "meaning": "名词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ion", "positionTendency": "final", "coreMeaning": { "cn": "名词化", "en": "nominalizer" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "proprio (own) +ception (perception)", "to": "proprioception", "operation": "compound noun" }] },
+    "memorySemantics": { "mnemonicExpr": "proprio(自身)+cept(感知)+ion→感知自身位置→本体感觉", "imageChain": ["闭眼站立", "身体感知", "神经反馈"] },
+    "wordLevel": { "domain": "medical", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["sensation", "kinesthesia"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "props",
+    "phonetic": "/prɒps/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "道具；支柱（复数）；赞扬", "en": "objects used in a play or film; supports; informal credit/praise" },
+    "morphemes": [
+      { "canonical": "prop", "role": "root", "meaning": "支撑；道具", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "prop", "positionTendency": "initial", "coreMeaning": { "cn": "支撑；道具", "en": "support; theatrical property" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "复数", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "prop (support/theatrical property)", "to": "props", "operation": "plural" }] },
+    "memorySemantics": { "mnemonicExpr": "prop(道具/支撑)+s→多个道具/支柱", "imageChain": ["剧场道具", "支撑柱", "鼓励赞扬"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": ["properties", "supports"], "antonyms": [], "domainCohort": ["stage", "theater", "support"], "derivationPair": [], "morphVariants": ["prop"], "sameImagery": [] }
+  },
+  {
+    "word": "propulsion",
+    "phonetic": "/prəˈpʌlʃən/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "推进；推力", "en": "the action of driving or pushing forward" },
+    "morphemes": [
+      { "canonical": "pro-", "role": "prefix", "meaning": "向前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pro", "positionTendency": "initial", "coreMeaning": { "cn": "向前", "en": "forward" } },
+      { "canonical": "puls-", "role": "root", "meaning": "推；驱动", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "puls", "positionTendency": "medial", "coreMeaning": { "cn": "推；驱动", "en": "push/drive" } },
+      { "canonical": "-ion", "role": "suffix", "meaning": "名词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ion", "positionTendency": "final", "coreMeaning": { "cn": "名词化", "en": "nominalizer" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "propel", "to": "propulsion", "operation": "noun via -ion" }] },
+    "memorySemantics": { "mnemonicExpr": "pro(前)+puls(推)+ion→向前推的力量→推进力", "imageChain": ["火箭推力", "发动机推进", "喷气动力"] },
+    "wordLevel": { "domain": "tech", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["propel", "propulsive"], "sameAffix": [], "synonyms": ["thrust", "drive", "impetus"], "antonyms": [], "domainCohort": ["thrust", "drive", "momentum"], "derivationPair": ["propulsive"], "morphVariants": ["propulsions"], "sameImagery": [] }
+  },
+  {
+    "word": "propulsions",
+    "phonetic": "/prəˈpʌlʃənz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "推进力（复数）", "en": "plural of propulsion" },
+    "morphemes": [
+      { "canonical": "pro-", "role": "prefix", "meaning": "向前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pro", "positionTendency": "initial", "coreMeaning": { "cn": "向前", "en": "forward" } },
+      { "canonical": "puls-", "role": "root", "meaning": "推", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "puls", "positionTendency": "medial", "coreMeaning": { "cn": "推", "en": "push" } },
+      { "canonical": "-ions", "role": "suffix", "meaning": "复数名词", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ions", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "propulsion", "to": "propulsions", "operation": "plural" }] },
+    "memorySemantics": { "mnemonicExpr": "propulsion+s→多种推进方式", "imageChain": ["多种驱动系统", "各类推力"] },
+    "wordLevel": { "domain": "tech", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["propulsion"], "sameImagery": [] }
+  },
+  {
+    "word": "propulsive",
+    "phonetic": "/prəˈpʌlsɪv/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "推进的；驱动的", "en": "having the ability to push forward or drive" },
+    "morphemes": [
+      { "canonical": "pro-", "role": "prefix", "meaning": "向前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pro", "positionTendency": "initial", "coreMeaning": { "cn": "向前", "en": "forward" } },
+      { "canonical": "puls-", "role": "root", "meaning": "推", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "puls", "positionTendency": "medial", "coreMeaning": { "cn": "推", "en": "push" } },
+      { "canonical": "-ive", "role": "suffix", "meaning": "形容词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ive", "positionTendency": "final", "coreMeaning": { "cn": "具有…性质", "en": "having quality of" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "propulsion", "to": "propulsive", "operation": "adjective via -ive" }] },
+    "memorySemantics": { "mnemonicExpr": "propuls(推进)+ive→具有推进性质的", "imageChain": ["推进力", "动力系统", "驱动装置"] },
+    "wordLevel": { "domain": "tech", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["propulsion", "propel"], "sameAffix": [], "synonyms": ["driving", "thrusting"], "antonyms": [], "domainCohort": ["motive", "driving"], "derivationPair": ["propulsion"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "prorogue",
+    "phonetic": "/prəˈroʊɡ/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "（使议会）休会；延期", "en": "to discontinue a session of a parliament without dissolving it" },
+    "morphemes": [
+      { "canonical": "pro-", "role": "prefix", "meaning": "向前；代替", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pro", "positionTendency": "initial", "coreMeaning": { "cn": "向前", "en": "forward" } },
+      { "canonical": "rog-", "role": "root", "meaning": "询问；要求", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "rogue", "positionTendency": "final", "coreMeaning": { "cn": "询问；要求", "en": "ask/request" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Latin prorogare (extend, defer)", "to": "prorogue", "operation": "borrowing" }] },
+    "memorySemantics": { "mnemonicExpr": "pro(向前延)+rogue(要求)→延后要求→推迟会议", "imageChain": ["议会大厅", "休会宣告", "政治程序"] },
+    "wordLevel": { "domain": "legal", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": ["adjourn", "suspend", "postpone"], "antonyms": ["convene", "reconvene"], "domainCohort": ["adjourn", "suspend", "dissolve"], "derivationPair": [], "morphVariants": ["prorogued", "prorogues", "proroguing"], "sameImagery": [] }
+  },
+  {
+    "word": "prorogued",
+    "phonetic": "/prəˈroʊɡd/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "休会了（过去式）", "en": "past tense of prorogue" },
+    "morphemes": [
+      { "canonical": "pro-", "role": "prefix", "meaning": "向前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pro", "positionTendency": "initial", "coreMeaning": { "cn": "向前", "en": "forward" } },
+      { "canonical": "rog-", "role": "root", "meaning": "要求", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "rogu", "positionTendency": "medial", "coreMeaning": { "cn": "要求", "en": "ask" } },
+      { "canonical": "-ed", "role": "suffix", "meaning": "过去式", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ed", "positionTendency": "final", "coreMeaning": { "cn": "过去式", "en": "past tense" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "prorogue", "to": "prorogued", "operation": "past tense" }] },
+    "memorySemantics": { "mnemonicExpr": "prorogue+d→宣布休会了", "imageChain": ["议会休会", "政治程序完成"] },
+    "wordLevel": { "domain": "legal", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["prorogue"], "sameImagery": [] }
+  },
+  {
+    "word": "prorogues",
+    "phonetic": "/prəˈroʊɡz/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "使议会休会（三单）", "en": "third person singular of prorogue" },
+    "morphemes": [
+      { "canonical": "pro-", "role": "prefix", "meaning": "向前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pro", "positionTendency": "initial", "coreMeaning": { "cn": "向前", "en": "forward" } },
+      { "canonical": "rog-", "role": "root", "meaning": "要求", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "rogue", "positionTendency": "medial", "coreMeaning": { "cn": "要求", "en": "ask" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "三单", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "三单", "en": "3sg" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "prorogue", "to": "prorogues", "operation": "third person singular" }] },
+    "memorySemantics": { "mnemonicExpr": "prorogue+s→（君主/政府）使休会", "imageChain": ["权力机构", "宣布休会"] },
+    "wordLevel": { "domain": "legal", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["prorogue"], "sameImagery": [] }
+  },
+  {
+    "word": "proroguing",
+    "phonetic": "/prəˈroʊɡɪŋ/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "使休会（进行时）", "en": "present participle of prorogue" },
+    "morphemes": [
+      { "canonical": "pro-", "role": "prefix", "meaning": "向前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pro", "positionTendency": "initial", "coreMeaning": { "cn": "向前", "en": "forward" } },
+      { "canonical": "rog-", "role": "root", "meaning": "要求", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "rogu", "positionTendency": "medial", "coreMeaning": { "cn": "要求", "en": "ask" } },
+      { "canonical": "-ing", "role": "suffix", "meaning": "进行时", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ing", "positionTendency": "final", "coreMeaning": { "cn": "进行时", "en": "present participle" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "prorogue", "to": "proroguing", "operation": "present participle" }] },
+    "memorySemantics": { "mnemonicExpr": "prorogue+ing→正在宣布休会", "imageChain": ["休会程序进行中", "政治行动"] },
+    "wordLevel": { "domain": "legal", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["prorogue"], "sameImagery": [] }
+  },
+  {
+    "word": "pros",
+    "phonetic": "/proʊz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "优点；赞成票；专业人士（复数）", "en": "plural of pro; advantages; professional persons" },
+    "morphemes": [
+      { "canonical": "pro-", "role": "root", "meaning": "赞成；优点", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "pro", "positionTendency": "initial", "coreMeaning": { "cn": "赞成", "en": "in favor" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "复数", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "pro", "to": "pros", "operation": "plural" }] },
+    "memorySemantics": { "mnemonicExpr": "pro(优点)+s→各种优点", "imageChain": ["利弊权衡", "优势列表", "职业选手"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": ["advantages", "benefits"], "antonyms": ["cons"], "domainCohort": ["advantages", "merits"], "derivationPair": [], "morphVariants": ["pro"], "sameImagery": [] }
+  },
+  {
+    "word": "prosaic",
+    "phonetic": "/proʊˈzeɪɪk/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "散文的；平淡的；乏味的", "en": "having the style of prose; lacking poetic beauty; commonplace" },
+    "morphemes": [
+      { "canonical": "pros-", "role": "root", "meaning": "散文；直白", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "pros", "positionTendency": "initial", "coreMeaning": { "cn": "散文", "en": "prose" } },
+      { "canonical": "-aic", "role": "suffix", "meaning": "形容词后缀（属于…的）", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "aic", "positionTendency": "final", "coreMeaning": { "cn": "属于…的", "en": "of the nature of" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "prose", "to": "prosaic", "operation": "adjective via -aic" }] },
+    "memorySemantics": { "mnemonicExpr": "pros(散文)+aic→散文式的→平淡乏味的", "imageChain": ["平淡文字", "枯燥讲述", "缺乏诗意"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["prose"], "sameAffix": [], "synonyms": ["mundane", "ordinary", "dull"], "antonyms": ["poetic", "inspired", "lyrical"], "domainCohort": ["mundane", "pedestrian"], "derivationPair": [], "morphVariants": ["prosaically"], "sameImagery": [] }
+  },
+  {
+    "word": "prosaically",
+    "phonetic": "/proʊˈzeɪɪkli/",
+    "pos": "adv.",
+    "coreMeaning": { "cn": "平淡地；乏味地", "en": "in a prosaic manner" },
+    "morphemes": [
+      { "canonical": "pros-", "role": "root", "meaning": "散文", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "pros", "positionTendency": "initial", "coreMeaning": { "cn": "散文", "en": "prose" } },
+      { "canonical": "-aic", "role": "suffix", "meaning": "形容词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "aic", "positionTendency": "medial", "coreMeaning": { "cn": "属于…的", "en": "of the nature of" } },
+      { "canonical": "-ally", "role": "suffix", "meaning": "副词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ally", "positionTendency": "final", "coreMeaning": { "cn": "方式", "en": "in a manner" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "prosaic", "to": "prosaically", "operation": "adverb via -ally" }] },
+    "memorySemantics": { "mnemonicExpr": "prosaic+ally→以平淡的方式", "imageChain": ["平铺直叙", "单调陈述"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["prosaic"], "sameImagery": [] }
+  },
+  {
+    "word": "proscenium",
+    "phonetic": "/proʊˈsiːniəm/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "舞台前部；镜框舞台", "en": "the part of a theater stage in front of the curtain" },
+    "morphemes": [
+      { "canonical": "pro-", "role": "prefix", "meaning": "在前面", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pro", "positionTendency": "initial", "coreMeaning": { "cn": "在前面", "en": "in front" } },
+      { "canonical": "scen-", "role": "root", "meaning": "场景；舞台", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "sceni", "positionTendency": "medial", "coreMeaning": { "cn": "场景", "en": "scene/stage" } },
+      { "canonical": "-um", "role": "suffix", "meaning": "拉丁语名词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "um", "positionTendency": "final", "coreMeaning": { "cn": "名词化", "en": "Latin noun marker" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Greek proskénion (in front of the stage)", "to": "proscenium", "operation": "borrowing" }] },
+    "memorySemantics": { "mnemonicExpr": "pro(前)+scene(场景)+um→舞台前部→镜框舞台", "imageChain": ["剧院舞台", "幕前区域", "聚光灯下"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["stage", "apron", "theater"], "derivationPair": [], "morphVariants": ["prosceniums"], "sameImagery": [] }
+  },
+  {
+    "word": "prosceniums",
+    "phonetic": "/proʊˈsiːniəmz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "镜框舞台（复数）", "en": "plural of proscenium" },
+    "morphemes": [
+      { "canonical": "pro-", "role": "prefix", "meaning": "在前面", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pro", "positionTendency": "initial", "coreMeaning": { "cn": "在前面", "en": "in front" } },
+      { "canonical": "scen-", "role": "root", "meaning": "舞台", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "sceni", "positionTendency": "medial", "coreMeaning": { "cn": "舞台", "en": "stage" } },
+      { "canonical": "-ums", "role": "suffix", "meaning": "复数", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ums", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "proscenium", "to": "prosceniums", "operation": "plural" }] },
+    "memorySemantics": { "mnemonicExpr": "proscenium+s→多个镜框舞台", "imageChain": ["多个剧院舞台", "演出场所"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["proscenium"], "sameImagery": [] }
+  },
+  {
+    "word": "proscribe",
+    "phonetic": "/proʊˈskraɪb/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "禁止；放逐；取缔", "en": "to forbid, especially by law; to banish or exile" },
+    "morphemes": [
+      { "canonical": "pro-", "role": "prefix", "meaning": "在前面；公开", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "pro", "positionTendency": "initial", "coreMeaning": { "cn": "公开", "en": "publicly/before" } },
+      { "canonical": "scrib-", "role": "root", "meaning": "书写", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "scribe", "positionTendency": "final", "coreMeaning": { "cn": "书写", "en": "write" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Latin proscribere (pro- publicly + scribere write)", "to": "proscribe", "operation": "borrowing" }] },
+    "memorySemantics": { "mnemonicExpr": "pro(公开)+scribe(写)→公开写名宣布放逐→禁止", "imageChain": ["黑名单", "通缉公告", "法律禁令"] },
+    "wordLevel": { "domain": "legal", "sentiment": { "tags": ["消极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["prescribe", "proscription"], "sameAffix": [], "synonyms": ["ban", "prohibit", "forbid", "outlaw"], "antonyms": ["allow", "permit", "prescribe"], "domainCohort": ["ban", "outlaw", "prohibit"], "derivationPair": ["proscription"], "morphVariants": ["proscribed", "proscribes", "proscribing"], "sameImagery": [] }
+  },
+  {
+    "word": "proscribed",
+    "phonetic": "/proʊˈskraɪbd/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "禁止了（过去式）", "en": "past tense of proscribe" },
+    "morphemes": [
+      { "canonical": "pro-", "role": "prefix", "meaning": "公开", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "pro", "positionTendency": "initial", "coreMeaning": { "cn": "公开", "en": "publicly" } },
+      { "canonical": "scrib-", "role": "root", "meaning": "书写", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "scrib", "positionTendency": "medial", "coreMeaning": { "cn": "书写", "en": "write" } },
+      { "canonical": "-ed", "role": "suffix", "meaning": "过去式", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ed", "positionTendency": "final", "coreMeaning": { "cn": "过去式", "en": "past tense" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "proscribe", "to": "proscribed", "operation": "past tense" }] },
+    "memorySemantics": { "mnemonicExpr": "proscribe+d→曾经被禁止", "imageChain": ["历史禁令", "过去放逐"] },
+    "wordLevel": { "domain": "legal", "sentiment": { "tags": ["消极"], "intensity": 2 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["proscribe"], "sameImagery": [] }
   }
 ]

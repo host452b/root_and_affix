@@ -1,622 +1,779 @@
 [
   {
+    "word": "similes",
+    "phonetic": "/'sɪməlɪz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "明喻（复数）", "en": "plural of simile: direct comparisons using 'like' or 'as'"},
+    "morphemes": [
+      {"form": "simil", "role": "root", "canonical": "similis", "meaning": "相似，同样", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-es", "role": "suffix", "canonical": "-es", "meaning": "复数词尾", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "similis", "to": "simile", "by": "拉丁语借入英语"}, {"from": "simile", "to": "similes", "by": "加复数词尾-es"}]},
+    "morphVariantOf": "simile",
+    "memorySemantics": {"mnemonicExpr": "simil(相似)+es(复数)→ 多个相似的比较", "imageChain": "把A比作B→like a → simile"},
+    "wordLevel": {"domain": ["literary", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["similar", "similarity", "simile", "similitude"], "sameAffix": [], "synonyms": ["comparisons", "analogies"], "antonyms": [], "domainCohort": ["metaphor", "analogy", "allegory"], "derivationPair": ["simile"], "morphVariants": ["simile", "similitude"], "sameImagery": []}
+  },
+  {
+    "word": "similitude",
+    "phonetic": "/sɪ'mɪlɪtjuːd/",
+    "pos": "n",
+    "coreMeaning": {"cn": "相似；类比；比喻", "en": "similarity; a comparison or likeness"},
+    "morphemes": [
+      {"form": "simil", "role": "root", "canonical": "similis", "meaning": "相似，同样", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-itude", "role": "suffix", "canonical": "-itude", "meaning": "表示抽象状态", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "similis", "to": "similitudo", "by": "拉丁语构词"}, {"from": "similitudo", "to": "similitude", "by": "借入英语"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "simil(相似)+itude(状态)→ 相似的状态", "imageChain": "两个相似物→镜像→similitude"},
+    "wordLevel": {"domain": ["literary", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["similar", "simile", "assimilate"], "sameAffix": ["longitude", "magnitude", "aptitude"], "synonyms": ["likeness", "resemblance", "analogy"], "antonyms": ["dissimilarity", "difference"], "domainCohort": ["simile", "metaphor", "comparison"], "derivationPair": ["similar", "similarity"], "morphVariants": ["simile", "similar"], "sameImagery": ["likeness", "mirror"]}
+  },
+  {
+    "word": "similitudes",
+    "phonetic": "/sɪ'mɪlɪtjuːdz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "相似之处（复数）；比喻（复数）", "en": "plural of similitude"},
+    "morphemes": [
+      {"form": "simil", "role": "root", "canonical": "similis", "meaning": "相似，同样", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-itude", "role": "suffix", "canonical": "-itude", "meaning": "表示抽象状态", "positionTendency": "medial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-s", "role": "suffix", "canonical": "-s", "meaning": "复数词尾", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "similitude", "to": "similitudes", "by": "加复数词尾-s"}]},
+    "morphVariantOf": "similitude",
+    "memorySemantics": {"mnemonicExpr": "similitude的复数形式", "imageChain": "多个相似之处→similitudes"},
+    "wordLevel": {"domain": ["literary", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["simile", "similar", "similitude"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["similitude"], "morphVariants": [], "sameImagery": []}
+  },
+  {
     "word": "simmer",
     "phonetic": "/'sɪmɚ/",
-    "pos": [
-      "v.",
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "文火煨炖；（情绪）压而不发",
-      "en": "to simmer; to cook gently; to be in a suppressed state"
-    },
+    "pos": "v",
+    "coreMeaning": {"cn": "小火炖；（情绪）酝酿", "en": "to cook at just below boiling; to be in a state of suppressed agitation"},
     "morphemes": [
-      {
-        "canonical": "simmer",
-        "role": "root",
-        "meaning": "文火炖；慢慢沸腾",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "simmer",
-        "positionTendency": "medial"
-      }
+      {"form": "simmer", "role": "root", "canonical": "simmer", "meaning": "微沸，小火炖煮", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}}
     ],
-    "derivationChain": [
-      "simmer（拟声词，锅中水慢慢沸腾声）"
+    "derivationChain": {"steps": [{"from": "simper (方言)", "to": "simmer", "by": "音变，指低温慢煮的微沸声"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "发出sim-sim的微沸声→simmer小火慢炖", "imageChain": "锅中水面微微冒泡→simmer→情绪暗流涌动"},
+    "wordLevel": {"domain": ["cooking", "general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["simmered", "simmering"], "sameAffix": [], "synonyms": ["stew", "bubble", "seethe"], "antonyms": ["boil", "freeze"], "domainCohort": ["boil", "braise", "stew", "poach"], "derivationPair": ["simmering", "simmered"], "morphVariants": [], "sameImagery": ["slow burn", "seething"]}
+  },
+  {
+    "word": "simmered",
+    "phonetic": "/'sɪmɚd/",
+    "pos": "v",
+    "coreMeaning": {"cn": "小火炖过；曾酝酿", "en": "past tense of simmer"},
+    "morphemes": [
+      {"form": "simmer", "role": "root", "canonical": "simmer", "meaning": "微沸，小火炖煮", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-ed", "role": "suffix", "canonical": "-ed", "meaning": "过去式", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
     ],
-    "memorySemantics": {
-      "imageKey": "锅里汤水冒出细小气泡",
-      "scene": "simmer = 水快要沸腾但还没完全沸腾的状态，引申为情绪压抑在内",
-      "emotionalHook": "怒火在他心中simmer了多年，终于爆发",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "gre",
-        "literary"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [],
-      "sameAffix": [],
-      "synonyms": [
-        "stew",
-        "seethe",
-        "bubble",
-        "smolder"
-      ],
-      "antonyms": [
-        "boil",
-        "explode"
-      ],
-      "domainCohort": [
-        "stew",
-        "braise",
-        "poach"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": [
-        "seethe",
-        "smolder"
-      ]
-    }
+    "derivationChain": {"steps": [{"from": "simmer", "to": "simmered", "by": "加过去式词尾-ed"}]},
+    "morphVariantOf": "simmer",
+    "memorySemantics": {"mnemonicExpr": "simmer+ed → 已经小火炖过", "imageChain": "关掉火后的锅→simmered"},
+    "wordLevel": {"domain": ["cooking", "general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["simmer", "simmering"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["simmer"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "simmering",
+    "phonetic": "/'sɪmərɪŋ/",
+    "pos": "v",
+    "coreMeaning": {"cn": "正在小火炖；正在积聚（情绪）", "en": "present participle of simmer; in a state of barely suppressed agitation"},
+    "morphemes": [
+      {"form": "simmer", "role": "root", "canonical": "simmer", "meaning": "微沸，小火炖煮", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-ing", "role": "suffix", "canonical": "-ing", "meaning": "现在分词", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "simmer", "to": "simmering", "by": "加现在分词词尾-ing"}]},
+    "morphVariantOf": "simmer",
+    "memorySemantics": {"mnemonicExpr": "simmer+ing → 持续小火炖的状态", "imageChain": "持续微沸的锅→积聚的愤怒→simmering rage"},
+    "wordLevel": {"domain": ["cooking", "general", "literary"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["simmer", "simmered"], "sameAffix": [], "synonyms": ["bubbling", "seething", "brewing"], "antonyms": [], "domainCohort": ["boiling", "stewing"], "derivationPair": ["simmer"], "morphVariants": [], "sameImagery": ["slow burn"]}
+  },
+  {
+    "word": "simmers",
+    "phonetic": "/'sɪmɚz/",
+    "pos": "v",
+    "coreMeaning": {"cn": "（他/她/它）小火炖", "en": "third person singular present of simmer"},
+    "morphemes": [
+      {"form": "simmer", "role": "root", "canonical": "simmer", "meaning": "微沸，小火炖煮", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-s", "role": "suffix", "canonical": "-s", "meaning": "第三人称单数词尾", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "simmer", "to": "simmers", "by": "加第三人称单数词尾-s"}]},
+    "morphVariantOf": "simmer",
+    "memorySemantics": {"mnemonicExpr": "simmer的三单形式", "imageChain": "锅在炉上小火微沸→simmers"},
+    "wordLevel": {"domain": ["cooking"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["simmer", "simmered", "simmering"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["simmer"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "simmons",
+    "phonetic": "/'sɪmənz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "西蒙斯（人名/品牌名）", "en": "surname; also a mattress brand name"},
+    "morphemes": [
+      {"form": "simmons", "role": "root", "canonical": "simmons", "meaning": "人名，源自Simon", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "Simon", "to": "Simmons", "by": "英语姓氏构成，Simon之子"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "Simon+s → Simon之子→ Simmons", "imageChain": "人名→品牌名"},
+    "wordLevel": {"domain": ["proper noun"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["simon"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "simnel",
+    "phonetic": "/'sɪmnəl/",
+    "pos": "n",
+    "coreMeaning": {"cn": "西蒙内尔糕（传统节日蛋糕）", "en": "a rich fruit cake, traditionally eaten at Easter in Britain"},
+    "morphemes": [
+      {"form": "simnel", "role": "root", "canonical": "simnel", "meaning": "细麦粉，源自拉丁simila", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}}
+    ],
+    "derivationChain": {"steps": [{"from": "拉丁 simila (细面粉)", "to": "古法语 simenel", "by": "借入"}, {"from": "simenel", "to": "simnel", "by": "英语化"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "simnel→细面粉做的节日蛋糕", "imageChain": "复活节→杏仁糕→simnel cake"},
+    "wordLevel": {"domain": ["culinary", "British culture"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["Easter cake", "fruit cake"], "antonyms": [], "domainCohort": ["cake", "marzipan", "Easter"], "derivationPair": [], "morphVariants": [], "sameImagery": ["celebration", "festival food"]}
+  },
+  {
+    "word": "simoleon",
+    "phonetic": "/sɪ'moʊliən/",
+    "pos": "n",
+    "coreMeaning": {"cn": "（俚）美元", "en": "slang for a dollar"},
+    "morphemes": [
+      {"form": "simoleon", "role": "root", "canonical": "simoleon", "meaning": "美元（俚语）", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "Napoleon (硬币名)", "to": "simoleon", "by": "混合词，Napoleon法郎→美元俚语"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "Sim+napoleon → 拿破仑金币变美元俚语", "imageChain": "硬币→美元→simoleon"},
+    "wordLevel": {"domain": ["slang", "American English"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["dollar", "buck", "greenback"], "antonyms": [], "domainCohort": ["buck", "clam", "greenback"], "derivationPair": [], "morphVariants": [], "sameImagery": ["money", "currency"]}
+  },
+  {
+    "word": "simon",
+    "phonetic": "/'saɪmən/",
+    "pos": "n",
+    "coreMeaning": {"cn": "西蒙（男子名）", "en": "a male given name; also used in phrases like 'Simon says'"},
+    "morphemes": [
+      {"form": "simon", "role": "root", "canonical": "simon", "meaning": "希伯来名字，意为'听者'", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "希伯来 Shim'on (听者)", "to": "Greek Σίμων", "by": "借入"}, {"from": "Simon", "to": "英语 Simon", "by": "希腊语→拉丁语→英语"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "Simon=听者，Simon says=西蒙说游戏指令", "imageChain": "听指令→Simon says游戏"},
+    "wordLevel": {"domain": ["proper noun"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["simone", "simmons"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["simone", "simmons"], "sameImagery": []}
+  },
+  {
+    "word": "simon-pure",
+    "phonetic": "/'saɪmən'pjʊər/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "货真价实的；完全纯洁的", "en": "completely genuine or authentic; absolutely pure"},
+    "morphemes": [
+      {"form": "simon", "role": "root", "canonical": "simon", "meaning": "货真价实者（人名典故）", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "pure", "role": "root", "canonical": "purus", "meaning": "纯净，纯粹", "positionTendency": "final", "sentiment": {"tags": ["积极"], "intensity": 1}}
+    ],
+    "derivationChain": {"steps": [{"from": "Simon Pure (18世纪戏剧人物)", "to": "simon-pure", "by": "人物典故→形容词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "Simon Pure戏剧角色→货真价实→simon-pure", "imageChain": "被冒名者→证明自己是真品→simon-pure"},
+    "wordLevel": {"domain": ["literary", "formal"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["simon", "pure", "purify"], "sameAffix": [], "synonyms": ["genuine", "authentic", "real"], "antonyms": ["fake", "spurious", "counterfeit"], "domainCohort": ["genuine", "authentic", "bona fide"], "derivationPair": [], "morphVariants": [], "sameImagery": ["purity", "genuineness"]}
+  },
+  {
+    "word": "simonize",
+    "phonetic": "/'saɪmənaɪz/",
+    "pos": "v",
+    "coreMeaning": {"cn": "给（汽车）打蜡上光", "en": "to polish (a car) with Simoniz wax"},
+    "morphemes": [
+      {"form": "simoniz", "role": "root", "canonical": "simonize", "meaning": "品牌名，汽车蜡", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-ize", "role": "suffix", "canonical": "-ize", "meaning": "动词化", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "Simoniz (品牌名)", "to": "simonize", "by": "品牌名转动词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "Simoniz品牌+ize → 用该品牌蜡打蜡", "imageChain": "汽车→打蜡→光亮→simonize"},
+    "wordLevel": {"domain": ["automotive"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": [], "sameAffix": ["sterilize", "modernize", "customize"], "synonyms": ["polish", "wax", "buff"], "antonyms": [], "domainCohort": ["wax", "polish", "buff", "shine"], "derivationPair": [], "morphVariants": [], "sameImagery": ["shine", "polish"]}
+  },
+  {
+    "word": "simoom",
+    "phonetic": "/sɪ'muːm/",
+    "pos": "n",
+    "coreMeaning": {"cn": "西姆风（沙漠热风）", "en": "a hot dry suffocating sand-laden wind that blows in the Arabian desert"},
+    "morphemes": [
+      {"form": "simoom", "role": "root", "canonical": "simoom", "meaning": "阿拉伯语simum=毒风", "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}}
+    ],
+    "derivationChain": {"steps": [{"from": "阿拉伯语 samūm (毒风)", "to": "simoom", "by": "借入英语"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "sim+oom→像房间(room)一样密封的热风→simoom", "imageChain": "沙漠→炽热干燥→窒息的风→simoom"},
+    "wordLevel": {"domain": ["geography", "meteorology"], "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["simoon"], "sameAffix": [], "synonyms": ["simoon", "hot wind", "desert wind"], "antonyms": [], "domainCohort": ["sirocco", "harmattan", "khamsin"], "derivationPair": ["simoon"], "morphVariants": ["simoon"], "sameImagery": ["desert", "heat", "wind"]}
+  },
+  {
+    "word": "simoon",
+    "phonetic": "/sɪ'muːn/",
+    "pos": "n",
+    "coreMeaning": {"cn": "西姆风（沙漠热风）", "en": "variant of simoom; a hot dry desert wind"},
+    "morphemes": [
+      {"form": "simoon", "role": "root", "canonical": "simoom", "meaning": "阿拉伯语samum=毒风", "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}}
+    ],
+    "derivationChain": {"steps": [{"from": "simoom", "to": "simoon", "by": "拼写变体"}]},
+    "morphVariantOf": "simoom",
+    "memorySemantics": {"mnemonicExpr": "simoom的变体→沙漠热风", "imageChain": "沙漠→炽热的风→simoon"},
+    "wordLevel": {"domain": ["geography", "meteorology"], "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["simoom"], "sameAffix": [], "synonyms": ["simoom", "desert wind"], "antonyms": [], "domainCohort": ["sirocco", "khamsin"], "derivationPair": [], "morphVariants": ["simoom"], "sameImagery": ["desert wind", "heat"]}
+  },
+  {
+    "word": "simoons",
+    "phonetic": "/sɪ'muːnz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "西姆风（复数）", "en": "plural of simoon"},
+    "morphemes": [
+      {"form": "simoon", "role": "root", "canonical": "simoom", "meaning": "沙漠热风", "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}},
+      {"form": "-s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "simoon", "to": "simoons", "by": "加复数词尾-s"}]},
+    "morphVariantOf": "simoon",
+    "memorySemantics": {"mnemonicExpr": "simoon复数", "imageChain": "多股沙漠热风→simoons"},
+    "wordLevel": {"domain": ["geography"], "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["simoom", "simoon"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "simp",
+    "phonetic": "/sɪmp/",
+    "pos": "n",
+    "coreMeaning": {"cn": "傻瓜；（网络俚）过度讨好者", "en": "informal: a simpleton; internet slang: someone who over-flatters"},
+    "morphemes": [
+      {"form": "simp", "role": "root", "canonical": "simple", "meaning": "简单→头脑简单", "positionTendency": "initial", "sentiment": {"tags": ["贬义"], "intensity": 1}}
+    ],
+    "derivationChain": {"steps": [{"from": "simpleton", "to": "simp", "by": "截短词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "simpleton截短→simp简单人→傻瓜", "imageChain": "傻乎乎讨好别人→simp"},
+    "wordLevel": {"domain": ["slang", "internet"], "sentiment": {"tags": ["贬义"], "intensity": 1}},
+    "relations": {"sameRoot": ["simple", "simpleton"], "sameAffix": [], "synonyms": ["simpleton", "fool", "pushover"], "antonyms": [], "domainCohort": ["simpleton", "dupe", "pushover"], "derivationPair": ["simpleton"], "morphVariants": ["simpleton"], "sameImagery": ["foolishness"]}
   },
   {
     "word": "simpatico",
     "phonetic": "/sɪm'pætɪkəʊ/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "和谐的；令人亲近的；相投的",
-      "en": "congenial; likable; having shared feelings"
-    },
+    "pos": "adj",
+    "coreMeaning": {"cn": "投缘的；和谐相处的", "en": "having similar temperament or inclinations; congenial"},
     "morphemes": [
-      {
-        "canonical": "sympathia",
-        "role": "root",
-        "meaning": "同情；共鸣",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "simpat",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-ico",
-        "role": "suffix",
-        "meaning": "意大利语形容词后缀",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "-ico",
-        "positionTendency": "final"
-      }
+      {"form": "sim", "role": "root", "canonical": "similis", "meaning": "相似，同类", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "patico", "role": "root", "canonical": "pathos", "meaning": "情感，感受", "positionTendency": "final", "sentiment": {"tags": ["积极"], "intensity": 1}}
     ],
-    "derivationChain": [
-      "sympathia（希腊/拉丁：同情）→ simpatico（意大利语）"
-    ],
-    "memorySemantics": {
-      "imageKey": "两人相见恨晚、相谈甚欢",
-      "scene": "simpatico = 感觉彼此气场相合、令人亲切",
-      "emotionalHook": "她觉得这个陌生人非常simpatico，马上聊开了",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "gre",
-        "literary"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 2
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "sympathy",
-        "sympathetic",
-        "empathy"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "congenial",
-        "compatible",
-        "kindred",
-        "likable"
-      ],
-      "antonyms": [
-        "antipathetic",
-        "uncongenial"
-      ],
-      "domainCohort": [
-        "congenial",
-        "compatible"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": [
-        "congenial",
-        "kindred"
-      ]
-    }
+    "derivationChain": {"steps": [{"from": "意大利语 simpatico", "to": "英语 simpatico", "by": "意大利语借入"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "sim(相似)+patico(情感) → 情感相投→投缘", "imageChain": "两人相谈甚欢→simpatico"},
+    "wordLevel": {"domain": ["general", "gre"], "sentiment": {"tags": ["积极"], "intensity": 2}},
+    "relations": {"sameRoot": ["sympathy", "sympathetic"], "sameAffix": [], "synonyms": ["congenial", "compatible", "kindred"], "antonyms": ["incompatible", "antipathetic"], "domainCohort": ["congenial", "harmonious", "like-minded"], "derivationPair": [], "morphVariants": [], "sameImagery": ["harmony", "resonance"]}
   },
   {
     "word": "simper",
     "phonetic": "/'sɪmpɚ/",
-    "pos": [
-      "v.",
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "痴笑；假笑；傻笑",
-      "en": "to simper; to smile in an affected or silly manner"
-    },
+    "pos": "v",
+    "coreMeaning": {"cn": "傻笑；假笑", "en": "to smile in an affected, coy, or silly manner"},
     "morphemes": [
-      {
-        "canonical": "simper",
-        "role": "root",
-        "meaning": "矫揉造作地微笑",
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "simper",
-        "positionTendency": "medial"
-      }
+      {"form": "simper", "role": "root", "canonical": "simper", "meaning": "傻笑，假笑", "positionTendency": "initial", "sentiment": {"tags": ["贬义"], "intensity": 1}}
     ],
-    "derivationChain": [
-      "simper（可能来自Low German simpern：傻笑）"
+    "derivationChain": {"steps": [{"from": "丹麦语 semper (装模作样)", "to": "simper", "by": "借入英语"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "sim(简单)+per(人)→ 用最简单的傻笑讨好人", "imageChain": "挤出的假笑→simper"},
+    "wordLevel": {"domain": ["gre", "literary"], "sentiment": {"tags": ["贬义"], "intensity": 1}},
+    "relations": {"sameRoot": ["simpered", "simpering"], "sameAffix": [], "synonyms": ["smirk", "snigger", "titter"], "antonyms": ["frown", "scowl"], "domainCohort": ["smirk", "giggle", "titter"], "derivationPair": ["simpering"], "morphVariants": [], "sameImagery": ["false smile", "affectation"]}
+  },
+  {
+    "word": "simpered",
+    "phonetic": "/'sɪmpɚd/",
+    "pos": "v",
+    "coreMeaning": {"cn": "曾傻笑/假笑", "en": "past tense of simper"},
+    "morphemes": [
+      {"form": "simper", "role": "root", "canonical": "simper", "meaning": "傻笑，假笑", "positionTendency": "initial", "sentiment": {"tags": ["贬义"], "intensity": 1}},
+      {"form": "-ed", "role": "suffix", "canonical": "-ed", "meaning": "过去式", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
     ],
-    "memorySemantics": {
-      "imageKey": "谄媚者在领导面前故作甜蜜地微笑",
-      "scene": "simper = 不自然、讨好式的傻笑，带有矫揉造作意味",
-      "emotionalHook": "她对上司一脸simper，令同事们反感",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "gre",
-        "literary"
-      ],
-      "sentiment": {
-        "tags": [
-          "贬义"
-        ],
-        "intensity": 2
-      }
-    },
-    "relations": {
-      "sameRoot": [],
-      "sameAffix": [],
-      "synonyms": [
-        "smirk",
-        "giggle",
-        "titter"
-      ],
-      "antonyms": [
-        "scowl",
-        "frown"
-      ],
-      "domainCohort": [
-        "smirk",
-        "snicker"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": [
-        "smirk",
-        "titter"
-      ]
-    }
+    "derivationChain": {"steps": [{"from": "simper", "to": "simpered", "by": "加过去式词尾-ed"}]},
+    "morphVariantOf": "simper",
+    "memorySemantics": {"mnemonicExpr": "simper+ed → 曾经傻笑", "imageChain": "回忆中那个让人尴尬的假笑"},
+    "wordLevel": {"domain": ["literary"], "sentiment": {"tags": ["贬义"], "intensity": 1}},
+    "relations": {"sameRoot": ["simper", "simpering"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["simper"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "simpering",
+    "phonetic": "/'sɪmpərɪŋ/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "傻笑的；假笑的", "en": "smiling in an affected, coy manner; showing an inane or silly smile"},
+    "morphemes": [
+      {"form": "simper", "role": "root", "canonical": "simper", "meaning": "傻笑，假笑", "positionTendency": "initial", "sentiment": {"tags": ["贬义"], "intensity": 1}},
+      {"form": "-ing", "role": "suffix", "canonical": "-ing", "meaning": "形容词化", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "simper", "to": "simpering", "by": "加-ing构成形容词/现在分词"}]},
+    "morphVariantOf": "simper",
+    "memorySemantics": {"mnemonicExpr": "simpering=正在假笑的→令人不快的笑", "imageChain": "装腔作势的假笑→simpering fool"},
+    "wordLevel": {"domain": ["literary", "gre"], "sentiment": {"tags": ["贬义"], "intensity": 1}},
+    "relations": {"sameRoot": ["simper", "simpered"], "sameAffix": [], "synonyms": ["smirking", "simpling", "coy"], "antonyms": ["sincere", "genuine"], "domainCohort": ["smirking", "tittering"], "derivationPair": ["simper"], "morphVariants": [], "sameImagery": ["false smile"]}
+  },
+  {
+    "word": "simperingly",
+    "phonetic": "/'sɪmpərɪŋli/",
+    "pos": "adv",
+    "coreMeaning": {"cn": "傻笑地；假笑地", "en": "in a simpering manner; with an affected smile"},
+    "morphemes": [
+      {"form": "simper", "role": "root", "canonical": "simper", "meaning": "傻笑，假笑", "positionTendency": "initial", "sentiment": {"tags": ["贬义"], "intensity": 1}},
+      {"form": "-ing", "role": "suffix", "canonical": "-ing", "meaning": "分词形式", "positionTendency": "medial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-ly", "role": "suffix", "canonical": "-ly", "meaning": "副词词尾", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "simpering", "to": "simperingly", "by": "加副词词尾-ly"}]},
+    "morphVariantOf": "simper",
+    "memorySemantics": {"mnemonicExpr": "simpering+ly → 以傻笑的方式", "imageChain": "假笑→simperingly say"},
+    "wordLevel": {"domain": ["literary"], "sentiment": {"tags": ["贬义"], "intensity": 1}},
+    "relations": {"sameRoot": ["simper", "simpering"], "sameAffix": ["smilingly", "laughingly"], "synonyms": ["coyly", "affectedly"], "antonyms": ["sincerely", "genuinely"], "domainCohort": [], "derivationPair": ["simpering"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "simpers",
+    "phonetic": "/'sɪmpɚz/",
+    "pos": "v",
+    "coreMeaning": {"cn": "（他/她）傻笑", "en": "third person singular present of simper"},
+    "morphemes": [
+      {"form": "simper", "role": "root", "canonical": "simper", "meaning": "傻笑，假笑", "positionTendency": "initial", "sentiment": {"tags": ["贬义"], "intensity": 1}},
+      {"form": "-s", "role": "suffix", "canonical": "-s", "meaning": "第三人称单数", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "simper", "to": "simpers", "by": "加三单词尾-s"}]},
+    "morphVariantOf": "simper",
+    "memorySemantics": {"mnemonicExpr": "simper的三单形式", "imageChain": "她总是simpers傻笑"},
+    "wordLevel": {"domain": ["literary"], "sentiment": {"tags": ["贬义"], "intensity": 1}},
+    "relations": {"sameRoot": ["simper", "simpering"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "simple",
+    "phonetic": "/'sɪmpəl/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "简单的；单纯的；朴素的", "en": "not complex; consisting of one element; easy to understand"},
+    "morphemes": [
+      {"form": "simpl", "role": "root", "canonical": "simplex", "meaning": "一折，单一", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-e", "role": "suffix", "canonical": "-e", "meaning": "形容词词尾", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "拉丁 simplex (单一的，一折的)", "to": "古法语 simple", "by": "借入"}, {"from": "古法语 simple", "to": "英语 simple", "by": "法语→英语"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "sim(单一)+ple(折叠)→ 只折一次→最简单的", "imageChain": "一张白纸不折叠→simple"},
+    "wordLevel": {"domain": ["general", "cet4"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["simplicity", "simplify", "simply", "simplex"], "sameAffix": [], "synonyms": ["easy", "plain", "straightforward"], "antonyms": ["complex", "complicated", "intricate"], "domainCohort": ["plain", "basic", "elementary"], "derivationPair": ["simplify", "simplicity"], "morphVariants": ["simplex"], "sameImagery": ["plain", "unadorned"]}
+  },
+  {
+    "word": "simple-minded",
+    "phonetic": "/'sɪmpəl'maɪndɪd/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "头脑简单的；愚笨的", "en": "having or showing a simple, unsophisticated outlook; intellectually limited"},
+    "morphemes": [
+      {"form": "simple", "role": "root", "canonical": "simplex", "meaning": "简单，单一", "positionTendency": "initial", "sentiment": {"tags": ["贬义"], "intensity": 1}},
+      {"form": "mind", "role": "root", "canonical": "mind", "meaning": "心智，思想", "positionTendency": "medial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-ed", "role": "suffix", "canonical": "-ed", "meaning": "形容词化", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "simple + minded", "to": "simple-minded", "by": "复合形容词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "simple(简单)+minded(有…心智)→ 心智简单→头脑简单", "imageChain": "只有一条线的大脑→simple-minded"},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["贬义"], "intensity": 1}},
+    "relations": {"sameRoot": ["simple", "simpleton", "simplicity"], "sameAffix": ["open-minded", "narrow-minded", "absent-minded"], "synonyms": ["naive", "ingenuous", "foolish"], "antonyms": ["sophisticated", "clever", "astute"], "domainCohort": ["naive", "gullible", "credulous"], "derivationPair": ["simple"], "morphVariants": [], "sameImagery": ["simplicity", "naivety"]}
+  },
+  {
+    "word": "simpleness",
+    "phonetic": "/'sɪmpəlnɪs/",
+    "pos": "n",
+    "coreMeaning": {"cn": "简单；朴素；单纯", "en": "the quality of being simple; lack of complexity"},
+    "morphemes": [
+      {"form": "simple", "role": "root", "canonical": "simplex", "meaning": "简单，单一", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-ness", "role": "suffix", "canonical": "-ness", "meaning": "名词化，状态", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "simple", "to": "simpleness", "by": "加-ness构成名词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "simple+ness → 简单的状态", "imageChain": "朴素无华→simpleness"},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["simple", "simplicity", "simplify"], "sameAffix": ["kindness", "greatness", "goodness"], "synonyms": ["simplicity", "plainness", "naivety"], "antonyms": ["complexity", "complication"], "domainCohort": ["simplicity", "plainness"], "derivationPair": ["simple"], "morphVariants": ["simplicity"], "sameImagery": []}
+  },
+  {
+    "word": "simpleton",
+    "phonetic": "/'sɪmpəltən/",
+    "pos": "n",
+    "coreMeaning": {"cn": "傻瓜；头脑简单的人", "en": "a foolish or gullible person; someone regarded as lacking intelligence"},
+    "morphemes": [
+      {"form": "simple", "role": "root", "canonical": "simplex", "meaning": "简单，单一", "positionTendency": "initial", "sentiment": {"tags": ["贬义"], "intensity": 1}},
+      {"form": "-ton", "role": "suffix", "canonical": "-ton", "meaning": "人的贬称后缀", "positionTendency": "final", "sentiment": {"tags": ["贬义"], "intensity": 1}}
+    ],
+    "derivationChain": {"steps": [{"from": "simple", "to": "simpleton", "by": "加-ton构成贬义人称词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "simple(头脑简单)+ton(人)→ 头脑简单的人→傻瓜", "imageChain": "一根筋的人→simpleton"},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["贬义"], "intensity": 2}},
+    "relations": {"sameRoot": ["simple", "simplicity"], "sameAffix": ["crackton", "trifleton"], "synonyms": ["fool", "idiot", "dolt", "dunce"], "antonyms": ["genius", "intellectual", "sage"], "domainCohort": ["fool", "dunce", "dupe", "nitwit"], "derivationPair": ["simple", "simp"], "morphVariants": ["simp"], "sameImagery": ["foolishness", "naivety"]}
+  },
+  {
+    "word": "simpletons",
+    "phonetic": "/'sɪmpəltənz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "傻瓜们（复数）", "en": "plural of simpleton"},
+    "morphemes": [
+      {"form": "simple", "role": "root", "canonical": "simplex", "meaning": "简单，单一", "positionTendency": "initial", "sentiment": {"tags": ["贬义"], "intensity": 1}},
+      {"form": "-ton", "role": "suffix", "canonical": "-ton", "meaning": "人的贬称后缀", "positionTendency": "medial", "sentiment": {"tags": ["贬义"], "intensity": 1}},
+      {"form": "-s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "simpleton", "to": "simpletons", "by": "加复数词尾-s"}]},
+    "morphVariantOf": "simpleton",
+    "memorySemantics": {"mnemonicExpr": "simpleton复数→一群傻瓜", "imageChain": "一群傻乎乎的人→simpletons"},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["贬义"], "intensity": 1}},
+    "relations": {"sameRoot": ["simpleton", "simple"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["simpleton"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "simplex",
+    "phonetic": "/'sɪmpleks/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "单向的；简单的（技术术语）", "en": "one-way; involving only one part or direction; not complex"},
+    "morphemes": [
+      {"form": "sim", "role": "root", "canonical": "semel", "meaning": "一次，单一", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "plex", "role": "root", "canonical": "plectere", "meaning": "折叠，交织", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "拉丁 simplex (单折的)", "to": "英语 simplex", "by": "借入"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "sim(单一)+plex(折叠)→ 只折一次→单向的", "imageChain": "单向通道→simplex communication"},
+    "wordLevel": {"domain": ["tech", "linguistics"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["simple", "complex", "duplex", "multiplex"], "sameAffix": ["complex", "duplex", "triplex"], "synonyms": ["one-way", "unidirectional"], "antonyms": ["complex", "duplex", "multiplex"], "domainCohort": ["duplex", "multiplex", "complex"], "derivationPair": ["simple", "complex"], "morphVariants": ["simple"], "sameImagery": ["one-way", "single"]}
+  },
+  {
+    "word": "simplicities",
+    "phonetic": "/sɪm'plɪsɪtɪz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "简单之处（复数）；质朴的特征", "en": "plural of simplicity; simple or uncomplicated aspects"},
+    "morphemes": [
+      {"form": "simpl", "role": "root", "canonical": "simplex", "meaning": "简单，单一", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-icit", "role": "suffix", "canonical": "-icity", "meaning": "抽象名词", "positionTendency": "medial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-ies", "role": "suffix", "canonical": "-ies", "meaning": "复数词尾", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "simplicity", "to": "simplicities", "by": "y→ies变复数"}]},
+    "morphVariantOf": "simplicity",
+    "memorySemantics": {"mnemonicExpr": "simplicity复数形式", "imageChain": "生活的种种简单→simplicities of rural life"},
+    "wordLevel": {"domain": ["general", "literary"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["simple", "simplicity", "simplify"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["simplicity"], "morphVariants": [], "sameImagery": []}
   },
   {
     "word": "simplicity",
     "phonetic": "/sɪm'plɪsəti/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "简单；简易；朴素；单纯",
-      "en": "simplicity; the quality of being simple"
-    },
+    "pos": "n",
+    "coreMeaning": {"cn": "简单；朴素；直率", "en": "the quality of being simple; absence of complexity or ornamentation"},
     "morphemes": [
-      {
-        "canonical": "simplex",
-        "role": "root",
-        "meaning": "单一的；简单的",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "simplic",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-ity",
-        "role": "suffix",
-        "meaning": "名词后缀，表性质或状态",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "-ity",
-        "positionTendency": "final"
-      }
+      {"form": "simpl", "role": "root", "canonical": "simplex", "meaning": "简单，单一", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-icity", "role": "suffix", "canonical": "-icity", "meaning": "抽象名词词尾", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
     ],
-    "derivationChain": [
-      "simplex（单一）→ simplicitas（拉丁语）",
-      "simplicity"
+    "derivationChain": {"steps": [{"from": "拉丁 simplicitas", "to": "古法语 simplicité", "by": "借入"}, {"from": "simplicité", "to": "simplicity", "by": "法语→英语"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "simpl(单一)+icity(状态)→ 单纯的状态→simplicity", "imageChain": "空白画布→simplicity is the ultimate sophistication"},
+    "wordLevel": {"domain": ["general", "ielts", "toefl", "cet4", "npee"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["simple", "simplify", "simplex", "simply"], "sameAffix": ["authenticity", "elasticity", "multiplicity"], "synonyms": ["plainness", "simpleness", "restraint"], "antonyms": ["complexity", "complication", "elaborateness"], "domainCohort": ["plainness", "austerity", "minimalism"], "derivationPair": ["simple", "simplify"], "morphVariants": ["simpleness"], "sameImagery": ["minimalism", "purity"]}
+  },
+  {
+    "word": "simplification",
+    "phonetic": "/ˌsɪmplɪfɪ'keɪʃən/",
+    "pos": "n",
+    "coreMeaning": {"cn": "简化；简化物", "en": "the process of making something simpler; a simplified version"},
+    "morphemes": [
+      {"form": "simpl", "role": "root", "canonical": "simplex", "meaning": "简单，单一", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-ifi", "role": "suffix", "canonical": "-ify", "meaning": "使动词化", "positionTendency": "medial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-cation", "role": "suffix", "canonical": "-ation", "meaning": "行为/过程名词", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
     ],
-    "memorySemantics": {
-      "imageKey": "禅意白墙空旷房间",
-      "scene": "simplicity = 去除多余，保留本质的美",
-      "emotionalHook": "乔布斯追求的设计simplicity影响了整个科技界",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "academic",
-        "ielts"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "simple",
-        "simplify",
-        "simplistic",
-        "complex"
-      ],
-      "sameAffix": [
-        "complexity",
-        "capacity",
-        "diversity"
-      ],
-      "synonyms": [
-        "plainness",
-        "clarity",
-        "unpretentiousness"
-      ],
-      "antonyms": [
-        "complexity",
-        "elaborateness",
-        "sophistication"
-      ],
-      "domainCohort": [
-        "elegance",
-        "minimalism"
-      ],
-      "derivationPair": [
-        "simple (adj.) → simplicity (n.) → simplify (v.)"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "plainness",
-        "clarity"
-      ]
-    }
+    "derivationChain": {"steps": [{"from": "simplify", "to": "simplification", "by": "动词+ation构成名词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "simplify(简化)+ation(行为)→ 简化的过程→simplification", "imageChain": "把复杂图表→精简→simplification"},
+    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["simple", "simplify", "simplicity"], "sameAffix": ["clarification", "modification", "justification"], "synonyms": ["reduction", "streamlining", "abridgment"], "antonyms": ["complication", "elaboration"], "domainCohort": ["reduction", "streamlining", "condensation"], "derivationPair": ["simplify"], "morphVariants": [], "sameImagery": ["pruning", "streamlining"]}
+  },
+  {
+    "word": "simplifications",
+    "phonetic": "/ˌsɪmplɪfɪ'keɪʃənz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "简化（复数）", "en": "plural of simplification"},
+    "morphemes": [
+      {"form": "simplification", "role": "root", "canonical": "simplex", "meaning": "简化行为", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "simplification", "to": "simplifications", "by": "加复数词尾-s"}]},
+    "morphVariantOf": "simplification",
+    "memorySemantics": {"mnemonicExpr": "simplification复数形式", "imageChain": "多次简化→simplifications"},
+    "wordLevel": {"domain": ["academic"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["simplify", "simplification", "simplicity"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["simplification"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "simplified",
+    "phonetic": "/'sɪmplɪfaɪd/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "简化了的；简化版的", "en": "made simpler; reduced to a less complex form"},
+    "morphemes": [
+      {"form": "simpl", "role": "root", "canonical": "simplex", "meaning": "简单，单一", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-ifi", "role": "suffix", "canonical": "-ify", "meaning": "使动词化", "positionTendency": "medial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-ed", "role": "suffix", "canonical": "-ed", "meaning": "完成/形容词", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "simplify", "to": "simplified", "by": "y→ied变过去式/形容词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "simplify→simplified=已经被简化了的", "imageChain": "复杂→精简→simplified Chinese"},
+    "wordLevel": {"domain": ["tech", "general"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["simplify", "simple", "simplicity"], "sameAffix": [], "synonyms": ["condensed", "abridged", "streamlined"], "antonyms": ["complex", "complicated", "elaborate"], "domainCohort": ["condensed", "abridged", "distilled"], "derivationPair": ["simplify"], "morphVariants": [], "sameImagery": ["streamlined"]}
+  },
+  {
+    "word": "simplifies",
+    "phonetic": "/'sɪmplɪfaɪz/",
+    "pos": "v",
+    "coreMeaning": {"cn": "使简单；简化（三单）", "en": "third person singular present of simplify"},
+    "morphemes": [
+      {"form": "simpl", "role": "root", "canonical": "simplex", "meaning": "简单，单一", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-ifi", "role": "suffix", "canonical": "-ify", "meaning": "使动词化", "positionTendency": "medial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-es", "role": "suffix", "canonical": "-es", "meaning": "第三人称单数", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "simplify", "to": "simplifies", "by": "y→ies三单形式"}]},
+    "morphVariantOf": "simplify",
+    "memorySemantics": {"mnemonicExpr": "simplify三单形式→she simplifies things", "imageChain": "她把复杂的事情简化→simplifies"},
+    "wordLevel": {"domain": ["tech", "general"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["simplify", "simplified", "simplification"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["simplify"], "morphVariants": [], "sameImagery": []}
   },
   {
     "word": "simplify",
     "phonetic": "/'sɪmplɪfaɪ/",
-    "pos": [
-      "v."
-    ],
-    "coreMeaning": {
-      "cn": "简化；使简单",
-      "en": "to simplify; to make simpler"
-    },
+    "pos": "v",
+    "coreMeaning": {"cn": "简化；使简单", "en": "to make something simpler or less complex"},
     "morphemes": [
-      {
-        "canonical": "simplex",
-        "role": "root",
-        "meaning": "单一的；简单的",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "simpli",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-fy",
-        "role": "suffix",
-        "meaning": "动词后缀，使…化",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "-fy",
-        "positionTendency": "final"
-      }
+      {"form": "simpl", "role": "root", "canonical": "simplex", "meaning": "简单，单一", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-ify", "role": "suffix", "canonical": "-ify", "meaning": "使…化", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
     ],
-    "derivationChain": [
-      "simplex → simplificare → simplify"
+    "derivationChain": {"steps": [{"from": "simple", "to": "simplify", "by": "加-ify构成使动词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "simpl(简单)+ify(使…化)→ 使变简单→simplify", "imageChain": "把复杂流程→精减→simplify"},
+    "wordLevel": {"domain": ["general", "sat", "ielts", "toefl", "cet4", "npee"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["simple", "simplicity", "simplified", "simplification"], "sameAffix": ["clarify", "rectify", "magnify"], "synonyms": ["streamline", "reduce", "condense"], "antonyms": ["complicate", "elaborate", "obscure"], "domainCohort": ["streamline", "prune", "condense", "abridge"], "derivationPair": ["simplification", "simplified"], "morphVariants": [], "sameImagery": ["pruning", "distilling"]}
+  },
+  {
+    "word": "simplifying",
+    "phonetic": "/'sɪmplɪfaɪɪŋ/",
+    "pos": "v",
+    "coreMeaning": {"cn": "正在简化", "en": "present participle of simplify"},
+    "morphemes": [
+      {"form": "simpl", "role": "root", "canonical": "simplex", "meaning": "简单，单一", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-ify", "role": "suffix", "canonical": "-ify", "meaning": "使…化", "positionTendency": "medial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-ing", "role": "suffix", "canonical": "-ing", "meaning": "现在分词", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
     ],
-    "memorySemantics": {
-      "imageKey": "用橡皮擦掉复杂图表只留核心",
-      "scene": "simplify = 使（某物）变得更容易理解或处理",
-      "emotionalHook": "好的老师懂得simplify复杂概念",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "academic",
-        "sat"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "simple",
-        "simplicity",
-        "simplistic"
-      ],
-      "sameAffix": [
-        "clarify",
-        "magnify",
-        "amplify"
-      ],
-      "synonyms": [
-        "streamline",
-        "reduce",
-        "distill"
-      ],
-      "antonyms": [
-        "complicate",
-        "elaborate",
-        "obfuscate"
-      ],
-      "domainCohort": [
-        "streamline",
-        "reduce"
-      ],
-      "derivationPair": [
-        "simplify (v.) → simplification (n.)"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "streamline",
-        "clarify"
-      ]
-    }
+    "derivationChain": {"steps": [{"from": "simplify", "to": "simplifying", "by": "去y加ying构成现在分词"}]},
+    "morphVariantOf": "simplify",
+    "memorySemantics": {"mnemonicExpr": "simplify+ing → 正在简化的过程", "imageChain": "简化进行中→simplifying the process"},
+    "wordLevel": {"domain": ["tech", "general"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["simplify", "simplified", "simplification"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["simplify"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "simplism",
+    "phonetic": "/'sɪmplɪzəm/",
+    "pos": "n",
+    "coreMeaning": {"cn": "过度简化主义；简化论", "en": "the tendency to oversimplify complex issues"},
+    "morphemes": [
+      {"form": "simpl", "role": "root", "canonical": "simplex", "meaning": "简单，单一", "positionTendency": "initial", "sentiment": {"tags": ["贬义"], "intensity": 1}},
+      {"form": "-ism", "role": "suffix", "canonical": "-ism", "meaning": "主义，学说", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "simple", "to": "simplism", "by": "加-ism构成学说名词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "simpl(简单)+ism(主义)→ 凡事过度简化的主义", "imageChain": "把复杂世界一刀切→simplism"},
+    "wordLevel": {"domain": ["academic", "philosophy"], "sentiment": {"tags": ["贬义"], "intensity": 1}},
+    "relations": {"sameRoot": ["simple", "simplistic", "oversimplify"], "sameAffix": ["reductionism", "absolutism"], "synonyms": ["oversimplification", "reductionism"], "antonyms": ["nuance", "complexity"], "domainCohort": ["reductionism", "oversimplification"], "derivationPair": ["simplistic"], "morphVariants": [], "sameImagery": ["black-and-white thinking"]}
   },
   {
     "word": "simplistic",
     "phonetic": "/sɪm'plɪstɪk/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "过分简单化的；过于简化的",
-      "en": "simplistic; treating complex issues as if they were simple"
-    },
+    "pos": "adj",
+    "coreMeaning": {"cn": "过分简单化的；简单化处理的", "en": "treating complex issues as simpler than they are; naively simple"},
     "morphemes": [
-      {
-        "canonical": "simplex",
-        "role": "root",
-        "meaning": "简单的",
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "simplist",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-ic",
-        "role": "suffix",
-        "meaning": "形容词后缀",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "-ic",
-        "positionTendency": "final"
-      }
+      {"form": "simpl", "role": "root", "canonical": "simplex", "meaning": "简单，单一", "positionTendency": "initial", "sentiment": {"tags": ["贬义"], "intensity": 1}},
+      {"form": "-ist", "role": "suffix", "canonical": "-ist", "meaning": "持某种观点者", "positionTendency": "medial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-ic", "role": "suffix", "canonical": "-ic", "meaning": "形容词词尾", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
     ],
-    "derivationChain": [
-      "simple → simplist + -ic → simplistic"
-    ],
-    "memorySemantics": {
-      "imageKey": "用两行字解释全球金融危机",
-      "scene": "simplistic = 对复杂问题简单化处理，带有批评含义",
-      "emotionalHook": "他的分析太simplistic，忽略了关键变量",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "gre",
-        "academic"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "simple",
-        "simplify",
-        "simplicity"
-      ],
-      "sameAffix": [
-        "optimistic",
-        "pessimistic"
-      ],
-      "synonyms": [
-        "naive",
-        "oversimplified",
-        "superficial"
-      ],
-      "antonyms": [
-        "nuanced",
-        "sophisticated",
-        "complex"
-      ],
-      "domainCohort": [
-        "naive",
-        "superficial"
-      ],
-      "derivationPair": [
-        "simplify ↔ simplistic"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "naive",
-        "oversimplified"
-      ]
-    }
+    "derivationChain": {"steps": [{"from": "simplism", "to": "simplistic", "by": "加-ic构成形容词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "simpl(简单)+istic(具有…特点的)→ 简单化思考的→simplistic", "imageChain": "把复杂问题说成非黑即白→simplistic view"},
+    "wordLevel": {"domain": ["general", "ielts", "gre"], "sentiment": {"tags": ["贬义"], "intensity": 1}},
+    "relations": {"sameRoot": ["simple", "simplism", "oversimplify"], "sameAffix": ["optimistic", "pessimistic", "realistic"], "synonyms": ["naive", "reductive", "shallow"], "antonyms": ["nuanced", "sophisticated", "complex"], "domainCohort": ["naive", "reductive", "facile"], "derivationPair": ["simplism"], "morphVariants": [], "sameImagery": ["black-and-white", "shallow"]}
   },
   {
     "word": "simply",
     "phonetic": "/'sɪmpli/",
-    "pos": [
-      "adv."
-    ],
-    "coreMeaning": {
-      "cn": "简单地；仅仅；完全",
-      "en": "simply; in a simple manner; merely"
-    },
+    "pos": "adv",
+    "coreMeaning": {"cn": "简单地；仅仅；完全地", "en": "in a simple manner; merely; absolutely"},
     "morphemes": [
-      {
-        "canonical": "simplex",
-        "role": "root",
-        "meaning": "简单的",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "simpl",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-ly",
-        "role": "suffix",
-        "meaning": "副词后缀",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "-ly",
-        "positionTendency": "final"
-      }
+      {"form": "simple", "role": "root", "canonical": "simplex", "meaning": "简单，单一", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-ly", "role": "suffix", "canonical": "-ly", "meaning": "副词词尾", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
     ],
-    "derivationChain": [
-      "simple → simply"
+    "derivationChain": {"steps": [{"from": "simple", "to": "simply", "by": "加副词词尾-ly"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "simple+ly → 以简单的方式→simply", "imageChain": "简单来说/就是这样→simply put"},
+    "wordLevel": {"domain": ["general", "toefl", "cet4"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["simple", "simplicity", "simplify"], "sameAffix": ["merely", "barely", "plainly"], "synonyms": ["merely", "just", "plainly", "purely"], "antonyms": ["elaborately", "complexly"], "domainCohort": ["just", "merely", "only", "purely"], "derivationPair": ["simple"], "morphVariants": [], "sameImagery": ["plainness", "directness"]}
+  },
+  {
+    "word": "simile",
+    "phonetic": "/'sɪməli/",
+    "pos": "n",
+    "coreMeaning": {"cn": "明喻；直喻", "en": "a figure of speech comparing two unlike things using 'like' or 'as'"},
+    "morphemes": [
+      {"form": "simil", "role": "root", "canonical": "similis", "meaning": "相似，同样", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-e", "role": "suffix", "canonical": "-e", "meaning": "拉丁中性词尾", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
     ],
-    "memorySemantics": {
-      "imageKey": "一支箭直指核心",
-      "scene": "simply = 直接、朴素地做某事，不绕弯子",
-      "emotionalHook": "他simply说了声谢谢，转身离开",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "academic",
-        "toefl"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "simple",
-        "simplify",
-        "simplicity"
-      ],
-      "sameAffix": [
-        "merely",
-        "plainly"
-      ],
-      "synonyms": [
-        "merely",
-        "just",
-        "plainly",
-        "purely"
-      ],
-      "antonyms": [
-        "elaborately",
-        "complexly"
-      ],
-      "domainCohort": [
-        "merely",
-        "purely"
-      ],
-      "derivationPair": [
-        "simple → simply"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "merely",
-        "plainly"
-      ]
-    }
+    "derivationChain": {"steps": [{"from": "拉丁 similis (相似的)", "to": "simile", "by": "借入英语作修辞术语"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "simil(相似)+e → 用like/as建立相似关系→simile明喻", "imageChain": "她像玫瑰一样美→She is like a rose→simile"},
+    "wordLevel": {"domain": ["literary", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["similar", "similarity", "similitude", "similes"], "sameAffix": [], "synonyms": ["comparison", "analogy"], "antonyms": ["metaphor (implicit)"], "domainCohort": ["metaphor", "analogy", "allegory", "personification"], "derivationPair": ["similes", "similitude"], "morphVariants": ["similitude"], "sameImagery": ["comparison", "likeness"]}
+  },
+  {
+    "word": "similtude",
+    "phonetic": "/sɪ'mɪltjuːd/",
+    "pos": "n",
+    "coreMeaning": {"cn": "相似（similitude的异体拼法）", "en": "archaic/variant spelling of similitude"},
+    "morphemes": [
+      {"form": "simil", "role": "root", "canonical": "similis", "meaning": "相似，同样", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-tude", "role": "suffix", "canonical": "-itude", "meaning": "抽象状态", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "similitude", "to": "similtude", "by": "古英语拼写变体（去掉i）"}]},
+    "morphVariantOf": "similitude",
+    "memorySemantics": {"mnemonicExpr": "similitude的变体拼法", "imageChain": "与similitude相同含义"},
+    "wordLevel": {"domain": ["archaic", "literary"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["similar", "simile", "similitude"], "sameAffix": [], "synonyms": ["similitude", "likeness"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["similitude"], "sameImagery": []}
+  },
+  {
+    "word": "simone",
+    "phonetic": "/sɪ'moʊn/",
+    "pos": "n",
+    "coreMeaning": {"cn": "西蒙妮（女子名）", "en": "a female given name; also a 2002 film title"},
+    "morphemes": [
+      {"form": "simone", "role": "root", "canonical": "simone", "meaning": "Simon的女性形式", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "Simon (西蒙)", "to": "Simone", "by": "添加-e构成女性名"}]},
+    "morphVariantOf": "simon",
+    "memorySemantics": {"mnemonicExpr": "Simon的女性形式→Simone", "imageChain": "西蒙妮·波伏娃→存在主义女性→Simone"},
+    "wordLevel": {"domain": ["proper noun"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["simon", "simmons"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["simon"], "sameImagery": []}
+  },
+  {
+    "word": "simp",
+    "phonetic": "/sɪmp/",
+    "pos": "v",
+    "coreMeaning": {"cn": "（网络俚）过度讨好某人", "en": "internet slang: to fawn over or excessively please someone"},
+    "morphemes": [
+      {"form": "simp", "role": "root", "canonical": "simpleton", "meaning": "傻瓜→过度讨好的行为", "positionTendency": "initial", "sentiment": {"tags": ["贬义"], "intensity": 1}}
+    ],
+    "derivationChain": {"steps": [{"from": "simpleton", "to": "simp", "by": "截短词，网络俚语动词化"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "simp(傻)→像傻瓜一样去讨好→to simp", "imageChain": "网络俚语→过度讨好→simp for someone"},
+    "wordLevel": {"domain": ["internet slang"], "sentiment": {"tags": ["贬义"], "intensity": 1}},
+    "relations": {"sameRoot": ["simpleton", "simple"], "sameAffix": [], "synonyms": ["fawn", "grovel", "flatter"], "antonyms": [], "domainCohort": ["grovel", "fawn", "grovel"], "derivationPair": [], "morphVariants": [], "sameImagery": ["fawning"]}
+  },
+  {
+    "word": "simpatico",
+    "phonetic": "/sɪm'pætɪkəʊ/",
+    "pos": "n",
+    "coreMeaning": {"cn": "投缘的人（用作名词时）", "en": "a congenial person; one who is simpatico"},
+    "morphemes": [
+      {"form": "simpatico", "role": "root", "canonical": "simpatico", "meaning": "投缘的（意大利语借词）", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}}
+    ],
+    "derivationChain": {"steps": [{"from": "意大利语 simpatico (有同情心的)", "to": "英语 simpatico", "by": "借入作形容词兼名词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "sim(相似)+patico(情感)→ 投缘的→simpatico", "imageChain": "初次见面感觉投缘→simpatico"},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["sympathy"], "sameAffix": [], "synonyms": ["kindred spirit", "soulmate"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": ["kindred spirit"]}
+  },
+  {
+    "word": "simmer",
+    "phonetic": "/'sɪmɚ/",
+    "pos": "n",
+    "coreMeaning": {"cn": "微沸状态；低温慢炖", "en": "a state of barely boiling; gentle cooking below boiling point"},
+    "morphemes": [
+      {"form": "simmer", "role": "root", "canonical": "simmer", "meaning": "微沸，小火炖煮", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "simmer (v)", "to": "simmer (n)", "by": "动词名词化转换"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "simmer作名词→处于simmer状态", "imageChain": "锅里保持微沸→on a simmer"},
+    "wordLevel": {"domain": ["cooking"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["simmered", "simmering", "simmers"], "sameAffix": [], "synonyms": ["gentle boil", "low heat"], "antonyms": ["rapid boil", "full boil"], "domainCohort": ["boil", "braise", "poach"], "derivationPair": [], "morphVariants": [], "sameImagery": ["slow heat"]}
+  },
+  {
+    "word": "simon's",
+    "phonetic": "/'saɪmənz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "西蒙的（所有格）", "en": "possessive form of Simon"},
+    "morphemes": [
+      {"form": "simon", "role": "root", "canonical": "simon", "meaning": "人名西蒙", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "'s", "role": "suffix", "canonical": "'s", "meaning": "所有格", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "Simon", "to": "Simon's", "by": "加所有格's"}]},
+    "morphVariantOf": "simon",
+    "memorySemantics": {"mnemonicExpr": "Simon+'s → 西蒙的", "imageChain": "Simon's choice → 西蒙的选择"},
+    "wordLevel": {"domain": ["proper noun"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["simon", "simmons"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["simon"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "simpler",
+    "phonetic": "/'sɪmplɚ/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "更简单的；更容易的", "en": "comparative form of simple"},
+    "morphemes": [
+      {"form": "simple", "role": "root", "canonical": "simplex", "meaning": "简单，单一", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-r", "role": "suffix", "canonical": "-er", "meaning": "比较级", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "simple", "to": "simpler", "by": "加-r构成比较级"}]},
+    "morphVariantOf": "simple",
+    "memorySemantics": {"mnemonicExpr": "simple的比较级→simpler than before", "imageChain": "对比两个方案→选更简单的→simpler"},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["simple", "simplest", "simplicity"], "sameAffix": [], "synonyms": ["easier", "plainer"], "antonyms": ["more complex", "harder"], "domainCohort": [], "derivationPair": ["simple"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "simples",
+    "phonetic": "/'sɪmpəlz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "草药；单味药", "en": "medicinal herbs or plants used singly (archaic)"},
+    "morphemes": [
+      {"form": "simple", "role": "root", "canonical": "simplex", "meaning": "单一（单味药）", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "拉丁 herba simplex (单味草药)", "to": "simples", "by": "古英语→草药名"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "simple(单一)+s → 单味草药→simples", "imageChain": "古代药草园→单味药材→simples"},
+    "wordLevel": {"domain": ["archaic", "medicine", "botany"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["simple"], "sameAffix": [], "synonyms": ["herbs", "medicinal plants"], "antonyms": [], "domainCohort": ["herbs", "remedies", "botanicals"], "derivationPair": [], "morphVariants": [], "sameImagery": ["herbs", "medicine"]}
+  },
+  {
+    "word": "simplest",
+    "phonetic": "/'sɪmpləst/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "最简单的；最容易的", "en": "superlative form of simple"},
+    "morphemes": [
+      {"form": "simple", "role": "root", "canonical": "simplex", "meaning": "简单，单一", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-st", "role": "suffix", "canonical": "-est", "meaning": "最高级", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "simple", "to": "simplest", "by": "加-st构成最高级"}]},
+    "morphVariantOf": "simple",
+    "memorySemantics": {"mnemonicExpr": "simple的最高级→the simplest solution", "imageChain": "奥卡姆剃刀→选最简单的→simplest"},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["simple", "simpler"], "sameAffix": [], "synonyms": ["easiest", "most basic"], "antonyms": ["most complex", "hardest"], "domainCohort": [], "derivationPair": ["simple"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "simplexciter",
+    "phonetic": "/'sɪmpleksaɪtɚ/",
+    "pos": "n",
+    "coreMeaning": {"cn": "单工激励器（通信技术）", "en": "a simplex exciter used in radio/communication systems"},
+    "morphemes": [
+      {"form": "simplex", "role": "root", "canonical": "simplex", "meaning": "单工，单向的", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "citer", "role": "root", "canonical": "exciter", "meaning": "激励器，激发器", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "simplex + exciter", "to": "simplexciter", "by": "技术术语合成词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "simplex(单工)+exciter(激励器)→ 单向激励器", "imageChain": "单向无线电→激励器→simplexciter"},
+    "wordLevel": {"domain": ["tech", "radio"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["simplex", "exciter"], "sameAffix": [], "synonyms": [], "antonyms": ["duplex exciter"], "domainCohort": ["exciter", "transmitter", "modulator"], "derivationPair": ["simplex"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "simplification",
+    "phonetic": "/ˌsɪmplɪfɪ'keɪʃən/",
+    "pos": "v",
+    "coreMeaning": {"cn": "（正在）简化（动词形式）", "en": "verbal form: the act of simplifying"},
+    "morphemes": [
+      {"form": "simplif", "role": "root", "canonical": "simplex", "meaning": "简化", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-ication", "role": "suffix", "canonical": "-ation", "meaning": "行为名词化", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "simplify", "to": "simplification", "by": "动词→过程名词"}]},
+    "morphVariantOf": "simplify",
+    "memorySemantics": {"mnemonicExpr": "simplify的动词名词形式", "imageChain": "简化过程"},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["simplify", "simple"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["simplify"], "morphVariants": [], "sameImagery": []}
   }
 ]

@@ -1,857 +1,468 @@
 [
   {
-    "word": "prescience",
-    "phonetic": "/'prɛʃɪəns/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "先见；预知",
-      "en": "foreknowledge; prescience"
-    },
+    "word": "preschooler",
+    "phonetic": "/ˈpriːskuːlər/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "学龄前儿童", "en": "a child who has not yet started school" },
     "morphemes": [
-      {
-        "canonical": "pre-",
-        "role": "prefix",
-        "form": "pre",
-        "meaning": "在…之前",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "sci",
-        "role": "root",
-        "form": "sci",
-        "meaning": "知道；知识",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ence",
-        "role": "suffix",
-        "form": "ence",
-        "meaning": "名词后缀，表示状态或性质",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "positionTendency": "final"
-      }
+      { "canonical": "pre-", "role": "prefix", "meaning": "在…之前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": { "cn": "在…之前", "en": "before" } },
+      { "canonical": "school", "role": "root", "meaning": "学校", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "school", "positionTendency": "medial", "coreMeaning": { "cn": "学校", "en": "school" } },
+      { "canonical": "-er", "role": "suffix", "meaning": "人", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "er", "positionTendency": "final", "coreMeaning": { "cn": "人", "en": "person" } }
     ],
-    "derivationChain": [
-      "science",
-      "prescient",
-      "prescience"
+    "derivationChain": { "steps": [{ "from": "pre + school + er", "to": "preschooler", "operation": "compound with agent suffix" }] },
+    "memorySemantics": { "mnemonicExpr": "pre(前)+school(学校)+er(人)→上学前的孩子", "imageChain": ["幼儿", "学前教育", "幼儿园"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": ["toddler"], "antonyms": [], "domainCohort": ["toddler", "kindergartner"], "derivationPair": [], "morphVariants": ["preschoolers"], "sameImagery": [] }
+  },
+  {
+    "word": "preschoolers",
+    "phonetic": "/ˈpriːskuːlərz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "学龄前儿童（复数）", "en": "plural of preschooler" },
+    "morphemes": [
+      { "canonical": "pre-", "role": "prefix", "meaning": "在…之前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": { "cn": "在…之前", "en": "before" } },
+      { "canonical": "school", "role": "root", "meaning": "学校", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "school", "positionTendency": "medial", "coreMeaning": { "cn": "学校", "en": "school" } },
+      { "canonical": "-er", "role": "suffix", "meaning": "人", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "er", "positionTendency": "medial", "coreMeaning": { "cn": "人", "en": "person" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "复数", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 4, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
     ],
-    "memorySemantics": {
-      "imageKey": "crystal ball",
-      "scene": "智者在事件发生前便已洞悉一切，预知未来",
-      "emotionalHook": "先知的神秘感",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "academic",
-        "gre"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "science",
-        "omniscient",
-        "conscience"
-      ],
-      "sameAffix": [
-        "presence",
-        "prudence"
-      ],
-      "synonyms": [
-        "foreknowledge",
-        "foresight",
-        "clairvoyance"
-      ],
-      "antonyms": [
-        "ignorance",
-        "hindsight"
-      ],
-      "domainCohort": [
-        "prescient",
-        "omniscience"
-      ],
-      "derivationPair": [
-        "prescient"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "prophesy",
-        "divination"
-      ]
-    }
+    "derivationChain": { "steps": [{ "from": "preschooler", "to": "preschoolers", "operation": "plural" }] },
+    "memorySemantics": { "mnemonicExpr": "preschooler+s→多名学龄前儿童", "imageChain": ["幼儿群体", "学前教育"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["preschooler"], "sameImagery": [] }
+  },
+  {
+    "word": "prescience",
+    "phonetic": "/ˈpriːsiəns/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "预知；先见之明", "en": "the ability to know things before they happen" },
+    "morphemes": [
+      { "canonical": "pre-", "role": "prefix", "meaning": "在…之前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": { "cn": "在…之前", "en": "before" } },
+      { "canonical": "sci-", "role": "root", "meaning": "知道", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 2, "form": "sci", "positionTendency": "medial", "coreMeaning": { "cn": "知道", "en": "know" } },
+      { "canonical": "-ence", "role": "suffix", "meaning": "名词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ence", "positionTendency": "final", "coreMeaning": { "cn": "状态/性质", "en": "state/quality" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Latin praescire (pre- before + scire know)", "to": "prescience", "operation": "noun via -ence" }] },
+    "memorySemantics": { "mnemonicExpr": "pre(前)+sci(知)+ence→提前知道→先见之明", "imageChain": ["预言", "洞察未来", "先知"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["积极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["prescient", "science", "omniscient"], "sameAffix": [], "synonyms": ["foresight", "foreknowledge", "clairvoyance"], "antonyms": [], "domainCohort": ["foresight", "prophecy"], "derivationPair": ["prescient"], "morphVariants": [], "sameImagery": [] }
   },
   {
     "word": "prescient",
-    "phonetic": "/'prɛsɪənt/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "预知的；有先见之明的",
-      "en": "having foreknowledge"
-    },
+    "phonetic": "/ˈpriːsiənt/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "有先见之明的；预知的", "en": "having knowledge of events before they take place" },
     "morphemes": [
-      {
-        "canonical": "pre-",
-        "role": "prefix",
-        "form": "pre",
-        "meaning": "在…之前",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "sci",
-        "role": "root",
-        "form": "sci",
-        "meaning": "知道",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ent",
-        "role": "suffix",
-        "form": "ent",
-        "meaning": "形容词后缀，具有…性质的",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "positionTendency": "final"
-      }
+      { "canonical": "pre-", "role": "prefix", "meaning": "在…之前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": { "cn": "在…之前", "en": "before" } },
+      { "canonical": "sci-", "role": "root", "meaning": "知道", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 2, "form": "sci", "positionTendency": "medial", "coreMeaning": { "cn": "知道", "en": "know" } },
+      { "canonical": "-ent", "role": "suffix", "meaning": "形容词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ent", "positionTendency": "final", "coreMeaning": { "cn": "具有…性质", "en": "having quality of" } }
     ],
-    "derivationChain": [
-      "science",
-      "prescient",
-      "prescience"
+    "derivationChain": { "steps": [{ "from": "prescience", "to": "prescient", "operation": "adjective via -ent" }] },
+    "memorySemantics": { "mnemonicExpr": "pre(前)+sci(知)+ent→预先知晓的", "imageChain": ["先知", "预言者", "洞察未来"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["积极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["prescience"], "sameAffix": [], "synonyms": ["prophetic", "clairvoyant", "farsighted"], "antonyms": [], "domainCohort": ["prophetic", "visionary"], "derivationPair": ["prescience"], "morphVariants": ["presciently"], "sameImagery": [] }
+  },
+  {
+    "word": "presciently",
+    "phonetic": "/ˈpriːsiəntli/",
+    "pos": "adv.",
+    "coreMeaning": { "cn": "有先见之明地", "en": "in a prescient manner" },
+    "morphemes": [
+      { "canonical": "pre-", "role": "prefix", "meaning": "在…之前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": { "cn": "在…之前", "en": "before" } },
+      { "canonical": "sci-", "role": "root", "meaning": "知道", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 2, "form": "sci", "positionTendency": "medial", "coreMeaning": { "cn": "知道", "en": "know" } },
+      { "canonical": "-ent", "role": "suffix", "meaning": "形容词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ent", "positionTendency": "medial", "coreMeaning": { "cn": "具有…性质", "en": "having quality of" } },
+      { "canonical": "-ly", "role": "suffix", "meaning": "副词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 4, "form": "ly", "positionTendency": "final", "coreMeaning": { "cn": "方式", "en": "in a manner" } }
     ],
-    "memorySemantics": {
-      "imageKey": "oracle",
-      "scene": "预言家能在事情发生前预见结果",
-      "emotionalHook": "洞察力带来的惊叹",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "academic",
-        "gre",
-        "sat"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "science",
-        "omniscient",
-        "conscience"
-      ],
-      "sameAffix": [
-        "prudent",
-        "obedient"
-      ],
-      "synonyms": [
-        "prophetic",
-        "clairvoyant",
-        "far-sighted"
-      ],
-      "antonyms": [
-        "ignorant",
-        "myopic"
-      ],
-      "domainCohort": [
-        "prescience",
-        "omniscient"
-      ],
-      "derivationPair": [
-        "prescience"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "visionary",
-        "prophetic"
-      ]
-    }
+    "derivationChain": { "steps": [{ "from": "prescient", "to": "presciently", "operation": "adverb via -ly" }] },
+    "memorySemantics": { "mnemonicExpr": "prescient+ly→以先见之明的方式", "imageChain": ["预测准确", "洞见深远"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["prescient"], "sameImagery": [] }
   },
   {
     "word": "prescribe",
-    "phonetic": "/prɪ'skraɪb/",
-    "pos": [
-      "vt.",
-      "vi."
-    ],
-    "coreMeaning": {
-      "cn": "指示；规定；开（药方）",
-      "en": "to order or authorize; to write a prescription"
-    },
+    "phonetic": "/prɪˈskraɪb/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "开处方；规定", "en": "to advise or authorize the use of (medicine); to lay down as a rule" },
     "morphemes": [
-      {
-        "canonical": "pre-",
-        "role": "prefix",
-        "form": "pre",
-        "meaning": "在前；预先",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "scrib",
-        "role": "root",
-        "form": "scrib",
-        "meaning": "写",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "positionTendency": "medial"
-      }
+      { "canonical": "pre-", "role": "prefix", "meaning": "在…之前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": { "cn": "在…之前", "en": "before" } },
+      { "canonical": "scrib-", "role": "root", "meaning": "书写", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "scribe", "positionTendency": "final", "coreMeaning": { "cn": "书写", "en": "write" } }
     ],
-    "derivationChain": [
-      "scribble",
-      "prescribe",
-      "prescription",
-      "prescriptive"
+    "derivationChain": { "steps": [{ "from": "Latin praescribere (pre- before + scribere write)", "to": "prescribe", "operation": "borrowing" }] },
+    "memorySemantics": { "mnemonicExpr": "pre(前)+scribe(写)→预先写下规定/处方", "imageChain": ["医生开方", "规章制定", "书写指令"] },
+    "wordLevel": { "domain": "medical", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["prescription", "prescriptive", "describe", "script"], "sameAffix": [], "synonyms": ["order", "direct", "specify"], "antonyms": ["proscribe"], "domainCohort": ["diagnose", "recommend", "direct"], "derivationPair": ["prescription"], "morphVariants": ["prescribed", "prescribes", "prescribing"], "sameImagery": [] }
+  },
+  {
+    "word": "prescribed",
+    "phonetic": "/prɪˈskraɪbd/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "开处方了；规定了", "en": "past tense of prescribe" },
+    "morphemes": [
+      { "canonical": "pre-", "role": "prefix", "meaning": "在…之前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": { "cn": "在…之前", "en": "before" } },
+      { "canonical": "scrib-", "role": "root", "meaning": "书写", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "scrib", "positionTendency": "medial", "coreMeaning": { "cn": "书写", "en": "write" } },
+      { "canonical": "-ed", "role": "suffix", "meaning": "过去式", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ed", "positionTendency": "final", "coreMeaning": { "cn": "过去式", "en": "past tense" } }
     ],
-    "memorySemantics": {
-      "imageKey": "doctor writing",
-      "scene": "医生在处方笺上提前写好用药指令",
-      "emotionalHook": "权威指令的严肃感",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "medical",
-        "legal",
-        "academic"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "inscribe",
-        "describe",
-        "subscribe",
-        "manuscript"
-      ],
-      "sameAffix": [
-        "preempt",
-        "precede"
-      ],
-      "synonyms": [
-        "ordain",
-        "stipulate",
-        "specify"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "prescription",
-        "prescript"
-      ],
-      "derivationPair": [
-        "prescription",
-        "prescriptive"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "mandate",
-        "dictate"
-      ]
-    }
+    "derivationChain": { "steps": [{ "from": "prescribe", "to": "prescribed", "operation": "past tense" }] },
+    "memorySemantics": { "mnemonicExpr": "prescribe+d→曾经开具处方", "imageChain": ["医嘱", "处方记录"] },
+    "wordLevel": { "domain": "medical", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["prescribe"], "sameImagery": [] }
+  },
+  {
+    "word": "prescribes",
+    "phonetic": "/prɪˈskraɪbz/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "开处方（三单）", "en": "third person singular of prescribe" },
+    "morphemes": [
+      { "canonical": "pre-", "role": "prefix", "meaning": "在…之前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": { "cn": "在…之前", "en": "before" } },
+      { "canonical": "scrib-", "role": "root", "meaning": "书写", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "scrib", "positionTendency": "medial", "coreMeaning": { "cn": "书写", "en": "write" } },
+      { "canonical": "-es", "role": "suffix", "meaning": "三单", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "es", "positionTendency": "final", "coreMeaning": { "cn": "三单", "en": "third person singular" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "prescribe", "to": "prescribes", "operation": "third person singular" }] },
+    "memorySemantics": { "mnemonicExpr": "prescribe+s→（医生）开具处方", "imageChain": ["医生", "处方", "药物"] },
+    "wordLevel": { "domain": "medical", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["prescribe"], "sameImagery": [] }
+  },
+  {
+    "word": "prescribing",
+    "phonetic": "/prɪˈskraɪbɪŋ/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "开处方（进行时）", "en": "present participle of prescribe" },
+    "morphemes": [
+      { "canonical": "pre-", "role": "prefix", "meaning": "在…之前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": { "cn": "在…之前", "en": "before" } },
+      { "canonical": "scrib-", "role": "root", "meaning": "书写", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "scrib", "positionTendency": "medial", "coreMeaning": { "cn": "书写", "en": "write" } },
+      { "canonical": "-ing", "role": "suffix", "meaning": "进行时", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ing", "positionTendency": "final", "coreMeaning": { "cn": "进行时", "en": "present participle" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "prescribe", "to": "prescribing", "operation": "present participle" }] },
+    "memorySemantics": { "mnemonicExpr": "prescrib+ing→正在开具处方", "imageChain": ["医生写处方", "开药过程"] },
+    "wordLevel": { "domain": "medical", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["prescribe"], "sameImagery": [] }
   },
   {
     "word": "prescription",
-    "phonetic": "/prɪ'skrɪpʃən/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "药方；处方；规定",
-      "en": "a written medical order; a rule prescribed"
-    },
+    "phonetic": "/prɪˈskrɪpʃən/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "处方；规定", "en": "a written order from a doctor for medicine; a rule or instruction" },
     "morphemes": [
-      {
-        "canonical": "pre-",
-        "role": "prefix",
-        "form": "pre",
-        "meaning": "预先；在前",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "script",
-        "role": "root",
-        "form": "script",
-        "meaning": "写；写下的东西",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ion",
-        "role": "suffix",
-        "form": "ion",
-        "meaning": "名词后缀，表示行为或结果",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "positionTendency": "final"
-      }
+      { "canonical": "pre-", "role": "prefix", "meaning": "在…之前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": { "cn": "在…之前", "en": "before" } },
+      { "canonical": "scrib-", "role": "root", "meaning": "书写", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "script", "positionTendency": "medial", "coreMeaning": { "cn": "书写", "en": "write" } },
+      { "canonical": "-ion", "role": "suffix", "meaning": "名词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ion", "positionTendency": "final", "coreMeaning": { "cn": "名词化", "en": "nominalizer" } }
     ],
-    "derivationChain": [
-      "prescribe",
-      "prescription"
+    "derivationChain": { "steps": [{ "from": "prescribe", "to": "prescription", "operation": "noun via -tion" }] },
+    "memorySemantics": { "mnemonicExpr": "pre(前)+script(写)+ion→预先写下的指令→处方", "imageChain": ["处方笺", "药物清单", "医嘱"] },
+    "wordLevel": { "domain": "medical", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["prescribe", "prescriptive"], "sameAffix": [], "synonyms": ["formula", "recipe"], "antonyms": [], "domainCohort": ["diagnosis", "treatment", "medication"], "derivationPair": ["prescribe"], "morphVariants": ["prescriptions"], "sameImagery": [] }
+  },
+  {
+    "word": "prescriptions",
+    "phonetic": "/prɪˈskrɪpʃənz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "处方（复数）", "en": "plural of prescription" },
+    "morphemes": [
+      { "canonical": "pre-", "role": "prefix", "meaning": "在…之前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": { "cn": "在…之前", "en": "before" } },
+      { "canonical": "scrib-", "role": "root", "meaning": "书写", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "script", "positionTendency": "medial", "coreMeaning": { "cn": "书写", "en": "write" } },
+      { "canonical": "-ions", "role": "suffix", "meaning": "复数名词", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ions", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
     ],
-    "memorySemantics": {
-      "imageKey": "Rx slip",
-      "scene": "医生预先写好的用药指令，带有权威性的书面规定",
-      "emotionalHook": "医嘱的权威与信任",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "medical",
-        "academic"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "inscription",
-        "description",
-        "subscription"
-      ],
-      "sameAffix": [
-        "perception",
-        "conception"
-      ],
-      "synonyms": [
-        "formula",
-        "directive",
-        "mandate"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "prescribe",
-        "prescriptive"
-      ],
-      "derivationPair": [
-        "prescribe"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "remedy",
-        "treatment"
-      ]
-    }
+    "derivationChain": { "steps": [{ "from": "prescription", "to": "prescriptions", "operation": "plural" }] },
+    "memorySemantics": { "mnemonicExpr": "prescription+s→多张处方", "imageChain": ["多张药方", "处方集"] },
+    "wordLevel": { "domain": "medical", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["prescription"], "sameImagery": [] }
+  },
+  {
+    "word": "prescriptive",
+    "phonetic": "/prɪˈskrɪptɪv/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "规范性的；规定的", "en": "relating to or involving the imposition of a rule or method" },
+    "morphemes": [
+      { "canonical": "pre-", "role": "prefix", "meaning": "在…之前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": { "cn": "在…之前", "en": "before" } },
+      { "canonical": "scrib-", "role": "root", "meaning": "书写", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "script", "positionTendency": "medial", "coreMeaning": { "cn": "书写", "en": "write" } },
+      { "canonical": "-ive", "role": "suffix", "meaning": "形容词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ive", "positionTendency": "final", "coreMeaning": { "cn": "具有…性质", "en": "having quality of" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "prescription", "to": "prescriptive", "operation": "adjective via -ive" }] },
+    "memorySemantics": { "mnemonicExpr": "prescr(规定)+iptive→具有规定性质的", "imageChain": ["语法规则", "规范教学", "强制指令"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["prescribe", "prescription"], "sameAffix": [], "synonyms": ["normative", "mandatory"], "antonyms": ["descriptive"], "domainCohort": ["normative", "regulatory"], "derivationPair": [], "morphVariants": ["prescriptively"], "sameImagery": [] }
+  },
+  {
+    "word": "prescriptively",
+    "phonetic": "/prɪˈskrɪptɪvli/",
+    "pos": "adv.",
+    "coreMeaning": { "cn": "规范性地；以规定方式", "en": "in a prescriptive manner" },
+    "morphemes": [
+      { "canonical": "pre-", "role": "prefix", "meaning": "在…之前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": { "cn": "在…之前", "en": "before" } },
+      { "canonical": "scrib-", "role": "root", "meaning": "书写", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "script", "positionTendency": "medial", "coreMeaning": { "cn": "书写", "en": "write" } },
+      { "canonical": "-ive", "role": "suffix", "meaning": "形容词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ive", "positionTendency": "medial", "coreMeaning": { "cn": "具有…性质", "en": "having" } },
+      { "canonical": "-ly", "role": "suffix", "meaning": "副词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 4, "form": "ly", "positionTendency": "final", "coreMeaning": { "cn": "方式", "en": "in a manner" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "prescriptive", "to": "prescriptively", "operation": "adverb via -ly" }] },
+    "memorySemantics": { "mnemonicExpr": "prescriptive+ly→以规范方式地", "imageChain": ["规范指导", "明确规定"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["prescriptive"], "sameImagery": [] }
   },
   {
     "word": "presence",
-    "phonetic": "/'prɛzns/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "出席；存在；仪表",
-      "en": "the state of being present; bearing"
-    },
+    "phonetic": "/ˈprezəns/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "存在；在场；气场", "en": "the state of being present in a place or situation" },
     "morphemes": [
-      {
-        "canonical": "pre-",
-        "role": "prefix",
-        "form": "pre",
-        "meaning": "在前；当前",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "sens",
-        "role": "root",
-        "form": "sen",
-        "meaning": "存在；感觉",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ence",
-        "role": "suffix",
-        "form": "ence",
-        "meaning": "名词后缀，表示状态",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "positionTendency": "final"
-      }
+      { "canonical": "pre-", "role": "prefix", "meaning": "在前面", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": { "cn": "在前面", "en": "before/in front" } },
+      { "canonical": "esse-", "role": "root", "meaning": "存在", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "sen", "positionTendency": "medial", "coreMeaning": { "cn": "存在", "en": "be/exist" } },
+      { "canonical": "-ce", "role": "suffix", "meaning": "名词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ce", "positionTendency": "final", "coreMeaning": { "cn": "状态", "en": "state" } }
     ],
-    "derivationChain": [
-      "present",
-      "presence"
+    "derivationChain": { "steps": [{ "from": "Latin praesentia (present being)", "to": "presence", "operation": "noun borrowing" }] },
+    "memorySemantics": { "mnemonicExpr": "pre(面前)+sence(存在)→在面前存在→在场", "imageChain": ["在场", "个人气场", "有形存在"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["present", "absent", "represent"], "sameAffix": [], "synonyms": ["attendance", "existence"], "antonyms": ["absence"], "domainCohort": ["attendance", "appearance"], "derivationPair": ["present"], "morphVariants": ["presences"], "sameImagery": [] }
+  },
+  {
+    "word": "presences",
+    "phonetic": "/ˈprezənsɪz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "存在（复数）", "en": "plural of presence" },
+    "morphemes": [
+      { "canonical": "pre-", "role": "prefix", "meaning": "在前面", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": { "cn": "在前面", "en": "before" } },
+      { "canonical": "esse-", "role": "root", "meaning": "存在", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "sen", "positionTendency": "medial", "coreMeaning": { "cn": "存在", "en": "be/exist" } },
+      { "canonical": "-es", "role": "suffix", "meaning": "复数", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "es", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
     ],
-    "memorySemantics": {
-      "imageKey": "person in room",
-      "scene": "某人站在当前时空里，其气场感染周围",
-      "emotionalHook": "存在感带来的震撼",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "academic",
-        "general"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "present",
-        "represent",
-        "absent"
-      ],
-      "sameAffix": [
-        "absence",
-        "essence"
-      ],
-      "synonyms": [
-        "attendance",
-        "existence",
-        "bearing"
-      ],
-      "antonyms": [
-        "absence"
-      ],
-      "domainCohort": [
-        "present",
-        "omnipresent"
-      ],
-      "derivationPair": [
-        "present"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "appearance",
-        "attendance"
-      ]
-    }
+    "derivationChain": { "steps": [{ "from": "presence", "to": "presences", "operation": "plural" }] },
+    "memorySemantics": { "mnemonicExpr": "presence+s→多种存在/多方在场", "imageChain": ["多方聚集", "各类存在"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["presence"], "sameImagery": [] }
+  },
+  {
+    "word": "present",
+    "phonetic": "/ˈprezənt/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "现在的；在场的；礼物", "en": "existing or occurring now; in a particular place; a gift" },
+    "morphemes": [
+      { "canonical": "pre-", "role": "prefix", "meaning": "在前面", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": { "cn": "在前面", "en": "before/in front" } },
+      { "canonical": "esse-", "role": "root", "meaning": "存在", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "sent", "positionTendency": "final", "coreMeaning": { "cn": "存在", "en": "be/exist" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Latin praesens (being before)", "to": "present", "operation": "borrowing" }] },
+    "memorySemantics": { "mnemonicExpr": "pre(面前)+sent(存在)→在眼前存在→现在/在场", "imageChain": ["当下时刻", "礼物赠送", "出席签到"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["presence", "represent", "absent"], "sameAffix": [], "synonyms": ["current", "existing", "gift"], "antonyms": ["absent", "past", "future"], "domainCohort": ["current", "existing"], "derivationPair": ["presence"], "morphVariants": ["presents", "presented"], "sameImagery": [] }
+  },
+  {
+    "word": "present-day",
+    "phonetic": "/ˈprezəntdeɪ/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "当代的；现代的", "en": "of the present time; modern" },
+    "morphemes": [
+      { "canonical": "pre-", "role": "prefix", "meaning": "在前面", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": { "cn": "在前面", "en": "before/in front" } },
+      { "canonical": "esse-", "role": "root", "meaning": "存在", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "sent", "positionTendency": "medial", "coreMeaning": { "cn": "存在", "en": "be/exist" } },
+      { "canonical": "day", "role": "root", "meaning": "日；时代", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "day", "positionTendency": "final", "coreMeaning": { "cn": "日；时代", "en": "day/era" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "present + day", "to": "present-day", "operation": "compound adjective" }] },
+    "memorySemantics": { "mnemonicExpr": "present(现在)+day(天)→当今时代", "imageChain": ["现代社会", "当下时代", "当前"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["present"], "sameAffix": [], "synonyms": ["contemporary", "modern", "current"], "antonyms": ["past", "historical"], "domainCohort": ["modern", "contemporary"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "presentable",
+    "phonetic": "/prɪˈzentəbl/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "像样的；得体的", "en": "clean, tidy, or decent enough to be seen in public" },
+    "morphemes": [
+      { "canonical": "pre-", "role": "prefix", "meaning": "在前面", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": { "cn": "在前面", "en": "before" } },
+      { "canonical": "esse-", "role": "root", "meaning": "存在/展示", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "sent", "positionTendency": "medial", "coreMeaning": { "cn": "展示", "en": "show/present" } },
+      { "canonical": "-able", "role": "suffix", "meaning": "能够", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 3, "form": "able", "positionTendency": "final", "coreMeaning": { "cn": "能够", "en": "able to" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "present (v.)", "to": "presentable", "operation": "adjective via -able" }] },
+    "memorySemantics": { "mnemonicExpr": "present(展示)+able→能展示的→像样得体的", "imageChain": ["整洁外表", "得体穿着", "公开展示"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["present"], "sameAffix": [], "synonyms": ["decent", "respectable", "tidy"], "antonyms": ["unkempt", "untidy"], "domainCohort": ["decent", "neat"], "derivationPair": [], "morphVariants": ["presentably"], "sameImagery": [] }
+  },
+  {
+    "word": "presentably",
+    "phonetic": "/prɪˈzentəbli/",
+    "pos": "adv.",
+    "coreMeaning": { "cn": "得体地；像样地", "en": "in a presentable manner" },
+    "morphemes": [
+      { "canonical": "pre-", "role": "prefix", "meaning": "在前面", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": { "cn": "在前面", "en": "before" } },
+      { "canonical": "esse-", "role": "root", "meaning": "展示", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "sent", "positionTendency": "medial", "coreMeaning": { "cn": "展示", "en": "present" } },
+      { "canonical": "-ably", "role": "suffix", "meaning": "副词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ably", "positionTendency": "final", "coreMeaning": { "cn": "方式", "en": "in a manner" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "presentable", "to": "presentably", "operation": "adverb via -ly" }] },
+    "memorySemantics": { "mnemonicExpr": "presentable+ly→得体地", "imageChain": ["整洁出席", "体面装扮"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["presentable"], "sameImagery": [] }
+  },
+  {
+    "word": "presentation",
+    "phonetic": "/ˌprezənˈteɪʃən/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "演示；展示；呈现", "en": "the action of presenting something; a formal speech or display" },
+    "morphemes": [
+      { "canonical": "pre-", "role": "prefix", "meaning": "在前面", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": { "cn": "在前面", "en": "before" } },
+      { "canonical": "esse-", "role": "root", "meaning": "展示", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "sent", "positionTendency": "medial", "coreMeaning": { "cn": "展示", "en": "present" } },
+      { "canonical": "-ation", "role": "suffix", "meaning": "名词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ation", "positionTendency": "final", "coreMeaning": { "cn": "行为/结果", "en": "action/result" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "present (v.)", "to": "presentation", "operation": "noun via -ation" }] },
+    "memorySemantics": { "mnemonicExpr": "present(展示)+ation→展示行为→演示", "imageChain": ["PPT演讲", "产品发布", "成果展示"] },
+    "wordLevel": { "domain": "business", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["present", "represent"], "sameAffix": [], "synonyms": ["display", "demonstration", "exhibition"], "antonyms": [], "domainCohort": ["lecture", "demonstration", "talk"], "derivationPair": ["present"], "morphVariants": ["presentations"], "sameImagery": [] }
+  },
+  {
+    "word": "presentations",
+    "phonetic": "/ˌprezənˈteɪʃənz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "演示（复数）", "en": "plural of presentation" },
+    "morphemes": [
+      { "canonical": "pre-", "role": "prefix", "meaning": "在前面", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": { "cn": "在前面", "en": "before" } },
+      { "canonical": "esse-", "role": "root", "meaning": "展示", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "sent", "positionTendency": "medial", "coreMeaning": { "cn": "展示", "en": "present" } },
+      { "canonical": "-ations", "role": "suffix", "meaning": "复数名词", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ations", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "presentation", "to": "presentations", "operation": "plural" }] },
+    "memorySemantics": { "mnemonicExpr": "presentation+s→多场演示", "imageChain": ["系列演讲", "多次展示"] },
+    "wordLevel": { "domain": "business", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["presentation"], "sameImagery": [] }
+  },
+  {
+    "word": "presenter",
+    "phonetic": "/prɪˈzentər/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "主持人；演示者", "en": "a person who presents a television or radio program" },
+    "morphemes": [
+      { "canonical": "pre-", "role": "prefix", "meaning": "在前面", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": { "cn": "在前面", "en": "before" } },
+      { "canonical": "esse-", "role": "root", "meaning": "展示", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "sent", "positionTendency": "medial", "coreMeaning": { "cn": "展示", "en": "present" } },
+      { "canonical": "-er", "role": "suffix", "meaning": "执行者", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "er", "positionTendency": "final", "coreMeaning": { "cn": "执行者", "en": "one who does" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "present (v.)", "to": "presenter", "operation": "agent noun via -er" }] },
+    "memorySemantics": { "mnemonicExpr": "present(展示)+er→展示者→主持人/演示者", "imageChain": ["电视主持人", "演讲者", "展示台"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["present", "presentation"], "sameAffix": [], "synonyms": ["host", "anchor", "speaker"], "antonyms": [], "domainCohort": ["host", "anchor", "moderator"], "derivationPair": [], "morphVariants": ["presenters"], "sameImagery": [] }
+  },
+  {
+    "word": "presenters",
+    "phonetic": "/prɪˈzentərz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "主持人（复数）", "en": "plural of presenter" },
+    "morphemes": [
+      { "canonical": "pre-", "role": "prefix", "meaning": "在前面", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": { "cn": "在前面", "en": "before" } },
+      { "canonical": "esse-", "role": "root", "meaning": "展示", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "sent", "positionTendency": "medial", "coreMeaning": { "cn": "展示", "en": "present" } },
+      { "canonical": "-ers", "role": "suffix", "meaning": "复数执行者", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ers", "positionTendency": "final", "coreMeaning": { "cn": "复数人称", "en": "plural agents" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "presenter", "to": "presenters", "operation": "plural" }] },
+    "memorySemantics": { "mnemonicExpr": "presenter+s→多位主持人", "imageChain": ["主持团队", "多位演讲者"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["presenter"], "sameImagery": [] }
   },
   {
     "word": "presentiment",
-    "phonetic": "/prɪ'zɛntɪmənt/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "预感；不祥的预兆",
-      "en": "a feeling that something is about to happen"
-    },
+    "phonetic": "/prɪˈzentɪmənt/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "预感；不安的预兆", "en": "an intuitive feeling about the future, especially an uneasy feeling" },
     "morphemes": [
-      {
-        "canonical": "pre-",
-        "role": "prefix",
-        "form": "pre",
-        "meaning": "在…之前；预先",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "sent",
-        "role": "root",
-        "form": "sent",
-        "meaning": "感觉；感受",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ment",
-        "role": "suffix",
-        "form": "ment",
-        "meaning": "名词后缀，表示行为或结果",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "positionTendency": "final"
-      }
+      { "canonical": "pre-", "role": "prefix", "meaning": "在…之前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": { "cn": "在…之前", "en": "before" } },
+      { "canonical": "sent-", "role": "root", "meaning": "感受；感觉", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "sent", "positionTendency": "medial", "coreMeaning": { "cn": "感受", "en": "feel/sense" } },
+      { "canonical": "-iment", "role": "suffix", "meaning": "名词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "iment", "positionTendency": "final", "coreMeaning": { "cn": "状态/结果", "en": "state/result" } }
     ],
-    "derivationChain": [
-      "sentiment",
-      "presentiment"
+    "derivationChain": { "steps": [{ "from": "pre + sentiment", "to": "presentiment", "operation": "compound noun" }] },
+    "memorySemantics": { "mnemonicExpr": "pre(前)+sentiment(感觉)→提前有的感觉→预感", "imageChain": ["不安直觉", "心有不详", "预兆感觉"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": ["premonition", "foreboding", "intuition"], "antonyms": [], "domainCohort": ["foreboding", "premonition"], "derivationPair": [], "morphVariants": ["presentiments"], "sameImagery": [] }
+  },
+  {
+    "word": "presentiments",
+    "phonetic": "/prɪˈzentɪmənts/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "预感（复数）", "en": "plural of presentiment" },
+    "morphemes": [
+      { "canonical": "pre-", "role": "prefix", "meaning": "在…之前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": { "cn": "在…之前", "en": "before" } },
+      { "canonical": "sent-", "role": "root", "meaning": "感受", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "sent", "positionTendency": "medial", "coreMeaning": { "cn": "感受", "en": "feel" } },
+      { "canonical": "-iments", "role": "suffix", "meaning": "复数名词", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "iments", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
     ],
-    "memorySemantics": {
-      "imageKey": "uneasy feeling",
-      "scene": "事前隐隐感到将有大事发生，如同心脏的一阵悸动",
-      "emotionalHook": "直觉带来的隐忧",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "literary",
-        "gre"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "sentiment",
-        "sentient",
-        "resent"
-      ],
-      "sameAffix": [
-        "premonition",
-        "prediction"
-      ],
-      "synonyms": [
-        "foreboding",
-        "premonition",
-        "intuition"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "prescience",
-        "presage"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": [
-        "foreboding",
-        "omen"
-      ]
-    }
+    "derivationChain": { "steps": [{ "from": "presentiment", "to": "presentiments", "operation": "plural" }] },
+    "memorySemantics": { "mnemonicExpr": "presentiment+s→多种预感", "imageChain": ["反复预感", "多重不安"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["presentiment"], "sameImagery": [] }
+  },
+  {
+    "word": "presently",
+    "phonetic": "/ˈprezəntli/",
+    "pos": "adv.",
+    "coreMeaning": { "cn": "目前；不久", "en": "at the present time; soon" },
+    "morphemes": [
+      { "canonical": "pre-", "role": "prefix", "meaning": "在前面", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": { "cn": "在前面", "en": "before/in front" } },
+      { "canonical": "esse-", "role": "root", "meaning": "存在", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "sent", "positionTendency": "medial", "coreMeaning": { "cn": "存在", "en": "be/exist" } },
+      { "canonical": "-ly", "role": "suffix", "meaning": "副词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ly", "positionTendency": "final", "coreMeaning": { "cn": "方式", "en": "in a manner" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "present (adj.)", "to": "presently", "operation": "adverb via -ly" }] },
+    "memorySemantics": { "mnemonicExpr": "present(现在)+ly→在当前时刻→目前", "imageChain": ["当前时刻", "即将来临", "当下情境"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["present", "presence"], "sameAffix": [], "synonyms": ["currently", "now", "soon"], "antonyms": [], "domainCohort": ["currently", "nowadays"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "presentment",
+    "phonetic": "/prɪˈzentmənt/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "呈递；提交；陈述", "en": "the action of presenting something; a formal statement by a grand jury" },
+    "morphemes": [
+      { "canonical": "pre-", "role": "prefix", "meaning": "在前面", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": { "cn": "在前面", "en": "before" } },
+      { "canonical": "esse-", "role": "root", "meaning": "展示", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "sent", "positionTendency": "medial", "coreMeaning": { "cn": "展示", "en": "present" } },
+      { "canonical": "-ment", "role": "suffix", "meaning": "名词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ment", "positionTendency": "final", "coreMeaning": { "cn": "行为/结果", "en": "action/result" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "present (v.)", "to": "presentment", "operation": "noun via -ment" }] },
+    "memorySemantics": { "mnemonicExpr": "present(呈递)+ment→呈递行为→正式提交", "imageChain": ["法庭呈递", "大陪审团报告", "正式提交"] },
+    "wordLevel": { "domain": "legal", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["present", "representation"], "sameAffix": [], "synonyms": ["submission", "statement"], "antonyms": [], "domainCohort": ["indictment", "submission"], "derivationPair": [], "morphVariants": ["presentments"], "sameImagery": [] }
+  },
+  {
+    "word": "presentments",
+    "phonetic": "/prɪˈzentmənts/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "呈递（复数）", "en": "plural of presentment" },
+    "morphemes": [
+      { "canonical": "pre-", "role": "prefix", "meaning": "在前面", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": { "cn": "在前面", "en": "before" } },
+      { "canonical": "esse-", "role": "root", "meaning": "展示", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "sent", "positionTendency": "medial", "coreMeaning": { "cn": "展示", "en": "present" } },
+      { "canonical": "-ments", "role": "suffix", "meaning": "复数名词", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ments", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "presentment", "to": "presentments", "operation": "plural" }] },
+    "memorySemantics": { "mnemonicExpr": "presentment+s→多份正式呈递", "imageChain": ["多份报告", "多次提交"] },
+    "wordLevel": { "domain": "legal", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["presentment"], "sameImagery": [] }
+  },
+  {
+    "word": "presents",
+    "phonetic": "/ˈprezənts/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "礼物（复数）；展示（三单）", "en": "plural of present (gift); or third person singular of to present" },
+    "morphemes": [
+      { "canonical": "pre-", "role": "prefix", "meaning": "在前面", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": { "cn": "在前面", "en": "before" } },
+      { "canonical": "esse-", "role": "root", "meaning": "存在/展示", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "sent", "positionTendency": "medial", "coreMeaning": { "cn": "存在/展示", "en": "be/present" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "复数/三单", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数/三单", "en": "plural/3sg" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "present", "to": "presents", "operation": "plural or 3sg" }] },
+    "memorySemantics": { "mnemonicExpr": "present+s→礼物们/展示着", "imageChain": ["礼物堆", "展示台"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": ["gifts"], "antonyms": [], "domainCohort": ["gifts", "presents"], "derivationPair": [], "morphVariants": ["present"], "sameImagery": [] }
   },
   {
     "word": "preservation",
-    "phonetic": "/,prɛzɚ'veʃən/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "保存；保全；保护",
-      "en": "the act of keeping something safe from harm or decay"
-    },
+    "phonetic": "/ˌprezərˈveɪʃən/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "保存；保护；维护", "en": "the action of preserving something" },
     "morphemes": [
-      {
-        "canonical": "pre-",
-        "role": "prefix",
-        "form": "pre",
-        "meaning": "预先；在前",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "serv",
-        "role": "root",
-        "form": "serv",
-        "meaning": "保持；服务；守护",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ation",
-        "role": "suffix",
-        "form": "ation",
-        "meaning": "名词后缀，表示行为或过程",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "positionTendency": "final"
-      }
+      { "canonical": "pre-", "role": "prefix", "meaning": "在…之前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": { "cn": "在…之前", "en": "before" } },
+      { "canonical": "serv-", "role": "root", "meaning": "保持；保留", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 2, "form": "serv", "positionTendency": "medial", "coreMeaning": { "cn": "保持", "en": "keep/maintain" } },
+      { "canonical": "-ation", "role": "suffix", "meaning": "名词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ation", "positionTendency": "final", "coreMeaning": { "cn": "行为/结果", "en": "action/result" } }
     ],
-    "derivationChain": [
-      "preserve",
-      "preservation",
-      "preservative"
-    ],
-    "memorySemantics": {
-      "imageKey": "jar of preserved fruit",
-      "scene": "将珍贵的事物密封保存，防止随时间流逝而消亡",
-      "emotionalHook": "对珍贵事物的珍视与保护",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "academic",
-        "environmental"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "conserve",
-        "reserve",
-        "observe"
-      ],
-      "sameAffix": [
-        "conservation",
-        "observation"
-      ],
-      "synonyms": [
-        "conservation",
-        "protection",
-        "safeguarding"
-      ],
-      "antonyms": [
-        "destruction",
-        "deterioration"
-      ],
-      "domainCohort": [
-        "preservative",
-        "preserve"
-      ],
-      "derivationPair": [
-        "preserve",
-        "preservative"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "conservation",
-        "protection"
-      ]
-    }
+    "derivationChain": { "steps": [{ "from": "preserve", "to": "preservation", "operation": "noun via -ation" }] },
+    "memorySemantics": { "mnemonicExpr": "pre(前)+serv(保)+ation→提前保留→保存", "imageChain": ["文物保护", "食品防腐", "历史保存"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["preserve", "preservative"], "sameAffix": [], "synonyms": ["conservation", "protection", "maintenance"], "antonyms": ["destruction", "demolition"], "domainCohort": ["conservation", "protection"], "derivationPair": ["preserve"], "morphVariants": [], "sameImagery": [] }
   },
   {
     "word": "preservative",
-    "phonetic": "/prɪ'zɝvətɪv/",
-    "pos": [
-      "n.",
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "防腐剂；保存剂；有保护作用的",
-      "en": "a substance used to prevent decay"
-    },
+    "phonetic": "/prɪˈzɜːrvətɪv/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "防腐剂；保护性的", "en": "a substance used to preserve food; something that preserves" },
     "morphemes": [
-      {
-        "canonical": "pre-",
-        "role": "prefix",
-        "form": "pre",
-        "meaning": "预先",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "serv",
-        "role": "root",
-        "form": "serv",
-        "meaning": "保持；守护",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "positionTendency": "medial"
-      },
-      {
-        "canonical": "-ative",
-        "role": "suffix",
-        "form": "ative",
-        "meaning": "形容词/名词后缀，表示倾向或功能",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "positionTendency": "final"
-      }
+      { "canonical": "pre-", "role": "prefix", "meaning": "在…之前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": { "cn": "在…之前", "en": "before" } },
+      { "canonical": "serv-", "role": "root", "meaning": "保持", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 2, "form": "serv", "positionTendency": "medial", "coreMeaning": { "cn": "保持", "en": "keep" } },
+      { "canonical": "-ative", "role": "suffix", "meaning": "形容词/名词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ative", "positionTendency": "final", "coreMeaning": { "cn": "具有…性质", "en": "having quality of" } }
     ],
-    "derivationChain": [
-      "preserve",
-      "preservative"
-    ],
-    "memorySemantics": {
-      "imageKey": "food additives label",
-      "scene": "食品标签上列出的防腐成分，防止食物腐败变质",
-      "emotionalHook": "对食品安全的关注",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "medical",
-        "food",
-        "gre"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "preservation",
-        "conserve",
-        "observe"
-      ],
-      "sameAffix": [
-        "narrative",
-        "creative"
-      ],
-      "synonyms": [
-        "additive",
-        "antioxidant"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "preservation",
-        "antidote"
-      ],
-      "derivationPair": [
-        "preservation"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "antidote",
-        "stabilizer"
-      ]
-    }
+    "derivationChain": { "steps": [{ "from": "preserve", "to": "preservative", "operation": "noun/adj via -ative" }] },
+    "memorySemantics": { "mnemonicExpr": "preserv(保存)+ative→具有保存性质的→防腐剂", "imageChain": ["食品标签", "化学添加剂", "防腐处理"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["preserve", "preservation"], "sameAffix": [], "synonyms": ["additive", "conservant"], "antonyms": [], "domainCohort": ["additive", "antioxidant"], "derivationPair": ["preserve"], "morphVariants": [], "sameImagery": [] }
   }
 ]

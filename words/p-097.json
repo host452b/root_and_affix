@@ -1,868 +1,594 @@
 [
   {
-    "word": "port",
-    "phonetic": "/pɔrt/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "港口；左舷",
-      "en": "harbor; left side of a ship"
-    },
+    "word": "porphyry",
+    "phonetic": "/ˈpɔːrfɪri/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "斑岩（一种火成岩）", "en": "a hard igneous rock with large crystals" },
     "morphemes": [
-      {
-        "canonical": "port",
-        "role": "root",
-        "meaning": "港口；携带",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "port",
-        "positionTendency": "initial"
-      }
+      { "canonical": "porphyr-", "role": "root", "meaning": "紫色", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "porphyr", "positionTendency": "initial", "coreMeaning": { "cn": "紫色", "en": "purple" } },
+      { "canonical": "-y", "role": "suffix", "meaning": "名词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "y", "positionTendency": "final", "coreMeaning": { "cn": "名词化", "en": "nominalizer" } }
     ],
-    "derivationChain": [
-      "portus (L.) → port"
+    "derivationChain": { "steps": [{ "from": "Greek porphyra (purple)", "to": "porphyry", "operation": "noun formation" }] },
+    "memorySemantics": { "mnemonicExpr": "porphyr(紫)+y→紫色斑纹的岩石", "imageChain": ["紫色晶体", "花岗质火成岩", "建筑装饰石材"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "porpoise",
+    "phonetic": "/ˈpɔːrpəs/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "鼠海豚", "en": "a small whale-like sea mammal" },
+    "morphemes": [
+      { "canonical": "porc-", "role": "root", "meaning": "猪", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "por", "positionTendency": "initial", "coreMeaning": { "cn": "猪", "en": "pig" } },
+      { "canonical": "pisce-", "role": "root", "meaning": "鱼", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "poise", "positionTendency": "final", "coreMeaning": { "cn": "鱼", "en": "fish" } }
     ],
-    "memorySemantics": {
-      "imageKey": "harbor-gate",
-      "scene": "船进入港口，左舷靠岸",
-      "emotionalHook": "port/左舷 → 记忆口诀：port 和 left 都有相同字母数",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "navigation",
-        "geography"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "portable",
-        "portage",
-        "portend",
-        "porter",
-        "portfolio",
-        "portion"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "harbor",
-        "haven"
-      ],
-      "antonyms": [
-        "starboard"
-      ],
-      "domainCohort": [
-        "harbor",
-        "dock",
-        "wharf"
-      ],
-      "derivationPair": [
-        "portage",
-        "porter"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": { "steps": [{ "from": "Latin porcus (pig) + piscis (fish)", "to": "porpoise", "operation": "compound noun" }] },
+    "memorySemantics": { "mnemonicExpr": "por(猪)+poise(鱼)→猪鱼→鼠海豚", "imageChain": ["海洋哺乳动物", "短吻海豚", "群游"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": ["dolphin"], "antonyms": [], "domainCohort": ["whale", "dolphin"], "derivationPair": [], "morphVariants": ["porpoises"], "sameImagery": [] }
+  },
+  {
+    "word": "porpoises",
+    "phonetic": "/ˈpɔːrpəsɪz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "鼠海豚（复数）", "en": "plural of porpoise" },
+    "morphemes": [
+      { "canonical": "porc-", "role": "root", "meaning": "猪", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "por", "positionTendency": "initial", "coreMeaning": { "cn": "猪", "en": "pig" } },
+      { "canonical": "pisce-", "role": "root", "meaning": "鱼", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "poise", "positionTendency": "medial", "coreMeaning": { "cn": "鱼", "en": "fish" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "复数", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "porpoise", "to": "porpoises", "operation": "plural" }] },
+    "memorySemantics": { "mnemonicExpr": "porpoise+s→多只鼠海豚", "imageChain": ["群游海豚", "海洋动物"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["porpoise"], "sameImagery": [] }
+  },
+  {
+    "word": "porridge",
+    "phonetic": "/ˈpɒrɪdʒ/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "粥；燕麦粥", "en": "a dish of oatmeal or other cereal boiled in water or milk" },
+    "morphemes": [
+      { "canonical": "porridge", "role": "root", "meaning": "燕麦粥", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "porridge", "positionTendency": "initial", "coreMeaning": { "cn": "燕麦粥", "en": "oatmeal porridge" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Old French potage (thick soup)", "to": "porridge", "operation": "phonetic shift" }] },
+    "memorySemantics": { "mnemonicExpr": "porridge→por(煮)+ridge→煮稠的粥", "imageChain": ["燕麦", "热锅熬煮", "早餐粥碗"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": ["oatmeal", "gruel"], "antonyms": [], "domainCohort": ["cereal", "gruel"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "porringer",
+    "phonetic": "/ˈpɒrɪndʒər/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "粥碗；小深碗", "en": "a small bowl for soup or porridge" },
+    "morphemes": [
+      { "canonical": "porridge", "role": "root", "meaning": "燕麦粥", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "porring", "positionTendency": "initial", "coreMeaning": { "cn": "燕麦粥", "en": "porridge" } },
+      { "canonical": "-er", "role": "suffix", "meaning": "容器/人", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "er", "positionTendency": "final", "coreMeaning": { "cn": "容器", "en": "container/agent" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "porridge", "to": "porringer", "operation": "agent/container noun" }] },
+    "memorySemantics": { "mnemonicExpr": "porring(粥)+er(器皿)→盛粥的碗", "imageChain": ["小碗", "盛粥", "餐具"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": ["bowl"], "antonyms": [], "domainCohort": ["bowl", "dish"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "port",
+    "phonetic": "/pɔːrt/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "港口；左舷；波特酒", "en": "a harbor or place where ships can dock; also a fortified wine" },
+    "morphemes": [
+      { "canonical": "port-", "role": "root", "meaning": "携带；港口", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "port", "positionTendency": "initial", "coreMeaning": { "cn": "携带；港口", "en": "carry; harbor" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Latin portus (harbor)", "to": "port", "operation": "borrowing" }] },
+    "memorySemantics": { "mnemonicExpr": "port→港口，船只停靠之处", "imageChain": ["码头", "船只停泊", "货物装卸"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["portal", "transport", "export", "import", "portable"], "sameAffix": [], "synonyms": ["harbor", "haven", "dock"], "antonyms": [], "domainCohort": ["harbor", "dock", "wharf"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "port-wine",
+    "phonetic": "/ˈpɔːrtwaɪn/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "波特酒；葡萄牙产甜红葡萄酒", "en": "a strong sweet dark red wine from Portugal" },
+    "morphemes": [
+      { "canonical": "port-", "role": "root", "meaning": "港口（波尔图）", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "port", "positionTendency": "initial", "coreMeaning": { "cn": "港口", "en": "harbor" } },
+      { "canonical": "wine", "role": "root", "meaning": "葡萄酒", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "wine", "positionTendency": "final", "coreMeaning": { "cn": "葡萄酒", "en": "wine" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "port + wine", "to": "port-wine", "operation": "compound noun" }] },
+    "memorySemantics": { "mnemonicExpr": "port(波尔图港)+wine(酒)→波特酒", "imageChain": ["葡萄牙", "红葡萄酒", "甜味加强型"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["port"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["wine", "sherry", "madeira"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "portability",
+    "phonetic": "/ˌpɔːrtəˈbɪlɪti/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "可携带性；可移植性", "en": "the quality of being portable" },
+    "morphemes": [
+      { "canonical": "port-", "role": "root", "meaning": "携带", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "port", "positionTendency": "initial", "coreMeaning": { "cn": "携带", "en": "carry" } },
+      { "canonical": "-able", "role": "suffix", "meaning": "能够", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "abil", "positionTendency": "medial", "coreMeaning": { "cn": "能够", "en": "able to" } },
+      { "canonical": "-ity", "role": "suffix", "meaning": "状态/性质", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ity", "positionTendency": "final", "coreMeaning": { "cn": "性质", "en": "quality/state" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "portable", "to": "portability", "operation": "abstract noun via -ity" }] },
+    "memorySemantics": { "mnemonicExpr": "port(携带)+ability(能力)→可携带性", "imageChain": ["笔记本电脑", "移动设备", "随身携带"] },
+    "wordLevel": { "domain": "tech", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["port", "portable", "transport"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["mobility", "flexibility"], "derivationPair": ["portable"], "morphVariants": [], "sameImagery": [] }
   },
   {
     "word": "portable",
-    "phonetic": "/'pɔrtəbl/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "便携式的，手提的",
-      "en": "able to be carried easily"
-    },
+    "phonetic": "/ˈpɔːrtəbl/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "便携的；可移植的", "en": "able to be carried or moved easily" },
     "morphemes": [
-      {
-        "canonical": "port",
-        "role": "root",
-        "meaning": "携带",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "port"
-      },
-      {
-        "canonical": "-able",
-        "role": "suffix",
-        "meaning": "能够…的",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "able"
-      }
+      { "canonical": "port-", "role": "root", "meaning": "携带", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "port", "positionTendency": "initial", "coreMeaning": { "cn": "携带", "en": "carry" } },
+      { "canonical": "-able", "role": "suffix", "meaning": "能够", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 2, "form": "able", "positionTendency": "final", "coreMeaning": { "cn": "能够", "en": "able to" } }
     ],
-    "derivationChain": [
-      "portare (L. carry) + -able → portable"
+    "derivationChain": { "steps": [{ "from": "Latin portare (to carry)", "to": "portable", "operation": "adjective via -able" }] },
+    "memorySemantics": { "mnemonicExpr": "port(携)+able(能)→能携带的→便携的", "imageChain": ["轻便设备", "随身包", "移动工作"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["port", "portability", "transport"], "sameAffix": [], "synonyms": ["mobile", "handy"], "antonyms": ["fixed", "stationary"], "domainCohort": ["mobile", "handheld"], "derivationPair": ["portability"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "portage",
+    "phonetic": "/ˈpɔːrtɪdʒ/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "陆路运输；搬运费", "en": "the carrying of boats or goods overland" },
+    "morphemes": [
+      { "canonical": "port-", "role": "root", "meaning": "携带", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "port", "positionTendency": "initial", "coreMeaning": { "cn": "携带", "en": "carry" } },
+      { "canonical": "-age", "role": "suffix", "meaning": "行为/费用", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "age", "positionTendency": "final", "coreMeaning": { "cn": "行为/费用", "en": "action/charge" } }
     ],
-    "memorySemantics": {
-      "imageKey": "carry-able",
-      "scene": "可以随身携带的设备",
-      "emotionalHook": "port(携带) + able(能够) = 能携带的",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "tech",
-        "general"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "port",
-        "portage",
-        "porter",
-        "transport",
-        "export",
-        "import"
-      ],
-      "sameAffix": [
-        "manageable",
-        "readable",
-        "washable"
-      ],
-      "synonyms": [
-        "handheld",
-        "mobile"
-      ],
-      "antonyms": [
-        "fixed",
-        "stationary"
-      ],
-      "domainCohort": [
-        "laptop",
-        "handheld",
-        "mobile"
-      ],
-      "derivationPair": [
-        "portability"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": { "steps": [{ "from": "Latin portare (carry)", "to": "portage", "operation": "noun via -age" }] },
+    "memorySemantics": { "mnemonicExpr": "port(携)+age(行为)→陆路搬运", "imageChain": ["独木舟", "抬过陆地", "探险运输"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["port", "portable", "transport"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["transport", "carriage"], "derivationPair": [], "morphVariants": ["portages"], "sameImagery": [] }
+  },
+  {
+    "word": "portages",
+    "phonetic": "/ˈpɔːrtɪdʒɪz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "陆路运输（复数）", "en": "plural of portage" },
+    "morphemes": [
+      { "canonical": "port-", "role": "root", "meaning": "携带", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "port", "positionTendency": "initial", "coreMeaning": { "cn": "携带", "en": "carry" } },
+      { "canonical": "-age", "role": "suffix", "meaning": "行为/费用", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "age", "positionTendency": "medial", "coreMeaning": { "cn": "行为/费用", "en": "action/charge" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "复数", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "portage", "to": "portages", "operation": "plural" }] },
+    "memorySemantics": { "mnemonicExpr": "portage+s→多次陆路搬运", "imageChain": ["多段旅程", "反复搬运"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["portage"], "sameImagery": [] }
+  },
+  {
+    "word": "portal",
+    "phonetic": "/ˈpɔːrtl/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "门户；入口", "en": "a doorway or gate, especially a large and impressive one" },
+    "morphemes": [
+      { "canonical": "port-", "role": "root", "meaning": "门；入口", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "port", "positionTendency": "initial", "coreMeaning": { "cn": "门；入口", "en": "gate; entrance" } },
+      { "canonical": "-al", "role": "suffix", "meaning": "名词/形容词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "al", "positionTendency": "final", "coreMeaning": { "cn": "相关于", "en": "relating to" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Latin porta (gate)", "to": "portal", "operation": "noun via -al" }] },
+    "memorySemantics": { "mnemonicExpr": "port(门)+al→门户→大门入口", "imageChain": ["大门", "入口通道", "网页门户"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["port", "portcullis"], "sameAffix": [], "synonyms": ["gateway", "entrance", "doorway"], "antonyms": [], "domainCohort": ["gateway", "entrance"], "derivationPair": [], "morphVariants": ["portals"], "sameImagery": [] }
+  },
+  {
+    "word": "portals",
+    "phonetic": "/ˈpɔːrtlz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "门户（复数）", "en": "plural of portal" },
+    "morphemes": [
+      { "canonical": "port-", "role": "root", "meaning": "门；入口", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "port", "positionTendency": "initial", "coreMeaning": { "cn": "门；入口", "en": "gate; entrance" } },
+      { "canonical": "-al", "role": "suffix", "meaning": "名词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "al", "positionTendency": "medial", "coreMeaning": { "cn": "名词化", "en": "nominalizer" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "复数", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "portal", "to": "portals", "operation": "plural" }] },
+    "memorySemantics": { "mnemonicExpr": "portal+s→多个门户", "imageChain": ["多道大门", "多个入口"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["portal"], "sameImagery": [] }
+  },
+  {
+    "word": "portcullis",
+    "phonetic": "/pɔːrtˈkʌlɪs/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "城堡闸门；铁格栅门", "en": "a heavy iron grating lowered to block a gateway" },
+    "morphemes": [
+      { "canonical": "port-", "role": "root", "meaning": "门", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "port", "positionTendency": "initial", "coreMeaning": { "cn": "门", "en": "gate" } },
+      { "canonical": "coul-", "role": "root", "meaning": "滑动", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "cullis", "positionTendency": "final", "coreMeaning": { "cn": "滑动", "en": "sliding" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Old French porte (gate) + coleice (sliding)", "to": "portcullis", "operation": "compound borrowing" }] },
+    "memorySemantics": { "mnemonicExpr": "port(门)+cullis(滑)→能滑动的城堡门", "imageChain": ["中世纪城堡", "铁格栅", "防御闸门"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["portal", "port"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["drawbridge", "battlement"], "derivationPair": [], "morphVariants": ["portcullises"], "sameImagery": [] }
+  },
+  {
+    "word": "portcullises",
+    "phonetic": "/pɔːrtˈkʌlɪsɪz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "城堡闸门（复数）", "en": "plural of portcullis" },
+    "morphemes": [
+      { "canonical": "port-", "role": "root", "meaning": "门", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "port", "positionTendency": "initial", "coreMeaning": { "cn": "门", "en": "gate" } },
+      { "canonical": "coul-", "role": "root", "meaning": "滑动", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "cullis", "positionTendency": "medial", "coreMeaning": { "cn": "滑动", "en": "sliding" } },
+      { "canonical": "-es", "role": "suffix", "meaning": "复数", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "es", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "portcullis", "to": "portcullises", "operation": "plural" }] },
+    "memorySemantics": { "mnemonicExpr": "portcullis+es→多道铁格栅门", "imageChain": ["多道城堡防御门"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["portcullis"], "sameImagery": [] }
   },
   {
     "word": "portend",
-    "phonetic": "/pɔr'tɛnd/",
-    "pos": [
-      "vt."
-    ],
-    "coreMeaning": {
-      "cn": "预示；是…的前兆",
-      "en": "to be a sign or warning of"
-    },
+    "phonetic": "/pɔːrˈtend/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "预示；预兆", "en": "to be a sign or warning that something is going to happen" },
     "morphemes": [
-      {
-        "canonical": "por-",
-        "role": "prefix",
-        "meaning": "向前；预先",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "por"
-      },
-      {
-        "canonical": "tend",
-        "role": "root",
-        "meaning": "伸展，延伸",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "tend"
-      }
+      { "canonical": "port-", "role": "prefix", "meaning": "向前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "por", "positionTendency": "initial", "coreMeaning": { "cn": "向前", "en": "forward" } },
+      { "canonical": "tend-", "role": "root", "meaning": "伸展；延伸", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "tend", "positionTendency": "final", "coreMeaning": { "cn": "伸展", "en": "stretch" } }
     ],
-    "derivationChain": [
-      "por- (before) + tendere (L. stretch) → portend"
+    "derivationChain": { "steps": [{ "from": "Latin portendere (por- forward + tendere stretch)", "to": "portend", "operation": "borrowing" }] },
+    "memorySemantics": { "mnemonicExpr": "por(向前)+tend(伸展)→向前延伸预示→预兆", "imageChain": ["乌云密布", "不祥征兆", "预示灾难"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["portent", "portentous"], "sameAffix": [], "synonyms": ["forebode", "presage", "augur"], "antonyms": [], "domainCohort": ["presage", "omen", "foretell"], "derivationPair": ["portent"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "portended",
+    "phonetic": "/pɔːrˈtendɪd/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "预示了（过去式）", "en": "past tense of portend" },
+    "morphemes": [
+      { "canonical": "port-", "role": "prefix", "meaning": "向前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "por", "positionTendency": "initial", "coreMeaning": { "cn": "向前", "en": "forward" } },
+      { "canonical": "tend-", "role": "root", "meaning": "伸展", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "tend", "positionTendency": "medial", "coreMeaning": { "cn": "伸展", "en": "stretch" } },
+      { "canonical": "-ed", "role": "suffix", "meaning": "过去式", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ed", "positionTendency": "final", "coreMeaning": { "cn": "过去式", "en": "past tense" } }
     ],
-    "memorySemantics": {
-      "imageKey": "omen-stretched-forward",
-      "scene": "黑云在天际延伸，预示着暴风雨",
-      "emotionalHook": "portend = 向前伸出的手，预示着未来",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "literary",
-        "general"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "portent",
-        "portentous"
-      ],
-      "sameAffix": [
-        "tend",
-        "extend",
-        "intend"
-      ],
-      "synonyms": [
-        "presage",
-        "augur",
-        "foreshadow"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "omen",
-        "forebode",
-        "harbinger"
-      ],
-      "derivationPair": [
-        "portent",
-        "portentous"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "foreshadow",
-        "presage"
-      ]
-    }
+    "derivationChain": { "steps": [{ "from": "portend", "to": "portended", "operation": "past tense" }] },
+    "memorySemantics": { "mnemonicExpr": "portend+ed→曾经预示", "imageChain": ["历史征兆", "事后回看"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["portend"], "sameImagery": [] }
+  },
+  {
+    "word": "portending",
+    "phonetic": "/pɔːrˈtendɪŋ/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "预示（进行时）", "en": "present participle of portend" },
+    "morphemes": [
+      { "canonical": "port-", "role": "prefix", "meaning": "向前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "por", "positionTendency": "initial", "coreMeaning": { "cn": "向前", "en": "forward" } },
+      { "canonical": "tend-", "role": "root", "meaning": "伸展", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "tend", "positionTendency": "medial", "coreMeaning": { "cn": "伸展", "en": "stretch" } },
+      { "canonical": "-ing", "role": "suffix", "meaning": "进行时", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ing", "positionTendency": "final", "coreMeaning": { "cn": "进行时", "en": "present participle" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "portend", "to": "portending", "operation": "present participle" }] },
+    "memorySemantics": { "mnemonicExpr": "portend+ing→正在预示", "imageChain": ["当前征兆", "不断预示"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["portend"], "sameImagery": [] }
+  },
+  {
+    "word": "portends",
+    "phonetic": "/pɔːrˈtendz/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "预示（三单）", "en": "third person singular of portend" },
+    "morphemes": [
+      { "canonical": "port-", "role": "prefix", "meaning": "向前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "por", "positionTendency": "initial", "coreMeaning": { "cn": "向前", "en": "forward" } },
+      { "canonical": "tend-", "role": "root", "meaning": "伸展", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "tend", "positionTendency": "medial", "coreMeaning": { "cn": "伸展", "en": "stretch" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "三单", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "三单", "en": "third person singular" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "portend", "to": "portends", "operation": "third person singular" }] },
+    "memorySemantics": { "mnemonicExpr": "portend+s→（它/他）预示", "imageChain": ["征兆", "预示"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["portend"], "sameImagery": [] }
   },
   {
     "word": "portent",
-    "phonetic": "/'pɔrtɛnt/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "前兆；预示；异兆",
-      "en": "an omen or sign of something to come"
-    },
+    "phonetic": "/ˈpɔːrtent/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "预兆；征兆", "en": "a sign or warning that something momentous is about to happen" },
     "morphemes": [
-      {
-        "canonical": "por-",
-        "role": "prefix",
-        "meaning": "向前",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "por"
-      },
-      {
-        "canonical": "tend",
-        "role": "root",
-        "meaning": "伸展",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "tent"
-      }
+      { "canonical": "port-", "role": "prefix", "meaning": "向前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "por", "positionTendency": "initial", "coreMeaning": { "cn": "向前", "en": "forward" } },
+      { "canonical": "tent-", "role": "root", "meaning": "伸展（名词形式）", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "tent", "positionTendency": "final", "coreMeaning": { "cn": "伸展", "en": "stretch/sign" } }
     ],
-    "derivationChain": [
-      "portendere → portentum → portent"
-    ],
-    "memorySemantics": {
-      "imageKey": "dark-omen",
-      "scene": "古罗马祭司观察飞鸟征兆",
-      "emotionalHook": "portent 和 portend 同根，名词形式",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "literary",
-        "academic"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "portend",
-        "portentous"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "omen",
-        "presage",
-        "augury"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "omen",
-        "augury",
-        "harbinger"
-      ],
-      "derivationPair": [
-        "portend",
-        "portentous"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "omen",
-        "harbinger"
-      ]
-    }
+    "derivationChain": { "steps": [{ "from": "portend", "to": "portent", "operation": "noun formation" }] },
+    "memorySemantics": { "mnemonicExpr": "por(前)+tent(延伸)→向前延伸的征兆", "imageChain": ["不祥预兆", "神秘征兆", "灾难前兆"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["消极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["portend", "portentous"], "sameAffix": [], "synonyms": ["omen", "augury", "presage"], "antonyms": [], "domainCohort": ["omen", "sign", "augury"], "derivationPair": ["portend", "portentous"], "morphVariants": [], "sameImagery": [] }
   },
   {
     "word": "portentous",
-    "phonetic": "/pɔr'tɛntəs/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "预示性的；重大的；装腔作势的",
-      "en": "of momentous significance; pompously solemn"
-    },
+    "phonetic": "/pɔːrˈtentəs/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "不祥的；预兆性的；夸张的", "en": "of momentous significance; ominously prophetic" },
     "morphemes": [
-      {
-        "canonical": "portent",
-        "role": "root",
-        "meaning": "前兆",
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "portent"
-      },
-      {
-        "canonical": "-ous",
-        "role": "suffix",
-        "meaning": "充满…的",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "ous"
-      }
+      { "canonical": "port-", "role": "prefix", "meaning": "向前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "por", "positionTendency": "initial", "coreMeaning": { "cn": "向前", "en": "forward" } },
+      { "canonical": "tent-", "role": "root", "meaning": "伸展", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "tent", "positionTendency": "medial", "coreMeaning": { "cn": "伸展", "en": "stretch" } },
+      { "canonical": "-ous", "role": "suffix", "meaning": "充满…的", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 3, "form": "ous", "positionTendency": "final", "coreMeaning": { "cn": "充满…的", "en": "full of" } }
     ],
-    "derivationChain": [
-      "portentum + -osus → portentous"
+    "derivationChain": { "steps": [{ "from": "portent", "to": "portentous", "operation": "adjective via -ous" }] },
+    "memorySemantics": { "mnemonicExpr": "portent(预兆)+ous→充满预兆的→不祥的", "imageChain": ["乌云", "不祥气氛", "重大时刻"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["消极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["portend", "portent"], "sameAffix": [], "synonyms": ["ominous", "foreboding", "momentous"], "antonyms": ["auspicious"], "domainCohort": ["ominous", "prophetic"], "derivationPair": ["portent"], "morphVariants": ["portentously"], "sameImagery": [] }
+  },
+  {
+    "word": "portentously",
+    "phonetic": "/pɔːrˈtentəsli/",
+    "pos": "adv.",
+    "coreMeaning": { "cn": "不祥地；夸张地", "en": "in a portentous manner" },
+    "morphemes": [
+      { "canonical": "port-", "role": "prefix", "meaning": "向前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "por", "positionTendency": "initial", "coreMeaning": { "cn": "向前", "en": "forward" } },
+      { "canonical": "tent-", "role": "root", "meaning": "伸展", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "tent", "positionTendency": "medial", "coreMeaning": { "cn": "伸展", "en": "stretch" } },
+      { "canonical": "-ous", "role": "suffix", "meaning": "形容词后缀", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 3, "form": "ous", "positionTendency": "medial", "coreMeaning": { "cn": "充满…的", "en": "full of" } },
+      { "canonical": "-ly", "role": "suffix", "meaning": "副词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 4, "form": "ly", "positionTendency": "final", "coreMeaning": { "cn": "方式", "en": "in a manner" } }
     ],
-    "memorySemantics": {
-      "imageKey": "pompous-omen",
-      "scene": "以傲慢姿态宣告重大预言的先知",
-      "emotionalHook": "portentous = 充满预兆的，往往有傲慢意味",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "literary",
-        "academic"
-      ],
-      "sentiment": {
-        "tags": [
-          "贬义"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "portend",
-        "portent"
-      ],
-      "sameAffix": [
-        "ominous",
-        "momentous"
-      ],
-      "synonyms": [
-        "ominous",
-        "pompous",
-        "grandiose"
-      ],
-      "antonyms": [
-        "trivial",
-        "understated"
-      ],
-      "domainCohort": [
-        "ominous",
-        "foreboding"
-      ],
-      "derivationPair": [
-        "portent"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": { "steps": [{ "from": "portentous", "to": "portentously", "operation": "adverb via -ly" }] },
+    "memorySemantics": { "mnemonicExpr": "portentous+ly→以不祥的方式", "imageChain": ["不祥地说", "神秘语气"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["portentous"], "sameImagery": [] }
+  },
+  {
+    "word": "portents",
+    "phonetic": "/ˈpɔːrtents/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "预兆（复数）", "en": "plural of portent" },
+    "morphemes": [
+      { "canonical": "port-", "role": "prefix", "meaning": "向前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "por", "positionTendency": "initial", "coreMeaning": { "cn": "向前", "en": "forward" } },
+      { "canonical": "tent-", "role": "root", "meaning": "伸展", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "tent", "positionTendency": "medial", "coreMeaning": { "cn": "伸展", "en": "stretch" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "复数", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "portent", "to": "portents", "operation": "plural" }] },
+    "memorySemantics": { "mnemonicExpr": "portent+s→多个预兆", "imageChain": ["多种征兆", "连续预警"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["portent"], "sameImagery": [] }
   },
   {
     "word": "porter",
-    "phonetic": "/'pɔrtɚ/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "搬运工；门房；行李员",
-      "en": "one who carries luggage or goods; doorkeeper"
-    },
+    "phonetic": "/ˈpɔːrtər/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "搬运工；门卫；黑啤酒", "en": "a person employed to carry luggage; a dark beer" },
     "morphemes": [
-      {
-        "canonical": "port",
-        "role": "root",
-        "meaning": "携带",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "port"
-      },
-      {
-        "canonical": "-er",
-        "role": "suffix",
-        "meaning": "做…的人",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "er"
-      }
+      { "canonical": "port-", "role": "root", "meaning": "携带", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "port", "positionTendency": "initial", "coreMeaning": { "cn": "携带", "en": "carry" } },
+      { "canonical": "-er", "role": "suffix", "meaning": "执行者", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "er", "positionTendency": "final", "coreMeaning": { "cn": "执行者", "en": "one who does" } }
     ],
-    "derivationChain": [
-      "portare (L. carry) + -er → porter"
+    "derivationChain": { "steps": [{ "from": "Latin portare (carry)", "to": "porter", "operation": "agent noun via -er" }] },
+    "memorySemantics": { "mnemonicExpr": "port(携)+er(人)→搬运行李的人", "imageChain": ["酒店门卫", "行李搬运", "火车站红帽"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["port", "portage", "transport"], "sameAffix": [], "synonyms": ["carrier", "bellhop"], "antonyms": [], "domainCohort": ["bellhop", "carrier"], "derivationPair": [], "morphVariants": ["porters", "porter's"], "sameImagery": [] }
+  },
+  {
+    "word": "porter's",
+    "phonetic": "/ˈpɔːrtərz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "搬运工的（所有格）", "en": "possessive of porter" },
+    "morphemes": [
+      { "canonical": "port-", "role": "root", "meaning": "携带", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "port", "positionTendency": "initial", "coreMeaning": { "cn": "携带", "en": "carry" } },
+      { "canonical": "-er", "role": "suffix", "meaning": "执行者", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "er", "positionTendency": "medial", "coreMeaning": { "cn": "执行者", "en": "agent" } },
+      { "canonical": "-'s", "role": "suffix", "meaning": "所有格", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "'s", "positionTendency": "final", "coreMeaning": { "cn": "所有格", "en": "possessive" } }
     ],
-    "memorySemantics": {
-      "imageKey": "luggage-carrier",
-      "scene": "酒店门口拎着行李的搬运员",
-      "emotionalHook": "port(携带) + er(人) = 搬运工",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general",
-        "hospitality"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "port",
-        "portable",
-        "portage",
-        "transport"
-      ],
-      "sameAffix": [
-        "driver",
-        "baker",
-        "teacher"
-      ],
-      "synonyms": [
-        "bellhop",
-        "doorman",
-        "carrier"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "bellhop",
-        "concierge",
-        "doorman"
-      ],
-      "derivationPair": [
-        "portage"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": { "steps": [{ "from": "porter", "to": "porter's", "operation": "possessive" }] },
+    "memorySemantics": { "mnemonicExpr": "porter+'s→搬运工的（物品）", "imageChain": ["行李归属", "工人财物"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["porter"], "sameImagery": [] }
+  },
+  {
+    "word": "porterhouse",
+    "phonetic": "/ˈpɔːrtərhaʊs/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "上等牛排；旅馆酒吧", "en": "a large steak cut from the thick end of a sirloin; a tavern" },
+    "morphemes": [
+      { "canonical": "port-", "role": "root", "meaning": "携带；门卫", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "porter", "positionTendency": "initial", "coreMeaning": { "cn": "门卫", "en": "porter/doorman" } },
+      { "canonical": "house", "role": "root", "meaning": "房屋", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "house", "positionTendency": "final", "coreMeaning": { "cn": "房屋", "en": "house/establishment" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "porter + house", "to": "porterhouse", "operation": "compound noun" }] },
+    "memorySemantics": { "mnemonicExpr": "porter(门卫)+house(店)→门卫值守的馆子→旅馆/上等牛排", "imageChain": ["牛排馆", "厚切牛排", "高档餐厅"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["porter"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["steak", "sirloin"], "derivationPair": [], "morphVariants": ["porterhouses"], "sameImagery": [] }
+  },
+  {
+    "word": "porterhouses",
+    "phonetic": "/ˈpɔːrtərhaʊzɪz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "上等牛排（复数）", "en": "plural of porterhouse" },
+    "morphemes": [
+      { "canonical": "port-", "role": "root", "meaning": "门卫", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "porter", "positionTendency": "initial", "coreMeaning": { "cn": "门卫", "en": "porter" } },
+      { "canonical": "house", "role": "root", "meaning": "房屋", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "house", "positionTendency": "medial", "coreMeaning": { "cn": "房屋", "en": "house" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "复数", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "porterhouse", "to": "porterhouses", "operation": "plural" }] },
+    "memorySemantics": { "mnemonicExpr": "porterhouse+s→多家牛排馆", "imageChain": ["多家餐厅", "牛排连锁"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["porterhouse"], "sameImagery": [] }
+  },
+  {
+    "word": "porters",
+    "phonetic": "/ˈpɔːrtərz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "搬运工（复数）", "en": "plural of porter" },
+    "morphemes": [
+      { "canonical": "port-", "role": "root", "meaning": "携带", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "port", "positionTendency": "initial", "coreMeaning": { "cn": "携带", "en": "carry" } },
+      { "canonical": "-er", "role": "suffix", "meaning": "执行者", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "er", "positionTendency": "medial", "coreMeaning": { "cn": "执行者", "en": "agent" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "复数", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "porter", "to": "porters", "operation": "plural" }] },
+    "memorySemantics": { "mnemonicExpr": "porter+s→多名搬运工", "imageChain": ["一队搬运工", "集体劳动"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["porter"], "sameImagery": [] }
   },
   {
     "word": "portfolio",
-    "phonetic": "/pɔrt'folɪo/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "公文包；作品集；投资组合",
-      "en": "a case for carrying papers; a collection of investments or works"
-    },
+    "phonetic": "/pɔːrtˈfoʊliˌoʊ/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "文件夹；作品集；投资组合", "en": "a flat case for carrying papers; a set of investments" },
     "morphemes": [
-      {
-        "canonical": "port",
-        "role": "root",
-        "meaning": "携带",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "port"
-      },
-      {
-        "canonical": "folio",
-        "role": "root",
-        "meaning": "页，叶",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "folio"
-      }
+      { "canonical": "port-", "role": "root", "meaning": "携带", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "port", "positionTendency": "initial", "coreMeaning": { "cn": "携带", "en": "carry" } },
+      { "canonical": "foli-", "role": "root", "meaning": "叶片；纸张", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "folio", "positionTendency": "final", "coreMeaning": { "cn": "叶片/纸张", "en": "leaf/sheet" } }
     ],
-    "derivationChain": [
-      "portare (carry) + folium (leaf/sheet) → portfolio"
+    "derivationChain": { "steps": [{ "from": "Italian portafoglio (porta carry + foglio sheet)", "to": "portfolio", "operation": "compound borrowing" }] },
+    "memorySemantics": { "mnemonicExpr": "port(携)+folio(页)→携带纸张的夹子→文件夹/作品集", "imageChain": ["文件夹", "设计师作品集", "股票组合"] },
+    "wordLevel": { "domain": "business", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["port", "transport"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["investment", "assets", "holdings"], "derivationPair": [], "morphVariants": ["portfolios"], "sameImagery": [] }
+  },
+  {
+    "word": "portfolios",
+    "phonetic": "/pɔːrtˈfoʊliˌoʊz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "文件夹；作品集（复数）", "en": "plural of portfolio" },
+    "morphemes": [
+      { "canonical": "port-", "role": "root", "meaning": "携带", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "port", "positionTendency": "initial", "coreMeaning": { "cn": "携带", "en": "carry" } },
+      { "canonical": "foli-", "role": "root", "meaning": "叶片/纸张", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "folio", "positionTendency": "medial", "coreMeaning": { "cn": "纸张", "en": "sheet" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "复数", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
     ],
-    "memorySemantics": {
-      "imageKey": "carry-folder",
-      "scene": "艺术家携带作品集去面试",
-      "emotionalHook": "port(携带) + folio(纸页) = 装纸的包 → 作品集、投资组合",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "business",
-        "finance",
-        "art"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "port",
-        "portable",
-        "porter"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "collection",
-        "dossier"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "investment",
-        "asset",
-        "holdings"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": { "steps": [{ "from": "portfolio", "to": "portfolios", "operation": "plural" }] },
+    "memorySemantics": { "mnemonicExpr": "portfolio+s→多个投资组合/作品集", "imageChain": ["多个文件夹", "多元投资"] },
+    "wordLevel": { "domain": "business", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["portfolio"], "sameImagery": [] }
+  },
+  {
+    "word": "porthole",
+    "phonetic": "/ˈpɔːrthoʊl/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "舷窗；船舷圆形窗", "en": "a small circular window in a ship's side" },
+    "morphemes": [
+      { "canonical": "port-", "role": "root", "meaning": "门；开口", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "port", "positionTendency": "initial", "coreMeaning": { "cn": "门；开口", "en": "opening" } },
+      { "canonical": "hole", "role": "root", "meaning": "孔；洞", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "hole", "positionTendency": "final", "coreMeaning": { "cn": "孔洞", "en": "hole/opening" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "port (opening) + hole", "to": "porthole", "operation": "compound noun" }] },
+    "memorySemantics": { "mnemonicExpr": "port(开口)+hole(孔)→船侧圆孔→舷窗", "imageChain": ["圆形窗", "船舷", "透过舷窗看海"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["port"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["window", "hatch"], "derivationPair": [], "morphVariants": ["portholes"], "sameImagery": [] }
+  },
+  {
+    "word": "portholes",
+    "phonetic": "/ˈpɔːrthoʊlz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "舷窗（复数）", "en": "plural of porthole" },
+    "morphemes": [
+      { "canonical": "port-", "role": "root", "meaning": "开口", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "port", "positionTendency": "initial", "coreMeaning": { "cn": "开口", "en": "opening" } },
+      { "canonical": "hole", "role": "root", "meaning": "孔洞", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "hole", "positionTendency": "medial", "coreMeaning": { "cn": "孔洞", "en": "hole" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "复数", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "porthole", "to": "portholes", "operation": "plural" }] },
+    "memorySemantics": { "mnemonicExpr": "porthole+s→多个舷窗", "imageChain": ["船舷多窗", "排列圆窗"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["porthole"], "sameImagery": [] }
   },
   {
     "word": "portico",
-    "phonetic": "/'pɔrtɪko/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "门廊；柱廊",
-      "en": "a porch with columns"
-    },
+    "phonetic": "/ˈpɔːrtɪkoʊ/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "门廊；柱廊", "en": "a porch or walkway with a roof supported by columns" },
     "morphemes": [
-      {
-        "canonical": "port",
-        "role": "root",
-        "meaning": "门，出入口",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "port"
-      },
-      {
-        "canonical": "-ico",
-        "role": "suffix",
-        "meaning": "（意大利语后缀）小型结构",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "ico"
-      }
+      { "canonical": "port-", "role": "root", "meaning": "门；入口", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "portic", "positionTendency": "initial", "coreMeaning": { "cn": "门；入口", "en": "gate; door" } },
+      { "canonical": "-o", "role": "suffix", "meaning": "意大利语名词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "o", "positionTendency": "final", "coreMeaning": { "cn": "名词化", "en": "noun marker" } }
     ],
-    "derivationChain": [
-      "porta (L. gate) + -ico → portico"
+    "derivationChain": { "steps": [{ "from": "Italian portico (porch)", "to": "portico", "operation": "borrowing from Italian" }] },
+    "memorySemantics": { "mnemonicExpr": "portic(门)+o→门廊→柱廊入口", "imageChain": ["希腊神庙门廊", "石柱廊", "宏伟入口"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["port", "portal"], "sameAffix": [], "synonyms": ["porch", "colonnade"], "antonyms": [], "domainCohort": ["colonnade", "arcade", "porch"], "derivationPair": [], "morphVariants": ["porticoes", "porticos"], "sameImagery": [] }
+  },
+  {
+    "word": "porticoes",
+    "phonetic": "/ˈpɔːrtɪkoʊz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "门廊（复数）", "en": "plural of portico" },
+    "morphemes": [
+      { "canonical": "port-", "role": "root", "meaning": "门；入口", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "portic", "positionTendency": "initial", "coreMeaning": { "cn": "门；入口", "en": "gate" } },
+      { "canonical": "-es", "role": "suffix", "meaning": "复数", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "oes", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
     ],
-    "memorySemantics": {
-      "imageKey": "columned-entrance",
-      "scene": "希腊神庙前的圆柱走廊",
-      "emotionalHook": "port(门) + ico = 带柱子的门廊",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "architecture",
-        "academic"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "port",
-        "portal"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "colonnade",
-        "porch",
-        "arcade"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "colonnade",
-        "arcade",
-        "cloister"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": [
-        "colonnade"
-      ]
-    }
+    "derivationChain": { "steps": [{ "from": "portico", "to": "porticoes", "operation": "plural" }] },
+    "memorySemantics": { "mnemonicExpr": "portico+es→多个门廊", "imageChain": ["多处柱廊", "古典建筑群"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["portico"], "sameImagery": [] }
   },
   {
     "word": "portion",
-    "phonetic": "/'pɔrʃən/",
-    "pos": [
-      "n.",
-      "vt."
-    ],
-    "coreMeaning": {
-      "cn": "一部分；一份；命运",
-      "en": "a part of a whole; an allotted share"
-    },
+    "phonetic": "/ˈpɔːrʃən/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "部分；份额", "en": "a part or share of a whole" },
     "morphemes": [
-      {
-        "canonical": "port",
-        "role": "root",
-        "meaning": "分配；份额",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "port"
-      },
-      {
-        "canonical": "-ion",
-        "role": "suffix",
-        "meaning": "名词化",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "ion"
-      }
+      { "canonical": "port-", "role": "root", "meaning": "部分；份额", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "port", "positionTendency": "initial", "coreMeaning": { "cn": "部分", "en": "part" } },
+      { "canonical": "-ion", "role": "suffix", "meaning": "名词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ion", "positionTendency": "final", "coreMeaning": { "cn": "名词化", "en": "nominalizer" } }
     ],
-    "derivationChain": [
-      "portio (L. share, part) → portion"
+    "derivationChain": { "steps": [{ "from": "Latin portio (portion, share)", "to": "portion", "operation": "borrowing" }] },
+    "memorySemantics": { "mnemonicExpr": "port(部分)+ion→一份→部分份额", "imageChain": ["切分食物", "划分份额", "分配比例"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": ["part", "share", "segment"], "antonyms": ["whole", "entirety"], "domainCohort": ["share", "allocation", "section"], "derivationPair": [], "morphVariants": ["portions"], "sameImagery": [] }
+  },
+  {
+    "word": "portions",
+    "phonetic": "/ˈpɔːrʃənz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "部分；份额（复数）", "en": "plural of portion" },
+    "morphemes": [
+      { "canonical": "port-", "role": "root", "meaning": "部分", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "port", "positionTendency": "initial", "coreMeaning": { "cn": "部分", "en": "part" } },
+      { "canonical": "-ion", "role": "suffix", "meaning": "名词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ion", "positionTendency": "medial", "coreMeaning": { "cn": "名词化", "en": "nominalizer" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "复数", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
     ],
-    "memorySemantics": {
-      "imageKey": "pie-slice",
-      "scene": "切蛋糕，每人分到一份",
-      "emotionalHook": "portion = 命中注定的一份，从proportion(比例)中取一块",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general",
-        "academic"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "proportion",
-        "proportional"
-      ],
-      "sameAffix": [
-        "section",
-        "fraction",
-        "ration"
-      ],
-      "synonyms": [
-        "share",
-        "part",
-        "segment",
-        "fraction"
-      ],
-      "antonyms": [
-        "whole",
-        "total"
-      ],
-      "domainCohort": [
-        "share",
-        "allotment",
-        "quota"
-      ],
-      "derivationPair": [
-        "proportion"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": { "steps": [{ "from": "portion", "to": "portions", "operation": "plural" }] },
+    "memorySemantics": { "mnemonicExpr": "portion+s→多个份额", "imageChain": ["多份食物", "分散份额"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["portion"], "sameImagery": [] }
+  },
+  {
+    "word": "portland",
+    "phonetic": "/ˈpɔːrtlənd/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "波特兰（地名）；硅酸盐水泥", "en": "a city in Oregon/Maine; also Portland cement" },
+    "morphemes": [
+      { "canonical": "port-", "role": "root", "meaning": "港口", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "port", "positionTendency": "initial", "coreMeaning": { "cn": "港口", "en": "harbor" } },
+      { "canonical": "land", "role": "root", "meaning": "土地", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "land", "positionTendency": "final", "coreMeaning": { "cn": "土地", "en": "land" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "port + land", "to": "portland", "operation": "compound place name" }] },
+    "memorySemantics": { "mnemonicExpr": "port(港口)+land(土地)→港口之地→波特兰", "imageChain": ["美国城市", "玫瑰城", "俄勒冈州"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["port"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["portland's"], "sameImagery": [] }
+  },
+  {
+    "word": "portland's",
+    "phonetic": "/ˈpɔːrtləndz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "波特兰的（所有格）", "en": "possessive of Portland" },
+    "morphemes": [
+      { "canonical": "port-", "role": "root", "meaning": "港口", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "port", "positionTendency": "initial", "coreMeaning": { "cn": "港口", "en": "harbor" } },
+      { "canonical": "land", "role": "root", "meaning": "土地", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "land", "positionTendency": "medial", "coreMeaning": { "cn": "土地", "en": "land" } },
+      { "canonical": "-'s", "role": "suffix", "meaning": "所有格", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "'s", "positionTendency": "final", "coreMeaning": { "cn": "所有格", "en": "possessive" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "portland", "to": "portland's", "operation": "possessive" }] },
+    "memorySemantics": { "mnemonicExpr": "portland+'s→波特兰的", "imageChain": ["城市归属", "地名修饰"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["portland"], "sameImagery": [] }
+  },
+  {
+    "word": "portlier",
+    "phonetic": "/ˈpɔːrtliər/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "更肥胖的；比较级", "en": "comparative of portly; fatter or more overweight" },
+    "morphemes": [
+      { "canonical": "port-", "role": "root", "meaning": "携带；体态", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "portl", "positionTendency": "initial", "coreMeaning": { "cn": "体态", "en": "bearing" } },
+      { "canonical": "-ier", "role": "suffix", "meaning": "比较级", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ier", "positionTendency": "final", "coreMeaning": { "cn": "比较级", "en": "comparative" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "portly", "to": "portlier", "operation": "comparative" }] },
+    "memorySemantics": { "mnemonicExpr": "portly(肥胖)+ier→更肥胖的", "imageChain": ["体型比较", "肥胖程度"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["portly", "portliness"], "sameAffix": [], "synonyms": [], "antonyms": ["slimmer", "leaner"], "domainCohort": [], "derivationPair": [], "morphVariants": ["portly"], "sameImagery": [] }
+  },
+  {
+    "word": "portliness",
+    "phonetic": "/ˈpɔːrtlinəs/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "肥胖；体型庞大", "en": "the state of being portly; stoutness" },
+    "morphemes": [
+      { "canonical": "port-", "role": "root", "meaning": "体态；携带", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "portl", "positionTendency": "initial", "coreMeaning": { "cn": "体态", "en": "bearing" } },
+      { "canonical": "-y", "role": "suffix", "meaning": "形容词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "y", "positionTendency": "medial", "coreMeaning": { "cn": "具有…的", "en": "having quality of" } },
+      { "canonical": "-ness", "role": "suffix", "meaning": "状态名词", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ness", "positionTendency": "final", "coreMeaning": { "cn": "状态", "en": "state/quality" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "portly", "to": "portliness", "operation": "abstract noun via -ness" }] },
+    "memorySemantics": { "mnemonicExpr": "portly(肥胖)+ness→肥胖状态", "imageChain": ["圆润体型", "丰满外形"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["portly", "portlier"], "sameAffix": [], "synonyms": ["stoutness", "corpulence"], "antonyms": ["slimness"], "domainCohort": [], "derivationPair": ["portly"], "morphVariants": [], "sameImagery": [] }
   },
   {
     "word": "portly",
-    "phonetic": "/'pɔrtli/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "肥胖的；体型肥硕的",
-      "en": "fat and round in body"
-    },
+    "phonetic": "/ˈpɔːrtli/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "肥胖的；腹部肥大的", "en": "(especially of a middle-aged or older person) rather fat and round" },
     "morphemes": [
-      {
-        "canonical": "port",
-        "role": "root",
-        "meaning": "仪态；姿势",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "port"
-      },
-      {
-        "canonical": "-ly",
-        "role": "suffix",
-        "meaning": "具有…特质的",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "ly"
-      }
+      { "canonical": "port-", "role": "root", "meaning": "体态；仪表", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "port", "positionTendency": "initial", "coreMeaning": { "cn": "体态", "en": "bearing/deportment" } },
+      { "canonical": "-ly", "role": "suffix", "meaning": "形容词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ly", "positionTendency": "final", "coreMeaning": { "cn": "具有…的", "en": "having quality of" } }
     ],
-    "derivationChain": [
-      "port (bearing/carriage) + -ly → portly"
-    ],
-    "memorySemantics": {
-      "imageKey": "round-dignified",
-      "scene": "身材圆润但仪态端庄的绅士",
-      "emotionalHook": "portly 原意是仪态端正，现指体型丰满（委婉语）",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general",
-        "literary"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [],
-      "sameAffix": [],
-      "synonyms": [
-        "stout",
-        "corpulent",
-        "rotund"
-      ],
-      "antonyms": [
-        "slender",
-        "slim",
-        "lean"
-      ],
-      "domainCohort": [
-        "stout",
-        "plump",
-        "rotund"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": [
-        "rotund"
-      ]
-    }
+    "derivationChain": { "steps": [{ "from": "port (bearing/deportment)", "to": "portly", "operation": "adjective via -ly" }] },
+    "memorySemantics": { "mnemonicExpr": "port(体态)+ly→体态肥大的→肥胖的", "imageChain": ["圆胖绅士", "中年发福", "圆润体型"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": ["stout", "corpulent", "rotund"], "antonyms": ["slim", "lean"], "domainCohort": ["stout", "rotund", "overweight"], "derivationPair": ["portliness"], "morphVariants": ["portlier", "portliness"], "sameImagery": [] }
   }
 ]

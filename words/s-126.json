@@ -1,643 +1,601 @@
 [
   {
+    "word": "solus",
+    "phonetic": "/'səʊləs/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "独自的；单独出现的（舞台术语）", "en": "alone on stage; isolated (used as stage direction)"},
+    "morphemes": [
+      {"form": "sol", "role": "root", "canonical": "solus", "meaning": "单独，一人", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-us", "role": "suffix", "canonical": "-us", "meaning": "拉丁形容词词尾", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "拉丁 solus (独自的)", "to": "英语 solus", "by": "借入作舞台指示词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "sol(单独)+us → 只有一人→solus", "imageChain": "舞台上只有一个演员→solus"},
+    "wordLevel": {"domain": ["theater", "literary"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["sole", "solo", "solitary", "solitude"], "sameAffix": [], "synonyms": ["alone", "sole", "solo"], "antonyms": ["together", "ensemble"], "domainCohort": ["alone", "solo", "isolated"], "derivationPair": [], "morphVariants": ["sole", "solo"], "sameImagery": ["isolation", "solitude"]}
+  },
+  {
     "word": "solute",
     "phonetic": "/sɑ'ljʊt/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "溶质；溶解物",
-      "en": "the dissolved substance in a solution"
-    },
+    "pos": "n",
+    "coreMeaning": {"cn": "溶质；溶解物", "en": "the substance dissolved in a solvent to form a solution"},
     "morphemes": [
-      {
-        "canonical": "solv",
-        "role": "root",
-        "meaning": "溶解；松开",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "solut",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-e",
-        "role": "suffix",
-        "meaning": "名词化",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "e",
-        "positionTendency": "final"
-      }
+      {"form": "solut", "role": "root", "canonical": "solvere", "meaning": "溶解，解开", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-e", "role": "suffix", "canonical": "-e", "meaning": "名词词尾", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
     ],
-    "derivationChain": [
-      "solvere (L.)",
-      "solutus",
-      "solute"
-    ],
+    "derivationChain": {"steps": [{"from": "拉丁 solvere (溶解)", "to": "solutus (溶解的)", "by": "过去分词"}, {"from": "solutus", "to": "solute", "by": "借入英语化学术语"}]},
     "morphVariantOf": null,
-    "memorySemantics": {
-      "imageKey": "salt dissolving in water",
-      "scene": "食盐粒慢慢溶解在水中，盐是溶质（solute），水是溶剂（solvent）",
-      "emotionalHook": "消失在环境中——失去独立形态但仍然存在",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "chemistry",
-        "SAT"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "solve",
-        "solution",
-        "solvent",
-        "dissolve"
-      ],
-      "sameAffix": [],
-      "synonyms": [],
-      "antonyms": [
-        "solvent"
-      ],
-      "domainCohort": [
-        "solvent",
-        "solution",
-        "dissolve"
-      ],
-      "derivationPair": [
-        "solution"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "memorySemantics": {"mnemonicExpr": "solut(溶)+e → 被溶解的物质→solute溶质", "imageChain": "盐（溶质）溶入水→solute+solvent=solution"},
+    "wordLevel": {"domain": ["chemistry", "sat"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["solution", "solve", "solvent", "dissolve"], "sameAffix": [], "synonyms": ["dissolved substance"], "antonyms": ["solvent"], "domainCohort": ["solvent", "solution", "dissolution"], "derivationPair": ["solution", "solvent"], "morphVariants": [], "sameImagery": ["dissolving"]}
   },
   {
     "word": "solution",
     "phonetic": "/sə'luʃən/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "解决方法；溶液",
-      "en": "an answer to a problem; a liquid mixture"
-    },
+    "pos": "n",
+    "coreMeaning": {"cn": "解决办法；溶液；解答", "en": "a means of solving a problem; a liquid mixture in which a substance is dissolved"},
     "morphemes": [
-      {
-        "canonical": "solv",
-        "role": "root",
-        "meaning": "溶解；解决",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "solut",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-ion",
-        "role": "suffix",
-        "meaning": "名词：行为/结果",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "ion",
-        "positionTendency": "final"
-      }
+      {"form": "solut", "role": "root", "canonical": "solvere", "meaning": "溶解，解开", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-ion", "role": "suffix", "canonical": "-ion", "meaning": "名词，行为/结果", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
     ],
-    "derivationChain": [
-      "solvere (L.)",
-      "solutio",
-      "solution"
-    ],
+    "derivationChain": {"steps": [{"from": "拉丁 solutio (解开，溶解)", "to": "古法语 solucion", "by": "借入"}, {"from": "solucion", "to": "solution", "by": "法语→英语"}]},
     "morphVariantOf": null,
-    "memorySemantics": {
-      "imageKey": "puzzle solved",
-      "scene": "复杂的谜题终于找到突破口，同时实验室烧杯中混合液体均匀透明",
-      "emotionalHook": "豁然开朗——难题解开时的满足感",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "academic",
-        "chemistry",
-        "cet4"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "solve",
-        "solute",
-        "solvent",
-        "dissolve",
-        "resolve"
-      ],
-      "sameAffix": [
-        "revolution",
-        "evolution"
-      ],
-      "synonyms": [
-        "answer",
-        "remedy",
-        "resolution"
-      ],
-      "antonyms": [
-        "problem"
-      ],
-      "domainCohort": [
-        "remedy",
-        "resolution"
-      ],
-      "derivationPair": [
-        "solve"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "memorySemantics": {"mnemonicExpr": "solut(解开/溶解)+ion → 解决问题/溶液", "imageChain": "难题解开→solution/盐溶于水→solution"},
+    "wordLevel": {"domain": ["general", "chemistry", "sat", "ielts", "toefl", "cet4", "npee"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["solve", "solute", "solvent", "dissolve", "resolution"], "sameAffix": ["conclusion", "pollution", "evolution"], "synonyms": ["answer", "resolution", "remedy"], "antonyms": ["problem", "issue", "complication"], "domainCohort": ["remedy", "resolution", "answer"], "derivationPair": ["solve", "solute"], "morphVariants": [], "sameImagery": ["unlocking", "dissolving"]}
   },
   {
-    "word": "solvency",
-    "phonetic": "/'sɔlvənsi/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "偿付能力；清偿力",
-      "en": "the ability to pay one's debts"
-    },
+    "word": "solutions",
+    "phonetic": "/sə'luʃənz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "解决方案（复数）；溶液（复数）", "en": "plural of solution"},
     "morphemes": [
-      {
-        "canonical": "solv",
-        "role": "root",
-        "meaning": "解开；清偿",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "solv",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-ency",
-        "role": "suffix",
-        "meaning": "名词：状态/性质",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "ency",
-        "positionTendency": "final"
-      }
+      {"form": "solution", "role": "root", "canonical": "solvere", "meaning": "解决，溶液", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
     ],
-    "derivationChain": [
-      "solvere (L.)",
-      "solvent",
-      "solvency"
-    ],
-    "morphVariantOf": null,
-    "memorySemantics": {
-      "imageKey": "balance sheet in black",
-      "scene": "会计师检查公司资产负债表，确认资产大于负债，公司具有偿付能力",
-      "emotionalHook": "财务健康的底气——能够还清所有债务",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "finance",
-        "business",
-        "GMAT"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "solvent",
-        "solve",
-        "insolvent"
-      ],
-      "sameAffix": [
-        "efficiency",
-        "fluency"
-      ],
-      "synonyms": [
-        "financial health",
-        "creditworthiness"
-      ],
-      "antonyms": [
-        "insolvency",
-        "bankruptcy"
-      ],
-      "domainCohort": [
-        "liquidity",
-        "creditworthiness"
-      ],
-      "derivationPair": [
-        "solvent"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": {"steps": [{"from": "solution", "to": "solutions", "by": "加复数词尾-s"}]},
+    "morphVariantOf": "solution",
+    "memorySemantics": {"mnemonicExpr": "solution复数→多种解决方案", "imageChain": "IT公司→solutions provider→各种解决方案"},
+    "wordLevel": {"domain": ["tech", "business", "general"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["solution", "solve", "solvent"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["solution"], "morphVariants": [], "sameImagery": []}
   },
   {
-    "word": "solvent",
-    "phonetic": "/'sɑlvənt/",
-    "pos": [
-      "adj.",
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "有偿债能力的；溶剂",
-      "en": "able to pay one's debts; a liquid that dissolves substances"
-    },
+    "word": "solvable",
+    "phonetic": "/'sɒlvəbəl/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "可解决的；可溶解的", "en": "able to be solved or dissolved"},
     "morphemes": [
-      {
-        "canonical": "solv",
-        "role": "root",
-        "meaning": "溶解；清偿",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "solv",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-ent",
-        "role": "suffix",
-        "meaning": "形容词/名词：……的；……者",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "ent",
-        "positionTendency": "final"
-      }
+      {"form": "solv", "role": "root", "canonical": "solvere", "meaning": "溶解，解开", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-able", "role": "suffix", "canonical": "-able", "meaning": "能够…的", "positionTendency": "final", "sentiment": {"tags": ["积极"], "intensity": 1}}
     ],
-    "derivationChain": [
-      "solvere (L.)",
-      "solvens",
-      "solvent"
-    ],
+    "derivationChain": {"steps": [{"from": "solve", "to": "solvable", "by": "加-able构成形容词"}]},
     "morphVariantOf": null,
-    "memorySemantics": {
-      "imageKey": "acetone dissolving substance",
-      "scene": "丙酮（溶剂）将污渍彻底溶解；银行确认贷款人solvent，批准贷款申请",
-      "emotionalHook": "双重解读：化学上溶解一切，财务上清偿一切",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "chemistry",
-        "finance",
-        "GRE"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "solve",
-        "solution",
-        "solvency",
-        "dissolve"
-      ],
-      "sameAffix": [
-        "agent",
-        "president"
-      ],
-      "synonyms": [
-        "financially sound",
-        "creditworthy"
-      ],
-      "antonyms": [
-        "insolvent",
-        "bankrupt"
-      ],
-      "domainCohort": [
-        "liquid",
-        "reagent"
-      ],
-      "derivationPair": [
-        "solvency"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "memorySemantics": {"mnemonicExpr": "solve(解决)+able(能够)→ 能够解决的→solvable problem", "imageChain": "能打开的锁→solvable"},
+    "wordLevel": {"domain": ["general", "math"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["solve", "solution", "solvent"], "sameAffix": ["knowable", "fixable", "resolvable"], "synonyms": ["resolvable", "manageable", "tractable"], "antonyms": ["unsolvable", "intractable", "insoluble"], "domainCohort": ["resolvable", "tractable"], "derivationPair": ["solve"], "morphVariants": [], "sameImagery": []}
   },
   {
-    "word": "somatic",
-    "phonetic": "/so'mætɪk/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "肉体的；躯体的（相对于心理而言）",
-      "en": "relating to the body as opposed to the mind"
-    },
+    "word": "solvation",
+    "phonetic": "/sɔl'veiʃən/",
+    "pos": "n",
+    "coreMeaning": {"cn": "溶剂化（作用）；溶解化学过程", "en": "the process by which solvent molecules surround and interact with solute ions"},
     "morphemes": [
-      {
-        "canonical": "soma",
-        "role": "root",
-        "meaning": "身体；躯体",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "somat",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-ic",
-        "role": "suffix",
-        "meaning": "形容词：……的",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "ic",
-        "positionTendency": "final"
-      }
+      {"form": "solv", "role": "root", "canonical": "solvere", "meaning": "溶解，解开", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-ation", "role": "suffix", "canonical": "-ation", "meaning": "过程名词", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
     ],
-    "derivationChain": [
-      "sōma (Gk.)",
-      "somatikos",
-      "somatic"
-    ],
+    "derivationChain": {"steps": [{"from": "solvent", "to": "solvation", "by": "加-ation构成化学过程名词"}]},
     "morphVariantOf": null,
-    "memorySemantics": {
-      "imageKey": "body vs mind diagram",
-      "scene": "心身医学图示：身体（soma）与精神（psyche）相互影响，somatic症状来自身体而非心理",
-      "emotionalHook": "身心分离的视角——强调物质身体的独立性",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "medical",
-        "GRE",
-        "biology"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "chromosome",
-        "psychosomatic"
-      ],
-      "sameAffix": [
-        "psychic",
-        "genetic"
-      ],
-      "synonyms": [
-        "physical",
-        "bodily",
-        "corporeal"
-      ],
-      "antonyms": [
-        "psychic",
-        "mental"
-      ],
-      "domainCohort": [
-        "physiology",
-        "anatomy"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
-  },
-  {
-    "word": "somber",
-    "phonetic": "/ˈsɑːmbər/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "忧郁的；昏暗的；严峻的",
-      "en": "dark, gloomy, or depressing"
-    },
-    "morphemes": [
-      {
-        "canonical": "somber",
-        "role": "root",
-        "meaning": "阴暗；忧郁（来自法语）",
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "somber",
-        "positionTendency": "initial"
-      }
-    ],
-    "derivationChain": [
-      "sub umbra (L.)",
-      "sombre (Fr.)",
-      "somber"
-    ],
-    "morphVariantOf": null,
-    "memorySemantics": {
-      "imageKey": "overcast funeral scene",
-      "scene": "阴云密布的葬礼现场，黑色装束，压抑的气氛，人们神情凝重",
-      "emotionalHook": "压抑的沉重感——颜色、氛围、情绪都笼罩在阴影中",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "GRE",
-        "literature",
-        "SAT"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "sombrero"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "gloomy",
-        "dark",
-        "melancholy",
-        "grave",
-        "dismal"
-      ],
-      "antonyms": [
-        "cheerful",
-        "bright",
-        "vivid"
-      ],
-      "domainCohort": [
-        "gloomy",
-        "melancholy",
-        "bleak"
-      ],
-      "derivationPair": [],
-      "morphVariants": [
-        "sombre"
-      ],
-      "sameImagery": [
-        "gloomy",
-        "bleak"
-      ]
-    }
+    "memorySemantics": {"mnemonicExpr": "solv(溶解)+ation(过程)→ 溶剂化过程→solvation", "imageChain": "溶剂分子包围溶质→solvation"},
+    "wordLevel": {"domain": ["chemistry", "medical"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["solve", "solvent", "solution"], "sameAffix": ["hydration", "carbonation"], "synonyms": ["dissolution", "solubilization"], "antonyms": [], "domainCohort": ["dissolution", "hydration"], "derivationPair": ["solvent"], "morphVariants": [], "sameImagery": ["dissolving"]}
   },
   {
     "word": "solve",
-    "phonetic": "/sɔlv/",
-    "pos": [
-      "v."
-    ],
-    "coreMeaning": {
-      "cn": "解决；解答",
-      "en": "to find an answer or solution to a problem"
-    },
+    "phonetic": "/sɒlv/",
+    "pos": "v",
+    "coreMeaning": {"cn": "解决；解答；解开", "en": "to find an answer to or explanation for a problem or mystery"},
     "morphemes": [
-      {
-        "canonical": "solv",
-        "role": "root",
-        "meaning": "溶解；松开；解决",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "solv",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-e",
-        "role": "suffix",
-        "meaning": "动词化",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "e",
-        "positionTendency": "final"
-      }
+      {"form": "solv", "role": "root", "canonical": "solvere", "meaning": "解开，解除，溶解", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-e", "role": "suffix", "canonical": "-e", "meaning": "动词词尾", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
     ],
-    "derivationChain": [
-      "solvere (L.)",
-      "solve"
-    ],
+    "derivationChain": {"steps": [{"from": "拉丁 solvere (解开，解除)", "to": "英语 solve", "by": "借入"}]},
     "morphVariantOf": null,
-    "memorySemantics": {
-      "imageKey": "eureka lightbulb",
-      "scene": "数学家在黑板上奋笔疾书，最终豁然开朗地解出复杂方程",
-      "emotionalHook": "解开束缚的喜悦——问题迎刃而解",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "academic",
-        "general",
-        "cet4"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "solution",
-        "solute",
-        "solvent",
-        "dissolve",
-        "resolve"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "resolve",
-        "work out",
-        "crack"
-      ],
-      "antonyms": [
-        "complicate"
-      ],
-      "domainCohort": [
-        "resolve",
-        "address"
-      ],
-      "derivationPair": [
-        "solution"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "memorySemantics": {"mnemonicExpr": "solv(解开)+e → 解开谜题→solve a mystery", "imageChain": "打开死结→solve a problem"},
+    "wordLevel": {"domain": ["general", "ielts", "npee", "cet4"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["solution", "solute", "solvent", "resolved", "dissolve"], "sameAffix": [], "synonyms": ["resolve", "answer", "work out", "crack"], "antonyms": ["create (a problem)", "complicate"], "domainCohort": ["resolve", "address", "fix", "handle"], "derivationPair": ["solution", "solvable"], "morphVariants": [], "sameImagery": ["unlocking", "untangling"]}
+  },
+  {
+    "word": "solved",
+    "phonetic": "/sɒlvd/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "已解决的；已解答的", "en": "past participle of solve; having been resolved"},
+    "morphemes": [
+      {"form": "solv", "role": "root", "canonical": "solvere", "meaning": "解开，解除", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-ed", "role": "suffix", "canonical": "-ed", "meaning": "过去分词/形容词", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "solve", "to": "solved", "by": "加过去式词尾-d"}]},
+    "morphVariantOf": "solve",
+    "memorySemantics": {"mnemonicExpr": "solve+d → 已经解决的→solved problem", "imageChain": "已解开的锁→solved"},
+    "wordLevel": {"domain": ["general", "tech"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["solve", "solver", "solvable"], "sameAffix": [], "synonyms": ["resolved", "answered", "cracked"], "antonyms": ["unsolved", "unresolved"], "domainCohort": [], "derivationPair": ["solve"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "solvency",
+    "phonetic": "/'sɒlvənsi/",
+    "pos": "n",
+    "coreMeaning": {"cn": "偿付能力；财务清偿力", "en": "the ability to pay debts as they come due; financial soundness"},
+    "morphemes": [
+      {"form": "solv", "role": "root", "canonical": "solvere", "meaning": "偿还，解除（债务）", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-ency", "role": "suffix", "canonical": "-ency", "meaning": "状态名词", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "solvent", "to": "solvency", "by": "加-cy构成名词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "solvent(有偿付能力的)+cy → 偿付能力→solvency", "imageChain": "公司能还得起债务→solvency"},
+    "wordLevel": {"domain": ["finance", "gmat", "business"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["solve", "solvent", "insolvent"], "sameAffix": ["fluency", "dependency", "consistency"], "synonyms": ["liquidity", "financial soundness"], "antonyms": ["insolvency", "bankruptcy"], "domainCohort": ["liquidity", "creditworthiness"], "derivationPair": ["solvent", "insolvency"], "morphVariants": [], "sameImagery": ["financial health"]}
+  },
+  {
+    "word": "solvent",
+    "phonetic": "/'sɒlvənt/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "有偿债能力的；溶剂的", "en": "able to pay debts; a liquid that dissolves other substances"},
+    "morphemes": [
+      {"form": "solv", "role": "root", "canonical": "solvere", "meaning": "溶解，偿还（债务）", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-ent", "role": "suffix", "canonical": "-ent", "meaning": "形容词/名词词尾", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "拉丁 solvens (正在溶解/偿还)", "to": "solvent", "by": "借入英语"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "solv(溶解/偿还)+ent → 有溶解力的/有偿债力的", "imageChain": "水溶解糖→solvent/有钱还债→financially solvent"},
+    "wordLevel": {"domain": ["chemistry", "finance", "sat", "ielts", "gre", "toefl", "business"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["solve", "solvency", "solution", "solute"], "sameAffix": ["dependent", "absent", "resident"], "synonyms": ["soluble", "liquid (financially)", "financially sound"], "antonyms": ["insolvent", "bankrupt"], "domainCohort": ["liquid", "soluble", "creditworthy"], "derivationPair": ["solvency"], "morphVariants": [], "sameImagery": ["dissolving", "paying debts"]}
+  },
+  {
+    "word": "solventadj",
+    "phonetic": "/'sɒlvənt/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "有偿债能力的（形容词标注变体）", "en": "variant entry marking for adjectival use of solvent"},
+    "morphemes": [
+      {"form": "solvent", "role": "root", "canonical": "solvere", "meaning": "偿债/溶解", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}}
+    ],
+    "derivationChain": {"steps": [{"from": "solvent", "to": "solventadj", "by": "词库形容词标注变体"}]},
+    "morphVariantOf": "solvent",
+    "memorySemantics": {"mnemonicExpr": "solvent形容词形式标注", "imageChain": "有偿债能力的"},
+    "wordLevel": {"domain": ["finance"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["solvent", "solvency"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["solvent"], "sameImagery": []}
+  },
+  {
+    "word": "solventn",
+    "phonetic": "/'sɒlvənt/",
+    "pos": "n",
+    "coreMeaning": {"cn": "溶剂（名词标注变体）", "en": "variant entry marking for noun use of solvent (a dissolving liquid)"},
+    "morphemes": [
+      {"form": "solvent", "role": "root", "canonical": "solvere", "meaning": "溶解", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "solvent", "to": "solventn", "by": "词库名词标注变体"}]},
+    "morphVariantOf": "solvent",
+    "memorySemantics": {"mnemonicExpr": "solvent名词形式标注→溶剂", "imageChain": "酒精→有机溶剂→solvent"},
+    "wordLevel": {"domain": ["chemistry"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["solvent", "solute", "solution"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["solvent"], "sameImagery": []}
+  },
+  {
+    "word": "solvents",
+    "phonetic": "/'sɒlvənts/",
+    "pos": "n",
+    "coreMeaning": {"cn": "溶剂（复数）", "en": "plural of solvent (dissolving liquids)"},
+    "morphemes": [
+      {"form": "solvent", "role": "root", "canonical": "solvere", "meaning": "溶剂，溶解", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "solvent", "to": "solvents", "by": "加复数词尾-s"}]},
+    "morphVariantOf": "solvent",
+    "memorySemantics": {"mnemonicExpr": "solvent复数→多种溶剂", "imageChain": "化学实验室→各种溶剂→solvents"},
+    "wordLevel": {"domain": ["chemistry"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["solvent", "solution", "solute"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["solvent"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "solver",
+    "phonetic": "/'sɒlvɚ/",
+    "pos": "n",
+    "coreMeaning": {"cn": "解题者；解决问题的工具/人", "en": "a person or thing that solves problems"},
+    "morphemes": [
+      {"form": "solv", "role": "root", "canonical": "solvere", "meaning": "解开，解决", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-er", "role": "suffix", "canonical": "-er", "meaning": "执行者", "positionTendency": "final", "sentiment": {"tags": ["积极"], "intensity": 1}}
+    ],
+    "derivationChain": {"steps": [{"from": "solve", "to": "solver", "by": "加-er构成人称名词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "solve+er → 解题者→problem solver", "imageChain": "能解决难题的人→solver"},
+    "wordLevel": {"domain": ["general", "tech"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["solve", "solution"], "sameAffix": ["resolver", "analyzer"], "synonyms": ["problem-solver", "troubleshooter"], "antonyms": [], "domainCohort": ["troubleshooter", "fixer"], "derivationPair": ["solve"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "solvers",
+    "phonetic": "/'sɒlvɚz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "解题者们（复数）", "en": "plural of solver"},
+    "morphemes": [
+      {"form": "solver", "role": "root", "canonical": "solvere", "meaning": "解题者", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "solver", "to": "solvers", "by": "加复数词尾-s"}]},
+    "morphVariantOf": "solver",
+    "memorySemantics": {"mnemonicExpr": "solver复数→一群解题者", "imageChain": "一群能解决问题的人→solvers"},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["solver", "solve", "solution"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["solver"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "solves",
+    "phonetic": "/sɒlvz/",
+    "pos": "v",
+    "coreMeaning": {"cn": "（他/她）解决；解答（三单）", "en": "third person singular present of solve"},
+    "morphemes": [
+      {"form": "solv", "role": "root", "canonical": "solvere", "meaning": "解开，解决", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-es", "role": "suffix", "canonical": "-es", "meaning": "第三人称单数", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "solve", "to": "solves", "by": "加三单词尾-s"}]},
+    "morphVariantOf": "solve",
+    "memorySemantics": {"mnemonicExpr": "solve三单形式", "imageChain": "他总能解决难题→he solves everything"},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["solve", "solved", "solving"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "solving",
+    "phonetic": "/'sɒlvɪŋ/",
+    "pos": "v",
+    "coreMeaning": {"cn": "正在解决；解题（分词）", "en": "present participle of solve"},
+    "morphemes": [
+      {"form": "solv", "role": "root", "canonical": "solvere", "meaning": "解开，解决", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-ing", "role": "suffix", "canonical": "-ing", "meaning": "现在分词", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "solve", "to": "solving", "by": "加-ing现在分词"}]},
+    "morphVariantOf": "solve",
+    "memorySemantics": {"mnemonicExpr": "solve+ing → 正在解题", "imageChain": "正在破案→solving the mystery"},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["solve", "solver", "solution"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["solve"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "solviturambulando",
+    "phonetic": "/ˌsɒlvɪtʊr æmbjʊ'lɑːndəʊ/",
+    "pos": "phrase",
+    "coreMeaning": {"cn": "走着走着就解决了（拉丁谚语）", "en": "Latin: 'it is solved by walking'; practical action resolves theoretical difficulties"},
+    "morphemes": [
+      {"form": "solvitur", "role": "root", "canonical": "solvere", "meaning": "它被解决（被动态）", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 2}},
+      {"form": "ambulando", "role": "root", "canonical": "ambulare", "meaning": "通过行走（离格动名词）", "positionTendency": "final", "sentiment": {"tags": ["积极"], "intensity": 1}}
+    ],
+    "derivationChain": {"steps": [{"from": "拉丁 solvitur(被解决)+ambulando(通过行走)", "to": "solviturambulando", "by": "拉丁哲学谚语"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "solvere(解)+ambulare(走)→ 走着走着就解决了", "imageChain": "古希腊哲学家边走路边辩论→solvitur ambulando"},
+    "wordLevel": {"domain": ["philosophy", "literary", "academic"], "sentiment": {"tags": ["积极"], "intensity": 2}},
+    "relations": {"sameRoot": ["solve", "solution", "ambulatory"], "sameAffix": [], "synonyms": ["action speaks louder than words", "the proof is in the doing"], "antonyms": [], "domainCohort": ["carpe diem", "in medias res"], "derivationPair": [], "morphVariants": [], "sameImagery": ["action over theory"]}
+  },
+  {
+    "word": "soma",
+    "phonetic": "/'səʊmə/",
+    "pos": "n",
+    "coreMeaning": {"cn": "体细胞；躯体；（哲）肉体", "en": "the body as distinct from the mind; body cells as opposed to germ cells"},
+    "morphemes": [
+      {"form": "soma", "role": "root", "canonical": "soma", "meaning": "希腊语：身体，躯体", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "希腊语 σῶμα (soma, 身体)", "to": "英语 soma", "by": "借入科学术语"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "soma=身体→somatic(肉体的)/chromosome(染色体)", "imageChain": "身体→细胞→soma细胞体"},
+    "wordLevel": {"domain": ["biology", "philosophy", "medical"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["somatic", "chromosome", "psychosomatic"], "sameAffix": [], "synonyms": ["body", "corpus", "flesh"], "antonyms": ["psyche", "soul", "mind"], "domainCohort": ["corpus", "body", "flesh"], "derivationPair": ["somatic"], "morphVariants": [], "sameImagery": ["body", "flesh"]}
+  },
+  {
+    "word": "somali",
+    "phonetic": "/sɔ'mɑːli/",
+    "pos": "n",
+    "coreMeaning": {"cn": "索马里人；索马里语", "en": "a native of Somalia; the Cushitic language of Somalia"},
+    "morphemes": [
+      {"form": "somali", "role": "root", "canonical": "somali", "meaning": "索马里（民族/地名）", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "阿拉伯语/本地语 Soomali", "to": "英语 Somali", "by": "地名民族名借入"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "Somali→索马里人/索马里语", "imageChain": "非洲之角→索马里→Somali"},
+    "wordLevel": {"domain": ["geography", "proper noun"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["somalia", "somalian"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["Ethiopian", "Kenyan", "Djiboutian"], "derivationPair": ["somalia"], "morphVariants": ["somalian"], "sameImagery": []}
+  },
+  {
+    "word": "somalia",
+    "phonetic": "/sɔ'mɑːliə/",
+    "pos": "n",
+    "coreMeaning": {"cn": "索马里（国名）", "en": "a country in the Horn of Africa"},
+    "morphemes": [
+      {"form": "somali", "role": "root", "canonical": "somali", "meaning": "索马里民族", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-a", "role": "suffix", "canonical": "-ia", "meaning": "国名后缀", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "Somali", "to": "Somalia", "by": "加地名后缀-a"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "Somali+a → 索马里国", "imageChain": "非洲之角的国家→首都摩加迪沙→Somalia"},
+    "wordLevel": {"domain": ["geography", "proper noun"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["somali", "somalian"], "sameAffix": ["Ethiopia", "Tanzania", "Kenya"], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["somali"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "somalian",
+    "phonetic": "/sɔ'mɑːliən/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "索马里的；索马里人", "en": "of or relating to Somalia or its people"},
+    "morphemes": [
+      {"form": "somali", "role": "root", "canonical": "somali", "meaning": "索马里", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-an", "role": "suffix", "canonical": "-an", "meaning": "形容词/人称后缀", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "Somalia", "to": "Somalian", "by": "加-n构成形容词/人称"}]},
+    "morphVariantOf": "somali",
+    "memorySemantics": {"mnemonicExpr": "Somalia+n → 索马里的/索马里人", "imageChain": "来自索马里→Somalian refugee"},
+    "wordLevel": {"domain": ["geography"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["somalia", "somali"], "sameAffix": ["Ethiopian", "Kenyan"], "synonyms": ["Somali"], "antonyms": [], "domainCohort": [], "derivationPair": ["somalia"], "morphVariants": ["somali"], "sameImagery": []}
+  },
+  {
+    "word": "somalians",
+    "phonetic": "/sɔ'mɑːliənz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "索马里人（复数）", "en": "plural of Somalian"},
+    "morphemes": [
+      {"form": "somalian", "role": "root", "canonical": "somali", "meaning": "索马里人", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "Somalian", "to": "Somalians", "by": "加复数词尾-s"}]},
+    "morphVariantOf": "somali",
+    "memorySemantics": {"mnemonicExpr": "Somalian复数→索马里人们", "imageChain": "一群索马里人→Somalians"},
+    "wordLevel": {"domain": ["geography"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["somali", "somalia"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["somalian"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "somalis",
+    "phonetic": "/sɔ'mɑːliz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "索马里人（复数，另一形式）", "en": "plural of Somali"},
+    "morphemes": [
+      {"form": "somali", "role": "root", "canonical": "somali", "meaning": "索马里人", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "Somali", "to": "Somalis", "by": "加复数词尾-s"}]},
+    "morphVariantOf": "somali",
+    "memorySemantics": {"mnemonicExpr": "Somali复数→Somalis", "imageChain": "多名索马里人→Somalis"},
+    "wordLevel": {"domain": ["geography"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["somali", "somalian", "somalia"], "sameAffix": [], "synonyms": ["Somalians"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "somatic",
+    "phonetic": "/sə'mætɪk/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "肉体的；躯体的；体细胞的", "en": "of or relating to the body (as opposed to the mind); of body cells not germ cells"},
+    "morphemes": [
+      {"form": "somat", "role": "root", "canonical": "soma", "meaning": "身体，躯体", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-ic", "role": "suffix", "canonical": "-ic", "meaning": "形容词词尾", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "希腊 σωματικός (身体的)", "to": "somatic", "by": "借入医学术语"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "somat(身体)+ic → 身体的→somatic symptoms", "imageChain": "身体感受→somatic disorder躯体障碍"},
+    "wordLevel": {"domain": ["biology", "medical", "psychology", "gre"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["soma", "somatization", "psychosomatic"], "sameAffix": ["problematic", "systematic", "automatic"], "synonyms": ["bodily", "physical", "corporeal"], "antonyms": ["psychic", "mental", "spiritual"], "domainCohort": ["corporeal", "physical", "bodily"], "derivationPair": ["soma", "psychosomatic"], "morphVariants": [], "sameImagery": ["body", "physical"]}
+  },
+  {
+    "word": "somatization",
+    "phonetic": "/ˌsəʊmətaɪ'zeɪʃən/",
+    "pos": "n",
+    "coreMeaning": {"cn": "躯体化（将心理问题转化为身体症状）", "en": "the process by which psychological distress is expressed as physical symptoms"},
+    "morphemes": [
+      {"form": "somat", "role": "root", "canonical": "soma", "meaning": "身体，躯体", "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}},
+      {"form": "-iz", "role": "suffix", "canonical": "-ize", "meaning": "动词化", "positionTendency": "medial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-ation", "role": "suffix", "canonical": "-ation", "meaning": "过程名词", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "somatic", "to": "somatize", "by": "构成动词"}, {"from": "somatize", "to": "somatization", "by": "加-ation构成过程名词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "somat(身体)+ization(化)→ 把情绪转化为身体症状", "imageChain": "焦虑→头疼胃痛→somatization disorder"},
+    "wordLevel": {"domain": ["psychology", "medical"], "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["soma", "somatic"], "sameAffix": ["traumatization", "normalization"], "synonyms": ["psychosomatic conversion"], "antonyms": [], "domainCohort": ["conversion disorder", "psychosomatic"], "derivationPair": ["somatic"], "morphVariants": [], "sameImagery": ["mind-body connection"]}
+  },
+  {
+    "word": "somato-",
+    "phonetic": "/'soʊmətəʊ/",
+    "pos": "prefix",
+    "coreMeaning": {"cn": "躯体-；体-（构词前缀）", "en": "combining form meaning body or body cells"},
+    "morphemes": [
+      {"form": "somato", "role": "prefix", "canonical": "soma", "meaning": "身体，躯体", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "希腊 soma(身体)", "to": "somato-", "by": "构词前缀形式"}]},
+    "morphVariantOf": "soma",
+    "memorySemantics": {"mnemonicExpr": "somato-=身体+构词前缀→体感/生长激素相关词", "imageChain": "身体前缀→somatosensory体感的→somatotrophin生长激素"},
+    "wordLevel": {"domain": ["medical", "biology"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["soma", "somatic", "somatotrophin"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["neuro-", "cardio-", "osteo-"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "somatome",
+    "phonetic": "/'soʊmətəʊm/",
+    "pos": "n",
+    "coreMeaning": {"cn": "胎体刀；体节（医学）", "en": "a surgical instrument for cutting the body; a segment of the embryonic body"},
+    "morphemes": [
+      {"form": "somat", "role": "root", "canonical": "soma", "meaning": "身体，躯体", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-ome", "role": "suffix", "canonical": "-tome", "meaning": "切割器/分节", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "somato-(身体)+tome(切割)", "to": "somatome", "by": "医学术语构词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "somat(体)+ome(切割)→ 切体器/体节", "imageChain": "胚胎体节→somatome"},
+    "wordLevel": {"domain": ["medical", "anatomy"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["soma", "somatic"], "sameAffix": ["dermatome", "myotome"], "synonyms": ["body segment"], "antonyms": [], "domainCohort": ["myotome", "dermatome"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "somatosensory",
+    "phonetic": "/ˌsoʊmətəʊ'sensəri/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "躯体感觉的；体感的", "en": "relating to sensations from the body such as touch, pressure, and proprioception"},
+    "morphemes": [
+      {"form": "somato", "role": "root", "canonical": "soma", "meaning": "身体，躯体", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "sensor", "role": "root", "canonical": "sensus", "meaning": "感觉，感知", "positionTendency": "medial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-y", "role": "suffix", "canonical": "-ory", "meaning": "形容词词尾", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "somato-(身体)+sensory(感觉的)", "to": "somatosensory", "by": "复合形容词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "somato(体)+sensory(感觉)→ 身体感觉的→somatosensory cortex体感皮层", "imageChain": "皮肤感受触压→体感皮层→somatosensory"},
+    "wordLevel": {"domain": ["neuroscience", "medical"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["soma", "somatic", "sensation"], "sameAffix": ["auditory", "visual", "olfactory"], "synonyms": ["tactile", "bodily sensation"], "antonyms": [], "domainCohort": ["proprioception", "tactile", "kinesthetic"], "derivationPair": ["somatic", "sensory"], "morphVariants": [], "sameImagery": ["touch", "body sensation"]}
+  },
+  {
+    "word": "somatotrophin",
+    "phonetic": "/ˌsoʊmətəʊ'trɒfɪn/",
+    "pos": "n",
+    "coreMeaning": {"cn": "生长激素（另称STH）", "en": "a growth hormone secreted by the pituitary gland"},
+    "morphemes": [
+      {"form": "somato", "role": "root", "canonical": "soma", "meaning": "身体，躯体", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "trophin", "role": "root", "canonical": "trophein", "meaning": "滋养，促进生长", "positionTendency": "final", "sentiment": {"tags": ["积极"], "intensity": 1}}
+    ],
+    "derivationChain": {"steps": [{"from": "somato(身体)+troph(滋养)+in(物质)", "to": "somatotrophin", "by": "医学生化术语"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "somato(身体)+trophin(营养物)→ 促进身体生长的激素", "imageChain": "脑垂体→生长激素→somatotrophin→长高"},
+    "wordLevel": {"domain": ["medical", "endocrinology"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["soma", "somatic", "somatropin"], "sameAffix": ["erythropoietin", "thyrotropin"], "synonyms": ["growth hormone", "HGH", "somatropin"], "antonyms": [], "domainCohort": ["insulin", "glucagon", "thyroxine"], "derivationPair": ["somatropin"], "morphVariants": ["somatropin"], "sameImagery": ["growth", "hormone"]}
+  },
+  {
+    "word": "somatropin",
+    "phonetic": "/ˌsoʊmə'trɒpɪn/",
+    "pos": "n",
+    "coreMeaning": {"cn": "重组生长激素（药物名）", "en": "recombinant human growth hormone used as a pharmaceutical"},
+    "morphemes": [
+      {"form": "somat", "role": "root", "canonical": "soma", "meaning": "身体，躯体", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "ropin", "role": "root", "canonical": "trophein", "meaning": "滋养，促生长（缩略变体）", "positionTendency": "final", "sentiment": {"tags": ["积极"], "intensity": 1}}
+    ],
+    "derivationChain": {"steps": [{"from": "somatotrophin", "to": "somatropin", "by": "药品名缩略形式"}]},
+    "morphVariantOf": "somatotrophin",
+    "memorySemantics": {"mnemonicExpr": "somatropin=somatotrophin药品名缩略→重组生长激素", "imageChain": "药瓶→注射生长激素→somatropin"},
+    "wordLevel": {"domain": ["medical", "pharmacology"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["soma", "somatotrophin"], "sameAffix": [], "synonyms": ["somatotrophin", "HGH", "growth hormone"], "antonyms": [], "domainCohort": ["insulin", "erythropoietin"], "derivationPair": ["somatotrophin"], "morphVariants": ["somatotrophin"], "sameImagery": ["growth", "medicine"]}
+  },
+  {
+    "word": "somber",
+    "phonetic": "/'sɑːmbɚ/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "阴郁的；昏暗的；严峻的", "en": "dark and dull; gloomy or depressing in character"},
+    "morphemes": [
+      {"form": "sombr", "role": "root", "canonical": "sombra", "meaning": "西班牙语/拉丁语：阴影，昏暗", "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}},
+      {"form": "-er", "role": "suffix", "canonical": "-er", "meaning": "形容词词尾（法语借词）", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "拉丁 sub(下)+umbra(影)→ sombra(荫凉)", "to": "法语 sombre", "by": "法语化"}, {"from": "sombre", "to": "somber", "by": "美式英语拼写"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "som(sub)+ber(umbra阴影)→ 在阴影下→阴郁的→somber mood", "imageChain": "乌云密布→阴暗→somber atmosphere"},
+    "wordLevel": {"domain": ["general", "sat", "gre", "toefl"], "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["sombre", "sombreness", "umbra", "sombrero"], "sameAffix": [], "synonyms": ["gloomy", "dark", "melancholy", "dismal"], "antonyms": ["cheerful", "bright", "vivid", "buoyant"], "domainCohort": ["gloomy", "dreary", "morose", "dismal"], "derivationPair": ["sombre", "sombreness"], "morphVariants": ["sombre"], "sameImagery": ["shadow", "gloom"]}
+  },
+  {
+    "word": "sombre",
+    "phonetic": "/'sɒmbɚ/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "阴郁的；昏暗的（英式拼法）", "en": "British spelling of somber"},
+    "morphemes": [
+      {"form": "sombr", "role": "root", "canonical": "sombra", "meaning": "阴影，昏暗", "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}},
+      {"form": "-e", "role": "suffix", "canonical": "-e", "meaning": "形容词词尾（法语式）", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "法语 sombre", "to": "英式 sombre", "by": "法语拼写保留"}]},
+    "morphVariantOf": "somber",
+    "memorySemantics": {"mnemonicExpr": "sombre=somber英式拼写→阴郁的", "imageChain": "阴沉的天空→sombre"},
+    "wordLevel": {"domain": ["British English", "literary"], "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["somber", "sombrely", "sombreness"], "sameAffix": [], "synonyms": ["somber", "gloomy", "dark"], "antonyms": ["bright", "cheerful"], "domainCohort": ["gloomy", "dismal"], "derivationPair": ["sombrely", "sombreness"], "morphVariants": ["somber"], "sameImagery": ["shadow", "gloom"]}
+  },
+  {
+    "word": "sombrely",
+    "phonetic": "/'sɒmbrəli/",
+    "pos": "adv",
+    "coreMeaning": {"cn": "阴郁地；沉重地", "en": "in a sombre manner; gloomily"},
+    "morphemes": [
+      {"form": "sombr", "role": "root", "canonical": "sombra", "meaning": "阴影，昏暗", "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}},
+      {"form": "-e", "role": "suffix", "canonical": "-e", "meaning": "词根部分", "positionTendency": "medial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-ly", "role": "suffix", "canonical": "-ly", "meaning": "副词词尾", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "sombre", "to": "sombrely", "by": "加副词词尾-ly"}]},
+    "morphVariantOf": "somber",
+    "memorySemantics": {"mnemonicExpr": "sombre+ly → 以阴郁的方式", "imageChain": "他沉重地说→spoke sombrely"},
+    "wordLevel": {"domain": ["British English", "literary"], "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["sombre", "somber", "sombreness"], "sameAffix": ["gloomily", "darkly", "mournfully"], "synonyms": ["gloomily", "darkly", "gravely"], "antonyms": ["cheerfully", "brightly"], "domainCohort": [], "derivationPair": ["sombre"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "sombreness",
+    "phonetic": "/'sɒmbənɪs/",
+    "pos": "n",
+    "coreMeaning": {"cn": "阴郁；沉闷", "en": "the quality of being sombre; gloominess"},
+    "morphemes": [
+      {"form": "sombr", "role": "root", "canonical": "sombra", "meaning": "阴影，昏暗", "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}},
+      {"form": "-e", "role": "suffix", "canonical": "-e", "meaning": "词根部分", "positionTendency": "medial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-ness", "role": "suffix", "canonical": "-ness", "meaning": "名词化", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "sombre", "to": "sombreness", "by": "加-ness构成名词"}]},
+    "morphVariantOf": "somber",
+    "memorySemantics": {"mnemonicExpr": "sombre+ness → 阴郁的状态", "imageChain": "葬礼的沉重气氛→sombreness"},
+    "wordLevel": {"domain": ["British English", "literary"], "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["sombre", "somber"], "sameAffix": ["gloominess", "darkness"], "synonyms": ["gloominess", "gravity", "solemnity"], "antonyms": ["cheerfulness", "brightness"], "domainCohort": [], "derivationPair": ["sombre"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "sombrero",
+    "phonetic": "/sɒm'breɪrəʊ/",
+    "pos": "n",
+    "coreMeaning": {"cn": "宽边帽（墨西哥帽）", "en": "a broad-brimmed hat typical of Mexico and the American Southwest"},
+    "morphemes": [
+      {"form": "sombr", "role": "root", "canonical": "sombra", "meaning": "西班牙语：阴影（宽边遮阳）", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-ero", "role": "suffix", "canonical": "-ero", "meaning": "西班牙语工具/物品后缀", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "西班牙 sombra(阴影)+ero(物品后缀)", "to": "sombrero", "by": "遮阴的帽子"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "sombra(阴影)+ero → 提供阴影的帽子→sombrero宽边帽", "imageChain": "墨西哥大草帽遮阳→sombrero"},
+    "wordLevel": {"domain": ["fashion", "culture", "Mexican"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["somber", "sombre", "umbra"], "sameAffix": [], "synonyms": ["wide-brimmed hat"], "antonyms": [], "domainCohort": ["hat", "brim", "shade"], "derivationPair": [], "morphVariants": [], "sameImagery": ["shade", "Mexico"]}
+  },
+  {
+    "word": "sombreros",
+    "phonetic": "/sɒm'breɪrəʊz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "宽边帽（复数）", "en": "plural of sombrero"},
+    "morphemes": [
+      {"form": "sombrero", "role": "root", "canonical": "sombra", "meaning": "宽边帽", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "sombrero", "to": "sombreros", "by": "加复数词尾-s"}]},
+    "morphVariantOf": "sombrero",
+    "memorySemantics": {"mnemonicExpr": "sombrero复数→多顶宽边帽", "imageChain": "一排宽边帽→sombreros"},
+    "wordLevel": {"domain": ["fashion", "culture"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["sombrero", "sombre"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["sombrero"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "somebody",
+    "phonetic": "/'sʌmbədi/",
+    "pos": "pron",
+    "coreMeaning": {"cn": "某人；重要人物", "en": "some person; a person of importance or consequence"},
+    "morphemes": [
+      {"form": "some", "role": "root", "canonical": "some", "meaning": "某些，一些", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "body", "role": "root", "canonical": "body", "meaning": "人，身体", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "some + body", "to": "somebody", "by": "复合代词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "some(某)+body(人) → 某个人→somebody", "imageChain": "有个人做了某事→somebody did it"},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["someone", "somehow", "someplace", "someday"], "sameAffix": ["everybody", "nobody", "anybody"], "synonyms": ["someone", "a person"], "antonyms": ["nobody"], "domainCohort": ["someone", "anyone", "everyone"], "derivationPair": ["someone"], "morphVariants": ["someone"], "sameImagery": []}
+  },
+  {
+    "word": "somehow",
+    "phonetic": "/'sʌmhaʊ/",
+    "pos": "adv",
+    "coreMeaning": {"cn": "以某种方式；不知何故", "en": "in some way or other; by some unspecified means"},
+    "morphemes": [
+      {"form": "some", "role": "root", "canonical": "some", "meaning": "某些，某种", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "how", "role": "root", "canonical": "how", "meaning": "以何种方式", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "some + how", "to": "somehow", "by": "复合副词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "some(某种)+how(方式)→ 以某种方式→somehow", "imageChain": "不知道怎么做到的→somehow it worked"},
+    "wordLevel": {"domain": ["general", "ielts", "npee", "cet4"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["somebody", "someone", "something"], "sameAffix": ["anyhow", "somehow", "nohow"], "synonyms": ["in some way", "by some means", "in some manner"], "antonyms": [], "domainCohort": ["anyhow", "someway"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "somersault",
+    "phonetic": "/'sʌmərsɒlt/",
+    "pos": "n",
+    "coreMeaning": {"cn": "翻筋斗；空翻；（态度）急转变", "en": "an acrobatic movement in which a person turns head over heels; a sudden reversal"},
+    "morphemes": [
+      {"form": "somer", "role": "root", "canonical": "supra", "meaning": "在上方，越过（源自古法语 sombre=越过）", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "sault", "role": "root", "canonical": "saltare", "meaning": "跳跃，跳", "positionTendency": "final", "sentiment": {"tags": ["积极"], "intensity": 1}}
+    ],
+    "derivationChain": {"steps": [{"from": "古法语 soubresaut (越过+跳)", "to": "somersault", "by": "语音演变借入"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "somer(越过)+sault(跳)→ 跳过去翻一圈→somersault翻筋斗", "imageChain": "体操运动员空翻→somersault"},
+    "wordLevel": {"domain": ["sports", "general"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["saltation", "assault", "exult"], "sameAffix": [], "synonyms": ["flip", "tumble", "cartwheel", "roll"], "antonyms": [], "domainCohort": ["cartwheel", "backflip", "tumble"], "derivationPair": [], "morphVariants": [], "sameImagery": ["gymnastics", "flip"]}
   }
 ]
