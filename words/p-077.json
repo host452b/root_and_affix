@@ -1,608 +1,770 @@
 [
   {
-    "word": "playful",
-    "phonetic": "/'plefl/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "爱嬉戏的；开玩笑的",
-      "en": "fond of fun; full of play"
-    },
+    "word": "play-time",
+    "phonetic": "/ˈpleɪˌtaɪm/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "玩耍时间；游戏时间（连字符变体）", "en": "time set aside for playing; variant spelling of playtime" },
     "morphemes": [
-      {
-        "canonical": "play",
-        "role": "root",
-        "meaning": "玩耍；游戏",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "play",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-ful",
-        "role": "suffix",
-        "meaning": "充满…的",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "ful",
-        "positionTendency": "final"
-      }
+      { "canonical": "play", "role": "root", "meaning": "to engage in amusement", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "玩耍", "en": "to play" } },
+      { "canonical": "time", "role": "root", "meaning": "a period or duration", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "time", "positionTendency": "final", "coreMeaning": { "cn": "时间", "en": "time" } }
     ],
-    "derivationChain": [
-      "play",
-      "playful"
+    "derivationChain": { "steps": [{ "from": "play + time", "to": "play-time", "operation": "compound formation (hyphenated variant)" }] },
+    "morphVariantOf": "playtime",
+    "memorySemantics": { "mnemonicExpr": "play(玩耍)+time(时间) → 专门用来玩耍的时间", "imageChain": ["课间休息", "玩耍时间", "游乐场"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["playtime", "playground", "playful"], "sameAffix": [], "synonyms": ["playtime", "recreation time", "recess"], "antonyms": ["work time", "study time"], "domainCohort": [], "derivationPair": ["playtime"], "morphVariants": ["playtime"], "sameImagery": [] }
+  },
+  {
+    "word": "play's",
+    "phonetic": "/pleɪz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "戏剧的（所有格）", "en": "possessive form of play; belonging to a play" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "a dramatic work; a game", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "戏剧/游戏", "en": "a play; a game" } },
+      { "canonical": "'s", "role": "suffix", "meaning": "possessive marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "'s", "positionTendency": "final", "coreMeaning": { "cn": "所有格", "en": "possessive" } }
     ],
-    "memorySemantics": {
-      "imageKey": "playful puppy",
-      "scene": "小狗追着皮球跑，尾巴摇个不停",
-      "emotionalHook": "童年游戏的轻松快乐",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general",
-        "literary"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "playwright",
-        "playback",
-        "playground"
-      ],
-      "sameAffix": [
-        "handful",
-        "fearful",
-        "cheerful"
-      ],
-      "synonyms": [
-        "frolicsome",
-        "sportive",
-        "jocular"
-      ],
-      "antonyms": [
-        "serious",
-        "grave",
-        "solemn"
-      ],
-      "domainCohort": [
-        "cheerful",
-        "lively"
-      ],
-      "derivationPair": [
-        "playfulness",
-        "playfully"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": { "steps": [{ "from": "play", "to": "play's", "operation": "possessive" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "play+'s → 这出戏剧的（所有格形式）", "imageChain": ["戏剧所有权", "剧本归属"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["play", "playwright"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["play"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "playa",
+    "phonetic": "/ˈplaɪə/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "干盐湖；盐碱地；沙滩（西班牙语借词）", "en": "a flat-floored bottom of an undrained desert basin; a beach (Spanish loanword)" },
+    "morphemes": [
+      { "canonical": "playa", "role": "root", "meaning": "flat; beach; dry lake bed (Spanish playa = beach)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "playa", "positionTendency": "initial", "coreMeaning": { "cn": "干湖盆/沙滩", "en": "flat dry lake bed; beach" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Spanish playa (beach)", "to": "playa", "operation": "loan word into English" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "playa → 西班牙语沙滩，在英语中指干盐湖底部", "imageChain": ["干盐湖", "沙漠盆地", "盐碱地"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": ["dry lake", "salt flat", "salt pan"], "antonyms": [], "domainCohort": ["geology", "desert", "geography"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "playable",
+    "phonetic": "/ˈpleɪəbl/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "可演奏的；可玩的；适合比赛的", "en": "able to be played; fit for play or performance" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "to engage in play or performance", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "玩耍/演奏", "en": "to play" } },
+      { "canonical": "-able", "role": "suffix", "meaning": "capable of being; fit for", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "able", "positionTendency": "final", "coreMeaning": { "cn": "可以…的", "en": "capable of being" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "play", "to": "playable", "operation": "+-able (adj.)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "play+able → 能玩的，可以演奏的", "imageChain": ["可玩的游戏", "可演奏的乐曲"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["play", "playful", "playwright"], "sameAffix": [], "synonyms": ["performable", "usable", "viable"], "antonyms": ["unplayable"], "domainCohort": ["music", "sports", "gaming"], "derivationPair": ["play"], "morphVariants": [], "sameImagery": [] }
   },
   {
     "word": "playback",
-    "phonetic": "/'pleibæk/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "(录音/录像)重放",
-      "en": "replay of recorded audio or video"
-    },
+    "phonetic": "/ˈpleɪbæk/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "重放；回放；录音回放", "en": "the reproduction of recorded sound or picture; the act of playing back recorded material" },
     "morphemes": [
-      {
-        "canonical": "play",
-        "role": "root",
-        "meaning": "播放",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "play",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "back",
-        "role": "root",
-        "meaning": "返回；向后",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "back",
-        "positionTendency": "final"
-      }
+      { "canonical": "play", "role": "root", "meaning": "to reproduce recorded material", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "播放", "en": "to play" } },
+      { "canonical": "back", "role": "root", "meaning": "in reverse; again", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "back", "positionTendency": "final", "coreMeaning": { "cn": "向回", "en": "back; again" } }
     ],
-    "derivationChain": [
-      "play back (v. phrase)",
-      "playback (n.)"
-    ],
-    "memorySemantics": {
-      "imageKey": "rewind button",
-      "scene": "按下倒退键，录音从头再来",
-      "emotionalHook": "反复聆听珍贵片段",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "tech",
-        "music"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "playful",
-        "playwright",
-        "playlist"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "replay",
-        "rerun"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "recording",
-        "broadcast"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": { "steps": [{ "from": "play + back", "to": "playback", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "play(播放)+back(回) → 将录制内容再次播放", "imageChain": ["录音回放", "视频重播", "倒带"] },
+    "wordLevel": { "domain": "tech", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["playbacks", "play"], "sameAffix": [], "synonyms": ["replay", "reproduction", "rewind"], "antonyms": [], "domainCohort": ["audio", "video", "recording"], "derivationPair": ["playbacks"], "morphVariants": [], "sameImagery": [] }
   },
   {
-    "word": "playwright",
-    "phonetic": "/'pleraɪt/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "剧作家",
-      "en": "a person who writes plays"
-    },
+    "word": "playbacks",
+    "phonetic": "/ˈpleɪbæks/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "回放（复数）", "en": "plural of playback; multiple reproductions of recorded material" },
     "morphemes": [
-      {
-        "canonical": "play",
-        "role": "root",
-        "meaning": "剧本；戏剧",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "play",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "wright",
-        "role": "root",
-        "meaning": "制作者；工匠",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "wright",
-        "positionTendency": "final"
-      }
+      { "canonical": "play", "role": "root", "meaning": "to reproduce", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "播放", "en": "to play" } },
+      { "canonical": "back", "role": "root", "meaning": "again", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "back", "positionTendency": "medial", "coreMeaning": { "cn": "向回", "en": "back" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
     ],
-    "derivationChain": [
-      "wright (OE wyrhta)",
-      "playwright"
-    ],
-    "memorySemantics": {
-      "imageKey": "quill on stage",
-      "scene": "莎士比亚坐在幕布后，用羽毛笔写台词",
-      "emotionalHook": "文字创造戏剧世界的力量",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "literary",
-        "arts"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "playful",
-        "playback",
-        "playlist"
-      ],
-      "sameAffix": [
-        "wheelwright",
-        "shipwright",
-        "wainwright"
-      ],
-      "synonyms": [
-        "dramatist",
-        "dramaturg"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "novelist",
-        "screenwriter",
-        "poet"
-      ],
-      "derivationPair": [
-        "playwriting"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": { "steps": [{ "from": "playback", "to": "playbacks", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "playback+s → 多次回放", "imageChain": ["多次重播"] },
+    "wordLevel": { "domain": "tech", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["playback", "play"], "sameAffix": [], "synonyms": ["replays"], "antonyms": [], "domainCohort": [], "derivationPair": ["playback"], "morphVariants": [], "sameImagery": [] }
   },
   {
-    "word": "playoff",
-    "phonetic": "/'pleiɔ:f/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "决赛；季后赛",
-      "en": "a final contest to determine a winner"
-    },
+    "word": "playbill",
+    "phonetic": "/ˈpleɪbɪl/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "戏剧节目单；演出说明书", "en": "a poster or program for a theatrical performance" },
     "morphemes": [
-      {
-        "canonical": "play",
-        "role": "root",
-        "meaning": "比赛；游戏",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "play",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "off",
-        "role": "root",
-        "meaning": "决出；分出",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "off",
-        "positionTendency": "final"
-      }
+      { "canonical": "play", "role": "root", "meaning": "a theatrical performance", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "戏剧", "en": "a play" } },
+      { "canonical": "bill", "role": "root", "meaning": "a notice or list; a printed document", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "bill", "positionTendency": "final", "coreMeaning": { "cn": "告示/账单", "en": "a notice; a bill" } }
     ],
-    "derivationChain": [
-      "play off (phrase)",
-      "playoff (n.)"
-    ],
-    "memorySemantics": {
-      "imageKey": "championship trophy",
-      "scene": "篮球决赛最后一秒投篮，全场屏息",
-      "emotionalHook": "冠军荣耀的终极对决",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "sports",
-        "news"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "playful",
-        "playwright"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "final",
-        "tiebreaker",
-        "decider"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "championship",
-        "tournament",
-        "qualifier"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": { "steps": [{ "from": "play + bill", "to": "playbill", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "play(戏剧)+bill(告示) → 演出的节目单或海报", "imageChain": ["节目单", "戏剧海报", "演出告示"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["playbills", "playwright"], "sameAffix": [], "synonyms": ["program", "poster", "handbill"], "antonyms": [], "domainCohort": ["theater", "performance"], "derivationPair": ["playbills"], "morphVariants": [], "sameImagery": [] }
   },
   {
-    "word": "playlist",
-    "phonetic": "/'pleilist/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "播放列表",
-      "en": "a list of songs or videos for playback"
-    },
+    "word": "playbills",
+    "phonetic": "/ˈpleɪbɪlz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "戏剧节目单（复数）", "en": "plural of playbill; multiple theatrical programs or posters" },
     "morphemes": [
-      {
-        "canonical": "play",
-        "role": "root",
-        "meaning": "播放",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "play",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "list",
-        "role": "root",
-        "meaning": "列表",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "list",
-        "positionTendency": "final"
-      }
+      { "canonical": "play", "role": "root", "meaning": "a theatrical performance", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "戏剧", "en": "a play" } },
+      { "canonical": "bill", "role": "root", "meaning": "a notice", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "bill", "positionTendency": "medial", "coreMeaning": { "cn": "告示", "en": "a notice" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
     ],
-    "derivationChain": [
-      "play + list",
-      "playlist"
-    ],
-    "memorySemantics": {
-      "imageKey": "music queue",
-      "scene": "耳机里一首接一首，旅途中的配乐",
-      "emotionalHook": "精心策划的音乐旅程",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "tech",
-        "music"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "playback",
-        "playwright"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "queue",
-        "tracklist"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "album",
-        "mixtape"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": { "steps": [{ "from": "playbill", "to": "playbills", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "playbill+s → 多张节目单", "imageChain": ["演出节目单们"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["playbill", "play"], "sameAffix": [], "synonyms": ["programs", "posters"], "antonyms": [], "domainCohort": [], "derivationPair": ["playbill"], "morphVariants": [], "sameImagery": [] }
   },
   {
-    "word": "playmate",
-    "phonetic": "/'pleimet/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "玩伴；游戏伙伴",
-      "en": "a friend with whom one plays"
-    },
+    "word": "playbook",
+    "phonetic": "/ˈpleɪbʊk/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "剧本；战术手册；策略书", "en": "a book of plays or scripts; a book of strategies and tactics" },
     "morphemes": [
-      {
-        "canonical": "play",
-        "role": "root",
-        "meaning": "游戏；玩耍",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "play",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "mate",
-        "role": "root",
-        "meaning": "伙伴；同伴",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 2,
-        "form": "mate",
-        "positionTendency": "final"
-      }
+      { "canonical": "play", "role": "root", "meaning": "a theatrical work; a game plan", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "戏剧/策略", "en": "play; strategy" } },
+      { "canonical": "book", "role": "root", "meaning": "a written or printed work", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "book", "positionTendency": "final", "coreMeaning": { "cn": "书本", "en": "book" } }
     ],
-    "derivationChain": [
-      "play + mate"
+    "derivationChain": { "steps": [{ "from": "play + book", "to": "playbook", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "play(策略/戏剧)+book(书) → 包含策略或剧本的书", "imageChain": ["剧本", "战术手册", "策略集"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["playwright", "play"], "sameAffix": [], "synonyms": ["script", "strategy guide", "manual"], "antonyms": [], "domainCohort": ["sports", "theater", "business"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "playboy",
+    "phonetic": "/ˈpleɪbɔɪ/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "花花公子；寻欢作乐者", "en": "a wealthy man who spends time seeking pleasure" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "to seek pleasure; to play", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "玩耍/享乐", "en": "to play; to seek pleasure" } },
+      { "canonical": "boy", "role": "root", "meaning": "a male person", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "boy", "positionTendency": "final", "coreMeaning": { "cn": "男孩/男人", "en": "a boy; a man" } }
     ],
-    "memorySemantics": {
-      "imageKey": "children playing together",
-      "scene": "两个孩子在沙坑里搭城堡",
-      "emotionalHook": "童年友谊的纯真无邪",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "playful",
-        "playground"
-      ],
-      "sameAffix": [
-        "classmate",
-        "roommate",
-        "teammate"
-      ],
-      "synonyms": [
-        "companion",
-        "friend",
-        "buddy"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "friend",
-        "companion"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": { "steps": [{ "from": "play + boy", "to": "playboy", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "play(享乐)+boy(男人) → 以享乐为主的富裕男性", "imageChain": ["花花公子", "奢靡生活", "纸醉金迷"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["贬义"], "intensity": 1 } },
+    "relations": { "sameRoot": ["playboys", "play"], "sameAffix": [], "synonyms": ["bon vivant", "rake", "libertine"], "antonyms": [], "domainCohort": [], "derivationPair": ["playboys"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "playboys",
+    "phonetic": "/ˈpleɪbɔɪz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "花花公子（复数）", "en": "plural of playboy; multiple wealthy pleasure-seeking men" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "to seek pleasure", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "享乐", "en": "to seek pleasure" } },
+      { "canonical": "boy", "role": "root", "meaning": "a man", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "boy", "positionTendency": "medial", "coreMeaning": { "cn": "男人", "en": "a man" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "playboy", "to": "playboys", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "playboy+s → 多位花花公子", "imageChain": ["富裕享乐族"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["贬义"], "intensity": 1 } },
+    "relations": { "sameRoot": ["playboy"], "sameAffix": [], "synonyms": ["rakes", "libertines"], "antonyms": [], "domainCohort": [], "derivationPair": ["playboy"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "played",
+    "phonetic": "/pleɪd/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "玩了；演奏了（过去式）", "en": "past tense of play; engaged in play, performed, or competed" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "to engage in activity for enjoyment", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "玩耍/演奏", "en": "to play" } },
+      { "canonical": "-ed", "role": "suffix", "meaning": "past tense", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ed", "positionTendency": "final", "coreMeaning": { "cn": "过去式", "en": "past tense" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "play", "to": "played", "operation": "+-ed (past tense)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "play+ed → 已经玩了/演奏了", "imageChain": ["比赛结束", "演出完毕"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["play", "player", "playing"], "sameAffix": [], "synonyms": ["performed", "competed", "acted"], "antonyms": [], "domainCohort": [], "derivationPair": ["play"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "player",
+    "phonetic": "/ˈpleɪər/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "运动员；玩家；演员；演奏者", "en": "a person who takes part in a game, sport, or performance" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "to engage in sport or performance", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "玩耍/演出", "en": "to play" } },
+      { "canonical": "-er", "role": "suffix", "meaning": "agent; one who does", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "er", "positionTendency": "final", "coreMeaning": { "cn": "…者", "en": "agent" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "play", "to": "player", "operation": "+-er (agent noun)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "play+er → 参与游戏、运动或表演的人", "imageChain": ["运动员", "玩家", "演员"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["players", "play", "played"], "sameAffix": [], "synonyms": ["participant", "athlete", "performer", "contestant"], "antonyms": ["spectator", "audience"], "domainCohort": ["sports", "gaming", "theater"], "derivationPair": ["players", "play"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "player's",
+    "phonetic": "/ˈpleɪərz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "玩家的（所有格）", "en": "possessive form of player; belonging to a player" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "to play", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "玩耍", "en": "to play" } },
+      { "canonical": "-er", "role": "suffix", "meaning": "agent", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "er", "positionTendency": "medial", "coreMeaning": { "cn": "…者", "en": "agent" } },
+      { "canonical": "'s", "role": "suffix", "meaning": "possessive marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "'s", "positionTendency": "final", "coreMeaning": { "cn": "所有格", "en": "possessive" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "player", "to": "player's", "operation": "possessive" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "player+'s → 玩家的（东西）", "imageChain": ["玩家的装备", "运动员的"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["player", "play"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["player"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "players",
+    "phonetic": "/ˈpleɪərz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "运动员；玩家（复数）", "en": "plural of player; multiple participants in a game or performance" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "to play", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "玩耍", "en": "to play" } },
+      { "canonical": "-er", "role": "suffix", "meaning": "agent", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "er", "positionTendency": "medial", "coreMeaning": { "cn": "…者", "en": "agent" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "player", "to": "players", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "player+s → 众多玩家/运动员", "imageChain": ["球队成员", "比赛选手"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["player", "play"], "sameAffix": [], "synonyms": ["participants", "athletes", "performers"], "antonyms": ["spectators"], "domainCohort": [], "derivationPair": ["player"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "playfellow",
+    "phonetic": "/ˈpleɪˌfɛloʊ/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "玩伴；游戏伙伴", "en": "a person who plays with another; a playmate" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "to play; to engage in amusement", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "玩耍", "en": "to play" } },
+      { "canonical": "fellow", "role": "root", "meaning": "companion; a person", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 2, "form": "fellow", "positionTendency": "final", "coreMeaning": { "cn": "伙伴", "en": "companion; fellow" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "play + fellow", "to": "playfellow", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "play(玩耍)+fellow(伙伴) → 一起玩耍的同伴", "imageChain": ["玩伴", "童年朋友", "同伴"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["playfellows", "playmate"], "sameAffix": [], "synonyms": ["playmate", "companion", "friend"], "antonyms": [], "domainCohort": [], "derivationPair": ["playfellows"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "playfellows",
+    "phonetic": "/ˈpleɪˌfɛloʊz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "玩伴（复数）", "en": "plural of playfellow; multiple playmates" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "to play", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "玩耍", "en": "to play" } },
+      { "canonical": "fellow", "role": "root", "meaning": "companion", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 2, "form": "fellow", "positionTendency": "medial", "coreMeaning": { "cn": "伙伴", "en": "companion" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "playfellow", "to": "playfellows", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "playfellow+s → 多个玩伴", "imageChain": ["一群玩伴"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["playfellow", "play"], "sameAffix": [], "synonyms": ["playmates", "companions"], "antonyms": [], "domainCohort": [], "derivationPair": ["playfellow"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "playful",
+    "phonetic": "/ˈpleɪfl/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "爱嬉戏的；开玩笑的；幽默的", "en": "fond of games and amusement; lighthearted and full of fun" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "to engage in amusement", "sentiment": { "tags": ["积极"], "intensity": 2 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "玩耍", "en": "to play" } },
+      { "canonical": "-ful", "role": "suffix", "meaning": "full of; characterized by", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 2, "form": "ful", "positionTendency": "final", "coreMeaning": { "cn": "充满…的", "en": "full of" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "play", "to": "playful", "operation": "+-ful (adj.)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "play+ful → 充满玩耍精神的，爱嬉戏的", "imageChain": ["嬉戏", "调皮", "天真烂漫"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["playfully", "playfulness", "play"], "sameAffix": ["joyful", "cheerful"], "synonyms": ["frivolous", "mischievous", "frolicsome", "lighthearted"], "antonyms": ["serious", "solemn", "grave"], "domainCohort": [], "derivationPair": ["playfully", "playfulness"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "playfully",
+    "phonetic": "/ˈpleɪfəli/",
+    "pos": "adv.",
+    "coreMeaning": { "cn": "爱嬉戏地；开玩笑地", "en": "in a playful manner; in a lighthearted way" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "to play", "sentiment": { "tags": ["积极"], "intensity": 2 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "玩耍", "en": "to play" } },
+      { "canonical": "-ful", "role": "suffix", "meaning": "full of", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 2, "form": "ful", "positionTendency": "medial", "coreMeaning": { "cn": "充满", "en": "full of" } },
+      { "canonical": "-ly", "role": "suffix", "meaning": "in the manner of", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ly", "positionTendency": "final", "coreMeaning": { "cn": "地", "en": "in the manner of" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "playful", "to": "playfully", "operation": "+-ly (adv.)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "playful+ly → 以嬉戏的方式", "imageChain": ["调皮地", "开玩笑地"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["playful", "play"], "sameAffix": [], "synonyms": ["lightheartedly", "jokingly", "frivolously"], "antonyms": ["seriously", "solemnly"], "domainCohort": [], "derivationPair": ["playful"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "playfulness",
+    "phonetic": "/ˈpleɪfəlnɪs/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "爱嬉戏的性格；调皮", "en": "the quality of being playful; fun-loving nature" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "to play", "sentiment": { "tags": ["积极"], "intensity": 2 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "玩耍", "en": "to play" } },
+      { "canonical": "-ful", "role": "suffix", "meaning": "full of", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 2, "form": "ful", "positionTendency": "medial", "coreMeaning": { "cn": "充满", "en": "full of" } },
+      { "canonical": "-ness", "role": "suffix", "meaning": "state or quality", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ness", "positionTendency": "final", "coreMeaning": { "cn": "性质/状态", "en": "state or quality" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "playful", "to": "playfulness", "operation": "+-ness (noun)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "playful+ness → 爱玩耍的品质", "imageChain": ["童心", "嬉戏精神"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["playful", "play"], "sameAffix": [], "synonyms": ["friskiness", "lightheartedness", "frivolity"], "antonyms": ["seriousness", "gravity"], "domainCohort": [], "derivationPair": ["playful"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "playgoer",
+    "phonetic": "/ˈpleɪˌɡoʊər/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "戏迷；爱看戏剧的人", "en": "a person who goes to the theater regularly" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "a theatrical performance", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "戏剧", "en": "a theatrical play" } },
+      { "canonical": "go", "role": "root", "meaning": "to attend; to move toward", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "go", "positionTendency": "medial", "coreMeaning": { "cn": "前往", "en": "to go" } },
+      { "canonical": "-er", "role": "suffix", "meaning": "agent; one who does", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "er", "positionTendency": "final", "coreMeaning": { "cn": "…者", "en": "agent" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "play + goer", "to": "playgoer", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "play(戏剧)+goer(前往者) → 经常去看戏的人", "imageChain": ["戏迷", "剧院观众", "文艺爱好者"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["playgoers", "playwright"], "sameAffix": [], "synonyms": ["theatergoer", "audience member"], "antonyms": [], "domainCohort": ["theater", "culture"], "derivationPair": ["playgoers"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "playgoers",
+    "phonetic": "/ˈpleɪˌɡoʊərz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "戏迷（复数）", "en": "plural of playgoer; multiple theatergoers" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "a theatrical performance", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "戏剧", "en": "a play" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "playgoer", "to": "playgoers", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "playgoer+s → 一群戏迷", "imageChain": ["剧院观众们"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["playgoer", "play"], "sameAffix": [], "synonyms": ["theatergoers", "audience"], "antonyms": [], "domainCohort": [], "derivationPair": ["playgoer"], "morphVariants": [], "sameImagery": [] }
   },
   {
     "word": "playground",
-    "phonetic": "/'pleiɡraʊnd/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "操场；游乐场",
-      "en": "an outdoor area for children to play"
-    },
+    "phonetic": "/ˈpleɪɡraʊnd/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "操场；游乐场", "en": "an outdoor area provided for children to play; a place for recreation" },
     "morphemes": [
-      {
-        "canonical": "play",
-        "role": "root",
-        "meaning": "游戏；玩耍",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "play",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "ground",
-        "role": "root",
-        "meaning": "地面；场地",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "ground",
-        "positionTendency": "final"
-      }
+      { "canonical": "play", "role": "root", "meaning": "to engage in amusement", "sentiment": { "tags": ["积极"], "intensity": 2 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "玩耍", "en": "to play" } },
+      { "canonical": "ground", "role": "root", "meaning": "an area of land", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ground", "positionTendency": "final", "coreMeaning": { "cn": "场地", "en": "ground; area" } }
     ],
-    "derivationChain": [
-      "play + ground"
+    "derivationChain": { "steps": [{ "from": "play + ground", "to": "playground", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "play(玩耍)+ground(场地) → 专门供游戏玩耍的场地", "imageChain": ["操场", "滑梯秋千", "游乐园"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["playgrounds", "play"], "sameAffix": [], "synonyms": ["play area", "recreation area", "park"], "antonyms": [], "domainCohort": ["school", "children"], "derivationPair": ["playgrounds"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "playgrounds",
+    "phonetic": "/ˈpleɪɡraʊndz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "操场（复数）", "en": "plural of playground; multiple play areas" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "to play", "sentiment": { "tags": ["积极"], "intensity": 2 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "玩耍", "en": "to play" } },
+      { "canonical": "ground", "role": "root", "meaning": "land area", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ground", "positionTendency": "medial", "coreMeaning": { "cn": "场地", "en": "ground" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
     ],
-    "memorySemantics": {
-      "imageKey": "swings and slides",
-      "scene": "学校操场，秋千在风中摇晃",
-      "emotionalHook": "课间十分钟的奔跑自由",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general",
-        "education"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "playful",
-        "playmate",
-        "playback"
-      ],
-      "sameAffix": [
-        "fairground",
-        "campground",
-        "battleground"
-      ],
-      "synonyms": [
-        "play area",
-        "recreation ground"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "park",
-        "stadium",
-        "field"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": { "steps": [{ "from": "playground", "to": "playgrounds", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "playground+s → 多处游乐场", "imageChain": ["各处操场"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["playground", "play"], "sameAffix": [], "synonyms": ["play areas", "parks"], "antonyms": [], "domainCohort": [], "derivationPair": ["playground"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "playgroup",
+    "phonetic": "/ˈpleɪɡruːp/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "游戏小组；学前游戏班", "en": "a group of young children who meet regularly to play; a preschool play session" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "to engage in play", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "玩耍", "en": "to play" } },
+      { "canonical": "group", "role": "root", "meaning": "a number of people gathered together", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "group", "positionTendency": "final", "coreMeaning": { "cn": "群体", "en": "group" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "play + group", "to": "playgroup", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "play(玩耍)+group(小组) → 儿童游戏小组", "imageChain": ["学前班", "游戏小组", "幼儿园"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["playgroups", "play"], "sameAffix": [], "synonyms": ["preschool group", "nursery group"], "antonyms": [], "domainCohort": ["education", "children"], "derivationPair": ["playgroups"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "playgroups",
+    "phonetic": "/ˈpleɪɡruːps/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "游戏小组（复数）", "en": "plural of playgroup" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "to play", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "玩耍", "en": "to play" } },
+      { "canonical": "group", "role": "root", "meaning": "group", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "group", "positionTendency": "medial", "coreMeaning": { "cn": "群体", "en": "group" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "playgroup", "to": "playgroups", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "playgroup+s → 多个游戏小组", "imageChain": ["多个儿童游戏班"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["playgroup", "play"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["playgroup"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "playhouse",
+    "phonetic": "/ˈpleɪhaʊs/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "剧场；玩具小屋", "en": "a theater; a small structure for children to play in" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "theatrical performance; amusement", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "戏剧/玩耍", "en": "play; performance" } },
+      { "canonical": "house", "role": "root", "meaning": "a building; a venue", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "house", "positionTendency": "final", "coreMeaning": { "cn": "建筑/场馆", "en": "building; house" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "play + house", "to": "playhouse", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "play(戏剧/玩耍)+house(场馆) → 演戏的场所或小屋", "imageChain": ["剧院", "玩具小屋", "表演场所"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["playhouses", "playwright"], "sameAffix": [], "synonyms": ["theater", "playroom"], "antonyms": [], "domainCohort": ["theater", "children"], "derivationPair": ["playhouses"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "playhouses",
+    "phonetic": "/ˈpleɪhaʊzɪz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "剧场（复数）", "en": "plural of playhouse; multiple theaters or children's play structures" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "theatrical performance", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "戏剧", "en": "play; performance" } },
+      { "canonical": "house", "role": "root", "meaning": "building", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "house", "positionTendency": "medial", "coreMeaning": { "cn": "建筑", "en": "building" } },
+      { "canonical": "-es", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "es", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "playhouse", "to": "playhouses", "operation": "+-es (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "playhouse+es → 多处剧场", "imageChain": ["各地剧院"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["playhouse", "play"], "sameAffix": [], "synonyms": ["theaters"], "antonyms": [], "domainCohort": [], "derivationPair": ["playhouse"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "playing",
+    "phonetic": "/ˈpleɪɪŋ/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "正在玩耍；正在演奏", "en": "present participle of play; engaging in play, sport, or performance" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "to engage in play or performance", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "玩耍/演奏", "en": "to play" } },
+      { "canonical": "-ing", "role": "suffix", "meaning": "present participle", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ing", "positionTendency": "final", "coreMeaning": { "cn": "进行时", "en": "ongoing action" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "play", "to": "playing", "operation": "+-ing (present participle)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "play+ing → 正在进行游戏或演奏", "imageChain": ["在玩耍", "演奏中"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["play", "player", "played"], "sameAffix": [], "synonyms": ["performing", "competing", "sporting"], "antonyms": [], "domainCohort": [], "derivationPair": ["play"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "playlist",
+    "phonetic": "/ˈpleɪlɪst/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "播放列表；曲目列表", "en": "a list of songs, videos, or other media items to be played in order" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "to reproduce media", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "播放", "en": "to play (media)" } },
+      { "canonical": "list", "role": "root", "meaning": "an ordered collection of items", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "list", "positionTendency": "final", "coreMeaning": { "cn": "列表", "en": "list" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "play + list", "to": "playlist", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "play(播放)+list(列表) → 播放顺序的歌曲/视频列表", "imageChain": ["音乐列表", "播放队列", "流媒体"] },
+    "wordLevel": { "domain": "tech", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["playlists", "play"], "sameAffix": [], "synonyms": ["queue", "tracklist", "setlist"], "antonyms": [], "domainCohort": ["music", "streaming", "media"], "derivationPair": ["playlists"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "playlists",
+    "phonetic": "/ˈpleɪlɪsts/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "播放列表（复数）", "en": "plural of playlist; multiple ordered collections of media" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "to reproduce media", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "播放", "en": "to play" } },
+      { "canonical": "list", "role": "root", "meaning": "ordered collection", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "list", "positionTendency": "medial", "coreMeaning": { "cn": "列表", "en": "list" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "playlist", "to": "playlists", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "playlist+s → 多个播放列表", "imageChain": ["多份歌单"] },
+    "wordLevel": { "domain": "tech", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["playlist", "play"], "sameAffix": [], "synonyms": ["queues", "tracklists"], "antonyms": [], "domainCohort": [], "derivationPair": ["playlist"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "playmate",
+    "phonetic": "/ˈpleɪmeɪt/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "玩伴；游伴", "en": "a friend or companion in play, especially one of similar age" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "to engage in amusement", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "玩耍", "en": "to play" } },
+      { "canonical": "mate", "role": "root", "meaning": "companion; partner", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 2, "form": "mate", "positionTendency": "final", "coreMeaning": { "cn": "伙伴", "en": "companion; mate" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "play + mate", "to": "playmate", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "play(玩耍)+mate(伙伴) → 一起玩耍的朋友", "imageChain": ["玩伴", "童年朋友", "游戏搭档"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["playmates", "playfellow"], "sameAffix": [], "synonyms": ["playmate", "companion", "friend"], "antonyms": [], "domainCohort": [], "derivationPair": ["playmates"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "playmates",
+    "phonetic": "/ˈpleɪmeɪts/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "玩伴（复数）", "en": "plural of playmate; multiple play companions" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "to play", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "玩耍", "en": "to play" } },
+      { "canonical": "mate", "role": "root", "meaning": "companion", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 2, "form": "mate", "positionTendency": "medial", "coreMeaning": { "cn": "伙伴", "en": "companion" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "playmate", "to": "playmates", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "playmate+s → 多个玩伴", "imageChain": ["儿时玩伴们"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["playmate", "play"], "sameAffix": [], "synonyms": ["companions", "friends"], "antonyms": [], "domainCohort": [], "derivationPair": ["playmate"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "playn",
+    "phonetic": "/pleɪ/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "戏剧；游戏（名词标注变体）", "en": "noun sense of play: a dramatic work; a game" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "drama; game", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "戏剧/游戏", "en": "drama; game" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "play (noun sense)", "to": "playn", "operation": "lexicographic label variant" }] },
+    "morphVariantOf": "play",
+    "memorySemantics": { "mnemonicExpr": "playn = play的名词义项标注", "imageChain": ["戏剧", "游戏"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["play", "playwright"], "sameAffix": [], "synonyms": ["play", "drama", "game"], "antonyms": [], "domainCohort": [], "derivationPair": ["play"], "morphVariants": ["play"], "sameImagery": [] }
+  },
+  {
+    "word": "playoff",
+    "phonetic": "/ˈpleɪɔf/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "季后赛；决赛；加赛", "en": "a series of games played to determine a championship or break a tie" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "to compete in a game", "sentiment": { "tags": ["积极"], "intensity": 2 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "比赛", "en": "to play" } },
+      { "canonical": "off", "role": "root", "meaning": "to completion; final determination", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "off", "positionTendency": "final", "coreMeaning": { "cn": "决出", "en": "off; final" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "play + off", "to": "playoff", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "play(竞赛)+off(决出) → 为决定冠军而进行的额外比赛", "imageChain": ["季后赛", "冠军决赛", "加赛"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["play", "played"], "sameAffix": [], "synonyms": ["finals", "championship series", "tiebreaker"], "antonyms": [], "domainCohort": ["sports", "competition"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "playpen",
+    "phonetic": "/ˈpleɪˌpɛn/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "婴儿游戏围栏；儿童围栏", "en": "a portable enclosure in which a baby or young child can play safely" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "to engage in play", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "玩耍", "en": "to play" } },
+      { "canonical": "pen", "role": "root", "meaning": "an enclosure; a fenced area", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "pen", "positionTendency": "final", "coreMeaning": { "cn": "围栏", "en": "enclosure; pen" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "play + pen", "to": "playpen", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "play(玩耍)+pen(围栏) → 婴儿安全玩耍的围栏区域", "imageChain": ["婴儿围栏", "游戏围栏", "安全区"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["playpens", "play"], "sameAffix": [], "synonyms": ["baby pen", "play yard"], "antonyms": [], "domainCohort": ["childcare", "baby"], "derivationPair": ["playpens"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "playpens",
+    "phonetic": "/ˈpleɪˌpɛnz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "婴儿游戏围栏（复数）", "en": "plural of playpen" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "to play", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "玩耍", "en": "to play" } },
+      { "canonical": "pen", "role": "root", "meaning": "enclosure", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "pen", "positionTendency": "medial", "coreMeaning": { "cn": "围栏", "en": "enclosure" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "playpen", "to": "playpens", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "playpen+s → 多个游戏围栏", "imageChain": ["多个婴儿围栏"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["playpen", "play"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["playpen"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "playroom",
+    "phonetic": "/ˈpleɪruːm/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "游戏室；儿童活动室", "en": "a room set aside for children to play in" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "to engage in play", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "玩耍", "en": "to play" } },
+      { "canonical": "room", "role": "root", "meaning": "a space within a building", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "room", "positionTendency": "final", "coreMeaning": { "cn": "房间", "en": "room" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "play + room", "to": "playroom", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "play(玩耍)+room(房间) → 专供玩耍的房间", "imageChain": ["游戏室", "儿童房", "活动室"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["playrooms", "playground"], "sameAffix": [], "synonyms": ["game room", "recreation room", "rumpus room"], "antonyms": [], "domainCohort": ["children", "home"], "derivationPair": ["playrooms"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "playrooms",
+    "phonetic": "/ˈpleɪruːmz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "游戏室（复数）", "en": "plural of playroom" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "to play", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "玩耍", "en": "to play" } },
+      { "canonical": "room", "role": "root", "meaning": "a room", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "room", "positionTendency": "medial", "coreMeaning": { "cn": "房间", "en": "room" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "playroom", "to": "playrooms", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "playroom+s → 多个游戏室", "imageChain": ["多间活动室"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["playroom", "play"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["playroom"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "plays",
+    "phonetic": "/pleɪz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "戏剧（复数）；玩耍（第三人称单数）", "en": "plural of play (noun); or third-person singular of play (verb)" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "a dramatic work; to engage in play", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "戏剧/玩耍", "en": "a play; to play" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural or 3rd person singular", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数/第三人称", "en": "plural or 3rd person singular" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "play", "to": "plays", "operation": "+-s (plural or 3rd person singular)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "play+s → 多出戏剧，或他/她玩耍", "imageChain": ["戏剧集", "他/她玩耍"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["play", "player", "playwright"], "sameAffix": [], "synonyms": ["dramas", "performances"], "antonyms": [], "domainCohort": [], "derivationPair": ["play"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "playsuit",
+    "phonetic": "/ˈpleɪsuːt/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "连体游戏服；儿童游戏服", "en": "a garment combining shorts and a top, worn for play or casual wear" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "play; casual activity", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "玩耍", "en": "play; casual" } },
+      { "canonical": "suit", "role": "root", "meaning": "a set of clothing", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "suit", "positionTendency": "final", "coreMeaning": { "cn": "套装", "en": "a suit; clothing" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "play + suit", "to": "playsuit", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "play(玩耍)+suit(套装) → 供游戏穿着的连体服", "imageChain": ["儿童游戏服", "连体衣", "休闲装"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["playsuits", "play"], "sameAffix": [], "synonyms": ["romper", "jumpsuit"], "antonyms": [], "domainCohort": ["fashion", "children"], "derivationPair": ["playsuits"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "playsuits",
+    "phonetic": "/ˈpleɪsuːts/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "游戏服（复数）", "en": "plural of playsuit" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "play", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "玩耍", "en": "play" } },
+      { "canonical": "suit", "role": "root", "meaning": "clothing", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "suit", "positionTendency": "medial", "coreMeaning": { "cn": "套装", "en": "suit" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "playsuit", "to": "playsuits", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "playsuit+s → 多件游戏服", "imageChain": ["儿童服装"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["playsuit", "play"], "sameAffix": [], "synonyms": ["rompers", "jumpsuits"], "antonyms": [], "domainCohort": [], "derivationPair": ["playsuit"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "plaything",
+    "phonetic": "/ˈpleɪθɪŋ/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "玩具；玩物", "en": "a toy or object used for amusement; something treated trivially" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "to engage in play", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "玩耍", "en": "to play" } },
+      { "canonical": "thing", "role": "root", "meaning": "an object; an item", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "thing", "positionTendency": "final", "coreMeaning": { "cn": "物件", "en": "thing; object" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "play + thing", "to": "plaything", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "play(玩耍)+thing(物件) → 用于娱乐的物品，玩具", "imageChain": ["玩具", "玩物", "乐器"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["playthings", "play"], "sameAffix": [], "synonyms": ["toy", "bauble", "trifle"], "antonyms": [], "domainCohort": ["children", "amusement"], "derivationPair": ["playthings"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "playthings",
+    "phonetic": "/ˈpleɪθɪŋz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "玩具（复数）", "en": "plural of plaything; multiple toys or objects of amusement" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "to play", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "玩耍", "en": "to play" } },
+      { "canonical": "thing", "role": "root", "meaning": "object", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "thing", "positionTendency": "medial", "coreMeaning": { "cn": "物件", "en": "thing" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "plaything", "to": "playthings", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "plaything+s → 多个玩具", "imageChain": ["一堆玩具"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["plaything", "play"], "sameAffix": [], "synonyms": ["toys", "baubles", "trifles"], "antonyms": [], "domainCohort": [], "derivationPair": ["plaything"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "playtime",
+    "phonetic": "/ˈpleɪtaɪm/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "玩耍时间；游戏时间", "en": "time set aside for play or recreation, especially for children" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "to engage in amusement", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "玩耍", "en": "to play" } },
+      { "canonical": "time", "role": "root", "meaning": "a period or duration", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "time", "positionTendency": "final", "coreMeaning": { "cn": "时间", "en": "time" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "play + time", "to": "playtime", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "play(玩耍)+time(时间) → 专门用来玩的时段", "imageChain": ["课间休息", "游戏时光", "童年时光"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["playtimes", "play"], "sameAffix": [], "synonyms": ["recess", "free time", "recreation time"], "antonyms": ["work time", "study time"], "domainCohort": ["school", "children"], "derivationPair": ["playtimes"], "morphVariants": ["play-time"], "sameImagery": [] }
+  },
+  {
+    "word": "playtimes",
+    "phonetic": "/ˈpleɪtaɪmz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "玩耍时间（复数）", "en": "plural of playtime; multiple play sessions" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "to play", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "玩耍", "en": "to play" } },
+      { "canonical": "time", "role": "root", "meaning": "time period", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "time", "positionTendency": "medial", "coreMeaning": { "cn": "时间", "en": "time" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "playtime", "to": "playtimes", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "playtime+s → 多个玩耍时间段", "imageChain": ["多次游戏时间"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["playtime", "play"], "sameAffix": [], "synonyms": ["recesses"], "antonyms": [], "domainCohort": [], "derivationPair": ["playtime"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "playv",
+    "phonetic": "/pleɪ/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "玩耍；演奏（动词义项标注）", "en": "verb sense of play: to engage in amusement, sport, or music" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "to engage in amusement or performance", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "玩耍/演奏", "en": "to play" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "play (verb sense)", "to": "playv", "operation": "lexicographic label variant" }] },
+    "morphVariantOf": "play",
+    "memorySemantics": { "mnemonicExpr": "playv = play的动词义项标注", "imageChain": ["玩耍", "演奏"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["play", "player", "playing"], "sameAffix": [], "synonyms": ["play"], "antonyms": [], "domainCohort": [], "derivationPair": ["play"], "morphVariants": ["play"], "sameImagery": [] }
+  },
+  {
+    "word": "playwright",
+    "phonetic": "/ˈpleɪraɪt/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "剧作家；编剧", "en": "a person who writes plays for the theater" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "a theatrical work", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "戏剧", "en": "a play" } },
+      { "canonical": "wright", "role": "root", "meaning": "a maker or craftsman (OE wyrhta)", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 2, "form": "wright", "positionTendency": "final", "coreMeaning": { "cn": "匠人/工匠", "en": "maker; craftsman" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "play + wright (maker)", "to": "playwright", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "play(戏剧)+wright(匠人) → 制作戏剧的人，剧作家", "imageChain": ["剧作家", "莎士比亚", "编剧"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["playwrights", "playwriting"], "sameAffix": [], "synonyms": ["dramatist", "dramaturgist", "scriptwriter"], "antonyms": [], "domainCohort": ["theater", "literature"], "derivationPair": ["playwrights", "playwriting"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "playwrights",
+    "phonetic": "/ˈpleɪraɪts/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "剧作家（复数）", "en": "plural of playwright; multiple writers of theatrical plays" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "a theatrical work", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "戏剧", "en": "a play" } },
+      { "canonical": "wright", "role": "root", "meaning": "craftsman; maker", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 2, "form": "wright", "positionTendency": "medial", "coreMeaning": { "cn": "匠人", "en": "craftsman" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "playwright", "to": "playwrights", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "playwright+s → 多位剧作家", "imageChain": ["戏剧作家群"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["playwright", "playwriting"], "sameAffix": [], "synonyms": ["dramatists", "scriptwriters"], "antonyms": [], "domainCohort": [], "derivationPair": ["playwright"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "playwriting",
+    "phonetic": "/ˈpleɪˌraɪtɪŋ/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "剧本创作；编剧艺术", "en": "the art or craft of writing plays for the theater" },
+    "morphemes": [
+      { "canonical": "play", "role": "root", "meaning": "a theatrical work", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "play", "positionTendency": "initial", "coreMeaning": { "cn": "戏剧", "en": "a play" } },
+      { "canonical": "wright", "role": "root", "meaning": "craftsman", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 2, "form": "writ", "positionTendency": "medial", "coreMeaning": { "cn": "匠人", "en": "maker" } },
+      { "canonical": "-ing", "role": "suffix", "meaning": "process; gerund", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ing", "positionTendency": "final", "coreMeaning": { "cn": "过程/动名词", "en": "process; gerund" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "playwright", "to": "playwriting", "operation": "+-ing (gerund)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "playwright+ing → 创作剧本的艺术", "imageChain": ["剧本写作", "戏剧创作", "编剧技艺"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["playwright", "playwrights"], "sameAffix": [], "synonyms": ["dramaturgy", "scriptwriting"], "antonyms": [], "domainCohort": ["theater", "literature"], "derivationPair": ["playwright"], "morphVariants": [], "sameImagery": [] }
   }
 ]
