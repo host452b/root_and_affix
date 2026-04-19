@@ -1,335 +1,553 @@
 [
   {
     "word": "phonic",
-    "phonetic": "/'fɑnɪk/",
+    "phonetic": "/'fɒnɪk/",
     "pos": "adj.",
-    "coreMeaning": {"cn": "有声的；语音的；声学的", "en": "relating to speech sounds; acoustic"},
+    "coreMeaning": {"cn": "声音的；语音的", "en": "of or relating to sound, especially speech sounds"},
     "morphemes": [
-      {"role": "root", "form": "phon", "canonical": "phon-", "coreMeaning": "声音", "positionTendency": "initial", "order": 1, "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"role": "suffix", "form": "-ic", "canonical": "-ic", "coreMeaning": "形容词后缀", "positionTendency": "final", "order": 2, "sentiment": {"tags": ["中性"], "intensity": 0}}
+      {"canonical": "phon", "role": "root", "meaning": "声音", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "phon", "positionTendency": "initial", "coreMeaning": {"cn": "声音", "en": "sound"}},
+      {"canonical": "-ic", "role": "suffix", "meaning": "形容词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-ic", "positionTendency": "final", "coreMeaning": {"cn": "…的", "en": "relating to"}}
     ],
-    "derivationChain": "Greek phone → phonic → phonics → phonology",
+    "derivationChain": {"steps": [{"from": "phone", "to": "phonic", "by": "Greek phone (sound) + -ic → of sound"}]},
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "phon(声音)+ic→与声音相关的", "imageChain": "语音课上学习字母发音"},
-    "wordLevel": {"domain": "academic", "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["phonics","phonology","phonograph","phonogram"], "sameAffix": ["sonic","tonic"], "synonyms": ["vocal","acoustic","sound"], "antonyms": ["silent"], "domainCohort": ["phonics","linguistics","acoustics"], "derivationPair": ["phon-","phonic"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {"mnemonicExpr": "phon(sound)+ic → 声音的", "imageChain": ["声音", "语音", "音节"]},
+    "wordLevel": {"domain": ["academic", "medical"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["phonics", "phonology", "phonograph", "phone"], "sameAffix": ["-ic"], "synonyms": ["acoustic", "vocal", "sound-related"], "antonyms": [], "domainCohort": ["phonics", "phonology"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
   },
   {
     "word": "phonics",
     "phonetic": "/'fɒnɪks/",
     "pos": "n.",
-    "coreMeaning": {"cn": "语音学；自然拼读法", "en": "a method of teaching reading based on sounds of letters"},
+    "coreMeaning": {"cn": "拼读法；语音学（教学法）", "en": "a method of teaching reading by correlating sounds with letters or groups of letters"},
     "morphemes": [
-      {"role": "root", "form": "phon", "canonical": "phon-", "coreMeaning": "声音", "positionTendency": "initial", "order": 1, "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"role": "suffix", "form": "-ics", "canonical": "-ics", "coreMeaning": "学科后缀", "positionTendency": "final", "order": 2, "sentiment": {"tags": ["中性"], "intensity": 0}}
+      {"canonical": "phon", "role": "root", "meaning": "声音", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "phon", "positionTendency": "initial", "coreMeaning": {"cn": "声音", "en": "sound"}},
+      {"canonical": "-ics", "role": "suffix", "meaning": "学科/方法", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-ics", "positionTendency": "final", "coreMeaning": {"cn": "学科", "en": "study/method"}}
     ],
-    "derivationChain": "phonic → phonics",
+    "derivationChain": {"steps": [{"from": "phonic", "to": "phonics", "by": "phonic + -s (study/method)"}]},
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "phon(声音)+ics→声音教学法", "imageChain": "小学课堂用字母发音学习拼读"},
-    "wordLevel": {"domain": "academic", "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["phonic","phonology","phonogram"], "sameAffix": ["acoustics","linguistics"], "synonyms": ["phonetics"], "antonyms": [], "domainCohort": ["reading","literacy","phonetics"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {"mnemonicExpr": "phon(sound)+ics → 语音教学法", "imageChain": ["字母发音", "拼读教学", "语音规则"]},
+    "wordLevel": {"domain": ["academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["phonic", "phonology"], "sameAffix": ["-ics"], "synonyms": ["phonetic method"], "antonyms": [], "domainCohort": ["phonic", "phonological"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
   },
   {
-    "word": "phony",
-    "phonetic": "/'foni/",
-    "pos": "adj./n.",
-    "coreMeaning": {"cn": "假冒的；骗人的；骗子", "en": "not genuine; fraudulent; a fake person"},
+    "word": "phonier",
+    "phonetic": "/'foʊnɪər/",
+    "pos": "adj.",
+    "coreMeaning": {"cn": "更假的；更不真实的", "en": "comparative of phony; more fake or insincere"},
     "morphemes": [
-      {"role": "root", "form": "phon", "canonical": "phony", "coreMeaning": "假/欺骗（来自fawney=假戒指）", "positionTendency": "initial", "order": 1, "sentiment": {"tags": ["贬义"], "intensity": 2}}
+      {"canonical": "phony", "role": "root", "meaning": "假；欺骗", "sentiment": {"tags": ["消极"], "intensity": -2}, "order": 1, "form": "phon", "positionTendency": "initial", "coreMeaning": {"cn": "假", "en": "fake"}},
+      {"canonical": "-er", "role": "suffix", "meaning": "比较级", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-ier", "positionTendency": "final", "coreMeaning": {"cn": "比较级", "en": "comparative"}}
     ],
-    "derivationChain": "Irish fawney (ring) → phony",
+    "derivationChain": {"steps": [{"from": "phony", "to": "phonier", "by": "comparative -ier"}]},
+    "morphVariantOf": "phony",
+    "memorySemantics": {"mnemonicExpr": "phony的比较级 → 更假的", "imageChain": ["更加虚伪", "更多欺骗"]},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["消极"], "intensity": -2}},
+    "relations": {"sameRoot": ["phony", "phoniest", "phoniness"], "sameAffix": [], "synonyms": ["faker", "more counterfeit"], "antonyms": ["more genuine"], "domainCohort": [], "derivationPair": ["phony"], "morphVariants": ["phoniest"], "sameImagery": []}
+  },
+  {
+    "word": "phonies",
+    "phonetic": "/'foʊnɪz/",
+    "pos": "n.",
+    "coreMeaning": {"cn": "骗子（复数）；假货", "en": "plural of phony; fake people or things"},
+    "morphemes": [
+      {"canonical": "phony", "role": "root", "meaning": "假；骗子", "sentiment": {"tags": ["消极"], "intensity": -2}, "order": 1, "form": "phon", "positionTendency": "initial", "coreMeaning": {"cn": "骗子", "en": "fake person"}},
+      {"canonical": "-s", "role": "suffix", "meaning": "复数", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-ies", "positionTendency": "final", "coreMeaning": {"cn": "复数", "en": "plural"}}
+    ],
+    "derivationChain": {"steps": [{"from": "phony", "to": "phonies", "by": "plural -ies"}]},
+    "morphVariantOf": "phony",
+    "memorySemantics": {"mnemonicExpr": "phony的复数 → 一群骗子", "imageChain": ["骗子", "假冒"]},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["消极"], "intensity": -2}},
+    "relations": {"sameRoot": ["phony", "phonier"], "sameAffix": [], "synonyms": ["fakes", "frauds", "impostors"], "antonyms": [], "domainCohort": [], "derivationPair": ["phony"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "phoniness",
+    "phonetic": "/'foʊnɪnəs/",
+    "pos": "n.",
+    "coreMeaning": {"cn": "虚假；不真实", "en": "the quality of being phony; insincerity or fakeness"},
+    "morphemes": [
+      {"canonical": "phony", "role": "root", "meaning": "假", "sentiment": {"tags": ["消极"], "intensity": -2}, "order": 1, "form": "phon", "positionTendency": "initial", "coreMeaning": {"cn": "假", "en": "fake"}},
+      {"canonical": "-y", "role": "suffix", "meaning": "形容词", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-y", "positionTendency": "medial", "coreMeaning": {"cn": "形容词", "en": "adjective"}},
+      {"canonical": "-ness", "role": "suffix", "meaning": "名词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "-ness", "positionTendency": "final", "coreMeaning": {"cn": "性质", "en": "quality"}}
+    ],
+    "derivationChain": {"steps": [{"from": "phony", "to": "phoniness", "by": "phony + -ness"}]},
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "phony=假货，像手机phone谐音→假的phone（电话骗局）", "imageChain": "拿着山寨名牌包装的骗子"},
-    "wordLevel": {"domain": "general", "sentiment": {"tags": ["贬义"], "intensity": 2}},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["fake","sham","bogus","counterfeit"], "antonyms": ["genuine","authentic","real"], "domainCohort": ["fake","fraud","impostor"], "derivationPair": ["phony","phoniness"], "morphVariants": [], "sameImagery": ["fake","sham"]}
+    "memorySemantics": {"mnemonicExpr": "phony+ness → 虚假的特质", "imageChain": ["虚伪", "不真实", "欺骗性"]},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["消极"], "intensity": -2}},
+    "relations": {"sameRoot": ["phony", "phonier"], "sameAffix": ["-ness"], "synonyms": ["fakeness", "insincerity", "artificiality"], "antonyms": ["genuineness", "authenticity"], "domainCohort": [], "derivationPair": ["phony"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "phoning",
+    "phonetic": "/'foʊnɪŋ/",
+    "pos": "v.",
+    "coreMeaning": {"cn": "打电话（进行时）", "en": "present participle of phone; making a telephone call"},
+    "morphemes": [
+      {"canonical": "phon", "role": "root", "meaning": "声音；电话", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "phone", "positionTendency": "initial", "coreMeaning": {"cn": "电话", "en": "telephone"}},
+      {"canonical": "-ing", "role": "suffix", "meaning": "进行时", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-ing", "positionTendency": "final", "coreMeaning": {"cn": "进行", "en": "ongoing action"}}
+    ],
+    "derivationChain": {"steps": [{"from": "phone", "to": "phoning", "by": "present participle -ing"}]},
+    "morphVariantOf": "phone",
+    "memorySemantics": {"mnemonicExpr": "phone+ing → 正在打电话", "imageChain": ["通话", "电话"]},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["phone", "phoned"], "sameAffix": [], "synonyms": ["calling", "telephoning"], "antonyms": [], "domainCohort": [], "derivationPair": ["phone"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "phono-",
+    "phonetic": "/'foʊnoʊ/",
+    "pos": "prefix",
+    "coreMeaning": {"cn": "声音；语音（前缀）", "en": "prefix meaning sound or voice"},
+    "morphemes": [{"canonical": "phon", "role": "root", "meaning": "声音", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "phono-", "positionTendency": "initial", "coreMeaning": {"cn": "声音", "en": "sound"}}],
+    "derivationChain": {"steps": [{"from": "phone", "to": "phono-", "by": "Greek phone (voice/sound) → combining form phono-"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "phono- → 声音/语音（前缀）", "imageChain": ["声音", "语音学", "留声机"]},
+    "wordLevel": {"domain": ["academic", "medical"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["phonograph", "phonology", "phonogram"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["phonic", "phonics"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
   },
   {
     "word": "phonogram",
-    "phonetic": "/'fonəgræm/",
+    "phonetic": "/'foʊnəɡræm/",
     "pos": "n.",
-    "coreMeaning": {"cn": "表音字母；音标符号", "en": "a character representing a spoken sound"},
+    "coreMeaning": {"cn": "语音符号；音节文字", "en": "a character representing a sound or combination of sounds"},
     "morphemes": [
-      {"role": "root", "form": "phono-", "canonical": "phon-", "coreMeaning": "声音", "positionTendency": "initial", "order": 1, "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"role": "root", "form": "gram", "canonical": "gram-", "coreMeaning": "写/记录", "positionTendency": "final", "order": 2, "sentiment": {"tags": ["中性"], "intensity": 0}}
+      {"canonical": "phon", "role": "root", "meaning": "声音", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "phono", "positionTendency": "initial", "coreMeaning": {"cn": "声音", "en": "sound"}},
+      {"canonical": "gram", "role": "root", "meaning": "书写；记录", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "gram", "positionTendency": "final", "coreMeaning": {"cn": "书写", "en": "written"}}
     ],
-    "derivationChain": "phono- + -gram → phonogram",
+    "derivationChain": {"steps": [{"from": "phono+gram", "to": "phonogram", "by": "Greek phone (sound) + gramma (letter/writing)"}]},
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "phono(声音)+gram(写)→代表声音的符号", "imageChain": "IPA音标表中每个符号代表一个声音"},
-    "wordLevel": {"domain": "academic", "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["phonograph","phonology","phonic"], "sameAffix": ["telegram","diagram"], "synonyms": ["sound symbol","phonetic character"], "antonyms": [], "domainCohort": ["ideogram","logogram"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {"mnemonicExpr": "phono(sound)+gram(write) → 表音符号", "imageChain": ["音符", "拼音符号", "音节字符"]},
+    "wordLevel": {"domain": ["academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["phonograph", "phonology"], "sameAffix": ["-gram"], "synonyms": ["phonetic symbol", "sound character"], "antonyms": [], "domainCohort": ["phonograph", "phonology"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
   },
   {
     "word": "phonograph",
-    "phonetic": "/'fonəgræf/",
+    "phonetic": "/'foʊnəɡrɑːf/",
     "pos": "n.",
-    "coreMeaning": {"cn": "留声机；唱片机", "en": "an early machine for recording and reproducing sound"},
+    "coreMeaning": {"cn": "留声机；唱片机", "en": "an early device for recording and reproducing sound using a stylus on a grooved disc"},
     "morphemes": [
-      {"role": "root", "form": "phono-", "canonical": "phon-", "coreMeaning": "声音", "positionTendency": "initial", "order": 1, "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"role": "root", "form": "graph", "canonical": "graph-", "coreMeaning": "写/记录", "positionTendency": "final", "order": 2, "sentiment": {"tags": ["中性"], "intensity": 0}}
+      {"canonical": "phon", "role": "root", "meaning": "声音", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "phono", "positionTendency": "initial", "coreMeaning": {"cn": "声音", "en": "sound"}},
+      {"canonical": "graph", "role": "root", "meaning": "书写；记录", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "graph", "positionTendency": "final", "coreMeaning": {"cn": "记录", "en": "record/write"}}
     ],
-    "derivationChain": "phono- + -graph → phonograph",
+    "derivationChain": {"steps": [{"from": "phono+graph", "to": "phonograph", "by": "Greek phone (sound) + graphe (writing) → sound recorder"}]},
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "phono(声音)+graph(记录)→记录声音的机器", "imageChain": "老式唱片机旋转播放78转黑胶唱片"},
-    "wordLevel": {"domain": "academic", "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["phonogram","phonology","phonic"], "sameAffix": ["telegraph","photograph"], "synonyms": ["gramophone","record player"], "antonyms": [], "domainCohort": ["gramophone","turntable","victrola"], "derivationPair": [], "morphVariants": [], "sameImagery": ["gramophone"]}
+    "memorySemantics": {"mnemonicExpr": "phono(sound)+graph(write) → 写声音/留声机", "imageChain": ["留声机", "唱片", "爱迪生发明"]},
+    "wordLevel": {"domain": ["academic", "tech"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["phonogram", "phonology"], "sameAffix": ["-graph"], "synonyms": ["gramophone", "record player", "turntable"], "antonyms": [], "domainCohort": ["phonogram", "phonological"], "derivationPair": ["phonographic", "phonographs"], "morphVariants": [], "sameImagery": []}
   },
   {
-    "word": "phonology",
-    "phonetic": "/fə'nɒlədʒi/",
-    "pos": "n.",
-    "coreMeaning": {"cn": "音系学；语音体系", "en": "the study of sound systems in language"},
-    "morphemes": [
-      {"role": "root", "form": "phono-", "canonical": "phon-", "coreMeaning": "声音", "positionTendency": "initial", "order": 1, "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"role": "root", "form": "log", "canonical": "-logy", "coreMeaning": "学科/研究", "positionTendency": "medial", "order": 2, "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"role": "suffix", "form": "-y", "canonical": "-y", "coreMeaning": "名词后缀", "positionTendency": "final", "order": 3, "sentiment": {"tags": ["中性"], "intensity": 0}}
-    ],
-    "derivationChain": "phono- + -logy → phonology → phonological → phonologist",
-    "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "phono(声音)+logy(学科)→研究语言声音系统的学科", "imageChain": "语言学家研究不同语言的音素系统"},
-    "wordLevel": {"domain": "academic", "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["phonological","phonologist","phonic"], "sameAffix": ["morphology","psychology"], "synonyms": ["phonetics"], "antonyms": [], "domainCohort": ["syntax","morphology","semantics"], "derivationPair": ["phonology","phonologist"], "morphVariants": [], "sameImagery": []}
-  },
-  {
-    "word": "phosphate",
-    "phonetic": "/'fɑsfet/",
-    "pos": "n.",
-    "coreMeaning": {"cn": "磷酸盐；含磷化合物", "en": "a salt or ester of phosphoric acid"},
-    "morphemes": [
-      {"role": "root", "form": "phosph", "canonical": "phosphor-", "coreMeaning": "磷/光", "positionTendency": "initial", "order": 1, "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"role": "suffix", "form": "-ate", "canonical": "-ate", "coreMeaning": "盐/酯类化合物", "positionTendency": "final", "order": 2, "sentiment": {"tags": ["中性"], "intensity": 0}}
-    ],
-    "derivationChain": "phosphorus → phosphate",
-    "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "phosph(磷)+ate(盐)→磷酸盐", "imageChain": "DNA双链骨架由磷酸基团和糖组成"},
-    "wordLevel": {"domain": "academic", "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["phosphorus","phosphoric","phosphorescence"], "sameAffix": ["nitrate","sulfate"], "synonyms": [], "antonyms": [], "domainCohort": ["nitrate","sulfate","DNA"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
-  },
-  {
-    "word": "phosphorescence",
-    "phonetic": "/,fɒsfə'resns/",
-    "pos": "n.",
-    "coreMeaning": {"cn": "磷光；发冷光", "en": "a faint glow of light without heat, as seen on decaying wood or sea creatures"},
-    "morphemes": [
-      {"role": "root", "form": "phosphor", "canonical": "phosphor-", "coreMeaning": "磷/发光", "positionTendency": "initial", "order": 1, "sentiment": {"tags": ["积极"], "intensity": 1}},
-      {"role": "suffix", "form": "-escence", "canonical": "-escence", "coreMeaning": "过程/状态", "positionTendency": "final", "order": 2, "sentiment": {"tags": ["中性"], "intensity": 0}}
-    ],
-    "derivationChain": "phosphorus → phosphoresce → phosphorescence → phosphorescent",
-    "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "phosphor(磷光)+escence→磷光发光状态", "imageChain": "黑暗中海浪里闪烁的蓝色生物发光"},
-    "wordLevel": {"domain": "academic", "sentiment": {"tags": ["积极"], "intensity": 1}},
-    "relations": {"sameRoot": ["phosphorescent","phosphoresce","phosphorus"], "sameAffix": ["fluorescence","luminescence"], "synonyms": ["luminescence","bioluminescence","glow"], "antonyms": [], "domainCohort": ["fluorescence","bioluminescence","glow"], "derivationPair": ["phosphoresce","phosphorescence"], "morphVariants": [], "sameImagery": ["luminescence","glow"]}
-  },
-  {
-    "word": "phosphorescent",
-    "phonetic": "/,fɒsfə'resnt/",
+    "word": "phonographic",
+    "phonetic": "/ˌfoʊnə'ɡræfɪk/",
     "pos": "adj.",
-    "coreMeaning": {"cn": "磷光的；发冷光的", "en": "luminous without heat; glowing faintly"},
+    "coreMeaning": {"cn": "留声机的；表音的", "en": "of or relating to a phonograph or to phonographic writing"},
     "morphemes": [
-      {"role": "root", "form": "phosphor", "canonical": "phosphor-", "coreMeaning": "磷/发光", "positionTendency": "initial", "order": 1, "sentiment": {"tags": ["积极"], "intensity": 1}},
-      {"role": "suffix", "form": "-escent", "canonical": "-escent", "coreMeaning": "形容词后缀（正在…的）", "positionTendency": "final", "order": 2, "sentiment": {"tags": ["中性"], "intensity": 0}}
+      {"canonical": "phon", "role": "root", "meaning": "声音", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "phono", "positionTendency": "initial", "coreMeaning": {"cn": "声音", "en": "sound"}},
+      {"canonical": "graph", "role": "root", "meaning": "记录", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "graph", "positionTendency": "medial", "coreMeaning": {"cn": "记录", "en": "record"}},
+      {"canonical": "-ic", "role": "suffix", "meaning": "形容词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "-ic", "positionTendency": "final", "coreMeaning": {"cn": "…的", "en": "relating to"}}
     ],
-    "derivationChain": "phosphorescence → phosphorescent",
+    "derivationChain": {"steps": [{"from": "phonograph", "to": "phonographic", "by": "phonograph + -ic"}]},
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "phosphor+escent→发出磷光的", "imageChain": "夜晚在海水中游泳时看到的发光浮游生物"},
-    "wordLevel": {"domain": "academic", "sentiment": {"tags": ["积极"], "intensity": 1}},
-    "relations": {"sameRoot": ["phosphorescence","phosphorus"], "sameAffix": ["fluorescent","luminescent"], "synonyms": ["luminous","glowing","fluorescent"], "antonyms": ["dark","opaque"], "domainCohort": ["fluorescent","bioluminescent"], "derivationPair": [], "morphVariants": [], "sameImagery": ["glowing","luminous"]}
+    "memorySemantics": {"mnemonicExpr": "phonograph+ic → 留声机的/表音的", "imageChain": ["留声机", "录音技术"]},
+    "wordLevel": {"domain": ["academic", "tech"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["phonograph"], "sameAffix": ["-ic"], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["phonograph"], "morphVariants": [], "sameImagery": []}
   },
   {
-    "word": "phosphorus",
-    "phonetic": "/'fɒsfərəs/",
+    "word": "phonographs",
+    "phonetic": "/'foʊnəɡrɑːfs/",
     "pos": "n.",
-    "coreMeaning": {"cn": "磷（化学元素）", "en": "a chemical element that glows in the dark"},
+    "coreMeaning": {"cn": "留声机（复数）", "en": "plural of phonograph"},
     "morphemes": [
-      {"role": "root", "form": "phosph", "canonical": "phosphor-", "coreMeaning": "携带光", "positionTendency": "initial", "order": 1, "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"role": "root", "form": "orus", "canonical": "-oros", "coreMeaning": "携带（Greek: bearer）", "positionTendency": "final", "order": 2, "sentiment": {"tags": ["中性"], "intensity": 0}}
+      {"canonical": "phon", "role": "root", "meaning": "声音", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "phono", "positionTendency": "initial", "coreMeaning": {"cn": "声音", "en": "sound"}},
+      {"canonical": "graph", "role": "root", "meaning": "记录", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "graph", "positionTendency": "medial", "coreMeaning": {"cn": "记录", "en": "record"}},
+      {"canonical": "-s", "role": "suffix", "meaning": "复数", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "-s", "positionTendency": "final", "coreMeaning": {"cn": "复数", "en": "plural"}}
     ],
-    "derivationChain": "Greek phosphoros (light-bearer) → phosphorus",
-    "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "phosph(光)+orus(携带者)→携带光的元素", "imageChain": "黑暗中自然发光的白磷"},
-    "wordLevel": {"domain": "academic", "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["phosphate","phosphoric","phosphorous"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["nitrogen","sulfur","element"], "derivationPair": [], "morphVariants": ["phosphorous"], "sameImagery": []}
-  },
-  {
-    "word": "photo",
-    "phonetic": "/'foʊtoʊ/",
-    "pos": "n./prefix",
-    "coreMeaning": {"cn": "照片；光（前缀）", "en": "photograph; light (combining form)"},
-    "morphemes": [
-      {"role": "root", "form": "photo", "canonical": "photo-", "coreMeaning": "光/照片", "positionTendency": "initial", "order": 1, "sentiment": {"tags": ["中性"], "intensity": 0}}
-    ],
-    "derivationChain": "Greek phos/photos → photo → photograph → photography",
-    "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "photo=光也=照片", "imageChain": "相机捕捉光线形成照片"},
-    "wordLevel": {"domain": "general", "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["photograph","photocopy","photochemical","photocopier"], "sameAffix": [], "synonyms": ["photograph","picture"], "antonyms": [], "domainCohort": ["image","picture","snapshot"], "derivationPair": ["photo","photograph"], "morphVariants": [], "sameImagery": []}
-  },
-  {
-    "word": "photocopy",
-    "phonetic": "/'fotokɑpi/",
-    "pos": "n./v.",
-    "coreMeaning": {"cn": "影印；复印件", "en": "a reproduction made by a photocopier"},
-    "morphemes": [
-      {"role": "root", "form": "photo-", "canonical": "photo-", "coreMeaning": "光", "positionTendency": "initial", "order": 1, "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"role": "root", "form": "copy", "canonical": "copy", "coreMeaning": "复制", "positionTendency": "final", "order": 2, "sentiment": {"tags": ["中性"], "intensity": 0}}
-    ],
-    "derivationChain": "photo- + copy → photocopy → photocopier",
-    "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "photo(光)+copy(复制)→用光来复制文件", "imageChain": "办公室打印机复印文件"},
-    "wordLevel": {"domain": "general", "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["photocopier","photocopied","photocopies"], "sameAffix": [], "synonyms": ["copy","xerox","duplicate"], "antonyms": [], "domainCohort": ["scanner","copier","duplicate"], "derivationPair": ["photocopy","photocopier"], "morphVariants": [], "sameImagery": []}
-  },
-  {
-    "word": "photocopier",
-    "phonetic": "/'fotokɑpiər/",
-    "pos": "n.",
-    "coreMeaning": {"cn": "复印机", "en": "a machine for making photocopies"},
-    "morphemes": [
-      {"role": "root", "form": "photo-", "canonical": "photo-", "coreMeaning": "光", "positionTendency": "initial", "order": 1, "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"role": "root", "form": "copy", "canonical": "copy", "coreMeaning": "复制", "positionTendency": "medial", "order": 2, "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"role": "suffix", "form": "-ier", "canonical": "-er", "coreMeaning": "设备/人", "positionTendency": "final", "order": 3, "sentiment": {"tags": ["中性"], "intensity": 0}}
-    ],
-    "derivationChain": "photocopy → photocopier",
-    "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "photocopy+er→复印的机器", "imageChain": "办公室里的复印机"},
-    "wordLevel": {"domain": "general", "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["photocopy"], "sameAffix": [], "synonyms": ["copier","xerox machine"], "antonyms": [], "domainCohort": ["printer","scanner","fax"], "derivationPair": ["photocopy","photocopier"], "morphVariants": [], "sameImagery": []}
-  },
-  {
-    "word": "photochemical",
-    "phonetic": "/'fotə'kemɪkəl/",
-    "pos": "adj.",
-    "coreMeaning": {"cn": "光化学的", "en": "relating to chemical reactions caused by light"},
-    "morphemes": [
-      {"role": "root", "form": "photo-", "canonical": "photo-", "coreMeaning": "光", "positionTendency": "initial", "order": 1, "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"role": "root", "form": "chem", "canonical": "chem-", "coreMeaning": "化学", "positionTendency": "medial", "order": 2, "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"role": "suffix", "form": "-ical", "canonical": "-ical", "coreMeaning": "形容词后缀", "positionTendency": "final", "order": 3, "sentiment": {"tags": ["中性"], "intensity": 0}}
-    ],
-    "derivationChain": "photo- + chemical → photochemical",
-    "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "photo(光)+chemical(化学)→由光引发化学反应的", "imageChain": "光合作用就是典型的光化学反应"},
-    "wordLevel": {"domain": "academic", "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["photo","photosynthesis"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["photosynthesis","UV","smog"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
-  },
-  {
-    "word": "phosphoric",
-    "phonetic": "/fɒs'fɒrɪk/",
-    "pos": "adj.",
-    "coreMeaning": {"cn": "磷酸的；含磷的", "en": "of or relating to phosphorus"},
-    "morphemes": [
-      {"role": "root", "form": "phosphor", "canonical": "phosphor-", "coreMeaning": "磷", "positionTendency": "initial", "order": 1, "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"role": "suffix", "form": "-ic", "canonical": "-ic", "coreMeaning": "形容词后缀", "positionTendency": "final", "order": 2, "sentiment": {"tags": ["中性"], "intensity": 0}}
-    ],
-    "derivationChain": "phosphorus → phosphoric",
-    "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "phosphor(磷)+ic→含磷酸的", "imageChain": "可乐中含有磷酸使其带酸味"},
-    "wordLevel": {"domain": "academic", "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["phosphorus","phosphate","phosphorous"], "sameAffix": ["nitric","sulfuric"], "synonyms": [], "antonyms": [], "domainCohort": ["acid","chemistry"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "derivationChain": {"steps": [{"from": "phonograph", "to": "phonographs", "by": "plural -s"}]},
+    "morphVariantOf": "phonograph",
+    "memorySemantics": {"mnemonicExpr": "phonograph的复数", "imageChain": ["多台留声机"]},
+    "wordLevel": {"domain": ["academic", "tech"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["phonograph"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["phonograph"], "morphVariants": [], "sameImagery": []}
   },
   {
     "word": "phonological",
-    "phonetic": "/,fonə'lɒdʒɪkəl/",
+    "phonetic": "/ˌfoʊnə'lɒdʒɪkəl/",
     "pos": "adj.",
-    "coreMeaning": {"cn": "音系学的；语音的", "en": "relating to the sound system of a language"},
+    "coreMeaning": {"cn": "音系学的；语音学的", "en": "of or relating to phonology or the sound system of a language"},
     "morphemes": [
-      {"role": "root", "form": "phono-", "canonical": "phon-", "coreMeaning": "声音", "positionTendency": "initial", "order": 1, "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"role": "root", "form": "log", "canonical": "-logy", "coreMeaning": "学科", "positionTendency": "medial", "order": 2, "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"role": "suffix", "form": "-ical", "canonical": "-ical", "coreMeaning": "形容词后缀", "positionTendency": "final", "order": 3, "sentiment": {"tags": ["中性"], "intensity": 0}}
+      {"canonical": "phon", "role": "root", "meaning": "声音", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "phono", "positionTendency": "initial", "coreMeaning": {"cn": "声音", "en": "sound"}},
+      {"canonical": "log", "role": "root", "meaning": "学科；研究", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "log", "positionTendency": "medial", "coreMeaning": {"cn": "学科", "en": "study"}},
+      {"canonical": "-ical", "role": "suffix", "meaning": "形容词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "-ical", "positionTendency": "final", "coreMeaning": {"cn": "…的", "en": "relating to"}}
     ],
-    "derivationChain": "phonology → phonological → phonologically",
+    "derivationChain": {"steps": [{"from": "phonology", "to": "phonological", "by": "phonology + -ical"}]},
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "phonology+ical→音系学相关的", "imageChain": "研究语言音素规律的学术概念"},
-    "wordLevel": {"domain": "academic", "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["phonology","phonologist","phonic"], "sameAffix": ["morphological","syntactical"], "synonyms": ["phonetic"], "antonyms": [], "domainCohort": ["morphological","syntactic","semantic"], "derivationPair": ["phonology","phonological"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {"mnemonicExpr": "phonology+ical → 音系学的", "imageChain": ["语音规则", "音系分析"]},
+    "wordLevel": {"domain": ["academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["phonology", "phonologist"], "sameAffix": ["-ical"], "synonyms": ["phonetic", "sound-related"], "antonyms": [], "domainCohort": ["phonology", "phonologist"], "derivationPair": ["phonology"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "phonologically",
+    "phonetic": "/ˌfoʊnə'lɒdʒɪkəlɪ/",
+    "pos": "adv.",
+    "coreMeaning": {"cn": "从音系学角度", "en": "in terms of phonology; with respect to the sound system"},
+    "morphemes": [
+      {"canonical": "phon", "role": "root", "meaning": "声音", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "phono", "positionTendency": "initial", "coreMeaning": {"cn": "声音", "en": "sound"}},
+      {"canonical": "log", "role": "root", "meaning": "学科", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "log", "positionTendency": "medial", "coreMeaning": {"cn": "学科", "en": "study"}},
+      {"canonical": "-ly", "role": "suffix", "meaning": "副词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "-ally", "positionTendency": "final", "coreMeaning": {"cn": "方式", "en": "manner"}}
+    ],
+    "derivationChain": {"steps": [{"from": "phonological", "to": "phonologically", "by": "phonological + -ly"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "phonological+ly → 在音系学上", "imageChain": ["语音规则", "音系分析方式"]},
+    "wordLevel": {"domain": ["academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["phonological", "phonology"], "sameAffix": ["-ly"], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["phonological"], "morphVariants": [], "sameImagery": []}
   },
   {
     "word": "phonologist",
     "phonetic": "/fə'nɒlədʒɪst/",
     "pos": "n.",
-    "coreMeaning": {"cn": "音系学家", "en": "a specialist in phonology"},
+    "coreMeaning": {"cn": "音系学家", "en": "a specialist in phonology; a linguist who studies sound systems"},
     "morphemes": [
-      {"role": "root", "form": "phono-", "canonical": "phon-", "coreMeaning": "声音", "positionTendency": "initial", "order": 1, "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"role": "root", "form": "log", "canonical": "-logy", "coreMeaning": "学科", "positionTendency": "medial", "order": 2, "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"role": "suffix", "form": "-ist", "canonical": "-ist", "coreMeaning": "从事者", "positionTendency": "final", "order": 3, "sentiment": {"tags": ["中性"], "intensity": 0}}
+      {"canonical": "phon", "role": "root", "meaning": "声音", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "phono", "positionTendency": "initial", "coreMeaning": {"cn": "声音", "en": "sound"}},
+      {"canonical": "log", "role": "root", "meaning": "学科", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "log", "positionTendency": "medial", "coreMeaning": {"cn": "学科", "en": "study"}},
+      {"canonical": "-ist", "role": "suffix", "meaning": "专家", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "-ist", "positionTendency": "final", "coreMeaning": {"cn": "专家", "en": "specialist"}}
     ],
-    "derivationChain": "phonology → phonologist",
+    "derivationChain": {"steps": [{"from": "phonology", "to": "phonologist", "by": "phonology → phonologist (-ist agent suffix)"}]},
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "phonology+ist→音系学专家", "imageChain": "研究语言声音系统的学者"},
-    "wordLevel": {"domain": "academic", "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["phonology","phonological"], "sameAffix": ["morphologist","linguist"], "synonyms": ["linguist","phonetician"], "antonyms": [], "domainCohort": ["linguist","grammarian","phonetician"], "derivationPair": ["phonology","phonologist"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {"mnemonicExpr": "phonology+ist → 音系学研究者", "imageChain": ["语言学家", "音系研究"]},
+    "wordLevel": {"domain": ["academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["phonology", "phonological"], "sameAffix": ["-ist"], "synonyms": ["linguist", "phonetician"], "antonyms": [], "domainCohort": ["phonologists"], "derivationPair": ["phonology"], "morphVariants": [], "sameImagery": []}
   },
   {
-    "word": "phosphide",
-    "phonetic": "/'fɒsfaɪd/",
+    "word": "phonologists",
+    "phonetic": "/fə'nɒlədʒɪsts/",
     "pos": "n.",
-    "coreMeaning": {"cn": "磷化物", "en": "a compound of phosphorus with another element"},
+    "coreMeaning": {"cn": "音系学家（复数）", "en": "plural of phonologist"},
     "morphemes": [
-      {"role": "root", "form": "phosph", "canonical": "phosphor-", "coreMeaning": "磷", "positionTendency": "initial", "order": 1, "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"role": "suffix", "form": "-ide", "canonical": "-ide", "coreMeaning": "化合物后缀", "positionTendency": "final", "order": 2, "sentiment": {"tags": ["中性"], "intensity": 0}}
+      {"canonical": "phon", "role": "root", "meaning": "声音", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "phono", "positionTendency": "initial", "coreMeaning": {"cn": "声音", "en": "sound"}},
+      {"canonical": "log", "role": "root", "meaning": "学科", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "log", "positionTendency": "medial", "coreMeaning": {"cn": "学科", "en": "study"}},
+      {"canonical": "-ist", "role": "suffix", "meaning": "专家", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "-ist", "positionTendency": "medial", "coreMeaning": {"cn": "专家", "en": "specialist"}},
+      {"canonical": "-s", "role": "suffix", "meaning": "复数", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 4, "form": "-s", "positionTendency": "final", "coreMeaning": {"cn": "复数", "en": "plural"}}
     ],
-    "derivationChain": "phosphorus → phosphide",
+    "derivationChain": {"steps": [{"from": "phonologist", "to": "phonologists", "by": "plural -s"}]},
+    "morphVariantOf": "phonologist",
+    "memorySemantics": {"mnemonicExpr": "phonologist的复数", "imageChain": ["多位音系学家"]},
+    "wordLevel": {"domain": ["academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["phonologist"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["phonologist"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "phonology",
+    "phonetic": "/fə'nɒlədʒɪ/",
+    "pos": "n.",
+    "coreMeaning": {"cn": "音系学；语音体系", "en": "the branch of linguistics that deals with the sound systems of languages"},
+    "morphemes": [
+      {"canonical": "phon", "role": "root", "meaning": "声音", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "phono", "positionTendency": "initial", "coreMeaning": {"cn": "声音", "en": "sound"}},
+      {"canonical": "-logy", "role": "suffix", "meaning": "学科", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-logy", "positionTendency": "final", "coreMeaning": {"cn": "学科", "en": "study of"}}
+    ],
+    "derivationChain": {"steps": [{"from": "phono+logy", "to": "phonology", "by": "Greek phone (sound) + logos (study) → study of sounds"}]},
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "phosph(磷)+-ide(化合物)→磷与其他元素的化合物", "imageChain": "磷化氢是一种有毒气体"},
-    "wordLevel": {"domain": "academic", "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["phosphate","phosphorus"], "sameAffix": ["chloride","sulfide"], "synonyms": [], "antonyms": [], "domainCohort": ["chemistry","compound"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {"mnemonicExpr": "phono(sound)+logy(study) → 音系学", "imageChain": ["语音系统", "音位", "声调规律"]},
+    "wordLevel": {"domain": ["academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["phonologist", "phonological", "phonic"], "sameAffix": ["-logy"], "synonyms": ["sound system", "phonetics"], "antonyms": [], "domainCohort": ["phonological", "phonologist"], "derivationPair": ["phonological", "phonologist"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "phony",
+    "phonetic": "/'foʊnɪ/",
+    "pos": "adj./n.",
+    "coreMeaning": {"cn": "假的；骗子", "en": "not genuine; a person who pretends to be something they are not"},
+    "morphemes": [{"canonical": "phony", "role": "root", "meaning": "假；虚伪", "sentiment": {"tags": ["消极"], "intensity": -2}, "order": 1, "form": "phony", "positionTendency": "initial", "coreMeaning": {"cn": "假的", "en": "fake"}}],
+    "derivationChain": {"steps": [{"from": "fawney", "to": "phony", "by": "Irish fainne (ring) → British slang fawney (ring fraud) → American phony"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "phony → 假的/骗子（与phone谐音）", "imageChain": ["假货", "骗子", "虚伪"]},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["消极"], "intensity": -2}},
+    "relations": {"sameRoot": ["phonier", "phoniest", "phoniness"], "sameAffix": [], "synonyms": ["fake", "counterfeit", "fraud", "impostor"], "antonyms": ["genuine", "authentic", "real"], "domainCohort": ["phonies"], "derivationPair": ["phoniness", "phonier"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "phosphate",
+    "phonetic": "/'fɒsfeɪt/",
+    "pos": "n.",
+    "coreMeaning": {"cn": "磷酸盐", "en": "a salt or ester of phosphoric acid; essential for biological molecules"},
+    "morphemes": [
+      {"canonical": "phosph", "role": "root", "meaning": "磷；光", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "phosph", "positionTendency": "initial", "coreMeaning": {"cn": "磷", "en": "phosphorus"}},
+      {"canonical": "-ate", "role": "suffix", "meaning": "盐/酯", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-ate", "positionTendency": "final", "coreMeaning": {"cn": "盐/酯", "en": "salt/ester"}}
+    ],
+    "derivationChain": {"steps": [{"from": "phosphorus", "to": "phosphate", "by": "phosphorus + -ate (chemical suffix for salt/ester)"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "phosph(phosphorus)+ate → 磷酸盐", "imageChain": ["磷酸盐", "化肥", "细胞能量"]},
+    "wordLevel": {"domain": ["medical", "academic", "tech"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["phosphorus", "phosphoric", "phosphor"], "sameAffix": ["-ate"], "synonyms": [], "antonyms": [], "domainCohort": ["phosphates", "phosphoric", "phosphorus"], "derivationPair": ["phosphates"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "phosphates",
+    "phonetic": "/'fɒsfeɪts/",
+    "pos": "n.",
+    "coreMeaning": {"cn": "磷酸盐（复数）", "en": "plural of phosphate"},
+    "morphemes": [
+      {"canonical": "phosph", "role": "root", "meaning": "磷", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "phosph", "positionTendency": "initial", "coreMeaning": {"cn": "磷", "en": "phosphorus"}},
+      {"canonical": "-ate", "role": "suffix", "meaning": "盐/酯", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-ate", "positionTendency": "medial", "coreMeaning": {"cn": "盐", "en": "salt"}},
+      {"canonical": "-s", "role": "suffix", "meaning": "复数", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "-s", "positionTendency": "final", "coreMeaning": {"cn": "复数", "en": "plural"}}
+    ],
+    "derivationChain": {"steps": [{"from": "phosphate", "to": "phosphates", "by": "plural -s"}]},
+    "morphVariantOf": "phosphate",
+    "memorySemantics": {"mnemonicExpr": "phosphate的复数", "imageChain": ["各种磷酸盐"]},
+    "wordLevel": {"domain": ["medical", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["phosphate"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["phosphate"], "morphVariants": [], "sameImagery": []}
   },
   {
     "word": "phosphor",
-    "phonetic": "/'fɒsfə/",
+    "phonetic": "/'fɒsfər/",
     "pos": "n.",
-    "coreMeaning": {"cn": "荧光体；磷光体", "en": "a substance that emits light when irradiated"},
-    "morphemes": [
-      {"role": "root", "form": "phosphor", "canonical": "phosphor-", "coreMeaning": "磷/发光体", "positionTendency": "initial", "order": 1, "sentiment": {"tags": ["中性"], "intensity": 0}}
-    ],
-    "derivationChain": "Greek phosphoros → phosphor",
+    "coreMeaning": {"cn": "磷光体；发光物质", "en": "a substance that emits light when excited by radiation"},
+    "morphemes": [{"canonical": "phosph", "role": "root", "meaning": "磷；光", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "phosphor", "positionTendency": "initial", "coreMeaning": {"cn": "磷；光", "en": "phosphorus/light"}}],
+    "derivationChain": {"steps": [{"from": "phosphoros", "to": "phosphor", "by": "Greek phosphoros (light-bearing) → phosphor"}]},
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "phosphor=发光物质（屏幕荧光粉）", "imageChain": "阴极射线管显示器中的荧光涂层"},
-    "wordLevel": {"domain": "tech", "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["phosphorus","phosphorescence"], "sameAffix": [], "synonyms": ["luminescent material"], "antonyms": [], "domainCohort": ["fluorescence","LED","screen"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {"mnemonicExpr": "phosphor → 磷光/发光体", "imageChain": ["磷光", "荧光物质", "显示屏"]},
+    "wordLevel": {"domain": ["tech", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["phosphorus", "phosphoresce", "phosphorescence"], "sameAffix": [], "synonyms": ["luminophore", "phosphorescent material"], "antonyms": [], "domainCohort": ["phosphorus", "phosphoresce"], "derivationPair": ["phosphors", "phosphoresce"], "morphVariants": [], "sameImagery": []}
   },
   {
-    "word": "phospholipins",
-    "phonetic": "/,fɒsfəʊ'lɪpɪnz/",
-    "pos": "n.",
-    "coreMeaning": {"cn": "磷脂（旧称）", "en": "phospholipids; fat compounds containing phosphorus"},
+    "word": "phosphoresce",
+    "phonetic": "/ˌfɒsfə'res/",
+    "pos": "v.",
+    "coreMeaning": {"cn": "发磷光；发冷光", "en": "to emit light without combustion through phosphorescence"},
     "morphemes": [
-      {"role": "root", "form": "phospho-", "canonical": "phosphor-", "coreMeaning": "磷", "positionTendency": "initial", "order": 1, "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"role": "root", "form": "lip", "canonical": "lip-", "coreMeaning": "脂肪", "positionTendency": "medial", "order": 2, "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"role": "suffix", "form": "-ins", "canonical": "-in", "coreMeaning": "化学物质后缀（复数）", "positionTendency": "final", "order": 3, "sentiment": {"tags": ["中性"], "intensity": 0}}
+      {"canonical": "phosph", "role": "root", "meaning": "磷；光", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "phosphor", "positionTendency": "initial", "coreMeaning": {"cn": "磷；光", "en": "phosphorus/light"}},
+      {"canonical": "-esce", "role": "suffix", "meaning": "开始变成；呈现状态", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-esce", "positionTendency": "final", "coreMeaning": {"cn": "呈现状态", "en": "to become/exhibit"}}
     ],
-    "derivationChain": "phospho- + lipid → phospholipid → phospholipins",
-    "morphVariantOf": "phospholipid",
-    "memorySemantics": {"mnemonicExpr": "phospho(磷)+lipin(脂)→细胞膜的主要成分", "imageChain": "细胞膜磷脂双分子层结构"},
-    "wordLevel": {"domain": "medical", "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["phosphate","phosphatides"], "sameAffix": [], "synonyms": ["phospholipids"], "antonyms": [], "domainCohort": ["lipid","membrane","cell"], "derivationPair": [], "morphVariants": ["phospholipid"], "sameImagery": []}
-  },
-  {
-    "word": "phosgene",
-    "phonetic": "/'fɒzdʒiːn/",
-    "pos": "n.",
-    "coreMeaning": {"cn": "光气（有毒气体COCl₂）", "en": "a highly toxic gas used in chemical warfare"},
-    "morphemes": [
-      {"role": "root", "form": "phos-", "canonical": "photo-", "coreMeaning": "光（因在阳光中被发现）", "positionTendency": "initial", "order": 1, "sentiment": {"tags": ["消极"], "intensity": 2}},
-      {"role": "root", "form": "gene", "canonical": "-gen", "coreMeaning": "产生", "positionTendency": "final", "order": 2, "sentiment": {"tags": ["中性"], "intensity": 0}}
-    ],
-    "derivationChain": "phos(light) + gene(produced) → phosgene",
+    "derivationChain": {"steps": [{"from": "phosphor", "to": "phosphoresce", "by": "phosphor + -esce (inceptive suffix)"}]},
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "phos(光)+gene(产)→在阳光下产生的毒气", "imageChain": "一战中德军使用的致命化学武器"},
-    "wordLevel": {"domain": "medical", "sentiment": {"tags": ["消极"], "intensity": 2}},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["carbonyl chloride"], "antonyms": [], "domainCohort": ["chlorine gas","mustard gas","chemical weapon"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {"mnemonicExpr": "phosphor+esce → 开始发磷光", "imageChain": ["冷光", "磷光发光", "海洋发光"]},
+    "wordLevel": {"domain": ["academic", "tech"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["phosphorescence", "phosphorescent", "phosphor"], "sameAffix": ["-esce"], "synonyms": ["glow", "luminesce"], "antonyms": [], "domainCohort": ["phosphorescence", "phosphorescent"], "derivationPair": ["phosphorescence"], "morphVariants": [], "sameImagery": []}
   },
   {
-    "word": "phonic",
-    "phonetic": "/'fɑnɪk/",
+    "word": "phosphorescence",
+    "phonetic": "/ˌfɒsfə'resəns/",
+    "pos": "n.",
+    "coreMeaning": {"cn": "磷光；冷光现象", "en": "light emission without significant heat; the property of being luminescent"},
+    "morphemes": [
+      {"canonical": "phosph", "role": "root", "meaning": "磷；光", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "phosphor", "positionTendency": "initial", "coreMeaning": {"cn": "磷光", "en": "phosphorescent"}},
+      {"canonical": "-escence", "role": "suffix", "meaning": "状态；过程", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-escence", "positionTendency": "final", "coreMeaning": {"cn": "状态", "en": "state/process"}}
+    ],
+    "derivationChain": {"steps": [{"from": "phosphoresce", "to": "phosphorescence", "by": "phosphoresce + -ence (state noun)"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "phosphor+escence → 磷光现象", "imageChain": ["冷光", "夜光", "萤火虫"]},
+    "wordLevel": {"domain": ["academic", "tech"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["phosphoresce", "phosphorescent", "phosphor"], "sameAffix": ["-escence"], "synonyms": ["luminescence", "bioluminescence", "glow"], "antonyms": [], "domainCohort": ["phosphorescent", "phosphoresce"], "derivationPair": ["phosphorescent"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "phosphorescent",
+    "phonetic": "/ˌfɒsfə'resənt/",
     "pos": "adj.",
-    "coreMeaning": {"cn": "声音的；语音学的", "en": "relating to sound or speech sounds"},
+    "coreMeaning": {"cn": "发磷光的；冷光的", "en": "emitting light without significant heat; luminescent"},
     "morphemes": [
-      {"role": "root", "form": "phon", "canonical": "phon-", "coreMeaning": "声音", "positionTendency": "initial", "order": 1, "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"role": "suffix", "form": "-ic", "canonical": "-ic", "coreMeaning": "形容词后缀", "positionTendency": "final", "order": 2, "sentiment": {"tags": ["中性"], "intensity": 0}}
+      {"canonical": "phosph", "role": "root", "meaning": "磷；光", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "phosphor", "positionTendency": "initial", "coreMeaning": {"cn": "磷光", "en": "phosphorescence"}},
+      {"canonical": "-escent", "role": "suffix", "meaning": "呈现…状态的", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-escent", "positionTendency": "final", "coreMeaning": {"cn": "呈现状态的", "en": "exhibiting state"}}
     ],
-    "derivationChain": "Greek phone (voice) → phonic",
+    "derivationChain": {"steps": [{"from": "phosphorescence", "to": "phosphorescent", "by": "phosphorescence → phosphorescent (-ent adjective)"}]},
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "phone(声音)+ic→有声音的", "imageChain": "语音课堂上辨别声音"},
-    "wordLevel": {"domain": "academic", "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["phonics","phonology","phone"], "sameAffix": [], "synonyms": ["acoustic","vocal","sound"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {"mnemonicExpr": "phosphor+escent → 发磷光的", "imageChain": ["夜光", "冷光", "生物发光"]},
+    "wordLevel": {"domain": ["academic", "tech"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["phosphorescence", "phosphoresce"], "sameAffix": ["-escent"], "synonyms": ["luminescent", "glowing", "fluorescent"], "antonyms": ["dark", "opaque"], "domainCohort": ["phosphorescence"], "derivationPair": ["phosphorescence"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "phosphorescent ly",
+    "phonetic": "/ˌfɒsfə'resəntlɪ/",
+    "pos": "adv.",
+    "coreMeaning": {"cn": "以磷光方式", "en": "in a phosphorescent manner; with phosphorescence"},
+    "morphemes": [
+      {"canonical": "phosph", "role": "root", "meaning": "磷光", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "phosphorescent", "positionTendency": "initial", "coreMeaning": {"cn": "磷光", "en": "phosphorescent"}},
+      {"canonical": "-ly", "role": "suffix", "meaning": "副词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-ly", "positionTendency": "final", "coreMeaning": {"cn": "方式", "en": "manner"}}
+    ],
+    "derivationChain": {"steps": [{"from": "phosphorescent", "to": "phosphorescently", "by": "phosphorescent + -ly"}]},
+    "morphVariantOf": "phosphorescent",
+    "memorySemantics": {"mnemonicExpr": "phosphorescent+ly → 发磷光地", "imageChain": ["冷光照射"]},
+    "wordLevel": {"domain": ["academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["phosphorescent", "phosphorescence"], "sameAffix": ["-ly"], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["phosphorescent"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "phosphoric",
+    "phonetic": "/fɒs'fɒrɪk/",
+    "pos": "adj.",
+    "coreMeaning": {"cn": "磷的；磷酸的", "en": "of, relating to, or containing phosphorus, especially in a high valence"},
+    "morphemes": [
+      {"canonical": "phosph", "role": "root", "meaning": "磷", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "phosphor", "positionTendency": "initial", "coreMeaning": {"cn": "磷", "en": "phosphorus"}},
+      {"canonical": "-ic", "role": "suffix", "meaning": "形容词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-ic", "positionTendency": "final", "coreMeaning": {"cn": "…的", "en": "relating to"}}
+    ],
+    "derivationChain": {"steps": [{"from": "phosphorus", "to": "phosphoric", "by": "phosphorus → phosphoric acid (higher oxidation state)"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "phosphor+ic → 磷(酸)的", "imageChain": ["磷酸", "酸性溶液", "化学反应"]},
+    "wordLevel": {"domain": ["academic", "medical"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["phosphorus", "phosphate", "phosphorous"], "sameAffix": ["-ic"], "synonyms": [], "antonyms": ["phosphorous"], "domainCohort": ["phosphorous", "phosphate"], "derivationPair": [], "morphVariants": ["phosphorous"], "sameImagery": []}
+  },
+  {
+    "word": "phosphorous",
+    "phonetic": "/'fɒsfərəs/",
+    "pos": "adj.",
+    "coreMeaning": {"cn": "亚磷的；含磷的（低价）", "en": "of or relating to phosphorus in a lower valence state"},
+    "morphemes": [
+      {"canonical": "phosph", "role": "root", "meaning": "磷", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "phosphor", "positionTendency": "initial", "coreMeaning": {"cn": "磷", "en": "phosphorus"}},
+      {"canonical": "-ous", "role": "suffix", "meaning": "形容词化（低价）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-ous", "positionTendency": "final", "coreMeaning": {"cn": "含…的（低价）", "en": "containing (lower valence)"}}
+    ],
+    "derivationChain": {"steps": [{"from": "phosphorus", "to": "phosphorous", "by": "phosphorus + -ous (lower oxidation state)"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "phosphor+ous → 亚磷的（较低价态）", "imageChain": ["磷化合物", "低价磷酸"]},
+    "wordLevel": {"domain": ["academic", "medical"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["phosphorus", "phosphoric"], "sameAffix": ["-ous"], "synonyms": [], "antonyms": ["phosphoric"], "domainCohort": ["phosphoric", "phosphorus"], "derivationPair": [], "morphVariants": ["phosphoric"], "sameImagery": []}
+  },
+  {
+    "word": "phosphors",
+    "phonetic": "/'fɒsfərz/",
+    "pos": "n.",
+    "coreMeaning": {"cn": "磷光体（复数）", "en": "plural of phosphor; luminescent substances"},
+    "morphemes": [
+      {"canonical": "phosph", "role": "root", "meaning": "磷；光", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "phosphor", "positionTendency": "initial", "coreMeaning": {"cn": "磷光", "en": "phosphor"}},
+      {"canonical": "-s", "role": "suffix", "meaning": "复数", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-s", "positionTendency": "final", "coreMeaning": {"cn": "复数", "en": "plural"}}
+    ],
+    "derivationChain": {"steps": [{"from": "phosphor", "to": "phosphors", "by": "plural -s"}]},
+    "morphVariantOf": "phosphor",
+    "memorySemantics": {"mnemonicExpr": "phosphor的复数", "imageChain": ["多种磷光体"]},
+    "wordLevel": {"domain": ["tech", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["phosphor"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["phosphor"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "phosphorus",
+    "phonetic": "/'fɒsfərəs/",
+    "pos": "n.",
+    "coreMeaning": {"cn": "磷（元素）", "en": "a chemical element that glows in the dark; essential for life"},
+    "morphemes": [{"canonical": "phosph", "role": "root", "meaning": "光；磷", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "phosphorus", "positionTendency": "initial", "coreMeaning": {"cn": "发光之物", "en": "light-bearer"}}],
+    "derivationChain": {"steps": [{"from": "phosphoros", "to": "phosphorus", "by": "Greek phosphoros (light-bearing): phos (light) + phoros (bearer)"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "phosphorus → 磷（希腊语光的携带者）", "imageChain": ["磷元素", "发光", "骨骼成分"]},
+    "wordLevel": {"domain": ["academic", "medical", "tech"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["phosphate", "phosphoric", "phosphor", "phosphoresce"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["phosphate", "phosphoric"], "derivationPair": ["phosphate", "phosphoric"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "photic",
+    "phonetic": "/'foʊtɪk/",
+    "pos": "adj.",
+    "coreMeaning": {"cn": "光的；光照的", "en": "of or relating to light, especially regarding its effect on organisms"},
+    "morphemes": [
+      {"canonical": "phot", "role": "root", "meaning": "光", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "phot", "positionTendency": "initial", "coreMeaning": {"cn": "光", "en": "light"}},
+      {"canonical": "-ic", "role": "suffix", "meaning": "形容词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-ic", "positionTendency": "final", "coreMeaning": {"cn": "…的", "en": "relating to"}}
+    ],
+    "derivationChain": {"steps": [{"from": "phos/phot", "to": "photic", "by": "Greek phos (light) + -ic → pertaining to light"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "phot(light)+ic → 光照的", "imageChain": ["阳光", "光合作用", "光照层"]},
+    "wordLevel": {"domain": ["academic", "medical"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["photo", "photocopy", "photochemical"], "sameAffix": ["-ic"], "synonyms": ["luminous", "light-related"], "antonyms": ["aphotic"], "domainCohort": ["photo-", "photochemical"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "photo",
+    "phonetic": "/'foʊtoʊ/",
+    "pos": "n.",
+    "coreMeaning": {"cn": "照片；相片", "en": "short for photograph; an image taken by a camera"},
+    "morphemes": [{"canonical": "phot", "role": "root", "meaning": "光", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": {"cn": "光；照片", "en": "light/photograph"}}],
+    "derivationChain": {"steps": [{"from": "photograph", "to": "photo", "by": "shortened from photograph"}]},
+    "morphVariantOf": "photograph",
+    "memorySemantics": {"mnemonicExpr": "photo → photograph的缩写→ 照片", "imageChain": ["相机", "照片", "影像"]},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["photograph", "photocopy", "photochemical"], "sameAffix": [], "synonyms": ["photograph", "picture", "snapshot", "image"], "antonyms": [], "domainCohort": ["photograph", "photocopier"], "derivationPair": [], "morphVariants": ["photograph"], "sameImagery": []}
+  },
+  {
+    "word": "photo-",
+    "phonetic": "/'foʊtoʊ/",
+    "pos": "prefix",
+    "coreMeaning": {"cn": "光（前缀）", "en": "prefix meaning light or photograph"},
+    "morphemes": [{"canonical": "phot", "role": "root", "meaning": "光", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "photo-", "positionTendency": "initial", "coreMeaning": {"cn": "光", "en": "light"}}],
+    "derivationChain": {"steps": [{"from": "phos", "to": "photo-", "by": "Greek phos/phot (light) → combining form photo-"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "photo- → 光（前缀）", "imageChain": ["光", "摄影", "光合"]},
+    "wordLevel": {"domain": ["academic", "tech"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["photograph", "photocopy", "photochemical", "photic"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["photograph", "photocopy"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "photochemical",
+    "phonetic": "/ˌfoʊtoʊ'kemɪkəl/",
+    "pos": "adj.",
+    "coreMeaning": {"cn": "光化学的", "en": "of or relating to chemical reactions caused or affected by light"},
+    "morphemes": [
+      {"canonical": "phot", "role": "root", "meaning": "光", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": {"cn": "光", "en": "light"}},
+      {"canonical": "chem", "role": "root", "meaning": "化学", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "chem", "positionTendency": "medial", "coreMeaning": {"cn": "化学", "en": "chemical"}},
+      {"canonical": "-ical", "role": "suffix", "meaning": "形容词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "-ical", "positionTendency": "final", "coreMeaning": {"cn": "…的", "en": "relating to"}}
+    ],
+    "derivationChain": {"steps": [{"from": "photo+chemical", "to": "photochemical", "by": "photo (light) + chemical → pertaining to light-driven chemistry"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "photo(light)+chemical → 光化学的", "imageChain": ["光合作用", "光化学烟雾", "紫外线反应"]},
+    "wordLevel": {"domain": ["academic", "tech"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["photo-", "photic"], "sameAffix": ["-ical"], "synonyms": [], "antonyms": [], "domainCohort": ["photocopy", "photograph"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "photocopied",
+    "phonetic": "/'foʊtoʊkɒpɪd/",
+    "pos": "v.",
+    "coreMeaning": {"cn": "复印（过去式）", "en": "past tense of photocopy; made copies using a photocopier"},
+    "morphemes": [
+      {"canonical": "phot", "role": "root", "meaning": "光", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": {"cn": "光", "en": "light"}},
+      {"canonical": "copy", "role": "root", "meaning": "复制", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "cop", "positionTendency": "medial", "coreMeaning": {"cn": "复制", "en": "copy"}},
+      {"canonical": "-ed", "role": "suffix", "meaning": "过去式", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "-ied", "positionTendency": "final", "coreMeaning": {"cn": "过去式", "en": "past tense"}}
+    ],
+    "derivationChain": {"steps": [{"from": "photocopy", "to": "photocopied", "by": "past tense -ied"}]},
+    "morphVariantOf": "photocopy",
+    "memorySemantics": {"mnemonicExpr": "photocopy的过去式", "imageChain": ["复印机", "复印文件"]},
+    "wordLevel": {"domain": ["general", "tech"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["photocopy", "photocopier"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["photocopy"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "photocopier",
+    "phonetic": "/'foʊtoʊkɒpɪər/",
+    "pos": "n.",
+    "coreMeaning": {"cn": "复印机", "en": "a machine that makes paper copies of documents"},
+    "morphemes": [
+      {"canonical": "phot", "role": "root", "meaning": "光", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": {"cn": "光", "en": "light"}},
+      {"canonical": "copy", "role": "root", "meaning": "复制", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "cop", "positionTendency": "medial", "coreMeaning": {"cn": "复制", "en": "copy"}},
+      {"canonical": "-er", "role": "suffix", "meaning": "机器/人", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "-ier", "positionTendency": "final", "coreMeaning": {"cn": "机器", "en": "machine"}}
+    ],
+    "derivationChain": {"steps": [{"from": "photocopy", "to": "photocopier", "by": "photocopy + -er (agent/instrument)"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "photo+copy+er → 光学复制机", "imageChain": ["复印机", "办公室", "文件复制"]},
+    "wordLevel": {"domain": ["general", "tech"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["photocopy", "photocopied"], "sameAffix": ["-er"], "synonyms": ["copier", "Xerox machine", "duplicator"], "antonyms": [], "domainCohort": ["photocopiers", "photocopy"], "derivationPair": ["photocopy"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "photocopiers",
+    "phonetic": "/'foʊtoʊkɒpɪərz/",
+    "pos": "n.",
+    "coreMeaning": {"cn": "复印机（复数）", "en": "plural of photocopier"},
+    "morphemes": [
+      {"canonical": "phot", "role": "root", "meaning": "光", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": {"cn": "光", "en": "light"}},
+      {"canonical": "copy", "role": "root", "meaning": "复制", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "cop", "positionTendency": "medial", "coreMeaning": {"cn": "复制", "en": "copy"}},
+      {"canonical": "-s", "role": "suffix", "meaning": "复数", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "-s", "positionTendency": "final", "coreMeaning": {"cn": "复数", "en": "plural"}}
+    ],
+    "derivationChain": {"steps": [{"from": "photocopier", "to": "photocopiers", "by": "plural -s"}]},
+    "morphVariantOf": "photocopier",
+    "memorySemantics": {"mnemonicExpr": "photocopier的复数", "imageChain": ["多台复印机"]},
+    "wordLevel": {"domain": ["general", "tech"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["photocopier", "photocopy"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["photocopier"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "photocopies",
+    "phonetic": "/'foʊtoʊkɒpɪz/",
+    "pos": "n./v.",
+    "coreMeaning": {"cn": "复印件（复数）；第三人称单数", "en": "plural of photocopy; or third person singular of photocopy"},
+    "morphemes": [
+      {"canonical": "phot", "role": "root", "meaning": "光", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": {"cn": "光", "en": "light"}},
+      {"canonical": "copy", "role": "root", "meaning": "复制", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "cop", "positionTendency": "medial", "coreMeaning": {"cn": "复制", "en": "copy"}},
+      {"canonical": "-s", "role": "suffix", "meaning": "复数/第三人称", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "-ies", "positionTendency": "final", "coreMeaning": {"cn": "复数", "en": "plural"}}
+    ],
+    "derivationChain": {"steps": [{"from": "photocopy", "to": "photocopies", "by": "plural -ies"}]},
+    "morphVariantOf": "photocopy",
+    "memorySemantics": {"mnemonicExpr": "photocopy的复数", "imageChain": ["多份复印件"]},
+    "wordLevel": {"domain": ["general", "tech"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["photocopy", "photocopier"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["photocopy"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "photocopy",
+    "phonetic": "/'foʊtoʊkɒpɪ/",
+    "pos": "n./v.",
+    "coreMeaning": {"cn": "复印件；复印", "en": "a copy of a document made using a photocopier; to make such a copy"},
+    "morphemes": [
+      {"canonical": "phot", "role": "root", "meaning": "光", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "photo", "positionTendency": "initial", "coreMeaning": {"cn": "光", "en": "light"}},
+      {"canonical": "copy", "role": "root", "meaning": "复制", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "copy", "positionTendency": "final", "coreMeaning": {"cn": "复制", "en": "copy"}}
+    ],
+    "derivationChain": {"steps": [{"from": "photo+copy", "to": "photocopy", "by": "photo (light) + copy → light-based copying"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "photo(light)+copy → 光学复印", "imageChain": ["复印机", "复印文件", "影印"]},
+    "wordLevel": {"domain": ["general", "tech"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["photocopier", "photocopied"], "sameAffix": [], "synonyms": ["copy", "Xerox", "duplicate"], "antonyms": [], "domainCohort": ["photocopier", "photochemical"], "derivationPair": ["photocopier", "photocopied", "photocopies"], "morphVariants": [], "sameImagery": []}
   }
 ]

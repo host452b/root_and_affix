@@ -9,9 +9,69 @@
     ],
     "derivationChain": {"steps": []},
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "urchin → 像刺猬一样多刺，比喻顽皮淘气的小孩", "imageChain": ["顽童", "海胆", "刺猬"]},
+    "memorySemantics": {"mnemonicExpr": "urchin → 像刺猬一样多刺，比喻顽皮淘气的小孩或海中多刺的海胆", "imageChain": ["顽童", "海胆", "刺猬"]},
     "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["ragamuffin", "rascal", "brat", "imp"], "antonyms": [], "domainCohort": ["sea urchin", "hedgehog"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["ragamuffin", "rascal", "brat", "imp", "scamp"], "antonyms": [], "domainCohort": ["sea urchin", "hedgehog"], "derivationPair": [], "morphVariants": ["urchins"], "sameImagery": []}
+  },
+  {
+    "word": "urea",
+    "phonetic": "/juˈriːə/",
+    "pos": ["n."],
+    "coreMeaning": {"cn": "尿素；脲", "en": "a soluble nitrogen-containing compound found in urine and used as a fertilizer"},
+    "morphemes": [
+      {"canonical": "ur-", "role": "root", "meaning": "尿；与尿有关的（希腊 ouron）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "ur", "positionTendency": "initial", "coreMeaning": {"cn": "尿", "en": "urine"}},
+      {"canonical": "-ea", "role": "suffix", "meaning": "名词后缀；化学物质", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ea", "positionTendency": "final", "coreMeaning": {"cn": "化学物质", "en": "chemical substance"}}
+    ],
+    "derivationChain": {"steps": []},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "urea → 尿（ur-）中提取的含氮化合物，即尿素", "imageChain": ["尿素", "含氮化合物", "肥料"]},
+    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["medical", "academic"], "formality": "formal"},
+    "relations": {"sameRoot": ["uremia", "urinalysis", "uric"], "sameAffix": [], "synonyms": ["carbamide"], "antonyms": [], "domainCohort": ["creatinine", "nitrogen", "kidney"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "uremia",
+    "phonetic": "/jʊ'riːmiə/",
+    "pos": ["n."],
+    "coreMeaning": {"cn": "尿毒症", "en": "a condition caused by accumulation of nitrogenous waste products in the blood when the kidneys fail"},
+    "morphemes": [
+      {"canonical": "ur-", "role": "root", "meaning": "尿（希腊 ouron）", "sentiment": {"tags": ["消极"], "intensity": 2}, "order": 1, "form": "ur", "positionTendency": "initial", "coreMeaning": {"cn": "尿", "en": "urine"}},
+      {"canonical": "-emia", "role": "suffix", "meaning": "血液状态", "sentiment": {"tags": ["消极"], "intensity": 2}, "order": 2, "form": "emia", "positionTendency": "final", "coreMeaning": {"cn": "血液状态", "en": "condition of the blood"}}
+    ],
+    "derivationChain": {"steps": []},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "uremia → 尿素（ur-）积聚在血液（-emia）中 → 尿毒症", "imageChain": ["尿毒症", "肾衰竭", "血液中毒"]},
+    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": 2}, "domain": ["medical"], "formality": "formal"},
+    "relations": {"sameRoot": ["urea", "uric", "urinary"], "sameAffix": [], "synonyms": ["renal failure toxicity"], "antonyms": [], "domainCohort": ["kidney disease", "nephrology", "dialysis"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "ureter",
+    "phonetic": "/jʊ'riːtər/",
+    "pos": ["n."],
+    "coreMeaning": {"cn": "输尿管", "en": "the duct by which urine passes from the kidney to the bladder"},
+    "morphemes": [
+      {"canonical": "ur-", "role": "root", "meaning": "尿（希腊 ouron）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "ureter", "positionTendency": "initial", "coreMeaning": {"cn": "尿", "en": "urine"}},
+      {"canonical": "-ter", "role": "suffix", "meaning": "名词；管道", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ter", "positionTendency": "final", "coreMeaning": {"cn": "管道", "en": "duct/tube"}}
+    ],
+    "derivationChain": {"steps": []},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "ureter → 将尿液从肾脏输送到膀胱的管道", "imageChain": ["输尿管", "肾脏", "膀胱"]},
+    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["medical"], "formality": "formal"},
+    "relations": {"sameRoot": ["urethra", "urine", "urinary"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["kidney", "bladder", "urethra"], "derivationPair": [], "morphVariants": ["uretero"], "sameImagery": []}
+  },
+  {
+    "word": "urethra",
+    "phonetic": "/jʊ'riːθrə/",
+    "pos": ["n."],
+    "coreMeaning": {"cn": "尿道", "en": "the duct through which urine is discharged from the bladder"},
+    "morphemes": [
+      {"canonical": "ur-", "role": "root", "meaning": "尿（希腊 ouron）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "urethr", "positionTendency": "initial", "coreMeaning": {"cn": "尿", "en": "urine"}},
+      {"canonical": "-a", "role": "suffix", "meaning": "名词（解剖学）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "a", "positionTendency": "final", "coreMeaning": {"cn": "解剖结构", "en": "anatomical structure"}}
+    ],
+    "derivationChain": {"steps": []},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "urethra → 排出尿液的最终通道，即尿道", "imageChain": ["尿道", "排泄", "膀胱"]},
+    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["medical"], "formality": "formal"},
+    "relations": {"sameRoot": ["ureter", "urine", "urethritis"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["bladder", "prostate", "ureter"], "derivationPair": [], "morphVariants": ["urethrae"], "sameImagery": []}
   },
   {
     "word": "urge",
@@ -25,7 +85,7 @@
     "morphVariantOf": null,
     "memorySemantics": {"mnemonicExpr": "urge → 强烈地催促或推动，内心的强烈冲动", "imageChain": ["催促", "冲动", "驱使"]},
     "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 1}, "domain": ["general", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": ["urgency", "urgent", "urgently"], "sameAffix": [], "synonyms": ["encourage", "press", "implore", "impel", "impulse"], "antonyms": ["discourage", "deter", "restrain"], "domainCohort": [], "derivationPair": ["urgency", "urgent"], "morphVariants": [], "sameImagery": []}
+    "relations": {"sameRoot": ["urgency", "urgent", "urgently"], "sameAffix": [], "synonyms": ["encourage", "press", "implore", "impel", "push"], "antonyms": ["discourage", "deter", "restrain"], "domainCohort": [], "derivationPair": ["urgency", "urgent"], "morphVariants": ["urged", "urges", "urging"], "sameImagery": []}
   },
   {
     "word": "urgency",
@@ -40,7 +100,7 @@
     "morphVariantOf": null,
     "memorySemantics": {"mnemonicExpr": "urgency → 需要立即处理的紧急状态", "imageChain": ["紧急", "迫切", "急需"]},
     "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": 1}, "domain": ["general", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": ["urge", "urgent", "urgently"], "sameAffix": [], "synonyms": ["emergency", "pressing need", "imperativeness", "exigency"], "antonyms": ["leisure", "non-urgency", "casualness"], "domainCohort": [], "derivationPair": ["urgent"], "morphVariants": [], "sameImagery": []}
+    "relations": {"sameRoot": ["urge", "urgent", "urgently"], "sameAffix": [], "synonyms": ["emergency", "pressing need", "imperativeness", "exigency"], "antonyms": ["leisure", "non-urgency"], "domainCohort": [], "derivationPair": ["urgent"], "morphVariants": ["urgencies"], "sameImagery": []}
   },
   {
     "word": "urgent",
@@ -55,6 +115,169 @@
     "morphVariantOf": null,
     "memorySemantics": {"mnemonicExpr": "urgent → 需要立即行动的紧急情况", "imageChain": ["紧急", "急迫", "紧要"]},
     "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": 1}, "domain": ["general", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": ["urge", "urgency", "urgently"], "sameAffix": [], "synonyms": ["pressing", "critical", "imperative", "immediate", "dire"], "antonyms": ["leisurely", "unimportant", "trivial", "non-urgent"], "domainCohort": [], "derivationPair": ["urgency"], "morphVariants": [], "sameImagery": []}
+    "relations": {"sameRoot": ["urge", "urgency", "urgently"], "sameAffix": [], "synonyms": ["pressing", "critical", "imperative", "immediate", "dire"], "antonyms": ["leisurely", "unimportant", "trivial", "non-urgent"], "domainCohort": [], "derivationPair": ["urgency"], "morphVariants": ["urgently"], "sameImagery": []}
+  },
+  {
+    "word": "urinal",
+    "phonetic": "/'jʊərɪnl/",
+    "pos": ["n."],
+    "coreMeaning": {"cn": "小便器；小便处；尿壶", "en": "a toilet fixture for urinating; a container for collecting urine"},
+    "morphemes": [
+      {"canonical": "urin-", "role": "root", "meaning": "尿液（拉丁 urina）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "urin", "positionTendency": "initial", "coreMeaning": {"cn": "尿液", "en": "urine"}},
+      {"canonical": "-al", "role": "suffix", "meaning": "名词/形容词", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "al", "positionTendency": "final", "coreMeaning": {"cn": "相关的", "en": "related to"}}
+    ],
+    "derivationChain": {"steps": [{"from": "urine", "to": "urinal", "by": "-al", "meaning": "a vessel or fixture used for urination"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "urinal → 用于排尿的固定设施，小便池", "imageChain": ["小便器", "厕所", "排泄"]},
+    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "medical"], "formality": "neutral"},
+    "relations": {"sameRoot": ["urine", "urinate", "urinary"], "sameAffix": [], "synonyms": ["privy", "latrine"], "antonyms": [], "domainCohort": ["toilet", "bathroom", "lavatory"], "derivationPair": [], "morphVariants": ["urinals"], "sameImagery": []}
+  },
+  {
+    "word": "urinalysis",
+    "phonetic": "/ˌjʊərɪ'næləsɪs/",
+    "pos": ["n."],
+    "coreMeaning": {"cn": "尿液分析；尿检", "en": "analysis of urine by physical, chemical, and microscopic means"},
+    "morphemes": [
+      {"canonical": "urin-", "role": "root", "meaning": "尿液（拉丁 urina）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "urin", "positionTendency": "initial", "coreMeaning": {"cn": "尿液", "en": "urine"}},
+      {"canonical": "-analysis", "role": "root", "meaning": "分析（希腊 analusis）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "analysis", "positionTendency": "final", "coreMeaning": {"cn": "分析", "en": "analysis"}}
+    ],
+    "derivationChain": {"steps": [{"from": "urine + analysis", "to": "urinalysis", "by": "compound", "meaning": "laboratory analysis of urine"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "urinalysis → 对尿液（urin-）进行化验分析（-analysis），医学上常规检查", "imageChain": ["尿检", "化验", "医学诊断"]},
+    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["medical"], "formality": "formal"},
+    "relations": {"sameRoot": ["urine", "urinary", "urinate"], "sameAffix": [], "synonyms": ["urine test", "UA"], "antonyms": [], "domainCohort": ["blood test", "diagnosis", "laboratory"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "urinary",
+    "phonetic": "/'jʊərɪneri/",
+    "pos": ["adj."],
+    "coreMeaning": {"cn": "泌尿的；与尿有关的", "en": "relating to urine or the organs that produce and excrete urine"},
+    "morphemes": [
+      {"canonical": "urin-", "role": "root", "meaning": "尿液（拉丁 urina）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "urin", "positionTendency": "initial", "coreMeaning": {"cn": "尿液", "en": "urine"}},
+      {"canonical": "-ary", "role": "suffix", "meaning": "形容词；与…有关的", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ary", "positionTendency": "final", "coreMeaning": {"cn": "相关的", "en": "relating to"}}
+    ],
+    "derivationChain": {"steps": [{"from": "urine", "to": "urinary", "by": "-ary", "meaning": "pertaining to urine or urination"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "urinary → 与尿液和排尿相关的，泌尿系统", "imageChain": ["泌尿", "肾脏", "排尿"]},
+    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["medical"], "formality": "formal"},
+    "relations": {"sameRoot": ["urine", "urinate", "urination"], "sameAffix": [], "synonyms": ["renal", "excretory"], "antonyms": [], "domainCohort": ["bladder", "kidney", "urethra"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "urinate",
+    "phonetic": "/'jʊərɪneɪt/",
+    "pos": ["v."],
+    "coreMeaning": {"cn": "排尿；小便", "en": "to discharge urine from the body"},
+    "morphemes": [
+      {"canonical": "urin-", "role": "root", "meaning": "尿液（拉丁 urina）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "urin", "positionTendency": "initial", "coreMeaning": {"cn": "尿液", "en": "urine"}},
+      {"canonical": "-ate", "role": "suffix", "meaning": "动词；执行动作", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ate", "positionTendency": "final", "coreMeaning": {"cn": "进行动作", "en": "perform action"}}
+    ],
+    "derivationChain": {"steps": [{"from": "urine", "to": "urinate", "by": "-ate", "meaning": "to discharge urine from the body"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "urinate → 排出尿液（urin-）的行为", "imageChain": ["排尿", "小便", "排泄"]},
+    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["medical", "general"], "formality": "formal"},
+    "relations": {"sameRoot": ["urine", "urinary", "urination"], "sameAffix": [], "synonyms": ["void", "micturate"], "antonyms": [], "domainCohort": ["bladder", "kidney", "defecate"], "derivationPair": ["urination"], "morphVariants": ["urinated", "urinates", "urinating", "urination"], "sameImagery": []}
+  },
+  {
+    "word": "urine",
+    "phonetic": "/'jʊərɪn/",
+    "pos": ["n."],
+    "coreMeaning": {"cn": "尿液；小便", "en": "a liquid waste product filtered from the blood by the kidneys"},
+    "morphemes": [
+      {"canonical": "urin-", "role": "root", "meaning": "尿液（拉丁 urina）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "urine", "positionTendency": "medial", "coreMeaning": {"cn": "尿液", "en": "urine"}}
+    ],
+    "derivationChain": {"steps": []},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "urine → 肾脏过滤血液后产生的废液，即尿液", "imageChain": ["尿液", "肾脏", "排泄"]},
+    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["medical", "general"], "formality": "neutral"},
+    "relations": {"sameRoot": ["urinary", "urinate", "urinalysis", "urea"], "sameAffix": [], "synonyms": ["pee", "urea solution"], "antonyms": [], "domainCohort": ["kidney", "bladder", "nephrology"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "urn",
+    "phonetic": "/ɜːrn/",
+    "pos": ["n."],
+    "coreMeaning": {"cn": "瓮；骨灰盒；茶壶", "en": "a large decorative vase; a container for ashes of the dead; a large container for hot drinks"},
+    "morphemes": [
+      {"canonical": "urn", "role": "root", "meaning": "瓮；壶（拉丁 urna）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "urn", "positionTendency": "medial", "coreMeaning": {"cn": "瓮", "en": "vase/vessel"}}
+    ],
+    "derivationChain": {"steps": []},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "urn → 装骨灰的瓮，或用于盛放热饮的大壶", "imageChain": ["骨灰盒", "瓮", "容器"]},
+    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
+    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["vase", "vessel", "container", "amphora"], "antonyms": [], "domainCohort": ["funeral", "cremation", "pottery"], "derivationPair": [], "morphVariants": ["urns"], "sameImagery": []}
+  },
+  {
+    "word": "urologist",
+    "phonetic": "/jʊ'rɒlədʒɪst/",
+    "pos": ["n."],
+    "coreMeaning": {"cn": "泌尿科医生；泌尿外科医生", "en": "a physician who specializes in urology"},
+    "morphemes": [
+      {"canonical": "ur-", "role": "root", "meaning": "尿（希腊 ouron）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "uro", "positionTendency": "initial", "coreMeaning": {"cn": "尿", "en": "urine"}},
+      {"canonical": "-logy", "role": "suffix", "meaning": "学科；研究", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 2, "form": "log", "positionTendency": "medial", "coreMeaning": {"cn": "研究", "en": "study of"}},
+      {"canonical": "-ist", "role": "suffix", "meaning": "专业人士", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ist", "positionTendency": "final", "coreMeaning": {"cn": "专家", "en": "specialist"}}
+    ],
+    "derivationChain": {"steps": [{"from": "urology", "to": "urologist", "by": "-ist", "meaning": "a medical specialist in the urinary tract"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "urologist → 泌尿系统（uro-）的研究(-logy)专家(-ist)，泌尿科医生", "imageChain": ["泌尿科", "专科医生", "肾脏"]},
+    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["medical"], "formality": "formal"},
+    "relations": {"sameRoot": ["urology", "urinary", "urine"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["nephrologist", "surgeon", "physician"], "derivationPair": ["urology"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "urology",
+    "phonetic": "/jʊ'rɒlədʒi/",
+    "pos": ["n."],
+    "coreMeaning": {"cn": "泌尿科；泌尿学", "en": "the branch of medicine concerned with the urinary tract in both sexes and the male reproductive organs"},
+    "morphemes": [
+      {"canonical": "ur-", "role": "root", "meaning": "尿（希腊 ouron）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "uro", "positionTendency": "initial", "coreMeaning": {"cn": "尿", "en": "urine"}},
+      {"canonical": "-logy", "role": "suffix", "meaning": "学科；研究", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 2, "form": "logy", "positionTendency": "final", "coreMeaning": {"cn": "学科", "en": "study/science"}}
+    ],
+    "derivationChain": {"steps": []},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "urology → 研究尿（uro-）液及泌尿器官的学科（-logy）", "imageChain": ["泌尿学", "医学专科", "肾脏"]},
+    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["medical"], "formality": "formal"},
+    "relations": {"sameRoot": ["urologist", "urinary", "urine"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["nephrology", "surgery", "internal medicine"], "derivationPair": ["urologist"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "ursa",
+    "phonetic": "/'ɜːrsə/",
+    "pos": ["n."],
+    "coreMeaning": {"cn": "熊（天文学；Ursa Major/Minor 大熊座/小熊座）", "en": "a genus of bears; used in constellation names Ursa Major and Ursa Minor"},
+    "morphemes": [
+      {"canonical": "ursa", "role": "root", "meaning": "熊（拉丁 ursa/ursus）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "ursa", "positionTendency": "medial", "coreMeaning": {"cn": "熊", "en": "bear"}}
+    ],
+    "derivationChain": {"steps": []},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "ursa → 拉丁语熊，用于大熊座（Ursa Major）和小熊座（Ursa Minor）命名", "imageChain": ["熊", "星座", "大熊座"]},
+    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["academic", "general"], "formality": "formal"},
+    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["constellation", "astronomy", "Ursa Major", "Ursa Minor"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "urethritis",
+    "phonetic": "/ˌjʊərɪ'θraɪtɪs/",
+    "pos": ["n."],
+    "coreMeaning": {"cn": "尿道炎", "en": "inflammation of the urethra"},
+    "morphemes": [
+      {"canonical": "ur-", "role": "root", "meaning": "尿（希腊 ouron）", "sentiment": {"tags": ["消极"], "intensity": 1}, "order": 1, "form": "urethr", "positionTendency": "initial", "coreMeaning": {"cn": "尿道", "en": "urethra"}},
+      {"canonical": "-itis", "role": "suffix", "meaning": "炎症", "sentiment": {"tags": ["消极"], "intensity": 2}, "order": 2, "form": "itis", "positionTendency": "final", "coreMeaning": {"cn": "炎症", "en": "inflammation"}}
+    ],
+    "derivationChain": {"steps": [{"from": "urethra", "to": "urethritis", "by": "-itis", "meaning": "inflammation of the urethra"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "urethritis → 尿道（urethr-）的炎症（-itis），即尿道炎", "imageChain": ["尿道炎", "炎症", "疼痛"]},
+    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": 1}, "domain": ["medical"], "formality": "formal"},
+    "relations": {"sameRoot": ["urethra", "urinary", "urine"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["STI", "infection", "urology"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "urethane",
+    "phonetic": "/'jʊərɪθeɪn/",
+    "pos": ["n."],
+    "coreMeaning": {"cn": "氨基甲酸乙酯；聚氨酯", "en": "a crystalline compound; used in medicine and as a basis for polyurethane foam"},
+    "morphemes": [
+      {"canonical": "ur-", "role": "root", "meaning": "尿素（urea）衍生物", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "ur", "positionTendency": "initial", "coreMeaning": {"cn": "尿素", "en": "urea-derived"}},
+      {"canonical": "-ethane", "role": "root", "meaning": "乙烷；化学命名后缀", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ethane", "positionTendency": "final", "coreMeaning": {"cn": "乙烷", "en": "ethane compound"}}
+    ],
+    "derivationChain": {"steps": []},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "urethane → 从尿素衍生的乙烷化合物，聚氨酯的基础材料", "imageChain": ["聚氨酯", "泡沫", "化学物质"]},
+    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["academic", "tech"], "formality": "formal"},
+    "relations": {"sameRoot": ["urea", "urine"], "sameAffix": [], "synonyms": ["polyurethane precursor"], "antonyms": [], "domainCohort": ["polymer", "foam", "plastic"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
   }
 ]
