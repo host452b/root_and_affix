@@ -2,538 +2,639 @@
   {
     "word": "splendid",
     "phonetic": "/'splɛndɪd/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "壮丽的；辉煌的；极好的",
-      "en": "magnificent and impressive; excellent"
-    },
+    "pos": "adj",
+    "coreMeaning": {"cn": "壮丽的；辉煌的；极好的", "en": "magnificent and impressive; very fine and excellent"},
     "morphemes": [
-      {
-        "canonical": "splend",
-        "role": "root",
-        "meaning": "闪耀；壮丽",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 2
-        },
-        "order": 1,
-        "form": "splend",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-id",
-        "role": "suffix",
-        "meaning": "具有……特性的（形容词后缀）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "id",
-        "positionTendency": "final"
-      }
+      {"form": "splend", "role": "root", "canonical": "splendere", "meaning": "发光，闪耀", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 2}},
+      {"form": "-id", "role": "suffix", "canonical": "-id", "meaning": "形容词词尾", "positionTendency": "final", "sentiment": {"tags": ["积极"], "intensity": 1}}
     ],
-    "derivationChain": [
-      "splendere",
-      "splendid",
-      "splendor"
+    "derivationChain": {"steps": [{"from": "拉丁 splendere (发光)", "to": "splendidus", "by": "形容词化"}, {"from": "splendidus", "to": "splendid", "by": "借入英语"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "splend(发光闪耀)+id → 闪耀的→壮丽的→splendid", "imageChain": "太阳升起照亮宫殿→splendid view"},
+    "wordLevel": {"domain": ["general", "ielts", "gre", "cet4"], "sentiment": {"tags": ["积极"], "intensity": 2}},
+    "relations": {"sameRoot": ["splendor", "splendour", "splendidly", "resplendent"], "sameAffix": [], "synonyms": ["magnificent", "glorious", "superb", "grand"], "antonyms": ["drab", "dull", "ordinary", "mediocre"], "domainCohort": ["magnificent", "glorious", "resplendent"], "derivationPair": ["splendor", "splendidly"], "morphVariants": [], "sameImagery": ["brilliance", "glory"]}
+  },
+  {
+    "word": "splendidly",
+    "phonetic": "/'splɛndɪdli/",
+    "pos": "adv",
+    "coreMeaning": {"cn": "壮丽地；极好地", "en": "in a splendid manner; magnificently"},
+    "morphemes": [
+      {"form": "splend", "role": "root", "canonical": "splendere", "meaning": "发光，闪耀", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 2}},
+      {"form": "-id", "role": "suffix", "canonical": "-id", "meaning": "形容词词尾", "positionTendency": "medial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-ly", "role": "suffix", "canonical": "-ly", "meaning": "副词词尾", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
     ],
-    "memorySemantics": {
-      "imageKey": "金碧辉煌的宫殿",
-      "scene": "阳光照耀下的凡尔赛宫，金色屋顶和无边花园令人叹为观止",
-      "emotionalHook": "宏大壮观带来的震撼与敬畏",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general",
-        "literary"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 2
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "splendor",
-        "splendiferous"
-      ],
-      "sameAffix": [
-        "vivid",
-        "rigid"
-      ],
-      "synonyms": [
-        "magnificent",
-        "glorious",
-        "superb",
-        "brilliant"
-      ],
-      "antonyms": [
-        "dull",
-        "drab",
-        "mediocre"
-      ],
-      "domainCohort": [
-        "magnificent",
-        "glorious",
-        "resplendent"
-      ],
-      "derivationPair": [
-        "splendor"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "magnificent",
-        "glorious"
-      ]
-    }
+    "derivationChain": {"steps": [{"from": "splendid", "to": "splendidly", "by": "加-ly构成副词"}]},
+    "morphVariantOf": "splendid",
+    "memorySemantics": {"mnemonicExpr": "splendid+ly → 以壮丽的方式", "imageChain": "表演得精彩→splendidly done"},
+    "wordLevel": {"domain": ["general", "literary"], "sentiment": {"tags": ["积极"], "intensity": 2}},
+    "relations": {"sameRoot": ["splendid", "splendor"], "sameAffix": ["magnificently", "gloriously"], "synonyms": ["magnificently", "gloriously", "superbly"], "antonyms": ["poorly", "dully"], "domainCohort": [], "derivationPair": ["splendid"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "splendiferous",
+    "phonetic": "/splɛn'dɪfərəs/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "（幽默/夸张）非常壮观的；极其精彩的", "en": "humorous or informal: splendid; magnificent to an excessive degree"},
+    "morphemes": [
+      {"form": "splend", "role": "root", "canonical": "splendere", "meaning": "发光，闪耀", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 2}},
+      {"form": "-if-", "role": "linker", "canonical": "-i-", "meaning": "连接成分", "positionTendency": "medial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-ferous", "role": "suffix", "canonical": "-ferous", "meaning": "带有…的", "positionTendency": "final", "sentiment": {"tags": ["积极"], "intensity": 1}}
+    ],
+    "derivationChain": {"steps": [{"from": "splendor + -ferous", "to": "splendiferous", "by": "夸张派生，19世纪幽默用法"}]},
+    "morphVariantOf": "splendid",
+    "memorySemantics": {"mnemonicExpr": "splend(光彩)+iferous(充满)→ 充满光彩的→splendiferous！", "imageChain": "满载璀璨光芒→splendiferous occasion"},
+    "wordLevel": {"domain": ["humorous", "literary"], "sentiment": {"tags": ["积极"], "intensity": 2}},
+    "relations": {"sameRoot": ["splendid", "splendor"], "sameAffix": ["coniferous", "vociferous"], "synonyms": ["splendid", "magnificent", "glorious"], "antonyms": ["drab", "dull"], "domainCohort": ["resplendent", "magnificent"], "derivationPair": ["splendid"], "morphVariants": [], "sameImagery": ["over-the-top magnificence"]}
+  },
+  {
+    "word": "splendly",
+    "phonetic": "/'splɛndli/",
+    "pos": "adv",
+    "coreMeaning": {"cn": "壮丽地（非标准/古词）", "en": "archaic/non-standard form of splendidly"},
+    "morphemes": [
+      {"form": "splend", "role": "root", "canonical": "splendere", "meaning": "发光，闪耀", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 2}},
+      {"form": "-ly", "role": "suffix", "canonical": "-ly", "meaning": "副词词尾", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "splend", "to": "splendly", "by": "古英语/非标准副词构词"}]},
+    "morphVariantOf": "splendid",
+    "memorySemantics": {"mnemonicExpr": "splend+ly → splendidly的古体/简化形式", "imageChain": "壮丽地→splendly"},
+    "wordLevel": {"domain": ["archaic"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["splendid", "splendidly"], "sameAffix": [], "synonyms": ["splendidly"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["splendidly"], "sameImagery": []}
   },
   {
     "word": "splendor",
-    "phonetic": "/'splendə/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "光彩；壮观；辉煌",
-      "en": "magnificent beauty or grandeur"
-    },
+    "phonetic": "/'splɛndɚ/",
+    "pos": "n",
+    "coreMeaning": {"cn": "光彩；壮观；杰出", "en": "magnificent and splendid appearance; great brightness"},
     "morphemes": [
-      {
-        "canonical": "splend",
-        "role": "root",
-        "meaning": "闪耀；光辉",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 2
-        },
-        "order": 1,
-        "form": "splend",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-or",
-        "role": "suffix",
-        "meaning": "状态；特质（名词后缀）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "or",
-        "positionTendency": "final"
-      }
+      {"form": "splend", "role": "root", "canonical": "splendere", "meaning": "发光，闪耀", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 2}},
+      {"form": "-or", "role": "suffix", "canonical": "-or", "meaning": "名词词尾，状态", "positionTendency": "final", "sentiment": {"tags": ["积极"], "intensity": 1}}
     ],
-    "derivationChain": [
-      "splendere",
-      "splendor"
+    "derivationChain": {"steps": [{"from": "拉丁 splendor (光辉)", "to": "英语 splendor", "by": "借入（美式拼法）"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "splend(光辉)+or(名词)→ 壮丽光彩→splendor of the empire", "imageChain": "帝国的荣光→imperial splendor"},
+    "wordLevel": {"domain": ["general", "literary", "gre"], "sentiment": {"tags": ["积极"], "intensity": 2}},
+    "relations": {"sameRoot": ["splendid", "splendour", "resplendent"], "sameAffix": ["ardor", "fervor", "candor"], "synonyms": ["magnificence", "grandeur", "brilliance", "glory"], "antonyms": ["drabness", "dullness", "mediocrity"], "domainCohort": ["magnificence", "grandeur", "pomp"], "derivationPair": ["splendid"], "morphVariants": ["splendour"], "sameImagery": ["light", "glory"]}
+  },
+  {
+    "word": "splendorous",
+    "phonetic": "/'splɛndərəs/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "壮观的；光彩夺目的", "en": "characterized by splendor; magnificently grand"},
+    "morphemes": [
+      {"form": "splendor", "role": "root", "canonical": "splendere", "meaning": "光辉，壮观", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 2}},
+      {"form": "-ous", "role": "suffix", "canonical": "-ous", "meaning": "充满…的", "positionTendency": "final", "sentiment": {"tags": ["积极"], "intensity": 1}}
     ],
-    "memorySemantics": {
-      "imageKey": "夕阳的绚烂余晖",
-      "scene": "落日将天空染成橙红色，壮美的自然奇观令人窒息",
-      "emotionalHook": "绝美景色引发的心灵震撼",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "literary",
-        "general"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 2
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "splendid"
-      ],
-      "sameAffix": [
-        "valor",
-        "pallor"
-      ],
-      "synonyms": [
-        "magnificence",
-        "grandeur",
-        "glory",
-        "brilliance"
-      ],
-      "antonyms": [
-        "dullness",
-        "dreariness"
-      ],
-      "domainCohort": [
-        "grandeur",
-        "magnificence",
-        "opulence"
-      ],
-      "derivationPair": [
-        "splendid"
-      ],
-      "morphVariants": [
-        "splendour"
-      ],
-      "sameImagery": [
-        "grandeur",
-        "magnificence"
-      ]
-    }
+    "derivationChain": {"steps": [{"from": "splendor", "to": "splendorous", "by": "加-ous构成形容词"}]},
+    "morphVariantOf": "splendid",
+    "memorySemantics": {"mnemonicExpr": "splendor+ous → 充满光彩的", "imageChain": "壮观的宫殿→splendorous architecture"},
+    "wordLevel": {"domain": ["literary"], "sentiment": {"tags": ["积极"], "intensity": 2}},
+    "relations": {"sameRoot": ["splendor", "splendid", "resplendent"], "sameAffix": ["glamorous", "glorious"], "synonyms": ["magnificent", "glorious", "resplendent"], "antonyms": ["dull", "drab"], "domainCohort": ["glorious", "resplendent"], "derivationPair": ["splendor"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "splendour",
+    "phonetic": "/'splɛndɚ/",
+    "pos": "n",
+    "coreMeaning": {"cn": "光彩；壮观（英式拼法）", "en": "British spelling of splendor"},
+    "morphemes": [
+      {"form": "splend", "role": "root", "canonical": "splendere", "meaning": "发光，闪耀", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 2}},
+      {"form": "-our", "role": "suffix", "canonical": "-our", "meaning": "英式名词词尾", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "splendor", "to": "splendour", "by": "英式英语保留-our拼法"}]},
+    "morphVariantOf": "splendor",
+    "memorySemantics": {"mnemonicExpr": "splendour=splendor英式拼写→壮观光彩", "imageChain": "英国皇室的壮观仪式→splendour"},
+    "wordLevel": {"domain": ["British English", "literary"], "sentiment": {"tags": ["积极"], "intensity": 2}},
+    "relations": {"sameRoot": ["splendid", "splendor"], "sameAffix": ["colour", "honour", "favour"], "synonyms": ["splendor", "magnificence"], "antonyms": ["drabness"], "domainCohort": [], "derivationPair": [], "morphVariants": ["splendor"], "sameImagery": []}
   },
   {
     "word": "splenetic",
     "phonetic": "/splə'nɛtɪk/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "脾气暴躁的；易怒的",
-      "en": "bad-tempered; irritable and spiteful"
-    },
+    "pos": "adj",
+    "coreMeaning": {"cn": "脾气坏的；暴躁的；易怒的", "en": "bad-tempered; irritable; peevish"},
     "morphemes": [
-      {
-        "canonical": "splen",
-        "role": "root",
-        "meaning": "脾脏（古代认为脾脏是坏脾气的来源）",
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": -1
-        },
-        "order": 1,
-        "form": "splen",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-etic",
-        "role": "suffix",
-        "meaning": "与……有关的（形容词后缀）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "etic",
-        "positionTendency": "final"
-      }
+      {"form": "splen", "role": "root", "canonical": "splen", "meaning": "脾（古人认为脾是坏情绪之源）", "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}},
+      {"form": "-etic", "role": "suffix", "canonical": "-etic", "meaning": "形容词词尾", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
     ],
-    "derivationChain": [
-      "splen",
-      "splenetic"
+    "derivationChain": {"steps": [{"from": "希腊 splen (脾脏)", "to": "splenetic", "by": "古医学认为脾产生忧郁和怒气"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "splen(脾)+etic → 脾气(字面义)很差→splenetic person", "imageChain": "古代医学→脾=坏情绪→splenetic"},
+    "wordLevel": {"domain": ["general", "gre", "literary"], "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["spleen", "spleno-", "splenomegaly"], "sameAffix": ["frenetic", "sympathetic"], "synonyms": ["irritable", "peevish", "choleric", "cantankerous"], "antonyms": ["good-natured", "genial", "amiable"], "domainCohort": ["choleric", "cantankerous", "tetchy"], "derivationPair": ["spleen"], "morphVariants": [], "sameImagery": ["bile", "anger"]}
+  },
+  {
+    "word": "spleno-",
+    "phonetic": "/'spliːnəʊ/",
+    "pos": "prefix",
+    "coreMeaning": {"cn": "脾-（构词前缀）", "en": "combining form relating to the spleen"},
+    "morphemes": [
+      {"form": "spleno", "role": "prefix", "canonical": "splen", "meaning": "脾脏", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}}
     ],
-    "memorySemantics": {
-      "imageKey": "脾气暴躁的老人",
-      "scene": "古医学认为脾脏分泌黑胆汁导致人情绪低落易怒，故脾脏与坏脾气相关",
-      "emotionalHook": "无端发火的负面情绪",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "literary",
-        "academic"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": -1
-      }
-    },
-    "relations": {
-      "sameRoot": [],
-      "sameAffix": [
-        "magnetic",
-        "phonetic"
-      ],
-      "synonyms": [
-        "irritable",
-        "peevish",
-        "cantankerous"
-      ],
-      "antonyms": [
-        "good-humored",
-        "affable",
-        "amiable"
-      ],
-      "domainCohort": [
-        "irascible",
-        "choleric",
-        "bilious"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": [
-        "cantankerous",
-        "irritable"
-      ]
-    }
+    "derivationChain": {"steps": [{"from": "希腊 splen(脾)", "to": "spleno-", "by": "构词前缀"}]},
+    "morphVariantOf": "splenetic",
+    "memorySemantics": {"mnemonicExpr": "spleno-=脾+构词前缀→脾相关医学词", "imageChain": "脾脏→splenomegaly脾肿大"},
+    "wordLevel": {"domain": ["medical", "anatomy"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["splenomegaly", "splenetic"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["hepato-", "cardio-", "neuro-"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "splenomegaly",
+    "phonetic": "/ˌspliːnəʊ'megəli/",
+    "pos": "n",
+    "coreMeaning": {"cn": "脾肿大", "en": "abnormal enlargement of the spleen"},
+    "morphemes": [
+      {"form": "spleno", "role": "root", "canonical": "splen", "meaning": "脾脏", "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}},
+      {"form": "megaly", "role": "root", "canonical": "megas", "meaning": "巨大，肿大", "positionTendency": "final", "sentiment": {"tags": ["消极"], "intensity": 1}}
+    ],
+    "derivationChain": {"steps": [{"from": "spleno(脾)+megaly(肿大)", "to": "splenomegaly", "by": "医学复合术语"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "spleno(脾)+megaly(大)→ 脾脏异常增大→splenomegaly", "imageChain": "脾脏肿大→超声发现→splenomegaly"},
+    "wordLevel": {"domain": ["medical"], "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["spleno-", "splenetic"], "sameAffix": ["hepatomegaly", "cardiomegaly"], "synonyms": ["enlarged spleen"], "antonyms": [], "domainCohort": ["hepatomegaly", "lymphadenopathy"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "splenomeglia",
+    "phonetic": "/ˌspliːnəʊ'megliə/",
+    "pos": "n",
+    "coreMeaning": {"cn": "脾大（splenomegaly的变体形式）", "en": "variant/misspelling of splenomegaly; enlarged spleen"},
+    "morphemes": [
+      {"form": "spleno", "role": "root", "canonical": "splen", "meaning": "脾脏", "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}},
+      {"form": "meglia", "role": "root", "canonical": "megas", "meaning": "大，肿大（变体）", "positionTendency": "final", "sentiment": {"tags": ["消极"], "intensity": 1}}
+    ],
+    "derivationChain": {"steps": [{"from": "splenomegaly", "to": "splenomeglia", "by": "拼写变体"}]},
+    "morphVariantOf": "splenomegaly",
+    "memorySemantics": {"mnemonicExpr": "splenomegaly的变体形式→脾大", "imageChain": "脾脏肿大"},
+    "wordLevel": {"domain": ["medical"], "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["splenomegaly", "spleno-"], "sameAffix": [], "synonyms": ["splenomegaly"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["splenomegaly"], "sameImagery": []}
   },
   {
     "word": "splice",
     "phonetic": "/splaɪs/",
-    "pos": [
-      "v.",
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "拼接；接合；剪接",
-      "en": "to join two pieces by interweaving or connecting; a joint made by splicing"
-    },
+    "pos": "v",
+    "coreMeaning": {"cn": "接合；拼接；剪接", "en": "to join two pieces of rope, film, wire, etc. by interweaving or overlapping"},
     "morphemes": [
-      {
-        "canonical": "splice",
-        "role": "root",
-        "meaning": "拼接；接合",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "splice",
-        "positionTendency": "initial"
-      }
+      {"form": "splice", "role": "root", "canonical": "splice", "meaning": "接合，拼接", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}}
     ],
-    "derivationChain": [
-      "splice",
-      "splicer",
-      "spliceosome"
+    "derivationChain": {"steps": [{"from": "中荷兰语 splissen (接绳)", "to": "splice", "by": "借入英语，源于航海术语"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "splice→s(pl)ice→将两段拧接在一起", "imageChain": "绳子两端编结在一起→splice/DNA剪接→splice"},
+    "wordLevel": {"domain": ["nautical", "film", "biology", "gre"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["spliced", "splicer", "splicing", "spliceosome"], "sameAffix": [], "synonyms": ["join", "connect", "bind", "graft"], "antonyms": ["separate", "cut", "divide"], "domainCohort": ["graft", "bond", "join", "edit"], "derivationPair": ["splicing", "spliceosome"], "morphVariants": [], "sameImagery": ["joining", "connecting"]}
+  },
+  {
+    "word": "spliced",
+    "phonetic": "/splaɪst/",
+    "pos": "v",
+    "coreMeaning": {"cn": "已接合；已拼接", "en": "past tense of splice; joined or edited together"},
+    "morphemes": [
+      {"form": "splic", "role": "root", "canonical": "splice", "meaning": "接合，拼接", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-ed", "role": "suffix", "canonical": "-ed", "meaning": "过去式", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
     ],
-    "memorySemantics": {
-      "imageKey": "绳索编织接头",
-      "scene": "水手将两段绳索末端编织在一起，形成牢固的接合点",
-      "emotionalHook": "精细手工技艺的专注感",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "tech",
-        "biology"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "spliceosome"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "join",
-        "connect",
-        "graft",
-        "bind"
-      ],
-      "antonyms": [
-        "cut",
-        "sever",
-        "separate"
-      ],
-      "domainCohort": [
-        "join",
-        "connect",
-        "edit"
-      ],
-      "derivationPair": [
-        "spliceosome"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "join",
-        "weave"
-      ]
-    }
+    "derivationChain": {"steps": [{"from": "splice", "to": "spliced", "by": "加-d过去式"}]},
+    "morphVariantOf": "splice",
+    "memorySemantics": {"mnemonicExpr": "splice+d → 已经接合了", "imageChain": "胶片剪接完成→spliced"},
+    "wordLevel": {"domain": ["film", "general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["splice", "splicing", "splicer"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["splice"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "splicen",
+    "phonetic": "/splaɪs/",
+    "pos": "n",
+    "coreMeaning": {"cn": "接合处；拼接点（名词标注变体）", "en": "variant entry marking for noun use of splice: a joint made by splicing"},
+    "morphemes": [
+      {"form": "splice", "role": "root", "canonical": "splice", "meaning": "接合，拼接", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "splice", "to": "splicen", "by": "词库名词标注变体"}]},
+    "morphVariantOf": "splice",
+    "memorySemantics": {"mnemonicExpr": "splice名词形式→接合处", "imageChain": "绳子接头处→the splice"},
+    "wordLevel": {"domain": ["nautical", "tech"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["splice", "spliced", "splicing"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["splice"], "sameImagery": []}
+  },
+  {
+    "word": "spliceosome",
+    "phonetic": "/sp'laɪʃeɪəʊsəʊm/",
+    "pos": "n",
+    "coreMeaning": {"cn": "剪接体（分子生物学）", "en": "a large molecular complex in the cell nucleus that removes introns from pre-mRNA"},
+    "morphemes": [
+      {"form": "splic", "role": "root", "canonical": "splice", "meaning": "剪接", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-eo-", "role": "linker", "canonical": "-eo-", "meaning": "连接成分", "positionTendency": "medial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "some", "role": "root", "canonical": "soma", "meaning": "体，复合体", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "splice(剪接)+some(体)", "to": "spliceosome", "by": "分子生物学术语"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "splice(剪接)+some(体)→ 负责RNA剪接的体→spliceosome", "imageChain": "mRNA前体→剪接体→去内含子→成熟mRNA"},
+    "wordLevel": {"domain": ["molecular biology", "medical"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["splice", "soma"], "sameAffix": ["ribosome", "lysosome", "chromosome"], "synonyms": [], "antonyms": [], "domainCohort": ["ribosome", "proteasome"], "derivationPair": ["splice"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "splicer",
+    "phonetic": "/'splaɪsɚ/",
+    "pos": "n",
+    "coreMeaning": {"cn": "拼接者；剪接器", "en": "a person or machine that splices; a device for joining film or tape"},
+    "morphemes": [
+      {"form": "splic", "role": "root", "canonical": "splice", "meaning": "接合，拼接", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-er", "role": "suffix", "canonical": "-er", "meaning": "执行者/工具", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "splice", "to": "splicer", "by": "加-r构成人称/工具名词"}]},
+    "morphVariantOf": "splice",
+    "memorySemantics": {"mnemonicExpr": "splice+r → 进行拼接的工具/人→splicer", "imageChain": "电影剪辑师→splicer"},
+    "wordLevel": {"domain": ["film", "tech"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["splice", "spliced", "splicing"], "sameAffix": ["editor", "cutter"], "synonyms": ["joiner", "editor"], "antonyms": [], "domainCohort": [], "derivationPair": ["splice"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "splicers",
+    "phonetic": "/'splaɪsɚz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "拼接者们；剪接器（复数）", "en": "plural of splicer"},
+    "morphemes": [
+      {"form": "splicer", "role": "root", "canonical": "splice", "meaning": "拼接工具/人", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "splicer", "to": "splicers", "by": "加复数词尾-s"}]},
+    "morphVariantOf": "splice",
+    "memorySemantics": {"mnemonicExpr": "splicer复数→多个剪接器", "imageChain": "剪辑室里的多台设备→splicers"},
+    "wordLevel": {"domain": ["film", "tech"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["splicer", "splice"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["splicer"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "splices",
+    "phonetic": "/splaɪsɪz/",
+    "pos": "v",
+    "coreMeaning": {"cn": "（他/她）拼接；接合（三单）", "en": "third person singular present of splice"},
+    "morphemes": [
+      {"form": "splic", "role": "root", "canonical": "splice", "meaning": "接合，拼接", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-es", "role": "suffix", "canonical": "-es", "meaning": "第三人称单数", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "splice", "to": "splices", "by": "加-es三单"}]},
+    "morphVariantOf": "splice",
+    "memorySemantics": {"mnemonicExpr": "splice三单形式", "imageChain": "她splices胶片剪辑"},
+    "wordLevel": {"domain": ["film", "general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["splice", "spliced", "splicing"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "splicev",
+    "phonetic": "/splaɪs/",
+    "pos": "v",
+    "coreMeaning": {"cn": "拼接（动词标注变体）", "en": "variant entry marking for verbal use of splice"},
+    "morphemes": [
+      {"form": "splice", "role": "root", "canonical": "splice", "meaning": "接合，拼接", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "splice", "to": "splicev", "by": "词库动词标注变体"}]},
+    "morphVariantOf": "splice",
+    "memorySemantics": {"mnemonicExpr": "splice动词形式标注", "imageChain": "拼接"},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["splice"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["splice"], "sameImagery": []}
+  },
+  {
+    "word": "splicing",
+    "phonetic": "/'splaɪsɪŋ/",
+    "pos": "v",
+    "coreMeaning": {"cn": "正在拼接；剪接", "en": "present participle of splice; joining by splicing"},
+    "morphemes": [
+      {"form": "splic", "role": "root", "canonical": "splice", "meaning": "接合，拼接", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-ing", "role": "suffix", "canonical": "-ing", "meaning": "现在分词", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "splice", "to": "splicing", "by": "加-ing现在分词"}]},
+    "morphVariantOf": "splice",
+    "memorySemantics": {"mnemonicExpr": "splice+ing → 正在拼接", "imageChain": "DNA splicing→基因剪接"},
+    "wordLevel": {"domain": ["biology", "film"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["splice", "spliceosome"], "sameAffix": [], "synonyms": ["joining", "connecting"], "antonyms": ["cutting", "separating"], "domainCohort": [], "derivationPair": ["splice"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "spline",
+    "phonetic": "/splaɪn/",
+    "pos": "n",
+    "coreMeaning": {"cn": "样条（数学/工程）；键槽", "en": "a flexible strip used as a guide in drawing curves; a groove for a key"},
+    "morphemes": [
+      {"form": "spline", "role": "root", "canonical": "spline", "meaning": "细长条，样条", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "低地德语 spline/splinter(薄片)", "to": "spline", "by": "借入英语，发展为数学/工程术语"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "spline→细长薄片→数学曲线工具→样条曲线", "imageChain": "弯曲的尺子→样条曲线→spline函数"},
+    "wordLevel": {"domain": ["math", "engineering", "CAD"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["splinter"], "sameAffix": [], "synonyms": ["curve", "strip", "groove"], "antonyms": [], "domainCohort": ["curve", "bezier", "polynomial"], "derivationPair": [], "morphVariants": [], "sameImagery": ["flexible curve"]}
+  },
+  {
+    "word": "splint",
+    "phonetic": "/splɪnt/",
+    "pos": "n",
+    "coreMeaning": {"cn": "夹板；薄木片", "en": "a rigid or flexible appliance for immobilizing an injured body part"},
+    "morphemes": [
+      {"form": "splint", "role": "root", "canonical": "splint", "meaning": "薄片，夹板", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "中低地德语 splinte (薄板条)", "to": "splint", "by": "借入英语"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "splint→薄片→夹板固定断骨→splint", "imageChain": "骨折→用夹板固定→splint"},
+    "wordLevel": {"domain": ["medical", "ielts"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["splinter", "splinted", "splints"], "sameAffix": [], "synonyms": ["brace", "support", "cast"], "antonyms": [], "domainCohort": ["cast", "brace", "bandage"], "derivationPair": ["splinter"], "morphVariants": ["splinter"], "sameImagery": ["support", "immobilization"]}
+  },
+  {
+    "word": "splinted",
+    "phonetic": "/'splɪntɪd/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "用夹板固定的", "en": "immobilized with a splint"},
+    "morphemes": [
+      {"form": "splint", "role": "root", "canonical": "splint", "meaning": "夹板", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-ed", "role": "suffix", "canonical": "-ed", "meaning": "形容词化", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "splint", "to": "splinted", "by": "加-ed构成形容词"}]},
+    "morphVariantOf": "splint",
+    "memorySemantics": {"mnemonicExpr": "splint+ed → 已经用夹板固定了的", "imageChain": "骨折的手臂→用夹板固定→splinted arm"},
+    "wordLevel": {"domain": ["medical", "finance"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["splint", "splinting"], "sameAffix": [], "synonyms": ["immobilized", "braced"], "antonyms": [], "domainCohort": [], "derivationPair": ["splint"], "morphVariants": [], "sameImagery": []}
   },
   {
     "word": "splinter",
     "phonetic": "/'splɪntɚ/",
-    "pos": [
-      "n.",
-      "v."
-    ],
-    "coreMeaning": {
-      "cn": "碎片；尖片；分裂成碎片",
-      "en": "a small sharp piece broken off from wood or glass; to break into small sharp fragments"
-    },
+    "pos": "n",
+    "coreMeaning": {"cn": "碎片；尖片；分裂派系", "en": "a thin sharp piece of wood, glass, etc. broken off; a breakaway faction"},
     "morphemes": [
-      {
-        "canonical": "splint",
-        "role": "root",
-        "meaning": "碎裂；薄片",
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": -1
-        },
-        "order": 1,
-        "form": "splint",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-er",
-        "role": "suffix",
-        "meaning": "结果物（名词后缀）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "er",
-        "positionTendency": "final"
-      }
+      {"form": "splint", "role": "root", "canonical": "splint", "meaning": "薄片，分裂", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-er", "role": "suffix", "canonical": "-er", "meaning": "小物件/增强词缀", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
     ],
-    "derivationChain": [
-      "splint",
-      "splinter"
+    "derivationChain": {"steps": [{"from": "splint(薄板)", "to": "splinter", "by": "加-er，更小的薄片"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "splint(薄板)+er → 更小的薄片→破碎后的碎片→splinter", "imageChain": "木头碎裂→尖锐碎片→splinter group分裂派"},
+    "wordLevel": {"domain": ["general", "gmat"], "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["splint", "splintered", "splintering"], "sameAffix": [], "synonyms": ["shard", "fragment", "chip", "sliver"], "antonyms": [], "domainCohort": ["shard", "fragment", "sliver", "chip"], "derivationPair": ["splintering"], "morphVariants": ["splint"], "sameImagery": ["breaking", "fragmentation"]}
+  },
+  {
+    "word": "splintered",
+    "phonetic": "/'splɪntɚd/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "碎裂的；分裂的", "en": "broken into splinters; fragmented"},
+    "morphemes": [
+      {"form": "splinter", "role": "root", "canonical": "splint", "meaning": "碎片，分裂", "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}},
+      {"form": "-ed", "role": "suffix", "canonical": "-ed", "meaning": "形容词化", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
     ],
-    "memorySemantics": {
-      "imageKey": "木头破裂的碎刺",
-      "scene": "枯树被大风折断，碎木片四散，木刺扎进皮肤",
-      "emotionalHook": "破碎与伤痛的刺感",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": -1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "splint"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "sliver",
-        "shard",
-        "fragment",
-        "chip"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "fragment",
-        "shard",
-        "fracture"
-      ],
-      "derivationPair": [
-        "splint"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "shard",
-        "fragment"
-      ]
-    }
+    "derivationChain": {"steps": [{"from": "splinter", "to": "splintered", "by": "加-ed构成形容词"}]},
+    "morphVariantOf": "splinter",
+    "memorySemantics": {"mnemonicExpr": "splinter+ed → 碎裂成片的", "imageChain": "破碎的木头→splintered wood"},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["splinter", "splintering"], "sameAffix": [], "synonyms": ["shattered", "fragmented", "fractured"], "antonyms": ["whole", "intact"], "domainCohort": [], "derivationPair": ["splinter"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "splintering",
+    "phonetic": "/'splɪntərɪŋ/",
+    "pos": "v",
+    "coreMeaning": {"cn": "正在碎裂；正在分裂（分词）", "en": "present participle of splinter; breaking or causing to break into splinters"},
+    "morphemes": [
+      {"form": "splinter", "role": "root", "canonical": "splint", "meaning": "碎片，分裂", "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}},
+      {"form": "-ing", "role": "suffix", "canonical": "-ing", "meaning": "现在分词", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "splinter", "to": "splintering", "by": "加-ing现在分词"}]},
+    "morphVariantOf": "splinter",
+    "memorySemantics": {"mnemonicExpr": "splinter+ing → 正在分裂的→splintering coalition联盟分裂", "imageChain": "政党正在分裂→splintering coalition"},
+    "wordLevel": {"domain": ["general", "politics"], "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["splinter", "splintered"], "sameAffix": [], "synonyms": ["fragmenting", "fracturing", "breaking"], "antonyms": ["unifying", "joining"], "domainCohort": [], "derivationPair": ["splinter"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "splintern",
+    "phonetic": "/'splɪntɚ/",
+    "pos": "n",
+    "coreMeaning": {"cn": "碎片（名词标注变体）", "en": "variant entry marking for noun use of splinter"},
+    "morphemes": [
+      {"form": "splinter", "role": "root", "canonical": "splint", "meaning": "碎片", "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}}
+    ],
+    "derivationChain": {"steps": [{"from": "splinter", "to": "splintern", "by": "词库名词标注变体"}]},
+    "morphVariantOf": "splinter",
+    "memorySemantics": {"mnemonicExpr": "splinter名词标注形式", "imageChain": "木头碎片"},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["splinter", "splint"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["splinter"], "sameImagery": []}
+  },
+  {
+    "word": "splinters",
+    "phonetic": "/'splɪntɚz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "碎片们（复数）", "en": "plural of splinter"},
+    "morphemes": [
+      {"form": "splinter", "role": "root", "canonical": "splint", "meaning": "碎片", "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}},
+      {"form": "-s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "splinter", "to": "splinters", "by": "加复数词尾-s"}]},
+    "morphVariantOf": "splinter",
+    "memorySemantics": {"mnemonicExpr": "splinter复数→多个碎片", "imageChain": "木板破碎→一堆碎片→splinters"},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["splinter", "splint"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["splinter"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "splinterv",
+    "phonetic": "/'splɪntɚ/",
+    "pos": "v",
+    "coreMeaning": {"cn": "碎裂；分裂（动词标注变体）", "en": "variant entry marking for verbal use of splinter"},
+    "morphemes": [
+      {"form": "splinter", "role": "root", "canonical": "splint", "meaning": "碎裂，分裂", "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}}
+    ],
+    "derivationChain": {"steps": [{"from": "splinter", "to": "splinterv", "by": "词库动词标注变体"}]},
+    "morphVariantOf": "splinter",
+    "memorySemantics": {"mnemonicExpr": "splinter动词标注形式", "imageChain": "分裂→splinter"},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["splinter", "splintered"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["splinter"], "sameImagery": []}
+  },
+  {
+    "word": "splintery",
+    "phonetic": "/'splɪntəri/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "多碎片的；容易碎裂的", "en": "full of or resembling splinters; liable to splinter"},
+    "morphemes": [
+      {"form": "splinter", "role": "root", "canonical": "splint", "meaning": "碎片", "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}},
+      {"form": "-y", "role": "suffix", "canonical": "-y", "meaning": "形容词化", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "splinter", "to": "splintery", "by": "加-y构成形容词"}]},
+    "morphVariantOf": "splinter",
+    "memorySemantics": {"mnemonicExpr": "splinter+y → 充满碎片的→splintery wood容易碎裂的木头", "imageChain": "劣质木材→splintery texture"},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["splinter", "splintered"], "sameAffix": [], "synonyms": ["jagged", "fragile", "brittle"], "antonyms": ["smooth", "solid"], "domainCohort": [], "derivationPair": ["splinter"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "splinting",
+    "phonetic": "/'splɪntɪŋ/",
+    "pos": "v",
+    "coreMeaning": {"cn": "正在用夹板固定", "en": "present participle of splint; applying a splint"},
+    "morphemes": [
+      {"form": "splint", "role": "root", "canonical": "splint", "meaning": "夹板，固定", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-ing", "role": "suffix", "canonical": "-ing", "meaning": "现在分词", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "splint", "to": "splinting", "by": "加-ing现在分词"}]},
+    "morphVariantOf": "splint",
+    "memorySemantics": {"mnemonicExpr": "splint+ing → 正在用夹板固定", "imageChain": "医护人员固定骨折→splinting"},
+    "wordLevel": {"domain": ["medical"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["splint", "splinted"], "sameAffix": [], "synonyms": ["bracing", "immobilizing"], "antonyms": [], "domainCohort": [], "derivationPair": ["splint"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "splints",
+    "phonetic": "/splɪnts/",
+    "pos": "n",
+    "coreMeaning": {"cn": "夹板（复数）", "en": "plural of splint"},
+    "morphemes": [
+      {"form": "splint", "role": "root", "canonical": "splint", "meaning": "夹板，薄板", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "splint", "to": "splints", "by": "加复数词尾-s"}]},
+    "morphVariantOf": "splint",
+    "memorySemantics": {"mnemonicExpr": "splint复数→多块夹板", "imageChain": "医疗箱里的夹板→splints"},
+    "wordLevel": {"domain": ["medical"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["splint", "splinted", "splinting"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["splint"], "morphVariants": [], "sameImagery": []}
   },
   {
     "word": "split",
     "phonetic": "/splɪt/",
-    "pos": [
-      "v.",
-      "n.",
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "分裂；劈开；分离",
-      "en": "to break or cause to break into parts; a separation"
-    },
+    "pos": "v",
+    "coreMeaning": {"cn": "分开；劈裂；分裂", "en": "to break or cause to break forcibly into parts; to divide"},
     "morphemes": [
-      {
-        "canonical": "split",
-        "role": "root",
-        "meaning": "分裂；劈开",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "split",
-        "positionTendency": "initial"
-      }
+      {"form": "split", "role": "root", "canonical": "split", "meaning": "劈开，分裂", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}}
     ],
-    "derivationChain": [
-      "split",
-      "splitting",
-      "splitter"
+    "derivationChain": {"steps": [{"from": "中荷兰语 splitten/splyten (分裂)", "to": "split", "by": "借入英语"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "split→劈柴的声音→split wood", "imageChain": "斧头劈木→split/banana split香蕉船"},
+    "wordLevel": {"domain": ["general", "ielts", "gre", "toefl", "cet4", "npee", "gmat"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["splits", "splitter", "splitting", "split-level"], "sameAffix": [], "synonyms": ["divide", "cleave", "separate", "crack"], "antonyms": ["join", "merge", "unite", "combine"], "domainCohort": ["divide", "cleave", "sever", "fracture"], "derivationPair": ["splitting", "splitter"], "morphVariants": [], "sameImagery": ["cleaving", "dividing"]}
+  },
+  {
+    "word": "split-level",
+    "phonetic": "/'splɪtlevəl/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "错层式的（建筑）；分层的", "en": "having floors at different levels; characterized by staggered levels"},
+    "morphemes": [
+      {"form": "split", "role": "root", "canonical": "split", "meaning": "分离，分开", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "level", "role": "root", "canonical": "level", "meaning": "层，水平", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
     ],
-    "memorySemantics": {
-      "imageKey": "斧头劈木头",
-      "scene": "一斧下去，木头从中间整齐裂开，干净利落",
-      "emotionalHook": "分裂带来的果断与清晰",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "splinter"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "divide",
-        "cleave",
-        "separate",
-        "crack"
-      ],
-      "antonyms": [
-        "unite",
-        "merge",
-        "combine"
-      ],
-      "domainCohort": [
-        "divide",
-        "fracture",
-        "partition"
-      ],
-      "derivationPair": [
-        "splitter"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "cleave",
-        "divide"
-      ]
-    }
+    "derivationChain": {"steps": [{"from": "split + level", "to": "split-level", "by": "复合形容词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "split(分)+level(层)→ 分成不同高度的层→split-level house", "imageChain": "错层式房屋→半层楼梯→split-level"},
+    "wordLevel": {"domain": ["architecture", "real estate"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["split"], "sameAffix": [], "synonyms": ["multi-level", "staggered"], "antonyms": ["single-level"], "domainCohort": ["ranch style", "colonial"], "derivationPair": ["split"], "morphVariants": [], "sameImagery": ["layers", "levels"]}
+  },
+  {
+    "word": "split-second",
+    "phonetic": "/'splɪt'sekənd/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "千钧一发的；极短瞬间的", "en": "done in a very short time; of a fraction of a second"},
+    "morphemes": [
+      {"form": "split", "role": "root", "canonical": "split", "meaning": "分裂，细分", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "second", "role": "root", "canonical": "second", "meaning": "秒", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "split + second (秒的细分)", "to": "split-second", "by": "复合形容词"}]},
+    "derivationChain": {"steps": [{"from": "split + second", "to": "split-second", "by": "复合词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "split(分割)+second(秒)→ 把一秒再分割→千分之一秒的瞬间→split-second decision", "imageChain": "赛跑毫厘之差→split-second win"},
+    "wordLevel": {"domain": ["general", "sports"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["split"], "sameAffix": [], "synonyms": ["instantaneous", "lightning-fast", "instant"], "antonyms": ["leisurely", "slow"], "domainCohort": ["instant", "momentary", "fleeting"], "derivationPair": ["split"], "morphVariants": [], "sameImagery": ["speed", "moment"]}
+  },
+  {
+    "word": "splits",
+    "phonetic": "/splɪts/",
+    "pos": "v",
+    "coreMeaning": {"cn": "（他/她）分开；劈开（三单）", "en": "third person singular present of split"},
+    "morphemes": [
+      {"form": "split", "role": "root", "canonical": "split", "meaning": "劈开，分裂", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-s", "role": "suffix", "canonical": "-s", "meaning": "第三人称单数", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "split", "to": "splits", "by": "加三单词尾-s"}]},
+    "morphVariantOf": "split",
+    "memorySemantics": {"mnemonicExpr": "split三单形式/名词复数(体操劈叉)", "imageChain": "体操运动员做劈叉→the splits"},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["split", "splitting"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "splitter",
+    "phonetic": "/'splɪtɚ/",
+    "pos": "n",
+    "coreMeaning": {"cn": "分割者；分裂者；分拆器", "en": "a person or thing that splits; a device that divides a signal"},
+    "morphemes": [
+      {"form": "split", "role": "root", "canonical": "split", "meaning": "劈开，分裂", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-ter", "role": "suffix", "canonical": "-er", "meaning": "执行者/工具", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "split", "to": "splitter", "by": "加-ter构成人称/工具名词"}]},
+    "morphVariantOf": "split",
+    "memorySemantics": {"mnemonicExpr": "split+ter → 进行分割的工具/人→splitter", "imageChain": "光纤分路器→signal splitter"},
+    "wordLevel": {"domain": ["tech", "general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["split", "splitting"], "sameAffix": ["cutter", "divider"], "synonyms": ["divider", "separator"], "antonyms": ["joiner", "combiner"], "domainCohort": ["divider", "separator"], "derivationPair": ["split"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "splitting",
+    "phonetic": "/'splɪtɪŋ/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "剧烈的（头痛）；正在分裂的", "en": "very severe (of a headache); dividing forcibly"},
+    "morphemes": [
+      {"form": "split", "role": "root", "canonical": "split", "meaning": "劈开，分裂", "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}},
+      {"form": "-ting", "role": "suffix", "canonical": "-ing", "meaning": "形容词/分词", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "split", "to": "splitting", "by": "加-ting构成形容词/分词"}]},
+    "morphVariantOf": "split",
+    "memorySemantics": {"mnemonicExpr": "splitting headache→头痛欲裂→感觉头要裂开", "imageChain": "剧烈头痛→splitting headache"},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["split", "splitter"], "sameAffix": [], "synonyms": ["severe", "intense", "throbbing"], "antonyms": ["mild", "slight"], "domainCohort": ["throbbing", "pounding"], "derivationPair": ["split"], "morphVariants": [], "sameImagery": ["pain", "splitting"]}
+  },
+  {
+    "word": "splodge",
+    "phonetic": "/splɒdʒ/",
+    "pos": "n",
+    "coreMeaning": {"cn": "（英俚）污点；斑点", "en": "British informal: a large irregular mark or spot of colour or liquid"},
+    "morphemes": [
+      {"form": "splodge", "role": "root", "canonical": "splodge", "meaning": "污迹，斑点（英俚）", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "blotch/splotch混合词", "to": "splodge", "by": "英式俚语"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "splodge→s+plodge→污迹斑点→a splodge of paint", "imageChain": "画布上的颜料迹→splodge"},
+    "wordLevel": {"domain": ["British slang"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["splodged", "splodges", "splotch"], "sameAffix": [], "synonyms": ["blotch", "splotch", "smear", "blob"], "antonyms": [], "domainCohort": ["blotch", "blob", "smear"], "derivationPair": [], "morphVariants": ["splotch"], "sameImagery": ["stain", "spot"]}
+  },
+  {
+    "word": "splodged",
+    "phonetic": "/splɒdʒd/",
+    "pos": "v",
+    "coreMeaning": {"cn": "弄上污迹；被污染", "en": "past tense of splodge; marked with blots or spots"},
+    "morphemes": [
+      {"form": "splodg", "role": "root", "canonical": "splodge", "meaning": "污迹，弄污", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-ed", "role": "suffix", "canonical": "-ed", "meaning": "过去式", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "splodge", "to": "splodged", "by": "加-d过去式"}]},
+    "morphVariantOf": "splodge",
+    "memorySemantics": {"mnemonicExpr": "splodge+d → 被弄上污迹了", "imageChain": "衣服被墨水溅到→splodged"},
+    "wordLevel": {"domain": ["British slang"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["splodge", "splodging"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["splodge"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "splodges",
+    "phonetic": "/splɒdʒɪz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "污迹；斑点（复数）", "en": "plural of splodge"},
+    "morphemes": [
+      {"form": "splodg", "role": "root", "canonical": "splodge", "meaning": "污迹，斑点", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-es", "role": "suffix", "canonical": "-es", "meaning": "复数", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "splodge", "to": "splodges", "by": "加-es复数"}]},
+    "morphVariantOf": "splodge",
+    "memorySemantics": {"mnemonicExpr": "splodge复数→多处污迹", "imageChain": "画作上的多处污点→splodges"},
+    "wordLevel": {"domain": ["British slang"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["splodge", "splodging"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["splodge"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "splodging",
+    "phonetic": "/splɒdʒɪŋ/",
+    "pos": "v",
+    "coreMeaning": {"cn": "正在弄上污迹", "en": "present participle of splodge; making irregular blots"},
+    "morphemes": [
+      {"form": "splodg", "role": "root", "canonical": "splodge", "meaning": "污迹，弄污", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-ing", "role": "suffix", "canonical": "-ing", "meaning": "现在分词", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "splodge", "to": "splodging", "by": "加-ing现在分词"}]},
+    "morphVariantOf": "splodge",
+    "memorySemantics": {"mnemonicExpr": "splodge+ing → 正在制造污迹", "imageChain": "孩子在画布上随意涂→splodging"},
+    "wordLevel": {"domain": ["British slang"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["splodge", "splodged"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["splodge"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "splore",
+    "phonetic": "/splɔːr/",
+    "pos": "n",
+    "coreMeaning": {"cn": "（苏格兰/古）喧嚣的聚会；一通闹腾", "en": "Scottish archaic: a frolic or commotion; a noisy celebration"},
+    "morphemes": [
+      {"form": "splore", "role": "root", "canonical": "splore", "meaning": "苏格兰语：喧嚣聚会", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}}
+    ],
+    "derivationChain": {"steps": [{"from": "苏格兰盖尔语 sploir (喧嚣)", "to": "splore", "by": "苏格兰英语借入"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "splore→苏格兰语的聚会喧闹→explore(探险)谐音→到处闹腾", "imageChain": "苏格兰传统聚会→喧嚣嬉闹→splore"},
+    "wordLevel": {"domain": ["Scottish English", "archaic"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["frolic", "carousal", "revelry"], "antonyms": ["solemnity", "quiet"], "domainCohort": ["frolic", "revelry", "carousal"], "derivationPair": [], "morphVariants": [], "sameImagery": ["celebration", "noise"]}
   }
 ]
