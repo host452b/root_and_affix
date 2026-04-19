@@ -3,156 +3,792 @@
     "word": "guild",
     "phonetic": "/ɡɪld/",
     "pos": "n.",
-    "coreMeaning": {"cn": "行会；同业公会", "en": "an association of craftsmen or merchants"},
+    "coreMeaning": {
+      "cn": "行会；同业公会",
+      "en": "an association of craftsmen or merchants"
+    },
     "morphemes": [
-      {"canonical": "guild", "role": "root", "meaning": "行会", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "guild", "positionTendency": "initial", "coreMeaning": {"cn": "行会", "en": "guild"}}
+      {
+        "canonical": "guild",
+        "role": "root",
+        "meaning": "行会",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "guild",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "行会",
+          "en": "guild"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"form": "guildhall", "type": "derivation"}]},
+    "derivationChain": [
+      "guildhall"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "guild → 建立在黄金(gold)之上的行业联盟", "imageChain": ["工匠", "协会", "中世纪"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["union", "association", "trade guild"], "antonyms": [], "domainCohort": ["guildhall"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "guild → 建立在黄金(gold)之上的行业联盟",
+      "imageChain": [
+        "工匠",
+        "协会",
+        "中世纪"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "union",
+        "association",
+        "trade guild"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "guildhall"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "guile",
     "phonetic": "/ɡaɪl/",
     "pos": "n.",
-    "coreMeaning": {"cn": "狡猾；诡计；欺诈", "en": "cunning or deceitful cleverness"},
+    "coreMeaning": {
+      "cn": "狡猾；诡计；欺诈",
+      "en": "cunning or deceitful cleverness"
+    },
     "morphemes": [
-      {"canonical": "guile", "role": "root", "meaning": "诡计", "sentiment": {"tags": ["贬义"], "intensity": -2}, "order": 1, "form": "guile", "positionTendency": "initial", "coreMeaning": {"cn": "诡计", "en": "guile"}}
+      {
+        "canonical": "guile",
+        "role": "root",
+        "meaning": "诡计",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -2
+        },
+        "order": 1,
+        "form": "guile",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "诡计",
+          "en": "guile"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"form": "guileful", "type": "derivation"}, {"form": "guileless", "type": "derivation"}]},
+    "derivationChain": [
+      "guileful",
+      "guileless"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "guile → wile（诡计）→ 狡诈的手段", "imageChain": ["狡猾", "欺骗", "计谋"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["贬义"], "intensity": -2}},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["cunning", "deceit", "trickery"], "antonyms": ["guilelessness", "candor", "naivety"], "domainCohort": [], "derivationPair": ["guileful", "guileless"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "guile → wile（诡计）→ 狡诈的手段",
+      "imageChain": [
+        "狡猾",
+        "欺骗",
+        "计谋"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -2
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "cunning",
+        "deceit",
+        "trickery"
+      ],
+      "antonyms": [
+        "guilelessness",
+        "candor",
+        "naivety"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "guileful",
+        "guileless"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "guileless",
     "phonetic": "/'ɡaɪllɪs/",
     "pos": "adj.",
-    "coreMeaning": {"cn": "诚实的；不狡猾的", "en": "devoid of guile; innocent"},
+    "coreMeaning": {
+      "cn": "诚实的；不狡猾的",
+      "en": "devoid of guile; innocent"
+    },
     "morphemes": [
-      {"canonical": "guile", "role": "root", "meaning": "诡计", "sentiment": {"tags": ["贬义"], "intensity": -2}, "order": 1, "form": "guile", "positionTendency": "initial", "coreMeaning": {"cn": "诡计", "en": "guile"}},
-      {"canonical": "-less", "role": "suffix", "meaning": "无…的", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "less", "positionTendency": "final", "coreMeaning": {"cn": "无", "en": "without"}}
+      {
+        "canonical": "guile",
+        "role": "root",
+        "meaning": "诡计",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -2
+        },
+        "order": 1,
+        "form": "guile",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "诡计",
+          "en": "guile"
+        }
+      },
+      {
+        "canonical": "-less",
+        "role": "suffix",
+        "meaning": "无…的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "less",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "无",
+          "en": "without"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"form": "guile", "type": "base"}, {"form": "guileless", "type": "derivation"}, {"form": "guilelessly", "type": "derivation"}]},
+    "derivationChain": [
+      "guile",
+      "guileless",
+      "guilelessly"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "guile（诡计）+less（无）→ 没有诡计的 → 诚实的", "imageChain": ["纯真", "诚实", "无辜"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["褒义"], "intensity": 2}},
-    "relations": {"sameRoot": ["guile", "guileful"], "sameAffix": [], "synonyms": ["ingenuous", "naive", "candid"], "antonyms": ["guileful", "cunning", "devious"], "domainCohort": [], "derivationPair": ["guile"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "guile（诡计）+less（无）→ 没有诡计的 → 诚实的",
+      "imageChain": [
+        "纯真",
+        "诚实",
+        "无辜"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "褒义"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "guile",
+        "guileful"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "ingenuous",
+        "naive",
+        "candid"
+      ],
+      "antonyms": [
+        "guileful",
+        "cunning",
+        "devious"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "guile"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "guillotine",
     "phonetic": "/'ɡɪlətiːn/",
     "pos": "n./vt.",
-    "coreMeaning": {"cn": "断头台；铡刀式切纸机", "en": "a device for beheading"},
+    "coreMeaning": {
+      "cn": "断头台；铡刀式切纸机",
+      "en": "a device for beheading"
+    },
     "morphemes": [
-      {"canonical": "guillotine", "role": "root", "meaning": "断头台", "sentiment": {"tags": ["消极"], "intensity": -3}, "order": 1, "form": "guillotine", "positionTendency": "medial", "coreMeaning": {"cn": "断头台", "en": "guillotine"}}
+      {
+        "canonical": "guillotine",
+        "role": "root",
+        "meaning": "断头台",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -3
+        },
+        "order": 1,
+        "form": "guillotine",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "断头台",
+          "en": "guillotine"
+        }
+      }
     ],
-    "derivationChain": {"steps": []},
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "Guillotin（医生名）→ 发明此刑具者 → 断头台", "imageChain": ["法国大革命", "铡刀", "处决"]},
-    "wordLevel": {"domain": ["legal", "general"], "sentiment": {"tags": ["消极"], "intensity": -3}},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "Guillotin（医生名）→ 发明此刑具者 → 断头台",
+      "imageChain": [
+        "法国大革命",
+        "铡刀",
+        "处决"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "legal",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -3
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "guilt",
     "phonetic": "/ɡɪlt/",
     "pos": "n.",
-    "coreMeaning": {"cn": "犯罪；过失；内疚", "en": "responsibility for a wrongdoing; remorse"},
+    "coreMeaning": {
+      "cn": "犯罪；过失；内疚",
+      "en": "responsibility for a wrongdoing; remorse"
+    },
     "morphemes": [
-      {"canonical": "guilt", "role": "root", "meaning": "罪；内疚", "sentiment": {"tags": ["消极"], "intensity": -2}, "order": 1, "form": "guilt", "positionTendency": "initial", "coreMeaning": {"cn": "罪", "en": "guilt"}}
+      {
+        "canonical": "guilt",
+        "role": "root",
+        "meaning": "罪；内疚",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -2
+        },
+        "order": 1,
+        "form": "guilt",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "罪",
+          "en": "guilt"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"form": "guilty", "type": "derivation"}, {"form": "guiltless", "type": "derivation"}]},
+    "derivationChain": [
+      "guilty",
+      "guiltless"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "guilt → 内心沉重的罪感", "imageChain": ["罪行", "良心", "悔恨"]},
-    "wordLevel": {"domain": ["general", "legal"], "sentiment": {"tags": ["消极"], "intensity": -2}},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["remorse", "culpability"], "antonyms": ["innocence", "guiltlessness"], "domainCohort": [], "derivationPair": ["guilty", "guiltless"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "guilt → 内心沉重的罪感",
+      "imageChain": [
+        "罪行",
+        "良心",
+        "悔恨"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "legal"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -2
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "remorse",
+        "culpability"
+      ],
+      "antonyms": [
+        "innocence",
+        "guiltlessness"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "guilty",
+        "guiltless"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "guilty",
     "phonetic": "/'ɡɪlti/",
     "pos": "adj.",
-    "coreMeaning": {"cn": "有罪的；内疚的", "en": "having committed an offense; feeling remorse"},
+    "coreMeaning": {
+      "cn": "有罪的；内疚的",
+      "en": "having committed an offense; feeling remorse"
+    },
     "morphemes": [
-      {"canonical": "guilt", "role": "root", "meaning": "罪", "sentiment": {"tags": ["消极"], "intensity": -2}, "order": 1, "form": "guilt", "positionTendency": "initial", "coreMeaning": {"cn": "罪", "en": "guilt"}},
-      {"canonical": "-y", "role": "suffix", "meaning": "形容词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "y", "positionTendency": "final", "coreMeaning": {"cn": "形容词化", "en": "adjectival suffix"}}
+      {
+        "canonical": "guilt",
+        "role": "root",
+        "meaning": "罪",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -2
+        },
+        "order": 1,
+        "form": "guilt",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "罪",
+          "en": "guilt"
+        }
+      },
+      {
+        "canonical": "-y",
+        "role": "suffix",
+        "meaning": "形容词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "y",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "形容词化",
+          "en": "adjectival suffix"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"form": "guilt", "type": "base"}, {"form": "guilty", "type": "derivation"}]},
+    "derivationChain": [
+      "guilt",
+      "guilty"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "guilt（罪）+y → 有罪的", "imageChain": ["审判", "定罪", "内疚"]},
-    "wordLevel": {"domain": ["legal", "general"], "sentiment": {"tags": ["消极"], "intensity": -2}},
-    "relations": {"sameRoot": ["guilt", "guiltless"], "sameAffix": [], "synonyms": ["culpable", "blameworthy"], "antonyms": ["innocent", "guiltless"], "domainCohort": [], "derivationPair": ["guilt"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "guilt（罪）+y → 有罪的",
+      "imageChain": [
+        "审判",
+        "定罪",
+        "内疚"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "legal",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "guilt",
+        "guiltless"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "culpable",
+        "blameworthy"
+      ],
+      "antonyms": [
+        "innocent",
+        "guiltless"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "guilt"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "guise",
     "phonetic": "/ɡaɪz/",
     "pos": "n.",
-    "coreMeaning": {"cn": "伪装；装束；外观", "en": "outward appearance; disguise"},
+    "coreMeaning": {
+      "cn": "伪装；装束；外观",
+      "en": "outward appearance; disguise"
+    },
     "morphemes": [
-      {"canonical": "guise", "role": "root", "meaning": "外表；伪装", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "guise", "positionTendency": "medial", "coreMeaning": {"cn": "外表", "en": "guise"}}
+      {
+        "canonical": "guise",
+        "role": "root",
+        "meaning": "外表；伪装",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "guise",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "外表",
+          "en": "guise"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"form": "disguise", "type": "derivation"}]},
+    "derivationChain": [
+      "disguise"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "guise → disguise（伪装）的词根 → 外表", "imageChain": ["面具", "伪装", "外衣"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["disguise", "facade", "semblance"], "antonyms": [], "domainCohort": [], "derivationPair": ["disguise"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "guise → disguise（伪装）的词根 → 外表",
+      "imageChain": [
+        "面具",
+        "伪装",
+        "外衣"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "disguise",
+        "facade",
+        "semblance"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "disguise"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "guitar",
     "phonetic": "/ɡɪ'tɑːr/",
     "pos": "n.",
-    "coreMeaning": {"cn": "吉他；六弦琴", "en": "a stringed musical instrument"},
+    "coreMeaning": {
+      "cn": "吉他；六弦琴",
+      "en": "a stringed musical instrument"
+    },
     "morphemes": [
-      {"canonical": "guitar", "role": "root", "meaning": "吉他", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "guitar", "positionTendency": "medial", "coreMeaning": {"cn": "吉他", "en": "guitar"}}
+      {
+        "canonical": "guitar",
+        "role": "root",
+        "meaning": "吉他",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "guitar",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "吉他",
+          "en": "guitar"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"form": "guitarist", "type": "derivation"}]},
+    "derivationChain": [
+      "guitarist"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "guitar → 阿拉伯语qitar → 弦乐器", "imageChain": ["弦乐", "音乐", "演奏"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["guitarist"], "derivationPair": ["guitarist"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "guitar → 阿拉伯语qitar → 弦乐器",
+      "imageChain": [
+        "弦乐",
+        "音乐",
+        "演奏"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "guitarist"
+      ],
+      "derivationPair": [
+        "guitarist"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "gula",
     "phonetic": "/'ɡjuːlə/",
     "pos": "n.",
-    "coreMeaning": {"cn": "咽喉", "en": "throat; gullet"},
+    "coreMeaning": {
+      "cn": "咽喉",
+      "en": "throat; gullet"
+    },
     "morphemes": [
-      {"canonical": "gula", "role": "root", "meaning": "咽喉", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "gula", "positionTendency": "medial", "coreMeaning": {"cn": "咽喉", "en": "throat"}}
+      {
+        "canonical": "gula",
+        "role": "root",
+        "meaning": "咽喉",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "gula",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "咽喉",
+          "en": "throat"
+        }
+      }
     ],
-    "derivationChain": {"steps": []},
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "gula → gullet（食管）同根 → 咽喉", "imageChain": ["喉咙", "吞咽", "食道"]},
-    "wordLevel": {"domain": ["medical"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["gullet", "throat"], "antonyms": [], "domainCohort": ["gulch"], "derivationPair": [], "morphVariants": ["gulae"], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "gula → gullet（食管）同根 → 咽喉",
+      "imageChain": [
+        "喉咙",
+        "吞咽",
+        "食道"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "medical"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "gullet",
+        "throat"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "gulch"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "gulae"
+      ],
+      "sameImagery": []
+    }
   },
   {
     "word": "gulch",
     "phonetic": "/ɡʌltʃ/",
     "pos": "n.",
-    "coreMeaning": {"cn": "深谷；峡谷", "en": "a narrow, rocky ravine"},
+    "coreMeaning": {
+      "cn": "深谷；峡谷",
+      "en": "a narrow, rocky ravine"
+    },
     "morphemes": [
-      {"canonical": "gulch", "role": "root", "meaning": "峡谷", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "gulch", "positionTendency": "medial", "coreMeaning": {"cn": "峡谷", "en": "gulch"}}
+      {
+        "canonical": "gulch",
+        "role": "root",
+        "meaning": "峡谷",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "gulch",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "峡谷",
+          "en": "gulch"
+        }
+      }
     ],
-    "derivationChain": {"steps": []},
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "gulch → gulp（吞咽）→ 被山脉吞下的深谷", "imageChain": ["峡谷", "岩石", "地形"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["ravine", "gorge", "canyon"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "gulch → gulp（吞咽）→ 被山脉吞下的深谷",
+      "imageChain": [
+        "峡谷",
+        "岩石",
+        "地形"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "ravine",
+        "gorge",
+        "canyon"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "guinea",
     "phonetic": "/'ɡɪni/",
     "pos": "n.",
-    "coreMeaning": {"cn": "几尼（旧英国金币）", "en": "an old British gold coin worth 21 shillings"},
+    "coreMeaning": {
+      "cn": "几尼（旧英国金币）",
+      "en": "an old British gold coin worth 21 shillings"
+    },
     "morphemes": [
-      {"canonical": "guinea", "role": "root", "meaning": "几尼（货币名）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "guinea", "positionTendency": "medial", "coreMeaning": {"cn": "货币", "en": "guinea"}}
+      {
+        "canonical": "guinea",
+        "role": "root",
+        "meaning": "几尼（货币名）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "guinea",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "货币",
+          "en": "guinea"
+        }
+      }
     ],
-    "derivationChain": {"steps": []},
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "Guinea（几内亚）→ 非洲产黄金 → 几尼金币", "imageChain": ["金币", "英国", "货币"]},
-    "wordLevel": {"domain": ["finance", "general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "Guinea（几内亚）→ 非洲产黄金 → 几尼金币",
+      "imageChain": [
+        "金币",
+        "英国",
+        "货币"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "finance",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

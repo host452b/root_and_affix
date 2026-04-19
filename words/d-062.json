@@ -2,32 +2,110 @@
   {
     "word": "dipsticks",
     "phonetic": "/ˈdɪpˌstɪks/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "量油尺（复数）", "en": "dipsticks, oil measuring rods"},
-    "morphemes": [
-      {"canonical": "dip", "role": "root", "meaning": "浸入；插入", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "dip", "positionTendency": "initial", "coreMeaning": {"cn": "浸入", "en": "dip"}},
-      {"canonical": "stick", "role": "root", "meaning": "棍；杆", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "stick", "positionTendency": "medial", "coreMeaning": {"cn": "棍子", "en": "stick"}},
-      {"canonical": "-s", "role": "suffix", "meaning": "复数", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": {"cn": "复数后缀", "en": "plural"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "dipstick", "to": "dipsticks", "operation": "+s"}]},
+    "coreMeaning": {
+      "cn": "量油尺（复数）",
+      "en": "dipsticks, oil measuring rods"
+    },
+    "morphemes": [
+      {
+        "canonical": "dip",
+        "role": "root",
+        "meaning": "浸入；插入",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "dip",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "浸入",
+          "en": "dip"
+        }
+      },
+      {
+        "canonical": "stick",
+        "role": "root",
+        "meaning": "棍；杆",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "stick",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "棍子",
+          "en": "stick"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "meaning": "复数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "s",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数后缀",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "dipsticks"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "浸入(dip)+棍(stick)+复数 = 量油尺",
-      "imageChain": ["插入油箱", "量出油位", "检查刻度"],
+      "imageChain": [
+        "插入油箱",
+        "量出油位",
+        "检查刻度"
+      ],
       "mnemonicExpr": "dip（插入）+ stick（棍）→ 量油尺"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["中性"], "intensity": 0},
-      "domain": ["general", "tech"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "tech"
+      ],
       "formality": "neutral"
     },
     "relations": {
-      "sameRoot": ["dipswitch", "dip"],
+      "sameRoot": [
+        "dipswitch",
+        "dip"
+      ],
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["gauge", "meter"],
-      "derivationPair": ["dipstick"],
+      "domainCohort": [
+        "gauge",
+        "meter"
+      ],
+      "derivationPair": [
+        "dipstick"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -35,30 +113,85 @@
   {
     "word": "dipswitch",
     "phonetic": "/ˈdɪpˌswɪtʃ/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "拨码开关", "en": "a small switch used to configure hardware"},
-    "morphemes": [
-      {"canonical": "dip", "role": "root", "meaning": "浸入；小型切换", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "dip", "positionTendency": "initial", "coreMeaning": {"cn": "小型", "en": "small"}},
-      {"canonical": "switch", "role": "root", "meaning": "开关", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "switch", "positionTendency": "final", "coreMeaning": {"cn": "开关", "en": "switch"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "拨码开关",
+      "en": "a small switch used to configure hardware"
+    },
+    "morphemes": [
+      {
+        "canonical": "dip",
+        "role": "root",
+        "meaning": "浸入；小型切换",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "dip",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "小型",
+          "en": "small"
+        }
+      },
+      {
+        "canonical": "switch",
+        "role": "root",
+        "meaning": "开关",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "switch",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "开关",
+          "en": "switch"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "dip(小型)+switch(开关) = 拨码开关",
-      "imageChain": ["电路板", "小开关", "硬件配置"],
+      "imageChain": [
+        "电路板",
+        "小开关",
+        "硬件配置"
+      ],
       "mnemonicExpr": "dip（小型）+ switch（开关）→ 拨码开关"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["中性"], "intensity": 0},
-      "domain": ["tech"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech"
+      ],
       "formality": "technical"
     },
     "relations": {
-      "sameRoot": ["dipstick"],
+      "sameRoot": [
+        "dipstick"
+      ],
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["toggle", "selector"],
+      "domainCohort": [
+        "toggle",
+        "selector"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -67,30 +200,89 @@
   {
     "word": "diptych",
     "phonetic": "/ˈdɪptɪk/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "二联画；双折画板", "en": "a painting or carving in two panels"},
-    "morphemes": [
-      {"canonical": "di-", "role": "prefix", "meaning": "二；双", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "dip", "positionTendency": "initial", "coreMeaning": {"cn": "二", "en": "two"}},
-      {"canonical": "ptych", "role": "root", "meaning": "折叠；面板（源自希腊ptyx）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "tych", "positionTendency": "final", "coreMeaning": {"cn": "折叠", "en": "fold"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "二联画；双折画板",
+      "en": "a painting or carving in two panels"
+    },
+    "morphemes": [
+      {
+        "canonical": "di-",
+        "role": "prefix",
+        "meaning": "二；双",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "dip",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "二",
+          "en": "two"
+        }
+      },
+      {
+        "canonical": "ptych",
+        "role": "root",
+        "meaning": "折叠；面板（源自希腊ptyx）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "tych",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "折叠",
+          "en": "fold"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "di(二)+ptych(折叠) = 两折艺术板",
-      "imageChain": ["两块画板", "合拢铰链", "宗教画"],
+      "imageChain": [
+        "两块画板",
+        "合拢铰链",
+        "宗教画"
+      ],
       "mnemonicExpr": "di（双）+ ptych（折叠）→ 二联画"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["中性"], "intensity": 0},
-      "domain": ["academic", "general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "academic",
+        "general"
+      ],
       "formality": "formal"
     },
     "relations": {
-      "sameRoot": ["triptych"],
-      "sameAffix": ["dilemma", "dioxide"],
+      "sameRoot": [
+        "triptych"
+      ],
+      "sameAffix": [
+        "dilemma",
+        "dioxide"
+      ],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["triptych", "panel"],
+      "domainCohort": [
+        "triptych",
+        "panel"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -99,63 +291,201 @@
   {
     "word": "dire",
     "phonetic": "/ˈdaɪər/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "可怕的；极端的", "en": "dreadful; extremely serious"},
-    "morphemes": [
-      {"canonical": "dire", "role": "root", "meaning": "可怕；严酷（源自拉丁dirus）", "sentiment": {"tags": ["消极"], "intensity": 3}, "order": 1, "form": "dire", "positionTendency": "initial", "coreMeaning": {"cn": "可怕", "en": "dreadful"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "可怕的；极端的",
+      "en": "dreadful; extremely serious"
+    },
+    "morphemes": [
+      {
+        "canonical": "dire",
+        "role": "root",
+        "meaning": "可怕；严酷（源自拉丁dirus）",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 3
+        },
+        "order": 1,
+        "form": "dire",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "可怕",
+          "en": "dreadful"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "dire = 可怕的极端情况",
-      "imageChain": ["危机四伏", "极度紧迫", "无路可走"],
+      "imageChain": [
+        "危机四伏",
+        "极度紧迫",
+        "无路可走"
+      ],
       "mnemonicExpr": "dire（=dire straits 困境）→ 可怕的"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["消极"], "intensity": 3},
-      "domain": ["general", "academic"],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 3
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
       "formality": "formal"
     },
     "relations": {
-      "sameRoot": ["direful", "direness"],
+      "sameRoot": [
+        "direful",
+        "direness"
+      ],
       "sameAffix": [],
-      "synonyms": ["dreadful", "terrible", "awful"],
-      "antonyms": ["mild", "benign"],
-      "domainCohort": ["crisis", "emergency"],
-      "derivationPair": ["direful", "direly"],
+      "synonyms": [
+        "dreadful",
+        "terrible",
+        "awful"
+      ],
+      "antonyms": [
+        "mild",
+        "benign"
+      ],
+      "domainCohort": [
+        "crisis",
+        "emergency"
+      ],
+      "derivationPair": [
+        "direful",
+        "direly"
+      ],
       "morphVariants": [],
-      "sameImagery": ["grim", "severe"]
+      "sameImagery": [
+        "grim",
+        "severe"
+      ]
     }
   },
   {
     "word": "direction",
     "phonetic": "/dəˈrɛkʃən/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "方向；指导", "en": "a course; guidance or instruction"},
-    "morphemes": [
-      {"canonical": "di-", "role": "prefix", "meaning": "分开；朝向", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "di", "positionTendency": "initial", "coreMeaning": {"cn": "朝向", "en": "toward"}},
-      {"canonical": "rect", "role": "root", "meaning": "直；引导（源自拉丁regere）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "rect", "positionTendency": "medial", "coreMeaning": {"cn": "直", "en": "straight"}},
-      {"canonical": "-ion", "role": "suffix", "meaning": "名词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ion", "positionTendency": "final", "coreMeaning": {"cn": "名词后缀", "en": "noun suffix"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "direct", "to": "direction", "operation": "+-ion"}]},
+    "coreMeaning": {
+      "cn": "方向；指导",
+      "en": "a course; guidance or instruction"
+    },
+    "morphemes": [
+      {
+        "canonical": "di-",
+        "role": "prefix",
+        "meaning": "分开；朝向",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "di",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "朝向",
+          "en": "toward"
+        }
+      },
+      {
+        "canonical": "rect",
+        "role": "root",
+        "meaning": "直；引导（源自拉丁regere）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "rect",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "直",
+          "en": "straight"
+        }
+      },
+      {
+        "canonical": "-ion",
+        "role": "suffix",
+        "meaning": "名词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ion",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "名词后缀",
+          "en": "noun suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "direction"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "di(朝向)+rect(直)+ion(名词) = 方向",
-      "imageChain": ["箭头", "路径", "目标"],
+      "imageChain": [
+        "箭头",
+        "路径",
+        "目标"
+      ],
       "mnemonicExpr": "direct（直接）+ -ion → direction（方向）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["中性"], "intensity": 0},
-      "domain": ["general", "business"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "business"
+      ],
       "formality": "neutral"
     },
     "relations": {
-      "sameRoot": ["direct", "director", "directory", "redirect"],
-      "sameAffix": ["-ion"],
-      "synonyms": ["course", "guidance"],
+      "sameRoot": [
+        "direct",
+        "director",
+        "directory",
+        "redirect"
+      ],
+      "sameAffix": [
+        "-ion"
+      ],
+      "synonyms": [
+        "course",
+        "guidance"
+      ],
       "antonyms": [],
-      "domainCohort": ["compass", "route"],
-      "derivationPair": ["direct"],
+      "domainCohort": [
+        "compass",
+        "route"
+      ],
+      "derivationPair": [
+        "direct"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -163,32 +493,115 @@
   {
     "word": "directly",
     "phonetic": "/dəˈrektli/",
-    "pos": ["adv."],
-    "coreMeaning": {"cn": "直接地；立即", "en": "in a straight manner; immediately"},
-    "morphemes": [
-      {"canonical": "di-", "role": "prefix", "meaning": "分开；朝向", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "di", "positionTendency": "initial", "coreMeaning": {"cn": "朝向", "en": "toward"}},
-      {"canonical": "rect", "role": "root", "meaning": "直", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "rect", "positionTendency": "medial", "coreMeaning": {"cn": "直", "en": "straight"}},
-      {"canonical": "-ly", "role": "suffix", "meaning": "副词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ly", "positionTendency": "final", "coreMeaning": {"cn": "副词后缀", "en": "adverb suffix"}}
+    "pos": [
+      "adv."
     ],
-    "derivationChain": {"steps": [{"from": "direct", "to": "directly", "operation": "+-ly"}]},
+    "coreMeaning": {
+      "cn": "直接地；立即",
+      "en": "in a straight manner; immediately"
+    },
+    "morphemes": [
+      {
+        "canonical": "di-",
+        "role": "prefix",
+        "meaning": "分开；朝向",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "di",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "朝向",
+          "en": "toward"
+        }
+      },
+      {
+        "canonical": "rect",
+        "role": "root",
+        "meaning": "直",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "rect",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "直",
+          "en": "straight"
+        }
+      },
+      {
+        "canonical": "-ly",
+        "role": "suffix",
+        "meaning": "副词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ly",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "副词后缀",
+          "en": "adverb suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "directly"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "direct(直接)+ly(副词) = 直接地",
-      "imageChain": ["直线", "即刻行动", "不绕弯"],
+      "imageChain": [
+        "直线",
+        "即刻行动",
+        "不绕弯"
+      ],
       "mnemonicExpr": "direct（直接）+ -ly → directly（直接地）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["中性"], "intensity": 0},
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
       "formality": "neutral"
     },
     "relations": {
-      "sameRoot": ["direct", "direction", "director"],
-      "sameAffix": ["quickly", "firmly"],
-      "synonyms": ["immediately", "straight"],
-      "antonyms": ["indirectly"],
+      "sameRoot": [
+        "direct",
+        "direction",
+        "director"
+      ],
+      "sameAffix": [
+        "quickly",
+        "firmly"
+      ],
+      "synonyms": [
+        "immediately",
+        "straight"
+      ],
+      "antonyms": [
+        "indirectly"
+      ],
       "domainCohort": [],
-      "derivationPair": ["direct"],
+      "derivationPair": [
+        "direct"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -196,32 +609,117 @@
   {
     "word": "directory",
     "phonetic": "/dəˈrɛktəri/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "名录；目录", "en": "a list of names, addresses; a file folder in computing"},
-    "morphemes": [
-      {"canonical": "di-", "role": "prefix", "meaning": "朝向", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "di", "positionTendency": "initial", "coreMeaning": {"cn": "朝向", "en": "toward"}},
-      {"canonical": "rect", "role": "root", "meaning": "引导", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "rect", "positionTendency": "medial", "coreMeaning": {"cn": "引导", "en": "guide"}},
-      {"canonical": "-ory", "role": "suffix", "meaning": "与…相关的事物", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ory", "positionTendency": "final", "coreMeaning": {"cn": "名词后缀", "en": "noun suffix"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "direct", "to": "directory", "operation": "+-ory"}]},
+    "coreMeaning": {
+      "cn": "名录；目录",
+      "en": "a list of names, addresses; a file folder in computing"
+    },
+    "morphemes": [
+      {
+        "canonical": "di-",
+        "role": "prefix",
+        "meaning": "朝向",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "di",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "朝向",
+          "en": "toward"
+        }
+      },
+      {
+        "canonical": "rect",
+        "role": "root",
+        "meaning": "引导",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "rect",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "引导",
+          "en": "guide"
+        }
+      },
+      {
+        "canonical": "-ory",
+        "role": "suffix",
+        "meaning": "与…相关的事物",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ory",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "名词后缀",
+          "en": "noun suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "directory"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "direct(引导)+ory = 指引查找的名录",
-      "imageChain": ["电话簿", "文件夹", "索引"],
+      "imageChain": [
+        "电话簿",
+        "文件夹",
+        "索引"
+      ],
       "mnemonicExpr": "direct（引导）+ -ory → directory（目录）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["中性"], "intensity": 0},
-      "domain": ["general", "tech"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "tech"
+      ],
       "formality": "neutral"
     },
     "relations": {
-      "sameRoot": ["direct", "direction", "director"],
-      "sameAffix": ["dormitory", "territory"],
-      "synonyms": ["listing", "catalog"],
+      "sameRoot": [
+        "direct",
+        "direction",
+        "director"
+      ],
+      "sameAffix": [
+        "dormitory",
+        "territory"
+      ],
+      "synonyms": [
+        "listing",
+        "catalog"
+      ],
       "antonyms": [],
-      "domainCohort": ["index", "catalog"],
-      "derivationPair": ["direct"],
+      "domainCohort": [
+        "index",
+        "catalog"
+      ],
+      "derivationPair": [
+        "direct"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -229,31 +727,99 @@
   {
     "word": "direful",
     "phonetic": "/ˈdaɪərfʊl/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "可怕的；悲惨的", "en": "causing dread; terrible"},
-    "morphemes": [
-      {"canonical": "dire", "role": "root", "meaning": "可怕", "sentiment": {"tags": ["消极"], "intensity": 3}, "order": 1, "form": "dire", "positionTendency": "initial", "coreMeaning": {"cn": "可怕", "en": "dreadful"}},
-      {"canonical": "-ful", "role": "suffix", "meaning": "充满…的", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ful", "positionTendency": "final", "coreMeaning": {"cn": "充满", "en": "full of"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "dire", "to": "direful", "operation": "+-ful"}]},
+    "coreMeaning": {
+      "cn": "可怕的；悲惨的",
+      "en": "causing dread; terrible"
+    },
+    "morphemes": [
+      {
+        "canonical": "dire",
+        "role": "root",
+        "meaning": "可怕",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 3
+        },
+        "order": 1,
+        "form": "dire",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "可怕",
+          "en": "dreadful"
+        }
+      },
+      {
+        "canonical": "-ful",
+        "role": "suffix",
+        "meaning": "充满…的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ful",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "充满",
+          "en": "full of"
+        }
+      }
+    ],
+    "derivationChain": [
+      "direful"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "dire(可怕)+ful(充满) = 满是恐怖的",
-      "imageChain": ["警报", "灾难", "毛骨悚然"],
+      "imageChain": [
+        "警报",
+        "灾难",
+        "毛骨悚然"
+      ],
       "mnemonicExpr": "dire（可怕）+ -ful → direful（可怕的）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["消极"], "intensity": 3},
-      "domain": ["general", "academic"],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 3
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
       "formality": "formal"
     },
     "relations": {
-      "sameRoot": ["dire", "direfully"],
-      "sameAffix": ["dreadful", "fearful"],
-      "synonyms": ["dire", "dreadful", "terrible"],
-      "antonyms": ["pleasant", "benign"],
+      "sameRoot": [
+        "dire",
+        "direfully"
+      ],
+      "sameAffix": [
+        "dreadful",
+        "fearful"
+      ],
+      "synonyms": [
+        "dire",
+        "dreadful",
+        "terrible"
+      ],
+      "antonyms": [
+        "pleasant",
+        "benign"
+      ],
       "domainCohort": [],
-      "derivationPair": ["dire"],
+      "derivationPair": [
+        "dire"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -261,61 +827,172 @@
   {
     "word": "dirge",
     "phonetic": "/dɜːrdʒ/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "挽歌；葬礼歌曲", "en": "a lament for the dead; a mournful song"},
-    "morphemes": [
-      {"canonical": "dirge", "role": "root", "meaning": "挽歌（源自拉丁dirige，命令形式）", "sentiment": {"tags": ["消极"], "intensity": 2}, "order": 1, "form": "dirge", "positionTendency": "initial", "coreMeaning": {"cn": "挽歌", "en": "funeral song"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "挽歌；葬礼歌曲",
+      "en": "a lament for the dead; a mournful song"
+    },
+    "morphemes": [
+      {
+        "canonical": "dirge",
+        "role": "root",
+        "meaning": "挽歌（源自拉丁dirige，命令形式）",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 2
+        },
+        "order": 1,
+        "form": "dirge",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "挽歌",
+          "en": "funeral song"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "dirge = 死亡仪式中哀鸣的歌",
-      "imageChain": ["葬礼", "哀乐", "黑色礼服"],
+      "imageChain": [
+        "葬礼",
+        "哀乐",
+        "黑色礼服"
+      ],
       "mnemonicExpr": "dirge → 联想 dire（可怕）+ 哀歌 = 挽歌"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["消极"], "intensity": 2},
-      "domain": ["general", "academic"],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 2
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
       "formality": "formal"
     },
     "relations": {
       "sameRoot": [],
       "sameAffix": [],
-      "synonyms": ["elegy", "lament", "requiem"],
-      "antonyms": ["anthem", "hymn"],
-      "domainCohort": ["requiem", "elegy"],
+      "synonyms": [
+        "elegy",
+        "lament",
+        "requiem"
+      ],
+      "antonyms": [
+        "anthem",
+        "hymn"
+      ],
+      "domainCohort": [
+        "requiem",
+        "elegy"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["elegy", "lament"]
+      "sameImagery": [
+        "elegy",
+        "lament"
+      ]
     }
   },
   {
     "word": "dirigible",
     "phonetic": "/ˈdɪrɪdʒɪbəl/",
-    "pos": ["n.", "adj."],
-    "coreMeaning": {"cn": "飞艇；可操控的", "en": "an airship; capable of being steered"},
-    "morphemes": [
-      {"canonical": "dir-", "role": "root", "meaning": "引导（源自拉丁dirigere）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "diri", "positionTendency": "initial", "coreMeaning": {"cn": "引导", "en": "guide"}},
-      {"canonical": "-gible", "role": "suffix", "meaning": "能被…的", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "gible", "positionTendency": "final", "coreMeaning": {"cn": "能被", "en": "capable of"}}
+    "pos": [
+      "n.",
+      "adj."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "飞艇；可操控的",
+      "en": "an airship; capable of being steered"
+    },
+    "morphemes": [
+      {
+        "canonical": "dir-",
+        "role": "root",
+        "meaning": "引导（源自拉丁dirigere）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "diri",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "引导",
+          "en": "guide"
+        }
+      },
+      {
+        "canonical": "-gible",
+        "role": "suffix",
+        "meaning": "能被…的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "gible",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "能被",
+          "en": "capable of"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "dir(引导)+igible(可…的) = 可引导的飞行器",
-      "imageChain": ["热气球", "飞艇", "可操控飞行"],
+      "imageChain": [
+        "热气球",
+        "飞艇",
+        "可操控飞行"
+      ],
       "mnemonicExpr": "dir（引导）+ -igible → dirigible（可控飞艇）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["中性"], "intensity": 0},
-      "domain": ["academic", "tech"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "academic",
+        "tech"
+      ],
       "formality": "formal"
     },
     "relations": {
-      "sameRoot": ["direct", "direction"],
-      "sameAffix": ["tangible", "legible"],
-      "synonyms": ["airship", "zeppelin"],
+      "sameRoot": [
+        "direct",
+        "direction"
+      ],
+      "sameAffix": [
+        "tangible",
+        "legible"
+      ],
+      "synonyms": [
+        "airship",
+        "zeppelin"
+      ],
       "antonyms": [],
-      "domainCohort": ["blimp", "airship"],
+      "domainCohort": [
+        "blimp",
+        "airship"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -324,92 +1001,245 @@
   {
     "word": "dirk",
     "phonetic": "/dɜːrk/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "短剑；匕首", "en": "a long dagger, especially of the Scottish Highlands"},
-    "morphemes": [
-      {"canonical": "dirk", "role": "root", "meaning": "匕首（源自苏格兰盖尔语）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "dirk", "positionTendency": "initial", "coreMeaning": {"cn": "匕首", "en": "dagger"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "短剑；匕首",
+      "en": "a long dagger, especially of the Scottish Highlands"
+    },
+    "morphemes": [
+      {
+        "canonical": "dirk",
+        "role": "root",
+        "meaning": "匕首（源自苏格兰盖尔语）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "dirk",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "匕首",
+          "en": "dagger"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "dirk = 苏格兰高地战士的短剑",
-      "imageChain": ["苏格兰士兵", "腰间短剑", "格斗"],
+      "imageChain": [
+        "苏格兰士兵",
+        "腰间短剑",
+        "格斗"
+      ],
       "mnemonicExpr": "dirk → dark（黑暗）→ 黑暗中的匕首"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["中性"], "intensity": 0},
-      "domain": ["general", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
       "formality": "formal"
     },
     "relations": {
       "sameRoot": [],
       "sameAffix": [],
-      "synonyms": ["dagger", "stiletto"],
+      "synonyms": [
+        "dagger",
+        "stiletto"
+      ],
       "antonyms": [],
-      "domainCohort": ["blade", "sword"],
+      "domainCohort": [
+        "blade",
+        "sword"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["dagger", "blade"]
+      "sameImagery": [
+        "dagger",
+        "blade"
+      ]
     }
   },
   {
     "word": "dirt",
     "phonetic": "/dɜːrt/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "污垢；泥土；灰尘", "en": "soil, grime, or filth"},
-    "morphemes": [
-      {"canonical": "dirt", "role": "root", "meaning": "污垢；泥土（源自古诺尔斯语drit）", "sentiment": {"tags": ["贬义"], "intensity": 1}, "order": 1, "form": "dirt", "positionTendency": "initial", "coreMeaning": {"cn": "污垢", "en": "filth"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "污垢；泥土；灰尘",
+      "en": "soil, grime, or filth"
+    },
+    "morphemes": [
+      {
+        "canonical": "dirt",
+        "role": "root",
+        "meaning": "污垢；泥土（源自古诺尔斯语drit）",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "dirt",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "污垢",
+          "en": "filth"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "dirt = 地面上的泥土",
-      "imageChain": ["泥土", "尘埃", "污垢"],
+      "imageChain": [
+        "泥土",
+        "尘埃",
+        "污垢"
+      ],
       "mnemonicExpr": "dirt → 土地 → 污垢"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["贬义"], "intensity": 1},
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general"
+      ],
       "formality": "informal"
     },
     "relations": {
-      "sameRoot": ["dirty", "dirtied", "dirtier"],
+      "sameRoot": [
+        "dirty",
+        "dirtied",
+        "dirtier"
+      ],
       "sameAffix": [],
-      "synonyms": ["soil", "grime", "filth"],
-      "antonyms": ["cleanliness", "purity"],
-      "domainCohort": ["mud", "dust"],
-      "derivationPair": ["dirty"],
+      "synonyms": [
+        "soil",
+        "grime",
+        "filth"
+      ],
+      "antonyms": [
+        "cleanliness",
+        "purity"
+      ],
+      "domainCohort": [
+        "mud",
+        "dust"
+      ],
+      "derivationPair": [
+        "dirty"
+      ],
       "morphVariants": [],
-      "sameImagery": ["grime", "muck"]
+      "sameImagery": [
+        "grime",
+        "muck"
+      ]
     }
   },
   {
     "word": "dipyridamole",
     "phonetic": "/ˌdaɪpɪˈrɪdəˌmoʊl/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "双嘧达莫（药物）", "en": "a medication used to prevent blood clots"},
-    "morphemes": [
-      {"canonical": "di-", "role": "prefix", "meaning": "二；双", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "di", "positionTendency": "initial", "coreMeaning": {"cn": "双", "en": "two"}},
-      {"canonical": "pyridamole", "role": "root", "meaning": "嘧啶醇化合物", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "pyridamole", "positionTendency": "final", "coreMeaning": {"cn": "嘧啶醇", "en": "pyridamole"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "双嘧达莫（药物）",
+      "en": "a medication used to prevent blood clots"
+    },
+    "morphemes": [
+      {
+        "canonical": "di-",
+        "role": "prefix",
+        "meaning": "二；双",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "di",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "双",
+          "en": "two"
+        }
+      },
+      {
+        "canonical": "pyridamole",
+        "role": "root",
+        "meaning": "嘧啶醇化合物",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "pyridamole",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "嘧啶醇",
+          "en": "pyridamole"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "di(双)+pyridamole(嘧啶醇) = 双嘧达莫",
-      "imageChain": ["药片", "血液", "抗凝"],
+      "imageChain": [
+        "药片",
+        "血液",
+        "抗凝"
+      ],
       "mnemonicExpr": "di（双）+ pyridamole → 双嘧达莫（抗血栓药）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["中性"], "intensity": 0},
-      "domain": ["medical"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical"
+      ],
       "formality": "technical"
     },
     "relations": {
       "sameRoot": [],
-      "sameAffix": ["dioxide", "dilemma"],
-      "synonyms": ["Persantine"],
+      "sameAffix": [
+        "dioxide",
+        "dilemma"
+      ],
+      "synonyms": [
+        "Persantine"
+      ],
       "antonyms": [],
-      "domainCohort": ["aspirin", "warfarin"],
+      "domainCohort": [
+        "aspirin",
+        "warfarin"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -418,32 +1248,114 @@
   {
     "word": "directed",
     "phonetic": "/dɪˈrɛktɪd/",
-    "pos": ["adj.", "v."],
-    "coreMeaning": {"cn": "定向的；被指导的", "en": "aimed at or guided"},
-    "morphemes": [
-      {"canonical": "di-", "role": "prefix", "meaning": "分开；朝向", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "di", "positionTendency": "initial", "coreMeaning": {"cn": "朝向", "en": "toward"}},
-      {"canonical": "rect", "role": "root", "meaning": "直；引导", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "rect", "positionTendency": "medial", "coreMeaning": {"cn": "引导", "en": "guide"}},
-      {"canonical": "-ed", "role": "suffix", "meaning": "过去式/过去分词", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ed", "positionTendency": "final", "coreMeaning": {"cn": "过去分词", "en": "past participle"}}
+    "pos": [
+      "adj.",
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "direct", "to": "directed", "operation": "+-ed"}]},
+    "coreMeaning": {
+      "cn": "定向的；被指导的",
+      "en": "aimed at or guided"
+    },
+    "morphemes": [
+      {
+        "canonical": "di-",
+        "role": "prefix",
+        "meaning": "分开；朝向",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "di",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "朝向",
+          "en": "toward"
+        }
+      },
+      {
+        "canonical": "rect",
+        "role": "root",
+        "meaning": "直；引导",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "rect",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "引导",
+          "en": "guide"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "meaning": "过去式/过去分词",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ed",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "过去分词",
+          "en": "past participle"
+        }
+      }
+    ],
+    "derivationChain": [
+      "directed"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "direct(引导)+ed(完成) = 被引导的",
-      "imageChain": ["箭头", "指令", "目标明确"],
+      "imageChain": [
+        "箭头",
+        "指令",
+        "目标明确"
+      ],
       "mnemonicExpr": "direct（引导）+ -ed → directed（定向的）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["中性"], "intensity": 0},
-      "domain": ["general", "tech"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "tech"
+      ],
       "formality": "neutral"
     },
     "relations": {
-      "sameRoot": ["direct", "direction", "director"],
+      "sameRoot": [
+        "direct",
+        "direction",
+        "director"
+      ],
       "sameAffix": [],
-      "synonyms": ["guided", "targeted"],
-      "antonyms": ["undirected"],
+      "synonyms": [
+        "guided",
+        "targeted"
+      ],
+      "antonyms": [
+        "undirected"
+      ],
       "domainCohort": [],
-      "derivationPair": ["direct"],
+      "derivationPair": [
+        "direct"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -451,32 +1363,119 @@
   {
     "word": "directive",
     "phonetic": "/dɪˈrɛktɪv/",
-    "pos": ["n.", "adj."],
-    "coreMeaning": {"cn": "指令；指示性的", "en": "an official or authoritative instruction"},
-    "morphemes": [
-      {"canonical": "di-", "role": "prefix", "meaning": "朝向", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "di", "positionTendency": "initial", "coreMeaning": {"cn": "朝向", "en": "toward"}},
-      {"canonical": "rect", "role": "root", "meaning": "引导", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "rect", "positionTendency": "medial", "coreMeaning": {"cn": "引导", "en": "guide"}},
-      {"canonical": "-ive", "role": "suffix", "meaning": "具有…性质的", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ive", "positionTendency": "final", "coreMeaning": {"cn": "性质后缀", "en": "adjective suffix"}}
+    "pos": [
+      "n.",
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "direct", "to": "directive", "operation": "+-ive"}]},
+    "coreMeaning": {
+      "cn": "指令；指示性的",
+      "en": "an official or authoritative instruction"
+    },
+    "morphemes": [
+      {
+        "canonical": "di-",
+        "role": "prefix",
+        "meaning": "朝向",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "di",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "朝向",
+          "en": "toward"
+        }
+      },
+      {
+        "canonical": "rect",
+        "role": "root",
+        "meaning": "引导",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "rect",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "引导",
+          "en": "guide"
+        }
+      },
+      {
+        "canonical": "-ive",
+        "role": "suffix",
+        "meaning": "具有…性质的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ive",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "性质后缀",
+          "en": "adjective suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "directive"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "direct(引导)+ive(性质) = 指示性命令",
-      "imageChain": ["官方文件", "命令", "规定"],
+      "imageChain": [
+        "官方文件",
+        "命令",
+        "规定"
+      ],
       "mnemonicExpr": "direct（引导）+ -ive → directive（指令）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["中性"], "intensity": 0},
-      "domain": ["legal", "business"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "legal",
+        "business"
+      ],
       "formality": "formal"
     },
     "relations": {
-      "sameRoot": ["direct", "direction", "director"],
-      "sameAffix": ["productive", "active"],
-      "synonyms": ["order", "instruction", "mandate"],
+      "sameRoot": [
+        "direct",
+        "direction",
+        "director"
+      ],
+      "sameAffix": [
+        "productive",
+        "active"
+      ],
+      "synonyms": [
+        "order",
+        "instruction",
+        "mandate"
+      ],
       "antonyms": [],
-      "domainCohort": ["regulation", "decree"],
-      "derivationPair": ["direct"],
+      "domainCohort": [
+        "regulation",
+        "decree"
+      ],
+      "derivationPair": [
+        "direct"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -484,32 +1483,117 @@
   {
     "word": "directorate",
     "phonetic": "/dɪˈrɛktərɪt/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "理事会；董事会；管理机构", "en": "a board of directors; a senior government department"},
-    "morphemes": [
-      {"canonical": "di-", "role": "prefix", "meaning": "朝向", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "di", "positionTendency": "initial", "coreMeaning": {"cn": "朝向", "en": "toward"}},
-      {"canonical": "rect", "role": "root", "meaning": "引导", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "rect", "positionTendency": "medial", "coreMeaning": {"cn": "引导", "en": "guide"}},
-      {"canonical": "-ate", "role": "suffix", "meaning": "集体机构", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "orate", "positionTendency": "final", "coreMeaning": {"cn": "机构", "en": "body/institution"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "director", "to": "directorate", "operation": "+-ate"}]},
+    "coreMeaning": {
+      "cn": "理事会；董事会；管理机构",
+      "en": "a board of directors; a senior government department"
+    },
+    "morphemes": [
+      {
+        "canonical": "di-",
+        "role": "prefix",
+        "meaning": "朝向",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "di",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "朝向",
+          "en": "toward"
+        }
+      },
+      {
+        "canonical": "rect",
+        "role": "root",
+        "meaning": "引导",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "rect",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "引导",
+          "en": "guide"
+        }
+      },
+      {
+        "canonical": "-ate",
+        "role": "suffix",
+        "meaning": "集体机构",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "orate",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "机构",
+          "en": "body/institution"
+        }
+      }
+    ],
+    "derivationChain": [
+      "directorate"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "director(主管)+ate(机构) = 管理机构",
-      "imageChain": ["会议室", "董事会", "高管层"],
+      "imageChain": [
+        "会议室",
+        "董事会",
+        "高管层"
+      ],
       "mnemonicExpr": "director（主管）+ -ate → directorate（董事会）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["中性"], "intensity": 0},
-      "domain": ["business", "finance"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "business",
+        "finance"
+      ],
       "formality": "formal"
     },
     "relations": {
-      "sameRoot": ["direct", "director", "direction"],
-      "sameAffix": ["senate", "magistrate"],
-      "synonyms": ["board", "council"],
+      "sameRoot": [
+        "direct",
+        "director",
+        "direction"
+      ],
+      "sameAffix": [
+        "senate",
+        "magistrate"
+      ],
+      "synonyms": [
+        "board",
+        "council"
+      ],
       "antonyms": [],
-      "domainCohort": ["board", "committee"],
-      "derivationPair": ["director"],
+      "domainCohort": [
+        "board",
+        "committee"
+      ],
+      "derivationPair": [
+        "director"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -517,32 +1601,116 @@
   {
     "word": "directorship",
     "phonetic": "/dɪˈrɛktərʃɪp/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "董事职位；主任任期", "en": "the position or tenure of a director"},
-    "morphemes": [
-      {"canonical": "di-", "role": "prefix", "meaning": "朝向", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "di", "positionTendency": "initial", "coreMeaning": {"cn": "朝向", "en": "toward"}},
-      {"canonical": "rect", "role": "root", "meaning": "引导", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "rect", "positionTendency": "medial", "coreMeaning": {"cn": "引导", "en": "guide"}},
-      {"canonical": "-ship", "role": "suffix", "meaning": "职位；状态", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ship", "positionTendency": "final", "coreMeaning": {"cn": "职位状态", "en": "position"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "director", "to": "directorship", "operation": "+-ship"}]},
+    "coreMeaning": {
+      "cn": "董事职位；主任任期",
+      "en": "the position or tenure of a director"
+    },
+    "morphemes": [
+      {
+        "canonical": "di-",
+        "role": "prefix",
+        "meaning": "朝向",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "di",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "朝向",
+          "en": "toward"
+        }
+      },
+      {
+        "canonical": "rect",
+        "role": "root",
+        "meaning": "引导",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "rect",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "引导",
+          "en": "guide"
+        }
+      },
+      {
+        "canonical": "-ship",
+        "role": "suffix",
+        "meaning": "职位；状态",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ship",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "职位状态",
+          "en": "position"
+        }
+      }
+    ],
+    "derivationChain": [
+      "directorship"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "director(主管)+ship(职位) = 董事职位",
-      "imageChain": ["名片", "董事头衔", "职责"],
+      "imageChain": [
+        "名片",
+        "董事头衔",
+        "职责"
+      ],
       "mnemonicExpr": "director（主管）+ -ship → directorship（董事职位）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["中性"], "intensity": 0},
-      "domain": ["business"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "business"
+      ],
       "formality": "formal"
     },
     "relations": {
-      "sameRoot": ["direct", "director", "directorate"],
-      "sameAffix": ["leadership", "membership"],
-      "synonyms": ["position", "post"],
+      "sameRoot": [
+        "direct",
+        "director",
+        "directorate"
+      ],
+      "sameAffix": [
+        "leadership",
+        "membership"
+      ],
+      "synonyms": [
+        "position",
+        "post"
+      ],
       "antonyms": [],
-      "domainCohort": ["chairmanship", "presidency"],
-      "derivationPair": ["director"],
+      "domainCohort": [
+        "chairmanship",
+        "presidency"
+      ],
+      "derivationPair": [
+        "director"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -550,32 +1718,110 @@
   {
     "word": "directs",
     "phonetic": "/dɪˈrɛkts/",
-    "pos": ["v."],
-    "coreMeaning": {"cn": "指引；管理；导演", "en": "guides, manages, or supervises"},
-    "morphemes": [
-      {"canonical": "di-", "role": "prefix", "meaning": "朝向", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "di", "positionTendency": "initial", "coreMeaning": {"cn": "朝向", "en": "toward"}},
-      {"canonical": "rect", "role": "root", "meaning": "引导", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "rect", "positionTendency": "medial", "coreMeaning": {"cn": "引导", "en": "guide"}},
-      {"canonical": "-s", "role": "suffix", "meaning": "第三人称单数", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": {"cn": "三单后缀", "en": "third person singular"}}
+    "pos": [
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "direct", "to": "directs", "operation": "+-s"}]},
+    "coreMeaning": {
+      "cn": "指引；管理；导演",
+      "en": "guides, manages, or supervises"
+    },
+    "morphemes": [
+      {
+        "canonical": "di-",
+        "role": "prefix",
+        "meaning": "朝向",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "di",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "朝向",
+          "en": "toward"
+        }
+      },
+      {
+        "canonical": "rect",
+        "role": "root",
+        "meaning": "引导",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "rect",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "引导",
+          "en": "guide"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "meaning": "第三人称单数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "s",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "三单后缀",
+          "en": "third person singular"
+        }
+      }
+    ],
+    "derivationChain": [
+      "directs"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "direct(引导)+s(三单) = 他/她引导",
-      "imageChain": ["导演", "指挥棒", "路标"],
+      "imageChain": [
+        "导演",
+        "指挥棒",
+        "路标"
+      ],
       "mnemonicExpr": "direct（引导）+ -s → directs（引导/导演）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["中性"], "intensity": 0},
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
       "formality": "neutral"
     },
     "relations": {
-      "sameRoot": ["direct", "direction", "director"],
+      "sameRoot": [
+        "direct",
+        "direction",
+        "director"
+      ],
       "sameAffix": [],
-      "synonyms": ["guides", "manages"],
+      "synonyms": [
+        "guides",
+        "manages"
+      ],
       "antonyms": [],
       "domainCohort": [],
-      "derivationPair": ["direct"],
+      "derivationPair": [
+        "direct"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -583,32 +1829,115 @@
   {
     "word": "directness",
     "phonetic": "/dɪˈrɛktnɪs/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "直接性；坦率", "en": "the quality of being direct and frank"},
-    "morphemes": [
-      {"canonical": "di-", "role": "prefix", "meaning": "朝向", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "di", "positionTendency": "initial", "coreMeaning": {"cn": "朝向", "en": "toward"}},
-      {"canonical": "rect", "role": "root", "meaning": "直", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "rect", "positionTendency": "medial", "coreMeaning": {"cn": "直", "en": "straight"}},
-      {"canonical": "-ness", "role": "suffix", "meaning": "名词化：状态", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ness", "positionTendency": "final", "coreMeaning": {"cn": "状态", "en": "state"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "direct", "to": "directness", "operation": "+-ness"}]},
+    "coreMeaning": {
+      "cn": "直接性；坦率",
+      "en": "the quality of being direct and frank"
+    },
+    "morphemes": [
+      {
+        "canonical": "di-",
+        "role": "prefix",
+        "meaning": "朝向",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "di",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "朝向",
+          "en": "toward"
+        }
+      },
+      {
+        "canonical": "rect",
+        "role": "root",
+        "meaning": "直",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "rect",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "直",
+          "en": "straight"
+        }
+      },
+      {
+        "canonical": "-ness",
+        "role": "suffix",
+        "meaning": "名词化：状态",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ness",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "状态",
+          "en": "state"
+        }
+      }
+    ],
+    "derivationChain": [
+      "directness"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "direct(直接)+ness(状态) = 直接性",
-      "imageChain": ["直话直说", "坦率沟通", "无绕弯"],
+      "imageChain": [
+        "直话直说",
+        "坦率沟通",
+        "无绕弯"
+      ],
       "mnemonicExpr": "direct（直接）+ -ness → directness（直接性）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["中性"], "intensity": 0},
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
       "formality": "neutral"
     },
     "relations": {
-      "sameRoot": ["direct", "direction"],
-      "sameAffix": ["hardness", "softness"],
-      "synonyms": ["frankness", "candor"],
-      "antonyms": ["indirectness", "evasiveness"],
+      "sameRoot": [
+        "direct",
+        "direction"
+      ],
+      "sameAffix": [
+        "hardness",
+        "softness"
+      ],
+      "synonyms": [
+        "frankness",
+        "candor"
+      ],
+      "antonyms": [
+        "indirectness",
+        "evasiveness"
+      ],
       "domainCohort": [],
-      "derivationPair": ["direct"],
+      "derivationPair": [
+        "direct"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -616,93 +1945,255 @@
   {
     "word": "direr",
     "phonetic": "/ˈdaɪərər/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "更可怕的（dire的比较级）", "en": "more dreadful or extreme"},
-    "morphemes": [
-      {"canonical": "dire", "role": "root", "meaning": "可怕", "sentiment": {"tags": ["消极"], "intensity": 3}, "order": 1, "form": "dire", "positionTendency": "initial", "coreMeaning": {"cn": "可怕", "en": "dreadful"}},
-      {"canonical": "-er", "role": "suffix", "meaning": "比较级", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "r", "positionTendency": "final", "coreMeaning": {"cn": "比较级", "en": "comparative"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "dire", "to": "direr", "operation": "+-r"}]},
+    "coreMeaning": {
+      "cn": "更可怕的（dire的比较级）",
+      "en": "more dreadful or extreme"
+    },
+    "morphemes": [
+      {
+        "canonical": "dire",
+        "role": "root",
+        "meaning": "可怕",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 3
+        },
+        "order": 1,
+        "form": "dire",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "可怕",
+          "en": "dreadful"
+        }
+      },
+      {
+        "canonical": "-er",
+        "role": "suffix",
+        "meaning": "比较级",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "r",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "比较级",
+          "en": "comparative"
+        }
+      }
+    ],
+    "derivationChain": [
+      "direr"
+    ],
     "morphVariantOf": "dire",
     "memorySemantics": {
       "literal": "dire(可怕)+r(更) = 更可怕的",
-      "imageChain": ["危机升级", "更严峻", "更恐怖"],
+      "imageChain": [
+        "危机升级",
+        "更严峻",
+        "更恐怖"
+      ],
       "mnemonicExpr": "dire（可怕）+ -r → direr（更可怕）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["消极"], "intensity": 3},
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 3
+      },
+      "domain": [
+        "general"
+      ],
       "formality": "formal"
     },
     "relations": {
-      "sameRoot": ["dire", "direst", "direful"],
+      "sameRoot": [
+        "dire",
+        "direst",
+        "direful"
+      ],
       "sameAffix": [],
-      "synonyms": ["more dreadful"],
+      "synonyms": [
+        "more dreadful"
+      ],
       "antonyms": [],
       "domainCohort": [],
-      "derivationPair": ["dire"],
-      "morphVariants": ["direst"],
+      "derivationPair": [
+        "dire"
+      ],
+      "morphVariants": [
+        "direst"
+      ],
       "sameImagery": []
     }
   },
   {
     "word": "direst",
     "phonetic": "/ˈdaɪərɪst/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "最可怕的（dire的最高级）", "en": "most dreadful or extreme"},
-    "morphemes": [
-      {"canonical": "dire", "role": "root", "meaning": "可怕", "sentiment": {"tags": ["消极"], "intensity": 3}, "order": 1, "form": "dire", "positionTendency": "initial", "coreMeaning": {"cn": "可怕", "en": "dreadful"}},
-      {"canonical": "-est", "role": "suffix", "meaning": "最高级", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "st", "positionTendency": "final", "coreMeaning": {"cn": "最高级", "en": "superlative"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "dire", "to": "direst", "operation": "+-st"}]},
+    "coreMeaning": {
+      "cn": "最可怕的（dire的最高级）",
+      "en": "most dreadful or extreme"
+    },
+    "morphemes": [
+      {
+        "canonical": "dire",
+        "role": "root",
+        "meaning": "可怕",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 3
+        },
+        "order": 1,
+        "form": "dire",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "可怕",
+          "en": "dreadful"
+        }
+      },
+      {
+        "canonical": "-est",
+        "role": "suffix",
+        "meaning": "最高级",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "st",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "最高级",
+          "en": "superlative"
+        }
+      }
+    ],
+    "derivationChain": [
+      "direst"
+    ],
     "morphVariantOf": "dire",
     "memorySemantics": {
       "literal": "dire(可怕)+st(最) = 最可怕的",
-      "imageChain": ["极度危机", "最坏情形", "末日"],
+      "imageChain": [
+        "极度危机",
+        "最坏情形",
+        "末日"
+      ],
       "mnemonicExpr": "dire（可怕）+ -st → direst（最可怕）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["消极"], "intensity": 3},
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 3
+      },
+      "domain": [
+        "general"
+      ],
       "formality": "formal"
     },
     "relations": {
-      "sameRoot": ["dire", "direr", "direful"],
+      "sameRoot": [
+        "dire",
+        "direr",
+        "direful"
+      ],
       "sameAffix": [],
-      "synonyms": ["most dreadful"],
+      "synonyms": [
+        "most dreadful"
+      ],
       "antonyms": [],
       "domainCohort": [],
-      "derivationPair": ["dire"],
-      "morphVariants": ["direr"],
+      "derivationPair": [
+        "dire"
+      ],
+      "morphVariants": [
+        "direr"
+      ],
       "sameImagery": []
     }
   },
   {
     "word": "dirndl",
     "phonetic": "/ˈdɜːrndəl/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "德式民族裙；提洛尔式女装", "en": "a traditional Alpine dress with a full skirt"},
-    "morphemes": [
-      {"canonical": "dirndl", "role": "root", "meaning": "德式民族服饰（借自德语）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "dirndl", "positionTendency": "initial", "coreMeaning": {"cn": "民族裙", "en": "Alpine dress"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "德式民族裙；提洛尔式女装",
+      "en": "a traditional Alpine dress with a full skirt"
+    },
+    "morphemes": [
+      {
+        "canonical": "dirndl",
+        "role": "root",
+        "meaning": "德式民族服饰（借自德语）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "dirndl",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "民族裙",
+          "en": "Alpine dress"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "dirndl = 奥地利、德国传统褶裙",
-      "imageChain": ["阿尔卑斯山", "民族服饰", "褶皱裙"],
+      "imageChain": [
+        "阿尔卑斯山",
+        "民族服饰",
+        "褶皱裙"
+      ],
       "mnemonicExpr": "dirndl → 德国民族裙，像旋转木马"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["中性"], "intensity": 0},
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
       "formality": "neutral"
     },
     "relations": {
       "sameRoot": [],
       "sameAffix": [],
-      "synonyms": ["folk dress"],
+      "synonyms": [
+        "folk dress"
+      ],
       "antonyms": [],
-      "domainCohort": ["lederhosen", "costume"],
+      "domainCohort": [
+        "lederhosen",
+        "costume"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -711,31 +2202,93 @@
   {
     "word": "dirtied",
     "phonetic": "/ˈdɜːrtɪd/",
-    "pos": ["v."],
-    "coreMeaning": {"cn": "弄脏（过去式）", "en": "made dirty"},
-    "morphemes": [
-      {"canonical": "dirt", "role": "root", "meaning": "污垢", "sentiment": {"tags": ["贬义"], "intensity": 1}, "order": 1, "form": "dirt", "positionTendency": "initial", "coreMeaning": {"cn": "污垢", "en": "dirt"}},
-      {"canonical": "-ied", "role": "suffix", "meaning": "过去式（以y结尾动词）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ied", "positionTendency": "final", "coreMeaning": {"cn": "过去式", "en": "past tense"}}
+    "pos": [
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "dirty", "to": "dirtied", "operation": "y→+ied"}]},
+    "coreMeaning": {
+      "cn": "弄脏（过去式）",
+      "en": "made dirty"
+    },
+    "morphemes": [
+      {
+        "canonical": "dirt",
+        "role": "root",
+        "meaning": "污垢",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "dirt",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "污垢",
+          "en": "dirt"
+        }
+      },
+      {
+        "canonical": "-ied",
+        "role": "suffix",
+        "meaning": "过去式（以y结尾动词）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ied",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "过去式",
+          "en": "past tense"
+        }
+      }
+    ],
+    "derivationChain": [
+      "dirtied"
+    ],
     "morphVariantOf": "dirty",
     "memorySemantics": {
       "literal": "dirty(弄脏)+ied(过去) = 弄脏了",
-      "imageChain": ["泥泞", "污渍", "弄脏"],
+      "imageChain": [
+        "泥泞",
+        "污渍",
+        "弄脏"
+      ],
       "mnemonicExpr": "dirt（污垢）+ -ied → dirtied（弄脏了）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["贬义"], "intensity": 1},
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general"
+      ],
       "formality": "neutral"
     },
     "relations": {
-      "sameRoot": ["dirt", "dirty"],
+      "sameRoot": [
+        "dirt",
+        "dirty"
+      ],
       "sameAffix": [],
-      "synonyms": ["soiled", "sullied"],
-      "antonyms": ["cleaned"],
+      "synonyms": [
+        "soiled",
+        "sullied"
+      ],
+      "antonyms": [
+        "cleaned"
+      ],
       "domainCohort": [],
-      "derivationPair": ["dirty"],
+      "derivationPair": [
+        "dirty"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -743,95 +2296,287 @@
   {
     "word": "dirtier",
     "phonetic": "/ˈdɜːrtɪər/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "更脏的（比较级）", "en": "more dirty"},
-    "morphemes": [
-      {"canonical": "dirt", "role": "root", "meaning": "污垢", "sentiment": {"tags": ["贬义"], "intensity": 1}, "order": 1, "form": "dirt", "positionTendency": "initial", "coreMeaning": {"cn": "污垢", "en": "dirt"}},
-      {"canonical": "-ier", "role": "suffix", "meaning": "比较级（以y结尾形容词）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ier", "positionTendency": "final", "coreMeaning": {"cn": "比较级", "en": "comparative"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "dirty", "to": "dirtier", "operation": "y→+ier"}]},
+    "coreMeaning": {
+      "cn": "更脏的（比较级）",
+      "en": "more dirty"
+    },
+    "morphemes": [
+      {
+        "canonical": "dirt",
+        "role": "root",
+        "meaning": "污垢",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "dirt",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "污垢",
+          "en": "dirt"
+        }
+      },
+      {
+        "canonical": "-ier",
+        "role": "suffix",
+        "meaning": "比较级（以y结尾形容词）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ier",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "比较级",
+          "en": "comparative"
+        }
+      }
+    ],
+    "derivationChain": [
+      "dirtier"
+    ],
     "morphVariantOf": "dirty",
     "memorySemantics": {
       "literal": "dirty(脏)+ier(更) = 更脏的",
-      "imageChain": ["对比", "更多污垢", "更不洁"],
+      "imageChain": [
+        "对比",
+        "更多污垢",
+        "更不洁"
+      ],
       "mnemonicExpr": "dirty（脏）+ -ier → dirtier（更脏）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["贬义"], "intensity": 1},
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general"
+      ],
       "formality": "neutral"
     },
     "relations": {
-      "sameRoot": ["dirt", "dirty", "dirtiest"],
+      "sameRoot": [
+        "dirt",
+        "dirty",
+        "dirtiest"
+      ],
       "sameAffix": [],
-      "synonyms": ["filthier", "grimier"],
-      "antonyms": ["cleaner"],
+      "synonyms": [
+        "filthier",
+        "grimier"
+      ],
+      "antonyms": [
+        "cleaner"
+      ],
       "domainCohort": [],
-      "derivationPair": ["dirty"],
-      "morphVariants": ["dirtiest"],
+      "derivationPair": [
+        "dirty"
+      ],
+      "morphVariants": [
+        "dirtiest"
+      ],
       "sameImagery": []
     }
   },
   {
     "word": "dirtiest",
     "phonetic": "/ˈdɜːrtɪɪst/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "最脏的（最高级）", "en": "most dirty"},
-    "morphemes": [
-      {"canonical": "dirt", "role": "root", "meaning": "污垢", "sentiment": {"tags": ["贬义"], "intensity": 1}, "order": 1, "form": "dirt", "positionTendency": "initial", "coreMeaning": {"cn": "污垢", "en": "dirt"}},
-      {"canonical": "-iest", "role": "suffix", "meaning": "最高级", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "iest", "positionTendency": "final", "coreMeaning": {"cn": "最高级", "en": "superlative"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "dirty", "to": "dirtiest", "operation": "y→+iest"}]},
+    "coreMeaning": {
+      "cn": "最脏的（最高级）",
+      "en": "most dirty"
+    },
+    "morphemes": [
+      {
+        "canonical": "dirt",
+        "role": "root",
+        "meaning": "污垢",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "dirt",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "污垢",
+          "en": "dirt"
+        }
+      },
+      {
+        "canonical": "-iest",
+        "role": "suffix",
+        "meaning": "最高级",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "iest",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "最高级",
+          "en": "superlative"
+        }
+      }
+    ],
+    "derivationChain": [
+      "dirtiest"
+    ],
     "morphVariantOf": "dirty",
     "memorySemantics": {
       "literal": "dirty(脏)+iest(最) = 最脏的",
-      "imageChain": ["极度污秽", "最肮脏", "最不洁净"],
+      "imageChain": [
+        "极度污秽",
+        "最肮脏",
+        "最不洁净"
+      ],
       "mnemonicExpr": "dirty（脏）+ -iest → dirtiest（最脏）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["贬义"], "intensity": 2},
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": 2
+      },
+      "domain": [
+        "general"
+      ],
       "formality": "neutral"
     },
     "relations": {
-      "sameRoot": ["dirt", "dirty", "dirtier"],
+      "sameRoot": [
+        "dirt",
+        "dirty",
+        "dirtier"
+      ],
       "sameAffix": [],
-      "synonyms": ["filthiest"],
-      "antonyms": ["cleanest"],
+      "synonyms": [
+        "filthiest"
+      ],
+      "antonyms": [
+        "cleanest"
+      ],
       "domainCohort": [],
-      "derivationPair": ["dirty"],
-      "morphVariants": ["dirtier"],
+      "derivationPair": [
+        "dirty"
+      ],
+      "morphVariants": [
+        "dirtier"
+      ],
       "sameImagery": []
     }
   },
   {
     "word": "dirties",
     "phonetic": "/ˈdɜːrtɪz/",
-    "pos": ["v."],
-    "coreMeaning": {"cn": "弄脏（第三人称单数）", "en": "makes dirty"},
-    "morphemes": [
-      {"canonical": "dirt", "role": "root", "meaning": "污垢", "sentiment": {"tags": ["贬义"], "intensity": 1}, "order": 1, "form": "dirt", "positionTendency": "initial", "coreMeaning": {"cn": "污垢", "en": "dirt"}},
-      {"canonical": "-ies", "role": "suffix", "meaning": "三单变形", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ies", "positionTendency": "final", "coreMeaning": {"cn": "三单", "en": "third singular"}}
+    "pos": [
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "dirty", "to": "dirties", "operation": "y→+ies"}]},
+    "coreMeaning": {
+      "cn": "弄脏（第三人称单数）",
+      "en": "makes dirty"
+    },
+    "morphemes": [
+      {
+        "canonical": "dirt",
+        "role": "root",
+        "meaning": "污垢",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "dirt",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "污垢",
+          "en": "dirt"
+        }
+      },
+      {
+        "canonical": "-ies",
+        "role": "suffix",
+        "meaning": "三单变形",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ies",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "三单",
+          "en": "third singular"
+        }
+      }
+    ],
+    "derivationChain": [
+      "dirties"
+    ],
     "morphVariantOf": "dirty",
     "memorySemantics": {
       "literal": "dirty(弄脏)+ies(三单) = 弄脏",
-      "imageChain": ["动作", "污染物", "弄脏对象"],
+      "imageChain": [
+        "动作",
+        "污染物",
+        "弄脏对象"
+      ],
       "mnemonicExpr": "dirty（弄脏）+ -ies → dirties（弄脏/三单）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["贬义"], "intensity": 1},
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general"
+      ],
       "formality": "neutral"
     },
     "relations": {
-      "sameRoot": ["dirt", "dirty", "dirtied"],
+      "sameRoot": [
+        "dirt",
+        "dirty",
+        "dirtied"
+      ],
       "sameAffix": [],
-      "synonyms": ["soils", "sullies"],
-      "antonyms": ["cleans"],
+      "synonyms": [
+        "soils",
+        "sullies"
+      ],
+      "antonyms": [
+        "cleans"
+      ],
       "domainCohort": [],
-      "derivationPair": ["dirty"],
+      "derivationPair": [
+        "dirty"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -839,33 +2584,129 @@
   {
     "word": "directioner",
     "phonetic": "/dɪˈrɛkʃənər/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "指示命令；方向管理者", "en": "one who gives direction or directive"},
-    "morphemes": [
-      {"canonical": "di-", "role": "prefix", "meaning": "朝向", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "di", "positionTendency": "initial", "coreMeaning": {"cn": "朝向", "en": "toward"}},
-      {"canonical": "rect", "role": "root", "meaning": "引导", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "rect", "positionTendency": "medial", "coreMeaning": {"cn": "引导", "en": "guide"}},
-      {"canonical": "-ion", "role": "suffix", "meaning": "名词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ion", "positionTendency": "medial", "coreMeaning": {"cn": "名词", "en": "noun"}},
-      {"canonical": "-er", "role": "suffix", "meaning": "做…的人", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 4, "form": "er", "positionTendency": "final", "coreMeaning": {"cn": "人", "en": "person"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "direction", "to": "directioner", "operation": "+-er"}]},
+    "coreMeaning": {
+      "cn": "指示命令；方向管理者",
+      "en": "one who gives direction or directive"
+    },
+    "morphemes": [
+      {
+        "canonical": "di-",
+        "role": "prefix",
+        "meaning": "朝向",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "di",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "朝向",
+          "en": "toward"
+        }
+      },
+      {
+        "canonical": "rect",
+        "role": "root",
+        "meaning": "引导",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "rect",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "引导",
+          "en": "guide"
+        }
+      },
+      {
+        "canonical": "-ion",
+        "role": "suffix",
+        "meaning": "名词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ion",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "名词",
+          "en": "noun"
+        }
+      },
+      {
+        "canonical": "-er",
+        "role": "suffix",
+        "meaning": "做…的人",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 4,
+        "form": "er",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "人",
+          "en": "person"
+        }
+      }
+    ],
+    "derivationChain": [
+      "directioner"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "direction(方向)+er(人) = 指挥方向者",
-      "imageChain": ["指挥", "引导者", "命令"],
+      "imageChain": [
+        "指挥",
+        "引导者",
+        "命令"
+      ],
       "mnemonicExpr": "direction（方向）+ -er → directioner（指挥者）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["中性"], "intensity": 0},
-      "domain": ["legal", "business"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "legal",
+        "business"
+      ],
       "formality": "formal"
     },
     "relations": {
-      "sameRoot": ["direct", "direction", "director"],
+      "sameRoot": [
+        "direct",
+        "direction",
+        "director"
+      ],
       "sameAffix": [],
-      "synonyms": ["director", "commander"],
+      "synonyms": [
+        "director",
+        "commander"
+      ],
       "antonyms": [],
       "domainCohort": [],
-      "derivationPair": ["direction"],
+      "derivationPair": [
+        "direction"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -873,31 +2714,87 @@
   {
     "word": "dirndls",
     "phonetic": "/ˈdɜːrndəlz/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "德式民族裙（复数）", "en": "traditional Alpine dresses"},
-    "morphemes": [
-      {"canonical": "dirndl", "role": "root", "meaning": "德式民族裙", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "dirndl", "positionTendency": "initial", "coreMeaning": {"cn": "民族裙", "en": "Alpine dress"}},
-      {"canonical": "-s", "role": "suffix", "meaning": "复数", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "s", "positionTendency": "final", "coreMeaning": {"cn": "复数", "en": "plural"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "dirndl", "to": "dirndls", "operation": "+-s"}]},
+    "coreMeaning": {
+      "cn": "德式民族裙（复数）",
+      "en": "traditional Alpine dresses"
+    },
+    "morphemes": [
+      {
+        "canonical": "dirndl",
+        "role": "root",
+        "meaning": "德式民族裙",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "dirndl",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "民族裙",
+          "en": "Alpine dress"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "meaning": "复数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "s",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "dirndls"
+    ],
     "morphVariantOf": "dirndl",
     "memorySemantics": {
       "literal": "dirndl(民族裙)+s(复数) = 多条民族裙",
-      "imageChain": ["节日服装", "多条裙子", "民俗"],
+      "imageChain": [
+        "节日服装",
+        "多条裙子",
+        "民俗"
+      ],
       "mnemonicExpr": "dirndl（民族裙）+ -s → dirndls（复数）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["中性"], "intensity": 0},
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
       "formality": "neutral"
     },
     "relations": {
-      "sameRoot": ["dirndl"],
+      "sameRoot": [
+        "dirndl"
+      ],
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
       "domainCohort": [],
-      "derivationPair": ["dirndl"],
+      "derivationPair": [
+        "dirndl"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -905,30 +2802,88 @@
   {
     "word": "dirpath",
     "phonetic": "/ˈdɜːrpæθ/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "目录路径（计算机）", "en": "directory path in computing"},
-    "morphemes": [
-      {"canonical": "dir", "role": "root", "meaning": "目录（directory的缩写）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "dir", "positionTendency": "initial", "coreMeaning": {"cn": "目录", "en": "directory"}},
-      {"canonical": "path", "role": "root", "meaning": "路径", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "path", "positionTendency": "final", "coreMeaning": {"cn": "路径", "en": "path"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "目录路径（计算机）",
+      "en": "directory path in computing"
+    },
+    "morphemes": [
+      {
+        "canonical": "dir",
+        "role": "root",
+        "meaning": "目录（directory的缩写）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "dir",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "目录",
+          "en": "directory"
+        }
+      },
+      {
+        "canonical": "path",
+        "role": "root",
+        "meaning": "路径",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "path",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "路径",
+          "en": "path"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "dir(目录)+path(路径) = 目录路径",
-      "imageChain": ["文件系统", "路径字符串", "文件夹"],
+      "imageChain": [
+        "文件系统",
+        "路径字符串",
+        "文件夹"
+      ],
       "mnemonicExpr": "dir（目录）+ path（路径）→ dirpath（目录路径）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["中性"], "intensity": 0},
-      "domain": ["tech"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech"
+      ],
       "formality": "technical"
     },
     "relations": {
-      "sameRoot": ["directory", "dirname"],
+      "sameRoot": [
+        "directory",
+        "dirname"
+      ],
       "sameAffix": [],
-      "synonyms": ["filepath"],
+      "synonyms": [
+        "filepath"
+      ],
       "antonyms": [],
-      "domainCohort": ["filepath", "pathname"],
+      "domainCohort": [
+        "filepath",
+        "pathname"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -937,30 +2892,88 @@
   {
     "word": "dirname",
     "phonetic": "/ˈdɜːrnæm/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "目录名（计算机）", "en": "directory name in computing"},
-    "morphemes": [
-      {"canonical": "dir", "role": "root", "meaning": "目录", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "dir", "positionTendency": "initial", "coreMeaning": {"cn": "目录", "en": "directory"}},
-      {"canonical": "name", "role": "root", "meaning": "名称", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "name", "positionTendency": "final", "coreMeaning": {"cn": "名称", "en": "name"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "目录名（计算机）",
+      "en": "directory name in computing"
+    },
+    "morphemes": [
+      {
+        "canonical": "dir",
+        "role": "root",
+        "meaning": "目录",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "dir",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "目录",
+          "en": "directory"
+        }
+      },
+      {
+        "canonical": "name",
+        "role": "root",
+        "meaning": "名称",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "name",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "名称",
+          "en": "name"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "dir(目录)+name(名称) = 目录名",
-      "imageChain": ["文件夹", "命名", "路径标识"],
+      "imageChain": [
+        "文件夹",
+        "命名",
+        "路径标识"
+      ],
       "mnemonicExpr": "dir（目录）+ name（名称）→ dirname（目录名）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["中性"], "intensity": 0},
-      "domain": ["tech"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech"
+      ],
       "formality": "technical"
     },
     "relations": {
-      "sameRoot": ["directory", "dirpath"],
+      "sameRoot": [
+        "directory",
+        "dirpath"
+      ],
       "sameAffix": [],
-      "synonyms": ["folder name"],
+      "synonyms": [
+        "folder name"
+      ],
       "antonyms": [],
-      "domainCohort": ["basename", "pathname"],
+      "domainCohort": [
+        "basename",
+        "pathname"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
@@ -969,32 +2982,111 @@
   {
     "word": "directorial",
     "phonetic": "/dɪˌrɛktəˈrɪəl/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "导演的；董事的", "en": "of or relating to a director"},
-    "morphemes": [
-      {"canonical": "di-", "role": "prefix", "meaning": "朝向", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "di", "positionTendency": "initial", "coreMeaning": {"cn": "朝向", "en": "toward"}},
-      {"canonical": "rect", "role": "root", "meaning": "引导", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "rect", "positionTendency": "medial", "coreMeaning": {"cn": "引导", "en": "guide"}},
-      {"canonical": "-orial", "role": "suffix", "meaning": "…的（形容词后缀）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "orial", "positionTendency": "final", "coreMeaning": {"cn": "形容词后缀", "en": "adjective suffix"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "director", "to": "directorial", "operation": "+-ial"}]},
+    "coreMeaning": {
+      "cn": "导演的；董事的",
+      "en": "of or relating to a director"
+    },
+    "morphemes": [
+      {
+        "canonical": "di-",
+        "role": "prefix",
+        "meaning": "朝向",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "di",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "朝向",
+          "en": "toward"
+        }
+      },
+      {
+        "canonical": "rect",
+        "role": "root",
+        "meaning": "引导",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "rect",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "引导",
+          "en": "guide"
+        }
+      },
+      {
+        "canonical": "-orial",
+        "role": "suffix",
+        "meaning": "…的（形容词后缀）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "orial",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "形容词后缀",
+          "en": "adjective suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "directorial"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "director(导演)+ial(形容词) = 导演的",
-      "imageChain": ["导演椅子", "拍摄现场", "电影制作"],
+      "imageChain": [
+        "导演椅子",
+        "拍摄现场",
+        "电影制作"
+      ],
       "mnemonicExpr": "director（导演）+ -ial → directorial（导演的）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["中性"], "intensity": 0},
-      "domain": ["general", "business"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "business"
+      ],
       "formality": "formal"
     },
     "relations": {
-      "sameRoot": ["direct", "director", "directorate"],
-      "sameAffix": ["managerial", "editorial"],
+      "sameRoot": [
+        "direct",
+        "director",
+        "directorate"
+      ],
+      "sameAffix": [
+        "managerial",
+        "editorial"
+      ],
       "synonyms": [],
       "antonyms": [],
       "domainCohort": [],
-      "derivationPair": ["director"],
+      "derivationPair": [
+        "director"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -1002,32 +3094,108 @@
   {
     "word": "directors",
     "phonetic": "/dɪˈrɛktərz/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "导演们；董事们（复数）", "en": "plural of director"},
-    "morphemes": [
-      {"canonical": "di-", "role": "prefix", "meaning": "朝向", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "di", "positionTendency": "initial", "coreMeaning": {"cn": "朝向", "en": "toward"}},
-      {"canonical": "rect", "role": "root", "meaning": "引导", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "rect", "positionTendency": "medial", "coreMeaning": {"cn": "引导", "en": "guide"}},
-      {"canonical": "-s", "role": "suffix", "meaning": "复数", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": {"cn": "复数", "en": "plural"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "director", "to": "directors", "operation": "+-s"}]},
+    "coreMeaning": {
+      "cn": "导演们；董事们（复数）",
+      "en": "plural of director"
+    },
+    "morphemes": [
+      {
+        "canonical": "di-",
+        "role": "prefix",
+        "meaning": "朝向",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "di",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "朝向",
+          "en": "toward"
+        }
+      },
+      {
+        "canonical": "rect",
+        "role": "root",
+        "meaning": "引导",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "rect",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "引导",
+          "en": "guide"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "meaning": "复数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "s",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "directors"
+    ],
     "morphVariantOf": "director",
     "memorySemantics": {
       "literal": "director(导演)+s(复数) = 多位导演",
-      "imageChain": ["董事会", "多位导演", "管理层"],
+      "imageChain": [
+        "董事会",
+        "多位导演",
+        "管理层"
+      ],
       "mnemonicExpr": "director（导演）+ -s → directors（复数）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["中性"], "intensity": 0},
-      "domain": ["general", "business"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "business"
+      ],
       "formality": "neutral"
     },
     "relations": {
-      "sameRoot": ["direct", "director", "directorate"],
+      "sameRoot": [
+        "direct",
+        "director",
+        "directorate"
+      ],
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
       "domainCohort": [],
-      "derivationPair": ["director"],
+      "derivationPair": [
+        "director"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -1035,32 +3203,108 @@
   {
     "word": "directorates",
     "phonetic": "/dɪˈrɛktərɪts/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "理事会们；董事会（复数）", "en": "plural of directorate"},
-    "morphemes": [
-      {"canonical": "di-", "role": "prefix", "meaning": "朝向", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "di", "positionTendency": "initial", "coreMeaning": {"cn": "朝向", "en": "toward"}},
-      {"canonical": "rect", "role": "root", "meaning": "引导", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "rect", "positionTendency": "medial", "coreMeaning": {"cn": "引导", "en": "guide"}},
-      {"canonical": "-s", "role": "suffix", "meaning": "复数", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": {"cn": "复数", "en": "plural"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "directorate", "to": "directorates", "operation": "+-s"}]},
+    "coreMeaning": {
+      "cn": "理事会们；董事会（复数）",
+      "en": "plural of directorate"
+    },
+    "morphemes": [
+      {
+        "canonical": "di-",
+        "role": "prefix",
+        "meaning": "朝向",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "di",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "朝向",
+          "en": "toward"
+        }
+      },
+      {
+        "canonical": "rect",
+        "role": "root",
+        "meaning": "引导",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "rect",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "引导",
+          "en": "guide"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "meaning": "复数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "s",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "directorates"
+    ],
     "morphVariantOf": "directorate",
     "memorySemantics": {
       "literal": "directorate(理事会)+s(复数) = 多个理事会",
-      "imageChain": ["多个机构", "组织架构", "管理层级"],
+      "imageChain": [
+        "多个机构",
+        "组织架构",
+        "管理层级"
+      ],
       "mnemonicExpr": "directorate（理事会）+ -s → directorates（复数）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["中性"], "intensity": 0},
-      "domain": ["finance", "business"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "finance",
+        "business"
+      ],
       "formality": "formal"
     },
     "relations": {
-      "sameRoot": ["direct", "director", "directorate"],
+      "sameRoot": [
+        "direct",
+        "director",
+        "directorate"
+      ],
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
       "domainCohort": [],
-      "derivationPair": ["directorate"],
+      "derivationPair": [
+        "directorate"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -1068,32 +3312,109 @@
   {
     "word": "directorships",
     "phonetic": "/dɪˈrɛktərʃɪps/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "董事职位们（复数）", "en": "plural of directorship"},
-    "morphemes": [
-      {"canonical": "di-", "role": "prefix", "meaning": "朝向", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "di", "positionTendency": "initial", "coreMeaning": {"cn": "朝向", "en": "toward"}},
-      {"canonical": "rect", "role": "root", "meaning": "引导", "sentiment": {"tags": {"tags": ["中性"], "intensity": 0}}, "order": 2, "form": "rect", "positionTendency": "medial", "coreMeaning": {"cn": "引导", "en": "guide"}},
-      {"canonical": "-s", "role": "suffix", "meaning": "复数", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": {"cn": "复数", "en": "plural"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "directorship", "to": "directorships", "operation": "+-s"}]},
+    "coreMeaning": {
+      "cn": "董事职位们（复数）",
+      "en": "plural of directorship"
+    },
+    "morphemes": [
+      {
+        "canonical": "di-",
+        "role": "prefix",
+        "meaning": "朝向",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "di",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "朝向",
+          "en": "toward"
+        }
+      },
+      {
+        "canonical": "rect",
+        "role": "root",
+        "meaning": "引导",
+        "sentiment": {
+          "tags": {
+            "tags": [
+              "中性"
+            ],
+            "intensity": 0
+          }
+        },
+        "order": 2,
+        "form": "rect",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "引导",
+          "en": "guide"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "meaning": "复数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "s",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "directorships"
+    ],
     "morphVariantOf": "directorship",
     "memorySemantics": {
       "literal": "directorship(职位)+s(复数) = 多个董事职位",
-      "imageChain": ["多个职位", "管理职位", "头衔"],
+      "imageChain": [
+        "多个职位",
+        "管理职位",
+        "头衔"
+      ],
       "mnemonicExpr": "directorship（董事职位）+ -s → directorships（复数）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["中性"], "intensity": 0},
-      "domain": ["business"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "business"
+      ],
       "formality": "formal"
     },
     "relations": {
-      "sameRoot": ["direct", "director", "directorship"],
+      "sameRoot": [
+        "direct",
+        "director",
+        "directorship"
+      ],
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
       "domainCohort": [],
-      "derivationPair": ["directorship"],
+      "derivationPair": [
+        "directorship"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -1101,32 +3422,112 @@
   {
     "word": "directional",
     "phonetic": "/dɪˈrɛkʃənəl/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "方向性的；定向的", "en": "relating to or indicating direction"},
-    "morphemes": [
-      {"canonical": "di-", "role": "prefix", "meaning": "朝向", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "di", "positionTendency": "initial", "coreMeaning": {"cn": "朝向", "en": "toward"}},
-      {"canonical": "rect", "role": "root", "meaning": "引导", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "rect", "positionTendency": "medial", "coreMeaning": {"cn": "引导", "en": "guide"}},
-      {"canonical": "-al", "role": "suffix", "meaning": "形容词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ional", "positionTendency": "final", "coreMeaning": {"cn": "形容词后缀", "en": "adjective suffix"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "direction", "to": "directional", "operation": "+-al"}]},
+    "coreMeaning": {
+      "cn": "方向性的；定向的",
+      "en": "relating to or indicating direction"
+    },
+    "morphemes": [
+      {
+        "canonical": "di-",
+        "role": "prefix",
+        "meaning": "朝向",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "di",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "朝向",
+          "en": "toward"
+        }
+      },
+      {
+        "canonical": "rect",
+        "role": "root",
+        "meaning": "引导",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "rect",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "引导",
+          "en": "guide"
+        }
+      },
+      {
+        "canonical": "-al",
+        "role": "suffix",
+        "meaning": "形容词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ional",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "形容词后缀",
+          "en": "adjective suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "directional"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "direction(方向)+al(形容词) = 方向性的",
-      "imageChain": ["天线", "方向角", "定向信号"],
+      "imageChain": [
+        "天线",
+        "方向角",
+        "定向信号"
+      ],
       "mnemonicExpr": "direction（方向）+ -al → directional（方向性的）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["中性"], "intensity": 0},
-      "domain": ["tech", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech",
+        "academic"
+      ],
       "formality": "technical"
     },
     "relations": {
-      "sameRoot": ["direct", "direction"],
-      "sameAffix": ["rational", "seasonal"],
+      "sameRoot": [
+        "direct",
+        "direction"
+      ],
+      "sameAffix": [
+        "rational",
+        "seasonal"
+      ],
       "synonyms": [],
-      "antonyms": ["omnidirectional"],
+      "antonyms": [
+        "omnidirectional"
+      ],
       "domainCohort": [],
-      "derivationPair": ["direction"],
+      "derivationPair": [
+        "direction"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -1134,32 +3535,111 @@
   {
     "word": "directionality",
     "phonetic": "/dɪˌrɛkʃəˈnælɪti/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "方向性", "en": "the property of having or indicating direction"},
-    "morphemes": [
-      {"canonical": "di-", "role": "prefix", "meaning": "朝向", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "di", "positionTendency": "initial", "coreMeaning": {"cn": "朝向", "en": "toward"}},
-      {"canonical": "rect", "role": "root", "meaning": "引导", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "rect", "positionTendency": "medial", "coreMeaning": {"cn": "引导", "en": "guide"}},
-      {"canonical": "-ality", "role": "suffix", "meaning": "名词化：性质", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ionality", "positionTendency": "final", "coreMeaning": {"cn": "性质", "en": "quality"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "directional", "to": "directionality", "operation": "+-ity"}]},
+    "coreMeaning": {
+      "cn": "方向性",
+      "en": "the property of having or indicating direction"
+    },
+    "morphemes": [
+      {
+        "canonical": "di-",
+        "role": "prefix",
+        "meaning": "朝向",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "di",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "朝向",
+          "en": "toward"
+        }
+      },
+      {
+        "canonical": "rect",
+        "role": "root",
+        "meaning": "引导",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "rect",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "引导",
+          "en": "guide"
+        }
+      },
+      {
+        "canonical": "-ality",
+        "role": "suffix",
+        "meaning": "名词化：性质",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ionality",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "性质",
+          "en": "quality"
+        }
+      }
+    ],
+    "derivationChain": [
+      "directionality"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "directional(方向性)+ity = 方向性",
-      "imageChain": ["物理学", "波动方向", "定向分析"],
+      "imageChain": [
+        "物理学",
+        "波动方向",
+        "定向分析"
+      ],
       "mnemonicExpr": "directional（方向的）+ -ity → directionality（方向性）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["中性"], "intensity": 0},
-      "domain": ["tech", "academic"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech",
+        "academic"
+      ],
       "formality": "technical"
     },
     "relations": {
-      "sameRoot": ["direct", "direction", "directional"],
-      "sameAffix": ["functionality", "rationality"],
+      "sameRoot": [
+        "direct",
+        "direction",
+        "directional"
+      ],
+      "sameAffix": [
+        "functionality",
+        "rationality"
+      ],
       "synonyms": [],
       "antonyms": [],
       "domainCohort": [],
-      "derivationPair": ["directional"],
+      "derivationPair": [
+        "directional"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -1167,32 +3647,107 @@
   {
     "word": "directionally",
     "phonetic": "/dɪˈrɛkʃənəli/",
-    "pos": ["adv."],
-    "coreMeaning": {"cn": "在方向上；定向地", "en": "in terms of or with respect to direction"},
-    "morphemes": [
-      {"canonical": "di-", "role": "prefix", "meaning": "朝向", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "di", "positionTendency": "initial", "coreMeaning": {"cn": "朝向", "en": "toward"}},
-      {"canonical": "rect", "role": "root", "meaning": "引导", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "rect", "positionTendency": "medial", "coreMeaning": {"cn": "引导", "en": "guide"}},
-      {"canonical": "-ly", "role": "suffix", "meaning": "副词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ionally", "positionTendency": "final", "coreMeaning": {"cn": "副词后缀", "en": "adverb suffix"}}
+    "pos": [
+      "adv."
     ],
-    "derivationChain": {"steps": [{"from": "directional", "to": "directionally", "operation": "+-ly"}]},
+    "coreMeaning": {
+      "cn": "在方向上；定向地",
+      "en": "in terms of or with respect to direction"
+    },
+    "morphemes": [
+      {
+        "canonical": "di-",
+        "role": "prefix",
+        "meaning": "朝向",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "di",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "朝向",
+          "en": "toward"
+        }
+      },
+      {
+        "canonical": "rect",
+        "role": "root",
+        "meaning": "引导",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "rect",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "引导",
+          "en": "guide"
+        }
+      },
+      {
+        "canonical": "-ly",
+        "role": "suffix",
+        "meaning": "副词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ionally",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "副词后缀",
+          "en": "adverb suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "directionally"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "directional(方向性)+ly(副词) = 定向地",
-      "imageChain": ["方向测量", "定向移动", "有目标"],
+      "imageChain": [
+        "方向测量",
+        "定向移动",
+        "有目标"
+      ],
       "mnemonicExpr": "directional（方向的）+ -ly → directionally（定向地）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["中性"], "intensity": 0},
-      "domain": ["tech"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech"
+      ],
       "formality": "technical"
     },
     "relations": {
-      "sameRoot": ["direct", "direction", "directional"],
+      "sameRoot": [
+        "direct",
+        "direction",
+        "directional"
+      ],
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
       "domainCohort": [],
-      "derivationPair": ["directional"],
+      "derivationPair": [
+        "directional"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -1200,32 +3755,110 @@
   {
     "word": "directions",
     "phonetic": "/dɪˈrɛkʃənz/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "方向们；指示；用法说明", "en": "plural of direction; instructions"},
-    "morphemes": [
-      {"canonical": "di-", "role": "prefix", "meaning": "朝向", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "di", "positionTendency": "initial", "coreMeaning": {"cn": "朝向", "en": "toward"}},
-      {"canonical": "rect", "role": "root", "meaning": "引导", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "rect", "positionTendency": "medial", "coreMeaning": {"cn": "引导", "en": "guide"}},
-      {"canonical": "-s", "role": "suffix", "meaning": "复数", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ions", "positionTendency": "final", "coreMeaning": {"cn": "复数", "en": "plural"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "direction", "to": "directions", "operation": "+-s"}]},
+    "coreMeaning": {
+      "cn": "方向们；指示；用法说明",
+      "en": "plural of direction; instructions"
+    },
+    "morphemes": [
+      {
+        "canonical": "di-",
+        "role": "prefix",
+        "meaning": "朝向",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "di",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "朝向",
+          "en": "toward"
+        }
+      },
+      {
+        "canonical": "rect",
+        "role": "root",
+        "meaning": "引导",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "rect",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "引导",
+          "en": "guide"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "meaning": "复数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ions",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "directions"
+    ],
     "morphVariantOf": "direction",
     "memorySemantics": {
       "literal": "direction(方向)+s(复数) = 多个方向/指示",
-      "imageChain": ["路标", "说明书", "多个选择"],
+      "imageChain": [
+        "路标",
+        "说明书",
+        "多个选择"
+      ],
       "mnemonicExpr": "direction（方向）+ -s → directions（指示/复数）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["中性"], "intensity": 0},
-      "domain": ["general", "tech"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "tech"
+      ],
       "formality": "neutral"
     },
     "relations": {
-      "sameRoot": ["direct", "direction"],
+      "sameRoot": [
+        "direct",
+        "direction"
+      ],
       "sameAffix": [],
-      "synonyms": ["instructions", "guidelines"],
+      "synonyms": [
+        "instructions",
+        "guidelines"
+      ],
       "antonyms": [],
       "domainCohort": [],
-      "derivationPair": ["direction"],
+      "derivationPair": [
+        "direction"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -1233,32 +3866,110 @@
   {
     "word": "directives",
     "phonetic": "/dɪˈrɛktɪvz/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "指令们；指示（复数）", "en": "plural of directive"},
-    "morphemes": [
-      {"canonical": "di-", "role": "prefix", "meaning": "朝向", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "di", "positionTendency": "initial", "coreMeaning": {"cn": "朝向", "en": "toward"}},
-      {"canonical": "rect", "role": "root", "meaning": "引导", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "rect", "positionTendency": "medial", "coreMeaning": {"cn": "引导", "en": "guide"}},
-      {"canonical": "-s", "role": "suffix", "meaning": "复数", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ives", "positionTendency": "final", "coreMeaning": {"cn": "复数", "en": "plural"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "directive", "to": "directives", "operation": "+-s"}]},
+    "coreMeaning": {
+      "cn": "指令们；指示（复数）",
+      "en": "plural of directive"
+    },
+    "morphemes": [
+      {
+        "canonical": "di-",
+        "role": "prefix",
+        "meaning": "朝向",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "di",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "朝向",
+          "en": "toward"
+        }
+      },
+      {
+        "canonical": "rect",
+        "role": "root",
+        "meaning": "引导",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "rect",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "引导",
+          "en": "guide"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "meaning": "复数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ives",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "directives"
+    ],
     "morphVariantOf": "directive",
     "memorySemantics": {
       "literal": "directive(指令)+s(复数) = 多项指令",
-      "imageChain": ["法规文件", "多项命令", "规章"],
+      "imageChain": [
+        "法规文件",
+        "多项命令",
+        "规章"
+      ],
       "mnemonicExpr": "directive（指令）+ -s → directives（复数）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["中性"], "intensity": 0},
-      "domain": ["legal", "business"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "legal",
+        "business"
+      ],
       "formality": "formal"
     },
     "relations": {
-      "sameRoot": ["direct", "directive"],
+      "sameRoot": [
+        "direct",
+        "directive"
+      ],
       "sameAffix": [],
-      "synonyms": ["instructions", "orders"],
+      "synonyms": [
+        "instructions",
+        "orders"
+      ],
       "antonyms": [],
       "domainCohort": [],
-      "derivationPair": ["directive"],
+      "derivationPair": [
+        "directive"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -1266,32 +3977,112 @@
   {
     "word": "direfully",
     "phonetic": "/ˈdaɪərfʊli/",
-    "pos": ["adv."],
-    "coreMeaning": {"cn": "可怕地；悲惨地", "en": "in a dreadful manner"},
-    "morphemes": [
-      {"canonical": "dire", "role": "root", "meaning": "可怕", "sentiment": {"tags": ["消极"], "intensity": 3}, "order": 1, "form": "dire", "positionTendency": "initial", "coreMeaning": {"cn": "可怕", "en": "dreadful"}},
-      {"canonical": "-ful", "role": "suffix", "meaning": "充满…的", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ful", "positionTendency": "medial", "coreMeaning": {"cn": "充满", "en": "full of"}},
-      {"canonical": "-ly", "role": "suffix", "meaning": "副词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ly", "positionTendency": "final", "coreMeaning": {"cn": "副词后缀", "en": "adverb suffix"}}
+    "pos": [
+      "adv."
     ],
-    "derivationChain": {"steps": [{"from": "direful", "to": "direfully", "operation": "+-ly"}]},
+    "coreMeaning": {
+      "cn": "可怕地；悲惨地",
+      "en": "in a dreadful manner"
+    },
+    "morphemes": [
+      {
+        "canonical": "dire",
+        "role": "root",
+        "meaning": "可怕",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 3
+        },
+        "order": 1,
+        "form": "dire",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "可怕",
+          "en": "dreadful"
+        }
+      },
+      {
+        "canonical": "-ful",
+        "role": "suffix",
+        "meaning": "充满…的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ful",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "充满",
+          "en": "full of"
+        }
+      },
+      {
+        "canonical": "-ly",
+        "role": "suffix",
+        "meaning": "副词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ly",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "副词后缀",
+          "en": "adverb suffix"
+        }
+      }
+    ],
+    "derivationChain": [
+      "direfully"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "literal": "dire(可怕)+ful(充满)+ly(副词) = 可怕地",
-      "imageChain": ["灾难场景", "恐怖气氛", "悲惨描述"],
+      "imageChain": [
+        "灾难场景",
+        "恐怖气氛",
+        "悲惨描述"
+      ],
       "mnemonicExpr": "direful（可怕的）+ -ly → direfully（可怕地）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["消极"], "intensity": 3},
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 3
+      },
+      "domain": [
+        "general"
+      ],
       "formality": "formal"
     },
     "relations": {
-      "sameRoot": ["dire", "direful"],
-      "sameAffix": ["dreadfully", "terribly"],
-      "synonyms": ["dreadfully", "terribly"],
+      "sameRoot": [
+        "dire",
+        "direful"
+      ],
+      "sameAffix": [
+        "dreadfully",
+        "terribly"
+      ],
+      "synonyms": [
+        "dreadfully",
+        "terribly"
+      ],
       "antonyms": [],
       "domainCohort": [],
-      "derivationPair": ["direful"],
+      "derivationPair": [
+        "direful"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -1299,31 +4090,90 @@
   {
     "word": "dirges",
     "phonetic": "/ˈdɜːrdʒɪz/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "挽歌们（复数）", "en": "plural of dirge"},
-    "morphemes": [
-      {"canonical": "dirge", "role": "root", "meaning": "挽歌", "sentiment": {"tags": ["消极"], "intensity": 2}, "order": 1, "form": "dirge", "positionTendency": "initial", "coreMeaning": {"cn": "挽歌", "en": "funeral song"}},
-      {"canonical": "-s", "role": "suffix", "meaning": "复数", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "s", "positionTendency": "final", "coreMeaning": {"cn": "复数", "en": "plural"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "dirge", "to": "dirges", "operation": "+-s"}]},
+    "coreMeaning": {
+      "cn": "挽歌们（复数）",
+      "en": "plural of dirge"
+    },
+    "morphemes": [
+      {
+        "canonical": "dirge",
+        "role": "root",
+        "meaning": "挽歌",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 2
+        },
+        "order": 1,
+        "form": "dirge",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "挽歌",
+          "en": "funeral song"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "meaning": "复数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "s",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "dirges"
+    ],
     "morphVariantOf": "dirge",
     "memorySemantics": {
       "literal": "dirge(挽歌)+s(复数) = 多首挽歌",
-      "imageChain": ["多首哀歌", "葬礼音乐", "哀悼"],
+      "imageChain": [
+        "多首哀歌",
+        "葬礼音乐",
+        "哀悼"
+      ],
       "mnemonicExpr": "dirge（挽歌）+ -s → dirges（复数）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["消极"], "intensity": 2},
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 2
+      },
+      "domain": [
+        "general"
+      ],
       "formality": "formal"
     },
     "relations": {
-      "sameRoot": ["dirge"],
+      "sameRoot": [
+        "dirge"
+      ],
       "sameAffix": [],
-      "synonyms": ["elegies", "laments"],
+      "synonyms": [
+        "elegies",
+        "laments"
+      ],
       "antonyms": [],
       "domainCohort": [],
-      "derivationPair": ["dirge"],
+      "derivationPair": [
+        "dirge"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -1331,31 +4181,89 @@
   {
     "word": "dirks",
     "phonetic": "/dɜːrks/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "短剑们（复数）", "en": "plural of dirk"},
-    "morphemes": [
-      {"canonical": "dirk", "role": "root", "meaning": "匕首", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "dirk", "positionTendency": "initial", "coreMeaning": {"cn": "匕首", "en": "dagger"}},
-      {"canonical": "-s", "role": "suffix", "meaning": "复数", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "s", "positionTendency": "final", "coreMeaning": {"cn": "复数", "en": "plural"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "dirk", "to": "dirks", "operation": "+-s"}]},
+    "coreMeaning": {
+      "cn": "短剑们（复数）",
+      "en": "plural of dirk"
+    },
+    "morphemes": [
+      {
+        "canonical": "dirk",
+        "role": "root",
+        "meaning": "匕首",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "dirk",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "匕首",
+          "en": "dagger"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "meaning": "复数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "s",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "dirks"
+    ],
     "morphVariantOf": "dirk",
     "memorySemantics": {
       "literal": "dirk(匕首)+s(复数) = 多把匕首",
-      "imageChain": ["武器库", "多把短剑", "格斗装备"],
+      "imageChain": [
+        "武器库",
+        "多把短剑",
+        "格斗装备"
+      ],
       "mnemonicExpr": "dirk（匕首）+ -s → dirks（复数）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["中性"], "intensity": 0},
-      "domain": ["general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
       "formality": "neutral"
     },
     "relations": {
-      "sameRoot": ["dirk"],
+      "sameRoot": [
+        "dirk"
+      ],
       "sameAffix": [],
-      "synonyms": ["daggers"],
+      "synonyms": [
+        "daggers"
+      ],
       "antonyms": [],
       "domainCohort": [],
-      "derivationPair": ["dirk"],
+      "derivationPair": [
+        "dirk"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -1363,32 +4271,106 @@
   {
     "word": "dipswitches",
     "phonetic": "/ˈdɪpˌswɪtʃɪz/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "拨码开关（复数）", "en": "plural of dipswitch"},
-    "morphemes": [
-      {"canonical": "dip", "role": "root", "meaning": "小型", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "dip", "positionTendency": "initial", "coreMeaning": {"cn": "小型", "en": "small"}},
-      {"canonical": "switch", "role": "root", "meaning": "开关", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "switch", "positionTendency": "medial", "coreMeaning": {"cn": "开关", "en": "switch"}},
-      {"canonical": "-es", "role": "suffix", "meaning": "复数", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "es", "positionTendency": "final", "coreMeaning": {"cn": "复数", "en": "plural"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "dipswitch", "to": "dipswitches", "operation": "+-es"}]},
+    "coreMeaning": {
+      "cn": "拨码开关（复数）",
+      "en": "plural of dipswitch"
+    },
+    "morphemes": [
+      {
+        "canonical": "dip",
+        "role": "root",
+        "meaning": "小型",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "dip",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "小型",
+          "en": "small"
+        }
+      },
+      {
+        "canonical": "switch",
+        "role": "root",
+        "meaning": "开关",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "switch",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "开关",
+          "en": "switch"
+        }
+      },
+      {
+        "canonical": "-es",
+        "role": "suffix",
+        "meaning": "复数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "es",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "dipswitches"
+    ],
     "morphVariantOf": "dipswitch",
     "memorySemantics": {
       "literal": "dipswitch(拨码开关)+es = 多个拨码开关",
-      "imageChain": ["电路板", "多个开关", "硬件配置"],
+      "imageChain": [
+        "电路板",
+        "多个开关",
+        "硬件配置"
+      ],
       "mnemonicExpr": "dipswitch（拨码开关）+ -es → dipswitches（复数）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["中性"], "intensity": 0},
-      "domain": ["tech"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech"
+      ],
       "formality": "technical"
     },
     "relations": {
-      "sameRoot": ["dipswitch", "dipstick"],
+      "sameRoot": [
+        "dipswitch",
+        "dipstick"
+      ],
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
       "domainCohort": [],
-      "derivationPair": ["dipswitch"],
+      "derivationPair": [
+        "dipswitch"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -1396,32 +4378,106 @@
   {
     "word": "diptychs",
     "phonetic": "/ˈdɪptɪks/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "二联画们（复数）", "en": "plural of diptych"},
-    "morphemes": [
-      {"canonical": "di-", "role": "prefix", "meaning": "二；双", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "dip", "positionTendency": "initial", "coreMeaning": {"cn": "二", "en": "two"}},
-      {"canonical": "ptych", "role": "root", "meaning": "折叠", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "tych", "positionTendency": "medial", "coreMeaning": {"cn": "折叠", "en": "fold"}},
-      {"canonical": "-s", "role": "suffix", "meaning": "复数", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": {"cn": "复数", "en": "plural"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "diptych", "to": "diptychs", "operation": "+-s"}]},
+    "coreMeaning": {
+      "cn": "二联画们（复数）",
+      "en": "plural of diptych"
+    },
+    "morphemes": [
+      {
+        "canonical": "di-",
+        "role": "prefix",
+        "meaning": "二；双",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "dip",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "二",
+          "en": "two"
+        }
+      },
+      {
+        "canonical": "ptych",
+        "role": "root",
+        "meaning": "折叠",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "tych",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "折叠",
+          "en": "fold"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "meaning": "复数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "s",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "diptychs"
+    ],
     "morphVariantOf": "diptych",
     "memorySemantics": {
       "literal": "diptych(二联画)+s(复数) = 多幅二联画",
-      "imageChain": ["多件艺术品", "宗教画", "双折板"],
+      "imageChain": [
+        "多件艺术品",
+        "宗教画",
+        "双折板"
+      ],
       "mnemonicExpr": "diptych（二联画）+ -s → diptychs（复数）"
     },
     "wordLevel": {
-      "sentiment": {"tags": ["中性"], "intensity": 0},
-      "domain": ["academic", "general"],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "academic",
+        "general"
+      ],
       "formality": "formal"
     },
     "relations": {
-      "sameRoot": ["diptych"],
+      "sameRoot": [
+        "diptych"
+      ],
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
       "domainCohort": [],
-      "derivationPair": ["diptych"],
+      "derivationPair": [
+        "diptych"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }

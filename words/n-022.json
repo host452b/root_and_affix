@@ -3,59 +3,372 @@
     "word": "nightmare",
     "phonetic": "/'naɪtmɛr/",
     "pos": "n.",
-    "coreMeaning": {"cn": "噩梦；可怕的经历", "en": "nightmare; terrifying dream/ordeal"},
+    "coreMeaning": {
+      "cn": "噩梦；可怕的经历",
+      "en": "nightmare; terrifying dream/ordeal"
+    },
     "morphemes": [
-      {"canonical": "night", "role": "root", "meaning": "夜晚", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "night", "positionTendency": "initial", "coreMeaning": {"cn": "夜晚", "en": "night"}},
-      {"canonical": "mare", "role": "root", "meaning": "女妖；梦魇", "sentiment": {"tags": ["消极"], "intensity": -2}, "order": 2, "form": "mare", "positionTendency": "final", "coreMeaning": {"cn": "女妖", "en": "evil spirit"}}
+      {
+        "canonical": "night",
+        "role": "root",
+        "meaning": "夜晚",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "night",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "夜晚",
+          "en": "night"
+        }
+      },
+      {
+        "canonical": "mare",
+        "role": "root",
+        "meaning": "女妖；梦魇",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -2
+        },
+        "order": 2,
+        "form": "mare",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "女妖",
+          "en": "evil spirit"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "night + mare(evil spirit)", "to": "nightmare", "rule": "night demon → terrifying dream"}]},
+    "derivationChain": [
+      "nightmare"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "night(夜)+mare(女妖)→ 夜间的女妖→噩梦", "imageChain": ["噩梦", "夜间恐惧", "可怕经历"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["消极"], "intensity": -2}},
-    "relations": {"sameRoot": ["nightmarish"], "sameAffix": [], "synonyms": ["bad dream", "ordeal", "horror"], "antonyms": ["dream", "bliss"], "domainCohort": ["bad dream", "horror", "ordeal"], "derivationPair": ["nightmarish"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "night(夜)+mare(女妖)→ 夜间的女妖→噩梦",
+      "imageChain": [
+        "噩梦",
+        "夜间恐惧",
+        "可怕经历"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "nightmarish"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "bad dream",
+        "ordeal",
+        "horror"
+      ],
+      "antonyms": [
+        "dream",
+        "bliss"
+      ],
+      "domainCohort": [
+        "bad dream",
+        "horror",
+        "ordeal"
+      ],
+      "derivationPair": [
+        "nightmarish"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "nihilism",
     "phonetic": "/'naɪɪlɪzəm/",
     "pos": "n.",
-    "coreMeaning": {"cn": "虚无主义；否定一切", "en": "nihilism; rejection of all values"},
+    "coreMeaning": {
+      "cn": "虚无主义；否定一切",
+      "en": "nihilism; rejection of all values"
+    },
     "morphemes": [
-      {"canonical": "nihil-", "role": "root", "meaning": "虚无；什么都没有", "sentiment": {"tags": ["消极"], "intensity": -2}, "order": 1, "form": "nihil", "positionTendency": "initial", "coreMeaning": {"cn": "虚无", "en": "nothing"}},
-      {"canonical": "-ism", "role": "suffix", "meaning": "名词后缀：主义/体系", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ism", "positionTendency": "final", "coreMeaning": {"cn": "主义", "en": "doctrine/belief"}}
+      {
+        "canonical": "nihil-",
+        "role": "root",
+        "meaning": "虚无；什么都没有",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -2
+        },
+        "order": 1,
+        "form": "nihil",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "虚无",
+          "en": "nothing"
+        }
+      },
+      {
+        "canonical": "-ism",
+        "role": "suffix",
+        "meaning": "名词后缀：主义/体系",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ism",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "主义",
+          "en": "doctrine/belief"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "Latin nihil(nothing) + -ism", "to": "nihilism", "rule": "nothing + -ism → doctrine that nothing has value"}]},
+    "derivationChain": [
+      "nihilism"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "nihil(虚无)+ism→ 否定一切的思想→虚无主义", "imageChain": ["虚无主义", "否定价值", "哲学颓废"]},
-    "wordLevel": {"domain": ["general", "academic", "literary"], "sentiment": {"tags": ["消极"], "intensity": -2}},
-    "relations": {"sameRoot": ["nihilist", "nihilistic", "nihility"], "sameAffix": ["existentialism", "fatalism"], "synonyms": ["cynicism", "negativism"], "antonyms": ["idealism", "optimism"], "domainCohort": ["pessimism", "cynicism", "existentialism"], "derivationPair": ["nihilist"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "nihil(虚无)+ism→ 否定一切的思想→虚无主义",
+      "imageChain": [
+        "虚无主义",
+        "否定价值",
+        "哲学颓废"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic",
+        "literary"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "nihilist",
+        "nihilistic",
+        "nihility"
+      ],
+      "sameAffix": [
+        "existentialism",
+        "fatalism"
+      ],
+      "synonyms": [
+        "cynicism",
+        "negativism"
+      ],
+      "antonyms": [
+        "idealism",
+        "optimism"
+      ],
+      "domainCohort": [
+        "pessimism",
+        "cynicism",
+        "existentialism"
+      ],
+      "derivationPair": [
+        "nihilist"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "nimble",
     "phonetic": "/'nɪmbl/",
     "pos": "adj.",
-    "coreMeaning": {"cn": "敏捷的；聪明的", "en": "nimble; quick/agile"},
+    "coreMeaning": {
+      "cn": "敏捷的；聪明的",
+      "en": "nimble; quick/agile"
+    },
     "morphemes": [
-      {"canonical": "nimble", "role": "root", "meaning": "敏捷；灵活", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "nimble", "positionTendency": "medial", "coreMeaning": {"cn": "敏捷", "en": "quick/agile"}}
+      {
+        "canonical": "nimble",
+        "role": "root",
+        "meaning": "敏捷；灵活",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "nimble",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "敏捷",
+          "en": "quick/agile"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "Old English naem(quick to grasp)", "to": "nimble", "rule": "able to take quickly → agile"}]},
+    "derivationChain": [
+      "nimble"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "nimble → 手脚灵活，思维敏捷", "imageChain": ["灵活手指", "敏捷行动", "快速思维"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["积极"], "intensity": 1}},
-    "relations": {"sameRoot": ["nimbleness", "nimbly"], "sameAffix": [], "synonyms": ["agile", "quick", "deft"], "antonyms": ["clumsy", "slow", "awkward"], "domainCohort": ["agile", "deft", "quick-witted"], "derivationPair": ["nimbleness"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "nimble → 手脚灵活，思维敏捷",
+      "imageChain": [
+        "灵活手指",
+        "敏捷行动",
+        "快速思维"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "nimbleness",
+        "nimbly"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "agile",
+        "quick",
+        "deft"
+      ],
+      "antonyms": [
+        "clumsy",
+        "slow",
+        "awkward"
+      ],
+      "domainCohort": [
+        "agile",
+        "deft",
+        "quick-witted"
+      ],
+      "derivationPair": [
+        "nimbleness"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "nimiety",
     "phonetic": "/nɪ'maɪɪti/",
     "pos": "n.",
-    "coreMeaning": {"cn": "过多；过剩", "en": "nimiety; excess/superfluity"},
+    "coreMeaning": {
+      "cn": "过多；过剩",
+      "en": "nimiety; excess/superfluity"
+    },
     "morphemes": [
-      {"canonical": "nimus", "role": "root", "meaning": "过多；超过", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "nimi", "positionTendency": "initial", "coreMeaning": {"cn": "过多", "en": "excess"}},
-      {"canonical": "-ety", "role": "suffix", "meaning": "名词后缀：状态", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ety", "positionTendency": "final", "coreMeaning": {"cn": "状态", "en": "state"}}
+      {
+        "canonical": "nimus",
+        "role": "root",
+        "meaning": "过多；超过",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "nimi",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "过多",
+          "en": "excess"
+        }
+      },
+      {
+        "canonical": "-ety",
+        "role": "suffix",
+        "meaning": "名词后缀：状态",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ety",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "状态",
+          "en": "state"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "Latin nimius(too much) + -ety", "to": "nimiety", "rule": "nimis(too) → nimiety (excess)"}]},
+    "derivationChain": [
+      "nimiety"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "nimi(过多)+ety→ 过多的状态→过剩", "imageChain": ["过多", "泛滥", "过量"]},
-    "wordLevel": {"domain": ["general", "literary", "academic"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": [], "sameAffix": ["variety", "propriety"], "synonyms": ["excess", "surplus", "superfluity"], "antonyms": ["scarcity", "dearth", "lack"], "domainCohort": ["excess", "surplus", "overabundance"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "nimi(过多)+ety→ 过多的状态→过剩",
+      "imageChain": [
+        "过多",
+        "泛滥",
+        "过量"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "literary",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [
+        "variety",
+        "propriety"
+      ],
+      "synonyms": [
+        "excess",
+        "surplus",
+        "superfluity"
+      ],
+      "antonyms": [
+        "scarcity",
+        "dearth",
+        "lack"
+      ],
+      "domainCohort": [
+        "excess",
+        "surplus",
+        "overabundance"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

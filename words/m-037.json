@@ -2,94 +2,542 @@
   {
     "word": "medicate",
     "phonetic": "/ˈmɛdɪkeɪt/",
-    "pos": ["v"],
-    "coreMeaning": {"cn": "用药物治疗；给…用药", "en": "to treat with medicine; to add a medicinal substance to"},
-    "morphemes": [
-      {"form": "medic", "role": "root", "canonical": "medic-", "meaning": "heal, medicine (Latin: medicus)", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"form": "ate", "role": "suffix", "canonical": "-ate", "meaning": "to make, cause", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    "pos": [
+      "v"
     ],
-    "derivationChain": "medicus (Latin: physician) → medicate → medicated, medication",
+    "coreMeaning": {
+      "cn": "用药物治疗；给…用药",
+      "en": "to treat with medicine; to add a medicinal substance to"
+    },
+    "morphemes": [
+      {
+        "form": "medic",
+        "role": "root",
+        "canonical": "medic-",
+        "meaning": "heal, medicine (Latin: medicus)",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "ate",
+        "role": "suffix",
+        "canonical": "-ate",
+        "meaning": "to make, cause",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "medicus (Latin: physician) → medicate → medicated, medication"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"imagery": "医生为患者开具处方并用药治疗", "mnemonic": "medic（医）+ ate → 用药治疗 → 用药"},
-    "wordLevel": "TOEFL",
-    "relations": {"sameRoot": ["medicine", "medication", "medical", "medic"], "sameAffix": [], "synonyms": ["treat", "dose", "administer"], "antonyms": [], "domainCohort": [], "derivationPair": [["medicate", "medication"]], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "imagery": "医生为患者开具处方并用药治疗",
+      "mnemonic": "medic（医）+ ate → 用药治疗 → 用药",
+      "imageChain": []
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "register": "neutral",
+      "formality": 3,
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "medicine",
+        "medication",
+        "medical",
+        "medic"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "treat",
+        "dose",
+        "administer"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        [
+          "medicate",
+          "medication"
+        ]
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "medication",
     "phonetic": "/ˌmɛdɪˈkeɪʃən/",
-    "pos": ["n"],
-    "coreMeaning": {"cn": "药物；药物治疗", "en": "a substance used to treat illness; the process of treating with medicine"},
-    "morphemes": [
-      {"form": "medic", "role": "root", "canonical": "medic-", "meaning": "heal, medicine (Latin: medicus)", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"form": "ation", "role": "suffix", "canonical": "-ation", "meaning": "action, state, result", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    "pos": [
+      "n"
     ],
-    "derivationChain": "medicus → medicate → medication",
+    "coreMeaning": {
+      "cn": "药物；药物治疗",
+      "en": "a substance used to treat illness; the process of treating with medicine"
+    },
+    "morphemes": [
+      {
+        "form": "medic",
+        "role": "root",
+        "canonical": "medic-",
+        "meaning": "heal, medicine (Latin: medicus)",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "ation",
+        "role": "suffix",
+        "canonical": "-ation",
+        "meaning": "action, state, result",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "medicus → medicate → medication"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"imagery": "药柜里整齐排列的各种药物", "mnemonic": "medic（医）+ ation → 医疗行为/药物"},
-    "wordLevel": "CET4",
-    "relations": {"sameRoot": ["medicate", "medicine", "medical"], "sameAffix": [], "synonyms": ["medicine", "drug", "remedy", "pharmaceutical"], "antonyms": [], "domainCohort": [], "derivationPair": [["medicate", "medication"]], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "imagery": "药柜里整齐排列的各种药物",
+      "mnemonic": "medic（医）+ ation → 医疗行为/药物",
+      "imageChain": []
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "register": "neutral",
+      "formality": 3,
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "medicate",
+        "medicine",
+        "medical"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "medicine",
+        "drug",
+        "remedy",
+        "pharmaceutical"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        [
+          "medicate",
+          "medication"
+        ]
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "medieval",
     "phonetic": "/ˌmɛdɪˈiːvəl/",
-    "pos": ["adj"],
-    "coreMeaning": {"cn": "中世纪的；中古的", "en": "relating to the Middle Ages (roughly 5th to 15th century)"},
-    "morphemes": [
-      {"form": "medi", "role": "prefix", "canonical": "medi-", "meaning": "middle (Latin: medius)", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"form": "ev", "role": "root", "canonical": "ev-", "meaning": "age, era (Latin: aevum)", "positionTendency": "medial", "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"form": "al", "role": "suffix", "canonical": "-al", "meaning": "relating to", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    "pos": [
+      "adj"
     ],
-    "derivationChain": "medius (middle) + aevum (age) → medieval → medievalism",
+    "coreMeaning": {
+      "cn": "中世纪的；中古的",
+      "en": "relating to the Middle Ages (roughly 5th to 15th century)"
+    },
+    "morphemes": [
+      {
+        "form": "medi",
+        "role": "prefix",
+        "canonical": "medi-",
+        "meaning": "middle (Latin: medius)",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "ev",
+        "role": "root",
+        "canonical": "ev-",
+        "meaning": "age, era (Latin: aevum)",
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "al",
+        "role": "suffix",
+        "canonical": "-al",
+        "meaning": "relating to",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "medius (middle) + aevum (age) → medieval → medievalism"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"imagery": "骑士、城堡、封建制度的中世纪欧洲", "mnemonic": "medi（中）+ ev（时代）+ al → 中间时代的 → 中世纪的"},
-    "wordLevel": "IELTS",
-    "relations": {"sameRoot": ["medial", "medium", "mediocre"], "sameAffix": [], "synonyms": ["Middle Age", "feudal", "archaic"], "antonyms": ["modern", "contemporary"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "imagery": "骑士、城堡、封建制度的中世纪欧洲",
+      "mnemonic": "medi（中）+ ev（时代）+ al → 中间时代的 → 中世纪的",
+      "imageChain": []
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "register": "neutral",
+      "formality": 3,
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "medial",
+        "medium",
+        "mediocre"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "Middle Age",
+        "feudal",
+        "archaic"
+      ],
+      "antonyms": [
+        "modern",
+        "contemporary"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "mediocre",
     "phonetic": "/ˌmiːdɪˈoʊkər/",
-    "pos": ["adj"],
-    "coreMeaning": {"cn": "平庸的；二流的；普通的", "en": "of only moderate quality; not very good; average"},
-    "morphemes": [
-      {"form": "medi", "role": "prefix", "canonical": "medi-", "meaning": "middle (Latin: medius)", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"form": "ocr", "role": "root", "canonical": "ocr-", "meaning": "height, peak (Latin: ocris, rough mountain)", "positionTendency": "medial", "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"form": "e", "role": "suffix", "canonical": "-e", "meaning": "adjective marker", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    "pos": [
+      "adj"
     ],
-    "derivationChain": "medius + ocris (Latin: mid-height) → mediocris → mediocre → mediocrity",
+    "coreMeaning": {
+      "cn": "平庸的；二流的；普通的",
+      "en": "of only moderate quality; not very good; average"
+    },
+    "morphemes": [
+      {
+        "form": "medi",
+        "role": "prefix",
+        "canonical": "medi-",
+        "meaning": "middle (Latin: medius)",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "ocr",
+        "role": "root",
+        "canonical": "ocr-",
+        "meaning": "height, peak (Latin: ocris, rough mountain)",
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "e",
+        "role": "suffix",
+        "canonical": "-e",
+        "meaning": "adjective marker",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "medius + ocris (Latin: mid-height) → mediocris → mediocre → mediocrity"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"imagery": "既不高峰也不低谷，停在半山腰的平庸状态", "mnemonic": "medi（中）+ ocre（高处）→ 在中间高度 → 平庸的"},
-    "wordLevel": "GRE",
-    "relations": {"sameRoot": ["mediocrity", "medium", "medieval"], "sameAffix": [], "synonyms": ["average", "ordinary", "middling", "pedestrian"], "antonyms": ["excellent", "exceptional", "outstanding", "superb"], "domainCohort": [], "derivationPair": [["mediocre", "mediocrity"]], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "imagery": "既不高峰也不低谷，停在半山腰的平庸状态",
+      "mnemonic": "medi（中）+ ocre（高处）→ 在中间高度 → 平庸的",
+      "imageChain": []
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "register": "neutral",
+      "formality": 3,
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "mediocrity",
+        "medium",
+        "medieval"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "average",
+        "ordinary",
+        "middling",
+        "pedestrian"
+      ],
+      "antonyms": [
+        "excellent",
+        "exceptional",
+        "outstanding",
+        "superb"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        [
+          "mediocre",
+          "mediocrity"
+        ]
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "mediocrity",
     "phonetic": "/ˌmiːdɪˈɒkrɪti/",
-    "pos": ["n"],
-    "coreMeaning": {"cn": "平庸；平庸之人", "en": "the quality of being only moderately good; a person of mediocre ability"},
-    "morphemes": [
-      {"form": "medi", "role": "prefix", "canonical": "medi-", "meaning": "middle (Latin: medius)", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"form": "ocr", "role": "root", "canonical": "ocr-", "meaning": "height (Latin: ocris)", "positionTendency": "medial", "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"form": "ity", "role": "suffix", "canonical": "-ity", "meaning": "state or quality", "positionTendency": "final", "sentiment": {"tags": ["贬义"], "intensity": 1}}
+    "pos": [
+      "n"
     ],
-    "derivationChain": "mediocre → mediocrity → mediocrities",
+    "coreMeaning": {
+      "cn": "平庸；平庸之人",
+      "en": "the quality of being only moderately good; a person of mediocre ability"
+    },
+    "morphemes": [
+      {
+        "form": "medi",
+        "role": "prefix",
+        "canonical": "medi-",
+        "meaning": "middle (Latin: medius)",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "ocr",
+        "role": "root",
+        "canonical": "ocr-",
+        "meaning": "height (Latin: ocris)",
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "ity",
+        "role": "suffix",
+        "canonical": "-ity",
+        "meaning": "state or quality",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 1
+        }
+      }
+    ],
+    "derivationChain": [
+      "mediocre → mediocrity → mediocrities"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"imagery": "资质平庸，无法出类拔萃", "mnemonic": "mediocre（平庸的）+ ity → 平庸的状态"},
-    "wordLevel": "GRE",
-    "relations": {"sameRoot": ["mediocre", "medium"], "sameAffix": [], "synonyms": ["ordinariness", "averageness", "commonplaceness"], "antonyms": ["excellence", "superiority", "brilliance"], "domainCohort": [], "derivationPair": [["mediocre", "mediocrity"]], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "imagery": "资质平庸，无法出类拔萃",
+      "mnemonic": "mediocre（平庸的）+ ity → 平庸的状态",
+      "imageChain": []
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "register": "neutral",
+      "formality": 3,
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "mediocre",
+        "medium"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "ordinariness",
+        "averageness",
+        "commonplaceness"
+      ],
+      "antonyms": [
+        "excellence",
+        "superiority",
+        "brilliance"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        [
+          "mediocre",
+          "mediocrity"
+        ]
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "meditate",
     "phonetic": "/ˈmɛdɪteɪt/",
-    "pos": ["v"],
-    "coreMeaning": {"cn": "冥想；沉思；思考", "en": "to engage in thought or contemplation; to engage in mental exercise for relaxation"},
-    "morphemes": [
-      {"form": "medit", "role": "root", "canonical": "medit-", "meaning": "think deeply (Latin: meditari)", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"form": "ate", "role": "suffix", "canonical": "-ate", "meaning": "to do, perform", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    "pos": [
+      "v"
     ],
-    "derivationChain": "meditari (Latin: think over) → meditate → meditation, meditative",
+    "coreMeaning": {
+      "cn": "冥想；沉思；思考",
+      "en": "to engage in thought or contemplation; to engage in mental exercise for relaxation"
+    },
+    "morphemes": [
+      {
+        "form": "medit",
+        "role": "root",
+        "canonical": "medit-",
+        "meaning": "think deeply (Latin: meditari)",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "ate",
+        "role": "suffix",
+        "canonical": "-ate",
+        "meaning": "to do, perform",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "meditari (Latin: think over) → meditate → meditation, meditative"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"imagery": "盘腿打坐，闭目冥想的禅修者", "mnemonic": "medit（思考）+ ate → 深深思考 → 冥想"},
-    "wordLevel": "IELTS",
-    "relations": {"sameRoot": ["meditation", "meditative", "premeditate"], "sameAffix": [], "synonyms": ["contemplate", "reflect", "ponder", "ruminate"], "antonyms": [], "domainCohort": [], "derivationPair": [["meditate", "meditation"]], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "imagery": "盘腿打坐，闭目冥想的禅修者",
+      "mnemonic": "medit（思考）+ ate → 深深思考 → 冥想",
+      "imageChain": []
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "register": "neutral",
+      "formality": 3,
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "meditation",
+        "meditative",
+        "premeditate"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "contemplate",
+        "reflect",
+        "ponder",
+        "ruminate"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        [
+          "meditate",
+          "meditation"
+        ]
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

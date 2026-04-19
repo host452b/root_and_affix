@@ -3,73 +3,419 @@
     "word": "liquefy",
     "phonetic": "/ˈlɪkwɪfaɪ/",
     "pos": "v.",
-    "coreMeaning": {"cn": "液化；溶解", "en": "to make or become liquid"},
+    "coreMeaning": {
+      "cn": "液化；溶解",
+      "en": "to make or become liquid"
+    },
     "morphemes": [
-      {"canonical": "liqu-", "role": "root", "meaning": "液体；流动（拉丁语 liquere）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "lique", "positionTendency": "initial", "coreMeaning": {"cn": "液体", "en": "liquid"}},
-      {"canonical": "-fy", "role": "suffix", "meaning": "动词后缀：使…化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-fy", "positionTendency": "final", "coreMeaning": {"cn": "使…化", "en": "make into"}}
+      {
+        "canonical": "liqu-",
+        "role": "root",
+        "meaning": "液体；流动（拉丁语 liquere）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "lique",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "液体",
+          "en": "liquid"
+        }
+      },
+      {
+        "canonical": "-fy",
+        "role": "suffix",
+        "meaning": "动词后缀：使…化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-fy",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "使…化",
+          "en": "make into"
+        }
+      }
     ],
-    "derivationChain": {"steps": []},
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "lique(液体) + fy → 使成液态 → 液化", "imageChain": ["液化", "融化", "溶解"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["liquid", "liquidate", "liquor"], "sameAffix": [], "synonyms": ["melt", "dissolve", "fluidize"], "antonyms": ["solidify", "freeze"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "lique(液体) + fy → 使成液态 → 液化",
+      "imageChain": [
+        "液化",
+        "融化",
+        "溶解"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "liquid",
+        "liquidate",
+        "liquor"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "melt",
+        "dissolve",
+        "fluidize"
+      ],
+      "antonyms": [
+        "solidify",
+        "freeze"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "liquid",
     "phonetic": "/ˈlɪkwɪd/",
     "pos": "adj./n.",
-    "coreMeaning": {"cn": "液体的；清澈的", "en": "a substance that flows freely; in liquid form"},
+    "coreMeaning": {
+      "cn": "液体的；清澈的",
+      "en": "a substance that flows freely; in liquid form"
+    },
     "morphemes": [
-      {"canonical": "liqu-", "role": "root", "meaning": "液体；流动", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "liquid", "positionTendency": "medial", "coreMeaning": {"cn": "液体", "en": "liquid"}}
+      {
+        "canonical": "liqu-",
+        "role": "root",
+        "meaning": "液体；流动",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "liquid",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "液体",
+          "en": "liquid"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "liquid", "to": "liquidate", "operation": "verbalize"}, {"from": "liquid", "to": "liquefy", "operation": "verbalize"}]},
+    "derivationChain": [
+      "liquidate",
+      "liquefy"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "liquid → 可流动的液态物质", "imageChain": ["液体", "流动", "清澈"]},
-    "wordLevel": {"domain": ["general", "academic", "finance"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["liquidate", "liquefy", "liquor", "liquidity"], "sameAffix": [], "synonyms": ["fluid", "solution"], "antonyms": ["solid", "gas"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "liquid → 可流动的液态物质",
+      "imageChain": [
+        "液体",
+        "流动",
+        "清澈"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic",
+        "finance"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "liquidate",
+        "liquefy",
+        "liquor",
+        "liquidity"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "fluid",
+        "solution"
+      ],
+      "antonyms": [
+        "solid",
+        "gas"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "liquidate",
     "phonetic": "/ˈlɪkwɪdeɪt/",
     "pos": "v.",
-    "coreMeaning": {"cn": "清算；偿付；消除", "en": "to pay off a debt; to close a business; to eliminate"},
+    "coreMeaning": {
+      "cn": "清算；偿付；消除",
+      "en": "to pay off a debt; to close a business; to eliminate"
+    },
     "morphemes": [
-      {"canonical": "liqu-", "role": "root", "meaning": "液体；清除", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "liquid", "positionTendency": "initial", "coreMeaning": {"cn": "流动/清除", "en": "liquid/clear"}},
-      {"canonical": "-ate", "role": "suffix", "meaning": "动词后缀", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-ate", "positionTendency": "final", "coreMeaning": {"cn": "动词", "en": "verb suffix"}}
+      {
+        "canonical": "liqu-",
+        "role": "root",
+        "meaning": "液体；清除",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "liquid",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "流动/清除",
+          "en": "liquid/clear"
+        }
+      },
+      {
+        "canonical": "-ate",
+        "role": "suffix",
+        "meaning": "动词后缀",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ate",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "动词",
+          "en": "verb suffix"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "liquidate", "to": "liquidation", "operation": "nominalize"}]},
+    "derivationChain": [
+      "liquidation"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "liquid + ate → 使变成流动（清算）→ 清偿/消除", "imageChain": ["清算", "偿债", "消灭"]},
-    "wordLevel": {"domain": ["business", "finance", "general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["liquidation", "liquid"], "sameAffix": [], "synonyms": ["pay off", "settle", "eliminate"], "antonyms": [], "domainCohort": [], "derivationPair": [{"word": "liquidation", "relation": "noun form"}], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "liquid + ate → 使变成流动（清算）→ 清偿/消除",
+      "imageChain": [
+        "清算",
+        "偿债",
+        "消灭"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "business",
+        "finance",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "liquidation",
+        "liquid"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "pay off",
+        "settle",
+        "eliminate"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        {
+          "word": "liquidation",
+          "relation": "noun form"
+        }
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "liquidation",
     "phonetic": "/ˌlɪkwɪˈdeɪʃən/",
     "pos": "n.",
-    "coreMeaning": {"cn": "清偿；清算；肃清", "en": "the process of closing a business; the act of eliminating"},
+    "coreMeaning": {
+      "cn": "清偿；清算；肃清",
+      "en": "the process of closing a business; the act of eliminating"
+    },
     "morphemes": [
-      {"canonical": "liqu-", "role": "root", "meaning": "液体；清除", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "liquid", "positionTendency": "initial", "coreMeaning": {"cn": "清除", "en": "clear"}},
-      {"canonical": "-ation", "role": "suffix", "meaning": "名词后缀", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-ation", "positionTendency": "final", "coreMeaning": {"cn": "行为", "en": "action noun"}}
+      {
+        "canonical": "liqu-",
+        "role": "root",
+        "meaning": "液体；清除",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "liquid",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "清除",
+          "en": "clear"
+        }
+      },
+      {
+        "canonical": "-ation",
+        "role": "suffix",
+        "meaning": "名词后缀",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ation",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "行为",
+          "en": "action noun"
+        }
+      }
     ],
-    "derivationChain": {"steps": []},
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "liquidate + ion → 清算的行为", "imageChain": ["清算", "破产", "清偿"]},
-    "wordLevel": {"domain": ["business", "finance"], "sentiment": {"tags": ["消极"], "intensity": 1}},
-    "relations": {"sameRoot": ["liquidate", "liquid"], "sameAffix": [], "synonyms": ["winding up", "dissolution", "settlement"], "antonyms": [], "domainCohort": [], "derivationPair": [{"word": "liquidate", "relation": "verb form"}], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "liquidate + ion → 清算的行为",
+      "imageChain": [
+        "清算",
+        "破产",
+        "清偿"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "business",
+        "finance"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "liquidate",
+        "liquid"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "winding up",
+        "dissolution",
+        "settlement"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        {
+          "word": "liquidate",
+          "relation": "verb form"
+        }
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "liquor",
     "phonetic": "/ˈlɪkər/",
     "pos": "n.",
-    "coreMeaning": {"cn": "酒；含酒精饮料；溶液", "en": "alcoholic drinks; any liquid"},
+    "coreMeaning": {
+      "cn": "酒；含酒精饮料；溶液",
+      "en": "alcoholic drinks; any liquid"
+    },
     "morphemes": [
-      {"canonical": "liqu-", "role": "root", "meaning": "液体；流动", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "liquor", "positionTendency": "medial", "coreMeaning": {"cn": "液体", "en": "liquid"}}
+      {
+        "canonical": "liqu-",
+        "role": "root",
+        "meaning": "液体；流动",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "liquor",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "液体",
+          "en": "liquid"
+        }
+      }
     ],
-    "derivationChain": {"steps": []},
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "liquor → 液态酒精饮料", "imageChain": ["酒", "烈酒", "液体"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["liquid", "liquidate", "liquefy"], "sameAffix": [], "synonyms": ["alcohol", "spirits", "drink"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "liquor → 液态酒精饮料",
+      "imageChain": [
+        "酒",
+        "烈酒",
+        "液体"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "liquid",
+        "liquidate",
+        "liquefy"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "alcohol",
+        "spirits",
+        "drink"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

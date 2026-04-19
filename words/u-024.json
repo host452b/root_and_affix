@@ -2,108 +2,749 @@
   {
     "word": "unknown",
     "phonetic": "/ʌn'noʊn/",
-    "pos": ["adj.", "n."],
-    "coreMeaning": {"cn": "未知的；陌生的；无名的", "en": "not known or familiar; a person or thing that is not known"},
-    "morphemes": [
-      {"role": "prefix", "positionTendency": "initial", "canonical": "un-", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "un", "meaning": "非；不；无", "coreMeaning": {"cn": "非/不", "en": "not"}},
-      {"role": "root", "positionTendency": "final", "canonical": "know", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "known", "meaning": "知道；已知", "coreMeaning": {"cn": "知道", "en": "know"}}
+    "pos": [
+      "adj.",
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "un- + known", "to": "unknown", "by": "un- negation", "meaning": "不被知道的"}]},
+    "coreMeaning": {
+      "cn": "未知的；陌生的；无名的",
+      "en": "not known or familiar; a person or thing that is not known"
+    },
+    "morphemes": [
+      {
+        "role": "prefix",
+        "positionTendency": "initial",
+        "canonical": "un-",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "un",
+        "meaning": "非；不；无",
+        "coreMeaning": {
+          "cn": "非/不",
+          "en": "not"
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "final",
+        "canonical": "know",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "known",
+        "meaning": "知道；已知",
+        "coreMeaning": {
+          "cn": "知道",
+          "en": "know"
+        }
+      }
+    ],
+    "derivationChain": [
+      "unknown"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "un(非)+known(已知) → 尚未被知晓的 → 未知的", "imageChain": ["神秘领域", "陌生人", "未解之谜"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["know", "known", "knowledge"], "sameAffix": ["unclear", "uncertain", "unfamiliar"], "synonyms": ["unfamiliar", "mysterious", "unidentified", "obscure", "undiscovered"], "antonyms": ["known", "familiar", "identified", "established"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "un(非)+known(已知) → 尚未被知晓的 → 未知的",
+      "imageChain": [
+        "神秘领域",
+        "陌生人",
+        "未解之谜"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "know",
+        "known",
+        "knowledge"
+      ],
+      "sameAffix": [
+        "unclear",
+        "uncertain",
+        "unfamiliar"
+      ],
+      "synonyms": [
+        "unfamiliar",
+        "mysterious",
+        "unidentified",
+        "obscure",
+        "undiscovered"
+      ],
+      "antonyms": [
+        "known",
+        "familiar",
+        "identified",
+        "established"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "unleash",
     "phonetic": "/ʌn'liːʃ/",
-    "pos": ["v."],
-    "coreMeaning": {"cn": "释放；发泄；解开束缚", "en": "to release from restraint; to allow a force or emotion to be released"},
-    "morphemes": [
-      {"role": "prefix", "positionTendency": "initial", "canonical": "un-", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "un", "meaning": "解除；反向", "coreMeaning": {"cn": "解除", "en": "un-/release"}},
-      {"role": "root", "positionTendency": "final", "canonical": "leash", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "leash", "meaning": "皮带；束缚", "coreMeaning": {"cn": "皮带", "en": "leash/restraint"}}
+    "pos": [
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "un- + leash", "to": "unleash", "by": "un- reversal", "meaning": "解开皮带束缚→释放"}]},
+    "coreMeaning": {
+      "cn": "释放；发泄；解开束缚",
+      "en": "to release from restraint; to allow a force or emotion to be released"
+    },
+    "morphemes": [
+      {
+        "role": "prefix",
+        "positionTendency": "initial",
+        "canonical": "un-",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "un",
+        "meaning": "解除；反向",
+        "coreMeaning": {
+          "cn": "解除",
+          "en": "un-/release"
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "final",
+        "canonical": "leash",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "leash",
+        "meaning": "皮带；束缚",
+        "coreMeaning": {
+          "cn": "皮带",
+          "en": "leash/restraint"
+        }
+      }
+    ],
+    "derivationChain": [
+      "unleash"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "un(解除)+leash(皮带) → 解开皮带束缚 → 释放力量", "imageChain": ["解放力量", "爆发情感", "打开枷锁"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["leash"], "sameAffix": ["unlock", "unchain", "unbind"], "synonyms": ["release", "set free", "let loose", "liberate", "discharge"], "antonyms": ["restrain", "contain", "suppress", "leash", "bind"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "un(解除)+leash(皮带) → 解开皮带束缚 → 释放力量",
+      "imageChain": [
+        "解放力量",
+        "爆发情感",
+        "打开枷锁"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "leash"
+      ],
+      "sameAffix": [
+        "unlock",
+        "unchain",
+        "unbind"
+      ],
+      "synonyms": [
+        "release",
+        "set free",
+        "let loose",
+        "liberate",
+        "discharge"
+      ],
+      "antonyms": [
+        "restrain",
+        "contain",
+        "suppress",
+        "leash",
+        "bind"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "unless",
     "phonetic": "/ən'lɛs/",
-    "pos": ["conj.", "prep."],
-    "coreMeaning": {"cn": "除非；如果不", "en": "except if; on the condition that not"},
-    "morphemes": [
-      {"role": "prefix", "positionTendency": "initial", "canonical": "un-", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "un", "meaning": "除…之外", "coreMeaning": {"cn": "除外", "en": "except"}},
-      {"role": "root", "positionTendency": "final", "canonical": "less", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "less", "meaning": "更少；除…以外", "coreMeaning": {"cn": "除外", "en": "without/less"}}
+    "pos": [
+      "conj.",
+      "prep."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "除非；如果不",
+      "en": "except if; on the condition that not"
+    },
+    "morphemes": [
+      {
+        "role": "prefix",
+        "positionTendency": "initial",
+        "canonical": "un-",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "un",
+        "meaning": "除…之外",
+        "coreMeaning": {
+          "cn": "除外",
+          "en": "except"
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "final",
+        "canonical": "less",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "less",
+        "meaning": "更少；除…以外",
+        "coreMeaning": {
+          "cn": "除外",
+          "en": "without/less"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "un(除)+less(外) → 排除某条件之外 → 除非", "imageChain": ["条件排除", "假设前提", "逻辑条件"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["except if", "if not", "only if", "barring"], "antonyms": ["if", "provided that", "as long as"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "un(除)+less(外) → 排除某条件之外 → 除非",
+      "imageChain": [
+        "条件排除",
+        "假设前提",
+        "逻辑条件"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "except if",
+        "if not",
+        "only if",
+        "barring"
+      ],
+      "antonyms": [
+        "if",
+        "provided that",
+        "as long as"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "unlike",
     "phonetic": "/'ʌn'laɪk/",
-    "pos": ["prep.", "adj."],
-    "coreMeaning": {"cn": "不同于；不像；不相似的", "en": "different from; not similar to; not characteristic of"},
-    "morphemes": [
-      {"role": "prefix", "positionTendency": "initial", "canonical": "un-", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "un", "meaning": "非；不", "coreMeaning": {"cn": "非/不", "en": "not"}},
-      {"role": "root", "positionTendency": "final", "canonical": "like", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "like", "meaning": "相似；类似", "coreMeaning": {"cn": "相似", "en": "similar"}}
+    "pos": [
+      "prep.",
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "un- + like", "to": "unlike", "by": "un- negation", "meaning": "不相似"}]},
+    "coreMeaning": {
+      "cn": "不同于；不像；不相似的",
+      "en": "different from; not similar to; not characteristic of"
+    },
+    "morphemes": [
+      {
+        "role": "prefix",
+        "positionTendency": "initial",
+        "canonical": "un-",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "un",
+        "meaning": "非；不",
+        "coreMeaning": {
+          "cn": "非/不",
+          "en": "not"
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "final",
+        "canonical": "like",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "like",
+        "meaning": "相似；类似",
+        "coreMeaning": {
+          "cn": "相似",
+          "en": "similar"
+        }
+      }
+    ],
+    "derivationChain": [
+      "unlike"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "un(非)+like(相似) → 不相似的 → 不同于", "imageChain": ["差异对比", "截然不同", "对立比较"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["like", "likely", "unlikely"], "sameAffix": ["unlike", "dislike", "unlike"], "synonyms": ["different from", "dissimilar to", "contrasting", "distinct from"], "antonyms": ["like", "similar to", "resembling"], "domainCohort": ["unlikely"], "derivationPair": ["unlikely"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "un(非)+like(相似) → 不相似的 → 不同于",
+      "imageChain": [
+        "差异对比",
+        "截然不同",
+        "对立比较"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "like",
+        "likely",
+        "unlikely"
+      ],
+      "sameAffix": [
+        "unlike",
+        "dislike",
+        "unlike"
+      ],
+      "synonyms": [
+        "different from",
+        "dissimilar to",
+        "contrasting",
+        "distinct from"
+      ],
+      "antonyms": [
+        "like",
+        "similar to",
+        "resembling"
+      ],
+      "domainCohort": [
+        "unlikely"
+      ],
+      "derivationPair": [
+        "unlikely"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "unlikely",
     "phonetic": "/ʌn'laɪkli/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "不太可能的；未必的", "en": "not probable; not expected to happen"},
-    "morphemes": [
-      {"role": "prefix", "positionTendency": "initial", "canonical": "un-", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "un", "meaning": "非；不", "coreMeaning": {"cn": "非/不", "en": "not"}},
-      {"role": "root", "positionTendency": "medial", "canonical": "like", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "like", "meaning": "相似；可能", "coreMeaning": {"cn": "可能", "en": "probable"}},
-      {"role": "suffix", "positionTendency": "final", "canonical": "-ly", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "-ly", "meaning": "副词/形容词后缀", "coreMeaning": {"cn": "…的/地", "en": "adj/adv"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "un- + likely", "to": "unlikely", "by": "un- negation", "meaning": "不大可能的"}]},
+    "coreMeaning": {
+      "cn": "不太可能的；未必的",
+      "en": "not probable; not expected to happen"
+    },
+    "morphemes": [
+      {
+        "role": "prefix",
+        "positionTendency": "initial",
+        "canonical": "un-",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "un",
+        "meaning": "非；不",
+        "coreMeaning": {
+          "cn": "非/不",
+          "en": "not"
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "like",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "like",
+        "meaning": "相似；可能",
+        "coreMeaning": {
+          "cn": "可能",
+          "en": "probable"
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "final",
+        "canonical": "-ly",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-ly",
+        "meaning": "副词/形容词后缀",
+        "coreMeaning": {
+          "cn": "…的/地",
+          "en": "adj/adv"
+        }
+      }
+    ],
+    "derivationChain": [
+      "unlikely"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "un(非)+likely(可能) → 不大可能发生的", "imageChain": ["小概率事件", "意外情况", "几乎不可能"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["likely", "like", "unlike"], "sameAffix": ["improbable", "unbelievable", "unpredictable"], "synonyms": ["improbable", "doubtful", "questionable", "remote", "slim"], "antonyms": ["likely", "probable", "expected", "plausible"], "domainCohort": ["unlike"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "un(非)+likely(可能) → 不大可能发生的",
+      "imageChain": [
+        "小概率事件",
+        "意外情况",
+        "几乎不可能"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "likely",
+        "like",
+        "unlike"
+      ],
+      "sameAffix": [
+        "improbable",
+        "unbelievable",
+        "unpredictable"
+      ],
+      "synonyms": [
+        "improbable",
+        "doubtful",
+        "questionable",
+        "remote",
+        "slim"
+      ],
+      "antonyms": [
+        "likely",
+        "probable",
+        "expected",
+        "plausible"
+      ],
+      "domainCohort": [
+        "unlike"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "unlimited",
     "phonetic": "/ʌn'lɪmɪtɪd/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "无限的；无限制的；广大的", "en": "not restricted or confined; having no limits"},
-    "morphemes": [
-      {"role": "prefix", "positionTendency": "initial", "canonical": "un-", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "un", "meaning": "非；无", "coreMeaning": {"cn": "无", "en": "not"}},
-      {"role": "root", "positionTendency": "medial", "canonical": "limit", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "limit", "meaning": "限制；界限", "coreMeaning": {"cn": "限制", "en": "limit"}},
-      {"role": "suffix", "positionTendency": "final", "canonical": "-ed", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "-ed", "meaning": "过去分词/形容词化", "coreMeaning": {"cn": "…的", "en": "adj"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "un- + limited", "to": "unlimited", "by": "un- negation", "meaning": "没有限制的"}]},
+    "coreMeaning": {
+      "cn": "无限的；无限制的；广大的",
+      "en": "not restricted or confined; having no limits"
+    },
+    "morphemes": [
+      {
+        "role": "prefix",
+        "positionTendency": "initial",
+        "canonical": "un-",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "un",
+        "meaning": "非；无",
+        "coreMeaning": {
+          "cn": "无",
+          "en": "not"
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "limit",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "limit",
+        "meaning": "限制；界限",
+        "coreMeaning": {
+          "cn": "限制",
+          "en": "limit"
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "final",
+        "canonical": "-ed",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-ed",
+        "meaning": "过去分词/形容词化",
+        "coreMeaning": {
+          "cn": "…的",
+          "en": "adj"
+        }
+      }
+    ],
+    "derivationChain": [
+      "unlimited"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "un(无)+limit(限制)+ed → 没有限制的 → 无限的", "imageChain": ["无限资源", "无限制访问", "广阔空间"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 1}, "domain": ["general", "business", "tech"], "formality": "neutral"},
-    "relations": {"sameRoot": ["limit", "limited", "limitation"], "sameAffix": ["boundless", "unrestricted", "infinite"], "synonyms": ["boundless", "infinite", "unrestricted", "endless", "absolute"], "antonyms": ["limited", "restricted", "finite", "constrained"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "un(无)+limit(限制)+ed → 没有限制的 → 无限的",
+      "imageChain": [
+        "无限资源",
+        "无限制访问",
+        "广阔空间"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general",
+        "business",
+        "tech"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "limit",
+        "limited",
+        "limitation"
+      ],
+      "sameAffix": [
+        "boundless",
+        "unrestricted",
+        "infinite"
+      ],
+      "synonyms": [
+        "boundless",
+        "infinite",
+        "unrestricted",
+        "endless",
+        "absolute"
+      ],
+      "antonyms": [
+        "limited",
+        "restricted",
+        "finite",
+        "constrained"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "unload",
     "phonetic": "/'ʌn'loʊd/",
-    "pos": ["v."],
-    "coreMeaning": {"cn": "卸货；卸下；摆脱负担；倾销", "en": "to remove a load from; to get rid of something; to sell quickly at low prices"},
-    "morphemes": [
-      {"role": "prefix", "positionTendency": "initial", "canonical": "un-", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "un", "meaning": "反向；解除", "coreMeaning": {"cn": "解除", "en": "reverse/undo"}},
-      {"role": "root", "positionTendency": "final", "canonical": "load", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "load", "meaning": "装载；负荷", "coreMeaning": {"cn": "装载", "en": "load"}}
+    "pos": [
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "un- + load", "to": "unload", "by": "un- reversal", "meaning": "反向装载→卸下"}]},
+    "coreMeaning": {
+      "cn": "卸货；卸下；摆脱负担；倾销",
+      "en": "to remove a load from; to get rid of something; to sell quickly at low prices"
+    },
+    "morphemes": [
+      {
+        "role": "prefix",
+        "positionTendency": "initial",
+        "canonical": "un-",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "un",
+        "meaning": "反向；解除",
+        "coreMeaning": {
+          "cn": "解除",
+          "en": "reverse/undo"
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "final",
+        "canonical": "load",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "load",
+        "meaning": "装载；负荷",
+        "coreMeaning": {
+          "cn": "装载",
+          "en": "load"
+        }
+      }
+    ],
+    "derivationChain": [
+      "unload"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "un(解除)+load(装载) → 把装载的东西卸下 → 卸货/减轻负担", "imageChain": ["港口卸货", "卸下行李", "倾销库存"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "business"], "formality": "neutral"},
-    "relations": {"sameRoot": ["load", "overload", "upload", "download"], "sameAffix": ["unpack", "unburden", "discharge"], "synonyms": ["discharge", "unpack", "off-load", "dump", "divest"], "antonyms": ["load", "fill", "pack", "burden"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "un(解除)+load(装载) → 把装载的东西卸下 → 卸货/减轻负担",
+      "imageChain": [
+        "港口卸货",
+        "卸下行李",
+        "倾销库存"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "business"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "load",
+        "overload",
+        "upload",
+        "download"
+      ],
+      "sameAffix": [
+        "unpack",
+        "unburden",
+        "discharge"
+      ],
+      "synonyms": [
+        "discharge",
+        "unpack",
+        "off-load",
+        "dump",
+        "divest"
+      ],
+      "antonyms": [
+        "load",
+        "fill",
+        "pack",
+        "burden"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

@@ -2,91 +2,582 @@
   {
     "word": "monotone",
     "phonetic": "/'mɑnəton/",
-    "pos": ["n.", "adj."],
-    "coreMeaning": {"cn": "单调；单音调", "en": "a continuing sound, especially the human voice, that is unvaried in tone"},
-    "morphemes": [
-      {"role": "prefix", "positionTendency": "initial", "canonical": "mono-", "meaning": "one; single", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "mono", "coreMeaning": {"cn": "", "en": ""}},
-      {"role": "root", "positionTendency": "medial", "canonical": "ton", "meaning": "tone; sound", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "tone", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "n.",
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "mono + tone", "to": "monotone", "rule": "mono(one) + tone → single unvaried tone"}]},
+    "coreMeaning": {
+      "cn": "单调；单音调",
+      "en": "a continuing sound, especially the human voice, that is unvaried in tone"
+    },
+    "morphemes": [
+      {
+        "role": "prefix",
+        "positionTendency": "initial",
+        "canonical": "mono-",
+        "meaning": "one; single",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "mono",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "ton",
+        "meaning": "tone; sound",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "tone",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "monotone"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "mono(one) + tone = one unchanging tone", "imageChain": ["单调", "无起伏", "沉闷的声音"], "mnemonicExpr": "monotone voice → 平铺直叙单调的声音"},
-    "wordLevel": {"sentiment": {"tags": ["贬义"], "intensity": -1}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["monotonous", "monotony", "tone"], "sameAffix": [], "synonyms": ["drone", "sameness"], "antonyms": ["variety", "inflection"], "domainCohort": [], "derivationPair": ["monotonous", "monotony"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "mono(one) + tone = one unchanging tone",
+      "imageChain": [
+        "单调",
+        "无起伏",
+        "沉闷的声音"
+      ],
+      "mnemonicExpr": "monotone voice → 平铺直叙单调的声音"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "monotonous",
+        "monotony",
+        "tone"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "drone",
+        "sameness"
+      ],
+      "antonyms": [
+        "variety",
+        "inflection"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "monotonous",
+        "monotony"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "monotonous",
     "phonetic": "/mə'nɑtənəs/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "单调的；无变化的", "en": "dull, tedious, and repetitious; lacking in variety"},
-    "morphemes": [
-      {"role": "prefix", "positionTendency": "initial", "canonical": "mono-", "meaning": "one; single", "sentiment": {"tags": ["贬义"], "intensity": -1}, "order": 1, "form": "mono", "coreMeaning": {"cn": "", "en": ""}},
-      {"role": "root", "positionTendency": "medial", "canonical": "ton", "meaning": "tone; sound", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ton", "coreMeaning": {"cn": "", "en": ""}},
-      {"role": "suffix", "positionTendency": "final", "canonical": "-ous", "meaning": "characterized by", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ous", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "monotone", "to": "monotonous", "rule": "monotone + -ous → adj."}]},
+    "coreMeaning": {
+      "cn": "单调的；无变化的",
+      "en": "dull, tedious, and repetitious; lacking in variety"
+    },
+    "morphemes": [
+      {
+        "role": "prefix",
+        "positionTendency": "initial",
+        "canonical": "mono-",
+        "meaning": "one; single",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "mono",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "ton",
+        "meaning": "tone; sound",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ton",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "final",
+        "canonical": "-ous",
+        "meaning": "characterized by",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ous",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "monotonous"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "mono(one) + ton(tone) + ous = of one tone; tediously uniform", "imageChain": ["单调乏味", "千篇一律", "无聊"], "mnemonicExpr": "monotonous routine → 千篇一律，单调乏味的工作"},
-    "wordLevel": {"sentiment": {"tags": ["贬义"], "intensity": -1}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["monotone", "monotony"], "sameAffix": [], "synonyms": ["tedious", "repetitive", "humdrum", "dreary"], "antonyms": ["varied", "stimulating", "exciting"], "domainCohort": [], "derivationPair": ["monotonously", "monotony"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "mono(one) + ton(tone) + ous = of one tone; tediously uniform",
+      "imageChain": [
+        "单调乏味",
+        "千篇一律",
+        "无聊"
+      ],
+      "mnemonicExpr": "monotonous routine → 千篇一律，单调乏味的工作"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "monotone",
+        "monotony"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "tedious",
+        "repetitive",
+        "humdrum",
+        "dreary"
+      ],
+      "antonyms": [
+        "varied",
+        "stimulating",
+        "exciting"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "monotonously",
+        "monotony"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "monotony",
     "phonetic": "/mə'nɑtəni/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "单调；千篇一律", "en": "tedious sameness or lack of variety"},
-    "morphemes": [
-      {"role": "prefix", "positionTendency": "initial", "canonical": "mono-", "meaning": "one; single", "sentiment": {"tags": ["贬义"], "intensity": -1}, "order": 1, "form": "mono", "coreMeaning": {"cn": "", "en": ""}},
-      {"role": "root", "positionTendency": "medial", "canonical": "ton", "meaning": "tone", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ton", "coreMeaning": {"cn": "", "en": ""}},
-      {"role": "suffix", "positionTendency": "final", "canonical": "-y", "meaning": "state or quality", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "y", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "monotone", "to": "monotony", "rule": "monotone + -y → state of being monotone"}]},
+    "coreMeaning": {
+      "cn": "单调；千篇一律",
+      "en": "tedious sameness or lack of variety"
+    },
+    "morphemes": [
+      {
+        "role": "prefix",
+        "positionTendency": "initial",
+        "canonical": "mono-",
+        "meaning": "one; single",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "mono",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "ton",
+        "meaning": "tone",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ton",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "final",
+        "canonical": "-y",
+        "meaning": "state or quality",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "y",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "monotony"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "mono(one) + ton(tone) + y = the state of single unvaried tone", "imageChain": ["乏味", "千篇一律", "无聊"], "mnemonicExpr": "monotony → 日复一日的单调生活"},
-    "wordLevel": {"sentiment": {"tags": ["贬义"], "intensity": -1}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["monotone", "monotonous"], "sameAffix": [], "synonyms": ["tedium", "sameness", "repetitiveness"], "antonyms": ["variety", "diversity", "excitement"], "domainCohort": [], "derivationPair": ["monotonous", "monotone"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "mono(one) + ton(tone) + y = the state of single unvaried tone",
+      "imageChain": [
+        "乏味",
+        "千篇一律",
+        "无聊"
+      ],
+      "mnemonicExpr": "monotony → 日复一日的单调生活"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "monotone",
+        "monotonous"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "tedium",
+        "sameness",
+        "repetitiveness"
+      ],
+      "antonyms": [
+        "variety",
+        "diversity",
+        "excitement"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "monotonous",
+        "monotone"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "monsoon",
     "phonetic": "/,mɑn'sun/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "季风；雨季", "en": "a seasonal wind in South Asia; a period of heavy rainfall"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "medial", "canonical": "monsoon", "meaning": "seasonal wind from Arabic mausim", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "monsoon", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "季风；雨季",
+      "en": "a seasonal wind in South Asia; a period of heavy rainfall"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "monsoon",
+        "meaning": "seasonal wind from Arabic mausim",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "monsoon",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "monsoon = seasonal wind/rain pattern", "imageChain": ["季风", "雨季", "暴雨"], "mnemonicExpr": "monsoon season → 季风季节带来大量降雨"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["rainy season", "seasonal wind"], "antonyms": ["dry season"], "domainCohort": [], "derivationPair": ["monsoons"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "monsoon = seasonal wind/rain pattern",
+      "imageChain": [
+        "季风",
+        "雨季",
+        "暴雨"
+      ],
+      "mnemonicExpr": "monsoon season → 季风季节带来大量降雨"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "rainy season",
+        "seasonal wind"
+      ],
+      "antonyms": [
+        "dry season"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "monsoons"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "monster",
     "phonetic": "/'mɑnstɚ/",
-    "pos": ["n.", "adj."],
-    "coreMeaning": {"cn": "怪物；恶人", "en": "a large, ugly, and frightening imaginary creature; a wicked person"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "initial", "canonical": "monstr", "meaning": "an omen; to show", "sentiment": {"tags": ["贬义"], "intensity": -2}, "order": 1, "form": "monster", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "n.",
+      "adj."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "怪物；恶人",
+      "en": "a large, ugly, and frightening imaginary creature; a wicked person"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "initial",
+        "canonical": "monstr",
+        "meaning": "an omen; to show",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -2
+        },
+        "order": 1,
+        "form": "monster",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "monster = a supernatural omen; frightening creature", "imageChain": ["怪物", "恶魔", "庞然大物"], "mnemonicExpr": "monster → 令人恐惧的怪物"},
-    "wordLevel": {"sentiment": {"tags": ["贬义"], "intensity": -2}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["monstrous", "monstrosity", "demonstrate"], "sameAffix": [], "synonyms": ["beast", "fiend", "villain"], "antonyms": ["angel", "saint"], "domainCohort": [], "derivationPair": ["monstrous", "monstrosity"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "monster = a supernatural omen; frightening creature",
+      "imageChain": [
+        "怪物",
+        "恶魔",
+        "庞然大物"
+      ],
+      "mnemonicExpr": "monster → 令人恐惧的怪物"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -2
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "monstrous",
+        "monstrosity",
+        "demonstrate"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "beast",
+        "fiend",
+        "villain"
+      ],
+      "antonyms": [
+        "angel",
+        "saint"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "monstrous",
+        "monstrosity"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "monstrous",
     "phonetic": "/'mɑnstrəs/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "巨大的；可怕的；骇人听闻的", "en": "large and ugly or frightening; outrageously wrong or absurd"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "initial", "canonical": "monstr", "meaning": "monster; omen", "sentiment": {"tags": ["贬义"], "intensity": -2}, "order": 1, "form": "monstr", "coreMeaning": {"cn": "", "en": ""}},
-      {"role": "suffix", "positionTendency": "final", "canonical": "-ous", "meaning": "characterized by; full of", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ous", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "monster", "to": "monstrous", "rule": "monstr + -ous → adj. like a monster"}]},
+    "coreMeaning": {
+      "cn": "巨大的；可怕的；骇人听闻的",
+      "en": "large and ugly or frightening; outrageously wrong or absurd"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "initial",
+        "canonical": "monstr",
+        "meaning": "monster; omen",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -2
+        },
+        "order": 1,
+        "form": "monstr",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "final",
+        "canonical": "-ous",
+        "meaning": "characterized by; full of",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ous",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "monstrous"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "monstr(monster) + ous = like a monster; shocking", "imageChain": ["可怕", "骇人", "巨大"], "mnemonicExpr": "monstrous crime → 骇人听闻的罪行"},
-    "wordLevel": {"sentiment": {"tags": ["贬义"], "intensity": -2}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["monster", "monstrosity"], "sameAffix": [], "synonyms": ["hideous", "frightful", "outrageous", "heinous"], "antonyms": ["lovely", "beautiful", "normal"], "domainCohort": [], "derivationPair": ["monstrously", "monstrosity"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "monstr(monster) + ous = like a monster; shocking",
+      "imageChain": [
+        "可怕",
+        "骇人",
+        "巨大"
+      ],
+      "mnemonicExpr": "monstrous crime → 骇人听闻的罪行"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -2
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "monster",
+        "monstrosity"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "hideous",
+        "frightful",
+        "outrageous",
+        "heinous"
+      ],
+      "antonyms": [
+        "lovely",
+        "beautiful",
+        "normal"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "monstrously",
+        "monstrosity"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

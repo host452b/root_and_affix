@@ -2,147 +2,901 @@
   {
     "word": "voracious",
     "phonetic": "/və'reɪʃəs/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "贪婪的；贪吃的；如饥似渴的", "en": "wanting or devouring large quantities; excessively eager"},
-    "morphemes": [
-      {"canonical": "vor", "role": "root", "meaning": "吞食；贪婪（拉丁 vorare）", "sentiment": {"tags": ["消极"], "intensity": 2}, "order": 1, "form": "vor", "positionTendency": "initial", "coreMeaning": {"cn": "贪食", "en": "devour"}},
-      {"canonical": "-acious", "role": "suffix", "meaning": "形容词；倾向于…的", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "acious", "positionTendency": "final", "coreMeaning": {"cn": "倾向于", "en": "tending to"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "贪婪的；贪吃的；如饥似渴的",
+      "en": "wanting or devouring large quantities; excessively eager"
+    },
+    "morphemes": [
+      {
+        "canonical": "vor",
+        "role": "root",
+        "meaning": "吞食；贪婪（拉丁 vorare）",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 2
+        },
+        "order": 1,
+        "form": "vor",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "贪食",
+          "en": "devour"
+        }
+      },
+      {
+        "canonical": "-acious",
+        "role": "suffix",
+        "meaning": "形容词；倾向于…的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "acious",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "倾向于",
+          "en": "tending to"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "voracious → 贪婪吞食的，对知识、食物或财富极度渴望", "imageChain": ["贪婪", "狼吞虎咽", "如饥似渴"]},
-    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": 2}, "domain": ["general", "academic"], "formality": "formal"},
-    "relations": {"sameRoot": ["voracity", "devour", "carnivore"], "sameAffix": [], "synonyms": ["insatiable", "ravenous", "gluttonous", "avid", "greedy"], "antonyms": ["abstemious", "moderate", "indifferent"], "domainCohort": [], "derivationPair": ["voracity"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "voracious → 贪婪吞食的，对知识、食物或财富极度渴望",
+      "imageChain": [
+        "贪婪",
+        "狼吞虎咽",
+        "如饥似渴"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 2
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "voracity",
+        "devour",
+        "carnivore"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "insatiable",
+        "ravenous",
+        "gluttonous",
+        "avid",
+        "greedy"
+      ],
+      "antonyms": [
+        "abstemious",
+        "moderate",
+        "indifferent"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "voracity"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "voracity",
     "phonetic": "/və'ræsəti/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "贪食；贪婪", "en": "extreme eagerness or greed; the quality of being voracious"},
-    "morphemes": [
-      {"canonical": "vor", "role": "root", "meaning": "吞食；贪婪（拉丁 vorare）", "sentiment": {"tags": ["消极"], "intensity": 2}, "order": 1, "form": "vor", "positionTendency": "initial", "coreMeaning": {"cn": "贪食", "en": "devour"}},
-      {"canonical": "-acity", "role": "suffix", "meaning": "名词；性质", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "acity", "positionTendency": "final", "coreMeaning": {"cn": "性质", "en": "quality"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "voracious", "to": "voracity", "by": "-ity", "meaning": "the quality of being voracious"}]},
+    "coreMeaning": {
+      "cn": "贪食；贪婪",
+      "en": "extreme eagerness or greed; the quality of being voracious"
+    },
+    "morphemes": [
+      {
+        "canonical": "vor",
+        "role": "root",
+        "meaning": "吞食；贪婪（拉丁 vorare）",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 2
+        },
+        "order": 1,
+        "form": "vor",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "贪食",
+          "en": "devour"
+        }
+      },
+      {
+        "canonical": "-acity",
+        "role": "suffix",
+        "meaning": "名词；性质",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "acity",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "性质",
+          "en": "quality"
+        }
+      }
+    ],
+    "derivationChain": [
+      "voracity"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "voracity → 极度贪食贪婪的性质", "imageChain": ["贪食", "贪婪", "渴望"]},
-    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": 2}, "domain": ["general", "academic"], "formality": "formal"},
-    "relations": {"sameRoot": ["voracious", "devour"], "sameAffix": [], "synonyms": ["greed", "ravenousness", "gluttony", "insatiability"], "antonyms": ["moderation", "temperance", "abstinence"], "domainCohort": [], "derivationPair": ["voracious"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "voracity → 极度贪食贪婪的性质",
+      "imageChain": [
+        "贪食",
+        "贪婪",
+        "渴望"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 2
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "voracious",
+        "devour"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "greed",
+        "ravenousness",
+        "gluttony",
+        "insatiability"
+      ],
+      "antonyms": [
+        "moderation",
+        "temperance",
+        "abstinence"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "voracious"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "vortex",
     "phonetic": "/'vɔːrtɛks/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "漩涡；涡流；动乱中心", "en": "a whirling mass of fluid or air; a place or situation of great activity"},
-    "morphemes": [
-      {"canonical": "vort", "role": "root", "meaning": "旋转（拉丁 vortex，vertere）", "sentiment": {"tags": ["消极"], "intensity": 1}, "order": 1, "form": "vortex", "positionTendency": "medial", "coreMeaning": {"cn": "旋转", "en": "whirl"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "漩涡；涡流；动乱中心",
+      "en": "a whirling mass of fluid or air; a place or situation of great activity"
+    },
+    "morphemes": [
+      {
+        "canonical": "vort",
+        "role": "root",
+        "meaning": "旋转（拉丁 vortex，vertere）",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "vortex",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "旋转",
+          "en": "whirl"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "vortex → 像水中漩涡般旋转，也比喻动乱的中心", "imageChain": ["漩涡", "旋转", "中心"]},
-    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": 1}, "domain": ["general", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": ["vortices", "vortical", "vertex", "divert"], "sameAffix": [], "synonyms": ["whirlpool", "maelstrom", "eddy", "whirlwind"], "antonyms": ["stillness", "calm"], "domainCohort": [], "derivationPair": [], "morphVariants": ["vortices"], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "vortex → 像水中漩涡般旋转，也比喻动乱的中心",
+      "imageChain": [
+        "漩涡",
+        "旋转",
+        "中心"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "vortices",
+        "vortical",
+        "vertex",
+        "divert"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "whirlpool",
+        "maelstrom",
+        "eddy",
+        "whirlwind"
+      ],
+      "antonyms": [
+        "stillness",
+        "calm"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [
+        "vortices"
+      ],
+      "sameImagery": []
+    }
   },
   {
     "word": "votary",
     "phonetic": "/'voʊtəri/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "崇拜者；出家人；虔诚的信徒", "en": "a devoted follower or believer; a person who has taken vows"},
-    "morphemes": [
-      {"canonical": "vot", "role": "root", "meaning": "誓言；奉献（拉丁 votum，许愿）", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "vot", "positionTendency": "initial", "coreMeaning": {"cn": "誓言", "en": "vow"}},
-      {"canonical": "-ary", "role": "suffix", "meaning": "有关…的人", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ary", "positionTendency": "final", "coreMeaning": {"cn": "人", "en": "one who"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "崇拜者；出家人；虔诚的信徒",
+      "en": "a devoted follower or believer; a person who has taken vows"
+    },
+    "morphemes": [
+      {
+        "canonical": "vot",
+        "role": "root",
+        "meaning": "誓言；奉献（拉丁 votum，许愿）",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "vot",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "誓言",
+          "en": "vow"
+        }
+      },
+      {
+        "canonical": "-ary",
+        "role": "suffix",
+        "meaning": "有关…的人",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ary",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "人",
+          "en": "one who"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "votary → 以誓言奉献的崇拜者或虔诚信徒", "imageChain": ["崇拜者", "信徒", "誓言"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 1}, "domain": ["general", "academic"], "formality": "formal"},
-    "relations": {"sameRoot": ["vote", "votive", "devote", "devotee"], "sameAffix": [], "synonyms": ["devotee", "adherent", "worshipper", "disciple"], "antonyms": ["critic", "skeptic", "apostate"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "votary → 以誓言奉献的崇拜者或虔诚信徒",
+      "imageChain": [
+        "崇拜者",
+        "信徒",
+        "誓言"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "vote",
+        "votive",
+        "devote",
+        "devotee"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "devotee",
+        "adherent",
+        "worshipper",
+        "disciple"
+      ],
+      "antonyms": [
+        "critic",
+        "skeptic",
+        "apostate"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "vote",
     "phonetic": "/voʊt/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "投票；选票；表决", "en": "a formal expression of choice; to express a preference"},
-    "morphemes": [
-      {"canonical": "vot", "role": "root", "meaning": "誓言；意愿（拉丁 votum）", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "vote", "positionTendency": "medial", "coreMeaning": {"cn": "意愿", "en": "wish/vow"}}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "投票；选票；表决",
+      "en": "a formal expression of choice; to express a preference"
+    },
+    "morphemes": [
+      {
+        "canonical": "vot",
+        "role": "root",
+        "meaning": "誓言；意愿（拉丁 votum）",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "vote",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "意愿",
+          "en": "wish/vow"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "vote → 表达个人意愿的投票行为", "imageChain": ["投票", "选举", "表决"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 1}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["voter", "voting", "votive", "votary"], "sameAffix": [], "synonyms": ["ballot", "elect", "poll", "choice"], "antonyms": ["abstain"], "domainCohort": ["election", "democracy", "ballot"], "derivationPair": ["voter"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "vote → 表达个人意愿的投票行为",
+      "imageChain": [
+        "投票",
+        "选举",
+        "表决"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "voter",
+        "voting",
+        "votive",
+        "votary"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "ballot",
+        "elect",
+        "poll",
+        "choice"
+      ],
+      "antonyms": [
+        "abstain"
+      ],
+      "domainCohort": [
+        "election",
+        "democracy",
+        "ballot"
+      ],
+      "derivationPair": [
+        "voter"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "votive",
     "phonetic": "/'voʊtɪv/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "奉献的；献纳的；祈愿的", "en": "offered or consecrated in fulfillment of a vow"},
-    "morphemes": [
-      {"canonical": "vot", "role": "root", "meaning": "誓言；许愿（拉丁 votum）", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "vot", "positionTendency": "initial", "coreMeaning": {"cn": "许愿", "en": "vow"}},
-      {"canonical": "-ive", "role": "suffix", "meaning": "形容词；有…性质的", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ive", "positionTendency": "final", "coreMeaning": {"cn": "…的", "en": "relating to"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "vow/votum", "to": "votive", "by": "-ive", "meaning": "relating to or expressing a vow"}]},
+    "coreMeaning": {
+      "cn": "奉献的；献纳的；祈愿的",
+      "en": "offered or consecrated in fulfillment of a vow"
+    },
+    "morphemes": [
+      {
+        "canonical": "vot",
+        "role": "root",
+        "meaning": "誓言；许愿（拉丁 votum）",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "vot",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "许愿",
+          "en": "vow"
+        }
+      },
+      {
+        "canonical": "-ive",
+        "role": "suffix",
+        "meaning": "形容词；有…性质的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ive",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "…的",
+          "en": "relating to"
+        }
+      }
+    ],
+    "derivationChain": [
+      "votive"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "votive → 为履行誓约而奉献的，如许愿蜡烛", "imageChain": ["奉献", "祈愿", "誓约"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 1}, "domain": ["general", "academic"], "formality": "formal"},
-    "relations": {"sameRoot": ["vote", "votary", "devote"], "sameAffix": [], "synonyms": ["dedicatory", "consecrated", "devotional"], "antonyms": [], "domainCohort": ["altar", "candle", "offering"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "votive → 为履行誓约而奉献的，如许愿蜡烛",
+      "imageChain": [
+        "奉献",
+        "祈愿",
+        "誓约"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "vote",
+        "votary",
+        "devote"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "dedicatory",
+        "consecrated",
+        "devotional"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "altar",
+        "candle",
+        "offering"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "vouch",
     "phonetic": "/vaʊtʃ/",
-    "pos": ["v."],
-    "coreMeaning": {"cn": "担保；保证；证明", "en": "to assert or affirm as a guarantee; to give assurance"},
-    "morphemes": [
-      {"canonical": "vouch", "role": "root", "meaning": "保证；召唤（古法语 vochier，拉丁 vocare，呼叫）", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "vouch", "positionTendency": "medial", "coreMeaning": {"cn": "担保", "en": "guarantee"}}
+    "pos": [
+      "v."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "担保；保证；证明",
+      "en": "to assert or affirm as a guarantee; to give assurance"
+    },
+    "morphemes": [
+      {
+        "canonical": "vouch",
+        "role": "root",
+        "meaning": "保证；召唤（古法语 vochier，拉丁 vocare，呼叫）",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "vouch",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "担保",
+          "en": "guarantee"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "vouch → 呼唤证人，引申为担保证明", "imageChain": ["担保", "证明", "保证"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 1}, "domain": ["general", "legal"], "formality": "neutral"},
-    "relations": {"sameRoot": ["voucher", "vouchsafe"], "sameAffix": [], "synonyms": ["guarantee", "certify", "attest", "confirm"], "antonyms": ["deny", "repudiate"], "domainCohort": [], "derivationPair": ["voucher"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "vouch → 呼唤证人，引申为担保证明",
+      "imageChain": [
+        "担保",
+        "证明",
+        "保证"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general",
+        "legal"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "voucher",
+        "vouchsafe"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "guarantee",
+        "certify",
+        "attest",
+        "confirm"
+      ],
+      "antonyms": [
+        "deny",
+        "repudiate"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "voucher"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "voucher",
     "phonetic": "/'vaʊtʃər/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "收据；票券；优惠券；凭证", "en": "a document that entitles holder to goods or services; a receipt"},
-    "morphemes": [
-      {"canonical": "vouch", "role": "root", "meaning": "担保；保证", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "vouch", "positionTendency": "initial", "coreMeaning": {"cn": "担保", "en": "guarantee"}},
-      {"canonical": "-er", "role": "suffix", "meaning": "人或物", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "er", "positionTendency": "final", "coreMeaning": {"cn": "物", "en": "instrument"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "vouch", "to": "voucher", "by": "-er", "meaning": "something that vouches or guarantees"}]},
+    "coreMeaning": {
+      "cn": "收据；票券；优惠券；凭证",
+      "en": "a document that entitles holder to goods or services; a receipt"
+    },
+    "morphemes": [
+      {
+        "canonical": "vouch",
+        "role": "root",
+        "meaning": "担保；保证",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "vouch",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "担保",
+          "en": "guarantee"
+        }
+      },
+      {
+        "canonical": "-er",
+        "role": "suffix",
+        "meaning": "人或物",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "er",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "物",
+          "en": "instrument"
+        }
+      }
+    ],
+    "derivationChain": [
+      "voucher"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "voucher → 起担保作用的凭证或票券", "imageChain": ["凭证", "优惠券", "收据"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 1}, "domain": ["general", "business", "finance"], "formality": "neutral"},
-    "relations": {"sameRoot": ["vouch", "vouchsafe"], "sameAffix": [], "synonyms": ["coupon", "token", "receipt", "certificate"], "antonyms": [], "domainCohort": ["coupon", "receipt", "ticket"], "derivationPair": ["vouch"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "voucher → 起担保作用的凭证或票券",
+      "imageChain": [
+        "凭证",
+        "优惠券",
+        "收据"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general",
+        "business",
+        "finance"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "vouch",
+        "vouchsafe"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "coupon",
+        "token",
+        "receipt",
+        "certificate"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "coupon",
+        "receipt",
+        "ticket"
+      ],
+      "derivationPair": [
+        "vouch"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "vow",
     "phonetic": "/vaʊ/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "誓约；许愿；庄严承诺", "en": "a solemn promise or assertion; to solemnly promise"},
-    "morphemes": [
-      {"canonical": "vow", "role": "root", "meaning": "誓约；许愿（拉丁 votum）", "sentiment": {"tags": ["积极"], "intensity": 2}, "order": 1, "form": "vow", "positionTendency": "medial", "coreMeaning": {"cn": "誓约", "en": "solemn promise"}}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "誓约；许愿；庄严承诺",
+      "en": "a solemn promise or assertion; to solemnly promise"
+    },
+    "morphemes": [
+      {
+        "canonical": "vow",
+        "role": "root",
+        "meaning": "誓约；许愿（拉丁 votum）",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 2
+        },
+        "order": 1,
+        "form": "vow",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "誓约",
+          "en": "solemn promise"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "vow → 庄严的誓约，如婚誓或宗教誓言", "imageChain": ["誓约", "承诺", "许愿"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 2}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["vowed", "vowing", "devote", "vote"], "sameAffix": [], "synonyms": ["pledge", "oath", "promise", "swear"], "antonyms": ["break", "renounce"], "domainCohort": ["oath", "pledge", "covenant"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "vow → 庄严的誓约，如婚誓或宗教誓言",
+      "imageChain": [
+        "誓约",
+        "承诺",
+        "许愿"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "vowed",
+        "vowing",
+        "devote",
+        "vote"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "pledge",
+        "oath",
+        "promise",
+        "swear"
+      ],
+      "antonyms": [
+        "break",
+        "renounce"
+      ],
+      "domainCohort": [
+        "oath",
+        "pledge",
+        "covenant"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "vowel",
     "phonetic": "/'vaʊəl/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "元音；母音", "en": "a speech sound produced with an open vocal tract; letters a, e, i, o, u"},
-    "morphemes": [
-      {"canonical": "voc", "role": "root", "meaning": "声音；声（拉丁 vocalis，有声的）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "vow", "positionTendency": "initial", "coreMeaning": {"cn": "声音", "en": "voice"}},
-      {"canonical": "-el", "role": "suffix", "meaning": "名词", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "el", "positionTendency": "final", "coreMeaning": {"cn": "物", "en": "thing"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "元音；母音",
+      "en": "a speech sound produced with an open vocal tract; letters a, e, i, o, u"
+    },
+    "morphemes": [
+      {
+        "canonical": "voc",
+        "role": "root",
+        "meaning": "声音；声（拉丁 vocalis，有声的）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "vow",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "声音",
+          "en": "voice"
+        }
+      },
+      {
+        "canonical": "-el",
+        "role": "suffix",
+        "meaning": "名词",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "el",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "物",
+          "en": "thing"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "vowel → 发音时声带振动不受阻碍的元音", "imageChain": ["元音", "声音", "音节"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": ["vocal", "voice", "vocal"], "sameAffix": [], "synonyms": ["vocal sound"], "antonyms": ["consonant"], "domainCohort": ["phonetics", "alphabet", "consonant"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "vowel → 发音时声带振动不受阻碍的元音",
+      "imageChain": [
+        "元音",
+        "声音",
+        "音节"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "vocal",
+        "voice",
+        "vocal"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "vocal sound"
+      ],
+      "antonyms": [
+        "consonant"
+      ],
+      "domainCohort": [
+        "phonetics",
+        "alphabet",
+        "consonant"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

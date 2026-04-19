@@ -1,179 +1,4003 @@
 [
   {
-    "word": "preposition",
-    "phonetic": "/,prɛpə'zɪʃən/",
-    "pos": ["n."],
-    "coreMeaning": { "cn": "介词", "en": "preposition" },
+    "word": "preponderating",
+    "phonetic": "/prɪ'pɒndəreɪtɪŋ/",
+    "pos": "v.",
+    "coreMeaning": {
+      "cn": "占优势（进行时）",
+      "en": "present participle of preponderate; being greater in number or power"
+    },
     "morphemes": [
-      { "canonical": "pre-", "role": "prefix", "meaning": "在…之前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial" },
-      { "canonical": "posit", "role": "root", "meaning": "放置", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "posit", "positionTendency": "medial" },
-      { "canonical": "-ion", "role": "suffix", "meaning": "名词化", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ion", "positionTendency": "final" }
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "之前；超过",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "超过",
+          "en": "before/over"
+        }
+      },
+      {
+        "canonical": "ponder",
+        "role": "root",
+        "meaning": "重量；权衡",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ponder",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "重量",
+          "en": "weight"
+        }
+      },
+      {
+        "canonical": "-ate",
+        "role": "suffix",
+        "meaning": "动词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-ate",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "动词",
+          "en": "verb"
+        }
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "meaning": "进行时",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 4,
+        "form": "-ing",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "进行",
+          "en": "ongoing"
+        }
+      }
     ],
-    "derivationChain": { "steps": ["posit → position → preposition"] },
+    "derivationChain": [
+      "preponderating"
+    ],
+    "morphVariantOf": "preponderate",
+    "memorySemantics": {
+      "mnemonicExpr": "pre+ponder+ate+ing → 正在占优势",
+      "imageChain": [
+        "数量优势",
+        "力量超过"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "preponderate",
+        "preponderance"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "preponderate"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "preposition",
+    "phonetic": "/ˌprepə'zɪʃən/",
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "介词（语法）",
+      "en": "a word placed before a noun or pronoun to show relationship"
+    },
+    "morphemes": [
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "在前",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "在前",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "posit",
+        "role": "root",
+        "meaning": "放置",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "posit",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "放置",
+          "en": "place"
+        }
+      },
+      {
+        "canonical": "-ion",
+        "role": "suffix",
+        "meaning": "名词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-ion",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "名词",
+          "en": "noun"
+        }
+      }
+    ],
+    "derivationChain": [
+      "preposition"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "placed-before",
-      "scene": "语法课上老师指着黑板写「放在名词前面的词」——preposition",
-      "emotionalHook": "介词是语言的胶水，把词语粘合在一起"
+      "mnemonicExpr": "pre(before)+posit(place)+ion → 放在名词前面的词",
+      "imageChain": [
+        "介词",
+        "语法",
+        "位置关系"
+      ]
     },
-    "wordLevel": { "domain": ["academic", "linguistics"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
-    "relations": { "sameRoot": ["position", "deposit", "composite"], "sameAffix": ["prescription", "prediction"], "synonyms": [], "antonyms": [], "domainCohort": ["conjunction", "article"], "derivationPair": ["prepositional"], "morphVariants": [], "sameImagery": [] }
+    "wordLevel": {
+      "domain": [
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "prepositional",
+        "position",
+        "proposition"
+      ],
+      "sameAffix": [
+        "-ion"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "prepositional",
+        "prepositions"
+      ],
+      "derivationPair": [
+        "prepositional",
+        "prepositions"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "prepositional",
+    "phonetic": "/ˌprepə'zɪʃənəl/",
+    "pos": "adj.",
+    "coreMeaning": {
+      "cn": "介词的；介词性的",
+      "en": "of or relating to a preposition"
+    },
+    "morphemes": [
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "在前",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "在前",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "posit",
+        "role": "root",
+        "meaning": "放置",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "posit",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "放置",
+          "en": "place"
+        }
+      },
+      {
+        "canonical": "-ional",
+        "role": "suffix",
+        "meaning": "形容词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-ional",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "…的",
+          "en": "relating to"
+        }
+      }
+    ],
+    "derivationChain": [
+      "prepositional"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "preposition+al → 介词的",
+      "imageChain": [
+        "介词短语",
+        "语法结构"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "preposition"
+      ],
+      "sameAffix": [
+        "-al"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "prepositions"
+      ],
+      "derivationPair": [
+        "preposition"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "prepositionally",
+    "phonetic": "/ˌprepə'zɪʃənəlɪ/",
+    "pos": "adv.",
+    "coreMeaning": {
+      "cn": "以介词方式",
+      "en": "in a prepositional manner; as a preposition"
+    },
+    "morphemes": [
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "在前",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "在前",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "posit",
+        "role": "root",
+        "meaning": "放置",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "posit",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "放置",
+          "en": "place"
+        }
+      },
+      {
+        "canonical": "-ly",
+        "role": "suffix",
+        "meaning": "副词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-ally",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "方式",
+          "en": "manner"
+        }
+      }
+    ],
+    "derivationChain": [
+      "prepositionally"
+    ],
+    "morphVariantOf": "prepositional",
+    "memorySemantics": {
+      "mnemonicExpr": "prepositional+ly → 以介词方式",
+      "imageChain": [
+        "语法用法",
+        "介词功能"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "prepositional",
+        "preposition"
+      ],
+      "sameAffix": [
+        "-ly"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "prepositional"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "prepositions",
+    "phonetic": "/ˌprepə'zɪʃənz/",
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "介词（复数）",
+      "en": "plural of preposition"
+    },
+    "morphemes": [
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "在前",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "在前",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "posit",
+        "role": "root",
+        "meaning": "放置",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "posit",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "放置",
+          "en": "place"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "meaning": "复数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-s",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "prepositions"
+    ],
+    "morphVariantOf": "preposition",
+    "memorySemantics": {
+      "mnemonicExpr": "preposition的复数",
+      "imageChain": [
+        "多个介词"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "preposition",
+        "prepositional"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "preposition"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "prepossess",
+    "phonetic": "/ˌpriːpə'zes/",
+    "pos": "v.",
+    "coreMeaning": {
+      "cn": "使预先产生偏见；使心存成见",
+      "en": "to preoccupy the mind of; to prejudice favorably or unfavorably"
+    },
+    "morphemes": [
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "预先",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "预先",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "possess",
+        "role": "root",
+        "meaning": "占有；控制",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "possess",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "占有",
+          "en": "possess"
+        }
+      }
+    ],
+    "derivationChain": [
+      "prepossess"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "pre+possess → 预先占据心理/产生偏见",
+      "imageChain": [
+        "先入为主",
+        "预设印象",
+        "偏见"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "prepossessing",
+        "prepossession",
+        "possess"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "prejudice",
+        "bias",
+        "preoccupy"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "prepossessing",
+        "prepossession"
+      ],
+      "derivationPair": [
+        "prepossessing",
+        "prepossession",
+        "prepossessed"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "prepossessed",
+    "phonetic": "/ˌpriːpə'zest/",
+    "pos": "adj./v.",
+    "coreMeaning": {
+      "cn": "心存成见的；被迷住的",
+      "en": "having preconceived opinions; favorably impressed in advance"
+    },
+    "morphemes": [
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "预先",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "预先",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "possess",
+        "role": "root",
+        "meaning": "占有",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "possess",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "占有",
+          "en": "possess"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "meaning": "过去式/形容词",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-ed",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "过去式",
+          "en": "past"
+        }
+      }
+    ],
+    "derivationChain": [
+      "prepossessed"
+    ],
+    "morphVariantOf": "prepossess",
+    "memorySemantics": {
+      "mnemonicExpr": "prepossess+ed → 被先入之见左右的",
+      "imageChain": [
+        "先入为主",
+        "偏见"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "prepossess",
+        "prepossessing"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "prepossess"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "prepossesses",
+    "phonetic": "/ˌpriːpə'zesɪz/",
+    "pos": "v.",
+    "coreMeaning": {
+      "cn": "使心存成见（第三人称单数）",
+      "en": "third person singular of prepossess"
+    },
+    "morphemes": [
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "预先",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "预先",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "possess",
+        "role": "root",
+        "meaning": "占有",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "possess",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "占有",
+          "en": "possess"
+        }
+      },
+      {
+        "canonical": "-es",
+        "role": "suffix",
+        "meaning": "第三人称单数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-es",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "第三人称",
+          "en": "3rd person"
+        }
+      }
+    ],
+    "derivationChain": [
+      "prepossesses"
+    ],
+    "morphVariantOf": "prepossess",
+    "memorySemantics": {
+      "mnemonicExpr": "prepossess的第三人称单数",
+      "imageChain": [
+        "偏见影响"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "prepossess"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "prepossess"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "prepossessing",
-    "phonetic": "/,pripə'zɛsɪŋ/",
-    "pos": ["adj."],
-    "coreMeaning": { "cn": "给人好感的；有魅力的", "en": "attractive, charming" },
+    "phonetic": "/ˌpriːpə'zesɪŋ/",
+    "pos": "adj.",
+    "coreMeaning": {
+      "cn": "讨人喜欢的；吸引人的",
+      "en": "attractive or appealing in appearance or manner"
+    },
     "morphemes": [
-      { "canonical": "pre-", "role": "prefix", "meaning": "预先", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial" },
-      { "canonical": "possess", "role": "root", "meaning": "占有，拥有", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 2, "form": "possess", "positionTendency": "medial" },
-      { "canonical": "-ing", "role": "suffix", "meaning": "形容词化（持续状态）", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ing", "positionTendency": "final" }
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "预先",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "预先",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "possess",
+        "role": "root",
+        "meaning": "吸引；占有",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 2,
+        "form": "possess",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "吸引",
+          "en": "captivate"
+        }
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "meaning": "形容词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-ing",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "…的",
+          "en": "having quality"
+        }
+      }
     ],
-    "derivationChain": { "steps": ["possess → prepossess → prepossessing"] },
+    "derivationChain": [
+      "prepossessing"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "charmed-in-advance",
-      "scene": "第一眼见到她就被迷住了——她的外表prepossessing（预先占有了你的心）",
-      "emotionalHook": "魅力像磁铁，让人在开口之前就倾心"
+      "mnemonicExpr": "pre+possess+ing → 预先吸引/讨人喜欢",
+      "imageChain": [
+        "第一印象好",
+        "魅力四射",
+        "外表吸引人"
+      ]
     },
-    "wordLevel": { "domain": ["literary", "general"], "sentiment": { "tags": ["积极"], "intensity": 1 } },
-    "relations": { "sameRoot": ["possess", "dispossess", "prepossess"], "sameAffix": ["promising", "prevailing"], "synonyms": ["attractive", "charming", "appealing"], "antonyms": ["unappealing", "repulsive"], "domainCohort": ["winsome", "engaging"], "derivationPair": ["prepossession"], "morphVariants": [], "sameImagery": ["engaging", "winning"] }
+    "wordLevel": {
+      "domain": [
+        "general",
+        "literary"
+      ],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "prepossess",
+        "prepossession"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "attractive",
+        "charming",
+        "appealing",
+        "handsome"
+      ],
+      "antonyms": [
+        "unattractive",
+        "repulsive",
+        "unprepossessing"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "prepossess"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "prepossession",
+    "phonetic": "/ˌpriːpə'zeʃən/",
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "先入之见；偏见",
+      "en": "a preconceived opinion or bias; a prejudice"
+    },
+    "morphemes": [
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "预先",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "预先",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "possess",
+        "role": "root",
+        "meaning": "占有",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "possess",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "占有",
+          "en": "possess"
+        }
+      },
+      {
+        "canonical": "-ion",
+        "role": "suffix",
+        "meaning": "名词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-ion",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "状态",
+          "en": "state"
+        }
+      }
+    ],
+    "derivationChain": [
+      "prepossession"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "pre+possess+ion → 预先占据的偏见",
+      "imageChain": [
+        "先入为主",
+        "固有印象",
+        "偏见"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "prepossess",
+        "prepossessing"
+      ],
+      "sameAffix": [
+        "-ion"
+      ],
+      "synonyms": [
+        "prejudice",
+        "preconception",
+        "bias"
+      ],
+      "antonyms": [
+        "open-mindedness",
+        "impartiality"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "prepossess"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "prepossessions",
+    "phonetic": "/ˌpriːpə'zeʃənz/",
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "先入之见（复数）",
+      "en": "plural of prepossession; multiple biases or preconceived opinions"
+    },
+    "morphemes": [
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "预先",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "预先",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "possess",
+        "role": "root",
+        "meaning": "占有",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "possess",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "占有",
+          "en": "possess"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "meaning": "复数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-s",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "prepossessions"
+    ],
+    "morphVariantOf": "prepossession",
+    "memorySemantics": {
+      "mnemonicExpr": "prepossession的复数",
+      "imageChain": [
+        "多种偏见"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "prepossession",
+        "prepossess"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "prepossession"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "preposterous",
-    "phonetic": "/prɪ'pɑstərəs/",
-    "pos": ["adj."],
-    "coreMeaning": { "cn": "荒谬的；可笑的", "en": "absurd, ridiculous" },
+    "phonetic": "/prɪ'pɒstərəs/",
+    "pos": "adj.",
+    "coreMeaning": {
+      "cn": "荒谬的；荒唐的",
+      "en": "contrary to reason or common sense; utterly absurd"
+    },
     "morphemes": [
-      { "canonical": "pre-", "role": "prefix", "meaning": "前面", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial" },
-      { "canonical": "poster", "role": "root", "meaning": "后面（拉丁posterus）", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "poster", "positionTendency": "medial" },
-      { "canonical": "-ous", "role": "suffix", "meaning": "形容词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ous", "positionTendency": "final" }
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "在前",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "前面",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "poster",
+        "role": "root",
+        "meaning": "后面的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "poster",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "后面的",
+          "en": "behind"
+        }
+      },
+      {
+        "canonical": "-ous",
+        "role": "suffix",
+        "meaning": "形容词化",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -2
+        },
+        "order": 3,
+        "form": "-ous",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "…的",
+          "en": "having quality"
+        }
+      }
     ],
-    "derivationChain": { "steps": ["prae+posterus → praeposterus → preposterous"] },
+    "derivationChain": [
+      "preposterous"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "backwards-logic",
-      "scene": "把前后颠倒（前面放后面的东西）——完全荒谬不合逻辑",
-      "emotionalHook": "本末倒置才叫荒谬——这词自带逻辑笑料"
+      "mnemonicExpr": "pre(before)+poster(behind)+ous → 前后颠倒/荒谬的",
+      "imageChain": [
+        "颠倒混乱",
+        "荒谬逻辑",
+        "不合理"
+      ]
     },
-    "wordLevel": { "domain": ["general", "literary"], "sentiment": { "tags": ["消极"], "intensity": 2 } },
-    "relations": { "sameRoot": ["posterior", "preposterous"], "sameAffix": ["prosperous", "glamorous"], "synonyms": ["absurd", "ridiculous", "ludicrous"], "antonyms": ["reasonable", "sensible"], "domainCohort": ["absurd", "farcical"], "derivationPair": ["preposterously"], "morphVariants": [], "sameImagery": ["ludicrous", "farcical"] }
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "preposterously"
+      ],
+      "sameAffix": [
+        "-ous"
+      ],
+      "synonyms": [
+        "absurd",
+        "ridiculous",
+        "ludicrous",
+        "outrageous"
+      ],
+      "antonyms": [
+        "reasonable",
+        "sensible",
+        "rational"
+      ],
+      "domainCohort": [
+        "preposterously"
+      ],
+      "derivationPair": [
+        "preposterously"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "preposterously",
+    "phonetic": "/prɪ'pɒstərəslɪ/",
+    "pos": "adv.",
+    "coreMeaning": {
+      "cn": "荒谬地；荒唐地",
+      "en": "in a preposterous manner; absurdly"
+    },
+    "morphemes": [
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "在前",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "前面",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "poster",
+        "role": "root",
+        "meaning": "后面的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "poster",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "后面的",
+          "en": "behind"
+        }
+      },
+      {
+        "canonical": "-ly",
+        "role": "suffix",
+        "meaning": "副词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-ously",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "方式",
+          "en": "manner"
+        }
+      }
+    ],
+    "derivationChain": [
+      "preposterously"
+    ],
+    "morphVariantOf": "preposterous",
+    "memorySemantics": {
+      "mnemonicExpr": "preposterous+ly → 以荒谬的方式",
+      "imageChain": [
+        "荒唐行为",
+        "不合逻辑"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "preposterous"
+      ],
+      "sameAffix": [
+        "-ly"
+      ],
+      "synonyms": [
+        "absurdly",
+        "ridiculously",
+        "ludicrously"
+      ],
+      "antonyms": [
+        "reasonably",
+        "sensibly"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "preposterous"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "preppie",
+    "phonetic": "/'prepɪ/",
+    "pos": "n./adj.",
+    "coreMeaning": {
+      "cn": "预科学生；精英学校风格的",
+      "en": "a student at a preparatory school; characteristic of such students' style"
+    },
+    "morphemes": [
+      {
+        "canonical": "prep",
+        "role": "root",
+        "meaning": "预科；准备",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "prep",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "预科",
+          "en": "prep school"
+        }
+      },
+      {
+        "canonical": "-ie",
+        "role": "suffix",
+        "meaning": "人（口语）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-pie",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "人",
+          "en": "person"
+        }
+      }
+    ],
+    "derivationChain": [
+      "preppie"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "prep(school)+pie → 预科学生/精英校园风",
+      "imageChain": [
+        "私立学校",
+        "精英气质",
+        "polo衫"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "prep",
+        "preps"
+      ],
+      "sameAffix": [
+        "-ie"
+      ],
+      "synonyms": [
+        "preppy"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "preps",
+        "prepublication"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "preppy"
+      ],
+      "sameImagery": []
+    }
   },
   {
     "word": "preprandial",
-    "phonetic": "/,pri'prændɪəl/",
-    "pos": ["adj."],
-    "coreMeaning": { "cn": "餐前的", "en": "before a meal" },
+    "phonetic": "/priː'prændɪəl/",
+    "pos": "adj.",
+    "coreMeaning": {
+      "cn": "饭前的",
+      "en": "done or taken before dinner"
+    },
     "morphemes": [
-      { "canonical": "pre-", "role": "prefix", "meaning": "在…之前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial" },
-      { "canonical": "prand", "role": "root", "meaning": "餐，进食（拉丁prandium）", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "prandi", "positionTendency": "medial" },
-      { "canonical": "-al", "role": "suffix", "meaning": "形容词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "al", "positionTendency": "final" }
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "之前",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "之前",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "prand",
+        "role": "root",
+        "meaning": "吃饭；餐",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "prand",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "正餐",
+          "en": "dinner"
+        }
+      },
+      {
+        "canonical": "-ial",
+        "role": "suffix",
+        "meaning": "形容词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-ial",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "…的",
+          "en": "relating to"
+        }
+      }
     ],
-    "derivationChain": { "steps": ["prandium(拉丁) → prandial → preprandial"] },
+    "derivationChain": [
+      "preprandial"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "before-dinner-drink",
-      "scene": "正式晚宴前的开胃酒就是preprandial drink",
-      "emotionalHook": "英式优雅——饭前一杯是有专属词的"
+      "mnemonicExpr": "pre(before)+prand(meal)+ial → 饭前的",
+      "imageChain": [
+        "餐前",
+        "开胃酒",
+        "饭前仪式"
+      ]
     },
-    "wordLevel": { "domain": ["medical", "formal"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
-    "relations": { "sameRoot": ["postprandial"], "sameAffix": ["prenatal", "premarital"], "synonyms": [], "antonyms": ["postprandial"], "domainCohort": ["postprandial", "prandial"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+    "wordLevel": {
+      "domain": [
+        "general",
+        "medical"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "postprandial"
+      ],
+      "sameAffix": [
+        "-ial"
+      ],
+      "synonyms": [
+        "before-dinner",
+        "pre-dinner"
+      ],
+      "antonyms": [
+        "postprandial"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
-    "word": "prerequisite",
-    "phonetic": "/,pri'rɛkwəzɪt/",
-    "pos": ["n.", "adj."],
-    "coreMeaning": { "cn": "不可或缺的前提条件", "en": "required precondition" },
+    "word": "preprocess",
+    "phonetic": "/ˌpriː'proʊses/",
+    "pos": "v.",
+    "coreMeaning": {
+      "cn": "预处理",
+      "en": "to process in advance; to subject to preliminary processing"
+    },
     "morphemes": [
-      { "canonical": "pre-", "role": "prefix", "meaning": "在…之前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial" },
-      { "canonical": "requis", "role": "root", "meaning": "寻求，需要（拉丁quaerere）", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "requisit", "positionTendency": "medial" },
-      { "canonical": "-ite", "role": "suffix", "meaning": "名词/形容词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ite", "positionTendency": "final" }
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "预先",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "预先",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "process",
+        "role": "root",
+        "meaning": "处理；过程",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "process",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "处理",
+          "en": "process"
+        }
+      }
     ],
-    "derivationChain": { "steps": ["quaerere → requisite → prerequisite"] },
+    "derivationChain": [
+      "preprocess"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "entry-ticket",
-      "scene": "选高级课程前必须完成的基础课——prerequisite就是入场券",
-      "emotionalHook": "没有前提条件，就没有资格进入"
+      "mnemonicExpr": "pre+process → 预先处理",
+      "imageChain": [
+        "数据预处理",
+        "前期准备",
+        "编译"
+      ]
     },
-    "wordLevel": { "domain": ["academic", "business", "general"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
-    "relations": { "sameRoot": ["requisite", "require", "requirement"], "sameAffix": ["predisposition", "precondition"], "synonyms": ["precondition", "requirement", "necessity"], "antonyms": [], "domainCohort": ["qualification", "condition"], "derivationPair": ["requisite"], "morphVariants": [], "sameImagery": [] }
+    "wordLevel": {
+      "domain": [
+        "tech"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "process",
+        "preprogram"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "prepare",
+        "pre-treat"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "preprogram"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
-    "word": "prerogative",
-    "phonetic": "/pri'rɔɡətiv/",
-    "pos": ["n."],
-    "coreMeaning": { "cn": "特权；专有权利", "en": "exclusive right or privilege" },
+    "word": "preprogram",
+    "phonetic": "/ˌpriː'proʊɡræm/",
+    "pos": "v.",
+    "coreMeaning": {
+      "cn": "预编程；预先设定",
+      "en": "to program or set in advance"
+    },
     "morphemes": [
-      { "canonical": "pre-", "role": "prefix", "meaning": "在前，优先", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial" },
-      { "canonical": "rog", "role": "root", "meaning": "询问，要求（拉丁rogare）", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "rogat", "positionTendency": "medial" },
-      { "canonical": "-ive", "role": "suffix", "meaning": "名词/形容词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ive", "positionTendency": "final" }
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "预先",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "预先",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "program",
+        "role": "root",
+        "meaning": "程序；编程",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "program",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "程序",
+          "en": "program"
+        }
+      }
     ],
-    "derivationChain": { "steps": ["rogare → rogative → prerogative"] },
+    "derivationChain": [
+      "preprogram"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "first-to-vote",
-      "scene": "古罗马选举中最先投票的部落拥有特殊地位——prerogative",
-      "emotionalHook": "先声夺人是一种特权，prerogative来自历史上的优先投票权"
+      "mnemonicExpr": "pre+program → 预先编程",
+      "imageChain": [
+        "预设程序",
+        "自动设置",
+        "硬编码"
+      ]
     },
-    "wordLevel": { "domain": ["legal", "political", "formal"], "sentiment": { "tags": ["积极"], "intensity": 1 } },
-    "relations": { "sameRoot": ["arrogate", "interrogate", "derogate"], "sameAffix": ["preemptive", "preferential"], "synonyms": ["privilege", "right", "entitlement"], "antonyms": ["obligation", "duty"], "domainCohort": ["privilege", "authority"], "derivationPair": [], "morphVariants": [], "sameImagery": ["privilege", "authority"] }
+    "wordLevel": {
+      "domain": [
+        "tech"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "program",
+        "preprocess"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "preset",
+        "pre-set",
+        "hardcode"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "preprocess"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
-    "word": "presage",
-    "phonetic": "/'prɛsɪdʒ/",
-    "pos": ["n.", "v."],
-    "coreMeaning": { "cn": "预感；前兆；预示", "en": "omen; to foretell" },
-    "morphemes": [
-      { "canonical": "pre-", "role": "prefix", "meaning": "预先，在前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial" },
-      { "canonical": "sag", "role": "root", "meaning": "感知，预知（拉丁sagire）", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "sage", "positionTendency": "medial" }
-    ],
-    "derivationChain": { "steps": ["sagire(感知) → presagire → presage"] },
-    "morphVariantOf": null,
-    "memorySemantics": {
-      "imageKey": "storm-crow",
-      "scene": "乌云密布——大自然的presage，预示着暴风雨即将来临",
-      "emotionalHook": "前兆往往带着一丝不安，像是命运在提前敲门"
+    "word": "preps",
+    "phonetic": "/preps/",
+    "pos": "n./v.",
+    "coreMeaning": {
+      "cn": "准备（复数）；预科",
+      "en": "plural of prep; or third person singular of to prep"
     },
-    "wordLevel": { "domain": ["literary", "general"], "sentiment": { "tags": ["消极"], "intensity": 1 } },
-    "relations": { "sameRoot": ["sage", "sagacious"], "sameAffix": ["predict", "premonition"], "synonyms": ["omen", "portent", "harbinger"], "antonyms": [], "domainCohort": ["augury", "portent", "omen"], "derivationPair": [], "morphVariants": [], "sameImagery": ["harbinger", "portent"] }
+    "morphemes": [
+      {
+        "canonical": "prep",
+        "role": "root",
+        "meaning": "准备；预科",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "prep",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "准备",
+          "en": "preparation"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "meaning": "复数/第三人称",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-s",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "preps"
+    ],
+    "morphVariantOf": "prep",
+    "memorySemantics": {
+      "mnemonicExpr": "prep的复数/第三人称",
+      "imageChain": [
+        "多次准备"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "prep",
+        "preppie"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "prep"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
-    "word": "presbyopia",
-    "phonetic": "/,prɛzbɪ'oʊpɪə/",
-    "pos": ["n."],
-    "coreMeaning": { "cn": "老花眼；老视", "en": "farsightedness due to aging" },
+    "word": "prepubescent",
+    "phonetic": "/ˌpriːpjuː'besənt/",
+    "pos": "adj.",
+    "coreMeaning": {
+      "cn": "青春期前的",
+      "en": "relating to the period just before puberty"
+    },
     "morphemes": [
-      { "canonical": "presby-", "role": "root", "meaning": "年老的（希腊presbys）", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "presby", "positionTendency": "initial" },
-      { "canonical": "op-", "role": "root", "meaning": "眼睛，视觉（希腊ops）", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "opia", "positionTendency": "final" }
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "之前",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "之前",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "pub",
+        "role": "root",
+        "meaning": "成熟；青春期",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "pubesc",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "青春期",
+          "en": "puberty"
+        }
+      },
+      {
+        "canonical": "-ent",
+        "role": "suffix",
+        "meaning": "形容词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-ent",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "…的",
+          "en": "having quality"
+        }
+      }
     ],
-    "derivationChain": { "steps": ["presbys(老) + ops(眼) → presbyopia"] },
+    "derivationChain": [
+      "prepubescent"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "reading-glasses",
-      "scene": "老年人捧着报纸却看不清字——这就是presbyopia，老眼昏花",
-      "emotionalHook": "年龄写在眼睛里，老花眼是岁月留下的印记"
+      "mnemonicExpr": "pre+pub(escent) → 青春期前",
+      "imageChain": [
+        "儿童时期",
+        "发育前",
+        "青少年前期"
+      ]
     },
-    "wordLevel": { "domain": ["medical"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
-    "relations": { "sameRoot": ["presbyter", "myopia", "hyperopia"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["myopia", "hyperopia", "astigmatism"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+    "wordLevel": {
+      "domain": [
+        "medical",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "pubescent",
+        "puberty"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "preadolescent",
+        "pre-teen"
+      ],
+      "antonyms": [
+        "pubescent",
+        "adolescent"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "prepublication",
+    "phonetic": "/ˌpriːˌpʌblɪ'keɪʃən/",
+    "pos": "adj./n.",
+    "coreMeaning": {
+      "cn": "出版前的；预出版",
+      "en": "existing or occurring before publication"
+    },
+    "morphemes": [
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "之前",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "之前",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "pub",
+        "role": "root",
+        "meaning": "公开；发布",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "public",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "公开",
+          "en": "public"
+        }
+      },
+      {
+        "canonical": "-ation",
+        "role": "suffix",
+        "meaning": "名词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-ation",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "行为",
+          "en": "action"
+        }
+      }
+    ],
+    "derivationChain": [
+      "prepublication"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "pre+publication → 出版前",
+      "imageChain": [
+        "书稿审阅",
+        "提前发行",
+        "出版前准备"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "academic",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "publication",
+        "publish"
+      ],
+      "sameAffix": [
+        "-ation"
+      ],
+      "synonyms": [
+        "pre-press",
+        "advance"
+      ],
+      "antonyms": [
+        "post-publication"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "prepuce",
+    "phonetic": "/'priːpjuːs/",
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "包皮",
+      "en": "the foreskin of the penis or the clitoris"
+    },
+    "morphemes": [
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "在前",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "在前",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "puce",
+        "role": "root",
+        "meaning": "皮肤；包皮",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "puce",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "皮肤层",
+          "en": "skin"
+        }
+      }
+    ],
+    "derivationChain": [
+      "prepuce"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "pre(before)+puce → 前皮/包皮",
+      "imageChain": [
+        "解剖结构",
+        "医学术语"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "medical"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "foreskin"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "prequel",
     "phonetic": "/'priːkwəl/",
-    "pos": ["n."],
-    "coreMeaning": { "cn": "前传；前篇", "en": "a work set before an existing story" },
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "前传；前篇",
+      "en": "a story or film that tells what happened before an existing work"
+    },
     "morphemes": [
-      { "canonical": "pre-", "role": "prefix", "meaning": "在…之前", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pre", "positionTendency": "initial" },
-      { "canonical": "sequel", "role": "root", "meaning": "续集（拉丁sequi跟随）", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "quel", "positionTendency": "final" }
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "之前",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "之前",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "sequel",
+        "role": "root",
+        "meaning": "续集",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "quel",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "续集",
+          "en": "sequel"
+        }
+      }
     ],
-    "derivationChain": { "steps": ["sequel → prequel（仿造词）"] },
+    "derivationChain": [
+      "prequel"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "origin-story",
-      "scene": "《星球大战》先行传讲述了达斯·维达年轻时的故事——这就是prequel",
-      "emotionalHook": "前传揭开谜底，让我们看到英雄坠落前的光芒"
+      "mnemonicExpr": "pre+quel(sequel) → 续集的前篇/前传",
+      "imageChain": [
+        "故事前传",
+        "历史背景",
+        "起源故事"
+      ]
     },
-    "wordLevel": { "domain": ["media", "general"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
-    "relations": { "sameRoot": ["sequel", "sequence"], "sameAffix": [], "synonyms": ["origin story", "backstory"], "antonyms": ["sequel"], "domainCohort": ["sequel", "spin-off"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "sequel"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "prequel film",
+        "backstory"
+      ],
+      "antonyms": [
+        "sequel"
+      ],
+      "domainCohort": [
+        "sequel"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "prerecord",
+    "phonetic": "/ˌpriːrɪ'kɔːrd/",
+    "pos": "v.",
+    "coreMeaning": {
+      "cn": "预录制；事先录制",
+      "en": "to record in advance for later broadcast or use"
+    },
+    "morphemes": [
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "预先",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "预先",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "record",
+        "role": "root",
+        "meaning": "录制；记录",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "record",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "录制",
+          "en": "record"
+        }
+      }
+    ],
+    "derivationChain": [
+      "prerecord"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "pre+record → 预先录制",
+      "imageChain": [
+        "事先录制",
+        "储存播出",
+        "预录节目"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "tech"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "record",
+        "prerecorded"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "pre-tape",
+        "record in advance"
+      ],
+      "antonyms": [
+        "live broadcast"
+      ],
+      "domainCohort": [
+        "prerecorded",
+        "prerecording"
+      ],
+      "derivationPair": [
+        "prerecorded",
+        "prerecording"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "prerecorded",
+    "phonetic": "/ˌpriːrɪ'kɔːrdɪd/",
+    "pos": "adj.",
+    "coreMeaning": {
+      "cn": "预录制的；事先录制的",
+      "en": "recorded in advance for later playback or broadcast"
+    },
+    "morphemes": [
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "预先",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "预先",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "record",
+        "role": "root",
+        "meaning": "录制",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "record",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "录制",
+          "en": "record"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "meaning": "过去式/形容词",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-ed",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "过去式",
+          "en": "past"
+        }
+      }
+    ],
+    "derivationChain": [
+      "prerecorded"
+    ],
+    "morphVariantOf": "prerecord",
+    "memorySemantics": {
+      "mnemonicExpr": "prerecord+ed → 已预先录制好的",
+      "imageChain": [
+        "录像",
+        "节目库",
+        "事先制作"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "tech"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "prerecord",
+        "record"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "taped",
+        "pre-taped"
+      ],
+      "antonyms": [
+        "live"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "prerecord"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "prerecording",
+    "phonetic": "/ˌpriːrɪ'kɔːrdɪŋ/",
+    "pos": "v./n.",
+    "coreMeaning": {
+      "cn": "预录制（进行时/名词）",
+      "en": "present participle of prerecord; a pre-recorded segment"
+    },
+    "morphemes": [
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "预先",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "预先",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "record",
+        "role": "root",
+        "meaning": "录制",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "record",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "录制",
+          "en": "record"
+        }
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "meaning": "进行时/名词",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-ing",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "进行",
+          "en": "ongoing"
+        }
+      }
+    ],
+    "derivationChain": [
+      "prerecording"
+    ],
+    "morphVariantOf": "prerecord",
+    "memorySemantics": {
+      "mnemonicExpr": "prerecord+ing → 正在预录制",
+      "imageChain": [
+        "录制过程",
+        "储备节目"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "tech"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "prerecord",
+        "prerecorded"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "prerecord"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "prerecords",
+    "phonetic": "/ˌpriːrɪ'kɔːrdz/",
+    "pos": "v.",
+    "coreMeaning": {
+      "cn": "预录制（第三人称单数）",
+      "en": "third person singular of prerecord"
+    },
+    "morphemes": [
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "预先",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "预先",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "record",
+        "role": "root",
+        "meaning": "录制",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "record",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "录制",
+          "en": "record"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "meaning": "第三人称单数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-s",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "第三人称",
+          "en": "3rd person"
+        }
+      }
+    ],
+    "derivationChain": [
+      "prerecords"
+    ],
+    "morphVariantOf": "prerecord",
+    "memorySemantics": {
+      "mnemonicExpr": "prerecord的第三人称单数",
+      "imageChain": [
+        "预录制"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "prerecord"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "prerecord"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "prerequisite",
+    "phonetic": "/ˌpriː'rekwɪzɪt/",
+    "pos": "n./adj.",
+    "coreMeaning": {
+      "cn": "先决条件；必备条件",
+      "en": "a thing required as a prior condition; something required beforehand"
+    },
+    "morphemes": [
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "预先",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "预先",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "requis",
+        "role": "root",
+        "meaning": "要求；需要",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "requisite",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "要求",
+          "en": "require"
+        }
+      }
+    ],
+    "derivationChain": [
+      "prerequisite"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "pre+requisite → 事先必须具备的条件",
+      "imageChain": [
+        "课程先修",
+        "入门条件",
+        "前提要求"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "academic",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "requisite",
+        "require",
+        "requirements"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "requirement",
+        "precondition",
+        "stipulation",
+        "necessity"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "prerequisites",
+        "requisite"
+      ],
+      "derivationPair": [
+        "prerequisites"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "prerequisites",
+    "phonetic": "/ˌpriː'rekwɪzɪts/",
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "先决条件（复数）",
+      "en": "plural of prerequisite"
+    },
+    "morphemes": [
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "预先",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "预先",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "requis",
+        "role": "root",
+        "meaning": "要求",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "requisite",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "要求",
+          "en": "require"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "meaning": "复数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-s",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "prerequisites"
+    ],
+    "morphVariantOf": "prerequisite",
+    "memorySemantics": {
+      "mnemonicExpr": "prerequisite的复数",
+      "imageChain": [
+        "多个先决条件"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "academic",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "prerequisite"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "prerequisite"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "prerogative",
+    "phonetic": "/prɪ'rɒɡətɪv/",
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "特权；专属权利",
+      "en": "an exclusive right or privilege belonging to a particular person or group"
+    },
+    "morphemes": [
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "之前",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "之前",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "rogat",
+        "role": "root",
+        "meaning": "要求；询问",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "rogat",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "询问",
+          "en": "ask"
+        }
+      },
+      {
+        "canonical": "-ive",
+        "role": "suffix",
+        "meaning": "名词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-ive",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "性质",
+          "en": "quality"
+        }
+      }
+    ],
+    "derivationChain": [
+      "prerogative"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "pre+rogat(ask)+ive → 优先被询问的权利/特权",
+      "imageChain": [
+        "君主特权",
+        "专属权力",
+        "特别待遇"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "legal",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "prerogatives"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "privilege",
+        "right",
+        "entitlement",
+        "prerogative"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "prerogatives",
+        "prerequisite"
+      ],
+      "derivationPair": [
+        "prerogatives"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "prerogatives",
+    "phonetic": "/prɪ'rɒɡətɪvz/",
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "特权（复数）",
+      "en": "plural of prerogative"
+    },
+    "morphemes": [
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "之前",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "之前",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "rogat",
+        "role": "root",
+        "meaning": "询问",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "rogat",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "询问",
+          "en": "ask"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "meaning": "复数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-s",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "prerogatives"
+    ],
+    "morphVariantOf": "prerogative",
+    "memorySemantics": {
+      "mnemonicExpr": "prerogative的复数",
+      "imageChain": [
+        "多项特权"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "legal",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "prerogative"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "prerogative"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "presage",
+    "phonetic": "/'presɪdʒ/",
+    "pos": "n./v.",
+    "coreMeaning": {
+      "cn": "预兆；预示",
+      "en": "an omen or sign of what is to come; to predict or foreshadow"
+    },
+    "morphemes": [
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "预先",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "预先",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "sage",
+        "role": "root",
+        "meaning": "预言；感知",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "sage",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "感知",
+          "en": "sense"
+        }
+      }
+    ],
+    "derivationChain": [
+      "presage"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "pre(before)+sage(sense) → 预先感知/预兆",
+      "imageChain": [
+        "不祥预兆",
+        "预测未来",
+        "征兆"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "literary",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "presaged",
+        "presages",
+        "presaging"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "omen",
+        "portent",
+        "foreboding",
+        "augur"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "presaged",
+        "presages"
+      ],
+      "derivationPair": [
+        "presaged",
+        "presages",
+        "presaging"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "presaged",
+    "phonetic": "/'presɪdʒd/",
+    "pos": "v.",
+    "coreMeaning": {
+      "cn": "预示（过去式）",
+      "en": "past tense of presage; foreshadowed or predicted"
+    },
+    "morphemes": [
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "预先",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "预先",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "sage",
+        "role": "root",
+        "meaning": "感知",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "sage",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "感知",
+          "en": "sense"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "meaning": "过去式",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-d",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "过去式",
+          "en": "past"
+        }
+      }
+    ],
+    "derivationChain": [
+      "presaged"
+    ],
+    "morphVariantOf": "presage",
+    "memorySemantics": {
+      "mnemonicExpr": "presage+d → 曾经预示过",
+      "imageChain": [
+        "历史预兆",
+        "应验预示"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "literary"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "presage",
+        "presaging"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "presage"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "presages",
+    "phonetic": "/'presɪdʒɪz/",
+    "pos": "n./v.",
+    "coreMeaning": {
+      "cn": "预兆（复数）；第三人称单数",
+      "en": "plural of presage; or third person singular of to presage"
+    },
+    "morphemes": [
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "预先",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "预先",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "sage",
+        "role": "root",
+        "meaning": "感知",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "sage",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "感知",
+          "en": "sense"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "meaning": "复数/第三人称",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-s",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "presages"
+    ],
+    "morphVariantOf": "presage",
+    "memorySemantics": {
+      "mnemonicExpr": "presage的复数",
+      "imageChain": [
+        "多种预兆"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "literary"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "presage"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "presage"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "presaging",
+    "phonetic": "/'presɪdʒɪŋ/",
+    "pos": "v.",
+    "coreMeaning": {
+      "cn": "预示（进行时）",
+      "en": "present participle of presage; foreshadowing"
+    },
+    "morphemes": [
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "预先",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "预先",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "sage",
+        "role": "root",
+        "meaning": "感知",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "sage",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "感知",
+          "en": "sense"
+        }
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "meaning": "进行时",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-ing",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "进行",
+          "en": "ongoing"
+        }
+      }
+    ],
+    "derivationChain": [
+      "presaging"
+    ],
+    "morphVariantOf": "presage",
+    "memorySemantics": {
+      "mnemonicExpr": "presage+ing → 正在预示",
+      "imageChain": [
+        "征兆显现",
+        "预示未来"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "literary"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "presage",
+        "presaged"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "presage"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "presbyterian",
+    "phonetic": "/ˌprezbɪ'tɪərɪən/",
+    "pos": "n./adj.",
+    "coreMeaning": {
+      "cn": "长老制的；长老教会成员",
+      "en": "of or relating to the Presbyterian Church; a member of this church"
+    },
+    "morphemes": [
+      {
+        "canonical": "presby",
+        "role": "root",
+        "meaning": "长老；老人",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "presbyter",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "长老",
+          "en": "elder"
+        }
+      },
+      {
+        "canonical": "-ian",
+        "role": "suffix",
+        "meaning": "…者/…的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ian",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "成员",
+          "en": "member/relating to"
+        }
+      }
+    ],
+    "derivationChain": [
+      "presbyterian"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "presbyter(elder)+ian → 长老教会的信徒",
+      "imageChain": [
+        "基督教长老会",
+        "新教",
+        "苏格兰教会"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "academic",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "presbyterianism",
+        "presbytery",
+        "presbyter"
+      ],
+      "sameAffix": [
+        "-ian"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "presbyterianism",
+        "presbytery"
+      ],
+      "derivationPair": [
+        "presbyterianism"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "presbyterianism",
+    "phonetic": "/ˌprezbɪ'tɪərɪənɪzəm/",
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "长老制；长老教义",
+      "en": "the faith and practice of Presbyterians; a system of church governance by elders"
+    },
+    "morphemes": [
+      {
+        "canonical": "presby",
+        "role": "root",
+        "meaning": "长老",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "presbyterian",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "长老",
+          "en": "elder"
+        }
+      },
+      {
+        "canonical": "-ism",
+        "role": "suffix",
+        "meaning": "主义",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ism",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "主义",
+          "en": "doctrine"
+        }
+      }
+    ],
+    "derivationChain": [
+      "presbyterianism"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "presbyterian+ism → 长老教会的教义",
+      "imageChain": [
+        "新教教义",
+        "长老治理",
+        "宗教信仰"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "academic",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "presbyterian",
+        "presbytery"
+      ],
+      "sameAffix": [
+        "-ism"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "presbyterian"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "presbyterians",
+    "phonetic": "/ˌprezbɪ'tɪərɪənz/",
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "长老教会信徒（复数）",
+      "en": "plural of presbyterian"
+    },
+    "morphemes": [
+      {
+        "canonical": "presby",
+        "role": "root",
+        "meaning": "长老",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "presbyterian",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "长老",
+          "en": "elder"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "meaning": "复数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-s",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "presbyterians"
+    ],
+    "morphVariantOf": "presbyterian",
+    "memorySemantics": {
+      "mnemonicExpr": "presbyterian的复数",
+      "imageChain": [
+        "多位长老教会信徒"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "presbyterian"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "presbyterian"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "presbyteries",
+    "phonetic": "/'prezbɪtərɪz/",
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "长老会（复数）",
+      "en": "plural of presbytery; administrative bodies in Presbyterian churches"
+    },
+    "morphemes": [
+      {
+        "canonical": "presby",
+        "role": "root",
+        "meaning": "长老",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "presbyter",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "长老",
+          "en": "elder"
+        }
+      },
+      {
+        "canonical": "-y",
+        "role": "suffix",
+        "meaning": "名词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-y",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "机构",
+          "en": "institution"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "meaning": "复数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-ies",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "presbyteries"
+    ],
+    "morphVariantOf": "presbytery",
+    "memorySemantics": {
+      "mnemonicExpr": "presbytery的复数",
+      "imageChain": [
+        "多个长老会议"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "academic",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "presbytery",
+        "presbyterian"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "presbytery"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "presbytery",
+    "phonetic": "/'prezbɪtərɪ/",
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "长老会；主教法庭",
+      "en": "a body of elders in a Presbyterian church; the eastern part of a church beyond the choir"
+    },
+    "morphemes": [
+      {
+        "canonical": "presby",
+        "role": "root",
+        "meaning": "长老",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "presbyter",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "长老",
+          "en": "elder"
+        }
+      },
+      {
+        "canonical": "-y",
+        "role": "suffix",
+        "meaning": "场所/机构",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-y",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "机构",
+          "en": "institution"
+        }
+      }
+    ],
+    "derivationChain": [
+      "presbytery"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "presbyter(elder)+y → 长老会/主祭团",
+      "imageChain": [
+        "教会结构",
+        "长老会议",
+        "神职区域"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "academic",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "presbyterian",
+        "presbyterianism"
+      ],
+      "sameAffix": [
+        "-y"
+      ],
+      "synonyms": [
+        "session",
+        "church council"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "presbyterianism",
+        "presbyterian"
+      ],
+      "derivationPair": [
+        "presbyteries"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "preschool",
+    "phonetic": "/'priːskuːl/",
+    "pos": "n./adj.",
+    "coreMeaning": {
+      "cn": "学前班；幼儿园",
+      "en": "education for children before school age; relating to children before school"
+    },
+    "morphemes": [
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "之前",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "之前",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "school",
+        "role": "root",
+        "meaning": "学校",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 2,
+        "form": "school",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "学校",
+          "en": "school"
+        }
+      }
+    ],
+    "derivationChain": [
+      "preschool"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "pre+school → 上学前/幼儿园",
+      "imageChain": [
+        "幼儿园",
+        "学前教育",
+        "3-5岁"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "school",
+        "preschooler"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "kindergarten",
+        "nursery school",
+        "pre-K"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "preschooler"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

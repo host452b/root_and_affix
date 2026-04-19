@@ -2,60 +2,349 @@
   {
     "word": "knowledge",
     "phonetic": "/'nɒlɪdʒ/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "知识；学问；见闻", "en": "facts, information, and skills acquired"},
-    "morphemes": [
-      {"canonical": "know", "role": "root", "meaning": "知道；了解", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "knowl", "positionTendency": "initial", "coreMeaning": {"cn": "知道", "en": "know"}},
-      {"canonical": "-edge", "role": "suffix", "meaning": "状态；能力（古英语）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "edge", "positionTendency": "final", "coreMeaning": {"cn": "能力", "en": "state/capacity"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "know", "to": "knowledge", "by": "-edge", "meaning": "the state of knowing"}]},
+    "coreMeaning": {
+      "cn": "知识；学问；见闻",
+      "en": "facts, information, and skills acquired"
+    },
+    "morphemes": [
+      {
+        "canonical": "know",
+        "role": "root",
+        "meaning": "知道；了解",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "knowl",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "知道",
+          "en": "know"
+        }
+      },
+      {
+        "canonical": "-edge",
+        "role": "suffix",
+        "meaning": "状态；能力（古英语）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "edge",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "能力",
+          "en": "state/capacity"
+        }
+      }
+    ],
+    "derivationChain": [
+      "knowledge"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "knowledge → 知道的状态=知识", "imageChain": ["知识", "学问", "书籍"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 1}, "domain": ["general", "academic", "business"], "formality": "neutral"},
-    "relations": {"sameRoot": ["know", "knowledgeable", "known"], "sameAffix": [], "synonyms": ["information", "learning", "wisdom"], "antonyms": ["ignorance"], "domainCohort": [], "derivationPair": ["knowledgeable"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "knowledge → 知道的状态=知识",
+      "imageChain": [
+        "知识",
+        "学问",
+        "书籍"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general",
+        "academic",
+        "business"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "know",
+        "knowledgeable",
+        "known"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "information",
+        "learning",
+        "wisdom"
+      ],
+      "antonyms": [
+        "ignorance"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "knowledgeable"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "knowledgeable",
     "phonetic": "/'nɒlɪdʒəbl/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "知识渊博的；有见识的", "en": "well-informed; having much knowledge"},
-    "morphemes": [
-      {"canonical": "know", "role": "root", "meaning": "知道", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "knowl", "positionTendency": "initial", "coreMeaning": {"cn": "知识", "en": "know"}},
-      {"canonical": "-edge", "role": "suffix", "meaning": "状态", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "edge", "positionTendency": "medial", "coreMeaning": {"cn": "状态", "en": "state"}},
-      {"canonical": "-able", "role": "suffix", "meaning": "有…能力的", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 3, "form": "able", "positionTendency": "final", "coreMeaning": {"cn": "有…的", "en": "having"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "knowledge", "to": "knowledgeable", "by": "-able", "meaning": "having much knowledge"}]},
+    "coreMeaning": {
+      "cn": "知识渊博的；有见识的",
+      "en": "well-informed; having much knowledge"
+    },
+    "morphemes": [
+      {
+        "canonical": "know",
+        "role": "root",
+        "meaning": "知道",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "knowl",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "知识",
+          "en": "know"
+        }
+      },
+      {
+        "canonical": "-edge",
+        "role": "suffix",
+        "meaning": "状态",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "edge",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "状态",
+          "en": "state"
+        }
+      },
+      {
+        "canonical": "-able",
+        "role": "suffix",
+        "meaning": "有…能力的",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 3,
+        "form": "able",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "有…的",
+          "en": "having"
+        }
+      }
+    ],
+    "derivationChain": [
+      "knowledgeable"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "knowledgeable = knowledge + able → 博学的", "imageChain": ["博学", "知识渊博", "见多识广"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 2}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["knowledge", "know"], "sameAffix": [], "synonyms": ["learned", "informed", "erudite"], "antonyms": ["ignorant", "uninformed"], "domainCohort": [], "derivationPair": ["knowledge"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "knowledgeable = knowledge + able → 博学的",
+      "imageChain": [
+        "博学",
+        "知识渊博",
+        "见多识广"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "knowledge",
+        "know"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "learned",
+        "informed",
+        "erudite"
+      ],
+      "antonyms": [
+        "ignorant",
+        "uninformed"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "knowledge"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "knuckle",
     "phonetic": "/'nʌkl/",
-    "pos": ["n.", "vi."],
-    "coreMeaning": {"cn": "指关节；屈服", "en": "finger joint; to submit or yield"},
-    "morphemes": [
-      {"canonical": "knuckle", "role": "root", "meaning": "指关节", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "knuckle", "positionTendency": "medial", "coreMeaning": {"cn": "指关节", "en": "finger joint"}}
+    "pos": [
+      "n.",
+      "vi."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "指关节；屈服",
+      "en": "finger joint; to submit or yield"
+    },
+    "morphemes": [
+      {
+        "canonical": "knuckle",
+        "role": "root",
+        "meaning": "指关节",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "knuckle",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "指关节",
+          "en": "finger joint"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "knuckle → 指节，knuckle down = 努力工作", "imageChain": ["指关节", "拳头", "屈服"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "informal"},
-    "relations": {"sameRoot": ["knuckled", "knuckles", "knuckleball"], "sameAffix": [], "synonyms": ["joint"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "knuckle → 指节，knuckle down = 努力工作",
+      "imageChain": [
+        "指关节",
+        "拳头",
+        "屈服"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "informal"
+    },
+    "relations": {
+      "sameRoot": [
+        "knuckled",
+        "knuckles",
+        "knuckleball"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "joint"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "koala",
     "phonetic": "/koʊ'ɑːlə/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "考拉；树袋熊", "en": "Australian marsupial that lives in trees"},
-    "morphemes": [
-      {"canonical": "koala", "role": "root", "meaning": "考拉（澳大利亚土著语）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "koala", "positionTendency": "medial", "coreMeaning": {"cn": "考拉", "en": "koala"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "考拉；树袋熊",
+      "en": "Australian marsupial that lives in trees"
+    },
+    "morphemes": [
+      {
+        "canonical": "koala",
+        "role": "root",
+        "meaning": "考拉（澳大利亚土著语）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "koala",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "考拉",
+          "en": "koala"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "koala → 考拉，澳大利亚的标志性动物", "imageChain": ["考拉", "桉树", "澳大利亚"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 1}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["marsupial"], "antonyms": [], "domainCohort": ["kangaroo", "wombat"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "koala → 考拉，澳大利亚的标志性动物",
+      "imageChain": [
+        "考拉",
+        "桉树",
+        "澳大利亚"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "marsupial"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "kangaroo",
+        "wombat"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

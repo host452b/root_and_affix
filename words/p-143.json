@@ -2,132 +2,795 @@
   {
     "word": "provoke",
     "phonetic": "/prə'voʊk/",
-    "pos": ["vt."],
-    "coreMeaning": {"cn": "挑动；激起；招惹", "en": "stimulate or incite to action or feeling; deliberately cause"},
-    "morphemes": [
-      {"canonical": "pro-", "role": "prefix", "meaning": "向前；在前", "sentiment": {"tags": ["消极"], "intensity": 1}, "order": 1, "form": "pro", "positionTendency": "initial", "coreMeaning": {"cn": "向前", "en": "forth"}},
-      {"canonical": "voc", "role": "root", "meaning": "声音；召唤", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "voke", "positionTendency": "final", "coreMeaning": {"cn": "召唤", "en": "call"}}
+    "pos": [
+      "vt."
     ],
-    "derivationChain": {"steps": [{"from": "pro + vocare", "to": "provoke", "by": "compound", "meaning": "to call forth; to stir up or excite"}]},
+    "coreMeaning": {
+      "cn": "挑动；激起；招惹",
+      "en": "stimulate or incite to action or feeling; deliberately cause"
+    },
+    "morphemes": [
+      {
+        "canonical": "pro-",
+        "role": "prefix",
+        "meaning": "向前；在前",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "pro",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "向前",
+          "en": "forth"
+        }
+      },
+      {
+        "canonical": "voc",
+        "role": "root",
+        "meaning": "声音；召唤",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "voke",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "召唤",
+          "en": "call"
+        }
+      }
+    ],
+    "derivationChain": [
+      "provoke"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "provoke = pro(向前)+voke(呼唤) → 呼唤出愤怒=激怒", "imageChain": ["激怒", "挑衅", "引发"]},
-    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": 2}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["provocative", "provocation", "revoke", "invoke"], "sameAffix": [], "synonyms": ["incite", "irritate", "agitate", "stir up"], "antonyms": ["appease", "soothe", "calm", "pacify"], "domainCohort": [], "derivationPair": ["provocative", "provocation"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "provoke = pro(向前)+voke(呼唤) → 呼唤出愤怒=激怒",
+      "imageChain": [
+        "激怒",
+        "挑衅",
+        "引发"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 2
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "provocative",
+        "provocation",
+        "revoke",
+        "invoke"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "incite",
+        "irritate",
+        "agitate",
+        "stir up"
+      ],
+      "antonyms": [
+        "appease",
+        "soothe",
+        "calm",
+        "pacify"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "provocative",
+        "provocation"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "prowess",
     "phonetic": "/'praʊəs/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "杰出才能；高超技艺；英勇", "en": "great skill or ability; bravery in battle"},
-    "morphemes": [
-      {"canonical": "proud", "role": "root", "meaning": "勇猛；骄傲（古法语 preu）", "sentiment": {"tags": ["积极"], "intensity": 2}, "order": 1, "form": "prow", "positionTendency": "initial", "coreMeaning": {"cn": "勇猛", "en": "brave/skilled"}},
-      {"canonical": "-ess", "role": "suffix", "meaning": "名词；状态", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 2, "form": "ess", "positionTendency": "final", "coreMeaning": {"cn": "状态", "en": "quality"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "prou", "to": "prowess", "by": "-ess", "meaning": "the quality of being brave and skilled"}]},
+    "coreMeaning": {
+      "cn": "杰出才能；高超技艺；英勇",
+      "en": "great skill or ability; bravery in battle"
+    },
+    "morphemes": [
+      {
+        "canonical": "proud",
+        "role": "root",
+        "meaning": "勇猛；骄傲（古法语 preu）",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 2
+        },
+        "order": 1,
+        "form": "prow",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "勇猛",
+          "en": "brave/skilled"
+        }
+      },
+      {
+        "canonical": "-ess",
+        "role": "suffix",
+        "meaning": "名词；状态",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 2,
+        "form": "ess",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "状态",
+          "en": "quality"
+        }
+      }
+    ],
+    "derivationChain": [
+      "prowess"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "prowess → 骄傲地展现出来的技能=高超技艺", "imageChain": ["才能", "英勇", "技艺"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 2}, "domain": ["general"], "formality": "formal"},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["skill", "expertise", "ability", "valor"], "antonyms": ["incompetence", "weakness", "cowardice"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "prowess → 骄傲地展现出来的技能=高超技艺",
+      "imageChain": [
+        "才能",
+        "英勇",
+        "技艺"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "skill",
+        "expertise",
+        "ability",
+        "valor"
+      ],
+      "antonyms": [
+        "incompetence",
+        "weakness",
+        "cowardice"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "prowl",
     "phonetic": "/praʊl/",
-    "pos": ["v.", "n."],
-    "coreMeaning": {"cn": "潜行；四处游荡（寻找目标）", "en": "move stealthily in search of prey or victims"},
-    "morphemes": [
-      {"canonical": "prowl", "role": "root", "meaning": "潜行；游荡", "sentiment": {"tags": ["消极"], "intensity": 1}, "order": 1, "form": "prowl", "positionTendency": "medial", "coreMeaning": {"cn": "潜行", "en": "stalk"}}
+    "pos": [
+      "v.",
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "潜行；四处游荡（寻找目标）",
+      "en": "move stealthily in search of prey or victims"
+    },
+    "morphemes": [
+      {
+        "canonical": "prowl",
+        "role": "root",
+        "meaning": "潜行；游荡",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "prowl",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "潜行",
+          "en": "stalk"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "prowl → 像猫一样悄悄四处游荡", "imageChain": ["潜行", "游荡", "猫行"]},
-    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": 1}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["prowler", "prowling"], "sameAffix": [], "synonyms": ["lurk", "slink", "stalk", "roam"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "prowl → 像猫一样悄悄四处游荡",
+      "imageChain": [
+        "潜行",
+        "游荡",
+        "猫行"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "prowler",
+        "prowling"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "lurk",
+        "slink",
+        "stalk",
+        "roam"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "proximate",
     "phonetic": "/'prɒksɪmɪt/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "最近的；紧接的；直接的", "en": "immediately before or after; very close"},
-    "morphemes": [
-      {"canonical": "prox", "role": "root", "meaning": "靠近；接近（拉丁 proximus）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "proxim", "positionTendency": "initial", "coreMeaning": {"cn": "靠近", "en": "near"}},
-      {"canonical": "-ate", "role": "suffix", "meaning": "形容词", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ate", "positionTendency": "final", "coreMeaning": {"cn": "…的", "en": "having quality"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "proximus", "to": "proximate", "by": "-ate", "meaning": "nearest; immediately before or after"}]},
+    "coreMeaning": {
+      "cn": "最近的；紧接的；直接的",
+      "en": "immediately before or after; very close"
+    },
+    "morphemes": [
+      {
+        "canonical": "prox",
+        "role": "root",
+        "meaning": "靠近；接近（拉丁 proximus）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "proxim",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "靠近",
+          "en": "near"
+        }
+      },
+      {
+        "canonical": "-ate",
+        "role": "suffix",
+        "meaning": "形容词",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ate",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "…的",
+          "en": "having quality"
+        }
+      }
+    ],
+    "derivationChain": [
+      "proximate"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "proximate → 最接近的，直接相关的", "imageChain": ["紧邻", "直接", "最近"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic", "legal"], "formality": "formal"},
-    "relations": {"sameRoot": ["proximity", "approximate", "proxy"], "sameAffix": [], "synonyms": ["immediate", "closest", "direct", "adjacent"], "antonyms": ["distant", "remote", "indirect"], "domainCohort": [], "derivationPair": ["proximity"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "proximate → 最接近的，直接相关的",
+      "imageChain": [
+        "紧邻",
+        "直接",
+        "最近"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic",
+        "legal"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "proximity",
+        "approximate",
+        "proxy"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "immediate",
+        "closest",
+        "direct",
+        "adjacent"
+      ],
+      "antonyms": [
+        "distant",
+        "remote",
+        "indirect"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "proximity"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "proximity",
     "phonetic": "/prɒk'sɪmɪti/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "接近；邻近；亲近", "en": "nearness in space, time, or relationship"},
-    "morphemes": [
-      {"canonical": "prox", "role": "root", "meaning": "靠近；接近", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "proxim", "positionTendency": "initial", "coreMeaning": {"cn": "靠近", "en": "near"}},
-      {"canonical": "-ity", "role": "suffix", "meaning": "状态；名词", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ity", "positionTendency": "final", "coreMeaning": {"cn": "状态", "en": "state"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "proximate", "to": "proximity", "by": "-ity", "meaning": "the state of being near or close"}]},
+    "coreMeaning": {
+      "cn": "接近；邻近；亲近",
+      "en": "nearness in space, time, or relationship"
+    },
+    "morphemes": [
+      {
+        "canonical": "prox",
+        "role": "root",
+        "meaning": "靠近；接近",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "proxim",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "靠近",
+          "en": "near"
+        }
+      },
+      {
+        "canonical": "-ity",
+        "role": "suffix",
+        "meaning": "状态；名词",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ity",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "状态",
+          "en": "state"
+        }
+      }
+    ],
+    "derivationChain": [
+      "proximity"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "proximity → 近邻的状态=邻近，接近", "imageChain": ["邻近", "接近", "亲近"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic"], "formality": "formal"},
-    "relations": {"sameRoot": ["proximate", "approximate", "proxy"], "sameAffix": [], "synonyms": ["closeness", "nearness", "vicinity"], "antonyms": ["distance", "remoteness"], "domainCohort": [], "derivationPair": ["proximate"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "proximity → 近邻的状态=邻近，接近",
+      "imageChain": [
+        "邻近",
+        "接近",
+        "亲近"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "proximate",
+        "approximate",
+        "proxy"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "closeness",
+        "nearness",
+        "vicinity"
+      ],
+      "antonyms": [
+        "distance",
+        "remoteness"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "proximate"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "proxy",
     "phonetic": "/'prɒksi/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "代理；代理人；授权书", "en": "a person authorized to represent another; a substitute"},
-    "morphemes": [
-      {"canonical": "prox", "role": "root", "meaning": "靠近；代理（proximus缩略）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "prox", "positionTendency": "medial", "coreMeaning": {"cn": "代理", "en": "representative"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "代理；代理人；授权书",
+      "en": "a person authorized to represent another; a substitute"
+    },
+    "morphemes": [
+      {
+        "canonical": "prox",
+        "role": "root",
+        "meaning": "靠近；代理（proximus缩略）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "prox",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "代理",
+          "en": "representative"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "proxy → 代替你行事的人=代理人", "imageChain": ["代理", "授权", "代表"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "legal", "tech"], "formality": "neutral"},
-    "relations": {"sameRoot": ["proximate", "proximity"], "sameAffix": [], "synonyms": ["representative", "delegate", "substitute", "agent"], "antonyms": [], "domainCohort": ["agent", "representative"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "proxy → 代替你行事的人=代理人",
+      "imageChain": [
+        "代理",
+        "授权",
+        "代表"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "legal",
+        "tech"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "proximate",
+        "proximity"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "representative",
+        "delegate",
+        "substitute",
+        "agent"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "agent",
+        "representative"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "prudent",
     "phonetic": "/'pruːdnt/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "谨慎的；精明的；节俭的", "en": "acting with or showing care and thought for the future"},
-    "morphemes": [
-      {"canonical": "pruden", "role": "root", "meaning": "谨慎；明智（拉丁 prudens）", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "prudent", "positionTendency": "medial", "coreMeaning": {"cn": "谨慎", "en": "careful/wise"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "谨慎的；精明的；节俭的",
+      "en": "acting with or showing care and thought for the future"
+    },
+    "morphemes": [
+      {
+        "canonical": "pruden",
+        "role": "root",
+        "meaning": "谨慎；明智（拉丁 prudens）",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "prudent",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "谨慎",
+          "en": "careful/wise"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "prudent → 做事小心谨慎，深谋远虑的", "imageChain": ["谨慎", "精明", "深虑"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 1}, "domain": ["general", "business"], "formality": "formal"},
-    "relations": {"sameRoot": ["prudence", "prudential", "imprudent"], "sameAffix": [], "synonyms": ["careful", "cautious", "wise", "circumspect"], "antonyms": ["imprudent", "reckless", "rash", "careless"], "domainCohort": [], "derivationPair": ["prudence", "prudential"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "prudent → 做事小心谨慎，深谋远虑的",
+      "imageChain": [
+        "谨慎",
+        "精明",
+        "深虑"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general",
+        "business"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "prudence",
+        "prudential",
+        "imprudent"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "careful",
+        "cautious",
+        "wise",
+        "circumspect"
+      ],
+      "antonyms": [
+        "imprudent",
+        "reckless",
+        "rash",
+        "careless"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "prudence",
+        "prudential"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "prudish",
     "phonetic": "/'pruːdɪʃ/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "过分规矩的；装正经的", "en": "excessively concerned with decorum or propriety"},
-    "morphemes": [
-      {"canonical": "prude", "role": "root", "meaning": "拘守礼仪的人", "sentiment": {"tags": ["消极"], "intensity": 1}, "order": 1, "form": "prud", "positionTendency": "initial", "coreMeaning": {"cn": "假正经", "en": "overly proper"}},
-      {"canonical": "-ish", "role": "suffix", "meaning": "有…特质的", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ish", "positionTendency": "final", "coreMeaning": {"cn": "类似", "en": "somewhat"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "prude", "to": "prudish", "by": "-ish", "meaning": "like a prude; excessively proper"}]},
+    "coreMeaning": {
+      "cn": "过分规矩的；装正经的",
+      "en": "excessively concerned with decorum or propriety"
+    },
+    "morphemes": [
+      {
+        "canonical": "prude",
+        "role": "root",
+        "meaning": "拘守礼仪的人",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "prud",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "假正经",
+          "en": "overly proper"
+        }
+      },
+      {
+        "canonical": "-ish",
+        "role": "suffix",
+        "meaning": "有…特质的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ish",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "类似",
+          "en": "somewhat"
+        }
+      }
+    ],
+    "derivationChain": [
+      "prudish"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "prudish → 像假正经者一样，过分拘谨", "imageChain": ["假正经", "过分规矩", "装正经"]},
-    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": 1}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["prude", "prudery"], "sameAffix": [], "synonyms": ["prim", "proper", "puritanical", "strait-laced"], "antonyms": ["liberal", "permissive", "open-minded"], "domainCohort": [], "derivationPair": ["prude", "prudery"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "prudish → 像假正经者一样，过分拘谨",
+      "imageChain": [
+        "假正经",
+        "过分规矩",
+        "装正经"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "prude",
+        "prudery"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "prim",
+        "proper",
+        "puritanical",
+        "strait-laced"
+      ],
+      "antonyms": [
+        "liberal",
+        "permissive",
+        "open-minded"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "prude",
+        "prudery"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "prune",
     "phonetic": "/pruːn/",
-    "pos": ["v.", "n."],
-    "coreMeaning": {"cn": "修剪；删除；李子干", "en": "trim by cutting; reduce by removing what is unnecessary; a dried plum"},
-    "morphemes": [
-      {"canonical": "prune", "role": "root", "meaning": "修剪；李子干", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "prune", "positionTendency": "medial", "coreMeaning": {"cn": "修剪", "en": "trim"}}
+    "pos": [
+      "v.",
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "修剪；删除；李子干",
+      "en": "trim by cutting; reduce by removing what is unnecessary; a dried plum"
+    },
+    "morphemes": [
+      {
+        "canonical": "prune",
+        "role": "root",
+        "meaning": "修剪；李子干",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "prune",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "修剪",
+          "en": "trim"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "prune → 修剪树枝，也指干梅子", "imageChain": ["修剪", "削减", "梅干"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": ["pruning", "pruned"], "sameAffix": [], "synonyms": ["trim", "cut", "clip", "reduce"], "antonyms": ["grow", "expand", "extend"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "prune → 修剪树枝，也指干梅子",
+      "imageChain": [
+        "修剪",
+        "削减",
+        "梅干"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "pruning",
+        "pruned"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "trim",
+        "cut",
+        "clip",
+        "reduce"
+      ],
+      "antonyms": [
+        "grow",
+        "expand",
+        "extend"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

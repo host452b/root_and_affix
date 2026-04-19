@@ -3,93 +3,611 @@
     "word": "repair",
     "phonetic": "/rɪˈpɛər/",
     "pos": "v./n.",
-    "coreMeaning": {"cn": "修理；修补；修缮", "en": "to fix something broken or damaged; a mended area"},
+    "coreMeaning": {
+      "cn": "修理；修补；修缮",
+      "en": "to fix something broken or damaged; a mended area"
+    },
     "morphemes": [
-      {"canonical": "re-", "role": "prefix", "meaning": "再次；重新", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "re", "positionTendency": "initial", "coreMeaning": {"cn": "再次", "en": "again"}},
-      {"canonical": "par-", "role": "root", "meaning": "准备；整备（拉丁语 parare）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "pair", "positionTendency": "final", "coreMeaning": {"cn": "准备", "en": "prepare/fix"}}
+      {
+        "canonical": "re-",
+        "role": "prefix",
+        "meaning": "再次；重新",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "re",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "再次",
+          "en": "again"
+        }
+      },
+      {
+        "canonical": "par-",
+        "role": "root",
+        "meaning": "准备；整备（拉丁语 parare）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "pair",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "准备",
+          "en": "prepare/fix"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "repair", "to": "reparation", "operation": "nominalize"}]},
+    "derivationChain": [
+      "reparation"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "re(重新) + pair(准备) → 重新整备 → 修理", "imageChain": ["修理", "修复", "维修"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["reparation", "reparable", "prepare"], "sameAffix": [], "synonyms": ["fix", "mend", "restore", "overhaul"], "antonyms": ["break", "damage", "destroy"], "domainCohort": [], "derivationPair": [{"word": "reparation", "relation": "noun form"}], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "re(重新) + pair(准备) → 重新整备 → 修理",
+      "imageChain": [
+        "修理",
+        "修复",
+        "维修"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "reparation",
+        "reparable",
+        "prepare"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "fix",
+        "mend",
+        "restore",
+        "overhaul"
+      ],
+      "antonyms": [
+        "break",
+        "damage",
+        "destroy"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        {
+          "word": "reparation",
+          "relation": "noun form"
+        }
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "reparable",
     "phonetic": "/ˈrepərəbl/",
     "pos": "adj.",
-    "coreMeaning": {"cn": "可修复的；可弥补的", "en": "able to be repaired, remedied, or compensated for"},
+    "coreMeaning": {
+      "cn": "可修复的；可弥补的",
+      "en": "able to be repaired, remedied, or compensated for"
+    },
     "morphemes": [
-      {"canonical": "re-", "role": "prefix", "meaning": "再次", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "re", "positionTendency": "initial", "coreMeaning": {"cn": "再次", "en": "again"}},
-      {"canonical": "par-", "role": "root", "meaning": "准备；整备", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "par", "positionTendency": "medial", "coreMeaning": {"cn": "整备", "en": "fix"}},
-      {"canonical": "-able", "role": "suffix", "meaning": "形容词后缀：能够…的", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "-able", "positionTendency": "final", "coreMeaning": {"cn": "能够", "en": "capable of"}}
+      {
+        "canonical": "re-",
+        "role": "prefix",
+        "meaning": "再次",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "re",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "再次",
+          "en": "again"
+        }
+      },
+      {
+        "canonical": "par-",
+        "role": "root",
+        "meaning": "准备；整备",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "par",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "整备",
+          "en": "fix"
+        }
+      },
+      {
+        "canonical": "-able",
+        "role": "suffix",
+        "meaning": "形容词后缀：能够…的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-able",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "能够",
+          "en": "capable of"
+        }
+      }
     ],
-    "derivationChain": {"steps": []},
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "repair + able → 能够被修理的 → 可修复的", "imageChain": ["可修复", "弥补", "可挽救"]},
-    "wordLevel": {"domain": ["general", "legal"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["repair", "reparation"], "sameAffix": [], "synonyms": ["fixable", "mendable", "restorable"], "antonyms": ["irreparable", "beyond repair"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "repair + able → 能够被修理的 → 可修复的",
+      "imageChain": [
+        "可修复",
+        "弥补",
+        "可挽救"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "legal"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "repair",
+        "reparation"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "fixable",
+        "mendable",
+        "restorable"
+      ],
+      "antonyms": [
+        "irreparable",
+        "beyond repair"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "reparation",
     "phonetic": "/ˌrepəˈreɪʃən/",
     "pos": "n.",
-    "coreMeaning": {"cn": "赔偿；弥补；修复", "en": "the act of making amends for wrong; compensation for damage or loss"},
+    "coreMeaning": {
+      "cn": "赔偿；弥补；修复",
+      "en": "the act of making amends for wrong; compensation for damage or loss"
+    },
     "morphemes": [
-      {"canonical": "re-", "role": "prefix", "meaning": "再次", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "re", "positionTendency": "initial", "coreMeaning": {"cn": "再次", "en": "again"}},
-      {"canonical": "par-", "role": "root", "meaning": "准备；修复（拉丁语 parare）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "parat", "positionTendency": "medial", "coreMeaning": {"cn": "修复", "en": "prepare/repair"}},
-      {"canonical": "-ion", "role": "suffix", "meaning": "名词后缀", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "-ion", "positionTendency": "final", "coreMeaning": {"cn": "行为", "en": "action"}}
+      {
+        "canonical": "re-",
+        "role": "prefix",
+        "meaning": "再次",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "re",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "再次",
+          "en": "again"
+        }
+      },
+      {
+        "canonical": "par-",
+        "role": "root",
+        "meaning": "准备；修复（拉丁语 parare）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "parat",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "修复",
+          "en": "prepare/repair"
+        }
+      },
+      {
+        "canonical": "-ion",
+        "role": "suffix",
+        "meaning": "名词后缀",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-ion",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "行为",
+          "en": "action"
+        }
+      }
     ],
-    "derivationChain": {"steps": []},
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "repair + ation → 修复/赔偿的行为 → 赔款", "imageChain": ["赔偿", "战争赔款", "弥补"]},
-    "wordLevel": {"domain": ["general", "legal", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["repair", "reparable"], "sameAffix": [], "synonyms": ["compensation", "amends", "redress", "restitution"], "antonyms": [], "domainCohort": [], "derivationPair": [{"word": "repair", "relation": "base verb"}], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "repair + ation → 修复/赔偿的行为 → 赔款",
+      "imageChain": [
+        "赔偿",
+        "战争赔款",
+        "弥补"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "legal",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "repair",
+        "reparable"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "compensation",
+        "amends",
+        "redress",
+        "restitution"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        {
+          "word": "repair",
+          "relation": "base verb"
+        }
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "repartee",
     "phonetic": "/ˌrepəˈtiː/",
     "pos": "n.",
-    "coreMeaning": {"cn": "机敏的应答；妙语；巧辩", "en": "the ability to respond to remarks quickly and wittily; a quick witty reply"},
+    "coreMeaning": {
+      "cn": "机敏的应答；妙语；巧辩",
+      "en": "the ability to respond to remarks quickly and wittily; a quick witty reply"
+    },
     "morphemes": [
-      {"canonical": "re-", "role": "prefix", "meaning": "回；回应", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "re", "positionTendency": "initial", "coreMeaning": {"cn": "回应", "en": "back"}},
-      {"canonical": "part-", "role": "root", "meaning": "分开；出发（法语 partir）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "part", "positionTendency": "medial", "coreMeaning": {"cn": "回击", "en": "parry/return"}}
+      {
+        "canonical": "re-",
+        "role": "prefix",
+        "meaning": "回；回应",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "re",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "回应",
+          "en": "back"
+        }
+      },
+      {
+        "canonical": "part-",
+        "role": "root",
+        "meaning": "分开；出发（法语 partir）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "part",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "回击",
+          "en": "parry/return"
+        }
+      }
     ],
-    "derivationChain": {"steps": []},
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "re(回) + partee(出击) → 机智回击 → 妙语如珠", "imageChain": ["妙语", "机智", "快问快答"]},
-    "wordLevel": {"domain": ["general", "literary"], "sentiment": {"tags": ["褒义"], "intensity": 1}},
-    "relations": {"sameRoot": ["part", "department"], "sameAffix": [], "synonyms": ["wit", "banter", "wordplay", "badinage"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "re(回) + partee(出击) → 机智回击 → 妙语如珠",
+      "imageChain": [
+        "妙语",
+        "机智",
+        "快问快答"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "literary"
+      ],
+      "sentiment": {
+        "tags": [
+          "褒义"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "part",
+        "department"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "wit",
+        "banter",
+        "wordplay",
+        "badinage"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "repatriate",
     "phonetic": "/ˌriːˈpeɪtrɪeɪt/",
     "pos": "v.",
-    "coreMeaning": {"cn": "遣返；遣送回国", "en": "to send or bring someone back to their own country"},
+    "coreMeaning": {
+      "cn": "遣返；遣送回国",
+      "en": "to send or bring someone back to their own country"
+    },
     "morphemes": [
-      {"canonical": "re-", "role": "prefix", "meaning": "再次；返回", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "re", "positionTendency": "initial", "coreMeaning": {"cn": "返回", "en": "back"}},
-      {"canonical": "patri-", "role": "root", "meaning": "祖国；父（拉丁语 patria）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "patri", "positionTendency": "medial", "coreMeaning": {"cn": "祖国", "en": "homeland"}},
-      {"canonical": "-ate", "role": "suffix", "meaning": "动词后缀", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "-ate", "positionTendency": "final", "coreMeaning": {"cn": "动词", "en": "verb suffix"}}
+      {
+        "canonical": "re-",
+        "role": "prefix",
+        "meaning": "再次；返回",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "re",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "返回",
+          "en": "back"
+        }
+      },
+      {
+        "canonical": "patri-",
+        "role": "root",
+        "meaning": "祖国；父（拉丁语 patria）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "patri",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "祖国",
+          "en": "homeland"
+        }
+      },
+      {
+        "canonical": "-ate",
+        "role": "suffix",
+        "meaning": "动词后缀",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-ate",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "动词",
+          "en": "verb suffix"
+        }
+      }
     ],
-    "derivationChain": {"steps": []},
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "re(返回) + patri(祖国) + ate → 送回祖国 → 遣返", "imageChain": ["遣返", "回国", "驱逐出境"]},
-    "wordLevel": {"domain": ["general", "legal", "news"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["patriot", "expatriate", "patriotism"], "sameAffix": ["repatriate", "reparation"], "synonyms": ["send home", "return", "deport"], "antonyms": ["expatriate"], "domainCohort": [], "derivationPair": [{"word": "repatriation", "relation": "noun form"}], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "re(返回) + patri(祖国) + ate → 送回祖国 → 遣返",
+      "imageChain": [
+        "遣返",
+        "回国",
+        "驱逐出境"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "legal",
+        "news"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "patriot",
+        "expatriate",
+        "patriotism"
+      ],
+      "sameAffix": [
+        "repatriate",
+        "reparation"
+      ],
+      "synonyms": [
+        "send home",
+        "return",
+        "deport"
+      ],
+      "antonyms": [
+        "expatriate"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        {
+          "word": "repatriation",
+          "relation": "noun form"
+        }
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "repeal",
     "phonetic": "/rɪˈpiːl/",
     "pos": "v./n.",
-    "coreMeaning": {"cn": "废除；废止；撤销", "en": "to revoke or annul an official rule or law; the act of doing so"},
+    "coreMeaning": {
+      "cn": "废除；废止；撤销",
+      "en": "to revoke or annul an official rule or law; the act of doing so"
+    },
     "morphemes": [
-      {"canonical": "re-", "role": "prefix", "meaning": "相反；撤回", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "re", "positionTendency": "initial", "coreMeaning": {"cn": "撤回", "en": "back"}},
-      {"canonical": "peal-", "role": "root", "meaning": "呼唤；召回（法语 appel）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "peal", "positionTendency": "final", "coreMeaning": {"cn": "召回", "en": "call back"}}
+      {
+        "canonical": "re-",
+        "role": "prefix",
+        "meaning": "相反；撤回",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "re",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "撤回",
+          "en": "back"
+        }
+      },
+      {
+        "canonical": "peal-",
+        "role": "root",
+        "meaning": "呼唤；召回（法语 appel）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "peal",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "召回",
+          "en": "call back"
+        }
+      }
     ],
-    "derivationChain": {"steps": []},
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "re(回) + peal(呼唤召回) → 把法令召回 → 废除", "imageChain": ["废除", "撤销", "法律"]},
-    "wordLevel": {"domain": ["general", "legal", "business"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["appeal", "appellation"], "sameAffix": [], "synonyms": ["revoke", "annul", "rescind", "abolish"], "antonyms": ["enact", "pass", "establish"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "re(回) + peal(呼唤召回) → 把法令召回 → 废除",
+      "imageChain": [
+        "废除",
+        "撤销",
+        "法律"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "legal",
+        "business"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "appeal",
+        "appellation"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "revoke",
+        "annul",
+        "rescind",
+        "abolish"
+      ],
+      "antonyms": [
+        "enact",
+        "pass",
+        "establish"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

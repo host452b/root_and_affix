@@ -2,80 +2,469 @@
   {
     "word": "redeem",
     "phonetic": "/rɪˈdiːm/",
-    "pos": ["v"],
-    "coreMeaning": {"cn": "赎回；挽救；兑换；拯救", "en": "to buy back; to free from what distresses; to exchange for money or goods"},
-    "morphemes": [
-      {"form": "re", "role": "prefix", "canonical": "re-", "meaning": "back, again (Latin: re)", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"form": "deem", "role": "root", "canonical": "empt-", "meaning": "buy (Latin: emere)", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    "pos": [
+      "v"
     ],
-    "derivationChain": "emere (Latin: buy) → redimere → redeem → redeemable, redemption",
+    "coreMeaning": {
+      "cn": "赎回；挽救；兑换；拯救",
+      "en": "to buy back; to free from what distresses; to exchange for money or goods"
+    },
+    "morphemes": [
+      {
+        "form": "re",
+        "role": "prefix",
+        "canonical": "re-",
+        "meaning": "back, again (Latin: re)",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "deem",
+        "role": "root",
+        "canonical": "empt-",
+        "meaning": "buy (Latin: emere)",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "emere (Latin: buy) → redimere → redeem → redeemable, redemption"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"imagery": "用优惠券兑换奖品，或宗教上的灵魂救赎", "mnemonic": "re（回）+ deem（买）→ 买回来 → 赎回"},
-    "wordLevel": "GRE",
-    "relations": {"sameRoot": ["redeemable", "redemption", "redemptive"], "sameAffix": [], "synonyms": ["reclaim", "rescue", "save", "ransom"], "antonyms": ["forfeit", "condemn"], "domainCohort": [], "derivationPair": [["redeem", "redemption"]], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "imagery": "用优惠券兑换奖品，或宗教上的灵魂救赎",
+      "mnemonic": "re（回）+ deem（买）→ 买回来 → 赎回",
+      "imageChain": []
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "register": "neutral",
+      "formality": 3,
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "redeemable",
+        "redemption",
+        "redemptive"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "reclaim",
+        "rescue",
+        "save",
+        "ransom"
+      ],
+      "antonyms": [
+        "forfeit",
+        "condemn"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        [
+          "redeem",
+          "redemption"
+        ]
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "redeemable",
     "phonetic": "/rɪˈdiːməbl/",
-    "pos": ["adj"],
-    "coreMeaning": {"cn": "可赎回的；可补救的", "en": "able to be redeemed; able to be exchanged for goods or money"},
-    "morphemes": [
-      {"form": "re", "role": "prefix", "canonical": "re-", "meaning": "back, again", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"form": "deem", "role": "root", "canonical": "empt-", "meaning": "buy (Latin: emere)", "positionTendency": "medial", "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"form": "able", "role": "suffix", "canonical": "-able", "meaning": "capable of being", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    "pos": [
+      "adj"
     ],
-    "derivationChain": "redeem → redeemable",
+    "coreMeaning": {
+      "cn": "可赎回的；可补救的",
+      "en": "able to be redeemed; able to be exchanged for goods or money"
+    },
+    "morphemes": [
+      {
+        "form": "re",
+        "role": "prefix",
+        "canonical": "re-",
+        "meaning": "back, again",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "deem",
+        "role": "root",
+        "canonical": "empt-",
+        "meaning": "buy (Latin: emere)",
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "able",
+        "role": "suffix",
+        "canonical": "-able",
+        "meaning": "capable of being",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "redeem → redeemable"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"imagery": "可兑换的礼品券", "mnemonic": "redeem（赎回）+ able → 可以赎回的"},
-    "wordLevel": "GRE",
-    "relations": {"sameRoot": ["redeem", "redemption", "irredeemable"], "sameAffix": [], "synonyms": ["recoverable", "salvageable", "exchangeable"], "antonyms": ["irredeemable", "unrecoverable"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "imagery": "可兑换的礼品券",
+      "mnemonic": "redeem（赎回）+ able → 可以赎回的",
+      "imageChain": []
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "register": "neutral",
+      "formality": 3,
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "redeem",
+        "redemption",
+        "irredeemable"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "recoverable",
+        "salvageable",
+        "exchangeable"
+      ],
+      "antonyms": [
+        "irredeemable",
+        "unrecoverable"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "redemption",
     "phonetic": "/rɪˈdɛmpʃən/",
-    "pos": ["n"],
-    "coreMeaning": {"cn": "赎回；救赎；弥补", "en": "the action of saving or being saved from sin or error; buying back"},
-    "morphemes": [
-      {"form": "re", "role": "prefix", "canonical": "re-", "meaning": "back", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"form": "empt", "role": "root", "canonical": "empt-", "meaning": "buy, take (Latin: emere)", "positionTendency": "medial", "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"form": "ion", "role": "suffix", "canonical": "-ion", "meaning": "action, state", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    "pos": [
+      "n"
     ],
-    "derivationChain": "redimere → redemption → redemptive",
+    "coreMeaning": {
+      "cn": "赎回；救赎；弥补",
+      "en": "the action of saving or being saved from sin or error; buying back"
+    },
+    "morphemes": [
+      {
+        "form": "re",
+        "role": "prefix",
+        "canonical": "re-",
+        "meaning": "back",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "empt",
+        "role": "root",
+        "canonical": "empt-",
+        "meaning": "buy, take (Latin: emere)",
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "ion",
+        "role": "suffix",
+        "canonical": "-ion",
+        "meaning": "action, state",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "redimere → redemption → redemptive"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"imagery": "宗教仪式中对罪人的救赎与宽恕", "mnemonic": "re（回）+ empt（买）+ ion → 赎身 → 救赎"},
-    "wordLevel": "GRE",
-    "relations": {"sameRoot": ["redeem", "redeemable", "redemptive"], "sameAffix": [], "synonyms": ["salvation", "deliverance", "rescue", "atonement"], "antonyms": ["damnation", "condemnation"], "domainCohort": [], "derivationPair": [["redeem", "redemption"]], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "imagery": "宗教仪式中对罪人的救赎与宽恕",
+      "mnemonic": "re（回）+ empt（买）+ ion → 赎身 → 救赎",
+      "imageChain": []
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "register": "neutral",
+      "formality": 3,
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "redeem",
+        "redeemable",
+        "redemptive"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "salvation",
+        "deliverance",
+        "rescue",
+        "atonement"
+      ],
+      "antonyms": [
+        "damnation",
+        "condemnation"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        [
+          "redeem",
+          "redemption"
+        ]
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "redemptive",
     "phonetic": "/rɪˈdɛmptɪv/",
-    "pos": ["adj"],
-    "coreMeaning": {"cn": "救赎的；赎罪的", "en": "acting to save someone from sin or error; having the quality of redemption"},
-    "morphemes": [
-      {"form": "re", "role": "prefix", "canonical": "re-", "meaning": "back", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"form": "empt", "role": "root", "canonical": "empt-", "meaning": "buy (Latin: emere)", "positionTendency": "medial", "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"form": "ive", "role": "suffix", "canonical": "-ive", "meaning": "having the quality of", "positionTendency": "final", "sentiment": {"tags": ["褒义"], "intensity": 1}}
+    "pos": [
+      "adj"
     ],
-    "derivationChain": "redemption → redemptive",
+    "coreMeaning": {
+      "cn": "救赎的；赎罪的",
+      "en": "acting to save someone from sin or error; having the quality of redemption"
+    },
+    "morphemes": [
+      {
+        "form": "re",
+        "role": "prefix",
+        "canonical": "re-",
+        "meaning": "back",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "empt",
+        "role": "root",
+        "canonical": "empt-",
+        "meaning": "buy (Latin: emere)",
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "ive",
+        "role": "suffix",
+        "canonical": "-ive",
+        "meaning": "having the quality of",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "褒义"
+          ],
+          "intensity": 1
+        }
+      }
+    ],
+    "derivationChain": [
+      "redemption → redemptive"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"imagery": "具有救赎力量的善举和牺牲", "mnemonic": "redemption（救赎）+ ive → 具有救赎力的"},
-    "wordLevel": "GRE",
-    "relations": {"sameRoot": ["redeem", "redemption", "redeemable"], "sameAffix": [], "synonyms": ["saving", "expiatory", "atoning"], "antonyms": ["damning", "condemning"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "imagery": "具有救赎力量的善举和牺牲",
+      "mnemonic": "redemption（救赎）+ ive → 具有救赎力的",
+      "imageChain": []
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "register": "neutral",
+      "formality": 3,
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "redeem",
+        "redemption",
+        "redeemable"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "saving",
+        "expiatory",
+        "atoning"
+      ],
+      "antonyms": [
+        "damning",
+        "condemning"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "redefine",
     "phonetic": "/ˌriːdɪˈfaɪn/",
-    "pos": ["v"],
-    "coreMeaning": {"cn": "重新定义；重新界定", "en": "to define again or differently; to alter or change the meaning or nature of"},
-    "morphemes": [
-      {"form": "re", "role": "prefix", "canonical": "re-", "meaning": "again (Latin: re)", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"form": "de", "role": "prefix", "canonical": "de-", "meaning": "completely, thoroughly", "positionTendency": "medial", "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"form": "fine", "role": "root", "canonical": "fin-", "meaning": "end, limit (Latin: finire)", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    "pos": [
+      "v"
     ],
-    "derivationChain": "define → redefine → redefinition",
+    "coreMeaning": {
+      "cn": "重新定义；重新界定",
+      "en": "to define again or differently; to alter or change the meaning or nature of"
+    },
+    "morphemes": [
+      {
+        "form": "re",
+        "role": "prefix",
+        "canonical": "re-",
+        "meaning": "again (Latin: re)",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "de",
+        "role": "prefix",
+        "canonical": "de-",
+        "meaning": "completely, thoroughly",
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "fine",
+        "role": "root",
+        "canonical": "fin-",
+        "meaning": "end, limit (Latin: finire)",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "define → redefine → redefinition"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"imagery": "科学家打破旧框架重新界定概念", "mnemonic": "re（重新）+ define（定义）→ 重新定义"},
-    "wordLevel": "IELTS",
-    "relations": {"sameRoot": ["define", "definite", "definition", "refine"], "sameAffix": [], "synonyms": ["reinterpret", "reshape", "reconstruct", "reconfigure"], "antonyms": [], "domainCohort": [], "derivationPair": [["redefine", "redefinition"]], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "imagery": "科学家打破旧框架重新界定概念",
+      "mnemonic": "re（重新）+ define（定义）→ 重新定义",
+      "imageChain": []
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "register": "neutral",
+      "formality": 3,
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "define",
+        "definite",
+        "definition",
+        "refine"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "reinterpret",
+        "reshape",
+        "reconstruct",
+        "reconfigure"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        [
+          "redefine",
+          "redefinition"
+        ]
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

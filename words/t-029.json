@@ -2,151 +2,981 @@
   {
     "word": "thalassic",
     "phonetic": "/θə'læsɪk/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "海洋的；内海的；海湾的", "en": "of or relating to the sea, especially an inland or smaller sea"},
-    "morphemes": [
-      {"canonical": "thalass-", "role": "root", "meaning": "海（Gk thalassa = sea）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "thalass", "positionTendency": "initial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "-ic", "role": "suffix", "meaning": "形容词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ic", "positionTendency": "final", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "Gk thalassa (sea)", "to": "thalassic", "rule": "+ic"}]},
+    "coreMeaning": {
+      "cn": "海洋的；内海的；海湾的",
+      "en": "of or relating to the sea, especially an inland or smaller sea"
+    },
+    "morphemes": [
+      {
+        "canonical": "thalass-",
+        "role": "root",
+        "meaning": "海（Gk thalassa = sea）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "thalass",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "-ic",
+        "role": "suffix",
+        "meaning": "形容词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ic",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "thalassic"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "thalass(海)+ic → 海洋性的，与海有关的", "imageChain": ["海洋", "内海", "海湾"]},
-    "wordLevel": {"domain": ["academic", "medical"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["thalassemia", "thalasso"], "sameAffix": [], "synonyms": ["marine", "oceanic", "pelagic", "maritime"], "antonyms": ["terrestrial", "continental"], "domainCohort": ["pelagic", "oceanic"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "thalass(海)+ic → 海洋性的，与海有关的",
+      "imageChain": [
+        "海洋",
+        "内海",
+        "海湾"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "academic",
+        "medical"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thalassemia",
+        "thalasso"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "marine",
+        "oceanic",
+        "pelagic",
+        "maritime"
+      ],
+      "antonyms": [
+        "terrestrial",
+        "continental"
+      ],
+      "domainCohort": [
+        "pelagic",
+        "oceanic"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "thalassemia",
     "phonetic": "/,θæləˈsiːmɪə/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "地中海贫血；海洋性贫血", "en": "a hereditary blood disorder characterized by reduced hemoglobin production, common in Mediterranean populations"},
-    "morphemes": [
-      {"canonical": "thalass-", "role": "root", "meaning": "海（Gk thalassa = sea，指地中海地区）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "thalass", "positionTendency": "initial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "-emia", "role": "suffix", "meaning": "血液病", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 2, "form": "emia", "positionTendency": "final", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "Gk thalassa (sea) + haima (blood)", "to": "thalassemia", "rule": "复合借入"}]},
+    "coreMeaning": {
+      "cn": "地中海贫血；海洋性贫血",
+      "en": "a hereditary blood disorder characterized by reduced hemoglobin production, common in Mediterranean populations"
+    },
+    "morphemes": [
+      {
+        "canonical": "thalass-",
+        "role": "root",
+        "meaning": "海（Gk thalassa = sea，指地中海地区）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "thalass",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "-emia",
+        "role": "suffix",
+        "meaning": "血液病",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 2,
+        "form": "emia",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "thalassemia"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "thalass(地中海)+emia(血液病) → 地中海地区常见的遗传性血液病", "imageChain": ["贫血", "遗传病", "地中海"]},
-    "wordLevel": {"domain": ["medical"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": ["thalassic"], "sameAffix": ["anemia", "leukemia"], "synonyms": ["Mediterranean anemia", "Cooley's anemia"], "antonyms": [], "domainCohort": ["anemia", "sickle cell disease"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "thalass(地中海)+emia(血液病) → 地中海地区常见的遗传性血液病",
+      "imageChain": [
+        "贫血",
+        "遗传病",
+        "地中海"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "medical"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thalassic"
+      ],
+      "sameAffix": [
+        "anemia",
+        "leukemia"
+      ],
+      "synonyms": [
+        "Mediterranean anemia",
+        "Cooley's anemia"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "anemia",
+        "sickle cell disease"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "thanatoid",
     "phonetic": "/'θænətɔɪd/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "致命的；似死的；死一般的", "en": "resembling or causing death; deathlike"},
-    "morphemes": [
-      {"canonical": "thanat-", "role": "root", "meaning": "死亡（Gk thanatos = death）", "sentiment": {"tags": ["消极"], "intensity": -2}, "order": 1, "form": "thanat", "positionTendency": "initial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "-oid", "role": "suffix", "meaning": "像…的；类似", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "oid", "positionTendency": "final", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "Gk thanatos (death) + -oid (like)", "to": "thanatoid", "rule": "复合"}]},
+    "coreMeaning": {
+      "cn": "致命的；似死的；死一般的",
+      "en": "resembling or causing death; deathlike"
+    },
+    "morphemes": [
+      {
+        "canonical": "thanat-",
+        "role": "root",
+        "meaning": "死亡（Gk thanatos = death）",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -2
+        },
+        "order": 1,
+        "form": "thanat",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "-oid",
+        "role": "suffix",
+        "meaning": "像…的；类似",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "oid",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "thanatoid"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "thanat(死亡)+oid(像) → 像死一样的，或致命的", "imageChain": ["死亡", "致命", "死寂"]},
-    "wordLevel": {"domain": ["medical", "academic"], "sentiment": {"tags": ["消极"], "intensity": -2}},
-    "relations": {"sameRoot": ["thanatology", "thanatos", "euthanasia"], "sameAffix": ["humanoid", "android"], "synonyms": ["deathlike", "lethal", "deadly", "fatal"], "antonyms": ["vital", "life-giving"], "domainCohort": ["lethal", "fatal"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "thanat(死亡)+oid(像) → 像死一样的，或致命的",
+      "imageChain": [
+        "死亡",
+        "致命",
+        "死寂"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "medical",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thanatology",
+        "thanatos",
+        "euthanasia"
+      ],
+      "sameAffix": [
+        "humanoid",
+        "android"
+      ],
+      "synonyms": [
+        "deathlike",
+        "lethal",
+        "deadly",
+        "fatal"
+      ],
+      "antonyms": [
+        "vital",
+        "life-giving"
+      ],
+      "domainCohort": [
+        "lethal",
+        "fatal"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "thanatology",
     "phonetic": "/,θænə'tɒlədʒi/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "死亡学；临终研究", "en": "the scientific study of death and the practices associated with it, including the medical, psychological, and social aspects"},
-    "morphemes": [
-      {"canonical": "thanat-", "role": "root", "meaning": "死亡（Gk thanatos）", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "thanat", "positionTendency": "initial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "-ology", "role": "suffix", "meaning": "…学；研究", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ology", "positionTendency": "final", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "Gk thanatos (death) + -logy (study of)", "to": "thanatology", "rule": "复合"}]},
+    "coreMeaning": {
+      "cn": "死亡学；临终研究",
+      "en": "the scientific study of death and the practices associated with it, including the medical, psychological, and social aspects"
+    },
+    "morphemes": [
+      {
+        "canonical": "thanat-",
+        "role": "root",
+        "meaning": "死亡（Gk thanatos）",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "thanat",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "-ology",
+        "role": "suffix",
+        "meaning": "…学；研究",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ology",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "thanatology"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "thanat(死亡)+ology(学) → 研究死亡及临终过程的学科", "imageChain": ["死亡学", "临终关怀", "哀伤辅导"]},
-    "wordLevel": {"domain": ["medical", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["thanatoid", "thanatos", "euthanasia"], "sameAffix": ["psychology", "biology"], "synonyms": ["death studies", "mortology"], "antonyms": [], "domainCohort": ["palliative care", "grief counseling"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "thanat(死亡)+ology(学) → 研究死亡及临终过程的学科",
+      "imageChain": [
+        "死亡学",
+        "临终关怀",
+        "哀伤辅导"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "medical",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thanatoid",
+        "thanatos",
+        "euthanasia"
+      ],
+      "sameAffix": [
+        "psychology",
+        "biology"
+      ],
+      "synonyms": [
+        "death studies",
+        "mortology"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "palliative care",
+        "grief counseling"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "thankful",
     "phonetic": "/'θæŋkfəl/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "感谢的；感激的", "en": "feeling or expressing gratitude; pleased and relieved"},
-    "morphemes": [
-      {"canonical": "thank-", "role": "root", "meaning": "感谢（OE þancian）", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "thank", "positionTendency": "initial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "-ful", "role": "suffix", "meaning": "充满…的；有…的", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ful", "positionTendency": "final", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "thank", "to": "thankful", "rule": "+ful"}]},
+    "coreMeaning": {
+      "cn": "感谢的；感激的",
+      "en": "feeling or expressing gratitude; pleased and relieved"
+    },
+    "morphemes": [
+      {
+        "canonical": "thank-",
+        "role": "root",
+        "meaning": "感谢（OE þancian）",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "thank",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "-ful",
+        "role": "suffix",
+        "meaning": "充满…的；有…的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ful",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "thankful"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "thank(感谢)+ful(充满) → 充满感激之情的", "imageChain": ["感激", "感恩", "感谢"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["积极"], "intensity": 1}},
-    "relations": {"sameRoot": ["thank", "thanks", "thankless", "thanksgiving"], "sameAffix": ["grateful", "joyful"], "synonyms": ["grateful", "appreciative", "obliged", "indebted"], "antonyms": ["ungrateful", "thankless", "unappreciative"], "domainCohort": ["grateful", "appreciative"], "derivationPair": ["thankfully", "thankfulness"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "thank(感谢)+ful(充满) → 充满感激之情的",
+      "imageChain": [
+        "感激",
+        "感恩",
+        "感谢"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thank",
+        "thanks",
+        "thankless",
+        "thanksgiving"
+      ],
+      "sameAffix": [
+        "grateful",
+        "joyful"
+      ],
+      "synonyms": [
+        "grateful",
+        "appreciative",
+        "obliged",
+        "indebted"
+      ],
+      "antonyms": [
+        "ungrateful",
+        "thankless",
+        "unappreciative"
+      ],
+      "domainCohort": [
+        "grateful",
+        "appreciative"
+      ],
+      "derivationPair": [
+        "thankfully",
+        "thankfulness"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "thankfully",
     "phonetic": "/'θæŋkfəli/",
-    "pos": ["adv."],
-    "coreMeaning": {"cn": "感激地；幸运的是；庆幸的是", "en": "in a thankful manner; used to express relief or pleasure"},
-    "morphemes": [
-      {"canonical": "thank-", "role": "root", "meaning": "感谢", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "thank", "positionTendency": "initial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "-ful", "role": "suffix", "meaning": "充满…的", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ful", "positionTendency": "medial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "-ly", "role": "suffix", "meaning": "副词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ly", "positionTendency": "final", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "adv."
     ],
-    "derivationChain": {"steps": [{"from": "thankful", "to": "thankfully", "rule": "+ly"}]},
+    "coreMeaning": {
+      "cn": "感激地；幸运的是；庆幸的是",
+      "en": "in a thankful manner; used to express relief or pleasure"
+    },
+    "morphemes": [
+      {
+        "canonical": "thank-",
+        "role": "root",
+        "meaning": "感谢",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "thank",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "-ful",
+        "role": "suffix",
+        "meaning": "充满…的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ful",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "-ly",
+        "role": "suffix",
+        "meaning": "副词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ly",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "thankfully"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "thankful+ly → 感激地；也用于表达松了口气（幸好…）", "imageChain": ["庆幸", "感激", "松一口气"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["积极"], "intensity": 1}},
-    "relations": {"sameRoot": ["thankful", "thank", "thanksgiving"], "sameAffix": [], "synonyms": ["gratefully", "fortunately", "luckily", "mercifully"], "antonyms": ["ungratefully", "unfortunately"], "domainCohort": ["fortunately", "luckily"], "derivationPair": ["thankful"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "thankful+ly → 感激地；也用于表达松了口气（幸好…）",
+      "imageChain": [
+        "庆幸",
+        "感激",
+        "松一口气"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thankful",
+        "thank",
+        "thanksgiving"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "gratefully",
+        "fortunately",
+        "luckily",
+        "mercifully"
+      ],
+      "antonyms": [
+        "ungratefully",
+        "unfortunately"
+      ],
+      "domainCohort": [
+        "fortunately",
+        "luckily"
+      ],
+      "derivationPair": [
+        "thankful"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "thankless",
     "phonetic": "/'θæŋkləs/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "不受感激的；费力不讨好的；忘恩负义的", "en": "not receiving or deserving thanks; unappreciated; showing no gratitude"},
-    "morphemes": [
-      {"canonical": "thank-", "role": "root", "meaning": "感谢", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "thank", "positionTendency": "initial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "-less", "role": "suffix", "meaning": "无…的；缺乏", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 2, "form": "less", "positionTendency": "final", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "thank", "to": "thankless", "rule": "+less"}]},
+    "coreMeaning": {
+      "cn": "不受感激的；费力不讨好的；忘恩负义的",
+      "en": "not receiving or deserving thanks; unappreciated; showing no gratitude"
+    },
+    "morphemes": [
+      {
+        "canonical": "thank-",
+        "role": "root",
+        "meaning": "感谢",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "thank",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "-less",
+        "role": "suffix",
+        "meaning": "无…的；缺乏",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 2,
+        "form": "less",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "thankless"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "thank(感谢)+less(无) → 得不到感谢的，费力不讨好的", "imageChain": ["费力不讨好", "不受感激", "忘恩负义"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["贬义"], "intensity": -1}},
-    "relations": {"sameRoot": ["thank", "thankful", "thanksgiving"], "sameAffix": ["careless", "worthless"], "synonyms": ["ungrateful", "unappreciated", "unrewarding", "fruitless"], "antonyms": ["thankful", "grateful", "rewarding", "fulfilling"], "domainCohort": ["unrewarding", "futile"], "derivationPair": ["thanklessly", "thanklessness"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "thank(感谢)+less(无) → 得不到感谢的，费力不讨好的",
+      "imageChain": [
+        "费力不讨好",
+        "不受感激",
+        "忘恩负义"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thank",
+        "thankful",
+        "thanksgiving"
+      ],
+      "sameAffix": [
+        "careless",
+        "worthless"
+      ],
+      "synonyms": [
+        "ungrateful",
+        "unappreciated",
+        "unrewarding",
+        "fruitless"
+      ],
+      "antonyms": [
+        "thankful",
+        "grateful",
+        "rewarding",
+        "fulfilling"
+      ],
+      "domainCohort": [
+        "unrewarding",
+        "futile"
+      ],
+      "derivationPair": [
+        "thanklessly",
+        "thanklessness"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "thanksgiving",
     "phonetic": "/,θæŋks'ɡɪvɪŋ/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "感恩；感谢；感恩节", "en": "the expression of gratitude; (capitalized) an annual North American holiday"},
-    "morphemes": [
-      {"canonical": "thank-", "role": "root", "meaning": "感谢", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "thanks", "positionTendency": "initial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "giv-", "role": "root", "meaning": "给予（OE gifan）", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 2, "form": "giving", "positionTendency": "final", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "thanks + giving", "to": "thanksgiving", "rule": "复合"}]},
+    "coreMeaning": {
+      "cn": "感恩；感谢；感恩节",
+      "en": "the expression of gratitude; (capitalized) an annual North American holiday"
+    },
+    "morphemes": [
+      {
+        "canonical": "thank-",
+        "role": "root",
+        "meaning": "感谢",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "thanks",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "giv-",
+        "role": "root",
+        "meaning": "给予（OE gifan）",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 2,
+        "form": "giving",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "thanksgiving"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "thanks(感谢)+giving(给予) → 给予感谢，感恩节", "imageChain": ["感恩节", "感谢", "家庭聚餐"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["积极"], "intensity": 1}},
-    "relations": {"sameRoot": ["thank", "thankful"], "sameAffix": [], "synonyms": ["gratitude", "gratefulness", "appreciation"], "antonyms": ["ingratitude", "ungratefulness"], "domainCohort": ["gratitude", "celebration"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "thanks(感谢)+giving(给予) → 给予感谢，感恩节",
+      "imageChain": [
+        "感恩节",
+        "感谢",
+        "家庭聚餐"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thank",
+        "thankful"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "gratitude",
+        "gratefulness",
+        "appreciation"
+      ],
+      "antonyms": [
+        "ingratitude",
+        "ungratefulness"
+      ],
+      "domainCohort": [
+        "gratitude",
+        "celebration"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "thatch",
     "phonetic": "/θætʃ/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "茅草；茅草屋顶；用茅草覆盖", "en": "straw or reeds used for roofing; to cover a roof with thatch"},
-    "morphemes": [
-      {"canonical": "thatch", "role": "root", "meaning": "茅草；覆盖（OE þæc）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "thatch", "positionTendency": "medial", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "OE þæccan (to cover)", "to": "thatch", "rule": "借入"}]},
+    "coreMeaning": {
+      "cn": "茅草；茅草屋顶；用茅草覆盖",
+      "en": "straw or reeds used for roofing; to cover a roof with thatch"
+    },
+    "morphemes": [
+      {
+        "canonical": "thatch",
+        "role": "root",
+        "meaning": "茅草；覆盖（OE þæc）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "thatch",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "thatch"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "thatch → 用茅草铺成的传统屋顶，乡村风情", "imageChain": ["茅草屋顶", "稻草", "乡村"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["thatched", "thatcher"], "sameAffix": [], "synonyms": ["straw roofing", "reed covering", "turf"], "antonyms": [], "domainCohort": ["roof", "straw", "reed"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "thatch → 用茅草铺成的传统屋顶，乡村风情",
+      "imageChain": [
+        "茅草屋顶",
+        "稻草",
+        "乡村"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "thatched",
+        "thatcher"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "straw roofing",
+        "reed covering",
+        "turf"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "roof",
+        "straw",
+        "reed"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "thalposis",
     "phonetic": "/θæl'pəʊsɪs/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "温觉；热觉", "en": "the perception of warmth; the sense of heat stimulation"},
-    "morphemes": [
-      {"canonical": "thalp-", "role": "root", "meaning": "温暖；热（Gk thalpos = warmth）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "thalp", "positionTendency": "initial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "-osis", "role": "suffix", "meaning": "状态；过程；病症", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "osis", "positionTendency": "final", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "Gk thalpos (warmth) + -osis", "to": "thalposis", "rule": "复合"}]},
+    "coreMeaning": {
+      "cn": "温觉；热觉",
+      "en": "the perception of warmth; the sense of heat stimulation"
+    },
+    "morphemes": [
+      {
+        "canonical": "thalp-",
+        "role": "root",
+        "meaning": "温暖；热（Gk thalpos = warmth）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "thalp",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "-osis",
+        "role": "suffix",
+        "meaning": "状态；过程；病症",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "osis",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "thalposis"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "thalp(温暖)+osis(感知) → 感知温热的能力，温觉", "imageChain": ["温觉", "热感", "感知"]},
-    "wordLevel": {"domain": ["medical"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": [], "sameAffix": ["diagnosis", "neurosis"], "synonyms": ["thermesthesia", "heat perception"], "antonyms": ["algesia (pain perception)"], "domainCohort": ["thermoreception", "somatosensory"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "thalp(温暖)+osis(感知) → 感知温热的能力，温觉",
+      "imageChain": [
+        "温觉",
+        "热感",
+        "感知"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "medical"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [
+        "diagnosis",
+        "neurosis"
+      ],
+      "synonyms": [
+        "thermesthesia",
+        "heat perception"
+      ],
+      "antonyms": [
+        "algesia (pain perception)"
+      ],
+      "domainCohort": [
+        "thermoreception",
+        "somatosensory"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

@@ -3,104 +3,623 @@
     "word": "gem",
     "phonetic": "/dʒem/",
     "pos": "n.",
-    "coreMeaning": { "cn": "宝石；珍宝；精华", "en": "gem" },
+    "coreMeaning": {
+      "cn": "宝石；珍宝；精华",
+      "en": "gem"
+    },
     "morphemes": [
-      { "canonical": "gem", "role": "root", "meaning": "宝石；珍宝", "sentiment": { "tags": ["积极"], "intensity": 2 }, "order": 1, "form": "gem", "positionTendency": "medial" }
+      {
+        "canonical": "gem",
+        "role": "root",
+        "meaning": "宝石；珍宝",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 2
+        },
+        "order": 1,
+        "form": "gem",
+        "positionTendency": "medial"
+      }
     ],
-    "derivationChain": { "steps": [] },
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": { "mnemonicExpr": "gem → 闪耀发光的宝石，珍贵之物", "imageChain": ["宝石", "珍宝", "闪耀"] },
-    "wordLevel": { "domain": ["general"], "sentiment": { "tags": ["积极"], "intensity": 2 } },
-    "relations": { "sameRoot": ["gemstone"], "sameAffix": [], "synonyms": ["jewel", "precious stone", "treasure"], "antonyms": [], "domainCohort": ["diamond", "ruby", "sapphire"], "derivationPair": [], "morphVariants": ["gems", "gemstone"], "sameImagery": [] }
+    "memorySemantics": {
+      "mnemonicExpr": "gem → 闪耀发光的宝石，珍贵之物",
+      "imageChain": [
+        "宝石",
+        "珍宝",
+        "闪耀"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "gemstone"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "jewel",
+        "precious stone",
+        "treasure"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "diamond",
+        "ruby",
+        "sapphire"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "gems",
+        "gemstone"
+      ],
+      "sameImagery": []
+    }
   },
   {
     "word": "gemstone",
     "phonetic": "/'dʒemstəʊn/",
     "pos": "n.",
-    "coreMeaning": { "cn": "宝石（经雕琢的）", "en": "gemstone" },
+    "coreMeaning": {
+      "cn": "宝石（经雕琢的）",
+      "en": "gemstone"
+    },
     "morphemes": [
-      { "canonical": "gem", "role": "root", "meaning": "宝石", "sentiment": { "tags": ["积极"], "intensity": 2 }, "order": 1, "form": "gem", "positionTendency": "initial" },
-      { "canonical": "stone", "role": "root", "meaning": "石头", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "stone", "positionTendency": "final" }
+      {
+        "canonical": "gem",
+        "role": "root",
+        "meaning": "宝石",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 2
+        },
+        "order": 1,
+        "form": "gem",
+        "positionTendency": "initial"
+      },
+      {
+        "canonical": "stone",
+        "role": "root",
+        "meaning": "石头",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "stone",
+        "positionTendency": "final"
+      }
     ],
-    "derivationChain": { "steps": [{ "from": "gem + stone", "to": "gemstone", "by": "compounding", "meaning": "用于制作珠宝的宝石" }] },
+    "derivationChain": [
+      "gemstone"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": { "mnemonicExpr": "gem(宝石) + stone(石头) → 可做宝石的石头", "imageChain": ["宝石", "矿石", "珠宝"] },
-    "wordLevel": { "domain": ["general"], "sentiment": { "tags": ["积极"], "intensity": 2 } },
-    "relations": { "sameRoot": ["gem"], "sameAffix": [], "synonyms": ["precious stone", "jewel", "gem"], "antonyms": [], "domainCohort": ["diamond", "crystal"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+    "memorySemantics": {
+      "mnemonicExpr": "gem(宝石) + stone(石头) → 可做宝石的石头",
+      "imageChain": [
+        "宝石",
+        "矿石",
+        "珠宝"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "gem"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "precious stone",
+        "jewel",
+        "gem"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "diamond",
+        "crystal"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "gender",
     "phonetic": "/'dʒendər/",
     "pos": "n.",
-    "coreMeaning": { "cn": "性别；性", "en": "gender" },
+    "coreMeaning": {
+      "cn": "性别；性",
+      "en": "gender"
+    },
     "morphemes": [
-      { "canonical": "gen-", "role": "root", "meaning": "出生；种类", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "gen", "positionTendency": "initial" },
-      { "canonical": "-der", "role": "suffix", "meaning": "名词后缀（类别）", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "der", "positionTendency": "final" }
+      {
+        "canonical": "gen-",
+        "role": "root",
+        "meaning": "出生；种类",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "gen",
+        "positionTendency": "initial"
+      },
+      {
+        "canonical": "-der",
+        "role": "suffix",
+        "meaning": "名词后缀（类别）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "der",
+        "positionTendency": "final"
+      }
     ],
-    "derivationChain": { "steps": [{ "from": "genus (Lat. 种类/出生)", "to": "gender", "by": "Old French gendre", "meaning": "按出生分类的性别" }] },
+    "derivationChain": [
+      "gender"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": { "mnemonicExpr": "gen(种类/出生) + der → 出生时决定的类别，即性别", "imageChain": ["性别", "分类", "男女"] },
-    "wordLevel": { "domain": ["general", "academic"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
-    "relations": { "sameRoot": ["gene", "general", "genealogy", "genre", "generate"], "sameAffix": [], "synonyms": ["sex"], "antonyms": [], "domainCohort": ["sexuality", "identity"], "derivationPair": [], "morphVariants": ["genders"], "sameImagery": [] }
+    "memorySemantics": {
+      "mnemonicExpr": "gen(种类/出生) + der → 出生时决定的类别，即性别",
+      "imageChain": [
+        "性别",
+        "分类",
+        "男女"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "gene",
+        "general",
+        "genealogy",
+        "genre",
+        "generate"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "sex"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "sexuality",
+        "identity"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "genders"
+      ],
+      "sameImagery": []
+    }
   },
   {
     "word": "gene",
     "phonetic": "/dʒiːn/",
     "pos": "n.",
-    "coreMeaning": { "cn": "基因", "en": "gene" },
+    "coreMeaning": {
+      "cn": "基因",
+      "en": "gene"
+    },
     "morphemes": [
-      { "canonical": "gen-", "role": "root", "meaning": "产生；出生；遗传", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "gen", "positionTendency": "initial" },
-      { "canonical": "-e", "role": "suffix", "meaning": "名词化", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "e", "positionTendency": "final" }
+      {
+        "canonical": "gen-",
+        "role": "root",
+        "meaning": "产生；出生；遗传",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "gen",
+        "positionTendency": "initial"
+      },
+      {
+        "canonical": "-e",
+        "role": "suffix",
+        "meaning": "名词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "e",
+        "positionTendency": "final"
+      }
     ],
-    "derivationChain": { "steps": [{ "from": "Greek genos (出生/种族)", "to": "gene", "by": "coined term", "meaning": "遗传信息的基本单位" }] },
+    "derivationChain": [
+      "gene"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": { "mnemonicExpr": "gen(产生/遗传) + e → 遗传信息的载体", "imageChain": ["基因", "遗传", "DNA"] },
-    "wordLevel": { "domain": ["medical", "academic"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
-    "relations": { "sameRoot": ["gender", "genealogy", "generate", "genetics", "genetic"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["DNA", "chromosome", "genetics"], "derivationPair": [{"word": "genetic", "relation": "adjective"}], "morphVariants": ["genes", "genetic", "genealogy"], "sameImagery": [] }
+    "memorySemantics": {
+      "mnemonicExpr": "gen(产生/遗传) + e → 遗传信息的载体",
+      "imageChain": [
+        "基因",
+        "遗传",
+        "DNA"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "medical",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "gender",
+        "genealogy",
+        "generate",
+        "genetics",
+        "genetic"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "DNA",
+        "chromosome",
+        "genetics"
+      ],
+      "derivationPair": [
+        {
+          "word": "genetic",
+          "relation": "adjective"
+        }
+      ],
+      "morphVariants": [
+        "genes",
+        "genetic",
+        "genealogy"
+      ],
+      "sameImagery": []
+    }
   },
   {
     "word": "genealogy",
     "phonetic": "/ˌdʒiːni'ælədʒi/",
     "pos": "n.",
-    "coreMeaning": { "cn": "家谱；家系；系谱学", "en": "genealogy" },
+    "coreMeaning": {
+      "cn": "家谱；家系；系谱学",
+      "en": "genealogy"
+    },
     "morphemes": [
-      { "canonical": "gen-", "role": "root", "meaning": "出生；种族；后代", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "genea", "positionTendency": "initial" },
-      { "canonical": "-logy", "role": "suffix", "meaning": "学科；研究", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "logy", "positionTendency": "final" }
+      {
+        "canonical": "gen-",
+        "role": "root",
+        "meaning": "出生；种族；后代",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "genea",
+        "positionTendency": "initial"
+      },
+      {
+        "canonical": "-logy",
+        "role": "suffix",
+        "meaning": "学科；研究",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "logy",
+        "positionTendency": "final"
+      }
     ],
-    "derivationChain": { "steps": [{ "from": "genea (Gk. 族系) + logos (研究)", "to": "genealogy", "by": "-logy", "meaning": "研究家族世系的学科" }] },
+    "derivationChain": [
+      "genealogy"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": { "mnemonicExpr": "genea(族系) + logy(研究) → 研究家族传承的学问", "imageChain": ["家谱", "祖先", "世系"] },
-    "wordLevel": { "domain": ["academic", "general"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
-    "relations": { "sameRoot": ["gene", "generate", "genesis", "gender"], "sameAffix": ["-logy"], "synonyms": ["ancestry", "lineage", "pedigree"], "antonyms": [], "domainCohort": ["ancestry", "heritage", "lineage"], "derivationPair": [{"word": "genealogical", "relation": "adjective"}], "morphVariants": ["genealogies", "genealogical", "genealogist"], "sameImagery": [] }
+    "memorySemantics": {
+      "mnemonicExpr": "genea(族系) + logy(研究) → 研究家族传承的学问",
+      "imageChain": [
+        "家谱",
+        "祖先",
+        "世系"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "academic",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "gene",
+        "generate",
+        "genesis",
+        "gender"
+      ],
+      "sameAffix": [
+        "-logy"
+      ],
+      "synonyms": [
+        "ancestry",
+        "lineage",
+        "pedigree"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "ancestry",
+        "heritage",
+        "lineage"
+      ],
+      "derivationPair": [
+        {
+          "word": "genealogical",
+          "relation": "adjective"
+        }
+      ],
+      "morphVariants": [
+        "genealogies",
+        "genealogical",
+        "genealogist"
+      ],
+      "sameImagery": []
+    }
   },
   {
     "word": "general",
     "phonetic": "/'dʒen(ə)r(ə)l/",
     "pos": "adj./n.",
-    "coreMeaning": { "cn": "一般的；普遍的；笼统的；将军", "en": "general" },
+    "coreMeaning": {
+      "cn": "一般的；普遍的；笼统的；将军",
+      "en": "general"
+    },
     "morphemes": [
-      { "canonical": "gen-", "role": "root", "meaning": "出生；种类", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "gen", "positionTendency": "initial" },
-      { "canonical": "-al", "role": "suffix", "meaning": "形容词后缀：与…有关的", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "eral", "positionTendency": "final" }
+      {
+        "canonical": "gen-",
+        "role": "root",
+        "meaning": "出生；种类",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "gen",
+        "positionTendency": "initial"
+      },
+      {
+        "canonical": "-al",
+        "role": "suffix",
+        "meaning": "形容词后缀：与…有关的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "eral",
+        "positionTendency": "final"
+      }
     ],
-    "derivationChain": { "steps": [{ "from": "generalis (Lat. 关于整个种类的)", "to": "general", "by": "adaptation", "meaning": "涉及全体的；笼统的" }] },
+    "derivationChain": [
+      "general"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": { "mnemonicExpr": "gen(种类) + eral → 涵盖全种类的，即普遍的", "imageChain": ["普遍", "一般", "将军"] },
-    "wordLevel": { "domain": ["general"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
-    "relations": { "sameRoot": ["generalize", "generality", "gene", "genus"], "sameAffix": ["-al"], "synonyms": ["universal", "widespread", "common"], "antonyms": ["specific", "particular", "special"], "domainCohort": ["universal", "broad", "common"], "derivationPair": [{"word": "generalize", "relation": "verb form"}], "morphVariants": ["generally", "generalize", "generality", "generalization", "generals"], "sameImagery": [] }
+    "memorySemantics": {
+      "mnemonicExpr": "gen(种类) + eral → 涵盖全种类的，即普遍的",
+      "imageChain": [
+        "普遍",
+        "一般",
+        "将军"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "generalize",
+        "generality",
+        "gene",
+        "genus"
+      ],
+      "sameAffix": [
+        "-al"
+      ],
+      "synonyms": [
+        "universal",
+        "widespread",
+        "common"
+      ],
+      "antonyms": [
+        "specific",
+        "particular",
+        "special"
+      ],
+      "domainCohort": [
+        "universal",
+        "broad",
+        "common"
+      ],
+      "derivationPair": [
+        {
+          "word": "generalize",
+          "relation": "verb form"
+        }
+      ],
+      "morphVariants": [
+        "generally",
+        "generalize",
+        "generality",
+        "generalization",
+        "generals"
+      ],
+      "sameImagery": []
+    }
   },
   {
     "word": "generalize",
     "phonetic": "/'dʒen(ə)r(ə)laɪz/",
     "pos": "v.",
-    "coreMeaning": { "cn": "概括；归纳；推广", "en": "generalize" },
+    "coreMeaning": {
+      "cn": "概括；归纳；推广",
+      "en": "generalize"
+    },
     "morphemes": [
-      { "canonical": "general", "role": "root", "meaning": "普遍的；一般的", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "general", "positionTendency": "initial" },
-      { "canonical": "-ize", "role": "suffix", "meaning": "动词后缀：使…化", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ize", "positionTendency": "final" }
+      {
+        "canonical": "general",
+        "role": "root",
+        "meaning": "普遍的；一般的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "general",
+        "positionTendency": "initial"
+      },
+      {
+        "canonical": "-ize",
+        "role": "suffix",
+        "meaning": "动词后缀：使…化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ize",
+        "positionTendency": "final"
+      }
     ],
-    "derivationChain": { "steps": [{ "from": "general", "to": "generalize", "by": "-ize", "meaning": "使成为一般化；从特殊推导出一般" }] },
+    "derivationChain": [
+      "generalize"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": { "mnemonicExpr": "general + ize → 使之成为一般性规律", "imageChain": ["归纳", "概括", "推广"] },
-    "wordLevel": { "domain": ["academic", "general"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
-    "relations": { "sameRoot": ["general", "generality"], "sameAffix": ["-ize"], "synonyms": ["summarize", "abstract", "extrapolate"], "antonyms": ["specify", "particularize"], "domainCohort": [], "derivationPair": [{"word": "generalization", "relation": "noun"}], "morphVariants": ["generalized", "generalizes", "generalizing", "generalization", "generalise"], "sameImagery": [] }
+    "memorySemantics": {
+      "mnemonicExpr": "general + ize → 使之成为一般性规律",
+      "imageChain": [
+        "归纳",
+        "概括",
+        "推广"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "academic",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "general",
+        "generality"
+      ],
+      "sameAffix": [
+        "-ize"
+      ],
+      "synonyms": [
+        "summarize",
+        "abstract",
+        "extrapolate"
+      ],
+      "antonyms": [
+        "specify",
+        "particularize"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        {
+          "word": "generalization",
+          "relation": "noun"
+        }
+      ],
+      "morphVariants": [
+        "generalized",
+        "generalizes",
+        "generalizing",
+        "generalization",
+        "generalise"
+      ],
+      "sameImagery": []
+    }
   }
 ]

@@ -2,7 +2,10 @@
   {
     "word": "underscore",
     "phonetic": "/ˌʌndəˈskɔːr/",
-    "pos": ["v.", "n."],
+    "pos": [
+      "v.",
+      "n."
+    ],
     "coreMeaning": {
       "cn": "强调；在…下划线；底线",
       "en": "to emphasize or underline"
@@ -13,7 +16,12 @@
         "role": "prefix",
         "canonical": "under-",
         "meaning": "在…下面；不足",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 1,
         "form": "under",
         "positionTendency": "initial"
@@ -23,41 +31,82 @@
         "role": "root",
         "canonical": "score",
         "meaning": "刻痕；线条；得分",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "score",
         "positionTendency": "final"
       }
     ],
     "derivationChain": [
-      { "step": 1, "form": "score", "meaning": "刻线、划痕" },
-      { "step": 2, "form": "underscore", "meaning": "在下方划线 → 引申为强调" }
+      "score",
+      "underscore"
     ],
     "morphVariantOf": null,
     "memorySemantics": {
       "imageKey": "在文字下方划一条线",
       "scene": "老师用红笔在重点句子下方划线，表示'这里很重要！'",
-      "emotionalHook": "考试前老师总说underscore the key points——划线就是强调"
+      "emotionalHook": "考试前老师总说underscore the key points——划线就是强调",
+      "imageChain": []
     },
     "wordLevel": {
-      "domain": ["academic", "gre", "toefl", "sat"],
-      "sentiment": { "tags": ["中性"], "intensity": 0 }
+      "domain": [
+        "academic",
+        "gre",
+        "toefl",
+        "sat"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
     },
     "relations": {
-      "sameRoot": ["score", "scorecard"],
-      "sameAffix": ["understate", "underrate", "underplay"],
-      "synonyms": ["emphasize", "highlight", "stress"],
-      "antonyms": ["downplay", "minimize"],
-      "domainCohort": ["annotate", "emphasize"],
-      "derivationPair": ["underscored", "underscoring"],
+      "sameRoot": [
+        "score",
+        "scorecard"
+      ],
+      "sameAffix": [
+        "understate",
+        "underrate",
+        "underplay"
+      ],
+      "synonyms": [
+        "emphasize",
+        "highlight",
+        "stress"
+      ],
+      "antonyms": [
+        "downplay",
+        "minimize"
+      ],
+      "domainCohort": [
+        "annotate",
+        "emphasize"
+      ],
+      "derivationPair": [
+        "underscored",
+        "underscoring"
+      ],
       "morphVariants": [],
-      "sameImagery": ["highlight", "boldface"]
+      "sameImagery": [
+        "highlight",
+        "boldface"
+      ]
     }
   },
   {
     "word": "understate",
     "phonetic": "/ˌʌndəˈsteɪt/",
-    "pos": ["v."],
+    "pos": [
+      "v."
+    ],
     "coreMeaning": {
       "cn": "轻描淡写；少说；有意低估",
       "en": "to describe something as less important than it really is"
@@ -68,7 +117,12 @@
         "role": "prefix",
         "canonical": "under-",
         "meaning": "不足；低于实际",
-        "sentiment": { "tags": ["消极"], "intensity": -1 },
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
         "order": 1,
         "form": "under",
         "positionTendency": "initial"
@@ -78,42 +132,85 @@
         "role": "root",
         "canonical": "state",
         "meaning": "陈述；声明",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "state",
         "positionTendency": "final"
       }
     ],
     "derivationChain": [
-      { "step": 1, "form": "state", "meaning": "陈述，表达" },
-      { "step": 2, "form": "understate", "meaning": "陈述不足 → 轻描淡写" },
-      { "step": 3, "form": "understatement", "meaning": "轻描淡写的表达方式" }
+      "state",
+      "understate",
+      "understatement"
     ],
     "morphVariantOf": null,
     "memorySemantics": {
       "imageKey": "冰山一角",
       "scene": "英国人面对灾难说'This is a bit unfortunate'——只说出水面的一小部分，其余深藏水下",
-      "emotionalHook": "understatement是英式幽默的灵魂，GRE必考！"
+      "emotionalHook": "understatement是英式幽默的灵魂，GRE必考！",
+      "imageChain": []
     },
     "wordLevel": {
-      "domain": ["gre", "sat", "toefl", "academic"],
-      "sentiment": { "tags": ["消极"], "intensity": -1 }
+      "domain": [
+        "gre",
+        "sat",
+        "toefl",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
     },
     "relations": {
-      "sameRoot": ["statement", "overstate", "misstate"],
-      "sameAffix": ["underscore", "underrate", "underplay"],
-      "synonyms": ["downplay", "minimize", "belittle"],
-      "antonyms": ["overstate", "exaggerate", "magnify"],
-      "domainCohort": ["euphemism", "litotes"],
-      "derivationPair": ["understatement", "understated"],
+      "sameRoot": [
+        "statement",
+        "overstate",
+        "misstate"
+      ],
+      "sameAffix": [
+        "underscore",
+        "underrate",
+        "underplay"
+      ],
+      "synonyms": [
+        "downplay",
+        "minimize",
+        "belittle"
+      ],
+      "antonyms": [
+        "overstate",
+        "exaggerate",
+        "magnify"
+      ],
+      "domainCohort": [
+        "euphemism",
+        "litotes"
+      ],
+      "derivationPair": [
+        "understatement",
+        "understated"
+      ],
       "morphVariants": [],
-      "sameImagery": ["understatement", "downplay"]
+      "sameImagery": [
+        "understatement",
+        "downplay"
+      ]
     }
   },
   {
     "word": "understated",
     "phonetic": "/ˌʌndəˈsteɪtɪd/",
-    "pos": ["adj."],
+    "pos": [
+      "adj."
+    ],
     "coreMeaning": {
       "cn": "低调的；克制的；轻描淡写的",
       "en": "expressed in a restrained or subtle way"
@@ -124,7 +221,12 @@
         "role": "prefix",
         "canonical": "under-",
         "meaning": "不足；低于实际",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 1,
         "form": "under",
         "positionTendency": "initial"
@@ -134,7 +236,12 @@
         "role": "root",
         "canonical": "state",
         "meaning": "陈述",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "stat",
         "positionTendency": "medial"
@@ -144,42 +251,83 @@
         "role": "suffix",
         "canonical": "-ed",
         "meaning": "形容词后缀，表示具有某特征",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 3,
         "form": "ed",
         "positionTendency": "final"
       }
     ],
     "derivationChain": [
-      { "step": 1, "form": "state", "meaning": "陈述" },
-      { "step": 2, "form": "understate", "meaning": "轻描淡写" },
-      { "step": 3, "form": "understated", "meaning": "低调的，克制的" }
+      "state",
+      "understate",
+      "understated"
     ],
     "morphVariantOf": null,
     "memorySemantics": {
       "imageKey": "极简主义设计",
       "scene": "高端时装设计师说'understated elegance'——不张扬但品位十足的低调美",
-      "emotionalHook": "understated不是不够好，而是好到不需要大声说"
+      "emotionalHook": "understated不是不够好，而是好到不需要大声说",
+      "imageChain": []
     },
     "wordLevel": {
-      "domain": ["gre", "academic"],
-      "sentiment": { "tags": ["中性"], "intensity": 0 }
+      "domain": [
+        "gre",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
     },
     "relations": {
-      "sameRoot": ["understated", "understate", "understatement"],
-      "sameAffix": ["underprivileged", "undersized"],
-      "synonyms": ["restrained", "subtle", "muted", "low-key"],
-      "antonyms": ["overstated", "flamboyant", "ostentatious"],
-      "domainCohort": ["elegant", "refined"],
-      "derivationPair": ["understate", "understatement"],
+      "sameRoot": [
+        "understated",
+        "understate",
+        "understatement"
+      ],
+      "sameAffix": [
+        "underprivileged",
+        "undersized"
+      ],
+      "synonyms": [
+        "restrained",
+        "subtle",
+        "muted",
+        "low-key"
+      ],
+      "antonyms": [
+        "overstated",
+        "flamboyant",
+        "ostentatious"
+      ],
+      "domainCohort": [
+        "elegant",
+        "refined"
+      ],
+      "derivationPair": [
+        "understate",
+        "understatement"
+      ],
       "morphVariants": [],
-      "sameImagery": ["minimalist", "subtle"]
+      "sameImagery": [
+        "minimalist",
+        "subtle"
+      ]
     }
   },
   {
     "word": "underrate",
     "phonetic": "/ˌʌndəˈreɪt/",
-    "pos": ["v."],
+    "pos": [
+      "v."
+    ],
     "coreMeaning": {
       "cn": "低估；轻视",
       "en": "to rate or assess too low; to underestimate"
@@ -190,7 +338,12 @@
         "role": "prefix",
         "canonical": "under-",
         "meaning": "不足；低于应有水平",
-        "sentiment": { "tags": ["消极"], "intensity": -1 },
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
         "order": 1,
         "form": "under",
         "positionTendency": "initial"
@@ -200,41 +353,82 @@
         "role": "root",
         "canonical": "rate",
         "meaning": "评估；定级；比率",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "rate",
         "positionTendency": "final"
       }
     ],
     "derivationChain": [
-      { "step": 1, "form": "rate", "meaning": "评级，评估" },
-      { "step": 2, "form": "underrate", "meaning": "评级过低 → 低估" }
+      "rate",
+      "underrate"
     ],
     "morphVariantOf": null,
     "memorySemantics": {
       "imageKey": "打分卡上的低分",
       "scene": "裁判给表现出色的选手打了低分——underrate，不公平的低估",
-      "emotionalHook": "别underrate自己，你比你想象的更出色！"
+      "emotionalHook": "别underrate自己，你比你想象的更出色！",
+      "imageChain": []
     },
     "wordLevel": {
-      "domain": ["gre", "academic"],
-      "sentiment": { "tags": ["消极"], "intensity": -1 }
+      "domain": [
+        "gre",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
     },
     "relations": {
-      "sameRoot": ["rate", "overrate", "underrated"],
-      "sameAffix": ["understate", "underscore", "underplay"],
-      "synonyms": ["underestimate", "undervalue", "belittle"],
-      "antonyms": ["overrate", "overestimate", "overvalue"],
-      "domainCohort": ["evaluate", "assess"],
-      "derivationPair": ["underrated", "underrating"],
+      "sameRoot": [
+        "rate",
+        "overrate",
+        "underrated"
+      ],
+      "sameAffix": [
+        "understate",
+        "underscore",
+        "underplay"
+      ],
+      "synonyms": [
+        "underestimate",
+        "undervalue",
+        "belittle"
+      ],
+      "antonyms": [
+        "overrate",
+        "overestimate",
+        "overvalue"
+      ],
+      "domainCohort": [
+        "evaluate",
+        "assess"
+      ],
+      "derivationPair": [
+        "underrated",
+        "underrating"
+      ],
       "morphVariants": [],
-      "sameImagery": ["underestimate", "dismiss"]
+      "sameImagery": [
+        "underestimate",
+        "dismiss"
+      ]
     }
   },
   {
     "word": "underrated",
     "phonetic": "/ˌʌndəˈreɪtɪd/",
-    "pos": ["adj."],
+    "pos": [
+      "adj."
+    ],
     "coreMeaning": {
       "cn": "被低估的；未获充分认可的",
       "en": "not given enough credit or appreciation"
@@ -245,7 +439,12 @@
         "role": "prefix",
         "canonical": "under-",
         "meaning": "不足",
-        "sentiment": { "tags": ["消极"], "intensity": -1 },
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
         "order": 1,
         "form": "under",
         "positionTendency": "initial"
@@ -255,7 +454,12 @@
         "role": "root",
         "canonical": "rate",
         "meaning": "评级",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "rat",
         "positionTendency": "medial"
@@ -265,42 +469,81 @@
         "role": "suffix",
         "canonical": "-ed",
         "meaning": "形容词化后缀",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 3,
         "form": "ed",
         "positionTendency": "final"
       }
     ],
     "derivationChain": [
-      { "step": 1, "form": "rate", "meaning": "评级" },
-      { "step": 2, "form": "underrate", "meaning": "低估" },
-      { "step": 3, "form": "underrated", "meaning": "被低估的" }
+      "rate",
+      "underrate",
+      "underrated"
     ],
     "morphVariantOf": null,
     "memorySemantics": {
       "imageKey": "被忽视的宝藏",
       "scene": "网友评论某部老电影'This is the most underrated film ever'——被低估的经典",
-      "emotionalHook": "underrated暗含着'你们都错过了好东西'的惋惜"
+      "emotionalHook": "underrated暗含着'你们都错过了好东西'的惋惜",
+      "imageChain": []
     },
     "wordLevel": {
-      "domain": ["academic", "news"],
-      "sentiment": { "tags": ["消极"], "intensity": -1 }
+      "domain": [
+        "academic",
+        "news"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
     },
     "relations": {
-      "sameRoot": ["underrate", "overrated"],
-      "sameAffix": ["understated", "undersized"],
-      "synonyms": ["undervalued", "underappreciated", "overlooked"],
-      "antonyms": ["overrated", "celebrated", "acclaimed"],
-      "domainCohort": ["overlooked", "neglected"],
-      "derivationPair": ["underrate", "overrated"],
+      "sameRoot": [
+        "underrate",
+        "overrated"
+      ],
+      "sameAffix": [
+        "understated",
+        "undersized"
+      ],
+      "synonyms": [
+        "undervalued",
+        "underappreciated",
+        "overlooked"
+      ],
+      "antonyms": [
+        "overrated",
+        "celebrated",
+        "acclaimed"
+      ],
+      "domainCohort": [
+        "overlooked",
+        "neglected"
+      ],
+      "derivationPair": [
+        "underrate",
+        "overrated"
+      ],
       "morphVariants": [],
-      "sameImagery": ["overlooked", "hidden gem"]
+      "sameImagery": [
+        "overlooked",
+        "hidden gem"
+      ]
     }
   },
   {
     "word": "underplay",
     "phonetic": "/ˌʌndəˈpleɪ/",
-    "pos": ["v."],
+    "pos": [
+      "v."
+    ],
     "coreMeaning": {
       "cn": "弱化…的重要性；表演不充分；轻描淡写",
       "en": "to represent as less important; to underact"
@@ -311,7 +554,12 @@
         "role": "prefix",
         "canonical": "under-",
         "meaning": "不足；低于应有程度",
-        "sentiment": { "tags": ["消极"], "intensity": -1 },
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
         "order": 1,
         "form": "under",
         "positionTendency": "initial"
@@ -321,41 +569,79 @@
         "role": "root",
         "canonical": "play",
         "meaning": "表演；发挥",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "play",
         "positionTendency": "final"
       }
     ],
     "derivationChain": [
-      { "step": 1, "form": "play", "meaning": "表演；发挥作用" },
-      { "step": 2, "form": "underplay", "meaning": "表演不足 → 弱化，轻描淡写" }
+      "play",
+      "underplay"
     ],
     "morphVariantOf": null,
     "memorySemantics": {
       "imageKey": "台上克制的演员",
       "scene": "导演对演员说'Don't underplay this scene'——不要把这场戏演得太平淡，要有力度！",
-      "emotionalHook": "underplay既可指演技不足，也可指故意淡化某事的重要性"
+      "emotionalHook": "underplay既可指演技不足，也可指故意淡化某事的重要性",
+      "imageChain": []
     },
     "wordLevel": {
-      "domain": ["gre", "academic"],
-      "sentiment": { "tags": ["消极"], "intensity": -1 }
+      "domain": [
+        "gre",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
     },
     "relations": {
-      "sameRoot": ["play", "overplay", "wordplay"],
-      "sameAffix": ["understate", "underscore", "underrate"],
-      "synonyms": ["downplay", "minimize", "soft-pedal"],
-      "antonyms": ["overplay", "exaggerate", "overemphasize"],
-      "domainCohort": ["downplay", "diminish"],
+      "sameRoot": [
+        "play",
+        "overplay",
+        "wordplay"
+      ],
+      "sameAffix": [
+        "understate",
+        "underscore",
+        "underrate"
+      ],
+      "synonyms": [
+        "downplay",
+        "minimize",
+        "soft-pedal"
+      ],
+      "antonyms": [
+        "overplay",
+        "exaggerate",
+        "overemphasize"
+      ],
+      "domainCohort": [
+        "downplay",
+        "diminish"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["downplay", "understate"]
+      "sameImagery": [
+        "downplay",
+        "understate"
+      ]
     }
   },
   {
     "word": "undersell",
     "phonetic": "/ˌʌndəˈsel/",
-    "pos": ["v."],
+    "pos": [
+      "v."
+    ],
     "coreMeaning": {
       "cn": "低价出售；推销不力；低估自身价值",
       "en": "to sell at a lower price than; to fail to promote adequately"
@@ -366,7 +652,12 @@
         "role": "prefix",
         "canonical": "under-",
         "meaning": "低于；不足",
-        "sentiment": { "tags": ["消极"], "intensity": -1 },
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
         "order": 1,
         "form": "under",
         "positionTendency": "initial"
@@ -376,41 +667,82 @@
         "role": "root",
         "canonical": "sell",
         "meaning": "销售；出售",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "sell",
         "positionTendency": "final"
       }
     ],
     "derivationChain": [
-      { "step": 1, "form": "sell", "meaning": "出售" },
-      { "step": 2, "form": "undersell", "meaning": "低价出售；未能充分展现价值" }
+      "sell",
+      "undersell"
     ],
     "morphVariantOf": null,
     "memorySemantics": {
       "imageKey": "贱卖的宝贝",
       "scene": "求职者在面试时过于谦虚，don't undersell yourself——别把自己卖便宜了！",
-      "emotionalHook": "undersell自己就是把金子按铁价卖"
+      "emotionalHook": "undersell自己就是把金子按铁价卖",
+      "imageChain": []
     },
     "wordLevel": {
-      "domain": ["sat", "finance", "academic"],
-      "sentiment": { "tags": ["消极"], "intensity": -1 }
+      "domain": [
+        "sat",
+        "finance",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
     },
     "relations": {
-      "sameRoot": ["sell", "oversell", "resell"],
-      "sameAffix": ["underrate", "understate", "underplay"],
-      "synonyms": ["underprice", "discount"],
-      "antonyms": ["oversell", "overprice"],
-      "domainCohort": ["bargain", "discount"],
-      "derivationPair": ["underselling", "undersold"],
+      "sameRoot": [
+        "sell",
+        "oversell",
+        "resell"
+      ],
+      "sameAffix": [
+        "underrate",
+        "understate",
+        "underplay"
+      ],
+      "synonyms": [
+        "underprice",
+        "discount"
+      ],
+      "antonyms": [
+        "oversell",
+        "overprice"
+      ],
+      "domainCohort": [
+        "bargain",
+        "discount"
+      ],
+      "derivationPair": [
+        "underselling",
+        "undersold"
+      ],
       "morphVariants": [],
-      "sameImagery": ["undervalue", "undercharge"]
+      "sameImagery": [
+        "undervalue",
+        "undercharge"
+      ]
     }
   },
   {
     "word": "understanding",
     "phonetic": "/ˌʌndəˈstændɪŋ/",
-    "pos": ["n.", "adj."],
+    "pos": [
+      "n.",
+      "adj."
+    ],
     "coreMeaning": {
       "cn": "理解；谅解；协议；体谅的",
       "en": "comprehension; sympathy; an informal agreement"
@@ -421,7 +753,12 @@
         "role": "prefix",
         "canonical": "under-",
         "meaning": "在…之下（掌握底层含义）",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 1,
         "form": "under",
         "positionTendency": "initial"
@@ -431,7 +768,12 @@
         "role": "root",
         "canonical": "stand",
         "meaning": "站立；处于某种状态",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "stand",
         "positionTendency": "medial"
@@ -441,42 +783,82 @@
         "role": "suffix",
         "canonical": "-ing",
         "meaning": "名词/形容词后缀",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 3,
         "form": "ing",
         "positionTendency": "final"
       }
     ],
     "derivationChain": [
-      { "step": 1, "form": "stand", "meaning": "站立，处于" },
-      { "step": 2, "form": "understand", "meaning": "站在下方 → 从底层把握 → 理解" },
-      { "step": 3, "form": "understanding", "meaning": "理解力；体谅" }
+      "stand",
+      "understand",
+      "understanding"
     ],
     "morphVariantOf": null,
     "memorySemantics": {
       "imageKey": "站在知识金字塔底部仰望全貌",
       "scene": "真正的understanding不是记住表面，而是站在下方看透整体结构",
-      "emotionalHook": "understanding还有'体谅'义——理解对方意味着感同身受"
+      "emotionalHook": "understanding还有'体谅'义——理解对方意味着感同身受",
+      "imageChain": []
     },
     "wordLevel": {
-      "domain": ["cet4", "ielts", "academic"],
-      "sentiment": { "tags": ["积极"], "intensity": 1 }
+      "domain": [
+        "cet4",
+        "ielts",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
     },
     "relations": {
-      "sameRoot": ["understand", "misunderstand", "understandable"],
+      "sameRoot": [
+        "understand",
+        "misunderstand",
+        "understandable"
+      ],
       "sameAffix": [],
-      "synonyms": ["comprehension", "grasp", "empathy", "accord"],
-      "antonyms": ["misunderstanding", "ignorance", "confusion"],
-      "domainCohort": ["knowledge", "insight", "empathy"],
-      "derivationPair": ["understand", "misunderstanding"],
+      "synonyms": [
+        "comprehension",
+        "grasp",
+        "empathy",
+        "accord"
+      ],
+      "antonyms": [
+        "misunderstanding",
+        "ignorance",
+        "confusion"
+      ],
+      "domainCohort": [
+        "knowledge",
+        "insight",
+        "empathy"
+      ],
+      "derivationPair": [
+        "understand",
+        "misunderstanding"
+      ],
       "morphVariants": [],
-      "sameImagery": ["insight", "grasp"]
+      "sameImagery": [
+        "insight",
+        "grasp"
+      ]
     }
   },
   {
     "word": "understandable",
     "phonetic": "/ˌʌndəˈstændəbl/",
-    "pos": ["adj."],
+    "pos": [
+      "adj."
+    ],
     "coreMeaning": {
       "cn": "可以理解的；情有可原的",
       "en": "able to be understood; reasonable under the circumstances"
@@ -487,7 +869,12 @@
         "role": "prefix",
         "canonical": "under-",
         "meaning": "在…之下",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 1,
         "form": "under",
         "positionTendency": "initial"
@@ -497,7 +884,12 @@
         "role": "root",
         "canonical": "stand",
         "meaning": "站立，把握",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "stand",
         "positionTendency": "medial"
@@ -507,41 +899,78 @@
         "role": "suffix",
         "canonical": "-able",
         "meaning": "能够…的",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 3,
         "form": "able",
         "positionTendency": "final"
       }
     ],
     "derivationChain": [
-      { "step": 1, "form": "understand", "meaning": "理解" },
-      { "step": 2, "form": "understandable", "meaning": "可被理解的；可以理解的" }
+      "understand",
+      "understandable"
     ],
     "morphVariantOf": null,
     "memorySemantics": {
       "imageKey": "点头会意",
       "scene": "朋友迟到了，说sorry；你回答'It's understandable'——换我也会这样",
-      "emotionalHook": "understandable表达宽容与体谅，是高情商用语"
+      "emotionalHook": "understandable表达宽容与体谅，是高情商用语",
+      "imageChain": []
     },
     "wordLevel": {
-      "domain": ["ielts", "academic"],
-      "sentiment": { "tags": ["积极"], "intensity": 1 }
+      "domain": [
+        "ielts",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
     },
     "relations": {
-      "sameRoot": ["understanding", "understand", "misunderstandable"],
-      "sameAffix": ["understandably"],
-      "synonyms": ["comprehensible", "reasonable", "justifiable"],
-      "antonyms": ["incomprehensible", "inexplicable"],
-      "domainCohort": ["reasonable", "justifiable"],
-      "derivationPair": ["understandably"],
+      "sameRoot": [
+        "understanding",
+        "understand",
+        "misunderstandable"
+      ],
+      "sameAffix": [
+        "understandably"
+      ],
+      "synonyms": [
+        "comprehensible",
+        "reasonable",
+        "justifiable"
+      ],
+      "antonyms": [
+        "incomprehensible",
+        "inexplicable"
+      ],
+      "domainCohort": [
+        "reasonable",
+        "justifiable"
+      ],
+      "derivationPair": [
+        "understandably"
+      ],
       "morphVariants": [],
-      "sameImagery": ["reasonable", "forgivable"]
+      "sameImagery": [
+        "reasonable",
+        "forgivable"
+      ]
     }
   },
   {
     "word": "underpinning",
     "phonetic": "/ˌʌndəˈpɪnɪŋ/",
-    "pos": ["n."],
+    "pos": [
+      "n."
+    ],
     "coreMeaning": {
       "cn": "基础；支撑；（建筑）基脚加固",
       "en": "a foundation or support; the basis underlying something"
@@ -552,7 +981,12 @@
         "role": "prefix",
         "canonical": "under-",
         "meaning": "在下方",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 1,
         "form": "under",
         "positionTendency": "initial"
@@ -562,7 +996,12 @@
         "role": "root",
         "canonical": "pin",
         "meaning": "钉；固定",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "pin",
         "positionTendency": "medial"
@@ -572,42 +1011,81 @@
         "role": "suffix",
         "canonical": "-ing",
         "meaning": "名词后缀，表行为或结果",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 3,
         "form": "ning",
         "positionTendency": "final"
       }
     ],
     "derivationChain": [
-      { "step": 1, "form": "pin", "meaning": "固定，钉住" },
-      { "step": 2, "form": "underpin", "meaning": "从下方支撑；奠定基础" },
-      { "step": 3, "form": "underpinning", "meaning": "基础；支撑体系" }
+      "pin",
+      "underpin",
+      "underpinning"
     ],
     "morphVariantOf": null,
     "memorySemantics": {
       "imageKey": "建筑地基",
       "scene": "高楼大厦需要underpinning——深入地下的支撑结构，引申为思想体系的基础",
-      "emotionalHook": "academic写作常说'the theoretical underpinning'，理论基础"
+      "emotionalHook": "academic写作常说'the theoretical underpinning'，理论基础",
+      "imageChain": []
     },
     "wordLevel": {
-      "domain": ["academic", "toefl"],
-      "sentiment": { "tags": ["中性"], "intensity": 0 }
+      "domain": [
+        "academic",
+        "toefl"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
     },
     "relations": {
-      "sameRoot": ["underpin", "pin", "pinnacle"],
-      "sameAffix": ["underscore", "understate"],
-      "synonyms": ["foundation", "basis", "support", "substructure"],
+      "sameRoot": [
+        "underpin",
+        "pin",
+        "pinnacle"
+      ],
+      "sameAffix": [
+        "underscore",
+        "understate"
+      ],
+      "synonyms": [
+        "foundation",
+        "basis",
+        "support",
+        "substructure"
+      ],
       "antonyms": [],
-      "domainCohort": ["foundation", "framework", "basis"],
-      "derivationPair": ["underpin", "underpins"],
+      "domainCohort": [
+        "foundation",
+        "framework",
+        "basis"
+      ],
+      "derivationPair": [
+        "underpin",
+        "underpins"
+      ],
       "morphVariants": [],
-      "sameImagery": ["foundation", "bedrock"]
+      "sameImagery": [
+        "foundation",
+        "bedrock"
+      ]
     }
   },
   {
     "word": "underprivileged",
     "phonetic": "/ˌʌndəˈprɪvɪlɪdʒd/",
-    "pos": ["adj.", "n."],
+    "pos": [
+      "adj.",
+      "n."
+    ],
     "coreMeaning": {
       "cn": "社会地位低下的；贫困的；弱势群体",
       "en": "lacking social privileges or economic advantages; the poor"
@@ -618,7 +1096,12 @@
         "role": "prefix",
         "canonical": "under-",
         "meaning": "不足；低于正常水平",
-        "sentiment": { "tags": ["消极"], "intensity": -1 },
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
         "order": 1,
         "form": "under",
         "positionTendency": "initial"
@@ -628,7 +1111,12 @@
         "role": "root",
         "canonical": "priv-",
         "meaning": "私有；特权",
-        "sentiment": { "tags": ["积极"], "intensity": 1 },
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
         "order": 2,
         "form": "priv",
         "positionTendency": "medial"
@@ -638,7 +1126,12 @@
         "role": "suffix",
         "canonical": "-ilege",
         "meaning": "特权，特殊待遇",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 3,
         "form": "ilege",
         "positionTendency": "medial"
@@ -648,42 +1141,84 @@
         "role": "suffix",
         "canonical": "-ed",
         "meaning": "形容词化后缀",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 4,
         "form": "d",
         "positionTendency": "final"
       }
     ],
     "derivationChain": [
-      { "step": 1, "form": "privilege", "meaning": "特权，优待" },
-      { "step": 2, "form": "privileged", "meaning": "享有特权的" },
-      { "step": 3, "form": "underprivileged", "meaning": "缺乏特权的，弱势的" }
+      "privilege",
+      "privileged",
+      "underprivileged"
     ],
     "morphVariantOf": null,
     "memorySemantics": {
       "imageKey": "机会不平等的天平",
       "scene": "慈善组织说'helping the underprivileged'——帮助那些没有获得平等机会的人",
-      "emotionalHook": "under-privilege = 特权不足，反映社会不平等现实"
+      "emotionalHook": "under-privilege = 特权不足，反映社会不平等现实",
+      "imageChain": []
     },
     "wordLevel": {
-      "domain": ["academic", "toefl", "news"],
-      "sentiment": { "tags": ["消极"], "intensity": -1 }
+      "domain": [
+        "academic",
+        "toefl",
+        "news"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
     },
     "relations": {
-      "sameRoot": ["privilege", "privileged", "deprived"],
-      "sameAffix": ["understated", "underrated"],
-      "synonyms": ["disadvantaged", "deprived", "impoverished"],
-      "antonyms": ["privileged", "affluent", "advantaged"],
-      "domainCohort": ["poverty", "inequality", "marginalized"],
-      "derivationPair": ["privilege", "privileged"],
+      "sameRoot": [
+        "privilege",
+        "privileged",
+        "deprived"
+      ],
+      "sameAffix": [
+        "understated",
+        "underrated"
+      ],
+      "synonyms": [
+        "disadvantaged",
+        "deprived",
+        "impoverished"
+      ],
+      "antonyms": [
+        "privileged",
+        "affluent",
+        "advantaged"
+      ],
+      "domainCohort": [
+        "poverty",
+        "inequality",
+        "marginalized"
+      ],
+      "derivationPair": [
+        "privilege",
+        "privileged"
+      ],
       "morphVariants": [],
-      "sameImagery": ["disadvantaged", "deprived"]
+      "sameImagery": [
+        "disadvantaged",
+        "deprived"
+      ]
     }
   },
   {
     "word": "undersized",
     "phonetic": "/ˌʌndəˈsaɪzd/",
-    "pos": ["adj."],
+    "pos": [
+      "adj."
+    ],
     "coreMeaning": {
       "cn": "尺寸不足的；偏小的；发育不良的",
       "en": "smaller than the normal or required size"
@@ -694,7 +1229,12 @@
         "role": "prefix",
         "canonical": "under-",
         "meaning": "低于正常水平",
-        "sentiment": { "tags": ["消极"], "intensity": -1 },
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
         "order": 1,
         "form": "under",
         "positionTendency": "initial"
@@ -704,7 +1244,12 @@
         "role": "root",
         "canonical": "size",
         "meaning": "尺寸；大小",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "siz",
         "positionTendency": "medial"
@@ -714,36 +1259,75 @@
         "role": "suffix",
         "canonical": "-ed",
         "meaning": "形容词化后缀",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 3,
         "form": "ed",
         "positionTendency": "final"
       }
     ],
     "derivationChain": [
-      { "step": 1, "form": "size", "meaning": "尺寸" },
-      { "step": 2, "form": "undersize", "meaning": "尺寸不足" },
-      { "step": 3, "form": "undersized", "meaning": "偏小的，发育不足的" }
+      "size",
+      "undersize",
+      "undersized"
     ],
     "morphVariantOf": null,
     "memorySemantics": {
       "imageKey": "不合规格的零件",
       "scene": "质检员拿着卡尺说'This part is undersized'——尺寸偏小，不合格",
-      "emotionalHook": "undersized暗示'不达标'，常带有轻微贬义"
+      "emotionalHook": "undersized暗示'不达标'，常带有轻微贬义",
+      "imageChain": []
     },
     "wordLevel": {
-      "domain": ["sat", "academic"],
-      "sentiment": { "tags": ["消极"], "intensity": -1 }
+      "domain": [
+        "sat",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
     },
     "relations": {
-      "sameRoot": ["size", "oversize", "outsize"],
-      "sameAffix": ["understated", "underrated", "underprivileged"],
-      "synonyms": ["small", "stunted", "puny", "diminutive"],
-      "antonyms": ["oversized", "large", "full-sized"],
-      "domainCohort": ["substandard", "insufficient"],
-      "derivationPair": ["undersize"],
+      "sameRoot": [
+        "size",
+        "oversize",
+        "outsize"
+      ],
+      "sameAffix": [
+        "understated",
+        "underrated",
+        "underprivileged"
+      ],
+      "synonyms": [
+        "small",
+        "stunted",
+        "puny",
+        "diminutive"
+      ],
+      "antonyms": [
+        "oversized",
+        "large",
+        "full-sized"
+      ],
+      "domainCohort": [
+        "substandard",
+        "insufficient"
+      ],
+      "derivationPair": [
+        "undersize"
+      ],
       "morphVariants": [],
-      "sameImagery": ["stunted", "miniature"]
+      "sameImagery": [
+        "stunted",
+        "miniature"
+      ]
     }
   }
 ]

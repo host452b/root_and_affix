@@ -2,104 +2,699 @@
   {
     "word": "nostrum",
     "phonetic": "/'nɒstrəm/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "江湖药；万灵丹；不切实际的妙策", "en": "a quack remedy or panacea; an ineffective remedy promoted enthusiastically"},
-    "morphemes": [
-      {"canonical": "noster", "role": "root", "meaning": "我们的（拉丁noster=our）", "sentiment": {"tags": ["贬义"], "intensity": 1}, "order": 1, "form": "nostr", "positionTendency": "medial", "coreMeaning": {"cn": "我们的", "en": "our/ours"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "江湖药；万灵丹；不切实际的妙策",
+      "en": "a quack remedy or panacea; an ineffective remedy promoted enthusiastically"
+    },
+    "morphemes": [
+      {
+        "canonical": "noster",
+        "role": "root",
+        "meaning": "我们的（拉丁noster=our）",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "nostr",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "我们的",
+          "en": "our/ours"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "我们自己的秘方→江湖药", "imageChain": ["江湖郎中", "万灵丹", "假药"], "mnemonicExpr": "nostrum→拉丁noster(our)→'我们家的秘方'→江湖药/万灵丹"},
-    "wordLevel": {"sentiment": {"tags": ["贬义"], "intensity": 2}, "domain": ["general", "medical"], "formality": 4},
-    "relations": {"sameRoot": ["nostrums"], "sameAffix": [], "synonyms": ["quack remedy", "panacea", "snake oil", "cure-all"], "antonyms": ["proven remedy", "effective treatment"], "domainCohort": ["notary", "notable"], "derivationPair": [], "morphVariants": [], "sameImagery": ["panacea", "snake oil"]}
+    "memorySemantics": {
+      "literal": "我们自己的秘方→江湖药",
+      "imageChain": [
+        "江湖郎中",
+        "万灵丹",
+        "假药"
+      ],
+      "mnemonicExpr": "nostrum→拉丁noster(our)→'我们家的秘方'→江湖药/万灵丹"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": 2
+      },
+      "domain": [
+        "general",
+        "medical"
+      ],
+      "formality": 4
+    },
+    "relations": {
+      "sameRoot": [
+        "nostrums"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "quack remedy",
+        "panacea",
+        "snake oil",
+        "cure-all"
+      ],
+      "antonyms": [
+        "proven remedy",
+        "effective treatment"
+      ],
+      "domainCohort": [
+        "notary",
+        "notable"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "panacea",
+        "snake oil"
+      ]
+    }
   },
   {
     "word": "nosy",
     "phonetic": "/'nəʊzi/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "爱管闲事的；好打听的", "en": "too interested in or prying into other people's business"},
-    "morphemes": [
-      {"canonical": "nose", "role": "root", "meaning": "鼻子（引申为打探）", "sentiment": {"tags": ["贬义"], "intensity": 1}, "order": 1, "form": "nos", "positionTendency": "initial", "coreMeaning": {"cn": "鼻子/打探", "en": "nose/pry"}},
-      {"canonical": "-y", "role": "suffix", "meaning": "形容词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-y", "positionTendency": "final", "coreMeaning": {"cn": "有…特性的", "en": "having quality of"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "nose", "to": "nosy", "rule": "+y"}]},
+    "coreMeaning": {
+      "cn": "爱管闲事的；好打听的",
+      "en": "too interested in or prying into other people's business"
+    },
+    "morphemes": [
+      {
+        "canonical": "nose",
+        "role": "root",
+        "meaning": "鼻子（引申为打探）",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "nos",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "鼻子/打探",
+          "en": "nose/pry"
+        }
+      },
+      {
+        "canonical": "-y",
+        "role": "suffix",
+        "meaning": "形容词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-y",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "有…特性的",
+          "en": "having quality of"
+        }
+      }
+    ],
+    "derivationChain": [
+      "nosy"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "把鼻子伸进别人事务中", "imageChain": ["八卦", "窥探", "爱管闲事"], "mnemonicExpr": "nosy→nose(鼻子)+y→把鼻子伸进别人事→爱管闲事"},
-    "wordLevel": {"sentiment": {"tags": ["贬义"], "intensity": 1}, "domain": ["general"], "formality": 1},
-    "relations": {"sameRoot": ["nose", "nostril"], "sameAffix": ["bossy", "fussy"], "synonyms": ["prying", "snoopy", "intrusive", "meddlesome"], "antonyms": ["discreet", "respectful", "unobtrusive"], "domainCohort": ["nostril", "nostrum"], "derivationPair": [], "morphVariants": ["nosey"], "sameImagery": ["prying", "snoopy"]}
+    "memorySemantics": {
+      "literal": "把鼻子伸进别人事务中",
+      "imageChain": [
+        "八卦",
+        "窥探",
+        "爱管闲事"
+      ],
+      "mnemonicExpr": "nosy→nose(鼻子)+y→把鼻子伸进别人事→爱管闲事"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": 1
+    },
+    "relations": {
+      "sameRoot": [
+        "nose",
+        "nostril"
+      ],
+      "sameAffix": [
+        "bossy",
+        "fussy"
+      ],
+      "synonyms": [
+        "prying",
+        "snoopy",
+        "intrusive",
+        "meddlesome"
+      ],
+      "antonyms": [
+        "discreet",
+        "respectful",
+        "unobtrusive"
+      ],
+      "domainCohort": [
+        "nostril",
+        "nostrum"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "nosey"
+      ],
+      "sameImagery": [
+        "prying",
+        "snoopy"
+      ]
+    }
   },
   {
     "word": "notable",
     "phonetic": "/'nəʊtəbl/",
-    "pos": ["adj.", "n."],
-    "coreMeaning": {"cn": "显著的；值得注意的；著名的", "en": "worthy of attention; remarkable; a well-known person"},
-    "morphemes": [
-      {"canonical": "not", "role": "root", "meaning": "标记/注意（拉丁nota=mark）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "not", "positionTendency": "initial", "coreMeaning": {"cn": "标记", "en": "mark/note"}},
-      {"canonical": "-able", "role": "suffix", "meaning": "形容词化，worthy of", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-able", "positionTendency": "final", "coreMeaning": {"cn": "值得…的", "en": "worthy of"}}
+    "pos": [
+      "adj.",
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "显著的；值得注意的；著名的",
+      "en": "worthy of attention; remarkable; a well-known person"
+    },
+    "morphemes": [
+      {
+        "canonical": "not",
+        "role": "root",
+        "meaning": "标记/注意（拉丁nota=mark）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "not",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "标记",
+          "en": "mark/note"
+        }
+      },
+      {
+        "canonical": "-able",
+        "role": "suffix",
+        "meaning": "形容词化，worthy of",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-able",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "值得…的",
+          "en": "worthy of"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "值得标注/注意的", "imageChain": ["引人注目", "值得记录", "著名人士"], "mnemonicExpr": "notable→note+able→值得注意的→显著的/知名人士"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic"], "formality": 3},
-    "relations": {"sameRoot": ["notably", "notability", "note", "notation"], "sameAffix": ["remarkable", "noteworthy"], "synonyms": ["remarkable", "noteworthy", "distinguished", "prominent"], "antonyms": ["unremarkable", "insignificant", "obscure"], "domainCohort": ["notary", "notation", "notch"], "derivationPair": ["notably", "notability"], "morphVariants": [], "sameImagery": ["remarkable", "prominent"]}
+    "memorySemantics": {
+      "literal": "值得标注/注意的",
+      "imageChain": [
+        "引人注目",
+        "值得记录",
+        "著名人士"
+      ],
+      "mnemonicExpr": "notable→note+able→值得注意的→显著的/知名人士"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": 3
+    },
+    "relations": {
+      "sameRoot": [
+        "notably",
+        "notability",
+        "note",
+        "notation"
+      ],
+      "sameAffix": [
+        "remarkable",
+        "noteworthy"
+      ],
+      "synonyms": [
+        "remarkable",
+        "noteworthy",
+        "distinguished",
+        "prominent"
+      ],
+      "antonyms": [
+        "unremarkable",
+        "insignificant",
+        "obscure"
+      ],
+      "domainCohort": [
+        "notary",
+        "notation",
+        "notch"
+      ],
+      "derivationPair": [
+        "notably",
+        "notability"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "remarkable",
+        "prominent"
+      ]
+    }
   },
   {
     "word": "notary",
     "phonetic": "/'nəʊtəri/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "公证人；公证员", "en": "a public official authorized to certify documents and take oaths"},
-    "morphemes": [
-      {"canonical": "not", "role": "root", "meaning": "标记/记录（拉丁nota=mark）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "not", "positionTendency": "initial", "coreMeaning": {"cn": "标记", "en": "mark/record"}},
-      {"canonical": "-ary", "role": "suffix", "meaning": "人/场所", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-ary", "positionTendency": "final", "coreMeaning": {"cn": "人", "en": "person/agent"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "公证人；公证员",
+      "en": "a public official authorized to certify documents and take oaths"
+    },
+    "morphemes": [
+      {
+        "canonical": "not",
+        "role": "root",
+        "meaning": "标记/记录（拉丁nota=mark）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "not",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "标记",
+          "en": "mark/record"
+        }
+      },
+      {
+        "canonical": "-ary",
+        "role": "suffix",
+        "meaning": "人/场所",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ary",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "人",
+          "en": "person/agent"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "负责记录/认证的人", "imageChain": ["公证处", "文件认证", "法律官员"], "mnemonicExpr": "notary→nota(记录)+ary(人)→公证人/认证官员"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["legal"], "formality": 4},
-    "relations": {"sameRoot": ["notarize", "notarized", "notaries", "note", "notation"], "sameAffix": ["secretary", "dignitary"], "synonyms": ["notary public", "official", "certifier"], "antonyms": [], "domainCohort": ["notation", "notable"], "derivationPair": ["notarize"], "morphVariants": [], "sameImagery": ["certifier", "official"]}
+    "memorySemantics": {
+      "literal": "负责记录/认证的人",
+      "imageChain": [
+        "公证处",
+        "文件认证",
+        "法律官员"
+      ],
+      "mnemonicExpr": "notary→nota(记录)+ary(人)→公证人/认证官员"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "legal"
+      ],
+      "formality": 4
+    },
+    "relations": {
+      "sameRoot": [
+        "notarize",
+        "notarized",
+        "notaries",
+        "note",
+        "notation"
+      ],
+      "sameAffix": [
+        "secretary",
+        "dignitary"
+      ],
+      "synonyms": [
+        "notary public",
+        "official",
+        "certifier"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "notation",
+        "notable"
+      ],
+      "derivationPair": [
+        "notarize"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "certifier",
+        "official"
+      ]
+    }
   },
   {
     "word": "notation",
     "phonetic": "/nəʊ'teɪʃən/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "符号；记号；记谱法", "en": "a system of symbols used to represent numbers, quantities, or musical sounds"},
-    "morphemes": [
-      {"canonical": "not", "role": "root", "meaning": "标记（拉丁nota=mark）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "not", "positionTendency": "initial", "coreMeaning": {"cn": "标记", "en": "mark"}},
-      {"canonical": "-ation", "role": "suffix", "meaning": "名词化，行为/结果", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-ation", "positionTendency": "final", "coreMeaning": {"cn": "行为/系统", "en": "act/system"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "notate", "to": "notation", "rule": "+ion"}]},
+    "coreMeaning": {
+      "cn": "符号；记号；记谱法",
+      "en": "a system of symbols used to represent numbers, quantities, or musical sounds"
+    },
+    "morphemes": [
+      {
+        "canonical": "not",
+        "role": "root",
+        "meaning": "标记（拉丁nota=mark）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "not",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "标记",
+          "en": "mark"
+        }
+      },
+      {
+        "canonical": "-ation",
+        "role": "suffix",
+        "meaning": "名词化，行为/结果",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ation",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "行为/系统",
+          "en": "act/system"
+        }
+      }
+    ],
+    "derivationChain": [
+      "notation"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "用符号标记的系统", "imageChain": ["数学符号", "乐谱", "化学符号"], "mnemonicExpr": "notation→nota(标记)+tion→标记符号体系→记号/记谱法"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["academic", "general"], "formality": 3},
-    "relations": {"sameRoot": ["notate", "note", "notable", "notary"], "sameAffix": ["annotation", "connotation"], "synonyms": ["symbol", "sign", "mark", "representation", "shorthand"], "antonyms": [], "domainCohort": ["notable", "notary", "notch"], "derivationPair": ["notate"], "morphVariants": [], "sameImagery": ["symbol", "sign"]}
+    "memorySemantics": {
+      "literal": "用符号标记的系统",
+      "imageChain": [
+        "数学符号",
+        "乐谱",
+        "化学符号"
+      ],
+      "mnemonicExpr": "notation→nota(标记)+tion→标记符号体系→记号/记谱法"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "academic",
+        "general"
+      ],
+      "formality": 3
+    },
+    "relations": {
+      "sameRoot": [
+        "notate",
+        "note",
+        "notable",
+        "notary"
+      ],
+      "sameAffix": [
+        "annotation",
+        "connotation"
+      ],
+      "synonyms": [
+        "symbol",
+        "sign",
+        "mark",
+        "representation",
+        "shorthand"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "notable",
+        "notary",
+        "notch"
+      ],
+      "derivationPair": [
+        "notate"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "symbol",
+        "sign"
+      ]
+    }
   },
   {
     "word": "notch",
     "phonetic": "/nɒtʃ/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "V形缺口；等级；赢得", "en": "a V-shaped cut; a level; to score or achieve"},
-    "morphemes": [
-      {"canonical": "notch", "role": "root", "meaning": "刻口/缺口（可能来自French oche）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "notch", "positionTendency": "medial", "coreMeaning": {"cn": "刻口", "en": "notch/cut"}}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "V形缺口；等级；赢得",
+      "en": "a V-shaped cut; a level; to score or achieve"
+    },
+    "morphemes": [
+      {
+        "canonical": "notch",
+        "role": "root",
+        "meaning": "刻口/缺口（可能来自French oche）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "notch",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "刻口",
+          "en": "notch/cut"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "刻在木头上的V形缺口", "imageChain": ["V形缺口", "刻度", "一个档次"], "mnemonicExpr": "notch→V形缺口→top-notch=最顶级的/notch up=记分"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": 2},
-    "relations": {"sameRoot": ["notched", "notches", "notching"], "sameAffix": [], "synonyms": ["cut", "nick", "groove", "score", "level"], "antonyms": [], "domainCohort": ["notation", "notable"], "derivationPair": ["notched"], "morphVariants": [], "sameImagery": ["cut", "groove"]}
+    "memorySemantics": {
+      "literal": "刻在木头上的V形缺口",
+      "imageChain": [
+        "V形缺口",
+        "刻度",
+        "一个档次"
+      ],
+      "mnemonicExpr": "notch→V形缺口→top-notch=最顶级的/notch up=记分"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": 2
+    },
+    "relations": {
+      "sameRoot": [
+        "notched",
+        "notches",
+        "notching"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "cut",
+        "nick",
+        "groove",
+        "score",
+        "level"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "notation",
+        "notable"
+      ],
+      "derivationPair": [
+        "notched"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "cut",
+        "groove"
+      ]
+    }
   },
   {
     "word": "noteworthy",
     "phonetic": "/'nəʊtwɜːði/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "值得注意的；显著的；重要的", "en": "interesting or remarkable; deserving attention"},
-    "morphemes": [
-      {"canonical": "not", "role": "root", "meaning": "注意（拉丁nota）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "note", "positionTendency": "initial", "coreMeaning": {"cn": "注意", "en": "note"}},
-      {"canonical": "worth", "role": "root", "meaning": "价值，worth", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "worthy", "positionTendency": "final", "coreMeaning": {"cn": "值得", "en": "worthy/deserving"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "值得注意的；显著的；重要的",
+      "en": "interesting or remarkable; deserving attention"
+    },
+    "morphemes": [
+      {
+        "canonical": "not",
+        "role": "root",
+        "meaning": "注意（拉丁nota）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "note",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "注意",
+          "en": "note"
+        }
+      },
+      {
+        "canonical": "worth",
+        "role": "root",
+        "meaning": "价值，worth",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "worthy",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "值得",
+          "en": "worthy/deserving"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "值得被注意的", "imageChain": ["值得关注", "重要发现", "显著成就"], "mnemonicExpr": "noteworthy→note+worthy→值得记录的→值得注意的"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic"], "formality": 3},
-    "relations": {"sameRoot": ["note", "notable", "noted"], "sameAffix": ["praiseworthy", "trustworthy"], "synonyms": ["remarkable", "notable", "significant", "distinguished"], "antonyms": ["unremarkable", "trivial", "unimportant"], "domainCohort": ["notable", "notch"], "derivationPair": [], "morphVariants": [], "sameImagery": ["remarkable", "notable"]}
+    "memorySemantics": {
+      "literal": "值得被注意的",
+      "imageChain": [
+        "值得关注",
+        "重要发现",
+        "显著成就"
+      ],
+      "mnemonicExpr": "noteworthy→note+worthy→值得记录的→值得注意的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": 3
+    },
+    "relations": {
+      "sameRoot": [
+        "note",
+        "notable",
+        "noted"
+      ],
+      "sameAffix": [
+        "praiseworthy",
+        "trustworthy"
+      ],
+      "synonyms": [
+        "remarkable",
+        "notable",
+        "significant",
+        "distinguished"
+      ],
+      "antonyms": [
+        "unremarkable",
+        "trivial",
+        "unimportant"
+      ],
+      "domainCohort": [
+        "notable",
+        "notch"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "remarkable",
+        "notable"
+      ]
+    }
   }
 ]

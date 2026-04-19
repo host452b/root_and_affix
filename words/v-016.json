@@ -3,103 +3,655 @@
     "word": "vicinity",
     "phonetic": "/və'sɪnəti/",
     "pos": "n.",
-    "coreMeaning": { "cn": "附近；周围地区；邻近", "en": "vicinity" },
+    "coreMeaning": {
+      "cn": "附近；周围地区；邻近",
+      "en": "vicinity"
+    },
     "morphemes": [
-      { "canonical": "vicin-", "role": "root", "meaning": "邻近；附近（拉丁 vicinus 邻居）", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "vicin", "positionTendency": "initial" },
-      { "canonical": "-ity", "role": "suffix", "meaning": "名词后缀：状态/性质", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ity", "positionTendency": "final" }
+      {
+        "canonical": "vicin-",
+        "role": "root",
+        "meaning": "邻近；附近（拉丁 vicinus 邻居）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "vicin",
+        "positionTendency": "initial"
+      },
+      {
+        "canonical": "-ity",
+        "role": "suffix",
+        "meaning": "名词后缀：状态/性质",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ity",
+        "positionTendency": "final"
+      }
     ],
-    "derivationChain": { "steps": [{ "from": "vicinitas (Lat. 邻近性)", "to": "vicinity", "by": "adaptation", "meaning": "某地的周边区域；附近的地方" }] },
+    "derivationChain": [
+      "vicinity"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": { "mnemonicExpr": "vicin(邻近) + ity → 邻近的地方，即附近地区", "imageChain": ["附近", "周围", "邻近"] },
-    "wordLevel": { "domain": ["general", "academic"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
-    "relations": { "sameRoot": ["vicinal", "vicinage"], "sameAffix": ["-ity"], "synonyms": ["neighborhood", "proximity", "surroundings", "area", "locale"], "antonyms": ["distance", "remoteness", "far"], "domainCohort": ["neighborhood", "proximity", "surroundings"], "derivationPair": [{"word": "vicinal", "relation": "adjective"}], "morphVariants": ["vicinities", "vicinal"], "sameImagery": [] }
+    "memorySemantics": {
+      "mnemonicExpr": "vicin(邻近) + ity → 邻近的地方，即附近地区",
+      "imageChain": [
+        "附近",
+        "周围",
+        "邻近"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "vicinal",
+        "vicinage"
+      ],
+      "sameAffix": [
+        "-ity"
+      ],
+      "synonyms": [
+        "neighborhood",
+        "proximity",
+        "surroundings",
+        "area",
+        "locale"
+      ],
+      "antonyms": [
+        "distance",
+        "remoteness",
+        "far"
+      ],
+      "domainCohort": [
+        "neighborhood",
+        "proximity",
+        "surroundings"
+      ],
+      "derivationPair": [
+        {
+          "word": "vicinal",
+          "relation": "adjective"
+        }
+      ],
+      "morphVariants": [
+        "vicinities",
+        "vicinal"
+      ],
+      "sameImagery": []
+    }
   },
   {
     "word": "vicious",
     "phonetic": "/'vɪʃəs/",
     "pos": "adj.",
-    "coreMeaning": { "cn": "恶毒的；凶残的；道德败坏的；激烈的", "en": "vicious" },
+    "coreMeaning": {
+      "cn": "恶毒的；凶残的；道德败坏的；激烈的",
+      "en": "vicious"
+    },
     "morphemes": [
-      { "canonical": "vice-", "role": "root", "meaning": "邪恶；罪恶（拉丁 vitium 缺陷/罪恶）", "sentiment": { "tags": ["消极"], "intensity": 2 }, "order": 1, "form": "vici", "positionTendency": "initial" },
-      { "canonical": "-ous", "role": "suffix", "meaning": "形容词后缀：充满…的", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ous", "positionTendency": "final" }
+      {
+        "canonical": "vice-",
+        "role": "root",
+        "meaning": "邪恶；罪恶（拉丁 vitium 缺陷/罪恶）",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 2
+        },
+        "order": 1,
+        "form": "vici",
+        "positionTendency": "initial"
+      },
+      {
+        "canonical": "-ous",
+        "role": "suffix",
+        "meaning": "形容词后缀：充满…的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ous",
+        "positionTendency": "final"
+      }
     ],
-    "derivationChain": { "steps": [{ "from": "vitiosus (Lat. 充满缺陷的/邪恶的)", "to": "vicious", "by": "adaptation", "meaning": "极度恶毒残忍的；具有道德缺陷的" }] },
+    "derivationChain": [
+      "vicious"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": { "mnemonicExpr": "vici(邪恶) + ous → 充满邪恶和恶意的", "imageChain": ["恶毒", "凶残", "邪恶"] },
-    "wordLevel": { "domain": ["general"], "sentiment": { "tags": ["消极"], "intensity": 2 } },
-    "relations": { "sameRoot": ["vice", "vicious cycle"], "sameAffix": ["-ous"], "synonyms": ["cruel", "savage", "ferocious", "malicious", "brutal"], "antonyms": ["kind", "gentle", "benevolent", "virtuous"], "domainCohort": ["cruel", "savage", "ferocious"], "derivationPair": [{"word": "viciously", "relation": "adverb"}], "morphVariants": ["viciously", "viciousness"], "sameImagery": ["savage"] }
+    "memorySemantics": {
+      "mnemonicExpr": "vici(邪恶) + ous → 充满邪恶和恶意的",
+      "imageChain": [
+        "恶毒",
+        "凶残",
+        "邪恶"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "vice",
+        "vicious cycle"
+      ],
+      "sameAffix": [
+        "-ous"
+      ],
+      "synonyms": [
+        "cruel",
+        "savage",
+        "ferocious",
+        "malicious",
+        "brutal"
+      ],
+      "antonyms": [
+        "kind",
+        "gentle",
+        "benevolent",
+        "virtuous"
+      ],
+      "domainCohort": [
+        "cruel",
+        "savage",
+        "ferocious"
+      ],
+      "derivationPair": [
+        {
+          "word": "viciously",
+          "relation": "adverb"
+        }
+      ],
+      "morphVariants": [
+        "viciously",
+        "viciousness"
+      ],
+      "sameImagery": [
+        "savage"
+      ]
+    }
   },
   {
     "word": "vicissitude",
     "phonetic": "/vɪ'sɪsɪtjuːd/",
     "pos": "n.",
-    "coreMeaning": { "cn": "变迁；盛衰；变化无常", "en": "vicissitude" },
+    "coreMeaning": {
+      "cn": "变迁；盛衰；变化无常",
+      "en": "vicissitude"
+    },
     "morphemes": [
-      { "canonical": "vicissit-", "role": "root", "meaning": "轮流；交替（拉丁 vicissim 轮流）", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "vicissit", "positionTendency": "initial" },
-      { "canonical": "-ude", "role": "suffix", "meaning": "名词后缀：状态/性质", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ude", "positionTendency": "final" }
+      {
+        "canonical": "vicissit-",
+        "role": "root",
+        "meaning": "轮流；交替（拉丁 vicissim 轮流）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "vicissit",
+        "positionTendency": "initial"
+      },
+      {
+        "canonical": "-ude",
+        "role": "suffix",
+        "meaning": "名词后缀：状态/性质",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ude",
+        "positionTendency": "final"
+      }
     ],
-    "derivationChain": { "steps": [{ "from": "vicissitudo (Lat. 轮流/交替)", "to": "vicissitude", "by": "adaptation", "meaning": "命运或境遇的交替变化；人生的起伏兴衰" }] },
+    "derivationChain": [
+      "vicissitude"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": { "mnemonicExpr": "vicissit(轮流) + ude → 命运轮流转换，人生的起起落落", "imageChain": ["变迁", "盛衰", "起伏"] },
-    "wordLevel": { "domain": ["general", "literary", "academic"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
-    "relations": { "sameRoot": [], "sameAffix": ["-ude"], "synonyms": ["change", "fluctuation", "alternation", "ups and downs", "mutability"], "antonyms": ["stability", "constancy", "consistency"], "domainCohort": ["change", "fluctuation", "mutability"], "derivationPair": [], "morphVariants": ["vicissitudes", "vicissitudinous"], "sameImagery": [] }
+    "memorySemantics": {
+      "mnemonicExpr": "vicissit(轮流) + ude → 命运轮流转换，人生的起起落落",
+      "imageChain": [
+        "变迁",
+        "盛衰",
+        "起伏"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "literary",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [
+        "-ude"
+      ],
+      "synonyms": [
+        "change",
+        "fluctuation",
+        "alternation",
+        "ups and downs",
+        "mutability"
+      ],
+      "antonyms": [
+        "stability",
+        "constancy",
+        "consistency"
+      ],
+      "domainCohort": [
+        "change",
+        "fluctuation",
+        "mutability"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "vicissitudes",
+        "vicissitudinous"
+      ],
+      "sameImagery": []
+    }
   },
   {
     "word": "victim",
     "phonetic": "/'vɪktɪm/",
     "pos": "n.",
-    "coreMeaning": { "cn": "受害者；牺牲品；祭品", "en": "victim" },
+    "coreMeaning": {
+      "cn": "受害者；牺牲品；祭品",
+      "en": "victim"
+    },
     "morphemes": [
-      { "canonical": "victim", "role": "root", "meaning": "祭祀牺牲；受害者（拉丁 victima 祭品）", "sentiment": { "tags": ["消极"], "intensity": 2 }, "order": 1, "form": "victim", "positionTendency": "medial" }
+      {
+        "canonical": "victim",
+        "role": "root",
+        "meaning": "祭祀牺牲；受害者（拉丁 victima 祭品）",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 2
+        },
+        "order": 1,
+        "form": "victim",
+        "positionTendency": "medial"
+      }
     ],
-    "derivationChain": { "steps": [{ "from": "victima (Lat. 祭祀的动物)", "to": "victim", "by": "adaptation", "meaning": "遭受伤害、欺骗或不幸的人；祭品" }] },
+    "derivationChain": [
+      "victim"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": { "mnemonicExpr": "victim → 被选中作为祭品的牺牲者，即受害者", "imageChain": ["受害者", "牺牲品", "祭品"] },
-    "wordLevel": { "domain": ["general", "legal", "academic"], "sentiment": { "tags": ["消极"], "intensity": 2 } },
-    "relations": { "sameRoot": ["victimize", "victimization"], "sameAffix": [], "synonyms": ["sufferer", "casualty", "target", "prey", "scapegoat"], "antonyms": ["perpetrator", "offender", "attacker"], "domainCohort": ["sufferer", "casualty", "survivor"], "derivationPair": [{"word": "victimize", "relation": "verb"}], "morphVariants": ["victims", "victimize", "victimization", "victimless", "victimise"], "sameImagery": [] }
+    "memorySemantics": {
+      "mnemonicExpr": "victim → 被选中作为祭品的牺牲者，即受害者",
+      "imageChain": [
+        "受害者",
+        "牺牲品",
+        "祭品"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "legal",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "victimize",
+        "victimization"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "sufferer",
+        "casualty",
+        "target",
+        "prey",
+        "scapegoat"
+      ],
+      "antonyms": [
+        "perpetrator",
+        "offender",
+        "attacker"
+      ],
+      "domainCohort": [
+        "sufferer",
+        "casualty",
+        "survivor"
+      ],
+      "derivationPair": [
+        {
+          "word": "victimize",
+          "relation": "verb"
+        }
+      ],
+      "morphVariants": [
+        "victims",
+        "victimize",
+        "victimization",
+        "victimless",
+        "victimise"
+      ],
+      "sameImagery": []
+    }
   },
   {
     "word": "victory",
     "phonetic": "/'vɪktəri/",
     "pos": "n.",
-    "coreMeaning": { "cn": "胜利；成功", "en": "victory" },
+    "coreMeaning": {
+      "cn": "胜利；成功",
+      "en": "victory"
+    },
     "morphemes": [
-      { "canonical": "vict-", "role": "root", "meaning": "征服；战胜（拉丁 vincere → victus）", "sentiment": { "tags": ["积极"], "intensity": 2 }, "order": 1, "form": "victor", "positionTendency": "initial" },
-      { "canonical": "-y", "role": "suffix", "meaning": "名词后缀：状态/结果", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "y", "positionTendency": "final" }
+      {
+        "canonical": "vict-",
+        "role": "root",
+        "meaning": "征服；战胜（拉丁 vincere → victus）",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 2
+        },
+        "order": 1,
+        "form": "victor",
+        "positionTendency": "initial"
+      },
+      {
+        "canonical": "-y",
+        "role": "suffix",
+        "meaning": "名词后缀：状态/结果",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "y",
+        "positionTendency": "final"
+      }
     ],
-    "derivationChain": { "steps": [{ "from": "victoria (Lat. 胜利女神)", "to": "victory", "by": "adaptation", "meaning": "在竞争或战斗中的成功获胜" }] },
+    "derivationChain": [
+      "victory"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": { "mnemonicExpr": "victor(征服者) + y → 征服后的状态，即胜利", "imageChain": ["胜利", "成功", "征服"] },
-    "wordLevel": { "domain": ["general", "academic"], "sentiment": { "tags": ["积极"], "intensity": 2 } },
-    "relations": { "sameRoot": ["victor", "victorious", "convict", "convince", "invincible"], "sameAffix": ["-y"], "synonyms": ["triumph", "win", "success", "conquest", "achievement"], "antonyms": ["defeat", "loss", "failure", "surrender"], "domainCohort": ["triumph", "win", "conquest"], "derivationPair": [{"word": "victorious", "relation": "adjective"}], "morphVariants": ["victories", "victorious", "victoriously", "victor"], "sameImagery": ["triumph"] }
+    "memorySemantics": {
+      "mnemonicExpr": "victor(征服者) + y → 征服后的状态，即胜利",
+      "imageChain": [
+        "胜利",
+        "成功",
+        "征服"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "victor",
+        "victorious",
+        "convict",
+        "convince",
+        "invincible"
+      ],
+      "sameAffix": [
+        "-y"
+      ],
+      "synonyms": [
+        "triumph",
+        "win",
+        "success",
+        "conquest",
+        "achievement"
+      ],
+      "antonyms": [
+        "defeat",
+        "loss",
+        "failure",
+        "surrender"
+      ],
+      "domainCohort": [
+        "triumph",
+        "win",
+        "conquest"
+      ],
+      "derivationPair": [
+        {
+          "word": "victorious",
+          "relation": "adjective"
+        }
+      ],
+      "morphVariants": [
+        "victories",
+        "victorious",
+        "victoriously",
+        "victor"
+      ],
+      "sameImagery": [
+        "triumph"
+      ]
+    }
   },
   {
     "word": "victuals",
     "phonetic": "/'vɪtlz/",
     "pos": "n.",
-    "coreMeaning": { "cn": "食物；食品；粮食", "en": "victuals" },
+    "coreMeaning": {
+      "cn": "食物；食品；粮食",
+      "en": "victuals"
+    },
     "morphemes": [
-      { "canonical": "victual", "role": "root", "meaning": "食物；粮食（拉丁 victualia 生活必需品）", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "victual", "positionTendency": "medial" }
+      {
+        "canonical": "victual",
+        "role": "root",
+        "meaning": "食物；粮食（拉丁 victualia 生活必需品）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "victual",
+        "positionTendency": "medial"
+      }
     ],
-    "derivationChain": { "steps": [{ "from": "victualia (Lat. 生活必需品/粮食)", "to": "victuals", "by": "adaptation", "meaning": "人类赖以生存的食物和饮料（常用复数）" }] },
+    "derivationChain": [
+      "victuals"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": { "mnemonicExpr": "victual → 维持生命所必需的食物和粮食", "imageChain": ["食物", "粮食", "给养"] },
-    "wordLevel": { "domain": ["general", "literary"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
-    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": ["food", "provisions", "sustenance", "fare", "nourishment"], "antonyms": [], "domainCohort": ["food", "provisions", "rations"], "derivationPair": [], "morphVariants": ["victual", "victualled"], "sameImagery": [] }
+    "memorySemantics": {
+      "mnemonicExpr": "victual → 维持生命所必需的食物和粮食",
+      "imageChain": [
+        "食物",
+        "粮食",
+        "给养"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "literary"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "food",
+        "provisions",
+        "sustenance",
+        "fare",
+        "nourishment"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "food",
+        "provisions",
+        "rations"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "victual",
+        "victualled"
+      ],
+      "sameImagery": []
+    }
   },
   {
     "word": "video",
     "phonetic": "/'vɪdɪoʊ/",
     "pos": "n./adj.",
-    "coreMeaning": { "cn": "视频；电视；录像", "en": "video" },
+    "coreMeaning": {
+      "cn": "视频；电视；录像",
+      "en": "video"
+    },
     "morphemes": [
-      { "canonical": "vid-", "role": "root", "meaning": "看；视觉（拉丁 videre 看）", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "vide", "positionTendency": "initial" },
-      { "canonical": "-o", "role": "suffix", "meaning": "名词后缀（缩略形式）", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "o", "positionTendency": "final" }
+      {
+        "canonical": "vid-",
+        "role": "root",
+        "meaning": "看；视觉（拉丁 videre 看）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "vide",
+        "positionTendency": "initial"
+      },
+      {
+        "canonical": "-o",
+        "role": "suffix",
+        "meaning": "名词后缀（缩略形式）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "o",
+        "positionTendency": "final"
+      }
     ],
-    "derivationChain": { "steps": [{ "from": "videre (Lat. 看) → video (电视信号的可视部分)", "to": "video", "by": "coingage", "meaning": "可视影像信号；录像或视频内容" }] },
+    "derivationChain": [
+      "video"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": { "mnemonicExpr": "vid(看) + eo → 用来看的影像，即视频", "imageChain": ["视频", "录像", "影像"] },
-    "wordLevel": { "domain": ["general", "tech"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
-    "relations": { "sameRoot": ["vision", "visible", "visual", "evident", "provide"], "sameAffix": [], "synonyms": ["film", "clip", "recording", "footage"], "antonyms": ["audio"], "domainCohort": ["audio", "film", "recording"], "derivationPair": [], "morphVariants": ["videos"], "sameImagery": [] }
+    "memorySemantics": {
+      "mnemonicExpr": "vid(看) + eo → 用来看的影像，即视频",
+      "imageChain": [
+        "视频",
+        "录像",
+        "影像"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "tech"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "vision",
+        "visible",
+        "visual",
+        "evident",
+        "provide"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "film",
+        "clip",
+        "recording",
+        "footage"
+      ],
+      "antonyms": [
+        "audio"
+      ],
+      "domainCohort": [
+        "audio",
+        "film",
+        "recording"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "videos"
+      ],
+      "sameImagery": []
+    }
   }
 ]

@@ -2,122 +2,845 @@
   {
     "word": "output",
     "phonetic": "/'aʊtpʊt/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "产量；输出；产出", "en": "the amount of something produced; data produced by a computer"},
-    "morphemes": [
-      {"role": "prefix", "positionTendency": "initial", "canonical": "out-", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "out", "meaning": "向外；超过", "coreMeaning": {"cn": "向外", "en": "out"}},
-      {"role": "root", "positionTendency": "final", "canonical": "put", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "put", "meaning": "放；投入", "coreMeaning": {"cn": "投入", "en": "put"}}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "产量；输出；产出",
+      "en": "the amount of something produced; data produced by a computer"
+    },
+    "morphemes": [
+      {
+        "role": "prefix",
+        "positionTendency": "initial",
+        "canonical": "out-",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "out",
+        "meaning": "向外；超过",
+        "coreMeaning": {
+          "cn": "向外",
+          "en": "out"
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "final",
+        "canonical": "put",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "put",
+        "meaning": "放；投入",
+        "coreMeaning": {
+          "cn": "投入",
+          "en": "put"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "out(向外)+put(放) → 向外放出的东西 → 产出/输出", "imageChain": ["工厂产量", "电脑输出", "结果"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "tech", "business"], "formality": "neutral"},
-    "relations": {"sameRoot": ["out-", "put", "input"], "sameAffix": ["outrage", "outset", "outsider"], "synonyms": ["production", "yield", "result", "product"], "antonyms": ["input", "intake"], "domainCohort": ["outset", "outsider"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "out(向外)+put(放) → 向外放出的东西 → 产出/输出",
+      "imageChain": [
+        "工厂产量",
+        "电脑输出",
+        "结果"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "tech",
+        "business"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "out-",
+        "put",
+        "input"
+      ],
+      "sameAffix": [
+        "outrage",
+        "outset",
+        "outsider"
+      ],
+      "synonyms": [
+        "production",
+        "yield",
+        "result",
+        "product"
+      ],
+      "antonyms": [
+        "input",
+        "intake"
+      ],
+      "domainCohort": [
+        "outset",
+        "outsider"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "outrage",
     "phonetic": "/'aʊtreɪdʒ/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "愤慨；暴行；激怒", "en": "a strong feeling of anger; a violent act; to cause anger"},
-    "morphemes": [
-      {"role": "prefix", "positionTendency": "initial", "canonical": "out-", "sentiment": {"tags": ["贬义"], "intensity": -1}, "order": 1, "form": "out", "meaning": "超出；过度", "coreMeaning": {"cn": "超过", "en": "beyond"}},
-      {"role": "root", "positionTendency": "final", "canonical": "rage", "sentiment": {"tags": ["贬义"], "intensity": -2}, "order": 2, "form": "rage", "meaning": "狂怒；暴行", "coreMeaning": {"cn": "暴怒", "en": "rage"}}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "愤慨；暴行；激怒",
+      "en": "a strong feeling of anger; a violent act; to cause anger"
+    },
+    "morphemes": [
+      {
+        "role": "prefix",
+        "positionTendency": "initial",
+        "canonical": "out-",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "out",
+        "meaning": "超出；过度",
+        "coreMeaning": {
+          "cn": "超过",
+          "en": "beyond"
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "final",
+        "canonical": "rage",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -2
+        },
+        "order": 2,
+        "form": "rage",
+        "meaning": "狂怒；暴行",
+        "coreMeaning": {
+          "cn": "暴怒",
+          "en": "rage"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "out(超出)+rage(愤怒) → 超出界限的愤怒 → 公愤/暴行", "imageChain": ["愤慨", "暴行", "道德谴责"]},
-    "wordLevel": {"sentiment": {"tags": ["贬义"], "intensity": -2}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["outrageous", "outrageously", "outraged"], "sameAffix": ["rage", "engage", "rampage"], "synonyms": ["atrocity", "scandal", "indignation", "fury", "affront"], "antonyms": ["appeasement", "satisfaction", "calm"], "domainCohort": ["outrageous"], "derivationPair": ["outrageous"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "out(超出)+rage(愤怒) → 超出界限的愤怒 → 公愤/暴行",
+      "imageChain": [
+        "愤慨",
+        "暴行",
+        "道德谴责"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -2
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "outrageous",
+        "outrageously",
+        "outraged"
+      ],
+      "sameAffix": [
+        "rage",
+        "engage",
+        "rampage"
+      ],
+      "synonyms": [
+        "atrocity",
+        "scandal",
+        "indignation",
+        "fury",
+        "affront"
+      ],
+      "antonyms": [
+        "appeasement",
+        "satisfaction",
+        "calm"
+      ],
+      "domainCohort": [
+        "outrageous"
+      ],
+      "derivationPair": [
+        "outrageous"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "outrageous",
     "phonetic": "/aʊt'reɪdʒəs/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "骇人的；蛮横的；令人发指的", "en": "shockingly bad or excessive; beyond all reason"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "medial", "canonical": "outrage", "sentiment": {"tags": ["贬义"], "intensity": -2}, "order": 1, "form": "outrag", "meaning": "暴行；愤慨", "coreMeaning": {"cn": "暴行", "en": "outrage"}},
-      {"role": "suffix", "positionTendency": "final", "canonical": "-ous", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-ous", "meaning": "形容词后缀，充满…的", "coreMeaning": {"cn": "充满", "en": "full of"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "outrage", "to": "outrageous", "by": "-ous", "meaning": "令人愤慨的"}]},
+    "coreMeaning": {
+      "cn": "骇人的；蛮横的；令人发指的",
+      "en": "shockingly bad or excessive; beyond all reason"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "outrage",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -2
+        },
+        "order": 1,
+        "form": "outrag",
+        "meaning": "暴行；愤慨",
+        "coreMeaning": {
+          "cn": "暴行",
+          "en": "outrage"
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "final",
+        "canonical": "-ous",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ous",
+        "meaning": "形容词后缀，充满…的",
+        "coreMeaning": {
+          "cn": "充满",
+          "en": "full of"
+        }
+      }
+    ],
+    "derivationChain": [
+      "outrageous"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "outrag(暴行)+ous → 充满暴行的 → 令人发指的", "imageChain": ["不道德", "无法忍受", "令人义愤"]},
-    "wordLevel": {"sentiment": {"tags": ["贬义"], "intensity": -2}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["outrage", "outrageously", "outraged"], "sameAffix": ["courageous", "advantageous", "enormous"], "synonyms": ["shocking", "scandalous", "appalling", "monstrous", "heinous"], "antonyms": ["reasonable", "moderate", "acceptable", "tolerable"], "domainCohort": ["outrage"], "derivationPair": ["outrage"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "outrag(暴行)+ous → 充满暴行的 → 令人发指的",
+      "imageChain": [
+        "不道德",
+        "无法忍受",
+        "令人义愤"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -2
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "outrage",
+        "outrageously",
+        "outraged"
+      ],
+      "sameAffix": [
+        "courageous",
+        "advantageous",
+        "enormous"
+      ],
+      "synonyms": [
+        "shocking",
+        "scandalous",
+        "appalling",
+        "monstrous",
+        "heinous"
+      ],
+      "antonyms": [
+        "reasonable",
+        "moderate",
+        "acceptable",
+        "tolerable"
+      ],
+      "domainCohort": [
+        "outrage"
+      ],
+      "derivationPair": [
+        "outrage"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "outright",
     "phonetic": "/'aʊtraɪt/",
-    "pos": ["adv.", "adj."],
-    "coreMeaning": {"cn": "彻底地；直接地；断然的", "en": "completely and without restraint; total; directly"},
-    "morphemes": [
-      {"role": "prefix", "positionTendency": "initial", "canonical": "out-", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "out", "meaning": "完全；彻底", "coreMeaning": {"cn": "完全", "en": "completely"}},
-      {"role": "root", "positionTendency": "final", "canonical": "right", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 2, "form": "right", "meaning": "正确；直接", "coreMeaning": {"cn": "直接", "en": "directly"}}
+    "pos": [
+      "adv.",
+      "adj."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "彻底地；直接地；断然的",
+      "en": "completely and without restraint; total; directly"
+    },
+    "morphemes": [
+      {
+        "role": "prefix",
+        "positionTendency": "initial",
+        "canonical": "out-",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "out",
+        "meaning": "完全；彻底",
+        "coreMeaning": {
+          "cn": "完全",
+          "en": "completely"
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "final",
+        "canonical": "right",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 2,
+        "form": "right",
+        "meaning": "正确；直接",
+        "coreMeaning": {
+          "cn": "直接",
+          "en": "directly"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "out(完全)+right(直接) → 直接彻底地 → 断然地", "imageChain": ["断然", "彻底否认", "毫无保留"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["out-", "right"], "sameAffix": ["outset", "output", "outshine"], "synonyms": ["completely", "totally", "absolutely", "straightforwardly", "directly"], "antonyms": ["partially", "somewhat", "tentatively"], "domainCohort": ["outset", "output"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "out(完全)+right(直接) → 直接彻底地 → 断然地",
+      "imageChain": [
+        "断然",
+        "彻底否认",
+        "毫无保留"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "out-",
+        "right"
+      ],
+      "sameAffix": [
+        "outset",
+        "output",
+        "outshine"
+      ],
+      "synonyms": [
+        "completely",
+        "totally",
+        "absolutely",
+        "straightforwardly",
+        "directly"
+      ],
+      "antonyms": [
+        "partially",
+        "somewhat",
+        "tentatively"
+      ],
+      "domainCohort": [
+        "outset",
+        "output"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "outset",
     "phonetic": "/'aʊtsɛt/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "开始；开端", "en": "the beginning of something"},
-    "morphemes": [
-      {"role": "prefix", "positionTendency": "initial", "canonical": "out-", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "out", "meaning": "向外；开始", "coreMeaning": {"cn": "开始", "en": "start"}},
-      {"role": "root", "positionTendency": "final", "canonical": "set", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "set", "meaning": "设置；开始", "coreMeaning": {"cn": "设置", "en": "set"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "开始；开端",
+      "en": "the beginning of something"
+    },
+    "morphemes": [
+      {
+        "role": "prefix",
+        "positionTendency": "initial",
+        "canonical": "out-",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "out",
+        "meaning": "向外；开始",
+        "coreMeaning": {
+          "cn": "开始",
+          "en": "start"
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "final",
+        "canonical": "set",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "set",
+        "meaning": "设置；开始",
+        "coreMeaning": {
+          "cn": "设置",
+          "en": "set"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "out(向外)+set(设置) → 向外开始的那一刻 → 开端", "imageChain": ["出发", "起点", "一开始"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["out-", "set"], "sameAffix": ["onset", "offset", "upset"], "synonyms": ["beginning", "start", "commencement", "inception", "opening"], "antonyms": ["end", "conclusion", "finale", "outcome"], "domainCohort": ["output", "outsider"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "out(向外)+set(设置) → 向外开始的那一刻 → 开端",
+      "imageChain": [
+        "出发",
+        "起点",
+        "一开始"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "out-",
+        "set"
+      ],
+      "sameAffix": [
+        "onset",
+        "offset",
+        "upset"
+      ],
+      "synonyms": [
+        "beginning",
+        "start",
+        "commencement",
+        "inception",
+        "opening"
+      ],
+      "antonyms": [
+        "end",
+        "conclusion",
+        "finale",
+        "outcome"
+      ],
+      "domainCohort": [
+        "output",
+        "outsider"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "outshine",
     "phonetic": "/'aʊtʃaɪn/",
-    "pos": ["v."],
-    "coreMeaning": {"cn": "比…更出色；超过", "en": "to shine more brightly than; to surpass in excellence"},
-    "morphemes": [
-      {"role": "prefix", "positionTendency": "initial", "canonical": "out-", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "out", "meaning": "超过", "coreMeaning": {"cn": "超过", "en": "surpass"}},
-      {"role": "root", "positionTendency": "final", "canonical": "shine", "sentiment": {"tags": ["积极"], "intensity": 2}, "order": 2, "form": "shine", "meaning": "发光；出色", "coreMeaning": {"cn": "发光", "en": "shine"}}
+    "pos": [
+      "v."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "比…更出色；超过",
+      "en": "to shine more brightly than; to surpass in excellence"
+    },
+    "morphemes": [
+      {
+        "role": "prefix",
+        "positionTendency": "initial",
+        "canonical": "out-",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "out",
+        "meaning": "超过",
+        "coreMeaning": {
+          "cn": "超过",
+          "en": "surpass"
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "final",
+        "canonical": "shine",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 2
+        },
+        "order": 2,
+        "form": "shine",
+        "meaning": "发光；出色",
+        "coreMeaning": {
+          "cn": "发光",
+          "en": "shine"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "out(超过)+shine(发光) → 比别人更闪耀 → 更出色", "imageChain": ["脱颖而出", "出类拔萃", "更亮眼"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 1}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["out-", "shine", "shiny"], "sameAffix": ["outperform", "outdo", "surpass"], "synonyms": ["surpass", "eclipse", "overshadow", "excel", "outdo"], "antonyms": ["underperform", "pale in comparison"], "domainCohort": ["output", "outrage"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "out(超过)+shine(发光) → 比别人更闪耀 → 更出色",
+      "imageChain": [
+        "脱颖而出",
+        "出类拔萃",
+        "更亮眼"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "out-",
+        "shine",
+        "shiny"
+      ],
+      "sameAffix": [
+        "outperform",
+        "outdo",
+        "surpass"
+      ],
+      "synonyms": [
+        "surpass",
+        "eclipse",
+        "overshadow",
+        "excel",
+        "outdo"
+      ],
+      "antonyms": [
+        "underperform",
+        "pale in comparison"
+      ],
+      "domainCohort": [
+        "output",
+        "outrage"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "outsider",
     "phonetic": "/ˌaʊt'saɪdər/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "局外人；外来者；不被看好的竞争者", "en": "a person not belonging to a group; an unlikely winner"},
-    "morphemes": [
-      {"role": "prefix", "positionTendency": "initial", "canonical": "out-", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "out", "meaning": "外部；外面", "coreMeaning": {"cn": "外", "en": "outside"}},
-      {"role": "root", "positionTendency": "medial", "canonical": "side", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "side", "meaning": "侧；边", "coreMeaning": {"cn": "边", "en": "side"}},
-      {"role": "suffix", "positionTendency": "final", "canonical": "-er", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "-er", "meaning": "…者", "coreMeaning": {"cn": "者", "en": "one who"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "outside", "to": "outsider", "by": "-er", "meaning": "在外面的人"}]},
+    "coreMeaning": {
+      "cn": "局外人；外来者；不被看好的竞争者",
+      "en": "a person not belonging to a group; an unlikely winner"
+    },
+    "morphemes": [
+      {
+        "role": "prefix",
+        "positionTendency": "initial",
+        "canonical": "out-",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "out",
+        "meaning": "外部；外面",
+        "coreMeaning": {
+          "cn": "外",
+          "en": "outside"
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "side",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "side",
+        "meaning": "侧；边",
+        "coreMeaning": {
+          "cn": "边",
+          "en": "side"
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "final",
+        "canonical": "-er",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-er",
+        "meaning": "…者",
+        "coreMeaning": {
+          "cn": "者",
+          "en": "one who"
+        }
+      }
+    ],
+    "derivationChain": [
+      "outsider"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "out(外)+side(边)+er → 在外边的人 → 局外人", "imageChain": ["局外人", "外来者", "边缘人"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["outside", "out-", "outskirts"], "sameAffix": ["insider", "bystander", "observer"], "synonyms": ["stranger", "foreigner", "interloper", "nonmember"], "antonyms": ["insider", "member", "participant"], "domainCohort": ["outside", "outskirts"], "derivationPair": ["outside"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "out(外)+side(边)+er → 在外边的人 → 局外人",
+      "imageChain": [
+        "局外人",
+        "外来者",
+        "边缘人"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "outside",
+        "out-",
+        "outskirts"
+      ],
+      "sameAffix": [
+        "insider",
+        "bystander",
+        "observer"
+      ],
+      "synonyms": [
+        "stranger",
+        "foreigner",
+        "interloper",
+        "nonmember"
+      ],
+      "antonyms": [
+        "insider",
+        "member",
+        "participant"
+      ],
+      "domainCohort": [
+        "outside",
+        "outskirts"
+      ],
+      "derivationPair": [
+        "outside"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "outskirts",
     "phonetic": "/'aʊtskɜːrts/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "郊区；市郊；外围地带", "en": "the outer parts of a town or city"},
-    "morphemes": [
-      {"role": "prefix", "positionTendency": "initial", "canonical": "out-", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "out", "meaning": "外部；边缘", "coreMeaning": {"cn": "外部", "en": "outer"}},
-      {"role": "root", "positionTendency": "final", "canonical": "skirt", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "skirt", "meaning": "边缘；裙；绕行", "coreMeaning": {"cn": "边缘", "en": "border/edge"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "郊区；市郊；外围地带",
+      "en": "the outer parts of a town or city"
+    },
+    "morphemes": [
+      {
+        "role": "prefix",
+        "positionTendency": "initial",
+        "canonical": "out-",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "out",
+        "meaning": "外部；边缘",
+        "coreMeaning": {
+          "cn": "外部",
+          "en": "outer"
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "final",
+        "canonical": "skirt",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "skirt",
+        "meaning": "边缘；裙；绕行",
+        "coreMeaning": {
+          "cn": "边缘",
+          "en": "border/edge"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "out(外)+skirt(边缘) → 城市的外缘 → 郊区", "imageChain": ["郊区", "城市边缘", "市郊"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["out-", "skirt", "outside", "outsider"], "sameAffix": ["suburbs", "outskirts", "periphery"], "synonyms": ["suburbs", "periphery", "fringes", "environs", "edge"], "antonyms": ["city center", "downtown", "inner city"], "domainCohort": ["outside", "outsider"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "out(外)+skirt(边缘) → 城市的外缘 → 郊区",
+      "imageChain": [
+        "郊区",
+        "城市边缘",
+        "市郊"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "out-",
+        "skirt",
+        "outside",
+        "outsider"
+      ],
+      "sameAffix": [
+        "suburbs",
+        "outskirts",
+        "periphery"
+      ],
+      "synonyms": [
+        "suburbs",
+        "periphery",
+        "fringes",
+        "environs",
+        "edge"
+      ],
+      "antonyms": [
+        "city center",
+        "downtown",
+        "inner city"
+      ],
+      "domainCohort": [
+        "outside",
+        "outsider"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

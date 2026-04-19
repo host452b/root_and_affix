@@ -2,74 +2,426 @@
   {
     "word": "shipwreck",
     "phonetic": "/ˈʃɪpˌrɛk/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "海难；沉船；使遇难", "en": "the destruction of a ship at sea; to suffer wreck at sea"},
-    "morphemes": [
-      {"canonical": "ship", "role": "root", "meaning": "船", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "ship", "positionTendency": "initial", "coreMeaning": {"cn": "船", "en": "ship/vessel"}},
-      {"canonical": "wreck", "role": "root", "meaning": "破坏；残骸", "sentiment": {"tags": ["消极"], "intensity": -2}, "order": 2, "form": "wreck", "positionTendency": "final", "coreMeaning": {"cn": "残骸", "en": "wreck/destruction"}}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "ship + wreck", "to": "shipwreck", "rule": "compound", "meaning": "船毁→海难"}]},
+    "coreMeaning": {
+      "cn": "海难；沉船；使遇难",
+      "en": "the destruction of a ship at sea; to suffer wreck at sea"
+    },
+    "morphemes": [
+      {
+        "canonical": "ship",
+        "role": "root",
+        "meaning": "船",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "ship",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "船",
+          "en": "ship/vessel"
+        }
+      },
+      {
+        "canonical": "wreck",
+        "role": "root",
+        "meaning": "破坏；残骸",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -2
+        },
+        "order": 2,
+        "form": "wreck",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "残骸",
+          "en": "wreck/destruction"
+        }
+      }
+    ],
+    "derivationChain": [
+      "shipwreck"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "ship(船)+wreck(破坏)→沉船/海难", "imageChain": ["海难", "沉船", "灾难"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["消极"], "intensity": -2}},
-    "relations": {"sameRoot": ["wreck", "wreckage"], "sameAffix": [], "synonyms": ["disaster", "catastrophe", "ruin"], "antonyms": [], "domainCohort": ["disaster", "catastrophe"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "ship(船)+wreck(破坏)→沉船/海难",
+      "imageChain": [
+        "海难",
+        "沉船",
+        "灾难"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "wreck",
+        "wreckage"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "disaster",
+        "catastrophe",
+        "ruin"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "disaster",
+        "catastrophe"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "shipyard",
     "phonetic": "/ˈʃɪpjɑːrd/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "造船厂；船坞", "en": "a place where ships are built and repaired"},
-    "morphemes": [
-      {"canonical": "ship", "role": "root", "meaning": "船", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "ship", "positionTendency": "initial", "coreMeaning": {"cn": "船", "en": "ship"}},
-      {"canonical": "yard", "role": "root", "meaning": "院子；场地", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "yard", "positionTendency": "final", "coreMeaning": {"cn": "场地", "en": "yard/area"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "ship + yard", "to": "shipyard", "rule": "compound", "meaning": "造船的场地"}]},
+    "coreMeaning": {
+      "cn": "造船厂；船坞",
+      "en": "a place where ships are built and repaired"
+    },
+    "morphemes": [
+      {
+        "canonical": "ship",
+        "role": "root",
+        "meaning": "船",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "ship",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "船",
+          "en": "ship"
+        }
+      },
+      {
+        "canonical": "yard",
+        "role": "root",
+        "meaning": "院子；场地",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "yard",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "场地",
+          "en": "yard/area"
+        }
+      }
+    ],
+    "derivationChain": [
+      "shipyard"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "ship(船)+yard(场地)→造船厂", "imageChain": ["造船厂", "船坞", "工业"]},
-    "wordLevel": {"domain": ["general", "business"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["ship"], "sameAffix": [], "synonyms": ["dock", "dockyard", "boatyard"], "antonyms": [], "domainCohort": ["dock", "harbor"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "ship(船)+yard(场地)→造船厂",
+      "imageChain": [
+        "造船厂",
+        "船坞",
+        "工业"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "business"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "ship"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "dock",
+        "dockyard",
+        "boatyard"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "dock",
+        "harbor"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "shirk",
     "phonetic": "/ʃɜːrk/",
-    "pos": ["v."],
-    "coreMeaning": {"cn": "逃避（责任）；推卸", "en": "to avoid or neglect a duty or responsibility"},
-    "morphemes": [
-      {"canonical": "shirk", "role": "root", "meaning": "逃避；躲避", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "shirk", "positionTendency": "medial", "coreMeaning": {"cn": "逃避", "en": "evade/avoid"}}
+    "pos": [
+      "v."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "逃避（责任）；推卸",
+      "en": "to avoid or neglect a duty or responsibility"
+    },
+    "morphemes": [
+      {
+        "canonical": "shirk",
+        "role": "root",
+        "meaning": "逃避；躲避",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "shirk",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "逃避",
+          "en": "evade/avoid"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "shirk → 逃避责任（联想shirker懒散者）", "imageChain": ["逃避", "推卸", "偷懒"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": ["shirker"], "sameAffix": [], "synonyms": ["dodge", "evade", "avoid"], "antonyms": ["face", "confront", "tackle"], "domainCohort": ["avoid", "dodge"], "derivationPair": ["shirker"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "shirk → 逃避责任（联想shirker懒散者）",
+      "imageChain": [
+        "逃避",
+        "推卸",
+        "偷懒"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "shirker"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "dodge",
+        "evade",
+        "avoid"
+      ],
+      "antonyms": [
+        "face",
+        "confront",
+        "tackle"
+      ],
+      "domainCohort": [
+        "avoid",
+        "dodge"
+      ],
+      "derivationPair": [
+        "shirker"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "shirt",
     "phonetic": "/ʃɜːrt/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "衬衫", "en": "a garment for the upper body, typically with a collar, sleeves, and buttons"},
-    "morphemes": [
-      {"canonical": "shirt", "role": "root", "meaning": "衬衫", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "shirt", "positionTendency": "medial", "coreMeaning": {"cn": "衬衫", "en": "shirt"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "OE scyrte (shirt)", "to": "shirt", "rule": "本土词", "meaning": "短衫→衬衫"}]},
+    "coreMeaning": {
+      "cn": "衬衫",
+      "en": "a garment for the upper body, typically with a collar, sleeves, and buttons"
+    },
+    "morphemes": [
+      {
+        "canonical": "shirt",
+        "role": "root",
+        "meaning": "衬衫",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "shirt",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "衬衫",
+          "en": "shirt"
+        }
+      }
+    ],
+    "derivationChain": [
+      "shirt"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "shirt → 衬衫（基础词）", "imageChain": ["衬衫", "服装", "穿着"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["shirtfront", "shirttail", "shirtsleeve"], "sameAffix": [], "synonyms": ["blouse", "top"], "antonyms": [], "domainCohort": ["blouse", "top", "jersey"], "derivationPair": ["shirtfront", "shirtsleeve"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "shirt → 衬衫（基础词）",
+      "imageChain": [
+        "衬衫",
+        "服装",
+        "穿着"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "shirtfront",
+        "shirttail",
+        "shirtsleeve"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "blouse",
+        "top"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "blouse",
+        "top",
+        "jersey"
+      ],
+      "derivationPair": [
+        "shirtfront",
+        "shirtsleeve"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "shirtsleeve",
     "phonetic": "/ˈʃɜːrtˌsliːv/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "衬衫袖子", "en": "the sleeve of a shirt; (in shirtsleeves) wearing a shirt without a jacket"},
-    "morphemes": [
-      {"canonical": "shirt", "role": "root", "meaning": "衬衫", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "shirt", "positionTendency": "initial", "coreMeaning": {"cn": "衬衫", "en": "shirt"}},
-      {"canonical": "sleeve", "role": "root", "meaning": "袖子", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "sleeve", "positionTendency": "final", "coreMeaning": {"cn": "袖子", "en": "sleeve"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "shirt + sleeve", "to": "shirtsleeve", "rule": "compound", "meaning": "衬衫的袖子"}]},
+    "coreMeaning": {
+      "cn": "衬衫袖子",
+      "en": "the sleeve of a shirt; (in shirtsleeves) wearing a shirt without a jacket"
+    },
+    "morphemes": [
+      {
+        "canonical": "shirt",
+        "role": "root",
+        "meaning": "衬衫",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "shirt",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "衬衫",
+          "en": "shirt"
+        }
+      },
+      {
+        "canonical": "sleeve",
+        "role": "root",
+        "meaning": "袖子",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "sleeve",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "袖子",
+          "en": "sleeve"
+        }
+      }
+    ],
+    "derivationChain": [
+      "shirtsleeve"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "shirt(衬衫)+sleeve(袖子)→衬衫袖子", "imageChain": ["袖子", "衬衫", "随意着装"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["shirt", "sleeve"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "shirt(衬衫)+sleeve(袖子)→衬衫袖子",
+      "imageChain": [
+        "袖子",
+        "衬衫",
+        "随意着装"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "shirt",
+        "sleeve"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

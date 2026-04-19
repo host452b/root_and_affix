@@ -3,147 +3,880 @@
     "word": "slippage",
     "phonetic": "/ˈslɪpɪdʒ/",
     "pos": "n.",
-    "coreMeaning": {"cn": "滑动；下滑；损失", "en": "the process of slipping; a decline or fall"},
+    "coreMeaning": {
+      "cn": "滑动；下滑；损失",
+      "en": "the process of slipping; a decline or fall"
+    },
     "morphemes": [
-      {"canonical": "slip-", "role": "root", "meaning": "滑；溜", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "slip", "positionTendency": "initial", "coreMeaning": {"cn": "滑/溜", "en": "slip"}},
-      {"canonical": "-age", "role": "suffix", "meaning": "名词后缀（程度/结果）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "age", "positionTendency": "final", "coreMeaning": {"cn": "程度/结果", "en": "result/degree"}}
+      {
+        "canonical": "slip-",
+        "role": "root",
+        "meaning": "滑；溜",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "slip",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "滑/溜",
+          "en": "slip"
+        }
+      },
+      {
+        "canonical": "-age",
+        "role": "suffix",
+        "meaning": "名词后缀（程度/结果）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "age",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "程度/结果",
+          "en": "result/degree"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "slip + -age", "to": "slippage", "rule": "加-age名词化"}]},
+    "derivationChain": [
+      "slippage"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "slip+age → 滑动的程度 → 下滑", "imageChain": ["滑坡", "下降", "损失"]},
-    "wordLevel": {"domain": ["general", "finance"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": ["slip", "slippery", "slipshod"], "sameAffix": ["-age"], "synonyms": ["decline", "fall", "slide"], "antonyms": ["increase", "gain"], "domainCohort": ["erosion", "deterioration"], "derivationPair": [{"base": "slip", "derived": "slippage"}], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "slip+age → 滑动的程度 → 下滑",
+      "imageChain": [
+        "滑坡",
+        "下降",
+        "损失"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "finance"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "slip",
+        "slippery",
+        "slipshod"
+      ],
+      "sameAffix": [
+        "-age"
+      ],
+      "synonyms": [
+        "decline",
+        "fall",
+        "slide"
+      ],
+      "antonyms": [
+        "increase",
+        "gain"
+      ],
+      "domainCohort": [
+        "erosion",
+        "deterioration"
+      ],
+      "derivationPair": [
+        {
+          "base": "slip",
+          "derived": "slippage"
+        }
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "slipper",
     "phonetic": "/ˈslɪpər/",
     "pos": "n.",
-    "coreMeaning": {"cn": "拖鞋", "en": "a comfortable slip-on shoe worn indoors"},
+    "coreMeaning": {
+      "cn": "拖鞋",
+      "en": "a comfortable slip-on shoe worn indoors"
+    },
     "morphemes": [
-      {"canonical": "slip-", "role": "root", "meaning": "滑；套入", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "slip", "positionTendency": "initial", "coreMeaning": {"cn": "套入/滑入", "en": "slip"}},
-      {"canonical": "-er", "role": "suffix", "meaning": "工具/物品", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "er", "positionTendency": "final", "coreMeaning": {"cn": "物品", "en": "item"}}
+      {
+        "canonical": "slip-",
+        "role": "root",
+        "meaning": "滑；套入",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "slip",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "套入/滑入",
+          "en": "slip"
+        }
+      },
+      {
+        "canonical": "-er",
+        "role": "suffix",
+        "meaning": "工具/物品",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "er",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "物品",
+          "en": "item"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "slip + -er", "to": "slipper", "rule": "加-er名词化"}]},
+    "derivationChain": [
+      "slipper"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "slip+per → 可以滑入穿上的鞋 → 拖鞋", "imageChain": ["拖鞋", "居家", "舒适"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["积极"], "intensity": 1}},
-    "relations": {"sameRoot": ["slip"], "sameAffix": ["-er"], "synonyms": ["mule", "flat", "house shoe"], "antonyms": [], "domainCohort": ["sandal", "loafer"], "derivationPair": [{"base": "slip", "derived": "slipper"}], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "slip+per → 可以滑入穿上的鞋 → 拖鞋",
+      "imageChain": [
+        "拖鞋",
+        "居家",
+        "舒适"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "slip"
+      ],
+      "sameAffix": [
+        "-er"
+      ],
+      "synonyms": [
+        "mule",
+        "flat",
+        "house shoe"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "sandal",
+        "loafer"
+      ],
+      "derivationPair": [
+        {
+          "base": "slip",
+          "derived": "slipper"
+        }
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "slippery",
     "phonetic": "/ˈslɪpəri/",
     "pos": "adj.",
-    "coreMeaning": {"cn": "滑的；不可靠的", "en": "difficult to hold; causing slipping; devious"},
+    "coreMeaning": {
+      "cn": "滑的；不可靠的",
+      "en": "difficult to hold; causing slipping; devious"
+    },
     "morphemes": [
-      {"canonical": "slip-", "role": "root", "meaning": "滑", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "slip", "positionTendency": "initial", "coreMeaning": {"cn": "滑", "en": "slip"}},
-      {"canonical": "-ery", "role": "suffix", "meaning": "形容词后缀（容易…的）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ery", "positionTendency": "final", "coreMeaning": {"cn": "容易…的", "en": "tending to"}}
+      {
+        "canonical": "slip-",
+        "role": "root",
+        "meaning": "滑",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "slip",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "滑",
+          "en": "slip"
+        }
+      },
+      {
+        "canonical": "-ery",
+        "role": "suffix",
+        "meaning": "形容词后缀（容易…的）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ery",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "容易…的",
+          "en": "tending to"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "slip + -ery", "to": "slippery", "rule": "加-ery形容词化"}]},
+    "derivationChain": [
+      "slippery"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "slip+pery → 容易滑倒的 → 光滑；不可靠", "imageChain": ["冰面", "光滑地面", "狡猾之人"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": ["slip", "slippage"], "sameAffix": [], "synonyms": ["slick", "greasy", "evasive"], "antonyms": ["grippy", "trustworthy"], "domainCohort": ["icy", "treacherous"], "derivationPair": [{"base": "slip", "derived": "slippery"}], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "slip+pery → 容易滑倒的 → 光滑；不可靠",
+      "imageChain": [
+        "冰面",
+        "光滑地面",
+        "狡猾之人"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "slip",
+        "slippage"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "slick",
+        "greasy",
+        "evasive"
+      ],
+      "antonyms": [
+        "grippy",
+        "trustworthy"
+      ],
+      "domainCohort": [
+        "icy",
+        "treacherous"
+      ],
+      "derivationPair": [
+        {
+          "base": "slip",
+          "derived": "slippery"
+        }
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "slipshod",
     "phonetic": "/ˈslɪpʃɒd/",
     "pos": "adj.",
-    "coreMeaning": {"cn": "漫不经心的；粗心大意的", "en": "characterized by carelessness or untidiness"},
+    "coreMeaning": {
+      "cn": "漫不经心的；粗心大意的",
+      "en": "characterized by carelessness or untidiness"
+    },
     "morphemes": [
-      {"canonical": "slip-", "role": "root", "meaning": "滑；松动", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "slip", "positionTendency": "initial", "coreMeaning": {"cn": "松动/滑", "en": "slip"}},
-      {"canonical": "shod", "role": "root", "meaning": "穿鞋的", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "shod", "positionTendency": "final", "coreMeaning": {"cn": "穿鞋的", "en": "wearing shoes"}}
+      {
+        "canonical": "slip-",
+        "role": "root",
+        "meaning": "滑；松动",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "slip",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "松动/滑",
+          "en": "slip"
+        }
+      },
+      {
+        "canonical": "shod",
+        "role": "root",
+        "meaning": "穿鞋的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "shod",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "穿鞋的",
+          "en": "wearing shoes"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "wearing slippers (loose shoes)", "to": "slipshod", "rule": "合成，引申"}]},
+    "derivationChain": [
+      "slipshod"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "slip+shod → 穿着拖鞋（懒散的） → 漫不经心", "imageChain": ["拖鞋", "懒散", "粗心"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["贬义"], "intensity": -1}},
-    "relations": {"sameRoot": ["slip"], "sameAffix": [], "synonyms": ["careless", "sloppy", "slovenly"], "antonyms": ["careful", "meticulous", "thorough"], "domainCohort": ["sloppy", "slovenly"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "slip+shod → 穿着拖鞋（懒散的） → 漫不经心",
+      "imageChain": [
+        "拖鞋",
+        "懒散",
+        "粗心"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "slip"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "careless",
+        "sloppy",
+        "slovenly"
+      ],
+      "antonyms": [
+        "careful",
+        "meticulous",
+        "thorough"
+      ],
+      "domainCohort": [
+        "sloppy",
+        "slovenly"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "slit",
     "phonetic": "/slɪt/",
     "pos": "n./v.",
-    "coreMeaning": {"cn": "裂缝；切口；撕裂", "en": "a long narrow cut or opening; to make such a cut"},
+    "coreMeaning": {
+      "cn": "裂缝；切口；撕裂",
+      "en": "a long narrow cut or opening; to make such a cut"
+    },
     "morphemes": [
-      {"canonical": "slit", "role": "root", "meaning": "裂口；切开", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "slit", "positionTendency": "medial", "coreMeaning": {"cn": "裂口", "en": "slit/cut"}}
+      {
+        "canonical": "slit",
+        "role": "root",
+        "meaning": "裂口；切开",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "slit",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "裂口",
+          "en": "slit/cut"
+        }
+      }
     ],
-    "derivationChain": {"steps": []},
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "slit → 细长的切口", "imageChain": ["细缝", "切口", "裂口"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["slitter", "slitting"], "sameAffix": [], "synonyms": ["cut", "gash", "slot"], "antonyms": [], "domainCohort": ["slash", "incision"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "slit → 细长的切口",
+      "imageChain": [
+        "细缝",
+        "切口",
+        "裂口"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "slitter",
+        "slitting"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "cut",
+        "gash",
+        "slot"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "slash",
+        "incision"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "slither",
     "phonetic": "/ˈslɪðər/",
     "pos": "v./n.",
-    "coreMeaning": {"cn": "滑行；蜿蜒爬行", "en": "to move smoothly or slipping along"},
+    "coreMeaning": {
+      "cn": "滑行；蜿蜒爬行",
+      "en": "to move smoothly or slipping along"
+    },
     "morphemes": [
-      {"canonical": "slither", "role": "root", "meaning": "滑行；蜿蜒", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "slither", "positionTendency": "medial", "coreMeaning": {"cn": "滑行", "en": "slide/slither"}}
+      {
+        "canonical": "slither",
+        "role": "root",
+        "meaning": "滑行；蜿蜒",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "slither",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "滑行",
+          "en": "slide/slither"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "slider (OE)", "to": "slither", "rule": "古英语演变"}]},
+    "derivationChain": [
+      "slither"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "slither → 蛇的滑动爬行方式", "imageChain": ["蛇爬", "滑动", "蜿蜒"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["slithery"], "sameAffix": [], "synonyms": ["slide", "glide", "crawl"], "antonyms": [], "domainCohort": ["snake", "glide"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "slither → 蛇的滑动爬行方式",
+      "imageChain": [
+        "蛇爬",
+        "滑动",
+        "蜿蜒"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "slithery"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "slide",
+        "glide",
+        "crawl"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "snake",
+        "glide"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "sliver",
     "phonetic": "/ˈslɪvər/",
     "pos": "n./v.",
-    "coreMeaning": {"cn": "裂成细片；碎片；细条", "en": "a small, thin, sharp piece; to cut into thin pieces"},
+    "coreMeaning": {
+      "cn": "裂成细片；碎片；细条",
+      "en": "a small, thin, sharp piece; to cut into thin pieces"
+    },
     "morphemes": [
-      {"canonical": "sliver", "role": "root", "meaning": "薄片；细片", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "sliver", "positionTendency": "medial", "coreMeaning": {"cn": "薄片", "en": "thin piece"}}
+      {
+        "canonical": "sliver",
+        "role": "root",
+        "meaning": "薄片；细片",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "sliver",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "薄片",
+          "en": "thin piece"
+        }
+      }
     ],
-    "derivationChain": {"steps": []},
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "sliver → 细薄的碎片", "imageChain": ["碎片", "细条", "薄片"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["slivers", "slivered"], "sameAffix": [], "synonyms": ["sliver", "slither", "chip"], "antonyms": [], "domainCohort": ["splinter", "shred"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "sliver → 细薄的碎片",
+      "imageChain": [
+        "碎片",
+        "细条",
+        "薄片"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "slivers",
+        "slivered"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "sliver",
+        "slither",
+        "chip"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "splinter",
+        "shred"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "slobber",
     "phonetic": "/ˈslɒbər/",
     "pos": "v./n.",
-    "coreMeaning": {"cn": "流口水；过度热情", "en": "to drool; to show excessive enthusiasm"},
+    "coreMeaning": {
+      "cn": "流口水；过度热情",
+      "en": "to drool; to show excessive enthusiasm"
+    },
     "morphemes": [
-      {"canonical": "slobber", "role": "root", "meaning": "流口水；湿乱", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "slobber", "positionTendency": "medial", "coreMeaning": {"cn": "流口水", "en": "drool"}}
+      {
+        "canonical": "slobber",
+        "role": "root",
+        "meaning": "流口水；湿乱",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "slobber",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "流口水",
+          "en": "drool"
+        }
+      }
     ],
-    "derivationChain": {"steps": []},
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "slobber → 流涎；不整洁的嘴巴", "imageChain": ["口水", "流涎", "过度热情"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": ["slobbery"], "sameAffix": [], "synonyms": ["drool", "drivel", "gush"], "antonyms": [], "domainCohort": ["drool", "salivate"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "slobber → 流涎；不整洁的嘴巴",
+      "imageChain": [
+        "口水",
+        "流涎",
+        "过度热情"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "slobbery"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "drool",
+        "drivel",
+        "gush"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "drool",
+        "salivate"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "slipperiness",
     "phonetic": "/ˈslɪpərɪnɪs/",
     "pos": "n.",
-    "coreMeaning": {"cn": "滑溜；防滑性；不可靠", "en": "the quality of being slippery; evasiveness"},
+    "coreMeaning": {
+      "cn": "滑溜；防滑性；不可靠",
+      "en": "the quality of being slippery; evasiveness"
+    },
     "morphemes": [
-      {"canonical": "slip-", "role": "root", "meaning": "滑", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "slip", "positionTendency": "initial", "coreMeaning": {"cn": "滑", "en": "slip"}},
-      {"canonical": "-ery", "role": "suffix", "meaning": "容易…的", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "per", "positionTendency": "medial", "coreMeaning": {"cn": "容易…", "en": "tending to"}},
-      {"canonical": "-ness", "role": "suffix", "meaning": "名词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ness", "positionTendency": "final", "coreMeaning": {"cn": "状态", "en": "quality"}}
+      {
+        "canonical": "slip-",
+        "role": "root",
+        "meaning": "滑",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "slip",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "滑",
+          "en": "slip"
+        }
+      },
+      {
+        "canonical": "-ery",
+        "role": "suffix",
+        "meaning": "容易…的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "per",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "容易…",
+          "en": "tending to"
+        }
+      },
+      {
+        "canonical": "-ness",
+        "role": "suffix",
+        "meaning": "名词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ness",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "状态",
+          "en": "quality"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "slippery + -ness", "to": "slipperiness", "rule": "加-ness名词化"}]},
+    "derivationChain": [
+      "slipperiness"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "slippery+ness → 光滑/不可靠的程度", "imageChain": ["冰面光滑", "难以抓住", "狡猾"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": ["slippery", "slip"], "sameAffix": ["-ness"], "synonyms": ["smoothness", "evasiveness"], "antonyms": ["grip", "traction"], "domainCohort": ["hazard", "risk"], "derivationPair": [{"base": "slippery", "derived": "slipperiness"}], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "slippery+ness → 光滑/不可靠的程度",
+      "imageChain": [
+        "冰面光滑",
+        "难以抓住",
+        "狡猾"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "slippery",
+        "slip"
+      ],
+      "sameAffix": [
+        "-ness"
+      ],
+      "synonyms": [
+        "smoothness",
+        "evasiveness"
+      ],
+      "antonyms": [
+        "grip",
+        "traction"
+      ],
+      "domainCohort": [
+        "hazard",
+        "risk"
+      ],
+      "derivationPair": [
+        {
+          "base": "slippery",
+          "derived": "slipperiness"
+        }
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "slipstream",
     "phonetic": "/ˈslɪpstriːm/",
     "pos": "n./v.",
-    "coreMeaning": {"cn": "尾流；气流；跟随领先者", "en": "a partial vacuum created by a moving vehicle; to follow closely behind"},
+    "coreMeaning": {
+      "cn": "尾流；气流；跟随领先者",
+      "en": "a partial vacuum created by a moving vehicle; to follow closely behind"
+    },
     "morphemes": [
-      {"canonical": "slip-", "role": "root", "meaning": "滑动；流动", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "slip", "positionTendency": "initial", "coreMeaning": {"cn": "流动", "en": "slip/flow"}},
-      {"canonical": "stream", "role": "root", "meaning": "流；气流", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "stream", "positionTendency": "final", "coreMeaning": {"cn": "流", "en": "stream"}}
+      {
+        "canonical": "slip-",
+        "role": "root",
+        "meaning": "滑动；流动",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "slip",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "流动",
+          "en": "slip/flow"
+        }
+      },
+      {
+        "canonical": "stream",
+        "role": "root",
+        "meaning": "流；气流",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "stream",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "流",
+          "en": "stream"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "slip + stream", "to": "slipstream", "rule": "合成"}]},
+    "derivationChain": [
+      "slipstream"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "slip+stream → 飞行器后方的气流", "imageChain": ["气流", "尾迹", "跟随领先者"]},
-    "wordLevel": {"domain": ["general", "tech"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["slip", "stream"], "sameAffix": [], "synonyms": ["draft", "wake"], "antonyms": [], "domainCohort": ["wake", "draft"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "slip+stream → 飞行器后方的气流",
+      "imageChain": [
+        "气流",
+        "尾迹",
+        "跟随领先者"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "tech"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "slip",
+        "stream"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "draft",
+        "wake"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "wake",
+        "draft"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

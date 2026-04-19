@@ -2,133 +2,817 @@
   {
     "word": "trace",
     "phonetic": "/treɪs/",
-    "pos": ["v.", "n."],
-    "coreMeaning": {"cn": "追溯；追踪；痕迹；描摹", "en": "to find or discover by investigation; a mark or sign left by something; to copy a drawing"},
-    "morphemes": [
-      {"canonical": "trac", "role": "root", "meaning": "拖；追踪", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "trac", "positionTendency": "initial", "coreMeaning": {"cn": "追踪", "en": "track/draw"}},
-      {"canonical": "-e", "role": "suffix", "meaning": "名词/动词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "e", "positionTendency": "final", "coreMeaning": {"cn": "动词化", "en": "verb/noun forming"}}
+    "pos": [
+      "v.",
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "OFr. tracier (to trace)", "to": "trace", "rule": "借词", "meaning": "拖拉→追踪→痕迹"}]},
+    "coreMeaning": {
+      "cn": "追溯；追踪；痕迹；描摹",
+      "en": "to find or discover by investigation; a mark or sign left by something; to copy a drawing"
+    },
+    "morphemes": [
+      {
+        "canonical": "trac",
+        "role": "root",
+        "meaning": "拖；追踪",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "trac",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "追踪",
+          "en": "track/draw"
+        }
+      },
+      {
+        "canonical": "-e",
+        "role": "suffix",
+        "meaning": "名词/动词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "e",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "动词化",
+          "en": "verb/noun forming"
+        }
+      }
+    ],
+    "derivationChain": [
+      "trace"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "trace → 追踪/痕迹（联想track轨迹）", "imageChain": ["追踪", "痕迹", "描摹"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["traceable", "tracer", "retrace"], "sameAffix": [], "synonyms": ["track", "follow", "vestige"], "antonyms": [], "domainCohort": ["track", "vestige"], "derivationPair": ["traceable", "tracer"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "trace → 追踪/痕迹（联想track轨迹）",
+      "imageChain": [
+        "追踪",
+        "痕迹",
+        "描摹"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "traceable",
+        "tracer",
+        "retrace"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "track",
+        "follow",
+        "vestige"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "track",
+        "vestige"
+      ],
+      "derivationPair": [
+        "traceable",
+        "tracer"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "traceable",
     "phonetic": "/ˈtreɪsəbl/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "可追踪的；可查明的", "en": "able to be traced or found; whose origin can be established"},
-    "morphemes": [
-      {"canonical": "trac", "role": "root", "meaning": "追踪", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "trac", "positionTendency": "initial", "coreMeaning": {"cn": "追踪", "en": "track"}},
-      {"canonical": "-able", "role": "suffix", "meaning": "能；可", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 2, "form": "able", "positionTendency": "final", "coreMeaning": {"cn": "可", "en": "able to"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "trace + -able", "to": "traceable", "rule": "v. + suffix → adj.", "meaning": "可追踪的"}]},
+    "coreMeaning": {
+      "cn": "可追踪的；可查明的",
+      "en": "able to be traced or found; whose origin can be established"
+    },
+    "morphemes": [
+      {
+        "canonical": "trac",
+        "role": "root",
+        "meaning": "追踪",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "trac",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "追踪",
+          "en": "track"
+        }
+      },
+      {
+        "canonical": "-able",
+        "role": "suffix",
+        "meaning": "能；可",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 2,
+        "form": "able",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "可",
+          "en": "able to"
+        }
+      }
+    ],
+    "derivationChain": [
+      "traceable"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "trace(追踪)+able→可追踪的", "imageChain": ["可追踪", "可查明", "留有痕迹"]},
-    "wordLevel": {"domain": ["general", "legal", "tech"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["trace", "tracer"], "sameAffix": [], "synonyms": ["trackable", "identifiable"], "antonyms": ["untraceable", "undetectable"], "domainCohort": [], "derivationPair": ["trace"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "trace(追踪)+able→可追踪的",
+      "imageChain": [
+        "可追踪",
+        "可查明",
+        "留有痕迹"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "legal",
+        "tech"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "trace",
+        "tracer"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "trackable",
+        "identifiable"
+      ],
+      "antonyms": [
+        "untraceable",
+        "undetectable"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "trace"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "track",
     "phonetic": "/træk/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "轨道；跑道；追踪；监测", "en": "a path or course; a mark left by something; to follow and observe"},
-    "morphemes": [
-      {"canonical": "track", "role": "root", "meaning": "轨道；痕迹", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "track", "positionTendency": "medial", "coreMeaning": {"cn": "轨道", "en": "track/trail"}}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "OFr. trac (track)", "to": "track", "rule": "借词", "meaning": "痕迹→轨道→追踪"}]},
+    "coreMeaning": {
+      "cn": "轨道；跑道；追踪；监测",
+      "en": "a path or course; a mark left by something; to follow and observe"
+    },
+    "morphemes": [
+      {
+        "canonical": "track",
+        "role": "root",
+        "meaning": "轨道；痕迹",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "track",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "轨道",
+          "en": "track/trail"
+        }
+      }
+    ],
+    "derivationChain": [
+      "track"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "track → 轨道/追踪（基础词）", "imageChain": ["轨道", "追踪", "监测"]},
-    "wordLevel": {"domain": ["general", "business", "tech"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["tracker", "trackless", "racetrack"], "sameAffix": [], "synonyms": ["trace", "path", "trail"], "antonyms": [], "domainCohort": ["path", "trail"], "derivationPair": ["tracker"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "track → 轨道/追踪（基础词）",
+      "imageChain": [
+        "轨道",
+        "追踪",
+        "监测"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "business",
+        "tech"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "tracker",
+        "trackless",
+        "racetrack"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "trace",
+        "path",
+        "trail"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "path",
+        "trail"
+      ],
+      "derivationPair": [
+        "tracker"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "tract",
     "phonetic": "/trækt/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "地带；系统；小册子", "en": "an expanse of land; a system of connected body parts; a short pamphlet"},
-    "morphemes": [
-      {"canonical": "trac", "role": "root", "meaning": "拉；拖", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "tract", "positionTendency": "medial", "coreMeaning": {"cn": "延伸", "en": "draw/extend"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "L. tractus (drawing out)", "to": "tract", "rule": "借词", "meaning": "延伸区域→地带；系统"}]},
+    "coreMeaning": {
+      "cn": "地带；系统；小册子",
+      "en": "an expanse of land; a system of connected body parts; a short pamphlet"
+    },
+    "morphemes": [
+      {
+        "canonical": "trac",
+        "role": "root",
+        "meaning": "拉；拖",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "tract",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "延伸",
+          "en": "draw/extend"
+        }
+      }
+    ],
+    "derivationChain": [
+      "tract"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "tract → 地带/小册子（联想contract合同）", "imageChain": ["地带", "系统", "小册子"]},
-    "wordLevel": {"domain": ["general", "academic", "medical"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["traction", "tractor", "abstract"], "sameAffix": [], "synonyms": ["region", "area", "pamphlet"], "antonyms": [], "domainCohort": ["region", "territory"], "derivationPair": ["traction", "tractor"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "tract → 地带/小册子（联想contract合同）",
+      "imageChain": [
+        "地带",
+        "系统",
+        "小册子"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic",
+        "medical"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "traction",
+        "tractor",
+        "abstract"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "region",
+        "area",
+        "pamphlet"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "region",
+        "territory"
+      ],
+      "derivationPair": [
+        "traction",
+        "tractor"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "tractable",
     "phonetic": "/ˈtræktəbl/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "驯良的；易于管理的；顺从的", "en": "easy to deal with; capable of being managed or controlled"},
-    "morphemes": [
-      {"canonical": "trac", "role": "root", "meaning": "拉；驱动", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "tract", "positionTendency": "initial", "coreMeaning": {"cn": "驱动", "en": "draw/lead"}},
-      {"canonical": "-able", "role": "suffix", "meaning": "可；能", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 2, "form": "able", "positionTendency": "final", "coreMeaning": {"cn": "可", "en": "able to"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "L. tractabilis (manageable)", "to": "tractable", "rule": "借词", "meaning": "可操纵的→驯良的"}]},
+    "coreMeaning": {
+      "cn": "驯良的；易于管理的；顺从的",
+      "en": "easy to deal with; capable of being managed or controlled"
+    },
+    "morphemes": [
+      {
+        "canonical": "trac",
+        "role": "root",
+        "meaning": "拉；驱动",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "tract",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "驱动",
+          "en": "draw/lead"
+        }
+      },
+      {
+        "canonical": "-able",
+        "role": "suffix",
+        "meaning": "可；能",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 2,
+        "form": "able",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "可",
+          "en": "able to"
+        }
+      }
+    ],
+    "derivationChain": [
+      "tractable"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "tract(拉)+able→可被驾驭的→驯良的", "imageChain": ["驯良", "顺从", "易处理"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["积极"], "intensity": 1}},
-    "relations": {"sameRoot": ["intractable", "traction"], "sameAffix": [], "synonyms": ["manageable", "docile", "compliant"], "antonyms": ["intractable", "stubborn", "unruly"], "domainCohort": ["docile", "compliant"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "tract(拉)+able→可被驾驭的→驯良的",
+      "imageChain": [
+        "驯良",
+        "顺从",
+        "易处理"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "intractable",
+        "traction"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "manageable",
+        "docile",
+        "compliant"
+      ],
+      "antonyms": [
+        "intractable",
+        "stubborn",
+        "unruly"
+      ],
+      "domainCohort": [
+        "docile",
+        "compliant"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "traction",
     "phonetic": "/ˈtrækʃən/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "牵引力；拉力；吸引力；进展", "en": "the act of drawing or pulling; the grip of a surface; momentum or progress"},
-    "morphemes": [
-      {"canonical": "trac", "role": "root", "meaning": "拉；牵引", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "tract", "positionTendency": "initial", "coreMeaning": {"cn": "牵引", "en": "draw/pull"}},
-      {"canonical": "-ion", "role": "suffix", "meaning": "名词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ion", "positionTendency": "final", "coreMeaning": {"cn": "行为/结果", "en": "act/result"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "L. tractio (pulling)", "to": "traction", "rule": "借词", "meaning": "拉力→牵引力"}]},
+    "coreMeaning": {
+      "cn": "牵引力；拉力；吸引力；进展",
+      "en": "the act of drawing or pulling; the grip of a surface; momentum or progress"
+    },
+    "morphemes": [
+      {
+        "canonical": "trac",
+        "role": "root",
+        "meaning": "拉；牵引",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "tract",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "牵引",
+          "en": "draw/pull"
+        }
+      },
+      {
+        "canonical": "-ion",
+        "role": "suffix",
+        "meaning": "名词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ion",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "行为/结果",
+          "en": "act/result"
+        }
+      }
+    ],
+    "derivationChain": [
+      "traction"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "tract(拉)+ion→牵引力/进展", "imageChain": ["牵引力", "进展", "吸引力"]},
-    "wordLevel": {"domain": ["general", "medical", "tech"], "sentiment": {"tags": ["积极"], "intensity": 1}},
-    "relations": {"sameRoot": ["tract", "tractor", "tractable"], "sameAffix": [], "synonyms": ["grip", "pull", "momentum"], "antonyms": [], "domainCohort": ["grip", "friction"], "derivationPair": ["tractor"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "tract(拉)+ion→牵引力/进展",
+      "imageChain": [
+        "牵引力",
+        "进展",
+        "吸引力"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "medical",
+        "tech"
+      ],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "tract",
+        "tractor",
+        "tractable"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "grip",
+        "pull",
+        "momentum"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "grip",
+        "friction"
+      ],
+      "derivationPair": [
+        "tractor"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "tractor",
     "phonetic": "/ˈtræktər/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "拖拉机；牵引车", "en": "a powerful vehicle used on farms; a vehicle for pulling heavy machinery"},
-    "morphemes": [
-      {"canonical": "trac", "role": "root", "meaning": "拉；牵引", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "tract", "positionTendency": "initial", "coreMeaning": {"cn": "牵引", "en": "pull/draw"}},
-      {"canonical": "-or", "role": "suffix", "meaning": "施动者；机器", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "or", "positionTendency": "final", "coreMeaning": {"cn": "机器", "en": "agent/machine"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "L. tractor (one who pulls)", "to": "tractor", "rule": "借词", "meaning": "牵引者→拖拉机"}]},
+    "coreMeaning": {
+      "cn": "拖拉机；牵引车",
+      "en": "a powerful vehicle used on farms; a vehicle for pulling heavy machinery"
+    },
+    "morphemes": [
+      {
+        "canonical": "trac",
+        "role": "root",
+        "meaning": "拉；牵引",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "tract",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "牵引",
+          "en": "pull/draw"
+        }
+      },
+      {
+        "canonical": "-or",
+        "role": "suffix",
+        "meaning": "施动者；机器",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "or",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "机器",
+          "en": "agent/machine"
+        }
+      }
+    ],
+    "derivationChain": [
+      "tractor"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "tract(拉)+or(机器)→拖拉机", "imageChain": ["拖拉机", "农业", "牵引"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["tract", "traction", "tractable"], "sameAffix": [], "synonyms": ["farm vehicle", "puller"], "antonyms": [], "domainCohort": ["combine", "harvester"], "derivationPair": ["traction"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "tract(拉)+or(机器)→拖拉机",
+      "imageChain": [
+        "拖拉机",
+        "农业",
+        "牵引"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "tract",
+        "traction",
+        "tractable"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "farm vehicle",
+        "puller"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "combine",
+        "harvester"
+      ],
+      "derivationPair": [
+        "traction"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "trade",
     "phonetic": "/treɪd/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "贸易；交易；职业", "en": "the activity of buying and selling; a skilled occupation; to exchange goods"},
-    "morphemes": [
-      {"canonical": "trade", "role": "root", "meaning": "贸易；职业", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "trade", "positionTendency": "medial", "coreMeaning": {"cn": "贸易", "en": "trade/commerce"}}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "MLGer. trade (track/course)", "to": "trade", "rule": "借词", "meaning": "道路→商道→贸易"}]},
+    "coreMeaning": {
+      "cn": "贸易；交易；职业",
+      "en": "the activity of buying and selling; a skilled occupation; to exchange goods"
+    },
+    "morphemes": [
+      {
+        "canonical": "trade",
+        "role": "root",
+        "meaning": "贸易；职业",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "trade",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "贸易",
+          "en": "trade/commerce"
+        }
+      }
+    ],
+    "derivationChain": [
+      "trade"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "trade → 贸易/交易（基础词）", "imageChain": ["贸易", "交易", "职业"]},
-    "wordLevel": {"domain": ["general", "business"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["trader", "trademark", "trade-off"], "sameAffix": [], "synonyms": ["commerce", "exchange", "deal"], "antonyms": [], "domainCohort": ["commerce", "industry"], "derivationPair": ["trader", "trademark"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "trade → 贸易/交易（基础词）",
+      "imageChain": [
+        "贸易",
+        "交易",
+        "职业"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "business"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "trader",
+        "trademark",
+        "trade-off"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "commerce",
+        "exchange",
+        "deal"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "commerce",
+        "industry"
+      ],
+      "derivationPair": [
+        "trader",
+        "trademark"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "trademark",
     "phonetic": "/ˈtreɪdmɑːrk/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "商标；标志；特征", "en": "a symbol or logo registered for a company; a distinctive characteristic"},
-    "morphemes": [
-      {"canonical": "trade", "role": "root", "meaning": "贸易", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "trade", "positionTendency": "initial", "coreMeaning": {"cn": "贸易", "en": "trade/commerce"}},
-      {"canonical": "mark", "role": "root", "meaning": "标记；标志", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "mark", "positionTendency": "final", "coreMeaning": {"cn": "标记", "en": "mark/sign"}}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "trade + mark", "to": "trademark", "rule": "compound", "meaning": "贸易的标记→商标"}]},
+    "coreMeaning": {
+      "cn": "商标；标志；特征",
+      "en": "a symbol or logo registered for a company; a distinctive characteristic"
+    },
+    "morphemes": [
+      {
+        "canonical": "trade",
+        "role": "root",
+        "meaning": "贸易",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "trade",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "贸易",
+          "en": "trade/commerce"
+        }
+      },
+      {
+        "canonical": "mark",
+        "role": "root",
+        "meaning": "标记；标志",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "mark",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "标记",
+          "en": "mark/sign"
+        }
+      }
+    ],
+    "derivationChain": [
+      "trademark"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "trade(贸易)+mark(标记)→商标", "imageChain": ["商标", "品牌", "注册"]},
-    "wordLevel": {"domain": ["general", "business", "legal"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["trade", "mark"], "sameAffix": [], "synonyms": ["brand", "logo", "hallmark"], "antonyms": [], "domainCohort": ["brand", "logo"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "trade(贸易)+mark(标记)→商标",
+      "imageChain": [
+        "商标",
+        "品牌",
+        "注册"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "business",
+        "legal"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "trade",
+        "mark"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "brand",
+        "logo",
+        "hallmark"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "brand",
+        "logo"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

@@ -3,89 +3,524 @@
     "word": "petition",
     "phonetic": "/pəˈtɪʃən/",
     "pos": "n./v.",
-    "coreMeaning": {"cn": "请愿书；请愿", "en": "a formal request signed by many people; to make a formal request"},
+    "coreMeaning": {
+      "cn": "请愿书；请愿",
+      "en": "a formal request signed by many people; to make a formal request"
+    },
     "morphemes": [
-      {"canonical": "petit-", "role": "root", "meaning": "请求；寻求（拉丁语 petere）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "petit", "positionTendency": "initial", "coreMeaning": {"cn": "请求", "en": "seek/request"}},
-      {"canonical": "-ion", "role": "suffix", "meaning": "名词后缀", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-ion", "positionTendency": "final", "coreMeaning": {"cn": "行为", "en": "action noun"}}
+      {
+        "canonical": "petit-",
+        "role": "root",
+        "meaning": "请求；寻求（拉丁语 petere）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "petit",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "请求",
+          "en": "seek/request"
+        }
+      },
+      {
+        "canonical": "-ion",
+        "role": "suffix",
+        "meaning": "名词后缀",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ion",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "行为",
+          "en": "action noun"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "petition", "to": "petitioner", "operation": "agent noun"}]},
+    "derivationChain": [
+      "petitioner"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "petit(请求) + ion → 请求的行为 → 请愿书", "imageChain": ["请愿", "签名", "申请"]},
-    "wordLevel": {"domain": ["general", "legal", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["petitioner", "compete", "appetite"], "sameAffix": [], "synonyms": ["appeal", "plea", "request"], "antonyms": [], "domainCohort": [], "derivationPair": [{"word": "petitioner", "relation": "agent noun"}], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "petit(请求) + ion → 请求的行为 → 请愿书",
+      "imageChain": [
+        "请愿",
+        "签名",
+        "申请"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "legal",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "petitioner",
+        "compete",
+        "appetite"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "appeal",
+        "plea",
+        "request"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        {
+          "word": "petitioner",
+          "relation": "agent noun"
+        }
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "petitioner",
     "phonetic": "/pəˈtɪʃənər/",
     "pos": "n.",
-    "coreMeaning": {"cn": "请愿人；申请人", "en": "a person who presents a formal petition"},
+    "coreMeaning": {
+      "cn": "请愿人；申请人",
+      "en": "a person who presents a formal petition"
+    },
     "morphemes": [
-      {"canonical": "petit-", "role": "root", "meaning": "请求（拉丁语 petere）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "petition", "positionTendency": "initial", "coreMeaning": {"cn": "请求", "en": "request"}},
-      {"canonical": "-er", "role": "suffix", "meaning": "施事者后缀", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-er", "positionTendency": "final", "coreMeaning": {"cn": "人", "en": "person who"}}
+      {
+        "canonical": "petit-",
+        "role": "root",
+        "meaning": "请求（拉丁语 petere）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "petition",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "请求",
+          "en": "request"
+        }
+      },
+      {
+        "canonical": "-er",
+        "role": "suffix",
+        "meaning": "施事者后缀",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-er",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "人",
+          "en": "person who"
+        }
+      }
     ],
-    "derivationChain": {"steps": []},
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "petition(请愿) + er → 提出请愿的人 → 请愿人", "imageChain": ["请愿人", "申请人", "法律当事人"]},
-    "wordLevel": {"domain": ["legal", "general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["petition"], "sameAffix": [], "synonyms": ["applicant", "claimant", "supplicant"], "antonyms": [], "domainCohort": [], "derivationPair": [{"word": "petition", "relation": "base noun"}], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "petition(请愿) + er → 提出请愿的人 → 请愿人",
+      "imageChain": [
+        "请愿人",
+        "申请人",
+        "法律当事人"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "legal",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "petition"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "applicant",
+        "claimant",
+        "supplicant"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        {
+          "word": "petition",
+          "relation": "base noun"
+        }
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "petrel",
     "phonetic": "/ˈpetrəl/",
     "pos": "n.",
-    "coreMeaning": {"cn": "海燕", "en": "a seabird that can walk on water (named after Saint Peter)"},
+    "coreMeaning": {
+      "cn": "海燕",
+      "en": "a seabird that can walk on water (named after Saint Peter)"
+    },
     "morphemes": [
-      {"canonical": "peter", "role": "root", "meaning": "圣彼得（能行走于水上的使徒）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "petrel", "positionTendency": "medial", "coreMeaning": {"cn": "彼得", "en": "Peter (apostle)"}}
+      {
+        "canonical": "peter",
+        "role": "root",
+        "meaning": "圣彼得（能行走于水上的使徒）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "petrel",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "彼得",
+          "en": "Peter (apostle)"
+        }
+      }
     ],
-    "derivationChain": {"steps": []},
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "petrel → 以圣彼得命名，因为能在水面行走", "imageChain": ["海燕", "海鸟", "海浪"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["albatross", "seagull", "cormorant"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "petrel → 以圣彼得命名，因为能在水面行走",
+      "imageChain": [
+        "海燕",
+        "海鸟",
+        "海浪"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "albatross",
+        "seagull",
+        "cormorant"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "petrify",
     "phonetic": "/ˈpetrɪfaɪ/",
     "pos": "v.",
-    "coreMeaning": {"cn": "石化；使惊呆", "en": "to turn to stone; to make someone so frightened that they cannot move"},
+    "coreMeaning": {
+      "cn": "石化；使惊呆",
+      "en": "to turn to stone; to make someone so frightened that they cannot move"
+    },
     "morphemes": [
-      {"canonical": "petr-", "role": "root", "meaning": "石；岩石（希腊语 petra）", "sentiment": {"tags": ["消极"], "intensity": 1}, "order": 1, "form": "petri", "positionTendency": "initial", "coreMeaning": {"cn": "石头", "en": "stone/rock"}},
-      {"canonical": "-fy", "role": "suffix", "meaning": "动词后缀：使…化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-fy", "positionTendency": "final", "coreMeaning": {"cn": "使…化", "en": "make into"}}
+      {
+        "canonical": "petr-",
+        "role": "root",
+        "meaning": "石；岩石（希腊语 petra）",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "petri",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "石头",
+          "en": "stone/rock"
+        }
+      },
+      {
+        "canonical": "-fy",
+        "role": "suffix",
+        "meaning": "动词后缀：使…化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-fy",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "使…化",
+          "en": "make into"
+        }
+      }
     ],
-    "derivationChain": {"steps": []},
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "petr(石头) + ify → 使变成石头 → 石化；惊呆", "imageChain": ["石化", "惊呆", "恐惧僵硬"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["消极"], "intensity": 2}},
-    "relations": {"sameRoot": ["petroleum", "petrify", "petrology"], "sameAffix": ["mollify", "solidify"], "synonyms": ["terrify", "paralyze", "horrify"], "antonyms": ["reassure", "calm"], "domainCohort": [], "derivationPair": [{"word": "petrification", "relation": "noun form"}], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "petr(石头) + ify → 使变成石头 → 石化；惊呆",
+      "imageChain": [
+        "石化",
+        "惊呆",
+        "恐惧僵硬"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "petroleum",
+        "petrify",
+        "petrology"
+      ],
+      "sameAffix": [
+        "mollify",
+        "solidify"
+      ],
+      "synonyms": [
+        "terrify",
+        "paralyze",
+        "horrify"
+      ],
+      "antonyms": [
+        "reassure",
+        "calm"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        {
+          "word": "petrification",
+          "relation": "noun form"
+        }
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "petrol",
     "phonetic": "/ˈpetrəl/",
     "pos": "n.",
-    "coreMeaning": {"cn": "汽油", "en": "liquid fuel used in combustion engines (British English)"},
+    "coreMeaning": {
+      "cn": "汽油",
+      "en": "liquid fuel used in combustion engines (British English)"
+    },
     "morphemes": [
-      {"canonical": "petr-", "role": "root", "meaning": "石；岩石（希腊语 petra）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "petrol", "positionTendency": "medial", "coreMeaning": {"cn": "石油", "en": "rock oil"}}
+      {
+        "canonical": "petr-",
+        "role": "root",
+        "meaning": "石；岩石（希腊语 petra）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "petrol",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "石油",
+          "en": "rock oil"
+        }
+      }
     ],
-    "derivationChain": {"steps": []},
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "petrol → 石油 → 汽油（缩写自petroleum）", "imageChain": ["汽油", "石油", "燃料"]},
-    "wordLevel": {"domain": ["general", "business"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["petroleum", "petrochemical"], "sameAffix": [], "synonyms": ["gasoline", "fuel", "gas"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "petrol → 石油 → 汽油（缩写自petroleum）",
+      "imageChain": [
+        "汽油",
+        "石油",
+        "燃料"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "business"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "petroleum",
+        "petrochemical"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "gasoline",
+        "fuel",
+        "gas"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "petroleum",
     "phonetic": "/pəˈtroʊlɪəm/",
     "pos": "n.",
-    "coreMeaning": {"cn": "石油", "en": "a liquid found underground, used as fuel and raw material"},
+    "coreMeaning": {
+      "cn": "石油",
+      "en": "a liquid found underground, used as fuel and raw material"
+    },
     "morphemes": [
-      {"canonical": "petr-", "role": "root", "meaning": "石；岩石（希腊语 petra）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "petro", "positionTendency": "initial", "coreMeaning": {"cn": "石头", "en": "rock"}},
-      {"canonical": "ole-", "role": "root", "meaning": "油；油脂（拉丁语 oleum）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "oleum", "positionTendency": "medial", "coreMeaning": {"cn": "油", "en": "oil"}},
-      {"canonical": "-um", "role": "suffix", "meaning": "拉丁名词后缀", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "-um", "positionTendency": "final", "coreMeaning": {"cn": "名词", "en": "Latin noun"}}
+      {
+        "canonical": "petr-",
+        "role": "root",
+        "meaning": "石；岩石（希腊语 petra）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "petro",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "石头",
+          "en": "rock"
+        }
+      },
+      {
+        "canonical": "ole-",
+        "role": "root",
+        "meaning": "油；油脂（拉丁语 oleum）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "oleum",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "油",
+          "en": "oil"
+        }
+      },
+      {
+        "canonical": "-um",
+        "role": "suffix",
+        "meaning": "拉丁名词后缀",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-um",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "名词",
+          "en": "Latin noun"
+        }
+      }
     ],
-    "derivationChain": {"steps": []},
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "petro(石) + oleum(油) → 石头里的油 → 石油", "imageChain": ["石油", "原油", "地下资源"]},
-    "wordLevel": {"domain": ["general", "business", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["petrol", "petrochemical"], "sameAffix": [], "synonyms": ["crude oil", "crude"], "antonyms": [], "domainCohort": ["gasoline", "natural gas", "refinery"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "petro(石) + oleum(油) → 石头里的油 → 石油",
+      "imageChain": [
+        "石油",
+        "原油",
+        "地下资源"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "business",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "petrol",
+        "petrochemical"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "crude oil",
+        "crude"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "gasoline",
+        "natural gas",
+        "refinery"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

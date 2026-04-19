@@ -2,77 +2,529 @@
   {
     "word": "loveliness",
     "phonetic": "/'lʌvlinəs/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "可爱；美丽", "en": "the quality of being lovely"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "medial", "canonical": "love", "sentiment": {"tags": ["积极"], "intensity": 3}, "order": 1, "form": "love", "meaning": "爱；可爱", "coreMeaning": {"cn": "爱", "en": "love"}},
-      {"role": "suffix", "positionTendency": "medial", "canonical": "-ly", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-ly", "meaning": "形容词化", "coreMeaning": {"cn": "的", "en": "adj"}},
-      {"role": "suffix", "positionTendency": "final", "canonical": "-ness", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "-ness", "meaning": "名词后缀", "coreMeaning": {"cn": "状态", "en": "state"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "lovely", "to": "loveliness", "by": "-ness", "meaning": "可爱的性质"}]},
+    "coreMeaning": {
+      "cn": "可爱；美丽",
+      "en": "the quality of being lovely"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "love",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 3
+        },
+        "order": 1,
+        "form": "love",
+        "meaning": "爱；可爱",
+        "coreMeaning": {
+          "cn": "爱",
+          "en": "love"
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "medial",
+        "canonical": "-ly",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ly",
+        "meaning": "形容词化",
+        "coreMeaning": {
+          "cn": "的",
+          "en": "adj"
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "final",
+        "canonical": "-ness",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-ness",
+        "meaning": "名词后缀",
+        "coreMeaning": {
+          "cn": "状态",
+          "en": "state"
+        }
+      }
+    ],
+    "derivationChain": [
+      "loveliness"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "lovely(可爱)+ness → 可爱的性质", "imageChain": ["美丽", "迷人", "优雅"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 2}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["love", "lovely", "lover"], "sameAffix": ["kindness", "goodness"], "synonyms": ["beauty", "charm", "grace", "attractiveness"], "antonyms": ["ugliness", "repulsiveness"], "domainCohort": ["lovely", "lover"], "derivationPair": ["lovely"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "lovely(可爱)+ness → 可爱的性质",
+      "imageChain": [
+        "美丽",
+        "迷人",
+        "优雅"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "love",
+        "lovely",
+        "lover"
+      ],
+      "sameAffix": [
+        "kindness",
+        "goodness"
+      ],
+      "synonyms": [
+        "beauty",
+        "charm",
+        "grace",
+        "attractiveness"
+      ],
+      "antonyms": [
+        "ugliness",
+        "repulsiveness"
+      ],
+      "domainCohort": [
+        "lovely",
+        "lover"
+      ],
+      "derivationPair": [
+        "lovely"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "lovely",
     "phonetic": "/'lʌvli/",
-    "pos": ["adj.", "n."],
-    "coreMeaning": {"cn": "可爱的；令人愉快的", "en": "attractively beautiful; very pleasant"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "medial", "canonical": "love", "sentiment": {"tags": ["积极"], "intensity": 3}, "order": 1, "form": "love", "meaning": "爱", "coreMeaning": {"cn": "爱", "en": "love"}},
-      {"role": "suffix", "positionTendency": "final", "canonical": "-ly", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 2, "form": "-ly", "meaning": "形容词化/副词化", "coreMeaning": {"cn": "的", "en": "adj"}}
+    "pos": [
+      "adj.",
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "love", "to": "lovely", "by": "-ly", "meaning": "让人爱的→可爱的"}]},
+    "coreMeaning": {
+      "cn": "可爱的；令人愉快的",
+      "en": "attractively beautiful; very pleasant"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "love",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 3
+        },
+        "order": 1,
+        "form": "love",
+        "meaning": "爱",
+        "coreMeaning": {
+          "cn": "爱",
+          "en": "love"
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "final",
+        "canonical": "-ly",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 2,
+        "form": "-ly",
+        "meaning": "形容词化/副词化",
+        "coreMeaning": {
+          "cn": "的",
+          "en": "adj"
+        }
+      }
+    ],
+    "derivationChain": [
+      "lovely"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "love(爱)+ly → 令人爱的 → 可爱的", "imageChain": ["美丽", "可爱", "愉快"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 2}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["love", "lover", "loveliness"], "sameAffix": ["friendly", "homely", "costly"], "synonyms": ["beautiful", "attractive", "charming", "delightful"], "antonyms": ["ugly", "repulsive", "unpleasant"], "domainCohort": ["lover", "loveliness"], "derivationPair": ["love"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "love(爱)+ly → 令人爱的 → 可爱的",
+      "imageChain": [
+        "美丽",
+        "可爱",
+        "愉快"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "love",
+        "lover",
+        "loveliness"
+      ],
+      "sameAffix": [
+        "friendly",
+        "homely",
+        "costly"
+      ],
+      "synonyms": [
+        "beautiful",
+        "attractive",
+        "charming",
+        "delightful"
+      ],
+      "antonyms": [
+        "ugly",
+        "repulsive",
+        "unpleasant"
+      ],
+      "domainCohort": [
+        "lover",
+        "loveliness"
+      ],
+      "derivationPair": [
+        "love"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "lover",
     "phonetic": "/'lʌvər/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "恋人；爱好者", "en": "a person in a romantic relationship; an enthusiast"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "medial", "canonical": "love", "sentiment": {"tags": ["积极"], "intensity": 3}, "order": 1, "form": "love", "meaning": "爱", "coreMeaning": {"cn": "爱", "en": "love"}},
-      {"role": "suffix", "positionTendency": "final", "canonical": "-er", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-er", "meaning": "…者；爱好者", "coreMeaning": {"cn": "者", "en": "one who"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "love", "to": "lover", "by": "-er", "meaning": "爱的人→恋人"}]},
+    "coreMeaning": {
+      "cn": "恋人；爱好者",
+      "en": "a person in a romantic relationship; an enthusiast"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "love",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 3
+        },
+        "order": 1,
+        "form": "love",
+        "meaning": "爱",
+        "coreMeaning": {
+          "cn": "爱",
+          "en": "love"
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "final",
+        "canonical": "-er",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-er",
+        "meaning": "…者；爱好者",
+        "coreMeaning": {
+          "cn": "者",
+          "en": "one who"
+        }
+      }
+    ],
+    "derivationChain": [
+      "lover"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "love(爱)+er → 爱的人 → 恋人", "imageChain": ["情侣", "恋人", "爱好者"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 2}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["love", "lovely", "loveliness"], "sameAffix": ["dreamer", "believer", "worker"], "synonyms": ["sweetheart", "beloved", "partner", "enthusiast", "fan"], "antonyms": ["enemy", "hater"], "domainCohort": ["lovely", "loving"], "derivationPair": ["love"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "love(爱)+er → 爱的人 → 恋人",
+      "imageChain": [
+        "情侣",
+        "恋人",
+        "爱好者"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "love",
+        "lovely",
+        "loveliness"
+      ],
+      "sameAffix": [
+        "dreamer",
+        "believer",
+        "worker"
+      ],
+      "synonyms": [
+        "sweetheart",
+        "beloved",
+        "partner",
+        "enthusiast",
+        "fan"
+      ],
+      "antonyms": [
+        "enemy",
+        "hater"
+      ],
+      "domainCohort": [
+        "lovely",
+        "loving"
+      ],
+      "derivationPair": [
+        "love"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "lowbred",
     "phonetic": "/'loʊbrɛd/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "粗野的；粗俗的", "en": "ill-mannered; vulgar"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "initial", "canonical": "low", "sentiment": {"tags": ["贬义"], "intensity": -1}, "order": 1, "form": "low", "meaning": "低；低下", "coreMeaning": {"cn": "低下", "en": "low"}},
-      {"role": "root", "positionTendency": "final", "canonical": "breed", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "bred", "meaning": "培育；教养", "coreMeaning": {"cn": "教养", "en": "bred"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "粗野的；粗俗的",
+      "en": "ill-mannered; vulgar"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "initial",
+        "canonical": "low",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "low",
+        "meaning": "低；低下",
+        "coreMeaning": {
+          "cn": "低下",
+          "en": "low"
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "final",
+        "canonical": "breed",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "bred",
+        "meaning": "培育；教养",
+        "coreMeaning": {
+          "cn": "教养",
+          "en": "bred"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "low(低)+bred(教养) → 低教养的 → 粗野的", "imageChain": ["粗鲁", "没教养", "低俗"]},
-    "wordLevel": {"sentiment": {"tags": ["贬义"], "intensity": -1}, "domain": ["general"], "formality": "formal"},
-    "relations": {"sameRoot": ["low", "lowbrow"], "sameAffix": ["well-bred", "ill-bred"], "synonyms": ["vulgar", "coarse", "crude", "uncouth", "ill-mannered"], "antonyms": ["well-bred", "refined", "cultivated", "genteel"], "domainCohort": ["lowbrow"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "low(低)+bred(教养) → 低教养的 → 粗野的",
+      "imageChain": [
+        "粗鲁",
+        "没教养",
+        "低俗"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "low",
+        "lowbrow"
+      ],
+      "sameAffix": [
+        "well-bred",
+        "ill-bred"
+      ],
+      "synonyms": [
+        "vulgar",
+        "coarse",
+        "crude",
+        "uncouth",
+        "ill-mannered"
+      ],
+      "antonyms": [
+        "well-bred",
+        "refined",
+        "cultivated",
+        "genteel"
+      ],
+      "domainCohort": [
+        "lowbrow"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "lovesick",
     "phonetic": "/'lʌvsɪk/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "相思的；害相思病的", "en": "pining with love; suffering from longing for one's lover"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "initial", "canonical": "love", "sentiment": {"tags": ["积极"], "intensity": 2}, "order": 1, "form": "love", "meaning": "爱", "coreMeaning": {"cn": "爱", "en": "love"}},
-      {"role": "root", "positionTendency": "final", "canonical": "sick", "sentiment": {"tags": ["贬义"], "intensity": -1}, "order": 2, "form": "sick", "meaning": "生病", "coreMeaning": {"cn": "病", "en": "sick"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "相思的；害相思病的",
+      "en": "pining with love; suffering from longing for one's lover"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "initial",
+        "canonical": "love",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 2
+        },
+        "order": 1,
+        "form": "love",
+        "meaning": "爱",
+        "coreMeaning": {
+          "cn": "爱",
+          "en": "love"
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "final",
+        "canonical": "sick",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -1
+        },
+        "order": 2,
+        "form": "sick",
+        "meaning": "生病",
+        "coreMeaning": {
+          "cn": "病",
+          "en": "sick"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "love(爱)+sick(病) → 因爱生病 → 相思病", "imageChain": ["相思", "暗恋", "心情低落"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["love", "lover", "lovely"], "sameAffix": ["homesick", "carsick", "seasick"], "synonyms": ["yearning", "pining", "longing"], "antonyms": [], "domainCohort": ["lover", "lovely"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "love(爱)+sick(病) → 因爱生病 → 相思病",
+      "imageChain": [
+        "相思",
+        "暗恋",
+        "心情低落"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "love",
+        "lover",
+        "lovely"
+      ],
+      "sameAffix": [
+        "homesick",
+        "carsick",
+        "seasick"
+      ],
+      "synonyms": [
+        "yearning",
+        "pining",
+        "longing"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "lover",
+        "lovely"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

@@ -2,125 +2,868 @@
   {
     "word": "reconstruction",
     "phonetic": "/,riːkən'strʌkʃən/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "重建；再现；重新建构", "en": "the process of rebuilding something; a re-creation of past events"},
-    "morphemes": [
-      {"canonical": "re-", "role": "prefix", "meaning": "再；重新", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "re", "positionTendency": "initial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "con-", "role": "prefix", "meaning": "共同；一起", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "con", "positionTendency": "medial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "struct-", "role": "root", "meaning": "建造；堆叠", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "struct", "positionTendency": "medial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "-ion", "role": "suffix", "meaning": "名词化（行为/结果）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 4, "form": "ion", "positionTendency": "final", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "construct", "to": "construction", "rule": "+ion"}, {"from": "construction", "to": "reconstruction", "rule": "re+"}]},
+    "coreMeaning": {
+      "cn": "重建；再现；重新建构",
+      "en": "the process of rebuilding something; a re-creation of past events"
+    },
+    "morphemes": [
+      {
+        "canonical": "re-",
+        "role": "prefix",
+        "meaning": "再；重新",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "re",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "con-",
+        "role": "prefix",
+        "meaning": "共同；一起",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "con",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "struct-",
+        "role": "root",
+        "meaning": "建造；堆叠",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "struct",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "-ion",
+        "role": "suffix",
+        "meaning": "名词化（行为/结果）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 4,
+        "form": "ion",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "construction",
+      "reconstruction"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "re(再)+construct(建造)+ion → 重新建造，战后重建", "imageChain": ["重建", "废墟", "重新开始"]},
-    "wordLevel": {"domain": ["general", "academic", "news"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["construct", "construction", "structure", "instruct"], "sameAffix": [], "synonyms": ["rebuilding", "restoration", "re-creation", "renovation"], "antonyms": ["destruction", "demolition"], "domainCohort": ["restoration", "renovation"], "derivationPair": ["reconstruct"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "re(再)+construct(建造)+ion → 重新建造，战后重建",
+      "imageChain": [
+        "重建",
+        "废墟",
+        "重新开始"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic",
+        "news"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "construct",
+        "construction",
+        "structure",
+        "instruct"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "rebuilding",
+        "restoration",
+        "re-creation",
+        "renovation"
+      ],
+      "antonyms": [
+        "destruction",
+        "demolition"
+      ],
+      "domainCohort": [
+        "restoration",
+        "renovation"
+      ],
+      "derivationPair": [
+        "reconstruct"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "record",
     "phonetic": "/'rɛkərd/ (n.); /rɪ'kɔːrd/ (v.)",
-    "pos": ["n.", "v.", "adj."],
-    "coreMeaning": {"cn": "记录；唱片；创纪录的；录制", "en": "a document or account; to register officially; an achievement never exceeded"},
-    "morphemes": [
-      {"canonical": "re-", "role": "prefix", "meaning": "回；向后", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "re", "positionTendency": "initial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "cord-", "role": "root", "meaning": "心；记忆（L. cor = heart）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "cord", "positionTendency": "final", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "n.",
+      "v.",
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "L. recordari (to remember)", "to": "record", "rule": "借入"}]},
+    "coreMeaning": {
+      "cn": "记录；唱片；创纪录的；录制",
+      "en": "a document or account; to register officially; an achievement never exceeded"
+    },
+    "morphemes": [
+      {
+        "canonical": "re-",
+        "role": "prefix",
+        "meaning": "回；向后",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "re",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "cord-",
+        "role": "root",
+        "meaning": "心；记忆（L. cor = heart）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "cord",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "record"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "re(回)+cord(心) → 把事情铭记在心，记录下来", "imageChain": ["记录", "档案", "历史"]},
-    "wordLevel": {"domain": ["general", "academic", "business"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["recorder", "recording", "recourse"], "sameAffix": [], "synonyms": ["register", "document", "chronicle", "log"], "antonyms": ["forget", "erase"], "domainCohort": ["document", "archive"], "derivationPair": ["recorder"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "re(回)+cord(心) → 把事情铭记在心，记录下来",
+      "imageChain": [
+        "记录",
+        "档案",
+        "历史"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic",
+        "business"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "recorder",
+        "recording",
+        "recourse"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "register",
+        "document",
+        "chronicle",
+        "log"
+      ],
+      "antonyms": [
+        "forget",
+        "erase"
+      ],
+      "domainCohort": [
+        "document",
+        "archive"
+      ],
+      "derivationPair": [
+        "recorder"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "recorder",
     "phonetic": "/rɪ'kɔrdər/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "录音机；记录器；记录员；竖笛", "en": "a device for recording; a person who records; a type of flute"},
-    "morphemes": [
-      {"canonical": "re-", "role": "prefix", "meaning": "回；再", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "re", "positionTendency": "initial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "cord-", "role": "root", "meaning": "心；记忆", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "cord", "positionTendency": "medial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "-er", "role": "suffix", "meaning": "工具/行为者", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "er", "positionTendency": "final", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "record", "to": "recorder", "rule": "+er"}]},
+    "coreMeaning": {
+      "cn": "录音机；记录器；记录员；竖笛",
+      "en": "a device for recording; a person who records; a type of flute"
+    },
+    "morphemes": [
+      {
+        "canonical": "re-",
+        "role": "prefix",
+        "meaning": "回；再",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "re",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "cord-",
+        "role": "root",
+        "meaning": "心；记忆",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "cord",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "-er",
+        "role": "suffix",
+        "meaning": "工具/行为者",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "er",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "recorder"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "record+er → 用来录制或记录的工具或人", "imageChain": ["录音机", "竖笛", "记录"]},
-    "wordLevel": {"domain": ["general", "tech"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["record", "recording"], "sameAffix": [], "synonyms": ["tape recorder", "chronicler", "registrar"], "antonyms": [], "domainCohort": ["microphone", "journalist"], "derivationPair": ["record"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "record+er → 用来录制或记录的工具或人",
+      "imageChain": [
+        "录音机",
+        "竖笛",
+        "记录"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "tech"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "record",
+        "recording"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "tape recorder",
+        "chronicler",
+        "registrar"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "microphone",
+        "journalist"
+      ],
+      "derivationPair": [
+        "record"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "recount",
     "phonetic": "/rɪ'kaʊnt/",
-    "pos": ["v.", "n."],
-    "coreMeaning": {"cn": "叙述；重新计算；详细陈述", "en": "to narrate in detail; to count again; a second count of votes"},
-    "morphemes": [
-      {"canonical": "re-", "role": "prefix", "meaning": "再；重新", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "re", "positionTendency": "initial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "count-", "role": "root", "meaning": "计数；叙述", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "count", "positionTendency": "final", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "v.",
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "re- + count", "to": "recount", "rule": "前缀复合"}]},
+    "coreMeaning": {
+      "cn": "叙述；重新计算；详细陈述",
+      "en": "to narrate in detail; to count again; a second count of votes"
+    },
+    "morphemes": [
+      {
+        "canonical": "re-",
+        "role": "prefix",
+        "meaning": "再；重新",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "re",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "count-",
+        "role": "root",
+        "meaning": "计数；叙述",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "count",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "recount"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "re(再)+count(数/叙述) → 重新计数，或详细叙述一遍", "imageChain": ["叙述", "重新计票", "陈述"]},
-    "wordLevel": {"domain": ["general", "academic", "news"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["count", "account", "counter"], "sameAffix": [], "synonyms": ["narrate", "relate", "tell", "recount"], "antonyms": [], "domainCohort": ["narrate", "relate"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "re(再)+count(数/叙述) → 重新计数，或详细叙述一遍",
+      "imageChain": [
+        "叙述",
+        "重新计票",
+        "陈述"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic",
+        "news"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "count",
+        "account",
+        "counter"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "narrate",
+        "relate",
+        "tell",
+        "recount"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "narrate",
+        "relate"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "recoup",
     "phonetic": "/rɪ'kuːp/",
-    "pos": ["v."],
-    "coreMeaning": {"cn": "收回（损失）；补偿；弥补", "en": "to regain something lost; to reimburse; to recover financially"},
-    "morphemes": [
-      {"canonical": "re-", "role": "prefix", "meaning": "再；重新", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "re", "positionTendency": "initial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "coup-", "role": "root", "meaning": "切；打（Fr. couper = cut）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "coup", "positionTendency": "final", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "Fr. recouper (to cut back)", "to": "recoup", "rule": "借入"}]},
+    "coreMeaning": {
+      "cn": "收回（损失）；补偿；弥补",
+      "en": "to regain something lost; to reimburse; to recover financially"
+    },
+    "morphemes": [
+      {
+        "canonical": "re-",
+        "role": "prefix",
+        "meaning": "再；重新",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "re",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "coup-",
+        "role": "root",
+        "meaning": "切；打（Fr. couper = cut）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "coup",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "recoup"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "re(重新)+coup(切回) → 把之前失去的重新切回来，弥补损失", "imageChain": ["弥补", "补偿", "追回"]},
-    "wordLevel": {"domain": ["business", "finance", "general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["coup", "coupon"], "sameAffix": [], "synonyms": ["recover", "reimburse", "compensate", "retrieve"], "antonyms": ["lose", "forfeit"], "domainCohort": ["recover", "compensate"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "re(重新)+coup(切回) → 把之前失去的重新切回来，弥补损失",
+      "imageChain": [
+        "弥补",
+        "补偿",
+        "追回"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "business",
+        "finance",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "coup",
+        "coupon"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "recover",
+        "reimburse",
+        "compensate",
+        "retrieve"
+      ],
+      "antonyms": [
+        "lose",
+        "forfeit"
+      ],
+      "domainCohort": [
+        "recover",
+        "compensate"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "recourse",
     "phonetic": "/'riːkɔːrs/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "依靠；求助；诉诸（手段）", "en": "the right to use or appeal to; a course of action that may be used in difficulty"},
-    "morphemes": [
-      {"canonical": "re-", "role": "prefix", "meaning": "回；返", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "re", "positionTendency": "initial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "cours-", "role": "root", "meaning": "跑；流向（L. currere）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "course", "positionTendency": "final", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "L. recursus (a running back)", "to": "recourse", "rule": "借入"}]},
+    "coreMeaning": {
+      "cn": "依靠；求助；诉诸（手段）",
+      "en": "the right to use or appeal to; a course of action that may be used in difficulty"
+    },
+    "morphemes": [
+      {
+        "canonical": "re-",
+        "role": "prefix",
+        "meaning": "回；返",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "re",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "cours-",
+        "role": "root",
+        "meaning": "跑；流向（L. currere）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "course",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "recourse"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "re(回)+course(跑) → 退而求其次，转而依靠某手段", "imageChain": ["依靠", "求助", "手段"]},
-    "wordLevel": {"domain": ["legal", "general", "business"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["course", "discourse", "concourse"], "sameAffix": [], "synonyms": ["recourse", "resort", "option", "means"], "antonyms": [], "domainCohort": ["option", "resort"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "re(回)+course(跑) → 退而求其次，转而依靠某手段",
+      "imageChain": [
+        "依靠",
+        "求助",
+        "手段"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "legal",
+        "general",
+        "business"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "course",
+        "discourse",
+        "concourse"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "recourse",
+        "resort",
+        "option",
+        "means"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "option",
+        "resort"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "recover",
     "phonetic": "/rɪ'kʌvər/",
-    "pos": ["v."],
-    "coreMeaning": {"cn": "恢复；康复；重新获得", "en": "to return to normal after illness; to regain possession of; to compensate"},
-    "morphemes": [
-      {"canonical": "re-", "role": "prefix", "meaning": "再；重新", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "re", "positionTendency": "initial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "cover-", "role": "root", "meaning": "覆盖；包含（L. cooperire）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "cover", "positionTendency": "final", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "OF recovrer (to regain)", "to": "recover", "rule": "借入"}]},
+    "coreMeaning": {
+      "cn": "恢复；康复；重新获得",
+      "en": "to return to normal after illness; to regain possession of; to compensate"
+    },
+    "morphemes": [
+      {
+        "canonical": "re-",
+        "role": "prefix",
+        "meaning": "再；重新",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "re",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "cover-",
+        "role": "root",
+        "meaning": "覆盖；包含（L. cooperire）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "cover",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "recover"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "re(重新)+cover(覆盖/包含) → 重新涵盖，从损失中恢复", "imageChain": ["康复", "恢复", "重获"]},
-    "wordLevel": {"domain": ["general", "medical", "business"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["recovery", "discoverable", "discover"], "sameAffix": [], "synonyms": ["regain", "recuperate", "reclaim", "convalesce"], "antonyms": ["lose", "deteriorate", "worsen"], "domainCohort": ["recuperate", "convalesce"], "derivationPair": ["recovery"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "re(重新)+cover(覆盖/包含) → 重新涵盖，从损失中恢复",
+      "imageChain": [
+        "康复",
+        "恢复",
+        "重获"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "medical",
+        "business"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "recovery",
+        "discoverable",
+        "discover"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "regain",
+        "recuperate",
+        "reclaim",
+        "convalesce"
+      ],
+      "antonyms": [
+        "lose",
+        "deteriorate",
+        "worsen"
+      ],
+      "domainCohort": [
+        "recuperate",
+        "convalesce"
+      ],
+      "derivationPair": [
+        "recovery"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "recovery",
     "phonetic": "/rɪ'kʌvəri/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "康复；恢复；重新获得", "en": "the process of becoming well again; the act of regaining something"},
-    "morphemes": [
-      {"canonical": "re-", "role": "prefix", "meaning": "重新", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "re", "positionTendency": "initial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "cover-", "role": "root", "meaning": "包含；覆盖", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "cover", "positionTendency": "medial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "-y", "role": "suffix", "meaning": "名词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "y", "positionTendency": "final", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "recover", "to": "recovery", "rule": "+y"}]},
+    "coreMeaning": {
+      "cn": "康复；恢复；重新获得",
+      "en": "the process of becoming well again; the act of regaining something"
+    },
+    "morphemes": [
+      {
+        "canonical": "re-",
+        "role": "prefix",
+        "meaning": "重新",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "re",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "cover-",
+        "role": "root",
+        "meaning": "包含；覆盖",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "cover",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "-y",
+        "role": "suffix",
+        "meaning": "名词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "y",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "recovery"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "recover+y → 恢复的过程或结果", "imageChain": ["痊愈", "复苏", "恢复"]},
-    "wordLevel": {"domain": ["general", "medical", "economics"], "sentiment": {"tags": ["褒义"], "intensity": 1}},
-    "relations": {"sameRoot": ["recover", "discover"], "sameAffix": [], "synonyms": ["recuperation", "rehabilitation", "restoration", "rebound"], "antonyms": ["relapse", "deterioration", "decline"], "domainCohort": ["recuperation", "rebound"], "derivationPair": ["recover"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "recover+y → 恢复的过程或结果",
+      "imageChain": [
+        "痊愈",
+        "复苏",
+        "恢复"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "medical",
+        "economics"
+      ],
+      "sentiment": {
+        "tags": [
+          "褒义"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "recover",
+        "discover"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "recuperation",
+        "rehabilitation",
+        "restoration",
+        "rebound"
+      ],
+      "antonyms": [
+        "relapse",
+        "deterioration",
+        "decline"
+      ],
+      "domainCohort": [
+        "recuperation",
+        "rebound"
+      ],
+      "derivationPair": [
+        "recover"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

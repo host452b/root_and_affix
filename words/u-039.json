@@ -2,7 +2,11 @@
   {
     "word": "upstage",
     "phonetic": "/ˌʌpˈsteɪdʒ/",
-    "pos": ["adv.", "adj.", "v."],
+    "pos": [
+      "adv.",
+      "adj.",
+      "v."
+    ],
     "coreMeaning": {
       "cn": "在舞台后部；抢走他人风头；傲慢的",
       "en": "to divert attention from someone; toward the rear of a stage; self-important"
@@ -13,7 +17,9 @@
         "role": "prefix",
         "meaning": "向上；在上方",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 1,
@@ -29,7 +35,9 @@
         "role": "root",
         "meaning": "舞台；阶段",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 2,
@@ -41,40 +49,71 @@
         }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "up + stage", "note": "舞台后部（演员向后走迫使他人背对观众）" },
-        { "form": "upstage", "note": "引申为抢风头；傲慢" }
-      ]
-    },
+    "derivationChain": [
+      "up + stage",
+      "upstage"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "imageKey": "演员抢戏",
       "scene": "舞台后部的演员走向前台，迫使主角转身背对观众——upstage就是这种抢风头的行为",
-      "emotionalHook": "被抢风头时的无奈与不甘"
+      "emotionalHook": "被抢风头时的无奈与不甘",
+      "imageChain": []
     },
     "wordLevel": {
-      "domain": ["general", "gre", "theater"],
+      "domain": [
+        "general",
+        "gre",
+        "theater"
+      ],
       "sentiment": {
-        "tags": ["消极"],
+        "tags": [
+          "消极"
+        ],
         "intensity": -1
       }
     },
     "relations": {
-      "sameRoot": ["upstart", "upstanding", "upstairs"],
-      "sameAffix": ["upgrade", "upswing", "upturn"],
-      "synonyms": ["overshadow", "outshine", "eclipse"],
-      "antonyms": ["support", "assist", "defer"],
-      "domainCohort": ["overshadow", "outshine", "eclipse"],
+      "sameRoot": [
+        "upstart",
+        "upstanding",
+        "upstairs"
+      ],
+      "sameAffix": [
+        "upgrade",
+        "upswing",
+        "upturn"
+      ],
+      "synonyms": [
+        "overshadow",
+        "outshine",
+        "eclipse"
+      ],
+      "antonyms": [
+        "support",
+        "assist",
+        "defer"
+      ],
+      "domainCohort": [
+        "overshadow",
+        "outshine",
+        "eclipse"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["overshadow", "steal the spotlight"]
+      "sameImagery": [
+        "overshadow",
+        "steal the spotlight"
+      ]
     }
   },
   {
     "word": "upstart",
     "phonetic": "/'ʌpstɑːrt/",
-    "pos": ["n.", "adj."],
+    "pos": [
+      "n.",
+      "adj."
+    ],
     "coreMeaning": {
       "cn": "暴发户；新贵；自以为是的新人",
       "en": "a person who has suddenly risen to wealth or prominence, often behaving arrogantly"
@@ -85,7 +124,9 @@
         "role": "prefix",
         "meaning": "向上；突然",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 1,
@@ -101,7 +142,9 @@
         "role": "root",
         "meaning": "跳起；开始",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 2,
@@ -113,40 +156,65 @@
         }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "up + start", "note": "突然跳起来的人" },
-        { "form": "upstart", "note": "暴发户；新贵（含贬义）" }
-      ]
-    },
+    "derivationChain": [
+      "up + start",
+      "upstart"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "imageKey": "暴发户亮相",
       "scene": "一个人突然从社会底层跳升（start up）到富贵阶层，举止傲慢——这就是upstart",
-      "emotionalHook": "对骤然发迹者的轻蔑"
+      "emotionalHook": "对骤然发迹者的轻蔑",
+      "imageChain": []
     },
     "wordLevel": {
-      "domain": ["general", "gre"],
+      "domain": [
+        "general",
+        "gre"
+      ],
       "sentiment": {
-        "tags": ["贬义"],
+        "tags": [
+          "贬义"
+        ],
         "intensity": -1
       }
     },
     "relations": {
-      "sameRoot": ["upstage", "upswing", "upturn"],
+      "sameRoot": [
+        "upstage",
+        "upswing",
+        "upturn"
+      ],
       "sameAffix": [],
-      "synonyms": ["parvenu", "nouveau riche", "arriviste"],
-      "antonyms": ["aristocrat", "old money"],
-      "domainCohort": ["parvenu", "nouveau riche", "social climber"],
+      "synonyms": [
+        "parvenu",
+        "nouveau riche",
+        "arriviste"
+      ],
+      "antonyms": [
+        "aristocrat",
+        "old money"
+      ],
+      "domainCohort": [
+        "parvenu",
+        "nouveau riche",
+        "social climber"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["parvenu", "social climber"]
+      "sameImagery": [
+        "parvenu",
+        "social climber"
+      ]
     }
   },
   {
     "word": "upsurge",
     "phonetic": "/'ʌpsɜːrdʒ/",
-    "pos": ["n.", "v."],
+    "pos": [
+      "n.",
+      "v."
+    ],
     "coreMeaning": {
       "cn": "激增；涌现；高潮",
       "en": "a sudden large increase or surge in something"
@@ -157,7 +225,9 @@
         "role": "prefix",
         "meaning": "向上；增加",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 1,
@@ -173,7 +243,9 @@
         "role": "root",
         "meaning": "涌动；激增",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 2,
@@ -185,41 +257,77 @@
         }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "L. surgere", "note": "to rise" },
-        { "form": "surge", "note": "激增；涌动" },
-        { "form": "up + surge", "note": "向上涌动 → 激增" }
-      ]
-    },
+    "derivationChain": [
+      "L. surgere",
+      "surge",
+      "up + surge"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "imageKey": "潮水涌起",
       "scene": "海浪突然向上涌起形成巨大高潮——upsurge就是这种突然大幅上升的现象",
-      "emotionalHook": "势不可挡的上升力量"
+      "emotionalHook": "势不可挡的上升力量",
+      "imageChain": []
     },
     "wordLevel": {
-      "domain": ["general", "gre", "toefl", "academic"],
+      "domain": [
+        "general",
+        "gre",
+        "toefl",
+        "academic"
+      ],
       "sentiment": {
-        "tags": ["中性"],
+        "tags": [
+          "中性"
+        ],
         "intensity": 0
       }
     },
     "relations": {
-      "sameRoot": ["surge", "insurgent", "resurgent"],
-      "sameAffix": ["upswing", "upturn", "upstart"],
-      "synonyms": ["surge", "rise", "increase", "spike"],
-      "antonyms": ["decline", "downturn", "fall", "decrease"],
-      "domainCohort": ["surge", "spike", "uptick"],
-      "derivationPair": ["surge"],
+      "sameRoot": [
+        "surge",
+        "insurgent",
+        "resurgent"
+      ],
+      "sameAffix": [
+        "upswing",
+        "upturn",
+        "upstart"
+      ],
+      "synonyms": [
+        "surge",
+        "rise",
+        "increase",
+        "spike"
+      ],
+      "antonyms": [
+        "decline",
+        "downturn",
+        "fall",
+        "decrease"
+      ],
+      "domainCohort": [
+        "surge",
+        "spike",
+        "uptick"
+      ],
+      "derivationPair": [
+        "surge"
+      ],
       "morphVariants": [],
-      "sameImagery": ["surge", "wave", "tide"]
+      "sameImagery": [
+        "surge",
+        "wave",
+        "tide"
+      ]
     }
   },
   {
     "word": "upswing",
     "phonetic": "/'ʌpswɪŋ/",
-    "pos": ["n."],
+    "pos": [
+      "n."
+    ],
     "coreMeaning": {
       "cn": "高涨；上升趋势；改善",
       "en": "an upward swing or improvement in trend, activity, or condition"
@@ -230,7 +338,9 @@
         "role": "prefix",
         "meaning": "向上；增加",
         "sentiment": {
-          "tags": ["积极"],
+          "tags": [
+            "积极"
+          ],
           "intensity": 1
         },
         "order": 1,
@@ -246,7 +356,9 @@
         "role": "root",
         "meaning": "摆动；波动",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 2,
@@ -258,39 +370,70 @@
         }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "up + swing", "note": "向上的摆动 → 上升趋势" }
-      ]
-    },
+    "derivationChain": [
+      "up + swing"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "imageKey": "图表上扬",
       "scene": "经济图表上那条向右上方弯曲的折线——upswing就是指这种向好的摆动趋势",
-      "emotionalHook": "复苏与希望的感觉"
+      "emotionalHook": "复苏与希望的感觉",
+      "imageChain": []
     },
     "wordLevel": {
-      "domain": ["business", "economics", "gre"],
+      "domain": [
+        "business",
+        "economics",
+        "gre"
+      ],
       "sentiment": {
-        "tags": ["积极"],
+        "tags": [
+          "积极"
+        ],
         "intensity": 1
       }
     },
     "relations": {
-      "sameRoot": ["swing", "swinging"],
-      "sameAffix": ["upsurge", "upturn", "upstart"],
-      "synonyms": ["upturn", "rally", "recovery", "improvement"],
-      "antonyms": ["downturn", "downswing", "decline", "slump"],
-      "domainCohort": ["upturn", "rally", "boom"],
+      "sameRoot": [
+        "swing",
+        "swinging"
+      ],
+      "sameAffix": [
+        "upsurge",
+        "upturn",
+        "upstart"
+      ],
+      "synonyms": [
+        "upturn",
+        "rally",
+        "recovery",
+        "improvement"
+      ],
+      "antonyms": [
+        "downturn",
+        "downswing",
+        "decline",
+        "slump"
+      ],
+      "domainCohort": [
+        "upturn",
+        "rally",
+        "boom"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["upturn", "rally"]
+      "sameImagery": [
+        "upturn",
+        "rally"
+      ]
     }
   },
   {
     "word": "uptick",
     "phonetic": "/'ʌptɪk/",
-    "pos": ["n."],
+    "pos": [
+      "n."
+    ],
     "coreMeaning": {
       "cn": "小幅上涨；轻微增加",
       "en": "a small increase or slight upward trend, especially in stock prices"
@@ -301,7 +444,9 @@
         "role": "prefix",
         "meaning": "向上",
         "sentiment": {
-          "tags": ["积极"],
+          "tags": [
+            "积极"
+          ],
           "intensity": 1
         },
         "order": 1,
@@ -317,7 +462,9 @@
         "role": "root",
         "meaning": "滴答声；小标记；微小单位",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 2,
@@ -329,40 +476,69 @@
         }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "tick", "note": "价格的最小变动单位" },
-        { "form": "up + tick", "note": "向上的一个刻度 → 小幅上涨" }
-      ]
-    },
+    "derivationChain": [
+      "tick",
+      "up + tick"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "imageKey": "股价上跳一格",
       "scene": "股票行情显示器上价格跳涨一个最小单位——uptick就是这种微小但积极的上涨",
-      "emotionalHook": "微小进步带来的希望感"
+      "emotionalHook": "微小进步带来的希望感",
+      "imageChain": []
     },
     "wordLevel": {
-      "domain": ["finance", "business", "news"],
+      "domain": [
+        "finance",
+        "business",
+        "news"
+      ],
       "sentiment": {
-        "tags": ["积极"],
+        "tags": [
+          "积极"
+        ],
         "intensity": 1
       }
     },
     "relations": {
-      "sameRoot": ["tick", "ticking"],
-      "sameAffix": ["upsurge", "upswing", "upturn"],
-      "synonyms": ["slight increase", "small rise", "blip"],
-      "antonyms": ["downtick", "decline", "dip"],
-      "domainCohort": ["upturn", "upswing", "spike"],
+      "sameRoot": [
+        "tick",
+        "ticking"
+      ],
+      "sameAffix": [
+        "upsurge",
+        "upswing",
+        "upturn"
+      ],
+      "synonyms": [
+        "slight increase",
+        "small rise",
+        "blip"
+      ],
+      "antonyms": [
+        "downtick",
+        "decline",
+        "dip"
+      ],
+      "domainCohort": [
+        "upturn",
+        "upswing",
+        "spike"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["blip", "nudge upward"]
+      "sameImagery": [
+        "blip",
+        "nudge upward"
+      ]
     }
   },
   {
     "word": "uptight",
     "phonetic": "/'ʌptaɪt/",
-    "pos": ["adj."],
+    "pos": [
+      "adj."
+    ],
     "coreMeaning": {
       "cn": "紧张的；焦虑的；拘谨保守的",
       "en": "nervously tense; rigidly conventional or anxious"
@@ -373,7 +549,9 @@
         "role": "prefix",
         "meaning": "向上；紧绷",
         "sentiment": {
-          "tags": ["消极"],
+          "tags": [
+            "消极"
+          ],
           "intensity": -1
         },
         "order": 1,
@@ -389,7 +567,9 @@
         "role": "root",
         "meaning": "紧；绷紧",
         "sentiment": {
-          "tags": ["消极"],
+          "tags": [
+            "消极"
+          ],
           "intensity": -1
         },
         "order": 2,
@@ -401,40 +581,72 @@
         }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "tight", "note": "紧绷的" },
-        { "form": "up + tight", "note": "全身紧绷 → 焦虑紧张的" }
-      ]
-    },
+    "derivationChain": [
+      "tight",
+      "up + tight"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "imageKey": "肌肉紧绷",
       "scene": "一个人遇到压力时全身肌肉向上绷紧，不能放松——uptight就是这种焦虑紧绷的状态",
-      "emotionalHook": "被压力锁死、无法放松的窒息感"
+      "emotionalHook": "被压力锁死、无法放松的窒息感",
+      "imageChain": []
     },
     "wordLevel": {
-      "domain": ["general", "gre"],
+      "domain": [
+        "general",
+        "gre"
+      ],
       "sentiment": {
-        "tags": ["消极"],
+        "tags": [
+          "消极"
+        ],
         "intensity": -1
       }
     },
     "relations": {
-      "sameRoot": ["tight", "tighten", "tightly"],
-      "sameAffix": ["upstart", "upstage"],
-      "synonyms": ["tense", "anxious", "nervous", "wound up", "rigid"],
-      "antonyms": ["relaxed", "calm", "easygoing", "laid-back"],
-      "domainCohort": ["tense", "anxious", "wound up"],
+      "sameRoot": [
+        "tight",
+        "tighten",
+        "tightly"
+      ],
+      "sameAffix": [
+        "upstart",
+        "upstage"
+      ],
+      "synonyms": [
+        "tense",
+        "anxious",
+        "nervous",
+        "wound up",
+        "rigid"
+      ],
+      "antonyms": [
+        "relaxed",
+        "calm",
+        "easygoing",
+        "laid-back"
+      ],
+      "domainCohort": [
+        "tense",
+        "anxious",
+        "wound up"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["wound up", "tense"]
+      "sameImagery": [
+        "wound up",
+        "tense"
+      ]
     }
   },
   {
     "word": "upturn",
     "phonetic": "/'ʌptɜːrn/",
-    "pos": ["n.", "v."],
+    "pos": [
+      "n.",
+      "v."
+    ],
     "coreMeaning": {
       "cn": "好转；上升；上扬趋势",
       "en": "an improvement or upward trend in business, economy, or fortunes"
@@ -445,7 +657,9 @@
         "role": "prefix",
         "meaning": "向上",
         "sentiment": {
-          "tags": ["积极"],
+          "tags": [
+            "积极"
+          ],
           "intensity": 1
         },
         "order": 1,
@@ -461,7 +675,9 @@
         "role": "root",
         "meaning": "转向；转变",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 2,
@@ -473,40 +689,75 @@
         }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "turn", "note": "转变" },
-        { "form": "up + turn", "note": "向上转变 → 好转" }
-      ]
-    },
+    "derivationChain": [
+      "turn",
+      "up + turn"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "imageKey": "经济好转",
       "scene": "原本下行的经济曲线突然向上转折——upturn就是这个拐点后的向好趋势",
-      "emotionalHook": "黑暗之后迎来转机的希望"
+      "emotionalHook": "黑暗之后迎来转机的希望",
+      "imageChain": []
     },
     "wordLevel": {
-      "domain": ["business", "economics", "sat"],
+      "domain": [
+        "business",
+        "economics",
+        "sat"
+      ],
       "sentiment": {
-        "tags": ["积极"],
+        "tags": [
+          "积极"
+        ],
         "intensity": 1
       }
     },
     "relations": {
-      "sameRoot": ["turn", "turnover", "overturn"],
-      "sameAffix": ["upsurge", "upswing", "uptick"],
-      "synonyms": ["improvement", "recovery", "upswing", "rally"],
-      "antonyms": ["downturn", "decline", "slump", "recession"],
-      "domainCohort": ["uptick", "upswing", "recovery"],
-      "derivationPair": ["downturn"],
+      "sameRoot": [
+        "turn",
+        "turnover",
+        "overturn"
+      ],
+      "sameAffix": [
+        "upsurge",
+        "upswing",
+        "uptick"
+      ],
+      "synonyms": [
+        "improvement",
+        "recovery",
+        "upswing",
+        "rally"
+      ],
+      "antonyms": [
+        "downturn",
+        "decline",
+        "slump",
+        "recession"
+      ],
+      "domainCohort": [
+        "uptick",
+        "upswing",
+        "recovery"
+      ],
+      "derivationPair": [
+        "downturn"
+      ],
       "morphVariants": [],
-      "sameImagery": ["recovery", "rally"]
+      "sameImagery": [
+        "recovery",
+        "rally"
+      ]
     }
   },
   {
     "word": "upward",
     "phonetic": "/'ʌpwərd/",
-    "pos": ["adv.", "adj."],
+    "pos": [
+      "adv.",
+      "adj."
+    ],
     "coreMeaning": {
       "cn": "向上；朝上方；…以上",
       "en": "toward a higher position or level; moving in a rising direction"
@@ -517,7 +768,9 @@
         "role": "prefix",
         "meaning": "向上",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 1,
@@ -533,7 +786,9 @@
         "role": "suffix",
         "meaning": "向…方向",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 2,
@@ -545,40 +800,74 @@
         }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "OE upweard", "note": "toward a higher place" },
-        { "form": "upward(s)", "note": "向上；朝更高处" }
-      ]
-    },
+    "derivationChain": [
+      "OE upweard",
+      "upward(s)"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "imageKey": "向上的箭头",
       "scene": "电梯显示屏上向上的箭头——upward就是这个简洁而明确的方向",
-      "emotionalHook": "进步与上升的方向感"
+      "emotionalHook": "进步与上升的方向感",
+      "imageChain": []
     },
     "wordLevel": {
-      "domain": ["general", "academic", "npee"],
+      "domain": [
+        "general",
+        "academic",
+        "npee"
+      ],
       "sentiment": {
-        "tags": ["中性"],
+        "tags": [
+          "中性"
+        ],
         "intensity": 0
       }
     },
     "relations": {
-      "sameRoot": ["up", "upwards"],
-      "sameAffix": ["downward", "forward", "backward", "inward", "outward"],
-      "synonyms": ["skyward", "heavenward", "ascending"],
-      "antonyms": ["downward", "descending"],
-      "domainCohort": ["forward", "skyward", "ascending"],
-      "derivationPair": ["downward"],
-      "morphVariants": ["upwards"],
-      "sameImagery": ["ascending", "skyward"]
+      "sameRoot": [
+        "up",
+        "upwards"
+      ],
+      "sameAffix": [
+        "downward",
+        "forward",
+        "backward",
+        "inward",
+        "outward"
+      ],
+      "synonyms": [
+        "skyward",
+        "heavenward",
+        "ascending"
+      ],
+      "antonyms": [
+        "downward",
+        "descending"
+      ],
+      "domainCohort": [
+        "forward",
+        "skyward",
+        "ascending"
+      ],
+      "derivationPair": [
+        "downward"
+      ],
+      "morphVariants": [
+        "upwards"
+      ],
+      "sameImagery": [
+        "ascending",
+        "skyward"
+      ]
     }
   },
   {
     "word": "urban",
     "phonetic": "/'ɜːrbən/",
-    "pos": ["adj."],
+    "pos": [
+      "adj."
+    ],
     "coreMeaning": {
       "cn": "城市的；都市的",
       "en": "of, relating to, or located in a city"
@@ -589,7 +878,9 @@
         "role": "root",
         "meaning": "城市（拉丁语 urbs）",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 1,
@@ -605,7 +896,9 @@
         "role": "suffix",
         "meaning": "…的；与…有关的",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 2,
@@ -617,41 +910,76 @@
         }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "L. urbs", "note": "city (Latin)" },
-        { "form": "urbanus", "note": "of the city" },
-        { "form": "urban", "note": "城市的" }
-      ]
-    },
+    "derivationChain": [
+      "L. urbs",
+      "urbanus",
+      "urban"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "imageKey": "城市天际线",
       "scene": "高楼林立的城市天际线——urban就是一切与城市生活相关的",
-      "emotionalHook": "繁华都市的活力与节奏"
+      "emotionalHook": "繁华都市的活力与节奏",
+      "imageChain": []
     },
     "wordLevel": {
-      "domain": ["general", "academic", "toefl", "ielts", "cet4"],
+      "domain": [
+        "general",
+        "academic",
+        "toefl",
+        "ielts",
+        "cet4"
+      ],
       "sentiment": {
-        "tags": ["中性"],
+        "tags": [
+          "中性"
+        ],
         "intensity": 0
       }
     },
     "relations": {
-      "sameRoot": ["urbane", "urbanize", "urbanization", "urbanism", "suburban"],
-      "sameAffix": ["rural", "suburban"],
-      "synonyms": ["metropolitan", "municipal", "city"],
-      "antonyms": ["rural", "suburban", "pastoral"],
-      "domainCohort": ["metropolitan", "municipal", "suburban"],
-      "derivationPair": ["rural"],
+      "sameRoot": [
+        "urbane",
+        "urbanize",
+        "urbanization",
+        "urbanism",
+        "suburban"
+      ],
+      "sameAffix": [
+        "rural",
+        "suburban"
+      ],
+      "synonyms": [
+        "metropolitan",
+        "municipal",
+        "city"
+      ],
+      "antonyms": [
+        "rural",
+        "suburban",
+        "pastoral"
+      ],
+      "domainCohort": [
+        "metropolitan",
+        "municipal",
+        "suburban"
+      ],
+      "derivationPair": [
+        "rural"
+      ],
       "morphVariants": [],
-      "sameImagery": ["metropolitan", "civic"]
+      "sameImagery": [
+        "metropolitan",
+        "civic"
+      ]
     }
   },
   {
     "word": "urbane",
     "phonetic": "/ɜːr'beɪn/",
-    "pos": ["adj."],
+    "pos": [
+      "adj."
+    ],
     "coreMeaning": {
       "cn": "彬彬有礼的；温文尔雅的；都市化的",
       "en": "polished and suave in manner; sophisticated and courteous"
@@ -662,7 +990,9 @@
         "role": "root",
         "meaning": "城市（拉丁语 urbs）",
         "sentiment": {
-          "tags": ["积极"],
+          "tags": [
+            "积极"
+          ],
           "intensity": 1
         },
         "order": 1,
@@ -678,7 +1008,9 @@
         "role": "suffix",
         "meaning": "…的（形容词后缀，源自拉丁语）",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 2,
@@ -690,40 +1022,74 @@
         }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "L. urbanus", "note": "of the city → refined, polished" },
-        { "form": "urbane", "note": "彬彬有礼的，体现城市人的修养" }
-      ]
-    },
+    "derivationChain": [
+      "L. urbanus",
+      "urbane"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "imageKey": "绅士风度",
       "scene": "一位衣冠楚楚的都市绅士，举止优雅，谈吐得体——urbane就是这种城市精英的风范",
-      "emotionalHook": "令人心悦诚服的优雅气质"
+      "emotionalHook": "令人心悦诚服的优雅气质",
+      "imageChain": []
     },
     "wordLevel": {
-      "domain": ["gre", "sat", "literary"],
+      "domain": [
+        "gre",
+        "sat",
+        "literary"
+      ],
       "sentiment": {
-        "tags": ["积极"],
+        "tags": [
+          "积极"
+        ],
         "intensity": 1
       }
     },
     "relations": {
-      "sameRoot": ["urban", "urbanity", "urbanize"],
-      "sameAffix": ["humane", "mundane"],
-      "synonyms": ["suave", "sophisticated", "polished", "refined", "debonair"],
-      "antonyms": ["boorish", "uncouth", "rustic", "gauche"],
-      "domainCohort": ["suave", "debonair", "sophisticated"],
-      "derivationPair": ["urbanity"],
+      "sameRoot": [
+        "urban",
+        "urbanity",
+        "urbanize"
+      ],
+      "sameAffix": [
+        "humane",
+        "mundane"
+      ],
+      "synonyms": [
+        "suave",
+        "sophisticated",
+        "polished",
+        "refined",
+        "debonair"
+      ],
+      "antonyms": [
+        "boorish",
+        "uncouth",
+        "rustic",
+        "gauche"
+      ],
+      "domainCohort": [
+        "suave",
+        "debonair",
+        "sophisticated"
+      ],
+      "derivationPair": [
+        "urbanity"
+      ],
       "morphVariants": [],
-      "sameImagery": ["suave", "debonair"]
+      "sameImagery": [
+        "suave",
+        "debonair"
+      ]
     }
   },
   {
     "word": "urbanization",
     "phonetic": "/ˌɜːrbənɪ'zeɪʃən/",
-    "pos": ["n."],
+    "pos": [
+      "n."
+    ],
     "coreMeaning": {
       "cn": "城市化；都市化",
       "en": "the process by which rural areas become urban centers"
@@ -734,7 +1100,9 @@
         "role": "root",
         "meaning": "城市（拉丁语 urbs）",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 1,
@@ -750,7 +1118,9 @@
         "role": "suffix",
         "meaning": "…的",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 2,
@@ -766,7 +1136,9 @@
         "role": "suffix",
         "meaning": "使变为；使…化",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 3,
@@ -782,7 +1154,9 @@
         "role": "suffix",
         "meaning": "…过程；…结果（名词化）",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 4,
@@ -794,36 +1168,69 @@
         }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "urbs (L.)", "note": "城市" },
-        { "form": "urban", "note": "城市的" },
-        { "form": "urbanize", "note": "城市化（动词）" },
-        { "form": "urbanization", "note": "城市化过程（名词）" }
-      ]
-    },
+    "derivationChain": [
+      "urbs (L.)",
+      "urban",
+      "urbanize",
+      "urbanization"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "imageKey": "农村变城市",
       "scene": "农田逐渐被高楼取代，小村庄变成繁华都市的过程——urbanization就是这个宏观转变",
-      "emotionalHook": "时代变革的宏大感"
+      "emotionalHook": "时代变革的宏大感",
+      "imageChain": []
     },
     "wordLevel": {
-      "domain": ["academic", "toefl", "ielts", "gmat"],
+      "domain": [
+        "academic",
+        "toefl",
+        "ielts",
+        "gmat"
+      ],
       "sentiment": {
-        "tags": ["中性"],
+        "tags": [
+          "中性"
+        ],
         "intensity": 0
       }
     },
     "relations": {
-      "sameRoot": ["urban", "urbane", "urbanize", "suburb"],
-      "sameAffix": ["globalization", "modernization", "industrialization"],
-      "synonyms": ["urbanisation", "city development", "metropolitan growth"],
-      "antonyms": ["ruralization", "depopulation"],
-      "domainCohort": ["modernization", "industrialization", "gentrification"],
-      "derivationPair": ["urbanize"],
-      "morphVariants": ["urbanisation"],
-      "sameImagery": ["modernization", "development"]
+      "sameRoot": [
+        "urban",
+        "urbane",
+        "urbanize",
+        "suburb"
+      ],
+      "sameAffix": [
+        "globalization",
+        "modernization",
+        "industrialization"
+      ],
+      "synonyms": [
+        "urbanisation",
+        "city development",
+        "metropolitan growth"
+      ],
+      "antonyms": [
+        "ruralization",
+        "depopulation"
+      ],
+      "domainCohort": [
+        "modernization",
+        "industrialization",
+        "gentrification"
+      ],
+      "derivationPair": [
+        "urbanize"
+      ],
+      "morphVariants": [
+        "urbanisation"
+      ],
+      "sameImagery": [
+        "modernization",
+        "development"
+      ]
     }
   }
 ]

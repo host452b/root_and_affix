@@ -3,63 +3,463 @@
     "word": "reduce",
     "phonetic": "/rɪ'djuːs/",
     "pos": "v.",
-    "coreMeaning": {"cn": "减少；缩小；还原", "en": "reduce; lessen/diminish"},
+    "coreMeaning": {
+      "cn": "减少；缩小；还原",
+      "en": "reduce; lessen/diminish"
+    },
     "morphemes": [
-      {"canonical": "re-", "role": "prefix", "meaning": "回；再次", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "re", "positionTendency": "initial", "coreMeaning": {"cn": "回", "en": "back"}},
-      {"canonical": "duc-", "role": "root", "meaning": "引导；带领", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "duce", "positionTendency": "final", "coreMeaning": {"cn": "引导", "en": "lead"}}
+      {
+        "canonical": "re-",
+        "role": "prefix",
+        "meaning": "回；再次",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "re",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "回",
+          "en": "back"
+        }
+      },
+      {
+        "canonical": "duc-",
+        "role": "root",
+        "meaning": "引导；带领",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "duce",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "引导",
+          "en": "lead"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "Latin reducere", "to": "reduce", "rule": "re(back) + ducere(lead) → bring back → make smaller"}]},
+    "derivationChain": [
+      "reduce"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "re(回)+duce(引导)→ 引导回到更小状态→减少", "imageChain": ["缩小", "减少", "简化"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["reduction", "redundant", "deduce"], "sameAffix": ["deduce", "produce"], "synonyms": ["decrease", "diminish", "lessen"], "antonyms": ["increase", "expand", "augment"], "domainCohort": ["decrease", "diminish", "curtail"], "derivationPair": ["reduction", "reductive"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "re(回)+duce(引导)→ 引导回到更小状态→减少",
+      "imageChain": [
+        "缩小",
+        "减少",
+        "简化"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "reduction",
+        "redundant",
+        "deduce"
+      ],
+      "sameAffix": [
+        "deduce",
+        "produce"
+      ],
+      "synonyms": [
+        "decrease",
+        "diminish",
+        "lessen"
+      ],
+      "antonyms": [
+        "increase",
+        "expand",
+        "augment"
+      ],
+      "domainCohort": [
+        "decrease",
+        "diminish",
+        "curtail"
+      ],
+      "derivationPair": [
+        "reduction",
+        "reductive"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "reduction",
     "phonetic": "/rɪ'dʌkʃən/",
     "pos": "n.",
-    "coreMeaning": {"cn": "减少；缩小；化简", "en": "reduction; decrease/simplification"},
+    "coreMeaning": {
+      "cn": "减少；缩小；化简",
+      "en": "reduction; decrease/simplification"
+    },
     "morphemes": [
-      {"canonical": "re-", "role": "prefix", "meaning": "回；再次", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "re", "positionTendency": "initial", "coreMeaning": {"cn": "回", "en": "back"}},
-      {"canonical": "duc-", "role": "root", "meaning": "引导", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "duct", "positionTendency": "medial", "coreMeaning": {"cn": "引导", "en": "lead"}},
-      {"canonical": "-ion", "role": "suffix", "meaning": "名词后缀", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ion", "positionTendency": "final", "coreMeaning": {"cn": "名词化", "en": "act/result"}}
+      {
+        "canonical": "re-",
+        "role": "prefix",
+        "meaning": "回；再次",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "re",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "回",
+          "en": "back"
+        }
+      },
+      {
+        "canonical": "duc-",
+        "role": "root",
+        "meaning": "引导",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "duct",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "引导",
+          "en": "lead"
+        }
+      },
+      {
+        "canonical": "-ion",
+        "role": "suffix",
+        "meaning": "名词后缀",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ion",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "名词化",
+          "en": "act/result"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "reduce + -ion", "to": "reduction", "rule": "reduce → reduction (the act of reducing)"}]},
+    "derivationChain": [
+      "reduction"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "reduct(减少)+ion→ 减少的行为→缩减", "imageChain": ["成本削减", "数量减少", "化学还原"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["reduce", "redundant", "reductive"], "sameAffix": ["production", "seduction"], "synonyms": ["decrease", "cutback", "diminution"], "antonyms": ["increase", "expansion", "growth"], "domainCohort": ["decrease", "cutback", "contraction"], "derivationPair": ["reduce"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "reduct(减少)+ion→ 减少的行为→缩减",
+      "imageChain": [
+        "成本削减",
+        "数量减少",
+        "化学还原"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "reduce",
+        "redundant",
+        "reductive"
+      ],
+      "sameAffix": [
+        "production",
+        "seduction"
+      ],
+      "synonyms": [
+        "decrease",
+        "cutback",
+        "diminution"
+      ],
+      "antonyms": [
+        "increase",
+        "expansion",
+        "growth"
+      ],
+      "domainCohort": [
+        "decrease",
+        "cutback",
+        "contraction"
+      ],
+      "derivationPair": [
+        "reduce"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "redundancy",
     "phonetic": "/rɪ'dʌndənsi/",
     "pos": "n.",
-    "coreMeaning": {"cn": "冗余；裁员；多余", "en": "redundancy; surplus/layoff"},
+    "coreMeaning": {
+      "cn": "冗余；裁员；多余",
+      "en": "redundancy; surplus/layoff"
+    },
     "morphemes": [
-      {"canonical": "re-", "role": "prefix", "meaning": "再；重复", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "re", "positionTendency": "initial", "coreMeaning": {"cn": "重复", "en": "again"}},
-      {"canonical": "und-", "role": "root", "meaning": "波浪；涌流；过量", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 2, "form": "und", "positionTendency": "medial", "coreMeaning": {"cn": "涌流", "en": "overflow"}},
-      {"canonical": "-ancy", "role": "suffix", "meaning": "名词后缀：状态", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ancy", "positionTendency": "final", "coreMeaning": {"cn": "状态", "en": "state"}}
+      {
+        "canonical": "re-",
+        "role": "prefix",
+        "meaning": "再；重复",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "re",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "重复",
+          "en": "again"
+        }
+      },
+      {
+        "canonical": "und-",
+        "role": "root",
+        "meaning": "波浪；涌流；过量",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 2,
+        "form": "und",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "涌流",
+          "en": "overflow"
+        }
+      },
+      {
+        "canonical": "-ancy",
+        "role": "suffix",
+        "meaning": "名词后缀：状态",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ancy",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "状态",
+          "en": "state"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "Latin redundare(overflow)", "to": "redundancy", "rule": "overflow → superfluous → job elimination"}]},
+    "derivationChain": [
+      "redundancy"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "re(再)+und(涌流)+ancy→ 不断溢出→多余；裁员", "imageChain": ["多余人员", "企业裁员", "冗余信息"]},
-    "wordLevel": {"domain": ["general", "business", "academic"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": ["redundant", "reduce", "abound"], "sameAffix": ["buoyancy", "relevancy"], "synonyms": ["superfluity", "excess", "layoff"], "antonyms": ["necessity", "indispensability"], "domainCohort": ["surplus", "excess", "superfluity"], "derivationPair": ["redundant"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "re(再)+und(涌流)+ancy→ 不断溢出→多余；裁员",
+      "imageChain": [
+        "多余人员",
+        "企业裁员",
+        "冗余信息"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "business",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "redundant",
+        "reduce",
+        "abound"
+      ],
+      "sameAffix": [
+        "buoyancy",
+        "relevancy"
+      ],
+      "synonyms": [
+        "superfluity",
+        "excess",
+        "layoff"
+      ],
+      "antonyms": [
+        "necessity",
+        "indispensability"
+      ],
+      "domainCohort": [
+        "surplus",
+        "excess",
+        "superfluity"
+      ],
+      "derivationPair": [
+        "redundant"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "redundant",
     "phonetic": "/rɪ'dʌndənt/",
     "pos": "adj.",
-    "coreMeaning": {"cn": "多余的；冗余的；被裁员的", "en": "redundant; superfluous/laid off"},
+    "coreMeaning": {
+      "cn": "多余的；冗余的；被裁员的",
+      "en": "redundant; superfluous/laid off"
+    },
     "morphemes": [
-      {"canonical": "re-", "role": "prefix", "meaning": "再；重复", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "re", "positionTendency": "initial", "coreMeaning": {"cn": "重复", "en": "again"}},
-      {"canonical": "und-", "role": "root", "meaning": "波浪；涌流；过量", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 2, "form": "und", "positionTendency": "medial", "coreMeaning": {"cn": "溢出", "en": "overflow"}},
-      {"canonical": "-ant", "role": "suffix", "meaning": "形容词后缀", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ant", "positionTendency": "final", "coreMeaning": {"cn": "的", "en": "having quality"}}
+      {
+        "canonical": "re-",
+        "role": "prefix",
+        "meaning": "再；重复",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "re",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "重复",
+          "en": "again"
+        }
+      },
+      {
+        "canonical": "und-",
+        "role": "root",
+        "meaning": "波浪；涌流；过量",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 2,
+        "form": "und",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "溢出",
+          "en": "overflow"
+        }
+      },
+      {
+        "canonical": "-ant",
+        "role": "suffix",
+        "meaning": "形容词后缀",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ant",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "的",
+          "en": "having quality"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "Latin redundantem", "to": "redundant", "rule": "overflow → more than enough → superfluous"}]},
+    "derivationChain": [
+      "redundant"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "re(重复)+und(溢出)+ant→ 过量溢出的→多余的", "imageChain": ["多余信息", "被裁员工", "重复内容"]},
-    "wordLevel": {"domain": ["general", "business", "academic"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": ["redundancy", "reduce"], "sameAffix": ["abundant", "abounding"], "synonyms": ["superfluous", "excessive", "unnecessary"], "antonyms": ["necessary", "essential", "vital"], "domainCohort": ["superfluous", "excessive", "surplus"], "derivationPair": ["redundancy"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "re(重复)+und(溢出)+ant→ 过量溢出的→多余的",
+      "imageChain": [
+        "多余信息",
+        "被裁员工",
+        "重复内容"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "business",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "redundancy",
+        "reduce"
+      ],
+      "sameAffix": [
+        "abundant",
+        "abounding"
+      ],
+      "synonyms": [
+        "superfluous",
+        "excessive",
+        "unnecessary"
+      ],
+      "antonyms": [
+        "necessary",
+        "essential",
+        "vital"
+      ],
+      "domainCohort": [
+        "superfluous",
+        "excessive",
+        "surplus"
+      ],
+      "derivationPair": [
+        "redundancy"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

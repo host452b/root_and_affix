@@ -2,78 +2,533 @@
   {
     "word": "suborn",
     "phonetic": "/sə'bɔːrn/",
-    "pos": ["v."],
-    "coreMeaning": {"cn": "收买；买通；唆使（做违法事）", "en": "to bribe or induce someone to commit perjury or other illegal acts"},
-    "morphemes": [
-      {"canonical": "sub-", "role": "prefix", "meaning": "在下；秘密", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "sub", "positionTendency": "initial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "orn-", "role": "root", "meaning": "装备；准备（L. ornare = to equip）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "orn", "positionTendency": "final", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "L. subornare (to secretly equip)", "to": "suborn", "rule": "借入"}]},
+    "coreMeaning": {
+      "cn": "收买；买通；唆使（做违法事）",
+      "en": "to bribe or induce someone to commit perjury or other illegal acts"
+    },
+    "morphemes": [
+      {
+        "canonical": "sub-",
+        "role": "prefix",
+        "meaning": "在下；秘密",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "sub",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "orn-",
+        "role": "root",
+        "meaning": "装备；准备（L. ornare = to equip）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "orn",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "suborn"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "sub(秘密)+orn(装备) → 秘密配备（用钱），即收买", "imageChain": ["收买", "行贿", "幕后操控"]},
-    "wordLevel": {"domain": ["legal", "academic"], "sentiment": {"tags": ["贬义"], "intensity": -2}},
-    "relations": {"sameRoot": ["subornation"], "sameAffix": [], "synonyms": ["bribe", "corrupt", "induce", "tamper with"], "antonyms": ["deter", "resist bribery"], "domainCohort": ["bribe", "corrupt"], "derivationPair": ["subornation"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "sub(秘密)+orn(装备) → 秘密配备（用钱），即收买",
+      "imageChain": [
+        "收买",
+        "行贿",
+        "幕后操控"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "legal",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "subornation"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "bribe",
+        "corrupt",
+        "induce",
+        "tamper with"
+      ],
+      "antonyms": [
+        "deter",
+        "resist bribery"
+      ],
+      "domainCohort": [
+        "bribe",
+        "corrupt"
+      ],
+      "derivationPair": [
+        "subornation"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "subpoena",
     "phonetic": "/sə'piːnə/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "传票；传唤令；传唤", "en": "a legal document ordering a person to appear in court; to issue such an order"},
-    "morphemes": [
-      {"canonical": "sub-", "role": "prefix", "meaning": "在下；臣服", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "sub", "positionTendency": "initial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "poen-", "role": "root", "meaning": "惩罚（L. poena = penalty）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "poena", "positionTendency": "final", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "L. sub poena (under penalty)", "to": "subpoena", "rule": "借入"}]},
+    "coreMeaning": {
+      "cn": "传票；传唤令；传唤",
+      "en": "a legal document ordering a person to appear in court; to issue such an order"
+    },
+    "morphemes": [
+      {
+        "canonical": "sub-",
+        "role": "prefix",
+        "meaning": "在下；臣服",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "sub",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "poen-",
+        "role": "root",
+        "meaning": "惩罚（L. poena = penalty）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "poena",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "subpoena"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "sub(在下)+poena(惩罚) → 以惩罚为威胁的传唤令", "imageChain": ["传票", "法庭", "传唤"]},
-    "wordLevel": {"domain": ["legal"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["penalty", "penal"], "sameAffix": [], "synonyms": ["summons", "writ", "court order"], "antonyms": [], "domainCohort": ["summons", "writ"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "sub(在下)+poena(惩罚) → 以惩罚为威胁的传唤令",
+      "imageChain": [
+        "传票",
+        "法庭",
+        "传唤"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "legal"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "penalty",
+        "penal"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "summons",
+        "writ",
+        "court order"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "summons",
+        "writ"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "subscribe",
     "phonetic": "/səb'skraɪb/",
-    "pos": ["v."],
-    "coreMeaning": {"cn": "订阅；订购；签署；同意", "en": "to sign up for a service; to pay regularly for; to agree with or support"},
-    "morphemes": [
-      {"canonical": "sub-", "role": "prefix", "meaning": "在下；从属", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "sub", "positionTendency": "initial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "scrib-", "role": "root", "meaning": "写（L. scribere）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "scribe", "positionTendency": "final", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "L. subscribere (to write below)", "to": "subscribe", "rule": "借入"}]},
+    "coreMeaning": {
+      "cn": "订阅；订购；签署；同意",
+      "en": "to sign up for a service; to pay regularly for; to agree with or support"
+    },
+    "morphemes": [
+      {
+        "canonical": "sub-",
+        "role": "prefix",
+        "meaning": "在下；从属",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "sub",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "scrib-",
+        "role": "root",
+        "meaning": "写（L. scribere）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "scribe",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "subscribe"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "sub(在下)+scribe(写) → 在文件下面签名，即签署同意或订阅", "imageChain": ["订阅", "签署", "支持"]},
-    "wordLevel": {"domain": ["general", "business", "tech"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["subscription", "subscriber", "inscribe", "describe", "prescribe"], "sameAffix": [], "synonyms": ["sign up", "register", "agree", "support"], "antonyms": ["unsubscribe", "cancel", "oppose"], "domainCohort": ["sign up", "register"], "derivationPair": ["subscription"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "sub(在下)+scribe(写) → 在文件下面签名，即签署同意或订阅",
+      "imageChain": [
+        "订阅",
+        "签署",
+        "支持"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "business",
+        "tech"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "subscription",
+        "subscriber",
+        "inscribe",
+        "describe",
+        "prescribe"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "sign up",
+        "register",
+        "agree",
+        "support"
+      ],
+      "antonyms": [
+        "unsubscribe",
+        "cancel",
+        "oppose"
+      ],
+      "domainCohort": [
+        "sign up",
+        "register"
+      ],
+      "derivationPair": [
+        "subscription"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "subscription",
     "phonetic": "/səb'skrɪpʃən/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "订阅；订购；定期费用；签署", "en": "an arrangement to receive something regularly by payment; the act of signing"},
-    "morphemes": [
-      {"canonical": "sub-", "role": "prefix", "meaning": "在下", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "sub", "positionTendency": "initial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "scrib-", "role": "root", "meaning": "写", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "scrip", "positionTendency": "medial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "-ion", "role": "suffix", "meaning": "名词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "tion", "positionTendency": "final", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "subscribe", "to": "subscription", "rule": "+ion"}]},
+    "coreMeaning": {
+      "cn": "订阅；订购；定期费用；签署",
+      "en": "an arrangement to receive something regularly by payment; the act of signing"
+    },
+    "morphemes": [
+      {
+        "canonical": "sub-",
+        "role": "prefix",
+        "meaning": "在下",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "sub",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "scrib-",
+        "role": "root",
+        "meaning": "写",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "scrip",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "-ion",
+        "role": "suffix",
+        "meaning": "名词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "tion",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "subscription"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "subscribe+ion → 签署订阅的行为或费用", "imageChain": ["订阅费", "会员", "定期服务"]},
-    "wordLevel": {"domain": ["general", "business", "tech"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["subscribe", "subscriber"], "sameAffix": [], "synonyms": ["membership", "registration", "enrollment"], "antonyms": ["cancellation", "unsubscription"], "domainCohort": ["membership", "plan"], "derivationPair": ["subscribe"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "subscribe+ion → 签署订阅的行为或费用",
+      "imageChain": [
+        "订阅费",
+        "会员",
+        "定期服务"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "business",
+        "tech"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "subscribe",
+        "subscriber"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "membership",
+        "registration",
+        "enrollment"
+      ],
+      "antonyms": [
+        "cancellation",
+        "unsubscription"
+      ],
+      "domainCohort": [
+        "membership",
+        "plan"
+      ],
+      "derivationPair": [
+        "subscribe"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "subsequent",
     "phonetic": "/'sʌbsɪkwənt/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "随后的；后来的；其次的", "en": "coming after or following; occurring later"},
-    "morphemes": [
-      {"canonical": "sub-", "role": "prefix", "meaning": "在下；跟随", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "sub", "positionTendency": "initial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "sequ-", "role": "root", "meaning": "跟随（L. sequi）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "sequ", "positionTendency": "medial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "-ent", "role": "suffix", "meaning": "形容词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ent", "positionTendency": "final", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "L. subsequens (following after)", "to": "subsequent", "rule": "借入"}]},
+    "coreMeaning": {
+      "cn": "随后的；后来的；其次的",
+      "en": "coming after or following; occurring later"
+    },
+    "morphemes": [
+      {
+        "canonical": "sub-",
+        "role": "prefix",
+        "meaning": "在下；跟随",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "sub",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "sequ-",
+        "role": "root",
+        "meaning": "跟随（L. sequi）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "sequ",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "-ent",
+        "role": "suffix",
+        "meaning": "形容词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ent",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "subsequent"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "sub(跟随)+sequent(顺序) → 在后面跟随的，随后发生的", "imageChain": ["随后", "后来", "接下来"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["sequence", "consequence", "sequel"], "sameAffix": [], "synonyms": ["following", "later", "ensuing", "successive"], "antonyms": ["prior", "previous", "preceding", "antecedent"], "domainCohort": ["following", "succeeding"], "derivationPair": ["subsequently"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "sub(跟随)+sequent(顺序) → 在后面跟随的，随后发生的",
+      "imageChain": [
+        "随后",
+        "后来",
+        "接下来"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "sequence",
+        "consequence",
+        "sequel"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "following",
+        "later",
+        "ensuing",
+        "successive"
+      ],
+      "antonyms": [
+        "prior",
+        "previous",
+        "preceding",
+        "antecedent"
+      ],
+      "domainCohort": [
+        "following",
+        "succeeding"
+      ],
+      "derivationPair": [
+        "subsequently"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

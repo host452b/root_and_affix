@@ -3,217 +3,1434 @@
     "word": "preserve",
     "phonetic": "/prɪ'zɜːrv/",
     "pos": "v./n.",
-    "coreMeaning": {"cn": "保存；保护；维持；腌制", "en": "to protect from harm; to keep food for long-term use"},
+    "coreMeaning": {
+      "cn": "保存；保护；维持；腌制",
+      "en": "to protect from harm; to keep food for long-term use"
+    },
     "morphemes": [
-      {"canonical": "pre-", "role": "prefix", "meaning": "预先；事先", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": {"cn": "预先", "en": "before"}},
-      {"canonical": "serv-", "role": "root", "meaning": "保留；服务", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "serve", "positionTendency": "final", "coreMeaning": {"cn": "保留", "en": "keep/serve"}}
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "预先；事先",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "预先",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "serv-",
+        "role": "root",
+        "meaning": "保留；服务",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "serve",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "保留",
+          "en": "keep/serve"
+        }
+      }
     ],
-    "derivationChain": {"steps": []},
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "pre+serve → 预先保存/维护", "imageChain": ["保护", "腌制", "保存"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["preserved", "preserver", "preserves", "preserving", "preservatives"], "sameAffix": ["conserve", "reserve"], "synonyms": ["protect", "maintain", "conserve"], "antonyms": ["destroy", "ruin"], "domainCohort": ["conservation", "food"], "derivationPair": ["preservative"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "pre+serve → 预先保存/维护",
+      "imageChain": [
+        "保护",
+        "腌制",
+        "保存"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "preserved",
+        "preserver",
+        "preserves",
+        "preserving",
+        "preservatives"
+      ],
+      "sameAffix": [
+        "conserve",
+        "reserve"
+      ],
+      "synonyms": [
+        "protect",
+        "maintain",
+        "conserve"
+      ],
+      "antonyms": [
+        "destroy",
+        "ruin"
+      ],
+      "domainCohort": [
+        "conservation",
+        "food"
+      ],
+      "derivationPair": [
+        "preservative"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "preserved",
     "phonetic": "/prɪ'zɜːrvd/",
     "pos": "v./adj.",
-    "coreMeaning": {"cn": "被保存的；腌制的", "en": "kept in good condition; kept through preserving"},
+    "coreMeaning": {
+      "cn": "被保存的；腌制的",
+      "en": "kept in good condition; kept through preserving"
+    },
     "morphemes": [
-      {"canonical": "pre-", "role": "prefix", "meaning": "预先", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": {"cn": "预先", "en": "before"}},
-      {"canonical": "serv-", "role": "root", "meaning": "保留", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "serv", "positionTendency": "medial", "coreMeaning": {"cn": "保留", "en": "keep"}},
-      {"canonical": "-ed", "role": "suffix", "meaning": "过去式/形容词", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ed", "positionTendency": "final", "coreMeaning": {"cn": "形容词后缀", "en": "past/adj"}}
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "预先",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "预先",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "serv-",
+        "role": "root",
+        "meaning": "保留",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "serv",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "保留",
+          "en": "keep"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "meaning": "过去式/形容词",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ed",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "形容词后缀",
+          "en": "past/adj"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "preserve", "to": "preserved", "by": "-ed"}]},
+    "derivationChain": [
+      "preserved"
+    ],
     "morphVariantOf": "preserve",
-    "memorySemantics": {"mnemonicExpr": "preserve过去式 → 已被保存", "imageChain": ["腌制", "保存", "历史"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["preserve", "preserving"], "sameAffix": [], "synonyms": ["conserved", "kept"], "antonyms": ["destroyed"], "domainCohort": [], "derivationPair": ["preserve"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "preserve过去式 → 已被保存",
+      "imageChain": [
+        "腌制",
+        "保存",
+        "历史"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "preserve",
+        "preserving"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "conserved",
+        "kept"
+      ],
+      "antonyms": [
+        "destroyed"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "preserve"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "preserver",
     "phonetic": "/prɪ'zɜːrvər/",
     "pos": "n.",
-    "coreMeaning": {"cn": "保存者；救生衣", "en": "one who preserves; a life preserver"},
+    "coreMeaning": {
+      "cn": "保存者；救生衣",
+      "en": "one who preserves; a life preserver"
+    },
     "morphemes": [
-      {"canonical": "pre-", "role": "prefix", "meaning": "预先", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": {"cn": "预先", "en": "before"}},
-      {"canonical": "serv-", "role": "root", "meaning": "保留", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "serv", "positionTendency": "medial", "coreMeaning": {"cn": "保留", "en": "keep"}},
-      {"canonical": "-er", "role": "suffix", "meaning": "人/物", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "er", "positionTendency": "final", "coreMeaning": {"cn": "人/物", "en": "one who"}}
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "预先",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "预先",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "serv-",
+        "role": "root",
+        "meaning": "保留",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "serv",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "保留",
+          "en": "keep"
+        }
+      },
+      {
+        "canonical": "-er",
+        "role": "suffix",
+        "meaning": "人/物",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "er",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "人/物",
+          "en": "one who"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "preserve", "to": "preserver", "by": "-er"}]},
+    "derivationChain": [
+      "preserver"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "preserve+er → 保存者/救生设备", "imageChain": ["救生圈", "保护", "保存者"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["preserve", "preserved"], "sameAffix": [], "synonyms": ["conservator", "life preserver"], "antonyms": [], "domainCohort": [], "derivationPair": ["preserve"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "preserve+er → 保存者/救生设备",
+      "imageChain": [
+        "救生圈",
+        "保护",
+        "保存者"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "preserve",
+        "preserved"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "conservator",
+        "life preserver"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "preserve"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "preset",
     "phonetic": "/'priːset/",
     "pos": "v./adj./n.",
-    "coreMeaning": {"cn": "预设；事先调整好的", "en": "to set in advance; adjusted beforehand"},
+    "coreMeaning": {
+      "cn": "预设；事先调整好的",
+      "en": "to set in advance; adjusted beforehand"
+    },
     "morphemes": [
-      {"canonical": "pre-", "role": "prefix", "meaning": "预先", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": {"cn": "预先", "en": "before"}},
-      {"canonical": "set", "role": "root", "meaning": "设置", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "set", "positionTendency": "final", "coreMeaning": {"cn": "设置", "en": "set"}}
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "预先",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "预先",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "set",
+        "role": "root",
+        "meaning": "设置",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "set",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "设置",
+          "en": "set"
+        }
+      }
     ],
-    "derivationChain": {"steps": []},
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "pre+set → 预先设置好的", "imageChain": ["预设", "配置", "程序"]},
-    "wordLevel": {"domain": ["tech", "general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["presets", "presetting"], "sameAffix": ["predefine", "preconfigure"], "synonyms": ["preconfigure", "predetermine"], "antonyms": [], "domainCohort": ["settings", "configuration"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "pre+set → 预先设置好的",
+      "imageChain": [
+        "预设",
+        "配置",
+        "程序"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "tech",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "presets",
+        "presetting"
+      ],
+      "sameAffix": [
+        "predefine",
+        "preconfigure"
+      ],
+      "synonyms": [
+        "preconfigure",
+        "predetermine"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "settings",
+        "configuration"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "preside",
     "phonetic": "/prɪ'zaɪd/",
     "pos": "v.",
-    "coreMeaning": {"cn": "担任主席；主持；掌管", "en": "to be in charge; to chair a meeting"},
+    "coreMeaning": {
+      "cn": "担任主席；主持；掌管",
+      "en": "to be in charge; to chair a meeting"
+    },
     "morphemes": [
-      {"canonical": "pre-", "role": "prefix", "meaning": "在前；在上", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": {"cn": "在前", "en": "before/over"}},
-      {"canonical": "sid-", "role": "root", "meaning": "坐；居住", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "side", "positionTendency": "final", "coreMeaning": {"cn": "坐", "en": "sit"}}
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "在前；在上",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "在前",
+          "en": "before/over"
+        }
+      },
+      {
+        "canonical": "sid-",
+        "role": "root",
+        "meaning": "坐；居住",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "side",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "坐",
+          "en": "sit"
+        }
+      }
     ],
-    "derivationChain": {"steps": []},
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "pre(前)+side(坐) → 坐在前面主持", "imageChain": ["主席", "主持", "领导"]},
-    "wordLevel": {"domain": ["general", "legal"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["presided", "presides", "presiding", "president", "presidency"], "sameAffix": [], "synonyms": ["chair", "head", "direct"], "antonyms": [], "domainCohort": ["meeting", "leadership"], "derivationPair": ["president", "presidency"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "pre(前)+side(坐) → 坐在前面主持",
+      "imageChain": [
+        "主席",
+        "主持",
+        "领导"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "legal"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "presided",
+        "presides",
+        "presiding",
+        "president",
+        "presidency"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "chair",
+        "head",
+        "direct"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "meeting",
+        "leadership"
+      ],
+      "derivationPair": [
+        "president",
+        "presidency"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "presidency",
     "phonetic": "/'prɛzɪdənsi/",
     "pos": "n.",
-    "coreMeaning": {"cn": "总统任期；主席职位", "en": "the office or term of a president"},
+    "coreMeaning": {
+      "cn": "总统任期；主席职位",
+      "en": "the office or term of a president"
+    },
     "morphemes": [
-      {"canonical": "pre-", "role": "prefix", "meaning": "在前", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": {"cn": "在前", "en": "before"}},
-      {"canonical": "sid-", "role": "root", "meaning": "坐；居住", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "sid", "positionTendency": "medial", "coreMeaning": {"cn": "坐", "en": "sit"}},
-      {"canonical": "-ency", "role": "suffix", "meaning": "状态；职位", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ency", "positionTendency": "final", "coreMeaning": {"cn": "职位", "en": "state/office"}}
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "在前",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "在前",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "sid-",
+        "role": "root",
+        "meaning": "坐；居住",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "sid",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "坐",
+          "en": "sit"
+        }
+      },
+      {
+        "canonical": "-ency",
+        "role": "suffix",
+        "meaning": "状态；职位",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ency",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "职位",
+          "en": "state/office"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "president", "to": "presidency", "by": "-cy"}]},
+    "derivationChain": [
+      "presidency"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "presid+ency → 总统职位/任期", "imageChain": ["总统", "白宫", "任期"]},
-    "wordLevel": {"domain": ["news", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["president", "preside", "presidential"], "sameAffix": [], "synonyms": ["administration", "term of office"], "antonyms": [], "domainCohort": ["politics", "government"], "derivationPair": ["president"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "presid+ency → 总统职位/任期",
+      "imageChain": [
+        "总统",
+        "白宫",
+        "任期"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "news",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "president",
+        "preside",
+        "presidential"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "administration",
+        "term of office"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "politics",
+        "government"
+      ],
+      "derivationPair": [
+        "president"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "president",
     "phonetic": "/'prɛzɪdənt/",
     "pos": "n.",
-    "coreMeaning": {"cn": "总统；主席；总裁；校长", "en": "the head of a country, organization, or institution"},
+    "coreMeaning": {
+      "cn": "总统；主席；总裁；校长",
+      "en": "the head of a country, organization, or institution"
+    },
     "morphemes": [
-      {"canonical": "pre-", "role": "prefix", "meaning": "在前", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": {"cn": "在前", "en": "before"}},
-      {"canonical": "sid-", "role": "root", "meaning": "坐", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "sid", "positionTendency": "medial", "coreMeaning": {"cn": "坐", "en": "sit"}},
-      {"canonical": "-ent", "role": "suffix", "meaning": "人；状态", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ent", "positionTendency": "final", "coreMeaning": {"cn": "人", "en": "one who"}}
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "在前",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "在前",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "sid-",
+        "role": "root",
+        "meaning": "坐",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "sid",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "坐",
+          "en": "sit"
+        }
+      },
+      {
+        "canonical": "-ent",
+        "role": "suffix",
+        "meaning": "人；状态",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ent",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "人",
+          "en": "one who"
+        }
+      }
     ],
-    "derivationChain": {"steps": []},
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "presid+ent → 在前面坐的人=主席/总统", "imageChain": ["总统", "领导", "主席"]},
-    "wordLevel": {"domain": ["general", "news", "business"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["presidency", "presidential", "presidents", "preside"], "sameAffix": ["student", "resident"], "synonyms": ["head", "chief", "leader"], "antonyms": [], "domainCohort": ["government", "politics"], "derivationPair": ["presidential", "presidency"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "presid+ent → 在前面坐的人=主席/总统",
+      "imageChain": [
+        "总统",
+        "领导",
+        "主席"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "news",
+        "business"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "presidency",
+        "presidential",
+        "presidents",
+        "preside"
+      ],
+      "sameAffix": [
+        "student",
+        "resident"
+      ],
+      "synonyms": [
+        "head",
+        "chief",
+        "leader"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "government",
+        "politics"
+      ],
+      "derivationPair": [
+        "presidential",
+        "presidency"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "presidential",
     "phonetic": "/ˌprɛzɪ'dɛnʃəl/",
     "pos": "adj.",
-    "coreMeaning": {"cn": "总统的；主席的", "en": "relating to a president"},
+    "coreMeaning": {
+      "cn": "总统的；主席的",
+      "en": "relating to a president"
+    },
     "morphemes": [
-      {"canonical": "pre-", "role": "prefix", "meaning": "在前", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "pre", "positionTendency": "initial", "coreMeaning": {"cn": "在前", "en": "before"}},
-      {"canonical": "sid-", "role": "root", "meaning": "坐", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "sid", "positionTendency": "medial", "coreMeaning": {"cn": "坐", "en": "sit"}},
-      {"canonical": "-ent", "role": "suffix", "meaning": "人", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ent", "positionTendency": "medial", "coreMeaning": {"cn": "人", "en": "one who"}},
-      {"canonical": "-al", "role": "suffix", "meaning": "…的", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 4, "form": "ial", "positionTendency": "final", "coreMeaning": {"cn": "…的", "en": "relating to"}}
+      {
+        "canonical": "pre-",
+        "role": "prefix",
+        "meaning": "在前",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pre",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "在前",
+          "en": "before"
+        }
+      },
+      {
+        "canonical": "sid-",
+        "role": "root",
+        "meaning": "坐",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "sid",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "坐",
+          "en": "sit"
+        }
+      },
+      {
+        "canonical": "-ent",
+        "role": "suffix",
+        "meaning": "人",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ent",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "人",
+          "en": "one who"
+        }
+      },
+      {
+        "canonical": "-al",
+        "role": "suffix",
+        "meaning": "…的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 4,
+        "form": "ial",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "…的",
+          "en": "relating to"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "president", "to": "presidential", "by": "-ial"}]},
+    "derivationChain": [
+      "presidential"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "president+ial → 总统的/总统级的", "imageChain": ["总统", "选举", "政治"]},
-    "wordLevel": {"domain": ["news", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["president", "presidency"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["election", "politics"], "derivationPair": ["president"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "president+ial → 总统的/总统级的",
+      "imageChain": [
+        "总统",
+        "选举",
+        "政治"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "news",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "president",
+        "presidency"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "election",
+        "politics"
+      ],
+      "derivationPair": [
+        "president"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "press",
     "phonetic": "/prɛs/",
     "pos": "v./n.",
-    "coreMeaning": {"cn": "压；按；催促；新闻界", "en": "to push firmly; to urge; newspapers and journalism"},
+    "coreMeaning": {
+      "cn": "压；按；催促；新闻界",
+      "en": "to push firmly; to urge; newspapers and journalism"
+    },
     "morphemes": [
-      {"canonical": "press", "role": "root", "meaning": "压；按", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "press", "positionTendency": "medial", "coreMeaning": {"cn": "压/按", "en": "press"}}
+      {
+        "canonical": "press",
+        "role": "root",
+        "meaning": "压；按",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "press",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "压/按",
+          "en": "press"
+        }
+      }
     ],
-    "derivationChain": {"steps": []},
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "press → 压/按/新闻界", "imageChain": ["印刷机", "新闻", "压力"]},
-    "wordLevel": {"domain": ["general", "news", "business"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["pressed", "pressing", "presses", "pressure", "pressurize"], "sameAffix": [], "synonyms": ["push", "depress", "urge"], "antonyms": [], "domainCohort": ["media", "journalism"], "derivationPair": ["pressure", "pressing"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "press → 压/按/新闻界",
+      "imageChain": [
+        "印刷机",
+        "新闻",
+        "压力"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "news",
+        "business"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "pressed",
+        "pressing",
+        "presses",
+        "pressure",
+        "pressurize"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "push",
+        "depress",
+        "urge"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "media",
+        "journalism"
+      ],
+      "derivationPair": [
+        "pressure",
+        "pressing"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "pressing",
     "phonetic": "/'prɛsɪŋ/",
     "pos": "adj./n.",
-    "coreMeaning": {"cn": "紧迫的；迫切的；压制", "en": "requiring immediate action; urgent"},
+    "coreMeaning": {
+      "cn": "紧迫的；迫切的；压制",
+      "en": "requiring immediate action; urgent"
+    },
     "morphemes": [
-      {"canonical": "press", "role": "root", "meaning": "压；催促", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "press", "positionTendency": "initial", "coreMeaning": {"cn": "催促", "en": "press"}},
-      {"canonical": "-ing", "role": "suffix", "meaning": "形容词/名词", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ing", "positionTendency": "final", "coreMeaning": {"cn": "形容词后缀", "en": "adj/gerund"}}
+      {
+        "canonical": "press",
+        "role": "root",
+        "meaning": "压；催促",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "press",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "催促",
+          "en": "press"
+        }
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "meaning": "形容词/名词",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ing",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "形容词后缀",
+          "en": "adj/gerund"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "press", "to": "pressing", "by": "-ing"}]},
+    "derivationChain": [
+      "pressing"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "press+ing → 紧迫的/催人的", "imageChain": ["紧迫", "催促", "压力"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": ["press", "pressure"], "sameAffix": [], "synonyms": ["urgent", "critical", "crucial"], "antonyms": ["unimportant", "trivial"], "domainCohort": [], "derivationPair": ["press"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "press+ing → 紧迫的/催人的",
+      "imageChain": [
+        "紧迫",
+        "催促",
+        "压力"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "press",
+        "pressure"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "urgent",
+        "critical",
+        "crucial"
+      ],
+      "antonyms": [
+        "unimportant",
+        "trivial"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "press"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "pressure",
     "phonetic": "/'prɛʃər/",
     "pos": "n./v.",
-    "coreMeaning": {"cn": "压力；压迫；压强", "en": "continuous pressing force; mental stress"},
+    "coreMeaning": {
+      "cn": "压力；压迫；压强",
+      "en": "continuous pressing force; mental stress"
+    },
     "morphemes": [
-      {"canonical": "press", "role": "root", "meaning": "压", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "press", "positionTendency": "initial", "coreMeaning": {"cn": "压", "en": "press"}},
-      {"canonical": "-ure", "role": "suffix", "meaning": "名词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ure", "positionTendency": "final", "coreMeaning": {"cn": "名词化", "en": "noun suffix"}}
+      {
+        "canonical": "press",
+        "role": "root",
+        "meaning": "压",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "press",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "压",
+          "en": "press"
+        }
+      },
+      {
+        "canonical": "-ure",
+        "role": "suffix",
+        "meaning": "名词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ure",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "名词化",
+          "en": "noun suffix"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "press", "to": "pressure", "by": "-ure"}]},
+    "derivationChain": [
+      "pressure"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "press+ure → 持续压力", "imageChain": ["压力", "紧张", "压强"]},
-    "wordLevel": {"domain": ["general", "academic", "business"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": ["press", "pressurize", "pressured", "pressures"], "sameAffix": [], "synonyms": ["stress", "strain", "force"], "antonyms": ["relief"], "domainCohort": ["physics", "psychology"], "derivationPair": ["pressurize"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "press+ure → 持续压力",
+      "imageChain": [
+        "压力",
+        "紧张",
+        "压强"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic",
+        "business"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "press",
+        "pressurize",
+        "pressured",
+        "pressures"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "stress",
+        "strain",
+        "force"
+      ],
+      "antonyms": [
+        "relief"
+      ],
+      "domainCohort": [
+        "physics",
+        "psychology"
+      ],
+      "derivationPair": [
+        "pressurize"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "pressurize",
     "phonetic": "/'prɛʃəraɪz/",
     "pos": "v.",
-    "coreMeaning": {"cn": "加压；施加压力", "en": "to maintain pressure in an enclosed space; to coerce"},
+    "coreMeaning": {
+      "cn": "加压；施加压力",
+      "en": "to maintain pressure in an enclosed space; to coerce"
+    },
     "morphemes": [
-      {"canonical": "press", "role": "root", "meaning": "压", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "pressur", "positionTendency": "initial", "coreMeaning": {"cn": "压", "en": "press"}},
-      {"canonical": "-ize", "role": "suffix", "meaning": "使…化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ize", "positionTendency": "final", "coreMeaning": {"cn": "使…化", "en": "to make"}}
+      {
+        "canonical": "press",
+        "role": "root",
+        "meaning": "压",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pressur",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "压",
+          "en": "press"
+        }
+      },
+      {
+        "canonical": "-ize",
+        "role": "suffix",
+        "meaning": "使…化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ize",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "使…化",
+          "en": "to make"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "pressure", "to": "pressurize", "by": "-ize"}]},
+    "derivationChain": [
+      "pressurize"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "pressure+ize → 使加压/施压", "imageChain": ["加压", "舱室", "胁迫"]},
-    "wordLevel": {"domain": ["general", "tech"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": ["pressure", "press", "pressurized", "pressurization"], "sameAffix": [], "synonyms": ["compress", "coerce"], "antonyms": ["depressurize"], "domainCohort": ["aviation", "physics"], "derivationPair": ["pressure"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "pressure+ize → 使加压/施压",
+      "imageChain": [
+        "加压",
+        "舱室",
+        "胁迫"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "tech"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "pressure",
+        "press",
+        "pressurized",
+        "pressurization"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "compress",
+        "coerce"
+      ],
+      "antonyms": [
+        "depressurize"
+      ],
+      "domainCohort": [
+        "aviation",
+        "physics"
+      ],
+      "derivationPair": [
+        "pressure"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "pressurized",
     "phonetic": "/'prɛʃəraɪzd/",
     "pos": "adj.",
-    "coreMeaning": {"cn": "加压的；有压力的", "en": "maintained at higher than atmospheric pressure"},
+    "coreMeaning": {
+      "cn": "加压的；有压力的",
+      "en": "maintained at higher than atmospheric pressure"
+    },
     "morphemes": [
-      {"canonical": "press", "role": "root", "meaning": "压", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "pressur", "positionTendency": "initial", "coreMeaning": {"cn": "压", "en": "press"}},
-      {"canonical": "-ize", "role": "suffix", "meaning": "使…化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "iz", "positionTendency": "medial", "coreMeaning": {"cn": "使…化", "en": "to make"}},
-      {"canonical": "-ed", "role": "suffix", "meaning": "形容词", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ed", "positionTendency": "final", "coreMeaning": {"cn": "形容词后缀", "en": "adj suffix"}}
+      {
+        "canonical": "press",
+        "role": "root",
+        "meaning": "压",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pressur",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "压",
+          "en": "press"
+        }
+      },
+      {
+        "canonical": "-ize",
+        "role": "suffix",
+        "meaning": "使…化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "iz",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "使…化",
+          "en": "to make"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "meaning": "形容词",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ed",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "形容词后缀",
+          "en": "adj suffix"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "pressurize", "to": "pressurized", "by": "-ed"}]},
+    "derivationChain": [
+      "pressurized"
+    ],
     "morphVariantOf": "pressurize",
-    "memorySemantics": {"mnemonicExpr": "pressurize过去式/形容词", "imageChain": ["密封舱", "加压", "飞机"]},
-    "wordLevel": {"domain": ["tech", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["pressurize", "pressure"], "sameAffix": [], "synonyms": [], "antonyms": ["depressurized"], "domainCohort": ["aviation", "engineering"], "derivationPair": ["pressurize"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "pressurize过去式/形容词",
+      "imageChain": [
+        "密封舱",
+        "加压",
+        "飞机"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "tech",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "pressurize",
+        "pressure"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [
+        "depressurized"
+      ],
+      "domainCohort": [
+        "aviation",
+        "engineering"
+      ],
+      "derivationPair": [
+        "pressurize"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "pressurization",
     "phonetic": "/ˌprɛʃərɪ'zeɪʃn/",
     "pos": "n.",
-    "coreMeaning": {"cn": "加压；增压", "en": "the act of pressurizing"},
+    "coreMeaning": {
+      "cn": "加压；增压",
+      "en": "the act of pressurizing"
+    },
     "morphemes": [
-      {"canonical": "press", "role": "root", "meaning": "压", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "pressur", "positionTendency": "initial", "coreMeaning": {"cn": "压", "en": "press"}},
-      {"canonical": "-ize", "role": "suffix", "meaning": "使…化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "iz", "positionTendency": "medial", "coreMeaning": {"cn": "使…化", "en": "to make"}},
-      {"canonical": "-ation", "role": "suffix", "meaning": "名词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ation", "positionTendency": "final", "coreMeaning": {"cn": "名词化", "en": "process/act"}}
+      {
+        "canonical": "press",
+        "role": "root",
+        "meaning": "压",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pressur",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "压",
+          "en": "press"
+        }
+      },
+      {
+        "canonical": "-ize",
+        "role": "suffix",
+        "meaning": "使…化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "iz",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "使…化",
+          "en": "to make"
+        }
+      },
+      {
+        "canonical": "-ation",
+        "role": "suffix",
+        "meaning": "名词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ation",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "名词化",
+          "en": "process/act"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "pressurize", "to": "pressurization", "by": "-ation"}]},
+    "derivationChain": [
+      "pressurization"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "pressurize+ation → 加压的过程", "imageChain": ["加压", "过程", "工程"]},
-    "wordLevel": {"domain": ["tech", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["pressurize", "pressure"], "sameAffix": [], "synonyms": [], "antonyms": ["depressurization"], "domainCohort": ["aviation", "engineering"], "derivationPair": ["pressurize"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "pressurize+ation → 加压的过程",
+      "imageChain": [
+        "加压",
+        "过程",
+        "工程"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "tech",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "pressurize",
+        "pressure"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [
+        "depressurization"
+      ],
+      "domainCohort": [
+        "aviation",
+        "engineering"
+      ],
+      "derivationPair": [
+        "pressurize"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

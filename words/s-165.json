@@ -2,76 +2,497 @@
   {
     "word": "statesman",
     "phonetic": "/'stetsmən/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "政治家", "en": "a skilled, experienced, and respected political leader or figure"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "initial", "canonical": "state", "meaning": "condition; political body (L status)", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "states", "coreMeaning": {"cn": "", "en": ""}},
-      {"role": "root", "positionTendency": "final", "canonical": "man", "meaning": "a person who works in", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "man", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "state + man", "to": "statesman", "rule": "state(political body) + man → a man of the state; a politician"}]},
+    "coreMeaning": {
+      "cn": "政治家",
+      "en": "a skilled, experienced, and respected political leader or figure"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "initial",
+        "canonical": "state",
+        "meaning": "condition; political body (L status)",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "states",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "final",
+        "canonical": "man",
+        "meaning": "a person who works in",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "man",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "statesman"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "state(nation) + man = one who handles state/nation affairs", "imageChain": ["政治家", "国家领袖", "外交家"], "mnemonicExpr": "elder statesman → 德高望重的政治元老"},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 1}, "domain": ["general", "academic"], "formality": "formal"},
-    "relations": {"sameRoot": ["statesmanship", "state", "status"], "sameAffix": [], "synonyms": ["politician", "diplomat", "leader"], "antonyms": [], "domainCohort": [], "derivationPair": ["statesmanship"], "morphVariants": ["stateswoman", "statesperson"], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "state(nation) + man = one who handles state/nation affairs",
+      "imageChain": [
+        "政治家",
+        "国家领袖",
+        "外交家"
+      ],
+      "mnemonicExpr": "elder statesman → 德高望重的政治元老"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "statesmanship",
+        "state",
+        "status"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "politician",
+        "diplomat",
+        "leader"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "statesmanship"
+      ],
+      "morphVariants": [
+        "stateswoman",
+        "statesperson"
+      ],
+      "sameImagery": []
+    }
   },
   {
     "word": "static",
     "phonetic": "/'stætɪk/",
-    "pos": ["adj.", "n."],
-    "coreMeaning": {"cn": "静态的；静止的；静电", "en": "lacking in movement, action, or change; crackling electrical interference"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "initial", "canonical": "stat", "meaning": "to stand; to be fixed (L stare)", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "stat", "coreMeaning": {"cn": "", "en": ""}},
-      {"role": "suffix", "positionTendency": "final", "canonical": "-ic", "meaning": "relating to", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ic", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "adj.",
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "Gk statikos", "to": "static", "rule": "stat(stand) + -ic → causing to stand still; not moving"}]},
+    "coreMeaning": {
+      "cn": "静态的；静止的；静电",
+      "en": "lacking in movement, action, or change; crackling electrical interference"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "initial",
+        "canonical": "stat",
+        "meaning": "to stand; to be fixed (L stare)",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "stat",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "final",
+        "canonical": "-ic",
+        "meaning": "relating to",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ic",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "static"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "stat(stand) + ic = pertaining to standing/fixed; not changing", "imageChain": ["静止", "静态", "静电"], "mnemonicExpr": "static website / static electricity → 静态网站 / 静电"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "tech", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": ["status", "statue", "station", "stationary"], "sameAffix": [], "synonyms": ["stationary", "fixed", "unchanged", "stagnant"], "antonyms": ["dynamic", "moving", "fluid"], "domainCohort": [], "derivationPair": ["statics", "statically"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "stat(stand) + ic = pertaining to standing/fixed; not changing",
+      "imageChain": [
+        "静止",
+        "静态",
+        "静电"
+      ],
+      "mnemonicExpr": "static website / static electricity → 静态网站 / 静电"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "tech",
+        "academic"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "status",
+        "statue",
+        "station",
+        "stationary"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "stationary",
+        "fixed",
+        "unchanged",
+        "stagnant"
+      ],
+      "antonyms": [
+        "dynamic",
+        "moving",
+        "fluid"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "statics",
+        "statically"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "stationary",
     "phonetic": "/'steʃənɛri/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "固定的；静止的；不变的", "en": "not moving or not intended to be moved; not changing"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "initial", "canonical": "stat", "meaning": "to stand; to be fixed", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "station", "coreMeaning": {"cn": "", "en": ""}},
-      {"role": "suffix", "positionTendency": "final", "canonical": "-ary", "meaning": "relating to; of the nature of", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ary", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "station", "to": "stationary", "rule": "station + -ary → of a fixed standing position"}]},
+    "coreMeaning": {
+      "cn": "固定的；静止的；不变的",
+      "en": "not moving or not intended to be moved; not changing"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "initial",
+        "canonical": "stat",
+        "meaning": "to stand; to be fixed",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "station",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "final",
+        "canonical": "-ary",
+        "meaning": "relating to; of the nature of",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ary",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "stationary"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "station(fixed place) + ary = not moving from its station", "imageChain": ["静止不动", "固定", "不变"], "mnemonicExpr": "stationary bike / stationary front → 健身脚踏车 / 静止锋（气象）"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": ["station", "static", "status"], "sameAffix": [], "synonyms": ["fixed", "immobile", "motionless", "still"], "antonyms": ["mobile", "moving", "dynamic"], "domainCohort": [], "derivationPair": [], "morphVariants": ["stationery (different word)"], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "station(fixed place) + ary = not moving from its station",
+      "imageChain": [
+        "静止不动",
+        "固定",
+        "不变"
+      ],
+      "mnemonicExpr": "stationary bike / stationary front → 健身脚踏车 / 静止锋（气象）"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "station",
+        "static",
+        "status"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "fixed",
+        "immobile",
+        "motionless",
+        "still"
+      ],
+      "antonyms": [
+        "mobile",
+        "moving",
+        "dynamic"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [
+        "stationery (different word)"
+      ],
+      "sameImagery": []
+    }
   },
   {
     "word": "stature",
     "phonetic": "/'stætʃɚ/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "身高；声望；成就高度", "en": "a person's natural height; importance or reputation gained by ability"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "initial", "canonical": "stat", "meaning": "to stand (L stare)", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "statu", "coreMeaning": {"cn": "", "en": ""}},
-      {"role": "suffix", "positionTendency": "final", "canonical": "-ure", "meaning": "result of; state of", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "re", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "L statura", "to": "stature", "rule": "statu(stand) + -re → how one stands; height"}]},
+    "coreMeaning": {
+      "cn": "身高；声望；成就高度",
+      "en": "a person's natural height; importance or reputation gained by ability"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "initial",
+        "canonical": "stat",
+        "meaning": "to stand (L stare)",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "statu",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "final",
+        "canonical": "-ure",
+        "meaning": "result of; state of",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "re",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "stature"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "statu(stand) + re = the standing height; moral or intellectual height", "imageChain": ["身高", "声望", "地位"], "mnemonicExpr": "moral stature → 道德高度；人格魅力"},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 1}, "domain": ["general", "academic"], "formality": "formal"},
-    "relations": {"sameRoot": ["statute", "status", "statue", "station"], "sameAffix": [], "synonyms": ["height", "prestige", "standing", "eminence"], "antonyms": ["insignificance", "obscurity"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "statu(stand) + re = the standing height; moral or intellectual height",
+      "imageChain": [
+        "身高",
+        "声望",
+        "地位"
+      ],
+      "mnemonicExpr": "moral stature → 道德高度；人格魅力"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "statute",
+        "status",
+        "statue",
+        "station"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "height",
+        "prestige",
+        "standing",
+        "eminence"
+      ],
+      "antonyms": [
+        "insignificance",
+        "obscurity"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "statute",
     "phonetic": "/'stætʃut/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "法规；法令；条例", "en": "a written law passed by a legislative body"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "initial", "canonical": "stat", "meaning": "to stand; to set in place (L statuere)", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "statu", "coreMeaning": {"cn": "", "en": ""}},
-      {"role": "suffix", "positionTendency": "final", "canonical": "-ute", "meaning": "result; thing established", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "te", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "L statutum", "to": "statute", "rule": "statu(establish/set) + -te → thing that is established by authority"}]},
+    "coreMeaning": {
+      "cn": "法规；法令；条例",
+      "en": "a written law passed by a legislative body"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "initial",
+        "canonical": "stat",
+        "meaning": "to stand; to set in place (L statuere)",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "statu",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "final",
+        "canonical": "-ute",
+        "meaning": "result; thing established",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "te",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "statute"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "statu(set in place) + te = something formally set/established by law", "imageChain": ["法律条文", "法令", "成文法"], "mnemonicExpr": "statute of limitations → 诉讼时效法规"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["legal", "general"], "formality": "formal"},
-    "relations": {"sameRoot": ["stature", "status", "static"], "sameAffix": [], "synonyms": ["law", "act", "ordinance", "regulation"], "antonyms": [], "domainCohort": [], "derivationPair": ["statutory"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "statu(set in place) + te = something formally set/established by law",
+      "imageChain": [
+        "法律条文",
+        "法令",
+        "成文法"
+      ],
+      "mnemonicExpr": "statute of limitations → 诉讼时效法规"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "legal",
+        "general"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "stature",
+        "status",
+        "static"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "law",
+        "act",
+        "ordinance",
+        "regulation"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "statutory"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

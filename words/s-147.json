@@ -2,7 +2,10 @@
   {
     "word": "spoil",
     "phonetic": "/spɔɪl/",
-    "pos": ["v.", "n."],
+    "pos": [
+      "v.",
+      "n."
+    ],
     "coreMeaning": {
       "cn": "毁掉；腐败；战利品",
       "en": "to ruin or damage; plunder"
@@ -13,41 +16,78 @@
         "role": "root",
         "canonical": "spoil",
         "meaning": "抢夺；毁坏",
-        "sentiment": { "tags": ["消极"], "intensity": 1 },
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
         "order": 1,
         "form": "spoil",
         "positionTendency": "free"
       }
     ],
     "derivationChain": [
-      { "step": 1, "form": "spoil", "pos": "v./n.", "meaning": "毁坏；战利品" },
-      { "step": 2, "form": "spoilage", "pos": "n.", "meaning": "变质；损坏" },
-      { "step": 3, "form": "spoiler", "pos": "n.", "meaning": "破坏者；剧透" }
+      "spoil",
+      "spoilage",
+      "spoiler"
     ],
     "memorySemantics": {
       "imageKey": "战利品腐烂",
       "scene": "士兵抢夺的战利品（spoils of war）放久了腐烂变质——毁坏与掠夺本是一体",
-      "emotionalHook": "战争掠夺的沉重感"
+      "emotionalHook": "战争掠夺的沉重感",
+      "imageChain": []
     },
     "wordLevel": {
-      "domain": ["general", "literary"],
-      "sentiment": { "tags": ["消极"], "intensity": 1 }
+      "domain": [
+        "general",
+        "literary"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 1
+      }
     },
     "relations": {
-      "sameRoot": ["spoilage", "spoiler", "spoliation"],
+      "sameRoot": [
+        "spoilage",
+        "spoiler",
+        "spoliation"
+      ],
       "sameAffix": [],
-      "synonyms": ["ruin", "damage", "plunder"],
-      "antonyms": ["preserve", "protect"],
-      "domainCohort": ["pillage", "loot", "despoil"],
-      "derivationPair": ["spoil→spoilage", "spoil→despoil"],
+      "synonyms": [
+        "ruin",
+        "damage",
+        "plunder"
+      ],
+      "antonyms": [
+        "preserve",
+        "protect"
+      ],
+      "domainCohort": [
+        "pillage",
+        "loot",
+        "despoil"
+      ],
+      "derivationPair": [
+        "spoil→spoilage",
+        "spoil→despoil"
+      ],
       "morphVariants": [],
-      "sameImagery": ["corrupt", "taint"]
+      "sameImagery": [
+        "corrupt",
+        "taint"
+      ]
     }
   },
   {
     "word": "spoilage",
     "phonetic": "/ˈspɔɪlɪdʒ/",
-    "pos": ["n."],
+    "pos": [
+      "n."
+    ],
     "coreMeaning": {
       "cn": "变质；损坏；废品",
       "en": "the process of food or materials becoming spoiled"
@@ -58,7 +98,12 @@
         "role": "root",
         "canonical": "spoil",
         "meaning": "毁坏；腐败",
-        "sentiment": { "tags": ["消极"], "intensity": 1 },
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
         "order": 1,
         "form": "spoil",
         "positionTendency": "initial"
@@ -68,40 +113,81 @@
         "role": "suffix",
         "canonical": "-age",
         "meaning": "表示过程/状态/总量",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "age",
         "positionTendency": "final"
       }
     ],
     "derivationChain": [
-      { "step": 1, "form": "spoil", "pos": "v.", "meaning": "毁坏" },
-      { "step": 2, "form": "spoilage", "pos": "n.", "meaning": "变质过程/量" }
+      "spoil",
+      "spoilage"
     ],
     "memorySemantics": {
       "imageKey": "食物变质",
       "scene": "冷链断了，大批食品spoilage（变质损坏）——食品安全的噩梦",
-      "emotionalHook": "食物浪费的惋惜"
+      "emotionalHook": "食物浪费的惋惜",
+      "imageChain": []
     },
     "wordLevel": {
-      "domain": ["business", "academic", "ielts", "gmat"],
-      "sentiment": { "tags": ["消极"], "intensity": 1 }
+      "domain": [
+        "business",
+        "academic",
+        "ielts",
+        "gmat"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 1
+      }
     },
     "relations": {
-      "sameRoot": ["spoil", "spoiler", "spoliation"],
-      "sameAffix": ["wastage", "leakage", "shrinkage"],
-      "synonyms": ["decay", "deterioration", "waste"],
-      "antonyms": ["preservation", "conservation"],
-      "domainCohort": ["perishable", "contamination"],
-      "derivationPair": ["spoil→spoilage"],
+      "sameRoot": [
+        "spoil",
+        "spoiler",
+        "spoliation"
+      ],
+      "sameAffix": [
+        "wastage",
+        "leakage",
+        "shrinkage"
+      ],
+      "synonyms": [
+        "decay",
+        "deterioration",
+        "waste"
+      ],
+      "antonyms": [
+        "preservation",
+        "conservation"
+      ],
+      "domainCohort": [
+        "perishable",
+        "contamination"
+      ],
+      "derivationPair": [
+        "spoil→spoilage"
+      ],
       "morphVariants": [],
-      "sameImagery": ["rotting", "decomposition"]
+      "sameImagery": [
+        "rotting",
+        "decomposition"
+      ]
     }
   },
   {
     "word": "spoilsport",
     "phonetic": "/ˈspɔɪlspɔːrt/",
-    "pos": ["n."],
+    "pos": [
+      "n."
+    ],
     "coreMeaning": {
       "cn": "扫兴的人；煞风景者",
       "en": "a person who spoils others' enjoyment"
@@ -112,7 +198,12 @@
         "role": "root",
         "canonical": "spoil",
         "meaning": "破坏",
-        "sentiment": { "tags": ["消极"], "intensity": 1 },
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
         "order": 1,
         "form": "spoil",
         "positionTendency": "initial"
@@ -122,40 +213,68 @@
         "role": "root",
         "canonical": "sport",
         "meaning": "运动；娱乐",
-        "sentiment": { "tags": ["积极"], "intensity": 1 },
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
         "order": 2,
         "form": "sport",
         "positionTendency": "final"
       }
     ],
     "derivationChain": [
-      { "step": 1, "form": "spoil + sport", "pos": "compound", "meaning": "破坏运动乐趣之人" },
-      { "step": 2, "form": "spoilsport", "pos": "n.", "meaning": "扫兴的人" }
+      "spoil + sport",
+      "spoilsport"
     ],
     "memorySemantics": {
       "imageKey": "游戏中途退出",
       "scene": "大家玩得正开心，有人喊停——典型的spoilsport，让气氛瞬间冷场",
-      "emotionalHook": "扫兴的挫败感"
+      "emotionalHook": "扫兴的挫败感",
+      "imageChain": []
     },
     "wordLevel": {
-      "domain": ["general", "gre"],
-      "sentiment": { "tags": ["贬义"], "intensity": 2 }
+      "domain": [
+        "general",
+        "gre"
+      ],
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": 2
+      }
     },
     "relations": {
-      "sameRoot": ["spoil", "spoilage"],
+      "sameRoot": [
+        "spoil",
+        "spoilage"
+      ],
       "sameAffix": [],
-      "synonyms": ["killjoy", "wet blanket", "buzzkill"],
+      "synonyms": [
+        "killjoy",
+        "wet blanket",
+        "buzzkill"
+      ],
       "antonyms": [],
-      "domainCohort": ["party pooper"],
+      "domainCohort": [
+        "party pooper"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["killjoy", "dampener"]
+      "sameImagery": [
+        "killjoy",
+        "dampener"
+      ]
     }
   },
   {
     "word": "spoliation",
     "phonetic": "/ˌspoʊliˈeɪʃən/",
-    "pos": ["n."],
+    "pos": [
+      "n."
+    ],
     "coreMeaning": {
       "cn": "掠夺；抢劫；毁损",
       "en": "the action of spoliation; plundering or pillaging"
@@ -166,7 +285,12 @@
         "role": "root",
         "canonical": "spoli",
         "meaning": "剥夺；掠夺（拉丁 spoliare）",
-        "sentiment": { "tags": ["消极"], "intensity": 2 },
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 2
+        },
         "order": 1,
         "form": "spoli",
         "positionTendency": "initial"
@@ -176,40 +300,80 @@
         "role": "suffix",
         "canonical": "-ation",
         "meaning": "表示行为/结果",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "ation",
         "positionTendency": "final"
       }
     ],
     "derivationChain": [
-      { "step": 1, "form": "Latin spoliare", "pos": "v.", "meaning": "剥夺，抢劫" },
-      { "step": 2, "form": "spoliation", "pos": "n.", "meaning": "掠夺行为" }
+      "Latin spoliare",
+      "spoliation"
     ],
     "memorySemantics": {
       "imageKey": "战争掠夺",
       "scene": "入侵者对古城的spoliation（系统性劫掠）——法律与历史中严肃的术语",
-      "emotionalHook": "文明遭破坏的愤慨"
+      "emotionalHook": "文明遭破坏的愤慨",
+      "imageChain": []
     },
     "wordLevel": {
-      "domain": ["legal", "gre", "literary"],
-      "sentiment": { "tags": ["消极"], "intensity": 2 }
+      "domain": [
+        "legal",
+        "gre",
+        "literary"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 2
+      }
     },
     "relations": {
-      "sameRoot": ["spoil", "despoil", "spoilage"],
-      "sameAffix": ["creation", "obliteration"],
-      "synonyms": ["pillage", "plunder", "rapine", "depredation"],
-      "antonyms": ["preservation", "restitution"],
-      "domainCohort": ["looting", "ransacking"],
-      "derivationPair": ["despoil→despoliation"],
+      "sameRoot": [
+        "spoil",
+        "despoil",
+        "spoilage"
+      ],
+      "sameAffix": [
+        "creation",
+        "obliteration"
+      ],
+      "synonyms": [
+        "pillage",
+        "plunder",
+        "rapine",
+        "depredation"
+      ],
+      "antonyms": [
+        "preservation",
+        "restitution"
+      ],
+      "domainCohort": [
+        "looting",
+        "ransacking"
+      ],
+      "derivationPair": [
+        "despoil→despoliation"
+      ],
       "morphVariants": [],
-      "sameImagery": ["pillage", "ravage"]
+      "sameImagery": [
+        "pillage",
+        "ravage"
+      ]
     }
   },
   {
     "word": "spokesman",
     "phonetic": "/ˈspoʊksmən/",
-    "pos": ["n."],
+    "pos": [
+      "n."
+    ],
     "coreMeaning": {
       "cn": "发言人；代言人",
       "en": "a person who speaks on behalf of a group"
@@ -220,7 +384,12 @@
         "role": "root",
         "canonical": "speak",
         "meaning": "说话（speak的过去式形态）",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 1,
         "form": "spoke",
         "positionTendency": "initial"
@@ -230,7 +399,12 @@
         "role": "linker",
         "canonical": "-s-",
         "meaning": "连接词素",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "s",
         "positionTendency": "medial"
@@ -240,41 +414,79 @@
         "role": "root",
         "canonical": "man",
         "meaning": "人",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 3,
         "form": "man",
         "positionTendency": "final"
       }
     ],
     "derivationChain": [
-      { "step": 1, "form": "speak", "pos": "v.", "meaning": "说话" },
-      { "step": 2, "form": "spoke (past)", "pos": "v.", "meaning": "说了" },
-      { "step": 3, "form": "spokesman", "pos": "n.", "meaning": "代为发言的人" }
+      "speak",
+      "spoke (past)",
+      "spokesman"
     ],
     "memorySemantics": {
       "imageKey": "麦克风前的代言人",
       "scene": "记者会上spokesman站在麦克风前，代表组织传达官方立场",
-      "emotionalHook": "权威与代表性的感觉"
+      "emotionalHook": "权威与代表性的感觉",
+      "imageChain": []
     },
     "wordLevel": {
-      "domain": ["business", "news", "cet4", "ielts"],
-      "sentiment": { "tags": ["中性"], "intensity": 0 }
+      "domain": [
+        "business",
+        "news",
+        "cet4",
+        "ielts"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
     },
     "relations": {
-      "sameRoot": ["spokeswoman", "spokesperson", "speak"],
+      "sameRoot": [
+        "spokeswoman",
+        "spokesperson",
+        "speak"
+      ],
       "sameAffix": [],
-      "synonyms": ["spokesperson", "representative", "mouthpiece"],
+      "synonyms": [
+        "spokesperson",
+        "representative",
+        "mouthpiece"
+      ],
       "antonyms": [],
-      "domainCohort": ["delegate", "ambassador"],
-      "derivationPair": ["spokesman→spokeswoman→spokesperson"],
-      "morphVariants": ["spokeswoman", "spokesperson"],
-      "sameImagery": ["voice", "envoy"]
+      "domainCohort": [
+        "delegate",
+        "ambassador"
+      ],
+      "derivationPair": [
+        "spokesman→spokeswoman→spokesperson"
+      ],
+      "morphVariants": [
+        "spokeswoman",
+        "spokesperson"
+      ],
+      "sameImagery": [
+        "voice",
+        "envoy"
+      ]
     }
   },
   {
     "word": "sponge",
     "phonetic": "/spʌndʒ/",
-    "pos": ["n.", "v."],
+    "pos": [
+      "n.",
+      "v."
+    ],
     "coreMeaning": {
       "cn": "海绵；揩擦；白吃白喝",
       "en": "a porous marine animal; to absorb or cadge"
@@ -285,40 +497,77 @@
         "role": "root",
         "canonical": "sponge",
         "meaning": "海绵；吸收",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 1,
         "form": "sponge",
         "positionTendency": "free"
       }
     ],
     "derivationChain": [
-      { "step": 1, "form": "Greek spongos", "pos": "n.", "meaning": "海绵" },
-      { "step": 2, "form": "sponge", "pos": "n./v.", "meaning": "海绵；吸收；揩蹭" }
+      "Greek spongos",
+      "sponge"
     ],
     "memorySemantics": {
       "imageKey": "海绵吸水",
       "scene": "海绵放入水中迅速膨胀吸收——引申为贪婪吸收知识，也指蹭吃蹭喝之人",
-      "emotionalHook": "吸收与依赖的双重意象"
+      "emotionalHook": "吸收与依赖的双重意象",
+      "imageChain": []
     },
     "wordLevel": {
-      "domain": ["academic", "ielts", "toefl"],
-      "sentiment": { "tags": ["中性"], "intensity": 0 }
+      "domain": [
+        "academic",
+        "ielts",
+        "toefl"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
     },
     "relations": {
-      "sameRoot": ["spongy", "sponger"],
+      "sameRoot": [
+        "spongy",
+        "sponger"
+      ],
       "sameAffix": [],
-      "synonyms": ["absorb", "mop", "cadge"],
-      "antonyms": ["repel", "expel"],
-      "domainCohort": ["porous", "absorbent"],
-      "derivationPair": ["sponge→spongy", "sponge→sponger"],
+      "synonyms": [
+        "absorb",
+        "mop",
+        "cadge"
+      ],
+      "antonyms": [
+        "repel",
+        "expel"
+      ],
+      "domainCohort": [
+        "porous",
+        "absorbent"
+      ],
+      "derivationPair": [
+        "sponge→spongy",
+        "sponge→sponger"
+      ],
       "morphVariants": [],
-      "sameImagery": ["absorb", "leach"]
+      "sameImagery": [
+        "absorb",
+        "leach"
+      ]
     }
   },
   {
     "word": "splotch",
     "phonetic": "/splɒtʃ/",
-    "pos": ["n.", "v."],
+    "pos": [
+      "n.",
+      "v."
+    ],
     "coreMeaning": {
       "cn": "污点；不规则斑块",
       "en": "an irregular spot or patch of color or dirt"
@@ -329,40 +578,72 @@
         "role": "root",
         "canonical": "splotch",
         "meaning": "斑点；污迹",
-        "sentiment": { "tags": ["消极"], "intensity": 1 },
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
         "order": 1,
         "form": "splotch",
         "positionTendency": "free"
       }
     ],
     "derivationChain": [
-      { "step": 1, "form": "blend of spot + blotch", "pos": "n.", "meaning": "斑点污迹（混成词）" },
-      { "step": 2, "form": "splotch", "pos": "n./v.", "meaning": "不规则污块" }
+      "blend of spot + blotch",
+      "splotch"
     ],
     "memorySemantics": {
       "imageKey": "墨水污点",
       "scene": "白衬衣上落了墨水，留下大片不规则的splotch，洗不干净",
-      "emotionalHook": "不整洁的烦恼"
+      "emotionalHook": "不整洁的烦恼",
+      "imageChain": []
     },
     "wordLevel": {
-      "domain": ["general"],
-      "sentiment": { "tags": ["消极"], "intensity": 1 }
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 1
+      }
     },
     "relations": {
-      "sameRoot": ["splotchy", "splotched"],
+      "sameRoot": [
+        "splotchy",
+        "splotched"
+      ],
       "sameAffix": [],
-      "synonyms": ["blotch", "smear", "stain", "spot"],
+      "synonyms": [
+        "blotch",
+        "smear",
+        "stain",
+        "spot"
+      ],
       "antonyms": [],
-      "domainCohort": ["blemish", "smudge"],
-      "derivationPair": ["splotch→splotchy"],
+      "domainCohort": [
+        "blemish",
+        "smudge"
+      ],
+      "derivationPair": [
+        "splotch→splotchy"
+      ],
       "morphVariants": [],
-      "sameImagery": ["blotch", "smear"]
+      "sameImagery": [
+        "blotch",
+        "smear"
+      ]
     }
   },
   {
     "word": "splurge",
     "phonetic": "/splɜːrdʒ/",
-    "pos": ["v.", "n."],
+    "pos": [
+      "v.",
+      "n."
+    ],
     "coreMeaning": {
       "cn": "挥霍；大肆花钱",
       "en": "to spend money freely or extravagantly"
@@ -373,39 +654,71 @@
         "role": "root",
         "canonical": "splurge",
         "meaning": "挥霍；炫耀性消费",
-        "sentiment": { "tags": ["消极"], "intensity": 1 },
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
         "order": 1,
         "form": "splurge",
         "positionTendency": "free"
       }
     ],
     "derivationChain": [
-      { "step": 1, "form": "splurge (19c. American slang)", "pos": "v./n.", "meaning": "挥霍" }
+      "splurge (19c. American slang)"
     ],
     "memorySemantics": {
       "imageKey": "购物狂欢",
       "scene": "发了年终奖，一口气splurge了五万在名牌包上——一时爽，月底穷",
-      "emotionalHook": "冲动消费后的自责"
+      "emotionalHook": "冲动消费后的自责",
+      "imageChain": []
     },
     "wordLevel": {
-      "domain": ["general", "finance"],
-      "sentiment": { "tags": ["消极"], "intensity": 1 }
+      "domain": [
+        "general",
+        "finance"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 1
+      }
     },
     "relations": {
       "sameRoot": [],
       "sameAffix": [],
-      "synonyms": ["splurge", "squander", "lavish", "overspend"],
-      "antonyms": ["economize", "save", "scrimp"],
-      "domainCohort": ["extravagance", "indulgence"],
+      "synonyms": [
+        "splurge",
+        "squander",
+        "lavish",
+        "overspend"
+      ],
+      "antonyms": [
+        "economize",
+        "save",
+        "scrimp"
+      ],
+      "domainCohort": [
+        "extravagance",
+        "indulgence"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["squander", "binge"]
+      "sameImagery": [
+        "squander",
+        "binge"
+      ]
     }
   },
   {
     "word": "splutter",
     "phonetic": "/ˈsplʌtər/",
-    "pos": ["v.", "n."],
+    "pos": [
+      "v.",
+      "n."
+    ],
     "coreMeaning": {
       "cn": "噼啪作响；语无伦次地说",
       "en": "to make spitting sounds; to speak hastily and confusedly"
@@ -416,7 +729,12 @@
         "role": "root",
         "canonical": "spl-",
         "meaning": "飞溅；散射（拟声前缀）",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 1,
         "form": "spl",
         "positionTendency": "initial"
@@ -426,34 +744,62 @@
         "role": "root",
         "canonical": "sputter",
         "meaning": "发出噼啪声",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "utter",
         "positionTendency": "final"
       }
     ],
     "derivationChain": [
-      { "step": 1, "form": "sputter (blend variant)", "pos": "v.", "meaning": "飞溅；噼啪" },
-      { "step": 2, "form": "splutter", "pos": "v./n.", "meaning": "噼啪作响；慌乱地说" }
+      "sputter (blend variant)",
+      "splutter"
     ],
     "memorySemantics": {
       "imageKey": "蜡烛熄灭前噼啪",
       "scene": "蜡烛快灭了，spluttered一阵后彻底熄灭；人慌乱时也会splutter出一堆混乱的词",
-      "emotionalHook": "慌乱与失控的感觉"
+      "emotionalHook": "慌乱与失控的感觉",
+      "imageChain": []
     },
     "wordLevel": {
-      "domain": ["general", "literary"],
-      "sentiment": { "tags": ["中性"], "intensity": 0 }
+      "domain": [
+        "general",
+        "literary"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
     },
     "relations": {
-      "sameRoot": ["sputter"],
+      "sameRoot": [
+        "sputter"
+      ],
       "sameAffix": [],
-      "synonyms": ["sputter", "stammer", "stutter"],
+      "synonyms": [
+        "sputter",
+        "stammer",
+        "stutter"
+      ],
       "antonyms": [],
-      "domainCohort": ["babble", "stutter"],
+      "domainCohort": [
+        "babble",
+        "stutter"
+      ],
       "derivationPair": [],
-      "morphVariants": ["sputter"],
-      "sameImagery": ["stammer", "sputter"]
+      "morphVariants": [
+        "sputter"
+      ],
+      "sameImagery": [
+        "stammer",
+        "sputter"
+      ]
     }
   }
 ]

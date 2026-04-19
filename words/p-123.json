@@ -2,120 +2,768 @@
   {
     "word": "primary",
     "phonetic": "/'praɪmɛri/",
-    "pos": ["adj.", "n."],
-    "coreMeaning": {"cn": "最初的；首要的；基本的", "en": "first in order of importance; fundamental"},
-    "morphemes": [
-      {"canonical": "prim", "role": "root", "meaning": "第一；首要（拉丁 primus）", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "prim", "positionTendency": "initial", "coreMeaning": {"cn": "第一", "en": "first"}},
-      {"canonical": "-ary", "role": "suffix", "meaning": "形容词；与…相关的", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ary", "positionTendency": "final", "coreMeaning": {"cn": "…的", "en": "relating to"}}
+    "pos": [
+      "adj.",
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "primus", "to": "primary", "by": "-ary", "meaning": "of the first order; fundamental"}]},
+    "coreMeaning": {
+      "cn": "最初的；首要的；基本的",
+      "en": "first in order of importance; fundamental"
+    },
+    "morphemes": [
+      {
+        "canonical": "prim",
+        "role": "root",
+        "meaning": "第一；首要（拉丁 primus）",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "prim",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "第一",
+          "en": "first"
+        }
+      },
+      {
+        "canonical": "-ary",
+        "role": "suffix",
+        "meaning": "形容词；与…相关的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ary",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "…的",
+          "en": "relating to"
+        }
+      }
+    ],
+    "derivationChain": [
+      "primary"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "primary → 第一位的，主要的，基础的", "imageChain": ["第一", "首要", "基础"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 1}, "domain": ["general", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": ["prime", "primate", "primitive", "primordial", "primer"], "sameAffix": [], "synonyms": ["main", "chief", "principal", "fundamental"], "antonyms": ["secondary", "peripheral", "minor"], "domainCohort": [], "derivationPair": ["primarily"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "primary → 第一位的，主要的，基础的",
+      "imageChain": [
+        "第一",
+        "首要",
+        "基础"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "prime",
+        "primate",
+        "primitive",
+        "primordial",
+        "primer"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "main",
+        "chief",
+        "principal",
+        "fundamental"
+      ],
+      "antonyms": [
+        "secondary",
+        "peripheral",
+        "minor"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "primarily"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "primate",
     "phonetic": "/'praɪmeɪt/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "灵长类动物；大主教", "en": "a mammal of the order Primates; an archbishop"},
-    "morphemes": [
-      {"canonical": "prim", "role": "root", "meaning": "第一；首要", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "primat", "positionTendency": "initial", "coreMeaning": {"cn": "第一", "en": "first"}},
-      {"canonical": "-ate", "role": "suffix", "meaning": "名词；职位", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ate", "positionTendency": "final", "coreMeaning": {"cn": "职位", "en": "position"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "primus", "to": "primate", "by": "-ate", "meaning": "the first (of animals); the chief bishop"}]},
+    "coreMeaning": {
+      "cn": "灵长类动物；大主教",
+      "en": "a mammal of the order Primates; an archbishop"
+    },
+    "morphemes": [
+      {
+        "canonical": "prim",
+        "role": "root",
+        "meaning": "第一；首要",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "primat",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "第一",
+          "en": "first"
+        }
+      },
+      {
+        "canonical": "-ate",
+        "role": "suffix",
+        "meaning": "名词；职位",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ate",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "职位",
+          "en": "position"
+        }
+      }
+    ],
+    "derivationChain": [
+      "primate"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "primate → 居于首位的动物=灵长类，也指大主教", "imageChain": ["猿猴", "灵长类", "大主教"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "medical", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": ["prime", "primary", "primitive", "primordial"], "sameAffix": [], "synonyms": ["ape", "monkey", "archbishop"], "antonyms": [], "domainCohort": ["ape", "monkey", "lemur"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "primate → 居于首位的动物=灵长类，也指大主教",
+      "imageChain": [
+        "猿猴",
+        "灵长类",
+        "大主教"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "medical",
+        "academic"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "prime",
+        "primary",
+        "primitive",
+        "primordial"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "ape",
+        "monkey",
+        "archbishop"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "ape",
+        "monkey",
+        "lemur"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "prime",
     "phonetic": "/praɪm/",
-    "pos": ["adj.", "n.", "v."],
-    "coreMeaning": {"cn": "主要的；最好的；质数", "en": "of chief importance; the most excellent; a prime number"},
-    "morphemes": [
-      {"canonical": "prim", "role": "root", "meaning": "第一；首要", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "prime", "positionTendency": "medial", "coreMeaning": {"cn": "第一", "en": "first/best"}}
+    "pos": [
+      "adj.",
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "主要的；最好的；质数",
+      "en": "of chief importance; the most excellent; a prime number"
+    },
+    "morphemes": [
+      {
+        "canonical": "prim",
+        "role": "root",
+        "meaning": "第一；首要",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "prime",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "第一",
+          "en": "first/best"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "prime → 黄金时期，最好最重要的", "imageChain": ["黄金", "最佳", "首要"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 2}, "domain": ["general", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": ["primary", "primate", "primer", "primitive", "primordial"], "sameAffix": [], "synonyms": ["chief", "main", "top", "best"], "antonyms": ["secondary", "inferior", "minor"], "domainCohort": [], "derivationPair": ["primarily", "primer"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "prime → 黄金时期，最好最重要的",
+      "imageChain": [
+        "黄金",
+        "最佳",
+        "首要"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "primary",
+        "primate",
+        "primer",
+        "primitive",
+        "primordial"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "chief",
+        "main",
+        "top",
+        "best"
+      ],
+      "antonyms": [
+        "secondary",
+        "inferior",
+        "minor"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "primarily",
+        "primer"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "primer",
     "phonetic": "/'praɪmər/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "初级读本；入门读物；底漆", "en": "an elementary textbook; a substance used as a base coat"},
-    "morphemes": [
-      {"canonical": "prim", "role": "root", "meaning": "第一；基础", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "prime", "positionTendency": "initial", "coreMeaning": {"cn": "基础", "en": "first"}},
-      {"canonical": "-er", "role": "suffix", "meaning": "名词；事物", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "er", "positionTendency": "final", "coreMeaning": {"cn": "物", "en": "thing"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "prime", "to": "primer", "by": "-er", "meaning": "first/basic book or substance"}]},
+    "coreMeaning": {
+      "cn": "初级读本；入门读物；底漆",
+      "en": "an elementary textbook; a substance used as a base coat"
+    },
+    "morphemes": [
+      {
+        "canonical": "prim",
+        "role": "root",
+        "meaning": "第一；基础",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "prime",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "基础",
+          "en": "first"
+        }
+      },
+      {
+        "canonical": "-er",
+        "role": "suffix",
+        "meaning": "名词；事物",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "er",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "物",
+          "en": "thing"
+        }
+      }
+    ],
+    "derivationChain": [
+      "primer"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "primer → 基础性的第一本书或底层涂料", "imageChain": ["入门书", "基础", "底漆"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": ["prime", "primary", "primitive"], "sameAffix": [], "synonyms": ["introduction", "textbook", "handbook", "primer coat"], "antonyms": [], "domainCohort": [], "derivationPair": ["prime"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "primer → 基础性的第一本书或底层涂料",
+      "imageChain": [
+        "入门书",
+        "基础",
+        "底漆"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "prime",
+        "primary",
+        "primitive"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "introduction",
+        "textbook",
+        "handbook",
+        "primer coat"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "prime"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "primeval",
     "phonetic": "/praɪ'miːvəl/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "原始的；远古的；初始的", "en": "of the earliest time in history; ancient; primordial"},
-    "morphemes": [
-      {"canonical": "prim", "role": "root", "meaning": "第一；最初", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "prime", "positionTendency": "initial", "coreMeaning": {"cn": "最初", "en": "first"}},
-      {"canonical": "aev", "role": "root", "meaning": "时代；时期（拉丁 aevum）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "eval", "positionTendency": "final", "coreMeaning": {"cn": "时代", "en": "age/era"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "prime + aevum", "to": "primeval", "by": "compound", "meaning": "of the first age; most ancient"}]},
+    "coreMeaning": {
+      "cn": "原始的；远古的；初始的",
+      "en": "of the earliest time in history; ancient; primordial"
+    },
+    "morphemes": [
+      {
+        "canonical": "prim",
+        "role": "root",
+        "meaning": "第一；最初",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "prime",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "最初",
+          "en": "first"
+        }
+      },
+      {
+        "canonical": "aev",
+        "role": "root",
+        "meaning": "时代；时期（拉丁 aevum）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "eval",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "时代",
+          "en": "age/era"
+        }
+      }
+    ],
+    "derivationChain": [
+      "primeval"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "primeval = prime(第一)+eval(时代) → 最初时代的=原始的", "imageChain": ["远古", "原始", "洪荒"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic"], "formality": "formal"},
-    "relations": {"sameRoot": ["prime", "primary", "primitive", "primordial"], "sameAffix": ["medieval", "coeval"], "synonyms": ["primitive", "ancient", "prehistoric"], "antonyms": ["modern", "contemporary", "recent"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "primeval = prime(第一)+eval(时代) → 最初时代的=原始的",
+      "imageChain": [
+        "远古",
+        "原始",
+        "洪荒"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "prime",
+        "primary",
+        "primitive",
+        "primordial"
+      ],
+      "sameAffix": [
+        "medieval",
+        "coeval"
+      ],
+      "synonyms": [
+        "primitive",
+        "ancient",
+        "prehistoric"
+      ],
+      "antonyms": [
+        "modern",
+        "contemporary",
+        "recent"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "primitive",
     "phonetic": "/'prɪmɪtɪv/",
-    "pos": ["adj.", "n."],
-    "coreMeaning": {"cn": "原始的；远古的；粗糙的", "en": "relating to early stages of development; undeveloped"},
-    "morphemes": [
-      {"canonical": "prim", "role": "root", "meaning": "第一；最初", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "primit", "positionTendency": "initial", "coreMeaning": {"cn": "最初", "en": "first"}},
-      {"canonical": "-ive", "role": "suffix", "meaning": "形容词；有…性质的", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ive", "positionTendency": "final", "coreMeaning": {"cn": "…的", "en": "having quality"}}
+    "pos": [
+      "adj.",
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "primus", "to": "primitive", "by": "-ive", "meaning": "relating to the earliest or most basic stage"}]},
+    "coreMeaning": {
+      "cn": "原始的；远古的；粗糙的",
+      "en": "relating to early stages of development; undeveloped"
+    },
+    "morphemes": [
+      {
+        "canonical": "prim",
+        "role": "root",
+        "meaning": "第一；最初",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "primit",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "最初",
+          "en": "first"
+        }
+      },
+      {
+        "canonical": "-ive",
+        "role": "suffix",
+        "meaning": "形容词；有…性质的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ive",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "…的",
+          "en": "having quality"
+        }
+      }
+    ],
+    "derivationChain": [
+      "primitive"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "primitive → 处于原始阶段的，未开发的", "imageChain": ["原始", "石器时代", "粗糙"]},
-    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": 1}, "domain": ["general", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": ["prime", "primary", "primeval", "primordial"], "sameAffix": [], "synonyms": ["ancient", "prehistoric", "undeveloped", "crude"], "antonyms": ["advanced", "modern", "sophisticated"], "domainCohort": [], "derivationPair": ["primitivism"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "primitive → 处于原始阶段的，未开发的",
+      "imageChain": [
+        "原始",
+        "石器时代",
+        "粗糙"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "prime",
+        "primary",
+        "primeval",
+        "primordial"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "ancient",
+        "prehistoric",
+        "undeveloped",
+        "crude"
+      ],
+      "antonyms": [
+        "advanced",
+        "modern",
+        "sophisticated"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "primitivism"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "primordial",
     "phonetic": "/praɪ'mɔːrdiəl/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "原始的；最基本的；原生的", "en": "existing from the beginning of time; fundamental"},
-    "morphemes": [
-      {"canonical": "prim", "role": "root", "meaning": "第一；最初", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "primo", "positionTendency": "initial", "coreMeaning": {"cn": "最初", "en": "first"}},
-      {"canonical": "ord", "role": "root", "meaning": "顺序；开始（拉丁 ordo）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ordi", "positionTendency": "medial", "coreMeaning": {"cn": "开始", "en": "beginning"}},
-      {"canonical": "-al", "role": "suffix", "meaning": "形容词", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "al", "positionTendency": "final", "coreMeaning": {"cn": "…的", "en": "relating to"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "primus + ordiri", "to": "primordial", "by": "compound", "meaning": "of the first origin; existing from the very beginning"}]},
+    "coreMeaning": {
+      "cn": "原始的；最基本的；原生的",
+      "en": "existing from the beginning of time; fundamental"
+    },
+    "morphemes": [
+      {
+        "canonical": "prim",
+        "role": "root",
+        "meaning": "第一；最初",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "primo",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "最初",
+          "en": "first"
+        }
+      },
+      {
+        "canonical": "ord",
+        "role": "root",
+        "meaning": "顺序；开始（拉丁 ordo）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ordi",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "开始",
+          "en": "beginning"
+        }
+      },
+      {
+        "canonical": "-al",
+        "role": "suffix",
+        "meaning": "形容词",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "al",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "…的",
+          "en": "relating to"
+        }
+      }
+    ],
+    "derivationChain": [
+      "primordial"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "primordial = primus(第一)+ordi(开始) → 最原初的，存在于宇宙之初的", "imageChain": ["原初", "宇宙起源", "基本"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic"], "formality": "formal"},
-    "relations": {"sameRoot": ["prime", "primary", "primeval", "primitive"], "sameAffix": [], "synonyms": ["primeval", "primal", "fundamental", "elemental"], "antonyms": ["modern", "derivative", "secondary"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "primordial = primus(第一)+ordi(开始) → 最原初的，存在于宇宙之初的",
+      "imageChain": [
+        "原初",
+        "宇宙起源",
+        "基本"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "prime",
+        "primary",
+        "primeval",
+        "primitive"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "primeval",
+        "primal",
+        "fundamental",
+        "elemental"
+      ],
+      "antonyms": [
+        "modern",
+        "derivative",
+        "secondary"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "primp",
     "phonetic": "/prɪmp/",
-    "pos": ["v."],
-    "coreMeaning": {"cn": "精心打扮；梳妆", "en": "spend time making oneself look attractive"},
-    "morphemes": [
-      {"canonical": "primp", "role": "root", "meaning": "整饰；打扮", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "primp", "positionTendency": "medial", "coreMeaning": {"cn": "打扮", "en": "groom"}}
+    "pos": [
+      "v."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "精心打扮；梳妆",
+      "en": "spend time making oneself look attractive"
+    },
+    "morphemes": [
+      {
+        "canonical": "primp",
+        "role": "root",
+        "meaning": "整饰；打扮",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "primp",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "打扮",
+          "en": "groom"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "primp → 精心梳妆打扮", "imageChain": ["梳妆", "打扮", "照镜子"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "informal"},
-    "relations": {"sameRoot": ["prim", "primped"], "sameAffix": [], "synonyms": ["groom", "preen", "dress up", "adorn"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "primp → 精心梳妆打扮",
+      "imageChain": [
+        "梳妆",
+        "打扮",
+        "照镜子"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "informal"
+    },
+    "relations": {
+      "sameRoot": [
+        "prim",
+        "primped"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "groom",
+        "preen",
+        "dress up",
+        "adorn"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

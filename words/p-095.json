@@ -2,61 +2,397 @@
   {
     "word": "populace",
     "phonetic": "/'pɑpjələs/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "人口；平民；大众", "en": "the general public; the common people of a place"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "initial", "canonical": "popul", "meaning": "people (L populus)", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "populac", "coreMeaning": {"cn": "", "en": ""}},
-      {"role": "suffix", "positionTendency": "final", "canonical": "-ace", "meaning": "collective noun suffix", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "e", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "It. popolaccio", "to": "populace", "rule": "popul(people) → collective body of common people"}]},
+    "coreMeaning": {
+      "cn": "人口；平民；大众",
+      "en": "the general public; the common people of a place"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "initial",
+        "canonical": "popul",
+        "meaning": "people (L populus)",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "populac",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "final",
+        "canonical": "-ace",
+        "meaning": "collective noun suffix",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "e",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "populace"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "popul(people) + ace = the mass of common people", "imageChain": ["平民", "大众", "民众"], "mnemonicExpr": "the general populace → 普通大众"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic"], "formality": "formal"},
-    "relations": {"sameRoot": ["popular", "popularity", "populate"], "sameAffix": [], "synonyms": ["public", "masses", "common people", "citizenry"], "antonyms": ["elite", "aristocracy"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "popul(people) + ace = the mass of common people",
+      "imageChain": [
+        "平民",
+        "大众",
+        "民众"
+      ],
+      "mnemonicExpr": "the general populace → 普通大众"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "popular",
+        "popularity",
+        "populate"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "public",
+        "masses",
+        "common people",
+        "citizenry"
+      ],
+      "antonyms": [
+        "elite",
+        "aristocracy"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "popular",
     "phonetic": "/'pɑpjəlɚ/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "流行的；受欢迎的；大众的", "en": "liked by many people; of or relating to the general public"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "initial", "canonical": "popul", "meaning": "people", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "popul", "coreMeaning": {"cn": "", "en": ""}},
-      {"role": "suffix", "positionTendency": "final", "canonical": "-ar", "meaning": "relating to; having the quality of", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ar", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "L popularis", "to": "popular", "rule": "popul(people) + -ar → of or for the people"}]},
+    "coreMeaning": {
+      "cn": "流行的；受欢迎的；大众的",
+      "en": "liked by many people; of or relating to the general public"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "initial",
+        "canonical": "popul",
+        "meaning": "people",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "popul",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "final",
+        "canonical": "-ar",
+        "meaning": "relating to; having the quality of",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ar",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "popular"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "popul(people) + ar = of the people; liked by the people", "imageChain": ["受欢迎", "流行", "大众"], "mnemonicExpr": "popular music → 流行音乐，大众喜爱"},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 1}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["population", "popularize", "populace"], "sameAffix": [], "synonyms": ["well-liked", "fashionable", "widespread", "mainstream"], "antonyms": ["unpopular", "obscure", "niche"], "domainCohort": [], "derivationPair": ["popularity", "popularize"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "popul(people) + ar = of the people; liked by the people",
+      "imageChain": [
+        "受欢迎",
+        "流行",
+        "大众"
+      ],
+      "mnemonicExpr": "popular music → 流行音乐，大众喜爱"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "population",
+        "popularize",
+        "populace"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "well-liked",
+        "fashionable",
+        "widespread",
+        "mainstream"
+      ],
+      "antonyms": [
+        "unpopular",
+        "obscure",
+        "niche"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "popularity",
+        "popularize"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "popularity",
     "phonetic": "/ˌpɑpju'lærəti/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "普及；流行；受欢迎", "en": "the state or condition of being liked or admired by many people"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "initial", "canonical": "popul", "meaning": "people", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "popular", "coreMeaning": {"cn": "", "en": ""}},
-      {"role": "suffix", "positionTendency": "final", "canonical": "-ity", "meaning": "state or quality", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ity", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "popular", "to": "popularity", "rule": "popular + -ity → the state of being popular"}]},
+    "coreMeaning": {
+      "cn": "普及；流行；受欢迎",
+      "en": "the state or condition of being liked or admired by many people"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "initial",
+        "canonical": "popul",
+        "meaning": "people",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "popular",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "final",
+        "canonical": "-ity",
+        "meaning": "state or quality",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ity",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "popularity"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "popular + ity = the state of being liked by many", "imageChain": ["人气", "流行度", "广受欢迎"], "mnemonicExpr": "gain in popularity → 人气上升，越来越受欢迎"},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 1}, "domain": ["general", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": ["popular", "popularize", "population"], "sameAffix": [], "synonyms": ["fame", "acclaim", "widespread appeal"], "antonyms": ["unpopularity", "obscurity"], "domainCohort": [], "derivationPair": ["popular", "popularize"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "popular + ity = the state of being liked by many",
+      "imageChain": [
+        "人气",
+        "流行度",
+        "广受欢迎"
+      ],
+      "mnemonicExpr": "gain in popularity → 人气上升，越来越受欢迎"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "popular",
+        "popularize",
+        "population"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "fame",
+        "acclaim",
+        "widespread appeal"
+      ],
+      "antonyms": [
+        "unpopularity",
+        "obscurity"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "popular",
+        "popularize"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "popularize",
     "phonetic": "/'pɑpjələraɪz/",
-    "pos": ["vt."],
-    "coreMeaning": {"cn": "使普及；使通俗化", "en": "to make accessible to the general public; to cause to be generally liked"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "initial", "canonical": "popul", "meaning": "people", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "popular", "coreMeaning": {"cn": "", "en": ""}},
-      {"role": "suffix", "positionTendency": "final", "canonical": "-ize", "meaning": "to make; to cause to be", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ize", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "vt."
     ],
-    "derivationChain": {"steps": [{"from": "popular", "to": "popularize", "rule": "popular + -ize → to make popular or widely accessible"}]},
+    "coreMeaning": {
+      "cn": "使普及；使通俗化",
+      "en": "to make accessible to the general public; to cause to be generally liked"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "initial",
+        "canonical": "popul",
+        "meaning": "people",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "popular",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "final",
+        "canonical": "-ize",
+        "meaning": "to make; to cause to be",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ize",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "popularize"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "popular + ize = to make accessible and popular", "imageChain": ["普及化", "推广", "通俗化"], "mnemonicExpr": "popularize science → 推广普及科学知识"},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 1}, "domain": ["general", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": ["popular", "popularity", "population"], "sameAffix": [], "synonyms": ["spread", "promote", "disseminate", "democratize"], "antonyms": ["obscure", "suppress"], "domainCohort": [], "derivationPair": ["popularization", "popularized"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "popular + ize = to make accessible and popular",
+      "imageChain": [
+        "普及化",
+        "推广",
+        "通俗化"
+      ],
+      "mnemonicExpr": "popularize science → 推广普及科学知识"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "popular",
+        "popularity",
+        "population"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "spread",
+        "promote",
+        "disseminate",
+        "democratize"
+      ],
+      "antonyms": [
+        "obscure",
+        "suppress"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "popularization",
+        "popularized"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

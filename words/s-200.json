@@ -3,90 +3,548 @@
     "word": "succinct",
     "phonetic": "/səkˈsɪŋkt/",
     "pos": "adj.",
-    "coreMeaning": {"cn": "简明的；扼要的", "en": "briefly and clearly expressed; concise"},
+    "coreMeaning": {
+      "cn": "简明的；扼要的",
+      "en": "briefly and clearly expressed; concise"
+    },
     "morphemes": [
-      {"canonical": "sub-", "role": "prefix", "meaning": "在下；向下", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "suc", "positionTendency": "initial", "coreMeaning": {"cn": "向下", "en": "under"}},
-      {"canonical": "cinct-", "role": "root", "meaning": "围绕；收紧（拉丁语 cingere）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "cinct", "positionTendency": "final", "coreMeaning": {"cn": "收紧", "en": "gird/compress"}}
+      {
+        "canonical": "sub-",
+        "role": "prefix",
+        "meaning": "在下；向下",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "suc",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "向下",
+          "en": "under"
+        }
+      },
+      {
+        "canonical": "cinct-",
+        "role": "root",
+        "meaning": "围绕；收紧（拉丁语 cingere）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "cinct",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "收紧",
+          "en": "gird/compress"
+        }
+      }
     ],
-    "derivationChain": {"steps": []},
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "suc(向下) + cinct(收紧) → 被收紧压缩的 → 简洁的", "imageChain": ["简洁", "扼要", "精练"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["褒义"], "intensity": 1}},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["concise", "terse", "brief", "pithy", "laconic"], "antonyms": ["verbose", "wordy", "rambling"], "domainCohort": [], "derivationPair": [{"word": "succinctness", "relation": "noun form"}], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "suc(向下) + cinct(收紧) → 被收紧压缩的 → 简洁的",
+      "imageChain": [
+        "简洁",
+        "扼要",
+        "精练"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "褒义"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "concise",
+        "terse",
+        "brief",
+        "pithy",
+        "laconic"
+      ],
+      "antonyms": [
+        "verbose",
+        "wordy",
+        "rambling"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        {
+          "word": "succinctness",
+          "relation": "noun form"
+        }
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "succor",
     "phonetic": "/ˈsʌkər/",
     "pos": "n./v.",
-    "coreMeaning": {"cn": "救援；援助", "en": "assistance and support in times of hardship and distress"},
+    "coreMeaning": {
+      "cn": "救援；援助",
+      "en": "assistance and support in times of hardship and distress"
+    },
     "morphemes": [
-      {"canonical": "sub-", "role": "prefix", "meaning": "在下；向上", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "suc", "positionTendency": "initial", "coreMeaning": {"cn": "向", "en": "under/toward"}},
-      {"canonical": "curr-", "role": "root", "meaning": "跑；流向（拉丁语 currere）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "cor", "positionTendency": "final", "coreMeaning": {"cn": "跑来", "en": "run to help"}}
+      {
+        "canonical": "sub-",
+        "role": "prefix",
+        "meaning": "在下；向上",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "suc",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "向",
+          "en": "under/toward"
+        }
+      },
+      {
+        "canonical": "curr-",
+        "role": "root",
+        "meaning": "跑；流向（拉丁语 currere）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "cor",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "跑来",
+          "en": "run to help"
+        }
+      }
     ],
-    "derivationChain": {"steps": []},
+    "derivationChain": [],
     "morphVariantOf": "succour",
-    "memorySemantics": {"mnemonicExpr": "suc(向) + cor(跑) → 跑来相助 → 救援", "imageChain": ["救援", "援助", "帮助"]},
-    "wordLevel": {"domain": ["general", "literary"], "sentiment": {"tags": ["褒义"], "intensity": 1}},
-    "relations": {"sameRoot": ["occur", "recur", "course"], "sameAffix": [], "synonyms": ["aid", "assistance", "relief", "help"], "antonyms": ["abandonment", "neglect"], "domainCohort": [], "derivationPair": [], "morphVariants": ["succour"], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "suc(向) + cor(跑) → 跑来相助 → 救援",
+      "imageChain": [
+        "救援",
+        "援助",
+        "帮助"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "literary"
+      ],
+      "sentiment": {
+        "tags": [
+          "褒义"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "occur",
+        "recur",
+        "course"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "aid",
+        "assistance",
+        "relief",
+        "help"
+      ],
+      "antonyms": [
+        "abandonment",
+        "neglect"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [
+        "succour"
+      ],
+      "sameImagery": []
+    }
   },
   {
     "word": "succulent",
     "phonetic": "/ˈsʌkjʊlənt/",
     "pos": "adj./n.",
-    "coreMeaning": {"cn": "多汁的；多水分的", "en": "juicy and tender; a plant that stores water in its leaves"},
+    "coreMeaning": {
+      "cn": "多汁的；多水分的",
+      "en": "juicy and tender; a plant that stores water in its leaves"
+    },
     "morphemes": [
-      {"canonical": "suc-", "role": "root", "meaning": "汁液（拉丁语 sucus）", "sentiment": {"tags": ["褒义"], "intensity": 1}, "order": 1, "form": "succul", "positionTendency": "initial", "coreMeaning": {"cn": "汁液", "en": "juice/sap"}},
-      {"canonical": "-ent", "role": "suffix", "meaning": "形容词后缀", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-ent", "positionTendency": "final", "coreMeaning": {"cn": "形容词", "en": "adjective"}}
+      {
+        "canonical": "suc-",
+        "role": "root",
+        "meaning": "汁液（拉丁语 sucus）",
+        "sentiment": {
+          "tags": [
+            "褒义"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "succul",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "汁液",
+          "en": "juice/sap"
+        }
+      },
+      {
+        "canonical": "-ent",
+        "role": "suffix",
+        "meaning": "形容词后缀",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ent",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "形容词",
+          "en": "adjective"
+        }
+      }
     ],
-    "derivationChain": {"steps": []},
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "succul(汁液) + ent → 充满汁液的 → 多汁的", "imageChain": ["多汁", "鲜嫩", "肉质植物"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["褒义"], "intensity": 1}},
-    "relations": {"sameRoot": ["suck", "succulence"], "sameAffix": [], "synonyms": ["juicy", "lush", "moist", "tender"], "antonyms": ["dry", "withered"], "domainCohort": ["cactus", "aloe", "fleshy plant"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "succul(汁液) + ent → 充满汁液的 → 多汁的",
+      "imageChain": [
+        "多汁",
+        "鲜嫩",
+        "肉质植物"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "褒义"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "suck",
+        "succulence"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "juicy",
+        "lush",
+        "moist",
+        "tender"
+      ],
+      "antonyms": [
+        "dry",
+        "withered"
+      ],
+      "domainCohort": [
+        "cactus",
+        "aloe",
+        "fleshy plant"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "succumb",
     "phonetic": "/səˈkʌm/",
     "pos": "v.",
-    "coreMeaning": {"cn": "屈服；死亡", "en": "to fail to resist; to die from the effects of disease or injury"},
+    "coreMeaning": {
+      "cn": "屈服；死亡",
+      "en": "to fail to resist; to die from the effects of disease or injury"
+    },
     "morphemes": [
-      {"canonical": "sub-", "role": "prefix", "meaning": "在下；被压倒", "sentiment": {"tags": ["消极"], "intensity": 1}, "order": 1, "form": "suc", "positionTendency": "initial", "coreMeaning": {"cn": "向下", "en": "under"}},
-      {"canonical": "cumb-", "role": "root", "meaning": "倒下；躺下（拉丁语 cubare）", "sentiment": {"tags": ["消极"], "intensity": 1}, "order": 2, "form": "cumb", "positionTendency": "final", "coreMeaning": {"cn": "倒下", "en": "lie down"}}
+      {
+        "canonical": "sub-",
+        "role": "prefix",
+        "meaning": "在下；被压倒",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "suc",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "向下",
+          "en": "under"
+        }
+      },
+      {
+        "canonical": "cumb-",
+        "role": "root",
+        "meaning": "倒下；躺下（拉丁语 cubare）",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
+        "order": 2,
+        "form": "cumb",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "倒下",
+          "en": "lie down"
+        }
+      }
     ],
-    "derivationChain": {"steps": []},
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "suc(向下) + cumb(倒下) → 倒下屈服 → 屈服；死亡", "imageChain": ["屈服", "倒下", "死亡"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["消极"], "intensity": 2}},
-    "relations": {"sameRoot": ["encumber", "incumbent"], "sameAffix": [], "synonyms": ["yield", "capitulate", "give in", "submit"], "antonyms": ["resist", "withstand", "survive"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "suc(向下) + cumb(倒下) → 倒下屈服 → 屈服；死亡",
+      "imageChain": [
+        "屈服",
+        "倒下",
+        "死亡"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "encumber",
+        "incumbent"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "yield",
+        "capitulate",
+        "give in",
+        "submit"
+      ],
+      "antonyms": [
+        "resist",
+        "withstand",
+        "survive"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "suckle",
     "phonetic": "/ˈsʌkl/",
     "pos": "v.",
-    "coreMeaning": {"cn": "给…哺乳；吮吸", "en": "to feed a baby or young animal with milk from the breast; to suck at a breast"},
+    "coreMeaning": {
+      "cn": "给…哺乳；吮吸",
+      "en": "to feed a baby or young animal with milk from the breast; to suck at a breast"
+    },
     "morphemes": [
-      {"canonical": "suck", "role": "root", "meaning": "吸吮（古英语 sucan）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "suck", "positionTendency": "initial", "coreMeaning": {"cn": "吸吮", "en": "suck"}},
-      {"canonical": "-le", "role": "suffix", "meaning": "反复动作后缀", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-le", "positionTendency": "final", "coreMeaning": {"cn": "反复", "en": "frequentative"}}
+      {
+        "canonical": "suck",
+        "role": "root",
+        "meaning": "吸吮（古英语 sucan）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "suck",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "吸吮",
+          "en": "suck"
+        }
+      },
+      {
+        "canonical": "-le",
+        "role": "suffix",
+        "meaning": "反复动作后缀",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-le",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "反复",
+          "en": "frequentative"
+        }
+      }
     ],
-    "derivationChain": {"steps": []},
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "suck(吸) + le → 反复吸吮 → 哺乳", "imageChain": ["哺乳", "吸吮", "母乳"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["suck", "suction", "suckling"], "sameAffix": [], "synonyms": ["nurse", "breastfeed", "feed"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "suck(吸) + le → 反复吸吮 → 哺乳",
+      "imageChain": [
+        "哺乳",
+        "吸吮",
+        "母乳"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "suck",
+        "suction",
+        "suckling"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "nurse",
+        "breastfeed",
+        "feed"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "suction",
     "phonetic": "/ˈsʌkʃən/",
     "pos": "n.",
-    "coreMeaning": {"cn": "吸力；抽吸", "en": "the act of drawing out air or fluid to create a vacuum; the force caused by this"},
+    "coreMeaning": {
+      "cn": "吸力；抽吸",
+      "en": "the act of drawing out air or fluid to create a vacuum; the force caused by this"
+    },
     "morphemes": [
-      {"canonical": "suc-", "role": "root", "meaning": "吸吮（拉丁语 sugere）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "suct", "positionTendency": "initial", "coreMeaning": {"cn": "吸", "en": "suck"}},
-      {"canonical": "-ion", "role": "suffix", "meaning": "名词后缀", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-ion", "positionTendency": "final", "coreMeaning": {"cn": "行为", "en": "action"}}
+      {
+        "canonical": "suc-",
+        "role": "root",
+        "meaning": "吸吮（拉丁语 sugere）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "suct",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "吸",
+          "en": "suck"
+        }
+      },
+      {
+        "canonical": "-ion",
+        "role": "suffix",
+        "meaning": "名词后缀",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ion",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "行为",
+          "en": "action"
+        }
+      }
     ],
-    "derivationChain": {"steps": []},
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "suct(吸) + ion → 吸力；抽吸", "imageChain": ["吸力", "真空", "抽吸"]},
-    "wordLevel": {"domain": ["general", "tech", "medical"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["suck", "suckle"], "sameAffix": [], "synonyms": ["vacuum", "draw", "pull"], "antonyms": ["pressure", "blowing"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "suct(吸) + ion → 吸力；抽吸",
+      "imageChain": [
+        "吸力",
+        "真空",
+        "抽吸"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "tech",
+        "medical"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "suck",
+        "suckle"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "vacuum",
+        "draw",
+        "pull"
+      ],
+      "antonyms": [
+        "pressure",
+        "blowing"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

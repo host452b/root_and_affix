@@ -2,150 +2,940 @@
   {
     "word": "verbal",
     "phonetic": "/'vɝbl/",
-    "pos": ["adj.", "n."],
-    "coreMeaning": {"cn": "口头的；言辞的；动词的", "en": "relating to or in the form of words; expressed in spoken rather than written form; relating to verbs"},
-    "morphemes": [
-      {"canonical": "verb", "role": "root", "positionTendency": "initial", "meaning": "词语；动词", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "verb"},
-      {"canonical": "-al", "role": "suffix", "positionTendency": "final", "meaning": "形容词化；属于…的", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "al"}
+    "pos": [
+      "adj.",
+      "n."
     ],
-    "derivationChain": {"steps": ["verbalis(关于词语的) → verbal"]},
+    "coreMeaning": {
+      "cn": "口头的；言辞的；动词的",
+      "en": "relating to or in the form of words; expressed in spoken rather than written form; relating to verbs"
+    },
+    "morphemes": [
+      {
+        "canonical": "verb",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "词语；动词",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "verb"
+      },
+      {
+        "canonical": "-al",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "形容词化；属于…的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "al"
+      }
+    ],
+    "derivationChain": [
+      "verbalis(关于词语的) → verbal"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "用语言词语表达的", "imageChain": ["口头表达", "语言文字", "动词形式"], "mnemonicExpr": "verb(词)+al → 属于词语的，口头的，语言的"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic", "business"], "formality": "neutral"},
-    "relations": {"sameRoot": ["verb", "verbalize", "verbatim", "verbose"], "sameAffix": [], "synonyms": ["oral", "spoken", "linguistic", "worded"], "antonyms": ["nonverbal", "written", "silent"], "domainCohort": ["verbalize", "verbatim"], "derivationPair": ["verbalize"], "morphVariants": [], "sameImagery": ["oral"]}
+    "memorySemantics": {
+      "literal": "用语言词语表达的",
+      "imageChain": [
+        "口头表达",
+        "语言文字",
+        "动词形式"
+      ],
+      "mnemonicExpr": "verb(词)+al → 属于词语的，口头的，语言的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic",
+        "business"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "verb",
+        "verbalize",
+        "verbatim",
+        "verbose"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "oral",
+        "spoken",
+        "linguistic",
+        "worded"
+      ],
+      "antonyms": [
+        "nonverbal",
+        "written",
+        "silent"
+      ],
+      "domainCohort": [
+        "verbalize",
+        "verbatim"
+      ],
+      "derivationPair": [
+        "verbalize"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "oral"
+      ]
+    }
   },
   {
     "word": "verbatim",
     "phonetic": "/vɝ'betɪm/",
-    "pos": ["adv.", "adj."],
-    "coreMeaning": {"cn": "逐字的；一字不差地", "en": "in exactly the same words as were used originally; word for word"},
-    "morphemes": [
-      {"canonical": "verb", "role": "root", "positionTendency": "initial", "meaning": "词语；字", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "verb"},
-      {"canonical": "-atim", "role": "suffix", "positionTendency": "final", "meaning": "拉丁副词后缀：逐…地", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "atim"}
+    "pos": [
+      "adv.",
+      "adj."
     ],
-    "derivationChain": {"steps": ["verbatim(逐字地) → verbatim"]},
+    "coreMeaning": {
+      "cn": "逐字的；一字不差地",
+      "en": "in exactly the same words as were used originally; word for word"
+    },
+    "morphemes": [
+      {
+        "canonical": "verb",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "词语；字",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "verb"
+      },
+      {
+        "canonical": "-atim",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "拉丁副词后缀：逐…地",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "atim"
+      }
+    ],
+    "derivationChain": [
+      "verbatim(逐字地) → verbatim"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "完全按照原文的每一个字", "imageChain": ["逐字复述", "原文引用", "一字不差"], "mnemonicExpr": "verb(词)+atim → 逐字逐词，一字不差地"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["academic", "general", "legal"], "formality": "formal"},
-    "relations": {"sameRoot": ["verb", "verbal", "verbose"], "sameAffix": [], "synonyms": ["word for word", "literally", "exactly", "to the letter"], "antonyms": ["paraphrase", "loosely", "approximately"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": ["literally"]}
+    "memorySemantics": {
+      "literal": "完全按照原文的每一个字",
+      "imageChain": [
+        "逐字复述",
+        "原文引用",
+        "一字不差"
+      ],
+      "mnemonicExpr": "verb(词)+atim → 逐字逐词，一字不差地"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "academic",
+        "general",
+        "legal"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "verb",
+        "verbal",
+        "verbose"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "word for word",
+        "literally",
+        "exactly",
+        "to the letter"
+      ],
+      "antonyms": [
+        "paraphrase",
+        "loosely",
+        "approximately"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "literally"
+      ]
+    }
   },
   {
     "word": "verbiage",
     "phonetic": "/'vɝbɪɪdʒ/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "冗词；赘言；废话", "en": "excessively lengthy or technical speech or writing; too many words for what is being expressed"},
-    "morphemes": [
-      {"canonical": "verb", "role": "root", "positionTendency": "initial", "meaning": "词语；话语", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "verbi"},
-      {"canonical": "-age", "role": "suffix", "positionTendency": "final", "meaning": "名词化；过度量", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 2, "form": "age"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": ["verbe(词)+age → verbiage"]},
+    "coreMeaning": {
+      "cn": "冗词；赘言；废话",
+      "en": "excessively lengthy or technical speech or writing; too many words for what is being expressed"
+    },
+    "morphemes": [
+      {
+        "canonical": "verb",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "词语；话语",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "verbi"
+      },
+      {
+        "canonical": "-age",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "名词化；过度量",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 2,
+        "form": "age"
+      }
+    ],
+    "derivationChain": [
+      "verbe(词)+age → verbiage"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "过多过量的词语表达", "imageChain": ["废话连篇", "文字过量", "冗余表达"], "mnemonicExpr": "verbi(词)+age → 词语太多，冗词赘语"},
-    "wordLevel": {"sentiment": {"tags": ["贬义"], "intensity": -1}, "domain": ["academic", "general"], "formality": "formal"},
-    "relations": {"sameRoot": ["verb", "verbose", "verbosity"], "sameAffix": [], "synonyms": ["wordiness", "prolixity", "redundancy", "padding"], "antonyms": ["conciseness", "brevity", "succinctness"], "domainCohort": ["verbose", "verbosity"], "derivationPair": [], "morphVariants": [], "sameImagery": ["wordiness"]}
+    "memorySemantics": {
+      "literal": "过多过量的词语表达",
+      "imageChain": [
+        "废话连篇",
+        "文字过量",
+        "冗余表达"
+      ],
+      "mnemonicExpr": "verbi(词)+age → 词语太多，冗词赘语"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -1
+      },
+      "domain": [
+        "academic",
+        "general"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "verb",
+        "verbose",
+        "verbosity"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "wordiness",
+        "prolixity",
+        "redundancy",
+        "padding"
+      ],
+      "antonyms": [
+        "conciseness",
+        "brevity",
+        "succinctness"
+      ],
+      "domainCohort": [
+        "verbose",
+        "verbosity"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "wordiness"
+      ]
+    }
   },
   {
     "word": "verbose",
     "phonetic": "/vɝ'bos/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "冗长的；啰嗦的；使用太多词语的", "en": "using or expressed in more words than are needed; wordy"},
-    "morphemes": [
-      {"canonical": "verb", "role": "root", "positionTendency": "initial", "meaning": "词语；话语", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "verb"},
-      {"canonical": "-ose", "role": "suffix", "positionTendency": "final", "meaning": "形容词化；过多的", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 2, "form": "ose"}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": ["verbosus(话多的) → verbose"]},
+    "coreMeaning": {
+      "cn": "冗长的；啰嗦的；使用太多词语的",
+      "en": "using or expressed in more words than are needed; wordy"
+    },
+    "morphemes": [
+      {
+        "canonical": "verb",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "词语；话语",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "verb"
+      },
+      {
+        "canonical": "-ose",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "形容词化；过多的",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 2,
+        "form": "ose"
+      }
+    ],
+    "derivationChain": [
+      "verbosus(话多的) → verbose"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "用词过多、话语冗长的", "imageChain": ["啰嗦", "冗长", "话多"], "mnemonicExpr": "verb(词)+ose → 用词过量，啰嗦冗长"},
-    "wordLevel": {"sentiment": {"tags": ["贬义"], "intensity": -1}, "domain": ["academic", "general"], "formality": "formal"},
-    "relations": {"sameRoot": ["verb", "verbosity", "verbiage"], "sameAffix": [], "synonyms": ["wordy", "prolix", "long-winded", "garrulous"], "antonyms": ["concise", "terse", "succinct", "laconic"], "domainCohort": ["verbiage", "verbosity"], "derivationPair": ["verbosity"], "morphVariants": [], "sameImagery": ["wordy"]}
+    "memorySemantics": {
+      "literal": "用词过多、话语冗长的",
+      "imageChain": [
+        "啰嗦",
+        "冗长",
+        "话多"
+      ],
+      "mnemonicExpr": "verb(词)+ose → 用词过量，啰嗦冗长"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -1
+      },
+      "domain": [
+        "academic",
+        "general"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "verb",
+        "verbosity",
+        "verbiage"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "wordy",
+        "prolix",
+        "long-winded",
+        "garrulous"
+      ],
+      "antonyms": [
+        "concise",
+        "terse",
+        "succinct",
+        "laconic"
+      ],
+      "domainCohort": [
+        "verbiage",
+        "verbosity"
+      ],
+      "derivationPair": [
+        "verbosity"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "wordy"
+      ]
+    }
   },
   {
     "word": "verdant",
     "phonetic": "/'vɝdnt/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "青翠的；郁郁葱葱的；不成熟的", "en": "green with grass or other rich vegetation; (of a person) unsophisticated or inexperienced"},
-    "morphemes": [
-      {"canonical": "verd", "role": "root", "positionTendency": "initial", "meaning": "绿色；翠绿", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "verd"},
-      {"canonical": "-ant", "role": "suffix", "positionTendency": "final", "meaning": "形容词化；正在…的", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ant"}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": ["viridis(绿色) → verdant"]},
+    "coreMeaning": {
+      "cn": "青翠的；郁郁葱葱的；不成熟的",
+      "en": "green with grass or other rich vegetation; (of a person) unsophisticated or inexperienced"
+    },
+    "morphemes": [
+      {
+        "canonical": "verd",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "绿色；翠绿",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "verd"
+      },
+      {
+        "canonical": "-ant",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "形容词化；正在…的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ant"
+      }
+    ],
+    "derivationChain": [
+      "viridis(绿色) → verdant"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "充满绿色植被的生机勃勃", "imageChain": ["青翠草地", "翠绿", "生机盎然"], "mnemonicExpr": "verd(绿)+ant → 充满绿色生机的，郁郁葱葱"},
-    "wordLevel": {"sentiment": {"tags": ["褒义"], "intensity": 1}, "domain": ["academic", "general"], "formality": "formal"},
-    "relations": {"sameRoot": ["verdure", "verdigris"], "sameAffix": [], "synonyms": ["green", "lush", "flourishing", "leafy"], "antonyms": ["arid", "barren", "brown", "withered"], "domainCohort": ["verdure"], "derivationPair": [], "morphVariants": [], "sameImagery": ["lush"]}
+    "memorySemantics": {
+      "literal": "充满绿色植被的生机勃勃",
+      "imageChain": [
+        "青翠草地",
+        "翠绿",
+        "生机盎然"
+      ],
+      "mnemonicExpr": "verd(绿)+ant → 充满绿色生机的，郁郁葱葱"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "褒义"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "academic",
+        "general"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "verdure",
+        "verdigris"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "green",
+        "lush",
+        "flourishing",
+        "leafy"
+      ],
+      "antonyms": [
+        "arid",
+        "barren",
+        "brown",
+        "withered"
+      ],
+      "domainCohort": [
+        "verdure"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "lush"
+      ]
+    }
   },
   {
     "word": "verdict",
     "phonetic": "/'vɝdɪkt/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "裁决；判决；判断；定论", "en": "a decision on a disputed issue; the finding of a jury; any judgment or conclusion"},
-    "morphemes": [
-      {"canonical": "ver", "role": "root", "positionTendency": "initial", "meaning": "真实；真正", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "ver"},
-      {"canonical": "dict", "role": "root", "positionTendency": "final", "meaning": "说；宣告", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "dict"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": ["veredictum(真实宣告) → verdict"]},
+    "coreMeaning": {
+      "cn": "裁决；判决；判断；定论",
+      "en": "a decision on a disputed issue; the finding of a jury; any judgment or conclusion"
+    },
+    "morphemes": [
+      {
+        "canonical": "ver",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "真实；真正",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "ver"
+      },
+      {
+        "canonical": "dict",
+        "role": "root",
+        "positionTendency": "final",
+        "meaning": "说；宣告",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "dict"
+      }
+    ],
+    "derivationChain": [
+      "veredictum(真实宣告) → verdict"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "法律上真实宣告的裁决结果", "imageChain": ["陪审团裁决", "法庭判决", "结论"], "mnemonicExpr": "ver(真实)+dict(宣告) → 真实地宣告裁决，判决"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["legal", "general", "academic"], "formality": "formal"},
-    "relations": {"sameRoot": ["dictate", "predict", "contradict"], "sameAffix": [], "synonyms": ["ruling", "judgment", "finding", "decision"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": ["ruling"]}
+    "memorySemantics": {
+      "literal": "法律上真实宣告的裁决结果",
+      "imageChain": [
+        "陪审团裁决",
+        "法庭判决",
+        "结论"
+      ],
+      "mnemonicExpr": "ver(真实)+dict(宣告) → 真实地宣告裁决，判决"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "legal",
+        "general",
+        "academic"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "dictate",
+        "predict",
+        "contradict"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "ruling",
+        "judgment",
+        "finding",
+        "decision"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "ruling"
+      ]
+    }
   },
   {
     "word": "verify",
     "phonetic": "/'vɛrɪfaɪ/",
-    "pos": ["v."],
-    "coreMeaning": {"cn": "证实；查证；核实", "en": "to make sure or demonstrate that something is true, accurate, or justified"},
-    "morphemes": [
-      {"canonical": "ver", "role": "root", "positionTendency": "initial", "meaning": "真实；真正", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "veri"},
-      {"canonical": "-fy", "role": "suffix", "positionTendency": "final", "meaning": "动词化；使…", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "fy"}
+    "pos": [
+      "v."
     ],
-    "derivationChain": {"steps": ["verifier(使真实) → verify"]},
+    "coreMeaning": {
+      "cn": "证实；查证；核实",
+      "en": "to make sure or demonstrate that something is true, accurate, or justified"
+    },
+    "morphemes": [
+      {
+        "canonical": "ver",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "真实；真正",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "veri"
+      },
+      {
+        "canonical": "-fy",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "动词化；使…",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "fy"
+      }
+    ],
+    "derivationChain": [
+      "verifier(使真实) → verify"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "确认某事是真实正确的", "imageChain": ["核实", "查证", "确认真实"], "mnemonicExpr": "veri(真实)+fy → 使真实，证实，核实"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic", "business", "tech"], "formality": "neutral"},
-    "relations": {"sameRoot": ["verification", "verifiable", "very"], "sameAffix": [], "synonyms": ["confirm", "validate", "authenticate", "check"], "antonyms": ["deny", "disprove", "invalidate"], "domainCohort": ["verification", "verifiable"], "derivationPair": ["verification"], "morphVariants": [], "sameImagery": ["confirm"]}
+    "memorySemantics": {
+      "literal": "确认某事是真实正确的",
+      "imageChain": [
+        "核实",
+        "查证",
+        "确认真实"
+      ],
+      "mnemonicExpr": "veri(真实)+fy → 使真实，证实，核实"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic",
+        "business",
+        "tech"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "verification",
+        "verifiable",
+        "very"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "confirm",
+        "validate",
+        "authenticate",
+        "check"
+      ],
+      "antonyms": [
+        "deny",
+        "disprove",
+        "invalidate"
+      ],
+      "domainCohort": [
+        "verification",
+        "verifiable"
+      ],
+      "derivationPair": [
+        "verification"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "confirm"
+      ]
+    }
   },
   {
     "word": "verge",
     "phonetic": "/vɝdʒ/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "边缘；接近；濒临", "en": "the edge or border of something; to be on the verge of; to tend toward a state"},
-    "morphemes": [
-      {"canonical": "verge", "role": "root", "positionTendency": "medial", "meaning": "边缘；趋向", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "verge"}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": ["verge(边界棒) → verge"]},
+    "coreMeaning": {
+      "cn": "边缘；接近；濒临",
+      "en": "the edge or border of something; to be on the verge of; to tend toward a state"
+    },
+    "morphemes": [
+      {
+        "canonical": "verge",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "边缘；趋向",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "verge"
+      }
+    ],
+    "derivationChain": [
+      "verge(边界棒) → verge"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "处于某种状态的边缘或临界点", "imageChain": ["临界", "边缘", "即将发生"], "mnemonicExpr": "verge → 处于边缘，濒临某种状态"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic", "business"], "formality": "neutral"},
-    "relations": {"sameRoot": ["convergent", "diverge", "vergence"], "sameAffix": [], "synonyms": ["brink", "edge", "threshold", "border"], "antonyms": ["center", "core", "interior"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": ["brink"]}
+    "memorySemantics": {
+      "literal": "处于某种状态的边缘或临界点",
+      "imageChain": [
+        "临界",
+        "边缘",
+        "即将发生"
+      ],
+      "mnemonicExpr": "verge → 处于边缘，濒临某种状态"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic",
+        "business"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "convergent",
+        "diverge",
+        "vergence"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "brink",
+        "edge",
+        "threshold",
+        "border"
+      ],
+      "antonyms": [
+        "center",
+        "core",
+        "interior"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "brink"
+      ]
+    }
   },
   {
     "word": "verdure",
     "phonetic": "/'vɝdjɚ/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "葱翠；青翠；生机", "en": "lush green vegetation; the green color of growing plants; fresh and healthy growth"},
-    "morphemes": [
-      {"canonical": "verd", "role": "root", "positionTendency": "initial", "meaning": "绿色", "sentiment": {"tags": ["褒义"], "intensity": 1}, "order": 1, "form": "verd"},
-      {"canonical": "-ure", "role": "suffix", "positionTendency": "final", "meaning": "名词化；状态", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ure"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": ["verde(绿色) → verdure"]},
+    "coreMeaning": {
+      "cn": "葱翠；青翠；生机",
+      "en": "lush green vegetation; the green color of growing plants; fresh and healthy growth"
+    },
+    "morphemes": [
+      {
+        "canonical": "verd",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "绿色",
+        "sentiment": {
+          "tags": [
+            "褒义"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "verd"
+      },
+      {
+        "canonical": "-ure",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "名词化；状态",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ure"
+      }
+    ],
+    "derivationChain": [
+      "verde(绿色) → verdure"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "植物茂盛的翠绿状态", "imageChain": ["草木葱茏", "翠绿植被", "生机勃勃"], "mnemonicExpr": "verd(绿)+ure → 绿意盎然的葱翠状态"},
-    "wordLevel": {"sentiment": {"tags": ["褒义"], "intensity": 1}, "domain": ["academic", "general"], "formality": "formal"},
-    "relations": {"sameRoot": ["verdant", "verdigris"], "sameAffix": [], "synonyms": ["lushness", "greenery", "vegetation", "foliage"], "antonyms": ["barrenness", "aridity", "desolation"], "domainCohort": ["verdant"], "derivationPair": [], "morphVariants": [], "sameImagery": ["greenery"]}
+    "memorySemantics": {
+      "literal": "植物茂盛的翠绿状态",
+      "imageChain": [
+        "草木葱茏",
+        "翠绿植被",
+        "生机勃勃"
+      ],
+      "mnemonicExpr": "verd(绿)+ure → 绿意盎然的葱翠状态"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "褒义"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "academic",
+        "general"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "verdant",
+        "verdigris"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "lushness",
+        "greenery",
+        "vegetation",
+        "foliage"
+      ],
+      "antonyms": [
+        "barrenness",
+        "aridity",
+        "desolation"
+      ],
+      "domainCohort": [
+        "verdant"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "greenery"
+      ]
+    }
   },
   {
     "word": "verbosity",
     "phonetic": "/vɜːr'bɑːsəti/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "冗长；啰嗦；话多", "en": "the quality of using more words than needed; wordiness; prolixity"},
-    "morphemes": [
-      {"canonical": "verb", "role": "root", "positionTendency": "initial", "meaning": "词语；话语", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "verb"},
-      {"canonical": "-osity", "role": "suffix", "positionTendency": "final", "meaning": "名词化；过度状态", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 2, "form": "osity"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": ["verbose → verbosity"]},
+    "coreMeaning": {
+      "cn": "冗长；啰嗦；话多",
+      "en": "the quality of using more words than needed; wordiness; prolixity"
+    },
+    "morphemes": [
+      {
+        "canonical": "verb",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "词语；话语",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "verb"
+      },
+      {
+        "canonical": "-osity",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "名词化；过度状态",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 2,
+        "form": "osity"
+      }
+    ],
+    "derivationChain": [
+      "verbose → verbosity"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "使用词语过多的状态", "imageChain": ["话多", "冗长", "废话"], "mnemonicExpr": "verb(词)+osity → 话语过多的状态，冗长啰嗦"},
-    "wordLevel": {"sentiment": {"tags": ["贬义"], "intensity": -1}, "domain": ["academic", "general"], "formality": "formal"},
-    "relations": {"sameRoot": ["verbose", "verb", "verbiage"], "sameAffix": [], "synonyms": ["wordiness", "prolixity", "garrulity", "loquacity"], "antonyms": ["brevity", "conciseness", "terseness"], "domainCohort": ["verbose", "verbiage"], "derivationPair": ["verbose"], "morphVariants": [], "sameImagery": ["wordiness"]}
+    "memorySemantics": {
+      "literal": "使用词语过多的状态",
+      "imageChain": [
+        "话多",
+        "冗长",
+        "废话"
+      ],
+      "mnemonicExpr": "verb(词)+osity → 话语过多的状态，冗长啰嗦"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -1
+      },
+      "domain": [
+        "academic",
+        "general"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "verbose",
+        "verb",
+        "verbiage"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "wordiness",
+        "prolixity",
+        "garrulity",
+        "loquacity"
+      ],
+      "antonyms": [
+        "brevity",
+        "conciseness",
+        "terseness"
+      ],
+      "domainCohort": [
+        "verbose",
+        "verbiage"
+      ],
+      "derivationPair": [
+        "verbose"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "wordiness"
+      ]
+    }
   }
 ]

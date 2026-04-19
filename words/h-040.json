@@ -2,150 +2,856 @@
   {
     "word": "highway",
     "phonetic": "/'haɪwe/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "公路；大路；捷径", "en": "a main road, especially one connecting major towns; a direct route"},
-    "morphemes": [
-      {"canonical": "high", "role": "root", "positionTendency": "initial", "meaning": "高；主要的", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "high"},
-      {"canonical": "way", "role": "root", "positionTendency": "final", "meaning": "道路；路径", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "way"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": ["high+way → highway"]},
+    "coreMeaning": {
+      "cn": "公路；大路；捷径",
+      "en": "a main road, especially one connecting major towns; a direct route"
+    },
+    "morphemes": [
+      {
+        "canonical": "high",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "高；主要的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "high"
+      },
+      {
+        "canonical": "way",
+        "role": "root",
+        "positionTendency": "final",
+        "meaning": "道路；路径",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "way"
+      }
+    ],
+    "derivationChain": [
+      "high+way → highway"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "高级别的主要道路", "imageChain": ["公路", "车辆", "主干道"], "mnemonicExpr": "high(主要)+way(道路) → 主干道"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["high", "way", "freeway"], "sameAffix": [], "synonyms": ["freeway", "expressway", "main road"], "antonyms": [], "domainCohort": ["highwayman"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "高级别的主要道路",
+      "imageChain": [
+        "公路",
+        "车辆",
+        "主干道"
+      ],
+      "mnemonicExpr": "high(主要)+way(道路) → 主干道"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "high",
+        "way",
+        "freeway"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "freeway",
+        "expressway",
+        "main road"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "highwayman"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "highwayman",
     "phonetic": "/'haɪweɪmæn/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "拦路强盗；公路劫匪", "en": "a man who robbed travelers on the road in former times"},
-    "morphemes": [
-      {"canonical": "high", "role": "root", "positionTendency": "initial", "meaning": "高；主要", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "high"},
-      {"canonical": "way", "role": "root", "positionTendency": "medial", "meaning": "道路", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "way"},
-      {"canonical": "-man", "role": "suffix", "positionTendency": "final", "meaning": "施动者", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "man"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": ["highway+man → highwayman"]},
+    "coreMeaning": {
+      "cn": "拦路强盗；公路劫匪",
+      "en": "a man who robbed travelers on the road in former times"
+    },
+    "morphemes": [
+      {
+        "canonical": "high",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "高；主要",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "high"
+      },
+      {
+        "canonical": "way",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "道路",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "way"
+      },
+      {
+        "canonical": "-man",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "施动者",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "man"
+      }
+    ],
+    "derivationChain": [
+      "highway+man → highwayman"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "在公路上抢劫的人", "imageChain": ["马匹", "公路", "强盗"], "mnemonicExpr": "highway(公路)+man(人) → 拦路强盗"},
-    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": -2}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["highway"], "sameAffix": [], "synonyms": ["bandit", "robber"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": ["robber"]}
+    "memorySemantics": {
+      "literal": "在公路上抢劫的人",
+      "imageChain": [
+        "马匹",
+        "公路",
+        "强盗"
+      ],
+      "mnemonicExpr": "highway(公路)+man(人) → 拦路强盗"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -2
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "highway"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "bandit",
+        "robber"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "robber"
+      ]
+    }
   },
   {
     "word": "hijack",
     "phonetic": "/'haɪdʒæk/",
-    "pos": ["v.", "n."],
-    "coreMeaning": {"cn": "劫持；劫机；拦路抢劫", "en": "to seize control of a vehicle by force; to take over illegally"},
-    "morphemes": [
-      {"canonical": "hi", "role": "root", "positionTendency": "initial", "meaning": "高举（命令）", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "hi"},
-      {"canonical": "jack", "role": "root", "positionTendency": "final", "meaning": "普通人；举起", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "jack"}
+    "pos": [
+      "v.",
+      "n."
     ],
-    "derivationChain": {"steps": ["hi(举起手)+jack(任意) → hijack"]},
+    "coreMeaning": {
+      "cn": "劫持；劫机；拦路抢劫",
+      "en": "to seize control of a vehicle by force; to take over illegally"
+    },
+    "morphemes": [
+      {
+        "canonical": "hi",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "高举（命令）",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "hi"
+      },
+      {
+        "canonical": "jack",
+        "role": "root",
+        "positionTendency": "final",
+        "meaning": "普通人；举起",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "jack"
+      }
+    ],
+    "derivationChain": [
+      "hi(举起手)+jack(任意) → hijack"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "举手让人停下然后劫持", "imageChain": ["劫机", "挟持", "强取"], "mnemonicExpr": "hi(举起)+jack(抢) → 武装劫持"},
-    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": -2}, "domain": ["general", "news"], "formality": "neutral"},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["seize", "commandeer", "take over"], "antonyms": [], "domainCohort": ["hijacker", "hijacking"], "derivationPair": ["hijacking"], "morphVariants": [], "sameImagery": ["commandeer"]}
+    "memorySemantics": {
+      "literal": "举手让人停下然后劫持",
+      "imageChain": [
+        "劫机",
+        "挟持",
+        "强取"
+      ],
+      "mnemonicExpr": "hi(举起)+jack(抢) → 武装劫持"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -2
+      },
+      "domain": [
+        "general",
+        "news"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "seize",
+        "commandeer",
+        "take over"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "hijacker",
+        "hijacking"
+      ],
+      "derivationPair": [
+        "hijacking"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "commandeer"
+      ]
+    }
   },
   {
     "word": "hike",
     "phonetic": "/haɪk/",
-    "pos": ["v.", "n."],
-    "coreMeaning": {"cn": "远足；徒步旅行；上升", "en": "to walk a long distance; a long walk; a sharp increase"},
-    "morphemes": [
-      {"canonical": "hike", "role": "root", "positionTendency": "medial", "meaning": "远足；徒步", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "hike"}
+    "pos": [
+      "v.",
+      "n."
     ],
-    "derivationChain": {"steps": ["hike → hiker"]},
+    "coreMeaning": {
+      "cn": "远足；徒步旅行；上升",
+      "en": "to walk a long distance; a long walk; a sharp increase"
+    },
+    "morphemes": [
+      {
+        "canonical": "hike",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "远足；徒步",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "hike"
+      }
+    ],
+    "derivationChain": [
+      "hike → hiker"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "长途步行旅行", "imageChain": ["背包", "山路", "徒步"], "mnemonicExpr": "hike → 徒步旅行，也引申为大幅上涨"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["hiker", "hiking"], "sameAffix": [], "synonyms": ["trek", "ramble", "walk"], "antonyms": [], "domainCohort": ["hiker"], "derivationPair": [], "morphVariants": [], "sameImagery": ["trek"]}
+    "memorySemantics": {
+      "literal": "长途步行旅行",
+      "imageChain": [
+        "背包",
+        "山路",
+        "徒步"
+      ],
+      "mnemonicExpr": "hike → 徒步旅行，也引申为大幅上涨"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "hiker",
+        "hiking"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "trek",
+        "ramble",
+        "walk"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "hiker"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "trek"
+      ]
+    }
   },
   {
     "word": "hilarious",
     "phonetic": "/hɪ'lɛrɪəs/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "狂欢的；热闹的；极可笑的", "en": "extremely funny; boisterously merry"},
-    "morphemes": [
-      {"canonical": "hilar", "role": "root", "positionTendency": "initial", "meaning": "欢乐；高兴", "sentiment": {"tags": ["褒义"], "intensity": 1}, "order": 1, "form": "hilar"},
-      {"canonical": "-ious", "role": "suffix", "positionTendency": "final", "meaning": "形容词化；充满…的", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ious"}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": ["hilaris(欢乐的) → hilarious"]},
+    "coreMeaning": {
+      "cn": "狂欢的；热闹的；极可笑的",
+      "en": "extremely funny; boisterously merry"
+    },
+    "morphemes": [
+      {
+        "canonical": "hilar",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "欢乐；高兴",
+        "sentiment": {
+          "tags": [
+            "褒义"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "hilar"
+      },
+      {
+        "canonical": "-ious",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "形容词化；充满…的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ious"
+      }
+    ],
+    "derivationChain": [
+      "hilaris(欢乐的) → hilarious"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "充满欢笑的", "imageChain": ["大笑", "欢乐", "喜剧"], "mnemonicExpr": "hilar(欢乐)+ious → 充满欢笑的"},
-    "wordLevel": {"sentiment": {"tags": ["褒义"], "intensity": 2}, "domain": ["general"], "formality": "informal"},
-    "relations": {"sameRoot": ["hilarity", "exhilarate"], "sameAffix": [], "synonyms": ["funny", "uproarious", "comical"], "antonyms": ["serious", "solemn"], "domainCohort": ["hilarity"], "derivationPair": ["hilarity"], "morphVariants": [], "sameImagery": ["uproarious"]}
+    "memorySemantics": {
+      "literal": "充满欢笑的",
+      "imageChain": [
+        "大笑",
+        "欢乐",
+        "喜剧"
+      ],
+      "mnemonicExpr": "hilar(欢乐)+ious → 充满欢笑的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "褒义"
+        ],
+        "intensity": 2
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "informal"
+    },
+    "relations": {
+      "sameRoot": [
+        "hilarity",
+        "exhilarate"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "funny",
+        "uproarious",
+        "comical"
+      ],
+      "antonyms": [
+        "serious",
+        "solemn"
+      ],
+      "domainCohort": [
+        "hilarity"
+      ],
+      "derivationPair": [
+        "hilarity"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "uproarious"
+      ]
+    }
   },
   {
     "word": "hilarity",
     "phonetic": "/hɪ'lærəti/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "欢闹；极度快乐", "en": "great amusement; boisterous merriment"},
-    "morphemes": [
-      {"canonical": "hilar", "role": "root", "positionTendency": "initial", "meaning": "欢乐；高兴", "sentiment": {"tags": ["褒义"], "intensity": 1}, "order": 1, "form": "hilar"},
-      {"canonical": "-ity", "role": "suffix", "positionTendency": "final", "meaning": "名词化；状态", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ity"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": ["hilaris(欢乐) → hilaritas → hilarity"]},
+    "coreMeaning": {
+      "cn": "欢闹；极度快乐",
+      "en": "great amusement; boisterous merriment"
+    },
+    "morphemes": [
+      {
+        "canonical": "hilar",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "欢乐；高兴",
+        "sentiment": {
+          "tags": [
+            "褒义"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "hilar"
+      },
+      {
+        "canonical": "-ity",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "名词化；状态",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ity"
+      }
+    ],
+    "derivationChain": [
+      "hilaris(欢乐) → hilaritas → hilarity"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "极度欢乐的状态", "imageChain": ["哄堂大笑", "欢乐", "喜剧"], "mnemonicExpr": "hilar(欢乐)+ity → 欢乐状态"},
-    "wordLevel": {"sentiment": {"tags": ["褒义"], "intensity": 2}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["hilarious", "exhilarate"], "sameAffix": [], "synonyms": ["merriment", "amusement", "mirth"], "antonyms": ["gloom", "sorrow"], "domainCohort": [], "derivationPair": ["hilarious"], "morphVariants": [], "sameImagery": ["mirth"]}
+    "memorySemantics": {
+      "literal": "极度欢乐的状态",
+      "imageChain": [
+        "哄堂大笑",
+        "欢乐",
+        "喜剧"
+      ],
+      "mnemonicExpr": "hilar(欢乐)+ity → 欢乐状态"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "褒义"
+        ],
+        "intensity": 2
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "hilarious",
+        "exhilarate"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "merriment",
+        "amusement",
+        "mirth"
+      ],
+      "antonyms": [
+        "gloom",
+        "sorrow"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "hilarious"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "mirth"
+      ]
+    }
   },
   {
     "word": "hillock",
     "phonetic": "/'hɪlək/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "小丘；小山", "en": "a small hill or mound"},
-    "morphemes": [
-      {"canonical": "hill", "role": "root", "positionTendency": "initial", "meaning": "山丘", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "hill"},
-      {"canonical": "-ock", "role": "suffix", "positionTendency": "final", "meaning": "小称", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ock"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": ["hill → hillock"]},
+    "coreMeaning": {
+      "cn": "小丘；小山",
+      "en": "a small hill or mound"
+    },
+    "morphemes": [
+      {
+        "canonical": "hill",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "山丘",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "hill"
+      },
+      {
+        "canonical": "-ock",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "小称",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ock"
+      }
+    ],
+    "derivationChain": [
+      "hill → hillock"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "小山丘", "imageChain": ["小山", "丘陵", "草地"], "mnemonicExpr": "hill(山)+ock(小) → 小山丘"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["hill", "hillside"], "sameAffix": [], "synonyms": ["mound", "knoll"], "antonyms": ["valley", "plain"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": ["knoll"]}
+    "memorySemantics": {
+      "literal": "小山丘",
+      "imageChain": [
+        "小山",
+        "丘陵",
+        "草地"
+      ],
+      "mnemonicExpr": "hill(山)+ock(小) → 小山丘"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "hill",
+        "hillside"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "mound",
+        "knoll"
+      ],
+      "antonyms": [
+        "valley",
+        "plain"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "knoll"
+      ]
+    }
   },
   {
     "word": "hillbilly",
     "phonetic": "/'hɪlbɪli/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "山地乡巴佬；农村土包子", "en": "an unsophisticated country person from a mountainous area"},
-    "morphemes": [
-      {"canonical": "hill", "role": "root", "positionTendency": "initial", "meaning": "山丘", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "hill"},
-      {"canonical": "billy", "role": "root", "positionTendency": "final", "meaning": "人名（常见名）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "billy"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": ["hill+billy → hillbilly"]},
+    "coreMeaning": {
+      "cn": "山地乡巴佬；农村土包子",
+      "en": "an unsophisticated country person from a mountainous area"
+    },
+    "morphemes": [
+      {
+        "canonical": "hill",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "山丘",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "hill"
+      },
+      {
+        "canonical": "billy",
+        "role": "root",
+        "positionTendency": "final",
+        "meaning": "人名（常见名）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "billy"
+      }
+    ],
+    "derivationChain": [
+      "hill+billy → hillbilly"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "住在山里的比利", "imageChain": ["山区", "乡村", "朴实"], "mnemonicExpr": "hill(山)+billy(人名) → 山区乡下人"},
-    "wordLevel": {"sentiment": {"tags": ["贬义"], "intensity": -1}, "domain": ["general"], "formality": "informal"},
-    "relations": {"sameRoot": ["hill"], "sameAffix": [], "synonyms": ["rustic", "yokel", "bumpkin"], "antonyms": ["urbanite", "sophisticate"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": ["yokel"]}
+    "memorySemantics": {
+      "literal": "住在山里的比利",
+      "imageChain": [
+        "山区",
+        "乡村",
+        "朴实"
+      ],
+      "mnemonicExpr": "hill(山)+billy(人名) → 山区乡下人"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "informal"
+    },
+    "relations": {
+      "sameRoot": [
+        "hill"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "rustic",
+        "yokel",
+        "bumpkin"
+      ],
+      "antonyms": [
+        "urbanite",
+        "sophisticate"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "yokel"
+      ]
+    }
   },
   {
     "word": "hilt",
     "phonetic": "/hɪlt/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "柄；刀把", "en": "the handle of a sword or dagger"},
-    "morphemes": [
-      {"canonical": "hilt", "role": "root", "positionTendency": "medial", "meaning": "柄；刀把", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "hilt"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": ["hilte(刀柄) → hilt"]},
+    "coreMeaning": {
+      "cn": "柄；刀把",
+      "en": "the handle of a sword or dagger"
+    },
+    "morphemes": [
+      {
+        "canonical": "hilt",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "柄；刀把",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "hilt"
+      }
+    ],
+    "derivationChain": [
+      "hilte(刀柄) → hilt"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "握住剑的地方", "imageChain": ["剑柄", "武器", "握把"], "mnemonicExpr": "hilt → 刀剑的握柄，to the hilt意为彻底"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["handle", "grip"], "antonyms": ["blade", "tip"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "握住剑的地方",
+      "imageChain": [
+        "剑柄",
+        "武器",
+        "握把"
+      ],
+      "mnemonicExpr": "hilt → 刀剑的握柄，to the hilt意为彻底"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "handle",
+        "grip"
+      ],
+      "antonyms": [
+        "blade",
+        "tip"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "hiker",
     "phonetic": "/'haɪkɚ/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "徒步旅行者；远足者", "en": "a person who hikes; someone who walks long distances in the countryside"},
-    "morphemes": [
-      {"canonical": "hike", "role": "root", "positionTendency": "initial", "meaning": "远足；徒步", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "hike"},
-      {"canonical": "-er", "role": "suffix", "positionTendency": "final", "meaning": "施动者", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "er"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": ["hike → hiker"]},
+    "coreMeaning": {
+      "cn": "徒步旅行者；远足者",
+      "en": "a person who hikes; someone who walks long distances in the countryside"
+    },
+    "morphemes": [
+      {
+        "canonical": "hike",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "远足；徒步",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "hike"
+      },
+      {
+        "canonical": "-er",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "施动者",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "er"
+      }
+    ],
+    "derivationChain": [
+      "hike → hiker"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "徒步旅行的人", "imageChain": ["背包客", "山路", "户外"], "mnemonicExpr": "hike(徒步)+er → 徒步旅行者"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["hike", "hiking"], "sameAffix": [], "synonyms": ["trekker", "rambler", "walker"], "antonyms": [], "domainCohort": [], "derivationPair": ["hike"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "徒步旅行的人",
+      "imageChain": [
+        "背包客",
+        "山路",
+        "户外"
+      ],
+      "mnemonicExpr": "hike(徒步)+er → 徒步旅行者"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "hike",
+        "hiking"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "trekker",
+        "rambler",
+        "walker"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "hike"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

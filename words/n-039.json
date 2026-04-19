@@ -2,149 +2,824 @@
   {
     "word": "nutritious",
     "phonetic": "/nʊ'trɪʃəs/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "有营养的；营养丰富的", "en": "providing nourishment; promoting growth and health"},
-    "morphemes": [
-      {"canonical": "nutri", "role": "root", "positionTendency": "initial", "meaning": "营养；滋养", "sentiment": {"tags": ["褒义"], "intensity": 1}, "order": 1, "form": "nutri"},
-      {"canonical": "-ous", "role": "suffix", "positionTendency": "final", "meaning": "形容词化；充满…的", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "tious"}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": ["nutrire(滋养) → nutritious"]},
+    "coreMeaning": {
+      "cn": "有营养的；营养丰富的",
+      "en": "providing nourishment; promoting growth and health"
+    },
+    "morphemes": [
+      {
+        "canonical": "nutri",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "营养；滋养",
+        "sentiment": {
+          "tags": [
+            "褒义"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "nutri"
+      },
+      {
+        "canonical": "-ous",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "形容词化；充满…的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "tious"
+      }
+    ],
+    "derivationChain": [
+      "nutrire(滋养) → nutritious"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "富含营养的", "imageChain": ["蔬菜水果", "健康食品", "营养"], "mnemonicExpr": "nutri(营养)+ous → 营养丰富的"},
-    "wordLevel": {"sentiment": {"tags": ["褒义"], "intensity": 1}, "domain": ["general", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": ["nutrition", "nutritional", "nutrient"], "sameAffix": [], "synonyms": ["nourishing", "healthful", "wholesome"], "antonyms": ["unhealthy", "junk"], "domainCohort": ["nutrition"], "derivationPair": ["nutrition"], "morphVariants": [], "sameImagery": ["nourishing"]}
+    "memorySemantics": {
+      "literal": "富含营养的",
+      "imageChain": [
+        "蔬菜水果",
+        "健康食品",
+        "营养"
+      ],
+      "mnemonicExpr": "nutri(营养)+ous → 营养丰富的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "褒义"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "nutrition",
+        "nutritional",
+        "nutrient"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "nourishing",
+        "healthful",
+        "wholesome"
+      ],
+      "antonyms": [
+        "unhealthy",
+        "junk"
+      ],
+      "domainCohort": [
+        "nutrition"
+      ],
+      "derivationPair": [
+        "nutrition"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "nourishing"
+      ]
+    }
   },
   {
     "word": "nutritional",
     "phonetic": "/njʊ'trɪʃənl/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "营养的；关于营养的", "en": "relating to the process of providing or obtaining food for health"},
-    "morphemes": [
-      {"canonical": "nutri", "role": "root", "positionTendency": "initial", "meaning": "营养；滋养", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "nutri"},
-      {"canonical": "-tion", "role": "suffix", "positionTendency": "medial", "meaning": "名词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "tion"},
-      {"canonical": "-al", "role": "suffix", "positionTendency": "final", "meaning": "形容词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "al"}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": ["nutrition → nutritional"]},
+    "coreMeaning": {
+      "cn": "营养的；关于营养的",
+      "en": "relating to the process of providing or obtaining food for health"
+    },
+    "morphemes": [
+      {
+        "canonical": "nutri",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "营养；滋养",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "nutri"
+      },
+      {
+        "canonical": "-tion",
+        "role": "suffix",
+        "positionTendency": "medial",
+        "meaning": "名词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "tion"
+      },
+      {
+        "canonical": "-al",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "形容词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "al"
+      }
+    ],
+    "derivationChain": [
+      "nutrition → nutritional"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "与营养相关的", "imageChain": ["食品标签", "营养学", "健康"], "mnemonicExpr": "nutrition(营养)+al → 营养方面的"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic", "medical"], "formality": "neutral"},
-    "relations": {"sameRoot": ["nutrition", "nutritious", "nutrient"], "sameAffix": [], "synonyms": ["dietary", "nourishing"], "antonyms": [], "domainCohort": [], "derivationPair": ["nutrition"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "与营养相关的",
+      "imageChain": [
+        "食品标签",
+        "营养学",
+        "健康"
+      ],
+      "mnemonicExpr": "nutrition(营养)+al → 营养方面的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic",
+        "medical"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "nutrition",
+        "nutritious",
+        "nutrient"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "dietary",
+        "nourishing"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "nutrition"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "nutritive",
     "phonetic": "/'njuːtrɪtɪv/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "有营养的；滋养的；与营养有关的", "en": "nourishing; providing nutrients; relating to nutrition"},
-    "morphemes": [
-      {"canonical": "nutri", "role": "root", "positionTendency": "initial", "meaning": "营养；滋养", "sentiment": {"tags": ["褒义"], "intensity": 1}, "order": 1, "form": "nutri"},
-      {"canonical": "-ive", "role": "suffix", "positionTendency": "final", "meaning": "形容词化；有…功能的", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "tive"}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": ["nutrire(滋养) → nutritive"]},
+    "coreMeaning": {
+      "cn": "有营养的；滋养的；与营养有关的",
+      "en": "nourishing; providing nutrients; relating to nutrition"
+    },
+    "morphemes": [
+      {
+        "canonical": "nutri",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "营养；滋养",
+        "sentiment": {
+          "tags": [
+            "褒义"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "nutri"
+      },
+      {
+        "canonical": "-ive",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "形容词化；有…功能的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "tive"
+      }
+    ],
+    "derivationChain": [
+      "nutrire(滋养) → nutritive"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "具有滋养功能的", "imageChain": ["营养素", "滋补", "健康"], "mnemonicExpr": "nutri(营养)+ive → 提供营养的"},
-    "wordLevel": {"sentiment": {"tags": ["褒义"], "intensity": 1}, "domain": ["academic", "medical"], "formality": "formal"},
-    "relations": {"sameRoot": ["nutrition", "nutritious", "nutrient"], "sameAffix": [], "synonyms": ["nourishing", "nutritious", "alimentary"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": ["nourishing"]}
+    "memorySemantics": {
+      "literal": "具有滋养功能的",
+      "imageChain": [
+        "营养素",
+        "滋补",
+        "健康"
+      ],
+      "mnemonicExpr": "nutri(营养)+ive → 提供营养的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "褒义"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "academic",
+        "medical"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "nutrition",
+        "nutritious",
+        "nutrient"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "nourishing",
+        "nutritious",
+        "alimentary"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "nourishing"
+      ]
+    }
   },
   {
     "word": "nylon",
     "phonetic": "/'naɪlɑn/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "尼龙；尼龙制品", "en": "a strong synthetic fiber used in making fabrics and plastics"},
-    "morphemes": [
-      {"canonical": "nylon", "role": "root", "positionTendency": "medial", "meaning": "尼龙（合成材料）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "nylon"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": ["coined by DuPont (1938)，商品名 → nylon"]},
+    "coreMeaning": {
+      "cn": "尼龙；尼龙制品",
+      "en": "a strong synthetic fiber used in making fabrics and plastics"
+    },
+    "morphemes": [
+      {
+        "canonical": "nylon",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "尼龙（合成材料）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "nylon"
+      }
+    ],
+    "derivationChain": [
+      "coined by DuPont (1938)，商品名 → nylon"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "人工合成的弹性纤维材料", "imageChain": ["丝袜", "纤维", "合成材料"], "mnemonicExpr": "nylon → 尼龙，最早的合成纤维之一"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "tech"], "formality": "neutral"},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["synthetic fiber", "polyamide"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "人工合成的弹性纤维材料",
+      "imageChain": [
+        "丝袜",
+        "纤维",
+        "合成材料"
+      ],
+      "mnemonicExpr": "nylon → 尼龙，最早的合成纤维之一"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "tech"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "synthetic fiber",
+        "polyamide"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "nymph",
     "phonetic": "/nɪmf/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "仙女；若虫；美丽的少女", "en": "a minor female nature deity; an immature insect; a beautiful young woman"},
-    "morphemes": [
-      {"canonical": "nymph", "role": "root", "positionTendency": "medial", "meaning": "仙女；水泽女神", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "nymph"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": ["nymphe(仙女) → nymph"]},
+    "coreMeaning": {
+      "cn": "仙女；若虫；美丽的少女",
+      "en": "a minor female nature deity; an immature insect; a beautiful young woman"
+    },
+    "morphemes": [
+      {
+        "canonical": "nymph",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "仙女；水泽女神",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "nymph"
+      }
+    ],
+    "derivationChain": [
+      "nymphe(仙女) → nymph"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "居于自然界（山林水泽）中的女神", "imageChain": ["森林仙女", "水泽精灵", "美丽少女"], "mnemonicExpr": "nymph → 自然界的仙女，神话中的女神"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": ["nymphet", "nymphomania"], "sameAffix": [], "synonyms": ["sprite", "fairy", "sylph"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": ["sprite"]}
+    "memorySemantics": {
+      "literal": "居于自然界（山林水泽）中的女神",
+      "imageChain": [
+        "森林仙女",
+        "水泽精灵",
+        "美丽少女"
+      ],
+      "mnemonicExpr": "nymph → 自然界的仙女，神话中的女神"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "nymphet",
+        "nymphomania"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "sprite",
+        "fairy",
+        "sylph"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "sprite"
+      ]
+    }
   },
   {
     "word": "nuzzle",
     "phonetic": "/'nʌzl/",
-    "pos": ["v."],
-    "coreMeaning": {"cn": "用鼻子蹭；依偎；贴近", "en": "to rub gently with the nose; to nestle close; to snuggle"},
-    "morphemes": [
-      {"canonical": "nuzzle", "role": "root", "positionTendency": "medial", "meaning": "鼻子蹭；依偎", "sentiment": {"tags": ["褒义"], "intensity": 1}, "order": 1, "form": "nuzzle"}
+    "pos": [
+      "v."
     ],
-    "derivationChain": {"steps": ["nose → nose around → nuzzle"]},
+    "coreMeaning": {
+      "cn": "用鼻子蹭；依偎；贴近",
+      "en": "to rub gently with the nose; to nestle close; to snuggle"
+    },
+    "morphemes": [
+      {
+        "canonical": "nuzzle",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "鼻子蹭；依偎",
+        "sentiment": {
+          "tags": [
+            "褒义"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "nuzzle"
+      }
+    ],
+    "derivationChain": [
+      "nose → nose around → nuzzle"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "用鼻子轻轻蹭，亲昵依偎", "imageChain": ["亲昵", "依偎", "鼻子蹭"], "mnemonicExpr": "nuzzle → 用鼻子蹭，依偎取暖"},
-    "wordLevel": {"sentiment": {"tags": ["褒义"], "intensity": 1}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["snuggle", "nestle", "cuddle"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": ["snuggle"]}
+    "memorySemantics": {
+      "literal": "用鼻子轻轻蹭，亲昵依偎",
+      "imageChain": [
+        "亲昵",
+        "依偎",
+        "鼻子蹭"
+      ],
+      "mnemonicExpr": "nuzzle → 用鼻子蹭，依偎取暖"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "褒义"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "snuggle",
+        "nestle",
+        "cuddle"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "snuggle"
+      ]
+    }
   },
   {
     "word": "nutshell",
     "phonetic": "/'nʌtʃɛl/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "坚果壳；极小的空间；要点", "en": "the shell of a nut; used to describe something in a very small space or brief form"},
-    "morphemes": [
-      {"canonical": "nut", "role": "root", "positionTendency": "initial", "meaning": "坚果", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "nut"},
-      {"canonical": "shell", "role": "root", "positionTendency": "final", "meaning": "壳；外壳", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "shell"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": ["nut+shell → nutshell; 习语 in a nutshell → 简而言之"]},
+    "coreMeaning": {
+      "cn": "坚果壳；极小的空间；要点",
+      "en": "the shell of a nut; used to describe something in a very small space or brief form"
+    },
+    "morphemes": [
+      {
+        "canonical": "nut",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "坚果",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "nut"
+      },
+      {
+        "canonical": "shell",
+        "role": "root",
+        "positionTendency": "final",
+        "meaning": "壳；外壳",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "shell"
+      }
+    ],
+    "derivationChain": [
+      "nut+shell → nutshell; 习语 in a nutshell → 简而言之"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "坚果壳；简而言之（成语用法）", "imageChain": ["核桃壳", "摘要", "简洁"], "mnemonicExpr": "nut(果)+shell(壳) → 一个坚果壳那么小的空间 → 简而言之"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["nut"], "sameAffix": [], "synonyms": ["brief summary", "essence", "gist"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "坚果壳；简而言之（成语用法）",
+      "imageChain": [
+        "核桃壳",
+        "摘要",
+        "简洁"
+      ],
+      "mnemonicExpr": "nut(果)+shell(壳) → 一个坚果壳那么小的空间 → 简而言之"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "nut"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "brief summary",
+        "essence",
+        "gist"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "nutty",
     "phonetic": "/'nʌti/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "坚果味的；古怪的；疯疯癫癫的", "en": "having the flavor of nuts; crazy or eccentric; enthusiastic about something"},
-    "morphemes": [
-      {"canonical": "nut", "role": "root", "positionTendency": "initial", "meaning": "坚果；疯狂", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "nut"},
-      {"canonical": "-y", "role": "suffix", "positionTendency": "final", "meaning": "形容词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ty"}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": ["nut → nutty"]},
+    "coreMeaning": {
+      "cn": "坚果味的；古怪的；疯疯癫癫的",
+      "en": "having the flavor of nuts; crazy or eccentric; enthusiastic about something"
+    },
+    "morphemes": [
+      {
+        "canonical": "nut",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "坚果；疯狂",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "nut"
+      },
+      {
+        "canonical": "-y",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "形容词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ty"
+      }
+    ],
+    "derivationChain": [
+      "nut → nutty"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "像坚果味的；古怪的", "imageChain": ["坚果香", "疯狂", "古怪"], "mnemonicExpr": "nut(坚果)+ty → 坚果味的；疯癫的"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "informal"},
-    "relations": {"sameRoot": ["nut", "nutshell"], "sameAffix": [], "synonyms": ["crazy", "eccentric", "loony", "flavorful"], "antonyms": ["sane", "rational"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": ["crazy"]}
+    "memorySemantics": {
+      "literal": "像坚果味的；古怪的",
+      "imageChain": [
+        "坚果香",
+        "疯狂",
+        "古怪"
+      ],
+      "mnemonicExpr": "nut(坚果)+ty → 坚果味的；疯癫的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "informal"
+    },
+    "relations": {
+      "sameRoot": [
+        "nut",
+        "nutshell"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "crazy",
+        "eccentric",
+        "loony",
+        "flavorful"
+      ],
+      "antonyms": [
+        "sane",
+        "rational"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "crazy"
+      ]
+    }
   },
   {
     "word": "nutter",
     "phonetic": "/'nʌtɚ/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "疯子；怪人", "en": "a crazy or eccentric person; a mad person"},
-    "morphemes": [
-      {"canonical": "nut", "role": "root", "positionTendency": "initial", "meaning": "疯狂；坚果", "sentiment": {"tags": ["贬义"], "intensity": -1}, "order": 1, "form": "nut"},
-      {"canonical": "-er", "role": "suffix", "positionTendency": "final", "meaning": "施动者", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ter"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": ["nut(疯狂的人) → nutter"]},
+    "coreMeaning": {
+      "cn": "疯子；怪人",
+      "en": "a crazy or eccentric person; a mad person"
+    },
+    "morphemes": [
+      {
+        "canonical": "nut",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "疯狂；坚果",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "nut"
+      },
+      {
+        "canonical": "-er",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "施动者",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ter"
+      }
+    ],
+    "derivationChain": [
+      "nut(疯狂的人) → nutter"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "疯疯癫癫的人", "imageChain": ["怪人", "疯子", "癫狂"], "mnemonicExpr": "nut(疯狂)+er → 疯子，怪人"},
-    "wordLevel": {"sentiment": {"tags": ["贬义"], "intensity": -1}, "domain": ["general"], "formality": "informal"},
-    "relations": {"sameRoot": ["nut", "nutty"], "sameAffix": [], "synonyms": ["lunatic", "eccentric", "weirdo", "crackpot"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": ["lunatic"]}
+    "memorySemantics": {
+      "literal": "疯疯癫癫的人",
+      "imageChain": [
+        "怪人",
+        "疯子",
+        "癫狂"
+      ],
+      "mnemonicExpr": "nut(疯狂)+er → 疯子，怪人"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "informal"
+    },
+    "relations": {
+      "sameRoot": [
+        "nut",
+        "nutty"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "lunatic",
+        "eccentric",
+        "weirdo",
+        "crackpot"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "lunatic"
+      ]
+    }
   },
   {
     "word": "nystagmus",
     "phonetic": "/nɪ'stæɡməs/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "眼球震颤", "en": "a condition of involuntary, rapid eye movement"},
-    "morphemes": [
-      {"canonical": "nystagm", "role": "root", "positionTendency": "initial", "meaning": "眼球震颤", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "nystagm"},
-      {"canonical": "-us", "role": "suffix", "positionTendency": "final", "meaning": "名词化（拉丁语医学词）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "us"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": ["Greek nystagmos(眼球震颤) → nystagmus"]},
+    "coreMeaning": {
+      "cn": "眼球震颤",
+      "en": "a condition of involuntary, rapid eye movement"
+    },
+    "morphemes": [
+      {
+        "canonical": "nystagm",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "眼球震颤",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "nystagm"
+      },
+      {
+        "canonical": "-us",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "名词化（拉丁语医学词）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "us"
+      }
+    ],
+    "derivationChain": [
+      "Greek nystagmos(眼球震颤) → nystagmus"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "眼睛不由自主地快速振动的症状", "imageChain": ["眼睛", "振动", "医学检查"], "mnemonicExpr": "nystagmus → 眼球震颤，一种眼科病症"},
-    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": -1}, "domain": ["medical"], "formality": "formal"},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["involuntary eye movement"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "眼睛不由自主地快速振动的症状",
+      "imageChain": [
+        "眼睛",
+        "振动",
+        "医学检查"
+      ],
+      "mnemonicExpr": "nystagmus → 眼球震颤，一种眼科病症"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      },
+      "domain": [
+        "medical"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "involuntary eye movement"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

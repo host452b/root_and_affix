@@ -2,102 +2,581 @@
   {
     "word": "piccolo",
     "phonetic": "/ˈpɪkələʊ/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "短笛（乐器）", "en": "a small flute that sounds an octave higher than the ordinary flute"},
-    "morphemes": [
-      {"canonical": "piccolo", "role": "root", "meaning": "短笛；小的", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "piccolo", "positionTendency": "medial", "coreMeaning": {"cn": "短笛", "en": "piccolo flute"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "It. piccolo (small)", "to": "piccolo", "rule": "借词", "meaning": "小的→短笛"}]},
+    "coreMeaning": {
+      "cn": "短笛（乐器）",
+      "en": "a small flute that sounds an octave higher than the ordinary flute"
+    },
+    "morphemes": [
+      {
+        "canonical": "piccolo",
+        "role": "root",
+        "meaning": "短笛；小的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "piccolo",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "短笛",
+          "en": "piccolo flute"
+        }
+      }
+    ],
+    "derivationChain": [
+      "piccolo"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "piccolo → 短笛（意大利语小的→小笛子）", "imageChain": ["短笛", "乐器", "尖锐声音"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["flute"], "antonyms": [], "domainCohort": ["flute", "oboe"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "piccolo → 短笛（意大利语小的→小笛子）",
+      "imageChain": [
+        "短笛",
+        "乐器",
+        "尖锐声音"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "flute"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "flute",
+        "oboe"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "pick",
     "phonetic": "/pɪk/",
-    "pos": ["v.", "n."],
-    "coreMeaning": {"cn": "选择；摘取；采摘", "en": "to choose; to take or remove something; to select"},
-    "morphemes": [
-      {"canonical": "pick", "role": "root", "meaning": "选择；摘取", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "pick", "positionTendency": "medial", "coreMeaning": {"cn": "选择", "en": "choose/select"}}
+    "pos": [
+      "v.",
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "MDu. picken (to peck)", "to": "pick", "rule": "借词", "meaning": "啄→采摘→选择"}]},
+    "coreMeaning": {
+      "cn": "选择；摘取；采摘",
+      "en": "to choose; to take or remove something; to select"
+    },
+    "morphemes": [
+      {
+        "canonical": "pick",
+        "role": "root",
+        "meaning": "选择；摘取",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pick",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "选择",
+          "en": "choose/select"
+        }
+      }
+    ],
+    "derivationChain": [
+      "pick"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "pick → 选择/采摘（基础词）", "imageChain": ["选择", "采摘", "挑选"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["picker", "pickpocket", "pickup"], "sameAffix": [], "synonyms": ["choose", "select", "collect"], "antonyms": ["drop", "reject"], "domainCohort": [], "derivationPair": ["picker", "pickup"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "pick → 选择/采摘（基础词）",
+      "imageChain": [
+        "选择",
+        "采摘",
+        "挑选"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "picker",
+        "pickpocket",
+        "pickup"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "choose",
+        "select",
+        "collect"
+      ],
+      "antonyms": [
+        "drop",
+        "reject"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "picker",
+        "pickup"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "picket",
     "phonetic": "/ˈpɪkɪt/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "尖桩；纠察员；举牌抗议", "en": "a pointed stake; a protester stationed outside a workplace; to protest"},
-    "morphemes": [
-      {"canonical": "pick", "role": "root", "meaning": "尖头；选取", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "pick", "positionTendency": "initial", "coreMeaning": {"cn": "尖桩", "en": "pointed stake"}},
-      {"canonical": "-et", "role": "suffix", "meaning": "小（指小词缀）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "et", "positionTendency": "final", "coreMeaning": {"cn": "小", "en": "diminutive"}}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "Fr. piquet (stake)", "to": "picket", "rule": "借词", "meaning": "小尖桩→围栏→抗议纠察"}]},
+    "coreMeaning": {
+      "cn": "尖桩；纠察员；举牌抗议",
+      "en": "a pointed stake; a protester stationed outside a workplace; to protest"
+    },
+    "morphemes": [
+      {
+        "canonical": "pick",
+        "role": "root",
+        "meaning": "尖头；选取",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pick",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "尖桩",
+          "en": "pointed stake"
+        }
+      },
+      {
+        "canonical": "-et",
+        "role": "suffix",
+        "meaning": "小（指小词缀）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "et",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "小",
+          "en": "diminutive"
+        }
+      }
+    ],
+    "derivationChain": [
+      "picket"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "pick(尖)+et(小)→小尖桩→纠察线", "imageChain": ["尖桩", "纠察", "抗议"]},
-    "wordLevel": {"domain": ["general", "legal"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["picketer"], "sameAffix": [], "synonyms": ["stake", "protest", "boycott"], "antonyms": [], "domainCohort": ["protest", "strike"], "derivationPair": ["picketer"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "pick(尖)+et(小)→小尖桩→纠察线",
+      "imageChain": [
+        "尖桩",
+        "纠察",
+        "抗议"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "legal"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "picketer"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "stake",
+        "protest",
+        "boycott"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "protest",
+        "strike"
+      ],
+      "derivationPair": [
+        "picketer"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "pickle",
     "phonetic": "/ˈpɪkəl/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "腌制食品；泡菜；困境", "en": "food preserved in vinegar or brine; a difficult situation; to preserve in brine"},
-    "morphemes": [
-      {"canonical": "pickle", "role": "root", "meaning": "腌制；泡菜", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "pickle", "positionTendency": "medial", "coreMeaning": {"cn": "腌制", "en": "pickle/brine"}}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "MDu. pekel (brine)", "to": "pickle", "rule": "借词", "meaning": "盐水→腌制→泡菜"}]},
+    "coreMeaning": {
+      "cn": "腌制食品；泡菜；困境",
+      "en": "food preserved in vinegar or brine; a difficult situation; to preserve in brine"
+    },
+    "morphemes": [
+      {
+        "canonical": "pickle",
+        "role": "root",
+        "meaning": "腌制；泡菜",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pickle",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "腌制",
+          "en": "pickle/brine"
+        }
+      }
+    ],
+    "derivationChain": [
+      "pickle"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "pickle → 泡菜/腌制（来自盐水）", "imageChain": ["泡菜", "腌制", "盐水"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["pickled"], "sameAffix": [], "synonyms": ["brine", "preserve", "gherkin"], "antonyms": [], "domainCohort": ["preserve", "brine"], "derivationPair": ["pickled"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "pickle → 泡菜/腌制（来自盐水）",
+      "imageChain": [
+        "泡菜",
+        "腌制",
+        "盐水"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "pickled"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "brine",
+        "preserve",
+        "gherkin"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "preserve",
+        "brine"
+      ],
+      "derivationPair": [
+        "pickled"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "pickpocket",
     "phonetic": "/ˈpɪkpɒkɪt/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "扒手；扒窃者", "en": "a thief who steals from pockets or bags of people in public"},
-    "morphemes": [
-      {"canonical": "pick", "role": "root", "meaning": "采摘；偷取", "sentiment": {"tags": ["消极"], "intensity": -2}, "order": 1, "form": "pick", "positionTendency": "initial", "coreMeaning": {"cn": "取走", "en": "steal/take"}},
-      {"canonical": "pocket", "role": "root", "meaning": "口袋", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "pocket", "positionTendency": "final", "coreMeaning": {"cn": "口袋", "en": "pocket"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "pick + pocket", "to": "pickpocket", "rule": "compound", "meaning": "从口袋中取走→扒手"}]},
+    "coreMeaning": {
+      "cn": "扒手；扒窃者",
+      "en": "a thief who steals from pockets or bags of people in public"
+    },
+    "morphemes": [
+      {
+        "canonical": "pick",
+        "role": "root",
+        "meaning": "采摘；偷取",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -2
+        },
+        "order": 1,
+        "form": "pick",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "取走",
+          "en": "steal/take"
+        }
+      },
+      {
+        "canonical": "pocket",
+        "role": "root",
+        "meaning": "口袋",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "pocket",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "口袋",
+          "en": "pocket"
+        }
+      }
+    ],
+    "derivationChain": [
+      "pickpocket"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "pick(取)+pocket(口袋)→扒手", "imageChain": ["扒手", "偷窃", "口袋"]},
-    "wordLevel": {"domain": ["general", "legal"], "sentiment": {"tags": ["消极"], "intensity": -2}},
-    "relations": {"sameRoot": ["pick"], "sameAffix": [], "synonyms": ["thief", "cutpurse"], "antonyms": [], "domainCohort": ["thief", "mugger"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "pick(取)+pocket(口袋)→扒手",
+      "imageChain": [
+        "扒手",
+        "偷窃",
+        "口袋"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "legal"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "pick"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "thief",
+        "cutpurse"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "thief",
+        "mugger"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "picky",
     "phonetic": "/ˈpɪki/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "挑剔的；苛求的", "en": "fussy; hard to please; very careful about choosing"},
-    "morphemes": [
-      {"canonical": "pick", "role": "root", "meaning": "选择；挑选", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "pick", "positionTendency": "initial", "coreMeaning": {"cn": "挑选", "en": "choose/select"}},
-      {"canonical": "-y", "role": "suffix", "meaning": "形容词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "y", "positionTendency": "final", "coreMeaning": {"cn": "形容词", "en": "adj. forming"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "pick + -y", "to": "picky", "rule": "root + suffix", "meaning": "过于挑剔的"}]},
+    "coreMeaning": {
+      "cn": "挑剔的；苛求的",
+      "en": "fussy; hard to please; very careful about choosing"
+    },
+    "morphemes": [
+      {
+        "canonical": "pick",
+        "role": "root",
+        "meaning": "选择；挑选",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "pick",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "挑选",
+          "en": "choose/select"
+        }
+      },
+      {
+        "canonical": "-y",
+        "role": "suffix",
+        "meaning": "形容词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "y",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "形容词",
+          "en": "adj. forming"
+        }
+      }
+    ],
+    "derivationChain": [
+      "picky"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "pick(挑选)+y→挑剔的", "imageChain": ["挑剔", "苛求", "难满足"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": ["pick", "pickier"], "sameAffix": [], "synonyms": ["fussy", "choosy", "fastidious"], "antonyms": ["easy-going", "accepting"], "domainCohort": ["fussy", "demanding"], "derivationPair": ["pick"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "pick(挑选)+y→挑剔的",
+      "imageChain": [
+        "挑剔",
+        "苛求",
+        "难满足"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "pick",
+        "pickier"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "fussy",
+        "choosy",
+        "fastidious"
+      ],
+      "antonyms": [
+        "easy-going",
+        "accepting"
+      ],
+      "domainCohort": [
+        "fussy",
+        "demanding"
+      ],
+      "derivationPair": [
+        "pick"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "picnic",
     "phonetic": "/ˈpɪknɪk/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "野餐；轻松的事", "en": "an outing with a meal eaten outdoors; an easily accomplished task"},
-    "morphemes": [
-      {"canonical": "picnic", "role": "root", "meaning": "野餐", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "picnic", "positionTendency": "medial", "coreMeaning": {"cn": "野餐", "en": "picnic/outing"}}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "Fr. pique-nique (pick + trifle)", "to": "picnic", "rule": "借词", "meaning": "户外聚餐→野餐"}]},
+    "coreMeaning": {
+      "cn": "野餐；轻松的事",
+      "en": "an outing with a meal eaten outdoors; an easily accomplished task"
+    },
+    "morphemes": [
+      {
+        "canonical": "picnic",
+        "role": "root",
+        "meaning": "野餐",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "picnic",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "野餐",
+          "en": "picnic/outing"
+        }
+      }
+    ],
+    "derivationChain": [
+      "picnic"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "picnic → 野餐（法语借词）", "imageChain": ["野餐", "户外", "家庭聚会"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["积极"], "intensity": 1}},
-    "relations": {"sameRoot": ["picnicker"], "sameAffix": [], "synonyms": ["outing", "excursion"], "antonyms": [], "domainCohort": [], "derivationPair": ["picnicker"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "picnic → 野餐（法语借词）",
+      "imageChain": [
+        "野餐",
+        "户外",
+        "家庭聚会"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "picnicker"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "outing",
+        "excursion"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "picnicker"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

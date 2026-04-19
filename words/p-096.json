@@ -1,105 +1,615 @@
 [
   {
     "word": "populate",
-    "phonetic": "/'pɑpjulet/",
-    "pos": ["v."],
-    "coreMeaning": { "cn": "居住于；使有人口", "en": "to inhabit or fill with people" },
+    "phonetic": "/'pɒpjʊleɪt/",
+    "pos": "v.",
+    "coreMeaning": {
+      "cn": "居住于；使充满；填充",
+      "en": "to inhabit or fill with people or things"
+    },
     "morphemes": [
-      { "canonical": "popul", "role": "root", "meaning": "人民；人口", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "popul", "positionTendency": "initial" },
-      { "canonical": "-ate", "role": "suffix", "meaning": "动词化", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ate", "positionTendency": "final" }
+      {
+        "canonical": "popul",
+        "role": "root",
+        "meaning": "人民；居民",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "popul",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "人民",
+          "en": "people"
+        }
+      },
+      {
+        "canonical": "-ate",
+        "role": "suffix",
+        "meaning": "动词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ate",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "使…化",
+          "en": "to make/cause"
+        }
+      }
     ],
     "derivationChain": [
-      { "step": 1, "form": "populus (L.)", "meaning": "人民" },
-      { "step": 2, "form": "populare", "meaning": "居住" },
-      { "step": 3, "form": "populate", "meaning": "使有人口" }
+      "populate"
     ],
     "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "people filling a land",
-      "scene": "移民潮：成群的人涌入一片空旷的土地，逐渐使其充满生机",
-      "emotionalHook": "人口的填充感——从空旷到繁荣"
+      "mnemonicExpr": "popul(people)+ate → 使有人居住",
+      "imageChain": [
+        "人口定居",
+        "填充居民",
+        "人口分布"
+      ]
     },
     "wordLevel": {
-      "domain": ["academic", "social"],
-      "sentiment": { "tags": ["中性"], "intensity": 0 }
+      "domain": [
+        "academic",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
     },
     "relations": {
-      "sameRoot": ["population", "populist", "populous"],
-      "sameAffix": ["educate", "elaborate"],
-      "synonyms": ["inhabit", "settle", "colonize"],
-      "antonyms": ["depopulate"],
-      "domainCohort": ["migrate", "colonize"],
-      "derivationPair": ["population"],
+      "sameRoot": [
+        "population",
+        "populous",
+        "populism",
+        "popular"
+      ],
+      "sameAffix": [
+        "-ate"
+      ],
+      "synonyms": [
+        "inhabit",
+        "settle",
+        "fill",
+        "occupy"
+      ],
+      "antonyms": [
+        "depopulate",
+        "empty"
+      ],
+      "domainCohort": [
+        "population",
+        "populous"
+      ],
+      "derivationPair": [
+        "populated",
+        "populates",
+        "populating",
+        "population"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "populated",
+    "phonetic": "/'pɒpjʊleɪtɪd/",
+    "pos": "adj./v.",
+    "coreMeaning": {
+      "cn": "有人口的；已填充的",
+      "en": "inhabited by people; having been filled with inhabitants"
+    },
+    "morphemes": [
+      {
+        "canonical": "popul",
+        "role": "root",
+        "meaning": "人民",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "popul",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "人民",
+          "en": "people"
+        }
+      },
+      {
+        "canonical": "-ate",
+        "role": "suffix",
+        "meaning": "动词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ate",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "动词",
+          "en": "verb"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "meaning": "过去式/形容词",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-d",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "过去式",
+          "en": "past tense"
+        }
+      }
+    ],
+    "derivationChain": [
+      "populated"
+    ],
+    "morphVariantOf": "populate",
+    "memorySemantics": {
+      "mnemonicExpr": "populate+d → 已有人口居住的",
+      "imageChain": [
+        "人口稠密区",
+        "已定居"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "academic",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "populate",
+        "population"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "inhabited",
+        "settled",
+        "occupied"
+      ],
+      "antonyms": [
+        "unpopulated",
+        "uninhabited"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "populate"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "populates",
+    "phonetic": "/'pɒpjʊleɪts/",
+    "pos": "v.",
+    "coreMeaning": {
+      "cn": "居住于（第三人称单数）",
+      "en": "third person singular of populate"
+    },
+    "morphemes": [
+      {
+        "canonical": "popul",
+        "role": "root",
+        "meaning": "人民",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "popul",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "人民",
+          "en": "people"
+        }
+      },
+      {
+        "canonical": "-ate",
+        "role": "suffix",
+        "meaning": "动词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ate",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "动词",
+          "en": "verb"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "meaning": "第三人称单数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-s",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "第三人称",
+          "en": "3rd person"
+        }
+      }
+    ],
+    "derivationChain": [
+      "populates"
+    ],
+    "morphVariantOf": "populate",
+    "memorySemantics": {
+      "mnemonicExpr": "populate的第三人称单数",
+      "imageChain": [
+        "居住",
+        "填充"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "populate"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "populate"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "populating",
+    "phonetic": "/'pɒpjʊleɪtɪŋ/",
+    "pos": "v.",
+    "coreMeaning": {
+      "cn": "居住于（进行时）",
+      "en": "present participle of populate"
+    },
+    "morphemes": [
+      {
+        "canonical": "popul",
+        "role": "root",
+        "meaning": "人民",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "popul",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "人民",
+          "en": "people"
+        }
+      },
+      {
+        "canonical": "-ate",
+        "role": "suffix",
+        "meaning": "动词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ate",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "动词",
+          "en": "verb"
+        }
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "meaning": "进行时",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-ing",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "进行",
+          "en": "ongoing"
+        }
+      }
+    ],
+    "derivationChain": [
+      "populating"
+    ],
+    "morphVariantOf": "populate",
+    "memorySemantics": {
+      "mnemonicExpr": "populate+ing → 正在填充人口",
+      "imageChain": [
+        "人口扩张",
+        "移民定居"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "populate"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "populate"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
   },
   {
     "word": "population",
-    "phonetic": "/,pɑpju'leʃən/",
-    "pos": ["n."],
-    "coreMeaning": { "cn": "人口；种群；全体居民", "en": "the total number of people or animals in a place" },
+    "phonetic": "/ˌpɒpjʊ'leɪʃən/",
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "人口；总体",
+      "en": "all the inhabitants of a place; the total number of people or organisms"
+    },
     "morphemes": [
-      { "canonical": "popul", "role": "root", "meaning": "人民", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "popul", "positionTendency": "initial" },
-      { "canonical": "-ation", "role": "suffix", "meaning": "名词化：行为/结果", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ation", "positionTendency": "final" }
+      {
+        "canonical": "popul",
+        "role": "root",
+        "meaning": "人民",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "popul",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "人民",
+          "en": "people"
+        }
+      },
+      {
+        "canonical": "-ation",
+        "role": "suffix",
+        "meaning": "名词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ation",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "行为/结果",
+          "en": "action/result"
+        }
+      }
     ],
     "derivationChain": [
-      { "step": 1, "form": "populus (L.)", "meaning": "人民" },
-      { "step": 2, "form": "populate", "meaning": "居住于" },
-      { "step": 3, "form": "population", "meaning": "人口总量" }
+      "population"
     ],
     "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "census map",
-      "scene": "统计人口的普查图，密密麻麻的点代表每一个人",
-      "emotionalHook": "宏观与微观：个体汇聚成群体数字"
+      "mnemonicExpr": "popul(people)+ation → 人口",
+      "imageChain": [
+        "人口普查",
+        "城市人口",
+        "统计总体"
+      ]
     },
     "wordLevel": {
-      "domain": ["academic", "social", "biology"],
-      "sentiment": { "tags": ["中性"], "intensity": 0 }
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
     },
     "relations": {
-      "sameRoot": ["populate", "populist", "populous"],
-      "sameAffix": ["nation", "education"],
-      "synonyms": ["inhabitants", "citizenry"],
+      "sameRoot": [
+        "populate",
+        "populous",
+        "populism"
+      ],
+      "sameAffix": [
+        "-ation"
+      ],
+      "synonyms": [
+        "inhabitants",
+        "residents",
+        "people",
+        "citizenry"
+      ],
       "antonyms": [],
-      "domainCohort": ["census", "demography"],
-      "derivationPair": ["populate"],
+      "domainCohort": [
+        "populations",
+        "populous"
+      ],
+      "derivationPair": [
+        "populate",
+        "populations"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
   },
   {
-    "word": "populous",
-    "phonetic": "/'pɑpjələs/",
-    "pos": ["adj."],
-    "coreMeaning": { "cn": "人口稠密的；人口多的", "en": "densely populated" },
+    "word": "populations",
+    "phonetic": "/ˌpɒpjʊ'leɪʃənz/",
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "人口（复数）；各地居民",
+      "en": "plural of population; multiple groups of inhabitants"
+    },
     "morphemes": [
-      { "canonical": "popul", "role": "root", "meaning": "人民", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "popul", "positionTendency": "initial" },
-      { "canonical": "-ous", "role": "suffix", "meaning": "形容词：富有……的", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ous", "positionTendency": "final" }
+      {
+        "canonical": "popul",
+        "role": "root",
+        "meaning": "人民",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "popul",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "人民",
+          "en": "people"
+        }
+      },
+      {
+        "canonical": "-ation",
+        "role": "suffix",
+        "meaning": "名词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ation",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "行为",
+          "en": "action"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "meaning": "复数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-s",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
     ],
     "derivationChain": [
-      { "step": 1, "form": "populus (L.)", "meaning": "人民" },
-      { "step": 2, "form": "populosus", "meaning": "人口众多的" },
-      { "step": 3, "form": "populous", "meaning": "人口稠密的" }
+      "populations"
     ],
-    "morphVariantOf": null,
+    "morphVariantOf": "population",
     "memorySemantics": {
-      "imageKey": "crowded city",
-      "scene": "密密麻麻的摩天大楼和人群，象征人口稠密的大都市",
-      "emotionalHook": "拥挤感——人多到连站立都困难"
+      "mnemonicExpr": "population的复数",
+      "imageChain": [
+        "各地人口"
+      ]
     },
     "wordLevel": {
-      "domain": ["academic", "GRE"],
-      "sentiment": { "tags": ["中性"], "intensity": 0 }
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
     },
     "relations": {
-      "sameRoot": ["population", "populate", "populist"],
-      "sameAffix": ["hazardous", "mountainous"],
-      "synonyms": ["crowded", "densely populated", "teeming"],
-      "antonyms": ["sparsely populated", "unpopulated"],
-      "domainCohort": ["metropolitan", "urban"],
-      "derivationPair": [],
+      "sameRoot": [
+        "population"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "population"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -107,170 +617,2856 @@
   {
     "word": "populism",
     "phonetic": "/'pɒpjʊlɪzəm/",
-    "pos": ["n."],
-    "coreMeaning": { "cn": "民粹主义", "en": "political approach appealing to ordinary people" },
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "民粹主义",
+      "en": "a political approach that appeals to ordinary people against elite groups"
+    },
     "morphemes": [
-      { "canonical": "popul", "role": "root", "meaning": "人民", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "popul", "positionTendency": "initial" },
-      { "canonical": "-ism", "role": "suffix", "meaning": "主义；思想体系", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ism", "positionTendency": "final" }
+      {
+        "canonical": "popul",
+        "role": "root",
+        "meaning": "人民",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "popul",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "人民",
+          "en": "people"
+        }
+      },
+      {
+        "canonical": "-ism",
+        "role": "suffix",
+        "meaning": "主义",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ism",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "主义/思想",
+          "en": "doctrine"
+        }
+      }
     ],
     "derivationChain": [
-      { "step": 1, "form": "populus (L.)", "meaning": "人民" },
-      { "step": 2, "form": "populist", "meaning": "民粹派" },
-      { "step": 3, "form": "populism", "meaning": "民粹主义" }
+      "populism"
     ],
     "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "rally crowd",
-      "scene": "政治演讲台上，领袖高呼「人民的力量」，台下群众狂热响应",
-      "emotionalHook": "代表普通人vs精英阶层的张力"
+      "mnemonicExpr": "popul(people)+ism → 人民主义/民粹主义",
+      "imageChain": [
+        "大众政治",
+        "反精英",
+        "民粹浪潮"
+      ]
     },
     "wordLevel": {
-      "domain": ["political", "news"],
-      "sentiment": { "tags": ["中性"], "intensity": 0 }
+      "domain": [
+        "general",
+        "legal",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
     },
     "relations": {
-      "sameRoot": ["populate", "population", "populous", "populist"],
-      "sameAffix": ["nationalism", "capitalism"],
+      "sameRoot": [
+        "populist",
+        "popular",
+        "populate",
+        "population"
+      ],
+      "sameAffix": [
+        "-ism"
+      ],
+      "synonyms": [
+        "people's politics",
+        "grass-roots movement"
+      ],
+      "antonyms": [
+        "elitism"
+      ],
+      "domainCohort": [
+        "populist",
+        "populous"
+      ],
+      "derivationPair": [
+        "populist"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "populist",
+    "phonetic": "/'pɒpjʊlɪst/",
+    "pos": "n./adj.",
+    "coreMeaning": {
+      "cn": "民粹主义者；民粹主义的",
+      "en": "an adherent of populism; appealing to ordinary people against elites"
+    },
+    "morphemes": [
+      {
+        "canonical": "popul",
+        "role": "root",
+        "meaning": "人民",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "popul",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "人民",
+          "en": "people"
+        }
+      },
+      {
+        "canonical": "-ist",
+        "role": "suffix",
+        "meaning": "信奉者",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ist",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "信奉者",
+          "en": "adherent"
+        }
+      }
+    ],
+    "derivationChain": [
+      "populist"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "popul+ist → 民粹主义者",
+      "imageChain": [
+        "民粹政客",
+        "草根运动",
+        "反建制"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "legal",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "populism",
+        "popular"
+      ],
+      "sameAffix": [
+        "-ist"
+      ],
+      "synonyms": [
+        "demagogue",
+        "people's champion"
+      ],
+      "antonyms": [
+        "elitist"
+      ],
+      "domainCohort": [
+        "populism",
+        "populists"
+      ],
+      "derivationPair": [
+        "populism"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "populists",
+    "phonetic": "/'pɒpjʊlɪsts/",
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "民粹主义者（复数）",
+      "en": "plural of populist"
+    },
+    "morphemes": [
+      {
+        "canonical": "popul",
+        "role": "root",
+        "meaning": "人民",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "popul",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "人民",
+          "en": "people"
+        }
+      },
+      {
+        "canonical": "-ist",
+        "role": "suffix",
+        "meaning": "信奉者",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ist",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "信奉者",
+          "en": "adherent"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "meaning": "复数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-s",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "populists"
+    ],
+    "morphVariantOf": "populist",
+    "memorySemantics": {
+      "mnemonicExpr": "populist的复数",
+      "imageChain": [
+        "多个民粹主义者"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "populist"
+      ],
+      "sameAffix": [],
       "synonyms": [],
-      "antonyms": ["elitism"],
-      "domainCohort": ["democracy", "demagogy"],
-      "derivationPair": ["populist"],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "populist"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "populous",
+    "phonetic": "/'pɒpjʊləs/",
+    "pos": "adj.",
+    "coreMeaning": {
+      "cn": "人口稠密的；人口众多的",
+      "en": "having a large population; densely inhabited"
+    },
+    "morphemes": [
+      {
+        "canonical": "popul",
+        "role": "root",
+        "meaning": "人民",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "popul",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "人民",
+          "en": "people"
+        }
+      },
+      {
+        "canonical": "-ous",
+        "role": "suffix",
+        "meaning": "形容词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ous",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "充满…的",
+          "en": "full of"
+        }
+      }
+    ],
+    "derivationChain": [
+      "populous"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "popul+ous → 充满人口的",
+      "imageChain": [
+        "人口拥挤",
+        "城市密集",
+        "人流涌动"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "population",
+        "populate",
+        "populism"
+      ],
+      "sameAffix": [
+        "-ous"
+      ],
+      "synonyms": [
+        "densely populated",
+        "crowded",
+        "teeming"
+      ],
+      "antonyms": [
+        "sparsely populated",
+        "depopulated",
+        "deserted"
+      ],
+      "domainCohort": [
+        "population",
+        "populism"
+      ],
+      "derivationPair": [
+        "populousness"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "populousness",
+    "phonetic": "/'pɒpjʊləsnəs/",
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "人口稠密",
+      "en": "the state of being populous; dense population"
+    },
+    "morphemes": [
+      {
+        "canonical": "popul",
+        "role": "root",
+        "meaning": "人民",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "popul",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "人民",
+          "en": "people"
+        }
+      },
+      {
+        "canonical": "-ous",
+        "role": "suffix",
+        "meaning": "形容词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ous",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "充满",
+          "en": "full of"
+        }
+      },
+      {
+        "canonical": "-ness",
+        "role": "suffix",
+        "meaning": "名词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-ness",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "性质",
+          "en": "quality"
+        }
+      }
+    ],
+    "derivationChain": [
+      "populousness"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "populous+ness → 人口稠密的状态",
+      "imageChain": [
+        "密度",
+        "人口数量"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "populous",
+        "population"
+      ],
+      "sameAffix": [
+        "-ness"
+      ],
+      "synonyms": [
+        "density",
+        "crowdedness"
+      ],
+      "antonyms": [
+        "sparseness"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "populous"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
   },
   {
     "word": "porcelain",
-    "phonetic": "/ˈpɔrsələn/",
-    "pos": ["n."],
-    "coreMeaning": { "cn": "瓷；瓷器", "en": "hard, white, translucent ceramic material" },
+    "phonetic": "/'pɔːrsəlɪn/",
+    "pos": "n./adj.",
+    "coreMeaning": {
+      "cn": "瓷器；瓷",
+      "en": "a white vitrified translucent ceramic; made of porcelain"
+    },
     "morphemes": [
-      { "canonical": "porcelain", "role": "root", "meaning": "瓷器", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "porcelain", "positionTendency": "initial" }
+      {
+        "canonical": "porcelain",
+        "role": "root",
+        "meaning": "瓷器",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "porcelain",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "瓷器",
+          "en": "fine china"
+        }
+      }
     ],
     "derivationChain": [
-      { "step": 1, "form": "porcellana (It.)", "meaning": "贝壳（因光滑如瓷）" },
-      { "step": 2, "form": "porcelain", "meaning": "瓷器" }
+      "porcelain"
     ],
     "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "white porcelain vase",
-      "scene": "洁白如玉的景德镇瓷瓶，釉面光亮，轻轻一敲发出清脆的声音",
-      "emotionalHook": "易碎之美——精致与脆弱并存"
+      "mnemonicExpr": "porcelain → 精致瓷器（贝壳状白色）",
+      "imageChain": [
+        "白瓷",
+        "茶具",
+        "精致工艺"
+      ]
     },
     "wordLevel": {
-      "domain": ["art", "material"],
-      "sentiment": { "tags": ["中性"], "intensity": 0 }
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
     },
     "relations": {
       "sameRoot": [],
       "sameAffix": [],
-      "synonyms": ["china", "ceramics"],
+      "synonyms": [
+        "china",
+        "fine china",
+        "ceramic"
+      ],
       "antonyms": [],
-      "domainCohort": ["pottery", "ceramic", "glaze"],
+      "domainCohort": [
+        "porch",
+        "pore"
+      ],
       "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "porch",
+    "phonetic": "/pɔːrtʃ/",
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "门廊；走廊",
+      "en": "a covered shelter projecting in front of the entrance to a building"
+    },
+    "morphemes": [
+      {
+        "canonical": "porch",
+        "role": "root",
+        "meaning": "门廊",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "porch",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "门廊",
+          "en": "porch"
+        }
+      }
+    ],
+    "derivationChain": [
+      "porch"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "porch → 门廊（门口有顶的区域）",
+      "imageChain": [
+        "门廊",
+        "前廊",
+        "屋檐下"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "porches",
+        "portico"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "veranda",
+        "stoop",
+        "portico",
+        "vestibule"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "porches"
+      ],
+      "derivationPair": [
+        "porches"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "porches",
+    "phonetic": "/'pɔːrtʃɪz/",
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "门廊（复数）",
+      "en": "plural of porch"
+    },
+    "morphemes": [
+      {
+        "canonical": "porch",
+        "role": "root",
+        "meaning": "门廊",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "porch",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "门廊",
+          "en": "porch"
+        }
+      },
+      {
+        "canonical": "-es",
+        "role": "suffix",
+        "meaning": "复数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-es",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "porches"
+    ],
+    "morphVariantOf": "porch",
+    "memorySemantics": {
+      "mnemonicExpr": "porch的复数",
+      "imageChain": [
+        "多个门廊"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "porch"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "porch"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
   },
   {
     "word": "porcine",
-    "phonetic": "/ˈpɔːrsaɪn/",
-    "pos": ["adj."],
-    "coreMeaning": { "cn": "猪的；似猪的", "en": "of, relating to, or resembling a pig" },
+    "phonetic": "/'pɔːrsaɪn/",
+    "pos": "adj.",
+    "coreMeaning": {
+      "cn": "猪的；像猪的",
+      "en": "of, relating to, or resembling pigs"
+    },
     "morphemes": [
-      { "canonical": "porc", "role": "root", "meaning": "猪", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "porc", "positionTendency": "initial" },
-      { "canonical": "-ine", "role": "suffix", "meaning": "形容词：……的", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ine", "positionTendency": "final" }
+      {
+        "canonical": "porc",
+        "role": "root",
+        "meaning": "猪",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "porc",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "猪",
+          "en": "pig"
+        }
+      },
+      {
+        "canonical": "-ine",
+        "role": "suffix",
+        "meaning": "形容词化（动物相关）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ine",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "…的（动物）",
+          "en": "relating to animal"
+        }
+      }
     ],
     "derivationChain": [
-      { "step": 1, "form": "porcus (L.)", "meaning": "猪" },
-      { "step": 2, "form": "porcinus", "meaning": "猪的" },
-      { "step": 3, "form": "porcine", "meaning": "猪的；似猪的" }
+      "porcine"
     ],
     "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "pig face",
-      "scene": "GRE词汇考试题：描述某人肥胖的脸庞像猪一样圆鼓",
-      "emotionalHook": "轻微贬义的形象——用于描述人时带讽刺意味"
+      "mnemonicExpr": "porc(pig)+ine → 猪的/像猪的",
+      "imageChain": [
+        "猪",
+        "猪的特征",
+        "肥胖贪吃"
+      ]
     },
     "wordLevel": {
-      "domain": ["GRE", "biology"],
-      "sentiment": { "tags": ["中性"], "intensity": 0 }
+      "domain": [
+        "academic",
+        "medical"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
     },
     "relations": {
-      "sameRoot": [],
-      "sameAffix": ["bovine", "feline", "canine"],
-      "synonyms": ["swine", "pig-like"],
+      "sameRoot": [
+        "porcupine"
+      ],
+      "sameAffix": [
+        "-ine"
+      ],
+      "synonyms": [
+        "pig-like",
+        "swinish",
+        "piggy"
+      ],
       "antonyms": [],
-      "domainCohort": ["bovine", "equine", "feline"],
+      "domainCohort": [
+        "porcupine",
+        "pork"
+      ],
       "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
     }
   },
   {
-    "word": "pore",
-    "phonetic": "/pɔr/",
-    "pos": ["n.", "v."],
-    "coreMeaning": { "cn": "毛孔；仔细研读", "en": "tiny opening in skin; to study intently" },
+    "word": "porcupine",
+    "phonetic": "/'pɔːrkjʊpaɪn/",
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "豪猪；刺猬",
+      "en": "a large rodent covered with sharp spines or quills"
+    },
     "morphemes": [
-      { "canonical": "pore", "role": "root", "meaning": "孔；仔细看", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "pore", "positionTendency": "initial" }
+      {
+        "canonical": "porc",
+        "role": "root",
+        "meaning": "猪",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "porc",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "猪",
+          "en": "pig"
+        }
+      },
+      {
+        "canonical": "spine",
+        "role": "root",
+        "meaning": "刺；棘",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "upine",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "刺",
+          "en": "spine"
+        }
+      }
     ],
     "derivationChain": [
-      { "step": 1, "form": "poros (Gk.)", "meaning": "通道，孔" },
-      { "step": 2, "form": "pore", "meaning": "毛孔；仔细研读" }
+      "porcupine"
     ],
     "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "microscope pores",
-      "scene": "显微镜下皮肤表面布满细小毛孔；同时学者正低头仔细研读古卷",
-      "emotionalHook": "细致入微——无论是皮肤的孔洞还是专注的目光"
+      "mnemonicExpr": "porc(pig)+upine(spine) → 有刺的猪/豪猪",
+      "imageChain": [
+        "豪猪",
+        "尖刺",
+        "防御"
+      ]
     },
     "wordLevel": {
-      "domain": ["biology", "academic"],
-      "sentiment": { "tags": ["中性"], "intensity": 0 }
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
     },
     "relations": {
-      "sameRoot": ["porous", "porosity"],
+      "sameRoot": [
+        "porcine",
+        "pork"
+      ],
       "sameAffix": [],
-      "synonyms": ["opening", "aperture"],
+      "synonyms": [
+        "hedgehog",
+        "spiny rodent"
+      ],
       "antonyms": [],
-      "domainCohort": ["sweat gland", "skin"],
-      "derivationPair": ["porous"],
+      "domainCohort": [
+        "porcine",
+        "pork"
+      ],
+      "derivationPair": [
+        "porcupines"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "porcupines",
+    "phonetic": "/'pɔːrkjʊpaɪnz/",
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "豪猪（复数）",
+      "en": "plural of porcupine"
+    },
+    "morphemes": [
+      {
+        "canonical": "porc",
+        "role": "root",
+        "meaning": "猪",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "porc",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "猪",
+          "en": "pig"
+        }
+      },
+      {
+        "canonical": "spine",
+        "role": "root",
+        "meaning": "刺",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "upine",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "刺",
+          "en": "spine"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "meaning": "复数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-s",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "porcupines"
+    ],
+    "morphVariantOf": "porcupine",
+    "memorySemantics": {
+      "mnemonicExpr": "porcupine的复数",
+      "imageChain": [
+        "多只豪猪"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "porcupine"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "porcupine"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "pore",
+    "phonetic": "/pɔːr/",
+    "pos": "n./v.",
+    "coreMeaning": {
+      "cn": "毛孔；孔隙；仔细研读",
+      "en": "a tiny opening in skin or surface; to study intently"
+    },
+    "morphemes": [
+      {
+        "canonical": "por",
+        "role": "root",
+        "meaning": "孔；通道",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pore",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "孔隙",
+          "en": "pore/passage"
+        }
+      }
+    ],
+    "derivationChain": [
+      "pore"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "pore → 毛孔（皮肤上的小孔）",
+      "imageChain": [
+        "毛孔",
+        "皮肤",
+        "仔细阅读"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "medical",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "porous",
+        "porosity",
+        "pores"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "opening",
+        "hole",
+        "passage"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "porous",
+        "porosity"
+      ],
+      "derivationPair": [
+        "pores",
+        "pored",
+        "poring",
+        "porous"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "pored",
+    "phonetic": "/pɔːrd/",
+    "pos": "v.",
+    "coreMeaning": {
+      "cn": "仔细研读（过去式）",
+      "en": "past tense of pore; studied intently"
+    },
+    "morphemes": [
+      {
+        "canonical": "por",
+        "role": "root",
+        "meaning": "细看；研读",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "pore",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "研读",
+          "en": "study intently"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "meaning": "过去式",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-d",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "过去式",
+          "en": "past tense"
+        }
+      }
+    ],
+    "derivationChain": [
+      "pored"
+    ],
+    "morphVariantOf": "pore",
+    "memorySemantics": {
+      "mnemonicExpr": "pore+d → 仔细研读过",
+      "imageChain": [
+        "专心阅读",
+        "研究"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "literary"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "pore",
+        "poring"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "pore"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "pores",
+    "phonetic": "/pɔːrz/",
+    "pos": "n./v.",
+    "coreMeaning": {
+      "cn": "毛孔（复数）；第三人称单数",
+      "en": "plural of pore; or third person singular of to pore"
+    },
+    "morphemes": [
+      {
+        "canonical": "por",
+        "role": "root",
+        "meaning": "孔隙",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pore",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "孔隙",
+          "en": "pore"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "meaning": "复数/第三人称",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-s",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "pores"
+    ],
+    "morphVariantOf": "pore",
+    "memorySemantics": {
+      "mnemonicExpr": "pore的复数",
+      "imageChain": [
+        "多个毛孔"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "medical",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "pore",
+        "porous"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "pore"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "poring",
+    "phonetic": "/'pɔːrɪŋ/",
+    "pos": "v.",
+    "coreMeaning": {
+      "cn": "仔细研读（进行时）",
+      "en": "present participle of pore; studying intently"
+    },
+    "morphemes": [
+      {
+        "canonical": "por",
+        "role": "root",
+        "meaning": "研读",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "pore",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "研读",
+          "en": "study"
+        }
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "meaning": "进行时",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ing",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "进行",
+          "en": "ongoing"
+        }
+      }
+    ],
+    "derivationChain": [
+      "poring"
+    ],
+    "morphVariantOf": "pore",
+    "memorySemantics": {
+      "mnemonicExpr": "pore+ing → 正在仔细研读",
+      "imageChain": [
+        "专注阅读",
+        "深入研究"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "pore",
+        "pored"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "pore"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "pork",
+    "phonetic": "/pɔːrk/",
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "猪肉；政府拨款（俚语）",
+      "en": "the meat of a pig; government money used for local projects to win votes"
+    },
+    "morphemes": [
+      {
+        "canonical": "porc",
+        "role": "root",
+        "meaning": "猪",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pork",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "猪肉",
+          "en": "pork"
+        }
+      }
+    ],
+    "derivationChain": [
+      "pork"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "pork → 猪肉（来自拉丁语porcus）",
+      "imageChain": [
+        "猪肉",
+        "培根",
+        "政治利益"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "porcine",
+        "porcupine",
+        "pork-barrel"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "pig meat",
+        "swine"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "pork-barrel",
+        "porker"
+      ],
+      "derivationPair": [
+        "pork-barrel",
+        "porker"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "pork-barrel",
+    "phonetic": "/'pɔːrkbærəl/",
+    "pos": "n./adj.",
+    "coreMeaning": {
+      "cn": "政治分肥；肉桶政治",
+      "en": "government spending for local projects to gain votes; relating to such spending"
+    },
+    "morphemes": [
+      {
+        "canonical": "porc",
+        "role": "root",
+        "meaning": "猪肉",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "pork",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "猪肉",
+          "en": "pork"
+        }
+      },
+      {
+        "canonical": "barrel",
+        "role": "root",
+        "meaning": "桶",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "barrel",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "桶",
+          "en": "barrel"
+        }
+      }
+    ],
+    "derivationChain": [
+      "pork-barrel"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "pork(肉)+barrel(桶) → 从桶里分猪肉/政治利益分配",
+      "imageChain": [
+        "政治分肥",
+        "地方利益",
+        "选票交换"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "legal",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "pork",
+        "porker"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "patronage",
+        "political graft",
+        "log-rolling"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "porker",
+        "pork"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "pork barrel"
+      ],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "porker",
+    "phonetic": "/'pɔːrkər/",
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "肉猪；猪（俚语）",
+      "en": "a pig raised for meat; informally, a fat person or pig"
+    },
+    "morphemes": [
+      {
+        "canonical": "porc",
+        "role": "root",
+        "meaning": "猪",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pork",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "猪",
+          "en": "pig"
+        }
+      },
+      {
+        "canonical": "-er",
+        "role": "suffix",
+        "meaning": "指人/物",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-er",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "…者/物",
+          "en": "agent"
+        }
+      }
+    ],
+    "derivationChain": [
+      "porker"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "pork+er → 猪（俚语）",
+      "imageChain": [
+        "肥猪",
+        "肉猪"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "pork",
+        "porcine"
+      ],
+      "sameAffix": [
+        "-er"
+      ],
+      "synonyms": [
+        "pig",
+        "swine",
+        "hog"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "pork",
+        "pork-barrel"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "porkers",
+    "phonetic": "/'pɔːrkərz/",
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "肉猪（复数）",
+      "en": "plural of porker"
+    },
+    "morphemes": [
+      {
+        "canonical": "porc",
+        "role": "root",
+        "meaning": "猪",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pork",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "猪",
+          "en": "pig"
+        }
+      },
+      {
+        "canonical": "-er",
+        "role": "suffix",
+        "meaning": "指物",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-er",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "物",
+          "en": "object"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "meaning": "复数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-s",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "porkers"
+    ],
+    "morphVariantOf": "porker",
+    "memorySemantics": {
+      "mnemonicExpr": "porker的复数",
+      "imageChain": [
+        "多头肉猪"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "porker",
+        "pork"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "porker"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "porn",
+    "phonetic": "/pɔːrn/",
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "色情（短语）",
+      "en": "short for pornography; sexually explicit material"
+    },
+    "morphemes": [
+      {
+        "canonical": "pornography",
+        "role": "root",
+        "meaning": "色情",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -3
+        },
+        "order": 1,
+        "form": "porn",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "色情",
+          "en": "pornography"
+        }
+      }
+    ],
+    "derivationChain": [
+      "porn"
+    ],
+    "morphVariantOf": "pornography",
+    "memorySemantics": {
+      "mnemonicExpr": "porn → pornography的缩写",
+      "imageChain": [
+        "色情内容"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -3
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "pornography",
+        "pornographic",
+        "pornographer"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "pornography",
+        "erotica"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "pornography",
+        "pornographic"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "pornography"
+      ],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "porno",
+    "phonetic": "/'pɔːrnoʊ/",
+    "pos": "n./adj.",
+    "coreMeaning": {
+      "cn": "色情（口语）",
+      "en": "informal for pornography; pornographic"
+    },
+    "morphemes": [
+      {
+        "canonical": "pornography",
+        "role": "root",
+        "meaning": "色情",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -3
+        },
+        "order": 1,
+        "form": "porno",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "色情",
+          "en": "pornography"
+        }
+      }
+    ],
+    "derivationChain": [
+      "porno"
+    ],
+    "morphVariantOf": "pornography",
+    "memorySemantics": {
+      "mnemonicExpr": "porno → pornography的口语简称",
+      "imageChain": [
+        "色情内容"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -3
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "pornography",
+        "porn"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "porn",
+        "pornography"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "pornography"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "porn",
+        "pornography"
+      ],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "pornographer",
+    "phonetic": "/pɔːr'nɒɡrəfər/",
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "色情作品制作者",
+      "en": "a person who creates or distributes pornographic material"
+    },
+    "morphemes": [
+      {
+        "canonical": "porno",
+        "role": "root",
+        "meaning": "色情；娼妓",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -3
+        },
+        "order": 1,
+        "form": "porno",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "娼妓",
+          "en": "prostitute"
+        }
+      },
+      {
+        "canonical": "graph",
+        "role": "root",
+        "meaning": "书写",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "graph",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "书写",
+          "en": "write"
+        }
+      },
+      {
+        "canonical": "-er",
+        "role": "suffix",
+        "meaning": "人",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-er",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "人",
+          "en": "person"
+        }
+      }
+    ],
+    "derivationChain": [
+      "pornographer"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "pornograph+er → 制作色情内容的人",
+      "imageChain": [
+        "色情产业",
+        "制作者"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "legal",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -3
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "pornography",
+        "pornographic"
+      ],
+      "sameAffix": [
+        "-er"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "pornography",
+        "pornographic"
+      ],
+      "derivationPair": [
+        "pornography"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "pornographers",
+    "phonetic": "/pɔːr'nɒɡrəfərz/",
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "色情作品制作者（复数）",
+      "en": "plural of pornographer"
+    },
+    "morphemes": [
+      {
+        "canonical": "porno",
+        "role": "root",
+        "meaning": "色情",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -3
+        },
+        "order": 1,
+        "form": "porno",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "色情",
+          "en": "porn"
+        }
+      },
+      {
+        "canonical": "graph",
+        "role": "root",
+        "meaning": "书写",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "graph",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "书写",
+          "en": "write"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "meaning": "复数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-s",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "pornographers"
+    ],
+    "morphVariantOf": "pornographer",
+    "memorySemantics": {
+      "mnemonicExpr": "pornographer的复数",
+      "imageChain": [
+        "多个色情制作者"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "legal",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -3
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "pornographer",
+        "pornography"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "pornographer"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "pornographic",
+    "phonetic": "/ˌpɔːrnə'ɡræfɪk/",
+    "pos": "adj.",
+    "coreMeaning": {
+      "cn": "色情的",
+      "en": "of or relating to pornography; sexually explicit"
+    },
+    "morphemes": [
+      {
+        "canonical": "porno",
+        "role": "root",
+        "meaning": "色情",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -3
+        },
+        "order": 1,
+        "form": "porno",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "色情",
+          "en": "porn"
+        }
+      },
+      {
+        "canonical": "graph",
+        "role": "root",
+        "meaning": "书写",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "graph",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "书写",
+          "en": "write"
+        }
+      },
+      {
+        "canonical": "-ic",
+        "role": "suffix",
+        "meaning": "形容词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-ic",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "…的",
+          "en": "relating to"
+        }
+      }
+    ],
+    "derivationChain": [
+      "pornographic"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "pornograph+ic → 色情内容的",
+      "imageChain": [
+        "色情材料",
+        "成人内容"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "legal",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -3
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "pornography",
+        "pornographer"
+      ],
+      "sameAffix": [
+        "-ic"
+      ],
+      "synonyms": [
+        "obscene",
+        "explicit",
+        "lewd"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "pornography",
+        "pornographer"
+      ],
+      "derivationPair": [
+        "pornography"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "pornography",
+    "phonetic": "/pɔːr'nɒɡrəfɪ/",
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "色情作品；色情",
+      "en": "sexually explicit material intended to cause sexual arousal"
+    },
+    "morphemes": [
+      {
+        "canonical": "porno",
+        "role": "root",
+        "meaning": "娼妓；色情",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -3
+        },
+        "order": 1,
+        "form": "porno",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "娼妓",
+          "en": "prostitute"
+        }
+      },
+      {
+        "canonical": "-graphy",
+        "role": "suffix",
+        "meaning": "书写；记录",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-graphy",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "书写",
+          "en": "writing"
+        }
+      }
+    ],
+    "derivationChain": [
+      "pornography"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "porno(prostitute)+graphy(writing) → 色情描写",
+      "imageChain": [
+        "色情内容",
+        "成人材料"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "legal",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -3
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "pornographic",
+        "pornographer",
+        "porn"
+      ],
+      "sameAffix": [
+        "-graphy"
+      ],
+      "synonyms": [
+        "obscenity",
+        "erotica",
+        "smut"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "pornographic",
+        "pornographer"
+      ],
+      "derivationPair": [
+        "pornographic",
+        "pornographer"
+      ],
+      "morphVariants": [
+        "porn",
+        "porno"
+      ],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "porosities",
+    "phonetic": "/pɔː'rɒsɪtɪz/",
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "孔隙度（复数）",
+      "en": "plural of porosity; degrees of being porous"
+    },
+    "morphemes": [
+      {
+        "canonical": "por",
+        "role": "root",
+        "meaning": "孔；通道",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "por",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "孔",
+          "en": "pore"
+        }
+      },
+      {
+        "canonical": "-osity",
+        "role": "suffix",
+        "meaning": "名词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-osity",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "性质",
+          "en": "quality"
+        }
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "meaning": "复数",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-ies",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
+      }
+    ],
+    "derivationChain": [
+      "porosities"
+    ],
+    "morphVariantOf": "porosity",
+    "memorySemantics": {
+      "mnemonicExpr": "porosity的复数",
+      "imageChain": [
+        "各种孔隙度"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "academic",
+        "tech"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "porosity",
+        "porous",
+        "pore"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "porosity"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "porosity",
+    "phonetic": "/pɔː'rɒsɪtɪ/",
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "多孔性；孔隙度",
+      "en": "the quality of being porous; the ratio of void spaces in a material"
+    },
+    "morphemes": [
+      {
+        "canonical": "por",
+        "role": "root",
+        "meaning": "孔；通道",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "por",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "孔",
+          "en": "pore"
+        }
+      },
+      {
+        "canonical": "-osity",
+        "role": "suffix",
+        "meaning": "名词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-osity",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "性质",
+          "en": "quality"
+        }
+      }
+    ],
+    "derivationChain": [
+      "porosity"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "por(pore)+osity → 多孔性/孔隙度",
+      "imageChain": [
+        "岩石孔隙",
+        "土壤透水性",
+        "材料空隙"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "academic",
+        "tech"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "porous",
+        "pore",
+        "porousness"
+      ],
+      "sameAffix": [
+        "-osity"
+      ],
+      "synonyms": [
+        "permeability",
+        "porousness"
+      ],
+      "antonyms": [
+        "impermeability",
+        "density"
+      ],
+      "domainCohort": [
+        "porous",
+        "porousness"
+      ],
+      "derivationPair": [
+        "porous"
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
   },
   {
     "word": "porous",
-    "phonetic": "/'pɔrəs/",
-    "pos": ["adj."],
-    "coreMeaning": { "cn": "多孔的；能渗透的", "en": "having many pores; allowing fluid to pass through" },
+    "phonetic": "/'pɔːrəs/",
+    "pos": "adj.",
+    "coreMeaning": {
+      "cn": "多孔的；可渗透的",
+      "en": "having many small holes through which liquid or gas can pass"
+    },
     "morphemes": [
-      { "canonical": "pore", "role": "root", "meaning": "孔", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "por", "positionTendency": "initial" },
-      { "canonical": "-ous", "role": "suffix", "meaning": "形容词：富有……的", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ous", "positionTendency": "final" }
+      {
+        "canonical": "por",
+        "role": "root",
+        "meaning": "孔；通道",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "por",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "孔",
+          "en": "pore"
+        }
+      },
+      {
+        "canonical": "-ous",
+        "role": "suffix",
+        "meaning": "形容词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ous",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "充满…的",
+          "en": "full of"
+        }
+      }
     ],
     "derivationChain": [
-      { "step": 1, "form": "poros (Gk.)", "meaning": "通道，孔" },
-      { "step": 2, "form": "pore (n.)", "meaning": "毛孔" },
-      { "step": 3, "form": "porous", "meaning": "多孔的" }
+      "porous"
     ],
     "morphVariantOf": null,
     "memorySemantics": {
-      "imageKey": "sponge with holes",
-      "scene": "海绵吸水的过程：无数小孔让水分自由渗透穿越",
-      "emotionalHook": "渗透感——边界不清晰、信息或液体可穿越"
+      "mnemonicExpr": "por(pore)+ous → 充满孔隙的/多孔的",
+      "imageChain": [
+        "海绵",
+        "多孔岩石",
+        "渗透过滤"
+      ]
     },
     "wordLevel": {
-      "domain": ["GRE", "science", "ielts"],
-      "sentiment": { "tags": ["中性"], "intensity": 0 }
+      "domain": [
+        "academic",
+        "tech"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
     },
     "relations": {
-      "sameRoot": ["pore", "porosity"],
-      "sameAffix": ["hazardous", "populous"],
-      "synonyms": ["permeable", "spongy"],
-      "antonyms": ["impermeable", "solid"],
-      "domainCohort": ["membrane", "filter"],
-      "derivationPair": ["pore"],
+      "sameRoot": [
+        "pore",
+        "porosity",
+        "porousness"
+      ],
+      "sameAffix": [
+        "-ous"
+      ],
+      "synonyms": [
+        "permeable",
+        "pitted",
+        "spongy"
+      ],
+      "antonyms": [
+        "impermeable",
+        "solid",
+        "dense"
+      ],
+      "domainCohort": [
+        "porosity",
+        "porousness"
+      ],
+      "derivationPair": [
+        "porosity",
+        "porousness"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "porousness",
+    "phonetic": "/'pɔːrəsnəs/",
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "多孔性",
+      "en": "the quality or state of being porous"
+    },
+    "morphemes": [
+      {
+        "canonical": "por",
+        "role": "root",
+        "meaning": "孔",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "por",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "孔",
+          "en": "pore"
+        }
+      },
+      {
+        "canonical": "-ous",
+        "role": "suffix",
+        "meaning": "形容词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ous",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "充满",
+          "en": "full of"
+        }
+      },
+      {
+        "canonical": "-ness",
+        "role": "suffix",
+        "meaning": "名词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-ness",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "性质",
+          "en": "quality"
+        }
+      }
+    ],
+    "derivationChain": [
+      "porousness"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "porous+ness → 多孔的状态",
+      "imageChain": [
+        "孔隙",
+        "透气性"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "porous",
+        "porosity"
+      ],
+      "sameAffix": [
+        "-ness"
+      ],
+      "synonyms": [
+        "porosity",
+        "permeability"
+      ],
+      "antonyms": [
+        "impermeability"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "porous"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "porphyria",
+    "phonetic": "/pɔːr'fɪrɪə/",
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "卟啉症（医学）",
+      "en": "a group of metabolic disorders resulting in excess porphyrins"
+    },
+    "morphemes": [
+      {
+        "canonical": "porphyr",
+        "role": "root",
+        "meaning": "紫色；卟啉",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "porphyr",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "紫色",
+          "en": "purple"
+        }
+      },
+      {
+        "canonical": "-ia",
+        "role": "suffix",
+        "meaning": "医学状况",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 2,
+        "form": "-ia",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "疾病状况",
+          "en": "medical condition"
+        }
+      }
+    ],
+    "derivationChain": [
+      "porphyria"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "porphyr(purple)+ia → 紫色病/卟啉症",
+      "imageChain": [
+        "紫色尿液",
+        "代谢疾病",
+        "罕见病"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "medical"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "porphyrite"
+      ],
+      "sameAffix": [
+        "-ia"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "porphyrite"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "porphyrite",
+    "phonetic": "/'pɔːrfɪraɪt/",
+    "pos": "n.",
+    "coreMeaning": {
+      "cn": "斑岩（地质）",
+      "en": "a type of porphyritic igneous rock with distinct crystals in a fine matrix"
+    },
+    "morphemes": [
+      {
+        "canonical": "porphyr",
+        "role": "root",
+        "meaning": "紫色；斑状",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "porphyr",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "紫色斑状",
+          "en": "purple porphyry"
+        }
+      },
+      {
+        "canonical": "-ite",
+        "role": "suffix",
+        "meaning": "岩石/矿物",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ite",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "矿石",
+          "en": "mineral/rock"
+        }
+      }
+    ],
+    "derivationChain": [
+      "porphyrite"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "mnemonicExpr": "porphyr(purple)+ite(rock) → 紫色斑岩",
+      "imageChain": [
+        "斑岩",
+        "紫色岩石",
+        "火成岩"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "academic",
+        "tech"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "porphyria"
+      ],
+      "sameAffix": [
+        "-ite"
+      ],
+      "synonyms": [
+        "porphyry"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "porphyria"
+      ],
+      "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
     }

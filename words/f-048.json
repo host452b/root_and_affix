@@ -2,102 +2,598 @@
   {
     "word": "fluorescent",
     "phonetic": "/,flɔ'rɛsnt/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "荧光的；发出荧光的", "en": "emitting a bright, glowing light when exposed to ultraviolet radiation"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "initial", "canonical": "fluor", "meaning": "fluorine; to flow; light emission", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "fluor", "coreMeaning": {"cn": "", "en": ""}},
-      {"role": "suffix", "positionTendency": "final", "canonical": "-escent", "meaning": "becoming; glowing", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "escent", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "fluoresce", "to": "fluorescent", "rule": "fluoresce + -ent → emitting fluorescent light"}]},
+    "coreMeaning": {
+      "cn": "荧光的；发出荧光的",
+      "en": "emitting a bright, glowing light when exposed to ultraviolet radiation"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "initial",
+        "canonical": "fluor",
+        "meaning": "fluorine; to flow; light emission",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "fluor",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "final",
+        "canonical": "-escent",
+        "meaning": "becoming; glowing",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "escent",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "fluorescent"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "fluor(light) + escent(glowing) = emitting bright glow", "imageChain": ["荧光灯", "发光", "明亮"], "mnemonicExpr": "fluorescent → 紫外线照射下发出荧光"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": ["fluorescence", "fluoride"], "sameAffix": [], "synonyms": ["luminescent", "glowing", "bright"], "antonyms": ["dim", "dull"], "domainCohort": [], "derivationPair": ["fluorescence", "fluoresce"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "fluor(light) + escent(glowing) = emitting bright glow",
+      "imageChain": [
+        "荧光灯",
+        "发光",
+        "明亮"
+      ],
+      "mnemonicExpr": "fluorescent → 紫外线照射下发出荧光"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "fluorescence",
+        "fluoride"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "luminescent",
+        "glowing",
+        "bright"
+      ],
+      "antonyms": [
+        "dim",
+        "dull"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "fluorescence",
+        "fluoresce"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "fluoride",
     "phonetic": "/'flɔraɪd/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "氟化物", "en": "a compound of fluorine with another element"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "initial", "canonical": "fluor", "meaning": "fluorine", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "fluor", "coreMeaning": {"cn": "", "en": ""}},
-      {"role": "suffix", "positionTendency": "final", "canonical": "-ide", "meaning": "chemical compound suffix", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ide", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "fluorine", "to": "fluoride", "rule": "fluor + -ide → compound of fluorine"}]},
+    "coreMeaning": {
+      "cn": "氟化物",
+      "en": "a compound of fluorine with another element"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "initial",
+        "canonical": "fluor",
+        "meaning": "fluorine",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "fluor",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "final",
+        "canonical": "-ide",
+        "meaning": "chemical compound suffix",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ide",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "fluoride"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "fluor(fluorine) + -ide = compound of fluorine", "imageChain": ["氟化物", "牙膏", "水氟化"], "mnemonicExpr": "fluoride → 牙膏中防蛀的氟化物"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["medical", "academic"], "formality": "technical"},
-    "relations": {"sameRoot": ["fluorine", "fluorescent", "fluoridation"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["fluoridation", "fluoridate"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "fluor(fluorine) + -ide = compound of fluorine",
+      "imageChain": [
+        "氟化物",
+        "牙膏",
+        "水氟化"
+      ],
+      "mnemonicExpr": "fluoride → 牙膏中防蛀的氟化物"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical",
+        "academic"
+      ],
+      "formality": "technical"
+    },
+    "relations": {
+      "sameRoot": [
+        "fluorine",
+        "fluorescent",
+        "fluoridation"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "fluoridation",
+        "fluoridate"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "flush",
     "phonetic": "/flʌʃ/",
-    "pos": ["vt.", "vi.", "adj.", "n."],
-    "coreMeaning": {"cn": "冲洗；脸红；兴奋", "en": "to cleanse with a rush of water; to glow red"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "medial", "canonical": "flush", "meaning": "to flow suddenly; to blush", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "flush", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "vt.",
+      "vi.",
+      "adj.",
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "冲洗；脸红；兴奋",
+      "en": "to cleanse with a rush of water; to glow red"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "flush",
+        "meaning": "to flow suddenly; to blush",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "flush",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "flush = sudden flow of liquid or color", "imageChain": ["冲水", "脸红", "奔流"], "mnemonicExpr": "flush → 水流涌出，脸颊潮红"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["flushed", "flushing"], "sameAffix": [], "synonyms": ["rinse", "wash", "blush", "redden"], "antonyms": [], "domainCohort": [], "derivationPair": ["flushed", "flushing"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "flush = sudden flow of liquid or color",
+      "imageChain": [
+        "冲水",
+        "脸红",
+        "奔流"
+      ],
+      "mnemonicExpr": "flush → 水流涌出，脸颊潮红"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "flushed",
+        "flushing"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "rinse",
+        "wash",
+        "blush",
+        "redden"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "flushed",
+        "flushing"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "fluster",
     "phonetic": "/'flʌstɚ/",
-    "pos": ["vt.", "n."],
-    "coreMeaning": {"cn": "慌乱；使不安", "en": "to make someone agitated and confused"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "medial", "canonical": "fluster", "meaning": "to confuse; to be flustered", "sentiment": {"tags": ["贬义"], "intensity": -1}, "order": 1, "form": "fluster", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "vt.",
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "慌乱；使不安",
+      "en": "to make someone agitated and confused"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "fluster",
+        "meaning": "to confuse; to be flustered",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "fluster",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "fluster = state of nervous confusion", "imageChain": ["慌张", "不安", "手忙脚乱"], "mnemonicExpr": "fluster → 慌乱中手足无措"},
-    "wordLevel": {"sentiment": {"tags": ["贬义"], "intensity": -1}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["flustered"], "sameAffix": [], "synonyms": ["agitate", "confuse", "unsettle", "rattle"], "antonyms": ["calm", "soothe", "compose"], "domainCohort": [], "derivationPair": ["flustered", "flustering"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "fluster = state of nervous confusion",
+      "imageChain": [
+        "慌张",
+        "不安",
+        "手忙脚乱"
+      ],
+      "mnemonicExpr": "fluster → 慌乱中手足无措"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "flustered"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "agitate",
+        "confuse",
+        "unsettle",
+        "rattle"
+      ],
+      "antonyms": [
+        "calm",
+        "soothe",
+        "compose"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "flustered",
+        "flustering"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "flustered",
     "phonetic": "/'flʌstəd/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "慌张的；激动不安的", "en": "agitated and confused"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "initial", "canonical": "fluster", "meaning": "to confuse", "sentiment": {"tags": ["贬义"], "intensity": -1}, "order": 1, "form": "fluster", "coreMeaning": {"cn": "", "en": ""}},
-      {"role": "suffix", "positionTendency": "final", "canonical": "-ed", "meaning": "past participle / adj.", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ed", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "fluster", "to": "flustered", "rule": "fluster + -ed → adj."}]},
+    "coreMeaning": {
+      "cn": "慌张的；激动不安的",
+      "en": "agitated and confused"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "initial",
+        "canonical": "fluster",
+        "meaning": "to confuse",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "fluster",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "final",
+        "canonical": "-ed",
+        "meaning": "past participle / adj.",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ed",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "flustered"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "fluster + -ed = in state of confusion", "imageChain": ["惊慌失措", "窘迫", "神不守舍"], "mnemonicExpr": "flustered → 被搞得慌慌张张"},
-    "wordLevel": {"sentiment": {"tags": ["贬义"], "intensity": -1}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["fluster"], "sameAffix": [], "synonyms": ["agitated", "flustered", "confused", "nervous"], "antonyms": ["calm", "composed", "collected"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "fluster + -ed = in state of confusion",
+      "imageChain": [
+        "惊慌失措",
+        "窘迫",
+        "神不守舍"
+      ],
+      "mnemonicExpr": "flustered → 被搞得慌慌张张"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "fluster"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "agitated",
+        "flustered",
+        "confused",
+        "nervous"
+      ],
+      "antonyms": [
+        "calm",
+        "composed",
+        "collected"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "flute",
     "phonetic": "/fluːt/",
-    "pos": ["n.", "vt."],
-    "coreMeaning": {"cn": "长笛；凹槽", "en": "a woodwind instrument; a channel or groove"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "medial", "canonical": "flute", "meaning": "a pipe-like instrument", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "flute", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "n.",
+      "vt."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "长笛；凹槽",
+      "en": "a woodwind instrument; a channel or groove"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "flute",
+        "meaning": "a pipe-like instrument",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "flute",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "flute = a wind instrument with holes", "imageChain": ["长笛", "乐器", "音乐"], "mnemonicExpr": "flute → 乐队中的长笛演奏"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": ["fluted", "flutist", "fluting"], "sameAffix": [], "synonyms": ["pipe", "recorder"], "antonyms": [], "domainCohort": [], "derivationPair": ["fluted", "fluting", "flutist"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "flute = a wind instrument with holes",
+      "imageChain": [
+        "长笛",
+        "乐器",
+        "音乐"
+      ],
+      "mnemonicExpr": "flute → 乐队中的长笛演奏"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "fluted",
+        "flutist",
+        "fluting"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "pipe",
+        "recorder"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "fluted",
+        "fluting",
+        "flutist"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "flutter",
     "phonetic": "/'flʌtɚ/",
-    "pos": ["vi.", "vt.", "n."],
-    "coreMeaning": {"cn": "振翼；颤动；飘动", "en": "to move with quick, irregular movements; to flap wings rapidly"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "medial", "canonical": "flutter", "meaning": "to flap rapidly", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "flutter", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "vi.",
+      "vt.",
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "振翼；颤动；飘动",
+      "en": "to move with quick, irregular movements; to flap wings rapidly"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "flutter",
+        "meaning": "to flap rapidly",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "flutter",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "flutter = rapid, irregular movements", "imageChain": ["翅膀振动", "飘动", "心跳加速"], "mnemonicExpr": "flutter → 蝴蝶扑扇翅膀飞舞"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["flap", "flutter", "quiver", "flicker"], "antonyms": ["steady", "stable"], "domainCohort": [], "derivationPair": ["fluttered", "fluttering"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "flutter = rapid, irregular movements",
+      "imageChain": [
+        "翅膀振动",
+        "飘动",
+        "心跳加速"
+      ],
+      "mnemonicExpr": "flutter → 蝴蝶扑扇翅膀飞舞"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "flap",
+        "flutter",
+        "quiver",
+        "flicker"
+      ],
+      "antonyms": [
+        "steady",
+        "stable"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "fluttered",
+        "fluttering"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

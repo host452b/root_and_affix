@@ -2,147 +2,823 @@
   {
     "word": "leaflet",
     "phonetic": "/'liflət/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "小叶；传单", "en": "a small leaf; a printed sheet of paper giving information or advertising"},
-    "morphemes": [
-      {"canonical": "leaf", "role": "root", "positionTendency": "initial", "meaning": "叶子；页", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "leaf"},
-      {"canonical": "-let", "role": "suffix", "positionTendency": "final", "meaning": "小称", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "let"}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": ["leaf → leaflet"]},
+    "coreMeaning": {
+      "cn": "小叶；传单",
+      "en": "a small leaf; a printed sheet of paper giving information or advertising"
+    },
+    "morphemes": [
+      {
+        "canonical": "leaf",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "叶子；页",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "leaf"
+      },
+      {
+        "canonical": "-let",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "小称",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "let"
+      }
+    ],
+    "derivationChain": [
+      "leaf → leaflet"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "小叶子；薄纸传单", "imageChain": ["传单", "小册子", "宣传"], "mnemonicExpr": "leaf(叶片/页)+let(小) → 小页，传单"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "business"], "formality": "neutral"},
-    "relations": {"sameRoot": ["leaf"], "sameAffix": [], "synonyms": ["pamphlet", "flyer", "brochure"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "小叶子；薄纸传单",
+      "imageChain": [
+        "传单",
+        "小册子",
+        "宣传"
+      ],
+      "mnemonicExpr": "leaf(叶片/页)+let(小) → 小页，传单"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "business"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "leaf"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "pamphlet",
+        "flyer",
+        "brochure"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "league",
     "phonetic": "/lig/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "联盟；同盟；等级；级别", "en": "a group of people or organizations united for a purpose; a class or category"},
-    "morphemes": [
-      {"canonical": "leag", "role": "root", "positionTendency": "medial", "meaning": "联合；联盟", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "league"}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": ["ligare(绑) → liga → league"]},
+    "coreMeaning": {
+      "cn": "联盟；同盟；等级；级别",
+      "en": "a group of people or organizations united for a purpose; a class or category"
+    },
+    "morphemes": [
+      {
+        "canonical": "leag",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "联合；联盟",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "league"
+      }
+    ],
+    "derivationChain": [
+      "ligare(绑) → liga → league"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "绑在一起的联盟", "imageChain": ["联盟", "团体", "级别"], "mnemonicExpr": "league → 联结在一起的团体"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "business"], "formality": "neutral"},
-    "relations": {"sameRoot": ["colleague", "colligate"], "sameAffix": [], "synonyms": ["alliance", "union", "federation"], "antonyms": ["rivalry", "opposition"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": ["alliance"]}
+    "memorySemantics": {
+      "literal": "绑在一起的联盟",
+      "imageChain": [
+        "联盟",
+        "团体",
+        "级别"
+      ],
+      "mnemonicExpr": "league → 联结在一起的团体"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "business"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "colleague",
+        "colligate"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "alliance",
+        "union",
+        "federation"
+      ],
+      "antonyms": [
+        "rivalry",
+        "opposition"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "alliance"
+      ]
+    }
   },
   {
     "word": "leak",
     "phonetic": "/lik/",
-    "pos": ["v.", "n."],
-    "coreMeaning": {"cn": "泄漏；漏洞；裂缝", "en": "to allow fluid or information to escape through a hole or gap"},
-    "morphemes": [
-      {"canonical": "leak", "role": "root", "positionTendency": "medial", "meaning": "渗漏；泄露", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "leak"}
+    "pos": [
+      "v.",
+      "n."
     ],
-    "derivationChain": {"steps": ["leken(渗漏) → leak"]},
+    "coreMeaning": {
+      "cn": "泄漏；漏洞；裂缝",
+      "en": "to allow fluid or information to escape through a hole or gap"
+    },
+    "morphemes": [
+      {
+        "canonical": "leak",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "渗漏；泄露",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "leak"
+      }
+    ],
+    "derivationChain": [
+      "leken(渗漏) → leak"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "液体或信息的渗漏", "imageChain": ["渗漏", "裂缝", "泄露"], "mnemonicExpr": "leak → 泄露，渗漏"},
-    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": -1}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["leakage", "leaky"], "sameAffix": [], "synonyms": ["seep", "drip", "divulge"], "antonyms": ["seal", "plug"], "domainCohort": ["leakage"], "derivationPair": ["leakage"], "morphVariants": [], "sameImagery": ["seep"]}
+    "memorySemantics": {
+      "literal": "液体或信息的渗漏",
+      "imageChain": [
+        "渗漏",
+        "裂缝",
+        "泄露"
+      ],
+      "mnemonicExpr": "leak → 泄露，渗漏"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "leakage",
+        "leaky"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "seep",
+        "drip",
+        "divulge"
+      ],
+      "antonyms": [
+        "seal",
+        "plug"
+      ],
+      "domainCohort": [
+        "leakage"
+      ],
+      "derivationPair": [
+        "leakage"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "seep"
+      ]
+    }
   },
   {
     "word": "leakage",
     "phonetic": "/'likɪdʒ/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "渗漏；漏出", "en": "the process of leaking; the amount that leaks"},
-    "morphemes": [
-      {"canonical": "leak", "role": "root", "positionTendency": "initial", "meaning": "渗漏；泄露", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "leak"},
-      {"canonical": "-age", "role": "suffix", "positionTendency": "final", "meaning": "名词化；行为结果", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "age"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": ["leak → leakage"]},
+    "coreMeaning": {
+      "cn": "渗漏；漏出",
+      "en": "the process of leaking; the amount that leaks"
+    },
+    "morphemes": [
+      {
+        "canonical": "leak",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "渗漏；泄露",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "leak"
+      },
+      {
+        "canonical": "-age",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "名词化；行为结果",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "age"
+      }
+    ],
+    "derivationChain": [
+      "leak → leakage"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "渗漏的行为和结果", "imageChain": ["渗出", "损失", "泄露"], "mnemonicExpr": "leak(渗漏)+age → 渗漏行为"},
-    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": -1}, "domain": ["general", "tech"], "formality": "neutral"},
-    "relations": {"sameRoot": ["leak", "leaky"], "sameAffix": [], "synonyms": ["seepage", "drip", "escape"], "antonyms": [], "domainCohort": [], "derivationPair": ["leak"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "渗漏的行为和结果",
+      "imageChain": [
+        "渗出",
+        "损失",
+        "泄露"
+      ],
+      "mnemonicExpr": "leak(渗漏)+age → 渗漏行为"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      },
+      "domain": [
+        "general",
+        "tech"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "leak",
+        "leaky"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "seepage",
+        "drip",
+        "escape"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "leak"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "lean",
     "phonetic": "/lin/",
-    "pos": ["v.", "adj.", "n."],
-    "coreMeaning": {"cn": "倾斜；倚靠；倾向；精瘦的", "en": "to incline or bend; to rest against; thin and fit"},
-    "morphemes": [
-      {"canonical": "lean", "role": "root", "positionTendency": "medial", "meaning": "倾斜；精瘦", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "lean"}
+    "pos": [
+      "v.",
+      "adj.",
+      "n."
     ],
-    "derivationChain": {"steps": ["hleonian(倾斜) → lean"]},
+    "coreMeaning": {
+      "cn": "倾斜；倚靠；倾向；精瘦的",
+      "en": "to incline or bend; to rest against; thin and fit"
+    },
+    "morphemes": [
+      {
+        "canonical": "lean",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "倾斜；精瘦",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "lean"
+      }
+    ],
+    "derivationChain": [
+      "hleonian(倾斜) → lean"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "倾斜靠着；精瘦", "imageChain": ["倚靠", "倾斜", "精瘦"], "mnemonicExpr": "lean → 倾斜依靠；形容精瘦"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["leaning"], "sameAffix": [], "synonyms": ["incline", "tilt", "slender"], "antonyms": ["fat", "chubby"], "domainCohort": ["leaning"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "倾斜靠着；精瘦",
+      "imageChain": [
+        "倚靠",
+        "倾斜",
+        "精瘦"
+      ],
+      "mnemonicExpr": "lean → 倾斜依靠；形容精瘦"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "leaning"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "incline",
+        "tilt",
+        "slender"
+      ],
+      "antonyms": [
+        "fat",
+        "chubby"
+      ],
+      "domainCohort": [
+        "leaning"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "leaning",
     "phonetic": "/'linɪŋ/",
-    "pos": ["n.", "adj."],
-    "coreMeaning": {"cn": "倾向；偏好", "en": "a tendency or partiality toward something"},
-    "morphemes": [
-      {"canonical": "lean", "role": "root", "positionTendency": "initial", "meaning": "倾斜；倾向", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "lean"},
-      {"canonical": "-ing", "role": "suffix", "positionTendency": "final", "meaning": "名词化；形容词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ing"}
+    "pos": [
+      "n.",
+      "adj."
     ],
-    "derivationChain": {"steps": ["lean → leaning"]},
+    "coreMeaning": {
+      "cn": "倾向；偏好",
+      "en": "a tendency or partiality toward something"
+    },
+    "morphemes": [
+      {
+        "canonical": "lean",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "倾斜；倾向",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "lean"
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "名词化；形容词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ing"
+      }
+    ],
+    "derivationChain": [
+      "lean → leaning"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "倾向某一方向的", "imageChain": ["偏向", "趋势", "倾向"], "mnemonicExpr": "lean(倾斜)+ing → 倾向，偏向"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["lean"], "sameAffix": [], "synonyms": ["tendency", "inclination", "proclivity"], "antonyms": ["aversion", "dislike"], "domainCohort": [], "derivationPair": ["lean"], "morphVariants": [], "sameImagery": ["tendency"]}
+    "memorySemantics": {
+      "literal": "倾向某一方向的",
+      "imageChain": [
+        "偏向",
+        "趋势",
+        "倾向"
+      ],
+      "mnemonicExpr": "lean(倾斜)+ing → 倾向，偏向"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "lean"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "tendency",
+        "inclination",
+        "proclivity"
+      ],
+      "antonyms": [
+        "aversion",
+        "dislike"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "lean"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "tendency"
+      ]
+    }
   },
   {
     "word": "leap",
     "phonetic": "/lip/",
-    "pos": ["v.", "n."],
-    "coreMeaning": {"cn": "跳跃；扑向；欣然接受", "en": "to jump high or far; to move quickly; a sudden jump"},
-    "morphemes": [
-      {"canonical": "leap", "role": "root", "positionTendency": "medial", "meaning": "跳跃；飞跃", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "leap"}
+    "pos": [
+      "v.",
+      "n."
     ],
-    "derivationChain": {"steps": ["hleapan(跳跃) → leap"]},
+    "coreMeaning": {
+      "cn": "跳跃；扑向；欣然接受",
+      "en": "to jump high or far; to move quickly; a sudden jump"
+    },
+    "morphemes": [
+      {
+        "canonical": "leap",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "跳跃；飞跃",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "leap"
+      }
+    ],
+    "derivationChain": [
+      "hleapan(跳跃) → leap"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "一跃而起", "imageChain": ["跳跃", "飞跃", "大步"], "mnemonicExpr": "leap → 跃进，大步跳跃"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["leapfrog"], "sameAffix": [], "synonyms": ["jump", "spring", "bound"], "antonyms": ["crawl", "tiptoe"], "domainCohort": ["leapfrog"], "derivationPair": [], "morphVariants": [], "sameImagery": ["spring"]}
+    "memorySemantics": {
+      "literal": "一跃而起",
+      "imageChain": [
+        "跳跃",
+        "飞跃",
+        "大步"
+      ],
+      "mnemonicExpr": "leap → 跃进，大步跳跃"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "leapfrog"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "jump",
+        "spring",
+        "bound"
+      ],
+      "antonyms": [
+        "crawl",
+        "tiptoe"
+      ],
+      "domainCohort": [
+        "leapfrog"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "spring"
+      ]
+    }
   },
   {
     "word": "leapfrog",
     "phonetic": "/'liːpfrɒɡ/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "跳蛙游戏；超越；跨越", "en": "a game where players leap over others; to pass over or skip a stage"},
-    "morphemes": [
-      {"canonical": "leap", "role": "root", "positionTendency": "initial", "meaning": "跳跃", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "leap"},
-      {"canonical": "frog", "role": "root", "positionTendency": "final", "meaning": "青蛙", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "frog"}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": ["leap+frog → leapfrog"]},
+    "coreMeaning": {
+      "cn": "跳蛙游戏；超越；跨越",
+      "en": "a game where players leap over others; to pass over or skip a stage"
+    },
+    "morphemes": [
+      {
+        "canonical": "leap",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "跳跃",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "leap"
+      },
+      {
+        "canonical": "frog",
+        "role": "root",
+        "positionTendency": "final",
+        "meaning": "青蛙",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "frog"
+      }
+    ],
+    "derivationChain": [
+      "leap+frog → leapfrog"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "像青蛙一样跳跃", "imageChain": ["青蛙", "跳过", "超越"], "mnemonicExpr": "leap(跳)+frog(青蛙) → 跳过，超越"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["leap"], "sameAffix": [], "synonyms": ["bypass", "skip over", "surpass"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "像青蛙一样跳跃",
+      "imageChain": [
+        "青蛙",
+        "跳过",
+        "超越"
+      ],
+      "mnemonicExpr": "leap(跳)+frog(青蛙) → 跳过，超越"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "leap"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "bypass",
+        "skip over",
+        "surpass"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "leafy",
     "phonetic": "/'liːfi/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "多叶的；绿树成荫的", "en": "having many leaves; covered with leaves"},
-    "morphemes": [
-      {"canonical": "leaf", "role": "root", "positionTendency": "initial", "meaning": "叶子", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "leaf"},
-      {"canonical": "-y", "role": "suffix", "positionTendency": "final", "meaning": "形容词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "y"}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": ["leaf → leafy"]},
+    "coreMeaning": {
+      "cn": "多叶的；绿树成荫的",
+      "en": "having many leaves; covered with leaves"
+    },
+    "morphemes": [
+      {
+        "canonical": "leaf",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "叶子",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "leaf"
+      },
+      {
+        "canonical": "-y",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "形容词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "y"
+      }
+    ],
+    "derivationChain": [
+      "leaf → leafy"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "覆盖着叶子的", "imageChain": ["绿荫", "树叶", "郁郁葱葱"], "mnemonicExpr": "leaf(叶子)+y → 多叶的"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["leaf", "leaflet"], "sameAffix": [], "synonyms": ["green", "verdant", "foliage-covered"], "antonyms": ["bare", "leafless"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": ["verdant"]}
+    "memorySemantics": {
+      "literal": "覆盖着叶子的",
+      "imageChain": [
+        "绿荫",
+        "树叶",
+        "郁郁葱葱"
+      ],
+      "mnemonicExpr": "leaf(叶子)+y → 多叶的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "leaf",
+        "leaflet"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "green",
+        "verdant",
+        "foliage-covered"
+      ],
+      "antonyms": [
+        "bare",
+        "leafless"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "verdant"
+      ]
+    }
   },
   {
     "word": "leaky",
     "phonetic": "/'liːki/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "漏水的；有漏洞的", "en": "allowing liquid to escape; having leaks; not watertight"},
-    "morphemes": [
-      {"canonical": "leak", "role": "root", "positionTendency": "initial", "meaning": "渗漏", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "leak"},
-      {"canonical": "-y", "role": "suffix", "positionTendency": "final", "meaning": "形容词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "y"}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": ["leak → leaky"]},
+    "coreMeaning": {
+      "cn": "漏水的；有漏洞的",
+      "en": "allowing liquid to escape; having leaks; not watertight"
+    },
+    "morphemes": [
+      {
+        "canonical": "leak",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "渗漏",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "leak"
+      },
+      {
+        "canonical": "-y",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "形容词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "y"
+      }
+    ],
+    "derivationChain": [
+      "leak → leaky"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "会渗漏的", "imageChain": ["漏水", "破损", "渗出"], "mnemonicExpr": "leak(渗漏)+y → 容易漏的"},
-    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": -1}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["leak", "leakage"], "sameAffix": [], "synonyms": ["porous", "permeable"], "antonyms": ["watertight", "sealed"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "会渗漏的",
+      "imageChain": [
+        "漏水",
+        "破损",
+        "渗出"
+      ],
+      "mnemonicExpr": "leak(渗漏)+y → 容易漏的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "leak",
+        "leakage"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "porous",
+        "permeable"
+      ],
+      "antonyms": [
+        "watertight",
+        "sealed"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

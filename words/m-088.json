@@ -2,138 +2,896 @@
   {
     "word": "morphology",
     "phonetic": "/mɔːrˈfɒlədʒi/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "形态学；词法学", "en": "the study of the forms and structure of organisms; the study of the structure of words"},
-    "morphemes": [
-      {"canonical": "morph", "role": "root", "meaning": "形状；形式", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "morpho", "positionTendency": "initial", "coreMeaning": {"cn": "形状", "en": "form/shape"}},
-      {"canonical": "-logy", "role": "suffix", "meaning": "学科；研究", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "logy", "positionTendency": "final", "coreMeaning": {"cn": "学科", "en": "study of"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "Gk. morphe (form) + -logy", "to": "morphology", "rule": "root + suffix", "meaning": "形态研究"}]},
+    "coreMeaning": {
+      "cn": "形态学；词法学",
+      "en": "the study of the forms and structure of organisms; the study of the structure of words"
+    },
+    "morphemes": [
+      {
+        "canonical": "morph",
+        "role": "root",
+        "meaning": "形状；形式",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "morpho",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "形状",
+          "en": "form/shape"
+        }
+      },
+      {
+        "canonical": "-logy",
+        "role": "suffix",
+        "meaning": "学科；研究",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "logy",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "学科",
+          "en": "study of"
+        }
+      }
+    ],
+    "derivationChain": [
+      "morphology"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "morpho(形态)+logy(学)→形态学/词法学", "imageChain": ["形态", "结构", "词形"]},
-    "wordLevel": {"domain": ["academic", "medical"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["morpheme", "morphological", "amorphous"], "sameAffix": ["biology", "geology"], "synonyms": [], "antonyms": [], "domainCohort": ["syntax", "phonology"], "derivationPair": ["morphological"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "morpho(形态)+logy(学)→形态学/词法学",
+      "imageChain": [
+        "形态",
+        "结构",
+        "词形"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "academic",
+        "medical"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "morpheme",
+        "morphological",
+        "amorphous"
+      ],
+      "sameAffix": [
+        "biology",
+        "geology"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "syntax",
+        "phonology"
+      ],
+      "derivationPair": [
+        "morphological"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "morphological",
     "phonetic": "/ˌmɔːrfəˈlɒdʒɪkəl/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "形态学的；词法学的", "en": "relating to the form and structure of organisms or words"},
-    "morphemes": [
-      {"canonical": "morph", "role": "root", "meaning": "形状；形式", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "morpho", "positionTendency": "initial", "coreMeaning": {"cn": "形状", "en": "form"}},
-      {"canonical": "-logy", "role": "suffix", "meaning": "学科", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "log", "positionTendency": "medial", "coreMeaning": {"cn": "学科", "en": "study"}},
-      {"canonical": "-ical", "role": "suffix", "meaning": "形容词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ical", "positionTendency": "final", "coreMeaning": {"cn": "形容词", "en": "adj. forming"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "morphology + -ical", "to": "morphological", "rule": "root + suffix", "meaning": "形态学的"}]},
+    "coreMeaning": {
+      "cn": "形态学的；词法学的",
+      "en": "relating to the form and structure of organisms or words"
+    },
+    "morphemes": [
+      {
+        "canonical": "morph",
+        "role": "root",
+        "meaning": "形状；形式",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "morpho",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "形状",
+          "en": "form"
+        }
+      },
+      {
+        "canonical": "-logy",
+        "role": "suffix",
+        "meaning": "学科",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "log",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "学科",
+          "en": "study"
+        }
+      },
+      {
+        "canonical": "-ical",
+        "role": "suffix",
+        "meaning": "形容词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ical",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "形容词",
+          "en": "adj. forming"
+        }
+      }
+    ],
+    "derivationChain": [
+      "morphological"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "morphology+ical→形态学的", "imageChain": ["形态", "结构", "词形变化"]},
-    "wordLevel": {"domain": ["academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["morphology", "morpheme"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["structural", "syntactic"], "derivationPair": ["morphology"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "morphology+ical→形态学的",
+      "imageChain": [
+        "形态",
+        "结构",
+        "词形变化"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "morphology",
+        "morpheme"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "structural",
+        "syntactic"
+      ],
+      "derivationPair": [
+        "morphology"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "morsel",
     "phonetic": "/ˈmɔːrsəl/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "一小口；少量；碎片", "en": "a small piece or amount of food; a tiny portion"},
-    "morphemes": [
-      {"canonical": "mors", "role": "root", "meaning": "咬；小块", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "mors", "positionTendency": "initial", "coreMeaning": {"cn": "咬", "en": "bite/morsel"}},
-      {"canonical": "-el", "role": "suffix", "meaning": "小（指小词缀）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "el", "positionTendency": "final", "coreMeaning": {"cn": "小", "en": "diminutive"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "OFr. morsel (little bite)", "to": "morsel", "rule": "借词", "meaning": "一小口→少量食物"}]},
+    "coreMeaning": {
+      "cn": "一小口；少量；碎片",
+      "en": "a small piece or amount of food; a tiny portion"
+    },
+    "morphemes": [
+      {
+        "canonical": "mors",
+        "role": "root",
+        "meaning": "咬；小块",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "mors",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "咬",
+          "en": "bite/morsel"
+        }
+      },
+      {
+        "canonical": "-el",
+        "role": "suffix",
+        "meaning": "小（指小词缀）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "el",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "小",
+          "en": "diminutive"
+        }
+      }
+    ],
+    "derivationChain": [
+      "morsel"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "mors(咬)+el(小)→一小口食物", "imageChain": ["一小口", "碎片", "少量"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["remorse", "morse"], "sameAffix": [], "synonyms": ["bite", "bit", "tidbit"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "mors(咬)+el(小)→一小口食物",
+      "imageChain": [
+        "一小口",
+        "碎片",
+        "少量"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "remorse",
+        "morse"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "bite",
+        "bit",
+        "tidbit"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "mortal",
     "phonetic": "/ˈmɔːrtəl/",
-    "pos": ["adj.", "n."],
-    "coreMeaning": {"cn": "致命的；凡人的；凡人", "en": "subject to death; causing death; a human being"},
-    "morphemes": [
-      {"canonical": "mort", "role": "root", "meaning": "死亡", "sentiment": {"tags": ["消极"], "intensity": -2}, "order": 1, "form": "mort", "positionTendency": "initial", "coreMeaning": {"cn": "死亡", "en": "death"}},
-      {"canonical": "-al", "role": "suffix", "meaning": "形容词/名词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "al", "positionTendency": "final", "coreMeaning": {"cn": "形容词", "en": "adj. forming"}}
+    "pos": [
+      "adj.",
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "L. mortalis (subject to death)", "to": "mortal", "rule": "借词", "meaning": "会死亡的→凡人"}]},
+    "coreMeaning": {
+      "cn": "致命的；凡人的；凡人",
+      "en": "subject to death; causing death; a human being"
+    },
+    "morphemes": [
+      {
+        "canonical": "mort",
+        "role": "root",
+        "meaning": "死亡",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -2
+        },
+        "order": 1,
+        "form": "mort",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "死亡",
+          "en": "death"
+        }
+      },
+      {
+        "canonical": "-al",
+        "role": "suffix",
+        "meaning": "形容词/名词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "al",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "形容词",
+          "en": "adj. forming"
+        }
+      }
+    ],
+    "derivationChain": [
+      "mortal"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "mort(死)+al→致命的/凡人的", "imageChain": ["死亡", "凡人", "致命"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": ["mortality", "immortal", "mortify", "mortician"], "sameAffix": [], "synonyms": ["human", "deadly", "lethal"], "antonyms": ["immortal", "divine"], "domainCohort": ["fatal", "lethal"], "derivationPair": ["mortality", "immortal"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "mort(死)+al→致命的/凡人的",
+      "imageChain": [
+        "死亡",
+        "凡人",
+        "致命"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "mortality",
+        "immortal",
+        "mortify",
+        "mortician"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "human",
+        "deadly",
+        "lethal"
+      ],
+      "antonyms": [
+        "immortal",
+        "divine"
+      ],
+      "domainCohort": [
+        "fatal",
+        "lethal"
+      ],
+      "derivationPair": [
+        "mortality",
+        "immortal"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "mortality",
     "phonetic": "/mɔːrˈtælɪti/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "死亡率；必死性", "en": "the state of being subject to death; the number of deaths"},
-    "morphemes": [
-      {"canonical": "mort", "role": "root", "meaning": "死亡", "sentiment": {"tags": ["消极"], "intensity": -2}, "order": 1, "form": "mort", "positionTendency": "initial", "coreMeaning": {"cn": "死亡", "en": "death"}},
-      {"canonical": "-al", "role": "suffix", "meaning": "形容词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "al", "positionTendency": "medial", "coreMeaning": {"cn": "形容词", "en": "adj."}},
-      {"canonical": "-ity", "role": "suffix", "meaning": "名词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ity", "positionTendency": "final", "coreMeaning": {"cn": "状态", "en": "state/quality"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "mortal + -ity", "to": "mortality", "rule": "adj. + suffix → n.", "meaning": "必死性；死亡率"}]},
+    "coreMeaning": {
+      "cn": "死亡率；必死性",
+      "en": "the state of being subject to death; the number of deaths"
+    },
+    "morphemes": [
+      {
+        "canonical": "mort",
+        "role": "root",
+        "meaning": "死亡",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -2
+        },
+        "order": 1,
+        "form": "mort",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "死亡",
+          "en": "death"
+        }
+      },
+      {
+        "canonical": "-al",
+        "role": "suffix",
+        "meaning": "形容词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "al",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "形容词",
+          "en": "adj."
+        }
+      },
+      {
+        "canonical": "-ity",
+        "role": "suffix",
+        "meaning": "名词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ity",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "状态",
+          "en": "state/quality"
+        }
+      }
+    ],
+    "derivationChain": [
+      "mortality"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "mort(死)+al+ity→必死性/死亡率", "imageChain": ["死亡率", "人类必死", "生命"]},
-    "wordLevel": {"domain": ["general", "medical", "academic"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": ["mortal", "immortal", "mortify"], "sameAffix": [], "synonyms": ["death rate", "lethality"], "antonyms": ["immortality"], "domainCohort": ["morbidity", "death"], "derivationPair": ["mortal"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "mort(死)+al+ity→必死性/死亡率",
+      "imageChain": [
+        "死亡率",
+        "人类必死",
+        "生命"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "medical",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "mortal",
+        "immortal",
+        "mortify"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "death rate",
+        "lethality"
+      ],
+      "antonyms": [
+        "immortality"
+      ],
+      "domainCohort": [
+        "morbidity",
+        "death"
+      ],
+      "derivationPair": [
+        "mortal"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "mortar",
     "phonetic": "/ˈmɔːrtər/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "砂浆；臼；迫击炮", "en": "a mixture used in building; a bowl for grinding; a type of cannon"},
-    "morphemes": [
-      {"canonical": "mortar", "role": "root", "meaning": "砂浆；臼；迫击炮", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "mortar", "positionTendency": "medial", "coreMeaning": {"cn": "砂浆/臼", "en": "mortar"}}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "L. mortarium (mortar/bowl)", "to": "mortar", "rule": "借词", "meaning": "研磨碗→砂浆"}]},
+    "coreMeaning": {
+      "cn": "砂浆；臼；迫击炮",
+      "en": "a mixture used in building; a bowl for grinding; a type of cannon"
+    },
+    "morphemes": [
+      {
+        "canonical": "mortar",
+        "role": "root",
+        "meaning": "砂浆；臼；迫击炮",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "mortar",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "砂浆/臼",
+          "en": "mortar"
+        }
+      }
+    ],
+    "derivationChain": [
+      "mortar"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "mortar → 砂浆/臼/迫击炮（多义词）", "imageChain": ["砂浆", "研磨钵", "迫击炮"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["mortarboard"], "sameAffix": [], "synonyms": ["cement", "grout"], "antonyms": [], "domainCohort": ["cement", "plaster"], "derivationPair": ["mortarboard"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "mortar → 砂浆/臼/迫击炮（多义词）",
+      "imageChain": [
+        "砂浆",
+        "研磨钵",
+        "迫击炮"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "mortarboard"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "cement",
+        "grout"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "cement",
+        "plaster"
+      ],
+      "derivationPair": [
+        "mortarboard"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "mortgage",
     "phonetic": "/ˈmɔːrɡɪdʒ/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "抵押贷款；房贷", "en": "a loan secured on property; to pledge property as security for a loan"},
-    "morphemes": [
-      {"canonical": "mort", "role": "root", "meaning": "死亡；死期", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "mort", "positionTendency": "initial", "coreMeaning": {"cn": "死亡", "en": "death"}},
-      {"canonical": "gage", "role": "root", "meaning": "抵押；承诺", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "gage", "positionTendency": "final", "coreMeaning": {"cn": "抵押", "en": "pledge/gage"}}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "OFr. mort (dead) + gage (pledge)", "to": "mortgage", "rule": "compound", "meaning": "死亡的承诺→抵押（还清即死）"}]},
+    "coreMeaning": {
+      "cn": "抵押贷款；房贷",
+      "en": "a loan secured on property; to pledge property as security for a loan"
+    },
+    "morphemes": [
+      {
+        "canonical": "mort",
+        "role": "root",
+        "meaning": "死亡；死期",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "mort",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "死亡",
+          "en": "death"
+        }
+      },
+      {
+        "canonical": "gage",
+        "role": "root",
+        "meaning": "抵押；承诺",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "gage",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "抵押",
+          "en": "pledge/gage"
+        }
+      }
+    ],
+    "derivationChain": [
+      "mortgage"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "mort(死亡)+gage(承诺)→死亡的承诺→抵押贷款", "imageChain": ["贷款", "抵押", "房产"]},
-    "wordLevel": {"domain": ["general", "finance", "legal"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["mortgagee", "mortgagor"], "sameAffix": [], "synonyms": ["loan", "bond", "lien"], "antonyms": [], "domainCohort": ["loan", "lien", "collateral"], "derivationPair": ["mortgagee", "mortgagor"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "mort(死亡)+gage(承诺)→死亡的承诺→抵押贷款",
+      "imageChain": [
+        "贷款",
+        "抵押",
+        "房产"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "finance",
+        "legal"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "mortgagee",
+        "mortgagor"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "loan",
+        "bond",
+        "lien"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "loan",
+        "lien",
+        "collateral"
+      ],
+      "derivationPair": [
+        "mortgagee",
+        "mortgagor"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "mortician",
     "phonetic": "/mɔːrˈtɪʃən/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "殡仪员；入殓师", "en": "a person whose job is to prepare dead bodies for burial and arrange funerals"},
-    "morphemes": [
-      {"canonical": "mort", "role": "root", "meaning": "死亡", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "mort", "positionTendency": "initial", "coreMeaning": {"cn": "死亡", "en": "death"}},
-      {"canonical": "-ician", "role": "suffix", "meaning": "专业人士", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ician", "positionTendency": "final", "coreMeaning": {"cn": "专业人士", "en": "specialist"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "mortuary + -ician", "to": "mortician", "rule": "root + suffix", "meaning": "专门处理死亡事务的人"}]},
+    "coreMeaning": {
+      "cn": "殡仪员；入殓师",
+      "en": "a person whose job is to prepare dead bodies for burial and arrange funerals"
+    },
+    "morphemes": [
+      {
+        "canonical": "mort",
+        "role": "root",
+        "meaning": "死亡",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "mort",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "死亡",
+          "en": "death"
+        }
+      },
+      {
+        "canonical": "-ician",
+        "role": "suffix",
+        "meaning": "专业人士",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ician",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "专业人士",
+          "en": "specialist"
+        }
+      }
+    ],
+    "derivationChain": [
+      "mortician"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "mort(死)+ician(专业者)→殡仪员", "imageChain": ["殡仪", "入殓师", "葬礼"]},
-    "wordLevel": {"domain": ["general", "medical"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["mortal", "mortality", "mortuary"], "sameAffix": ["physician", "technician"], "synonyms": ["funeral director", "undertaker"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "mort(死)+ician(专业者)→殡仪员",
+      "imageChain": [
+        "殡仪",
+        "入殓师",
+        "葬礼"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "medical"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "mortal",
+        "mortality",
+        "mortuary"
+      ],
+      "sameAffix": [
+        "physician",
+        "technician"
+      ],
+      "synonyms": [
+        "funeral director",
+        "undertaker"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "mortification",
     "phonetic": "/ˌmɔːrtɪfɪˈkeɪʃən/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "羞辱；苦行；坏疽", "en": "great embarrassment or shame; the act of subduing the flesh by self-denial; gangrene"},
-    "morphemes": [
-      {"canonical": "mort", "role": "root", "meaning": "死亡", "sentiment": {"tags": ["消极"], "intensity": -2}, "order": 1, "form": "mort", "positionTendency": "initial", "coreMeaning": {"cn": "死亡", "en": "death"}},
-      {"canonical": "-ify", "role": "suffix", "meaning": "动词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ifi", "positionTendency": "medial", "coreMeaning": {"cn": "使…", "en": "make/cause"}},
-      {"canonical": "-ation", "role": "suffix", "meaning": "名词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "cation", "positionTendency": "final", "coreMeaning": {"cn": "行为/结果", "en": "act/result"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "mortify + -ation", "to": "mortification", "rule": "v. + suffix → n.", "meaning": "使死→羞辱/苦行"}]},
+    "coreMeaning": {
+      "cn": "羞辱；苦行；坏疽",
+      "en": "great embarrassment or shame; the act of subduing the flesh by self-denial; gangrene"
+    },
+    "morphemes": [
+      {
+        "canonical": "mort",
+        "role": "root",
+        "meaning": "死亡",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -2
+        },
+        "order": 1,
+        "form": "mort",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "死亡",
+          "en": "death"
+        }
+      },
+      {
+        "canonical": "-ify",
+        "role": "suffix",
+        "meaning": "动词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ifi",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "使…",
+          "en": "make/cause"
+        }
+      },
+      {
+        "canonical": "-ation",
+        "role": "suffix",
+        "meaning": "名词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "cation",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "行为/结果",
+          "en": "act/result"
+        }
+      }
+    ],
+    "derivationChain": [
+      "mortification"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "mort(死)+ify+ation→使感到死一般羞辱", "imageChain": ["羞辱", "苦行", "极度尴尬"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["消极"], "intensity": -2}},
-    "relations": {"sameRoot": ["mortify", "mortal", "mortality"], "sameAffix": [], "synonyms": ["humiliation", "shame", "embarrassment"], "antonyms": ["pride", "honor"], "domainCohort": ["humiliation", "shame"], "derivationPair": ["mortify"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "mort(死)+ify+ation→使感到死一般羞辱",
+      "imageChain": [
+        "羞辱",
+        "苦行",
+        "极度尴尬"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "mortify",
+        "mortal",
+        "mortality"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "humiliation",
+        "shame",
+        "embarrassment"
+      ],
+      "antonyms": [
+        "pride",
+        "honor"
+      ],
+      "domainCohort": [
+        "humiliation",
+        "shame"
+      ],
+      "derivationPair": [
+        "mortify"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

@@ -2,120 +2,834 @@
   {
     "word": "potable",
     "phonetic": "/'pəʊtəbl/",
-    "pos": ["adj.", "n."],
-    "coreMeaning": {"cn": "适于饮用的；饮用水", "en": "safe and suitable for drinking; drinkable water"},
-    "morphemes": [
-      {"canonical": "pot", "role": "root", "meaning": "饮（拉丁potare=drink）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "pot", "positionTendency": "initial", "coreMeaning": {"cn": "饮", "en": "drink"}},
-      {"canonical": "-able", "role": "suffix", "meaning": "形容词化，worthy of/capable of", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-able", "positionTendency": "final", "coreMeaning": {"cn": "可以的", "en": "able to/suitable for"}}
+    "pos": [
+      "adj.",
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "适于饮用的；饮用水",
+      "en": "safe and suitable for drinking; drinkable water"
+    },
+    "morphemes": [
+      {
+        "canonical": "pot",
+        "role": "root",
+        "meaning": "饮（拉丁potare=drink）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pot",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "饮",
+          "en": "drink"
+        }
+      },
+      {
+        "canonical": "-able",
+        "role": "suffix",
+        "meaning": "形容词化，worthy of/capable of",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-able",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "可以的",
+          "en": "able to/suitable for"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "可以安全饮用的", "imageChain": ["饮用水", "安全水源", "过滤水"], "mnemonicExpr": "potable→pot(饮)+able→可饮用的→安全饮用水"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "medical"], "formality": 3},
-    "relations": {"sameRoot": ["potation", "potion", "poison"], "sameAffix": ["drinkable", "arable"], "synonyms": ["drinkable", "safe to drink", "clean"], "antonyms": ["undrinkable", "contaminated", "polluted"], "domainCohort": ["potation", "potion", "potency"], "derivationPair": [], "morphVariants": [], "sameImagery": ["drinkable", "clean"]}
+    "memorySemantics": {
+      "literal": "可以安全饮用的",
+      "imageChain": [
+        "饮用水",
+        "安全水源",
+        "过滤水"
+      ],
+      "mnemonicExpr": "potable→pot(饮)+able→可饮用的→安全饮用水"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "medical"
+      ],
+      "formality": 3
+    },
+    "relations": {
+      "sameRoot": [
+        "potation",
+        "potion",
+        "poison"
+      ],
+      "sameAffix": [
+        "drinkable",
+        "arable"
+      ],
+      "synonyms": [
+        "drinkable",
+        "safe to drink",
+        "clean"
+      ],
+      "antonyms": [
+        "undrinkable",
+        "contaminated",
+        "polluted"
+      ],
+      "domainCohort": [
+        "potation",
+        "potion",
+        "potency"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "drinkable",
+        "clean"
+      ]
+    }
   },
   {
     "word": "potation",
     "phonetic": "/pəʊ'teɪʃən/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "饮酒；饮料；酒", "en": "the act of drinking; a drink, especially alcohol"},
-    "morphemes": [
-      {"canonical": "pot", "role": "root", "meaning": "饮（拉丁potare=drink）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "pot", "positionTendency": "initial", "coreMeaning": {"cn": "饮", "en": "drink"}},
-      {"canonical": "-ation", "role": "suffix", "meaning": "名词化，行为", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-ation", "positionTendency": "final", "coreMeaning": {"cn": "行为", "en": "act of"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "饮酒；饮料；酒",
+      "en": "the act of drinking; a drink, especially alcohol"
+    },
+    "morphemes": [
+      {
+        "canonical": "pot",
+        "role": "root",
+        "meaning": "饮（拉丁potare=drink）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pot",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "饮",
+          "en": "drink"
+        }
+      },
+      {
+        "canonical": "-ation",
+        "role": "suffix",
+        "meaning": "名词化，行为",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ation",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "行为",
+          "en": "act of"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "饮酒的行为或饮料", "imageChain": ["饮酒", "宴饮", "酒精饮料"], "mnemonicExpr": "potation→pot(饮)+ation→喝酒的行为→饮料/酒"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": 4},
-    "relations": {"sameRoot": ["potable", "potion", "potassium"], "sameAffix": ["libation", "inebriation"], "synonyms": ["drinking", "libation", "beverage", "tipple"], "antonyms": [], "domainCohort": ["potable", "potion"], "derivationPair": [], "morphVariants": [], "sameImagery": ["drinking", "libation"]}
+    "memorySemantics": {
+      "literal": "饮酒的行为或饮料",
+      "imageChain": [
+        "饮酒",
+        "宴饮",
+        "酒精饮料"
+      ],
+      "mnemonicExpr": "potation→pot(饮)+ation→喝酒的行为→饮料/酒"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": 4
+    },
+    "relations": {
+      "sameRoot": [
+        "potable",
+        "potion",
+        "potassium"
+      ],
+      "sameAffix": [
+        "libation",
+        "inebriation"
+      ],
+      "synonyms": [
+        "drinking",
+        "libation",
+        "beverage",
+        "tipple"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "potable",
+        "potion"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "drinking",
+        "libation"
+      ]
+    }
   },
   {
     "word": "potency",
     "phonetic": "/'pəʊtənsi/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "效力；影响力；潜力", "en": "the power or effectiveness of something; potentiality"},
-    "morphemes": [
-      {"canonical": "pot", "role": "root", "meaning": "力量（拉丁potis=able/powerful）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "pot", "positionTendency": "initial", "coreMeaning": {"cn": "力量", "en": "power/ability"}},
-      {"canonical": "-ency", "role": "suffix", "meaning": "名词化，状态/性质", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-ency", "positionTendency": "final", "coreMeaning": {"cn": "性质/状态", "en": "state/quality"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "potent", "to": "potency", "rule": "+cy"}]},
+    "coreMeaning": {
+      "cn": "效力；影响力；潜力",
+      "en": "the power or effectiveness of something; potentiality"
+    },
+    "morphemes": [
+      {
+        "canonical": "pot",
+        "role": "root",
+        "meaning": "力量（拉丁potis=able/powerful）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pot",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "力量",
+          "en": "power/ability"
+        }
+      },
+      {
+        "canonical": "-ency",
+        "role": "suffix",
+        "meaning": "名词化，状态/性质",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ency",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "性质/状态",
+          "en": "state/quality"
+        }
+      }
+    ],
+    "derivationChain": [
+      "potency"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "具有力量的性质→效力", "imageChain": ["药效", "权力", "影响力"], "mnemonicExpr": "potency→potent+cy→效力/影响力/潜力"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "medical"], "formality": 3},
-    "relations": {"sameRoot": ["potent", "potential", "potentate", "impotent"], "sameAffix": ["urgency", "fluency"], "synonyms": ["power", "effectiveness", "strength", "efficacy"], "antonyms": ["impotence", "weakness", "ineffectiveness"], "domainCohort": ["potent", "potential", "potentate"], "derivationPair": ["potent"], "morphVariants": [], "sameImagery": ["power", "effectiveness"]}
+    "memorySemantics": {
+      "literal": "具有力量的性质→效力",
+      "imageChain": [
+        "药效",
+        "权力",
+        "影响力"
+      ],
+      "mnemonicExpr": "potency→potent+cy→效力/影响力/潜力"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "medical"
+      ],
+      "formality": 3
+    },
+    "relations": {
+      "sameRoot": [
+        "potent",
+        "potential",
+        "potentate",
+        "impotent"
+      ],
+      "sameAffix": [
+        "urgency",
+        "fluency"
+      ],
+      "synonyms": [
+        "power",
+        "effectiveness",
+        "strength",
+        "efficacy"
+      ],
+      "antonyms": [
+        "impotence",
+        "weakness",
+        "ineffectiveness"
+      ],
+      "domainCohort": [
+        "potent",
+        "potential",
+        "potentate"
+      ],
+      "derivationPair": [
+        "potent"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "power",
+        "effectiveness"
+      ]
+    }
   },
   {
     "word": "potent",
     "phonetic": "/'pəʊtənt/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "有力的；强效的；有权势的", "en": "having great power or influence; highly effective; strong"},
-    "morphemes": [
-      {"canonical": "pot", "role": "root", "meaning": "力量（拉丁potis=able）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "pot", "positionTendency": "initial", "coreMeaning": {"cn": "力量/能力", "en": "power/ability"}},
-      {"canonical": "-ent", "role": "suffix", "meaning": "形容词化，having quality", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-ent", "positionTendency": "final", "coreMeaning": {"cn": "有…性质的", "en": "having quality of"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "有力的；强效的；有权势的",
+      "en": "having great power or influence; highly effective; strong"
+    },
+    "morphemes": [
+      {
+        "canonical": "pot",
+        "role": "root",
+        "meaning": "力量（拉丁potis=able）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pot",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "力量/能力",
+          "en": "power/ability"
+        }
+      },
+      {
+        "canonical": "-ent",
+        "role": "suffix",
+        "meaning": "形容词化，having quality",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ent",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "有…性质的",
+          "en": "having quality of"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "具有强大力量的", "imageChain": ["强效药物", "权力者", "有力论据"], "mnemonicExpr": "potent→拉丁potis(能)+ent→有能力/有力量的→强效的"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic"], "formality": 3},
-    "relations": {"sameRoot": ["potency", "potential", "potentate", "impotent"], "sameAffix": ["fluent", "confident"], "synonyms": ["powerful", "strong", "effective", "influential", "forceful"], "antonyms": ["impotent", "weak", "ineffective"], "domainCohort": ["potency", "potential", "potentate"], "derivationPair": ["potency", "potential"], "morphVariants": [], "sameImagery": ["powerful", "strong"]}
+    "memorySemantics": {
+      "literal": "具有强大力量的",
+      "imageChain": [
+        "强效药物",
+        "权力者",
+        "有力论据"
+      ],
+      "mnemonicExpr": "potent→拉丁potis(能)+ent→有能力/有力量的→强效的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": 3
+    },
+    "relations": {
+      "sameRoot": [
+        "potency",
+        "potential",
+        "potentate",
+        "impotent"
+      ],
+      "sameAffix": [
+        "fluent",
+        "confident"
+      ],
+      "synonyms": [
+        "powerful",
+        "strong",
+        "effective",
+        "influential",
+        "forceful"
+      ],
+      "antonyms": [
+        "impotent",
+        "weak",
+        "ineffective"
+      ],
+      "domainCohort": [
+        "potency",
+        "potential",
+        "potentate"
+      ],
+      "derivationPair": [
+        "potency",
+        "potential"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "powerful",
+        "strong"
+      ]
+    }
   },
   {
     "word": "potentate",
     "phonetic": "/'pəʊtənteɪt/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "统治者；君主；有权势的人", "en": "a monarch or ruler with great power"},
-    "morphemes": [
-      {"canonical": "pot", "role": "root", "meaning": "力量/权力（拉丁potis=able）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "potent", "positionTendency": "initial", "coreMeaning": {"cn": "权力", "en": "power"}},
-      {"canonical": "-ate", "role": "suffix", "meaning": "名词化（人）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-ate", "positionTendency": "final", "coreMeaning": {"cn": "名词化", "en": "one who"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "potent", "to": "potentate", "rule": "+ate"}]},
+    "coreMeaning": {
+      "cn": "统治者；君主；有权势的人",
+      "en": "a monarch or ruler with great power"
+    },
+    "morphemes": [
+      {
+        "canonical": "pot",
+        "role": "root",
+        "meaning": "力量/权力（拉丁potis=able）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "potent",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "权力",
+          "en": "power"
+        }
+      },
+      {
+        "canonical": "-ate",
+        "role": "suffix",
+        "meaning": "名词化（人）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ate",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "名词化",
+          "en": "one who"
+        }
+      }
+    ],
+    "derivationChain": [
+      "potentate"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "掌握权力的人→统治者", "imageChain": ["国王", "统治者", "权贵"], "mnemonicExpr": "potentate→potent(权力)+ate(人)→掌权者→统治者/君主"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "news"], "formality": 4},
-    "relations": {"sameRoot": ["potent", "potency", "potential"], "sameAffix": ["candidate", "delegate"], "synonyms": ["ruler", "sovereign", "monarch", "despot", "autocrat"], "antonyms": ["subject", "vassal"], "domainCohort": ["potent", "potency", "potential"], "derivationPair": ["potent"], "morphVariants": [], "sameImagery": ["ruler", "sovereign"]}
+    "memorySemantics": {
+      "literal": "掌握权力的人→统治者",
+      "imageChain": [
+        "国王",
+        "统治者",
+        "权贵"
+      ],
+      "mnemonicExpr": "potentate→potent(权力)+ate(人)→掌权者→统治者/君主"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "news"
+      ],
+      "formality": 4
+    },
+    "relations": {
+      "sameRoot": [
+        "potent",
+        "potency",
+        "potential"
+      ],
+      "sameAffix": [
+        "candidate",
+        "delegate"
+      ],
+      "synonyms": [
+        "ruler",
+        "sovereign",
+        "monarch",
+        "despot",
+        "autocrat"
+      ],
+      "antonyms": [
+        "subject",
+        "vassal"
+      ],
+      "domainCohort": [
+        "potent",
+        "potency",
+        "potential"
+      ],
+      "derivationPair": [
+        "potent"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "ruler",
+        "sovereign"
+      ]
+    }
   },
   {
     "word": "potential",
     "phonetic": "/pə'tenʃəl/",
-    "pos": ["n.", "adj."],
-    "coreMeaning": {"cn": "潜力；潜能；可能性；电势", "en": "latent power or ability; having the capacity to develop"},
-    "morphemes": [
-      {"canonical": "pot", "role": "root", "meaning": "力量（拉丁potis=able）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "potent", "positionTendency": "initial", "coreMeaning": {"cn": "潜力", "en": "power/ability"}},
-      {"canonical": "-ial", "role": "suffix", "meaning": "形容词化/名词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-ial", "positionTendency": "final", "coreMeaning": {"cn": "形容词化", "en": "relating to"}}
+    "pos": [
+      "n.",
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "potent", "to": "potential", "rule": "+ial"}]},
+    "coreMeaning": {
+      "cn": "潜力；潜能；可能性；电势",
+      "en": "latent power or ability; having the capacity to develop"
+    },
+    "morphemes": [
+      {
+        "canonical": "pot",
+        "role": "root",
+        "meaning": "力量（拉丁potis=able）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "potent",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "潜力",
+          "en": "power/ability"
+        }
+      },
+      {
+        "canonical": "-ial",
+        "role": "suffix",
+        "meaning": "形容词化/名词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ial",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "形容词化",
+          "en": "relating to"
+        }
+      }
+    ],
+    "derivationChain": [
+      "potential"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "尚未实现的能力→潜力", "imageChain": ["潜在可能性", "天赋潜力", "电势"], "mnemonicExpr": "potential→potent+ial→力量的可能性→潜力/潜能"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic", "business"], "formality": 2},
-    "relations": {"sameRoot": ["potent", "potency", "potentate", "potentiate"], "sameAffix": ["consequential", "essential"], "synonyms": ["capacity", "possibility", "promise", "aptitude"], "antonyms": ["impossibility", "incapacity"], "domainCohort": ["potent", "potency"], "derivationPair": ["potentially", "potentiality"], "morphVariants": [], "sameImagery": ["capacity", "promise"]}
+    "memorySemantics": {
+      "literal": "尚未实现的能力→潜力",
+      "imageChain": [
+        "潜在可能性",
+        "天赋潜力",
+        "电势"
+      ],
+      "mnemonicExpr": "potential→potent+ial→力量的可能性→潜力/潜能"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic",
+        "business"
+      ],
+      "formality": 2
+    },
+    "relations": {
+      "sameRoot": [
+        "potent",
+        "potency",
+        "potentate",
+        "potentiate"
+      ],
+      "sameAffix": [
+        "consequential",
+        "essential"
+      ],
+      "synonyms": [
+        "capacity",
+        "possibility",
+        "promise",
+        "aptitude"
+      ],
+      "antonyms": [
+        "impossibility",
+        "incapacity"
+      ],
+      "domainCohort": [
+        "potent",
+        "potency"
+      ],
+      "derivationPair": [
+        "potentially",
+        "potentiality"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "capacity",
+        "promise"
+      ]
+    }
   },
   {
     "word": "pother",
     "phonetic": "/'pɒðər/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "烦恼；骚动；无谓的混乱", "en": "a commotion or fuss about something trivial; to worry or bother"},
-    "morphemes": [
-      {"canonical": "pother", "role": "root", "meaning": "烦恼/骚动（词源不确定）", "sentiment": {"tags": ["贬义"], "intensity": 1}, "order": 1, "form": "pother", "positionTendency": "medial", "coreMeaning": {"cn": "烦恼", "en": "commotion/fuss"}}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "烦恼；骚动；无谓的混乱",
+      "en": "a commotion or fuss about something trivial; to worry or bother"
+    },
+    "morphemes": [
+      {
+        "canonical": "pother",
+        "role": "root",
+        "meaning": "烦恼/骚动（词源不确定）",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "pother",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "烦恼",
+          "en": "commotion/fuss"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "无谓的烦恼骚动", "imageChain": ["小题大做", "烦恼", "无谓纷扰"], "mnemonicExpr": "pother→烦恼的骚动→小题大做/无谓的混乱"},
-    "wordLevel": {"sentiment": {"tags": ["贬义"], "intensity": 1}, "domain": ["general"], "formality": 4},
-    "relations": {"sameRoot": ["pothers"], "sameAffix": [], "synonyms": ["fuss", "commotion", "bother", "ado", "fluster"], "antonyms": ["calm", "peace", "tranquility"], "domainCohort": ["pothole"], "derivationPair": [], "morphVariants": [], "sameImagery": ["fuss", "commotion"]}
+    "memorySemantics": {
+      "literal": "无谓的烦恼骚动",
+      "imageChain": [
+        "小题大做",
+        "烦恼",
+        "无谓纷扰"
+      ],
+      "mnemonicExpr": "pother→烦恼的骚动→小题大做/无谓的混乱"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": 4
+    },
+    "relations": {
+      "sameRoot": [
+        "pothers"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "fuss",
+        "commotion",
+        "bother",
+        "ado",
+        "fluster"
+      ],
+      "antonyms": [
+        "calm",
+        "peace",
+        "tranquility"
+      ],
+      "domainCohort": [
+        "pothole"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "fuss",
+        "commotion"
+      ]
+    }
   },
   {
     "word": "potion",
     "phonetic": "/'pəʊʃən/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "（药等的）一剂；魔法药水", "en": "a liquid with healing, magical, or poisonous properties; a dose of liquid medicine"},
-    "morphemes": [
-      {"canonical": "pot", "role": "root", "meaning": "饮（拉丁potare=drink）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "pot", "positionTendency": "initial", "coreMeaning": {"cn": "饮", "en": "drink"}},
-      {"canonical": "-ion", "role": "suffix", "meaning": "名词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-ion", "positionTendency": "final", "coreMeaning": {"cn": "名词化", "en": "act/result"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "（药等的）一剂；魔法药水",
+      "en": "a liquid with healing, magical, or poisonous properties; a dose of liquid medicine"
+    },
+    "morphemes": [
+      {
+        "canonical": "pot",
+        "role": "root",
+        "meaning": "饮（拉丁potare=drink）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pot",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "饮",
+          "en": "drink"
+        }
+      },
+      {
+        "canonical": "-ion",
+        "role": "suffix",
+        "meaning": "名词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ion",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "名词化",
+          "en": "act/result"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "可以饮用的液体→药水/魔药", "imageChain": ["魔法药水", "毒药", "药剂"], "mnemonicExpr": "potion→pot(饮)+ion→一剂饮用液体→药水/魔药"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": 3},
-    "relations": {"sameRoot": ["potable", "potation", "poison"], "sameAffix": ["portion", "notion"], "synonyms": ["brew", "elixir", "draft", "dose", "concoction"], "antonyms": [], "domainCohort": ["potable", "potation"], "derivationPair": [], "morphVariants": [], "sameImagery": ["elixir", "brew"]}
+    "memorySemantics": {
+      "literal": "可以饮用的液体→药水/魔药",
+      "imageChain": [
+        "魔法药水",
+        "毒药",
+        "药剂"
+      ],
+      "mnemonicExpr": "potion→pot(饮)+ion→一剂饮用液体→药水/魔药"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": 3
+    },
+    "relations": {
+      "sameRoot": [
+        "potable",
+        "potation",
+        "poison"
+      ],
+      "sameAffix": [
+        "portion",
+        "notion"
+      ],
+      "synonyms": [
+        "brew",
+        "elixir",
+        "draft",
+        "dose",
+        "concoction"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "potable",
+        "potation"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "elixir",
+        "brew"
+      ]
+    }
   }
 ]

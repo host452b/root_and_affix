@@ -2,87 +2,518 @@
   {
     "word": "rise",
     "phonetic": "/raɪz/",
-    "pos": ["v.", "n."],
-    "coreMeaning": {"cn": "上升；兴起；崛起", "en": "to move upward; to increase; an increase or upward movement"},
-    "morphemes": [
-      {"canonical": "rise", "role": "root", "meaning": "上升；升起", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "rise", "positionTendency": "medial", "coreMeaning": {"cn": "上升", "en": "rise/ascend"}}
+    "pos": [
+      "v.",
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "OE risan (to rise)", "to": "rise", "rule": "本土词", "meaning": "上升"}]},
+    "coreMeaning": {
+      "cn": "上升；兴起；崛起",
+      "en": "to move upward; to increase; an increase or upward movement"
+    },
+    "morphemes": [
+      {
+        "canonical": "rise",
+        "role": "root",
+        "meaning": "上升；升起",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "rise",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "上升",
+          "en": "rise/ascend"
+        }
+      }
+    ],
+    "derivationChain": [
+      "rise"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "rise → 上升/崛起（基础动词）", "imageChain": ["上升", "崛起", "增加"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["积极"], "intensity": 1}},
-    "relations": {"sameRoot": ["risen", "rising", "arise"], "sameAffix": [], "synonyms": ["ascend", "climb", "increase"], "antonyms": ["fall", "drop", "decline"], "domainCohort": ["ascend", "climb"], "derivationPair": ["rising"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "rise → 上升/崛起（基础动词）",
+      "imageChain": [
+        "上升",
+        "崛起",
+        "增加"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "risen",
+        "rising",
+        "arise"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "ascend",
+        "climb",
+        "increase"
+      ],
+      "antonyms": [
+        "fall",
+        "drop",
+        "decline"
+      ],
+      "domainCohort": [
+        "ascend",
+        "climb"
+      ],
+      "derivationPair": [
+        "rising"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "risk",
     "phonetic": "/rɪsk/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "风险；冒险", "en": "the possibility of something bad happening; to expose to danger"},
-    "morphemes": [
-      {"canonical": "risk", "role": "root", "meaning": "风险；危险", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "risk", "positionTendency": "medial", "coreMeaning": {"cn": "风险", "en": "risk/danger"}}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "It. risico (reef/hazard)", "to": "risk", "rule": "借词", "meaning": "礁石→危险→风险"}]},
+    "coreMeaning": {
+      "cn": "风险；冒险",
+      "en": "the possibility of something bad happening; to expose to danger"
+    },
+    "morphemes": [
+      {
+        "canonical": "risk",
+        "role": "root",
+        "meaning": "风险；危险",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "risk",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "风险",
+          "en": "risk/danger"
+        }
+      }
+    ],
+    "derivationChain": [
+      "risk"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "risk → 风险（基础词）", "imageChain": ["风险", "危险", "冒险"]},
-    "wordLevel": {"domain": ["general", "finance", "business"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": ["risky", "riskiness"], "sameAffix": [], "synonyms": ["danger", "hazard", "peril"], "antonyms": ["safety", "security"], "domainCohort": ["hazard", "danger"], "derivationPair": ["risky"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "risk → 风险（基础词）",
+      "imageChain": [
+        "风险",
+        "危险",
+        "冒险"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "finance",
+        "business"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "risky",
+        "riskiness"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "danger",
+        "hazard",
+        "peril"
+      ],
+      "antonyms": [
+        "safety",
+        "security"
+      ],
+      "domainCohort": [
+        "hazard",
+        "danger"
+      ],
+      "derivationPair": [
+        "risky"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "risky",
     "phonetic": "/ˈrɪski/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "有风险的；危险的", "en": "involving the possibility of something bad happening; dangerous"},
-    "morphemes": [
-      {"canonical": "risk", "role": "root", "meaning": "风险", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "risk", "positionTendency": "initial", "coreMeaning": {"cn": "风险", "en": "risk"}},
-      {"canonical": "-y", "role": "suffix", "meaning": "形容词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "y", "positionTendency": "final", "coreMeaning": {"cn": "形容词", "en": "adj. forming"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "risk + -y", "to": "risky", "rule": "root + suffix", "meaning": "有风险的"}]},
+    "coreMeaning": {
+      "cn": "有风险的；危险的",
+      "en": "involving the possibility of something bad happening; dangerous"
+    },
+    "morphemes": [
+      {
+        "canonical": "risk",
+        "role": "root",
+        "meaning": "风险",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "risk",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "风险",
+          "en": "risk"
+        }
+      },
+      {
+        "canonical": "-y",
+        "role": "suffix",
+        "meaning": "形容词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "y",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "形容词",
+          "en": "adj. forming"
+        }
+      }
+    ],
+    "derivationChain": [
+      "risky"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "risk(风险)+y→有风险的/危险的", "imageChain": ["危险", "冒险", "不安全"]},
-    "wordLevel": {"domain": ["general", "finance", "business"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": ["risk"], "sameAffix": [], "synonyms": ["dangerous", "hazardous", "perilous"], "antonyms": ["safe", "secure"], "domainCohort": ["dangerous", "hazardous"], "derivationPair": ["risk"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "risk(风险)+y→有风险的/危险的",
+      "imageChain": [
+        "危险",
+        "冒险",
+        "不安全"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "finance",
+        "business"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "risk"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "dangerous",
+        "hazardous",
+        "perilous"
+      ],
+      "antonyms": [
+        "safe",
+        "secure"
+      ],
+      "domainCohort": [
+        "dangerous",
+        "hazardous"
+      ],
+      "derivationPair": [
+        "risk"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "rite",
     "phonetic": "/raɪt/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "仪式；典礼；礼仪", "en": "a social custom, practice, or ceremony; a religious or solemn ceremony"},
-    "morphemes": [
-      {"canonical": "rite", "role": "root", "meaning": "仪式；礼仪", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "rite", "positionTendency": "medial", "coreMeaning": {"cn": "仪式", "en": "rite/ceremony"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "L. ritus (custom/ceremony)", "to": "rite", "rule": "借词", "meaning": "习俗→仪式"}]},
+    "coreMeaning": {
+      "cn": "仪式；典礼；礼仪",
+      "en": "a social custom, practice, or ceremony; a religious or solemn ceremony"
+    },
+    "morphemes": [
+      {
+        "canonical": "rite",
+        "role": "root",
+        "meaning": "仪式；礼仪",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "rite",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "仪式",
+          "en": "rite/ceremony"
+        }
+      }
+    ],
+    "derivationChain": [
+      "rite"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "rite → 仪式/典礼（联想ritual）", "imageChain": ["仪式", "典礼", "宗教"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["ritual", "ritualistic"], "sameAffix": [], "synonyms": ["ceremony", "ritual", "custom"], "antonyms": [], "domainCohort": ["ceremony", "ritual"], "derivationPair": ["ritual"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "rite → 仪式/典礼（联想ritual）",
+      "imageChain": [
+        "仪式",
+        "典礼",
+        "宗教"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "ritual",
+        "ritualistic"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "ceremony",
+        "ritual",
+        "custom"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "ceremony",
+        "ritual"
+      ],
+      "derivationPair": [
+        "ritual"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "ritual",
     "phonetic": "/ˈrɪtʃuəl/",
-    "pos": ["n.", "adj."],
-    "coreMeaning": {"cn": "仪式；典礼；例行公事", "en": "a religious or solemn ceremony; an action regularly performed; relating to rites"},
-    "morphemes": [
-      {"canonical": "rite", "role": "root", "meaning": "仪式", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "ritu", "positionTendency": "initial", "coreMeaning": {"cn": "仪式", "en": "rite/ceremony"}},
-      {"canonical": "-al", "role": "suffix", "meaning": "形容词/名词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "al", "positionTendency": "final", "coreMeaning": {"cn": "形容词/名词", "en": "adj./n. forming"}}
+    "pos": [
+      "n.",
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "L. ritualis (of rites)", "to": "ritual", "rule": "借词", "meaning": "仪式的→仪式"}]},
+    "coreMeaning": {
+      "cn": "仪式；典礼；例行公事",
+      "en": "a religious or solemn ceremony; an action regularly performed; relating to rites"
+    },
+    "morphemes": [
+      {
+        "canonical": "rite",
+        "role": "root",
+        "meaning": "仪式",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "ritu",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "仪式",
+          "en": "rite/ceremony"
+        }
+      },
+      {
+        "canonical": "-al",
+        "role": "suffix",
+        "meaning": "形容词/名词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "al",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "形容词/名词",
+          "en": "adj./n. forming"
+        }
+      }
+    ],
+    "derivationChain": [
+      "ritual"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "ritu(仪式)+al→仪式/例行公事", "imageChain": ["仪式", "礼节", "例行"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["rite", "ritualistic"], "sameAffix": [], "synonyms": ["ceremony", "custom", "routine"], "antonyms": [], "domainCohort": ["ceremony", "practice"], "derivationPair": ["ritualistic"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "ritu(仪式)+al→仪式/例行公事",
+      "imageChain": [
+        "仪式",
+        "礼节",
+        "例行"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "rite",
+        "ritualistic"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "ceremony",
+        "custom",
+        "routine"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "ceremony",
+        "practice"
+      ],
+      "derivationPair": [
+        "ritualistic"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "rival",
     "phonetic": "/ˈraɪvəl/",
-    "pos": ["n.", "v.", "adj."],
-    "coreMeaning": {"cn": "竞争者；对手；竞争", "en": "a person competing with another; to compete with; having equal quality"},
-    "morphemes": [
-      {"canonical": "riv", "role": "root", "meaning": "河流；共用（来自rivalis）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "rival", "positionTendency": "medial", "coreMeaning": {"cn": "竞争者", "en": "one who uses same stream"}}
+    "pos": [
+      "n.",
+      "v.",
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "L. rivalis (sharing the same stream)", "to": "rival", "rule": "借词", "meaning": "共用同一条河→竞争者"}]},
+    "coreMeaning": {
+      "cn": "竞争者；对手；竞争",
+      "en": "a person competing with another; to compete with; having equal quality"
+    },
+    "morphemes": [
+      {
+        "canonical": "riv",
+        "role": "root",
+        "meaning": "河流；共用（来自rivalis）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "rival",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "竞争者",
+          "en": "one who uses same stream"
+        }
+      }
+    ],
+    "derivationChain": [
+      "rival"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "rival → 竞争对手（来自共用同一条河）", "imageChain": ["对手", "竞争", "竞赛"]},
-    "wordLevel": {"domain": ["general", "business"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["rivalry"], "sameAffix": [], "synonyms": ["competitor", "opponent", "adversary"], "antonyms": ["ally", "partner", "friend"], "domainCohort": ["competitor", "opponent"], "derivationPair": ["rivalry"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "rival → 竞争对手（来自共用同一条河）",
+      "imageChain": [
+        "对手",
+        "竞争",
+        "竞赛"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "business"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "rivalry"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "competitor",
+        "opponent",
+        "adversary"
+      ],
+      "antonyms": [
+        "ally",
+        "partner",
+        "friend"
+      ],
+      "domainCohort": [
+        "competitor",
+        "opponent"
+      ],
+      "derivationPair": [
+        "rivalry"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

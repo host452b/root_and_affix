@@ -2,94 +2,554 @@
   {
     "word": "renovate",
     "phonetic": "/ˈrɛnəveɪt/",
-    "pos": ["v"],
-    "coreMeaning": {"cn": "修缮；翻新；革新", "en": "to restore to good condition; to modernize or repair a building"},
-    "morphemes": [
-      {"form": "re", "role": "prefix", "canonical": "re-", "meaning": "again, back (Latin: re)", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"form": "nov", "role": "root", "canonical": "nov-", "meaning": "new (Latin: novus)", "positionTendency": "medial", "sentiment": {"tags": ["褒义"], "intensity": 1}},
-      {"form": "ate", "role": "suffix", "canonical": "-ate", "meaning": "to make, cause", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    "pos": [
+      "v"
     ],
-    "derivationChain": "novus (Latin: new) → renovare → renovate → renovation",
+    "coreMeaning": {
+      "cn": "修缮；翻新；革新",
+      "en": "to restore to good condition; to modernize or repair a building"
+    },
+    "morphemes": [
+      {
+        "form": "re",
+        "role": "prefix",
+        "canonical": "re-",
+        "meaning": "again, back (Latin: re)",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "nov",
+        "role": "root",
+        "canonical": "nov-",
+        "meaning": "new (Latin: novus)",
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "褒义"
+          ],
+          "intensity": 1
+        }
+      },
+      {
+        "form": "ate",
+        "role": "suffix",
+        "canonical": "-ate",
+        "meaning": "to make, cause",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "novus (Latin: new) → renovare → renovate → renovation"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"imagery": "工人翻新旧房子，使其焕然一新", "mnemonic": "re（再次）+ nov（新）+ ate → 使再次变新 → 翻新"},
-    "wordLevel": "IELTS",
-    "relations": {"sameRoot": ["innovation", "novel", "novice", "renovation"], "sameAffix": [], "synonyms": ["restore", "refurbish", "revamp", "modernize"], "antonyms": ["destroy", "dilapidate"], "domainCohort": [], "derivationPair": [["renovate", "renovation"]], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "imagery": "工人翻新旧房子，使其焕然一新",
+      "mnemonic": "re（再次）+ nov（新）+ ate → 使再次变新 → 翻新",
+      "imageChain": []
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "register": "neutral",
+      "formality": 3,
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "innovation",
+        "novel",
+        "novice",
+        "renovation"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "restore",
+        "refurbish",
+        "revamp",
+        "modernize"
+      ],
+      "antonyms": [
+        "destroy",
+        "dilapidate"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        [
+          "renovate",
+          "renovation"
+        ]
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "renovation",
     "phonetic": "/ˌrɛnəˈveɪʃən/",
-    "pos": ["n"],
-    "coreMeaning": {"cn": "修缮；翻新；革新", "en": "the act of renovating; the state of being renovated"},
-    "morphemes": [
-      {"form": "re", "role": "prefix", "canonical": "re-", "meaning": "again", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"form": "nov", "role": "root", "canonical": "nov-", "meaning": "new (Latin: novus)", "positionTendency": "medial", "sentiment": {"tags": ["褒义"], "intensity": 1}},
-      {"form": "ation", "role": "suffix", "canonical": "-ation", "meaning": "action, result", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    "pos": [
+      "n"
     ],
-    "derivationChain": "renovate → renovation → renovations",
+    "coreMeaning": {
+      "cn": "修缮；翻新；革新",
+      "en": "the act of renovating; the state of being renovated"
+    },
+    "morphemes": [
+      {
+        "form": "re",
+        "role": "prefix",
+        "canonical": "re-",
+        "meaning": "again",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "nov",
+        "role": "root",
+        "canonical": "nov-",
+        "meaning": "new (Latin: novus)",
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "褒义"
+          ],
+          "intensity": 1
+        }
+      },
+      {
+        "form": "ation",
+        "role": "suffix",
+        "canonical": "-ation",
+        "meaning": "action, result",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "renovate → renovation → renovations"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"imagery": "旧建筑改造成现代风格的工程", "mnemonic": "renovate（翻新）→ renovation → 翻新工程"},
-    "wordLevel": "IELTS",
-    "relations": {"sameRoot": ["renovate", "innovation", "novel"], "sameAffix": [], "synonyms": ["restoration", "refurbishment", "overhaul"], "antonyms": ["neglect", "deterioration"], "domainCohort": [], "derivationPair": [["renovate", "renovation"]], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "imagery": "旧建筑改造成现代风格的工程",
+      "mnemonic": "renovate（翻新）→ renovation → 翻新工程",
+      "imageChain": []
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "register": "neutral",
+      "formality": 3,
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "renovate",
+        "innovation",
+        "novel"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "restoration",
+        "refurbishment",
+        "overhaul"
+      ],
+      "antonyms": [
+        "neglect",
+        "deterioration"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        [
+          "renovate",
+          "renovation"
+        ]
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "renown",
     "phonetic": "/rɪˈnaʊn/",
-    "pos": ["n"],
-    "coreMeaning": {"cn": "声誉；名声；威望", "en": "the condition of being well known; fame"},
-    "morphemes": [
-      {"form": "re", "role": "prefix", "canonical": "re-", "meaning": "again (Old French: re-)", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"form": "nown", "role": "root", "canonical": "nom-", "meaning": "name (Old French: non, from Latin nomen)", "positionTendency": "final", "sentiment": {"tags": ["褒义"], "intensity": 1}}
+    "pos": [
+      "n"
     ],
-    "derivationChain": "renomer (Old French: rename) → renown → renowned",
+    "coreMeaning": {
+      "cn": "声誉；名声；威望",
+      "en": "the condition of being well known; fame"
+    },
+    "morphemes": [
+      {
+        "form": "re",
+        "role": "prefix",
+        "canonical": "re-",
+        "meaning": "again (Old French: re-)",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "nown",
+        "role": "root",
+        "canonical": "nom-",
+        "meaning": "name (Old French: non, from Latin nomen)",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "褒义"
+          ],
+          "intensity": 1
+        }
+      }
+    ],
+    "derivationChain": [
+      "renomer (Old French: rename) → renown → renowned"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"imagery": "举世闻名的科学家享有崇高声誉", "mnemonic": "re（再三）+ nown（名字）→ 名字被反复传颂 → 声誉"},
-    "wordLevel": "GRE",
-    "relations": {"sameRoot": ["renowned", "noun", "nominate"], "sameAffix": [], "synonyms": ["fame", "repute", "prestige", "celebrity"], "antonyms": ["obscurity", "notoriety", "anonymity"], "domainCohort": [], "derivationPair": [["renown", "renowned"]], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "imagery": "举世闻名的科学家享有崇高声誉",
+      "mnemonic": "re（再三）+ nown（名字）→ 名字被反复传颂 → 声誉",
+      "imageChain": []
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "register": "neutral",
+      "formality": 3,
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "renowned",
+        "noun",
+        "nominate"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "fame",
+        "repute",
+        "prestige",
+        "celebrity"
+      ],
+      "antonyms": [
+        "obscurity",
+        "notoriety",
+        "anonymity"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        [
+          "renown",
+          "renowned"
+        ]
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "renowned",
     "phonetic": "/rɪˈnaʊnd/",
-    "pos": ["adj"],
-    "coreMeaning": {"cn": "著名的；有声望的", "en": "known and admired by many people; famous"},
-    "morphemes": [
-      {"form": "re", "role": "prefix", "canonical": "re-", "meaning": "again", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"form": "nown", "role": "root", "canonical": "nom-", "meaning": "name (Old French: non)", "positionTendency": "medial", "sentiment": {"tags": ["褒义"], "intensity": 1}},
-      {"form": "ed", "role": "suffix", "canonical": "-ed", "meaning": "having the quality of", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    "pos": [
+      "adj"
     ],
-    "derivationChain": "renown → renowned",
+    "coreMeaning": {
+      "cn": "著名的；有声望的",
+      "en": "known and admired by many people; famous"
+    },
+    "morphemes": [
+      {
+        "form": "re",
+        "role": "prefix",
+        "canonical": "re-",
+        "meaning": "again",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "nown",
+        "role": "root",
+        "canonical": "nom-",
+        "meaning": "name (Old French: non)",
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "褒义"
+          ],
+          "intensity": 1
+        }
+      },
+      {
+        "form": "ed",
+        "role": "suffix",
+        "canonical": "-ed",
+        "meaning": "having the quality of",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "renown → renowned"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"imagery": "闻名遐迩的世界级艺术家", "mnemonic": "renown（声誉）+ ed → 有声誉的 → 著名的"},
-    "wordLevel": "IELTS",
-    "relations": {"sameRoot": ["renown"], "sameAffix": [], "synonyms": ["famous", "celebrated", "eminent", "distinguished"], "antonyms": ["obscure", "unknown", "anonymous"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "imagery": "闻名遐迩的世界级艺术家",
+      "mnemonic": "renown（声誉）+ ed → 有声誉的 → 著名的",
+      "imageChain": []
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "register": "neutral",
+      "formality": 3,
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "renown"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "famous",
+        "celebrated",
+        "eminent",
+        "distinguished"
+      ],
+      "antonyms": [
+        "obscure",
+        "unknown",
+        "anonymous"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "rent",
     "phonetic": "/rɛnt/",
-    "pos": ["n", "v"],
-    "coreMeaning": {"cn": "租金；租用；撕裂", "en": "payment for use of property; to pay for temporary use of something; a tear or split"},
-    "morphemes": [
-      {"form": "rent", "role": "root", "canonical": "rent", "meaning": "payment, income (Old French: rente)", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    "pos": [
+      "n",
+      "v"
     ],
-    "derivationChain": "rente (Old French: revenue) → rent → rental, renter",
+    "coreMeaning": {
+      "cn": "租金；租用；撕裂",
+      "en": "payment for use of property; to pay for temporary use of something; a tear or split"
+    },
+    "morphemes": [
+      {
+        "form": "rent",
+        "role": "root",
+        "canonical": "rent",
+        "meaning": "payment, income (Old French: rente)",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "rente (Old French: revenue) → rent → rental, renter"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"imagery": "按月支付的公寓租金", "mnemonic": "rent → 租金；租用"},
-    "wordLevel": "CET4",
-    "relations": {"sameRoot": ["rental", "renter", "tenant"], "sameAffix": [], "synonyms": ["lease", "hire", "let"], "antonyms": ["buy", "purchase", "own"], "domainCohort": [], "derivationPair": [["rent", "rental"]], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "imagery": "按月支付的公寓租金",
+      "mnemonic": "rent → 租金；租用",
+      "imageChain": []
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "register": "neutral",
+      "formality": 3,
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "rental",
+        "renter",
+        "tenant"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "lease",
+        "hire",
+        "let"
+      ],
+      "antonyms": [
+        "buy",
+        "purchase",
+        "own"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        [
+          "rent",
+          "rental"
+        ]
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "renunciation",
     "phonetic": "/rɪˌnʌnsɪˈeɪʃən/",
-    "pos": ["n"],
-    "coreMeaning": {"cn": "放弃；拒绝；宣布放弃", "en": "the formal rejection of something; the act of renouncing"},
-    "morphemes": [
-      {"form": "re", "role": "prefix", "canonical": "re-", "meaning": "back, against (Latin: re)", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"form": "nunci", "role": "root", "canonical": "nunci-", "meaning": "announce (Latin: nuntiare)", "positionTendency": "medial", "sentiment": {"tags": ["中性"], "intensity": 0}},
-      {"form": "ation", "role": "suffix", "canonical": "-ation", "meaning": "action, state", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    "pos": [
+      "n"
     ],
-    "derivationChain": "renuntiare (Latin: renounce) → renounce → renunciation",
+    "coreMeaning": {
+      "cn": "放弃；拒绝；宣布放弃",
+      "en": "the formal rejection of something; the act of renouncing"
+    },
+    "morphemes": [
+      {
+        "form": "re",
+        "role": "prefix",
+        "canonical": "re-",
+        "meaning": "back, against (Latin: re)",
+        "positionTendency": "initial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "nunci",
+        "role": "root",
+        "canonical": "nunci-",
+        "meaning": "announce (Latin: nuntiare)",
+        "positionTendency": "medial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      },
+      {
+        "form": "ation",
+        "role": "suffix",
+        "canonical": "-ation",
+        "meaning": "action, state",
+        "positionTendency": "final",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        }
+      }
+    ],
+    "derivationChain": [
+      "renuntiare (Latin: renounce) → renounce → renunciation"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"imagery": "修道士正式宣誓放弃世俗生活", "mnemonic": "re（回/拒）+ nunci（宣告）+ ation → 公开宣告放弃 → 弃绝"},
-    "wordLevel": "GRE",
-    "relations": {"sameRoot": ["renounce", "pronounce", "announce", "denounce"], "sameAffix": [], "synonyms": ["rejection", "abdication", "abandonment", "relinquishment"], "antonyms": ["embrace", "acceptance", "adoption"], "domainCohort": [], "derivationPair": [["renounce", "renunciation"]], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "imagery": "修道士正式宣誓放弃世俗生活",
+      "mnemonic": "re（回/拒）+ nunci（宣告）+ ation → 公开宣告放弃 → 弃绝",
+      "imageChain": []
+    },
+    "wordLevel": {
+      "domain": "academic",
+      "register": "neutral",
+      "formality": 3,
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "renounce",
+        "pronounce",
+        "announce",
+        "denounce"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "rejection",
+        "abdication",
+        "abandonment",
+        "relinquishment"
+      ],
+      "antonyms": [
+        "embrace",
+        "acceptance",
+        "adoption"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        [
+          "renounce",
+          "renunciation"
+        ]
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

@@ -2,135 +2,805 @@
   {
     "word": "henpecked",
     "phonetic": "/ˈhɛnpɛkt/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "惧内的；妻管严的", "en": "(of a man) dominated by his wife"},
-    "morphemes": [
-      {"canonical": "hen", "role": "root", "meaning": "母鸡", "sentiment": {"tags": ["贬义"], "intensity": -1}, "order": 1, "form": "hen", "positionTendency": "initial", "coreMeaning": {"cn": "母鸡", "en": "hen (metaphor for nagging wife)"}},
-      {"canonical": "peck", "role": "root", "meaning": "啄；唠叨", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 2, "form": "peck", "positionTendency": "medial", "coreMeaning": {"cn": "啄", "en": "peck/nag"}},
-      {"canonical": "-ed", "role": "suffix", "meaning": "过去分词/形容词", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ed", "positionTendency": "final", "coreMeaning": {"cn": "形容词化", "en": "past participle"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "hen + peck + -ed", "to": "henpecked", "rule": "compound + suffix", "meaning": "被母鸡啄→被妻子唠叨→妻管严"}]},
+    "coreMeaning": {
+      "cn": "惧内的；妻管严的",
+      "en": "(of a man) dominated by his wife"
+    },
+    "morphemes": [
+      {
+        "canonical": "hen",
+        "role": "root",
+        "meaning": "母鸡",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "hen",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "母鸡",
+          "en": "hen (metaphor for nagging wife)"
+        }
+      },
+      {
+        "canonical": "peck",
+        "role": "root",
+        "meaning": "啄；唠叨",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 2,
+        "form": "peck",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "啄",
+          "en": "peck/nag"
+        }
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "meaning": "过去分词/形容词",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ed",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "形容词化",
+          "en": "past participle"
+        }
+      }
+    ],
+    "derivationChain": [
+      "henpecked"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "hen(母鸡=唠叨妻)+peck(啄)+ed→被妻子唠叨的→惧内", "imageChain": ["惧内", "妻管严", "唠叨"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["贬义"], "intensity": -1}},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["browbeaten", "dominated"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "hen(母鸡=唠叨妻)+peck(啄)+ed→被妻子唠叨的→惧内",
+      "imageChain": [
+        "惧内",
+        "妻管严",
+        "唠叨"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "browbeaten",
+        "dominated"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "hepatic",
     "phonetic": "/hɪˈpætɪk/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "肝的；与肝有关的", "en": "relating to the liver"},
-    "morphemes": [
-      {"canonical": "hepat", "role": "root", "meaning": "肝", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "hepat", "positionTendency": "initial", "coreMeaning": {"cn": "肝", "en": "liver"}},
-      {"canonical": "-ic", "role": "suffix", "meaning": "…的", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ic", "positionTendency": "final", "coreMeaning": {"cn": "形容词化", "en": "relating to"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "Gk. hepar (liver) + -ic", "to": "hepatic", "rule": "root + suffix", "meaning": "肝的"}]},
+    "coreMeaning": {
+      "cn": "肝的；与肝有关的",
+      "en": "relating to the liver"
+    },
+    "morphemes": [
+      {
+        "canonical": "hepat",
+        "role": "root",
+        "meaning": "肝",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "hepat",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "肝",
+          "en": "liver"
+        }
+      },
+      {
+        "canonical": "-ic",
+        "role": "suffix",
+        "meaning": "…的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ic",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "形容词化",
+          "en": "relating to"
+        }
+      }
+    ],
+    "derivationChain": [
+      "hepatic"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "hepat(肝)+ic→肝脏相关的", "imageChain": ["肝脏", "医学", "器官"]},
-    "wordLevel": {"domain": ["medical"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["hepatitis", "hepatocyte", "hepatocarcinoma"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["hepatitis", "cirrhosis"], "derivationPair": ["hepatitis"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "hepat(肝)+ic→肝脏相关的",
+      "imageChain": [
+        "肝脏",
+        "医学",
+        "器官"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "medical"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "hepatitis",
+        "hepatocyte",
+        "hepatocarcinoma"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "hepatitis",
+        "cirrhosis"
+      ],
+      "derivationPair": [
+        "hepatitis"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "hepatitis",
     "phonetic": "/ˌhɛpəˈtaɪtɪs/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "肝炎", "en": "inflammation of the liver"},
-    "morphemes": [
-      {"canonical": "hepat", "role": "root", "meaning": "肝", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "hepat", "positionTendency": "initial", "coreMeaning": {"cn": "肝", "en": "liver"}},
-      {"canonical": "-itis", "role": "suffix", "meaning": "炎症", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 2, "form": "itis", "positionTendency": "final", "coreMeaning": {"cn": "炎", "en": "inflammation"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "hepat + -itis", "to": "hepatitis", "rule": "root + suffix", "meaning": "肝炎症→肝炎"}]},
+    "coreMeaning": {
+      "cn": "肝炎",
+      "en": "inflammation of the liver"
+    },
+    "morphemes": [
+      {
+        "canonical": "hepat",
+        "role": "root",
+        "meaning": "肝",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "hepat",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "肝",
+          "en": "liver"
+        }
+      },
+      {
+        "canonical": "-itis",
+        "role": "suffix",
+        "meaning": "炎症",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 2,
+        "form": "itis",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "炎",
+          "en": "inflammation"
+        }
+      }
+    ],
+    "derivationChain": [
+      "hepatitis"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "hepat(肝)+itis(炎)→肝炎", "imageChain": ["肝炎", "感染", "病毒"]},
-    "wordLevel": {"domain": ["medical"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": ["hepatic", "hepatocyte"], "sameAffix": ["appendicitis", "arthritis"], "synonyms": [], "antonyms": [], "domainCohort": ["cirrhosis", "jaundice"], "derivationPair": ["hepatic"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "hepat(肝)+itis(炎)→肝炎",
+      "imageChain": [
+        "肝炎",
+        "感染",
+        "病毒"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "medical"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "hepatic",
+        "hepatocyte"
+      ],
+      "sameAffix": [
+        "appendicitis",
+        "arthritis"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "cirrhosis",
+        "jaundice"
+      ],
+      "derivationPair": [
+        "hepatic"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "hepatocyte",
     "phonetic": "/hɪˈpætəsaɪt/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "肝细胞", "en": "a cell of the main tissue of the liver"},
-    "morphemes": [
-      {"canonical": "hepat", "role": "root", "meaning": "肝", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "hepato", "positionTendency": "initial", "coreMeaning": {"cn": "肝", "en": "liver"}},
-      {"canonical": "cyte", "role": "root", "meaning": "细胞", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "cyte", "positionTendency": "final", "coreMeaning": {"cn": "细胞", "en": "cell"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "hepato + -cyte", "to": "hepatocyte", "rule": "compound", "meaning": "肝细胞"}]},
+    "coreMeaning": {
+      "cn": "肝细胞",
+      "en": "a cell of the main tissue of the liver"
+    },
+    "morphemes": [
+      {
+        "canonical": "hepat",
+        "role": "root",
+        "meaning": "肝",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "hepato",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "肝",
+          "en": "liver"
+        }
+      },
+      {
+        "canonical": "cyte",
+        "role": "root",
+        "meaning": "细胞",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "cyte",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "细胞",
+          "en": "cell"
+        }
+      }
+    ],
+    "derivationChain": [
+      "hepatocyte"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "hepato(肝)+cyte(细胞)→肝细胞", "imageChain": ["细胞", "肝脏", "显微镜"]},
-    "wordLevel": {"domain": ["medical"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["hepatic", "hepatitis"], "sameAffix": ["leukocyte", "erythrocyte"], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "hepato(肝)+cyte(细胞)→肝细胞",
+      "imageChain": [
+        "细胞",
+        "肝脏",
+        "显微镜"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "medical"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "hepatic",
+        "hepatitis"
+      ],
+      "sameAffix": [
+        "leukocyte",
+        "erythrocyte"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "heptagon",
     "phonetic": "/ˈhɛptəɡɒn/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "七边形", "en": "a plane figure with seven angles and seven sides"},
-    "morphemes": [
-      {"canonical": "hept", "role": "prefix", "meaning": "七", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "hept", "positionTendency": "initial", "coreMeaning": {"cn": "七", "en": "seven"}},
-      {"canonical": "gon", "role": "root", "meaning": "角；边", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "agon", "positionTendency": "final", "coreMeaning": {"cn": "角", "en": "angle/corner"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "Gk. hepta (seven) + gonia (angle)", "to": "heptagon", "rule": "compound", "meaning": "七角形"}]},
+    "coreMeaning": {
+      "cn": "七边形",
+      "en": "a plane figure with seven angles and seven sides"
+    },
+    "morphemes": [
+      {
+        "canonical": "hept",
+        "role": "prefix",
+        "meaning": "七",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "hept",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "七",
+          "en": "seven"
+        }
+      },
+      {
+        "canonical": "gon",
+        "role": "root",
+        "meaning": "角；边",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "agon",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "角",
+          "en": "angle/corner"
+        }
+      }
+    ],
+    "derivationChain": [
+      "heptagon"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "hept(七)+agon(角)→七角形", "imageChain": ["七边形", "几何", "多边形"]},
-    "wordLevel": {"domain": ["academic", "general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["pentagon", "hexagon", "octagon"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["pentagon", "hexagon"], "derivationPair": ["heptagonal"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "hept(七)+agon(角)→七角形",
+      "imageChain": [
+        "七边形",
+        "几何",
+        "多边形"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "academic",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "pentagon",
+        "hexagon",
+        "octagon"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "pentagon",
+        "hexagon"
+      ],
+      "derivationPair": [
+        "heptagonal"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "herald",
     "phonetic": "/ˈhɛrəld/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "传令官；先兆；预告", "en": "an official messenger; a sign of things to come"},
-    "morphemes": [
-      {"canonical": "herald", "role": "root", "meaning": "传令；宣告", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "herald", "positionTendency": "medial", "coreMeaning": {"cn": "宣告", "en": "announce/proclaim"}}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "OFr. heraut (messenger)", "to": "herald", "rule": "借词", "meaning": "传令官→先兆"}]},
+    "coreMeaning": {
+      "cn": "传令官；先兆；预告",
+      "en": "an official messenger; a sign of things to come"
+    },
+    "morphemes": [
+      {
+        "canonical": "herald",
+        "role": "root",
+        "meaning": "传令；宣告",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "herald",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "宣告",
+          "en": "announce/proclaim"
+        }
+      }
+    ],
+    "derivationChain": [
+      "herald"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "herald → 预告先兆（传令官吹号宣告）", "imageChain": ["先兆", "宣告", "传令"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["heraldry", "heraldic"], "sameAffix": [], "synonyms": ["harbinger", "forerunner", "omen", "precursor"], "antonyms": [], "domainCohort": ["harbinger", "portent"], "derivationPair": ["heraldry"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "herald → 预告先兆（传令官吹号宣告）",
+      "imageChain": [
+        "先兆",
+        "宣告",
+        "传令"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "heraldry",
+        "heraldic"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "harbinger",
+        "forerunner",
+        "omen",
+        "precursor"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "harbinger",
+        "portent"
+      ],
+      "derivationPair": [
+        "heraldry"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "heraldry",
     "phonetic": "/ˈhɛrəldri/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "纹章学；徽章", "en": "the system of designing and granting coats of arms"},
-    "morphemes": [
-      {"canonical": "herald", "role": "root", "meaning": "传令官", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "herald", "positionTendency": "initial", "coreMeaning": {"cn": "传令", "en": "herald"}},
-      {"canonical": "-ry", "role": "suffix", "meaning": "学科/行业", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ry", "positionTendency": "final", "coreMeaning": {"cn": "学科", "en": "art/practice of"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "herald + -ry", "to": "heraldry", "rule": "root + suffix", "meaning": "传令官的艺术→纹章学"}]},
+    "coreMeaning": {
+      "cn": "纹章学；徽章",
+      "en": "the system of designing and granting coats of arms"
+    },
+    "morphemes": [
+      {
+        "canonical": "herald",
+        "role": "root",
+        "meaning": "传令官",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "herald",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "传令",
+          "en": "herald"
+        }
+      },
+      {
+        "canonical": "-ry",
+        "role": "suffix",
+        "meaning": "学科/行业",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ry",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "学科",
+          "en": "art/practice of"
+        }
+      }
+    ],
+    "derivationChain": [
+      "heraldry"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "herald(传令)+ry→纹章/徽章学", "imageChain": ["盾形纹章", "贵族", "徽章"]},
-    "wordLevel": {"domain": ["academic", "general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["herald"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["herald"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "herald(传令)+ry→纹章/徽章学",
+      "imageChain": [
+        "盾形纹章",
+        "贵族",
+        "徽章"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "academic",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "herald"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "herald"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "herb",
     "phonetic": "/ɜːrb/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "草本植物；药草", "en": "a plant used for food, medicine, or scent"},
-    "morphemes": [
-      {"canonical": "herb", "role": "root", "meaning": "草本植物", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "herb", "positionTendency": "medial", "coreMeaning": {"cn": "草本", "en": "herb/plant"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "草本植物；药草",
+      "en": "a plant used for food, medicine, or scent"
+    },
+    "morphemes": [
+      {
+        "canonical": "herb",
+        "role": "root",
+        "meaning": "草本植物",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "herb",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "草本",
+          "en": "herb/plant"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "herb → 草药/香草（拉丁herba草）", "imageChain": ["草药", "香草", "植物"]},
-    "wordLevel": {"domain": ["general", "medical"], "sentiment": {"tags": ["积极"], "intensity": 1}},
-    "relations": {"sameRoot": ["herbaceous", "herbal", "herbivore", "herbage"], "sameAffix": [], "synonyms": ["plant", "botanical"], "antonyms": [], "domainCohort": ["spice", "botanical"], "derivationPair": ["herbaceous", "herbal"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "herb → 草药/香草（拉丁herba草）",
+      "imageChain": [
+        "草药",
+        "香草",
+        "植物"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "medical"
+      ],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "herbaceous",
+        "herbal",
+        "herbivore",
+        "herbage"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "plant",
+        "botanical"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "spice",
+        "botanical"
+      ],
+      "derivationPair": [
+        "herbaceous",
+        "herbal"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "herbaceous",
     "phonetic": "/ɜːrˈbeɪʃəs/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "草本的；草质的", "en": "relating to herbs; having the characteristics of a herb"},
-    "morphemes": [
-      {"canonical": "herb", "role": "root", "meaning": "草本植物", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "herb", "positionTendency": "initial", "coreMeaning": {"cn": "草本", "en": "herb"}},
-      {"canonical": "-aceous", "role": "suffix", "meaning": "具有…性质的", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "aceous", "positionTendency": "final", "coreMeaning": {"cn": "有…性质", "en": "of the nature of"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "herb + -aceous", "to": "herbaceous", "rule": "root + suffix", "meaning": "草本性质的"}]},
+    "coreMeaning": {
+      "cn": "草本的；草质的",
+      "en": "relating to herbs; having the characteristics of a herb"
+    },
+    "morphemes": [
+      {
+        "canonical": "herb",
+        "role": "root",
+        "meaning": "草本植物",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "herb",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "草本",
+          "en": "herb"
+        }
+      },
+      {
+        "canonical": "-aceous",
+        "role": "suffix",
+        "meaning": "具有…性质的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "aceous",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "有…性质",
+          "en": "of the nature of"
+        }
+      }
+    ],
+    "derivationChain": [
+      "herbaceous"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "herb(草本)+aceous→草本性质的", "imageChain": ["草本", "绿植", "花园"]},
-    "wordLevel": {"domain": ["academic", "general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["herb", "herbal"], "sameAffix": [], "synonyms": ["herby", "botanical"], "antonyms": ["woody", "arboreal"], "domainCohort": [], "derivationPair": ["herb"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "herb(草本)+aceous→草本性质的",
+      "imageChain": [
+        "草本",
+        "绿植",
+        "花园"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "academic",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "herb",
+        "herbal"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "herby",
+        "botanical"
+      ],
+      "antonyms": [
+        "woody",
+        "arboreal"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "herb"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

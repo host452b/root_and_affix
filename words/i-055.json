@@ -2,108 +2,724 @@
   {
     "word": "interact",
     "phonetic": "/,ɪntɚ'ækt/",
-    "pos": ["vi."],
-    "coreMeaning": {"cn": "互相作用；互动", "en": "to act in a way that affects each other"},
-    "morphemes": [
-      {"role": "prefix", "positionTendency": "initial", "canonical": "inter-", "meaning": "between; among", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "inter", "coreMeaning": {"cn": "", "en": ""}},
-      {"role": "root", "positionTendency": "medial", "canonical": "act", "meaning": "to do; to perform", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "act", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "vi."
     ],
-    "derivationChain": {"steps": [{"from": "inter + act", "to": "interact", "rule": "inter(between) + act → to act between/with each other"}]},
+    "coreMeaning": {
+      "cn": "互相作用；互动",
+      "en": "to act in a way that affects each other"
+    },
+    "morphemes": [
+      {
+        "role": "prefix",
+        "positionTendency": "initial",
+        "canonical": "inter-",
+        "meaning": "between; among",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "inter",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "act",
+        "meaning": "to do; to perform",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "act",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "interact"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "inter(between) + act = to act between/with each other", "imageChain": ["互动", "相互作用", "交流"], "mnemonicExpr": "interact → 人与人之间的互动交流"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": ["interaction", "interactive", "interactivity"], "sameAffix": [], "synonyms": ["engage", "communicate", "interplay"], "antonyms": [], "domainCohort": [], "derivationPair": ["interaction", "interactive", "interacted"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "inter(between) + act = to act between/with each other",
+      "imageChain": [
+        "互动",
+        "相互作用",
+        "交流"
+      ],
+      "mnemonicExpr": "interact → 人与人之间的互动交流"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "interaction",
+        "interactive",
+        "interactivity"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "engage",
+        "communicate",
+        "interplay"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "interaction",
+        "interactive",
+        "interacted"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "interaction",
     "phonetic": "/,ɪntə'rækʃən/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "相互作用；互动", "en": "the process of two things communicating or reacting to each other"},
-    "morphemes": [
-      {"role": "prefix", "positionTendency": "initial", "canonical": "inter-", "meaning": "between; among", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "inter", "coreMeaning": {"cn": "", "en": ""}},
-      {"role": "root", "positionTendency": "medial", "canonical": "act", "meaning": "to do; action", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "action", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "interact", "to": "interaction", "rule": "interact + -ion → result of interacting"}]},
+    "coreMeaning": {
+      "cn": "相互作用；互动",
+      "en": "the process of two things communicating or reacting to each other"
+    },
+    "morphemes": [
+      {
+        "role": "prefix",
+        "positionTendency": "initial",
+        "canonical": "inter-",
+        "meaning": "between; among",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "inter",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "act",
+        "meaning": "to do; action",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "action",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "interaction"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "inter(between) + action = action between parties", "imageChain": ["互动", "交互", "相互影响"], "mnemonicExpr": "interaction → 两个系统之间的相互作用"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic", "tech"], "formality": "neutral"},
-    "relations": {"sameRoot": ["interact", "interactive"], "sameAffix": [], "synonyms": ["exchange", "interplay", "communication"], "antonyms": [], "domainCohort": [], "derivationPair": ["interact", "interactive"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "inter(between) + action = action between parties",
+      "imageChain": [
+        "互动",
+        "交互",
+        "相互影响"
+      ],
+      "mnemonicExpr": "interaction → 两个系统之间的相互作用"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic",
+        "tech"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "interact",
+        "interactive"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "exchange",
+        "interplay",
+        "communication"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "interact",
+        "interactive"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "interactive",
     "phonetic": "/,ɪntɚ'æktɪv/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "交互式的；相互作用的", "en": "allowing a two-way flow of information between a computer and a user"},
-    "morphemes": [
-      {"role": "prefix", "positionTendency": "initial", "canonical": "inter-", "meaning": "between; mutual", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "inter", "coreMeaning": {"cn": "", "en": ""}},
-      {"role": "root", "positionTendency": "medial", "canonical": "act", "meaning": "to do; to act", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "active", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "interact", "to": "interactive", "rule": "interact + -ive → adj."}]},
+    "coreMeaning": {
+      "cn": "交互式的；相互作用的",
+      "en": "allowing a two-way flow of information between a computer and a user"
+    },
+    "morphemes": [
+      {
+        "role": "prefix",
+        "positionTendency": "initial",
+        "canonical": "inter-",
+        "meaning": "between; mutual",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "inter",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "act",
+        "meaning": "to do; to act",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "active",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "interactive"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "inter(between) + active = enabling mutual action", "imageChain": ["双向交互", "用户参与", "互动"], "mnemonicExpr": "interactive → 用户可以互动参与的"},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 1}, "domain": ["general", "tech", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": ["interact", "interaction"], "sameAffix": [], "synonyms": ["two-way", "participatory", "engaging"], "antonyms": ["passive", "one-way"], "domainCohort": [], "derivationPair": ["interactively", "interactivity"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "inter(between) + active = enabling mutual action",
+      "imageChain": [
+        "双向交互",
+        "用户参与",
+        "互动"
+      ],
+      "mnemonicExpr": "interactive → 用户可以互动参与的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general",
+        "tech",
+        "academic"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "interact",
+        "interaction"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "two-way",
+        "participatory",
+        "engaging"
+      ],
+      "antonyms": [
+        "passive",
+        "one-way"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "interactively",
+        "interactivity"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "intercede",
     "phonetic": "/,ɪntɚ'sid/",
-    "pos": ["vi."],
-    "coreMeaning": {"cn": "调解；说情", "en": "to intervene on behalf of another; to mediate"},
-    "morphemes": [
-      {"role": "prefix", "positionTendency": "initial", "canonical": "inter-", "meaning": "between", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "inter", "coreMeaning": {"cn": "", "en": ""}},
-      {"role": "root", "positionTendency": "medial", "canonical": "cede", "meaning": "to go; yield", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "cede", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "vi."
     ],
-    "derivationChain": {"steps": [{"from": "L intercedere", "to": "intercede", "rule": "inter(between) + cedere(go) → go between to mediate"}]},
+    "coreMeaning": {
+      "cn": "调解；说情",
+      "en": "to intervene on behalf of another; to mediate"
+    },
+    "morphemes": [
+      {
+        "role": "prefix",
+        "positionTendency": "initial",
+        "canonical": "inter-",
+        "meaning": "between",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "inter",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "cede",
+        "meaning": "to go; yield",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "cede",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "intercede"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "inter(between) + cede(go) = go between to plead for another", "imageChain": ["调解", "斡旋", "求情"], "mnemonicExpr": "intercede → 站在中间为他人说情"},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 1}, "domain": ["general", "legal"], "formality": "formal"},
-    "relations": {"sameRoot": ["intercession", "accede", "precede"], "sameAffix": [], "synonyms": ["mediate", "intervene", "advocate"], "antonyms": ["stand aside", "ignore"], "domainCohort": [], "derivationPair": ["intercession", "interceded"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "inter(between) + cede(go) = go between to plead for another",
+      "imageChain": [
+        "调解",
+        "斡旋",
+        "求情"
+      ],
+      "mnemonicExpr": "intercede → 站在中间为他人说情"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general",
+        "legal"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "intercession",
+        "accede",
+        "precede"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "mediate",
+        "intervene",
+        "advocate"
+      ],
+      "antonyms": [
+        "stand aside",
+        "ignore"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "intercession",
+        "interceded"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "intercept",
     "phonetic": "/,ɪntɚ'sɛpt/",
-    "pos": ["vt.", "n."],
-    "coreMeaning": {"cn": "拦截；截断", "en": "to stop, seize, or interrupt in progress before arrival"},
-    "morphemes": [
-      {"role": "prefix", "positionTendency": "initial", "canonical": "inter-", "meaning": "between", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "inter", "coreMeaning": {"cn": "", "en": ""}},
-      {"role": "root", "positionTendency": "medial", "canonical": "cept", "meaning": "to take; seize", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "cept", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "vt.",
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "L intercipere", "to": "intercept", "rule": "inter(between) + capere(take) → take between = seize in transit"}]},
+    "coreMeaning": {
+      "cn": "拦截；截断",
+      "en": "to stop, seize, or interrupt in progress before arrival"
+    },
+    "morphemes": [
+      {
+        "role": "prefix",
+        "positionTendency": "initial",
+        "canonical": "inter-",
+        "meaning": "between",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "inter",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "cept",
+        "meaning": "to take; seize",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "cept",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "intercept"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "inter(between) + cept(take) = take something between sender and receiver", "imageChain": ["拦截", "截获", "阻止"], "mnemonicExpr": "intercept → 拦截信号/球/情报"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "cybersec"], "formality": "formal"},
-    "relations": {"sameRoot": ["interception", "interceptor", "accept", "except"], "sameAffix": [], "synonyms": ["block", "seize", "catch", "interrupt"], "antonyms": ["release", "allow through"], "domainCohort": [], "derivationPair": ["interception", "interceptor", "intercepted"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "inter(between) + cept(take) = take something between sender and receiver",
+      "imageChain": [
+        "拦截",
+        "截获",
+        "阻止"
+      ],
+      "mnemonicExpr": "intercept → 拦截信号/球/情报"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "cybersec"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "interception",
+        "interceptor",
+        "accept",
+        "except"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "block",
+        "seize",
+        "catch",
+        "interrupt"
+      ],
+      "antonyms": [
+        "release",
+        "allow through"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "interception",
+        "interceptor",
+        "intercepted"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "intercession",
     "phonetic": "/,ɪntɚ'sɛʃən/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "调解；说情；仲裁", "en": "the action of intervening on behalf of another; prayer on behalf of others"},
-    "morphemes": [
-      {"role": "prefix", "positionTendency": "initial", "canonical": "inter-", "meaning": "between", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "inter", "coreMeaning": {"cn": "", "en": ""}},
-      {"role": "root", "positionTendency": "medial", "canonical": "cess", "meaning": "to go; yield", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "cess", "coreMeaning": {"cn": "", "en": ""}},
-      {"role": "suffix", "positionTendency": "final", "canonical": "-ion", "meaning": "action or state", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ion", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "intercede", "to": "intercession", "rule": "inter + cession → act of mediating"}]},
+    "coreMeaning": {
+      "cn": "调解；说情；仲裁",
+      "en": "the action of intervening on behalf of another; prayer on behalf of others"
+    },
+    "morphemes": [
+      {
+        "role": "prefix",
+        "positionTendency": "initial",
+        "canonical": "inter-",
+        "meaning": "between",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "inter",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "cess",
+        "meaning": "to go; yield",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "cess",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "final",
+        "canonical": "-ion",
+        "meaning": "action or state",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ion",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "intercession"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "inter(between) + cess(go) + ion = act of going between to plead", "imageChain": ["说情", "代祷", "斡旋"], "mnemonicExpr": "intercession → 代表他人向当局求情"},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 1}, "domain": ["general", "legal"], "formality": "formal"},
-    "relations": {"sameRoot": ["intercede", "intercessor"], "sameAffix": [], "synonyms": ["mediation", "intervention", "advocacy"], "antonyms": [], "domainCohort": [], "derivationPair": ["intercede", "intercessor"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "inter(between) + cess(go) + ion = act of going between to plead",
+      "imageChain": [
+        "说情",
+        "代祷",
+        "斡旋"
+      ],
+      "mnemonicExpr": "intercession → 代表他人向当局求情"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general",
+        "legal"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "intercede",
+        "intercessor"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "mediation",
+        "intervention",
+        "advocacy"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "intercede",
+        "intercessor"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "interchangeable",
     "phonetic": "/,ɪntɚ'tʃendʒəbl/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "可互换的；可交换的", "en": "able to be exchanged with each other without affecting the outcome"},
-    "morphemes": [
-      {"role": "prefix", "positionTendency": "initial", "canonical": "inter-", "meaning": "between; mutually", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "inter", "coreMeaning": {"cn": "", "en": ""}},
-      {"role": "root", "positionTendency": "medial", "canonical": "change", "meaning": "to exchange", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "change", "coreMeaning": {"cn": "", "en": ""}},
-      {"role": "suffix", "positionTendency": "final", "canonical": "-able", "meaning": "capable of being", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "able", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "interchange", "to": "interchangeable", "rule": "inter + change + able → capable of being exchanged"}]},
+    "coreMeaning": {
+      "cn": "可互换的；可交换的",
+      "en": "able to be exchanged with each other without affecting the outcome"
+    },
+    "morphemes": [
+      {
+        "role": "prefix",
+        "positionTendency": "initial",
+        "canonical": "inter-",
+        "meaning": "between; mutually",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "inter",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "change",
+        "meaning": "to exchange",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "change",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "final",
+        "canonical": "-able",
+        "meaning": "capable of being",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "able",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "interchangeable"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "inter(between) + change + able = capable of mutual exchange", "imageChain": ["互换", "替代", "兼容"], "mnemonicExpr": "interchangeable → 可以互相替换使用的"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "tech"], "formality": "formal"},
-    "relations": {"sameRoot": ["interchange", "exchange"], "sameAffix": [], "synonyms": ["substitutable", "equivalent", "fungible"], "antonyms": ["unique", "non-interchangeable"], "domainCohort": [], "derivationPair": ["interchangeably", "interchangeability"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "inter(between) + change + able = capable of mutual exchange",
+      "imageChain": [
+        "互换",
+        "替代",
+        "兼容"
+      ],
+      "mnemonicExpr": "interchangeable → 可以互相替换使用的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "tech"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "interchange",
+        "exchange"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "substitutable",
+        "equivalent",
+        "fungible"
+      ],
+      "antonyms": [
+        "unique",
+        "non-interchangeable"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "interchangeably",
+        "interchangeability"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

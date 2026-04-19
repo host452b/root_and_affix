@@ -2,152 +2,933 @@
   {
     "word": "modernity",
     "phonetic": "/mə'dɝnəti/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "现代性；现代特征", "en": "the quality or condition of being modern; contemporary character"},
-    "morphemes": [
-      {"canonical": "mod", "role": "root", "positionTendency": "initial", "meaning": "方式；时代", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "modern"},
-      {"canonical": "-ity", "role": "suffix", "positionTendency": "final", "meaning": "名词化；状态", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ity"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": ["modernus(现代的) → modern → modernity"]},
+    "coreMeaning": {
+      "cn": "现代性；现代特征",
+      "en": "the quality or condition of being modern; contemporary character"
+    },
+    "morphemes": [
+      {
+        "canonical": "mod",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "方式；时代",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "modern"
+      },
+      {
+        "canonical": "-ity",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "名词化；状态",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ity"
+      }
+    ],
+    "derivationChain": [
+      "modernus(现代的) → modern → modernity"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "现代的状态与特质", "imageChain": ["都市", "科技", "当代"], "mnemonicExpr": "modern(现代)+ity → 现代性"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["academic", "general"], "formality": "formal"},
-    "relations": {"sameRoot": ["modern", "modernize", "modernization"], "sameAffix": [], "synonyms": ["contemporaneity", "present-day character"], "antonyms": ["antiquity", "tradition"], "domainCohort": ["modernization"], "derivationPair": ["modern"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "现代的状态与特质",
+      "imageChain": [
+        "都市",
+        "科技",
+        "当代"
+      ],
+      "mnemonicExpr": "modern(现代)+ity → 现代性"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "academic",
+        "general"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "modern",
+        "modernize",
+        "modernization"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "contemporaneity",
+        "present-day character"
+      ],
+      "antonyms": [
+        "antiquity",
+        "tradition"
+      ],
+      "domainCohort": [
+        "modernization"
+      ],
+      "derivationPair": [
+        "modern"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "modernization",
     "phonetic": "/,mɑdɚnə'zeʃən/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "现代化；现代化的事物", "en": "the process of making something modern; adaptation to modern needs"},
-    "morphemes": [
-      {"canonical": "mod", "role": "root", "positionTendency": "initial", "meaning": "方式；时代", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "modern"},
-      {"canonical": "-ize", "role": "suffix", "positionTendency": "medial", "meaning": "动词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "iz"},
-      {"canonical": "-ation", "role": "suffix", "positionTendency": "final", "meaning": "名词化；过程", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ation"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": ["modern → modernize → modernization"]},
+    "coreMeaning": {
+      "cn": "现代化；现代化的事物",
+      "en": "the process of making something modern; adaptation to modern needs"
+    },
+    "morphemes": [
+      {
+        "canonical": "mod",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "方式；时代",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "modern"
+      },
+      {
+        "canonical": "-ize",
+        "role": "suffix",
+        "positionTendency": "medial",
+        "meaning": "动词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "iz"
+      },
+      {
+        "canonical": "-ation",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "名词化；过程",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ation"
+      }
+    ],
+    "derivationChain": [
+      "modern → modernize → modernization"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "使之现代化的过程", "imageChain": ["工业化", "城市化", "技术革新"], "mnemonicExpr": "modern(现代)+ize(化)+ation → 现代化过程"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["business", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": ["modern", "modernity", "modernize"], "sameAffix": [], "synonyms": ["development", "industrialization", "reform"], "antonyms": ["traditionalism", "archaism"], "domainCohort": [], "derivationPair": ["modernize"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "使之现代化的过程",
+      "imageChain": [
+        "工业化",
+        "城市化",
+        "技术革新"
+      ],
+      "mnemonicExpr": "modern(现代)+ize(化)+ation → 现代化过程"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "business",
+        "academic"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "modern",
+        "modernity",
+        "modernize"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "development",
+        "industrialization",
+        "reform"
+      ],
+      "antonyms": [
+        "traditionalism",
+        "archaism"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "modernize"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "modernize",
     "phonetic": "/mɑdɚnˌaɪz/",
-    "pos": ["v."],
-    "coreMeaning": {"cn": "现代化；使现代化", "en": "to make modern; to adapt to modern needs or habits"},
-    "morphemes": [
-      {"canonical": "mod", "role": "root", "positionTendency": "initial", "meaning": "时代；方式", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "modern"},
-      {"canonical": "-ize", "role": "suffix", "positionTendency": "final", "meaning": "动词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ize"}
+    "pos": [
+      "v."
     ],
-    "derivationChain": {"steps": ["modern → modernize"]},
+    "coreMeaning": {
+      "cn": "现代化；使现代化",
+      "en": "to make modern; to adapt to modern needs or habits"
+    },
+    "morphemes": [
+      {
+        "canonical": "mod",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "时代；方式",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "modern"
+      },
+      {
+        "canonical": "-ize",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "动词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ize"
+      }
+    ],
+    "derivationChain": [
+      "modern → modernize"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "使变成现代的", "imageChain": ["升级", "革新", "改造"], "mnemonicExpr": "modern(现代)+ize → 使现代化"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["academic", "business"], "formality": "neutral"},
-    "relations": {"sameRoot": ["modern", "modernization", "modernity"], "sameAffix": [], "synonyms": ["update", "renovate", "reform"], "antonyms": ["antiquate", "fossilize"], "domainCohort": ["modernization"], "derivationPair": ["modernization"], "morphVariants": [], "sameImagery": ["update"]}
+    "memorySemantics": {
+      "literal": "使变成现代的",
+      "imageChain": [
+        "升级",
+        "革新",
+        "改造"
+      ],
+      "mnemonicExpr": "modern(现代)+ize → 使现代化"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "academic",
+        "business"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "modern",
+        "modernization",
+        "modernity"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "update",
+        "renovate",
+        "reform"
+      ],
+      "antonyms": [
+        "antiquate",
+        "fossilize"
+      ],
+      "domainCohort": [
+        "modernization"
+      ],
+      "derivationPair": [
+        "modernization"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "update"
+      ]
+    }
   },
   {
     "word": "modest",
     "phonetic": "/'mɑdɪst/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "谦虚的；适度的；端庄的", "en": "unassuming; not showy; having a moderate opinion of oneself"},
-    "morphemes": [
-      {"canonical": "mod", "role": "root", "positionTendency": "initial", "meaning": "尺度；适度", "sentiment": {"tags": ["褒义"], "intensity": 1}, "order": 1, "form": "mod"},
-      {"canonical": "-est", "role": "suffix", "positionTendency": "final", "meaning": "形容词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "est"}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": ["modus(尺度) → modestus → modest"]},
+    "coreMeaning": {
+      "cn": "谦虚的；适度的；端庄的",
+      "en": "unassuming; not showy; having a moderate opinion of oneself"
+    },
+    "morphemes": [
+      {
+        "canonical": "mod",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "尺度；适度",
+        "sentiment": {
+          "tags": [
+            "褒义"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "mod"
+      },
+      {
+        "canonical": "-est",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "形容词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "est"
+      }
+    ],
+    "derivationChain": [
+      "modus(尺度) → modestus → modest"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "保持在适度尺度内的", "imageChain": ["谦虚", "内敛", "适度"], "mnemonicExpr": "mod(尺度)+est → 适度的，谦虚的"},
-    "wordLevel": {"sentiment": {"tags": ["褒义"], "intensity": 1}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["modesty", "modestly", "modicum"], "sameAffix": [], "synonyms": ["humble", "unassuming", "moderate"], "antonyms": ["arrogant", "boastful", "immodest"], "domainCohort": ["modesty"], "derivationPair": ["modestly"], "morphVariants": [], "sameImagery": ["humble"]}
+    "memorySemantics": {
+      "literal": "保持在适度尺度内的",
+      "imageChain": [
+        "谦虚",
+        "内敛",
+        "适度"
+      ],
+      "mnemonicExpr": "mod(尺度)+est → 适度的，谦虚的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "褒义"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "modesty",
+        "modestly",
+        "modicum"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "humble",
+        "unassuming",
+        "moderate"
+      ],
+      "antonyms": [
+        "arrogant",
+        "boastful",
+        "immodest"
+      ],
+      "domainCohort": [
+        "modesty"
+      ],
+      "derivationPair": [
+        "modestly"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "humble"
+      ]
+    }
   },
   {
     "word": "modesty",
     "phonetic": "/'mɑdəsti/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "谦逊；端庄；适度", "en": "the quality of being modest; freedom from vanity"},
-    "morphemes": [
-      {"canonical": "mod", "role": "root", "positionTendency": "initial", "meaning": "尺度；适度", "sentiment": {"tags": ["褒义"], "intensity": 1}, "order": 1, "form": "modest"},
-      {"canonical": "-y", "role": "suffix", "positionTendency": "final", "meaning": "名词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "y"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": ["modest → modesty"]},
+    "coreMeaning": {
+      "cn": "谦逊；端庄；适度",
+      "en": "the quality of being modest; freedom from vanity"
+    },
+    "morphemes": [
+      {
+        "canonical": "mod",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "尺度；适度",
+        "sentiment": {
+          "tags": [
+            "褒义"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "modest"
+      },
+      {
+        "canonical": "-y",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "名词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "y"
+      }
+    ],
+    "derivationChain": [
+      "modest → modesty"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "谦逊的品质", "imageChain": ["谦虚", "低调", "节制"], "mnemonicExpr": "modest(谦逊)+y → 谦逊的品质"},
-    "wordLevel": {"sentiment": {"tags": ["褒义"], "intensity": 1}, "domain": ["general", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": ["modest", "modestly"], "sameAffix": [], "synonyms": ["humility", "reserve", "diffidence"], "antonyms": ["arrogance", "conceit", "vanity"], "domainCohort": [], "derivationPair": ["modest"], "morphVariants": [], "sameImagery": ["humility"]}
+    "memorySemantics": {
+      "literal": "谦逊的品质",
+      "imageChain": [
+        "谦虚",
+        "低调",
+        "节制"
+      ],
+      "mnemonicExpr": "modest(谦逊)+y → 谦逊的品质"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "褒义"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "modest",
+        "modestly"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "humility",
+        "reserve",
+        "diffidence"
+      ],
+      "antonyms": [
+        "arrogance",
+        "conceit",
+        "vanity"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "modest"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "humility"
+      ]
+    }
   },
   {
     "word": "modicum",
     "phonetic": "/'mɑdɪkəm/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "少量；一点点", "en": "a small quantity of something; a limited amount"},
-    "morphemes": [
-      {"canonical": "mod", "role": "root", "positionTendency": "initial", "meaning": "尺度；量度", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "modic"},
-      {"canonical": "-um", "role": "suffix", "positionTendency": "final", "meaning": "名词化（拉丁语）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "um"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": ["modus(量) → modicum"]},
+    "coreMeaning": {
+      "cn": "少量；一点点",
+      "en": "a small quantity of something; a limited amount"
+    },
+    "morphemes": [
+      {
+        "canonical": "mod",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "尺度；量度",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "modic"
+      },
+      {
+        "canonical": "-um",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "名词化（拉丁语）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "um"
+      }
+    ],
+    "derivationChain": [
+      "modus(量) → modicum"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "极小的量度", "imageChain": ["微量", "少许", "一点点"], "mnemonicExpr": "modicum → 极小的量，一丁点"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic"], "formality": "formal"},
-    "relations": {"sameRoot": ["mode", "modest", "moderate"], "sameAffix": [], "synonyms": ["bit", "trace", "smidgen", "iota"], "antonyms": ["abundance", "plethora"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": ["iota"]}
+    "memorySemantics": {
+      "literal": "极小的量度",
+      "imageChain": [
+        "微量",
+        "少许",
+        "一点点"
+      ],
+      "mnemonicExpr": "modicum → 极小的量，一丁点"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "mode",
+        "modest",
+        "moderate"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "bit",
+        "trace",
+        "smidgen",
+        "iota"
+      ],
+      "antonyms": [
+        "abundance",
+        "plethora"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "iota"
+      ]
+    }
   },
   {
     "word": "modify",
     "phonetic": "/'mɑdɪfaɪ/",
-    "pos": ["v."],
-    "coreMeaning": {"cn": "修改；更改；修饰", "en": "to make changes in something; to alter partially"},
-    "morphemes": [
-      {"canonical": "mod", "role": "root", "positionTendency": "initial", "meaning": "方式；量度", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "modi"},
-      {"canonical": "fy", "role": "suffix", "positionTendency": "final", "meaning": "动词化；使…化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "fy"}
+    "pos": [
+      "v."
     ],
-    "derivationChain": {"steps": ["modus(方式)+facere(做) → modificare → modify"]},
+    "coreMeaning": {
+      "cn": "修改；更改；修饰",
+      "en": "to make changes in something; to alter partially"
+    },
+    "morphemes": [
+      {
+        "canonical": "mod",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "方式；量度",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "modi"
+      },
+      {
+        "canonical": "fy",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "动词化；使…化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "fy"
+      }
+    ],
+    "derivationChain": [
+      "modus(方式)+facere(做) → modificare → modify"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "改变其方式或形态", "imageChain": ["修改", "调整", "变更"], "mnemonicExpr": "mod(方式)+ify → 改变方式，修改"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic", "tech"], "formality": "neutral"},
-    "relations": {"sameRoot": ["modification", "modifier", "modifiable"], "sameAffix": [], "synonyms": ["alter", "change", "amend", "adjust"], "antonyms": ["preserve", "maintain", "keep"], "domainCohort": ["modification"], "derivationPair": ["modification"], "morphVariants": [], "sameImagery": ["alter"]}
+    "memorySemantics": {
+      "literal": "改变其方式或形态",
+      "imageChain": [
+        "修改",
+        "调整",
+        "变更"
+      ],
+      "mnemonicExpr": "mod(方式)+ify → 改变方式，修改"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic",
+        "tech"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "modification",
+        "modifier",
+        "modifiable"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "alter",
+        "change",
+        "amend",
+        "adjust"
+      ],
+      "antonyms": [
+        "preserve",
+        "maintain",
+        "keep"
+      ],
+      "domainCohort": [
+        "modification"
+      ],
+      "derivationPair": [
+        "modification"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "alter"
+      ]
+    }
   },
   {
     "word": "modish",
     "phonetic": "/'modɪʃ/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "流行的；时髦的", "en": "conforming to or following what is fashionable; trendy"},
-    "morphemes": [
-      {"canonical": "mod", "role": "root", "positionTendency": "initial", "meaning": "时尚；潮流", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "mode"},
-      {"canonical": "-ish", "role": "suffix", "positionTendency": "final", "meaning": "形容词化；有…倾向", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ish"}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": ["mode(时尚) → modish"]},
+    "coreMeaning": {
+      "cn": "流行的；时髦的",
+      "en": "conforming to or following what is fashionable; trendy"
+    },
+    "morphemes": [
+      {
+        "canonical": "mod",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "时尚；潮流",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "mode"
+      },
+      {
+        "canonical": "-ish",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "形容词化；有…倾向",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ish"
+      }
+    ],
+    "derivationChain": [
+      "mode(时尚) → modish"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "赶时髦的；入流的", "imageChain": ["时尚", "潮流", "流行"], "mnemonicExpr": "mode(潮流)+ish → 时髦的"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "informal"},
-    "relations": {"sameRoot": ["mode", "modern"], "sameAffix": [], "synonyms": ["fashionable", "trendy", "chic", "stylish"], "antonyms": ["unfashionable", "outdated", "passé"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": ["fashionable"]}
+    "memorySemantics": {
+      "literal": "赶时髦的；入流的",
+      "imageChain": [
+        "时尚",
+        "潮流",
+        "流行"
+      ],
+      "mnemonicExpr": "mode(潮流)+ish → 时髦的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "informal"
+    },
+    "relations": {
+      "sameRoot": [
+        "mode",
+        "modern"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "fashionable",
+        "trendy",
+        "chic",
+        "stylish"
+      ],
+      "antonyms": [
+        "unfashionable",
+        "outdated",
+        "passé"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "fashionable"
+      ]
+    }
   },
   {
     "word": "modulate",
     "phonetic": "/'mɑdʒəlet/",
-    "pos": ["v."],
-    "coreMeaning": {"cn": "调节；调制；调整（音调等）", "en": "to adjust or regulate; to vary in tone or pitch; to regulate signal"},
-    "morphemes": [
-      {"canonical": "mod", "role": "root", "positionTendency": "initial", "meaning": "尺度；量度", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "modul"},
-      {"canonical": "-ate", "role": "suffix", "positionTendency": "final", "meaning": "动词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ate"}
+    "pos": [
+      "v."
     ],
-    "derivationChain": {"steps": ["modulus(量度) → modulate"]},
+    "coreMeaning": {
+      "cn": "调节；调制；调整（音调等）",
+      "en": "to adjust or regulate; to vary in tone or pitch; to regulate signal"
+    },
+    "morphemes": [
+      {
+        "canonical": "mod",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "尺度；量度",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "modul"
+      },
+      {
+        "canonical": "-ate",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "动词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ate"
+      }
+    ],
+    "derivationChain": [
+      "modulus(量度) → modulate"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "按尺度调节的", "imageChain": ["音量调节", "信号调制", "音调变化"], "mnemonicExpr": "modul(量度)+ate → 按量度调节"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["academic", "tech"], "formality": "formal"},
-    "relations": {"sameRoot": ["module", "modulation", "modulator"], "sameAffix": [], "synonyms": ["regulate", "adjust", "calibrate", "temper"], "antonyms": [], "domainCohort": ["modulation"], "derivationPair": ["modulation"], "morphVariants": [], "sameImagery": ["regulate"]}
+    "memorySemantics": {
+      "literal": "按尺度调节的",
+      "imageChain": [
+        "音量调节",
+        "信号调制",
+        "音调变化"
+      ],
+      "mnemonicExpr": "modul(量度)+ate → 按量度调节"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "academic",
+        "tech"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "module",
+        "modulation",
+        "modulator"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "regulate",
+        "adjust",
+        "calibrate",
+        "temper"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "modulation"
+      ],
+      "derivationPair": [
+        "modulation"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "regulate"
+      ]
+    }
   },
   {
     "word": "module",
     "phonetic": "/'mɑdʒul/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "模块；单元；标准部件", "en": "a unit or component of a system; a self-contained unit in a program or structure"},
-    "morphemes": [
-      {"canonical": "mod", "role": "root", "positionTendency": "initial", "meaning": "量度；尺度", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "modul"},
-      {"canonical": "-ule", "role": "suffix", "positionTendency": "final", "meaning": "小称；单元", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ule"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": ["modulus(量度) → module"]},
+    "coreMeaning": {
+      "cn": "模块；单元；标准部件",
+      "en": "a unit or component of a system; a self-contained unit in a program or structure"
+    },
+    "morphemes": [
+      {
+        "canonical": "mod",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "量度；尺度",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "modul"
+      },
+      {
+        "canonical": "-ule",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "小称；单元",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ule"
+      }
+    ],
+    "derivationChain": [
+      "modulus(量度) → module"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "标准量度单元", "imageChain": ["积木块", "程序模块", "标准件"], "mnemonicExpr": "modul(量度)+e → 标准模块，单元"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["tech", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": ["modulate", "modular", "modulation"], "sameAffix": [], "synonyms": ["unit", "component", "element"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": ["component"]}
+    "memorySemantics": {
+      "literal": "标准量度单元",
+      "imageChain": [
+        "积木块",
+        "程序模块",
+        "标准件"
+      ],
+      "mnemonicExpr": "modul(量度)+e → 标准模块，单元"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech",
+        "academic"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "modulate",
+        "modular",
+        "modulation"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "unit",
+        "component",
+        "element"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "component"
+      ]
+    }
   }
 ]

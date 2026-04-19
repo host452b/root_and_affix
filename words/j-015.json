@@ -2,90 +2,606 @@
   {
     "word": "journeyman",
     "phonetic": "/'dʒɜːrnimæn/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "满师的工匠；技术熟练但平庸的人", "en": "a skilled worker who has completed an apprenticeship; a competent but undistinguished person"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "initial", "canonical": "journey", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "journey", "meaning": "旅途；工作日", "coreMeaning": {"cn": "旅途", "en": "journey"}},
-      {"role": "root", "positionTendency": "final", "canonical": "man", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "man", "meaning": "人", "coreMeaning": {"cn": "人", "en": "person"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "满师的工匠；技术熟练但平庸的人",
+      "en": "a skilled worker who has completed an apprenticeship; a competent but undistinguished person"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "initial",
+        "canonical": "journey",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "journey",
+        "meaning": "旅途；工作日",
+        "coreMeaning": {
+          "cn": "旅途",
+          "en": "journey"
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "final",
+        "canonical": "man",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "man",
+        "meaning": "人",
+        "coreMeaning": {
+          "cn": "人",
+          "en": "person"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "journey(旅途)+man(人) → 为雇主工作一天旅途的人 → 满师工匠", "imageChain": ["工匠", "手艺人", "学徒期满"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["journey", "journeyman", "journeyed"], "sameAffix": [], "synonyms": ["craftsman", "artisan", "tradesman"], "antonyms": ["apprentice", "master craftsman"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "journey(旅途)+man(人) → 为雇主工作一天旅途的人 → 满师工匠",
+      "imageChain": [
+        "工匠",
+        "手艺人",
+        "学徒期满"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "journey",
+        "journeyman",
+        "journeyed"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "craftsman",
+        "artisan",
+        "tradesman"
+      ],
+      "antonyms": [
+        "apprentice",
+        "master craftsman"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "jovial",
     "phonetic": "/'dʒoʊviəl/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "天性快活的；快乐的", "en": "cheerful and friendly"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "medial", "canonical": "jov-", "sentiment": {"tags": ["积极"], "intensity": 2}, "order": 1, "form": "jovi", "meaning": "朱庇特（木星/快乐之星）", "coreMeaning": {"cn": "快乐", "en": "joyful"}},
-      {"role": "suffix", "positionTendency": "final", "canonical": "-al", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-al", "meaning": "形容词后缀", "coreMeaning": {"cn": "有关的", "en": "relating to"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "Jove (Jupiter)", "to": "jovial", "by": "-al", "meaning": "与主神Jupiter出生相关→快乐的"}]},
+    "coreMeaning": {
+      "cn": "天性快活的；快乐的",
+      "en": "cheerful and friendly"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "jov-",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 2
+        },
+        "order": 1,
+        "form": "jovi",
+        "meaning": "朱庇特（木星/快乐之星）",
+        "coreMeaning": {
+          "cn": "快乐",
+          "en": "joyful"
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "final",
+        "canonical": "-al",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-al",
+        "meaning": "形容词后缀",
+        "coreMeaning": {
+          "cn": "有关的",
+          "en": "relating to"
+        }
+      }
+    ],
+    "derivationChain": [
+      "jovial"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "jovi(朱庇特/木星)+al → 出生在木星守护下→天性快活", "imageChain": ["笑声", "欢乐", "友善开朗"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 2}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["joviality", "jovially", "jovian"], "sameAffix": ["legal", "vocal", "moral"], "synonyms": ["cheerful", "merry", "jolly", "genial", "blithe"], "antonyms": ["gloomy", "sullen", "morose", "melancholy"], "domainCohort": ["joy", "joyful"], "derivationPair": ["joviality"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "jovi(朱庇特/木星)+al → 出生在木星守护下→天性快活",
+      "imageChain": [
+        "笑声",
+        "欢乐",
+        "友善开朗"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "joviality",
+        "jovially",
+        "jovian"
+      ],
+      "sameAffix": [
+        "legal",
+        "vocal",
+        "moral"
+      ],
+      "synonyms": [
+        "cheerful",
+        "merry",
+        "jolly",
+        "genial",
+        "blithe"
+      ],
+      "antonyms": [
+        "gloomy",
+        "sullen",
+        "morose",
+        "melancholy"
+      ],
+      "domainCohort": [
+        "joy",
+        "joyful"
+      ],
+      "derivationPair": [
+        "joviality"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "joy",
     "phonetic": "/dʒɔɪ/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "快乐；欢乐", "en": "a feeling of great happiness"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "medial", "canonical": "joy", "sentiment": {"tags": ["积极"], "intensity": 3}, "order": 1, "form": "joy", "meaning": "快乐；欢乐", "coreMeaning": {"cn": "快乐", "en": "happiness"}}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "快乐；欢乐",
+      "en": "a feeling of great happiness"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "joy",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 3
+        },
+        "order": 1,
+        "form": "joy",
+        "meaning": "快乐；欢乐",
+        "coreMeaning": {
+          "cn": "快乐",
+          "en": "happiness"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "joy → 内心的喜悦之情", "imageChain": ["喜悦", "欢笑", "幸福"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 3}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["joyful", "joyous", "joyfully", "joyless"], "sameAffix": [], "synonyms": ["happiness", "delight", "pleasure", "bliss", "elation"], "antonyms": ["sorrow", "grief", "sadness", "misery"], "domainCohort": ["jovial", "joyful", "joyous"], "derivationPair": ["joyful", "joyless"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "joy → 内心的喜悦之情",
+      "imageChain": [
+        "喜悦",
+        "欢笑",
+        "幸福"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 3
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "joyful",
+        "joyous",
+        "joyfully",
+        "joyless"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "happiness",
+        "delight",
+        "pleasure",
+        "bliss",
+        "elation"
+      ],
+      "antonyms": [
+        "sorrow",
+        "grief",
+        "sadness",
+        "misery"
+      ],
+      "domainCohort": [
+        "jovial",
+        "joyful",
+        "joyous"
+      ],
+      "derivationPair": [
+        "joyful",
+        "joyless"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "joyful",
     "phonetic": "/'dʒɔɪfəl/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "快乐的；充满喜悦的", "en": "feeling or expressing great happiness"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "medial", "canonical": "joy", "sentiment": {"tags": ["积极"], "intensity": 3}, "order": 1, "form": "joy", "meaning": "快乐", "coreMeaning": {"cn": "快乐", "en": "joy"}},
-      {"role": "suffix", "positionTendency": "final", "canonical": "-ful", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 2, "form": "-ful", "meaning": "充满…的", "coreMeaning": {"cn": "充满", "en": "full of"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "joy", "to": "joyful", "by": "-ful", "meaning": "充满快乐的"}]},
+    "coreMeaning": {
+      "cn": "快乐的；充满喜悦的",
+      "en": "feeling or expressing great happiness"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "joy",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 3
+        },
+        "order": 1,
+        "form": "joy",
+        "meaning": "快乐",
+        "coreMeaning": {
+          "cn": "快乐",
+          "en": "joy"
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "final",
+        "canonical": "-ful",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 2,
+        "form": "-ful",
+        "meaning": "充满…的",
+        "coreMeaning": {
+          "cn": "充满",
+          "en": "full of"
+        }
+      }
+    ],
+    "derivationChain": [
+      "joyful"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "joy(快乐)+ful → 充满快乐的", "imageChain": ["开心大笑", "欢庆", "喜悦"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 3}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["joy", "joyous", "joyfulness", "joyfully"], "sameAffix": ["peaceful", "wonderful", "faithful"], "synonyms": ["happy", "elated", "ecstatic", "delighted", "jubilant"], "antonyms": ["joyless", "sorrowful", "miserable", "sad"], "domainCohort": ["joy", "jovial"], "derivationPair": ["joy"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "joy(快乐)+ful → 充满快乐的",
+      "imageChain": [
+        "开心大笑",
+        "欢庆",
+        "喜悦"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 3
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "joy",
+        "joyous",
+        "joyfulness",
+        "joyfully"
+      ],
+      "sameAffix": [
+        "peaceful",
+        "wonderful",
+        "faithful"
+      ],
+      "synonyms": [
+        "happy",
+        "elated",
+        "ecstatic",
+        "delighted",
+        "jubilant"
+      ],
+      "antonyms": [
+        "joyless",
+        "sorrowful",
+        "miserable",
+        "sad"
+      ],
+      "domainCohort": [
+        "joy",
+        "jovial"
+      ],
+      "derivationPair": [
+        "joy"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "joyless",
     "phonetic": "/'dʒɔɪlɪs/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "忧郁的；无乐趣的", "en": "not feeling or causing joy"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "medial", "canonical": "joy", "sentiment": {"tags": ["积极"], "intensity": 3}, "order": 1, "form": "joy", "meaning": "快乐", "coreMeaning": {"cn": "快乐", "en": "joy"}},
-      {"role": "suffix", "positionTendency": "final", "canonical": "-less", "sentiment": {"tags": ["贬义"], "intensity": -1}, "order": 2, "form": "-less", "meaning": "无…的；缺乏", "coreMeaning": {"cn": "无", "en": "without"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "joy", "to": "joyless", "by": "-less", "meaning": "没有快乐的"}]},
+    "coreMeaning": {
+      "cn": "忧郁的；无乐趣的",
+      "en": "not feeling or causing joy"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "joy",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 3
+        },
+        "order": 1,
+        "form": "joy",
+        "meaning": "快乐",
+        "coreMeaning": {
+          "cn": "快乐",
+          "en": "joy"
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "final",
+        "canonical": "-less",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -1
+        },
+        "order": 2,
+        "form": "-less",
+        "meaning": "无…的；缺乏",
+        "coreMeaning": {
+          "cn": "无",
+          "en": "without"
+        }
+      }
+    ],
+    "derivationChain": [
+      "joyless"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "joy(快乐)+less(无) → 没有快乐的 → 忧郁的", "imageChain": ["沮丧", "无趣", "阴郁"]},
-    "wordLevel": {"sentiment": {"tags": ["贬义"], "intensity": -2}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["joy", "joyful", "joylessly"], "sameAffix": ["hopeless", "helpless", "tasteless"], "synonyms": ["miserable", "sad", "gloomy", "bleak", "dreary"], "antonyms": ["joyful", "joyous", "happy", "cheerful"], "domainCohort": ["joy"], "derivationPair": ["joy"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "joy(快乐)+less(无) → 没有快乐的 → 忧郁的",
+      "imageChain": [
+        "沮丧",
+        "无趣",
+        "阴郁"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -2
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "joy",
+        "joyful",
+        "joylessly"
+      ],
+      "sameAffix": [
+        "hopeless",
+        "helpless",
+        "tasteless"
+      ],
+      "synonyms": [
+        "miserable",
+        "sad",
+        "gloomy",
+        "bleak",
+        "dreary"
+      ],
+      "antonyms": [
+        "joyful",
+        "joyous",
+        "happy",
+        "cheerful"
+      ],
+      "domainCohort": [
+        "joy"
+      ],
+      "derivationPair": [
+        "joy"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "joyous",
     "phonetic": "/'dʒɔɪəs/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "快乐的；欢欣的", "en": "full of happiness and joy"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "medial", "canonical": "joy", "sentiment": {"tags": ["积极"], "intensity": 3}, "order": 1, "form": "joy", "meaning": "快乐", "coreMeaning": {"cn": "快乐", "en": "joy"}},
-      {"role": "suffix", "positionTendency": "final", "canonical": "-ous", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 2, "form": "-ous", "meaning": "充满…的", "coreMeaning": {"cn": "充满", "en": "full of"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "joy", "to": "joyous", "by": "-ous", "meaning": "充满欢乐的"}]},
+    "coreMeaning": {
+      "cn": "快乐的；欢欣的",
+      "en": "full of happiness and joy"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "joy",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 3
+        },
+        "order": 1,
+        "form": "joy",
+        "meaning": "快乐",
+        "coreMeaning": {
+          "cn": "快乐",
+          "en": "joy"
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "final",
+        "canonical": "-ous",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 2,
+        "form": "-ous",
+        "meaning": "充满…的",
+        "coreMeaning": {
+          "cn": "充满",
+          "en": "full of"
+        }
+      }
+    ],
+    "derivationChain": [
+      "joyous"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "joy(快乐)+ous → 充满欢乐的", "imageChain": ["欢腾", "节日", "庆祝"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 3}, "domain": ["general"], "formality": "formal"},
-    "relations": {"sameRoot": ["joy", "joyful", "joyously"], "sameAffix": ["glorious", "harmonious", "victorious"], "synonyms": ["happy", "blissful", "elated", "jubilant"], "antonyms": ["sorrowful", "gloomy", "mournful"], "domainCohort": ["joyful", "joy"], "derivationPair": ["joy"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "joy(快乐)+ous → 充满欢乐的",
+      "imageChain": [
+        "欢腾",
+        "节日",
+        "庆祝"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 3
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "joy",
+        "joyful",
+        "joyously"
+      ],
+      "sameAffix": [
+        "glorious",
+        "harmonious",
+        "victorious"
+      ],
+      "synonyms": [
+        "happy",
+        "blissful",
+        "elated",
+        "jubilant"
+      ],
+      "antonyms": [
+        "sorrowful",
+        "gloomy",
+        "mournful"
+      ],
+      "domainCohort": [
+        "joyful",
+        "joy"
+      ],
+      "derivationPair": [
+        "joy"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

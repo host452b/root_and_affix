@@ -3,60 +3,387 @@
     "word": "podium",
     "phonetic": "/'podɪəm/",
     "pos": "n.",
-    "coreMeaning": {"cn": "讲台；指挥台；领奖台", "en": "a raised platform for a speaker or conductor"},
+    "coreMeaning": {
+      "cn": "讲台；指挥台；领奖台",
+      "en": "a raised platform for a speaker or conductor"
+    },
     "morphemes": [
-      {"canonical": "pod", "role": "root", "meaning": "脚；基座（希腊pous/podos）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "pod", "positionTendency": "initial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "-ium", "role": "suffix", "meaning": "名词后缀，表场所/状态", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ium", "positionTendency": "final", "coreMeaning": {"cn": "", "en": ""}}
+      {
+        "canonical": "pod",
+        "role": "root",
+        "meaning": "脚；基座（希腊pous/podos）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pod",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "-ium",
+        "role": "suffix",
+        "meaning": "名词后缀，表场所/状态",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ium",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
     ],
-    "derivationChain": {"steps": []},
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "pod（脚/基座）+ium → 演讲者站立的台子：讲台", "imageChain": ["讲台", "演讲", "领奖台"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["podiatrist", "tripod", "antipode"], "sameAffix": [], "synonyms": ["lectern", "dais", "platform"], "antonyms": [], "domainCohort": ["lectern", "platform"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "pod（脚/基座）+ium → 演讲者站立的台子：讲台",
+      "imageChain": [
+        "讲台",
+        "演讲",
+        "领奖台"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "podiatrist",
+        "tripod",
+        "antipode"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "lectern",
+        "dais",
+        "platform"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "lectern",
+        "platform"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "poetaster",
     "phonetic": "/'poɪ,tæstɚ/",
     "pos": "n.",
-    "coreMeaning": {"cn": "打油诗人；劣等诗人", "en": "a person who writes inferior poetry"},
+    "coreMeaning": {
+      "cn": "打油诗人；劣等诗人",
+      "en": "a person who writes inferior poetry"
+    },
     "morphemes": [
-      {"canonical": "poet", "role": "root", "meaning": "诗人（希腊poietes）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "poet", "positionTendency": "initial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "-aster", "role": "suffix", "meaning": "贬义后缀，表差劣的仿效者", "sentiment": {"tags": ["贬义"], "intensity": -1}, "order": 2, "form": "aster", "positionTendency": "final", "coreMeaning": {"cn": "", "en": ""}}
+      {
+        "canonical": "poet",
+        "role": "root",
+        "meaning": "诗人（希腊poietes）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "poet",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "-aster",
+        "role": "suffix",
+        "meaning": "贬义后缀，表差劣的仿效者",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -1
+        },
+        "order": 2,
+        "form": "aster",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "poet", "to": "poetaster", "by": "-aster"}]},
+    "derivationChain": [
+      "poetaster"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "poet（诗人）+aster（劣等）→ 劣等诗人：打油诗人", "imageChain": ["劣质诗歌", "蹩脚诗人", "仿效者"]},
-    "wordLevel": {"domain": ["academic", "general"], "sentiment": {"tags": ["贬义"], "intensity": -1}},
-    "relations": {"sameRoot": ["poet", "poetry", "poetic"], "sameAffix": ["criticaster", "philosophaster"], "synonyms": ["versifier", "rhymester"], "antonyms": ["poet laureate"], "domainCohort": ["versifier", "rhymster"], "derivationPair": [{"word": "poet", "relation": "base noun"}], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "poet（诗人）+aster（劣等）→ 劣等诗人：打油诗人",
+      "imageChain": [
+        "劣质诗歌",
+        "蹩脚诗人",
+        "仿效者"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "academic",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "poet",
+        "poetry",
+        "poetic"
+      ],
+      "sameAffix": [
+        "criticaster",
+        "philosophaster"
+      ],
+      "synonyms": [
+        "versifier",
+        "rhymester"
+      ],
+      "antonyms": [
+        "poet laureate"
+      ],
+      "domainCohort": [
+        "versifier",
+        "rhymster"
+      ],
+      "derivationPair": [
+        {
+          "word": "poet",
+          "relation": "base noun"
+        }
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "poetry",
     "phonetic": "/'poətri/",
     "pos": "n.",
-    "coreMeaning": {"cn": "诗；诗歌；诗意", "en": "literary work in metrical form; the art of the poet"},
+    "coreMeaning": {
+      "cn": "诗；诗歌；诗意",
+      "en": "literary work in metrical form; the art of the poet"
+    },
     "morphemes": [
-      {"canonical": "poet", "role": "root", "meaning": "诗人（希腊poietes：创造者）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "poet", "positionTendency": "initial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "-ry", "role": "suffix", "meaning": "名词后缀，表集合/艺术形式", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ry", "positionTendency": "final", "coreMeaning": {"cn": "", "en": ""}}
+      {
+        "canonical": "poet",
+        "role": "root",
+        "meaning": "诗人（希腊poietes：创造者）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "poet",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "-ry",
+        "role": "suffix",
+        "meaning": "名词后缀，表集合/艺术形式",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ry",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "poet", "to": "poetry", "by": "-ry"}]},
+    "derivationChain": [
+      "poetry"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "poet（诗人）+ry → 诗人的创作：诗歌", "imageChain": ["诗歌", "韵律", "文学"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["褒义"], "intensity": 1}},
-    "relations": {"sameRoot": ["poet", "poetic", "poem"], "sameAffix": ["artistry", "forestry"], "synonyms": ["verse", "rhyme"], "antonyms": ["prose"], "domainCohort": ["verse", "literature"], "derivationPair": [{"word": "poet", "relation": "base noun"}], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "poet（诗人）+ry → 诗人的创作：诗歌",
+      "imageChain": [
+        "诗歌",
+        "韵律",
+        "文学"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "褒义"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "poet",
+        "poetic",
+        "poem"
+      ],
+      "sameAffix": [
+        "artistry",
+        "forestry"
+      ],
+      "synonyms": [
+        "verse",
+        "rhyme"
+      ],
+      "antonyms": [
+        "prose"
+      ],
+      "domainCohort": [
+        "verse",
+        "literature"
+      ],
+      "derivationPair": [
+        {
+          "word": "poet",
+          "relation": "base noun"
+        }
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "poignancy",
     "phonetic": "/'pɔɪɡnənsi/",
     "pos": "n.",
-    "coreMeaning": {"cn": "辛辣；尖锐；令人心酸", "en": "the quality of evoking a keen sense of sadness or regret"},
+    "coreMeaning": {
+      "cn": "辛辣；尖锐；令人心酸",
+      "en": "the quality of evoking a keen sense of sadness or regret"
+    },
     "morphemes": [
-      {"canonical": "poign", "role": "root", "meaning": "刺；戳（拉丁pungere）", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "poign", "positionTendency": "initial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "-ancy", "role": "suffix", "meaning": "名词后缀，表性质/状态", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ancy", "positionTendency": "final", "coreMeaning": {"cn": "", "en": ""}}
+      {
+        "canonical": "poign",
+        "role": "root",
+        "meaning": "刺；戳（拉丁pungere）",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "poign",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "-ancy",
+        "role": "suffix",
+        "meaning": "名词后缀，表性质/状态",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ancy",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
     ],
-    "derivationChain": {"steps": []},
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "poign（刺）+ancy → 能刺入心灵的感觉：令人心酸", "imageChain": ["心酸", "情感共鸣", "令人动容"]},
-    "wordLevel": {"domain": ["academic", "general"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": ["poignant", "pungent", "puncture"], "sameAffix": [], "synonyms": ["pathos", "sadness", "bittersweet"], "antonyms": [], "domainCohort": ["pathos", "melancholy"], "derivationPair": [{"word": "poignant", "relation": "adj form"}], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "poign（刺）+ancy → 能刺入心灵的感觉：令人心酸",
+      "imageChain": [
+        "心酸",
+        "情感共鸣",
+        "令人动容"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "academic",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "poignant",
+        "pungent",
+        "puncture"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "pathos",
+        "sadness",
+        "bittersweet"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "pathos",
+        "melancholy"
+      ],
+      "derivationPair": [
+        {
+          "word": "poignant",
+          "relation": "adj form"
+        }
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

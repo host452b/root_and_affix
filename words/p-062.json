@@ -2,90 +2,609 @@
   {
     "word": "piercing",
     "phonetic": "/'pɪərsɪŋ/",
-    "pos": ["adj.", "n."],
-    "coreMeaning": {"cn": "刺骨的；尖锐的；穿刺装饰", "en": "penetratingly sharp; bitterly cold; a piece of jewelry inserted through pierced skin"},
-    "morphemes": [
-      {"canonical": "pierce", "role": "root", "meaning": "刺穿，pierce/penetrate", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "pierc", "positionTendency": "initial", "coreMeaning": {"cn": "刺穿", "en": "pierce/penetrate"}},
-      {"canonical": "-ing", "role": "suffix", "meaning": "形容词化/名词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-ing", "positionTendency": "final", "coreMeaning": {"cn": "形容词化", "en": "action/quality"}}
+    "pos": [
+      "adj.",
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "pierce", "to": "piercing", "rule": "+ing"}]},
+    "coreMeaning": {
+      "cn": "刺骨的；尖锐的；穿刺装饰",
+      "en": "penetratingly sharp; bitterly cold; a piece of jewelry inserted through pierced skin"
+    },
+    "morphemes": [
+      {
+        "canonical": "pierce",
+        "role": "root",
+        "meaning": "刺穿，pierce/penetrate",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pierc",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "刺穿",
+          "en": "pierce/penetrate"
+        }
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "meaning": "形容词化/名词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ing",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "形容词化",
+          "en": "action/quality"
+        }
+      }
+    ],
+    "derivationChain": [
+      "piercing"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "刺穿般的锐利", "imageChain": ["刺骨寒风", "锐利眼神", "穿孔装饰"], "mnemonicExpr": "piercing→pierce+ing→刺穿的→刺骨的寒冷/锐利的眼神"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": 2},
-    "relations": {"sameRoot": ["pierce", "pierced", "piercingly"], "sameAffix": [], "synonyms": ["sharp", "penetrating", "keen", "shrill", "biting"], "antonyms": ["blunt", "dull", "gentle", "mild"], "domainCohort": ["piety", "pigeon"], "derivationPair": ["pierce"], "morphVariants": [], "sameImagery": ["sharp", "penetrating"]}
+    "memorySemantics": {
+      "literal": "刺穿般的锐利",
+      "imageChain": [
+        "刺骨寒风",
+        "锐利眼神",
+        "穿孔装饰"
+      ],
+      "mnemonicExpr": "piercing→pierce+ing→刺穿的→刺骨的寒冷/锐利的眼神"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": 2
+    },
+    "relations": {
+      "sameRoot": [
+        "pierce",
+        "pierced",
+        "piercingly"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "sharp",
+        "penetrating",
+        "keen",
+        "shrill",
+        "biting"
+      ],
+      "antonyms": [
+        "blunt",
+        "dull",
+        "gentle",
+        "mild"
+      ],
+      "domainCohort": [
+        "piety",
+        "pigeon"
+      ],
+      "derivationPair": [
+        "pierce"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "sharp",
+        "penetrating"
+      ]
+    }
   },
   {
     "word": "piety",
     "phonetic": "/'paɪəti/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "虔诚；虔敬；孝顺", "en": "deep reverence for God; devoutness; filial devotion"},
-    "morphemes": [
-      {"canonical": "pi", "role": "root", "meaning": "虔诚（拉丁pius=devout）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "piet", "positionTendency": "initial", "coreMeaning": {"cn": "虔诚", "en": "devout/pious"}},
-      {"canonical": "-y", "role": "suffix", "meaning": "名词化，state of", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-ty", "positionTendency": "final", "coreMeaning": {"cn": "名词化", "en": "state of"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "虔诚；虔敬；孝顺",
+      "en": "deep reverence for God; devoutness; filial devotion"
+    },
+    "morphemes": [
+      {
+        "canonical": "pi",
+        "role": "root",
+        "meaning": "虔诚（拉丁pius=devout）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "piet",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "虔诚",
+          "en": "devout/pious"
+        }
+      },
+      {
+        "canonical": "-y",
+        "role": "suffix",
+        "meaning": "名词化，state of",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ty",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "名词化",
+          "en": "state of"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "对神虔诚敬畏的状态", "imageChain": ["祈祷", "虔诚信徒", "宗教敬畏"], "mnemonicExpr": "piety→拉丁pius(虔诚)→虔诚/虔敬"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic"], "formality": 4},
-    "relations": {"sameRoot": ["pious", "pietism", "pietist", "impiety"], "sameAffix": ["dignity", "fidelity"], "synonyms": ["devoutness", "reverence", "godliness", "religiosity"], "antonyms": ["impiety", "irreverence", "godlessness"], "domainCohort": ["piercing", "pigeon"], "derivationPair": ["pious", "pietism"], "morphVariants": [], "sameImagery": ["devoutness", "reverence"]}
+    "memorySemantics": {
+      "literal": "对神虔诚敬畏的状态",
+      "imageChain": [
+        "祈祷",
+        "虔诚信徒",
+        "宗教敬畏"
+      ],
+      "mnemonicExpr": "piety→拉丁pius(虔诚)→虔诚/虔敬"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": 4
+    },
+    "relations": {
+      "sameRoot": [
+        "pious",
+        "pietism",
+        "pietist",
+        "impiety"
+      ],
+      "sameAffix": [
+        "dignity",
+        "fidelity"
+      ],
+      "synonyms": [
+        "devoutness",
+        "reverence",
+        "godliness",
+        "religiosity"
+      ],
+      "antonyms": [
+        "impiety",
+        "irreverence",
+        "godlessness"
+      ],
+      "domainCohort": [
+        "piercing",
+        "pigeon"
+      ],
+      "derivationPair": [
+        "pious",
+        "pietism"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "devoutness",
+        "reverence"
+      ]
+    }
   },
   {
     "word": "pigeon",
     "phonetic": "/'pɪdʒɪn/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "鸽子；受骗者", "en": "a bird of the dove family; a person easily swindled"},
-    "morphemes": [
-      {"canonical": "pigeon", "role": "root", "meaning": "鸽子（法语pigeon，拉丁pipio=young bird）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "pigeon", "positionTendency": "medial", "coreMeaning": {"cn": "鸽子", "en": "pigeon"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "鸽子；受骗者",
+      "en": "a bird of the dove family; a person easily swindled"
+    },
+    "morphemes": [
+      {
+        "canonical": "pigeon",
+        "role": "root",
+        "meaning": "鸽子（法语pigeon，拉丁pipio=young bird）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pigeon",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "鸽子",
+          "en": "pigeon"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "城市常见的鸟→比喻受骗者", "imageChain": ["鸽子", "信鸽", "受骗者"], "mnemonicExpr": "pigeon→法语pigeon→鸽子→stool pigeon=线人/pigeonhole=将事物归类"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": 1},
-    "relations": {"sameRoot": ["pigeons", "pigeonhole"], "sameAffix": [], "synonyms": ["dove", "dupe", "sucker"], "antonyms": [], "domainCohort": ["piety", "pigeonhole"], "derivationPair": ["pigeonhole"], "morphVariants": [], "sameImagery": ["dove", "dupe"]}
+    "memorySemantics": {
+      "literal": "城市常见的鸟→比喻受骗者",
+      "imageChain": [
+        "鸽子",
+        "信鸽",
+        "受骗者"
+      ],
+      "mnemonicExpr": "pigeon→法语pigeon→鸽子→stool pigeon=线人/pigeonhole=将事物归类"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": 1
+    },
+    "relations": {
+      "sameRoot": [
+        "pigeons",
+        "pigeonhole"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "dove",
+        "dupe",
+        "sucker"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "piety",
+        "pigeonhole"
+      ],
+      "derivationPair": [
+        "pigeonhole"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "dove",
+        "dupe"
+      ]
+    }
   },
   {
     "word": "pigeonhole",
     "phonetic": "",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "鸽笼；分格架；将…归类；搁置", "en": "a small compartment; to categorize narrowly; to defer indefinitely"},
-    "morphemes": [
-      {"canonical": "pigeon", "role": "root", "meaning": "鸽子，pigeon", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "pigeon", "positionTendency": "initial", "coreMeaning": {"cn": "鸽子", "en": "pigeon"}},
-      {"canonical": "hole", "role": "root", "meaning": "洞/格子，hole/space", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "hole", "positionTendency": "final", "coreMeaning": {"cn": "格子", "en": "hole/compartment"}}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "鸽笼；分格架；将…归类；搁置",
+      "en": "a small compartment; to categorize narrowly; to defer indefinitely"
+    },
+    "morphemes": [
+      {
+        "canonical": "pigeon",
+        "role": "root",
+        "meaning": "鸽子，pigeon",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "pigeon",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "鸽子",
+          "en": "pigeon"
+        }
+      },
+      {
+        "canonical": "hole",
+        "role": "root",
+        "meaning": "洞/格子，hole/space",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "hole",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "格子",
+          "en": "hole/compartment"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "鸽子的洞→分格子归类", "imageChain": ["文件格", "分类", "搁置不管"], "mnemonicExpr": "pigeonhole→pigeon(鸽子)+hole(洞)→鸽笼小格→将事物归入某类/搁置"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": 2},
-    "relations": {"sameRoot": ["pigeon", "pigeonholes", "pigeonholed"], "sameAffix": [], "synonyms": ["categorize", "classify", "shelve", "cubbyhole"], "antonyms": [], "domainCohort": ["pigeon", "piety"], "derivationPair": ["pigeon"], "morphVariants": ["pigeon-hole"], "sameImagery": ["categorize", "compartment"]}
+    "memorySemantics": {
+      "literal": "鸽子的洞→分格子归类",
+      "imageChain": [
+        "文件格",
+        "分类",
+        "搁置不管"
+      ],
+      "mnemonicExpr": "pigeonhole→pigeon(鸽子)+hole(洞)→鸽笼小格→将事物归入某类/搁置"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": 2
+    },
+    "relations": {
+      "sameRoot": [
+        "pigeon",
+        "pigeonholes",
+        "pigeonholed"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "categorize",
+        "classify",
+        "shelve",
+        "cubbyhole"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "pigeon",
+        "piety"
+      ],
+      "derivationPair": [
+        "pigeon"
+      ],
+      "morphVariants": [
+        "pigeon-hole"
+      ],
+      "sameImagery": [
+        "categorize",
+        "compartment"
+      ]
+    }
   },
   {
     "word": "piggish",
     "phonetic": "",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "贪婪的；肮脏的；自私的", "en": "resembling a pig in behavior; greedy or dirty"},
-    "morphemes": [
-      {"canonical": "pig", "role": "root", "meaning": "猪，pig", "sentiment": {"tags": ["贬义"], "intensity": 1}, "order": 1, "form": "pigg", "positionTendency": "initial", "coreMeaning": {"cn": "猪", "en": "pig"}},
-      {"canonical": "-ish", "role": "suffix", "meaning": "形容词化，like", "sentiment": {"tags": ["贬义"], "intensity": 1}, "order": 2, "form": "-ish", "positionTendency": "final", "coreMeaning": {"cn": "像…的", "en": "like/resembling"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "pig", "to": "piggish", "rule": "+ish"}]},
+    "coreMeaning": {
+      "cn": "贪婪的；肮脏的；自私的",
+      "en": "resembling a pig in behavior; greedy or dirty"
+    },
+    "morphemes": [
+      {
+        "canonical": "pig",
+        "role": "root",
+        "meaning": "猪，pig",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "pigg",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "猪",
+          "en": "pig"
+        }
+      },
+      {
+        "canonical": "-ish",
+        "role": "suffix",
+        "meaning": "形容词化，like",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 1
+        },
+        "order": 2,
+        "form": "-ish",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "像…的",
+          "en": "like/resembling"
+        }
+      }
+    ],
+    "derivationChain": [
+      "piggish"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "像猪一样贪婪肮脏", "imageChain": ["贪吃", "肮脏", "自私"], "mnemonicExpr": "piggish→pig+gish→像猪一样的→贪婪的/肮脏的"},
-    "wordLevel": {"sentiment": {"tags": ["贬义"], "intensity": 2}, "domain": ["general"], "formality": 2},
-    "relations": {"sameRoot": ["pig", "piggishly", "piggishness", "piggy"], "sameAffix": ["selfish", "oafish"], "synonyms": ["greedy", "gluttonous", "dirty", "swinish"], "antonyms": ["generous", "clean", "considerate"], "domainCohort": ["pigeon", "piggyback"], "derivationPair": ["piggishly", "piggishness"], "morphVariants": [], "sameImagery": ["greedy", "gluttonous"]}
+    "memorySemantics": {
+      "literal": "像猪一样贪婪肮脏",
+      "imageChain": [
+        "贪吃",
+        "肮脏",
+        "自私"
+      ],
+      "mnemonicExpr": "piggish→pig+gish→像猪一样的→贪婪的/肮脏的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": 2
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": 2
+    },
+    "relations": {
+      "sameRoot": [
+        "pig",
+        "piggishly",
+        "piggishness",
+        "piggy"
+      ],
+      "sameAffix": [
+        "selfish",
+        "oafish"
+      ],
+      "synonyms": [
+        "greedy",
+        "gluttonous",
+        "dirty",
+        "swinish"
+      ],
+      "antonyms": [
+        "generous",
+        "clean",
+        "considerate"
+      ],
+      "domainCohort": [
+        "pigeon",
+        "piggyback"
+      ],
+      "derivationPair": [
+        "piggishly",
+        "piggishness"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "greedy",
+        "gluttonous"
+      ]
+    }
   },
   {
     "word": "piggyback",
     "phonetic": "",
-    "pos": ["n.", "adv.", "v."],
-    "coreMeaning": {"cn": "背负；附带搭载；依附", "en": "carried on one's back; attached to something else for support"},
-    "morphemes": [
-      {"canonical": "pig", "role": "root", "meaning": "猪（变形词，原pick-a-pack）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "piggy", "positionTendency": "initial", "coreMeaning": {"cn": "背负", "en": "carry on back"}},
-      {"canonical": "back", "role": "root", "meaning": "背部，back", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "back", "positionTendency": "final", "coreMeaning": {"cn": "背部", "en": "back"}}
+    "pos": [
+      "n.",
+      "adv.",
+      "v."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "背负；附带搭载；依附",
+      "en": "carried on one's back; attached to something else for support"
+    },
+    "morphemes": [
+      {
+        "canonical": "pig",
+        "role": "root",
+        "meaning": "猪（变形词，原pick-a-pack）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "piggy",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "背负",
+          "en": "carry on back"
+        }
+      },
+      {
+        "canonical": "back",
+        "role": "root",
+        "meaning": "背部，back",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "back",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "背部",
+          "en": "back"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "骑在背上→依附搭乘", "imageChain": ["背着人", "搭便车", "依附"], "mnemonicExpr": "piggyback→piggy+back→猪背→背着骑/依附搭载"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "business"], "formality": 2},
-    "relations": {"sameRoot": ["piggybacks", "pig", "back"], "sameAffix": [], "synonyms": ["carry on back", "hitch a ride", "attach", "ride on"], "antonyms": [], "domainCohort": ["piggish", "pigeon"], "derivationPair": [], "morphVariants": [], "sameImagery": ["hitch", "attach"]}
+    "memorySemantics": {
+      "literal": "骑在背上→依附搭乘",
+      "imageChain": [
+        "背着人",
+        "搭便车",
+        "依附"
+      ],
+      "mnemonicExpr": "piggyback→piggy+back→猪背→背着骑/依附搭载"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "business"
+      ],
+      "formality": 2
+    },
+    "relations": {
+      "sameRoot": [
+        "piggybacks",
+        "pig",
+        "back"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "carry on back",
+        "hitch a ride",
+        "attach",
+        "ride on"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "piggish",
+        "pigeon"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "hitch",
+        "attach"
+      ]
+    }
   }
 ]

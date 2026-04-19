@@ -2,186 +2,588 @@
   {
     "word": "structural",
     "phonetic": "/'strʌktʃərəl/",
-    "pos": ["adj."],
-    "coreMeaning": { "cn": "结构的；构造的", "en": "relating to structure or arrangement" },
-    "morphemes": [
-      { "canonical": "struct", "role": "root", "meaning": "建造；堆积（拉丁struere）", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "struct", "positionTendency": "initial" },
-      { "canonical": "-ure", "role": "suffix", "meaning": "行为结果；状态", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ur", "positionTendency": "medial" },
-      { "canonical": "-al", "role": "suffix", "meaning": "形容词后缀", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "al", "positionTendency": "final" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": { "steps": ["拉丁 struere（建造）→ structura → structure → structural"] },
+    "coreMeaning": {
+      "cn": "结构的；构造的",
+      "en": "relating to structure or arrangement"
+    },
+    "morphemes": [
+      {
+        "canonical": "struct",
+        "role": "root",
+        "meaning": "建造；堆积（拉丁struere）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "struct",
+        "positionTendency": "initial"
+      },
+      {
+        "canonical": "-ure",
+        "role": "suffix",
+        "meaning": "行为结果；状态",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ur",
+        "positionTendency": "medial"
+      },
+      {
+        "canonical": "-al",
+        "role": "suffix",
+        "meaning": "形容词后缀",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "al",
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "拉丁 struere（建造）→ structura → structure → structural"
+    ],
     "memorySemantics": {
       "imageKey": "建筑框架",
       "scene": "工程师分析建筑的structural integrity（结构完整性）",
-      "emotionalHook": "IELTS/NPEE高频词，学术写作必备"
+      "emotionalHook": "IELTS/NPEE高频词，学术写作必备",
+      "imageChain": []
     },
-    "wordLevel": { "domain": ["ielts", "academic"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "wordLevel": {
+      "domain": [
+        "ielts",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
     "relations": {
-      "sameRoot": ["structure", "construct", "infrastructure", "destructive"],
-      "sameAffix": ["cultural", "natural", "electoral"],
-      "synonyms": ["architectural", "organizational", "constructional"],
+      "sameRoot": [
+        "structure",
+        "construct",
+        "infrastructure",
+        "destructive"
+      ],
+      "sameAffix": [
+        "cultural",
+        "natural",
+        "electoral"
+      ],
+      "synonyms": [
+        "architectural",
+        "organizational",
+        "constructional"
+      ],
       "antonyms": [],
-      "domainCohort": ["architectural", "organizational", "systemic"],
-      "derivationPair": ["structure", "structurally"],
+      "domainCohort": [
+        "architectural",
+        "organizational",
+        "systemic"
+      ],
+      "derivationPair": [
+        "structure",
+        "structurally"
+      ],
       "morphVariants": [],
-      "sameImagery": ["architectural", "framework"]
+      "sameImagery": [
+        "architectural",
+        "framework"
+      ]
     }
   },
   {
     "word": "structure",
     "phonetic": "/'strʌktʃɚ/",
-    "pos": ["n.", "v."],
-    "coreMeaning": { "cn": "结构；构造；建筑物", "en": "the arrangement of parts; a building or constructed thing" },
-    "morphemes": [
-      { "canonical": "struct", "role": "root", "meaning": "建造；堆积", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "struct", "positionTendency": "initial" },
-      { "canonical": "-ure", "role": "suffix", "meaning": "行为结果；状态", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ure", "positionTendency": "final" }
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": { "steps": ["拉丁 struere（建造）→ structura → structure → restructure"] },
+    "coreMeaning": {
+      "cn": "结构；构造；建筑物",
+      "en": "the arrangement of parts; a building or constructed thing"
+    },
+    "morphemes": [
+      {
+        "canonical": "struct",
+        "role": "root",
+        "meaning": "建造；堆积",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "struct",
+        "positionTendency": "initial"
+      },
+      {
+        "canonical": "-ure",
+        "role": "suffix",
+        "meaning": "行为结果；状态",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ure",
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "拉丁 struere（建造）→ structura → structure → restructure"
+    ],
     "memorySemantics": {
       "imageKey": "建筑结构图",
       "scene": "建筑师展示大楼的structure——每根梁柱都经过精密计算",
-      "emotionalHook": "CET4核心词，GRE高频，引申义丰富（组织结构、句子结构）"
+      "emotionalHook": "CET4核心词，GRE高频，引申义丰富（组织结构、句子结构）",
+      "imageChain": []
     },
-    "wordLevel": { "domain": ["gre", "ielts", "academic", "cet4"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "wordLevel": {
+      "domain": [
+        "gre",
+        "ielts",
+        "academic",
+        "cet4"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
     "relations": {
-      "sameRoot": ["structural", "construct", "infrastructure", "restructure", "obstruct"],
-      "sameAffix": ["culture", "lecture", "feature"],
-      "synonyms": ["construction", "framework", "arrangement", "organization"],
-      "antonyms": ["chaos", "disorder"],
-      "domainCohort": ["framework", "organization", "system"],
-      "derivationPair": ["structural", "restructure"],
+      "sameRoot": [
+        "structural",
+        "construct",
+        "infrastructure",
+        "restructure",
+        "obstruct"
+      ],
+      "sameAffix": [
+        "culture",
+        "lecture",
+        "feature"
+      ],
+      "synonyms": [
+        "construction",
+        "framework",
+        "arrangement",
+        "organization"
+      ],
+      "antonyms": [
+        "chaos",
+        "disorder"
+      ],
+      "domainCohort": [
+        "framework",
+        "organization",
+        "system"
+      ],
+      "derivationPair": [
+        "structural",
+        "restructure"
+      ],
       "morphVariants": [],
-      "sameImagery": ["framework", "architecture"]
+      "sameImagery": [
+        "framework",
+        "architecture"
+      ]
     }
   },
   {
     "word": "struggle",
     "phonetic": "/'strʌɡl/",
-    "pos": ["v.", "n."],
-    "coreMeaning": { "cn": "奋斗；挣扎；努力", "en": "to make strenuous efforts against opposition; a hard fight" },
-    "morphemes": [
-      { "canonical": "struggle", "role": "root", "meaning": "奋力；挣扎（中古英语strogelen）", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "struggle", "positionTendency": "medial" }
+    "pos": [
+      "v.",
+      "n."
     ],
-    "derivationChain": { "steps": ["struggle（奋斗）→ struggled → struggling"] },
+    "coreMeaning": {
+      "cn": "奋斗；挣扎；努力",
+      "en": "to make strenuous efforts against opposition; a hard fight"
+    },
+    "morphemes": [
+      {
+        "canonical": "struggle",
+        "role": "root",
+        "meaning": "奋力；挣扎（中古英语strogelen）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "struggle",
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "struggle（奋斗）→ struggled → struggling"
+    ],
     "memorySemantics": {
       "imageKey": "逆流而上",
       "scene": "在困难中struggle的人，最终成就了自己",
-      "emotionalHook": "CEFR-B2词汇，人类奋进精神的核心词"
+      "emotionalHook": "CEFR-B2词汇，人类奋进精神的核心词",
+      "imageChain": []
     },
-    "wordLevel": { "domain": ["general", "academic"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
     "relations": {
       "sameRoot": [],
       "sameAffix": [],
-      "synonyms": ["strive", "grapple", "contend", "endeavor"],
-      "antonyms": ["yield", "surrender", "give up"],
-      "domainCohort": ["strive", "endeavor", "persevere"],
+      "synonyms": [
+        "strive",
+        "grapple",
+        "contend",
+        "endeavor"
+      ],
+      "antonyms": [
+        "yield",
+        "surrender",
+        "give up"
+      ],
+      "domainCohort": [
+        "strive",
+        "endeavor",
+        "persevere"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["strive", "grapple"]
+      "sameImagery": [
+        "strive",
+        "grapple"
+      ]
     }
   },
   {
     "word": "stubborn",
     "phonetic": "/'stʌbɚn/",
-    "pos": ["adj."],
-    "coreMeaning": { "cn": "顽固的；顽强的；难处理的", "en": "refusing to change; tenaciously persistent" },
-    "morphemes": [
-      { "canonical": "stubborn", "role": "root", "meaning": "顽固（词源不明，可能源自stub树桩）", "sentiment": { "tags": ["消极"], "intensity": -1 }, "order": 1, "form": "stubborn", "positionTendency": "medial" }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": { "steps": ["stubborn → stubbornly → stubbornness"] },
+    "coreMeaning": {
+      "cn": "顽固的；顽强的；难处理的",
+      "en": "refusing to change; tenaciously persistent"
+    },
+    "morphemes": [
+      {
+        "canonical": "stubborn",
+        "role": "root",
+        "meaning": "顽固（词源不明，可能源自stub树桩）",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "stubborn",
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "stubborn → stubbornly → stubbornness"
+    ],
     "memorySemantics": {
       "imageKey": "犟驴不动",
       "scene": "stubborn的骡子拒绝移动，象征冥顽不化的固执",
-      "emotionalHook": "GRE/SAT高频词，根据语境可贬可褒（顽固/坚韧）"
+      "emotionalHook": "GRE/SAT高频词，根据语境可贬可褒（顽固/坚韧）",
+      "imageChain": []
     },
-    "wordLevel": { "domain": ["gre", "sat", "toefl", "ielts"], "sentiment": { "tags": ["消极"], "intensity": -1 } },
+    "wordLevel": {
+      "domain": [
+        "gre",
+        "sat",
+        "toefl",
+        "ielts"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
     "relations": {
-      "sameRoot": ["stubbornness", "stubbornly"],
+      "sameRoot": [
+        "stubbornness",
+        "stubbornly"
+      ],
       "sameAffix": [],
-      "synonyms": ["obstinate", "headstrong", "tenacious", "intractable", "dogged"],
-      "antonyms": ["flexible", "amenable", "compliant", "yielding"],
-      "domainCohort": ["obstinate", "intractable", "recalcitrant"],
-      "derivationPair": ["stubbornness"],
+      "synonyms": [
+        "obstinate",
+        "headstrong",
+        "tenacious",
+        "intractable",
+        "dogged"
+      ],
+      "antonyms": [
+        "flexible",
+        "amenable",
+        "compliant",
+        "yielding"
+      ],
+      "domainCohort": [
+        "obstinate",
+        "intractable",
+        "recalcitrant"
+      ],
+      "derivationPair": [
+        "stubbornness"
+      ],
       "morphVariants": [],
-      "sameImagery": ["obstinate", "headstrong"]
+      "sameImagery": [
+        "obstinate",
+        "headstrong"
+      ]
     }
   },
   {
     "word": "strut",
     "phonetic": "/strʌt/",
-    "pos": ["v.", "n."],
-    "coreMeaning": { "cn": "高视阔步；趾高气昂地走", "en": "to walk with an air of excessive pride; a supporting bar" },
-    "morphemes": [
-      { "canonical": "strut", "role": "root", "meaning": "昂首阔步（中古英语strouten）", "sentiment": { "tags": ["消极"], "intensity": -1 }, "order": 1, "form": "strut", "positionTendency": "medial" }
+    "pos": [
+      "v.",
+      "n."
     ],
-    "derivationChain": { "steps": ["strut（趾高气昂地走）→ strutting（炫耀步伐）"] },
+    "coreMeaning": {
+      "cn": "高视阔步；趾高气昂地走",
+      "en": "to walk with an air of excessive pride; a supporting bar"
+    },
+    "morphemes": [
+      {
+        "canonical": "strut",
+        "role": "root",
+        "meaning": "昂首阔步（中古英语strouten）",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "strut",
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "strut（趾高气昂地走）→ strutting（炫耀步伐）"
+    ],
     "memorySemantics": {
       "imageKey": "孔雀开屏",
       "scene": "模特在T台上strut，展示时装的魅力",
-      "emotionalHook": "GRE词汇，含轻微傲慢含义，常用strut one's stuff"
+      "emotionalHook": "GRE词汇，含轻微傲慢含义，常用strut one's stuff",
+      "imageChain": []
     },
-    "wordLevel": { "domain": ["gre", "gmat"], "sentiment": { "tags": ["消极"], "intensity": -1 } },
+    "wordLevel": {
+      "domain": [
+        "gre",
+        "gmat"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
     "relations": {
       "sameRoot": [],
       "sameAffix": [],
-      "synonyms": ["swagger", "prance", "parade", "saunter"],
-      "antonyms": ["shuffle", "slouch", "slink"],
-      "domainCohort": ["swagger", "prance", "parade"],
+      "synonyms": [
+        "swagger",
+        "prance",
+        "parade",
+        "saunter"
+      ],
+      "antonyms": [
+        "shuffle",
+        "slouch",
+        "slink"
+      ],
+      "domainCohort": [
+        "swagger",
+        "prance",
+        "parade"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["swagger", "parade"]
+      "sameImagery": [
+        "swagger",
+        "parade"
+      ]
     }
   },
   {
     "word": "strychnine",
     "phonetic": "/'strɪkniːn/",
-    "pos": ["n."],
-    "coreMeaning": { "cn": "士的宁；马钱子碱（剧毒生物碱）", "en": "a highly toxic alkaloid used as a poison" },
-    "morphemes": [
-      { "canonical": "strychnine", "role": "root", "meaning": "士的宁（源自希腊strychnos，毒茄属植物）", "sentiment": { "tags": ["消极"], "intensity": -2 }, "order": 1, "form": "strychnine", "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": { "steps": ["希腊 strychnos（茄属）→ strychnine（马钱子碱）"] },
+    "coreMeaning": {
+      "cn": "士的宁；马钱子碱（剧毒生物碱）",
+      "en": "a highly toxic alkaloid used as a poison"
+    },
+    "morphemes": [
+      {
+        "canonical": "strychnine",
+        "role": "root",
+        "meaning": "士的宁（源自希腊strychnos，毒茄属植物）",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -2
+        },
+        "order": 1,
+        "form": "strychnine",
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "希腊 strychnos（茄属）→ strychnine（马钱子碱）"
+    ],
     "memorySemantics": {
       "imageKey": "毒药瓶",
       "scene": "侦探小说中的strychnine毒杀案——无色无味，致命量极小",
-      "emotionalHook": "医学/文学词汇，毒理学标志性词汇"
+      "emotionalHook": "医学/文学词汇，毒理学标志性词汇",
+      "imageChain": []
     },
-    "wordLevel": { "domain": ["medical", "academic"], "sentiment": { "tags": ["消极"], "intensity": -2 } },
+    "wordLevel": {
+      "domain": [
+        "medical",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -2
+      }
+    },
     "relations": {
       "sameRoot": [],
       "sameAffix": [],
-      "synonyms": ["alkaloid", "poison"],
+      "synonyms": [
+        "alkaloid",
+        "poison"
+      ],
       "antonyms": [],
-      "domainCohort": ["arsenic", "cyanide", "belladonna"],
+      "domainCohort": [
+        "arsenic",
+        "cyanide",
+        "belladonna"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["poison", "toxin"]
+      "sameImagery": [
+        "poison",
+        "toxin"
+      ]
     }
   },
   {
     "word": "struct",
     "phonetic": "/strʌkt/",
-    "pos": ["n."],
-    "coreMeaning": { "cn": "结构体（编程中的数据结构）", "en": "a composite data type in programming" },
-    "morphemes": [
-      { "canonical": "struct", "role": "root", "meaning": "建造；结构（拉丁struere）", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "struct", "positionTendency": "medial" }
+    "pos": [
+      "n."
     ],
-    "derivationChain": { "steps": ["拉丁 struere（建造）→ structure → struct（编程简称）"] },
+    "coreMeaning": {
+      "cn": "结构体（编程中的数据结构）",
+      "en": "a composite data type in programming"
+    },
+    "morphemes": [
+      {
+        "canonical": "struct",
+        "role": "root",
+        "meaning": "建造；结构（拉丁struere）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "struct",
+        "positionTendency": "medial"
+      }
+    ],
+    "derivationChain": [
+      "拉丁 struere（建造）→ structure → struct（编程简称）"
+    ],
     "memorySemantics": {
       "imageKey": "C语言结构体",
       "scene": "程序员用struct定义复合数据类型，组织多个字段",
-      "emotionalHook": "技术词汇，与structure同根，编程基础概念"
+      "emotionalHook": "技术词汇，与structure同根，编程基础概念",
+      "imageChain": []
     },
-    "wordLevel": { "domain": ["tech"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "wordLevel": {
+      "domain": [
+        "tech"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
     "relations": {
-      "sameRoot": ["structure", "structural", "construct"],
+      "sameRoot": [
+        "structure",
+        "structural",
+        "construct"
+      ],
       "sameAffix": [],
-      "synonyms": ["structure", "record", "composite type"],
+      "synonyms": [
+        "structure",
+        "record",
+        "composite type"
+      ],
       "antonyms": [],
-      "domainCohort": ["class", "object", "data type"],
-      "derivationPair": ["structure"],
+      "domainCohort": [
+        "class",
+        "object",
+        "data type"
+      ],
+      "derivationPair": [
+        "structure"
+      ],
       "morphVariants": [],
-      "sameImagery": ["framework", "template"]
+      "sameImagery": [
+        "framework",
+        "template"
+      ]
     }
   }
 ]

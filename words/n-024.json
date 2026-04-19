@@ -3,59 +3,338 @@
     "word": "nitpick",
     "phonetic": "/'nɪtpɪk/",
     "pos": "v.",
-    "coreMeaning": { "cn": "挑剔；吹毛求疵", "en": "nitpick" },
+    "coreMeaning": {
+      "cn": "挑剔；吹毛求疵",
+      "en": "nitpick"
+    },
     "morphemes": [
-      { "canonical": "nit", "role": "root", "meaning": "虱卵；微小的东西", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "nit", "positionTendency": "initial" },
-      { "canonical": "pick", "role": "root", "meaning": "挑选；摘取", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "pick", "positionTendency": "final" }
+      {
+        "canonical": "nit",
+        "role": "root",
+        "meaning": "虱卵；微小的东西",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "nit",
+        "positionTendency": "initial"
+      },
+      {
+        "canonical": "pick",
+        "role": "root",
+        "meaning": "挑选；摘取",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "pick",
+        "positionTendency": "final"
+      }
     ],
-    "derivationChain": { "steps": [{ "from": "nit(虱卵) + pick(挑)", "to": "nitpick", "by": "compounding", "meaning": "像摘虱卵般精细地挑剔小错误" }] },
+    "derivationChain": [
+      "nitpick"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": { "mnemonicExpr": "nit(虱卵) + pick(挑) → 像摘虱卵一样吹毛求疵地挑剔", "imageChain": ["挑剔", "吹毛求疵", "小错误"] },
-    "wordLevel": { "domain": ["general"], "sentiment": { "tags": ["消极"], "intensity": 1 } },
-    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": ["cavil", "quibble", "carp", "find fault"], "antonyms": ["overlook", "ignore", "accept"], "domainCohort": ["cavil", "quibble", "carp"], "derivationPair": [{"word": "nitpicker", "relation": "agent noun"}], "morphVariants": ["nitpicks", "nitpicked", "nitpicking", "nitpicker"], "sameImagery": [] }
+    "memorySemantics": {
+      "mnemonicExpr": "nit(虱卵) + pick(挑) → 像摘虱卵一样吹毛求疵地挑剔",
+      "imageChain": [
+        "挑剔",
+        "吹毛求疵",
+        "小错误"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "cavil",
+        "quibble",
+        "carp",
+        "find fault"
+      ],
+      "antonyms": [
+        "overlook",
+        "ignore",
+        "accept"
+      ],
+      "domainCohort": [
+        "cavil",
+        "quibble",
+        "carp"
+      ],
+      "derivationPair": [
+        {
+          "word": "nitpicker",
+          "relation": "agent noun"
+        }
+      ],
+      "morphVariants": [
+        "nitpicks",
+        "nitpicked",
+        "nitpicking",
+        "nitpicker"
+      ],
+      "sameImagery": []
+    }
   },
   {
     "word": "nitrogen",
     "phonetic": "/'naɪtrədʒən/",
     "pos": "n.",
-    "coreMeaning": { "cn": "氮；氮气", "en": "nitrogen" },
+    "coreMeaning": {
+      "cn": "氮；氮气",
+      "en": "nitrogen"
+    },
     "morphemes": [
-      { "canonical": "nitr-", "role": "root", "meaning": "硝石；氮（希腊 nitron 天然碱）", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "nitro", "positionTendency": "initial" },
-      { "canonical": "-gen", "role": "suffix", "meaning": "产生；生成（希腊 -genēs）", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "gen", "positionTendency": "final" }
+      {
+        "canonical": "nitr-",
+        "role": "root",
+        "meaning": "硝石；氮（希腊 nitron 天然碱）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "nitro",
+        "positionTendency": "initial"
+      },
+      {
+        "canonical": "-gen",
+        "role": "suffix",
+        "meaning": "产生；生成（希腊 -genēs）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "gen",
+        "positionTendency": "final"
+      }
     ],
-    "derivationChain": { "steps": [{ "from": "nitro(硝石) + -gen(产生)", "to": "nitrogen", "by": "compounding", "meaning": "产生硝石的元素" }] },
+    "derivationChain": [
+      "nitrogen"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": { "mnemonicExpr": "nitro(硝石) + gen(产生) → 产生硝石的元素即氮", "imageChain": ["氮气", "元素", "大气"] },
-    "wordLevel": { "domain": ["academic", "medical"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
-    "relations": { "sameRoot": ["nitric", "nitrate", "nitroglycerin"], "sameAffix": ["-gen"], "synonyms": [], "antonyms": [], "domainCohort": ["oxygen", "hydrogen", "carbon"], "derivationPair": [], "morphVariants": ["nitrogenous"], "sameImagery": [] }
+    "memorySemantics": {
+      "mnemonicExpr": "nitro(硝石) + gen(产生) → 产生硝石的元素即氮",
+      "imageChain": [
+        "氮气",
+        "元素",
+        "大气"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "academic",
+        "medical"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "nitric",
+        "nitrate",
+        "nitroglycerin"
+      ],
+      "sameAffix": [
+        "-gen"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "oxygen",
+        "hydrogen",
+        "carbon"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "nitrogenous"
+      ],
+      "sameImagery": []
+    }
   },
   {
     "word": "nitwit",
     "phonetic": "/'nɪtwɪt/",
     "pos": "n.",
-    "coreMeaning": { "cn": "笨蛋；傻瓜", "en": "nitwit" },
+    "coreMeaning": {
+      "cn": "笨蛋；傻瓜",
+      "en": "nitwit"
+    },
     "morphemes": [
-      { "canonical": "nit", "role": "root", "meaning": "虱卵；愚蠢的人", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "nit", "positionTendency": "initial" },
-      { "canonical": "wit", "role": "root", "meaning": "智慧；机智（古英语 wit）", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 2, "form": "wit", "positionTendency": "final" }
+      {
+        "canonical": "nit",
+        "role": "root",
+        "meaning": "虱卵；愚蠢的人",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "nit",
+        "positionTendency": "initial"
+      },
+      {
+        "canonical": "wit",
+        "role": "root",
+        "meaning": "智慧；机智（古英语 wit）",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 2,
+        "form": "wit",
+        "positionTendency": "final"
+      }
     ],
-    "derivationChain": { "steps": [{ "from": "nit(虱卵/傻) + wit(智慧)", "to": "nitwit", "by": "compounding", "meaning": "没有智慧的笨蛋" }] },
+    "derivationChain": [
+      "nitwit"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": { "mnemonicExpr": "nit(虱卵般微小的脑) + wit(智慧) → 缺乏智慧的笨蛋", "imageChain": ["笨蛋", "傻瓜", "愚蠢"] },
-    "wordLevel": { "domain": ["general"], "sentiment": { "tags": ["贬义"], "intensity": 1 } },
-    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": ["fool", "idiot", "dimwit", "dolt"], "antonyms": ["genius", "intellectual", "sage"], "domainCohort": ["fool", "idiot", "dimwit"], "derivationPair": [], "morphVariants": ["nitwits"], "sameImagery": [] }
+    "memorySemantics": {
+      "mnemonicExpr": "nit(虱卵般微小的脑) + wit(智慧) → 缺乏智慧的笨蛋",
+      "imageChain": [
+        "笨蛋",
+        "傻瓜",
+        "愚蠢"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "fool",
+        "idiot",
+        "dimwit",
+        "dolt"
+      ],
+      "antonyms": [
+        "genius",
+        "intellectual",
+        "sage"
+      ],
+      "domainCohort": [
+        "fool",
+        "idiot",
+        "dimwit"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "nitwits"
+      ],
+      "sameImagery": []
+    }
   },
   {
     "word": "nobble",
     "phonetic": "/'nɒbl/",
     "pos": "vt.",
-    "coreMeaning": { "cn": "用不正当手段影响；拦截；偷窃", "en": "nobble" },
+    "coreMeaning": {
+      "cn": "用不正当手段影响；拦截；偷窃",
+      "en": "nobble"
+    },
     "morphemes": [
-      { "canonical": "nobble", "role": "root", "meaning": "用不正当手段操控（可能源自 nab 抓住）", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "nobble", "positionTendency": "medial" }
+      {
+        "canonical": "nobble",
+        "role": "root",
+        "meaning": "用不正当手段操控（可能源自 nab 抓住）",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "nobble",
+        "positionTendency": "medial"
+      }
     ],
-    "derivationChain": { "steps": [{ "from": "possibly nab(抓住) → nobble", "to": "nobble", "by": "alteration", "meaning": "通过欺骗或贿赂来影响（如赛马）" }] },
+    "derivationChain": [
+      "nobble"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": { "mnemonicExpr": "nobble → 用不正当手段偷偷破坏对手的机会", "imageChain": ["操控", "欺骗", "拦截"] },
-    "wordLevel": { "domain": ["general"], "sentiment": { "tags": ["消极"], "intensity": 1 } },
-    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": ["tamper with", "bribe", "intercept", "steal"], "antonyms": [], "domainCohort": ["tamper", "bribe", "fix"], "derivationPair": [], "morphVariants": ["nobbled", "nobbles", "nobbling"], "sameImagery": [] }
+    "memorySemantics": {
+      "mnemonicExpr": "nobble → 用不正当手段偷偷破坏对手的机会",
+      "imageChain": [
+        "操控",
+        "欺骗",
+        "拦截"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "tamper with",
+        "bribe",
+        "intercept",
+        "steal"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "tamper",
+        "bribe",
+        "fix"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        "nobbled",
+        "nobbles",
+        "nobbling"
+      ],
+      "sameImagery": []
+    }
   }
 ]

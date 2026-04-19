@@ -2,88 +2,562 @@
   {
     "word": "tour",
     "phonetic": "/tʊr/",
-    "pos": ["n.", "v."],
-    "coreMeaning": { "cn": "旅游；巡回演出；参观", "en": "a journey for pleasure or inspection; to travel around" },
-    "morphemes": [
-      { "canonical": "tour", "role": "root", "meaning": "转圈，巡游（法语tour，拉丁tornare转圈）", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "tour", "positionTendency": "initial", "coreMeaning": { "cn": "", "en": "" } }
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": { "steps": [{ "from": "L tornare (to turn)", "to": "tour", "rule": "借入法语" }] },
+    "coreMeaning": {
+      "cn": "旅游；巡回演出；参观",
+      "en": "a journey for pleasure or inspection; to travel around"
+    },
+    "morphemes": [
+      {
+        "canonical": "tour",
+        "role": "root",
+        "meaning": "转圈，巡游（法语tour，拉丁tornare转圈）",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "tour",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "tour"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": { "mnemonicExpr": "tour(转圈) → 绕一圈游览/巡演", "imageChain": ["旅游", "巡回演出", "参观"] },
-    "wordLevel": { "domain": ["general", "business"], "sentiment": { "tags": ["积极"], "intensity": 1 } },
-    "relations": { "sameRoot": ["tourism", "tourist", "tournament", "detour"], "sameAffix": [], "synonyms": ["journey", "trip", "excursion"], "antonyms": [], "domainCohort": ["tourism", "excursion", "itinerary"], "derivationPair": ["tourism", "tourist", "tournament"], "morphVariants": [], "sameImagery": ["journey", "circuit"] }
+    "memorySemantics": {
+      "mnemonicExpr": "tour(转圈) → 绕一圈游览/巡演",
+      "imageChain": [
+        "旅游",
+        "巡回演出",
+        "参观"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "business"
+      ],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "tourism",
+        "tourist",
+        "tournament",
+        "detour"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "journey",
+        "trip",
+        "excursion"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "tourism",
+        "excursion",
+        "itinerary"
+      ],
+      "derivationPair": [
+        "tourism",
+        "tourist",
+        "tournament"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "journey",
+        "circuit"
+      ]
+    }
   },
   {
     "word": "tourism",
     "phonetic": "/'tʊrɪzəm/",
-    "pos": ["n."],
-    "coreMeaning": { "cn": "旅游业；旅游活动", "en": "the business of providing travel and holiday services" },
-    "morphemes": [
-      { "canonical": "tour", "role": "root", "meaning": "旅游，巡游", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "tour", "positionTendency": "initial", "coreMeaning": { "cn": "", "en": "" } },
-      { "canonical": "-ism", "role": "suffix", "meaning": "行为；制度；运动", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ism", "positionTendency": "final", "coreMeaning": { "cn": "", "en": "" } }
+    "pos": [
+      "n."
     ],
-    "derivationChain": { "steps": [{ "from": "tour", "to": "tourism", "rule": "+ism" }] },
+    "coreMeaning": {
+      "cn": "旅游业；旅游活动",
+      "en": "the business of providing travel and holiday services"
+    },
+    "morphemes": [
+      {
+        "canonical": "tour",
+        "role": "root",
+        "meaning": "旅游，巡游",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "tour",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "-ism",
+        "role": "suffix",
+        "meaning": "行为；制度；运动",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ism",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "tourism"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": { "mnemonicExpr": "tour(旅游)+ism(行业) → 旅游业", "imageChain": ["旅游业", "观光", "旅游经济"] },
-    "wordLevel": { "domain": ["business", "academic", "general"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
-    "relations": { "sameRoot": ["tour", "tourist", "detour"], "sameAffix": ["capitalism", "journalism"], "synonyms": ["travel industry", "hospitality"], "antonyms": [], "domainCohort": ["hospitality", "travel", "ecotourism"], "derivationPair": ["tourist"], "morphVariants": [], "sameImagery": [] }
+    "memorySemantics": {
+      "mnemonicExpr": "tour(旅游)+ism(行业) → 旅游业",
+      "imageChain": [
+        "旅游业",
+        "观光",
+        "旅游经济"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "business",
+        "academic",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "tour",
+        "tourist",
+        "detour"
+      ],
+      "sameAffix": [
+        "capitalism",
+        "journalism"
+      ],
+      "synonyms": [
+        "travel industry",
+        "hospitality"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "hospitality",
+        "travel",
+        "ecotourism"
+      ],
+      "derivationPair": [
+        "tourist"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "tournament",
     "phonetic": "/'tɔːnəmənt/",
-    "pos": ["n."],
-    "coreMeaning": { "cn": "锦标赛；联赛；比赛", "en": "a series of contests or a medieval jousting event" },
-    "morphemes": [
-      { "canonical": "tour", "role": "root", "meaning": "转圈，迂回（骑士比武绕圈冲锋）", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "tourn", "positionTendency": "initial", "coreMeaning": { "cn": "", "en": "" } },
-      { "canonical": "-ment", "role": "suffix", "meaning": "名词化（行为/结果）", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ament", "positionTendency": "final", "coreMeaning": { "cn": "", "en": "" } }
+    "pos": [
+      "n."
     ],
-    "derivationChain": { "steps": [{ "from": "tourner (to turn/joust)", "to": "tournament", "rule": "+ament" }] },
+    "coreMeaning": {
+      "cn": "锦标赛；联赛；比赛",
+      "en": "a series of contests or a medieval jousting event"
+    },
+    "morphemes": [
+      {
+        "canonical": "tour",
+        "role": "root",
+        "meaning": "转圈，迂回（骑士比武绕圈冲锋）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "tourn",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "-ment",
+        "role": "suffix",
+        "meaning": "名词化（行为/结果）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ament",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "tournament"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": { "mnemonicExpr": "tourn(转圈冲锋)+ament → 中世纪骑士绕圈比武，现指各类锦标赛", "imageChain": ["骑士比武", "锦标赛", "冠军"] },
-    "wordLevel": { "domain": ["sports", "historical", "general"], "sentiment": { "tags": ["积极"], "intensity": 1 } },
-    "relations": { "sameRoot": ["tour", "tourney", "detour"], "sameAffix": ["movement", "argument"], "synonyms": ["contest", "championship", "competition"], "antonyms": [], "domainCohort": ["championship", "league", "competition"], "derivationPair": ["tourney"], "morphVariants": [], "sameImagery": ["championship", "contest"] }
+    "memorySemantics": {
+      "mnemonicExpr": "tourn(转圈冲锋)+ament → 中世纪骑士绕圈比武，现指各类锦标赛",
+      "imageChain": [
+        "骑士比武",
+        "锦标赛",
+        "冠军"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "sports",
+        "historical",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "tour",
+        "tourney",
+        "detour"
+      ],
+      "sameAffix": [
+        "movement",
+        "argument"
+      ],
+      "synonyms": [
+        "contest",
+        "championship",
+        "competition"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "championship",
+        "league",
+        "competition"
+      ],
+      "derivationPair": [
+        "tourney"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "championship",
+        "contest"
+      ]
+    }
   },
   {
     "word": "tout",
     "phonetic": "/taʊt/",
-    "pos": ["v.", "n."],
-    "coreMeaning": { "cn": "大力宣传；吹捧；兜售", "en": "to promote or advertise enthusiastically; to solicit business" },
-    "morphemes": [
-      { "canonical": "tout", "role": "root", "meaning": "窥探，招徕（古英语tutan望出）", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "tout", "positionTendency": "initial", "coreMeaning": { "cn": "", "en": "" } }
+    "pos": [
+      "v.",
+      "n."
     ],
-    "derivationChain": { "steps": [{ "from": "OE tutan (to peep out)", "to": "tout", "rule": "意义转变" }] },
+    "coreMeaning": {
+      "cn": "大力宣传；吹捧；兜售",
+      "en": "to promote or advertise enthusiastically; to solicit business"
+    },
+    "morphemes": [
+      {
+        "canonical": "tout",
+        "role": "root",
+        "meaning": "窥探，招徕（古英语tutan望出）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "tout",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "tout"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": { "mnemonicExpr": "tout → 大声吹嘘推销，像市场叫卖者", "imageChain": ["推销", "吹捧", "大力宣传"] },
-    "wordLevel": { "domain": ["business", "general"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
-    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": ["promote", "publicize", "advertise", "plug"], "antonyms": ["downplay", "minimize"], "domainCohort": ["promote", "hype", "endorse"], "derivationPair": ["touted"], "morphVariants": [], "sameImagery": ["promote", "hype"] }
+    "memorySemantics": {
+      "mnemonicExpr": "tout → 大声吹嘘推销，像市场叫卖者",
+      "imageChain": [
+        "推销",
+        "吹捧",
+        "大力宣传"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "business",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "promote",
+        "publicize",
+        "advertise",
+        "plug"
+      ],
+      "antonyms": [
+        "downplay",
+        "minimize"
+      ],
+      "domainCohort": [
+        "promote",
+        "hype",
+        "endorse"
+      ],
+      "derivationPair": [
+        "touted"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "promote",
+        "hype"
+      ]
+    }
   },
   {
     "word": "towering",
     "phonetic": "/'taʊərɪŋ/",
-    "pos": ["adj."],
-    "coreMeaning": { "cn": "高耸的；卓越的；激烈的", "en": "very tall; of great importance or intensity" },
-    "morphemes": [
-      { "canonical": "tower", "role": "root", "meaning": "塔；高耸", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "tower", "positionTendency": "initial", "coreMeaning": { "cn": "", "en": "" } },
-      { "canonical": "-ing", "role": "suffix", "meaning": "形容词化（持续进行状态）", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ing", "positionTendency": "final", "coreMeaning": { "cn": "", "en": "" } }
+    "pos": [
+      "adj."
     ],
-    "derivationChain": { "steps": [{ "from": "tower", "to": "towering", "rule": "+ing" }] },
+    "coreMeaning": {
+      "cn": "高耸的；卓越的；激烈的",
+      "en": "very tall; of great importance or intensity"
+    },
+    "morphemes": [
+      {
+        "canonical": "tower",
+        "role": "root",
+        "meaning": "塔；高耸",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "tower",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "meaning": "形容词化（持续进行状态）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ing",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "towering"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": { "mnemonicExpr": "tower(塔)+ing → 像塔一样高耸；形容rage(怒火)也用towering", "imageChain": ["高耸", "卓越", "激烈"] },
-    "wordLevel": { "domain": ["literary", "general"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
-    "relations": { "sameRoot": ["tower"], "sameAffix": [], "synonyms": ["soaring", "lofty", "imposing", "overwhelming"], "antonyms": ["low", "modest", "slight"], "domainCohort": ["soaring", "looming", "lofty"], "derivationPair": [], "morphVariants": [], "sameImagery": ["soaring", "looming"] }
+    "memorySemantics": {
+      "mnemonicExpr": "tower(塔)+ing → 像塔一样高耸；形容rage(怒火)也用towering",
+      "imageChain": [
+        "高耸",
+        "卓越",
+        "激烈"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "literary",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "tower"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "soaring",
+        "lofty",
+        "imposing",
+        "overwhelming"
+      ],
+      "antonyms": [
+        "low",
+        "modest",
+        "slight"
+      ],
+      "domainCohort": [
+        "soaring",
+        "looming",
+        "lofty"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "soaring",
+        "looming"
+      ]
+    }
   },
   {
     "word": "tow",
     "phonetic": "/toʊ/",
-    "pos": ["v.", "n."],
-    "coreMeaning": { "cn": "拖；牵引；拖曳", "en": "to pull something along by a rope; the act of towing" },
-    "morphemes": [
-      { "canonical": "tow", "role": "root", "meaning": "拉，牵引（古英语togian）", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "tow", "positionTendency": "initial", "coreMeaning": { "cn": "", "en": "" } }
+    "pos": [
+      "v.",
+      "n."
     ],
-    "derivationChain": { "steps": [{ "from": "OE togian (to draw, pull)", "to": "tow", "rule": "借入" }] },
+    "coreMeaning": {
+      "cn": "拖；牵引；拖曳",
+      "en": "to pull something along by a rope; the act of towing"
+    },
+    "morphemes": [
+      {
+        "canonical": "tow",
+        "role": "root",
+        "meaning": "拉，牵引（古英语togian）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "tow",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "tow"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": { "mnemonicExpr": "tow → 用绳拉走故障车辆（tow truck）", "imageChain": ["拖车", "牵引", "拖拉"] },
-    "wordLevel": { "domain": ["general", "academic"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
-    "relations": { "sameRoot": ["towboat", "towline", "tow-truck"], "sameAffix": [], "synonyms": ["haul", "drag", "pull", "tug"], "antonyms": ["push"], "domainCohort": ["haul", "drag", "pull"], "derivationPair": ["towboat", "towage"], "morphVariants": [], "sameImagery": ["haul", "drag"] }
+    "memorySemantics": {
+      "mnemonicExpr": "tow → 用绳拉走故障车辆（tow truck）",
+      "imageChain": [
+        "拖车",
+        "牵引",
+        "拖拉"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "towboat",
+        "towline",
+        "tow-truck"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "haul",
+        "drag",
+        "pull",
+        "tug"
+      ],
+      "antonyms": [
+        "push"
+      ],
+      "domainCohort": [
+        "haul",
+        "drag",
+        "pull"
+      ],
+      "derivationPair": [
+        "towboat",
+        "towage"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "haul",
+        "drag"
+      ]
+    }
   }
 ]

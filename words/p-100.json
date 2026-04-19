@@ -2,123 +2,791 @@
   {
     "word": "postage",
     "phonetic": "/ˈpəʊstɪdʒ/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "邮费；邮资", "en": "the amount charged for sending something by post"},
-    "morphemes": [
-      {"canonical": "post", "role": "root", "meaning": "邮递；柱子；职位", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "post", "positionTendency": "initial", "coreMeaning": {"cn": "邮递", "en": "mail/post"}},
-      {"canonical": "-age", "role": "suffix", "meaning": "费用；行为", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "age", "positionTendency": "final", "coreMeaning": {"cn": "费用", "en": "fee/charge"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "post + -age", "to": "postage", "rule": "root + suffix", "meaning": "邮递费用"}]},
+    "coreMeaning": {
+      "cn": "邮费；邮资",
+      "en": "the amount charged for sending something by post"
+    },
+    "morphemes": [
+      {
+        "canonical": "post",
+        "role": "root",
+        "meaning": "邮递；柱子；职位",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "post",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "邮递",
+          "en": "mail/post"
+        }
+      },
+      {
+        "canonical": "-age",
+        "role": "suffix",
+        "meaning": "费用；行为",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "age",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "费用",
+          "en": "fee/charge"
+        }
+      }
+    ],
+    "derivationChain": [
+      "postage"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "post(邮递)+age(费用)→邮费", "imageChain": ["邮费", "邮票", "信封"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["postal", "postbox", "postcard"], "sameAffix": ["storage", "mileage"], "synonyms": ["postal charge", "stamp"], "antonyms": [], "domainCohort": ["stamp", "mail"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "post(邮递)+age(费用)→邮费",
+      "imageChain": [
+        "邮费",
+        "邮票",
+        "信封"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "postal",
+        "postbox",
+        "postcard"
+      ],
+      "sameAffix": [
+        "storage",
+        "mileage"
+      ],
+      "synonyms": [
+        "postal charge",
+        "stamp"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "stamp",
+        "mail"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "postal",
     "phonetic": "/ˈpəʊstəl/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "邮政的；邮局的", "en": "relating to the post office or the mail system"},
-    "morphemes": [
-      {"canonical": "post", "role": "root", "meaning": "邮递；邮政", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "post", "positionTendency": "initial", "coreMeaning": {"cn": "邮递", "en": "mail/post"}},
-      {"canonical": "-al", "role": "suffix", "meaning": "形容词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "al", "positionTendency": "final", "coreMeaning": {"cn": "形容词", "en": "adj. forming"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "post + -al", "to": "postal", "rule": "root + suffix", "meaning": "邮政的"}]},
+    "coreMeaning": {
+      "cn": "邮政的；邮局的",
+      "en": "relating to the post office or the mail system"
+    },
+    "morphemes": [
+      {
+        "canonical": "post",
+        "role": "root",
+        "meaning": "邮递；邮政",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "post",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "邮递",
+          "en": "mail/post"
+        }
+      },
+      {
+        "canonical": "-al",
+        "role": "suffix",
+        "meaning": "形容词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "al",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "形容词",
+          "en": "adj. forming"
+        }
+      }
+    ],
+    "derivationChain": [
+      "postal"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "post(邮政)+al→邮政的", "imageChain": ["邮政", "邮局", "信件"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["post", "postage", "postcode"], "sameAffix": [], "synonyms": ["mail", "delivery"], "antonyms": [], "domainCohort": ["mail", "delivery"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "post(邮政)+al→邮政的",
+      "imageChain": [
+        "邮政",
+        "邮局",
+        "信件"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "post",
+        "postage",
+        "postcode"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "mail",
+        "delivery"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "mail",
+        "delivery"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "postcard",
     "phonetic": "/ˈpəʊstkɑːrd/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "明信片", "en": "a card for sending messages by mail without an envelope"},
-    "morphemes": [
-      {"canonical": "post", "role": "root", "meaning": "邮递", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "post", "positionTendency": "initial", "coreMeaning": {"cn": "邮递", "en": "mail"}},
-      {"canonical": "card", "role": "root", "meaning": "卡片", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "card", "positionTendency": "final", "coreMeaning": {"cn": "卡片", "en": "card"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "post + card", "to": "postcard", "rule": "compound", "meaning": "邮递的卡片→明信片"}]},
+    "coreMeaning": {
+      "cn": "明信片",
+      "en": "a card for sending messages by mail without an envelope"
+    },
+    "morphemes": [
+      {
+        "canonical": "post",
+        "role": "root",
+        "meaning": "邮递",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "post",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "邮递",
+          "en": "mail"
+        }
+      },
+      {
+        "canonical": "card",
+        "role": "root",
+        "meaning": "卡片",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "card",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "卡片",
+          "en": "card"
+        }
+      }
+    ],
+    "derivationChain": [
+      "postcard"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "post(邮递)+card(卡)→明信片", "imageChain": ["明信片", "旅行", "纪念"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["post", "postal"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["letter", "mail"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "post(邮递)+card(卡)→明信片",
+      "imageChain": [
+        "明信片",
+        "旅行",
+        "纪念"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "post",
+        "postal"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "letter",
+        "mail"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "posterior",
     "phonetic": "/pɒˈstɪəriər/",
-    "pos": ["adj.", "n."],
-    "coreMeaning": {"cn": "后面的；臀部", "en": "coming after in order or time; the buttocks"},
-    "morphemes": [
-      {"canonical": "post-", "role": "prefix", "meaning": "在…之后", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "post", "positionTendency": "initial", "coreMeaning": {"cn": "之后", "en": "after/behind"}},
-      {"canonical": "-erior", "role": "suffix", "meaning": "比较级形容词", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "erior", "positionTendency": "final", "coreMeaning": {"cn": "比较级", "en": "comparative"}}
+    "pos": [
+      "adj.",
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "L. posterior (coming after)", "to": "posterior", "rule": "借词", "meaning": "在后面的→臀部"}]},
+    "coreMeaning": {
+      "cn": "后面的；臀部",
+      "en": "coming after in order or time; the buttocks"
+    },
+    "morphemes": [
+      {
+        "canonical": "post-",
+        "role": "prefix",
+        "meaning": "在…之后",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "post",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "之后",
+          "en": "after/behind"
+        }
+      },
+      {
+        "canonical": "-erior",
+        "role": "suffix",
+        "meaning": "比较级形容词",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "erior",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "比较级",
+          "en": "comparative"
+        }
+      }
+    ],
+    "derivationChain": [
+      "posterior"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "post(后)+erior→在后面的→臀部", "imageChain": ["后方", "臀部", "位置"]},
-    "wordLevel": {"domain": ["general", "medical", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["posterity", "post-"], "sameAffix": ["anterior", "inferior"], "synonyms": ["back", "hind", "rear"], "antonyms": ["anterior", "front"], "domainCohort": ["anterior", "dorsal"], "derivationPair": ["posterity"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "post(后)+erior→在后面的→臀部",
+      "imageChain": [
+        "后方",
+        "臀部",
+        "位置"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "medical",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "posterity",
+        "post-"
+      ],
+      "sameAffix": [
+        "anterior",
+        "inferior"
+      ],
+      "synonyms": [
+        "back",
+        "hind",
+        "rear"
+      ],
+      "antonyms": [
+        "anterior",
+        "front"
+      ],
+      "domainCohort": [
+        "anterior",
+        "dorsal"
+      ],
+      "derivationPair": [
+        "posterity"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "posterity",
     "phonetic": "/pɒˈstɛrɪti/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "后代；子孙；后世", "en": "all future generations; one's descendants"},
-    "morphemes": [
-      {"canonical": "post-", "role": "prefix", "meaning": "在…之后", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "poster", "positionTendency": "initial", "coreMeaning": {"cn": "之后", "en": "after"}},
-      {"canonical": "-ity", "role": "suffix", "meaning": "名词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ity", "positionTendency": "final", "coreMeaning": {"cn": "状态", "en": "state/condition"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "L. posteritas (descendants)", "to": "posterity", "rule": "借词", "meaning": "在后面的人→后代"}]},
+    "coreMeaning": {
+      "cn": "后代；子孙；后世",
+      "en": "all future generations; one's descendants"
+    },
+    "morphemes": [
+      {
+        "canonical": "post-",
+        "role": "prefix",
+        "meaning": "在…之后",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "poster",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "之后",
+          "en": "after"
+        }
+      },
+      {
+        "canonical": "-ity",
+        "role": "suffix",
+        "meaning": "名词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ity",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "状态",
+          "en": "state/condition"
+        }
+      }
+    ],
+    "derivationChain": [
+      "posterity"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "poster(后)+ity→后代/子孙", "imageChain": ["后代", "子孙", "历史"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["posterior", "postern"], "sameAffix": [], "synonyms": ["descendants", "offspring", "future generations"], "antonyms": ["ancestors", "forebears"], "domainCohort": ["descendants", "legacy"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "poster(后)+ity→后代/子孙",
+      "imageChain": [
+        "后代",
+        "子孙",
+        "历史"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "posterior",
+        "postern"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "descendants",
+        "offspring",
+        "future generations"
+      ],
+      "antonyms": [
+        "ancestors",
+        "forebears"
+      ],
+      "domainCohort": [
+        "descendants",
+        "legacy"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "postdoctoral",
     "phonetic": "/ˌpəʊstˈdɒktərəl/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "博士后的", "en": "relating to research or study done after completing a doctorate"},
-    "morphemes": [
-      {"canonical": "post-", "role": "prefix", "meaning": "在…之后", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "post", "positionTendency": "initial", "coreMeaning": {"cn": "之后", "en": "after"}},
-      {"canonical": "doctor", "role": "root", "meaning": "博士；医生", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "doctor", "positionTendency": "medial", "coreMeaning": {"cn": "博士", "en": "doctor"}},
-      {"canonical": "-al", "role": "suffix", "meaning": "形容词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "al", "positionTendency": "final", "coreMeaning": {"cn": "形容词", "en": "adj. forming"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "post- + doctoral", "to": "postdoctoral", "rule": "prefix + adj.", "meaning": "博士学位之后的"}]},
+    "coreMeaning": {
+      "cn": "博士后的",
+      "en": "relating to research or study done after completing a doctorate"
+    },
+    "morphemes": [
+      {
+        "canonical": "post-",
+        "role": "prefix",
+        "meaning": "在…之后",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "post",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "之后",
+          "en": "after"
+        }
+      },
+      {
+        "canonical": "doctor",
+        "role": "root",
+        "meaning": "博士；医生",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "doctor",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "博士",
+          "en": "doctor"
+        }
+      },
+      {
+        "canonical": "-al",
+        "role": "suffix",
+        "meaning": "形容词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "al",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "形容词",
+          "en": "adj. forming"
+        }
+      }
+    ],
+    "derivationChain": [
+      "postdoctoral"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "post(后)+doctoral(博士)→博士后的", "imageChain": ["博士后", "学术", "研究"]},
-    "wordLevel": {"domain": ["academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["doctor", "doctorate"], "sameAffix": ["postgraduate", "postmodern"], "synonyms": ["postdoc"], "antonyms": [], "domainCohort": ["graduate", "academic"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "post(后)+doctoral(博士)→博士后的",
+      "imageChain": [
+        "博士后",
+        "学术",
+        "研究"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "doctor",
+        "doctorate"
+      ],
+      "sameAffix": [
+        "postgraduate",
+        "postmodern"
+      ],
+      "synonyms": [
+        "postdoc"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "graduate",
+        "academic"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "posthumous",
     "phonetic": "/ˈpɒstjʊməs/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "死后的；遗腹的", "en": "occurring, awarded, or appearing after the death of the originator"},
-    "morphemes": [
-      {"canonical": "post-", "role": "prefix", "meaning": "在…之后", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "post", "positionTendency": "initial", "coreMeaning": {"cn": "之后", "en": "after"}},
-      {"canonical": "hum", "role": "root", "meaning": "地；土；入土", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 2, "form": "hum", "positionTendency": "medial", "coreMeaning": {"cn": "入土", "en": "bury/ground"}},
-      {"canonical": "-ous", "role": "suffix", "meaning": "形容词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ous", "positionTendency": "final", "coreMeaning": {"cn": "形容词", "en": "adj. forming"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "L. postumus (last)", "to": "posthumous", "rule": "借词", "meaning": "入土后→死后的"}]},
+    "coreMeaning": {
+      "cn": "死后的；遗腹的",
+      "en": "occurring, awarded, or appearing after the death of the originator"
+    },
+    "morphemes": [
+      {
+        "canonical": "post-",
+        "role": "prefix",
+        "meaning": "在…之后",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "post",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "之后",
+          "en": "after"
+        }
+      },
+      {
+        "canonical": "hum",
+        "role": "root",
+        "meaning": "地；土；入土",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 2,
+        "form": "hum",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "入土",
+          "en": "bury/ground"
+        }
+      },
+      {
+        "canonical": "-ous",
+        "role": "suffix",
+        "meaning": "形容词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ous",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "形容词",
+          "en": "adj. forming"
+        }
+      }
+    ],
+    "derivationChain": [
+      "posthumous"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "post(后)+hum(土/埋葬)+ous→死后的", "imageChain": ["死后", "遗作", "追授"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": ["exhume", "inhume"], "sameAffix": ["postdate", "postgraduate"], "synonyms": ["postmortem"], "antonyms": ["antemortem"], "domainCohort": ["memorial", "eulogy"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "post(后)+hum(土/埋葬)+ous→死后的",
+      "imageChain": [
+        "死后",
+        "遗作",
+        "追授"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "exhume",
+        "inhume"
+      ],
+      "sameAffix": [
+        "postdate",
+        "postgraduate"
+      ],
+      "synonyms": [
+        "postmortem"
+      ],
+      "antonyms": [
+        "antemortem"
+      ],
+      "domainCohort": [
+        "memorial",
+        "eulogy"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "posting",
     "phonetic": "/ˈpəʊstɪŋ/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "委派；任命；发帖", "en": "the act of sending someone to a position; a message or notice posted online"},
-    "morphemes": [
-      {"canonical": "post", "role": "root", "meaning": "职位；邮递；发帖", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "post", "positionTendency": "initial", "coreMeaning": {"cn": "发帖/职位", "en": "post/assign"}},
-      {"canonical": "-ing", "role": "suffix", "meaning": "名词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ing", "positionTendency": "final", "coreMeaning": {"cn": "行为/结果", "en": "act/result"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "post + -ing", "to": "posting", "rule": "root + suffix", "meaning": "发布/任命的行为"}]},
+    "coreMeaning": {
+      "cn": "委派；任命；发帖",
+      "en": "the act of sending someone to a position; a message or notice posted online"
+    },
+    "morphemes": [
+      {
+        "canonical": "post",
+        "role": "root",
+        "meaning": "职位；邮递；发帖",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "post",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "发帖/职位",
+          "en": "post/assign"
+        }
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "meaning": "名词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ing",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "行为/结果",
+          "en": "act/result"
+        }
+      }
+    ],
+    "derivationChain": [
+      "posting"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "post(发布)+ing→发帖/委派", "imageChain": ["发帖", "委派", "任命"]},
-    "wordLevel": {"domain": ["general", "business", "tech"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["post", "poster"], "sameAffix": [], "synonyms": ["assignment", "appointment", "message"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "post(发布)+ing→发帖/委派",
+      "imageChain": [
+        "发帖",
+        "委派",
+        "任命"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "business",
+        "tech"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "post",
+        "poster"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "assignment",
+        "appointment",
+        "message"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

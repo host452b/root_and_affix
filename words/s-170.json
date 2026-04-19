@@ -2,88 +2,517 @@
   {
     "word": "stepladder",
     "phonetic": "/ˈstɛpˌlædər/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "梯凳；折叠梯", "en": "a folding ladder with broad steps and a supporting frame"},
-    "morphemes": [
-      {"canonical": "step", "role": "root", "meaning": "步骤；台阶", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "step", "positionTendency": "initial", "coreMeaning": {"cn": "台阶", "en": "step/tread"}},
-      {"canonical": "ladder", "role": "root", "meaning": "梯子", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ladder", "positionTendency": "final", "coreMeaning": {"cn": "梯子", "en": "ladder"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "step + ladder", "to": "stepladder", "rule": "compound", "meaning": "带台阶的梯子→折叠梯"}]},
+    "coreMeaning": {
+      "cn": "梯凳；折叠梯",
+      "en": "a folding ladder with broad steps and a supporting frame"
+    },
+    "morphemes": [
+      {
+        "canonical": "step",
+        "role": "root",
+        "meaning": "步骤；台阶",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "step",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "台阶",
+          "en": "step/tread"
+        }
+      },
+      {
+        "canonical": "ladder",
+        "role": "root",
+        "meaning": "梯子",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ladder",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "梯子",
+          "en": "ladder"
+        }
+      }
+    ],
+    "derivationChain": [
+      "stepladder"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "step(台阶)+ladder(梯)→折叠梯", "imageChain": ["折叠梯", "台阶", "工具"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["step", "ladder"], "sameAffix": [], "synonyms": ["ladder", "folding ladder"], "antonyms": [], "domainCohort": ["ladder", "scaffold"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "step(台阶)+ladder(梯)→折叠梯",
+      "imageChain": [
+        "折叠梯",
+        "台阶",
+        "工具"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "step",
+        "ladder"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "ladder",
+        "folding ladder"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "ladder",
+        "scaffold"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "stepmother",
     "phonetic": "/ˈstɛpmʌðər/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "继母", "en": "a woman who is married to one's father but is not one's biological mother"},
-    "morphemes": [
-      {"canonical": "step-", "role": "prefix", "meaning": "继", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "step", "positionTendency": "initial", "coreMeaning": {"cn": "继", "en": "step- (not biological)"}},
-      {"canonical": "mother", "role": "root", "meaning": "母亲", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 2, "form": "mother", "positionTendency": "final", "coreMeaning": {"cn": "母亲", "en": "mother"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "step- + mother", "to": "stepmother", "rule": "prefix + root", "meaning": "继母"}]},
+    "coreMeaning": {
+      "cn": "继母",
+      "en": "a woman who is married to one's father but is not one's biological mother"
+    },
+    "morphemes": [
+      {
+        "canonical": "step-",
+        "role": "prefix",
+        "meaning": "继",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "step",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "继",
+          "en": "step- (not biological)"
+        }
+      },
+      {
+        "canonical": "mother",
+        "role": "root",
+        "meaning": "母亲",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 2,
+        "form": "mother",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "母亲",
+          "en": "mother"
+        }
+      }
+    ],
+    "derivationChain": [
+      "stepmother"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "step(继)+mother(母亲)→继母", "imageChain": ["继母", "家庭", "再婚"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["mother", "stepfather"], "sameAffix": ["stepfather", "stepsister"], "synonyms": [], "antonyms": [], "domainCohort": ["stepfather", "stepchild"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "step(继)+mother(母亲)→继母",
+      "imageChain": [
+        "继母",
+        "家庭",
+        "再婚"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "mother",
+        "stepfather"
+      ],
+      "sameAffix": [
+        "stepfather",
+        "stepsister"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "stepfather",
+        "stepchild"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "steppe",
     "phonetic": "/stɛp/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "大草原；干草原（尤指欧亚大陆）", "en": "a large area of flat unforested grassland in Eurasia"},
-    "morphemes": [
-      {"canonical": "steppe", "role": "root", "meaning": "大草原", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "steppe", "positionTendency": "medial", "coreMeaning": {"cn": "大草原", "en": "steppe/plain"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "Russ. step (steppe)", "to": "steppe", "rule": "借词", "meaning": "俄语→大草原"}]},
+    "coreMeaning": {
+      "cn": "大草原；干草原（尤指欧亚大陆）",
+      "en": "a large area of flat unforested grassland in Eurasia"
+    },
+    "morphemes": [
+      {
+        "canonical": "steppe",
+        "role": "root",
+        "meaning": "大草原",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "steppe",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "大草原",
+          "en": "steppe/plain"
+        }
+      }
+    ],
+    "derivationChain": [
+      "steppe"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "steppe → 大草原（欧亚草原）", "imageChain": ["草原", "平原", "蒙古"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["prairie", "savanna", "plain"], "antonyms": ["forest", "jungle"], "domainCohort": ["prairie", "savanna"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "steppe → 大草原（欧亚草原）",
+      "imageChain": [
+        "草原",
+        "平原",
+        "蒙古"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "prairie",
+        "savanna",
+        "plain"
+      ],
+      "antonyms": [
+        "forest",
+        "jungle"
+      ],
+      "domainCohort": [
+        "prairie",
+        "savanna"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "stereo",
     "phonetic": "/ˈstɛriəʊ/",
-    "pos": ["n.", "adj."],
-    "coreMeaning": {"cn": "立体声；立体的", "en": "sound reproduced using two channels; involving two sound sources"},
-    "morphemes": [
-      {"canonical": "stereo-", "role": "prefix", "meaning": "立体；三维", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "stereo", "positionTendency": "initial", "coreMeaning": {"cn": "立体", "en": "three-dimensional/solid"}}
+    "pos": [
+      "n.",
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "Gk. stereos (solid/3D) → stereophonic", "to": "stereo", "rule": "缩略", "meaning": "立体声"}]},
+    "coreMeaning": {
+      "cn": "立体声；立体的",
+      "en": "sound reproduced using two channels; involving two sound sources"
+    },
+    "morphemes": [
+      {
+        "canonical": "stereo-",
+        "role": "prefix",
+        "meaning": "立体；三维",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "stereo",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "立体",
+          "en": "three-dimensional/solid"
+        }
+      }
+    ],
+    "derivationChain": [
+      "stereo"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "stereo → 立体声（来自希腊语固体/三维）", "imageChain": ["立体声", "音响", "双声道"]},
-    "wordLevel": {"domain": ["general", "tech"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["stereotype", "stereoscope", "stereophonic"], "sameAffix": [], "synonyms": ["hi-fi", "sound system"], "antonyms": ["mono"], "domainCohort": ["sound", "audio"], "derivationPair": ["stereophonic"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "stereo → 立体声（来自希腊语固体/三维）",
+      "imageChain": [
+        "立体声",
+        "音响",
+        "双声道"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "tech"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "stereotype",
+        "stereoscope",
+        "stereophonic"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "hi-fi",
+        "sound system"
+      ],
+      "antonyms": [
+        "mono"
+      ],
+      "domainCohort": [
+        "sound",
+        "audio"
+      ],
+      "derivationPair": [
+        "stereophonic"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "stereotype",
     "phonetic": "/ˈstɛriəˌtaɪp/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "刻板印象；定型观念；对…有偏见", "en": "a widely held but oversimplified image of a type of person or thing; to view according to a fixed standard"},
-    "morphemes": [
-      {"canonical": "stereo-", "role": "prefix", "meaning": "固定；立体", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "stereo", "positionTendency": "initial", "coreMeaning": {"cn": "固定", "en": "fixed/solid"}},
-      {"canonical": "type", "role": "root", "meaning": "类型；典型", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "type", "positionTendency": "final", "coreMeaning": {"cn": "类型", "en": "type/kind"}}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "stereo + type", "to": "stereotype", "rule": "compound", "meaning": "固定的类型→刻板印象"}]},
+    "coreMeaning": {
+      "cn": "刻板印象；定型观念；对…有偏见",
+      "en": "a widely held but oversimplified image of a type of person or thing; to view according to a fixed standard"
+    },
+    "morphemes": [
+      {
+        "canonical": "stereo-",
+        "role": "prefix",
+        "meaning": "固定；立体",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "stereo",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "固定",
+          "en": "fixed/solid"
+        }
+      },
+      {
+        "canonical": "type",
+        "role": "root",
+        "meaning": "类型；典型",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "type",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "类型",
+          "en": "type/kind"
+        }
+      }
+    ],
+    "derivationChain": [
+      "stereotype"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "stereo(固定)+type(类型)→刻板印象/偏见", "imageChain": ["刻板印象", "偏见", "定型"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": ["stereotypical", "stereotyping"], "sameAffix": [], "synonyms": ["bias", "prejudice", "cliche"], "antonyms": ["individualism", "nuance"], "domainCohort": ["prejudice", "bias"], "derivationPair": ["stereotypical"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "stereo(固定)+type(类型)→刻板印象/偏见",
+      "imageChain": [
+        "刻板印象",
+        "偏见",
+        "定型"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "stereotypical",
+        "stereotyping"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "bias",
+        "prejudice",
+        "cliche"
+      ],
+      "antonyms": [
+        "individualism",
+        "nuance"
+      ],
+      "domainCohort": [
+        "prejudice",
+        "bias"
+      ],
+      "derivationPair": [
+        "stereotypical"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "sterile",
     "phonetic": "/ˈstɛraɪl/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "无菌的；不育的；贫瘠的", "en": "free from bacteria; unable to produce offspring; lacking vitality"},
-    "morphemes": [
-      {"canonical": "sterile", "role": "root", "meaning": "不育；无菌", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "sterile", "positionTendency": "medial", "coreMeaning": {"cn": "无菌/不育", "en": "barren/germ-free"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "L. sterilis (barren)", "to": "sterile", "rule": "借词", "meaning": "贫瘠→不育→无菌"}]},
+    "coreMeaning": {
+      "cn": "无菌的；不育的；贫瘠的",
+      "en": "free from bacteria; unable to produce offspring; lacking vitality"
+    },
+    "morphemes": [
+      {
+        "canonical": "sterile",
+        "role": "root",
+        "meaning": "不育；无菌",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "sterile",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "无菌/不育",
+          "en": "barren/germ-free"
+        }
+      }
+    ],
+    "derivationChain": [
+      "sterile"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "sterile → 无菌的/不育的（联想sterilize消毒）", "imageChain": ["无菌", "消毒", "手术室"]},
-    "wordLevel": {"domain": ["medical", "general"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": ["sterilize", "sterilization"], "sameAffix": [], "synonyms": ["germ-free", "barren", "aseptic"], "antonyms": ["fertile", "contaminated"], "domainCohort": ["aseptic", "antiseptic"], "derivationPair": ["sterilize"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "sterile → 无菌的/不育的（联想sterilize消毒）",
+      "imageChain": [
+        "无菌",
+        "消毒",
+        "手术室"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "medical",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "sterilize",
+        "sterilization"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "germ-free",
+        "barren",
+        "aseptic"
+      ],
+      "antonyms": [
+        "fertile",
+        "contaminated"
+      ],
+      "domainCohort": [
+        "aseptic",
+        "antiseptic"
+      ],
+      "derivationPair": [
+        "sterilize"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

@@ -2,125 +2,897 @@
   {
     "word": "inverse",
     "phonetic": "/ɪn'vɜːrs/",
-    "pos": ["adj.", "n."],
-    "coreMeaning": {"cn": "相反的；倒置的", "en": "opposite in order or nature; an opposite thing"},
-    "morphemes": [
-      {"role": "prefix", "positionTendency": "initial", "canonical": "in-", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "in", "meaning": "向内；使", "coreMeaning": {"cn": "向内", "en": "into"}},
-      {"role": "root", "positionTendency": "medial", "canonical": "vers-", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "vers", "meaning": "转；转向", "coreMeaning": {"cn": "转", "en": "turn"}}
+    "pos": [
+      "adj.",
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "invertere (L.)", "to": "inverse", "by": "etymological", "meaning": "转向相反"}]},
+    "coreMeaning": {
+      "cn": "相反的；倒置的",
+      "en": "opposite in order or nature; an opposite thing"
+    },
+    "morphemes": [
+      {
+        "role": "prefix",
+        "positionTendency": "initial",
+        "canonical": "in-",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "in",
+        "meaning": "向内；使",
+        "coreMeaning": {
+          "cn": "向内",
+          "en": "into"
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "vers-",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "vers",
+        "meaning": "转；转向",
+        "coreMeaning": {
+          "cn": "转",
+          "en": "turn"
+        }
+      }
+    ],
+    "derivationChain": [
+      "inverse"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "in(向内)+verse(转) → 转向内/相反 → 相反的", "imageChain": ["翻转", "相反方向", "数学倒数"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic"], "formality": "formal"},
-    "relations": {"sameRoot": ["inversion", "invert", "inversely", "reverse", "convert"], "sameAffix": [], "synonyms": ["opposite", "contrary", "reverse", "converse"], "antonyms": ["direct", "straight"], "domainCohort": ["invert", "inversion"], "derivationPair": ["inversion", "invert"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "in(向内)+verse(转) → 转向内/相反 → 相反的",
+      "imageChain": [
+        "翻转",
+        "相反方向",
+        "数学倒数"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "inversion",
+        "invert",
+        "inversely",
+        "reverse",
+        "convert"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "opposite",
+        "contrary",
+        "reverse",
+        "converse"
+      ],
+      "antonyms": [
+        "direct",
+        "straight"
+      ],
+      "domainCohort": [
+        "invert",
+        "inversion"
+      ],
+      "derivationPair": [
+        "inversion",
+        "invert"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "invert",
     "phonetic": "/'ɪnvɜːrt/",
-    "pos": ["vt.", "n."],
-    "coreMeaning": {"cn": "倒转；颠倒；倒置", "en": "to turn upside down or inside out"},
-    "morphemes": [
-      {"role": "prefix", "positionTendency": "initial", "canonical": "in-", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "in", "meaning": "向内", "coreMeaning": {"cn": "向内", "en": "into"}},
-      {"role": "root", "positionTendency": "medial", "canonical": "vert-", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "vert", "meaning": "转；转向", "coreMeaning": {"cn": "转", "en": "turn"}}
+    "pos": [
+      "vt.",
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "vertere (L.)", "to": "invert", "by": "in-", "meaning": "向内翻转"}]},
+    "coreMeaning": {
+      "cn": "倒转；颠倒；倒置",
+      "en": "to turn upside down or inside out"
+    },
+    "morphemes": [
+      {
+        "role": "prefix",
+        "positionTendency": "initial",
+        "canonical": "in-",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "in",
+        "meaning": "向内",
+        "coreMeaning": {
+          "cn": "向内",
+          "en": "into"
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "vert-",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "vert",
+        "meaning": "转；转向",
+        "coreMeaning": {
+          "cn": "转",
+          "en": "turn"
+        }
+      }
+    ],
+    "derivationChain": [
+      "invert"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "in(向内)+vert(转) → 向内翻转 → 颠倒", "imageChain": ["翻转", "倒置", "颠覆"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": ["inverse", "inversion", "invertebrate", "revert", "convert", "divert"], "sameAffix": [], "synonyms": ["reverse", "flip", "turn upside down", "transpose"], "antonyms": ["restore", "upright"], "domainCohort": ["inverse", "invertebrate"], "derivationPair": ["inversion", "inverse"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "in(向内)+vert(转) → 向内翻转 → 颠倒",
+      "imageChain": [
+        "翻转",
+        "倒置",
+        "颠覆"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "inverse",
+        "inversion",
+        "invertebrate",
+        "revert",
+        "convert",
+        "divert"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "reverse",
+        "flip",
+        "turn upside down",
+        "transpose"
+      ],
+      "antonyms": [
+        "restore",
+        "upright"
+      ],
+      "domainCohort": [
+        "inverse",
+        "invertebrate"
+      ],
+      "derivationPair": [
+        "inversion",
+        "inverse"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "invertebrate",
     "phonetic": "/ɪn'vɜːrtɪbrɪt/",
-    "pos": ["n.", "adj."],
-    "coreMeaning": {"cn": "无脊椎动物；无骨气的", "en": "an animal without a backbone; lacking moral courage"},
-    "morphemes": [
-      {"role": "prefix", "positionTendency": "initial", "canonical": "in-", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "in", "meaning": "不；非", "coreMeaning": {"cn": "不", "en": "not"}},
-      {"role": "root", "positionTendency": "medial", "canonical": "vert-", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "vertebr", "meaning": "脊椎", "coreMeaning": {"cn": "脊椎", "en": "vertebra"}},
-      {"role": "suffix", "positionTendency": "final", "canonical": "-ate", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "-ate", "meaning": "形容词/名词后缀", "coreMeaning": {"cn": "…的", "en": "having"}}
+    "pos": [
+      "n.",
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "vertebrate", "to": "invertebrate", "by": "in-", "meaning": "无脊椎的"}]},
+    "coreMeaning": {
+      "cn": "无脊椎动物；无骨气的",
+      "en": "an animal without a backbone; lacking moral courage"
+    },
+    "morphemes": [
+      {
+        "role": "prefix",
+        "positionTendency": "initial",
+        "canonical": "in-",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "in",
+        "meaning": "不；非",
+        "coreMeaning": {
+          "cn": "不",
+          "en": "not"
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "vert-",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "vertebr",
+        "meaning": "脊椎",
+        "coreMeaning": {
+          "cn": "脊椎",
+          "en": "vertebra"
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "final",
+        "canonical": "-ate",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-ate",
+        "meaning": "形容词/名词后缀",
+        "coreMeaning": {
+          "cn": "…的",
+          "en": "having"
+        }
+      }
+    ],
+    "derivationChain": [
+      "invertebrate"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "in(无)+vertebr(脊椎)+ate → 没有脊椎的 → 无脊椎动物", "imageChain": ["昆虫", "贝类", "软体动物"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["academic", "general"], "formality": "technical"},
-    "relations": {"sameRoot": ["vertebrate", "invert", "vertebra"], "sameAffix": ["iterate", "moderate", "elaborate"], "synonyms": [], "antonyms": ["vertebrate"], "domainCohort": ["invert"], "derivationPair": ["vertebrate"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "in(无)+vertebr(脊椎)+ate → 没有脊椎的 → 无脊椎动物",
+      "imageChain": [
+        "昆虫",
+        "贝类",
+        "软体动物"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "academic",
+        "general"
+      ],
+      "formality": "technical"
+    },
+    "relations": {
+      "sameRoot": [
+        "vertebrate",
+        "invert",
+        "vertebra"
+      ],
+      "sameAffix": [
+        "iterate",
+        "moderate",
+        "elaborate"
+      ],
+      "synonyms": [],
+      "antonyms": [
+        "vertebrate"
+      ],
+      "domainCohort": [
+        "invert"
+      ],
+      "derivationPair": [
+        "vertebrate"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "invest",
     "phonetic": "/ɪn'vɛst/",
-    "pos": ["v."],
-    "coreMeaning": {"cn": "投资；耗费；授予", "en": "to put money or effort into something for profit"},
-    "morphemes": [
-      {"role": "prefix", "positionTendency": "initial", "canonical": "in-", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "in", "meaning": "向内；使", "coreMeaning": {"cn": "使", "en": "into"}},
-      {"role": "root", "positionTendency": "medial", "canonical": "vest-", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "vest", "meaning": "穿衣；授予；给与", "coreMeaning": {"cn": "授予", "en": "vest/clothe"}}
+    "pos": [
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "vestire (L.)", "to": "invest", "by": "in-", "meaning": "装备→授予→投入资金"}]},
+    "coreMeaning": {
+      "cn": "投资；耗费；授予",
+      "en": "to put money or effort into something for profit"
+    },
+    "morphemes": [
+      {
+        "role": "prefix",
+        "positionTendency": "initial",
+        "canonical": "in-",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "in",
+        "meaning": "向内；使",
+        "coreMeaning": {
+          "cn": "使",
+          "en": "into"
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "vest-",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "vest",
+        "meaning": "穿衣；授予；给与",
+        "coreMeaning": {
+          "cn": "授予",
+          "en": "vest/clothe"
+        }
+      }
+    ],
+    "derivationChain": [
+      "invest"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "in(投入)+vest(穿衣) → 把资金穿戴上 → 投资", "imageChain": ["投资", "股票", "资金"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 1}, "domain": ["finance", "general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["investment", "investor", "invested", "investigate"], "sameAffix": [], "synonyms": ["put money into", "fund", "finance", "commit"], "antonyms": ["withdraw", "divest"], "domainCohort": ["investment", "investor"], "derivationPair": ["investment", "investor"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "in(投入)+vest(穿衣) → 把资金穿戴上 → 投资",
+      "imageChain": [
+        "投资",
+        "股票",
+        "资金"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "finance",
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "investment",
+        "investor",
+        "invested",
+        "investigate"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "put money into",
+        "fund",
+        "finance",
+        "commit"
+      ],
+      "antonyms": [
+        "withdraw",
+        "divest"
+      ],
+      "domainCohort": [
+        "investment",
+        "investor"
+      ],
+      "derivationPair": [
+        "investment",
+        "investor"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "investigate",
     "phonetic": "/ɪn'vestɪɡeɪt/",
-    "pos": ["v."],
-    "coreMeaning": {"cn": "调查；研究", "en": "to carry out a systematic inquiry"},
-    "morphemes": [
-      {"role": "prefix", "positionTendency": "initial", "canonical": "in-", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "in", "meaning": "向内；深入", "coreMeaning": {"cn": "深入", "en": "into"}},
-      {"role": "root", "positionTendency": "medial", "canonical": "vestig-", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "vestig", "meaning": "追踪；足迹", "coreMeaning": {"cn": "追踪", "en": "track"}},
-      {"role": "suffix", "positionTendency": "final", "canonical": "-ate", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "-ate", "meaning": "动词化", "coreMeaning": {"cn": "使", "en": "make"}}
+    "pos": [
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "vestigium (L.)", "to": "investigate", "by": "in-+-ate", "meaning": "追踪足迹→调查"}]},
+    "coreMeaning": {
+      "cn": "调查；研究",
+      "en": "to carry out a systematic inquiry"
+    },
+    "morphemes": [
+      {
+        "role": "prefix",
+        "positionTendency": "initial",
+        "canonical": "in-",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "in",
+        "meaning": "向内；深入",
+        "coreMeaning": {
+          "cn": "深入",
+          "en": "into"
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "vestig-",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "vestig",
+        "meaning": "追踪；足迹",
+        "coreMeaning": {
+          "cn": "追踪",
+          "en": "track"
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "final",
+        "canonical": "-ate",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-ate",
+        "meaning": "动词化",
+        "coreMeaning": {
+          "cn": "使",
+          "en": "make"
+        }
+      }
+    ],
+    "derivationChain": [
+      "investigate"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "in(深入)+vestig(追踪)+ate → 深入追踪 → 调查", "imageChain": ["侦探", "调查现场", "取证"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": ["investigation", "investigator", "investigated", "investigative"], "sameAffix": ["eliminate", "accumulate", "evaluate"], "synonyms": ["inquire into", "examine", "probe", "research", "explore"], "antonyms": ["ignore", "overlook"], "domainCohort": ["invest", "investment"], "derivationPair": ["investigation", "investigator"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "in(深入)+vestig(追踪)+ate → 深入追踪 → 调查",
+      "imageChain": [
+        "侦探",
+        "调查现场",
+        "取证"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "investigation",
+        "investigator",
+        "investigated",
+        "investigative"
+      ],
+      "sameAffix": [
+        "eliminate",
+        "accumulate",
+        "evaluate"
+      ],
+      "synonyms": [
+        "inquire into",
+        "examine",
+        "probe",
+        "research",
+        "explore"
+      ],
+      "antonyms": [
+        "ignore",
+        "overlook"
+      ],
+      "domainCohort": [
+        "invest",
+        "investment"
+      ],
+      "derivationPair": [
+        "investigation",
+        "investigator"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "inveterate",
     "phonetic": "/ɪn'vetərɪt/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "积习难改的；根深蒂固的", "en": "having a habit or belief firmly established"},
-    "morphemes": [
-      {"role": "prefix", "positionTendency": "initial", "canonical": "in-", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "in", "meaning": "使…；加强", "coreMeaning": {"cn": "使", "en": "make"}},
-      {"role": "root", "positionTendency": "medial", "canonical": "veter-", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "veter", "meaning": "老；年岁；经历", "coreMeaning": {"cn": "年老", "en": "old/aged"}},
-      {"role": "suffix", "positionTendency": "final", "canonical": "-ate", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "-ate", "meaning": "形容词化", "coreMeaning": {"cn": "形容词", "en": "adj"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "veteranus (L.)", "to": "inveterate", "by": "in-+-ate", "meaning": "经年累月养成的"}]},
+    "coreMeaning": {
+      "cn": "积习难改的；根深蒂固的",
+      "en": "having a habit or belief firmly established"
+    },
+    "morphemes": [
+      {
+        "role": "prefix",
+        "positionTendency": "initial",
+        "canonical": "in-",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "in",
+        "meaning": "使…；加强",
+        "coreMeaning": {
+          "cn": "使",
+          "en": "make"
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "veter-",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "veter",
+        "meaning": "老；年岁；经历",
+        "coreMeaning": {
+          "cn": "年老",
+          "en": "old/aged"
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "final",
+        "canonical": "-ate",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-ate",
+        "meaning": "形容词化",
+        "coreMeaning": {
+          "cn": "形容词",
+          "en": "adj"
+        }
+      }
+    ],
+    "derivationChain": [
+      "inveterate"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "in(使)+veter(老)+ate → 使根深蒂固 → 积习的", "imageChain": ["老习惯", "根深蒂固", "无法改变"]},
-    "wordLevel": {"sentiment": {"tags": ["贬义"], "intensity": -1}, "domain": ["general"], "formality": "formal"},
-    "relations": {"sameRoot": ["veteran", "veterinary"], "sameAffix": ["incorrigible", "inveterate"], "synonyms": ["habitual", "chronic", "confirmed", "entrenched", "deep-rooted"], "antonyms": ["temporary", "occasional", "reformed"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "in(使)+veter(老)+ate → 使根深蒂固 → 积习的",
+      "imageChain": [
+        "老习惯",
+        "根深蒂固",
+        "无法改变"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "veteran",
+        "veterinary"
+      ],
+      "sameAffix": [
+        "incorrigible",
+        "inveterate"
+      ],
+      "synonyms": [
+        "habitual",
+        "chronic",
+        "confirmed",
+        "entrenched",
+        "deep-rooted"
+      ],
+      "antonyms": [
+        "temporary",
+        "occasional",
+        "reformed"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "invidious",
     "phonetic": "/ɪn'vɪdiəs/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "引起反感的；不公平的；易招嫉妒的", "en": "likely to cause resentment or anger; unfairly discriminatory"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "medial", "canonical": "invid-", "sentiment": {"tags": ["贬义"], "intensity": -2}, "order": 1, "form": "invidi", "meaning": "嫉妒；憎恨", "coreMeaning": {"cn": "嫉妒", "en": "envy/hatred"}},
-      {"role": "suffix", "positionTendency": "final", "canonical": "-ous", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-ous", "meaning": "形容词后缀", "coreMeaning": {"cn": "有…性质", "en": "having quality"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "invidia (L.)", "to": "invidious", "by": "-ous", "meaning": "充满嫉妒→引起反感"}]},
+    "coreMeaning": {
+      "cn": "引起反感的；不公平的；易招嫉妒的",
+      "en": "likely to cause resentment or anger; unfairly discriminatory"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "invid-",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -2
+        },
+        "order": 1,
+        "form": "invidi",
+        "meaning": "嫉妒；憎恨",
+        "coreMeaning": {
+          "cn": "嫉妒",
+          "en": "envy/hatred"
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "final",
+        "canonical": "-ous",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ous",
+        "meaning": "形容词后缀",
+        "coreMeaning": {
+          "cn": "有…性质",
+          "en": "having quality"
+        }
+      }
+    ],
+    "derivationChain": [
+      "invidious"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "invidi(嫉妒)+ous → 充满嫉妒 → 引起反感的", "imageChain": ["不公正", "歧视", "偏颇"]},
-    "wordLevel": {"sentiment": {"tags": ["贬义"], "intensity": -2}, "domain": ["general"], "formality": "formal"},
-    "relations": {"sameRoot": ["invidiousness", "invidiously", "envy"], "sameAffix": ["dubious", "odious", "envious"], "synonyms": ["offensive", "discriminatory", "odious", "resentful", "iniquitous"], "antonyms": ["fair", "equitable", "just", "impartial"], "domainCohort": ["inveterate"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "invidi(嫉妒)+ous → 充满嫉妒 → 引起反感的",
+      "imageChain": [
+        "不公正",
+        "歧视",
+        "偏颇"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -2
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "invidiousness",
+        "invidiously",
+        "envy"
+      ],
+      "sameAffix": [
+        "dubious",
+        "odious",
+        "envious"
+      ],
+      "synonyms": [
+        "offensive",
+        "discriminatory",
+        "odious",
+        "resentful",
+        "iniquitous"
+      ],
+      "antonyms": [
+        "fair",
+        "equitable",
+        "just",
+        "impartial"
+      ],
+      "domainCohort": [
+        "inveterate"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "invigilate",
     "phonetic": "/ɪn'vɪdʒɪleɪt/",
-    "pos": ["v."],
-    "coreMeaning": {"cn": "监考；监督", "en": "to supervise candidates during an examination"},
-    "morphemes": [
-      {"role": "prefix", "positionTendency": "initial", "canonical": "in-", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "in", "meaning": "在…中；使", "coreMeaning": {"cn": "使", "en": "make"}},
-      {"role": "root", "positionTendency": "medial", "canonical": "vigil-", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "vigil", "meaning": "守夜；警觉；监视", "coreMeaning": {"cn": "监视", "en": "watch/guard"}},
-      {"role": "suffix", "positionTendency": "final", "canonical": "-ate", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "-ate", "meaning": "动词化", "coreMeaning": {"cn": "使", "en": "make"}}
+    "pos": [
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "vigilare (L.)", "to": "invigilate", "by": "in-+-ate", "meaning": "持续监视→监考"}]},
+    "coreMeaning": {
+      "cn": "监考；监督",
+      "en": "to supervise candidates during an examination"
+    },
+    "morphemes": [
+      {
+        "role": "prefix",
+        "positionTendency": "initial",
+        "canonical": "in-",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "in",
+        "meaning": "在…中；使",
+        "coreMeaning": {
+          "cn": "使",
+          "en": "make"
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "vigil-",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "vigil",
+        "meaning": "守夜；警觉；监视",
+        "coreMeaning": {
+          "cn": "监视",
+          "en": "watch/guard"
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "final",
+        "canonical": "-ate",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "-ate",
+        "meaning": "动词化",
+        "coreMeaning": {
+          "cn": "使",
+          "en": "make"
+        }
+      }
+    ],
+    "derivationChain": [
+      "invigilate"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "in(在)+vigil(监视)+ate → 在考场中监视 → 监考", "imageChain": ["考场", "监考官", "巡视"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["academic"], "formality": "formal"},
-    "relations": {"sameRoot": ["invigilation", "vigil", "vigilance", "vigilant"], "sameAffix": ["investigate", "inveterate"], "synonyms": ["proctor", "supervise", "monitor", "oversee"], "antonyms": [], "domainCohort": ["investigate"], "derivationPair": ["invigilation"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "in(在)+vigil(监视)+ate → 在考场中监视 → 监考",
+      "imageChain": [
+        "考场",
+        "监考官",
+        "巡视"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "academic"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "invigilation",
+        "vigil",
+        "vigilance",
+        "vigilant"
+      ],
+      "sameAffix": [
+        "investigate",
+        "inveterate"
+      ],
+      "synonyms": [
+        "proctor",
+        "supervise",
+        "monitor",
+        "oversee"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "investigate"
+      ],
+      "derivationPair": [
+        "invigilation"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

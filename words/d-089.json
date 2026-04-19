@@ -2,478 +2,2803 @@
   {
     "word": "doers",
     "phonetic": "/ˈduːərz/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "实干家；行动者（复数）", "en": "people who act rather than just think"},
-    "morphemes": [
-      {"canonical": "do", "role": "root", "positionTendency": "initial", "meaning": "act, perform", "sentiment": {"tags": ["褒义"], "intensity": 1}, "order": 1, "form": "do"},
-      {"canonical": "-er", "role": "suffix", "positionTendency": "medial", "meaning": "agent noun", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "er"},
-      {"canonical": "-s", "role": "suffix", "positionTendency": "final", "meaning": "plural", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "s"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "do", "to": "doer", "rule": "-er suffix"}, {"from": "doer", "to": "doers", "rule": "-s plural"}]},
+    "coreMeaning": {
+      "cn": "实干家；行动者（复数）",
+      "en": "people who act rather than just think"
+    },
+    "morphemes": [
+      {
+        "canonical": "do",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "act, perform",
+        "sentiment": {
+          "tags": [
+            "褒义"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "do"
+      },
+      {
+        "canonical": "-er",
+        "role": "suffix",
+        "positionTendency": "medial",
+        "meaning": "agent noun",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "er"
+      },
+      {
+        "canonical": "-s",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "plural",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "s"
+      }
+    ],
+    "derivationChain": [
+      "doer",
+      "doers"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "do+er+s=做事的人们", "imageChain": ["行动派", "实干家", "执行者"], "mnemonicExpr": "do(做)+-er(人)+s(复数)→实干家们"},
-    "wordLevel": {"sentiment": {"tags": ["褒义"], "intensity": 1}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["doer"], "sameAffix": [], "synonyms": ["achievers", "actors", "performers"], "antonyms": ["dreamers", "thinkers"], "domainCohort": [], "derivationPair": ["doer"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "do+er+s=做事的人们",
+      "imageChain": [
+        "行动派",
+        "实干家",
+        "执行者"
+      ],
+      "mnemonicExpr": "do(做)+-er(人)+s(复数)→实干家们"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "褒义"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "doer"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "achievers",
+        "actors",
+        "performers"
+      ],
+      "antonyms": [
+        "dreamers",
+        "thinkers"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "doer"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "doff",
     "phonetic": "/dɑf/",
-    "pos": ["v."],
-    "coreMeaning": {"cn": "脱掉（帽子或衣服）", "en": "to remove (a hat or clothing), especially as a gesture"},
-    "morphemes": [
-      {"canonical": "do", "role": "root", "positionTendency": "initial", "meaning": "do, perform (contracted)", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "d"},
-      {"canonical": "off", "role": "root", "positionTendency": "final", "meaning": "away, off", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "off"}
+    "pos": [
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "do + off", "to": "doff", "rule": "contraction"}]},
+    "coreMeaning": {
+      "cn": "脱掉（帽子或衣服）",
+      "en": "to remove (a hat or clothing), especially as a gesture"
+    },
+    "morphemes": [
+      {
+        "canonical": "do",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "do, perform (contracted)",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "d"
+      },
+      {
+        "canonical": "off",
+        "role": "root",
+        "positionTendency": "final",
+        "meaning": "away, off",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "off"
+      }
+    ],
+    "derivationChain": [
+      "doff"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "d(do)+off=做掉=脱去", "imageChain": ["脱帽致意", "摘下帽子", "正式礼节"], "mnemonicExpr": "d(do)+off(去除)→脱帽敬礼"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "formal"},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["remove", "take off", "tip"], "antonyms": ["don", "put on"], "domainCohort": ["don"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "d(do)+off=做掉=脱去",
+      "imageChain": [
+        "脱帽致意",
+        "摘下帽子",
+        "正式礼节"
+      ],
+      "mnemonicExpr": "d(do)+off(去除)→脱帽敬礼"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "remove",
+        "take off",
+        "tip"
+      ],
+      "antonyms": [
+        "don",
+        "put on"
+      ],
+      "domainCohort": [
+        "don"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "dogged",
     "phonetic": "/ˈdɔɡɪd/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "顽强的；执着的", "en": "having or showing tenacity and grim persistence"},
-    "morphemes": [
-      {"canonical": "dog", "role": "root", "positionTendency": "initial", "meaning": "dog (associated with tenacity)", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "dog"},
-      {"canonical": "-ed", "role": "suffix", "positionTendency": "final", "meaning": "adjectival", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ged"}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "dog", "to": "dogged", "rule": "-ed adjectival suffix"}]},
+    "coreMeaning": {
+      "cn": "顽强的；执着的",
+      "en": "having or showing tenacity and grim persistence"
+    },
+    "morphemes": [
+      {
+        "canonical": "dog",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "dog (associated with tenacity)",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "dog"
+      },
+      {
+        "canonical": "-ed",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "adjectival",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ged"
+      }
+    ],
+    "derivationChain": [
+      "dogged"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "dog+ged=狗一样的顽强坚持", "imageChain": ["拼命向前", "不懈努力", "顽强"], "mnemonicExpr": "dog(狗)+-ged→像狗咬骨头不放→顽强"},
-    "wordLevel": {"sentiment": {"tags": ["褒义"], "intensity": 1}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["doggedly", "doggedness"], "sameAffix": [], "synonyms": ["tenacious", "persistent", "relentless"], "antonyms": ["irresolute", "weak-willed"], "domainCohort": [], "derivationPair": ["doggedly"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "dog+ged=狗一样的顽强坚持",
+      "imageChain": [
+        "拼命向前",
+        "不懈努力",
+        "顽强"
+      ],
+      "mnemonicExpr": "dog(狗)+-ged→像狗咬骨头不放→顽强"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "褒义"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "doggedly",
+        "doggedness"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "tenacious",
+        "persistent",
+        "relentless"
+      ],
+      "antonyms": [
+        "irresolute",
+        "weak-willed"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "doggedly"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "doggerel",
     "phonetic": "/ˈdɔɡərəl/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "打油诗；劣诗", "en": "poorly written or trivial verse"},
-    "morphemes": [
-      {"canonical": "dog", "role": "root", "positionTendency": "initial", "meaning": "dog (deprecatory usage)", "sentiment": {"tags": ["贬义"], "intensity": -1}, "order": 1, "form": "dog"},
-      {"canonical": "-erel", "role": "suffix", "positionTendency": "final", "meaning": "diminutive/deprecatory", "sentiment": {"tags": ["贬义"], "intensity": -1}, "order": 2, "form": "erel"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "dog + -erel", "to": "doggerel", "rule": "deprecatory suffix"}]},
+    "coreMeaning": {
+      "cn": "打油诗；劣诗",
+      "en": "poorly written or trivial verse"
+    },
+    "morphemes": [
+      {
+        "canonical": "dog",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "dog (deprecatory usage)",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "dog"
+      },
+      {
+        "canonical": "-erel",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "diminutive/deprecatory",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -1
+        },
+        "order": 2,
+        "form": "erel"
+      }
+    ],
+    "derivationChain": [
+      "doggerel"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "dog+gerel=狗级别的诗=劣诗", "imageChain": ["粗糙诗歌", "幽默打油诗", "民间俚诗"], "mnemonicExpr": "dog(狗)+erel→如狗吠一般的诗→打油诗"},
-    "wordLevel": {"sentiment": {"tags": ["贬义"], "intensity": -1}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["jingle", "verse", "rhyme"], "antonyms": ["poetry", "verse (serious)"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "dog+gerel=狗级别的诗=劣诗",
+      "imageChain": [
+        "粗糙诗歌",
+        "幽默打油诗",
+        "民间俚诗"
+      ],
+      "mnemonicExpr": "dog(狗)+erel→如狗吠一般的诗→打油诗"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "jingle",
+        "verse",
+        "rhyme"
+      ],
+      "antonyms": [
+        "poetry",
+        "verse (serious)"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "dogma",
     "phonetic": "/ˈdɔɡmə/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "教条；信条", "en": "a principle laid down by authority as incontrovertibly true"},
-    "morphemes": [
-      {"canonical": "dogma", "role": "root", "positionTendency": "medial", "meaning": "opinion, decree (Greek)", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "dogma"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "Greek dogma (dokein=seem)", "to": "dogma", "rule": "borrowing"}]},
+    "coreMeaning": {
+      "cn": "教条；信条",
+      "en": "a principle laid down by authority as incontrovertibly true"
+    },
+    "morphemes": [
+      {
+        "canonical": "dogma",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "opinion, decree (Greek)",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "dogma"
+      }
+    ],
+    "derivationChain": [
+      "dogma"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "dogma=权威教义=不可质疑", "imageChain": ["宗教教义", "不可置疑的真理", "权威信条"], "mnemonicExpr": "dogma→教义像狗链一样束缚思想"},
-    "wordLevel": {"sentiment": {"tags": ["贬义"], "intensity": -1}, "domain": ["academic", "general"], "formality": "formal"},
-    "relations": {"sameRoot": ["dogmatic", "dogmatism"], "sameAffix": [], "synonyms": ["doctrine", "tenet", "creed", "canon"], "antonyms": ["doubt", "skepticism"], "domainCohort": [], "derivationPair": ["dogmatic", "dogmatism"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "dogma=权威教义=不可质疑",
+      "imageChain": [
+        "宗教教义",
+        "不可置疑的真理",
+        "权威信条"
+      ],
+      "mnemonicExpr": "dogma→教义像狗链一样束缚思想"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -1
+      },
+      "domain": [
+        "academic",
+        "general"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "dogmatic",
+        "dogmatism"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "doctrine",
+        "tenet",
+        "creed",
+        "canon"
+      ],
+      "antonyms": [
+        "doubt",
+        "skepticism"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "dogmatic",
+        "dogmatism"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "dogmatic",
     "phonetic": "/dɔɡˈmætɪk/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "教条的；武断的", "en": "inclined to lay down principles as undeniably true"},
-    "morphemes": [
-      {"canonical": "dogma", "role": "root", "positionTendency": "initial", "meaning": "doctrine", "sentiment": {"tags": ["贬义"], "intensity": -1}, "order": 1, "form": "dogma"},
-      {"canonical": "-tic", "role": "suffix", "positionTendency": "final", "meaning": "of, relating to", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "tic"}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "dogma", "to": "dogmatic", "rule": "-tic suffix"}]},
+    "coreMeaning": {
+      "cn": "教条的；武断的",
+      "en": "inclined to lay down principles as undeniably true"
+    },
+    "morphemes": [
+      {
+        "canonical": "dogma",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "doctrine",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "dogma"
+      },
+      {
+        "canonical": "-tic",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "of, relating to",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "tic"
+      }
+    ],
+    "derivationChain": [
+      "dogmatic"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "dogma+tic=教条性的=固执己见", "imageChain": ["武断观点", "不容质疑", "独断专行"], "mnemonicExpr": "dogma(教条)+-tic→教条性的→武断的"},
-    "wordLevel": {"sentiment": {"tags": ["贬义"], "intensity": -1}, "domain": ["academic"], "formality": "formal"},
-    "relations": {"sameRoot": ["dogma", "dogmatism"], "sameAffix": [], "synonyms": ["opinionated", "dictatorial", "autocratic"], "antonyms": ["open-minded", "flexible", "tolerant"], "domainCohort": [], "derivationPair": ["dogmatism"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "dogma+tic=教条性的=固执己见",
+      "imageChain": [
+        "武断观点",
+        "不容质疑",
+        "独断专行"
+      ],
+      "mnemonicExpr": "dogma(教条)+-tic→教条性的→武断的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -1
+      },
+      "domain": [
+        "academic"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "dogma",
+        "dogmatism"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "opinionated",
+        "dictatorial",
+        "autocratic"
+      ],
+      "antonyms": [
+        "open-minded",
+        "flexible",
+        "tolerant"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "dogmatism"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "dogmatism",
     "phonetic": "/ˈdɔɡmətɪzəm/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "教条主义；独断论", "en": "the tendency to be dogmatic; an arrogant assertion of opinions"},
-    "morphemes": [
-      {"canonical": "dogma", "role": "root", "positionTendency": "initial", "meaning": "doctrine", "sentiment": {"tags": ["贬义"], "intensity": -1}, "order": 1, "form": "dogma"},
-      {"canonical": "-ism", "role": "suffix", "positionTendency": "final", "meaning": "doctrine, practice", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "tism"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "dogmatic", "to": "dogmatism", "rule": "-ism suffix"}]},
+    "coreMeaning": {
+      "cn": "教条主义；独断论",
+      "en": "the tendency to be dogmatic; an arrogant assertion of opinions"
+    },
+    "morphemes": [
+      {
+        "canonical": "dogma",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "doctrine",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "dogma"
+      },
+      {
+        "canonical": "-ism",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "doctrine, practice",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "tism"
+      }
+    ],
+    "derivationChain": [
+      "dogmatism"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "dogma+tism=教条主义体系", "imageChain": ["意识形态", "思想僵化", "独断体系"], "mnemonicExpr": "dogma(教条)+-ism(主义)→教条主义"},
-    "wordLevel": {"sentiment": {"tags": ["贬义"], "intensity": -1}, "domain": ["academic"], "formality": "formal"},
-    "relations": {"sameRoot": ["dogma", "dogmatic"], "sameAffix": [], "synonyms": ["bigotry", "intolerance", "narrow-mindedness"], "antonyms": ["open-mindedness", "freethinking"], "domainCohort": [], "derivationPair": ["dogmatic"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "dogma+tism=教条主义体系",
+      "imageChain": [
+        "意识形态",
+        "思想僵化",
+        "独断体系"
+      ],
+      "mnemonicExpr": "dogma(教条)+-ism(主义)→教条主义"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -1
+      },
+      "domain": [
+        "academic"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "dogma",
+        "dogmatic"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "bigotry",
+        "intolerance",
+        "narrow-mindedness"
+      ],
+      "antonyms": [
+        "open-mindedness",
+        "freethinking"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "dogmatic"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "dogmatist",
     "phonetic": "/ˈdɔɡmətɪst/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "教条主义者；独断论者", "en": "a person who lays down principles dogmatically"},
-    "morphemes": [
-      {"canonical": "dogma", "role": "root", "positionTendency": "initial", "meaning": "doctrine", "sentiment": {"tags": ["贬义"], "intensity": -1}, "order": 1, "form": "dogma"},
-      {"canonical": "-ist", "role": "suffix", "positionTendency": "final", "meaning": "agent noun", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "tist"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "dogmatism", "to": "dogmatist", "rule": "-ist suffix"}]},
+    "coreMeaning": {
+      "cn": "教条主义者；独断论者",
+      "en": "a person who lays down principles dogmatically"
+    },
+    "morphemes": [
+      {
+        "canonical": "dogma",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "doctrine",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "dogma"
+      },
+      {
+        "canonical": "-ist",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "agent noun",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "tist"
+      }
+    ],
+    "derivationChain": [
+      "dogmatist"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "dogma+tist=持教条主义的人", "imageChain": ["固执的信徒", "意识形态斗士", "极端信徒"], "mnemonicExpr": "dogma(教条)+-ist(人)→教条主义者"},
-    "wordLevel": {"sentiment": {"tags": ["贬义"], "intensity": -1}, "domain": ["academic"], "formality": "formal"},
-    "relations": {"sameRoot": ["dogma", "dogmatic", "dogmatism"], "sameAffix": [], "synonyms": ["zealot", "doctrinaire"], "antonyms": ["freethinker", "skeptic"], "domainCohort": [], "derivationPair": ["dogmatism"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "dogma+tist=持教条主义的人",
+      "imageChain": [
+        "固执的信徒",
+        "意识形态斗士",
+        "极端信徒"
+      ],
+      "mnemonicExpr": "dogma(教条)+-ist(人)→教条主义者"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -1
+      },
+      "domain": [
+        "academic"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "dogma",
+        "dogmatic",
+        "dogmatism"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "zealot",
+        "doctrinaire"
+      ],
+      "antonyms": [
+        "freethinker",
+        "skeptic"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "dogmatism"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "dull",
     "phonetic": "/dʌl/",
-    "pos": ["adj.", "v."],
-    "coreMeaning": {"cn": "沉闷的；迟钝的；暗淡的", "en": "lacking brightness, interest, or sharpness"},
-    "morphemes": [
-      {"canonical": "dull", "role": "root", "positionTendency": "medial", "meaning": "blunt, dull (Old English dol)", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "dull"}
+    "pos": [
+      "adj.",
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "Old English dol", "to": "dull", "rule": "evolution"}]},
+    "coreMeaning": {
+      "cn": "沉闷的；迟钝的；暗淡的",
+      "en": "lacking brightness, interest, or sharpness"
+    },
+    "morphemes": [
+      {
+        "canonical": "dull",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "blunt, dull (Old English dol)",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "dull"
+      }
+    ],
+    "derivationChain": [
+      "dull"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "dull=迟钝=无光彩=无趣", "imageChain": ["阴沉天气", "枯燥课程", "钝刀"], "mnemonicExpr": "dull→d+ull(沉闷)→沉闷无趣"},
-    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": -1}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["dullard", "dullness", "dully"], "sameAffix": [], "synonyms": ["boring", "blunt", "dreary", "dim"], "antonyms": ["bright", "sharp", "vivid", "interesting"], "domainCohort": [], "derivationPair": ["dullard", "dullness"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "dull=迟钝=无光彩=无趣",
+      "imageChain": [
+        "阴沉天气",
+        "枯燥课程",
+        "钝刀"
+      ],
+      "mnemonicExpr": "dull→d+ull(沉闷)→沉闷无趣"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "dullard",
+        "dullness",
+        "dully"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "boring",
+        "blunt",
+        "dreary",
+        "dim"
+      ],
+      "antonyms": [
+        "bright",
+        "sharp",
+        "vivid",
+        "interesting"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "dullard",
+        "dullness"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "dullard",
     "phonetic": "/ˈdʌlɑrd/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "笨蛋；愚人", "en": "a slow or stupid person"},
-    "morphemes": [
-      {"canonical": "dull", "role": "root", "positionTendency": "initial", "meaning": "stupid, blunt", "sentiment": {"tags": ["贬义"], "intensity": -1}, "order": 1, "form": "dull"},
-      {"canonical": "-ard", "role": "suffix", "positionTendency": "final", "meaning": "pejorative person suffix", "sentiment": {"tags": ["贬义"], "intensity": -1}, "order": 2, "form": "ard"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "dull", "to": "dullard", "rule": "-ard suffix"}]},
+    "coreMeaning": {
+      "cn": "笨蛋；愚人",
+      "en": "a slow or stupid person"
+    },
+    "morphemes": [
+      {
+        "canonical": "dull",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "stupid, blunt",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "dull"
+      },
+      {
+        "canonical": "-ard",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "pejorative person suffix",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -1
+        },
+        "order": 2,
+        "form": "ard"
+      }
+    ],
+    "derivationChain": [
+      "dullard"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "dull+ard=迟钝的人=笨蛋", "imageChain": ["木头脑袋", "愚笨者", "学习困难者"], "mnemonicExpr": "dull(迟钝)+-ard→迟钝的家伙→笨蛋"},
-    "wordLevel": {"sentiment": {"tags": ["贬义"], "intensity": -2}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["dull", "dullness"], "sameAffix": ["drunkard", "sluggard", "braggart"], "synonyms": ["dunce", "blockhead", "dolt", "numskull"], "antonyms": ["genius", "prodigy"], "domainCohort": [], "derivationPair": ["dull"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "dull+ard=迟钝的人=笨蛋",
+      "imageChain": [
+        "木头脑袋",
+        "愚笨者",
+        "学习困难者"
+      ],
+      "mnemonicExpr": "dull(迟钝)+-ard→迟钝的家伙→笨蛋"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -2
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "dull",
+        "dullness"
+      ],
+      "sameAffix": [
+        "drunkard",
+        "sluggard",
+        "braggart"
+      ],
+      "synonyms": [
+        "dunce",
+        "blockhead",
+        "dolt",
+        "numskull"
+      ],
+      "antonyms": [
+        "genius",
+        "prodigy"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "dull"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "duly",
     "phonetic": "/ˈduːli/",
-    "pos": ["adv."],
-    "coreMeaning": {"cn": "按时地；适当地", "en": "in a proper manner; at the right time"},
-    "morphemes": [
-      {"canonical": "due", "role": "root", "positionTendency": "initial", "meaning": "owed, proper", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "dul"},
-      {"canonical": "-ly", "role": "suffix", "positionTendency": "final", "meaning": "adverbial", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ly"}
+    "pos": [
+      "adv."
     ],
-    "derivationChain": {"steps": [{"from": "due", "to": "duly", "rule": "-ly suffix"}]},
+    "coreMeaning": {
+      "cn": "按时地；适当地",
+      "en": "in a proper manner; at the right time"
+    },
+    "morphemes": [
+      {
+        "canonical": "due",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "owed, proper",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "dul"
+      },
+      {
+        "canonical": "-ly",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "adverbial",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ly"
+      }
+    ],
+    "derivationChain": [
+      "duly"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "due(应当的)+ly=以应有的方式=适当地", "imageChain": ["按时交付", "正式批准", "恰如其分"], "mnemonicExpr": "due(应有)+ly→应有地→适当地"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["legal", "general"], "formality": "formal"},
-    "relations": {"sameRoot": ["due", "undue", "unduly"], "sameAffix": [], "synonyms": ["properly", "appropriately", "punctually", "rightly"], "antonyms": ["improperly", "late"], "domainCohort": [], "derivationPair": ["due"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "due(应当的)+ly=以应有的方式=适当地",
+      "imageChain": [
+        "按时交付",
+        "正式批准",
+        "恰如其分"
+      ],
+      "mnemonicExpr": "due(应有)+ly→应有地→适当地"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "legal",
+        "general"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "due",
+        "undue",
+        "unduly"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "properly",
+        "appropriately",
+        "punctually",
+        "rightly"
+      ],
+      "antonyms": [
+        "improperly",
+        "late"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "due"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "dumb",
     "phonetic": "/dʌm/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "哑的；不说话的；愚蠢的", "en": "unable or unwilling to speak; stupid (informal)"},
-    "morphemes": [
-      {"canonical": "dumb", "role": "root", "positionTendency": "medial", "meaning": "mute, silent (Old English dumb)", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "dumb"}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "Old English dumb", "to": "dumb", "rule": "evolution"}]},
+    "coreMeaning": {
+      "cn": "哑的；不说话的；愚蠢的",
+      "en": "unable or unwilling to speak; stupid (informal)"
+    },
+    "morphemes": [
+      {
+        "canonical": "dumb",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "mute, silent (Old English dumb)",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "dumb"
+      }
+    ],
+    "derivationChain": [
+      "dumb"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "dumb=无声=不能说话", "imageChain": ["哑巴", "沉默", "无语"], "mnemonicExpr": "dumb→哑口无言"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["dumbfound", "dumbstruck", "dumbly"], "sameAffix": [], "synonyms": ["mute", "speechless", "silent"], "antonyms": ["articulate", "vocal", "eloquent"], "domainCohort": [], "derivationPair": ["dumbfound", "dumbbell"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "dumb=无声=不能说话",
+      "imageChain": [
+        "哑巴",
+        "沉默",
+        "无语"
+      ],
+      "mnemonicExpr": "dumb→哑口无言"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "dumbfound",
+        "dumbstruck",
+        "dumbly"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "mute",
+        "speechless",
+        "silent"
+      ],
+      "antonyms": [
+        "articulate",
+        "vocal",
+        "eloquent"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "dumbfound",
+        "dumbbell"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "dumbbell",
     "phonetic": "/ˈdʌmbɛl/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "哑铃", "en": "a short bar with a weight at each end, used for exercise"},
-    "morphemes": [
-      {"canonical": "dumb", "role": "root", "positionTendency": "initial", "meaning": "mute, silent (no clapper)", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "dumb"},
-      {"canonical": "bell", "role": "root", "positionTendency": "final", "meaning": "bell", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "bell"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "dumb + bell", "to": "dumbbell", "rule": "compound"}]},
+    "coreMeaning": {
+      "cn": "哑铃",
+      "en": "a short bar with a weight at each end, used for exercise"
+    },
+    "morphemes": [
+      {
+        "canonical": "dumb",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "mute, silent (no clapper)",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "dumb"
+      },
+      {
+        "canonical": "bell",
+        "role": "root",
+        "positionTendency": "final",
+        "meaning": "bell",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "bell"
+      }
+    ],
+    "derivationChain": [
+      "dumbbell"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "dumb(无声)+bell(铃)=无声的铃=哑铃", "imageChain": ["举重器械", "健身房", "哑铃训练"], "mnemonicExpr": "dumb(哑)+bell(铃)→无声铃→哑铃"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["dumb"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "dumb(无声)+bell(铃)=无声的铃=哑铃",
+      "imageChain": [
+        "举重器械",
+        "健身房",
+        "哑铃训练"
+      ],
+      "mnemonicExpr": "dumb(哑)+bell(铃)→无声铃→哑铃"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "dumb"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "dumbfound",
     "phonetic": "/dʌmˈfaʊnd/",
-    "pos": ["v."],
-    "coreMeaning": {"cn": "使惊呆；令人哑然", "en": "to astonish and bewilder; to strike dumb with amazement"},
-    "morphemes": [
-      {"canonical": "dumb", "role": "root", "positionTendency": "initial", "meaning": "mute, silent", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "dumb"},
-      {"canonical": "found", "role": "root", "positionTendency": "final", "meaning": "confound (strike)", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "found"}
+    "pos": [
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "dumb + confound", "to": "dumbfound", "rule": "blend"}]},
+    "coreMeaning": {
+      "cn": "使惊呆；令人哑然",
+      "en": "to astonish and bewilder; to strike dumb with amazement"
+    },
+    "morphemes": [
+      {
+        "canonical": "dumb",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "mute, silent",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "dumb"
+      },
+      {
+        "canonical": "found",
+        "role": "root",
+        "positionTendency": "final",
+        "meaning": "confound (strike)",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "found"
+      }
+    ],
+    "derivationChain": [
+      "dumbfound"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "dumb(哑)+found(confound混乱)=震惊到说不出话", "imageChain": ["目瞪口呆", "目瞠结舌", "说不出话"], "mnemonicExpr": "dumb(哑)+found(打击)→震惊得说不出话"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["dumb", "dumbstruck"], "sameAffix": [], "synonyms": ["astound", "flabbergast", "bewilder"], "antonyms": [], "domainCohort": [], "derivationPair": ["dumbfounded"], "morphVariants": ["dumbstruck"], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "dumb(哑)+found(confound混乱)=震惊到说不出话",
+      "imageChain": [
+        "目瞪口呆",
+        "目瞠结舌",
+        "说不出话"
+      ],
+      "mnemonicExpr": "dumb(哑)+found(打击)→震惊得说不出话"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "dumb",
+        "dumbstruck"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "astound",
+        "flabbergast",
+        "bewilder"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "dumbfounded"
+      ],
+      "morphVariants": [
+        "dumbstruck"
+      ],
+      "sameImagery": []
+    }
   },
   {
     "word": "dump",
     "phonetic": "/dʌmp/",
-    "pos": ["v.", "n."],
-    "coreMeaning": {"cn": "倾倒；丢弃；倾销", "en": "to deposit carelessly; a rubbish tip"},
-    "morphemes": [
-      {"canonical": "dump", "role": "root", "positionTendency": "medial", "meaning": "drop, discard (Scandinavian)", "sentiment": {"tags": ["贬义"], "intensity": -1}, "order": 1, "form": "dump"}
+    "pos": [
+      "v.",
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "Scandinavian dumpa", "to": "dump", "rule": "borrowing"}]},
+    "coreMeaning": {
+      "cn": "倾倒；丢弃；倾销",
+      "en": "to deposit carelessly; a rubbish tip"
+    },
+    "morphemes": [
+      {
+        "canonical": "dump",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "drop, discard (Scandinavian)",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "dump"
+      }
+    ],
+    "derivationChain": [
+      "dump"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "dump=随意丢弃=倾倒", "imageChain": ["垃圾堆", "倾倒废物", "丢弃"], "mnemonicExpr": "dump→d+ump→如厕般随意倾倒"},
-    "wordLevel": {"sentiment": {"tags": ["贬义"], "intensity": -1}, "domain": ["general", "economics"], "formality": "neutral"},
-    "relations": {"sameRoot": ["dumping", "dumped", "dumper"], "sameAffix": [], "synonyms": ["discard", "unload", "deposit"], "antonyms": ["collect", "gather"], "domainCohort": [], "derivationPair": ["dumping"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "dump=随意丢弃=倾倒",
+      "imageChain": [
+        "垃圾堆",
+        "倾倒废物",
+        "丢弃"
+      ],
+      "mnemonicExpr": "dump→d+ump→如厕般随意倾倒"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -1
+      },
+      "domain": [
+        "general",
+        "economics"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "dumping",
+        "dumped",
+        "dumper"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "discard",
+        "unload",
+        "deposit"
+      ],
+      "antonyms": [
+        "collect",
+        "gather"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "dumping"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "dumpling",
     "phonetic": "/ˈdʌmplɪŋ/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "面团；饺子；汤团", "en": "a small ball of dough cooked in liquid or stuffed with filling"},
-    "morphemes": [
-      {"canonical": "dump", "role": "root", "positionTendency": "initial", "meaning": "lump, clump", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "dump"},
-      {"canonical": "-ling", "role": "suffix", "positionTendency": "final", "meaning": "diminutive", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ling"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "dump + -ling", "to": "dumpling", "rule": "diminutive suffix"}]},
+    "coreMeaning": {
+      "cn": "面团；饺子；汤团",
+      "en": "a small ball of dough cooked in liquid or stuffed with filling"
+    },
+    "morphemes": [
+      {
+        "canonical": "dump",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "lump, clump",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "dump"
+      },
+      {
+        "canonical": "-ling",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "diminutive",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ling"
+      }
+    ],
+    "derivationChain": [
+      "dumpling"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "dump(团块)+-ling(小)=小面团=饺子", "imageChain": ["饺子", "面团", "中式点心"], "mnemonicExpr": "dump(面团)+-ling(小)→小面团→饺子"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["dump"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "dump(团块)+-ling(小)=小面团=饺子",
+      "imageChain": [
+        "饺子",
+        "面团",
+        "中式点心"
+      ],
+      "mnemonicExpr": "dump(面团)+-ling(小)→小面团→饺子"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "dump"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "dupe",
     "phonetic": "/djuːp/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "受骗者；欺骗", "en": "a victim of deception; to deceive someone"},
-    "morphemes": [
-      {"canonical": "dupe", "role": "root", "positionTendency": "medial", "meaning": "deceive (French duper)", "sentiment": {"tags": ["贬义"], "intensity": -1}, "order": 1, "form": "dupe"}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "French duper", "to": "dupe", "rule": "borrowing"}]},
+    "coreMeaning": {
+      "cn": "受骗者；欺骗",
+      "en": "a victim of deception; to deceive someone"
+    },
+    "morphemes": [
+      {
+        "canonical": "dupe",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "deceive (French duper)",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "dupe"
+      }
+    ],
+    "derivationChain": [
+      "dupe"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "dupe=傻瓜+被骗=受骗者", "imageChain": ["骗局", "受害者", "上当"], "mnemonicExpr": "dupe→du(都)+pe(被骗)→受骗者"},
-    "wordLevel": {"sentiment": {"tags": ["贬义"], "intensity": -1}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["duped", "duping"], "sameAffix": [], "synonyms": ["fool", "victim", "sucker"], "antonyms": ["deceiver", "trickster"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "dupe=傻瓜+被骗=受骗者",
+      "imageChain": [
+        "骗局",
+        "受害者",
+        "上当"
+      ],
+      "mnemonicExpr": "dupe→du(都)+pe(被骗)→受骗者"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "duped",
+        "duping"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "fool",
+        "victim",
+        "sucker"
+      ],
+      "antonyms": [
+        "deceiver",
+        "trickster"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "duplicity",
     "phonetic": "/djuːˈplɪsɪti/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "口是心非；欺骗性", "en": "deceitfulness; double-dealing"},
-    "morphemes": [
-      {"canonical": "duplic-", "role": "root", "positionTendency": "initial", "meaning": "double (duplex)", "sentiment": {"tags": ["贬义"], "intensity": -1}, "order": 1, "form": "duplic"},
-      {"canonical": "-ity", "role": "suffix", "positionTendency": "final", "meaning": "state, quality", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ity"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "Latin duplicitas", "to": "duplicity", "rule": "borrowing"}]},
+    "coreMeaning": {
+      "cn": "口是心非；欺骗性",
+      "en": "deceitfulness; double-dealing"
+    },
+    "morphemes": [
+      {
+        "canonical": "duplic-",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "double (duplex)",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "duplic"
+      },
+      {
+        "canonical": "-ity",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "state, quality",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ity"
+      }
+    ],
+    "derivationChain": [
+      "duplicity"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "duplic(双面)+ity=两面性=欺骗", "imageChain": ["两面派", "口是心非", "双重人格"], "mnemonicExpr": "duplic(双面)+ity→两副面孔→欺骗"},
-    "wordLevel": {"sentiment": {"tags": ["贬义"], "intensity": -2}, "domain": ["general", "academic"], "formality": "formal"},
-    "relations": {"sameRoot": ["duplicate", "duplex"], "sameAffix": [], "synonyms": ["deceit", "treachery", "double-dealing"], "antonyms": ["sincerity", "honesty", "candor"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "duplic(双面)+ity=两面性=欺骗",
+      "imageChain": [
+        "两面派",
+        "口是心非",
+        "双重人格"
+      ],
+      "mnemonicExpr": "duplic(双面)+ity→两副面孔→欺骗"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -2
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "duplicate",
+        "duplex"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "deceit",
+        "treachery",
+        "double-dealing"
+      ],
+      "antonyms": [
+        "sincerity",
+        "honesty",
+        "candor"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "durable",
     "phonetic": "/ˈdjʊərəbl/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "持久的；耐用的", "en": "able to withstand wear and last a long time"},
-    "morphemes": [
-      {"canonical": "dur-", "role": "root", "positionTendency": "initial", "meaning": "last, endure (durare)", "sentiment": {"tags": ["褒义"], "intensity": 1}, "order": 1, "form": "dur"},
-      {"canonical": "-able", "role": "suffix", "positionTendency": "final", "meaning": "capable of", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "able"}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "Latin durare", "to": "durable", "rule": "-able suffix"}]},
+    "coreMeaning": {
+      "cn": "持久的；耐用的",
+      "en": "able to withstand wear and last a long time"
+    },
+    "morphemes": [
+      {
+        "canonical": "dur-",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "last, endure (durare)",
+        "sentiment": {
+          "tags": [
+            "褒义"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "dur"
+      },
+      {
+        "canonical": "-able",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "capable of",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "able"
+      }
+    ],
+    "derivationChain": [
+      "durable"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "dur(持久)+able=能持久的=耐用的", "imageChain": ["高质量材料", "经久耐用", "长期使用"], "mnemonicExpr": "dur(持久)+-able→能持久的→耐用的"},
-    "wordLevel": {"sentiment": {"tags": ["褒义"], "intensity": 1}, "domain": ["general", "economics"], "formality": "neutral"},
-    "relations": {"sameRoot": ["endure", "duration", "during"], "sameAffix": ["reliable", "portable"], "synonyms": ["lasting", "resilient", "sturdy", "long-lasting"], "antonyms": ["fragile", "perishable", "ephemeral"], "domainCohort": [], "derivationPair": ["durability", "durably"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "dur(持久)+able=能持久的=耐用的",
+      "imageChain": [
+        "高质量材料",
+        "经久耐用",
+        "长期使用"
+      ],
+      "mnemonicExpr": "dur(持久)+-able→能持久的→耐用的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "褒义"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general",
+        "economics"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "endure",
+        "duration",
+        "during"
+      ],
+      "sameAffix": [
+        "reliable",
+        "portable"
+      ],
+      "synonyms": [
+        "lasting",
+        "resilient",
+        "sturdy",
+        "long-lasting"
+      ],
+      "antonyms": [
+        "fragile",
+        "perishable",
+        "ephemeral"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "durability",
+        "durably"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "duress",
     "phonetic": "/djʊˈrɛs/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "强迫；胁迫", "en": "threats, violence, or constraints used to compel someone"},
-    "morphemes": [
-      {"canonical": "dur-", "role": "root", "positionTendency": "initial", "meaning": "hard, harsh (durus)", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "dur"},
-      {"canonical": "-ess", "role": "suffix", "positionTendency": "final", "meaning": "state, condition", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ess"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "Latin duritia", "to": "duress", "rule": "evolution"}]},
+    "coreMeaning": {
+      "cn": "强迫；胁迫",
+      "en": "threats, violence, or constraints used to compel someone"
+    },
+    "morphemes": [
+      {
+        "canonical": "dur-",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "hard, harsh (durus)",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "dur"
+      },
+      {
+        "canonical": "-ess",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "state, condition",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ess"
+      }
+    ],
+    "derivationChain": [
+      "duress"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "dur(硬)+ess=硬来=强迫胁迫", "imageChain": ["威胁", "强迫签字", "法律胁迫"], "mnemonicExpr": "dur(硬)+ess→强硬手段→胁迫"},
-    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": -2}, "domain": ["legal", "general"], "formality": "formal"},
-    "relations": {"sameRoot": ["endure", "durable"], "sameAffix": [], "synonyms": ["coercion", "compulsion", "constraint"], "antonyms": ["freedom", "free will"], "domainCohort": ["coercion", "compulsion"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "dur(硬)+ess=硬来=强迫胁迫",
+      "imageChain": [
+        "威胁",
+        "强迫签字",
+        "法律胁迫"
+      ],
+      "mnemonicExpr": "dur(硬)+ess→强硬手段→胁迫"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -2
+      },
+      "domain": [
+        "legal",
+        "general"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "endure",
+        "durable"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "coercion",
+        "compulsion",
+        "constraint"
+      ],
+      "antonyms": [
+        "freedom",
+        "free will"
+      ],
+      "domainCohort": [
+        "coercion",
+        "compulsion"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "dusk",
     "phonetic": "/dʌsk/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "黄昏；暮色", "en": "the darker stage of twilight; the time before night"},
-    "morphemes": [
-      {"canonical": "dusk", "role": "root", "positionTendency": "medial", "meaning": "darkness, dusk (Old English)", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "dusk"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "Old English dox (dark)", "to": "dusk", "rule": "evolution"}]},
+    "coreMeaning": {
+      "cn": "黄昏；暮色",
+      "en": "the darker stage of twilight; the time before night"
+    },
+    "morphemes": [
+      {
+        "canonical": "dusk",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "darkness, dusk (Old English)",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "dusk"
+      }
+    ],
+    "derivationChain": [
+      "dusk"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "dusk=黄昏=日落时的暗色", "imageChain": ["日落", "黄昏时分", "天色转暗"], "mnemonicExpr": "dusk→d+usk(暗)→黄昏暮色"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["dusky", "duskier"], "sameAffix": [], "synonyms": ["twilight", "sunset", "nightfall", "gloaming"], "antonyms": ["dawn", "daybreak", "sunrise"], "domainCohort": [], "derivationPair": ["dusky"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "dusk=黄昏=日落时的暗色",
+      "imageChain": [
+        "日落",
+        "黄昏时分",
+        "天色转暗"
+      ],
+      "mnemonicExpr": "dusk→d+usk(暗)→黄昏暮色"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "dusky",
+        "duskier"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "twilight",
+        "sunset",
+        "nightfall",
+        "gloaming"
+      ],
+      "antonyms": [
+        "dawn",
+        "daybreak",
+        "sunrise"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "dusky"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "dusky",
     "phonetic": "/ˈdʌski/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "暗色的；昏暗的", "en": "darkish in color; shadowy"},
-    "morphemes": [
-      {"canonical": "dusk", "role": "root", "positionTendency": "initial", "meaning": "darkness", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "dusk"},
-      {"canonical": "-y", "role": "suffix", "positionTendency": "final", "meaning": "adjective forming", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "y"}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "dusk", "to": "dusky", "rule": "-y suffix"}]},
+    "coreMeaning": {
+      "cn": "暗色的；昏暗的",
+      "en": "darkish in color; shadowy"
+    },
+    "morphemes": [
+      {
+        "canonical": "dusk",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "darkness",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "dusk"
+      },
+      {
+        "canonical": "-y",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "adjective forming",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "y"
+      }
+    ],
+    "derivationChain": [
+      "dusky"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "dusk+y=黄昏般的=昏暗的", "imageChain": ["昏暗光线", "暗色调", "阴暗环境"], "mnemonicExpr": "dusk(黄昏)+y→黄昏色调的→昏暗的"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["dusk"], "sameAffix": [], "synonyms": ["dim", "shadowy", "dark", "murky"], "antonyms": ["bright", "luminous", "light"], "domainCohort": [], "derivationPair": ["dusk"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "dusk+y=黄昏般的=昏暗的",
+      "imageChain": [
+        "昏暗光线",
+        "暗色调",
+        "阴暗环境"
+      ],
+      "mnemonicExpr": "dusk(黄昏)+y→黄昏色调的→昏暗的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "dusk"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "dim",
+        "shadowy",
+        "dark",
+        "murky"
+      ],
+      "antonyms": [
+        "bright",
+        "luminous",
+        "light"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "dusk"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "dust",
     "phonetic": "/dʌst/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "灰尘；尘土", "en": "fine dry powder consisting of tiny particles of earth"},
-    "morphemes": [
-      {"canonical": "dust", "role": "root", "positionTendency": "medial", "meaning": "dust, powder (Old English dust)", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "dust"}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "Old English dust", "to": "dust", "rule": "evolution"}]},
+    "coreMeaning": {
+      "cn": "灰尘；尘土",
+      "en": "fine dry powder consisting of tiny particles of earth"
+    },
+    "morphemes": [
+      {
+        "canonical": "dust",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "dust, powder (Old English dust)",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "dust"
+      }
+    ],
+    "derivationChain": [
+      "dust"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "dust=灰尘=细小颗粒", "imageChain": ["飞扬的尘埃", "清洁工", "沙漠风沙"], "mnemonicExpr": "dust→d+ust→细小飞扬的颗粒"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["dusty", "dusted", "dustbin"], "sameAffix": [], "synonyms": ["dirt", "powder", "grime"], "antonyms": ["cleanliness"], "domainCohort": [], "derivationPair": ["dusty", "dusting"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "dust=灰尘=细小颗粒",
+      "imageChain": [
+        "飞扬的尘埃",
+        "清洁工",
+        "沙漠风沙"
+      ],
+      "mnemonicExpr": "dust→d+ust→细小飞扬的颗粒"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "dusty",
+        "dusted",
+        "dustbin"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "dirt",
+        "powder",
+        "grime"
+      ],
+      "antonyms": [
+        "cleanliness"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "dusty",
+        "dusting"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "dutiful",
     "phonetic": "/ˈdjuːtɪfl/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "尽职的；忠诚的", "en": "conscientiously fulfilling one's duty"},
-    "morphemes": [
-      {"canonical": "duty", "role": "root", "positionTendency": "initial", "meaning": "duty, obligation", "sentiment": {"tags": ["褒义"], "intensity": 1}, "order": 1, "form": "duti"},
-      {"canonical": "-ful", "role": "suffix", "positionTendency": "final", "meaning": "full of, characterized by", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ful"}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "duty", "to": "dutiful", "rule": "-ful suffix"}]},
+    "coreMeaning": {
+      "cn": "尽职的；忠诚的",
+      "en": "conscientiously fulfilling one's duty"
+    },
+    "morphemes": [
+      {
+        "canonical": "duty",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "duty, obligation",
+        "sentiment": {
+          "tags": [
+            "褒义"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "duti"
+      },
+      {
+        "canonical": "-ful",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "full of, characterized by",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ful"
+      }
+    ],
+    "derivationChain": [
+      "dutiful"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "duty+ful=充满责任感的=尽职的", "imageChain": ["负责任", "尽职尽责", "忠诚服从"], "mnemonicExpr": "duty(职责)+-ful(充满)→充满责任感→尽职的"},
-    "wordLevel": {"sentiment": {"tags": ["褒义"], "intensity": 1}, "domain": ["general"], "formality": "formal"},
-    "relations": {"sameRoot": ["duty", "dutifully"], "sameAffix": ["faithful", "cheerful"], "synonyms": ["conscientious", "obedient", "loyal"], "antonyms": ["negligent", "delinquent", "irresponsible"], "domainCohort": [], "derivationPair": ["duty", "dutifully"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "duty+ful=充满责任感的=尽职的",
+      "imageChain": [
+        "负责任",
+        "尽职尽责",
+        "忠诚服从"
+      ],
+      "mnemonicExpr": "duty(职责)+-ful(充满)→充满责任感→尽职的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "褒义"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "duty",
+        "dutifully"
+      ],
+      "sameAffix": [
+        "faithful",
+        "cheerful"
+      ],
+      "synonyms": [
+        "conscientious",
+        "obedient",
+        "loyal"
+      ],
+      "antonyms": [
+        "negligent",
+        "delinquent",
+        "irresponsible"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "duty",
+        "dutifully"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "dwindle",
     "phonetic": "/ˈdwɪndl/",
-    "pos": ["v."],
-    "coreMeaning": {"cn": "缩减；减少；消瘦", "en": "to diminish gradually in size, amount, or strength"},
-    "morphemes": [
-      {"canonical": "dwine", "role": "root", "positionTendency": "initial", "meaning": "waste away (Old English dwinan)", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "dwind"},
-      {"canonical": "-le", "role": "suffix", "positionTendency": "final", "meaning": "frequentative suffix", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "le"}
+    "pos": [
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "Old English dwinan", "to": "dwindle", "rule": "frequentative -le suffix"}]},
+    "coreMeaning": {
+      "cn": "缩减；减少；消瘦",
+      "en": "to diminish gradually in size, amount, or strength"
+    },
+    "morphemes": [
+      {
+        "canonical": "dwine",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "waste away (Old English dwinan)",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "dwind"
+      },
+      {
+        "canonical": "-le",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "frequentative suffix",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "le"
+      }
+    ],
+    "derivationChain": [
+      "dwindle"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "dwind+le=逐渐缩减", "imageChain": ["逐渐消失", "数量减少", "衰退"], "mnemonicExpr": "dwindle→d+windle(缩)→逐渐缩减消失"},
-    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": -1}, "domain": ["general", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["decrease", "diminish", "decline", "shrink"], "antonyms": ["increase", "grow", "expand"], "domainCohort": [], "derivationPair": ["dwindling", "dwindled"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "dwind+le=逐渐缩减",
+      "imageChain": [
+        "逐渐消失",
+        "数量减少",
+        "衰退"
+      ],
+      "mnemonicExpr": "dwindle→d+windle(缩)→逐渐缩减消失"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "decrease",
+        "diminish",
+        "decline",
+        "shrink"
+      ],
+      "antonyms": [
+        "increase",
+        "grow",
+        "expand"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "dwindling",
+        "dwindled"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "dynamo",
     "phonetic": "/ˈdaɪnəmoʊ/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "发电机；精力充沛的人", "en": "a generator; a very energetic person"},
-    "morphemes": [
-      {"canonical": "dynam-", "role": "root", "positionTendency": "initial", "meaning": "power, force (Greek dynamis)", "sentiment": {"tags": ["褒义"], "intensity": 1}, "order": 1, "form": "dynam"},
-      {"canonical": "-o", "role": "suffix", "positionTendency": "final", "meaning": "shortened form", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "o"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "dynamoelectric", "to": "dynamo", "rule": "shortening"}]},
+    "coreMeaning": {
+      "cn": "发电机；精力充沛的人",
+      "en": "a generator; a very energetic person"
+    },
+    "morphemes": [
+      {
+        "canonical": "dynam-",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "power, force (Greek dynamis)",
+        "sentiment": {
+          "tags": [
+            "褒义"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "dynam"
+      },
+      {
+        "canonical": "-o",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "shortened form",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "o"
+      }
+    ],
+    "derivationChain": [
+      "dynamo"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "dynam(力)+o=发电机=精力旺盛之人", "imageChain": ["发电机", "活力四射", "精力充沛"], "mnemonicExpr": "dynam(动力)+o→发电机→充满活力的人"},
-    "wordLevel": {"sentiment": {"tags": ["褒义"], "intensity": 1}, "domain": ["tech", "general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["dynamic", "dynamite", "dynasty"], "sameAffix": [], "synonyms": ["generator", "powerhouse", "live wire"], "antonyms": [], "domainCohort": [], "derivationPair": ["dynamic", "dynamite"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "dynam(力)+o=发电机=精力旺盛之人",
+      "imageChain": [
+        "发电机",
+        "活力四射",
+        "精力充沛"
+      ],
+      "mnemonicExpr": "dynam(动力)+o→发电机→充满活力的人"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "褒义"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "tech",
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "dynamic",
+        "dynamite",
+        "dynasty"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "generator",
+        "powerhouse",
+        "live wire"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "dynamic",
+        "dynamite"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "dynamic",
     "phonetic": "/daɪˈnæmɪk/",
-    "pos": ["adj.", "n."],
-    "coreMeaning": {"cn": "动态的；充满活力的；动力学的", "en": "characterized by constant change; energetic"},
-    "morphemes": [
-      {"canonical": "dynam-", "role": "root", "positionTendency": "initial", "meaning": "power, force (Greek dynamis)", "sentiment": {"tags": ["褒义"], "intensity": 1}, "order": 1, "form": "dynam"},
-      {"canonical": "-ic", "role": "suffix", "positionTendency": "final", "meaning": "of, relating to", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ic"}
+    "pos": [
+      "adj.",
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "Greek dynamikos", "to": "dynamic", "rule": "borrowing"}]},
+    "coreMeaning": {
+      "cn": "动态的；充满活力的；动力学的",
+      "en": "characterized by constant change; energetic"
+    },
+    "morphemes": [
+      {
+        "canonical": "dynam-",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "power, force (Greek dynamis)",
+        "sentiment": {
+          "tags": [
+            "褒义"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "dynam"
+      },
+      {
+        "canonical": "-ic",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "of, relating to",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ic"
+      }
+    ],
+    "derivationChain": [
+      "dynamic"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "dynam(动力)+ic=动力相关=充满活力的", "imageChain": ["变化发展", "活力四射", "运动状态"], "mnemonicExpr": "dynam(力)+-ic→充满力量的→动态的"},
-    "wordLevel": {"sentiment": {"tags": ["褒义"], "intensity": 1}, "domain": ["general", "academic", "business"], "formality": "neutral"},
-    "relations": {"sameRoot": ["dynamo", "dynamite", "dynamics"], "sameAffix": [], "synonyms": ["energetic", "vigorous", "active", "lively"], "antonyms": ["static", "passive", "inert"], "domainCohort": [], "derivationPair": ["dynamics", "dynamism"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "dynam(动力)+ic=动力相关=充满活力的",
+      "imageChain": [
+        "变化发展",
+        "活力四射",
+        "运动状态"
+      ],
+      "mnemonicExpr": "dynam(力)+-ic→充满力量的→动态的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "褒义"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general",
+        "academic",
+        "business"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "dynamo",
+        "dynamite",
+        "dynamics"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "energetic",
+        "vigorous",
+        "active",
+        "lively"
+      ],
+      "antonyms": [
+        "static",
+        "passive",
+        "inert"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "dynamics",
+        "dynamism"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "dynamite",
     "phonetic": "/ˈdaɪnəmaɪt/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "炸药；极好的东西", "en": "a high explosive; something or someone impressive"},
-    "morphemes": [
-      {"canonical": "dynam-", "role": "root", "positionTendency": "initial", "meaning": "power (Greek dynamis)", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "dynam"},
-      {"canonical": "-ite", "role": "suffix", "positionTendency": "final", "meaning": "mineral, substance", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ite"}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "Greek dynamis + -ite", "to": "dynamite", "rule": "compound"}]},
+    "coreMeaning": {
+      "cn": "炸药；极好的东西",
+      "en": "a high explosive; something or someone impressive"
+    },
+    "morphemes": [
+      {
+        "canonical": "dynam-",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "power (Greek dynamis)",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "dynam"
+      },
+      {
+        "canonical": "-ite",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "mineral, substance",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ite"
+      }
+    ],
+    "derivationChain": [
+      "dynamite"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "dynam(力)+ite=爆炸力=炸药", "imageChain": ["爆炸", "强力炸药", "惊人威力"], "mnemonicExpr": "dynam(力量)+-ite(物质)→强力物质→炸药"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "tech"], "formality": "neutral"},
-    "relations": {"sameRoot": ["dynamic", "dynamo", "dynamics"], "sameAffix": [], "synonyms": ["explosive", "TNT"], "antonyms": [], "domainCohort": [], "derivationPair": ["dynamite (v.)"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "dynam(力)+ite=爆炸力=炸药",
+      "imageChain": [
+        "爆炸",
+        "强力炸药",
+        "惊人威力"
+      ],
+      "mnemonicExpr": "dynam(力量)+-ite(物质)→强力物质→炸药"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "tech"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "dynamic",
+        "dynamo",
+        "dynamics"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "explosive",
+        "TNT"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "dynamite (v.)"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "dynasty",
     "phonetic": "/ˈdaɪnəsti/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "王朝；朝代", "en": "a line of hereditary rulers; a succession of powerful people"},
-    "morphemes": [
-      {"canonical": "dynam-", "role": "root", "positionTendency": "initial", "meaning": "power (Greek dynastes)", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "dynas"},
-      {"canonical": "-ty", "role": "suffix", "positionTendency": "final", "meaning": "condition, state", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ty"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "Greek dynasteia", "to": "dynasty", "rule": "borrowing"}]},
+    "coreMeaning": {
+      "cn": "王朝；朝代",
+      "en": "a line of hereditary rulers; a succession of powerful people"
+    },
+    "morphemes": [
+      {
+        "canonical": "dynam-",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "power (Greek dynastes)",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "dynas"
+      },
+      {
+        "canonical": "-ty",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "condition, state",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ty"
+      }
+    ],
+    "derivationChain": [
+      "dynasty"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "dynas(统治者)+ty=统治者体制=王朝", "imageChain": ["皇室", "王朝历史", "帝国传承"], "mnemonicExpr": "dynas(统治)+-ty→统治体制→王朝"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["academic", "general"], "formality": "formal"},
-    "relations": {"sameRoot": ["dynamic", "dynamo"], "sameAffix": [], "synonyms": ["regime", "line", "house", "realm"], "antonyms": [], "domainCohort": [], "derivationPair": ["dynastic"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "dynas(统治者)+ty=统治者体制=王朝",
+      "imageChain": [
+        "皇室",
+        "王朝历史",
+        "帝国传承"
+      ],
+      "mnemonicExpr": "dynas(统治)+-ty→统治体制→王朝"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "academic",
+        "general"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "dynamic",
+        "dynamo"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "regime",
+        "line",
+        "house",
+        "realm"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "dynastic"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "dyslexia",
     "phonetic": "/dɪsˈlɛksiə/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "诵读障碍；阅读障碍", "en": "a general term for disorders affecting reading and language processing"},
-    "morphemes": [
-      {"canonical": "dys-", "role": "prefix", "positionTendency": "initial", "meaning": "bad, abnormal, difficult", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "dys"},
-      {"canonical": "lex", "role": "root", "positionTendency": "medial", "meaning": "word, reading (Greek lexis)", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "lex"},
-      {"canonical": "-ia", "role": "suffix", "positionTendency": "final", "meaning": "medical condition", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ia"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "Greek dys + lexis + -ia", "to": "dyslexia", "rule": "compound"}]},
+    "coreMeaning": {
+      "cn": "诵读障碍；阅读障碍",
+      "en": "a general term for disorders affecting reading and language processing"
+    },
+    "morphemes": [
+      {
+        "canonical": "dys-",
+        "role": "prefix",
+        "positionTendency": "initial",
+        "meaning": "bad, abnormal, difficult",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "dys"
+      },
+      {
+        "canonical": "lex",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "word, reading (Greek lexis)",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "lex"
+      },
+      {
+        "canonical": "-ia",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "medical condition",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ia"
+      }
+    ],
+    "derivationChain": [
+      "dyslexia"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "dys(困难)+lex(词)+ia=读词困难=阅读障碍", "imageChain": ["字母混乱", "阅读困难", "学习障碍"], "mnemonicExpr": "dys(难)+lex(读)+ia→读词困难→阅读障碍"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["medical", "academic"], "formality": "formal"},
-    "relations": {"sameRoot": ["lexicon", "dysfunctional", "dysphoria"], "sameAffix": ["dyspepsia", "dysphoria"], "synonyms": ["reading disorder", "reading disability"], "antonyms": [], "domainCohort": ["dysfunctional", "dysphoria"], "derivationPair": ["dyslexic"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "dys(困难)+lex(词)+ia=读词困难=阅读障碍",
+      "imageChain": [
+        "字母混乱",
+        "阅读困难",
+        "学习障碍"
+      ],
+      "mnemonicExpr": "dys(难)+lex(读)+ia→读词困难→阅读障碍"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "medical",
+        "academic"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "lexicon",
+        "dysfunctional",
+        "dysphoria"
+      ],
+      "sameAffix": [
+        "dyspepsia",
+        "dysphoria"
+      ],
+      "synonyms": [
+        "reading disorder",
+        "reading disability"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "dysfunctional",
+        "dysphoria"
+      ],
+      "derivationPair": [
+        "dyslexic"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "dyspepsia",
     "phonetic": "/dɪsˈpɛpsiə/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "消化不良", "en": "indigestion; ill temper resulting from indigestion"},
-    "morphemes": [
-      {"canonical": "dys-", "role": "prefix", "positionTendency": "initial", "meaning": "bad, difficult", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "dys"},
-      {"canonical": "peps", "role": "root", "positionTendency": "medial", "meaning": "digestion (Greek peptein)", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "pep"},
-      {"canonical": "-ia", "role": "suffix", "positionTendency": "final", "meaning": "medical condition", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ia"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "Greek dyspepsia", "to": "dyspepsia", "rule": "borrowing"}]},
+    "coreMeaning": {
+      "cn": "消化不良",
+      "en": "indigestion; ill temper resulting from indigestion"
+    },
+    "morphemes": [
+      {
+        "canonical": "dys-",
+        "role": "prefix",
+        "positionTendency": "initial",
+        "meaning": "bad, difficult",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "dys"
+      },
+      {
+        "canonical": "peps",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "digestion (Greek peptein)",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "pep"
+      },
+      {
+        "canonical": "-ia",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "medical condition",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ia"
+      }
+    ],
+    "derivationChain": [
+      "dyspepsia"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "dys(坏)+pep(消化)+ia=消化不好=消化不良", "imageChain": ["胃痛", "消化不良", "胃部不适"], "mnemonicExpr": "dys(不好)+peps(消化)→消化不好→消化不良"},
-    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": -1}, "domain": ["medical"], "formality": "formal"},
-    "relations": {"sameRoot": ["pepsin", "pepper", "dyslexia"], "sameAffix": ["dyslexia", "dysphoria"], "synonyms": ["indigestion", "stomach upset"], "antonyms": ["eupepsia"], "domainCohort": [], "derivationPair": ["dyspeptic"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "dys(坏)+pep(消化)+ia=消化不好=消化不良",
+      "imageChain": [
+        "胃痛",
+        "消化不良",
+        "胃部不适"
+      ],
+      "mnemonicExpr": "dys(不好)+peps(消化)→消化不好→消化不良"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      },
+      "domain": [
+        "medical"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "pepsin",
+        "pepper",
+        "dyslexia"
+      ],
+      "sameAffix": [
+        "dyslexia",
+        "dysphoria"
+      ],
+      "synonyms": [
+        "indigestion",
+        "stomach upset"
+      ],
+      "antonyms": [
+        "eupepsia"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "dyspeptic"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "dyspeptic",
     "phonetic": "/dɪsˈpɛptɪk/",
-    "pos": ["adj.", "n."],
-    "coreMeaning": {"cn": "消化不良的；脾气暴躁的", "en": "relating to or suffering from indigestion; irritable"},
-    "morphemes": [
-      {"canonical": "dys-", "role": "prefix", "positionTendency": "initial", "meaning": "bad, difficult", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "dys"},
-      {"canonical": "pept", "role": "root", "positionTendency": "medial", "meaning": "digestion", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "pept"},
-      {"canonical": "-ic", "role": "suffix", "positionTendency": "final", "meaning": "of, relating to", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ic"}
+    "pos": [
+      "adj.",
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "dyspepsia", "to": "dyspeptic", "rule": "-ic suffix"}]},
+    "coreMeaning": {
+      "cn": "消化不良的；脾气暴躁的",
+      "en": "relating to or suffering from indigestion; irritable"
+    },
+    "morphemes": [
+      {
+        "canonical": "dys-",
+        "role": "prefix",
+        "positionTendency": "initial",
+        "meaning": "bad, difficult",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "dys"
+      },
+      {
+        "canonical": "pept",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "digestion",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "pept"
+      },
+      {
+        "canonical": "-ic",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "of, relating to",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ic"
+      }
+    ],
+    "derivationChain": [
+      "dyspeptic"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "dys+pept+ic=消化不良的=烦躁的", "imageChain": ["脾气暴躁", "消化不适", "性格乖戾"], "mnemonicExpr": "dyspepsia(消化不良)+-ic→消化不良的→易怒的"},
-    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": -1}, "domain": ["medical", "general"], "formality": "formal"},
-    "relations": {"sameRoot": ["dyspepsia", "pepsin"], "sameAffix": [], "synonyms": ["irritable", "grouchy", "bilious"], "antonyms": ["affable", "good-natured"], "domainCohort": [], "derivationPair": ["dyspepsia"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "dys+pept+ic=消化不良的=烦躁的",
+      "imageChain": [
+        "脾气暴躁",
+        "消化不适",
+        "性格乖戾"
+      ],
+      "mnemonicExpr": "dyspepsia(消化不良)+-ic→消化不良的→易怒的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      },
+      "domain": [
+        "medical",
+        "general"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "dyspepsia",
+        "pepsin"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "irritable",
+        "grouchy",
+        "bilious"
+      ],
+      "antonyms": [
+        "affable",
+        "good-natured"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "dyspepsia"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

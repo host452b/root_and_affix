@@ -2,88 +2,502 @@
   {
     "word": "job",
     "phonetic": "/dʒɒb/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "工作；职业；任务", "en": "a paid position; a piece of work"},
-    "morphemes": [
-      {"canonical": "job", "role": "root", "meaning": "工作；职位", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "job", "positionTendency": "medial", "coreMeaning": {"cn": "工作", "en": "work/task"}}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "工作；职业；任务",
+      "en": "a paid position; a piece of work"
+    },
+    "morphemes": [
+      {
+        "canonical": "job",
+        "role": "root",
+        "meaning": "工作；职位",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "job",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "工作",
+          "en": "work/task"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "job → 工作，任务（也是圣经人物约伯）", "imageChain": ["工作", "职位", "任务"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "business"], "formality": "neutral"},
-    "relations": {"sameRoot": ["jobless", "jobber", "jobbery", "jobs"], "sameAffix": [], "synonyms": ["work", "employment", "occupation", "task"], "antonyms": ["unemployment"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "job → 工作，任务（也是圣经人物约伯）",
+      "imageChain": [
+        "工作",
+        "职位",
+        "任务"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "business"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "jobless",
+        "jobber",
+        "jobbery",
+        "jobs"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "work",
+        "employment",
+        "occupation",
+        "task"
+      ],
+      "antonyms": [
+        "unemployment"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "jobless",
     "phonetic": "/'dʒɒbləs/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "失业的；无业的", "en": "without paid employment"},
-    "morphemes": [
-      {"canonical": "job", "role": "root", "meaning": "工作", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "job", "positionTendency": "initial", "coreMeaning": {"cn": "工作", "en": "work"}},
-      {"canonical": "-less", "role": "suffix", "meaning": "无…的", "sentiment": {"tags": ["消极"], "intensity": 1}, "order": 2, "form": "less", "positionTendency": "final", "coreMeaning": {"cn": "无", "en": "without"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "job", "to": "jobless", "by": "-less", "meaning": "without a job"}]},
+    "coreMeaning": {
+      "cn": "失业的；无业的",
+      "en": "without paid employment"
+    },
+    "morphemes": [
+      {
+        "canonical": "job",
+        "role": "root",
+        "meaning": "工作",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "job",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "工作",
+          "en": "work"
+        }
+      },
+      {
+        "canonical": "-less",
+        "role": "suffix",
+        "meaning": "无…的",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
+        "order": 2,
+        "form": "less",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "无",
+          "en": "without"
+        }
+      }
+    ],
+    "derivationChain": [
+      "jobless"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "jobless = job + less → 无工作的，失业的", "imageChain": ["失业", "无工作", "待业"]},
-    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": 2}, "domain": ["general", "business"], "formality": "neutral"},
-    "relations": {"sameRoot": ["job"], "sameAffix": [], "synonyms": ["unemployed", "out of work"], "antonyms": ["employed", "working"], "domainCohort": [], "derivationPair": ["job"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "jobless = job + less → 无工作的，失业的",
+      "imageChain": [
+        "失业",
+        "无工作",
+        "待业"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 2
+      },
+      "domain": [
+        "general",
+        "business"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "job"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "unemployed",
+        "out of work"
+      ],
+      "antonyms": [
+        "employed",
+        "working"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "job"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "jockey",
     "phonetic": "/'dʒɒki/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "赛马骑师；巧妙操控", "en": "horse race rider; maneuver for advantage"},
-    "morphemes": [
-      {"canonical": "jockey", "role": "root", "meaning": "骑师；操控", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "jockey", "positionTendency": "medial", "coreMeaning": {"cn": "骑师", "en": "rider"}}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "赛马骑师；巧妙操控",
+      "en": "horse race rider; maneuver for advantage"
+    },
+    "morphemes": [
+      {
+        "canonical": "jockey",
+        "role": "root",
+        "meaning": "骑师；操控",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "jockey",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "骑师",
+          "en": "rider"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "jockey → 赛马骑师，引申为操控取利", "imageChain": ["赛马", "骑师", "策略操控"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "informal"},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["rider", "maneuver"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "jockey → 赛马骑师，引申为操控取利",
+      "imageChain": [
+        "赛马",
+        "骑师",
+        "策略操控"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "informal"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "rider",
+        "maneuver"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "jocose",
     "phonetic": "/dʒəʊ'koʊs/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "诙谐的；开玩笑的", "en": "playful or humorous"},
-    "morphemes": [
-      {"canonical": "joc", "role": "root", "meaning": "玩笑；戏谑", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "joc", "positionTendency": "initial", "coreMeaning": {"cn": "玩笑", "en": "joke"}},
-      {"canonical": "-ose", "role": "suffix", "meaning": "形容词；充满…的", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ose", "positionTendency": "final", "coreMeaning": {"cn": "充满…的", "en": "full of"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "诙谐的；开玩笑的",
+      "en": "playful or humorous"
+    },
+    "morphemes": [
+      {
+        "canonical": "joc",
+        "role": "root",
+        "meaning": "玩笑；戏谑",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "joc",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "玩笑",
+          "en": "joke"
+        }
+      },
+      {
+        "canonical": "-ose",
+        "role": "suffix",
+        "meaning": "形容词；充满…的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ose",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "充满…的",
+          "en": "full of"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "jocose → 充满玩笑精神的，诙谐的", "imageChain": ["幽默", "诙谐", "开玩笑"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 1}, "domain": ["general"], "formality": "formal"},
-    "relations": {"sameRoot": ["jocular", "jocund", "joke"], "sameAffix": [], "synonyms": ["humorous", "playful", "facetious"], "antonyms": ["serious", "solemn"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "jocose → 充满玩笑精神的，诙谐的",
+      "imageChain": [
+        "幽默",
+        "诙谐",
+        "开玩笑"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "jocular",
+        "jocund",
+        "joke"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "humorous",
+        "playful",
+        "facetious"
+      ],
+      "antonyms": [
+        "serious",
+        "solemn"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "jocular",
     "phonetic": "/'dʒɒkjʊlɚ/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "爱开玩笑的；滑稽的", "en": "fond of or characterized by joking"},
-    "morphemes": [
-      {"canonical": "joc", "role": "root", "meaning": "玩笑", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "jocul", "positionTendency": "initial", "coreMeaning": {"cn": "玩笑", "en": "joke"}},
-      {"canonical": "-ar", "role": "suffix", "meaning": "形容词", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ar", "positionTendency": "final", "coreMeaning": {"cn": "…的", "en": "relating to"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "爱开玩笑的；滑稽的",
+      "en": "fond of or characterized by joking"
+    },
+    "morphemes": [
+      {
+        "canonical": "joc",
+        "role": "root",
+        "meaning": "玩笑",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "jocul",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "玩笑",
+          "en": "joke"
+        }
+      },
+      {
+        "canonical": "-ar",
+        "role": "suffix",
+        "meaning": "形容词",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ar",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "…的",
+          "en": "relating to"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "jocular → 爱幽默打趣的", "imageChain": ["爱开玩笑", "幽默", "轻松打趣"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 1}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["jocose", "jocund", "joke", "jocularity"], "sameAffix": [], "synonyms": ["humorous", "witty", "joking", "facetious"], "antonyms": ["serious", "grave"], "domainCohort": [], "derivationPair": ["jocularity"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "jocular → 爱幽默打趣的",
+      "imageChain": [
+        "爱开玩笑",
+        "幽默",
+        "轻松打趣"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "jocose",
+        "jocund",
+        "joke",
+        "jocularity"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "humorous",
+        "witty",
+        "joking",
+        "facetious"
+      ],
+      "antonyms": [
+        "serious",
+        "grave"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "jocularity"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "jocund",
     "phonetic": "/'dʒɒkənd/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "快活的；高兴的", "en": "cheerful and lighthearted"},
-    "morphemes": [
-      {"canonical": "joc", "role": "root", "meaning": "玩笑；欢快", "sentiment": {"tags": ["积极"], "intensity": 2}, "order": 1, "form": "jocund", "positionTendency": "medial", "coreMeaning": {"cn": "欢快", "en": "merry"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "快活的；高兴的",
+      "en": "cheerful and lighthearted"
+    },
+    "morphemes": [
+      {
+        "canonical": "joc",
+        "role": "root",
+        "meaning": "玩笑；欢快",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 2
+        },
+        "order": 1,
+        "form": "jocund",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "欢快",
+          "en": "merry"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "jocund → 快活的，心情愉悦的", "imageChain": ["欢快", "高兴", "愉悦"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 2}, "domain": ["general"], "formality": "formal"},
-    "relations": {"sameRoot": ["jocular", "jocose"], "sameAffix": [], "synonyms": ["merry", "cheerful", "jovial", "jolly"], "antonyms": ["sad", "melancholy", "gloomy"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "jocund → 快活的，心情愉悦的",
+      "imageChain": [
+        "欢快",
+        "高兴",
+        "愉悦"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "jocular",
+        "jocose"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "merry",
+        "cheerful",
+        "jovial",
+        "jolly"
+      ],
+      "antonyms": [
+        "sad",
+        "melancholy",
+        "gloomy"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

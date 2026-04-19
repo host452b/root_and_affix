@@ -2,139 +2,933 @@
   {
     "word": "relay",
     "phonetic": "/rɪ'leɪ/",
-    "pos": ["n.", "vt."],
-    "coreMeaning": {"cn": "转播；接替；传递", "en": "pass on information; a fresh set of workers or animals"},
-    "morphemes": [
-      {"canonical": "re-", "role": "prefix", "meaning": "再；重新", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "re", "positionTendency": "initial", "coreMeaning": {"cn": "再", "en": "again"}},
-      {"canonical": "lay", "role": "root", "meaning": "放置；传递", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "lay", "positionTendency": "final", "coreMeaning": {"cn": "放置", "en": "place"}}
+    "pos": [
+      "n.",
+      "vt."
     ],
-    "derivationChain": {"steps": [{"from": "lay", "to": "relay", "by": "re-", "meaning": "to lay again; pass along a signal or information"}]},
+    "coreMeaning": {
+      "cn": "转播；接替；传递",
+      "en": "pass on information; a fresh set of workers or animals"
+    },
+    "morphemes": [
+      {
+        "canonical": "re-",
+        "role": "prefix",
+        "meaning": "再；重新",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "re",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "再",
+          "en": "again"
+        }
+      },
+      {
+        "canonical": "lay",
+        "role": "root",
+        "meaning": "放置；传递",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "lay",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "放置",
+          "en": "place"
+        }
+      }
+    ],
+    "derivationChain": [
+      "relay"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "relay = re + lay → 重新传递=转播，接力", "imageChain": ["转播", "接力", "传递"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "tech", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": ["relays", "relayed"], "sameAffix": [], "synonyms": ["transmit", "pass on", "broadcast", "forward"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "relay = re + lay → 重新传递=转播，接力",
+      "imageChain": [
+        "转播",
+        "接力",
+        "传递"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "tech",
+        "academic"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "relays",
+        "relayed"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "transmit",
+        "pass on",
+        "broadcast",
+        "forward"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "release",
     "phonetic": "/rɪ'liːs/",
-    "pos": ["v.", "n."],
-    "coreMeaning": {"cn": "释放；发射；允许发表", "en": "allow to move freely; free from confinement; make available"},
-    "morphemes": [
-      {"canonical": "re-", "role": "prefix", "meaning": "再；解除", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "re", "positionTendency": "initial", "coreMeaning": {"cn": "解除", "en": "again/back"}},
-      {"canonical": "lease", "role": "root", "meaning": "松开；松弛（拉丁 laxare）", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 2, "form": "lease", "positionTendency": "final", "coreMeaning": {"cn": "松开", "en": "loose"}}
+    "pos": [
+      "v.",
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "laxare", "to": "release", "by": "re-", "meaning": "to make loose again; set free"}]},
+    "coreMeaning": {
+      "cn": "释放；发射；允许发表",
+      "en": "allow to move freely; free from confinement; make available"
+    },
+    "morphemes": [
+      {
+        "canonical": "re-",
+        "role": "prefix",
+        "meaning": "再；解除",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "re",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "解除",
+          "en": "again/back"
+        }
+      },
+      {
+        "canonical": "lease",
+        "role": "root",
+        "meaning": "松开；松弛（拉丁 laxare）",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 2,
+        "form": "lease",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "松开",
+          "en": "loose"
+        }
+      }
+    ],
+    "derivationChain": [
+      "release"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "release = re + lease → 解除束缚=释放", "imageChain": ["释放", "自由", "发布"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 1}, "domain": ["general", "business", "legal"], "formality": "neutral"},
-    "relations": {"sameRoot": ["relax", "relent"], "sameAffix": [], "synonyms": ["free", "liberate", "publish", "issue"], "antonyms": ["imprison", "restrain", "confine", "withhold"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "release = re + lease → 解除束缚=释放",
+      "imageChain": [
+        "释放",
+        "自由",
+        "发布"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general",
+        "business",
+        "legal"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "relax",
+        "relent"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "free",
+        "liberate",
+        "publish",
+        "issue"
+      ],
+      "antonyms": [
+        "imprison",
+        "restrain",
+        "confine",
+        "withhold"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "relegate",
     "phonetic": "/'rɛlɪɡeɪt/",
-    "pos": ["vt."],
-    "coreMeaning": {"cn": "降级；把…归入；提交", "en": "assign to a lower rank or less important position"},
-    "morphemes": [
-      {"canonical": "re-", "role": "prefix", "meaning": "后；再", "sentiment": {"tags": ["消极"], "intensity": 1}, "order": 1, "form": "re", "positionTendency": "initial", "coreMeaning": {"cn": "后", "en": "back"}},
-      {"canonical": "leg", "role": "root", "meaning": "派遣；发送（拉丁 legare）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "legate", "positionTendency": "final", "coreMeaning": {"cn": "派遣", "en": "send"}}
+    "pos": [
+      "vt."
     ],
-    "derivationChain": {"steps": [{"from": "relegare", "to": "relegate", "by": "Latinism", "meaning": "to send away; demote to a lower status"}]},
+    "coreMeaning": {
+      "cn": "降级；把…归入；提交",
+      "en": "assign to a lower rank or less important position"
+    },
+    "morphemes": [
+      {
+        "canonical": "re-",
+        "role": "prefix",
+        "meaning": "后；再",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "re",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "后",
+          "en": "back"
+        }
+      },
+      {
+        "canonical": "leg",
+        "role": "root",
+        "meaning": "派遣；发送（拉丁 legare）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "legate",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "派遣",
+          "en": "send"
+        }
+      }
+    ],
+    "derivationChain": [
+      "relegate"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "relegate → 送到后面去=降级，降到次要位置", "imageChain": ["降级", "降位", "送入次席"]},
-    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": 2}, "domain": ["general", "academic"], "formality": "formal"},
-    "relations": {"sameRoot": ["delegate", "relegation"], "sameAffix": [], "synonyms": ["demote", "downgrade", "banish", "exile"], "antonyms": ["promote", "elevate", "upgrade"], "domainCohort": [], "derivationPair": ["relegation"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "relegate → 送到后面去=降级，降到次要位置",
+      "imageChain": [
+        "降级",
+        "降位",
+        "送入次席"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 2
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "delegate",
+        "relegation"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "demote",
+        "downgrade",
+        "banish",
+        "exile"
+      ],
+      "antonyms": [
+        "promote",
+        "elevate",
+        "upgrade"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "relegation"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "relent",
     "phonetic": "/rɪ'lɛnt/",
-    "pos": ["vi."],
-    "coreMeaning": {"cn": "变温和；减弱；缓和", "en": "abandon or mitigate a harsh intention; become less severe"},
-    "morphemes": [
-      {"canonical": "re-", "role": "prefix", "meaning": "再；完全", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "re", "positionTendency": "initial", "coreMeaning": {"cn": "再", "en": "back"}},
-      {"canonical": "lent", "role": "root", "meaning": "软化（拉丁 lentus）", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 2, "form": "lent", "positionTendency": "final", "coreMeaning": {"cn": "软化", "en": "soften"}}
+    "pos": [
+      "vi."
     ],
-    "derivationChain": {"steps": [{"from": "lentus", "to": "relent", "by": "re-", "meaning": "to soften again; become less harsh"}]},
+    "coreMeaning": {
+      "cn": "变温和；减弱；缓和",
+      "en": "abandon or mitigate a harsh intention; become less severe"
+    },
+    "morphemes": [
+      {
+        "canonical": "re-",
+        "role": "prefix",
+        "meaning": "再；完全",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "re",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "再",
+          "en": "back"
+        }
+      },
+      {
+        "canonical": "lent",
+        "role": "root",
+        "meaning": "软化（拉丁 lentus）",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 2,
+        "form": "lent",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "软化",
+          "en": "soften"
+        }
+      }
+    ],
+    "derivationChain": [
+      "relent"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "relent → 心软，变得温和宽容", "imageChain": ["心软", "妥协", "温和"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 1}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["relentless", "relented"], "sameAffix": [], "synonyms": ["soften", "yield", "capitulate", "ease up"], "antonyms": ["persist", "harden", "continue"], "domainCohort": [], "derivationPair": ["relentless"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "relent → 心软，变得温和宽容",
+      "imageChain": [
+        "心软",
+        "妥协",
+        "温和"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "relentless",
+        "relented"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "soften",
+        "yield",
+        "capitulate",
+        "ease up"
+      ],
+      "antonyms": [
+        "persist",
+        "harden",
+        "continue"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "relentless"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "relentless",
     "phonetic": "/rɪ'lɛntləs/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "无情的；残酷的；不懈的", "en": "harsh; severe; not stopping or abating"},
-    "morphemes": [
-      {"canonical": "re-", "role": "prefix", "meaning": "再", "sentiment": {"tags": ["消极"], "intensity": 1}, "order": 1, "form": "re", "positionTendency": "initial", "coreMeaning": {"cn": "再", "en": "back"}},
-      {"canonical": "lent", "role": "root", "meaning": "软化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "lent", "positionTendency": "medial", "coreMeaning": {"cn": "软化", "en": "soften"}},
-      {"canonical": "-less", "role": "suffix", "meaning": "无…的", "sentiment": {"tags": ["消极"], "intensity": 1}, "order": 3, "form": "less", "positionTendency": "final", "coreMeaning": {"cn": "无", "en": "without"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "relent", "to": "relentless", "by": "-less", "meaning": "without relenting; harsh and unyielding"}]},
+    "coreMeaning": {
+      "cn": "无情的；残酷的；不懈的",
+      "en": "harsh; severe; not stopping or abating"
+    },
+    "morphemes": [
+      {
+        "canonical": "re-",
+        "role": "prefix",
+        "meaning": "再",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "re",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "再",
+          "en": "back"
+        }
+      },
+      {
+        "canonical": "lent",
+        "role": "root",
+        "meaning": "软化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "lent",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "软化",
+          "en": "soften"
+        }
+      },
+      {
+        "canonical": "-less",
+        "role": "suffix",
+        "meaning": "无…的",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
+        "order": 3,
+        "form": "less",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "无",
+          "en": "without"
+        }
+      }
+    ],
+    "derivationChain": [
+      "relentless"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "relentless → 不肯心软的=无情的，不懈怠的", "imageChain": ["无情", "不懈", "残酷"]},
-    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": 2}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["relent"], "sameAffix": ["careless", "hopeless", "lifeless"], "synonyms": ["persistent", "ruthless", "merciless", "unremitting"], "antonyms": ["gentle", "compassionate", "lenient"], "domainCohort": [], "derivationPair": ["relent"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "relentless → 不肯心软的=无情的，不懈怠的",
+      "imageChain": [
+        "无情",
+        "不懈",
+        "残酷"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 2
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "relent"
+      ],
+      "sameAffix": [
+        "careless",
+        "hopeless",
+        "lifeless"
+      ],
+      "synonyms": [
+        "persistent",
+        "ruthless",
+        "merciless",
+        "unremitting"
+      ],
+      "antonyms": [
+        "gentle",
+        "compassionate",
+        "lenient"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "relent"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "relevant",
     "phonetic": "/'rɛləvənt/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "相关的；切题的；有意义的", "en": "closely connected to or appropriate to the matter at hand"},
-    "morphemes": [
-      {"canonical": "re-", "role": "prefix", "meaning": "再；关联", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "re", "positionTendency": "initial", "coreMeaning": {"cn": "关联", "en": "relating"}},
-      {"canonical": "lev", "role": "root", "meaning": "举起；联系（拉丁 levare）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "lev", "positionTendency": "medial", "coreMeaning": {"cn": "联系", "en": "lift/relate"}},
-      {"canonical": "-ant", "role": "suffix", "meaning": "形容词", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ant", "positionTendency": "final", "coreMeaning": {"cn": "…的", "en": "having quality"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "relevare", "to": "relevant", "by": "-ant", "meaning": "bearing upon or relating to the matter"}]},
+    "coreMeaning": {
+      "cn": "相关的；切题的；有意义的",
+      "en": "closely connected to or appropriate to the matter at hand"
+    },
+    "morphemes": [
+      {
+        "canonical": "re-",
+        "role": "prefix",
+        "meaning": "再；关联",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "re",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "关联",
+          "en": "relating"
+        }
+      },
+      {
+        "canonical": "lev",
+        "role": "root",
+        "meaning": "举起；联系（拉丁 levare）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "lev",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "联系",
+          "en": "lift/relate"
+        }
+      },
+      {
+        "canonical": "-ant",
+        "role": "suffix",
+        "meaning": "形容词",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ant",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "…的",
+          "en": "having quality"
+        }
+      }
+    ],
+    "derivationChain": [
+      "relevant"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "relevant → 与主题有关联的，相关的", "imageChain": ["相关", "切题", "关联"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 1}, "domain": ["general", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": ["relevance", "irrelevant"], "sameAffix": [], "synonyms": ["pertinent", "related", "applicable", "appropriate"], "antonyms": ["irrelevant", "unrelated", "inapplicable"], "domainCohort": [], "derivationPair": ["relevance"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "relevant → 与主题有关联的，相关的",
+      "imageChain": [
+        "相关",
+        "切题",
+        "关联"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "relevance",
+        "irrelevant"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "pertinent",
+        "related",
+        "applicable",
+        "appropriate"
+      ],
+      "antonyms": [
+        "irrelevant",
+        "unrelated",
+        "inapplicable"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "relevance"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "reliable",
     "phonetic": "/rɪ'laɪəbl/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "可靠的；可信赖的", "en": "consistently good in quality or performance; trustworthy"},
-    "morphemes": [
-      {"canonical": "re-", "role": "prefix", "meaning": "再；反复", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "re", "positionTendency": "initial", "coreMeaning": {"cn": "反复", "en": "again"}},
-      {"canonical": "li", "role": "root", "meaning": "依靠；结合（拉丁 ligare）", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 2, "form": "ly", "positionTendency": "medial", "coreMeaning": {"cn": "依靠", "en": "bind/depend"}},
-      {"canonical": "-able", "role": "suffix", "meaning": "可…的", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 3, "form": "able", "positionTendency": "final", "coreMeaning": {"cn": "可", "en": "capable of"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "rely", "to": "reliable", "by": "-able", "meaning": "capable of being relied upon"}]},
+    "coreMeaning": {
+      "cn": "可靠的；可信赖的",
+      "en": "consistently good in quality or performance; trustworthy"
+    },
+    "morphemes": [
+      {
+        "canonical": "re-",
+        "role": "prefix",
+        "meaning": "再；反复",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "re",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "反复",
+          "en": "again"
+        }
+      },
+      {
+        "canonical": "li",
+        "role": "root",
+        "meaning": "依靠；结合（拉丁 ligare）",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 2,
+        "form": "ly",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "依靠",
+          "en": "bind/depend"
+        }
+      },
+      {
+        "canonical": "-able",
+        "role": "suffix",
+        "meaning": "可…的",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 3,
+        "form": "able",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "可",
+          "en": "capable of"
+        }
+      }
+    ],
+    "derivationChain": [
+      "reliable"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "reliable → 可以被依赖的=可靠的", "imageChain": ["可靠", "信任", "可依赖"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 2}, "domain": ["general", "business"], "formality": "neutral"},
-    "relations": {"sameRoot": ["reliance", "reliant", "rely"], "sameAffix": [], "synonyms": ["dependable", "trustworthy", "consistent", "steady"], "antonyms": ["unreliable", "undependable", "untrustworthy"], "domainCohort": [], "derivationPair": ["reliance"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "reliable → 可以被依赖的=可靠的",
+      "imageChain": [
+        "可靠",
+        "信任",
+        "可依赖"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      },
+      "domain": [
+        "general",
+        "business"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "reliance",
+        "reliant",
+        "rely"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "dependable",
+        "trustworthy",
+        "consistent",
+        "steady"
+      ],
+      "antonyms": [
+        "unreliable",
+        "undependable",
+        "untrustworthy"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "reliance"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "relic",
     "phonetic": "/'rɛlɪk/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "遗物；废墟；圣物", "en": "an object surviving from earlier times; a surviving trace"},
-    "morphemes": [
-      {"canonical": "re-", "role": "prefix", "meaning": "后；留下", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "re", "positionTendency": "initial", "coreMeaning": {"cn": "留下", "en": "left behind"}},
-      {"canonical": "lic", "role": "root", "meaning": "留下；剩余（拉丁 linquere）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "lic", "positionTendency": "final", "coreMeaning": {"cn": "留下", "en": "leave"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "reliquiae", "to": "relic", "by": "shortening", "meaning": "something left behind; a surviving object"}]},
+    "coreMeaning": {
+      "cn": "遗物；废墟；圣物",
+      "en": "an object surviving from earlier times; a surviving trace"
+    },
+    "morphemes": [
+      {
+        "canonical": "re-",
+        "role": "prefix",
+        "meaning": "后；留下",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "re",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "留下",
+          "en": "left behind"
+        }
+      },
+      {
+        "canonical": "lic",
+        "role": "root",
+        "meaning": "留下；剩余（拉丁 linquere）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "lic",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "留下",
+          "en": "leave"
+        }
+      }
+    ],
+    "derivationChain": [
+      "relic"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "relic → 历史遗留下来的物品=遗物", "imageChain": ["遗物", "历史遗迹", "圣物"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": ["relinquish", "relict"], "sameAffix": [], "synonyms": ["artifact", "remnant", "keepsake", "memento"], "antonyms": [], "domainCohort": ["artifact", "remnant"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "relic → 历史遗留下来的物品=遗物",
+      "imageChain": [
+        "遗物",
+        "历史遗迹",
+        "圣物"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "relinquish",
+        "relict"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "artifact",
+        "remnant",
+        "keepsake",
+        "memento"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "artifact",
+        "remnant"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "relief",
     "phonetic": "/rɪ'liːf/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "救济；减轻；安慰；浮雕", "en": "alleviation of pain or distress; aid; a type of sculpture"},
-    "morphemes": [
-      {"canonical": "re-", "role": "prefix", "meaning": "再；更多", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "re", "positionTendency": "initial", "coreMeaning": {"cn": "再", "en": "again"}},
-      {"canonical": "lev", "role": "root", "meaning": "举起；减轻", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 2, "form": "lief", "positionTendency": "final", "coreMeaning": {"cn": "减轻", "en": "lift/lighten"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "relever", "to": "relief", "by": "noun form", "meaning": "the act of relieving; reduction of pain"}]},
+    "coreMeaning": {
+      "cn": "救济；减轻；安慰；浮雕",
+      "en": "alleviation of pain or distress; aid; a type of sculpture"
+    },
+    "morphemes": [
+      {
+        "canonical": "re-",
+        "role": "prefix",
+        "meaning": "再；更多",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "re",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "再",
+          "en": "again"
+        }
+      },
+      {
+        "canonical": "lev",
+        "role": "root",
+        "meaning": "举起；减轻",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 2,
+        "form": "lief",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "减轻",
+          "en": "lift/lighten"
+        }
+      }
+    ],
+    "derivationChain": [
+      "relief"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "relief → 减轻负担的行为=如释重负，救济", "imageChain": ["如释重负", "救济", "缓解"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 2}, "domain": ["general", "medical"], "formality": "neutral"},
-    "relations": {"sameRoot": ["relieve", "relent"], "sameAffix": [], "synonyms": ["alleviation", "comfort", "ease", "aid"], "antonyms": ["burden", "worsening", "aggravation"], "domainCohort": [], "derivationPair": ["relieve"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "relief → 减轻负担的行为=如释重负，救济",
+      "imageChain": [
+        "如释重负",
+        "救济",
+        "缓解"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      },
+      "domain": [
+        "general",
+        "medical"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "relieve",
+        "relent"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "alleviation",
+        "comfort",
+        "ease",
+        "aid"
+      ],
+      "antonyms": [
+        "burden",
+        "worsening",
+        "aggravation"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "relieve"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

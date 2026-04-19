@@ -2,74 +2,453 @@
   {
     "word": "stockbroker",
     "phonetic": "/'stɑkbroʊkər/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "股票经纪人；证券经纪人", "en": "a professional who buys and sells stocks on behalf of clients"},
-    "morphemes": [
-      {"canonical": "stock-", "role": "root", "meaning": "股票；库存", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "stock", "positionTendency": "initial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "broker-", "role": "root", "meaning": "经纪人；中间商", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "broker", "positionTendency": "final", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "stock + broker", "to": "stockbroker", "rule": "复合"}]},
+    "coreMeaning": {
+      "cn": "股票经纪人；证券经纪人",
+      "en": "a professional who buys and sells stocks on behalf of clients"
+    },
+    "morphemes": [
+      {
+        "canonical": "stock-",
+        "role": "root",
+        "meaning": "股票；库存",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "stock",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "broker-",
+        "role": "root",
+        "meaning": "经纪人；中间商",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "broker",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "stockbroker"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "stock(股票)+broker(经纪人) → 专门从事股票交易的经纪人", "imageChain": ["股市", "经纪人", "交易"]},
-    "wordLevel": {"domain": ["finance", "business"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["stock", "broker"], "sameAffix": [], "synonyms": ["trader", "broker", "securities dealer"], "antonyms": [], "domainCohort": ["trader", "analyst"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "stock(股票)+broker(经纪人) → 专门从事股票交易的经纪人",
+      "imageChain": [
+        "股市",
+        "经纪人",
+        "交易"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "finance",
+        "business"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "stock",
+        "broker"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "trader",
+        "broker",
+        "securities dealer"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "trader",
+        "analyst"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "stockpile",
     "phonetic": "/'stɑkpaɪl/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "大量储备；储存物资", "en": "a large accumulated stock of goods; to amass a reserve supply"},
-    "morphemes": [
-      {"canonical": "stock-", "role": "root", "meaning": "库存；储备", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "stock", "positionTendency": "initial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "pile-", "role": "root", "meaning": "堆；堆积", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "pile", "positionTendency": "final", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": [{"from": "stock + pile", "to": "stockpile", "rule": "复合"}]},
+    "coreMeaning": {
+      "cn": "大量储备；储存物资",
+      "en": "a large accumulated stock of goods; to amass a reserve supply"
+    },
+    "morphemes": [
+      {
+        "canonical": "stock-",
+        "role": "root",
+        "meaning": "库存；储备",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "stock",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "pile-",
+        "role": "root",
+        "meaning": "堆；堆积",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "pile",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "stockpile"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "stock(储备)+pile(堆) → 堆积大量储备物资", "imageChain": ["储备", "仓库", "物资"]},
-    "wordLevel": {"domain": ["general", "business", "news"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["stock", "pile"], "sameAffix": [], "synonyms": ["reserve", "cache", "hoard", "accumulation"], "antonyms": ["depletion", "shortage"], "domainCohort": ["reserve", "cache"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "stock(储备)+pile(堆) → 堆积大量储备物资",
+      "imageChain": [
+        "储备",
+        "仓库",
+        "物资"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "business",
+        "news"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "stock",
+        "pile"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "reserve",
+        "cache",
+        "hoard",
+        "accumulation"
+      ],
+      "antonyms": [
+        "depletion",
+        "shortage"
+      ],
+      "domainCohort": [
+        "reserve",
+        "cache"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "stocky",
     "phonetic": "/'stɑki/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "矮胖的；矮壮的；结实的", "en": "broad, solid, and short in build; compact and muscular"},
-    "morphemes": [
-      {"canonical": "stock-", "role": "root", "meaning": "树干；粗壮（原义：树桩）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "stock", "positionTendency": "initial", "coreMeaning": {"cn": "", "en": ""}},
-      {"canonical": "-y", "role": "suffix", "meaning": "形容词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "y", "positionTendency": "final", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "stock", "to": "stocky", "rule": "+y"}]},
+    "coreMeaning": {
+      "cn": "矮胖的；矮壮的；结实的",
+      "en": "broad, solid, and short in build; compact and muscular"
+    },
+    "morphemes": [
+      {
+        "canonical": "stock-",
+        "role": "root",
+        "meaning": "树干；粗壮（原义：树桩）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "stock",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      },
+      {
+        "canonical": "-y",
+        "role": "suffix",
+        "meaning": "形容词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "y",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "stocky"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "stock(树干)+y → 像树桩般矮壮结实", "imageChain": ["矮壮", "结实", "健壮"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["stock"], "sameAffix": [], "synonyms": ["sturdy", "compact", "thickset", "burly"], "antonyms": ["slender", "slim", "lanky", "willowy"], "domainCohort": ["sturdy", "thickset"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "stock(树干)+y → 像树桩般矮壮结实",
+      "imageChain": [
+        "矮壮",
+        "结实",
+        "健壮"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "stock"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "sturdy",
+        "compact",
+        "thickset",
+        "burly"
+      ],
+      "antonyms": [
+        "slender",
+        "slim",
+        "lanky",
+        "willowy"
+      ],
+      "domainCohort": [
+        "sturdy",
+        "thickset"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "stodgy",
     "phonetic": "/'stɑdʒi/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "乏味的；呆板的；沉重难消化的", "en": "dull and uninspired; heavy and filling food; not interesting or exciting"},
-    "morphemes": [
-      {"canonical": "stodgy", "role": "root", "meaning": "乏味；呆板", "sentiment": {"tags": ["贬义"], "intensity": -1}, "order": 1, "form": "stodgy", "positionTendency": "medial", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "乏味的；呆板的；沉重难消化的",
+      "en": "dull and uninspired; heavy and filling food; not interesting or exciting"
+    },
+    "morphemes": [
+      {
+        "canonical": "stodgy",
+        "role": "root",
+        "meaning": "乏味；呆板",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "stodgy",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "stodgy → 像难消化的重食物一样，令人厌倦乏味", "imageChain": ["乏味", "保守", "沉重"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["贬义"], "intensity": -1}},
-    "relations": {"sameRoot": ["stodge"], "sameAffix": [], "synonyms": ["dull", "boring", "uninspiring", "pedestrian", "heavy"], "antonyms": ["lively", "exciting", "stimulating", "light"], "domainCohort": ["dull", "boring"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "stodgy → 像难消化的重食物一样，令人厌倦乏味",
+      "imageChain": [
+        "乏味",
+        "保守",
+        "沉重"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "stodge"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "dull",
+        "boring",
+        "uninspiring",
+        "pedestrian",
+        "heavy"
+      ],
+      "antonyms": [
+        "lively",
+        "exciting",
+        "stimulating",
+        "light"
+      ],
+      "domainCohort": [
+        "dull",
+        "boring"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "stoic",
     "phonetic": "/'stoʊɪk/",
-    "pos": ["adj.", "n."],
-    "coreMeaning": {"cn": "斯多葛派的；泰然处之的；禁欲者", "en": "enduring pain without complaint; unemotional; an adherent of Stoicism"},
-    "morphemes": [
-      {"canonical": "stoic", "role": "root", "meaning": "斯多葛派（古希腊哲学）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "stoic", "positionTendency": "medial", "coreMeaning": {"cn": "", "en": ""}}
+    "pos": [
+      "adj.",
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "Gk Stoikos (from Stoa porch, where Stoics taught)", "to": "stoic", "rule": "专名借入"}]},
+    "coreMeaning": {
+      "cn": "斯多葛派的；泰然处之的；禁欲者",
+      "en": "enduring pain without complaint; unemotional; an adherent of Stoicism"
+    },
+    "morphemes": [
+      {
+        "canonical": "stoic",
+        "role": "root",
+        "meaning": "斯多葛派（古希腊哲学）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "stoic",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "",
+          "en": ""
+        }
+      }
+    ],
+    "derivationChain": [
+      "stoic"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "stoic → 斯多葛哲学强调超然于痛苦，泰然处之", "imageChain": ["泰然自若", "坚忍", "哲学"]},
-    "wordLevel": {"domain": ["academic", "general"], "sentiment": {"tags": ["褒义"], "intensity": 1}},
-    "relations": {"sameRoot": ["stoical", "stoicism"], "sameAffix": [], "synonyms": ["impassive", "unemotional", "phlegmatic", "composed", "resigned"], "antonyms": ["emotional", "reactive", "melodramatic"], "domainCohort": ["impassive", "phlegmatic"], "derivationPair": ["stoicism"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "stoic → 斯多葛哲学强调超然于痛苦，泰然处之",
+      "imageChain": [
+        "泰然自若",
+        "坚忍",
+        "哲学"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "academic",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "褒义"
+        ],
+        "intensity": 1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "stoical",
+        "stoicism"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "impassive",
+        "unemotional",
+        "phlegmatic",
+        "composed",
+        "resigned"
+      ],
+      "antonyms": [
+        "emotional",
+        "reactive",
+        "melodramatic"
+      ],
+      "domainCohort": [
+        "impassive",
+        "phlegmatic"
+      ],
+      "derivationPair": [
+        "stoicism"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

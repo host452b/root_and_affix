@@ -2,117 +2,659 @@
   {
     "word": "flagrant",
     "phonetic": "/'fleɪɡrənt/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "公然的；明目张胆的；恶名昭著的", "en": "obviously offensive or wrong; blatant"},
-    "morphemes": [
-      {"canonical": "flagr", "role": "root", "meaning": "燃烧；炽热", "sentiment": {"tags": ["消极"], "intensity": 2}, "order": 1, "form": "flagr", "positionTendency": "initial", "coreMeaning": {"cn": "燃烧", "en": "burn"}},
-      {"canonical": "-ant", "role": "suffix", "meaning": "形容词", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ant", "positionTendency": "final", "coreMeaning": {"cn": "…的", "en": "having the quality"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "公然的；明目张胆的；恶名昭著的",
+      "en": "obviously offensive or wrong; blatant"
+    },
+    "morphemes": [
+      {
+        "canonical": "flagr",
+        "role": "root",
+        "meaning": "燃烧；炽热",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 2
+        },
+        "order": 1,
+        "form": "flagr",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "燃烧",
+          "en": "burn"
+        }
+      },
+      {
+        "canonical": "-ant",
+        "role": "suffix",
+        "meaning": "形容词",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ant",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "…的",
+          "en": "having the quality"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "flagrant → 如同火焰般明显，公然的", "imageChain": ["火焰", "明目张胆", "无法忽视"]},
-    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": 3}, "domain": ["general", "legal"], "formality": "formal"},
-    "relations": {"sameRoot": ["flagrance", "flamboyant"], "sameAffix": [], "synonyms": ["blatant", "glaring", "outrageous", "brazen"], "antonyms": ["subtle", "minor"], "domainCohort": ["egregious", "blatant"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "flagrant → 如同火焰般明显，公然的",
+      "imageChain": [
+        "火焰",
+        "明目张胆",
+        "无法忽视"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 3
+      },
+      "domain": [
+        "general",
+        "legal"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "flagrance",
+        "flamboyant"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "blatant",
+        "glaring",
+        "outrageous",
+        "brazen"
+      ],
+      "antonyms": [
+        "subtle",
+        "minor"
+      ],
+      "domainCohort": [
+        "egregious",
+        "blatant"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "flagship",
     "phonetic": "/'flæɡʃɪp/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "旗舰；同类中的佼佼者", "en": "the best or most important of a group"},
-    "morphemes": [
-      {"canonical": "flag", "role": "root", "meaning": "旗帜", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "flag", "positionTendency": "initial", "coreMeaning": {"cn": "旗", "en": "flag"}},
-      {"canonical": "ship", "role": "root", "meaning": "船", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ship", "positionTendency": "final", "coreMeaning": {"cn": "船", "en": "ship"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "flag + ship", "to": "flagship", "by": "compound", "meaning": "the ship carrying the commander's flag; the leading vessel"}]},
+    "coreMeaning": {
+      "cn": "旗舰；同类中的佼佼者",
+      "en": "the best or most important of a group"
+    },
+    "morphemes": [
+      {
+        "canonical": "flag",
+        "role": "root",
+        "meaning": "旗帜",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "flag",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "旗",
+          "en": "flag"
+        }
+      },
+      {
+        "canonical": "ship",
+        "role": "root",
+        "meaning": "船",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ship",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "船",
+          "en": "ship"
+        }
+      }
+    ],
+    "derivationChain": [
+      "flagship"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "flagship → 旗舰，舰队最重要的船", "imageChain": ["旗舰", "领头", "最重要产品"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 2}, "domain": ["general", "business"], "formality": "neutral"},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["premier", "leader", "exemplar"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "flagship → 旗舰，舰队最重要的船",
+      "imageChain": [
+        "旗舰",
+        "领头",
+        "最重要产品"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      },
+      "domain": [
+        "general",
+        "business"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "premier",
+        "leader",
+        "exemplar"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "flair",
     "phonetic": "/flɛr/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "天资；天分；才能", "en": "natural talent or aptitude"},
-    "morphemes": [
-      {"canonical": "flair", "role": "root", "meaning": "天赋；嗅觉", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "flair", "positionTendency": "medial", "coreMeaning": {"cn": "天赋", "en": "talent/instinct"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "天资；天分；才能",
+      "en": "natural talent or aptitude"
+    },
+    "morphemes": [
+      {
+        "canonical": "flair",
+        "role": "root",
+        "meaning": "天赋；嗅觉",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 1,
+        "form": "flair",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "天赋",
+          "en": "talent/instinct"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "flair → 天生的嗅觉→天资, 才华", "imageChain": ["天赋", "才华", "独特风格"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 2}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["talent", "aptitude", "gift", "knack"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "flair → 天生的嗅觉→天资, 才华",
+      "imageChain": [
+        "天赋",
+        "才华",
+        "独特风格"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "talent",
+        "aptitude",
+        "gift",
+        "knack"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "flak",
     "phonetic": "/flæk/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "高射炮火；强烈批评", "en": "antiaircraft fire; strong criticism"},
-    "morphemes": [
-      {"canonical": "flak", "role": "root", "meaning": "高射炮（德语缩写）", "sentiment": {"tags": ["消极"], "intensity": 2}, "order": 1, "form": "flak", "positionTendency": "medial", "coreMeaning": {"cn": "炮击", "en": "anti-aircraft fire"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "高射炮火；强烈批评",
+      "en": "antiaircraft fire; strong criticism"
+    },
+    "morphemes": [
+      {
+        "canonical": "flak",
+        "role": "root",
+        "meaning": "高射炮（德语缩写）",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 2
+        },
+        "order": 1,
+        "form": "flak",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "炮击",
+          "en": "anti-aircraft fire"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "flak → 炮火，引申为激烈批评", "imageChain": ["炮击", "批评炮火", "强烈反对"]},
-    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": 2}, "domain": ["general"], "formality": "informal"},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["criticism", "backlash", "fire"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "flak → 炮火，引申为激烈批评",
+      "imageChain": [
+        "炮击",
+        "批评炮火",
+        "强烈反对"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 2
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "informal"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "criticism",
+        "backlash",
+        "fire"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "flake",
     "phonetic": "/fleɪk/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "薄片；剥落", "en": "a thin, flat piece that breaks off; to peel off"},
-    "morphemes": [
-      {"canonical": "flake", "role": "root", "meaning": "薄片；剥落", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "flake", "positionTendency": "medial", "coreMeaning": {"cn": "薄片", "en": "thin piece"}}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "薄片；剥落",
+      "en": "a thin, flat piece that breaks off; to peel off"
+    },
+    "morphemes": [
+      {
+        "canonical": "flake",
+        "role": "root",
+        "meaning": "薄片；剥落",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "flake",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "薄片",
+          "en": "thin piece"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "flake → 薄薄一片，如雪花或剥落的漆", "imageChain": ["雪花", "薄片", "剥落"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": ["flaky", "flaked", "flaking"], "sameAffix": [], "synonyms": ["chip", "sliver", "scale"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "flake → 薄薄一片，如雪花或剥落的漆",
+      "imageChain": [
+        "雪花",
+        "薄片",
+        "剥落"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "flaky",
+        "flaked",
+        "flaking"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "chip",
+        "sliver",
+        "scale"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "flaky",
     "phonetic": "/'fleɪki/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "薄片状的；不可靠的", "en": "breaking into flakes; unreliable"},
-    "morphemes": [
-      {"canonical": "flake", "role": "root", "meaning": "薄片", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "flak", "positionTendency": "initial", "coreMeaning": {"cn": "薄片", "en": "flake"}},
-      {"canonical": "-y", "role": "suffix", "meaning": "形容词", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "y", "positionTendency": "final", "coreMeaning": {"cn": "…的", "en": "having quality of"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "flake", "to": "flaky", "by": "-y", "meaning": "like flakes; tending to flake"}]},
+    "coreMeaning": {
+      "cn": "薄片状的；不可靠的",
+      "en": "breaking into flakes; unreliable"
+    },
+    "morphemes": [
+      {
+        "canonical": "flake",
+        "role": "root",
+        "meaning": "薄片",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "flak",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "薄片",
+          "en": "flake"
+        }
+      },
+      {
+        "canonical": "-y",
+        "role": "suffix",
+        "meaning": "形容词",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "y",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "…的",
+          "en": "having quality of"
+        }
+      }
+    ],
+    "derivationChain": [
+      "flaky"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "flaky → 像薄片一样，不稳定，不可靠", "imageChain": ["酥脆", "易碎", "不可靠"]},
-    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": 1}, "domain": ["general"], "formality": "informal"},
-    "relations": {"sameRoot": ["flake"], "sameAffix": [], "synonyms": ["unreliable", "erratic", "crumbly"], "antonyms": ["reliable", "solid"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "flaky → 像薄片一样，不稳定，不可靠",
+      "imageChain": [
+        "酥脆",
+        "易碎",
+        "不可靠"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "informal"
+    },
+    "relations": {
+      "sameRoot": [
+        "flake"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "unreliable",
+        "erratic",
+        "crumbly"
+      ],
+      "antonyms": [
+        "reliable",
+        "solid"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "flamboyant",
     "phonetic": "/flæm'bɔɪənt/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "艳丽的；炫耀的；火焰似的", "en": "strikingly bold or brilliant; showy"},
-    "morphemes": [
-      {"canonical": "flamb", "role": "root", "meaning": "火焰", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "flamb", "positionTendency": "initial", "coreMeaning": {"cn": "火焰", "en": "flame"}},
-      {"canonical": "-oyant", "role": "suffix", "meaning": "形容词（法语来源）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "oyant", "positionTendency": "final", "coreMeaning": {"cn": "…的", "en": "having quality of flame"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "艳丽的；炫耀的；火焰似的",
+      "en": "strikingly bold or brilliant; showy"
+    },
+    "morphemes": [
+      {
+        "canonical": "flamb",
+        "role": "root",
+        "meaning": "火焰",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "flamb",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "火焰",
+          "en": "flame"
+        }
+      },
+      {
+        "canonical": "-oyant",
+        "role": "suffix",
+        "meaning": "形容词（法语来源）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "oyant",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "…的",
+          "en": "having quality of flame"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "flamboyant → 像火焰一样张扬，炫目", "imageChain": ["火焰", "艳丽", "张扬"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["flamboyance", "flame"], "sameAffix": [], "synonyms": ["showy", "flamboyant", "ostentatious", "extravagant"], "antonyms": ["restrained", "understated", "modest"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": ["flagrant"]}
+    "memorySemantics": {
+      "mnemonicExpr": "flamboyant → 像火焰一样张扬，炫目",
+      "imageChain": [
+        "火焰",
+        "艳丽",
+        "张扬"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "flamboyance",
+        "flame"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "showy",
+        "flamboyant",
+        "ostentatious",
+        "extravagant"
+      ],
+      "antonyms": [
+        "restrained",
+        "understated",
+        "modest"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "flagrant"
+      ]
+    }
   },
   {
     "word": "flame",
     "phonetic": "/fleɪm/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "火焰；激情", "en": "visible burning gas; passionate feeling"},
-    "morphemes": [
-      {"canonical": "flamm", "role": "root", "meaning": "火焰", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "flame", "positionTendency": "medial", "coreMeaning": {"cn": "火", "en": "fire"}}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "火焰；激情",
+      "en": "visible burning gas; passionate feeling"
+    },
+    "morphemes": [
+      {
+        "canonical": "flamm",
+        "role": "root",
+        "meaning": "火焰",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "flame",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "火",
+          "en": "fire"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "flame → 火焰，激情如火", "imageChain": ["火焰", "激情", "燃烧"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": ["flaming", "flamed", "flamethrower", "inflammatory"], "sameAffix": [], "synonyms": ["fire", "blaze"], "antonyms": [], "domainCohort": ["fire", "heat"], "derivationPair": [], "morphVariants": [], "sameImagery": ["flamboyant", "flagrant"]}
+    "memorySemantics": {
+      "mnemonicExpr": "flame → 火焰，激情如火",
+      "imageChain": [
+        "火焰",
+        "激情",
+        "燃烧"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "flaming",
+        "flamed",
+        "flamethrower",
+        "inflammatory"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "fire",
+        "blaze"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "fire",
+        "heat"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "flamboyant",
+        "flagrant"
+      ]
+    }
   }
 ]

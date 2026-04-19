@@ -2,149 +2,814 @@
   {
     "word": "gregarious",
     "phonetic": "/grɪ'gɛrɪəs/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "群居的；合群的；爱交际的", "en": "fond of company; sociable; living in flocks or herds"},
-    "morphemes": [
-      {"canonical": "greg", "role": "root", "positionTendency": "initial", "meaning": "群；聚集", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "gregar"},
-      {"canonical": "-ious", "role": "suffix", "positionTendency": "final", "meaning": "形容词化；具有…性质", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ious"}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": ["grex(群) → gregarius → gregarious"]},
+    "coreMeaning": {
+      "cn": "群居的；合群的；爱交际的",
+      "en": "fond of company; sociable; living in flocks or herds"
+    },
+    "morphemes": [
+      {
+        "canonical": "greg",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "群；聚集",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "gregar"
+      },
+      {
+        "canonical": "-ious",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "形容词化；具有…性质",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ious"
+      }
+    ],
+    "derivationChain": [
+      "grex(群) → gregarius → gregarious"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "喜欢群居的", "imageChain": ["社交", "合群", "人群"], "mnemonicExpr": "greg(群)+arious → 喜欢群聚的，爱社交的"},
-    "wordLevel": {"sentiment": {"tags": ["褒义"], "intensity": 1}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["aggregate", "congregation", "egregious"], "sameAffix": [], "synonyms": ["sociable", "outgoing", "convivial"], "antonyms": ["solitary", "reserved", "introverted"], "domainCohort": ["gregariousness"], "derivationPair": ["gregariousness"], "morphVariants": [], "sameImagery": ["sociable"]}
+    "memorySemantics": {
+      "literal": "喜欢群居的",
+      "imageChain": [
+        "社交",
+        "合群",
+        "人群"
+      ],
+      "mnemonicExpr": "greg(群)+arious → 喜欢群聚的，爱社交的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "褒义"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "aggregate",
+        "congregation",
+        "egregious"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "sociable",
+        "outgoing",
+        "convivial"
+      ],
+      "antonyms": [
+        "solitary",
+        "reserved",
+        "introverted"
+      ],
+      "domainCohort": [
+        "gregariousness"
+      ],
+      "derivationPair": [
+        "gregariousness"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "sociable"
+      ]
+    }
   },
   {
     "word": "gregariousness",
     "phonetic": "/grɪ'geriəsnəs/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "群居；合群；爱交友", "en": "the quality of being sociable and enjoying company"},
-    "morphemes": [
-      {"canonical": "greg", "role": "root", "positionTendency": "initial", "meaning": "群；聚集", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "gregar"},
-      {"canonical": "-ious", "role": "suffix", "positionTendency": "medial", "meaning": "形容词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ious"},
-      {"canonical": "-ness", "role": "suffix", "positionTendency": "final", "meaning": "名词化；状态", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ness"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": ["gregarious → gregariousness"]},
+    "coreMeaning": {
+      "cn": "群居；合群；爱交友",
+      "en": "the quality of being sociable and enjoying company"
+    },
+    "morphemes": [
+      {
+        "canonical": "greg",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "群；聚集",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "gregar"
+      },
+      {
+        "canonical": "-ious",
+        "role": "suffix",
+        "positionTendency": "medial",
+        "meaning": "形容词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ious"
+      },
+      {
+        "canonical": "-ness",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "名词化；状态",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ness"
+      }
+    ],
+    "derivationChain": [
+      "gregarious → gregariousness"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "喜爱群聚的状态", "imageChain": ["交际", "社群", "融洽"], "mnemonicExpr": "gregarious(合群的)+ness → 合群的品质"},
-    "wordLevel": {"sentiment": {"tags": ["褒义"], "intensity": 1}, "domain": ["general"], "formality": "formal"},
-    "relations": {"sameRoot": ["gregarious"], "sameAffix": [], "synonyms": ["sociability", "conviviality"], "antonyms": ["solitude", "reserve"], "domainCohort": [], "derivationPair": ["gregarious"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "喜爱群聚的状态",
+      "imageChain": [
+        "交际",
+        "社群",
+        "融洽"
+      ],
+      "mnemonicExpr": "gregarious(合群的)+ness → 合群的品质"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "褒义"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "gregarious"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "sociability",
+        "conviviality"
+      ],
+      "antonyms": [
+        "solitude",
+        "reserve"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "gregarious"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "greet",
     "phonetic": "/ɡriːt/",
-    "pos": ["v."],
-    "coreMeaning": {"cn": "问候；迎接；致意", "en": "to address with expressions of welcome; to meet or react to in a specified way"},
-    "morphemes": [
-      {"canonical": "greet", "role": "root", "positionTendency": "medial", "meaning": "问候；迎接", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "greet"}
+    "pos": [
+      "v."
     ],
-    "derivationChain": {"steps": ["gretan(向…喊) → greet"]},
+    "coreMeaning": {
+      "cn": "问候；迎接；致意",
+      "en": "to address with expressions of welcome; to meet or react to in a specified way"
+    },
+    "morphemes": [
+      {
+        "canonical": "greet",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "问候；迎接",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "greet"
+      }
+    ],
+    "derivationChain": [
+      "gretan(向…喊) → greet"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "面对面的问候", "imageChain": ["握手", "打招呼", "欢迎"], "mnemonicExpr": "greet → 欢迎问候"},
-    "wordLevel": {"sentiment": {"tags": ["褒义"], "intensity": 1}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["greeting", "greeter"], "sameAffix": [], "synonyms": ["welcome", "hail", "salute"], "antonyms": ["ignore", "snub"], "domainCohort": ["greeting"], "derivationPair": [], "morphVariants": [], "sameImagery": ["welcome"]}
+    "memorySemantics": {
+      "literal": "面对面的问候",
+      "imageChain": [
+        "握手",
+        "打招呼",
+        "欢迎"
+      ],
+      "mnemonicExpr": "greet → 欢迎问候"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "褒义"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "greeting",
+        "greeter"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "welcome",
+        "hail",
+        "salute"
+      ],
+      "antonyms": [
+        "ignore",
+        "snub"
+      ],
+      "domainCohort": [
+        "greeting"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "welcome"
+      ]
+    }
   },
   {
     "word": "grenade",
     "phonetic": "/ɡrə'neɪd/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "手榴弹", "en": "a small bomb thrown by hand or launched mechanically"},
-    "morphemes": [
-      {"canonical": "grenade", "role": "root", "positionTendency": "medial", "meaning": "石榴；炸弹", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "grenade"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": ["granada(石榴) → grenade"]},
+    "coreMeaning": {
+      "cn": "手榴弹",
+      "en": "a small bomb thrown by hand or launched mechanically"
+    },
+    "morphemes": [
+      {
+        "canonical": "grenade",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "石榴；炸弹",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "grenade"
+      }
+    ],
+    "derivationChain": [
+      "granada(石榴) → grenade"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "像石榴一样爆裂的炸弹", "imageChain": ["炸弹", "石榴", "爆炸"], "mnemonicExpr": "grenade → 因形如石榴而得名的手雷"},
-    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": -1}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["bomb", "explosive"], "antonyms": [], "domainCohort": ["grenadier"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "像石榴一样爆裂的炸弹",
+      "imageChain": [
+        "炸弹",
+        "石榴",
+        "爆炸"
+      ],
+      "mnemonicExpr": "grenade → 因形如石榴而得名的手雷"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "bomb",
+        "explosive"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "grenadier"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "grenadier",
     "phonetic": "/,ɡrɛnə'dɪr/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "掷弹兵；近卫军步兵", "en": "a soldier who throws grenades; a member of a special infantry regiment"},
-    "morphemes": [
-      {"canonical": "grenade", "role": "root", "positionTendency": "initial", "meaning": "手榴弹", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "grenad"},
-      {"canonical": "-ier", "role": "suffix", "positionTendency": "final", "meaning": "施动者；职业", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ier"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": ["grenade → grenadier"]},
+    "coreMeaning": {
+      "cn": "掷弹兵；近卫军步兵",
+      "en": "a soldier who throws grenades; a member of a special infantry regiment"
+    },
+    "morphemes": [
+      {
+        "canonical": "grenade",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "手榴弹",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "grenad"
+      },
+      {
+        "canonical": "-ier",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "施动者；职业",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ier"
+      }
+    ],
+    "derivationChain": [
+      "grenade → grenadier"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "使用手榴弹的士兵", "imageChain": ["精锐部队", "士兵", "手雷"], "mnemonicExpr": "grenade(手榴弹)+ier(人) → 掷弹兵"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "formal"},
-    "relations": {"sameRoot": ["grenade"], "sameAffix": [], "synonyms": ["soldier", "infantryman"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "使用手榴弹的士兵",
+      "imageChain": [
+        "精锐部队",
+        "士兵",
+        "手雷"
+      ],
+      "mnemonicExpr": "grenade(手榴弹)+ier(人) → 掷弹兵"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "grenade"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "soldier",
+        "infantryman"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "greyhound",
     "phonetic": "/'ɡreɪhaʊnd/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "灵缇；猎兔狗", "en": "a dog of a tall, slender breed noted for its speed"},
-    "morphemes": [
-      {"canonical": "grey", "role": "root", "positionTendency": "initial", "meaning": "灰色", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "grey"},
-      {"canonical": "hound", "role": "root", "positionTendency": "final", "meaning": "猎狗", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "hound"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": ["grey+hound → greyhound"]},
+    "coreMeaning": {
+      "cn": "灵缇；猎兔狗",
+      "en": "a dog of a tall, slender breed noted for its speed"
+    },
+    "morphemes": [
+      {
+        "canonical": "grey",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "灰色",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "grey"
+      },
+      {
+        "canonical": "hound",
+        "role": "root",
+        "positionTendency": "final",
+        "meaning": "猎狗",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "hound"
+      }
+    ],
+    "derivationChain": [
+      "grey+hound → greyhound"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "灰色猎犬", "imageChain": ["速度", "猎犬", "跑道"], "mnemonicExpr": "grey(灰色)+hound(猎狗) → 灰色的快速猎狗"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["hound"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "灰色猎犬",
+      "imageChain": [
+        "速度",
+        "猎犬",
+        "跑道"
+      ],
+      "mnemonicExpr": "grey(灰色)+hound(猎狗) → 灰色的快速猎狗"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "hound"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "greybeard",
     "phonetic": "/'ɡreɪbɪəd/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "老人；有经验的人", "en": "an old man; a person of advanced age"},
-    "morphemes": [
-      {"canonical": "grey", "role": "root", "positionTendency": "initial", "meaning": "灰色；苍老", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "grey"},
-      {"canonical": "beard", "role": "root", "positionTendency": "final", "meaning": "胡须", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "beard"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": ["grey+beard → greybeard"]},
+    "coreMeaning": {
+      "cn": "老人；有经验的人",
+      "en": "an old man; a person of advanced age"
+    },
+    "morphemes": [
+      {
+        "canonical": "grey",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "灰色；苍老",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "grey"
+      },
+      {
+        "canonical": "beard",
+        "role": "root",
+        "positionTendency": "final",
+        "meaning": "胡须",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "beard"
+      }
+    ],
+    "derivationChain": [
+      "grey+beard → greybeard"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "白胡子老者", "imageChain": ["老人", "白胡子", "长者"], "mnemonicExpr": "grey(灰白)+beard(胡子) → 白胡子老人"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "informal"},
-    "relations": {"sameRoot": ["beard"], "sameAffix": [], "synonyms": ["elder", "old man"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "白胡子老者",
+      "imageChain": [
+        "老人",
+        "白胡子",
+        "长者"
+      ],
+      "mnemonicExpr": "grey(灰白)+beard(胡子) → 白胡子老人"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "informal"
+    },
+    "relations": {
+      "sameRoot": [
+        "beard"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "elder",
+        "old man"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "greyish",
     "phonetic": "/'ɡreɪɪʃ/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "带灰色的；灰白色的", "en": "somewhat grey in color"},
-    "morphemes": [
-      {"canonical": "grey", "role": "root", "positionTendency": "initial", "meaning": "灰色", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "grey"},
-      {"canonical": "-ish", "role": "suffix", "positionTendency": "final", "meaning": "带有…色彩；有点像", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ish"}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": ["grey → greyish"]},
+    "coreMeaning": {
+      "cn": "带灰色的；灰白色的",
+      "en": "somewhat grey in color"
+    },
+    "morphemes": [
+      {
+        "canonical": "grey",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "灰色",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "grey"
+      },
+      {
+        "canonical": "-ish",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "带有…色彩；有点像",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ish"
+      }
+    ],
+    "derivationChain": [
+      "grey → greyish"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "带有灰色的", "imageChain": ["灰色调", "模糊", "中间色"], "mnemonicExpr": "grey(灰色)+ish → 有点灰色的"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["grey", "greyness"], "sameAffix": [], "synonyms": ["grayish", "ashen"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["grayish"], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "带有灰色的",
+      "imageChain": [
+        "灰色调",
+        "模糊",
+        "中间色"
+      ],
+      "mnemonicExpr": "grey(灰色)+ish → 有点灰色的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "grey",
+        "greyness"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "grayish",
+        "ashen"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [
+        "grayish"
+      ],
+      "sameImagery": []
+    }
   },
   {
     "word": "greyness",
     "phonetic": "/'ɡreɪnɪs/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "灰色；无趣；单调", "en": "the quality of being grey; dullness or lack of interest"},
-    "morphemes": [
-      {"canonical": "grey", "role": "root", "positionTendency": "initial", "meaning": "灰色；单调", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "grey"},
-      {"canonical": "-ness", "role": "suffix", "positionTendency": "final", "meaning": "名词化；状态", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ness"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": ["grey → greyness"]},
+    "coreMeaning": {
+      "cn": "灰色；无趣；单调",
+      "en": "the quality of being grey; dullness or lack of interest"
+    },
+    "morphemes": [
+      {
+        "canonical": "grey",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "灰色；单调",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "grey"
+      },
+      {
+        "canonical": "-ness",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "名词化；状态",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ness"
+      }
+    ],
+    "derivationChain": [
+      "grey → greyness"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "灰色的状态；单调乏味", "imageChain": ["阴天", "沉闷", "单调"], "mnemonicExpr": "grey(灰色)+ness → 灰色的品质，无趣"},
-    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": -1}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["grey", "greyish"], "sameAffix": [], "synonyms": ["dullness", "monotony"], "antonyms": ["brightness", "vividness"], "domainCohort": [], "derivationPair": [], "morphVariants": ["grayness"], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "灰色的状态；单调乏味",
+      "imageChain": [
+        "阴天",
+        "沉闷",
+        "单调"
+      ],
+      "mnemonicExpr": "grey(灰色)+ness → 灰色的品质，无趣"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "grey",
+        "greyish"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "dullness",
+        "monotony"
+      ],
+      "antonyms": [
+        "brightness",
+        "vividness"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [
+        "grayness"
+      ],
+      "sameImagery": []
+    }
   },
   {
     "word": "gremlin",
     "phonetic": "/'ɡrɛmlɪn/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "格林魔怪；故障精灵", "en": "a mischievous sprite imagined to cause mechanical problems; a persistent unexplained problem"},
-    "morphemes": [
-      {"canonical": "gremlin", "role": "root", "positionTendency": "medial", "meaning": "故障精灵", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "gremlin"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "格林魔怪；故障精灵",
+      "en": "a mischievous sprite imagined to cause mechanical problems; a persistent unexplained problem"
+    },
+    "morphemes": [
+      {
+        "canonical": "gremlin",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "故障精灵",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "gremlin"
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "引起机械故障的小妖精", "imageChain": ["故障", "小精灵", "恶作剧"], "mnemonicExpr": "gremlin → 作怪引发故障的小妖精"},
-    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": -1}, "domain": ["general", "tech"], "formality": "informal"},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["bug", "glitch", "gremlin"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "引起机械故障的小妖精",
+      "imageChain": [
+        "故障",
+        "小精灵",
+        "恶作剧"
+      ],
+      "mnemonicExpr": "gremlin → 作怪引发故障的小妖精"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      },
+      "domain": [
+        "general",
+        "tech"
+      ],
+      "formality": "informal"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "bug",
+        "glitch",
+        "gremlin"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

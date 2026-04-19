@@ -2,148 +2,813 @@
   {
     "word": "ductile",
     "phonetic": "/'dʌktaɪl/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "柔软的；易延展的", "en": "able to be drawn into wire; easily led"},
-    "morphemes": [
-      {"canonical": "duct", "role": "root", "positionTendency": "medial", "meaning": "引导；管道", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "duct"},
-      {"canonical": "-ile", "role": "suffix", "positionTendency": "final", "meaning": "能够…的", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ile"}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": ["ducere(引导) → ductile"]},
+    "coreMeaning": {
+      "cn": "柔软的；易延展的",
+      "en": "able to be drawn into wire; easily led"
+    },
+    "morphemes": [
+      {
+        "canonical": "duct",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "引导；管道",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "duct"
+      },
+      {
+        "canonical": "-ile",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "能够…的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ile"
+      }
+    ],
+    "derivationChain": [
+      "ducere(引导) → ductile"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "可以被引导拉伸的", "imageChain": ["金属丝", "延展", "柔韧"], "mnemonicExpr": "duct(管道/引导)+ile → 能被拉成管状的"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["academic", "tech"], "formality": "formal"},
-    "relations": {"sameRoot": ["duct", "conduct", "deduct"], "sameAffix": [], "synonyms": ["malleable", "pliable"], "antonyms": ["brittle", "rigid"], "domainCohort": ["ductility"], "derivationPair": ["ductility"], "morphVariants": [], "sameImagery": ["malleable"]}
+    "memorySemantics": {
+      "literal": "可以被引导拉伸的",
+      "imageChain": [
+        "金属丝",
+        "延展",
+        "柔韧"
+      ],
+      "mnemonicExpr": "duct(管道/引导)+ile → 能被拉成管状的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "academic",
+        "tech"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "duct",
+        "conduct",
+        "deduct"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "malleable",
+        "pliable"
+      ],
+      "antonyms": [
+        "brittle",
+        "rigid"
+      ],
+      "domainCohort": [
+        "ductility"
+      ],
+      "derivationPair": [
+        "ductility"
+      ],
+      "morphVariants": [],
+      "sameImagery": [
+        "malleable"
+      ]
+    }
   },
   {
     "word": "due",
     "phonetic": "/du/",
-    "pos": ["adj.", "adv.", "n."],
-    "coreMeaning": {"cn": "预定的；应付的", "en": "expected; owed; owing"},
-    "morphemes": [
-      {"canonical": "due", "role": "root", "positionTendency": "medial", "meaning": "应得的；到期的", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "due"}
+    "pos": [
+      "adj.",
+      "adv.",
+      "n."
     ],
-    "derivationChain": {"steps": ["debere(欠) → due"]},
+    "coreMeaning": {
+      "cn": "预定的；应付的",
+      "en": "expected; owed; owing"
+    },
+    "morphemes": [
+      {
+        "canonical": "due",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "应得的；到期的",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "due"
+      }
+    ],
+    "derivationChain": [
+      "debere(欠) → due"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "应该给付的", "imageChain": ["到期", "义务", "欠款"], "mnemonicExpr": "due → 到期应付"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "business", "legal"], "formality": "neutral"},
-    "relations": {"sameRoot": ["duty", "undue"], "sameAffix": [], "synonyms": ["owed", "payable", "expected"], "antonyms": ["overdue"], "domainCohort": ["dues"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "应该给付的",
+      "imageChain": [
+        "到期",
+        "义务",
+        "欠款"
+      ],
+      "mnemonicExpr": "due → 到期应付"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "business",
+        "legal"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "duty",
+        "undue"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "owed",
+        "payable",
+        "expected"
+      ],
+      "antonyms": [
+        "overdue"
+      ],
+      "domainCohort": [
+        "dues"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "duet",
     "phonetic": "/dʊ'ɛt/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "二重奏；二人组合", "en": "a musical composition for two performers"},
-    "morphemes": [
-      {"canonical": "du-", "role": "prefix", "positionTendency": "initial", "meaning": "二；两", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "du"},
-      {"canonical": "-et", "role": "suffix", "positionTendency": "final", "meaning": "小；组合", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "et"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": ["duo(二) → duet"]},
+    "coreMeaning": {
+      "cn": "二重奏；二人组合",
+      "en": "a musical composition for two performers"
+    },
+    "morphemes": [
+      {
+        "canonical": "du-",
+        "role": "prefix",
+        "positionTendency": "initial",
+        "meaning": "二；两",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "du"
+      },
+      {
+        "canonical": "-et",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "小；组合",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "et"
+      }
+    ],
+    "derivationChain": [
+      "duo(二) → duet"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "两人一组的演奏", "imageChain": ["钢琴", "两位演奏者", "和声"], "mnemonicExpr": "du(二)+et → 二人组合演奏"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["duo", "dual"], "sameAffix": [], "synonyms": ["duo"], "antonyms": ["solo"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "两人一组的演奏",
+      "imageChain": [
+        "钢琴",
+        "两位演奏者",
+        "和声"
+      ],
+      "mnemonicExpr": "du(二)+et → 二人组合演奏"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "duo",
+        "dual"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "duo"
+      ],
+      "antonyms": [
+        "solo"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "duke",
     "phonetic": "/dju:k/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "公爵", "en": "a nobleman of the highest rank"},
-    "morphemes": [
-      {"canonical": "duke", "role": "root", "positionTendency": "medial", "meaning": "公爵；领袖", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "duke"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": ["dux(领袖) → duke"]},
+    "coreMeaning": {
+      "cn": "公爵",
+      "en": "a nobleman of the highest rank"
+    },
+    "morphemes": [
+      {
+        "canonical": "duke",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "公爵；领袖",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "duke"
+      }
+    ],
+    "derivationChain": [
+      "dux(领袖) → duke"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "最高级别的领袖", "imageChain": ["贵族", "城堡", "爵位"], "mnemonicExpr": "duke → 公爵，贵族称谓"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "formal"},
-    "relations": {"sameRoot": ["duchy", "duchess"], "sameAffix": [], "synonyms": ["nobleman"], "antonyms": ["commoner"], "domainCohort": ["dukedom"], "derivationPair": ["dukedom"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "最高级别的领袖",
+      "imageChain": [
+        "贵族",
+        "城堡",
+        "爵位"
+      ],
+      "mnemonicExpr": "duke → 公爵，贵族称谓"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "duchy",
+        "duchess"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "nobleman"
+      ],
+      "antonyms": [
+        "commoner"
+      ],
+      "domainCohort": [
+        "dukedom"
+      ],
+      "derivationPair": [
+        "dukedom"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "dulcet",
     "phonetic": "/'dʌlsɪt/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "悦耳的；甜美的", "en": "sweet and soothing in sound"},
-    "morphemes": [
-      {"canonical": "dulc", "role": "root", "positionTendency": "medial", "meaning": "甜；悦耳", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "dulc"},
-      {"canonical": "-et", "role": "suffix", "positionTendency": "final", "meaning": "小；程度弱化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "et"}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": ["dulcis(甜) → dulcet"]},
+    "coreMeaning": {
+      "cn": "悦耳的；甜美的",
+      "en": "sweet and soothing in sound"
+    },
+    "morphemes": [
+      {
+        "canonical": "dulc",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "甜；悦耳",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "dulc"
+      },
+      {
+        "canonical": "-et",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "小；程度弱化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "et"
+      }
+    ],
+    "derivationChain": [
+      "dulcis(甜) → dulcet"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "甜美悦耳的", "imageChain": ["音乐", "甜蜜", "温柔"], "mnemonicExpr": "dulc(甜)+et → 甜美悦耳的"},
-    "wordLevel": {"sentiment": {"tags": ["褒义"], "intensity": 2}, "domain": ["general"], "formality": "formal"},
-    "relations": {"sameRoot": ["dulcimer", "dulcify"], "sameAffix": [], "synonyms": ["melodious", "sweet"], "antonyms": ["harsh", "strident"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": ["mellifluous"]}
+    "memorySemantics": {
+      "literal": "甜美悦耳的",
+      "imageChain": [
+        "音乐",
+        "甜蜜",
+        "温柔"
+      ],
+      "mnemonicExpr": "dulc(甜)+et → 甜美悦耳的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "褒义"
+        ],
+        "intensity": 2
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "dulcimer",
+        "dulcify"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "melodious",
+        "sweet"
+      ],
+      "antonyms": [
+        "harsh",
+        "strident"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "mellifluous"
+      ]
+    }
   },
   {
     "word": "dude",
     "phonetic": "/dju:d/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "花花公子；男人", "en": "a man; a city person on a ranch; informal for a person"},
-    "morphemes": [
-      {"canonical": "dude", "role": "root", "positionTendency": "medial", "meaning": "时髦男士", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "dude"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "花花公子；男人",
+      "en": "a man; a city person on a ranch; informal for a person"
+    },
+    "morphemes": [
+      {
+        "canonical": "dude",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "时髦男士",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "dude"
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "穿着讲究的男人", "imageChain": ["时髦", "男性", "非正式称呼"], "mnemonicExpr": "dude → 哥们，男人"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "informal"},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["guy", "fellow"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "穿着讲究的男人",
+      "imageChain": [
+        "时髦",
+        "男性",
+        "非正式称呼"
+      ],
+      "mnemonicExpr": "dude → 哥们，男人"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "informal"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "guy",
+        "fellow"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "dugout",
     "phonetic": "/'dʌgaʊt/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "独木舟；地下掩蔽所", "en": "a boat hollowed from a log; an underground shelter"},
-    "morphemes": [
-      {"canonical": "dig", "role": "root", "positionTendency": "medial", "meaning": "挖", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "dug"},
-      {"canonical": "out", "role": "root", "positionTendency": "medial", "meaning": "向外", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "out"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": ["dig+out → dugout"]},
+    "coreMeaning": {
+      "cn": "独木舟；地下掩蔽所",
+      "en": "a boat hollowed from a log; an underground shelter"
+    },
+    "morphemes": [
+      {
+        "canonical": "dig",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "挖",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "dug"
+      },
+      {
+        "canonical": "out",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "向外",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "out"
+      }
+    ],
+    "derivationChain": [
+      "dig+out → dugout"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "挖出来的东西", "imageChain": ["独木舟", "掩蔽所", "挖掘"], "mnemonicExpr": "dug(挖)+out(向外) → 挖出来的"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["dig"], "sameAffix": [], "synonyms": ["canoe", "shelter"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "挖出来的东西",
+      "imageChain": [
+        "独木舟",
+        "掩蔽所",
+        "挖掘"
+      ],
+      "mnemonicExpr": "dug(挖)+out(向外) → 挖出来的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "dig"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "canoe",
+        "shelter"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "duel",
     "phonetic": "/'djuːəl/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "决斗", "en": "a contest between two people"},
-    "morphemes": [
-      {"canonical": "du-", "role": "prefix", "positionTendency": "initial", "meaning": "二；两", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "du"},
-      {"canonical": "-el", "role": "suffix", "positionTendency": "final", "meaning": "小；竞争", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "el"}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": ["duellum(两方战斗) → duel"]},
+    "coreMeaning": {
+      "cn": "决斗",
+      "en": "a contest between two people"
+    },
+    "morphemes": [
+      {
+        "canonical": "du-",
+        "role": "prefix",
+        "positionTendency": "initial",
+        "meaning": "二；两",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "du"
+      },
+      {
+        "canonical": "-el",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "小；竞争",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "el"
+      }
+    ],
+    "derivationChain": [
+      "duellum(两方战斗) → duel"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "两人间的对决", "imageChain": ["手枪", "对决", "骑士"], "mnemonicExpr": "du(二)+el → 两人对决"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["duo", "dual"], "sameAffix": [], "synonyms": ["contest", "bout"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "两人间的对决",
+      "imageChain": [
+        "手枪",
+        "对决",
+        "骑士"
+      ],
+      "mnemonicExpr": "du(二)+el → 两人对决"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "duo",
+        "dual"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "contest",
+        "bout"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "duffer",
     "phonetic": "/'dʌfər/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "笨手笨脚的人；无能的人", "en": "a stupid or incompetent person"},
-    "morphemes": [
-      {"canonical": "duff", "role": "root", "positionTendency": "medial", "meaning": "无用的；差劲的", "sentiment": {"tags": ["贬义"], "intensity": -1}, "order": 1, "form": "duff"},
-      {"canonical": "-er", "role": "suffix", "positionTendency": "final", "meaning": "施动者", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "er"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": ["duff(差劲) → duffer"]},
+    "coreMeaning": {
+      "cn": "笨手笨脚的人；无能的人",
+      "en": "a stupid or incompetent person"
+    },
+    "morphemes": [
+      {
+        "canonical": "duff",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "无用的；差劲的",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "duff"
+      },
+      {
+        "canonical": "-er",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "施动者",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "er"
+      }
+    ],
+    "derivationChain": [
+      "duff(差劲) → duffer"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "一个差劲的人", "imageChain": ["笨拙", "无能", "失误"], "mnemonicExpr": "duff(差劲)+er(人) → 无能之人"},
-    "wordLevel": {"sentiment": {"tags": ["贬义"], "intensity": -2}, "domain": ["general"], "formality": "informal"},
-    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["bungler", "incompetent"], "antonyms": ["expert", "ace"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "一个差劲的人",
+      "imageChain": [
+        "笨拙",
+        "无能",
+        "失误"
+      ],
+      "mnemonicExpr": "duff(差劲)+er(人) → 无能之人"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -2
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "informal"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "bungler",
+        "incompetent"
+      ],
+      "antonyms": [
+        "expert",
+        "ace"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "document",
     "phonetic": "/dɑkjəmənt/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "文件；公文", "en": "a written record; to record in detail"},
-    "morphemes": [
-      {"canonical": "doc", "role": "root", "positionTendency": "medial", "meaning": "教导；证明", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "doc"},
-      {"canonical": "-ment", "role": "suffix", "positionTendency": "final", "meaning": "名词化；结果", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ment"}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": ["docere(教) → documentum → document"]},
+    "coreMeaning": {
+      "cn": "文件；公文",
+      "en": "a written record; to record in detail"
+    },
+    "morphemes": [
+      {
+        "canonical": "doc",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "教导；证明",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "doc"
+      },
+      {
+        "canonical": "-ment",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "名词化；结果",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ment"
+      }
+    ],
+    "derivationChain": [
+      "docere(教) → documentum → document"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "证明教导的文字", "imageChain": ["文件", "证明", "记录"], "mnemonicExpr": "doc(证明)+ment → 证明文件"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "business", "legal"], "formality": "neutral"},
-    "relations": {"sameRoot": ["documentary", "documentation"], "sameAffix": [], "synonyms": ["record", "file", "paper"], "antonyms": [], "domainCohort": ["documentation"], "derivationPair": ["documentation"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "证明教导的文字",
+      "imageChain": [
+        "文件",
+        "证明",
+        "记录"
+      ],
+      "mnemonicExpr": "doc(证明)+ment → 证明文件"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "business",
+        "legal"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "documentary",
+        "documentation"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "record",
+        "file",
+        "paper"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "documentation"
+      ],
+      "derivationPair": [
+        "documentation"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

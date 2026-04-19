@@ -2,159 +2,976 @@
   {
     "word": "eventual",
     "phonetic": "/i'ventʃuəl/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "最后的；结局的", "en": "happening at the end as a result"},
-    "morphemes": [
-      {"canonical": "e-", "role": "prefix", "positionTendency": "initial", "meaning": "出；外", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "e"},
-      {"canonical": "ven", "role": "root", "positionTendency": "medial", "meaning": "来；到来", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "vent"},
-      {"canonical": "-ual", "role": "suffix", "positionTendency": "final", "meaning": "形容词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ual"}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": ["event → eventual"]},
+    "coreMeaning": {
+      "cn": "最后的；结局的",
+      "en": "happening at the end as a result"
+    },
+    "morphemes": [
+      {
+        "canonical": "e-",
+        "role": "prefix",
+        "positionTendency": "initial",
+        "meaning": "出；外",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "e"
+      },
+      {
+        "canonical": "ven",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "来；到来",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "vent"
+      },
+      {
+        "canonical": "-ual",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "形容词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ual"
+      }
+    ],
+    "derivationChain": [
+      "event → eventual"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "最终到来的", "imageChain": ["结局", "终点", "最终"], "mnemonicExpr": "event(事件)+ual → 最终发生的"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["eventually", "eventuality", "event"], "sameAffix": [], "synonyms": ["ultimate", "final"], "antonyms": ["immediate", "initial"], "domainCohort": ["eventually"], "derivationPair": ["eventually"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "最终到来的",
+      "imageChain": [
+        "结局",
+        "终点",
+        "最终"
+      ],
+      "mnemonicExpr": "event(事件)+ual → 最终发生的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "eventually",
+        "eventuality",
+        "event"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "ultimate",
+        "final"
+      ],
+      "antonyms": [
+        "immediate",
+        "initial"
+      ],
+      "domainCohort": [
+        "eventually"
+      ],
+      "derivationPair": [
+        "eventually"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "eventually",
     "phonetic": "/ɪ'vɛntʃuəli/",
-    "pos": ["adv."],
-    "coreMeaning": {"cn": "终于；最后", "en": "in the end; after a long time"},
-    "morphemes": [
-      {"canonical": "e-", "role": "prefix", "positionTendency": "initial", "meaning": "出；外", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "e"},
-      {"canonical": "ven", "role": "root", "positionTendency": "medial", "meaning": "来", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "vent"},
-      {"canonical": "-ally", "role": "suffix", "positionTendency": "final", "meaning": "副词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ally"}
+    "pos": [
+      "adv."
     ],
-    "derivationChain": {"steps": ["event → eventual → eventually"]},
+    "coreMeaning": {
+      "cn": "终于；最后",
+      "en": "in the end; after a long time"
+    },
+    "morphemes": [
+      {
+        "canonical": "e-",
+        "role": "prefix",
+        "positionTendency": "initial",
+        "meaning": "出；外",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "e"
+      },
+      {
+        "canonical": "ven",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "来",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "vent"
+      },
+      {
+        "canonical": "-ally",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "副词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ally"
+      }
+    ],
+    "derivationChain": [
+      "event → eventual → eventually"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "最终发生地", "imageChain": ["等待", "终点", "最终"], "mnemonicExpr": "eventual(最终的)+ly → 最终地"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["eventual", "event"], "sameAffix": [], "synonyms": ["finally", "ultimately"], "antonyms": ["immediately", "initially"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "最终发生地",
+      "imageChain": [
+        "等待",
+        "终点",
+        "最终"
+      ],
+      "mnemonicExpr": "eventual(最终的)+ly → 最终地"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "eventual",
+        "event"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "finally",
+        "ultimately"
+      ],
+      "antonyms": [
+        "immediately",
+        "initially"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "everlasting",
     "phonetic": "/,ɛvɚ'læstɪŋ/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "永久的；永恒的", "en": "lasting forever or for a very long time"},
-    "morphemes": [
-      {"canonical": "ever", "role": "root", "positionTendency": "initial", "meaning": "永远", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "ever"},
-      {"canonical": "last", "role": "root", "positionTendency": "medial", "meaning": "持续", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "last"},
-      {"canonical": "-ing", "role": "suffix", "positionTendency": "final", "meaning": "形容词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ing"}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": ["ever+lasting → everlasting"]},
+    "coreMeaning": {
+      "cn": "永久的；永恒的",
+      "en": "lasting forever or for a very long time"
+    },
+    "morphemes": [
+      {
+        "canonical": "ever",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "永远",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "ever"
+      },
+      {
+        "canonical": "last",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "持续",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "last"
+      },
+      {
+        "canonical": "-ing",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "形容词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ing"
+      }
+    ],
+    "derivationChain": [
+      "ever+lasting → everlasting"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "永远持续的", "imageChain": ["永恒", "无尽", "永远"], "mnemonicExpr": "ever(永远)+lasting(持续) → 永久持续的"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["ever", "last"], "sameAffix": [], "synonyms": ["eternal", "perpetual"], "antonyms": ["temporary", "fleeting"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": ["eternal"]}
+    "memorySemantics": {
+      "literal": "永远持续的",
+      "imageChain": [
+        "永恒",
+        "无尽",
+        "永远"
+      ],
+      "mnemonicExpr": "ever(永远)+lasting(持续) → 永久持续的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "ever",
+        "last"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "eternal",
+        "perpetual"
+      ],
+      "antonyms": [
+        "temporary",
+        "fleeting"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": [
+        "eternal"
+      ]
+    }
   },
   {
     "word": "evict",
     "phonetic": "/ɪ'vɪkt/",
-    "pos": ["v."],
-    "coreMeaning": {"cn": "驱逐；逐出", "en": "to expel a tenant from property"},
-    "morphemes": [
-      {"canonical": "e-", "role": "prefix", "positionTendency": "initial", "meaning": "出；外", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "e"},
-      {"canonical": "vic", "role": "root", "positionTendency": "medial", "meaning": "征服；打败", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 2, "form": "vict"}
+    "pos": [
+      "v."
     ],
-    "derivationChain": {"steps": ["e+vincere(征服) → evict"]},
+    "coreMeaning": {
+      "cn": "驱逐；逐出",
+      "en": "to expel a tenant from property"
+    },
+    "morphemes": [
+      {
+        "canonical": "e-",
+        "role": "prefix",
+        "positionTendency": "initial",
+        "meaning": "出；外",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "e"
+      },
+      {
+        "canonical": "vic",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "征服；打败",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 2,
+        "form": "vict"
+      }
+    ],
+    "derivationChain": [
+      "e+vincere(征服) → evict"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "用法律力量驱逐", "imageChain": ["驱逐", "强制搬出", "法庭命令"], "mnemonicExpr": "e(出)+vict(打败) → 用法律打败而驱逐"},
-    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": -1}, "domain": ["legal"], "formality": "formal"},
-    "relations": {"sameRoot": ["conviction", "victim"], "sameAffix": [], "synonyms": ["expel", "oust"], "antonyms": [], "domainCohort": ["eviction"], "derivationPair": ["eviction"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "用法律力量驱逐",
+      "imageChain": [
+        "驱逐",
+        "强制搬出",
+        "法庭命令"
+      ],
+      "mnemonicExpr": "e(出)+vict(打败) → 用法律打败而驱逐"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      },
+      "domain": [
+        "legal"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "conviction",
+        "victim"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "expel",
+        "oust"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "eviction"
+      ],
+      "derivationPair": [
+        "eviction"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "evidence",
     "phonetic": "/'ɛvɪdəns/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "证据；明显；证明", "en": "facts that help prove something; to be evidence of"},
-    "morphemes": [
-      {"canonical": "e-", "role": "prefix", "positionTendency": "initial", "meaning": "出；可见", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "e"},
-      {"canonical": "vid", "role": "root", "positionTendency": "medial", "meaning": "看；见", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "vid"},
-      {"canonical": "-ence", "role": "suffix", "positionTendency": "final", "meaning": "名词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ence"}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": ["videre(看) → evident → evidence"]},
+    "coreMeaning": {
+      "cn": "证据；明显；证明",
+      "en": "facts that help prove something; to be evidence of"
+    },
+    "morphemes": [
+      {
+        "canonical": "e-",
+        "role": "prefix",
+        "positionTendency": "initial",
+        "meaning": "出；可见",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "e"
+      },
+      {
+        "canonical": "vid",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "看；见",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "vid"
+      },
+      {
+        "canonical": "-ence",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "名词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ence"
+      }
+    ],
+    "derivationChain": [
+      "videre(看) → evident → evidence"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "可以看见的事实", "imageChain": ["证据", "法庭", "事实"], "mnemonicExpr": "e(出)+vid(看)+ence → 看得出来的事实"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["legal", "academic", "general"], "formality": "formal"},
-    "relations": {"sameRoot": ["evident", "provide", "video"], "sameAffix": [], "synonyms": ["proof", "testimony"], "antonyms": [], "domainCohort": ["evident"], "derivationPair": ["evident"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "可以看见的事实",
+      "imageChain": [
+        "证据",
+        "法庭",
+        "事实"
+      ],
+      "mnemonicExpr": "e(出)+vid(看)+ence → 看得出来的事实"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "legal",
+        "academic",
+        "general"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "evident",
+        "provide",
+        "video"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "proof",
+        "testimony"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "evident"
+      ],
+      "derivationPair": [
+        "evident"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "evident",
     "phonetic": "/'ɛvɪdənt/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "明显的；明白的", "en": "plain or obvious; clearly seen"},
-    "morphemes": [
-      {"canonical": "e-", "role": "prefix", "positionTendency": "initial", "meaning": "出；可见", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "e"},
-      {"canonical": "vid", "role": "root", "positionTendency": "medial", "meaning": "看；见", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "vid"},
-      {"canonical": "-ent", "role": "suffix", "positionTendency": "final", "meaning": "形容词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ent"}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": ["videre(看) → evident"]},
+    "coreMeaning": {
+      "cn": "明显的；明白的",
+      "en": "plain or obvious; clearly seen"
+    },
+    "morphemes": [
+      {
+        "canonical": "e-",
+        "role": "prefix",
+        "positionTendency": "initial",
+        "meaning": "出；可见",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "e"
+      },
+      {
+        "canonical": "vid",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "看；见",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "vid"
+      },
+      {
+        "canonical": "-ent",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "形容词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ent"
+      }
+    ],
+    "derivationChain": [
+      "videre(看) → evident"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "一看便知的", "imageChain": ["清晰", "显而易见", "明显"], "mnemonicExpr": "e(出)+vid(看)+ent → 一眼可见的"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": ["evidence", "video"], "sameAffix": [], "synonyms": ["obvious", "apparent"], "antonyms": ["hidden", "obscure"], "domainCohort": ["evidence"], "derivationPair": ["evidence"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "一看便知的",
+      "imageChain": [
+        "清晰",
+        "显而易见",
+        "明显"
+      ],
+      "mnemonicExpr": "e(出)+vid(看)+ent → 一眼可见的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "evidence",
+        "video"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "obvious",
+        "apparent"
+      ],
+      "antonyms": [
+        "hidden",
+        "obscure"
+      ],
+      "domainCohort": [
+        "evidence"
+      ],
+      "derivationPair": [
+        "evidence"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "evergreen",
     "phonetic": "/'ɛvɚɡrin/",
-    "pos": ["n.", "adj."],
-    "coreMeaning": {"cn": "常绿树；永久新鲜的", "en": "a plant that keeps its leaves all year; perpetually fresh"},
-    "morphemes": [
-      {"canonical": "ever", "role": "root", "positionTendency": "initial", "meaning": "永远", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "ever"},
-      {"canonical": "green", "role": "root", "positionTendency": "medial", "meaning": "绿色；新鲜", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "green"}
+    "pos": [
+      "n.",
+      "adj."
     ],
-    "derivationChain": {"steps": ["ever+green → evergreen"]},
+    "coreMeaning": {
+      "cn": "常绿树；永久新鲜的",
+      "en": "a plant that keeps its leaves all year; perpetually fresh"
+    },
+    "morphemes": [
+      {
+        "canonical": "ever",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "永远",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "ever"
+      },
+      {
+        "canonical": "green",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "绿色；新鲜",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "green"
+      }
+    ],
+    "derivationChain": [
+      "ever+green → evergreen"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "永远保持绿色的", "imageChain": ["松树", "四季常绿", "生命力"], "mnemonicExpr": "ever(永远)+green(绿) → 永远绿色的"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["ever", "green"], "sameAffix": [], "synonyms": ["perennial", "enduring"], "antonyms": ["deciduous"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "永远保持绿色的",
+      "imageChain": [
+        "松树",
+        "四季常绿",
+        "生命力"
+      ],
+      "mnemonicExpr": "ever(永远)+green(绿) → 永远绿色的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "ever",
+        "green"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "perennial",
+        "enduring"
+      ],
+      "antonyms": [
+        "deciduous"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "everlastingly",
     "phonetic": "/,ɛvɚ'læstɪŋli/",
-    "pos": ["adv."],
-    "coreMeaning": {"cn": "永久地；永恒地", "en": "for ever; endlessly"},
-    "morphemes": [
-      {"canonical": "ever", "role": "root", "positionTendency": "initial", "meaning": "永远", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "ever"},
-      {"canonical": "last", "role": "root", "positionTendency": "medial", "meaning": "持续", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "last"},
-      {"canonical": "-ingly", "role": "suffix", "positionTendency": "final", "meaning": "副词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ingly"}
+    "pos": [
+      "adv."
     ],
-    "derivationChain": {"steps": ["everlasting → everlastingly"]},
+    "coreMeaning": {
+      "cn": "永久地；永恒地",
+      "en": "for ever; endlessly"
+    },
+    "morphemes": [
+      {
+        "canonical": "ever",
+        "role": "root",
+        "positionTendency": "initial",
+        "meaning": "永远",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "ever"
+      },
+      {
+        "canonical": "last",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "持续",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "last"
+      },
+      {
+        "canonical": "-ingly",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "副词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ingly"
+      }
+    ],
+    "derivationChain": [
+      "everlasting → everlastingly"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "永久地", "imageChain": ["无尽", "持续", "永恒"], "mnemonicExpr": "everlasting(永久的)+ly → 永久地"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "formal"},
-    "relations": {"sameRoot": ["everlasting", "ever"], "sameAffix": [], "synonyms": ["eternally", "perpetually"], "antonyms": ["temporarily"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "永久地",
+      "imageChain": [
+        "无尽",
+        "持续",
+        "永恒"
+      ],
+      "mnemonicExpr": "everlasting(永久的)+ly → 永久地"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "everlasting",
+        "ever"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "eternally",
+        "perpetually"
+      ],
+      "antonyms": [
+        "temporarily"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "eviction",
     "phonetic": "/ɪ'vɪkʃən/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "驱逐；逐出", "en": "the process of legally compelling a tenant to leave"},
-    "morphemes": [
-      {"canonical": "e-", "role": "prefix", "positionTendency": "initial", "meaning": "出；外", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "e"},
-      {"canonical": "vic", "role": "root", "positionTendency": "medial", "meaning": "征服", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 2, "form": "vict"},
-      {"canonical": "-ion", "role": "suffix", "positionTendency": "final", "meaning": "名词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ion"}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": ["evict → eviction"]},
+    "coreMeaning": {
+      "cn": "驱逐；逐出",
+      "en": "the process of legally compelling a tenant to leave"
+    },
+    "morphemes": [
+      {
+        "canonical": "e-",
+        "role": "prefix",
+        "positionTendency": "initial",
+        "meaning": "出；外",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "e"
+      },
+      {
+        "canonical": "vic",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "征服",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 2,
+        "form": "vict"
+      },
+      {
+        "canonical": "-ion",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "名词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ion"
+      }
+    ],
+    "derivationChain": [
+      "evict → eviction"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "驱逐行为", "imageChain": ["驱逐令", "法律行动", "无家可归"], "mnemonicExpr": "evict(驱逐)+ion → 驱逐行为"},
-    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": -1}, "domain": ["legal"], "formality": "formal"},
-    "relations": {"sameRoot": ["evict"], "sameAffix": [], "synonyms": ["expulsion", "ouster"], "antonyms": [], "domainCohort": [], "derivationPair": ["evict"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "驱逐行为",
+      "imageChain": [
+        "驱逐令",
+        "法律行动",
+        "无家可归"
+      ],
+      "mnemonicExpr": "evict(驱逐)+ion → 驱逐行为"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      },
+      "domain": [
+        "legal"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "evict"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "expulsion",
+        "ouster"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "evict"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "eventuate",
     "phonetic": "/ɪ'ventʃueɪt/",
-    "pos": ["v."],
-    "coreMeaning": {"cn": "发生；导致", "en": "to result in; to happen finally"},
-    "morphemes": [
-      {"canonical": "e-", "role": "prefix", "positionTendency": "initial", "meaning": "出", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "e"},
-      {"canonical": "ven", "role": "root", "positionTendency": "medial", "meaning": "来；发生", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "vent"},
-      {"canonical": "-uate", "role": "suffix", "positionTendency": "final", "meaning": "动词化", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "uate"}
+    "pos": [
+      "v."
     ],
-    "derivationChain": {"steps": ["event → eventual → eventuate"]},
+    "coreMeaning": {
+      "cn": "发生；导致",
+      "en": "to result in; to happen finally"
+    },
+    "morphemes": [
+      {
+        "canonical": "e-",
+        "role": "prefix",
+        "positionTendency": "initial",
+        "meaning": "出",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "e"
+      },
+      {
+        "canonical": "ven",
+        "role": "root",
+        "positionTendency": "medial",
+        "meaning": "来；发生",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "vent"
+      },
+      {
+        "canonical": "-uate",
+        "role": "suffix",
+        "positionTendency": "final",
+        "meaning": "动词化",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "uate"
+      }
+    ],
+    "derivationChain": [
+      "event → eventual → eventuate"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"literal": "导致某事件发生", "imageChain": ["结局", "导向", "最终结果"], "mnemonicExpr": "eventual(最终的)+ate → 最终导致"},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic"], "formality": "formal"},
-    "relations": {"sameRoot": ["event", "eventual"], "sameAffix": [], "synonyms": ["result in", "culminate"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "literal": "导致某事件发生",
+      "imageChain": [
+        "结局",
+        "导向",
+        "最终结果"
+      ],
+      "mnemonicExpr": "eventual(最终的)+ate → 最终导致"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "event",
+        "eventual"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "result in",
+        "culminate"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

@@ -2,72 +2,407 @@
   {
     "word": "robe",
     "phonetic": "/roʊb/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "长袍；礼服；穿上袍服", "en": "a long loose garment; to dress in a robe"},
-    "morphemes": [
-      {"canonical": "robe", "role": "root", "meaning": "长袍；礼服", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "robe", "positionTendency": "medial", "coreMeaning": {"cn": "长袍", "en": "long garment"}}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "长袍；礼服；穿上袍服",
+      "en": "a long loose garment; to dress in a robe"
+    },
+    "morphemes": [
+      {
+        "canonical": "robe",
+        "role": "root",
+        "meaning": "长袍；礼服",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "robe",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "长袍",
+          "en": "long garment"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "robe → 宽松的长袍，如法官或教士穿的袍服", "imageChain": ["长袍", "礼服", "袍服"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["robe", "robed", "wardrobe"], "sameAffix": [], "synonyms": ["gown", "garment", "vestment", "cloak"], "antonyms": [], "domainCohort": ["gown", "vestment"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "robe → 宽松的长袍，如法官或教士穿的袍服",
+      "imageChain": [
+        "长袍",
+        "礼服",
+        "袍服"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "robe",
+        "robed",
+        "wardrobe"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "gown",
+        "garment",
+        "vestment",
+        "cloak"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "gown",
+        "vestment"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "robot",
     "phonetic": "/'roʊbɒt/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "机器人；自动装置", "en": "a machine that performs tasks automatically"},
-    "morphemes": [
-      {"canonical": "robot", "role": "root", "meaning": "机器人（捷克语 robota，强制劳动）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "robot", "positionTendency": "medial", "coreMeaning": {"cn": "机器人", "en": "automaton"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "机器人；自动装置",
+      "en": "a machine that performs tasks automatically"
+    },
+    "morphemes": [
+      {
+        "canonical": "robot",
+        "role": "root",
+        "meaning": "机器人（捷克语 robota，强制劳动）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "robot",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "机器人",
+          "en": "automaton"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "robot → 源自捷克语「强制劳动」，指执行任务的机器", "imageChain": ["机器人", "自动化", "人工智能"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "tech"], "formality": "neutral"},
-    "relations": {"sameRoot": ["robotic", "robotics"], "sameAffix": [], "synonyms": ["automaton", "android", "machine"], "antonyms": [], "domainCohort": ["automaton", "AI"], "derivationPair": ["robotic", "robotics"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "robot → 源自捷克语「强制劳动」，指执行任务的机器",
+      "imageChain": [
+        "机器人",
+        "自动化",
+        "人工智能"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "tech"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "robotic",
+        "robotics"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "automaton",
+        "android",
+        "machine"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "automaton",
+        "AI"
+      ],
+      "derivationPair": [
+        "robotic",
+        "robotics"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "robotic",
     "phonetic": "/roʊ'bɒtɪk/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "机器人的；像机器人的；呆板的", "en": "of or relating to robots; mechanical and inflexible"},
-    "morphemes": [
-      {"canonical": "robot", "role": "root", "meaning": "机器人", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "robot", "positionTendency": "initial", "coreMeaning": {"cn": "机器人", "en": "robot"}},
-      {"canonical": "-ic", "role": "suffix", "meaning": "形容词", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ic", "positionTendency": "final", "coreMeaning": {"cn": "…的", "en": "relating to"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": [{"from": "robot", "to": "robotic", "by": "-ic", "meaning": "of or relating to robots"}]},
+    "coreMeaning": {
+      "cn": "机器人的；像机器人的；呆板的",
+      "en": "of or relating to robots; mechanical and inflexible"
+    },
+    "morphemes": [
+      {
+        "canonical": "robot",
+        "role": "root",
+        "meaning": "机器人",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "robot",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "机器人",
+          "en": "robot"
+        }
+      },
+      {
+        "canonical": "-ic",
+        "role": "suffix",
+        "meaning": "形容词",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ic",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "…的",
+          "en": "relating to"
+        }
+      }
+    ],
+    "derivationChain": [
+      "robotic"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "robotic → 像机器人一样机械的", "imageChain": ["机械", "呆板", "自动化"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "tech"], "formality": "neutral"},
-    "relations": {"sameRoot": ["robot", "robotics"], "sameAffix": [], "synonyms": ["mechanical", "automated", "android"], "antonyms": ["human", "organic"], "domainCohort": [], "derivationPair": ["robot"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "robotic → 像机器人一样机械的",
+      "imageChain": [
+        "机械",
+        "呆板",
+        "自动化"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "tech"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "robot",
+        "robotics"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "mechanical",
+        "automated",
+        "android"
+      ],
+      "antonyms": [
+        "human",
+        "organic"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "robot"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "robust",
     "phonetic": "/roʊ'bʌst/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "强健的；健壮的；粗野的", "en": "strong and healthy; vigorous; hardy"},
-    "morphemes": [
-      {"canonical": "robur", "role": "root", "meaning": "橡木；力量（拉丁 robur）", "sentiment": {"tags": ["积极"], "intensity": 2}, "order": 1, "form": "robust", "positionTendency": "medial", "coreMeaning": {"cn": "坚强", "en": "strong/oak"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "强健的；健壮的；粗野的",
+      "en": "strong and healthy; vigorous; hardy"
+    },
+    "morphemes": [
+      {
+        "canonical": "robur",
+        "role": "root",
+        "meaning": "橡木；力量（拉丁 robur）",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 2
+        },
+        "order": 1,
+        "form": "robust",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "坚强",
+          "en": "strong/oak"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "robust → 像橡木一样坚实，强健有力", "imageChain": ["强健", "粗壮", "健康"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 2}, "domain": ["general", "academic"], "formality": "neutral"},
-    "relations": {"sameRoot": ["robustness"], "sameAffix": [], "synonyms": ["strong", "sturdy", "vigorous", "hardy"], "antonyms": ["weak", "frail", "delicate", "feeble"], "domainCohort": [], "derivationPair": ["robustness"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "robust → 像橡木一样坚实，强健有力",
+      "imageChain": [
+        "强健",
+        "粗壮",
+        "健康"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 2
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "robustness"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "strong",
+        "sturdy",
+        "vigorous",
+        "hardy"
+      ],
+      "antonyms": [
+        "weak",
+        "frail",
+        "delicate",
+        "feeble"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "robustness"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "rocket",
     "phonetic": "/'rɒkɪt/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "火箭；迅速增加；飞驰", "en": "a missile or spacecraft propelled by rockets; to rise rapidly"},
-    "morphemes": [
-      {"canonical": "rocket", "role": "root", "meaning": "火箭；小纺锤（意大利语）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "rocket", "positionTendency": "medial", "coreMeaning": {"cn": "火箭", "en": "rocket"}}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "火箭；迅速增加；飞驰",
+      "en": "a missile or spacecraft propelled by rockets; to rise rapidly"
+    },
+    "morphemes": [
+      {
+        "canonical": "rocket",
+        "role": "root",
+        "meaning": "火箭；小纺锤（意大利语）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "rocket",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "火箭",
+          "en": "rocket"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "rocket → 火箭，也比喻价格或数量迅速上涨", "imageChain": ["火箭", "速度", "飞驰"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "tech"], "formality": "neutral"},
-    "relations": {"sameRoot": ["rocketed", "rocketry"], "sameAffix": [], "synonyms": ["missile", "skyrocket", "soar", "shoot up"], "antonyms": ["plummet", "plunge"], "domainCohort": ["missile", "spacecraft"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "rocket → 火箭，也比喻价格或数量迅速上涨",
+      "imageChain": [
+        "火箭",
+        "速度",
+        "飞驰"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "tech"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "rocketed",
+        "rocketry"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "missile",
+        "skyrocket",
+        "soar",
+        "shoot up"
+      ],
+      "antonyms": [
+        "plummet",
+        "plunge"
+      ],
+      "domainCohort": [
+        "missile",
+        "spacecraft"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

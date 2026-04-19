@@ -2,87 +2,517 @@
   {
     "word": "stoicism",
     "phonetic": "/'stoʊɪsɪzəm/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "坚忍；禁欲主义；斯多葛哲学", "en": "enduring pain or difficulty without showing emotions; ancient Greek philosophy of Stoics"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "initial", "canonical": "stoic-", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "stoic", "meaning": "坚忍；禁欲", "coreMeaning": {"cn": "坚忍", "en": "endure without complaint"}},
-      {"role": "suffix", "positionTendency": "final", "canonical": "-ism", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-ism", "meaning": "主义；学说", "coreMeaning": {"cn": "主义", "en": "doctrine/practice"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "stoic", "to": "stoicism", "by": "-ism", "meaning": "坚忍的哲学体系"}]},
+    "coreMeaning": {
+      "cn": "坚忍；禁欲主义；斯多葛哲学",
+      "en": "enduring pain or difficulty without showing emotions; ancient Greek philosophy of Stoics"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "initial",
+        "canonical": "stoic-",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "stoic",
+        "meaning": "坚忍；禁欲",
+        "coreMeaning": {
+          "cn": "坚忍",
+          "en": "endure without complaint"
+        }
+      },
+      {
+        "role": "suffix",
+        "positionTendency": "final",
+        "canonical": "-ism",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "-ism",
+        "meaning": "主义；学说",
+        "coreMeaning": {
+          "cn": "主义",
+          "en": "doctrine/practice"
+        }
+      }
+    ],
+    "derivationChain": [
+      "stoicism"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "stoic(坚忍)+ism → 坚忍不拔、不为情绪左右的哲学", "imageChain": ["哲学沉思", "忍耐痛苦", "淡然处世"]},
-    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 1}, "domain": ["general", "academic"], "formality": "formal"},
-    "relations": {"sameRoot": ["stoic", "stoical"], "sameAffix": ["cynicism", "hedonism", "pragmatism"], "synonyms": ["endurance", "fortitude", "equanimity", "impassivity", "resignation"], "antonyms": ["emotionalism", "sensitivity", "indulgence"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "stoic(坚忍)+ism → 坚忍不拔、不为情绪左右的哲学",
+      "imageChain": [
+        "哲学沉思",
+        "忍耐痛苦",
+        "淡然处世"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "积极"
+        ],
+        "intensity": 1
+      },
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "stoic",
+        "stoical"
+      ],
+      "sameAffix": [
+        "cynicism",
+        "hedonism",
+        "pragmatism"
+      ],
+      "synonyms": [
+        "endurance",
+        "fortitude",
+        "equanimity",
+        "impassivity",
+        "resignation"
+      ],
+      "antonyms": [
+        "emotionalism",
+        "sensitivity",
+        "indulgence"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "stolid",
     "phonetic": "/'stɒlɪd/",
-    "pos": ["adj."],
-    "coreMeaning": {"cn": "迟钝的；麻木的；冷漠的；不为所动的", "en": "calm and showing little emotion; not easily excited or animated"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "medial", "canonical": "stolid", "sentiment": {"tags": ["贬义"], "intensity": -1}, "order": 1, "form": "stolid", "meaning": "迟钝；冷漠", "coreMeaning": {"cn": "迟钝", "en": "dull/impassive"}}
+    "pos": [
+      "adj."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "迟钝的；麻木的；冷漠的；不为所动的",
+      "en": "calm and showing little emotion; not easily excited or animated"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "stolid",
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "stolid",
+        "meaning": "迟钝；冷漠",
+        "coreMeaning": {
+          "cn": "迟钝",
+          "en": "dull/impassive"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "stolid → 面对刺激缺乏反应，情绪木然迟钝", "imageChain": ["面无表情", "情感麻木", "木头人"]},
-    "wordLevel": {"sentiment": {"tags": ["贬义"], "intensity": -1}, "domain": ["general"], "formality": "formal"},
-    "relations": {"sameRoot": ["stolidity", "stolidly"], "sameAffix": [], "synonyms": ["impassive", "phlegmatic", "unemotional", "dull", "apathetic"], "antonyms": ["lively", "animated", "expressive", "emotional", "spirited"], "domainCohort": [], "derivationPair": ["stolidity"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "stolid → 面对刺激缺乏反应，情绪木然迟钝",
+      "imageChain": [
+        "面无表情",
+        "情感麻木",
+        "木头人"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -1
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "formal"
+    },
+    "relations": {
+      "sameRoot": [
+        "stolidity",
+        "stolidly"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "impassive",
+        "phlegmatic",
+        "unemotional",
+        "dull",
+        "apathetic"
+      ],
+      "antonyms": [
+        "lively",
+        "animated",
+        "expressive",
+        "emotional",
+        "spirited"
+      ],
+      "domainCohort": [],
+      "derivationPair": [
+        "stolidity"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "stomach",
     "phonetic": "/'stʌmək/",
-    "pos": ["n.", "v."],
-    "coreMeaning": {"cn": "胃；腹部；容忍；承受", "en": "the organ that digests food; the abdomen; to endure something unpleasant"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "medial", "canonical": "stomat-", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "stomach", "meaning": "胃；口", "coreMeaning": {"cn": "胃", "en": "stomach"}}
+    "pos": [
+      "n.",
+      "v."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "胃；腹部；容忍；承受",
+      "en": "the organ that digests food; the abdomen; to endure something unpleasant"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "stomat-",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "stomach",
+        "meaning": "胃；口",
+        "coreMeaning": {
+          "cn": "胃",
+          "en": "stomach"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "stomach → 消化食物的器官，引申为能承受/容忍", "imageChain": ["消化器官", "腹部", "忍受不快"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "medical"], "formality": "neutral"},
-    "relations": {"sameRoot": ["stomachache"], "sameAffix": [], "synonyms": ["gut", "belly", "abdomen", "tolerate", "endure", "bear"], "antonyms": ["reject", "refuse", "vomit"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "stomach → 消化食物的器官，引申为能承受/容忍",
+      "imageChain": [
+        "消化器官",
+        "腹部",
+        "忍受不快"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general",
+        "medical"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "stomachache"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "gut",
+        "belly",
+        "abdomen",
+        "tolerate",
+        "endure",
+        "bear"
+      ],
+      "antonyms": [
+        "reject",
+        "refuse",
+        "vomit"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "stomp",
     "phonetic": "/stɒmp/",
-    "pos": ["v.", "n."],
-    "coreMeaning": {"cn": "跺脚；重步走；重踏", "en": "to walk heavily; to stamp the feet; a heavy stamping step"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "medial", "canonical": "stomp", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "stomp", "meaning": "重踏；跺脚", "coreMeaning": {"cn": "重踏", "en": "stamp/tread heavily"}}
+    "pos": [
+      "v.",
+      "n."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "跺脚；重步走；重踏",
+      "en": "to walk heavily; to stamp the feet; a heavy stamping step"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "stomp",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "stomp",
+        "meaning": "重踏；跺脚",
+        "coreMeaning": {
+          "cn": "重踏",
+          "en": "stamp/tread heavily"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "stomp → 用力踩地发出重响声音", "imageChain": ["跺脚", "重步行走", "愤怒踩踏"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "informal"},
-    "relations": {"sameRoot": ["stomping", "stomped"], "sameAffix": [], "synonyms": ["stamp", "tramp", "trudge", "pound", "clump"], "antonyms": ["tiptoe", "glide", "creep"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "stomp → 用力踩地发出重响声音",
+      "imageChain": [
+        "跺脚",
+        "重步行走",
+        "愤怒踩踏"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "informal"
+    },
+    "relations": {
+      "sameRoot": [
+        "stomping",
+        "stomped"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "stamp",
+        "tramp",
+        "trudge",
+        "pound",
+        "clump"
+      ],
+      "antonyms": [
+        "tiptoe",
+        "glide",
+        "creep"
+      ],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "stone",
     "phonetic": "/stoʊn/",
-    "pos": ["n.", "adj.", "v."],
-    "coreMeaning": {"cn": "石头；石料；结石；用石头砸", "en": "a hard nonmetallic mineral; a gem; a unit of weight; to pelt with stones"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "medial", "canonical": "stone", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "stone", "meaning": "石头；石料", "coreMeaning": {"cn": "石头", "en": "stone/rock"}}
+    "pos": [
+      "n.",
+      "adj.",
+      "v."
     ],
-    "derivationChain": {"steps": []},
+    "coreMeaning": {
+      "cn": "石头；石料；结石；用石头砸",
+      "en": "a hard nonmetallic mineral; a gem; a unit of weight; to pelt with stones"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "medial",
+        "canonical": "stone",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "stone",
+        "meaning": "石头；石料",
+        "coreMeaning": {
+          "cn": "石头",
+          "en": "stone/rock"
+        }
+      }
+    ],
+    "derivationChain": [],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "stone → 坚硬的天然矿物岩石", "imageChain": ["石头", "宝石", "结石"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["stonemason", "stonecutter", "stonewall"], "sameAffix": [], "synonyms": ["rock", "pebble", "gem", "jewel", "cobble"], "antonyms": ["feather", "fluff"], "domainCohort": ["stonemason"], "derivationPair": ["stonemason"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "stone → 坚硬的天然矿物岩石",
+      "imageChain": [
+        "石头",
+        "宝石",
+        "结石"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "stonemason",
+        "stonecutter",
+        "stonewall"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "rock",
+        "pebble",
+        "gem",
+        "jewel",
+        "cobble"
+      ],
+      "antonyms": [
+        "feather",
+        "fluff"
+      ],
+      "domainCohort": [
+        "stonemason"
+      ],
+      "derivationPair": [
+        "stonemason"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "stonemason",
     "phonetic": "/'stoʊnmeɪsən/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "石匠；砌石工", "en": "a person who cuts and builds with stone"},
-    "morphemes": [
-      {"role": "root", "positionTendency": "initial", "canonical": "stone", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "stone", "meaning": "石头", "coreMeaning": {"cn": "石头", "en": "stone"}},
-      {"role": "root", "positionTendency": "final", "canonical": "mason", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "mason", "meaning": "泥瓦匠；砌砖工", "coreMeaning": {"cn": "工匠", "en": "mason/builder"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "stone + mason", "to": "stonemason", "by": "compounding", "meaning": "砌石工匠"}]},
+    "coreMeaning": {
+      "cn": "石匠；砌石工",
+      "en": "a person who cuts and builds with stone"
+    },
+    "morphemes": [
+      {
+        "role": "root",
+        "positionTendency": "initial",
+        "canonical": "stone",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "stone",
+        "meaning": "石头",
+        "coreMeaning": {
+          "cn": "石头",
+          "en": "stone"
+        }
+      },
+      {
+        "role": "root",
+        "positionTendency": "final",
+        "canonical": "mason",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "mason",
+        "meaning": "泥瓦匠；砌砖工",
+        "coreMeaning": {
+          "cn": "工匠",
+          "en": "mason/builder"
+        }
+      }
+    ],
+    "derivationChain": [
+      "stonemason"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "stone(石头)+mason(工匠) → 切割和砌筑石头的工匠", "imageChain": ["石雕工", "古建筑工", "砌石技艺"]},
-    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
-    "relations": {"sameRoot": ["stone", "mason"], "sameAffix": ["bricklayer", "carpenter"], "synonyms": ["mason", "stonecutter", "quarryman", "lapidary"], "antonyms": [], "domainCohort": ["stone"], "derivationPair": ["stone"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "stone(石头)+mason(工匠) → 切割和砌筑石头的工匠",
+      "imageChain": [
+        "石雕工",
+        "古建筑工",
+        "砌石技艺"
+      ]
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "general"
+      ],
+      "formality": "neutral"
+    },
+    "relations": {
+      "sameRoot": [
+        "stone",
+        "mason"
+      ],
+      "sameAffix": [
+        "bricklayer",
+        "carpenter"
+      ],
+      "synonyms": [
+        "mason",
+        "stonecutter",
+        "quarryman",
+        "lapidary"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "stone"
+      ],
+      "derivationPair": [
+        "stone"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

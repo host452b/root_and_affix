@@ -3,189 +3,1357 @@
     "word": "indict",
     "phonetic": "/ɪn'daɪt/",
     "pos": "v.",
-    "coreMeaning": {"cn": "控诉；起诉", "en": "indict; charge"},
+    "coreMeaning": {
+      "cn": "控诉；起诉",
+      "en": "indict; charge"
+    },
     "morphemes": [
-      {"canonical": "in-", "role": "prefix", "meaning": "在…之中", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "in", "positionTendency": "initial", "coreMeaning": {"cn": "在内", "en": "in"}},
-      {"canonical": "dict-", "role": "root", "meaning": "说；宣布", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "dict", "positionTendency": "final", "coreMeaning": {"cn": "说", "en": "say/proclaim"}}
+      {
+        "canonical": "in-",
+        "role": "prefix",
+        "meaning": "在…之中",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "in",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "在内",
+          "en": "in"
+        }
+      },
+      {
+        "canonical": "dict-",
+        "role": "root",
+        "meaning": "说；宣布",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "dict",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "说",
+          "en": "say/proclaim"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "Latin indicere", "to": "indict", "rule": "in(against)+dicere(say) → declare against → charge"}]},
+    "derivationChain": [
+      "indict"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "in(反对)+dict(说)→ 公开指控→起诉", "imageChain": ["法庭", "起诉书", "陪审团"]},
-    "wordLevel": {"domain": ["legal"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": ["indictment", "indictable"], "sameAffix": ["predict", "contradict"], "synonyms": ["charge", "accuse", "prosecute"], "antonyms": ["acquit", "exonerate"], "domainCohort": ["charge", "prosecute", "accuse"], "derivationPair": ["indictment"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "in(反对)+dict(说)→ 公开指控→起诉",
+      "imageChain": [
+        "法庭",
+        "起诉书",
+        "陪审团"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "legal"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "indictment",
+        "indictable"
+      ],
+      "sameAffix": [
+        "predict",
+        "contradict"
+      ],
+      "synonyms": [
+        "charge",
+        "accuse",
+        "prosecute"
+      ],
+      "antonyms": [
+        "acquit",
+        "exonerate"
+      ],
+      "domainCohort": [
+        "charge",
+        "prosecute",
+        "accuse"
+      ],
+      "derivationPair": [
+        "indictment"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "indictment",
     "phonetic": "",
     "pos": "n.",
-    "coreMeaning": {"cn": "起诉书；控诉", "en": "indictment; charge"},
+    "coreMeaning": {
+      "cn": "起诉书；控诉",
+      "en": "indictment; charge"
+    },
     "morphemes": [
-      {"canonical": "in-", "role": "prefix", "meaning": "在…之中", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "in", "positionTendency": "initial", "coreMeaning": {"cn": "在内", "en": "in"}},
-      {"canonical": "dict-", "role": "root", "meaning": "说；宣布", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 2, "form": "dict", "positionTendency": "medial", "coreMeaning": {"cn": "说", "en": "say/proclaim"}},
-      {"canonical": "-ment", "role": "suffix", "meaning": "名词后缀：行为；结果", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ment", "positionTendency": "final", "coreMeaning": {"cn": "行为", "en": "action/result"}}
+      {
+        "canonical": "in-",
+        "role": "prefix",
+        "meaning": "在…之中",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "in",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "在内",
+          "en": "in"
+        }
+      },
+      {
+        "canonical": "dict-",
+        "role": "root",
+        "meaning": "说；宣布",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 2,
+        "form": "dict",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "说",
+          "en": "say/proclaim"
+        }
+      },
+      {
+        "canonical": "-ment",
+        "role": "suffix",
+        "meaning": "名词后缀：行为；结果",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ment",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "行为",
+          "en": "action/result"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "indict", "to": "indictment", "rule": "indict + -ment → noun"}]},
+    "derivationChain": [
+      "indictment"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "indict(起诉)+ment→ 起诉行为→起诉书", "imageChain": ["起诉书", "法律文件", "指控"]},
-    "wordLevel": {"domain": ["legal"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": ["indict", "indictable"], "sameAffix": ["arraignment", "prosecution"], "synonyms": ["charge", "accusation", "arraignment"], "antonyms": ["acquittal", "exoneration"], "domainCohort": ["charge", "indictment", "arraignment"], "derivationPair": ["indict"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "indict(起诉)+ment→ 起诉行为→起诉书",
+      "imageChain": [
+        "起诉书",
+        "法律文件",
+        "指控"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "legal"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "indict",
+        "indictable"
+      ],
+      "sameAffix": [
+        "arraignment",
+        "prosecution"
+      ],
+      "synonyms": [
+        "charge",
+        "accusation",
+        "arraignment"
+      ],
+      "antonyms": [
+        "acquittal",
+        "exoneration"
+      ],
+      "domainCohort": [
+        "charge",
+        "indictment",
+        "arraignment"
+      ],
+      "derivationPair": [
+        "indict"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "indifference",
     "phonetic": "/ɪn'dɪfrəns/",
     "pos": "n.",
-    "coreMeaning": {"cn": "漠不关心；冷漠", "en": "indifference; apathy"},
+    "coreMeaning": {
+      "cn": "漠不关心；冷漠",
+      "en": "indifference; apathy"
+    },
     "morphemes": [
-      {"canonical": "in-", "role": "prefix", "meaning": "否定", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "in", "positionTendency": "initial", "coreMeaning": {"cn": "否定", "en": "not"}},
-      {"canonical": "differ-", "role": "root", "meaning": "不同；区别", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "differ", "positionTendency": "medial", "coreMeaning": {"cn": "不同", "en": "differ"}},
-      {"canonical": "-ence", "role": "suffix", "meaning": "名词后缀：状态", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ence", "positionTendency": "final", "coreMeaning": {"cn": "状态", "en": "state"}}
+      {
+        "canonical": "in-",
+        "role": "prefix",
+        "meaning": "否定",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "in",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "否定",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "differ-",
+        "role": "root",
+        "meaning": "不同；区别",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "differ",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "不同",
+          "en": "differ"
+        }
+      },
+      {
+        "canonical": "-ence",
+        "role": "suffix",
+        "meaning": "名词后缀：状态",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ence",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "状态",
+          "en": "state"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "indifferent", "to": "indifference", "rule": "indifferent + -ce → noun"}]},
+    "derivationChain": [
+      "indifference"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "in(否)+difference(差别)→ 对差别无感→漠不关心", "imageChain": ["冷漠表情", "无动于衷", "置之不理"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": ["indifferent", "indifferently"], "sameAffix": ["apathy", "nonchalance"], "synonyms": ["apathy", "unconcern", "nonchalance"], "antonyms": ["concern", "interest", "passion"], "domainCohort": ["apathy", "nonchalance", "detachment"], "derivationPair": ["indifferent"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "in(否)+difference(差别)→ 对差别无感→漠不关心",
+      "imageChain": [
+        "冷漠表情",
+        "无动于衷",
+        "置之不理"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "indifferent",
+        "indifferently"
+      ],
+      "sameAffix": [
+        "apathy",
+        "nonchalance"
+      ],
+      "synonyms": [
+        "apathy",
+        "unconcern",
+        "nonchalance"
+      ],
+      "antonyms": [
+        "concern",
+        "interest",
+        "passion"
+      ],
+      "domainCohort": [
+        "apathy",
+        "nonchalance",
+        "detachment"
+      ],
+      "derivationPair": [
+        "indifferent"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "indifferent",
     "phonetic": "/ɪn'dɪfrənt/",
     "pos": "adj.",
-    "coreMeaning": {"cn": "漠不关心的；无关紧要的", "en": "indifferent; unconcerned"},
+    "coreMeaning": {
+      "cn": "漠不关心的；无关紧要的",
+      "en": "indifferent; unconcerned"
+    },
     "morphemes": [
-      {"canonical": "in-", "role": "prefix", "meaning": "否定", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "in", "positionTendency": "initial", "coreMeaning": {"cn": "否定", "en": "not"}},
-      {"canonical": "differ-", "role": "root", "meaning": "不同；区别", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "differ", "positionTendency": "medial", "coreMeaning": {"cn": "不同", "en": "differ"}},
-      {"canonical": "-ent", "role": "suffix", "meaning": "形容词后缀", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ent", "positionTendency": "final", "coreMeaning": {"cn": "的", "en": "having quality of"}}
+      {
+        "canonical": "in-",
+        "role": "prefix",
+        "meaning": "否定",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "in",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "否定",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "differ-",
+        "role": "root",
+        "meaning": "不同；区别",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "differ",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "不同",
+          "en": "differ"
+        }
+      },
+      {
+        "canonical": "-ent",
+        "role": "suffix",
+        "meaning": "形容词后缀",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ent",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "的",
+          "en": "having quality of"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "indifference", "to": "indifferent", "rule": "in+different → not making distinctions"}]},
+    "derivationChain": [
+      "indifferent"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "in(不)+different(不同)→ 不感差别→漠然", "imageChain": ["面无表情", "冷漠", "无所谓"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": ["indifference"], "sameAffix": ["apathetic", "unconcerned"], "synonyms": ["apathetic", "unconcerned", "impassive"], "antonyms": ["concerned", "interested", "passionate"], "domainCohort": ["apathetic", "nonchalant"], "derivationPair": ["indifference"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "in(不)+different(不同)→ 不感差别→漠然",
+      "imageChain": [
+        "面无表情",
+        "冷漠",
+        "无所谓"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "indifference"
+      ],
+      "sameAffix": [
+        "apathetic",
+        "unconcerned"
+      ],
+      "synonyms": [
+        "apathetic",
+        "unconcerned",
+        "impassive"
+      ],
+      "antonyms": [
+        "concerned",
+        "interested",
+        "passionate"
+      ],
+      "domainCohort": [
+        "apathetic",
+        "nonchalant"
+      ],
+      "derivationPair": [
+        "indifference"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "indigenous",
     "phonetic": "/ɪn'dɪdʒənəs/",
     "pos": "adj.",
-    "coreMeaning": {"cn": "本土的；土生土长的", "en": "indigenous; native"},
+    "coreMeaning": {
+      "cn": "本土的；土生土长的",
+      "en": "indigenous; native"
+    },
     "morphemes": [
-      {"canonical": "indi-", "role": "prefix", "meaning": "在内；本地", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "indi", "positionTendency": "initial", "coreMeaning": {"cn": "本地", "en": "within/native"}},
-      {"canonical": "gen-", "role": "root", "meaning": "产生；出生", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "gen", "positionTendency": "medial", "coreMeaning": {"cn": "产生", "en": "birth/origin"}},
-      {"canonical": "-ous", "role": "suffix", "meaning": "形容词后缀", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ous", "positionTendency": "final", "coreMeaning": {"cn": "的", "en": "having quality of"}}
+      {
+        "canonical": "indi-",
+        "role": "prefix",
+        "meaning": "在内；本地",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "indi",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "本地",
+          "en": "within/native"
+        }
+      },
+      {
+        "canonical": "gen-",
+        "role": "root",
+        "meaning": "产生；出生",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "gen",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "产生",
+          "en": "birth/origin"
+        }
+      },
+      {
+        "canonical": "-ous",
+        "role": "suffix",
+        "meaning": "形容词后缀",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ous",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "的",
+          "en": "having quality of"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "Latin indigena", "to": "indigenous", "rule": "indu(within)+gignere(beget) → born in the country"}]},
+    "derivationChain": [
+      "indigenous"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "indi(在内)+gen(生)+ous→ 在本地生长的→土著的", "imageChain": ["原住民", "本土植物", "土著文化"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["indigence", "indigent", "indigene"], "sameAffix": ["native", "aboriginal"], "synonyms": ["native", "aboriginal", "endemic"], "antonyms": ["foreign", "exotic", "alien"], "domainCohort": ["native", "aboriginal", "endemic"], "derivationPair": ["indigence"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "indi(在内)+gen(生)+ous→ 在本地生长的→土著的",
+      "imageChain": [
+        "原住民",
+        "本土植物",
+        "土著文化"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "indigence",
+        "indigent",
+        "indigene"
+      ],
+      "sameAffix": [
+        "native",
+        "aboriginal"
+      ],
+      "synonyms": [
+        "native",
+        "aboriginal",
+        "endemic"
+      ],
+      "antonyms": [
+        "foreign",
+        "exotic",
+        "alien"
+      ],
+      "domainCohort": [
+        "native",
+        "aboriginal",
+        "endemic"
+      ],
+      "derivationPair": [
+        "indigence"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "indigent",
     "phonetic": "/'ɪndɪdʒənt/",
     "pos": "adj.",
-    "coreMeaning": {"cn": "贫困的；穷苦的", "en": "indigent; impoverished"},
+    "coreMeaning": {
+      "cn": "贫困的；穷苦的",
+      "en": "indigent; impoverished"
+    },
     "morphemes": [
-      {"canonical": "indi-", "role": "prefix", "meaning": "在内；缺乏", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "indig", "positionTendency": "initial", "coreMeaning": {"cn": "缺乏", "en": "lacking"}},
-      {"canonical": "-ent", "role": "suffix", "meaning": "形容词后缀", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ent", "positionTendency": "final", "coreMeaning": {"cn": "的", "en": "having quality of"}}
+      {
+        "canonical": "indi-",
+        "role": "prefix",
+        "meaning": "在内；缺乏",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "indig",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "缺乏",
+          "en": "lacking"
+        }
+      },
+      {
+        "canonical": "-ent",
+        "role": "suffix",
+        "meaning": "形容词后缀",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ent",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "的",
+          "en": "having quality of"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "Latin indigentem", "to": "indigent", "rule": "indu+egere(need/lack) → lacking resources"}]},
+    "derivationChain": [
+      "indigent"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "indig(缺乏)+ent→ 缺乏资源→贫困的", "imageChain": ["贫穷", "无家可归", "资源匮乏"]},
-    "wordLevel": {"domain": ["general", "legal"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": ["indigence", "indigenous"], "sameAffix": ["impoverished", "destitute"], "synonyms": ["impoverished", "destitute", "needy"], "antonyms": ["affluent", "wealthy", "prosperous"], "domainCohort": ["destitute", "impoverished", "needy"], "derivationPair": ["indigence"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "indig(缺乏)+ent→ 缺乏资源→贫困的",
+      "imageChain": [
+        "贫穷",
+        "无家可归",
+        "资源匮乏"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "legal"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "indigence",
+        "indigenous"
+      ],
+      "sameAffix": [
+        "impoverished",
+        "destitute"
+      ],
+      "synonyms": [
+        "impoverished",
+        "destitute",
+        "needy"
+      ],
+      "antonyms": [
+        "affluent",
+        "wealthy",
+        "prosperous"
+      ],
+      "domainCohort": [
+        "destitute",
+        "impoverished",
+        "needy"
+      ],
+      "derivationPair": [
+        "indigence"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "indigence",
     "phonetic": "/'indidʒəns/",
     "pos": "n.",
-    "coreMeaning": {"cn": "穷困；贫乏", "en": "indigence; poverty"},
+    "coreMeaning": {
+      "cn": "穷困；贫乏",
+      "en": "indigence; poverty"
+    },
     "morphemes": [
-      {"canonical": "indi-", "role": "prefix", "meaning": "缺乏", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "indig", "positionTendency": "initial", "coreMeaning": {"cn": "缺乏", "en": "lacking"}},
-      {"canonical": "-ence", "role": "suffix", "meaning": "名词后缀：状态", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ence", "positionTendency": "final", "coreMeaning": {"cn": "状态", "en": "state"}}
+      {
+        "canonical": "indi-",
+        "role": "prefix",
+        "meaning": "缺乏",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "indig",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "缺乏",
+          "en": "lacking"
+        }
+      },
+      {
+        "canonical": "-ence",
+        "role": "suffix",
+        "meaning": "名词后缀：状态",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ence",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "状态",
+          "en": "state"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "Latin indigentia", "to": "indigence", "rule": "indigent + -ce → noun of state"}]},
+    "derivationChain": [
+      "indigence"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "indigent(贫困的)+ce→ 贫困的状态→穷困", "imageChain": ["贫困", "匮乏", "一无所有"]},
-    "wordLevel": {"domain": ["general", "legal"], "sentiment": {"tags": ["消极"], "intensity": -2}},
-    "relations": {"sameRoot": ["indigent", "indigenous"], "sameAffix": ["poverty", "destitution"], "synonyms": ["poverty", "destitution", "penury"], "antonyms": ["affluence", "wealth", "prosperity"], "domainCohort": ["poverty", "destitution", "penury"], "derivationPair": ["indigent"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "indigent(贫困的)+ce→ 贫困的状态→穷困",
+      "imageChain": [
+        "贫困",
+        "匮乏",
+        "一无所有"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "legal"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "indigent",
+        "indigenous"
+      ],
+      "sameAffix": [
+        "poverty",
+        "destitution"
+      ],
+      "synonyms": [
+        "poverty",
+        "destitution",
+        "penury"
+      ],
+      "antonyms": [
+        "affluence",
+        "wealth",
+        "prosperity"
+      ],
+      "domainCohort": [
+        "poverty",
+        "destitution",
+        "penury"
+      ],
+      "derivationPair": [
+        "indigent"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "indignant",
     "phonetic": "/ɪn'dɪɡnənt/",
     "pos": "adj.",
-    "coreMeaning": {"cn": "愤慨的；义愤的", "en": "indignant; outraged"},
+    "coreMeaning": {
+      "cn": "愤慨的；义愤的",
+      "en": "indignant; outraged"
+    },
     "morphemes": [
-      {"canonical": "in-", "role": "prefix", "meaning": "否定", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "in", "positionTendency": "initial", "coreMeaning": {"cn": "否定", "en": "not"}},
-      {"canonical": "dign-", "role": "root", "meaning": "值得；尊严", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "dign", "positionTendency": "medial", "coreMeaning": {"cn": "尊严", "en": "worthy/dignified"}},
-      {"canonical": "-ant", "role": "suffix", "meaning": "形容词后缀", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ant", "positionTendency": "final", "coreMeaning": {"cn": "的", "en": "having quality of"}}
+      {
+        "canonical": "in-",
+        "role": "prefix",
+        "meaning": "否定",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "in",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "否定",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "dign-",
+        "role": "root",
+        "meaning": "值得；尊严",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "dign",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "尊严",
+          "en": "worthy/dignified"
+        }
+      },
+      {
+        "canonical": "-ant",
+        "role": "suffix",
+        "meaning": "形容词后缀",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ant",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "的",
+          "en": "having quality of"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "Latin indignans", "to": "indignant", "rule": "in+dignus(worthy) → unworthy/causing anger"}]},
+    "derivationChain": [
+      "indignant"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "in(否)+dign(尊严)+ant→ 尊严受损→愤慨", "imageChain": ["义愤填膺", "愤怒抗议", "蒙受不公"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": ["indignation", "indignity"], "sameAffix": ["outraged", "furious"], "synonyms": ["outraged", "affronted", "incensed"], "antonyms": ["pleased", "gratified", "content"], "domainCohort": ["outraged", "incensed", "affronted"], "derivationPair": ["indignation"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "in(否)+dign(尊严)+ant→ 尊严受损→愤慨",
+      "imageChain": [
+        "义愤填膺",
+        "愤怒抗议",
+        "蒙受不公"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "indignation",
+        "indignity"
+      ],
+      "sameAffix": [
+        "outraged",
+        "furious"
+      ],
+      "synonyms": [
+        "outraged",
+        "affronted",
+        "incensed"
+      ],
+      "antonyms": [
+        "pleased",
+        "gratified",
+        "content"
+      ],
+      "domainCohort": [
+        "outraged",
+        "incensed",
+        "affronted"
+      ],
+      "derivationPair": [
+        "indignation"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "indignation",
     "phonetic": "/,ɪndɪɡ'neʃən/",
     "pos": "n.",
-    "coreMeaning": {"cn": "愤怒；愤慨", "en": "indignation; righteous anger"},
+    "coreMeaning": {
+      "cn": "愤怒；愤慨",
+      "en": "indignation; righteous anger"
+    },
     "morphemes": [
-      {"canonical": "in-", "role": "prefix", "meaning": "否定", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "in", "positionTendency": "initial", "coreMeaning": {"cn": "否定", "en": "not"}},
-      {"canonical": "dign-", "role": "root", "meaning": "值得；尊严", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "dign", "positionTendency": "medial", "coreMeaning": {"cn": "尊严", "en": "worthy"}},
-      {"canonical": "-ation", "role": "suffix", "meaning": "名词后缀", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ation", "positionTendency": "final", "coreMeaning": {"cn": "行为", "en": "state/feeling"}}
+      {
+        "canonical": "in-",
+        "role": "prefix",
+        "meaning": "否定",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "in",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "否定",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "dign-",
+        "role": "root",
+        "meaning": "值得；尊严",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "dign",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "尊严",
+          "en": "worthy"
+        }
+      },
+      {
+        "canonical": "-ation",
+        "role": "suffix",
+        "meaning": "名词后缀",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ation",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "行为",
+          "en": "state/feeling"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "indignant", "to": "indignation", "rule": "indignant → noun form"}]},
+    "derivationChain": [
+      "indignation"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "indig(不公)+nation→ 对不公的愤怒→义愤", "imageChain": ["义愤", "正义愤慨", "不满情绪"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": ["indignant", "indignity"], "sameAffix": ["outrage", "resentment"], "synonyms": ["outrage", "resentment", "anger"], "antonyms": ["satisfaction", "contentment"], "domainCohort": ["outrage", "resentment", "fury"], "derivationPair": ["indignant"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "indig(不公)+nation→ 对不公的愤怒→义愤",
+      "imageChain": [
+        "义愤",
+        "正义愤慨",
+        "不满情绪"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "indignant",
+        "indignity"
+      ],
+      "sameAffix": [
+        "outrage",
+        "resentment"
+      ],
+      "synonyms": [
+        "outrage",
+        "resentment",
+        "anger"
+      ],
+      "antonyms": [
+        "satisfaction",
+        "contentment"
+      ],
+      "domainCohort": [
+        "outrage",
+        "resentment",
+        "fury"
+      ],
+      "derivationPair": [
+        "indignant"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "indignity",
     "phonetic": "/ɪn'dɪɡnəti/",
     "pos": "n.",
-    "coreMeaning": {"cn": "侮辱；轻蔑", "en": "indignity; humiliation"},
+    "coreMeaning": {
+      "cn": "侮辱；轻蔑",
+      "en": "indignity; humiliation"
+    },
     "morphemes": [
-      {"canonical": "in-", "role": "prefix", "meaning": "否定", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "in", "positionTendency": "initial", "coreMeaning": {"cn": "否定", "en": "not"}},
-      {"canonical": "dign-", "role": "root", "meaning": "尊严；值得", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "dign", "positionTendency": "medial", "coreMeaning": {"cn": "尊严", "en": "dignity/worth"}},
-      {"canonical": "-ity", "role": "suffix", "meaning": "名词后缀", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "ity", "positionTendency": "final", "coreMeaning": {"cn": "性质", "en": "quality/state"}}
+      {
+        "canonical": "in-",
+        "role": "prefix",
+        "meaning": "否定",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "in",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "否定",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "dign-",
+        "role": "root",
+        "meaning": "尊严；值得",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "dign",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "尊严",
+          "en": "dignity/worth"
+        }
+      },
+      {
+        "canonical": "-ity",
+        "role": "suffix",
+        "meaning": "名词后缀",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "ity",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "性质",
+          "en": "quality/state"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "in- + dignity", "to": "indignity", "rule": "lack of dignity → insult"}]},
+    "derivationChain": [
+      "indignity"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "in(否)+dignity(尊严)→ 无尊严→侮辱", "imageChain": ["侮辱", "蒙受耻辱", "羞辱"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["贬义"], "intensity": -2}},
-    "relations": {"sameRoot": ["indignant", "indignation"], "sameAffix": ["humiliation", "degradation"], "synonyms": ["humiliation", "affront", "insult"], "antonyms": ["dignity", "honor", "respect"], "domainCohort": ["humiliation", "affront", "insult"], "derivationPair": ["indignant"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "in(否)+dignity(尊严)→ 无尊严→侮辱",
+      "imageChain": [
+        "侮辱",
+        "蒙受耻辱",
+        "羞辱"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": -2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "indignant",
+        "indignation"
+      ],
+      "sameAffix": [
+        "humiliation",
+        "degradation"
+      ],
+      "synonyms": [
+        "humiliation",
+        "affront",
+        "insult"
+      ],
+      "antonyms": [
+        "dignity",
+        "honor",
+        "respect"
+      ],
+      "domainCohort": [
+        "humiliation",
+        "affront",
+        "insult"
+      ],
+      "derivationPair": [
+        "indignant"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "indiscriminate",
     "phonetic": "/,ɪndɪ'skrɪmɪnət/",
     "pos": "adj.",
-    "coreMeaning": {"cn": "无差别的；不分皂白的", "en": "indiscriminate; random"},
+    "coreMeaning": {
+      "cn": "无差别的；不分皂白的",
+      "en": "indiscriminate; random"
+    },
     "morphemes": [
-      {"canonical": "in-", "role": "prefix", "meaning": "否定", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "in", "positionTendency": "initial", "coreMeaning": {"cn": "否定", "en": "not"}},
-      {"canonical": "dis-", "role": "prefix", "meaning": "分离；区分", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "dis", "positionTendency": "initial", "coreMeaning": {"cn": "区分", "en": "apart"}},
-      {"canonical": "crimin-", "role": "root", "meaning": "区分；分辨", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "crimin", "positionTendency": "medial", "coreMeaning": {"cn": "分辨", "en": "distinguish"}},
-      {"canonical": "-ate", "role": "suffix", "meaning": "形容词后缀", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 4, "form": "ate", "positionTendency": "final", "coreMeaning": {"cn": "的", "en": "having quality of"}}
+      {
+        "canonical": "in-",
+        "role": "prefix",
+        "meaning": "否定",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "in",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "否定",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "dis-",
+        "role": "prefix",
+        "meaning": "分离；区分",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "dis",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "区分",
+          "en": "apart"
+        }
+      },
+      {
+        "canonical": "crimin-",
+        "role": "root",
+        "meaning": "区分；分辨",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 3,
+        "form": "crimin",
+        "positionTendency": "medial",
+        "coreMeaning": {
+          "cn": "分辨",
+          "en": "distinguish"
+        }
+      },
+      {
+        "canonical": "-ate",
+        "role": "suffix",
+        "meaning": "形容词后缀",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 4,
+        "form": "ate",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "的",
+          "en": "having quality of"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "in + discriminate", "to": "indiscriminate", "rule": "not making distinctions → random"}]},
+    "derivationChain": [
+      "indiscriminate"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "in(不)+discriminate(区分)→ 不加区分的→无差别的", "imageChain": ["随机攻击", "不加选择", "无差别"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": ["discriminate", "discrimination"], "sameAffix": ["random", "arbitrary"], "synonyms": ["random", "arbitrary", "haphazard"], "antonyms": ["discriminating", "selective", "discerning"], "domainCohort": ["random", "haphazard", "arbitrary"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "in(不)+discriminate(区分)→ 不加区分的→无差别的",
+      "imageChain": [
+        "随机攻击",
+        "不加选择",
+        "无差别"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "discriminate",
+        "discrimination"
+      ],
+      "sameAffix": [
+        "random",
+        "arbitrary"
+      ],
+      "synonyms": [
+        "random",
+        "arbitrary",
+        "haphazard"
+      ],
+      "antonyms": [
+        "discriminating",
+        "selective",
+        "discerning"
+      ],
+      "domainCohort": [
+        "random",
+        "haphazard",
+        "arbitrary"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "indiscreet",
     "phonetic": "/'ɪndɪ'skrit/",
     "pos": "adj.",
-    "coreMeaning": {"cn": "轻率的；不慎重的", "en": "indiscreet; rash"},
+    "coreMeaning": {
+      "cn": "轻率的；不慎重的",
+      "en": "indiscreet; rash"
+    },
     "morphemes": [
-      {"canonical": "in-", "role": "prefix", "meaning": "否定", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "in", "positionTendency": "initial", "coreMeaning": {"cn": "否定", "en": "not"}},
-      {"canonical": "discreet", "role": "root", "meaning": "慎重；审慎", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 2, "form": "discreet", "positionTendency": "final", "coreMeaning": {"cn": "慎重", "en": "cautious/discreet"}}
+      {
+        "canonical": "in-",
+        "role": "prefix",
+        "meaning": "否定",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "in",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "否定",
+          "en": "not"
+        }
+      },
+      {
+        "canonical": "discreet",
+        "role": "root",
+        "meaning": "慎重；审慎",
+        "sentiment": {
+          "tags": [
+            "积极"
+          ],
+          "intensity": 1
+        },
+        "order": 2,
+        "form": "discreet",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "慎重",
+          "en": "cautious/discreet"
+        }
+      }
     ],
-    "derivationChain": {"steps": [{"from": "in- + discreet", "to": "indiscreet", "rule": "not discreet → rash"}]},
+    "derivationChain": [
+      "indiscreet"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "in(不)+discreet(谨慎)→ 不谨慎的→轻率的", "imageChain": ["口无遮拦", "轻率行事", "不慎重"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": ["discreet", "discretion"], "sameAffix": ["imprudent", "rash"], "synonyms": ["imprudent", "rash", "tactless"], "antonyms": ["discreet", "prudent", "tactful"], "domainCohort": ["rash", "imprudent", "tactless"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "in(不)+discreet(谨慎)→ 不谨慎的→轻率的",
+      "imageChain": [
+        "口无遮拦",
+        "轻率行事",
+        "不慎重"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "discreet",
+        "discretion"
+      ],
+      "sameAffix": [
+        "imprudent",
+        "rash"
+      ],
+      "synonyms": [
+        "imprudent",
+        "rash",
+        "tactless"
+      ],
+      "antonyms": [
+        "discreet",
+        "prudent",
+        "tactful"
+      ],
+      "domainCohort": [
+        "rash",
+        "imprudent",
+        "tactless"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]

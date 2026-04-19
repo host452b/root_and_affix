@@ -2,151 +2,905 @@
   {
     "word": "gunboat",
     "phonetic": "/ˈɡʌnboʊt/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "炮艇；炮舰", "en": "a small warship with heavy guns"},
-    "morphemes": [
-      {"canonical": "gun", "role": "root", "meaning": "枪；炮", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "gun", "positionTendency": "initial", "coreMeaning": {"cn": "枪炮", "en": "gun/cannon"}},
-      {"canonical": "boat", "role": "root", "meaning": "船", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "boat", "positionTendency": "final", "coreMeaning": {"cn": "船", "en": "vessel/boat"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "gun + boat", "to": "gunboat", "rule": "compound", "meaning": "带炮的船→炮艇"}]},
+    "coreMeaning": {
+      "cn": "炮艇；炮舰",
+      "en": "a small warship with heavy guns"
+    },
+    "morphemes": [
+      {
+        "canonical": "gun",
+        "role": "root",
+        "meaning": "枪；炮",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "gun",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "枪炮",
+          "en": "gun/cannon"
+        }
+      },
+      {
+        "canonical": "boat",
+        "role": "root",
+        "meaning": "船",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "boat",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "船",
+          "en": "vessel/boat"
+        }
+      }
+    ],
+    "derivationChain": [
+      "gunboat"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "gun(炮)+boat(船)→炮艇", "imageChain": ["炮艇", "军舰", "武力"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["gun", "gunship"], "sameAffix": [], "synonyms": ["gunship", "warship"], "antonyms": [], "domainCohort": ["warship", "patrol boat"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "gun(炮)+boat(船)→炮艇",
+      "imageChain": [
+        "炮艇",
+        "军舰",
+        "武力"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "gun",
+        "gunship"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "gunship",
+        "warship"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "warship",
+        "patrol boat"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "gunfight",
     "phonetic": "/ˈɡʌnfaɪt/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "枪战；枪击战", "en": "a fight involving the exchange of gunfire"},
-    "morphemes": [
-      {"canonical": "gun", "role": "root", "meaning": "枪", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "gun", "positionTendency": "initial", "coreMeaning": {"cn": "枪", "en": "gun"}},
-      {"canonical": "fight", "role": "root", "meaning": "战斗", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 2, "form": "fight", "positionTendency": "final", "coreMeaning": {"cn": "战斗", "en": "fight/combat"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "gun + fight", "to": "gunfight", "rule": "compound", "meaning": "枪+战斗→枪战"}]},
+    "coreMeaning": {
+      "cn": "枪战；枪击战",
+      "en": "a fight involving the exchange of gunfire"
+    },
+    "morphemes": [
+      {
+        "canonical": "gun",
+        "role": "root",
+        "meaning": "枪",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "gun",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "枪",
+          "en": "gun"
+        }
+      },
+      {
+        "canonical": "fight",
+        "role": "root",
+        "meaning": "战斗",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 2,
+        "form": "fight",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "战斗",
+          "en": "fight/combat"
+        }
+      }
+    ],
+    "derivationChain": [
+      "gunfight"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "gun(枪)+fight(战斗)→枪战", "imageChain": ["枪战", "对决", "西部片"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": ["gun", "gunman", "gunshot"], "sameAffix": [], "synonyms": ["shootout", "firefight"], "antonyms": [], "domainCohort": ["shootout", "battle"], "derivationPair": ["gunfighter"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "gun(枪)+fight(战斗)→枪战",
+      "imageChain": [
+        "枪战",
+        "对决",
+        "西部片"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "gun",
+        "gunman",
+        "gunshot"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "shootout",
+        "firefight"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "shootout",
+        "battle"
+      ],
+      "derivationPair": [
+        "gunfighter"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "gunfire",
     "phonetic": "/ˈɡʌnfaɪər/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "炮火；枪击", "en": "the repeated firing of guns"},
-    "morphemes": [
-      {"canonical": "gun", "role": "root", "meaning": "枪炮", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "gun", "positionTendency": "initial", "coreMeaning": {"cn": "枪炮", "en": "gun"}},
-      {"canonical": "fire", "role": "root", "meaning": "开火；射击", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 2, "form": "fire", "positionTendency": "final", "coreMeaning": {"cn": "开火", "en": "fire/shooting"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "gun + fire", "to": "gunfire", "rule": "compound", "meaning": "枪炮开火"}]},
+    "coreMeaning": {
+      "cn": "炮火；枪击",
+      "en": "the repeated firing of guns"
+    },
+    "morphemes": [
+      {
+        "canonical": "gun",
+        "role": "root",
+        "meaning": "枪炮",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "gun",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "枪炮",
+          "en": "gun"
+        }
+      },
+      {
+        "canonical": "fire",
+        "role": "root",
+        "meaning": "开火；射击",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 2,
+        "form": "fire",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "开火",
+          "en": "fire/shooting"
+        }
+      }
+    ],
+    "derivationChain": [
+      "gunfire"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "gun(枪)+fire(开火)→炮火", "imageChain": ["炮火", "战场", "枪声"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": ["gun", "gunfight"], "sameAffix": [], "synonyms": ["shooting", "fire", "fusillade"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "gun(枪)+fire(开火)→炮火",
+      "imageChain": [
+        "炮火",
+        "战场",
+        "枪声"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "gun",
+        "gunfight"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "shooting",
+        "fire",
+        "fusillade"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "gunman",
     "phonetic": "/ˈɡʌnmən/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "持枪歹徒；枪手", "en": "a man who uses a gun to commit a crime"},
-    "morphemes": [
-      {"canonical": "gun", "role": "root", "meaning": "枪", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "gun", "positionTendency": "initial", "coreMeaning": {"cn": "枪", "en": "gun"}},
-      {"canonical": "man", "role": "root", "meaning": "人", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "man", "positionTendency": "final", "coreMeaning": {"cn": "人", "en": "man/person"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "gun + man", "to": "gunman", "rule": "compound", "meaning": "持枪之人→枪手/歹徒"}]},
+    "coreMeaning": {
+      "cn": "持枪歹徒；枪手",
+      "en": "a man who uses a gun to commit a crime"
+    },
+    "morphemes": [
+      {
+        "canonical": "gun",
+        "role": "root",
+        "meaning": "枪",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "gun",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "枪",
+          "en": "gun"
+        }
+      },
+      {
+        "canonical": "man",
+        "role": "root",
+        "meaning": "人",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "man",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "人",
+          "en": "man/person"
+        }
+      }
+    ],
+    "derivationChain": [
+      "gunman"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "gun(枪)+man(人)→持枪的人→枪手", "imageChain": ["枪手", "歹徒", "危险"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["消极"], "intensity": -2}},
-    "relations": {"sameRoot": ["gun", "gunfight"], "sameAffix": [], "synonyms": ["shooter", "assassin"], "antonyms": [], "domainCohort": ["sniper", "assassin"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "gun(枪)+man(人)→持枪的人→枪手",
+      "imageChain": [
+        "枪手",
+        "歹徒",
+        "危险"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "gun",
+        "gunfight"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "shooter",
+        "assassin"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "sniper",
+        "assassin"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "gunpowder",
     "phonetic": "/ˈɡʌnpaʊdər/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "火药；黑火药", "en": "an explosive powder used in guns and fireworks"},
-    "morphemes": [
-      {"canonical": "gun", "role": "root", "meaning": "枪炮", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "gun", "positionTendency": "initial", "coreMeaning": {"cn": "枪炮", "en": "gun"}},
-      {"canonical": "powder", "role": "root", "meaning": "粉末", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "powder", "positionTendency": "final", "coreMeaning": {"cn": "粉末", "en": "powder"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "gun + powder", "to": "gunpowder", "rule": "compound", "meaning": "枪炮粉末→火药"}]},
+    "coreMeaning": {
+      "cn": "火药；黑火药",
+      "en": "an explosive powder used in guns and fireworks"
+    },
+    "morphemes": [
+      {
+        "canonical": "gun",
+        "role": "root",
+        "meaning": "枪炮",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "gun",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "枪炮",
+          "en": "gun"
+        }
+      },
+      {
+        "canonical": "powder",
+        "role": "root",
+        "meaning": "粉末",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "powder",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "粉末",
+          "en": "powder"
+        }
+      }
+    ],
+    "derivationChain": [
+      "gunpowder"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "gun(枪)+powder(粉末)→火药", "imageChain": ["火药", "爆炸", "黑粉"]},
-    "wordLevel": {"domain": ["general", "academic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["gun"], "sameAffix": [], "synonyms": ["black powder", "explosive"], "antonyms": [], "domainCohort": ["explosive", "ammunition"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "gun(枪)+powder(粉末)→火药",
+      "imageChain": [
+        "火药",
+        "爆炸",
+        "黑粉"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "gun"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "black powder",
+        "explosive"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "explosive",
+        "ammunition"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "gunrunning",
     "phonetic": "/ˈɡʌnrʌnɪŋ/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "非法武器走私", "en": "the illegal trade of guns"},
-    "morphemes": [
-      {"canonical": "gun", "role": "root", "meaning": "枪支", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "gun", "positionTendency": "initial", "coreMeaning": {"cn": "枪支", "en": "gun"}},
-      {"canonical": "run", "role": "root", "meaning": "跑；运输（非法）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "running", "positionTendency": "final", "coreMeaning": {"cn": "秘密运输", "en": "run/smuggle"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "gun + running", "to": "gunrunning", "rule": "compound", "meaning": "非法武器运输→军火走私"}]},
+    "coreMeaning": {
+      "cn": "非法武器走私",
+      "en": "the illegal trade of guns"
+    },
+    "morphemes": [
+      {
+        "canonical": "gun",
+        "role": "root",
+        "meaning": "枪支",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "gun",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "枪支",
+          "en": "gun"
+        }
+      },
+      {
+        "canonical": "run",
+        "role": "root",
+        "meaning": "跑；运输（非法）",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "running",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "秘密运输",
+          "en": "run/smuggle"
+        }
+      }
+    ],
+    "derivationChain": [
+      "gunrunning"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "gun(枪)+running(运输)→武器走私", "imageChain": ["走私", "军火", "非法"]},
-    "wordLevel": {"domain": ["legal", "general"], "sentiment": {"tags": ["消极"], "intensity": -2}},
-    "relations": {"sameRoot": ["gun", "gunrunner"], "sameAffix": [], "synonyms": ["arms trafficking", "gun smuggling"], "antonyms": [], "domainCohort": ["smuggling", "trafficking"], "derivationPair": ["gunrunner"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "gun(枪)+running(运输)→武器走私",
+      "imageChain": [
+        "走私",
+        "军火",
+        "非法"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "legal",
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "gun",
+        "gunrunner"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "arms trafficking",
+        "gun smuggling"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "smuggling",
+        "trafficking"
+      ],
+      "derivationPair": [
+        "gunrunner"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "gunshot",
     "phonetic": "/ˈɡʌnʃɒt/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "枪击；枪声；枪伤", "en": "the firing of a gun; the range of a gun; a wound caused by a bullet"},
-    "morphemes": [
-      {"canonical": "gun", "role": "root", "meaning": "枪", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "gun", "positionTendency": "initial", "coreMeaning": {"cn": "枪", "en": "gun"}},
-      {"canonical": "shot", "role": "root", "meaning": "射击；弹丸", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "shot", "positionTendency": "final", "coreMeaning": {"cn": "射击", "en": "shot/projectile"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "gun + shot", "to": "gunshot", "rule": "compound", "meaning": "枪射击→枪声/枪伤"}]},
+    "coreMeaning": {
+      "cn": "枪击；枪声；枪伤",
+      "en": "the firing of a gun; the range of a gun; a wound caused by a bullet"
+    },
+    "morphemes": [
+      {
+        "canonical": "gun",
+        "role": "root",
+        "meaning": "枪",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "gun",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "枪",
+          "en": "gun"
+        }
+      },
+      {
+        "canonical": "shot",
+        "role": "root",
+        "meaning": "射击；弹丸",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "shot",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "射击",
+          "en": "shot/projectile"
+        }
+      }
+    ],
+    "derivationChain": [
+      "gunshot"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "gun(枪)+shot(射击)→枪声/枪伤", "imageChain": ["枪声", "子弹", "伤口"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["消极"], "intensity": -1}},
-    "relations": {"sameRoot": ["gun", "gunfire"], "sameAffix": [], "synonyms": ["bullet wound", "report"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "gun(枪)+shot(射击)→枪声/枪伤",
+      "imageChain": [
+        "枪声",
+        "子弹",
+        "伤口"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -1
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "gun",
+        "gunfire"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "bullet wound",
+        "report"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "gunsmith",
     "phonetic": "/ˈɡʌnsmɪθ/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "枪械工；枪匠", "en": "a person who makes or repairs guns"},
-    "morphemes": [
-      {"canonical": "gun", "role": "root", "meaning": "枪支", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "gun", "positionTendency": "initial", "coreMeaning": {"cn": "枪支", "en": "gun"}},
-      {"canonical": "smith", "role": "root", "meaning": "工匠", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "smith", "positionTendency": "final", "coreMeaning": {"cn": "工匠", "en": "craftsman/maker"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "gun + smith", "to": "gunsmith", "rule": "compound", "meaning": "制枪工匠"}]},
+    "coreMeaning": {
+      "cn": "枪械工；枪匠",
+      "en": "a person who makes or repairs guns"
+    },
+    "morphemes": [
+      {
+        "canonical": "gun",
+        "role": "root",
+        "meaning": "枪支",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "gun",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "枪支",
+          "en": "gun"
+        }
+      },
+      {
+        "canonical": "smith",
+        "role": "root",
+        "meaning": "工匠",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "smith",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "工匠",
+          "en": "craftsman/maker"
+        }
+      }
+    ],
+    "derivationChain": [
+      "gunsmith"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "gun(枪)+smith(工匠)→枪匠", "imageChain": ["枪匠", "制造", "维修"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["gun", "blacksmith", "locksmith"], "sameAffix": [], "synonyms": ["armourer", "weaponmaker"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "gun(枪)+smith(工匠)→枪匠",
+      "imageChain": [
+        "枪匠",
+        "制造",
+        "维修"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "gun",
+        "blacksmith",
+        "locksmith"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "armourer",
+        "weaponmaker"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "gunner",
     "phonetic": "/ˈɡʌnər/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "炮手；枪手", "en": "a soldier who operates a gun"},
-    "morphemes": [
-      {"canonical": "gun", "role": "root", "meaning": "枪炮", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "gun", "positionTendency": "initial", "coreMeaning": {"cn": "枪炮", "en": "gun"}},
-      {"canonical": "-er", "role": "suffix", "meaning": "…者", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ner", "positionTendency": "final", "coreMeaning": {"cn": "者", "en": "one who"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "gun + -er", "to": "gunner", "rule": "root + suffix", "meaning": "操炮者→炮手"}]},
+    "coreMeaning": {
+      "cn": "炮手；枪手",
+      "en": "a soldier who operates a gun"
+    },
+    "morphemes": [
+      {
+        "canonical": "gun",
+        "role": "root",
+        "meaning": "枪炮",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 1,
+        "form": "gun",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "枪炮",
+          "en": "gun"
+        }
+      },
+      {
+        "canonical": "-er",
+        "role": "suffix",
+        "meaning": "…者",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "ner",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "者",
+          "en": "one who"
+        }
+      }
+    ],
+    "derivationChain": [
+      "gunner"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "gun(枪炮)+ner(人)→炮手", "imageChain": ["炮手", "士兵", "操炮"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
-    "relations": {"sameRoot": ["gun", "gunnery"], "sameAffix": [], "synonyms": ["artillerist", "cannoneer"], "antonyms": [], "domainCohort": [], "derivationPair": ["gunnery"], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "gun(枪炮)+ner(人)→炮手",
+      "imageChain": [
+        "炮手",
+        "士兵",
+        "操炮"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "gun",
+        "gunnery"
+      ],
+      "sameAffix": [],
+      "synonyms": [
+        "artillerist",
+        "cannoneer"
+      ],
+      "antonyms": [],
+      "domainCohort": [],
+      "derivationPair": [
+        "gunnery"
+      ],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   },
   {
     "word": "gunpoint",
     "phonetic": "/ˈɡʌnpɔɪnt/",
-    "pos": ["n."],
-    "coreMeaning": {"cn": "枪口（at gunpoint 在枪口威胁下）", "en": "the point of a gun; at gunpoint means under threat of a gun"},
-    "morphemes": [
-      {"canonical": "gun", "role": "root", "meaning": "枪", "sentiment": {"tags": ["消极"], "intensity": -1}, "order": 1, "form": "gun", "positionTendency": "initial", "coreMeaning": {"cn": "枪", "en": "gun"}},
-      {"canonical": "point", "role": "root", "meaning": "点；尖端", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "point", "positionTendency": "final", "coreMeaning": {"cn": "尖端", "en": "tip/barrel"}}
+    "pos": [
+      "n."
     ],
-    "derivationChain": {"steps": [{"from": "gun + point", "to": "gunpoint", "rule": "compound", "meaning": "枪口"}]},
+    "coreMeaning": {
+      "cn": "枪口（at gunpoint 在枪口威胁下）",
+      "en": "the point of a gun; at gunpoint means under threat of a gun"
+    },
+    "morphemes": [
+      {
+        "canonical": "gun",
+        "role": "root",
+        "meaning": "枪",
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": -1
+        },
+        "order": 1,
+        "form": "gun",
+        "positionTendency": "initial",
+        "coreMeaning": {
+          "cn": "枪",
+          "en": "gun"
+        }
+      },
+      {
+        "canonical": "point",
+        "role": "root",
+        "meaning": "点；尖端",
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "order": 2,
+        "form": "point",
+        "positionTendency": "final",
+        "coreMeaning": {
+          "cn": "尖端",
+          "en": "tip/barrel"
+        }
+      }
+    ],
+    "derivationChain": [
+      "gunpoint"
+    ],
     "morphVariantOf": null,
-    "memorySemantics": {"mnemonicExpr": "gun(枪)+point(尖)→枪口（at gunpoint在枪口威胁下）", "imageChain": ["枪口", "威胁", "胁迫"]},
-    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["消极"], "intensity": -2}},
-    "relations": {"sameRoot": ["gun"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["threat", "coercion"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+    "memorySemantics": {
+      "mnemonicExpr": "gun(枪)+point(尖)→枪口（at gunpoint在枪口威胁下）",
+      "imageChain": [
+        "枪口",
+        "威胁",
+        "胁迫"
+      ]
+    },
+    "wordLevel": {
+      "domain": [
+        "general"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": -2
+      }
+    },
+    "relations": {
+      "sameRoot": [
+        "gun"
+      ],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "threat",
+        "coercion"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
   }
 ]
