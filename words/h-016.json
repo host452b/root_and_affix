@@ -12,56 +12,97 @@
         "canonical": "hyper-",
         "role": "prefix",
         "meaning": "超过、过度",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 1,
         "form": "hyper",
         "positionTendency": "initial",
-        "coreMeaning": { "cn": "超过", "en": "over, beyond" }
+        "coreMeaning": {
+          "cn": "超过",
+          "en": "over, beyond"
+        }
       },
       {
         "canonical": "graph",
         "role": "root",
         "meaning": "图、写",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "graph",
         "positionTendency": "final",
-        "coreMeaning": { "cn": "图、写", "en": "write, draw" }
+        "coreMeaning": {
+          "cn": "图、写",
+          "en": "write, draw"
+        }
       },
       {
         "canonical": "-s",
         "role": "suffix",
         "meaning": "复数",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 3,
         "form": "s",
         "positionTendency": "final",
-        "coreMeaning": { "cn": "复数", "en": "plural" }
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "graph", "meaning": "图" },
-        { "form": "hypergraph", "meaning": "超图" },
-        { "form": "hypergraphs", "meaning": "超图（复数）" }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'graph', 'meaning': '图'}, {'form': 'hypergraph', 'meaning': '超图'}, {'form': 'hypergraphs', 'meaning': '超图（复数）'}]}"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "mnemonicExpr": "hyper(超)+graph(图)=超图，边可连多个顶点的广义图",
-      "imageChain": ["超级", "图形", "多连接"]
+      "imageChain": [
+        "超级",
+        "图形",
+        "多连接"
+      ]
     },
     "wordLevel": {
-      "domain": ["tech"],
-      "sentiment": { "tags": ["中性"], "intensity": 0 }
+      "domain": [
+        "tech"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
     },
     "relations": {
-      "sameRoot": ["hypergraph", "graphs", "graphics"],
-      "sameAffix": ["hyperlinks", "hypertext"],
+      "sameRoot": [
+        "hypergraph",
+        "graphs",
+        "graphics"
+      ],
+      "sameAffix": [
+        "hyperlinks",
+        "hypertext"
+      ],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["algorithms", "topology"],
-      "derivationPair": ["hypergraph"],
+      "domainCohort": [
+        "algorithms",
+        "topology"
+      ],
+      "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -79,56 +120,100 @@
         "canonical": "hyper-",
         "role": "prefix",
         "meaning": "超过、过度",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 1,
         "form": "hyper",
         "positionTendency": "initial",
-        "coreMeaning": { "cn": "超过", "en": "over, beyond" }
+        "coreMeaning": {
+          "cn": "超过",
+          "en": "over, beyond"
+        }
       },
       {
         "canonical": "link",
         "role": "root",
         "meaning": "连接",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "link",
         "positionTendency": "medial",
-        "coreMeaning": { "cn": "连接", "en": "connect" }
+        "coreMeaning": {
+          "cn": "连接",
+          "en": "connect"
+        }
       },
       {
         "canonical": "-s",
         "role": "suffix",
         "meaning": "复数",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 3,
         "form": "s",
         "positionTendency": "final",
-        "coreMeaning": { "cn": "复数", "en": "plural" }
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "link", "meaning": "连接" },
-        { "form": "hyperlink", "meaning": "超链接" },
-        { "form": "hyperlinks", "meaning": "超链接（复数）" }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'link', 'meaning': '连接'}, {'form': 'hyperlink', 'meaning': '超链接'}, {'form': 'hyperlinks', 'meaning': '超链接（复数）'}]}"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "mnemonicExpr": "hyper(超)+link(连接)=超链接，点击即跳转的网页链接",
-      "imageChain": ["网页", "点击", "跳转"]
+      "imageChain": [
+        "网页",
+        "点击",
+        "跳转"
+      ]
     },
     "wordLevel": {
-      "domain": ["tech"],
-      "sentiment": { "tags": ["中性"], "intensity": 0 }
+      "domain": [
+        "tech"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
     },
     "relations": {
-      "sameRoot": ["link", "linked", "linking"],
-      "sameAffix": ["hypergraphs", "hypertext"],
-      "synonyms": ["links", "URLs"],
+      "sameRoot": [
+        "link",
+        "linked",
+        "linking"
+      ],
+      "sameAffix": [
+        "hypergraphs",
+        "hypertext"
+      ],
+      "synonyms": [
+        "links",
+        "URLs"
+      ],
       "antonyms": [],
-      "domainCohort": ["hypertext", "HTML"],
-      "derivationPair": ["hyperlink"],
+      "domainCohort": [
+        "hypertext",
+        "HTML"
+      ],
+      "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -146,47 +231,83 @@
         "canonical": "hyper-",
         "role": "prefix",
         "meaning": "超过、过度",
-        "sentiment": { "tags": ["消极"], "intensity": 1 },
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
         "order": 1,
         "form": "hyper",
         "positionTendency": "initial",
-        "coreMeaning": { "cn": "超过", "en": "over, excess" }
+        "coreMeaning": {
+          "cn": "超过",
+          "en": "over, excess"
+        }
       },
       {
         "canonical": "lipidaemia",
         "role": "root",
         "meaning": "血脂",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "lipidaemia",
         "positionTendency": "final",
-        "coreMeaning": { "cn": "血脂", "en": "lipids in blood" }
+        "coreMeaning": {
+          "cn": "血脂",
+          "en": "lipids in blood"
+        }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "lipid", "meaning": "脂质" },
-        { "form": "lipidaemia", "meaning": "血脂症" },
-        { "form": "hyperlipidaemia", "meaning": "高脂血症" }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'lipid', 'meaning': '脂质'}, {'form': 'lipidaemia', 'meaning': '血脂症'}, {'form': 'hyperlipidaemia', 'meaning': '高脂血症'}]}"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "mnemonicExpr": "hyper(过高)+lipid(脂)+aemia(血症)=血脂过高症",
-      "imageChain": ["血液", "脂肪", "过多"]
+      "imageChain": [
+        "血液",
+        "脂肪",
+        "过多"
+      ]
     },
     "wordLevel": {
-      "domain": ["medical"],
-      "sentiment": { "tags": ["消极"], "intensity": 1 }
+      "domain": [
+        "medical"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 1
+      }
     },
     "relations": {
-      "sameRoot": ["lipid", "lipoprotein"],
-      "sameAffix": ["hypertext", "hypersensitive"],
-      "synonyms": ["hyperlipidemia"],
-      "antonyms": ["hypolipidaemia"],
-      "domainCohort": ["cholesterol", "atherosclerosis"],
-      "derivationPair": ["hyperlipidaemias"],
-      "morphVariants": ["hyperlipidemia"],
+      "sameRoot": [
+        "lipid",
+        "lipoprotein"
+      ],
+      "sameAffix": [
+        "hypertext",
+        "hypersensitive"
+      ],
+      "synonyms": [
+        "hyperlipidemia"
+      ],
+      "antonyms": [
+        "hypolipidaemia"
+      ],
+      "domainCohort": [
+        "cholesterol",
+        "atherosclerosis"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
       "sameImagery": []
     }
   },
@@ -203,56 +324,93 @@
         "canonical": "hyper-",
         "role": "prefix",
         "meaning": "超过、过度",
-        "sentiment": { "tags": ["消极"], "intensity": 1 },
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
         "order": 1,
         "form": "hyper",
         "positionTendency": "initial",
-        "coreMeaning": { "cn": "超过", "en": "over, excess" }
+        "coreMeaning": {
+          "cn": "超过",
+          "en": "over, excess"
+        }
       },
       {
         "canonical": "lipidaemia",
         "role": "root",
         "meaning": "血脂",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "lipidaemia",
         "positionTendency": "medial",
-        "coreMeaning": { "cn": "血脂", "en": "lipids in blood" }
+        "coreMeaning": {
+          "cn": "血脂",
+          "en": "lipids in blood"
+        }
       },
       {
         "canonical": "-s",
         "role": "suffix",
         "meaning": "复数",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 3,
         "form": "s",
         "positionTendency": "final",
-        "coreMeaning": { "cn": "复数", "en": "plural" }
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "hyperlipidaemia", "meaning": "高脂血症" },
-        { "form": "hyperlipidaemias", "meaning": "高脂血症（复数）" }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'hyperlipidaemia', 'meaning': '高脂血症'}, {'form': 'hyperlipidaemias', 'meaning': '高脂血症（复数）'}]}"
+    ],
     "morphVariantOf": "hyperlipidaemia",
     "memorySemantics": {
       "mnemonicExpr": "hyperlipidaemia 的复数形式",
-      "imageChain": ["血液", "脂肪", "过多"]
+      "imageChain": [
+        "血液",
+        "脂肪",
+        "过多"
+      ]
     },
     "wordLevel": {
-      "domain": ["medical"],
-      "sentiment": { "tags": ["消极"], "intensity": 1 }
+      "domain": [
+        "medical"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 1
+      }
     },
     "relations": {
-      "sameRoot": ["hyperlipidaemia"],
+      "sameRoot": [
+        "hyperlipidaemia"
+      ],
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["cholesterol", "atherosclerosis"],
-      "derivationPair": ["hyperlipidaemia"],
-      "morphVariants": ["hyperlipidemias"],
+      "domainCohort": [
+        "cholesterol",
+        "atherosclerosis"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
       "sameImagery": []
     }
   },
@@ -269,56 +427,104 @@
         "canonical": "hyper-",
         "role": "prefix",
         "meaning": "超过、过度",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 1,
         "form": "hyper",
         "positionTendency": "initial",
-        "coreMeaning": { "cn": "超过", "en": "over, beyond" }
+        "coreMeaning": {
+          "cn": "超过",
+          "en": "over, beyond"
+        }
       },
       {
         "canonical": "sens",
         "role": "root",
         "meaning": "感觉",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "sens",
         "positionTendency": "medial",
-        "coreMeaning": { "cn": "感觉", "en": "feel, sense" }
+        "coreMeaning": {
+          "cn": "感觉",
+          "en": "feel, sense"
+        }
       },
       {
         "canonical": "-itive",
         "role": "suffix",
         "meaning": "具有…性质的",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 3,
         "form": "itive",
         "positionTendency": "final",
-        "coreMeaning": { "cn": "…的", "en": "having the quality of" }
+        "coreMeaning": {
+          "cn": "…的",
+          "en": "having the quality of"
+        }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "sens", "meaning": "感觉" },
-        { "form": "sensitive", "meaning": "敏感的" },
-        { "form": "hypersensitive", "meaning": "过度敏感的" }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'sens', 'meaning': '感觉'}, {'form': 'sensitive', 'meaning': '敏感的'}, {'form': 'hypersensitive', 'meaning': '过度敏感的'}]}"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "mnemonicExpr": "hyper(过度)+sensitive(敏感)=过敏；对微小刺激有强烈反应",
-      "imageChain": ["触碰", "过度反应", "敏感"]
+      "imageChain": [
+        "触碰",
+        "过度反应",
+        "敏感"
+      ]
     },
     "wordLevel": {
-      "domain": ["medical", "gre"],
-      "sentiment": { "tags": ["消极"], "intensity": 1 }
+      "domain": [
+        "medical",
+        "gre"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 1
+      }
     },
     "relations": {
-      "sameRoot": ["sensitive", "sensitivity", "sensory"],
-      "sameAffix": ["hypertext", "hypersexuality"],
-      "synonyms": ["oversensitive", "allergic"],
-      "antonyms": ["insensitive", "hyposensitive"],
-      "domainCohort": ["allergy", "immune"],
-      "derivationPair": ["hypersensitivity"],
+      "sameRoot": [
+        "sensitive",
+        "sensitivity",
+        "sensory"
+      ],
+      "sameAffix": [
+        "hypertext",
+        "hypersexuality"
+      ],
+      "synonyms": [
+        "oversensitive",
+        "allergic"
+      ],
+      "antonyms": [
+        "insensitive",
+        "hyposensitive"
+      ],
+      "domainCohort": [
+        "allergy",
+        "immune"
+      ],
+      "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -336,67 +542,120 @@
         "canonical": "hyper-",
         "role": "prefix",
         "meaning": "超过、过度",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 1,
         "form": "hyper",
         "positionTendency": "initial",
-        "coreMeaning": { "cn": "超过", "en": "over, excess" }
+        "coreMeaning": {
+          "cn": "超过",
+          "en": "over, excess"
+        }
       },
       {
         "canonical": "sex",
         "role": "root",
         "meaning": "性",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "sex",
         "positionTendency": "medial",
-        "coreMeaning": { "cn": "性", "en": "sex" }
+        "coreMeaning": {
+          "cn": "性",
+          "en": "sex"
+        }
       },
       {
         "canonical": "-ual",
         "role": "suffix",
         "meaning": "…的",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 3,
         "form": "ual",
         "positionTendency": "medial",
-        "coreMeaning": { "cn": "…的", "en": "pertaining to" }
+        "coreMeaning": {
+          "cn": "…的",
+          "en": "pertaining to"
+        }
       },
       {
         "canonical": "-ity",
         "role": "suffix",
         "meaning": "性质；状态",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 4,
         "form": "ity",
         "positionTendency": "final",
-        "coreMeaning": { "cn": "状态", "en": "state or quality" }
+        "coreMeaning": {
+          "cn": "状态",
+          "en": "state or quality"
+        }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "sex", "meaning": "性" },
-        { "form": "sexual", "meaning": "性的" },
-        { "form": "sexuality", "meaning": "性行为" },
-        { "form": "hypersexuality", "meaning": "性欲亢进" }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'sex', 'meaning': '性'}, {'form': 'sexual', 'meaning': '性的'}, {'form': 'sexuality', 'meaning': '性行为'}, {'form': 'hypersexuality', 'meaning': '性欲亢进'}]}"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "mnemonicExpr": "hyper(过度)+sexuality(性欲)=性欲过度亢进",
-      "imageChain": ["过度", "性欲", "亢进"]
+      "imageChain": [
+        "过度",
+        "性欲",
+        "亢进"
+      ]
     },
     "wordLevel": {
-      "domain": ["medical"],
-      "sentiment": { "tags": ["消极"], "intensity": 1 }
+      "domain": [
+        "medical"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 1
+      }
     },
     "relations": {
-      "sameRoot": ["sexuality", "sexual", "asexuality"],
-      "sameAffix": ["hypersensitive", "hypertherm"],
-      "synonyms": ["satyriasis", "nymphomania"],
-      "antonyms": ["hyposexuality"],
-      "domainCohort": ["libido", "compulsion"],
-      "derivationPair": ["hypersexual"],
+      "sameRoot": [
+        "sexuality",
+        "sexual",
+        "asexuality"
+      ],
+      "sameAffix": [
+        "hypersensitive",
+        "hypertherm"
+      ],
+      "synonyms": [
+        "satyriasis",
+        "nymphomania"
+      ],
+      "antonyms": [
+        "hyposexuality"
+      ],
+      "domainCohort": [
+        "libido",
+        "compulsion"
+      ],
+      "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -414,45 +673,81 @@
         "canonical": "hyper-",
         "role": "prefix",
         "meaning": "超过、过度",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 1,
         "form": "hyper",
         "positionTendency": "initial",
-        "coreMeaning": { "cn": "超过", "en": "over, beyond" }
+        "coreMeaning": {
+          "cn": "超过",
+          "en": "over, beyond"
+        }
       },
       {
         "canonical": "text",
         "role": "root",
         "meaning": "编织；文本",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "text",
         "positionTendency": "final",
-        "coreMeaning": { "cn": "文本", "en": "text, weave" }
+        "coreMeaning": {
+          "cn": "文本",
+          "en": "text, weave"
+        }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "text", "meaning": "文本" },
-        { "form": "hypertext", "meaning": "超文本" }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'text', 'meaning': '文本'}, {'form': 'hypertext', 'meaning': '超文本'}]}"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "mnemonicExpr": "hyper(超)+text(文本)=超文本，包含链接的网页文本",
-      "imageChain": ["网页", "链接", "文本"]
+      "imageChain": [
+        "网页",
+        "链接",
+        "文本"
+      ]
     },
     "wordLevel": {
-      "domain": ["tech", "toefl"],
-      "sentiment": { "tags": ["中性"], "intensity": 0 }
+      "domain": [
+        "tech",
+        "toefl"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
     },
     "relations": {
-      "sameRoot": ["text", "textual", "context"],
-      "sameAffix": ["hyperlinks", "hypergraphs"],
+      "sameRoot": [
+        "text",
+        "textual",
+        "context"
+      ],
+      "sameAffix": [
+        "hyperlinks",
+        "hypergraphs"
+      ],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["HTML", "hyperlinks", "markup"],
-      "derivationPair": ["hypertext"],
+      "domainCohort": [
+        "HTML",
+        "hyperlinks",
+        "markup"
+      ],
+      "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -470,45 +765,79 @@
         "canonical": "hyper-",
         "role": "prefix",
         "meaning": "超过、过度",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 1,
         "form": "hyper",
         "positionTendency": "initial",
-        "coreMeaning": { "cn": "超过", "en": "over, beyond" }
+        "coreMeaning": {
+          "cn": "超过",
+          "en": "over, beyond"
+        }
       },
       {
         "canonical": "therm",
         "role": "root",
         "meaning": "热",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "therm",
         "positionTendency": "final",
-        "coreMeaning": { "cn": "热", "en": "heat" }
+        "coreMeaning": {
+          "cn": "热",
+          "en": "heat"
+        }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "therm", "meaning": "热" },
-        { "form": "hypertherm", "meaning": "人工发热治疗机" }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'therm', 'meaning': '热'}, {'form': 'hypertherm', 'meaning': '人工发热治疗机'}]}"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "mnemonicExpr": "hyper(超)+therm(热)=超高温；人工产热治疗装置",
-      "imageChain": ["热量", "超高", "治疗"]
+      "imageChain": [
+        "热量",
+        "超高",
+        "治疗"
+      ]
     },
     "wordLevel": {
-      "domain": ["medical"],
-      "sentiment": { "tags": ["中性"], "intensity": 0 }
+      "domain": [
+        "medical"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
     },
     "relations": {
-      "sameRoot": ["thermometer", "thermal", "hyperthermia"],
-      "sameAffix": ["hypersensitive", "hypertext"],
+      "sameRoot": [
+        "thermometer",
+        "thermal",
+        "hyperthermia"
+      ],
+      "sameAffix": [
+        "hypersensitive",
+        "hypertext"
+      ],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["hyperthermia", "thermotherapy"],
-      "derivationPair": ["hyperthermia"],
+      "domainCohort": [
+        "hyperthermia",
+        "thermotherapy"
+      ],
+      "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -526,45 +855,84 @@
         "canonical": "hype",
         "role": "root",
         "meaning": "大肆宣传",
-        "sentiment": { "tags": ["贬义"], "intensity": 1 },
+        "sentiment": {
+          "tags": [
+            "贬义"
+          ],
+          "intensity": 1
+        },
         "order": 1,
         "form": "hype",
         "positionTendency": "initial",
-        "coreMeaning": { "cn": "大肆宣传", "en": "extravagant promotion" }
+        "coreMeaning": {
+          "cn": "大肆宣传",
+          "en": "extravagant promotion"
+        }
       },
       {
         "canonical": "-s",
         "role": "suffix",
         "meaning": "第三人称单数/复数",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "s",
         "positionTendency": "final",
-        "coreMeaning": { "cn": "第三人称单数/复数", "en": "plural/3rd person" }
+        "coreMeaning": {
+          "cn": "第三人称单数/复数",
+          "en": "plural/3rd person"
+        }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "hype", "meaning": "大肆宣传" },
-        { "form": "hypes", "meaning": "大肆宣传（第三人称单数）" }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'hype', 'meaning': '大肆宣传'}, {'form': 'hypes', 'meaning': '大肆宣传（第三人称单数）'}]}"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "mnemonicExpr": "hype → 过度炒作、夸大宣传",
-      "imageChain": ["广告", "夸大", "炒作"]
+      "imageChain": [
+        "广告",
+        "夸大",
+        "炒作"
+      ]
     },
     "wordLevel": {
-      "domain": ["medical"],
-      "sentiment": { "tags": ["贬义"], "intensity": 1 }
+      "domain": [
+        "medical"
+      ],
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": 1
+      }
     },
     "relations": {
-      "sameRoot": ["hype", "hyped", "hyperbole"],
+      "sameRoot": [
+        "hype",
+        "hyped",
+        "hyperbole"
+      ],
       "sameAffix": [],
-      "synonyms": ["promotion", "publicity"],
+      "synonyms": [
+        "promotion",
+        "publicity"
+      ],
       "antonyms": [],
-      "domainCohort": ["marketing", "advertising"],
-      "derivationPair": ["hype", "hyped"],
+      "domainCohort": [
+        "marketing",
+        "advertising"
+      ],
+      "derivationPair": [
+        [
+          "hype",
+          "hyped"
+        ]
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -582,57 +950,101 @@
         "canonical": "hypo-",
         "role": "prefix",
         "meaning": "在…下、少于",
-        "sentiment": { "tags": ["消极"], "intensity": 1 },
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
         "order": 1,
         "form": "hyp",
         "positionTendency": "initial",
-        "coreMeaning": { "cn": "不足", "en": "under, below normal" }
+        "coreMeaning": {
+          "cn": "不足",
+          "en": "under, below normal"
+        }
       },
       {
         "canonical": "hem",
         "role": "root",
         "meaning": "血",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "hem",
         "positionTendency": "medial",
-        "coreMeaning": { "cn": "血", "en": "blood" }
+        "coreMeaning": {
+          "cn": "血",
+          "en": "blood"
+        }
       },
       {
         "canonical": "-ia",
         "role": "suffix",
         "meaning": "疾病；状态",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 3,
         "form": "ia",
         "positionTendency": "final",
-        "coreMeaning": { "cn": "疾病", "en": "condition, disease" }
+        "coreMeaning": {
+          "cn": "疾病",
+          "en": "condition, disease"
+        }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "hem", "meaning": "血" },
-        { "form": "hemia", "meaning": "血症" },
-        { "form": "hyphemia", "meaning": "贫血/眼前房出血" }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'hem', 'meaning': '血'}, {'form': 'hemia', 'meaning': '血症'}, {'form': 'hyphemia', 'meaning': '贫血/眼前房出血'}]}"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "mnemonicExpr": "hyp(hypo不足)+hem(血)+ia(症)=血液不足；贫血",
-      "imageChain": ["血液", "不足", "贫血"]
+      "imageChain": [
+        "血液",
+        "不足",
+        "贫血"
+      ]
     },
     "wordLevel": {
-      "domain": ["medical"],
-      "sentiment": { "tags": ["消极"], "intensity": 1 }
+      "domain": [
+        "medical"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 1
+      }
     },
     "relations": {
-      "sameRoot": ["hemorrhage", "hematology", "anemia"],
-      "sameAffix": ["hypochondriac", "hypocrisy"],
-      "synonyms": ["anemia", "hyphaemia"],
+      "sameRoot": [
+        "hemorrhage",
+        "hematology",
+        "anemia"
+      ],
+      "sameAffix": [
+        "hypochondriac",
+        "hypocrisy"
+      ],
+      "synonyms": [
+        "anemia",
+        "hyphaemia"
+      ],
       "antonyms": [],
-      "domainCohort": ["blood", "ocular"],
+      "domainCohort": [
+        "blood",
+        "ocular"
+      ],
       "derivationPair": [],
-      "morphVariants": ["hyphaemia"],
+      "morphVariants": [],
       "sameImagery": []
     }
   },
@@ -649,34 +1061,64 @@
         "canonical": "hyphen",
         "role": "root",
         "meaning": "连字号；合在一起",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 1,
         "form": "hyphen",
         "positionTendency": "initial",
-        "coreMeaning": { "cn": "连字号", "en": "together, in one" }
+        "coreMeaning": {
+          "cn": "连字号",
+          "en": "together, in one"
+        }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "hyphen", "meaning": "连字号" }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'hyphen', 'meaning': '连字号'}]}"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "mnemonicExpr": "hyphen源自希腊语'合在一起'，是连接两词的符号'-'",
-      "imageChain": ["连接", "符号", "合并"]
+      "imageChain": [
+        "连接",
+        "符号",
+        "合并"
+      ]
     },
     "wordLevel": {
-      "domain": ["cefr-b2"],
-      "sentiment": { "tags": ["中性"], "intensity": 0 }
+      "domain": [
+        "cefr-b2"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
     },
     "relations": {
-      "sameRoot": ["hyphenate", "hyphenated"],
+      "sameRoot": [
+        "hyphenate",
+        "hyphenated"
+      ],
       "sameAffix": [],
-      "synonyms": ["dash"],
+      "synonyms": [
+        "dash"
+      ],
       "antonyms": [],
-      "domainCohort": ["punctuation", "typography"],
-      "derivationPair": ["hyphenate", "hyphenated"],
+      "domainCohort": [
+        "punctuation",
+        "typography"
+      ],
+      "derivationPair": [
+        [
+          "hyphenate",
+          "hyphenated"
+        ]
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -694,45 +1136,87 @@
         "canonical": "hypn",
         "role": "root",
         "meaning": "睡眠",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 1,
         "form": "hypn",
         "positionTendency": "initial",
-        "coreMeaning": { "cn": "睡眠", "en": "sleep" }
+        "coreMeaning": {
+          "cn": "睡眠",
+          "en": "sleep"
+        }
       },
       {
         "canonical": "-osis",
         "role": "suffix",
         "meaning": "病症；状态",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "osis",
         "positionTendency": "final",
-        "coreMeaning": { "cn": "状态", "en": "condition, process" }
+        "coreMeaning": {
+          "cn": "状态",
+          "en": "condition, process"
+        }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "hypn", "meaning": "睡眠" },
-        { "form": "hypnosis", "meaning": "催眠状态" }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'hypn', 'meaning': '睡眠'}, {'form': 'hypnosis', 'meaning': '催眠状态'}]}"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "mnemonicExpr": "hypn(睡眠)+osis(状态)=催眠状态，似睡非睡",
-      "imageChain": ["闭眼", "睡眠", "暗示"]
+      "imageChain": [
+        "闭眼",
+        "睡眠",
+        "暗示"
+      ]
     },
     "wordLevel": {
-      "domain": ["gre", "medical"],
-      "sentiment": { "tags": ["中性"], "intensity": 0 }
+      "domain": [
+        "gre",
+        "medical"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
     },
     "relations": {
-      "sameRoot": ["hypnotic", "hypnotize", "hypnotized"],
-      "sameAffix": ["neurosis", "psychosis"],
-      "synonyms": ["trance"],
+      "sameRoot": [
+        "hypnotic",
+        "hypnotize",
+        "hypnotized"
+      ],
+      "sameAffix": [
+        "neurosis",
+        "psychosis"
+      ],
+      "synonyms": [
+        "trance"
+      ],
       "antonyms": [],
-      "domainCohort": ["hypnotherapy", "suggestion"],
-      "derivationPair": ["hypnotic", "hypnotize"],
+      "domainCohort": [
+        "hypnotherapy",
+        "suggestion"
+      ],
+      "derivationPair": [
+        [
+          "hypnotic",
+          "hypnotize"
+        ]
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -750,45 +1234,91 @@
         "canonical": "hypn",
         "role": "root",
         "meaning": "睡眠",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 1,
         "form": "hypn",
         "positionTendency": "initial",
-        "coreMeaning": { "cn": "睡眠", "en": "sleep" }
+        "coreMeaning": {
+          "cn": "睡眠",
+          "en": "sleep"
+        }
       },
       {
         "canonical": "-tic",
         "role": "suffix",
         "meaning": "…的",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "otic",
         "positionTendency": "final",
-        "coreMeaning": { "cn": "…的", "en": "of or relating to" }
+        "coreMeaning": {
+          "cn": "…的",
+          "en": "of or relating to"
+        }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "hypn", "meaning": "睡眠" },
-        { "form": "hypnotic", "meaning": "催眠的" }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'hypn', 'meaning': '睡眠'}, {'form': 'hypnotic', 'meaning': '催眠的'}]}"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "mnemonicExpr": "hypn(睡眠)+otic(…的)=催眠的，令人昏昏欲睡",
-      "imageChain": ["眼皮", "下垂", "沉睡"]
+      "imageChain": [
+        "眼皮",
+        "下垂",
+        "沉睡"
+      ]
     },
     "wordLevel": {
-      "domain": ["gre", "sat", "ielts"],
-      "sentiment": { "tags": ["中性"], "intensity": 0 }
+      "domain": [
+        "gre",
+        "sat",
+        "ielts"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
     },
     "relations": {
-      "sameRoot": ["hypnosis", "hypnotize", "hypnotized"],
-      "sameAffix": ["narcotic", "neurotic"],
-      "synonyms": ["soporific", "sedative"],
-      "antonyms": ["stimulating"],
-      "domainCohort": ["sedative", "trance"],
-      "derivationPair": ["hypnosis", "hypnotize"],
+      "sameRoot": [
+        "hypnosis",
+        "hypnotize",
+        "hypnotized"
+      ],
+      "sameAffix": [
+        "narcotic",
+        "neurotic"
+      ],
+      "synonyms": [
+        "soporific",
+        "sedative"
+      ],
+      "antonyms": [
+        "stimulating"
+      ],
+      "domainCohort": [
+        "sedative",
+        "trance"
+      ],
+      "derivationPair": [
+        [
+          "hypnosis",
+          "hypnotize"
+        ]
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -806,57 +1336,101 @@
         "canonical": "hypn",
         "role": "root",
         "meaning": "睡眠",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 1,
         "form": "hypn",
         "positionTendency": "initial",
-        "coreMeaning": { "cn": "睡眠", "en": "sleep" }
+        "coreMeaning": {
+          "cn": "睡眠",
+          "en": "sleep"
+        }
       },
       {
         "canonical": "-ise",
         "role": "suffix",
         "meaning": "使…化",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "otise",
         "positionTendency": "medial",
-        "coreMeaning": { "cn": "使…化", "en": "cause to become" }
+        "coreMeaning": {
+          "cn": "使…化",
+          "en": "cause to become"
+        }
       },
       {
         "canonical": "-ed",
         "role": "suffix",
         "meaning": "过去式/过去分词",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 3,
         "form": "d",
         "positionTendency": "final",
-        "coreMeaning": { "cn": "过去分词", "en": "past participle" }
+        "coreMeaning": {
+          "cn": "过去分词",
+          "en": "past participle"
+        }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "hypnosis", "meaning": "催眠" },
-        { "form": "hypnotise", "meaning": "催眠（英式）" },
-        { "form": "hypnotised", "meaning": "被催眠的" }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'hypnosis', 'meaning': '催眠'}, {'form': 'hypnotise', 'meaning': '催眠（英式）'}, {'form': 'hypnotised', 'meaning': '被催眠的'}]}"
+    ],
     "morphVariantOf": "hypnotic",
     "memorySemantics": {
       "mnemonicExpr": "hypnotise(催眠)+d=已被催眠，处于恍惚状态",
-      "imageChain": ["催眠", "着迷", "恍惚"]
+      "imageChain": [
+        "催眠",
+        "着迷",
+        "恍惚"
+      ]
     },
     "wordLevel": {
-      "domain": ["medical"],
-      "sentiment": { "tags": ["中性"], "intensity": 0 }
+      "domain": [
+        "medical"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
     },
     "relations": {
-      "sameRoot": ["hypnosis", "hypnotic", "hypnotize"],
-      "sameAffix": ["mesmerized", "transfixed"],
-      "synonyms": ["hypnotized", "entranced"],
+      "sameRoot": [
+        "hypnosis",
+        "hypnotic",
+        "hypnotize"
+      ],
+      "sameAffix": [
+        "mesmerized",
+        "transfixed"
+      ],
+      "synonyms": [
+        "hypnotized",
+        "entranced"
+      ],
       "antonyms": [],
-      "domainCohort": ["trance", "mesmerism"],
-      "derivationPair": ["hypnotise"],
-      "morphVariants": ["hypnotized"],
+      "domainCohort": [
+        "trance",
+        "mesmerism"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
       "sameImagery": []
     }
   },
@@ -873,57 +1447,100 @@
         "canonical": "hypo-",
         "role": "prefix",
         "meaning": "在…下、少于",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 1,
         "form": "hypo",
         "positionTendency": "initial",
-        "coreMeaning": { "cn": "在…下", "en": "under, below" }
+        "coreMeaning": {
+          "cn": "在…下",
+          "en": "under, below"
+        }
       },
       {
         "canonical": "chondr",
         "role": "root",
         "meaning": "软骨（腹部区域）",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "chondr",
         "positionTendency": "medial",
-        "coreMeaning": { "cn": "软骨", "en": "cartilage, hypochondrium" }
+        "coreMeaning": {
+          "cn": "软骨",
+          "en": "cartilage, hypochondrium"
+        }
       },
       {
         "canonical": "-ia",
         "role": "suffix",
         "meaning": "疾病；状态",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 3,
         "form": "iasis",
         "positionTendency": "final",
-        "coreMeaning": { "cn": "病症", "en": "disease condition" }
+        "coreMeaning": {
+          "cn": "病症",
+          "en": "disease condition"
+        }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "hypo+chondr", "meaning": "季肋下（古代认为此处藏有情绪）" },
-        { "form": "hypochondria", "meaning": "疑病症" },
-        { "form": "hypochodriasis", "meaning": "疑病症（医学术语）" }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'hypo+chondr', 'meaning': '季肋下（古代认为此处藏有情绪）'}, {'form': 'hypochondria', 'meaning': '疑病症'}, {'form': 'hypochodriasis', 'meaning': '疑病症（医学术语）'}]}"
+    ],
     "morphVariantOf": "hypochondria",
     "memorySemantics": {
       "mnemonicExpr": "hypo(下)+chondr(软骨/季肋)+iasis=季肋下焦虑→疑病症",
-      "imageChain": ["腹部", "焦虑", "想象患病"]
+      "imageChain": [
+        "腹部",
+        "焦虑",
+        "想象患病"
+      ]
     },
     "wordLevel": {
-      "domain": ["medical"],
-      "sentiment": { "tags": ["消极"], "intensity": 1 }
+      "domain": [
+        "medical"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 1
+      }
     },
     "relations": {
-      "sameRoot": ["hypochondria", "hypochondriac"],
-      "sameAffix": ["hypothetical", "hypodermic"],
-      "synonyms": ["hypochondria", "illness anxiety disorder"],
+      "sameRoot": [
+        "hypochondria",
+        "hypochondriac"
+      ],
+      "sameAffix": [
+        "hypothetical",
+        "hypodermic"
+      ],
+      "synonyms": [
+        "hypochondria",
+        "illness anxiety disorder"
+      ],
       "antonyms": [],
-      "domainCohort": ["anxiety", "somatoform"],
-      "derivationPair": ["hypochondriac"],
-      "morphVariants": ["hypochondriasis"],
+      "domainCohort": [
+        "anxiety",
+        "somatoform"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
       "sameImagery": []
     }
   },
@@ -940,55 +1557,99 @@
         "canonical": "hypo-",
         "role": "prefix",
         "meaning": "在…下、少于",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 1,
         "form": "hypo",
         "positionTendency": "initial",
-        "coreMeaning": { "cn": "在…下", "en": "under, below" }
+        "coreMeaning": {
+          "cn": "在…下",
+          "en": "under, below"
+        }
       },
       {
         "canonical": "chondr",
         "role": "root",
         "meaning": "软骨；季肋",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "chondr",
         "positionTendency": "medial",
-        "coreMeaning": { "cn": "软骨", "en": "cartilage, hypochondrium" }
+        "coreMeaning": {
+          "cn": "软骨",
+          "en": "cartilage, hypochondrium"
+        }
       },
       {
         "canonical": "-ic",
         "role": "suffix",
         "meaning": "…的（形容词）",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 3,
         "form": "iac",
         "positionTendency": "final",
-        "coreMeaning": { "cn": "…的", "en": "of or relating to" }
+        "coreMeaning": {
+          "cn": "…的",
+          "en": "of or relating to"
+        }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "hypochondria", "meaning": "疑病症" },
-        { "form": "hypochondriac", "meaning": "疑病症患者" }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'hypochondria', 'meaning': '疑病症'}, {'form': 'hypochondriac', 'meaning': '疑病症患者'}]}"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "mnemonicExpr": "hypo(下)+chondr(季肋)+iac=季肋下焦虑的人，总以为自己生病",
-      "imageChain": ["担忧", "想象", "患病"]
+      "imageChain": [
+        "担忧",
+        "想象",
+        "患病"
+      ]
     },
     "wordLevel": {
-      "domain": ["gre", "business"],
-      "sentiment": { "tags": ["贬义"], "intensity": 1 }
+      "domain": [
+        "gre",
+        "business"
+      ],
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": 1
+      }
     },
     "relations": {
-      "sameRoot": ["hypochondria", "hypochodriasis"],
-      "sameAffix": ["maniac", "cardiac"],
-      "synonyms": ["valetudinarian"],
+      "sameRoot": [
+        "hypochondria",
+        "hypochodriasis"
+      ],
+      "sameAffix": [
+        "maniac",
+        "cardiac"
+      ],
+      "synonyms": [
+        "valetudinarian"
+      ],
       "antonyms": [],
-      "domainCohort": ["anxiety", "neurosis"],
-      "derivationPair": ["hypochondria"],
+      "domainCohort": [
+        "anxiety",
+        "neurosis"
+      ],
+      "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -1006,57 +1667,115 @@
         "canonical": "hypo-",
         "role": "prefix",
         "meaning": "在…下、少于",
-        "sentiment": { "tags": ["消极"], "intensity": 1 },
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
         "order": 1,
         "form": "hypo",
         "positionTendency": "initial",
-        "coreMeaning": { "cn": "在…下", "en": "under, below" }
+        "coreMeaning": {
+          "cn": "在…下",
+          "en": "under, below"
+        }
       },
       {
         "canonical": "crit",
         "role": "root",
         "meaning": "判断、决定",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "crit",
         "positionTendency": "medial",
-        "coreMeaning": { "cn": "判断", "en": "judge, decide" }
+        "coreMeaning": {
+          "cn": "判断",
+          "en": "judge, decide"
+        }
       },
       {
         "canonical": "-sis",
         "role": "suffix",
         "meaning": "过程/状态",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 3,
         "form": "sy",
         "positionTendency": "final",
-        "coreMeaning": { "cn": "状态", "en": "process, state" }
+        "coreMeaning": {
+          "cn": "状态",
+          "en": "process, state"
+        }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "hypokrinesthai", "meaning": "在台下扮演（希腊语）" },
-        { "form": "hypocrisy", "meaning": "伪善" }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'hypokrinesthai', 'meaning': '在台下扮演（希腊语）'}, {'form': 'hypocrisy', 'meaning': '伪善'}]}"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "mnemonicExpr": "hypo(台下)+crit(扮演)+sy=台下扮演→表里不一→虚伪",
-      "imageChain": ["面具", "台下", "伪装"]
+      "imageChain": [
+        "面具",
+        "台下",
+        "伪装"
+      ]
     },
     "wordLevel": {
-      "domain": ["gre", "sat", "npee"],
-      "sentiment": { "tags": ["贬义"], "intensity": 2 }
+      "domain": [
+        "gre",
+        "sat",
+        "npee"
+      ],
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": 2
+      }
     },
     "relations": {
-      "sameRoot": ["hypocrite", "hypocritical"],
-      "sameAffix": ["hypodermic", "hypothesis"],
-      "synonyms": ["duplicity", "insincerity", "sanctimony"],
-      "antonyms": ["sincerity", "honesty"],
-      "domainCohort": ["deception", "pretense"],
-      "derivationPair": ["hypocrite", "hypocritical"],
+      "sameRoot": [
+        "hypocrite",
+        "hypocritical"
+      ],
+      "sameAffix": [
+        "hypodermic",
+        "hypothesis"
+      ],
+      "synonyms": [
+        "duplicity",
+        "insincerity",
+        "sanctimony"
+      ],
+      "antonyms": [
+        "sincerity",
+        "honesty"
+      ],
+      "domainCohort": [
+        "deception",
+        "pretense"
+      ],
+      "derivationPair": [
+        [
+          "hypocrite",
+          "hypocritical"
+        ]
+      ],
       "morphVariants": [],
-      "sameImagery": ["duplicity", "dissemblance"]
+      "sameImagery": [
+        "duplicity",
+        "dissemblance"
+      ]
     }
   },
   {
@@ -1072,47 +1791,86 @@
         "canonical": "hypo-",
         "role": "prefix",
         "meaning": "在…下、少于",
-        "sentiment": { "tags": ["消极"], "intensity": 1 },
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
         "order": 1,
         "form": "hypo",
         "positionTendency": "initial",
-        "coreMeaning": { "cn": "在…下", "en": "under, below" }
+        "coreMeaning": {
+          "cn": "在…下",
+          "en": "under, below"
+        }
       },
       {
         "canonical": "crit",
         "role": "root",
         "meaning": "判断、扮演",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "crite",
         "positionTendency": "final",
-        "coreMeaning": { "cn": "扮演", "en": "act, play a role" }
+        "coreMeaning": {
+          "cn": "扮演",
+          "en": "act, play a role"
+        }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "hypokrites", "meaning": "台下扮演者（希腊语）" },
-        { "form": "hypocrite", "meaning": "伪善者" }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'hypokrites', 'meaning': '台下扮演者（希腊语）'}, {'form': 'hypocrite', 'meaning': '伪善者'}]}"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "mnemonicExpr": "hypo(台下)+crite(扮演者)=台后扮演，说一套做一套的人",
-      "imageChain": ["面具", "伪装", "两面"]
+      "imageChain": [
+        "面具",
+        "伪装",
+        "两面"
+      ]
     },
     "wordLevel": {
-      "domain": ["gre", "sat"],
-      "sentiment": { "tags": ["贬义"], "intensity": 2 }
+      "domain": [
+        "gre",
+        "sat"
+      ],
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": 2
+      }
     },
     "relations": {
-      "sameRoot": ["hypocrisy", "hypocritical"],
+      "sameRoot": [
+        "hypocrisy",
+        "hypocritical"
+      ],
       "sameAffix": [],
-      "synonyms": ["dissembler", "phony", "pretender"],
-      "antonyms": ["honest person"],
-      "domainCohort": ["deceit", "pretense"],
-      "derivationPair": ["hypocrisy"],
+      "synonyms": [
+        "dissembler",
+        "phony",
+        "pretender"
+      ],
+      "antonyms": [
+        "honest person"
+      ],
+      "domainCohort": [
+        "deceit",
+        "pretense"
+      ],
+      "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["dissembler"]
+      "sameImagery": [
+        "dissembler"
+      ]
     }
   },
   {
@@ -1128,55 +1886,105 @@
         "canonical": "hypo-",
         "role": "prefix",
         "meaning": "在…下、少于",
-        "sentiment": { "tags": ["消极"], "intensity": 1 },
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
         "order": 1,
         "form": "hypo",
         "positionTendency": "initial",
-        "coreMeaning": { "cn": "在…下", "en": "under, below" }
+        "coreMeaning": {
+          "cn": "在…下",
+          "en": "under, below"
+        }
       },
       {
         "canonical": "crit",
         "role": "root",
         "meaning": "判断、扮演",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "crit",
         "positionTendency": "medial",
-        "coreMeaning": { "cn": "扮演", "en": "act, play a role" }
+        "coreMeaning": {
+          "cn": "扮演",
+          "en": "act, play a role"
+        }
       },
       {
         "canonical": "-ical",
         "role": "suffix",
         "meaning": "…的（形容词）",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 3,
         "form": "ical",
         "positionTendency": "final",
-        "coreMeaning": { "cn": "…的", "en": "of or relating to" }
+        "coreMeaning": {
+          "cn": "…的",
+          "en": "of or relating to"
+        }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "hypocrite", "meaning": "伪善者" },
-        { "form": "hypocritical", "meaning": "虚伪的" }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'hypocrite', 'meaning': '伪善者'}, {'form': 'hypocritical', 'meaning': '虚伪的'}]}"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "mnemonicExpr": "hypocrite+ical=具有伪善者特质的，表里不一",
-      "imageChain": ["言行不一", "双标", "假道学"]
+      "imageChain": [
+        "言行不一",
+        "双标",
+        "假道学"
+      ]
     },
     "wordLevel": {
-      "domain": ["gre", "sat", "toefl"],
-      "sentiment": { "tags": ["贬义"], "intensity": 2 }
+      "domain": [
+        "gre",
+        "sat",
+        "toefl"
+      ],
+      "sentiment": {
+        "tags": [
+          "贬义"
+        ],
+        "intensity": 2
+      }
     },
     "relations": {
-      "sameRoot": ["hypocrite", "hypocrisy"],
-      "sameAffix": ["hypothetical", "historical"],
-      "synonyms": ["insincere", "sanctimonious", "two-faced"],
-      "antonyms": ["sincere", "honest"],
-      "domainCohort": ["deception", "morality"],
-      "derivationPair": ["hypocrite"],
+      "sameRoot": [
+        "hypocrite",
+        "hypocrisy"
+      ],
+      "sameAffix": [
+        "hypothetical",
+        "historical"
+      ],
+      "synonyms": [
+        "insincere",
+        "sanctimonious",
+        "two-faced"
+      ],
+      "antonyms": [
+        "sincere",
+        "honest"
+      ],
+      "domainCohort": [
+        "deception",
+        "morality"
+      ],
+      "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -1194,55 +2002,101 @@
         "canonical": "hypo-",
         "role": "prefix",
         "meaning": "在…下、少于",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 1,
         "form": "hypo",
         "positionTendency": "initial",
-        "coreMeaning": { "cn": "在…下", "en": "under, below" }
+        "coreMeaning": {
+          "cn": "在…下",
+          "en": "under, below"
+        }
       },
       {
         "canonical": "derm-",
         "role": "root",
         "meaning": "皮肤",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "derm",
         "positionTendency": "medial",
-        "coreMeaning": { "cn": "皮肤", "en": "skin" }
+        "coreMeaning": {
+          "cn": "皮肤",
+          "en": "skin"
+        }
       },
       {
         "canonical": "-ic",
         "role": "suffix",
         "meaning": "…的（形容词）",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 3,
         "form": "ic",
         "positionTendency": "final",
-        "coreMeaning": { "cn": "…的", "en": "of or relating to" }
+        "coreMeaning": {
+          "cn": "…的",
+          "en": "of or relating to"
+        }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "derm", "meaning": "皮肤" },
-        { "form": "hypodermic", "meaning": "皮下（注射）" }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'derm', 'meaning': '皮肤'}, {'form': 'hypodermic', 'meaning': '皮下（注射）'}]}"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "mnemonicExpr": "hypo(皮下)+derm(皮肤)+ic=皮肤下面的，皮下注射",
-      "imageChain": ["针头", "皮下", "注射"]
+      "imageChain": [
+        "针头",
+        "皮下",
+        "注射"
+      ]
     },
     "wordLevel": {
-      "domain": ["gre", "sat", "medical"],
-      "sentiment": { "tags": ["中性"], "intensity": 0 }
+      "domain": [
+        "gre",
+        "sat",
+        "medical"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
     },
     "relations": {
-      "sameRoot": ["dermatology", "epidermis", "dermis"],
-      "sameAffix": ["hypothesis", "hypocrisy"],
-      "synonyms": ["subcutaneous"],
+      "sameRoot": [
+        "dermatology",
+        "epidermis",
+        "dermis"
+      ],
+      "sameAffix": [
+        "hypothesis",
+        "hypocrisy"
+      ],
+      "synonyms": [
+        "subcutaneous"
+      ],
       "antonyms": [],
-      "domainCohort": ["injection", "syringe"],
-      "derivationPair": ["dermis"],
+      "domainCohort": [
+        "injection",
+        "syringe"
+      ],
+      "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -1260,56 +2114,102 @@
         "canonical": "hypo-",
         "role": "prefix",
         "meaning": "在…下、少于",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 1,
         "form": "hypo",
         "positionTendency": "initial",
-        "coreMeaning": { "cn": "不足", "en": "under, below normal" }
+        "coreMeaning": {
+          "cn": "不足",
+          "en": "under, below normal"
+        }
       },
       {
         "canonical": "pigment",
         "role": "root",
         "meaning": "色素",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "pigment",
         "positionTendency": "medial",
-        "coreMeaning": { "cn": "色素", "en": "pigment, coloring" }
+        "coreMeaning": {
+          "cn": "色素",
+          "en": "pigment, coloring"
+        }
       },
       {
         "canonical": "-ation",
         "role": "suffix",
         "meaning": "动作、过程、结果",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 3,
         "form": "ation",
         "positionTendency": "final",
-        "coreMeaning": { "cn": "过程", "en": "process, result" }
+        "coreMeaning": {
+          "cn": "过程",
+          "en": "process, result"
+        }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "pigment", "meaning": "色素" },
-        { "form": "pigmentation", "meaning": "色素沉着" },
-        { "form": "hypopigmentation", "meaning": "色素减退" }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'pigment', 'meaning': '色素'}, {'form': 'pigmentation', 'meaning': '色素沉着'}, {'form': 'hypopigmentation', 'meaning': '色素减退'}]}"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "mnemonicExpr": "hypo(不足)+pigmentation(色素)=色素不足；皮肤变白",
-      "imageChain": ["皮肤", "色素", "减退"]
+      "imageChain": [
+        "皮肤",
+        "色素",
+        "减退"
+      ]
     },
     "wordLevel": {
-      "domain": ["medical"],
-      "sentiment": { "tags": ["中性"], "intensity": 0 }
+      "domain": [
+        "medical"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
     },
     "relations": {
-      "sameRoot": ["pigment", "pigmentation", "hyperpigmentation"],
-      "sameAffix": ["hypodermic", "hypochondriac"],
-      "synonyms": ["depigmentation", "leukoderma"],
-      "antonyms": ["hyperpigmentation"],
-      "domainCohort": ["melanin", "vitiligo"],
-      "derivationPair": ["hypopigmentations"],
+      "sameRoot": [
+        "pigment",
+        "pigmentation",
+        "hyperpigmentation"
+      ],
+      "sameAffix": [
+        "hypodermic",
+        "hypochondriac"
+      ],
+      "synonyms": [
+        "depigmentation",
+        "leukoderma"
+      ],
+      "antonyms": [
+        "hyperpigmentation"
+      ],
+      "domainCohort": [
+        "melanin",
+        "vitiligo"
+      ],
+      "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -1327,65 +2227,111 @@
         "canonical": "hypo-",
         "role": "prefix",
         "meaning": "在…下、少于",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 1,
         "form": "hypo",
         "positionTendency": "initial",
-        "coreMeaning": { "cn": "不足", "en": "under, below normal" }
+        "coreMeaning": {
+          "cn": "不足",
+          "en": "under, below normal"
+        }
       },
       {
         "canonical": "pigment",
         "role": "root",
         "meaning": "色素",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "pigment",
         "positionTendency": "medial",
-        "coreMeaning": { "cn": "色素", "en": "pigment" }
+        "coreMeaning": {
+          "cn": "色素",
+          "en": "pigment"
+        }
       },
       {
         "canonical": "-ation",
         "role": "suffix",
         "meaning": "过程",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 3,
         "form": "ation",
         "positionTendency": "medial",
-        "coreMeaning": { "cn": "过程", "en": "process" }
+        "coreMeaning": {
+          "cn": "过程",
+          "en": "process"
+        }
       },
       {
         "canonical": "-s",
         "role": "suffix",
         "meaning": "复数",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 4,
         "form": "s",
         "positionTendency": "final",
-        "coreMeaning": { "cn": "复数", "en": "plural" }
+        "coreMeaning": {
+          "cn": "复数",
+          "en": "plural"
+        }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "hypopigmentation", "meaning": "色素减退" },
-        { "form": "hypopigmentations", "meaning": "色素减退（复数）" }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'hypopigmentation', 'meaning': '色素减退'}, {'form': 'hypopigmentations', 'meaning': '色素减退（复数）'}]}"
+    ],
     "morphVariantOf": "hypopigmentation",
     "memorySemantics": {
       "mnemonicExpr": "hypopigmentation 的复数",
-      "imageChain": ["皮肤", "色素", "减退"]
+      "imageChain": [
+        "皮肤",
+        "色素",
+        "减退"
+      ]
     },
     "wordLevel": {
-      "domain": ["medical"],
-      "sentiment": { "tags": ["中性"], "intensity": 0 }
+      "domain": [
+        "medical"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
     },
     "relations": {
-      "sameRoot": ["hypopigmentation", "pigmentation"],
+      "sameRoot": [
+        "hypopigmentation",
+        "pigmentation"
+      ],
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["dermatology", "melanin"],
-      "derivationPair": ["hypopigmentation"],
+      "domainCohort": [
+        "dermatology",
+        "melanin"
+      ],
+      "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -1403,55 +2349,115 @@
         "canonical": "hypo-",
         "role": "prefix",
         "meaning": "在…下、少于",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 1,
         "form": "hypo",
         "positionTendency": "initial",
-        "coreMeaning": { "cn": "在…之下", "en": "under, below" }
+        "coreMeaning": {
+          "cn": "在…之下",
+          "en": "under, below"
+        }
       },
       {
         "canonical": "hypothes",
         "role": "root",
         "meaning": "假设",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "thes",
         "positionTendency": "medial",
-        "coreMeaning": { "cn": "放置；主张", "en": "place, put" }
+        "coreMeaning": {
+          "cn": "放置；主张",
+          "en": "place, put"
+        }
       },
       {
         "canonical": "-sis",
         "role": "suffix",
         "meaning": "过程/状态",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 3,
         "form": "is",
         "positionTendency": "final",
-        "coreMeaning": { "cn": "状态", "en": "process, condition" }
+        "coreMeaning": {
+          "cn": "状态",
+          "en": "process, condition"
+        }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "hypo+tithenai", "meaning": "置于之下（希腊语）" },
-        { "form": "hypothesis", "meaning": "假设" }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'hypo+tithenai', 'meaning': '置于之下（希腊语）'}, {'form': 'hypothesis', 'meaning': '假设'}]}"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "mnemonicExpr": "hypo(在下)+thesis(命题)=基础命题→假设",
-      "imageChain": ["提问", "假设", "验证"]
+      "imageChain": [
+        "提问",
+        "假设",
+        "验证"
+      ]
     },
     "wordLevel": {
-      "domain": ["gre", "sat", "ielts", "toefl", "gmat", "academic"],
-      "sentiment": { "tags": ["中性"], "intensity": 0 }
+      "domain": [
+        "gre",
+        "sat",
+        "ielts",
+        "toefl",
+        "gmat",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
     },
     "relations": {
-      "sameRoot": ["hypothesize", "hypothetical", "hypothesise"],
-      "sameAffix": ["hypocrisy", "hypodermic"],
-      "synonyms": ["theory", "supposition", "conjecture"],
-      "antonyms": ["fact", "certainty"],
-      "domainCohort": ["theory", "experiment", "research"],
-      "derivationPair": ["hypothesize", "hypothetical"],
+      "sameRoot": [
+        "hypothesize",
+        "hypothetical",
+        "hypothesise"
+      ],
+      "sameAffix": [
+        "hypocrisy",
+        "hypodermic"
+      ],
+      "synonyms": [
+        "theory",
+        "supposition",
+        "conjecture"
+      ],
+      "antonyms": [
+        "fact",
+        "certainty"
+      ],
+      "domainCohort": [
+        "theory",
+        "experiment",
+        "research"
+      ],
+      "derivationPair": [
+        [
+          "hypothesize",
+          "hypothetical"
+        ]
+      ],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -1469,56 +2475,103 @@
         "canonical": "hypo-",
         "role": "prefix",
         "meaning": "在…下、少于",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 1,
         "form": "hypo",
         "positionTendency": "initial",
-        "coreMeaning": { "cn": "在…下", "en": "under, below" }
+        "coreMeaning": {
+          "cn": "在…下",
+          "en": "under, below"
+        }
       },
       {
         "canonical": "hypothes",
         "role": "root",
         "meaning": "假设",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "thes",
         "positionTendency": "medial",
-        "coreMeaning": { "cn": "假设", "en": "hypothesis" }
+        "coreMeaning": {
+          "cn": "假设",
+          "en": "hypothesis"
+        }
       },
       {
         "canonical": "-ise",
         "role": "suffix",
         "meaning": "使…化",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 3,
         "form": "ise",
         "positionTendency": "final",
-        "coreMeaning": { "cn": "使…化", "en": "to make or cause" }
+        "coreMeaning": {
+          "cn": "使…化",
+          "en": "to make or cause"
+        }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "hypothesis", "meaning": "假设（名词）" },
-        { "form": "hypothesise", "meaning": "假设（动词，英式）" }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'hypothesis', 'meaning': '假设（名词）'}, {'form': 'hypothesise', 'meaning': '假设（动词，英式）'}]}"
+    ],
     "morphVariantOf": "hypothesize",
     "memorySemantics": {
       "mnemonicExpr": "hypothesis(假设)+ise=提出假设（英式动词）",
-      "imageChain": ["提出", "假设", "推理"]
+      "imageChain": [
+        "提出",
+        "假设",
+        "推理"
+      ]
     },
     "wordLevel": {
-      "domain": ["finance", "academic"],
-      "sentiment": { "tags": ["中性"], "intensity": 0 }
+      "domain": [
+        "finance",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
     },
     "relations": {
-      "sameRoot": ["hypothesis", "hypothetical", "hypothesize"],
-      "sameAffix": ["theorise", "analyse"],
-      "synonyms": ["hypothesize", "theorize", "postulate"],
+      "sameRoot": [
+        "hypothesis",
+        "hypothetical",
+        "hypothesize"
+      ],
+      "sameAffix": [
+        "theorise",
+        "analyse"
+      ],
+      "synonyms": [
+        "hypothesize",
+        "theorize",
+        "postulate"
+      ],
       "antonyms": [],
-      "domainCohort": ["research", "science"],
-      "derivationPair": ["hypothesis"],
-      "morphVariants": ["hypothesize"],
+      "domainCohort": [
+        "research",
+        "science"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
       "sameImagery": []
     }
   },
@@ -1535,66 +2588,118 @@
         "canonical": "hypo-",
         "role": "prefix",
         "meaning": "在…下、少于",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 1,
         "form": "hypo",
         "positionTendency": "initial",
-        "coreMeaning": { "cn": "在…下", "en": "under, below" }
+        "coreMeaning": {
+          "cn": "在…下",
+          "en": "under, below"
+        }
       },
       {
         "canonical": "hypothes",
         "role": "root",
         "meaning": "假设",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "thes",
         "positionTendency": "medial",
-        "coreMeaning": { "cn": "假设", "en": "hypothesis" }
+        "coreMeaning": {
+          "cn": "假设",
+          "en": "hypothesis"
+        }
       },
       {
         "canonical": "-ise",
         "role": "suffix",
         "meaning": "使…化",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 3,
         "form": "ise",
         "positionTendency": "medial",
-        "coreMeaning": { "cn": "动词化", "en": "verbalize" }
+        "coreMeaning": {
+          "cn": "动词化",
+          "en": "verbalize"
+        }
       },
       {
         "canonical": "-ed",
         "role": "suffix",
         "meaning": "过去式/过去分词",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 4,
         "form": "d",
         "positionTendency": "final",
-        "coreMeaning": { "cn": "过去分词", "en": "past participle" }
+        "coreMeaning": {
+          "cn": "过去分词",
+          "en": "past participle"
+        }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "hypothesise", "meaning": "假设（英式）" },
-        { "form": "hypothesised", "meaning": "已假设（过去分词）" }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'hypothesise', 'meaning': '假设（英式）'}, {'form': 'hypothesised', 'meaning': '已假设（过去分词）'}]}"
+    ],
     "morphVariantOf": "hypothesize",
     "memorySemantics": {
       "mnemonicExpr": "hypothesise+d=已经作出假设",
-      "imageChain": ["提出", "假设", "完成"]
+      "imageChain": [
+        "提出",
+        "假设",
+        "完成"
+      ]
     },
     "wordLevel": {
-      "domain": ["finance", "academic"],
-      "sentiment": { "tags": ["中性"], "intensity": 0 }
+      "domain": [
+        "finance",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
     },
     "relations": {
-      "sameRoot": ["hypothesis", "hypothesise", "hypothetical"],
+      "sameRoot": [
+        "hypothesis",
+        "hypothesise",
+        "hypothetical"
+      ],
       "sameAffix": [],
-      "synonyms": ["hypothesized", "posited", "theorized"],
+      "synonyms": [
+        "hypothesized",
+        "posited",
+        "theorized"
+      ],
       "antonyms": [],
-      "domainCohort": ["research", "science"],
-      "derivationPair": ["hypothesise"],
-      "morphVariants": ["hypothesized"],
+      "domainCohort": [
+        "research",
+        "science"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
       "sameImagery": []
     }
   },
@@ -1611,56 +2716,103 @@
         "canonical": "hypo-",
         "role": "prefix",
         "meaning": "在…下、少于",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 1,
         "form": "hypo",
         "positionTendency": "initial",
-        "coreMeaning": { "cn": "在…下", "en": "under, below" }
+        "coreMeaning": {
+          "cn": "在…下",
+          "en": "under, below"
+        }
       },
       {
         "canonical": "hypothes",
         "role": "root",
         "meaning": "假设",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "thes",
         "positionTendency": "medial",
-        "coreMeaning": { "cn": "假设", "en": "hypothesis" }
+        "coreMeaning": {
+          "cn": "假设",
+          "en": "hypothesis"
+        }
       },
       {
         "canonical": "-ize",
         "role": "suffix",
         "meaning": "使…化",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 3,
         "form": "ize",
         "positionTendency": "final",
-        "coreMeaning": { "cn": "使…化", "en": "to make or cause" }
+        "coreMeaning": {
+          "cn": "使…化",
+          "en": "to make or cause"
+        }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "hypothesis", "meaning": "假设（名词）" },
-        { "form": "hypothesize", "meaning": "假设（动词，美式）" }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'hypothesis', 'meaning': '假设（名词）'}, {'form': 'hypothesize', 'meaning': '假设（动词，美式）'}]}"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "mnemonicExpr": "hypothesis(假设)+ize=提出假设（美式动词）",
-      "imageChain": ["提出", "假设", "推理"]
+      "imageChain": [
+        "提出",
+        "假设",
+        "推理"
+      ]
     },
     "wordLevel": {
-      "domain": ["gmat", "toefl"],
-      "sentiment": { "tags": ["中性"], "intensity": 0 }
+      "domain": [
+        "gmat",
+        "toefl"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
     },
     "relations": {
-      "sameRoot": ["hypothesis", "hypothetical", "hypothesise"],
-      "sameAffix": ["theorize", "analyze"],
-      "synonyms": ["theorize", "postulate", "speculate"],
+      "sameRoot": [
+        "hypothesis",
+        "hypothetical",
+        "hypothesise"
+      ],
+      "sameAffix": [
+        "theorize",
+        "analyze"
+      ],
+      "synonyms": [
+        "theorize",
+        "postulate",
+        "speculate"
+      ],
       "antonyms": [],
-      "domainCohort": ["research", "science"],
-      "derivationPair": ["hypothesis"],
-      "morphVariants": ["hypothesise"],
+      "domainCohort": [
+        "research",
+        "science"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
       "sameImagery": []
     }
   },
@@ -1677,55 +2829,107 @@
         "canonical": "hypo-",
         "role": "prefix",
         "meaning": "在…下、少于",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 1,
         "form": "hypo",
         "positionTendency": "initial",
-        "coreMeaning": { "cn": "在…下", "en": "under, below" }
+        "coreMeaning": {
+          "cn": "在…下",
+          "en": "under, below"
+        }
       },
       {
         "canonical": "hypothes",
         "role": "root",
         "meaning": "假设",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "thet",
         "positionTendency": "medial",
-        "coreMeaning": { "cn": "假设", "en": "hypothesis" }
+        "coreMeaning": {
+          "cn": "假设",
+          "en": "hypothesis"
+        }
       },
       {
         "canonical": "-ical",
         "role": "suffix",
         "meaning": "…的（形容词）",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 3,
         "form": "ical",
         "positionTendency": "final",
-        "coreMeaning": { "cn": "…的", "en": "of or relating to" }
+        "coreMeaning": {
+          "cn": "…的",
+          "en": "of or relating to"
+        }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "hypothesis", "meaning": "假设" },
-        { "form": "hypothetical", "meaning": "假设的" }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'hypothesis', 'meaning': '假设'}, {'form': 'hypothetical', 'meaning': '假设的'}]}"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "mnemonicExpr": "hypothesis(假设)+ical=假设性的，还没有被证实的",
-      "imageChain": ["想象", "假如", "推测"]
+      "imageChain": [
+        "想象",
+        "假如",
+        "推测"
+      ]
     },
     "wordLevel": {
-      "domain": ["gre", "ielts", "toefl"],
-      "sentiment": { "tags": ["中性"], "intensity": 0 }
+      "domain": [
+        "gre",
+        "ielts",
+        "toefl"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
     },
     "relations": {
-      "sameRoot": ["hypothesis", "hypothesize", "hypothesise"],
-      "sameAffix": ["hypocritical", "historical"],
-      "synonyms": ["supposed", "theoretical", "conjectural"],
-      "antonyms": ["actual", "real", "factual"],
-      "domainCohort": ["scenario", "supposition"],
-      "derivationPair": ["hypothesis"],
+      "sameRoot": [
+        "hypothesis",
+        "hypothesize",
+        "hypothesise"
+      ],
+      "sameAffix": [
+        "hypocritical",
+        "historical"
+      ],
+      "synonyms": [
+        "supposed",
+        "theoretical",
+        "conjectural"
+      ],
+      "antonyms": [
+        "actual",
+        "real",
+        "factual"
+      ],
+      "domainCohort": [
+        "scenario",
+        "supposition"
+      ],
+      "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
     }
@@ -1743,35 +2947,62 @@
         "canonical": "hyster",
         "role": "root",
         "meaning": "子宫、歇斯底里",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 1,
         "form": "hyster",
         "positionTendency": "initial",
-        "coreMeaning": { "cn": "子宫", "en": "uterus" }
+        "coreMeaning": {
+          "cn": "子宫",
+          "en": "uterus"
+        }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "hyster", "meaning": "子宫（词根）" }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'hyster', 'meaning': '子宫（词根）'}]}"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "mnemonicExpr": "hyster=子宫，来自希腊语hystera（子宫）",
-      "imageChain": ["子宫", "解剖", "医学"]
+      "imageChain": [
+        "子宫",
+        "解剖",
+        "医学"
+      ]
     },
     "wordLevel": {
-      "domain": ["medical"],
-      "sentiment": { "tags": ["中性"], "intensity": 0 }
+      "domain": [
+        "medical"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
     },
     "relations": {
-      "sameRoot": ["hystera", "hysteria", "hysterical", "hysterectomy"],
+      "sameRoot": [
+        "hystera",
+        "hysteria",
+        "hysterical",
+        "hysterectomy"
+      ],
       "sameAffix": [],
-      "synonyms": ["uterus"],
+      "synonyms": [
+        "uterus"
+      ],
       "antonyms": [],
-      "domainCohort": ["gynecology", "anatomy"],
-      "derivationPair": ["hysteria"],
-      "morphVariants": ["hystera"],
+      "domainCohort": [
+        "gynecology",
+        "anatomy"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
       "sameImagery": []
     }
   },
@@ -1788,46 +3019,79 @@
         "canonical": "hyster",
         "role": "root",
         "meaning": "子宫、歇斯底里",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 1,
         "form": "hyster",
         "positionTendency": "initial",
-        "coreMeaning": { "cn": "子宫", "en": "uterus" }
+        "coreMeaning": {
+          "cn": "子宫",
+          "en": "uterus"
+        }
       },
       {
         "canonical": "-a",
         "role": "suffix",
         "meaning": "名词化",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "a",
         "positionTendency": "final",
-        "coreMeaning": { "cn": "名词化", "en": "noun ending" }
+        "coreMeaning": {
+          "cn": "名词化",
+          "en": "noun ending"
+        }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "hystera", "meaning": "子宫（古希腊语）" },
-        { "form": "hyster", "meaning": "子宫（词根）" }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'hystera', 'meaning': '子宫（古希腊语）'}, {'form': 'hyster', 'meaning': '子宫（词根）'}]}"
+    ],
     "morphVariantOf": "hyster",
     "memorySemantics": {
       "mnemonicExpr": "hystera是hyster的完整古希腊语形式，意为子宫",
-      "imageChain": ["古希腊", "子宫", "解剖"]
+      "imageChain": [
+        "古希腊",
+        "子宫",
+        "解剖"
+      ]
     },
     "wordLevel": {
-      "domain": ["medical"],
-      "sentiment": { "tags": ["中性"], "intensity": 0 }
+      "domain": [
+        "medical"
+      ],
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      }
     },
     "relations": {
-      "sameRoot": ["hyster", "hysteria", "hysterical"],
+      "sameRoot": [
+        "hyster",
+        "hysteria",
+        "hysterical"
+      ],
       "sameAffix": [],
-      "synonyms": ["uterus"],
+      "synonyms": [
+        "uterus"
+      ],
       "antonyms": [],
-      "domainCohort": ["gynecology", "anatomy"],
-      "derivationPair": ["hysteria"],
-      "morphVariants": ["hyster"],
+      "domainCohort": [
+        "gynecology",
+        "anatomy"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
       "sameImagery": []
     }
   },
@@ -1844,47 +3108,91 @@
         "canonical": "hyster",
         "role": "root",
         "meaning": "子宫、歇斯底里",
-        "sentiment": { "tags": ["消极"], "intensity": 1 },
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
         "order": 1,
         "form": "hyster",
         "positionTendency": "initial",
-        "coreMeaning": { "cn": "子宫/情绪失控", "en": "uterus / emotional disorder" }
+        "coreMeaning": {
+          "cn": "子宫/情绪失控",
+          "en": "uterus / emotional disorder"
+        }
       },
       {
         "canonical": "-ia",
         "role": "suffix",
         "meaning": "疾病；状态",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "ia",
         "positionTendency": "final",
-        "coreMeaning": { "cn": "疾病状态", "en": "condition, disease" }
+        "coreMeaning": {
+          "cn": "疾病状态",
+          "en": "condition, disease"
+        }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "hyster", "meaning": "子宫（古人认为歇斯底里源于子宫）" },
-        { "form": "hysteria", "meaning": "歇斯底里症" }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'hyster', 'meaning': '子宫（古人认为歇斯底里源于子宫）'}, {'form': 'hysteria', 'meaning': '歇斯底里症'}]}"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "mnemonicExpr": "hyster(子宫)+ia=古代认为女性情绪失控源于子宫→歇斯底里",
-      "imageChain": ["情绪", "失控", "歇斯底里"]
+      "imageChain": [
+        "情绪",
+        "失控",
+        "歇斯底里"
+      ]
     },
     "wordLevel": {
-      "domain": ["gre", "medical"],
-      "sentiment": { "tags": ["消极"], "intensity": 1 }
+      "domain": [
+        "gre",
+        "medical"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 1
+      }
     },
     "relations": {
-      "sameRoot": ["hyster", "hystera", "hysterical"],
-      "sameAffix": ["mania", "phobia"],
-      "synonyms": ["panic", "frenzy"],
-      "antonyms": ["calm", "composure"],
-      "domainCohort": ["emotion", "disorder"],
-      "derivationPair": ["hysterical"],
+      "sameRoot": [
+        "hyster",
+        "hystera",
+        "hysterical"
+      ],
+      "sameAffix": [
+        "mania",
+        "phobia"
+      ],
+      "synonyms": [
+        "panic",
+        "frenzy"
+      ],
+      "antonyms": [
+        "calm",
+        "composure"
+      ],
+      "domainCohort": [
+        "emotion",
+        "disorder"
+      ],
+      "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["frenzy", "panic"]
+      "sameImagery": [
+        "frenzy",
+        "panic"
+      ]
     }
   },
   {
@@ -1900,47 +3208,95 @@
         "canonical": "hyster",
         "role": "root",
         "meaning": "子宫、歇斯底里",
-        "sentiment": { "tags": ["消极"], "intensity": 1 },
+        "sentiment": {
+          "tags": [
+            "消极"
+          ],
+          "intensity": 1
+        },
         "order": 1,
         "form": "hyster",
         "positionTendency": "initial",
-        "coreMeaning": { "cn": "情绪失控", "en": "emotional disorder" }
+        "coreMeaning": {
+          "cn": "情绪失控",
+          "en": "emotional disorder"
+        }
       },
       {
         "canonical": "-ical",
         "role": "suffix",
         "meaning": "…的（形容词）",
-        "sentiment": { "tags": ["中性"], "intensity": 0 },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
         "order": 2,
         "form": "ical",
         "positionTendency": "final",
-        "coreMeaning": { "cn": "…的", "en": "of or relating to" }
+        "coreMeaning": {
+          "cn": "…的",
+          "en": "of or relating to"
+        }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        { "form": "hysteria", "meaning": "歇斯底里" },
-        { "form": "hysterical", "meaning": "歇斯底里的" }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'hysteria', 'meaning': '歇斯底里'}, {'form': 'hysterical', 'meaning': '歇斯底里的'}]}"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "mnemonicExpr": "hysteria(歇斯底里)+ical=歇斯底里的，情绪极度失控的",
-      "imageChain": ["大哭", "大笑", "失控"]
+      "imageChain": [
+        "大哭",
+        "大笑",
+        "失控"
+      ]
     },
     "wordLevel": {
-      "domain": ["gre", "sat", "ielts", "npee", "academic"],
-      "sentiment": { "tags": ["消极"], "intensity": 1 }
+      "domain": [
+        "gre",
+        "sat",
+        "ielts",
+        "npee",
+        "academic"
+      ],
+      "sentiment": {
+        "tags": [
+          "消极"
+        ],
+        "intensity": 1
+      }
     },
     "relations": {
-      "sameRoot": ["hysteria", "hyster", "hystera"],
-      "sameAffix": ["hypocritical", "hypothetical"],
-      "synonyms": ["frenzied", "frantic", "uncontrolled"],
-      "antonyms": ["calm", "composed", "serene"],
-      "domainCohort": ["emotion", "panic"],
-      "derivationPair": ["hysteria"],
+      "sameRoot": [
+        "hysteria",
+        "hyster",
+        "hystera"
+      ],
+      "sameAffix": [
+        "hypocritical",
+        "hypothetical"
+      ],
+      "synonyms": [
+        "frenzied",
+        "frantic",
+        "uncontrolled"
+      ],
+      "antonyms": [
+        "calm",
+        "composed",
+        "serene"
+      ],
+      "domainCohort": [
+        "emotion",
+        "panic"
+      ],
+      "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["frenzied"]
+      "sameImagery": [
+        "frenzied"
+      ]
     }
   }
 ]

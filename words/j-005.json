@@ -13,7 +13,9 @@
         "role": "prefix",
         "meaning": "紧邻，旁边",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 1,
@@ -29,7 +31,9 @@
         "role": "root",
         "meaning": "放置",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 2,
@@ -45,7 +49,9 @@
         "role": "suffix",
         "meaning": "行为、状态、过程",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 3,
@@ -57,20 +63,9 @@
         }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        {
-          "form": "juxtapose",
-          "pos": "vt.",
-          "desc": "并置；使并列"
-        },
-        {
-          "form": "juxtaposition",
-          "pos": "n.",
-          "desc": "并置的状态或行为"
-        }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'juxtapose', 'pos': 'vt.', 'desc': '并置；使并列'}, {'form': 'juxtaposition', 'pos': 'n.', 'desc': '并置的状态或行为'}]}"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "mnemonicExpr": "juxta（旁边）+ posit（放置）+ ion → 并排放置 → 并置",
@@ -81,21 +76,48 @@
       ]
     },
     "wordLevel": {
-      "domain": ["academic", "sat"],
+      "domain": [
+        "academic",
+        "sat"
+      ],
       "sentiment": {
-        "tags": ["中性"],
+        "tags": [
+          "中性"
+        ],
         "intensity": 0
       }
     },
     "relations": {
-      "sameRoot": ["position", "deposit", "composite"],
-      "sameAffix": ["opposition", "proposition", "disposition"],
-      "synonyms": ["apposition", "adjacency", "collocation"],
-      "antonyms": ["separation", "distance"],
-      "domainCohort": ["contrast", "comparison", "proximity"],
-      "derivationPair": ["juxtapose"],
+      "sameRoot": [
+        "position",
+        "deposit",
+        "composite"
+      ],
+      "sameAffix": [
+        "opposition",
+        "proposition",
+        "disposition"
+      ],
+      "synonyms": [
+        "apposition",
+        "adjacency",
+        "collocation"
+      ],
+      "antonyms": [
+        "separation",
+        "distance"
+      ],
+      "domainCohort": [
+        "contrast",
+        "comparison",
+        "proximity"
+      ],
+      "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["side by side", "parallel placement"]
+      "sameImagery": [
+        "side by side",
+        "parallel placement"
+      ]
     }
   },
   {
@@ -112,7 +134,9 @@
         "role": "root",
         "meaning": "光明（梵语词源，印度人名）",
         "sentiment": {
-          "tags": ["积极"],
+          "tags": [
+            "积极"
+          ],
           "intensity": 1
         },
         "order": 1,
@@ -124,9 +148,9 @@
         }
       }
     ],
-    "derivationChain": {
-      "steps": []
-    },
+    "derivationChain": [
+      "{'steps': []}"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "mnemonicExpr": "jyoti → 梵语\"光明\"，常见印度女性名",
@@ -137,9 +161,14 @@
       ]
     },
     "wordLevel": {
-      "domain": ["proper-noun", "cultural"],
+      "domain": [
+        "proper-noun",
+        "cultural"
+      ],
       "sentiment": {
-        "tags": ["积极"],
+        "tags": [
+          "积极"
+        ],
         "intensity": 1
       }
     },
@@ -148,10 +177,17 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["Priya", "Anita", "Deepa"],
+      "domainCohort": [
+        "Priya",
+        "Anita",
+        "Deepa"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["light", "illumination"]
+      "sameImagery": [
+        "light",
+        "illumination"
+      ]
     }
   }
 ]

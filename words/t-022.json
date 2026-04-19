@@ -13,7 +13,9 @@
         "role": "prefix",
         "meaning": "酪；奶酪",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 1,
@@ -29,7 +31,9 @@
         "role": "suffix",
         "meaning": "胺类化合物",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 2,
@@ -41,34 +45,49 @@
         }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        {
-          "form": "tyrasamine",
-          "desc": "酪胺，由酪氨酸脱羧生成的单胺类化合物"
-        }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'tyrasamine', 'desc': '酪胺，由酪氨酸脱羧生成的单胺类化合物'}]}"
+    ],
     "morphVariantOf": "tyrosamine",
     "memorySemantics": {
       "mnemonicExpr": "tyra（酪）+ amine（胺）→ 酪胺",
-      "imageChain": ["奶酪", "氨基", "生化化合物"]
+      "imageChain": [
+        "奶酪",
+        "氨基",
+        "生化化合物"
+      ]
     },
     "wordLevel": {
-      "domain": ["medical"],
+      "domain": [
+        "medical"
+      ],
       "sentiment": {
-        "tags": ["中性"],
+        "tags": [
+          "中性"
+        ],
         "intensity": 0
       }
     },
     "relations": {
-      "sameRoot": ["tyrosamine", "tyrosine"],
-      "sameAffix": ["dopamine", "histamine"],
-      "synonyms": ["tyrosamine"],
+      "sameRoot": [
+        "tyrosamine",
+        "tyrosine"
+      ],
+      "sameAffix": [
+        "dopamine",
+        "histamine"
+      ],
+      "synonyms": [
+        "tyrosamine"
+      ],
       "antonyms": [],
-      "domainCohort": ["serotonin", "dopamine", "epinephrine"],
+      "domainCohort": [
+        "serotonin",
+        "dopamine",
+        "epinephrine"
+      ],
       "derivationPair": [],
-      "morphVariants": ["tyrosamine"],
+      "morphVariants": [],
       "sameImagery": []
     }
   },
@@ -86,7 +105,9 @@
         "role": "root",
         "meaning": "轮胎",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 1,
@@ -98,35 +119,49 @@
         }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        {
-          "form": "tyre",
-          "desc": "英式拼写，来源于中古英语 tire，意为套在轮子上的铁圈"
-        }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'tyre', 'desc': '英式拼写，来源于中古英语 tire，意为套在轮子上的铁圈'}]}"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "mnemonicExpr": "tyre → 轮胎（英式拼写，美式为 tire）",
-      "imageChain": ["车轮", "橡胶", "行驶"]
+      "imageChain": [
+        "车轮",
+        "橡胶",
+        "行驶"
+      ]
     },
     "wordLevel": {
-      "domain": ["general"],
+      "domain": [
+        "general"
+      ],
       "sentiment": {
-        "tags": ["中性"],
+        "tags": [
+          "中性"
+        ],
         "intensity": 0
       }
     },
     "relations": {
-      "sameRoot": ["tire"],
+      "sameRoot": [
+        "tire"
+      ],
       "sameAffix": [],
-      "synonyms": ["tire"],
+      "synonyms": [
+        "tire"
+      ],
       "antonyms": [],
-      "domainCohort": ["wheel", "rim", "axle"],
+      "domainCohort": [
+        "wheel",
+        "rim",
+        "axle"
+      ],
       "derivationPair": [],
-      "morphVariants": ["tire"],
-      "sameImagery": ["wheel", "rim"]
+      "morphVariants": [],
+      "sameImagery": [
+        "wheel",
+        "rim"
+      ]
     }
   },
   {
@@ -143,7 +178,9 @@
         "role": "root",
         "meaning": "轮胎",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 1,
@@ -159,7 +196,9 @@
         "role": "suffix",
         "meaning": "复数",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 2,
@@ -171,38 +210,47 @@
         }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        {
-          "form": "tyre",
-          "desc": "轮胎，英式拼写"
-        },
-        {
-          "form": "tyres",
-          "desc": "加复数后缀 -s"
-        }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'tyre', 'desc': '轮胎，英式拼写'}, {'form': 'tyres', 'desc': '加复数后缀 -s'}]}"
+    ],
     "morphVariantOf": "tyre",
     "memorySemantics": {
       "mnemonicExpr": "tyre + s → 轮胎（复数）",
-      "imageChain": ["多个轮胎", "汽车", "行驶"]
+      "imageChain": [
+        "多个轮胎",
+        "汽车",
+        "行驶"
+      ]
     },
     "wordLevel": {
-      "domain": ["general"],
+      "domain": [
+        "general"
+      ],
       "sentiment": {
-        "tags": ["中性"],
+        "tags": [
+          "中性"
+        ],
         "intensity": 0
       }
     },
     "relations": {
-      "sameRoot": ["tyre", "tire", "tires"],
+      "sameRoot": [
+        "tyre",
+        "tire",
+        "tires"
+      ],
       "sameAffix": [],
-      "synonyms": ["tires"],
+      "synonyms": [
+        "tires"
+      ],
       "antonyms": [],
-      "domainCohort": ["wheels", "rims", "axles"],
-      "derivationPair": ["tyre"],
-      "morphVariants": ["tires"],
+      "domainCohort": [
+        "wheels",
+        "rims",
+        "axles"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
       "sameImagery": []
     }
   },
@@ -220,7 +268,9 @@
         "role": "root",
         "meaning": "新兵；初学者",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 1,
@@ -232,39 +282,54 @@
         }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        {
-          "form": "tiro (Latin)",
-          "desc": "拉丁语 tiro，意为新兵、新入伍者"
-        },
-        {
-          "form": "tyro",
-          "desc": "英语借用，泛指初学者、生手"
-        }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'tiro (Latin)', 'desc': '拉丁语 tiro，意为新兵、新入伍者'}, {'form': 'tyro', 'desc': '英语借用，泛指初学者、生手'}]}"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "mnemonicExpr": "tyro → try（尝试）+ o → 刚开始尝试的人 → 新手",
-      "imageChain": ["新兵", "初学者", "未经历练"]
+      "imageChain": [
+        "新兵",
+        "初学者",
+        "未经历练"
+      ]
     },
     "wordLevel": {
-      "domain": ["general"],
+      "domain": [
+        "general"
+      ],
       "sentiment": {
-        "tags": ["中性"],
+        "tags": [
+          "中性"
+        ],
         "intensity": 0
       }
     },
     "relations": {
       "sameRoot": [],
       "sameAffix": [],
-      "synonyms": ["novice", "beginner", "neophyte", "rookie"],
-      "antonyms": ["expert", "veteran", "master"],
-      "domainCohort": ["apprentice", "trainee", "neophyte"],
+      "synonyms": [
+        "novice",
+        "beginner",
+        "neophyte",
+        "rookie"
+      ],
+      "antonyms": [
+        "expert",
+        "veteran",
+        "master"
+      ],
+      "domainCohort": [
+        "apprentice",
+        "trainee",
+        "neophyte"
+      ],
       "derivationPair": [],
-      "morphVariants": ["tiro"],
-      "sameImagery": ["novice", "neophyte"]
+      "morphVariants": [],
+      "sameImagery": [
+        "novice",
+        "neophyte"
+      ]
     }
   },
   {
@@ -281,7 +346,9 @@
         "role": "prefix",
         "meaning": "酪；酪氨酸",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 1,
@@ -297,7 +364,9 @@
         "role": "suffix",
         "meaning": "胺类化合物",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 2,
@@ -309,38 +378,57 @@
         }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        {
-          "form": "tyrosine",
-          "desc": "酪氨酸，一种氨基酸"
-        },
-        {
-          "form": "tyrosamine",
-          "desc": "酪氨酸脱羧后生成的酪胺"
-        }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'form': 'tyrosine', 'desc': '酪氨酸，一种氨基酸'}, {'form': 'tyrosamine', 'desc': '酪氨酸脱羧后生成的酪胺'}]}"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "mnemonicExpr": "tyros（酪氨酸）+ amine（胺）→ 酪胺",
-      "imageChain": ["酪氨酸", "脱羧反应", "单胺类物质"]
+      "imageChain": [
+        "酪氨酸",
+        "脱羧反应",
+        "单胺类物质"
+      ]
     },
     "wordLevel": {
-      "domain": ["medical"],
+      "domain": [
+        "medical"
+      ],
       "sentiment": {
-        "tags": ["中性"],
+        "tags": [
+          "中性"
+        ],
         "intensity": 0
       }
     },
     "relations": {
-      "sameRoot": ["tyrasamine", "tyrosine", "tyramine"],
-      "sameAffix": ["dopamine", "histamine", "serotonin"],
-      "synonyms": ["tyramine", "tyrasamine"],
+      "sameRoot": [
+        "tyrasamine",
+        "tyrosine",
+        "tyramine"
+      ],
+      "sameAffix": [
+        "dopamine",
+        "histamine",
+        "serotonin"
+      ],
+      "synonyms": [
+        "tyramine",
+        "tyrasamine"
+      ],
       "antonyms": [],
-      "domainCohort": ["epinephrine", "norepinephrine", "dopamine"],
-      "derivationPair": ["tyrosine"],
-      "morphVariants": ["tyrasamine", "tyramine"],
+      "domainCohort": [
+        "epinephrine",
+        "norepinephrine",
+        "dopamine"
+      ],
+      "derivationPair": [],
+      "morphVariants": [
+        [
+          "tyrasamine",
+          "tyramine"
+        ]
+      ],
       "sameImagery": []
     }
   }

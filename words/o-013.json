@@ -13,7 +13,9 @@
         "role": "root",
         "meaning": "牡蛎",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 1,
@@ -29,7 +31,9 @@
         "role": "suffix",
         "meaning": "表示物或者",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 2,
@@ -41,9 +45,9 @@
         }
       }
     ],
-    "derivationChain": {
-      "steps": []
-    },
+    "derivationChain": [
+      "{'steps': []}"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "mnemonicExpr": "oyster → oyst(牡蛎) + er → 牡蛎（沉默如贝壳的人）",
@@ -55,21 +59,35 @@
       ]
     },
     "wordLevel": {
-      "domain": ["general", "academic"],
+      "domain": [
+        "general",
+        "academic"
+      ],
       "sentiment": {
-        "tags": ["中性"],
+        "tags": [
+          "中性"
+        ],
         "intensity": 0
       }
     },
     "relations": {
       "sameRoot": [],
       "sameAffix": [],
-      "synonyms": ["clam", "mussel"],
+      "synonyms": [
+        "clam",
+        "mussel"
+      ],
       "antonyms": [],
-      "domainCohort": ["pearl", "shellfish", "mollusk"],
+      "domainCohort": [
+        "pearl",
+        "shellfish",
+        "mollusk"
+      ],
       "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["clam"]
+      "sameImagery": [
+        "clam"
+      ]
     }
   },
   {
@@ -86,7 +104,9 @@
         "role": "root",
         "meaning": "气味；臭",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 1,
@@ -102,7 +122,9 @@
         "role": "suffix",
         "meaning": "化学物质后缀",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 2,
@@ -114,15 +136,9 @@
         }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        {
-          "word": "oxygen",
-          "relation": "source element",
-          "note": "ozone is an allotrope of oxygen (O₃)"
-        }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'word': 'oxygen', 'relation': 'source element', 'note': 'ozone is an allotrope of oxygen (O₃)'}]}"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "mnemonicExpr": "ozone → oz(气味) + one → 有特殊气味的化学物质→臭氧",
@@ -134,9 +150,14 @@
       ]
     },
     "wordLevel": {
-      "domain": ["academic", "science"],
+      "domain": [
+        "academic",
+        "science"
+      ],
       "sentiment": {
-        "tags": ["中性"],
+        "tags": [
+          "中性"
+        ],
         "intensity": 0
       }
     },
@@ -145,10 +166,16 @@
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["oxygen", "atmosphere", "ultraviolet"],
-      "derivationPair": ["ozone-ether"],
+      "domainCohort": [
+        "oxygen",
+        "atmosphere",
+        "ultraviolet"
+      ],
+      "derivationPair": [],
       "morphVariants": [],
-      "sameImagery": ["oxygen"]
+      "sameImagery": [
+        "oxygen"
+      ]
     }
   },
   {
@@ -165,7 +192,9 @@
         "role": "root",
         "meaning": "臭氧乙醚（专有医学合剂名称）",
         "sentiment": {
-          "tags": ["中性"],
+          "tags": [
+            "中性"
+          ],
           "intensity": 0
         },
         "order": 1,
@@ -177,20 +206,9 @@
         }
       }
     ],
-    "derivationChain": {
-      "steps": [
-        {
-          "word": "ozone",
-          "relation": "component",
-          "note": "ozone component of the compound"
-        },
-        {
-          "word": "ether",
-          "relation": "component",
-          "note": "ether component of the compound"
-        }
-      ]
-    },
+    "derivationChain": [
+      "{'steps': [{'word': 'ozone', 'relation': 'component', 'note': 'ozone component of the compound'}, {'word': 'ether', 'relation': 'component', 'note': 'ether component of the compound'}]}"
+    ],
     "morphVariantOf": null,
     "memorySemantics": {
       "mnemonicExpr": "ozone-ether → 臭氧(ozone) + 乙醚(ether) → 医用臭氧乙醚合剂",
@@ -202,19 +220,29 @@
       ]
     },
     "wordLevel": {
-      "domain": ["medical"],
+      "domain": [
+        "medical"
+      ],
       "sentiment": {
-        "tags": ["中性"],
+        "tags": [
+          "中性"
+        ],
         "intensity": 0
       }
     },
     "relations": {
-      "sameRoot": ["ozone"],
+      "sameRoot": [
+        "ozone"
+      ],
       "sameAffix": [],
       "synonyms": [],
       "antonyms": [],
-      "domainCohort": ["ether", "hydrogen peroxide", "antiseptic"],
-      "derivationPair": ["ozone"],
+      "domainCohort": [
+        "ether",
+        "hydrogen peroxide",
+        "antiseptic"
+      ],
+      "derivationPair": [],
       "morphVariants": [],
       "sameImagery": []
     }
