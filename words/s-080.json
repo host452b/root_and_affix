@@ -1,0 +1,61 @@
+[
+  {
+    "word": "sickness",
+    "phonetic": "/ˈsɪknəs/",
+    "pos": "n.",
+    "coreMeaning": {"cn": "疾病；呕吐", "en": "the state of being ill; nausea or vomiting"},
+    "morphemes": [
+      {"canonical": "sick", "role": "root", "meaning": "生病；恶心", "sentiment": {"tags": ["消极"], "intensity": 1}, "order": 1, "form": "sick", "positionTendency": "initial", "coreMeaning": {"cn": "生病", "en": "ill/sick"}},
+      {"canonical": "-ness", "role": "suffix", "meaning": "名词后缀：状态", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "-ness", "positionTendency": "final", "coreMeaning": {"cn": "状态", "en": "state of"}}
+    ],
+    "derivationChain": {"steps": []},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "sick(生病) + ness → 生病的状态 → 疾病", "imageChain": ["疾病", "生病", "呕吐"]},
+    "wordLevel": {"domain": ["general", "medical"], "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["sick", "sicken", "sickly"], "sameAffix": [], "synonyms": ["illness", "disease", "ailment", "malady"], "antonyms": ["health", "wellness"], "domainCohort": [], "derivationPair": [{"word": "sick", "relation": "base adjective"}], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "side",
+    "phonetic": "/saɪd/",
+    "pos": "n./adj.",
+    "coreMeaning": {"cn": "旁边；侧面；一方", "en": "a position next to someone; one of two or more contrasted groups"},
+    "morphemes": [
+      {"canonical": "side", "role": "root", "meaning": "侧面；旁边（古英语 side）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "side", "positionTendency": "medial", "coreMeaning": {"cn": "侧面", "en": "side"}}
+    ],
+    "derivationChain": {"steps": [{"from": "side", "to": "sidebar", "operation": "compound"}, {"from": "side", "to": "sideline", "operation": "compound"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "side → 旁边/侧面", "imageChain": ["侧面", "旁边", "一方"]},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["sidebar", "sideline", "sidelight"], "sameAffix": [], "synonyms": ["flank", "edge", "aspect"], "antonyms": ["center", "middle"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "sidebar",
+    "phonetic": "/ˈsaɪdbɑːr/",
+    "pos": "n.",
+    "coreMeaning": {"cn": "补充报道；旁栏", "en": "a short news article printed alongside the main one; a side column in a page layout"},
+    "morphemes": [
+      {"canonical": "side", "role": "root", "meaning": "侧面；旁边", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "side", "positionTendency": "initial", "coreMeaning": {"cn": "侧面", "en": "side"}},
+      {"canonical": "bar", "role": "root", "meaning": "条；栏", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "bar", "positionTendency": "final", "coreMeaning": {"cn": "条栏", "en": "bar/column"}}
+    ],
+    "derivationChain": {"steps": []},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "side(侧) + bar(栏) → 旁边的栏 → 侧边栏；补充报道", "imageChain": ["侧边栏", "补充内容", "旁栏"]},
+    "wordLevel": {"domain": ["general", "news", "tech"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["side"], "sameAffix": [], "synonyms": ["column", "box", "supplement"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "sideline",
+    "phonetic": "/ˈsaɪdlaɪn/",
+    "pos": "n./v.",
+    "coreMeaning": {"cn": "副业；兼职；边线；使退出", "en": "a line at the edge of a field; a secondary activity; to remove from participation"},
+    "morphemes": [
+      {"canonical": "side", "role": "root", "meaning": "侧面；旁边", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "side", "positionTendency": "initial", "coreMeaning": {"cn": "侧面", "en": "side"}},
+      {"canonical": "line", "role": "root", "meaning": "线；线路", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "line", "positionTendency": "final", "coreMeaning": {"cn": "线", "en": "line"}}
+    ],
+    "derivationChain": {"steps": []},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "side(侧) + line(线) → 边线 → 副业；使退出比赛", "imageChain": ["边线", "副业", "退出"]},
+    "wordLevel": {"domain": ["general", "business"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["side", "sidebar"], "sameAffix": [], "synonyms": ["sideline activity", "bench", "margin"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  }
+]

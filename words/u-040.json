@@ -1,0 +1,60 @@
+[
+  {
+    "word": "urchin",
+    "phonetic": "/'ɜːrtʃɪn/",
+    "pos": ["n."],
+    "coreMeaning": {"cn": "顽童；淘气鬼；海胆；刺猬", "en": "a mischievous young child; a sea urchin; a hedgehog"},
+    "morphemes": [
+      {"canonical": "urchin", "role": "root", "meaning": "刺猬；顽童（古法语 herichon）", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "urchin", "positionTendency": "medial", "coreMeaning": {"cn": "顽童", "en": "mischievous child"}}
+    ],
+    "derivationChain": {"steps": []},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "urchin → 像刺猬一样多刺，比喻顽皮淘气的小孩", "imageChain": ["顽童", "海胆", "刺猬"]},
+    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
+    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["ragamuffin", "rascal", "brat", "imp"], "antonyms": [], "domainCohort": ["sea urchin", "hedgehog"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "urge",
+    "phonetic": "/ɜːrdʒ/",
+    "pos": ["v.", "n."],
+    "coreMeaning": {"cn": "催促；强烈建议；冲动；欲望", "en": "to encourage strongly; to push; a strong desire"},
+    "morphemes": [
+      {"canonical": "urg", "role": "root", "meaning": "驱使；推（拉丁 urgere）", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "urge", "positionTendency": "medial", "coreMeaning": {"cn": "驱使", "en": "drive/press"}}
+    ],
+    "derivationChain": {"steps": []},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "urge → 强烈地催促或推动，内心的强烈冲动", "imageChain": ["催促", "冲动", "驱使"]},
+    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 1}, "domain": ["general", "academic"], "formality": "neutral"},
+    "relations": {"sameRoot": ["urgency", "urgent", "urgently"], "sameAffix": [], "synonyms": ["encourage", "press", "implore", "impel", "impulse"], "antonyms": ["discourage", "deter", "restrain"], "domainCohort": [], "derivationPair": ["urgency", "urgent"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "urgency",
+    "phonetic": "/'ɜːrdʒənsi/",
+    "pos": ["n."],
+    "coreMeaning": {"cn": "紧急；急迫；紧急的事", "en": "the state of being urgent; pressing importance"},
+    "morphemes": [
+      {"canonical": "urg", "role": "root", "meaning": "驱使；压迫（拉丁 urgere）", "sentiment": {"tags": ["消极"], "intensity": 1}, "order": 1, "form": "urge", "positionTendency": "initial", "coreMeaning": {"cn": "急迫", "en": "press"}},
+      {"canonical": "-ency", "role": "suffix", "meaning": "名词；状态", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ency", "positionTendency": "final", "coreMeaning": {"cn": "状态", "en": "state"}}
+    ],
+    "derivationChain": {"steps": [{"from": "urgent", "to": "urgency", "by": "-cy", "meaning": "the state of being urgent"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "urgency → 需要立即处理的紧急状态", "imageChain": ["紧急", "迫切", "急需"]},
+    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": 1}, "domain": ["general", "academic"], "formality": "neutral"},
+    "relations": {"sameRoot": ["urge", "urgent", "urgently"], "sameAffix": [], "synonyms": ["emergency", "pressing need", "imperativeness", "exigency"], "antonyms": ["leisure", "non-urgency", "casualness"], "domainCohort": [], "derivationPair": ["urgent"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "urgent",
+    "phonetic": "/'ɜːrdʒənt/",
+    "pos": ["adj."],
+    "coreMeaning": {"cn": "紧急的；急迫的；迫切的", "en": "requiring immediate action or attention; pressing"},
+    "morphemes": [
+      {"canonical": "urg", "role": "root", "meaning": "驱使；压迫（拉丁 urgere）", "sentiment": {"tags": ["消极"], "intensity": 1}, "order": 1, "form": "urg", "positionTendency": "initial", "coreMeaning": {"cn": "急迫", "en": "press"}},
+      {"canonical": "-ent", "role": "suffix", "meaning": "形容词；有…性质的", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ent", "positionTendency": "final", "coreMeaning": {"cn": "…的", "en": "having quality"}}
+    ],
+    "derivationChain": {"steps": []},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "urgent → 需要立即行动的紧急情况", "imageChain": ["紧急", "急迫", "紧要"]},
+    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": 1}, "domain": ["general", "academic"], "formality": "neutral"},
+    "relations": {"sameRoot": ["urge", "urgency", "urgently"], "sameAffix": [], "synonyms": ["pressing", "critical", "imperative", "immediate", "dire"], "antonyms": ["leisurely", "unimportant", "trivial", "non-urgent"], "domainCohort": [], "derivationPair": ["urgency"], "morphVariants": [], "sameImagery": []}
+  }
+]

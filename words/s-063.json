@@ -1,0 +1,60 @@
+[
+  {
+    "word": "shareholder",
+    "phonetic": "/'ʃeəhəʊldər/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "股东；股票持有人", "en": "shareholder" },
+    "morphemes": [
+      { "canonical": "share", "role": "root", "meaning": "股份；份额", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "share", "positionTendency": "initial" },
+      { "canonical": "hold", "role": "root", "meaning": "持有；拥有", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "holder", "positionTendency": "final" }
+    ],
+    "derivationChain": { "steps": [{ "from": "share(股份) + holder(持有者)", "to": "shareholder", "by": "compounding", "meaning": "持有公司股份的人" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "share(股份) + holder(持有者) → 持有公司股份的股东", "imageChain": ["股东", "股份", "投资"] },
+    "wordLevel": { "domain": ["business", "finance"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["share", "stakeholder"], "sameAffix": [], "synonyms": ["stockholder", "equity holder", "investor"], "antonyms": [], "domainCohort": ["stockholder", "investor", "board member"], "derivationPair": [], "morphVariants": ["shareholders"], "sameImagery": [] }
+  },
+  {
+    "word": "shark",
+    "phonetic": "/ʃɑːrk/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "鲨鱼；骗子；能手", "en": "shark" },
+    "morphemes": [
+      { "canonical": "shark", "role": "root", "meaning": "鲨鱼；掠食者（来源不明，可能源自德语 Schurke 恶棍）", "sentiment": { "tags": ["消极"], "intensity": 1 }, "order": 1, "form": "shark", "positionTendency": "medial" }
+    ],
+    "derivationChain": { "steps": [{ "from": "shark(16世纪借入)", "to": "shark", "by": "borrowing", "meaning": "大型掠食性鱼类；欺骗他人的人" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "shark → 像鲨鱼一样掠食他人的骗子", "imageChain": ["鲨鱼", "掠食", "骗子"] },
+    "wordLevel": { "domain": ["general"], "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": ["predator", "swindler", "cheat", "expert"], "antonyms": [], "domainCohort": ["predator", "swindler", "cheat"], "derivationPair": [], "morphVariants": ["sharks"], "sameImagery": [] }
+  },
+  {
+    "word": "sharp",
+    "phonetic": "/ʃɑːrp/",
+    "pos": "adj./n./adv.",
+    "coreMeaning": { "cn": "锋利的；敏锐的；急剧的；准时", "en": "sharp" },
+    "morphemes": [
+      { "canonical": "sharp", "role": "root", "meaning": "锋利；尖锐（古英语 scearp）", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "sharp", "positionTendency": "medial" }
+    ],
+    "derivationChain": { "steps": [{ "from": "scearp (OE 锋利的)", "to": "sharp", "by": "adaptation", "meaning": "具有尖锐边缘的；感知敏锐的" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "sharp → 刀刃般锋利，感觉敏锐", "imageChain": ["锋利", "敏锐", "尖锐"] },
+    "wordLevel": { "domain": ["general"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["sharpen", "sharpener"], "sameAffix": [], "synonyms": ["keen", "acute", "pointed", "precise"], "antonyms": ["blunt", "dull", "obtuse", "gradual"], "domainCohort": ["keen", "acute", "pointed"], "derivationPair": [{"word": "sharpen", "relation": "verb"}], "morphVariants": ["sharper", "sharpest", "sharply", "sharpen"], "sameImagery": [] }
+  },
+  {
+    "word": "sharpen",
+    "phonetic": "/'ʃɑːrpən/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "削尖；磨快；使敏锐", "en": "sharpen" },
+    "morphemes": [
+      { "canonical": "sharp", "role": "root", "meaning": "锋利；尖锐", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "sharp", "positionTendency": "initial" },
+      { "canonical": "-en", "role": "suffix", "meaning": "动词后缀：使…化", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "en", "positionTendency": "final" }
+    ],
+    "derivationChain": { "steps": [{ "from": "sharp", "to": "sharpen", "by": "-en", "meaning": "使变得更锋利或更敏锐" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "sharp(锋利) + en → 使变得更锋利", "imageChain": ["磨刀", "削尖", "提高"] },
+    "wordLevel": { "domain": ["general"], "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["sharp", "sharpener"], "sameAffix": ["-en"], "synonyms": ["hone", "whet", "strop", "intensify"], "antonyms": ["blunt", "dull", "soften"], "domainCohort": ["hone", "whet", "improve"], "derivationPair": [{"word": "sharp", "relation": "base adjective"}], "morphVariants": ["sharpens", "sharpened", "sharpening", "sharpener"], "sameImagery": [] }
+  }
+]

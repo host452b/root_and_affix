@@ -1,0 +1,122 @@
+[
+  {
+    "word": "misshapen",
+    "phonetic": "/'mɪs'ʃeɪpən/",
+    "pos": ["adj."],
+    "coreMeaning": {"cn": "畸形的；奇形怪状的", "en": "not having the normal shape; deformed"},
+    "morphemes": [
+      {"canonical": "mis-", "role": "prefix", "meaning": "错误；不当", "sentiment": {"tags": ["消极"], "intensity": 1}, "order": 1, "form": "mis", "positionTendency": "initial", "coreMeaning": {"cn": "错误", "en": "wrongly"}},
+      {"canonical": "shape", "role": "root", "meaning": "形状", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "shape", "positionTendency": "medial", "coreMeaning": {"cn": "形状", "en": "shape"}},
+      {"canonical": "-en", "role": "suffix", "meaning": "过去分词", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 3, "form": "en", "positionTendency": "final", "coreMeaning": {"cn": "已…", "en": "past participle"}}
+    ],
+    "derivationChain": {"steps": [{"from": "shape", "to": "misshapen", "by": "mis-+-en", "meaning": "wrongly or badly shaped"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "misshapen = mis + shape + en → 形状不正确的，畸形的", "imageChain": ["畸形", "扭曲", "异形"]},
+    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": 2}, "domain": ["general"], "formality": "neutral"},
+    "relations": {"sameRoot": ["shape", "reshape"], "sameAffix": ["misuse", "misjudge", "misbehave"], "synonyms": ["deformed", "distorted", "malformed", "twisted"], "antonyms": ["shapely", "well-formed", "normal"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "missile",
+    "phonetic": "/'mɪsl/",
+    "pos": ["n."],
+    "coreMeaning": {"cn": "导弹；投射物", "en": "an object thrown or projected to hit a target; a weapon"},
+    "morphemes": [
+      {"canonical": "miss", "role": "root", "meaning": "发送；投掷", "sentiment": {"tags": ["消极"], "intensity": 1}, "order": 1, "form": "miss", "positionTendency": "initial", "coreMeaning": {"cn": "发射", "en": "send/throw"}},
+      {"canonical": "-ile", "role": "suffix", "meaning": "能…的；形容词", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ile", "positionTendency": "final", "coreMeaning": {"cn": "可被…的", "en": "capable of"}}
+    ],
+    "derivationChain": {"steps": [{"from": "mittere", "to": "missile", "by": "-ile", "meaning": "capable of being thrown; a projectile weapon"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "missile = miss(发射)+ile → 可被发射的投射物=导弹", "imageChain": ["导弹", "发射", "投射物"]},
+    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": 1}, "domain": ["general"], "formality": "neutral"},
+    "relations": {"sameRoot": ["mission", "missive", "emit", "commit"], "sameAffix": [], "synonyms": ["projectile", "rocket", "bomb"], "antonyms": [], "domainCohort": ["rocket", "bomb", "warhead"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "mission",
+    "phonetic": "/'mɪʃən/",
+    "pos": ["n."],
+    "coreMeaning": {"cn": "使命；任务；代表团；布道", "en": "an important assignment; a group sent on a task; religious work"},
+    "morphemes": [
+      {"canonical": "miss", "role": "root", "meaning": "发送；派遣", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "miss", "positionTendency": "initial", "coreMeaning": {"cn": "派遣", "en": "send"}},
+      {"canonical": "-ion", "role": "suffix", "meaning": "名词；行为", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ion", "positionTendency": "final", "coreMeaning": {"cn": "行为", "en": "act"}}
+    ],
+    "derivationChain": {"steps": [{"from": "mittere", "to": "mission", "by": "-ion", "meaning": "the act of sending; a task one is sent to perform"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "mission → 被派去执行的任务=使命", "imageChain": ["使命", "任务", "传教"]},
+    "wordLevel": {"sentiment": {"tags": ["积极"], "intensity": 1}, "domain": ["general", "business", "academic"], "formality": "neutral"},
+    "relations": {"sameRoot": ["missionary", "missive", "missile", "emit", "commit"], "sameAffix": [], "synonyms": ["assignment", "task", "duty", "mandate"], "antonyms": [], "domainCohort": ["task", "assignment"], "derivationPair": ["missionary", "missive"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "missionary",
+    "phonetic": "/'mɪʃənɛri/",
+    "pos": ["n.", "adj."],
+    "coreMeaning": {"cn": "传教士；传教的", "en": "a person sent to do religious or charitable work in another place"},
+    "morphemes": [
+      {"canonical": "miss", "role": "root", "meaning": "派遣；传布", "sentiment": {"tags": ["积极"], "intensity": 1}, "order": 1, "form": "mission", "positionTendency": "initial", "coreMeaning": {"cn": "派遣", "en": "send"}},
+      {"canonical": "-ary", "role": "suffix", "meaning": "与…相关的人", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ary", "positionTendency": "final", "coreMeaning": {"cn": "…的人", "en": "person related to"}}
+    ],
+    "derivationChain": {"steps": [{"from": "mission", "to": "missionary", "by": "-ary", "meaning": "one who carries out a mission"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "missionary = mission + ary → 从事传教使命的人", "imageChain": ["传教士", "布道", "跨洋传教"]},
+    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "academic"], "formality": "neutral"},
+    "relations": {"sameRoot": ["mission", "missive", "missile"], "sameAffix": [], "synonyms": ["evangelist", "proselytizer", "preacher"], "antonyms": [], "domainCohort": [], "derivationPair": ["mission"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "missive",
+    "phonetic": "/'mɪsɪv/",
+    "pos": ["n."],
+    "coreMeaning": {"cn": "公函；信件；正式书信", "en": "a letter, especially a long or official one"},
+    "morphemes": [
+      {"canonical": "miss", "role": "root", "meaning": "发送", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "miss", "positionTendency": "initial", "coreMeaning": {"cn": "发送", "en": "send"}},
+      {"canonical": "-ive", "role": "suffix", "meaning": "名词；有…性质的", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "ive", "positionTendency": "final", "coreMeaning": {"cn": "物", "en": "thing relating to"}}
+    ],
+    "derivationChain": {"steps": [{"from": "mittere", "to": "missive", "by": "-ive", "meaning": "something that is sent; a letter"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "missive → 被发送出去的东西=信函", "imageChain": ["信件", "公函", "正式书信"]},
+    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general", "legal"], "formality": "formal"},
+    "relations": {"sameRoot": ["mission", "missile", "emit", "commit"], "sameAffix": [], "synonyms": ["letter", "epistle", "dispatch", "communique"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "misspell",
+    "phonetic": "/,mɪs'spɛl/",
+    "pos": ["v."],
+    "coreMeaning": {"cn": "拼写错误", "en": "spell a word incorrectly"},
+    "morphemes": [
+      {"canonical": "mis-", "role": "prefix", "meaning": "错误地", "sentiment": {"tags": ["消极"], "intensity": 1}, "order": 1, "form": "mis", "positionTendency": "initial", "coreMeaning": {"cn": "错误", "en": "wrongly"}},
+      {"canonical": "spell", "role": "root", "meaning": "拼写", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "spell", "positionTendency": "final", "coreMeaning": {"cn": "拼写", "en": "spell"}}
+    ],
+    "derivationChain": {"steps": [{"from": "spell", "to": "misspell", "by": "mis-", "meaning": "spell incorrectly"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "misspell = mis + spell → 拼写错误", "imageChain": ["拼写", "错误", "笔误"]},
+    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": 1}, "domain": ["general"], "formality": "neutral"},
+    "relations": {"sameRoot": ["spell", "spelling", "misspelling"], "sameAffix": ["misuse", "misjudge", "misbehave"], "synonyms": ["mispronounce", "err"], "antonyms": ["spell correctly"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "misstep",
+    "phonetic": "/,mɪs'stɛp/",
+    "pos": ["n."],
+    "coreMeaning": {"cn": "失足；失误；过失", "en": "a wrong step; a mistake or blunder"},
+    "morphemes": [
+      {"canonical": "mis-", "role": "prefix", "meaning": "错误地", "sentiment": {"tags": ["消极"], "intensity": 1}, "order": 1, "form": "mis", "positionTendency": "initial", "coreMeaning": {"cn": "错误", "en": "wrongly"}},
+      {"canonical": "step", "role": "root", "meaning": "步骤；踏步", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 2, "form": "step", "positionTendency": "final", "coreMeaning": {"cn": "步骤", "en": "step"}}
+    ],
+    "derivationChain": {"steps": [{"from": "step", "to": "misstep", "by": "mis-", "meaning": "a wrong or mistaken step"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "misstep = mis + step → 走错了一步，失足或失误", "imageChain": ["失足", "错误", "失策"]},
+    "wordLevel": {"sentiment": {"tags": ["消极"], "intensity": 1}, "domain": ["general"], "formality": "neutral"},
+    "relations": {"sameRoot": ["step", "footstep", "sidestep"], "sameAffix": ["mistake", "misdeed", "misfire"], "synonyms": ["blunder", "mistake", "slip", "error"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "mist",
+    "phonetic": "/mɪst/",
+    "pos": ["n.", "v."],
+    "coreMeaning": {"cn": "薄雾；雾气；模糊", "en": "a thin fog; to cover with a fine spray of liquid"},
+    "morphemes": [
+      {"canonical": "mist", "role": "root", "meaning": "雾；朦胧", "sentiment": {"tags": ["中性"], "intensity": 0}, "order": 1, "form": "mist", "positionTendency": "medial", "coreMeaning": {"cn": "薄雾", "en": "fine fog"}}
+    ],
+    "derivationChain": {"steps": []},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "mist → 薄雾，使视线朦胧", "imageChain": ["薄雾", "朦胧", "云雾"]},
+    "wordLevel": {"sentiment": {"tags": ["中性"], "intensity": 0}, "domain": ["general"], "formality": "neutral"},
+    "relations": {"sameRoot": ["misty", "misted", "mistiness"], "sameAffix": [], "synonyms": ["fog", "haze", "vapor"], "antonyms": ["clarity", "clearness"], "domainCohort": ["fog", "haze", "vapor"], "derivationPair": ["misty"], "morphVariants": [], "sameImagery": []}
+  }
+]
