@@ -3,10 +3,17 @@
 ## v1.0.0 — 2026-04-19
 
 - manifest 词量 96,434
-- 形素层：roots 5403 / affixes 2740 / linkers 5，合计 8148
+- 形素层：roots 5,403 / affixes 2,740 / linkers 5，合计 8,148
 - 关系图：119,248 条边（12 类）
 - 受控词表 + INV-1..8 不变式校验
 
+## v1.0.0-beta.6 — 2026-04-19
+
+- Stage 1b 最终确认：1497/1497 桶（100%），词条 91,751，JSON 全部合法（0 错误）
+- Stage 2 重建：52,239 词 → 8,148 形素
+- Stage 3 重建：119,248 条边（12 类）
+- Stage 5 打包：v1.0.0，manifest 词量 96,434
+- 修复 Stage 5 CHANGELOG 覆盖问题（现由人工维护）
 
 ## v1.0.0-beta.5 — 2026-04-19
 
@@ -15,7 +22,6 @@
 - Stage 3 重建：关系图 118,718 条边（12 类），较 beta.4 +21,871
 - Stage 5 打包：v1.0.0 发布，manifest 词量 96,434
 - 数据规范化：修复 wordLevel / derivationChain / imageChain / morpheme.sentiment 字段格式（共 ~11,000 条目）
-- 推送至 GitHub：host452b/root_and_affix
 
 ## v1.0.0-beta.4 — 2026-04-19
 
