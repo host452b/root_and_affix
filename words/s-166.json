@@ -1,434 +1,522 @@
 [
   {
     "word": "statutory",
-    "phonetic": "/stætʃʊˌtɔrɪ/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "法定的；法规的；依照法令的",
-      "en": "required, permitted, or enacted by statute"
-    },
+    "phonetic": "/stætʃʊˌtɔːri/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "法定的；法规的", "en": "required, permitted, or created by statute; of or related to statute law"},
     "morphemes": [
-      {
-        "canonical": "stat",
-        "role": "root",
-        "meaning": "站立；确立；规定",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "statut",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-ory",
-        "role": "suffix",
-        "meaning": "形容词：……的",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "ory",
-        "positionTendency": "final"
-      }
+      {"form": "statut", "role": "root", "canonical": "statuere", "meaning": "设立，规定（法律）", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-ory", "role": "suffix", "canonical": "-ory", "meaning": "形容词词尾，与…有关的", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
     ],
-    "derivationChain": [
-      "statuere (L.)",
-      "statutum",
-      "statute",
-      "statutory"
-    ],
+    "derivationChain": {"steps": [{"from": "拉丁 statutum (设定的规则)", "to": "statute", "by": "借入英语"}, {"from": "statute", "to": "statutory", "by": "加-ory构成形容词"}]},
     "morphVariantOf": null,
-    "memorySemantics": {
-      "imageKey": "law books",
-      "scene": "律师翻阅厚厚的法典，确认某项权利是statutory（法律明文规定）而非惯例",
-      "emotionalHook": "法律的权威——写进法律就是不可侵犯",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "legal",
-        "business",
-        "GRE"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "statute",
-        "status",
-        "institution"
-      ],
-      "sameAffix": [
-        "mandatory",
-        "regulatory"
-      ],
-      "synonyms": [
-        "legal",
-        "legislative",
-        "prescribed"
-      ],
-      "antonyms": [
-        "customary",
-        "voluntary"
-      ],
-      "domainCohort": [
-        "legal",
-        "constitutional"
-      ],
-      "derivationPair": [
-        "statute"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "memorySemantics": {"mnemonicExpr": "statute(法规)+ory → 法规规定的→statutory requirement法定要求", "imageChain": "法律条文→按法规规定→statutory"},
+    "wordLevel": {"domain": ["legal", "business", "gre"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["statute", "statutes", "status"], "sameAffix": ["mandatory", "regulatory", "supervisory"], "synonyms": ["legal", "mandated", "legislated"], "antonyms": ["voluntary", "discretionary", "optional"], "domainCohort": ["legal", "mandated", "regulatory"], "derivationPair": ["statute"], "morphVariants": [], "sameImagery": ["law", "regulation"]}
+  },
+  {
+    "word": "statutte",
+    "phonetic": "/stætʃuːt/",
+    "pos": "n",
+    "coreMeaning": {"cn": "法规（statute的古体/变体）", "en": "archaic/variant spelling of statute"},
+    "morphemes": [
+      {"form": "statut", "role": "root", "canonical": "statuere", "meaning": "设立，规定（法律）", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-te", "role": "suffix", "canonical": "-te", "meaning": "古体后缀", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "statute", "to": "statutte", "by": "古体/变体拼写"}]},
+    "morphVariantOf": "statutory",
+    "memorySemantics": {"mnemonicExpr": "statute古体拼写→statutory法规的", "imageChain": "古老法典→statutte"},
+    "wordLevel": {"domain": ["archaic", "legal"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["statutory", "statute"], "sameAffix": [], "synonyms": ["statute"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["statute"], "sameImagery": []}
   },
   {
     "word": "staunch",
-    "phonetic": "/stɔntʃ/",
-    "pos": [
-      "adj.",
-      "v."
-    ],
-    "coreMeaning": {
-      "cn": "坚定的；忠诚的；止住（血流）",
-      "en": "loyal and committed; to stop the flow of blood"
-    },
+    "phonetic": "/stɔːntʃ/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "坚定的；忠诚的；牢固的", "en": "very loyal and committed; watertight; strong and firm"},
     "morphemes": [
-      {
-        "canonical": "staunch",
-        "role": "root",
-        "meaning": "坚定；止流",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "staunch",
-        "positionTendency": "initial"
-      }
+      {"form": "staunch", "role": "root", "canonical": "estancher", "meaning": "止住，坚守，不透水", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 2}}
     ],
-    "derivationChain": [
-      "estanchier (O.Fr.)",
-      "staunch"
-    ],
+    "derivationChain": {"steps": [{"from": "古法语 estancher (止住流血/水)", "to": "staunch", "by": "借入英语，引申为坚定"}]},
     "morphVariantOf": null,
-    "memorySemantics": {
-      "imageKey": "loyal soldier",
-      "scene": "战场上的老兵，用手捂住伤口止血，同时对将领的忠诚从未动摇",
-      "emotionalHook": "双重坚定——止住血流与坚守信念",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "GRE",
-        "GMAT",
-        "toefl"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [],
-      "sameAffix": [],
-      "synonyms": [
-        "steadfast",
-        "loyal",
-        "devoted",
-        "firm"
-      ],
-      "antonyms": [
-        "disloyal",
-        "wavering",
-        "fickle"
-      ],
-      "domainCohort": [
-        "loyal",
-        "steadfast",
-        "resolute"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": [
-        "steadfast",
-        "resolute"
-      ]
-    }
+    "memorySemantics": {"mnemonicExpr": "staunch→stan(站立)+ch → 坚定站立不动→staunch supporter", "imageChain": "坚如磐石的支持者→staunch ally"},
+    "wordLevel": {"domain": ["general", "gre", "toefl", "gmat"], "sentiment": {"tags": ["积极"], "intensity": 2}},
+    "relations": {"sameRoot": ["staunched", "staunchly", "staunchness"], "sameAffix": [], "synonyms": ["firm", "steadfast", "loyal", "resolute"], "antonyms": ["fickle", "unreliable", "wavering"], "domainCohort": ["steadfast", "resolute", "unwavering"], "derivationPair": ["staunchly", "staunchness"], "morphVariants": [], "sameImagery": ["rock", "loyalty"]}
+  },
+  {
+    "word": "staunched",
+    "phonetic": "/stɔːntʃt/",
+    "pos": "v",
+    "coreMeaning": {"cn": "止住（出血）；堵住", "en": "past tense of staunch (verb): stopped the flow of blood or liquid"},
+    "morphemes": [
+      {"form": "staunch", "role": "root", "canonical": "estancher", "meaning": "止住（流血）", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-ed", "role": "suffix", "canonical": "-ed", "meaning": "过去式", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "staunch (v)", "to": "staunched", "by": "加过去式词尾-ed"}]},
+    "morphVariantOf": "staunch",
+    "memorySemantics": {"mnemonicExpr": "staunch(止血)+ed → 已经止住了血", "imageChain": "包扎伤口→staunched the bleeding"},
+    "wordLevel": {"domain": ["medical", "general"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["staunch", "staunching"], "sameAffix": [], "synonyms": ["stopped", "stemmed", "halted"], "antonyms": [], "domainCohort": [], "derivationPair": ["staunch"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "stauncher",
+    "phonetic": "/'stɔːntʃɚ/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "更坚定的；更忠诚的", "en": "comparative form of staunch"},
+    "morphemes": [
+      {"form": "staunch", "role": "root", "canonical": "estancher", "meaning": "坚定，忠诚", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 2}},
+      {"form": "-er", "role": "suffix", "canonical": "-er", "meaning": "比较级", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "staunch", "to": "stauncher", "by": "加-er构成比较级"}]},
+    "morphVariantOf": "staunch",
+    "memorySemantics": {"mnemonicExpr": "staunch比较级→更坚定的", "imageChain": "比之前更加坚定的支持者→stauncher"},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["积极"], "intensity": 2}},
+    "relations": {"sameRoot": ["staunch", "staunchest"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["staunch"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "staunches",
+    "phonetic": "/stɔːntʃɪz/",
+    "pos": "v",
+    "coreMeaning": {"cn": "（他/她）止血；止住流血（三单）", "en": "third person singular present of staunch (verb)"},
+    "morphemes": [
+      {"form": "staunch", "role": "root", "canonical": "estancher", "meaning": "止住（流血）", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-es", "role": "suffix", "canonical": "-es", "meaning": "第三人称单数", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "staunch", "to": "staunches", "by": "加-es三单"}]},
+    "morphVariantOf": "staunch",
+    "memorySemantics": {"mnemonicExpr": "staunch动词三单形式", "imageChain": "护士staunches出血"},
+    "wordLevel": {"domain": ["medical", "general"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["staunch", "staunched", "staunching"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "staunchest",
+    "phonetic": "/'stɔːntʃɪst/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "最坚定的；最忠诚的", "en": "superlative form of staunch"},
+    "morphemes": [
+      {"form": "staunch", "role": "root", "canonical": "estancher", "meaning": "坚定，忠诚", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 2}},
+      {"form": "-est", "role": "suffix", "canonical": "-est", "meaning": "最高级", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "staunch", "to": "staunchest", "by": "加-est构成最高级"}]},
+    "morphVariantOf": "staunch",
+    "memorySemantics": {"mnemonicExpr": "staunch最高级→最坚定的支持者", "imageChain": "最忠诚的盟友→staunchest ally"},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["积极"], "intensity": 2}},
+    "relations": {"sameRoot": ["staunch", "stauncher"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["staunch"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "staunching",
+    "phonetic": "/'stɔːntʃɪŋ/",
+    "pos": "v",
+    "coreMeaning": {"cn": "正在止血；堵住", "en": "present participle of staunch (verb): stopping the flow of blood"},
+    "morphemes": [
+      {"form": "staunch", "role": "root", "canonical": "estancher", "meaning": "止住（流血）", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-ing", "role": "suffix", "canonical": "-ing", "meaning": "现在分词", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "staunch", "to": "staunching", "by": "加-ing现在分词"}]},
+    "morphVariantOf": "staunch",
+    "memorySemantics": {"mnemonicExpr": "staunch+ing → 正在止血", "imageChain": "紧急包扎→staunching the wound"},
+    "wordLevel": {"domain": ["medical"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["staunch", "staunched"], "sameAffix": [], "synonyms": ["stemming", "stopping"], "antonyms": [], "domainCohort": [], "derivationPair": ["staunch"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "staunchly",
+    "phonetic": "/'stɔːntʃli/",
+    "pos": "adv",
+    "coreMeaning": {"cn": "坚定地；忠诚地", "en": "in a staunch manner; firmly and loyally"},
+    "morphemes": [
+      {"form": "staunch", "role": "root", "canonical": "estancher", "meaning": "坚定，忠诚", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 2}},
+      {"form": "-ly", "role": "suffix", "canonical": "-ly", "meaning": "副词词尾", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "staunch", "to": "staunchly", "by": "加-ly构成副词"}]},
+    "morphVariantOf": "staunch",
+    "memorySemantics": {"mnemonicExpr": "staunch+ly → 以坚定的方式", "imageChain": "staunchly defended her position坚定捍卫"},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["积极"], "intensity": 2}},
+    "relations": {"sameRoot": ["staunch", "staunchness"], "sameAffix": ["firmly", "resolutely"], "synonyms": ["firmly", "steadfastly", "resolutely"], "antonyms": ["weakly", "tentatively"], "domainCohort": [], "derivationPair": ["staunch"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "staunchness",
+    "phonetic": "/'stɔːntʃnɪs/",
+    "pos": "n",
+    "coreMeaning": {"cn": "坚定；忠诚", "en": "the quality of being staunch; firmness and loyalty"},
+    "morphemes": [
+      {"form": "staunch", "role": "root", "canonical": "estancher", "meaning": "坚定，忠诚", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 2}},
+      {"form": "-ness", "role": "suffix", "canonical": "-ness", "meaning": "名词化，状态", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "staunch", "to": "staunchness", "by": "加-ness构成名词"}]},
+    "morphVariantOf": "staunch",
+    "memorySemantics": {"mnemonicExpr": "staunch+ness → 坚定的状态→staunchness of purpose坚定信念", "imageChain": "坚守立场的精神→staunchness"},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["积极"], "intensity": 2}},
+    "relations": {"sameRoot": ["staunch", "staunchly"], "sameAffix": ["firmness", "steadfastness"], "synonyms": ["firmness", "loyalty", "steadfastness"], "antonyms": ["fickleness", "disloyalty"], "domainCohort": [], "derivationPair": ["staunch"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "staunton",
+    "phonetic": "/'stɔːntən/",
+    "pos": "n",
+    "coreMeaning": {"cn": "斯汤顿（人名/棋子款式名）", "en": "a surname; also a standard chess piece design named after Howard Staunton"},
+    "morphemes": [
+      {"form": "staunton", "role": "root", "canonical": "staunton", "meaning": "人名，地名", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "英国象棋家Howard Staunton", "to": "Staunton chess pieces", "by": "人名→标准棋子设计名"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "Staunton→19世纪象棋冠军→标准象棋棋子设计→Staunton set", "imageChain": "国际象棋棋子→标准形制→Staunton design"},
+    "wordLevel": {"domain": ["proper noun", "chess"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["chess", "Kasparov", "Fischer"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "stave",
+    "phonetic": "/steɪv/",
+    "pos": "n",
+    "coreMeaning": {"cn": "桶板；木条；五线谱", "en": "a narrow piece of wood forming part of a barrel; a staff in music"},
+    "morphemes": [
+      {"form": "stave", "role": "root", "canonical": "stave", "meaning": "支撑棒，木条，桶板", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "staff的复数形式→staves→倒推单数形式stave", "to": "stave", "by": "back-formation"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "stave→stave off(抵挡)→一根棍子挡住→stave", "imageChain": "桶的木板条→stave/五线谱staff→stave"},
+    "wordLevel": {"domain": ["general", "music", "gmat"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["staved", "staves", "stave off"], "sameAffix": [], "synonyms": ["board", "plank", "staff"], "antonyms": [], "domainCohort": ["plank", "board", "staff"], "derivationPair": ["staves"], "morphVariants": ["staff"], "sameImagery": ["wood", "barrier"]}
+  },
+  {
+    "word": "staved",
+    "phonetic": "/steɪvd/",
+    "pos": "v",
+    "coreMeaning": {"cn": "敲破；击穿（过去式）", "en": "past tense of stave; smashed in; also staved off = kept away"},
+    "morphemes": [
+      {"form": "stave", "role": "root", "canonical": "stave", "meaning": "击打，敲破", "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}},
+      {"form": "-d", "role": "suffix", "canonical": "-ed", "meaning": "过去式", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "stave", "to": "staved", "by": "加-d过去式"}]},
+    "morphVariantOf": "stave",
+    "memorySemantics": {"mnemonicExpr": "stave+d → 已经击破/抵挡了", "imageChain": "staved off disaster→避免了灾难"},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["stave", "staving"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["stave"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "staven",
+    "phonetic": "/'steɪvən/",
+    "pos": "n",
+    "coreMeaning": {"cn": "木条（古体/方言）", "en": "archaic or dialectal form of stave"},
+    "morphemes": [
+      {"form": "stave", "role": "root", "canonical": "stave", "meaning": "木条，桶板", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-n", "role": "suffix", "canonical": "-en", "meaning": "古英语复数/形容词化", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "stave", "to": "staven", "by": "古英语/方言词形"}]},
+    "morphVariantOf": "stave",
+    "memorySemantics": {"mnemonicExpr": "stave的古体形式→staven", "imageChain": "古代木条"},
+    "wordLevel": {"domain": ["archaic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["stave", "staves"], "sameAffix": [], "synonyms": ["stave", "staff"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["stave"], "sameImagery": []}
+  },
+  {
+    "word": "staves",
+    "phonetic": "/steɪvz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "桶板；木条；五线谱（复数）", "en": "plural of staff or stave; narrow planks of a barrel; musical staves"},
+    "morphemes": [
+      {"form": "stave", "role": "root", "canonical": "stave", "meaning": "木条，桶板", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "stave", "to": "staves", "by": "加复数词尾-s"}]},
+    "morphVariantOf": "stave",
+    "memorySemantics": {"mnemonicExpr": "stave复数/staff复数→staves", "imageChain": "桶的多条木板→staves/多条五线谱→staves"},
+    "wordLevel": {"domain": ["general", "music", "literary"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["stave", "staff"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["stave"], "morphVariants": ["staff"], "sameImagery": []}
+  },
+  {
+    "word": "stavesacre",
+    "phonetic": "/'steɪvzˌeɪkɚ/",
+    "pos": "n",
+    "coreMeaning": {"cn": "飞燕草（植物）；staves acre草", "en": "a plant (Delphinium staphisagria) with poisonous seeds used historically as a pesticide"},
+    "morphemes": [
+      {"form": "stave", "role": "root", "canonical": "stave", "meaning": "词源obscure，可能与'acre'相关", "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}},
+      {"form": "sacre", "role": "root", "canonical": "staphisagria", "meaning": "拉丁/希腊植物名", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "拉丁 staphisagria (飞燕草)", "to": "stavesacre", "by": "民间词源解释"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "staves+acre → 一亩地的有毒植物", "imageChain": "有毒种子→历史上用于杀虱→stavesacre"},
+    "wordLevel": {"domain": ["botany", "herbal"], "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["stave"], "sameAffix": [], "synonyms": ["lice-bane"], "antonyms": [], "domainCohort": ["delphinium", "larkspur"], "derivationPair": [], "morphVariants": [], "sameImagery": ["poisonous plant"]}
+  },
+  {
+    "word": "stavev",
+    "phonetic": "/steɪv/",
+    "pos": "v",
+    "coreMeaning": {"cn": "击破；击穿（动词标注变体）", "en": "variant entry marking for verbal use of stave"},
+    "morphemes": [
+      {"form": "stave", "role": "root", "canonical": "stave", "meaning": "击破，抵挡", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "stave", "to": "stavev", "by": "词库动词标注变体"}]},
+    "morphVariantOf": "stave",
+    "memorySemantics": {"mnemonicExpr": "stave动词标注形式", "imageChain": "stave off→击退"},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["stave", "staved"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["stave"], "sameImagery": []}
+  },
+  {
+    "word": "stay-at-home",
+    "phonetic": "/'steɪ.æt.həʊm/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "居家的；不外出工作的", "en": "staying at home rather than going out to work; domestic"},
+    "morphemes": [
+      {"form": "stay", "role": "root", "canonical": "stay", "meaning": "留下，停留", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "at", "role": "linker", "canonical": "at", "meaning": "在", "positionTendency": "medial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "home", "role": "root", "canonical": "home", "meaning": "家", "positionTendency": "final", "sentiment": {"tags": ["积极"], "intensity": 1}}
+    ],
+    "derivationChain": {"steps": [{"from": "stay + at + home", "to": "stay-at-home", "by": "复合形容词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "stay(留)+at+home(家)→ 居家的→stay-at-home mom", "imageChain": "不出门上班→在家照料家庭→stay-at-home"},
+    "wordLevel": {"domain": ["general", "family"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["stay", "stayed"], "sameAffix": [], "synonyms": ["domestic", "homebound"], "antonyms": ["working", "career-oriented"], "domainCohort": ["homemaker", "housewife"], "derivationPair": ["stay"], "morphVariants": [], "sameImagery": ["home", "domestic"]}
+  },
+  {
+    "word": "staycation",
+    "phonetic": "/steɪ'keɪʃən/",
+    "pos": "n",
+    "coreMeaning": {"cn": "宅度假；在家度假", "en": "a vacation spent at home or near home rather than traveling away"},
+    "morphemes": [
+      {"form": "stay", "role": "root", "canonical": "stay", "meaning": "留下，不外出", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "cation", "role": "suffix", "canonical": "vacation", "meaning": "假期（缩略）", "positionTendency": "final", "sentiment": {"tags": ["积极"], "intensity": 1}}
+    ],
+    "derivationChain": {"steps": [{"from": "stay + vacation", "to": "staycation", "by": "混合词（portmanteau）"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "stay(留)+cation(vacation假期)→ 在家的假期→staycation", "imageChain": "不旅行→在家享受假期→staycation"},
+    "wordLevel": {"domain": ["modern slang", "lifestyle"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["stay", "vacation"], "sameAffix": [], "synonyms": ["home vacation", "stay-home holiday"], "antonyms": ["vacation", "travel", "trip"], "domainCohort": ["vacation", "holiday", "leisure"], "derivationPair": ["stay", "vacation"], "morphVariants": [], "sameImagery": ["home", "relaxation"]}
+  },
+  {
+    "word": "stayed",
+    "phonetic": "/steɪd/",
+    "pos": "v",
+    "coreMeaning": {"cn": "待过；停留过（过去式）", "en": "past tense of stay; remained or resided somewhere"},
+    "morphemes": [
+      {"form": "stay", "role": "root", "canonical": "stay", "meaning": "留下，停留", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-ed", "role": "suffix", "canonical": "-ed", "meaning": "过去式", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "stay", "to": "stayed", "by": "加-d过去式"}]},
+    "morphVariantOf": "stay",
+    "memorySemantics": {"mnemonicExpr": "stay+d → 曾经停留过", "imageChain": "住在酒店→stayed for a week"},
+    "wordLevel": {"domain": ["general", "literary"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["stay", "staying", "stayer"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["stay"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "stayer",
+    "phonetic": "/'steɪɚ/",
+    "pos": "n",
+    "coreMeaning": {"cn": "长跑型选手；坚持不懈的人", "en": "a person or horse with the stamina to complete a long race; a persistent person"},
+    "morphemes": [
+      {"form": "stay", "role": "root", "canonical": "stay", "meaning": "坚持，留守", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-er", "role": "suffix", "canonical": "-er", "meaning": "执行者", "positionTendency": "final", "sentiment": {"tags": ["积极"], "intensity": 1}}
+    ],
+    "derivationChain": {"steps": [{"from": "stay", "to": "stayer", "by": "加-r构成人称名词"}]},
+    "morphVariantOf": "stay",
+    "memorySemantics": {"mnemonicExpr": "stay(坚持)+er → 能坚持下去的人→stayer at long distance", "imageChain": "马拉松长距离→stayer型赛马/运动员"},
+    "wordLevel": {"domain": ["sports", "general"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["stay", "staying"], "sameAffix": ["runner", "finisher"], "synonyms": ["endurer", "plodder", "finisher"], "antonyms": ["quitter", "sprinter"], "domainCohort": ["long-distance runner", "endurer"], "derivationPair": ["stay"], "morphVariants": [], "sameImagery": ["endurance", "persistence"]}
+  },
+  {
+    "word": "stayers",
+    "phonetic": "/'steɪɚz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "长跑型选手们（复数）", "en": "plural of stayer"},
+    "morphemes": [
+      {"form": "stayer", "role": "root", "canonical": "stay", "meaning": "坚持者", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "stayer", "to": "stayers", "by": "加复数词尾-s"}]},
+    "morphVariantOf": "stay",
+    "memorySemantics": {"mnemonicExpr": "stayer复数→一群长距离型运动员", "imageChain": "一批马拉松选手→stayers"},
+    "wordLevel": {"domain": ["sports"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["stayer", "stay"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["stayer"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "staying",
+    "phonetic": "/'steɪɪŋ/",
+    "pos": "v",
+    "coreMeaning": {"cn": "正在停留；居住中", "en": "present participle of stay; remaining in a place"},
+    "morphemes": [
+      {"form": "stay", "role": "root", "canonical": "stay", "meaning": "留下，停留", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-ing", "role": "suffix", "canonical": "-ing", "meaning": "现在分词", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "stay", "to": "staying", "by": "加-ing现在分词"}]},
+    "morphVariantOf": "stay",
+    "memorySemantics": {"mnemonicExpr": "stay+ing → 正在停留", "imageChain": "她正住在朋友家→staying with friends"},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["stay", "stayed", "stayer"], "sameAffix": [], "synonyms": ["remaining", "residing"], "antonyms": ["leaving", "departing"], "domainCohort": [], "derivationPair": ["stay"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "staymaker",
+    "phonetic": "/'steɪˌmeɪkɚ/",
+    "pos": "n",
+    "coreMeaning": {"cn": "束腰制作者（古职业）", "en": "historical: a maker of corsets or stays"},
+    "morphemes": [
+      {"form": "stay", "role": "root", "canonical": "stay", "meaning": "支撑物，束腰（古义）", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "maker", "role": "root", "canonical": "make", "meaning": "制作者", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "stays(束腰复数)+maker(制作者)", "to": "staymaker", "by": "复合词，古职业名"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "stay(束腰)+maker(制作者)→ 束腰制作者→staymaker", "imageChain": "维多利亚时代的束腰→staymaker"},
+    "wordLevel": {"domain": ["historical", "fashion"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["stay", "stays"], "sameAffix": ["shoemaker", "dressmaker"], "synonyms": ["corsetmaker", "corsetiere"], "antonyms": [], "domainCohort": ["tailor", "dressmaker", "seamstress"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "stays",
+    "phonetic": "/steɪz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "束腰；（船的）撑绳；停留（三单）", "en": "plural: corset; ropes supporting a mast; third person singular of stay"},
+    "morphemes": [
+      {"form": "stay", "role": "root", "canonical": "stay", "meaning": "支撑，停留", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-s", "role": "suffix", "canonical": "-s", "meaning": "复数/三单", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "stay", "to": "stays", "by": "加-s"}]},
+    "morphVariantOf": "stay",
+    "memorySemantics": {"mnemonicExpr": "stay的三单或复数→束腰/她stays在这里", "imageChain": "支撑结构→stays/她留下来→she stays"},
+    "wordLevel": {"domain": ["general", "nautical", "fashion"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["stay", "stayed", "staying"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "stead",
+    "phonetic": "/sted/",
+    "pos": "n",
+    "coreMeaning": {"cn": "位置；替代；好处（用于in someone's stead）", "en": "the place or role of someone or something; used in 'in someone's stead' = instead of"},
+    "morphemes": [
+      {"form": "stead", "role": "root", "canonical": "stead", "meaning": "场所，位置，代替", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "古英语 stede (地方，场所)", "to": "stead", "by": "语音演变"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "stead→stead=代位→in my stead代替我", "imageChain": "顶替位置→in his stead代替他"},
+    "wordLevel": {"domain": ["literary", "archaic"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["steadfast", "instead", "homestead"], "sameAffix": [], "synonyms": ["place", "position", "lieu"], "antonyms": [], "domainCohort": ["instead", "lieu", "place"], "derivationPair": ["steadfast", "instead"], "morphVariants": [], "sameImagery": ["position", "place"]}
   },
   {
     "word": "steadfast",
     "phonetic": "/'stɛdfæst/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "坚定不移的；不变的",
-      "en": "resolutely firm and unwavering"
-    },
+    "pos": "adj",
+    "coreMeaning": {"cn": "坚定的；不动摇的；忠实的", "en": "resolutely firm and unwavering; loyal and constant"},
     "morphemes": [
-      {
-        "canonical": "stead",
-        "role": "root",
-        "meaning": "地方；固定位置",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "stead",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "fast",
-        "role": "root",
-        "meaning": "固定的；紧紧地",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 2,
-        "form": "fast",
-        "positionTendency": "final"
-      }
+      {"form": "stead", "role": "root", "canonical": "stead", "meaning": "场所，固定", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 2}},
+      {"form": "fast", "role": "root", "canonical": "fast", "meaning": "固定，坚固（古英语义）", "positionTendency": "final", "sentiment": {"tags": ["积极"], "intensity": 2}}
     ],
-    "derivationChain": [
-      "stedefast (O.E.)",
-      "steadfast"
-    ],
+    "derivationChain": {"steps": [{"from": "古英语 stedefæst (固定不动的)", "to": "steadfast", "by": "语音演变"}]},
     "morphVariantOf": null,
-    "memorySemantics": {
-      "imageKey": "anchor in storm",
-      "scene": "暴风雨中，船锚牢牢抓住海底，船只纹丝不动——steadfast如锚般稳固",
-      "emotionalHook": "磐石般的坚定——任何风浪都无法撼动",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "GRE",
-        "SAT",
-        "ielts"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 2
-      }
-    },
-    "relations": {
-      "sameRoot": [],
-      "sameAffix": [],
-      "synonyms": [
-        "resolute",
-        "unwavering",
-        "staunch",
-        "firm",
-        "determined"
-      ],
-      "antonyms": [
-        "wavering",
-        "irresolute",
-        "fickle"
-      ],
-      "domainCohort": [
-        "resolute",
-        "persistent",
-        "tenacious"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": [
-        "staunch",
-        "resolute"
-      ]
-    }
+    "memorySemantics": {"mnemonicExpr": "stead(固定位置)+fast(牢固)→ 牢固站立不动→坚定不移→steadfast", "imageChain": "锚固定在海底→steadfast commitment"},
+    "wordLevel": {"domain": ["general", "sat", "ielts", "gre"], "sentiment": {"tags": ["积极"], "intensity": 2}},
+    "relations": {"sameRoot": ["stead", "steadfastly", "steadfastness"], "sameAffix": [], "synonyms": ["firm", "unwavering", "resolute", "staunch"], "antonyms": ["wavering", "fickle", "vacillating"], "domainCohort": ["resolute", "stalwart", "unwavering"], "derivationPair": ["steadfastly", "steadfastness"], "morphVariants": [], "sameImagery": ["anchor", "rock"]}
+  },
+  {
+    "word": "steadfastly",
+    "phonetic": "/'stɛdfæstli/",
+    "pos": "adv",
+    "coreMeaning": {"cn": "坚定地；不动摇地", "en": "in a steadfast manner; resolutely and firmly"},
+    "morphemes": [
+      {"form": "steadfast", "role": "root", "canonical": "stead", "meaning": "坚定不移", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 2}},
+      {"form": "-ly", "role": "suffix", "canonical": "-ly", "meaning": "副词词尾", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "steadfast", "to": "steadfastly", "by": "加-ly构成副词"}]},
+    "morphVariantOf": "steadfast",
+    "memorySemantics": {"mnemonicExpr": "steadfast+ly → 以坚定的方式→steadfastly refused坚定拒绝", "imageChain": "他steadfastly stood his ground坚守阵地"},
+    "wordLevel": {"domain": ["general", "literary"], "sentiment": {"tags": ["积极"], "intensity": 2}},
+    "relations": {"sameRoot": ["steadfast", "steadfastness"], "sameAffix": ["resolutely", "firmly"], "synonyms": ["resolutely", "firmly", "unwavering"], "antonyms": ["weakly", "vacillatingly"], "domainCohort": [], "derivationPair": ["steadfast"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "steadfastness",
+    "phonetic": "/'stɛdfæstnɪs/",
+    "pos": "n",
+    "coreMeaning": {"cn": "坚定；不动摇", "en": "the quality of being steadfast; firm resolution"},
+    "morphemes": [
+      {"form": "steadfast", "role": "root", "canonical": "stead", "meaning": "坚定不移", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 2}},
+      {"form": "-ness", "role": "suffix", "canonical": "-ness", "meaning": "名词化，状态", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "steadfast", "to": "steadfastness", "by": "加-ness构成名词"}]},
+    "morphVariantOf": "steadfast",
+    "memorySemantics": {"mnemonicExpr": "steadfast+ness → 坚定的状态", "imageChain": "坚持信念的品质→steadfastness of purpose"},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["积极"], "intensity": 2}},
+    "relations": {"sameRoot": ["steadfast", "steadfastly"], "sameAffix": ["firmness", "resoluteness"], "synonyms": ["firmness", "resolution", "constancy"], "antonyms": ["fickleness", "vacillation"], "domainCohort": [], "derivationPair": ["steadfast"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "steadied",
+    "phonetic": "/'stɛdid/",
+    "pos": "v",
+    "coreMeaning": {"cn": "使稳定了；稳住了", "en": "past tense of steady; made or became steady"},
+    "morphemes": [
+      {"form": "stead", "role": "root", "canonical": "stead", "meaning": "稳定，固定", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-ied", "role": "suffix", "canonical": "-ed", "meaning": "过去式（y→ied）", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "steady", "to": "steadied", "by": "y→ied变过去式"}]},
+    "morphVariantOf": "steady",
+    "memorySemantics": {"mnemonicExpr": "steady→steadied → 使稳定了", "imageChain": "她用手稳住了颤抖的手→steadied herself"},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["steady", "steadying", "steadiness"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["steady"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "steadily",
+    "phonetic": "/'stɛdəli/",
+    "pos": "adv",
+    "coreMeaning": {"cn": "稳定地；持续地", "en": "in a steady manner; at a regular pace without interruption"},
+    "morphemes": [
+      {"form": "stead", "role": "root", "canonical": "stead", "meaning": "稳定，固定", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-ily", "role": "suffix", "canonical": "-ly", "meaning": "副词词尾（y→ily）", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "steady", "to": "steadily", "by": "y→ily构成副词"}]},
+    "morphVariantOf": "steady",
+    "memorySemantics": {"mnemonicExpr": "steady+ily → 以稳定的方式→growing steadily持续增长", "imageChain": "稳步向前→steadily improving"},
+    "wordLevel": {"domain": ["general", "cefr"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["steady", "steadiness", "steadfast"], "sameAffix": ["gradually", "consistently"], "synonyms": ["consistently", "continuously", "gradually"], "antonyms": ["erratically", "unevenly", "fitfully"], "domainCohort": ["gradually", "consistently", "evenly"], "derivationPair": ["steady"], "morphVariants": [], "sameImagery": ["consistency", "progress"]}
+  },
+  {
+    "word": "steadiness",
+    "phonetic": "/'stedinəs/",
+    "pos": "n",
+    "coreMeaning": {"cn": "稳健；坚定；平稳", "en": "the quality of being steady; regularity and calmness"},
+    "morphemes": [
+      {"form": "stead", "role": "root", "canonical": "stead", "meaning": "稳定，固定", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-iness", "role": "suffix", "canonical": "-ness", "meaning": "名词化（y→iness）", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "steady", "to": "steadiness", "by": "y→iness构成名词"}]},
+    "morphVariantOf": "steady",
+    "memorySemantics": {"mnemonicExpr": "steady+ness → 稳定的状态→steadiness of hand外科医生手稳", "imageChain": "手术刀稳稳切入→steadiness"},
+    "wordLevel": {"domain": ["general", "gre"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["steady", "steadily", "steadfast"], "sameAffix": ["calmness", "firmness"], "synonyms": ["stability", "regularity", "composure"], "antonyms": ["unsteadiness", "volatility", "erraticness"], "domainCohort": ["stability", "composure", "equanimity"], "derivationPair": ["steady"], "morphVariants": [], "sameImagery": ["balance", "stability"]}
   },
   {
     "word": "steady",
     "phonetic": "/'stɛdi/",
-    "pos": [
-      "adj.",
-      "v.",
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "稳定的；均匀的；使稳定",
-      "en": "firmly fixed; uniform and regular; to make steady"
-    },
+    "pos": "adj",
+    "coreMeaning": {"cn": "稳定的；不变的；沉着的", "en": "firmly fixed, supported, or balanced; regular and continuous; sensible and reliable"},
     "morphemes": [
-      {
-        "canonical": "stead",
-        "role": "root",
-        "meaning": "固定位置；站稳",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "stead",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-y",
-        "role": "suffix",
-        "meaning": "形容词化",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "y",
-        "positionTendency": "final"
-      }
+      {"form": "stead", "role": "root", "canonical": "stead", "meaning": "固定位置，稳定", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-y", "role": "suffix", "canonical": "-y", "meaning": "形容词化", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
     ],
-    "derivationChain": [
-      "stede (O.E.)",
-      "stedy",
-      "steady"
-    ],
+    "derivationChain": {"steps": [{"from": "stead (固定)", "to": "steady", "by": "加-y构成形容词"}]},
     "morphVariantOf": null,
-    "memorySemantics": {
-      "imageKey": "flat heartbeat line",
-      "scene": "心电监护仪显示平稳有规律的心跳波形，一切指标稳定",
-      "emotionalHook": "稳定中的安全感——不起伏、不动荡的平稳",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general",
-        "academic",
-        "cet4"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "steadfast",
-        "stead"
-      ],
-      "sameAffix": [
-        "ready",
-        "handy"
-      ],
-      "synonyms": [
-        "stable",
-        "constant",
-        "regular",
-        "uniform"
-      ],
-      "antonyms": [
-        "unsteady",
-        "erratic",
-        "fluctuating"
-      ],
-      "domainCohort": [
-        "stable",
-        "consistent"
-      ],
-      "derivationPair": [
-        "steadfast"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "memorySemantics": {"mnemonicExpr": "stead(固定)+y → 固定不动的→稳定的→steady progress稳步进展", "imageChain": "三脚架→稳定画面→steady"},
+    "wordLevel": {"domain": ["general", "ielts", "toefl", "gre", "cet4", "npee", "business", "academic"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["steadfast", "steadily", "steadiness", "stead"], "sameAffix": [], "synonyms": ["stable", "consistent", "reliable", "regular"], "antonyms": ["unsteady", "erratic", "volatile", "inconsistent"], "domainCohort": ["stable", "consistent", "regular", "constant"], "derivationPair": ["steadily", "steadiness"], "morphVariants": [], "sameImagery": ["balance", "stability"]}
   },
   {
-    "word": "stave",
-    "phonetic": "/stev/",
-    "pos": [
-      "n.",
-      "v."
-    ],
-    "coreMeaning": {
-      "cn": "桶板；棍棒；防御；以棍打",
-      "en": "a wooden strip forming a barrel; to ward off"
-    },
+    "word": "steadying",
+    "phonetic": "/'stɛdiɪŋ/",
+    "pos": "v",
+    "coreMeaning": {"cn": "正在使稳定；稳住", "en": "present participle of steady; making or becoming steady"},
     "morphemes": [
-      {
-        "canonical": "stave",
-        "role": "root",
-        "meaning": "木板；棍棒",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "stave",
-        "positionTendency": "initial"
-      }
+      {"form": "stead", "role": "root", "canonical": "stead", "meaning": "稳定，固定", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-ying", "role": "suffix", "canonical": "-ing", "meaning": "现在分词（y→ying）", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
     ],
-    "derivationChain": [
-      "stæf (O.E.)",
-      "stave"
+    "derivationChain": {"steps": [{"from": "steady", "to": "steadying", "by": "加-ing现在分词"}]},
+    "morphVariantOf": "steady",
+    "memorySemantics": {"mnemonicExpr": "steady+ing → 正在使稳定", "imageChain": "稳住桌子→steadying the table"},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["steady", "steadied"], "sameAffix": [], "synonyms": ["stabilizing", "calming"], "antonyms": ["destabilizing"], "domainCohort": [], "derivationPair": ["steady"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "steak",
+    "phonetic": "/steɪk/",
+    "pos": "n",
+    "coreMeaning": {"cn": "牛排；肉片；鱼排", "en": "a thick slice of meat or fish, typically cut across the muscle fibers"},
+    "morphemes": [
+      {"form": "steak", "role": "root", "canonical": "steak", "meaning": "肉排，烤肉片", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}}
     ],
+    "derivationChain": {"steps": [{"from": "古挪威语 steik (烤肉)", "to": "steak", "by": "借入英语"}]},
     "morphVariantOf": null,
-    "memorySemantics": {
-      "imageKey": "barrel staves",
-      "scene": "橡木桶由多块弯曲木板（staves）拼合而成；在危机中stave off（抵挡）灾难来临",
-      "emotionalHook": "一块木板支撑整个结构——微小元素的关键作用",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "GMAT",
-        "literature"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [],
-      "sameAffix": [],
-      "synonyms": [
-        "ward off",
-        "repel",
-        "avert"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "plank",
-        "slat"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "memorySemantics": {"mnemonicExpr": "steak→stake(棍子)谐音→插在火上烤的肉→steak", "imageChain": "铁板牛排→medium rare→steak"},
+    "wordLevel": {"domain": ["food", "culinary", "ielts", "npee"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": ["cut", "chop", "slice"], "antonyms": [], "domainCohort": ["beef", "grille", "sirloin", "fillet"], "derivationPair": [], "morphVariants": [], "sameImagery": ["meat", "grilling"]}
   }
 ]

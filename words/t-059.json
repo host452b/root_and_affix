@@ -1,441 +1,316 @@
 [
   {
-    "word": "total",
-    "phonetic": "/'totl/",
-    "pos": [
-      "adj.",
-      "n.",
-      "v."
-    ],
-    "coreMeaning": {
-      "cn": "全部的；总计；总数",
-      "en": "comprising the whole; the full amount or sum"
-    },
+    "word": "toss",
+    "phonetic": "/tɔs/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "扔，掷；摇摆，颠簸", "en": "to throw lightly; to move about or be moved about rapidly" },
     "morphemes": [
-      {
-        "canonical": "tot",
-        "role": "root",
-        "meaning": "全部；整体",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "tot",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-al",
-        "role": "suffix",
-        "meaning": "形容词/名词化",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "al",
-        "positionTendency": "final"
-      }
+      { "form": "toss", "role": "root", "canonical": "toss", "meaning": "轻掷，摇摆", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } }
     ],
-    "derivationChain": [
-      "totus (L.)",
-      "total (Med.L.)"
-    ],
+    "derivationChain": { "steps": [{ "from": "Scandinavian origin", "to": "toss", "by": "借自北欧语，意为投掷/摇摆" }] },
     "morphVariantOf": null,
-    "memorySemantics": {
-      "imageKey": "calculator sum",
-      "scene": "计算器按下=键，屏幕上显示所有数字的最终总和",
-      "emotionalHook": "完整感——没有任何遗漏的全部",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general",
-        "SAT",
-        "academic"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "totalitarian",
-        "totality",
-        "toto"
-      ],
-      "sameAffix": [
-        "general",
-        "universal"
-      ],
-      "synonyms": [
-        "entire",
-        "complete",
-        "aggregate",
-        "sum"
-      ],
-      "antonyms": [
-        "partial",
-        "incomplete"
-      ],
-      "domainCohort": [
-        "aggregate",
-        "sum",
-        "whole"
-      ],
-      "derivationPair": [
-        "totality"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "memorySemantics": { "mnemonicExpr": "抛硬币→toss(掷/扔)", "imageChain": ["硬币抛起","轻掷","沙拉翻拌"] },
+    "wordLevel": { "domain": ["general","gre","ielts","npee","academic"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["tossed","tosser","tosses","tossing","toss-up","tossn","tossv"], "sameAffix": [], "synonyms": ["throw","fling","hurl","pitch"], "antonyms": ["catch","hold"], "domainCohort": ["throw","fling","pitch","flip"], "derivationPair": [], "morphVariants": ["tossed","tosses","tossing","toss-up"], "sameImagery": ["throw","flip"] }
+  },
+  {
+    "word": "toss-up",
+    "phonetic": "/'tɔsʌp/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "抛硬币；难以决断之事", "en": "a coin toss; something that is equally likely to go either way" },
+    "morphemes": [
+      { "form": "toss", "role": "root", "canonical": "toss", "meaning": "抛掷", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "up", "role": "suffix", "canonical": "up", "meaning": "向上", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "toss + up", "to": "toss-up", "by": "合成词：向上抛" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "toss(掷)+up(向上)→抛硬币决定→难分胜负", "imageChain": ["硬币","抛起","猜正反"] },
+    "wordLevel": { "domain": ["general"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["toss","tosses"], "sameAffix": [], "synonyms": ["coin flip","toss","even chance"], "antonyms": [], "domainCohort": ["gamble","chance","luck"], "derivationPair": [], "morphVariants": [], "sameImagery": ["coin flip"] }
+  },
+  {
+    "word": "tosser",
+    "phonetic": "/'tɔsər/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "投掷者；（英俚）笨蛋", "en": "one who tosses; (British slang) a stupid or contemptible person" },
+    "morphemes": [
+      { "form": "toss", "role": "root", "canonical": "toss", "meaning": "投掷", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "-er", "role": "suffix", "canonical": "-er", "meaning": "名词后缀：做…的人", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "toss", "to": "tosser", "by": "加人称后缀 -er" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "toss(扔)+-er(者)→投掷者；英俚扩展为轻浮之人", "imageChain": ["投手","英国俚语","蔑称"] },
+    "wordLevel": { "domain": ["general"], "sentiment": { "tags": ["贬义"], "intensity": 1 } },
+    "relations": { "sameRoot": ["toss","tossed"], "sameAffix": [], "synonyms": ["thrower","pitcher"], "antonyms": [], "domainCohort": [], "derivationPair": ["toss","tosser"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "tosspot",
+    "phonetic": "/'tɔspɒt/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "酒鬼；混蛋（旧式贬义词）", "en": "a drunkard; a contemptible person (archaic insult)" },
+    "morphemes": [
+      { "form": "toss", "role": "root", "canonical": "toss", "meaning": "投掷，翻倒（酒杯）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "pot", "role": "root", "canonical": "pot", "meaning": "壶，杯", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "toss + pot", "to": "tosspot", "by": "合成词：频繁举杯→酒鬼" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "toss(翻)+pot(杯)→不断翻杯喝酒之人→酒鬼", "imageChain": ["酒杯","举杯","醉汉"] },
+    "wordLevel": { "domain": ["literary"], "sentiment": { "tags": ["贬义"], "intensity": 2 } },
+    "relations": { "sameRoot": ["toss"], "sameAffix": [], "synonyms": ["drunkard","sot","lush"], "antonyms": [], "domainCohort": ["drunkard","rogue","lout"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "tostada",
+    "phonetic": "/tɒ'stɑːdə/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "脆玉米饼（墨西哥食品）", "en": "a fried or toasted corn tortilla, often topped with food" },
+    "morphemes": [
+      { "form": "tostada", "role": "root", "canonical": "tostada", "meaning": "烤制的（西班牙语）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Spanish tostada (toasted)", "to": "tostada", "by": "借入英语作食品名" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "西班牙语烤面包→墨西哥脆饼→tostada", "imageChain": ["玉米饼","炸脆","墨西哥菜"] },
+    "wordLevel": { "domain": ["general"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": ["tortilla","taco shell"], "antonyms": [], "domainCohort": ["taco","burrito","tortilla"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "total",
+    "phonetic": "/'toʊtl/",
+    "pos": "adjective",
+    "coreMeaning": { "cn": "全部的，总体的；完全的", "en": "comprising the whole; complete" },
+    "morphemes": [
+      { "form": "tot", "role": "root", "canonical": "totus", "meaning": "全体，整体", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "-al", "role": "suffix", "canonical": "-al", "meaning": "形容词后缀：…的", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Latin totus (whole, all)", "to": "total", "by": "via Medieval Latin totalis" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "tot(全部)+al→总体的→total(总计/完全的)", "imageChain": ["全体","汇总","总数"] },
+    "wordLevel": { "domain": ["general","sat","academic"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["totality","totally","totalize","totalitarian","totals","toto","totaln","totalv","totaladj"], "sameAffix": ["national","natural","central"], "synonyms": ["complete","entire","whole","aggregate"], "antonyms": ["partial","incomplete"], "domainCohort": ["sum","aggregate","whole","complete"], "derivationPair": ["total","totality"], "morphVariants": ["totally","totals","totaled","totaling","totaladj","totaln","totalv"], "sameImagery": ["whole","sum"] }
   },
   {
     "word": "totalitarian",
-    "phonetic": "/to,tælə'tɛrɪən/",
-    "pos": [
-      "adj.",
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "极权主义的；全权统治的",
-      "en": "relating to a system of government with total control"
-    },
+    "phonetic": "/toʊ,tælɪ'tɛriən/",
+    "pos": "adjective",
+    "coreMeaning": { "cn": "极权主义的", "en": "relating to a system of government that is centralized and dictatorial" },
     "morphemes": [
-      {
-        "canonical": "tot",
-        "role": "root",
-        "meaning": "全部；整体",
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": 2
-        },
-        "order": 1,
-        "form": "total",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-itarian",
-        "role": "suffix",
-        "meaning": "形容词：……主义的",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "itarian",
-        "positionTendency": "final"
-      }
+      { "form": "tot", "role": "root", "canonical": "totus", "meaning": "全体，整体", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "-al", "role": "suffix", "canonical": "-al", "meaning": "形容词后缀", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "-itarian", "role": "suffix", "canonical": "-itarian", "meaning": "…主义者/信奉者", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
     ],
-    "derivationChain": [
-      "totus (L.)",
-      "total",
-      "totalitarian"
-    ],
+    "derivationChain": { "steps": [{ "from": "total", "to": "totalitarian", "by": "加 -itarian 表完全控制的政治体制" }] },
     "morphVariantOf": null,
-    "memorySemantics": {
-      "imageKey": "surveillance state",
-      "scene": "摄像头遍布每个角落，政府监控一切——极权国家中连私人思想也无处藏身",
-      "emotionalHook": "恐惧的压迫——\"全面控制\"的窒息感",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "political",
-        "GRE",
-        "history"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": 2
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "total",
-        "totality"
-      ],
-      "sameAffix": [
-        "authoritarian",
-        "egalitarian"
-      ],
-      "synonyms": [
-        "authoritarian",
-        "autocratic",
-        "despotic"
-      ],
-      "antonyms": [
-        "democratic",
-        "liberal"
-      ],
-      "domainCohort": [
-        "authoritarian",
-        "dictatorship"
-      ],
-      "derivationPair": [
-        "totalitarianism"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "authoritarian",
-        "despotic"
-      ]
-    }
+    "memorySemantics": { "mnemonicExpr": "total(全部)+itarian(主义者)→全面控制的→极权主义的", "imageChain": ["独裁","全面控制","铁腕统治"] },
+    "wordLevel": { "domain": ["academic","gre","political science"], "sentiment": { "tags": ["消极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["total","totality","totalitarianism"], "sameAffix": ["utilitarian","libertarian"], "synonyms": ["authoritarian","dictatorial","despotic"], "antonyms": ["democratic","liberal","pluralistic"], "domainCohort": ["authoritarianism","dictatorship","autocracy"], "derivationPair": ["totalitarian","totalitarianism"], "morphVariants": ["totalitarianism"], "sameImagery": ["authoritarian","dictatorial"] }
   },
   {
-    "word": "toss",
-    "phonetic": "/tɔs/",
-    "pos": [
-      "v.",
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "掷；扔；摇摆；抛硬币",
-      "en": "to throw lightly; to move from side to side"
-    },
+    "word": "totalitarianism",
+    "phonetic": "/toʊ,tælɪ'tɛriənɪzəm/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "极权主义", "en": "a political system in which the state holds total authority over society" },
     "morphemes": [
-      {
-        "canonical": "toss",
-        "role": "root",
-        "meaning": "掷；摇摆",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "toss",
-        "positionTendency": "initial"
-      }
+      { "form": "tot", "role": "root", "canonical": "totus", "meaning": "全体，整体", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "-itarian", "role": "suffix", "canonical": "-itarian", "meaning": "主义者", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "-ism", "role": "suffix", "canonical": "-ism", "meaning": "主义，制度", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
     ],
-    "derivationChain": [
-      "toss (unknown origin)"
-    ],
+    "derivationChain": { "steps": [{ "from": "totalitarian", "to": "totalitarianism", "by": "加名词后缀 -ism" }] },
     "morphVariantOf": null,
-    "memorySemantics": {
-      "imageKey": "coin flip",
-      "scene": "裁判在比赛前将硬币抛向空中，旋转后落下决定先攻权",
-      "emotionalHook": "命运的随机感——抛出去就交给偶然",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "GRE",
-        "general",
-        "ielts"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [],
-      "sameAffix": [],
-      "synonyms": [
-        "throw",
-        "hurl",
-        "fling",
-        "pitch"
-      ],
-      "antonyms": [
-        "catch"
-      ],
-      "domainCohort": [
-        "throw",
-        "pitch",
-        "lob"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": [
-        "throw",
-        "fling"
-      ]
-    }
-  },
-  {
-    "word": "totter",
-    "phonetic": "/'tɑtɚ/",
-    "pos": [
-      "v."
-    ],
-    "coreMeaning": {
-      "cn": "摇摇欲坠；步履蹒跚",
-      "en": "to walk or move with weak steps; to be on the verge of collapse"
-    },
-    "morphemes": [
-      {
-        "canonical": "totter",
-        "role": "root",
-        "meaning": "摇晃；蹒跚",
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "totter",
-        "positionTendency": "initial"
-      }
-    ],
-    "derivationChain": [
-      "toteren (M.E.)",
-      "totter"
-    ],
-    "morphVariantOf": null,
-    "memorySemantics": {
-      "imageKey": "toddler unsteady steps",
-      "scene": "蹒跚学步的幼儿左摇右晃，或是即将倒塌的老建筑在风中颤抖",
-      "emotionalHook": "不稳定的脆弱感——随时可能倒下",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "GRE",
-        "literature"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [],
-      "sameAffix": [],
-      "synonyms": [
-        "stagger",
-        "wobble",
-        "teeter",
-        "falter"
-      ],
-      "antonyms": [
-        "stride",
-        "march"
-      ],
-      "domainCohort": [
-        "stagger",
-        "wobble",
-        "teeter"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": [
-        "stagger",
-        "teeter"
-      ]
-    }
+    "memorySemantics": { "mnemonicExpr": "totalitarian(极权的)+-ism(主义)→极权主义", "imageChain": ["集权","压迫","独裁体制"] },
+    "wordLevel": { "domain": ["academic","political science"], "sentiment": { "tags": ["消极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["totalitarian","total","totality"], "sameAffix": ["authoritarianism","fascism"], "synonyms": ["authoritarianism","dictatorship","tyranny"], "antonyms": ["democracy","liberalism","pluralism"], "domainCohort": ["authoritarianism","fascism","dictatorship","autocracy"], "derivationPair": ["totalitarian","totalitarianism"], "morphVariants": [], "sameImagery": ["tyranny","authoritarianism"] }
   },
   {
     "word": "totality",
-    "phonetic": "/toʊ'tæləti/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "总体；整体；全部",
-      "en": "the whole of something; the quality of being total"
-    },
+    "phonetic": "/toʊ'tælɪti/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "总体，整体；全部", "en": "the whole amount; the state of being total" },
     "morphemes": [
-      {
-        "canonical": "tot",
-        "role": "root",
-        "meaning": "全部；整体",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "total",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-ity",
-        "role": "suffix",
-        "meaning": "名词：性质/状态",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "ity",
-        "positionTendency": "final"
-      }
+      { "form": "tot", "role": "root", "canonical": "totus", "meaning": "全体，整体", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "-al", "role": "suffix", "canonical": "-al", "meaning": "形容词化", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "-ity", "role": "suffix", "canonical": "-ity", "meaning": "名词后缀：状态/性质", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
     ],
-    "derivationChain": [
-      "totus (L.)",
-      "total (adj.)",
-      "totality (n.)"
-    ],
+    "derivationChain": { "steps": [{ "from": "total", "to": "totality", "by": "加名词后缀 -ity" }] },
     "morphVariantOf": null,
-    "memorySemantics": {
-      "imageKey": "solar eclipse totality",
-      "scene": "日全食（totality）时月球完全遮蔽太阳——\"totality\"也是日全食完全遮蔽的阶段名",
-      "emotionalHook": "完全覆盖的震撼——没有任何遗漏",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "academic",
-        "philosophy"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "total",
-        "totalitarian"
-      ],
-      "sameAffix": [
-        "reality",
-        "quality"
-      ],
-      "synonyms": [
-        "wholeness",
-        "entirety",
-        "completeness"
-      ],
-      "antonyms": [
-        "part",
-        "fraction"
-      ],
-      "domainCohort": [
-        "entirety",
-        "wholeness"
-      ],
-      "derivationPair": [
-        "total"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "memorySemantics": { "mnemonicExpr": "total(总体)+-ity(状态)→整体性/全部", "imageChain": ["全貌","总量","整体视角"] },
+    "wordLevel": { "domain": ["academic"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["total","totalitarian","totally"], "sameAffix": ["nationality","mentality","morality"], "synonyms": ["whole","entirety","sum","aggregate"], "antonyms": ["part","fraction","portion"], "domainCohort": ["whole","entirety","aggregate"], "derivationPair": ["total","totality"], "morphVariants": [], "sameImagery": ["whole","entirety"] }
+  },
+  {
+    "word": "totalize",
+    "phonetic": "/'toʊtəlaɪz/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "汇总，使总计", "en": "to make total; to add up" },
+    "morphemes": [
+      { "form": "tot", "role": "root", "canonical": "totus", "meaning": "全体", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "-al", "role": "suffix", "canonical": "-al", "meaning": "形容词化", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "-ize", "role": "suffix", "canonical": "-ize", "meaning": "动词后缀：使…化", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "total", "to": "totalize", "by": "加动词后缀 -ize" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "total(总)+-ize(使)→使汇总→totalize", "imageChain": ["加总","汇集","总计算"] },
+    "wordLevel": { "domain": ["academic","tech"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["total","totality","totally"], "sameAffix": ["finalize","generalize"], "synonyms": ["sum","aggregate","add up"], "antonyms": [], "domainCohort": [], "derivationPair": ["total","totalize"], "morphVariants": ["totalized","totalizes","totalizing","totaliser"], "sameImagery": [] }
+  },
+  {
+    "word": "totally",
+    "phonetic": "/'toʊtli/",
+    "pos": "adverb",
+    "coreMeaning": { "cn": "完全地，彻底地", "en": "in a total manner; completely" },
+    "morphemes": [
+      { "form": "tot", "role": "root", "canonical": "totus", "meaning": "全体", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "-al", "role": "suffix", "canonical": "-al", "meaning": "形容词化", "positionTendency": "medial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "-ly", "role": "suffix", "canonical": "-ly", "meaning": "副词后缀", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "total", "to": "totally", "by": "加副词后缀 -ly" }] },
+    "morphVariantOf": "total",
+    "memorySemantics": { "mnemonicExpr": "total(完全)+-ly→完全地", "imageChain": ["彻底","全然","完全"] },
+    "wordLevel": { "domain": ["general","tech"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["total","totality","totalize"], "sameAffix": [], "synonyms": ["completely","entirely","wholly"], "antonyms": ["partially","somewhat"], "domainCohort": ["completely","entirely","absolutely"], "derivationPair": ["total","totally"], "morphVariants": [], "sameImagery": ["completely"] }
+  },
+  {
+    "word": "totals",
+    "phonetic": "/'toʊtlz/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "总量，总计（复数）", "en": "plural of total; aggregate sums" },
+    "morphemes": [
+      { "form": "total", "role": "root", "canonical": "totus", "meaning": "全体，整体", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "-s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "total", "to": "totals", "by": "加复数 -s" }] },
+    "morphVariantOf": "total",
+    "memorySemantics": { "mnemonicExpr": "total的复数→totals", "imageChain": ["汇总数","多个总计"] },
+    "wordLevel": { "domain": ["general","tech"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["total","totality"], "sameAffix": [], "synonyms": ["sums","aggregates"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["total"], "sameImagery": [] }
+  },
+  {
+    "word": "tote",
+    "phonetic": "/toʊt/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "携带，背负", "en": "to carry or haul" },
+    "morphemes": [
+      { "form": "tote", "role": "root", "canonical": "tote", "meaning": "携带（美国方言）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "American English dialect origin", "to": "tote", "by": "来自非洲裔美国英语，意为携带" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "tote bag(手提包)→tote(随身携带)", "imageChain": ["手提包","背负","携带物品"] },
+    "wordLevel": { "domain": ["general"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["toted","totes","toting"], "sameAffix": [], "synonyms": ["carry","haul","lug","transport"], "antonyms": [], "domainCohort": ["carry","haul","bear","lug"], "derivationPair": [], "morphVariants": ["toted","totes","toting"], "sameImagery": ["carry","haul"] }
+  },
+  {
+    "word": "totem",
+    "phonetic": "/'toʊtəm/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "图腾；象征物", "en": "a natural object serving as an emblem of a clan or family; a symbolic figure" },
+    "morphemes": [
+      { "form": "totem", "role": "root", "canonical": "totem", "meaning": "图腾（奥吉布瓦语 ototeman=他的图腾）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Ojibwe ototeman", "to": "totem", "by": "借入英语作人类学术语" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "源自美洲原住民语言的神圣标志物→totem(图腾)", "imageChain": ["图腾柱","鹰图腾","氏族标志"] },
+    "wordLevel": { "domain": ["academic","anthropology"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["totemic","totems"], "sameAffix": [], "synonyms": ["emblem","symbol","icon"], "antonyms": [], "domainCohort": ["symbol","emblem","icon","fetish"], "derivationPair": ["totem","totemic"], "morphVariants": ["totems","totemic"], "sameImagery": ["symbol","emblem"] }
+  },
+  {
+    "word": "totemic",
+    "phonetic": "/toʊ'tɛmɪk/",
+    "pos": "adjective",
+    "coreMeaning": { "cn": "图腾的；象征性的", "en": "relating to a totem; serving as a totem or symbol" },
+    "morphemes": [
+      { "form": "totem", "role": "root", "canonical": "totem", "meaning": "图腾", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "-ic", "role": "suffix", "canonical": "-ic", "meaning": "形容词后缀：…的", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "totem", "to": "totemic", "by": "加形容词后缀 -ic" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "totem(图腾)+-ic(的)→图腾的/象征性的", "imageChain": ["图腾","象征物","仪式性"] },
+    "wordLevel": { "domain": ["academic","anthropology"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["totem","totems"], "sameAffix": [], "synonyms": ["symbolic","emblematic","iconic"], "antonyms": [], "domainCohort": ["anthropology","ritual","symbolism"], "derivationPair": ["totem","totemic"], "morphVariants": [], "sameImagery": ["symbolic"] }
+  },
+  {
+    "word": "totipotent",
+    "phonetic": "/toʊ'tɪpətənt/",
+    "pos": "adjective",
+    "coreMeaning": { "cn": "全能的（细胞）；有分化全部类型细胞的能力", "en": "capable of developing into a complete organism; having unlimited developmental potential" },
+    "morphemes": [
+      { "form": "toti-", "role": "prefix", "canonical": "totus", "meaning": "全体，完全", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "potent", "role": "root", "canonical": "potens", "meaning": "有能力的，有力的", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "toti- (all) + potent (powerful)", "to": "totipotent", "by": "科学构词：全能的" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "toti(全部)+potent(有能力的)→具备全部分化能力的→全能细胞", "imageChain": ["干细胞","胚胎","全能分化"] },
+    "wordLevel": { "domain": ["academic","biology","medical"], "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["total","totality"], "sameAffix": ["omnipotent","pluripotent"], "synonyms": ["omnipotent","pluripotent"], "antonyms": ["unipotent","differentiated"], "domainCohort": ["stem cell","pluripotent","embryo","differentiation"], "derivationPair": [], "morphVariants": [], "sameImagery": ["omnipotent"] }
+  },
+  {
+    "word": "toto",
+    "phonetic": "/'toʊtoʊ/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "全部，总数（拉丁语短语用词）", "en": "the whole; used in phrase 'in toto' meaning entirely" },
+    "morphemes": [
+      { "form": "toto", "role": "root", "canonical": "totus", "meaning": "全体，整体（拉丁语）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Latin totus (whole)", "to": "toto", "by": "拉丁语格变形式（夺格），用于 in toto 短语" }] },
+    "morphVariantOf": "total",
+    "memorySemantics": { "mnemonicExpr": "in toto(拉丁语)=完全地、全部地→toto=全体", "imageChain": ["法律文书","全部","in toto短语"] },
+    "wordLevel": { "domain": ["academic","tech","legal"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["total","totality","totally"], "sameAffix": [], "synonyms": ["whole","entirety"], "antonyms": [], "domainCohort": ["in toto","entirety","whole"], "derivationPair": [], "morphVariants": ["totocaelo"], "sameImagery": [] }
+  },
+  {
+    "word": "tottenham",
+    "phonetic": "/'tɒtnəm/",
+    "pos": "noun",
+    "coreMeaning": { "cn": "托特纳姆（伦敦北部地区）", "en": "a district in North London; home of Tottenham Hotspur FC" },
+    "morphemes": [
+      { "form": "tottenham", "role": "root", "canonical": "tottenham", "meaning": "地名（古英语：Totta的村庄）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Old English: Totta (personal name) + ham (homestead)", "to": "Tottenham", "by": "地名演变" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "Totta的家园(ham)→Tottenham地名", "imageChain": ["伦敦","北区","热刺足球俱乐部"] },
+    "wordLevel": { "domain": ["general"], "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["London","borough","north London"], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "totter",
+    "phonetic": "/'tɑtər/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "摇摇欲坠；步履蹒跚", "en": "to walk unsteadily; to be in a state of insecurity" },
+    "morphemes": [
+      { "form": "tott", "role": "root", "canonical": "totter", "meaning": "摇晃（Low German tattern=颤抖）", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "-er", "role": "suffix", "canonical": "-er", "meaning": "频率/反复动作后缀", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Low German tattern (to tremble)", "to": "totter", "by": "借入英语，加 -er 频率后缀" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "tot(小娃)+ter→小孩子步伐摇晃→蹒跚/totter", "imageChain": ["蹒跚步态","摇摇欲坠","不稳的高楼"] },
+    "wordLevel": { "domain": ["general","gre"], "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["tottered","tottering"], "sameAffix": [], "synonyms": ["stagger","wobble","reel","stumble"], "antonyms": ["stride","march","stand firm"], "domainCohort": ["stagger","wobble","lurch","sway"], "derivationPair": [], "morphVariants": ["tottered","tottering"], "sameImagery": ["stagger","wobble"] }
+  },
+  {
+    "word": "tottered",
+    "phonetic": "/'tɑtərd/",
+    "pos": "verb",
+    "coreMeaning": { "cn": "摇摇欲坠（过去式）", "en": "past tense of totter" },
+    "morphemes": [
+      { "form": "totter", "role": "root", "canonical": "totter", "meaning": "摇晃，蹒跚", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "-ed", "role": "suffix", "canonical": "-ed", "meaning": "过去式", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "totter", "to": "tottered", "by": "加过去式后缀 -ed" }] },
+    "morphVariantOf": "totter",
+    "memorySemantics": { "mnemonicExpr": "totter(蹒跚)+-ed→已蹒跚过去", "imageChain": ["蹒跚","摇晃"] },
+    "wordLevel": { "domain": ["general"], "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["totter","tottering"], "sameAffix": [], "synonyms": ["staggered","wobbled"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "tottering",
+    "phonetic": "/'tɑtərɪŋ/",
+    "pos": "adjective",
+    "coreMeaning": { "cn": "摇摇欲坠的；蹒跚的", "en": "walking or moving unsteadily; about to fall or collapse" },
+    "morphemes": [
+      { "form": "totter", "role": "root", "canonical": "totter", "meaning": "摇晃，蹒跚", "positionTendency": "initial", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+      { "form": "-ing", "role": "suffix", "canonical": "-ing", "meaning": "现在分词/形容词后缀", "positionTendency": "final", "sentiment": { "tags": ["中性"], "intensity": 0 } }
+    ],
+    "derivationChain": { "steps": [{ "from": "totter", "to": "tottering", "by": "加 -ing 作形容词/现在分词" }] },
+    "morphVariantOf": "totter",
+    "memorySemantics": { "mnemonicExpr": "totter(摇晃)+-ing→正在摇摇欲坠的", "imageChain": ["危楼","步伐不稳","快要倒塌"] },
+    "wordLevel": { "domain": ["general","literary"], "sentiment": { "tags": ["消极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["totter","tottered"], "sameAffix": [], "synonyms": ["staggering","wobbling","unsteady","unstable"], "antonyms": ["stable","steady"], "domainCohort": ["shaky","unsteady","precarious"], "derivationPair": [], "morphVariants": [], "sameImagery": ["staggering","unsteady"] }
   }
 ]

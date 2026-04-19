@@ -1,403 +1,657 @@
 [
   {
-    "word": "shibboleth",
-    "phonetic": "/'ʃɪbəlɪθ/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "行话；暗语；派系标志性用语",
-      "en": "a word or custom distinguishing a group; outmoded doctrine"
-    },
+    "word": "shepherded",
+    "phonetic": "/ˈʃɛpərdɪd/",
+    "pos": "v",
+    "coreMeaning": {"cn": "引导（过去式）", "en": "guided or herded"},
     "morphemes": [
-      {
-        "canonical": "shibboleth",
-        "role": "root",
-        "meaning": "穗（希伯来语）——用于辨别发音的测试词",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "shibboleth",
-        "positionTendency": "initial"
-      }
+      {"canonical": "shepherd", "role": "root", "form": "shepherd", "meaning": "牧羊人；引导", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "牧羊人", "en": "one who herds sheep"}},
+      {"canonical": "-ed", "role": "suffix", "form": "ed", "meaning": "过去式", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "过去式后缀", "en": "past tense suffix"}}
     ],
-    "derivationChain": [
-      "Hebrew shibboleth(穗/流水) → 《圣经》辨别外敌的暗号 → 英语行话/教条"
+    "derivationChain": {"steps": [{"from": "shepherd", "to": "shepherded", "operation": "add suffix -ed (past tense)"}]},
+    "memorySemantics": {"mnemonicExpr": "shepherd + ed → 像牧羊人一样引导(过去式)", "imageChain": ["牧羊人", "带领", "羊群行进"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["shepherd", "shepherds", "shepherdess"], "sameAffix": [], "synonyms": ["guided", "led"], "antonyms": [], "domainCohort": [], "derivationPair": ["shepherd"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shepherdess",
+    "phonetic": "/ˈʃɛpərdɪs/",
+    "pos": "n",
+    "coreMeaning": {"cn": "女牧羊人", "en": "female shepherd"},
+    "morphemes": [
+      {"canonical": "shepherd", "role": "root", "form": "shepherd", "meaning": "牧羊人", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "牧羊人", "en": "shepherd"}},
+      {"canonical": "-ess", "role": "suffix", "form": "ess", "meaning": "女性", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "女性后缀", "en": "feminine suffix"}}
     ],
-    "morphVariantOf": null,
-    "memorySemantics": {
-      "imageKey": "password-test",
-      "scene": "《圣经》中基列人用能否发对shibboleth来辨别逃跑的以法莲人，发音泄露了身份",
-      "emotionalHook": "一个词决定生死——语言是最隐秘的身份证",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "linguistics",
-        "political",
-        "literary"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [],
-      "sameAffix": [],
-      "synonyms": [
-        "watchword",
-        "catchword",
-        "password"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "dogma",
-        "doctrine",
-        "catchphrase"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": [
-        "password",
-        "watchword"
-      ]
-    }
+    "derivationChain": {"steps": [{"from": "shepherd", "to": "shepherdess", "operation": "add suffix -ess (feminine)"}]},
+    "memorySemantics": {"mnemonicExpr": "shepherd + ess → 女牧羊人", "imageChain": ["牧羊人", "女性", "羊群"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["shepherd", "shepherded", "shepherds"], "sameAffix": ["lioness", "actress"], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["shepherd"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shepherdesses",
+    "phonetic": "/ˈʃɛpərdɪsɪz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "女牧羊人（复数）", "en": "female shepherds"},
+    "morphemes": [
+      {"canonical": "shepherd", "role": "root", "form": "shepherd", "meaning": "牧羊人", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "牧羊人", "en": "shepherd"}},
+      {"canonical": "-ess", "role": "suffix", "form": "ess", "meaning": "女性", "order": 2, "positionTendency": "medial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "女性后缀", "en": "feminine suffix"}},
+      {"canonical": "-es", "role": "suffix", "form": "es", "meaning": "复数", "order": 3, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "复数后缀", "en": "plural suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "shepherd", "to": "shepherdess", "operation": "add -ess"}, {"from": "shepherdess", "to": "shepherdesses", "operation": "add -es (plural)"}]},
+    "memorySemantics": {"mnemonicExpr": "shepherdess + es → 女牧羊人们", "imageChain": ["女牧羊人", "复数", "群体"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["shepherdess", "shepherd"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["shepherdess"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shepherding",
+    "phonetic": "/ˈʃɛpərdɪŋ/",
+    "pos": "v",
+    "coreMeaning": {"cn": "引导；牧羊（进行时）", "en": "guiding or herding"},
+    "morphemes": [
+      {"canonical": "shepherd", "role": "root", "form": "shepherd", "meaning": "引导", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "牧羊人；引导", "en": "to guide"}},
+      {"canonical": "-ing", "role": "suffix", "form": "ing", "meaning": "进行时", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "进行时后缀", "en": "present participle suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "shepherd", "to": "shepherding", "operation": "add suffix -ing"}]},
+    "memorySemantics": {"mnemonicExpr": "shepherd + ing → 正在引导", "imageChain": ["引导", "进行中", "羊群"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["shepherd", "shepherded", "shepherds"], "sameAffix": [], "synonyms": ["guiding", "leading"], "antonyms": [], "domainCohort": [], "derivationPair": ["shepherd"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "sherbet",
+    "phonetic": "/ˈʃɜːrbɪt/",
+    "pos": "n",
+    "coreMeaning": {"cn": "果汁冰沙；雪葩", "en": "a frozen dessert made from fruit juice"},
+    "morphemes": [
+      {"canonical": "sherbet", "role": "root", "form": "sherbet", "meaning": "果汁冰饮", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}, "coreMeaning": {"cn": "果汁冰饮", "en": "fruit drink/sorbet"}}
+    ],
+    "derivationChain": {"steps": []},
+    "memorySemantics": {"mnemonicExpr": "来自阿拉伯语 sharbat（饮料），联想雪霸（sherbet）冰品清凉解渴", "imageChain": ["冰品", "果味", "清凉"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["sherbets"], "sameAffix": [], "synonyms": ["sorbet", "frozen dessert"], "antonyms": [], "domainCohort": ["sorbet", "gelato"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "sherbets",
+    "phonetic": "/ˈʃɜːrbɪts/",
+    "pos": "n",
+    "coreMeaning": {"cn": "果汁冰沙（复数）", "en": "frozen fruit desserts"},
+    "morphemes": [
+      {"canonical": "sherbet", "role": "root", "form": "sherbet", "meaning": "果汁冰饮", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}, "coreMeaning": {"cn": "果汁冰饮", "en": "fruit sorbet"}},
+      {"canonical": "-s", "role": "suffix", "form": "s", "meaning": "复数", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "复数后缀", "en": "plural suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "sherbet", "to": "sherbets", "operation": "add -s (plural)"}]},
+    "memorySemantics": {"mnemonicExpr": "sherbet + s → 多种冰品", "imageChain": ["冰品", "多种", "果味"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["sherbet"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["sherbet"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "sheriff",
+    "phonetic": "/ˈʃɛrɪf/",
+    "pos": "n",
+    "coreMeaning": {"cn": "治安官；县长", "en": "chief law enforcement officer of a county"},
+    "morphemes": [
+      {"canonical": "sheriff", "role": "root", "form": "sheriff", "meaning": "治安官", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "治安官", "en": "law enforcement officer"}}
+    ],
+    "derivationChain": {"steps": []},
+    "memorySemantics": {"mnemonicExpr": "来自古英语 scirgerefa（郡守），she-riff → 夏尔（shire）的长官", "imageChain": ["治安官", "徽章", "执法"]},
+    "wordLevel": {"domain": "legal", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["sheriffs", "sheriff's"], "sameAffix": [], "synonyms": ["marshal", "constable"], "antonyms": [], "domainCohort": ["marshal", "deputy", "constable"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "sheriffs",
+    "phonetic": "/ˈʃɛrɪfs/",
+    "pos": "n",
+    "coreMeaning": {"cn": "治安官（复数）", "en": "law enforcement officers"},
+    "morphemes": [
+      {"canonical": "sheriff", "role": "root", "form": "sheriff", "meaning": "治安官", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "治安官", "en": "law enforcement officer"}},
+      {"canonical": "-s", "role": "suffix", "form": "s", "meaning": "复数", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "复数后缀", "en": "plural suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "sheriff", "to": "sheriffs", "operation": "add -s (plural)"}]},
+    "memorySemantics": {"mnemonicExpr": "sheriff + s → 多位治安官", "imageChain": ["治安官", "多人", "执法"]},
+    "wordLevel": {"domain": "legal", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["sheriff"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["sheriff"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shibboleth",
+    "phonetic": "/ˈʃɪbəlɛθ/",
+    "pos": "n",
+    "coreMeaning": {"cn": "教条；行话；暗语", "en": "a custom or phrase distinguishing one group from another"},
+    "morphemes": [
+      {"canonical": "shibboleth", "role": "root", "form": "shibboleth", "meaning": "辨别标志；教条", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "群体识别标志", "en": "distinguishing marker"}}
+    ],
+    "derivationChain": {"steps": []},
+    "memorySemantics": {"mnemonicExpr": "来自希伯来语，圣经中用来识别敌人的词，联想暗语识别", "imageChain": ["暗语", "识别", "群体"]},
+    "wordLevel": {"domain": "academic", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["shibboleths"], "sameAffix": [], "synonyms": ["catchword", "watchword", "dogma"], "antonyms": [], "domainCohort": ["dogma", "maxim", "catchphrase"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shibboleths",
+    "phonetic": "/ˈʃɪbəlɛθs/",
+    "pos": "n",
+    "coreMeaning": {"cn": "教条；准则（复数）", "en": "group-identifying customs or phrases"},
+    "morphemes": [
+      {"canonical": "shibboleth", "role": "root", "form": "shibboleth", "meaning": "教条；识别标志", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "识别标志", "en": "distinguishing marker"}},
+      {"canonical": "-s", "role": "suffix", "form": "s", "meaning": "复数", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "复数后缀", "en": "plural suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "shibboleth", "to": "shibboleths", "operation": "add -s (plural)"}]},
+    "memorySemantics": {"mnemonicExpr": "shibboleth + s → 多种教条", "imageChain": ["教条", "复数", "群体"]},
+    "wordLevel": {"domain": "academic", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["shibboleth"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["shibboleth"], "morphVariants": [], "sameImagery": []}
   },
   {
     "word": "shield",
-    "phonetic": "/ʃild/",
-    "pos": [
-      "n.",
-      "v."
-    ],
-    "coreMeaning": {
-      "cn": "盾；防护物；保护",
-      "en": "a protective plate; to protect"
-    },
+    "phonetic": "/ʃiːld/",
+    "pos": "n",
+    "coreMeaning": {"cn": "盾；防护物", "en": "a protective device carried to deflect blows"},
     "morphemes": [
-      {
-        "canonical": "shield",
-        "role": "root",
-        "meaning": "遮蔽，覆盖（古英语scield）",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "shield",
-        "positionTendency": "initial"
-      }
+      {"canonical": "shield", "role": "root", "form": "shield", "meaning": "盾；保护", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}, "coreMeaning": {"cn": "盾牌；保护", "en": "protective device"}}
     ],
-    "derivationChain": [
-      "scield(古英语) → shield"
+    "derivationChain": {"steps": []},
+    "memorySemantics": {"mnemonicExpr": "来自古英语 scield，联想盾形徽章护身", "imageChain": ["盾牌", "保护", "防御"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["shielded", "shielding", "shields"], "sameAffix": [], "synonyms": ["buckler", "protection", "guard"], "antonyms": [], "domainCohort": ["armor", "defense", "guard"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shielded",
+    "phonetic": "/ˈʃiːldɪd/",
+    "pos": "v",
+    "coreMeaning": {"cn": "保护；遮蔽（过去式）", "en": "protected from harm"},
+    "morphemes": [
+      {"canonical": "shield", "role": "root", "form": "shield", "meaning": "保护", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}, "coreMeaning": {"cn": "保护", "en": "to protect"}},
+      {"canonical": "-ed", "role": "suffix", "form": "ed", "meaning": "过去式", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "过去式后缀", "en": "past tense suffix"}}
     ],
-    "morphVariantOf": null,
-    "memorySemantics": {
-      "imageKey": "knight-shield",
-      "scene": "骑士举盾格挡箭矢——shield既是武器也是保护，守护珍贵的东西",
-      "emotionalHook": "最强的防护是来自爱——shield someone from harm",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general",
-        "military"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [],
-      "sameAffix": [],
-      "synonyms": [
-        "protect",
-        "defend",
-        "guard"
-      ],
-      "antonyms": [
-        "expose",
-        "endanger"
-      ],
-      "domainCohort": [
-        "armor",
-        "defense",
-        "barrier"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": [
-        "armor",
-        "barrier"
-      ]
-    }
+    "derivationChain": {"steps": [{"from": "shield", "to": "shielded", "operation": "add -ed (past tense)"}]},
+    "memorySemantics": {"mnemonicExpr": "shield + ed → 已保护", "imageChain": ["保护", "已完成", "防御"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["shield", "shielding", "shields"], "sameAffix": [], "synonyms": ["protected", "guarded"], "antonyms": ["exposed", "endangered"], "domainCohort": [], "derivationPair": ["shield"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shielding",
+    "phonetic": "/ˈʃiːldɪŋ/",
+    "pos": "v",
+    "coreMeaning": {"cn": "保护；遮蔽（进行时）", "en": "protecting from harm"},
+    "morphemes": [
+      {"canonical": "shield", "role": "root", "form": "shield", "meaning": "保护", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}, "coreMeaning": {"cn": "保护", "en": "to protect"}},
+      {"canonical": "-ing", "role": "suffix", "form": "ing", "meaning": "进行时", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "进行时后缀", "en": "present participle suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "shield", "to": "shielding", "operation": "add -ing"}]},
+    "memorySemantics": {"mnemonicExpr": "shield + ing → 正在保护", "imageChain": ["保护", "进行中", "防御"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["shield", "shielded", "shields"], "sameAffix": [], "synonyms": ["protecting", "guarding"], "antonyms": [], "domainCohort": [], "derivationPair": ["shield"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shields",
+    "phonetic": "/ʃiːldz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "盾牌（复数）；保护", "en": "protective devices or protects"},
+    "morphemes": [
+      {"canonical": "shield", "role": "root", "form": "shield", "meaning": "盾；保护", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}, "coreMeaning": {"cn": "盾牌", "en": "protective device"}},
+      {"canonical": "-s", "role": "suffix", "form": "s", "meaning": "复数或第三人称单数", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "复数/三单后缀", "en": "plural/3rd person singular suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "shield", "to": "shields", "operation": "add -s (plural)"}]},
+    "memorySemantics": {"mnemonicExpr": "shield + s → 多个盾牌", "imageChain": ["盾牌", "多个", "防御"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["shield", "shielded", "shielding"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["shield"], "morphVariants": [], "sameImagery": []}
   },
   {
     "word": "shift",
     "phonetic": "/ʃɪft/",
-    "pos": [
-      "n.",
-      "v."
-    ],
-    "coreMeaning": {
-      "cn": "移动；变化；轮班；手段",
-      "en": "to move or change; a period of work"
-    },
+    "pos": "n",
+    "coreMeaning": {"cn": "移动；变化；轮班", "en": "a change in position, direction, or focus"},
     "morphemes": [
-      {
-        "canonical": "shift",
-        "role": "root",
-        "meaning": "安排，移动（古英语sciftan）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "shift",
-        "positionTendency": "initial"
-      }
+      {"canonical": "shift", "role": "root", "form": "shift", "meaning": "移动；转变", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "移动；转变", "en": "change or movement"}}
     ],
-    "derivationChain": [
-      "sciftan(古英语分配) → shift"
-    ],
-    "morphVariantOf": null,
-    "memorySemantics": {
-      "imageKey": "gear-shift",
-      "scene": "换挡——shift gears，从一个状态切换到另一个状态，既是动作也是改变",
-      "emotionalHook": "生活中每次shift都是转机，也是风险",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general",
-        "academic",
-        "business"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "shiftless",
-        "shifty"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "change",
-        "switch",
-        "transition"
-      ],
-      "antonyms": [
-        "stay",
-        "remain"
-      ],
-      "domainCohort": [
-        "transition",
-        "change",
-        "alteration"
-      ],
-      "derivationPair": [
-        "shiftless",
-        "shifty"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "transition",
-        "pivot"
-      ]
-    }
+    "derivationChain": {"steps": []},
+    "memorySemantics": {"mnemonicExpr": "shift → 联想键盘Shift键，切换状态", "imageChain": ["变换", "移动", "轮班"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["shifted", "shifter", "shifting", "shifts"], "sameAffix": [], "synonyms": ["change", "transition", "move"], "antonyms": ["stability", "fixity"], "domainCohort": ["change", "transition", "rotation"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
   },
   {
-    "word": "sheriff",
-    "phonetic": "/'ʃɛrɪf/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "郡警长；行政长官",
-      "en": "county law enforcement officer"
-    },
+    "word": "shifted",
+    "phonetic": "/ˈʃɪftɪd/",
+    "pos": "v",
+    "coreMeaning": {"cn": "移动；转变（过去式）", "en": "changed position or direction"},
     "morphemes": [
-      {
-        "canonical": "shire",
-        "role": "root",
-        "meaning": "郡，行政区（古英语scir）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "sher",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "reef",
-        "role": "root",
-        "meaning": "官员（古英语gerefa）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "riff",
-        "positionTendency": "final"
-      }
+      {"canonical": "shift", "role": "root", "form": "shift", "meaning": "移动；转变", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "移动", "en": "to move"}},
+      {"canonical": "-ed", "role": "suffix", "form": "ed", "meaning": "过去式", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "过去式后缀", "en": "past tense suffix"}}
     ],
-    "derivationChain": [
-      "scirgerefa(郡长官，古英语) → sheriff"
-    ],
-    "morphVariantOf": null,
-    "memorySemantics": {
-      "imageKey": "wild-west-badge",
-      "scene": "西部片中胸前别着星形徽章的sheriff——代表地方法律的权威",
-      "emotionalHook": "一个徽章，一个区域，一份责任",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "legal",
-        "historical"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "shire",
-        "reeve"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "marshal",
-        "constable"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "constable",
-        "marshal",
-        "deputy"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": {"steps": [{"from": "shift", "to": "shifted", "operation": "add -ed (past tense)"}]},
+    "memorySemantics": {"mnemonicExpr": "shift + ed → 已转变", "imageChain": ["转变", "完成", "方向"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["shift", "shifting", "shifts"], "sameAffix": [], "synonyms": ["moved", "changed"], "antonyms": [], "domainCohort": [], "derivationPair": ["shift"], "morphVariants": [], "sameImagery": []}
   },
   {
-    "word": "shepherd",
-    "phonetic": "/'ʃɛpɚd/",
-    "pos": [
-      "n.",
-      "v."
-    ],
-    "coreMeaning": {
-      "cn": "牧羊人；引导；看管",
-      "en": "one who herds sheep; to guide"
-    },
+    "word": "shifter",
+    "phonetic": "/ˈʃɪftər/",
+    "pos": "n",
+    "coreMeaning": {"cn": "换挡器；使转变者", "en": "one that shifts or a device for shifting"},
     "morphemes": [
-      {
-        "canonical": "sheep",
-        "role": "root",
-        "meaning": "羊（古英语sceap）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "shep",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-herd",
-        "role": "root",
-        "meaning": "牧人，看守者（古英语hierde）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "herd",
-        "positionTendency": "final"
-      }
+      {"canonical": "shift", "role": "root", "form": "shift", "meaning": "移动；转变", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "移动", "en": "to shift"}},
+      {"canonical": "-er", "role": "suffix", "form": "er", "meaning": "做……的人或物", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "施动者后缀", "en": "agent suffix"}}
     ],
-    "derivationChain": [
-      "sceap+hierde → sceaphierde → shepherd"
+    "derivationChain": {"steps": [{"from": "shift", "to": "shifter", "operation": "add -er (agent)"}]},
+    "memorySemantics": {"mnemonicExpr": "shift + er → 换挡器；转变者", "imageChain": ["换挡", "装置", "控制"]},
+    "wordLevel": {"domain": "tech", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["shift", "shifted", "shifts"], "sameAffix": ["driver", "mover"], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["shift"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shifters",
+    "phonetic": "/ˈʃɪftərz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "换挡器（复数）", "en": "shifting devices"},
+    "morphemes": [
+      {"canonical": "shift", "role": "root", "form": "shift", "meaning": "移动", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "移动", "en": "to shift"}},
+      {"canonical": "-er", "role": "suffix", "form": "er", "meaning": "施动者", "order": 2, "positionTendency": "medial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "施动者", "en": "agent"}},
+      {"canonical": "-s", "role": "suffix", "form": "s", "meaning": "复数", "order": 3, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "复数后缀", "en": "plural suffix"}}
     ],
-    "morphVariantOf": null,
-    "memorySemantics": {
-      "imageKey": "good-shepherd",
-      "scene": "牧羊人在山坡上引导羊群——shepherd也常用于比喻领导者引导人群",
-      "emotionalHook": "好的领导者是shepherd，引路而不强迫",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general",
-        "religious"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "shepherdess",
-        "sheepdog"
-      ],
-      "sameAffix": [
-        "goatherd",
-        "cowherd"
-      ],
-      "synonyms": [
-        "guide",
-        "usher",
-        "lead"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "herdsman",
-        "pastor"
-      ],
-      "derivationPair": [
-        "shepherdess"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "guide",
-        "pastor"
-      ]
-    }
+    "derivationChain": {"steps": [{"from": "shift", "to": "shifter", "operation": "add -er"}, {"from": "shifter", "to": "shifters", "operation": "add -s (plural)"}]},
+    "memorySemantics": {"mnemonicExpr": "shifter + s → 多个换挡器", "imageChain": ["换挡器", "多个", "装置"]},
+    "wordLevel": {"domain": "tech", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["shifter", "shift"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["shifter"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shiftier",
+    "phonetic": "/ˈʃɪftiər/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "更狡猾的；更不诚实的", "en": "comparative of shifty; more evasive"},
+    "morphemes": [
+      {"canonical": "shift", "role": "root", "form": "shift", "meaning": "移动；逃避", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}, "coreMeaning": {"cn": "狡猾", "en": "evasive"}},
+      {"canonical": "-y", "role": "suffix", "form": "y", "meaning": "形容词化", "order": 2, "positionTendency": "medial", "sentiment": {"tags": ["消极"], "intensity": 1}, "coreMeaning": {"cn": "形容词后缀", "en": "adjectival suffix"}},
+      {"canonical": "-er", "role": "suffix", "form": "ier", "meaning": "比较级", "order": 3, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "比较级后缀", "en": "comparative suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "shift", "to": "shifty", "operation": "add -y (adj)"}, {"from": "shifty", "to": "shiftier", "operation": "comparative form"}]},
+    "memorySemantics": {"mnemonicExpr": "shifty + er → 更狡猾", "imageChain": ["狡猾", "比较", "程度加深"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["shifty", "shiftiest", "shift"], "sameAffix": [], "synonyms": ["sneakier", "more evasive"], "antonyms": ["more honest"], "domainCohort": [], "derivationPair": ["shifty"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shiftiest",
+    "phonetic": "/ˈʃɪftiɪst/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "最狡猾的；最不诚实的", "en": "superlative of shifty"},
+    "morphemes": [
+      {"canonical": "shift", "role": "root", "form": "shift", "meaning": "逃避", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 2}, "coreMeaning": {"cn": "狡猾", "en": "evasive"}},
+      {"canonical": "-y", "role": "suffix", "form": "y", "meaning": "形容词化", "order": 2, "positionTendency": "medial", "sentiment": {"tags": ["消极"], "intensity": 1}, "coreMeaning": {"cn": "形容词后缀", "en": "adjectival suffix"}},
+      {"canonical": "-est", "role": "suffix", "form": "iest", "meaning": "最高级", "order": 3, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "最高级后缀", "en": "superlative suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "shift", "to": "shifty", "operation": "add -y"}, {"from": "shifty", "to": "shiftiest", "operation": "superlative form"}]},
+    "memorySemantics": {"mnemonicExpr": "shifty + est → 最狡猾", "imageChain": ["狡猾", "最高程度", "不诚实"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["消极"], "intensity": 2}},
+    "relations": {"sameRoot": ["shifty", "shiftier", "shift"], "sameAffix": [], "synonyms": ["most evasive"], "antonyms": ["most honest"], "domainCohort": [], "derivationPair": ["shifty"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shiftily",
+    "phonetic": "/ˈʃɪftɪli/",
+    "pos": "adv",
+    "coreMeaning": {"cn": "狡猾地；闪烁其词地", "en": "in an evasive or untrustworthy manner"},
+    "morphemes": [
+      {"canonical": "shift", "role": "root", "form": "shift", "meaning": "逃避", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}, "coreMeaning": {"cn": "逃避", "en": "evasion"}},
+      {"canonical": "-y", "role": "suffix", "form": "y", "meaning": "形容词化", "order": 2, "positionTendency": "medial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "形容词后缀", "en": "adjectival suffix"}},
+      {"canonical": "-ly", "role": "suffix", "form": "ily", "meaning": "副词化", "order": 3, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "副词后缀", "en": "adverbial suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "shifty", "to": "shiftily", "operation": "add -ly (adv)"}]},
+    "memorySemantics": {"mnemonicExpr": "shifty + ly → 狡猾地行事", "imageChain": ["狡猾", "副词", "行为方式"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["shifty", "shift"], "sameAffix": [], "synonyms": ["evasively", "sneakily"], "antonyms": ["honestly"], "domainCohort": [], "derivationPair": ["shifty"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shiftiness",
+    "phonetic": "/ˈʃɪftinɪs/",
+    "pos": "n",
+    "coreMeaning": {"cn": "狡猾；不诚实", "en": "the quality of being shifty or evasive"},
+    "morphemes": [
+      {"canonical": "shift", "role": "root", "form": "shift", "meaning": "逃避", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}, "coreMeaning": {"cn": "逃避", "en": "evasion"}},
+      {"canonical": "-y", "role": "suffix", "form": "y", "meaning": "形容词化", "order": 2, "positionTendency": "medial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "形容词后缀", "en": "adjective suffix"}},
+      {"canonical": "-ness", "role": "suffix", "form": "ness", "meaning": "名词化", "order": 3, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "名词后缀", "en": "nominalization suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "shifty", "to": "shiftiness", "operation": "add -ness (noun)"}]},
+    "memorySemantics": {"mnemonicExpr": "shifty + ness → 狡猾的特质", "imageChain": ["狡猾", "品质", "不可信"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["shifty", "shift"], "sameAffix": ["cleverness", "slyness"], "synonyms": ["evasiveness", "sneakiness"], "antonyms": ["honesty"], "domainCohort": [], "derivationPair": ["shifty"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shifting",
+    "phonetic": "/ˈʃɪftɪŋ/",
+    "pos": "v",
+    "coreMeaning": {"cn": "移动；转变（进行时）", "en": "changing position or direction"},
+    "morphemes": [
+      {"canonical": "shift", "role": "root", "form": "shift", "meaning": "移动", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "移动", "en": "to move"}},
+      {"canonical": "-ing", "role": "suffix", "form": "ing", "meaning": "进行时", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "进行时后缀", "en": "present participle suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "shift", "to": "shifting", "operation": "add -ing"}]},
+    "memorySemantics": {"mnemonicExpr": "shift + ing → 正在转变", "imageChain": ["转变", "进行中", "动态"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["shift", "shifted", "shifts"], "sameAffix": [], "synonyms": ["moving", "changing"], "antonyms": [], "domainCohort": [], "derivationPair": ["shift"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shiftless",
+    "phonetic": "/ˈʃɪftlɪs/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "懒散的；无进取心的", "en": "lacking ambition or purpose"},
+    "morphemes": [
+      {"canonical": "shift", "role": "root", "form": "shift", "meaning": "转变；机智", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "机智", "en": "resourcefulness"}},
+      {"canonical": "-less", "role": "suffix", "form": "less", "meaning": "无……的", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["消极"], "intensity": 1}, "coreMeaning": {"cn": "缺乏后缀", "en": "without suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "shift", "to": "shiftless", "operation": "add -less (without resourcefulness)"}]},
+    "memorySemantics": {"mnemonicExpr": "shift + less → 没有变通能力的 → 懒散的", "imageChain": ["无进取心", "懒散", "停滞"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["shift"], "sameAffix": ["worthless", "careless"], "synonyms": ["lazy", "indolent", "idle"], "antonyms": ["ambitious", "industrious"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shiftlessly",
+    "phonetic": "/ˈʃɪftlɪsli/",
+    "pos": "adv",
+    "coreMeaning": {"cn": "懒散地；无进取心地", "en": "in a lazy or unambitious manner"},
+    "morphemes": [
+      {"canonical": "shift", "role": "root", "form": "shift", "meaning": "变通", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "变通", "en": "resourcefulness"}},
+      {"canonical": "-less", "role": "suffix", "form": "less", "meaning": "无……的", "order": 2, "positionTendency": "medial", "sentiment": {"tags": ["消极"], "intensity": 1}, "coreMeaning": {"cn": "缺乏", "en": "without"}},
+      {"canonical": "-ly", "role": "suffix", "form": "ly", "meaning": "副词化", "order": 3, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "副词后缀", "en": "adverbial suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "shiftless", "to": "shiftlessly", "operation": "add -ly (adv)"}]},
+    "memorySemantics": {"mnemonicExpr": "shiftless + ly → 懒散地", "imageChain": ["懒散", "副词", "无目的"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["shiftless", "shift"], "sameAffix": [], "synonyms": ["lazily", "idly"], "antonyms": ["ambitiously"], "domainCohort": [], "derivationPair": ["shiftless"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shiftlessness",
+    "phonetic": "/ˈʃɪftlɪsnɪs/",
+    "pos": "n",
+    "coreMeaning": {"cn": "懒散；无进取心", "en": "the state of being shiftless"},
+    "morphemes": [
+      {"canonical": "shift", "role": "root", "form": "shift", "meaning": "变通", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "变通", "en": "resourcefulness"}},
+      {"canonical": "-less", "role": "suffix", "form": "less", "meaning": "无", "order": 2, "positionTendency": "medial", "sentiment": {"tags": ["消极"], "intensity": 1}, "coreMeaning": {"cn": "无", "en": "without"}},
+      {"canonical": "-ness", "role": "suffix", "form": "ness", "meaning": "名词化", "order": 3, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "名词后缀", "en": "nominalization"}}
+    ],
+    "derivationChain": {"steps": [{"from": "shiftless", "to": "shiftlessness", "operation": "add -ness (noun)"}]},
+    "memorySemantics": {"mnemonicExpr": "shiftless + ness → 懒散的状态", "imageChain": ["懒散", "状态", "无目标"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["shiftless", "shift"], "sameAffix": [], "synonyms": ["laziness", "indolence"], "antonyms": ["ambition", "industry"], "domainCohort": [], "derivationPair": ["shiftless"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shifts",
+    "phonetic": "/ʃɪfts/",
+    "pos": "n",
+    "coreMeaning": {"cn": "变化；轮班（复数）", "en": "changes or work periods"},
+    "morphemes": [
+      {"canonical": "shift", "role": "root", "form": "shift", "meaning": "变化；轮班", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "变化；轮班", "en": "change or work period"}},
+      {"canonical": "-s", "role": "suffix", "form": "s", "meaning": "复数", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "复数后缀", "en": "plural suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "shift", "to": "shifts", "operation": "add -s (plural)"}]},
+    "memorySemantics": {"mnemonicExpr": "shift + s → 多个班次", "imageChain": ["轮班", "多次", "工作"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["shift", "shifted", "shifting"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["shift"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shifty",
+    "phonetic": "/ˈʃɪfti/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "狡猾的；不诚实的", "en": "not straightforward; evasive"},
+    "morphemes": [
+      {"canonical": "shift", "role": "root", "form": "shift", "meaning": "移动；逃避", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}, "coreMeaning": {"cn": "狡猾逃避", "en": "evasive"}},
+      {"canonical": "-y", "role": "suffix", "form": "y", "meaning": "形容词化", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "形容词后缀", "en": "adjectival suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "shift", "to": "shifty", "operation": "add -y (adj)"}]},
+    "memorySemantics": {"mnemonicExpr": "shift + y → 总是移位躲避的 → 狡猾的", "imageChain": ["狡猾", "逃避", "不诚实"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["shift", "shiftier", "shiftiest"], "sameAffix": [], "synonyms": ["evasive", "sneaky", "devious"], "antonyms": ["honest", "straightforward"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shilling",
+    "phonetic": "/ˈʃɪlɪŋ/",
+    "pos": "n",
+    "coreMeaning": {"cn": "先令（英国旧货币）", "en": "a former British monetary unit worth one twentieth of a pound"},
+    "morphemes": [
+      {"canonical": "shilling", "role": "root", "form": "shilling", "meaning": "先令", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "先令货币", "en": "monetary unit"}}
+    ],
+    "derivationChain": {"steps": []},
+    "memorySemantics": {"mnemonicExpr": "shilling → 联想'少令'，少数令人的小钱币", "imageChain": ["硬币", "旧货币", "英国"]},
+    "wordLevel": {"domain": "finance", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["shillings"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["penny", "pound", "groat"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shillings",
+    "phonetic": "/ˈʃɪlɪŋz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "先令（复数）", "en": "former British monetary units"},
+    "morphemes": [
+      {"canonical": "shilling", "role": "root", "form": "shilling", "meaning": "先令", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "先令", "en": "shilling coin"}},
+      {"canonical": "-s", "role": "suffix", "form": "s", "meaning": "复数", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "复数后缀", "en": "plural suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "shilling", "to": "shillings", "operation": "add -s (plural)"}]},
+    "memorySemantics": {"mnemonicExpr": "shilling + s → 多枚先令", "imageChain": ["硬币", "多枚", "货币"]},
+    "wordLevel": {"domain": "finance", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["shilling"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["shilling"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shimmer",
+    "phonetic": "/ˈʃɪmər/",
+    "pos": "v",
+    "coreMeaning": {"cn": "闪烁；微光", "en": "to shine with a soft tremulous light"},
+    "morphemes": [
+      {"canonical": "shimmer", "role": "root", "form": "shimmer", "meaning": "闪烁；微光", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}, "coreMeaning": {"cn": "闪烁", "en": "to glimmer"}}
+    ],
+    "derivationChain": {"steps": []},
+    "memorySemantics": {"mnemonicExpr": "shimmer → 联想水面微光shimmer闪烁", "imageChain": ["闪光", "水面", "柔和"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["shimmered", "shimmering", "shimmers", "shimmery"], "sameAffix": [], "synonyms": ["glimmer", "gleam", "sparkle"], "antonyms": [], "domainCohort": ["glimmer", "gleam", "twinkle"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shimmered",
+    "phonetic": "/ˈʃɪmərd/",
+    "pos": "v",
+    "coreMeaning": {"cn": "闪烁（过去式）", "en": "shone with a soft trembling light"},
+    "morphemes": [
+      {"canonical": "shimmer", "role": "root", "form": "shimmer", "meaning": "闪烁", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}, "coreMeaning": {"cn": "闪烁", "en": "to glimmer"}},
+      {"canonical": "-ed", "role": "suffix", "form": "ed", "meaning": "过去式", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "过去式后缀", "en": "past tense suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "shimmer", "to": "shimmered", "operation": "add -ed (past tense)"}]},
+    "memorySemantics": {"mnemonicExpr": "shimmer + ed → 曾闪烁", "imageChain": ["闪烁", "过去", "光芒"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["shimmer", "shimmering", "shimmers"], "sameAffix": [], "synonyms": ["gleamed", "glimmered"], "antonyms": [], "domainCohort": [], "derivationPair": ["shimmer"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shimmering",
+    "phonetic": "/ˈʃɪmərɪŋ/",
+    "pos": "v",
+    "coreMeaning": {"cn": "闪烁（进行时）", "en": "shining with a soft trembling light"},
+    "morphemes": [
+      {"canonical": "shimmer", "role": "root", "form": "shimmer", "meaning": "闪烁", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}, "coreMeaning": {"cn": "闪烁", "en": "to glimmer"}},
+      {"canonical": "-ing", "role": "suffix", "form": "ing", "meaning": "进行时", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "进行时后缀", "en": "present participle suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "shimmer", "to": "shimmering", "operation": "add -ing"}]},
+    "memorySemantics": {"mnemonicExpr": "shimmer + ing → 正在闪烁", "imageChain": ["闪烁", "持续", "光芒"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["shimmer", "shimmered", "shimmers"], "sameAffix": [], "synonyms": ["gleaming", "glimmering"], "antonyms": [], "domainCohort": [], "derivationPair": ["shimmer"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shimmers",
+    "phonetic": "/ˈʃɪmərz/",
+    "pos": "v",
+    "coreMeaning": {"cn": "闪烁（第三人称单数）", "en": "shines with a soft trembling light"},
+    "morphemes": [
+      {"canonical": "shimmer", "role": "root", "form": "shimmer", "meaning": "闪烁", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}, "coreMeaning": {"cn": "闪烁", "en": "to glimmer"}},
+      {"canonical": "-s", "role": "suffix", "form": "s", "meaning": "三单后缀", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "三单后缀", "en": "third person singular suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "shimmer", "to": "shimmers", "operation": "add -s (3rd person singular)"}]},
+    "memorySemantics": {"mnemonicExpr": "shimmer + s → 它闪烁", "imageChain": ["闪烁", "三单", "光芒"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["shimmer", "shimmered", "shimmering"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["shimmer"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shimmery",
+    "phonetic": "/ˈʃɪməri/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "闪闪发光的", "en": "having a shimmering quality"},
+    "morphemes": [
+      {"canonical": "shimmer", "role": "root", "form": "shimmer", "meaning": "闪烁", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}, "coreMeaning": {"cn": "闪烁", "en": "glimmering"}},
+      {"canonical": "-y", "role": "suffix", "form": "y", "meaning": "形容词化", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "形容词后缀", "en": "adjectival suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "shimmer", "to": "shimmery", "operation": "add -y (adj)"}]},
+    "memorySemantics": {"mnemonicExpr": "shimmer + y → 有闪烁感的", "imageChain": ["闪光", "质感", "光泽"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["shimmer", "shimmered"], "sameAffix": [], "synonyms": ["glittery", "lustrous"], "antonyms": ["dull", "matte"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shin",
+    "phonetic": "/ʃɪn/",
+    "pos": "n",
+    "coreMeaning": {"cn": "小腿；胫骨", "en": "the front part of the leg below the knee"},
+    "morphemes": [
+      {"canonical": "shin", "role": "root", "form": "shin", "meaning": "小腿；胫骨", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "小腿", "en": "lower leg"}}
+    ],
+    "derivationChain": {"steps": []},
+    "memorySemantics": {"mnemonicExpr": "shin → 联想胫骨shin踢到桌角的疼", "imageChain": ["小腿", "胫骨", "疼痛"]},
+    "wordLevel": {"domain": "medical", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["shins", "shinbone", "shindig"], "sameAffix": [], "synonyms": ["tibia", "lower leg"], "antonyms": [], "domainCohort": ["tibia", "fibula", "calf"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shinbone",
+    "phonetic": "/ˈʃɪnboʊn/",
+    "pos": "n",
+    "coreMeaning": {"cn": "胫骨", "en": "the tibia; the bone forming the front of the lower leg"},
+    "morphemes": [
+      {"canonical": "shin", "role": "root", "form": "shin", "meaning": "小腿", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "小腿", "en": "lower leg"}},
+      {"canonical": "bone", "role": "root", "form": "bone", "meaning": "骨头", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "骨头", "en": "bone"}}
+    ],
+    "derivationChain": {"steps": [{"from": "shin + bone", "to": "shinbone", "operation": "compound noun"}]},
+    "memorySemantics": {"mnemonicExpr": "shin(小腿) + bone(骨头) → 胫骨", "imageChain": ["小腿", "骨头", "医学"]},
+    "wordLevel": {"domain": "medical", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["shin"], "sameAffix": [], "synonyms": ["tibia"], "antonyms": [], "domainCohort": ["femur", "fibula", "tibia"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shindig",
+    "phonetic": "/ˈʃɪndɪɡ/",
+    "pos": "n",
+    "coreMeaning": {"cn": "热闹的聚会；喧嚣", "en": "a large, lively party or celebration"},
+    "morphemes": [
+      {"canonical": "shindig", "role": "root", "form": "shindig", "meaning": "热闹聚会", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}, "coreMeaning": {"cn": "热闹聚会", "en": "lively gathering"}}
+    ],
+    "derivationChain": {"steps": []},
+    "memorySemantics": {"mnemonicExpr": "shindig → 联想'闪动'的聚会，热闹非凡", "imageChain": ["聚会", "热闹", "庆祝"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["shindigs"], "sameAffix": [], "synonyms": ["party", "bash", "celebration"], "antonyms": [], "domainCohort": ["party", "gala", "bash"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shindigs",
+    "phonetic": "/ˈʃɪndɪɡz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "热闹聚会（复数）", "en": "lively parties or celebrations"},
+    "morphemes": [
+      {"canonical": "shindig", "role": "root", "form": "shindig", "meaning": "热闹聚会", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}, "coreMeaning": {"cn": "热闹聚会", "en": "lively party"}},
+      {"canonical": "-s", "role": "suffix", "form": "s", "meaning": "复数", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "复数后缀", "en": "plural suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "shindig", "to": "shindigs", "operation": "add -s (plural)"}]},
+    "memorySemantics": {"mnemonicExpr": "shindig + s → 多个热闹聚会", "imageChain": ["聚会", "多次", "热闹"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["shindig"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["shindig"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shine",
+    "phonetic": "/ʃaɪn/",
+    "pos": "v",
+    "coreMeaning": {"cn": "照耀；发光；出色", "en": "to give off or reflect light; to excel"},
+    "morphemes": [
+      {"canonical": "shine", "role": "root", "form": "shine", "meaning": "发光；出色", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}, "coreMeaning": {"cn": "发光；出色", "en": "to emit light; to excel"}}
+    ],
+    "derivationChain": {"steps": []},
+    "memorySemantics": {"mnemonicExpr": "shine → 联想阳光shine照耀大地", "imageChain": ["光", "照耀", "出色"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["shined", "shines", "shining", "shiny", "sunshine"], "sameAffix": [], "synonyms": ["gleam", "glow", "radiate"], "antonyms": ["dim", "darken"], "domainCohort": ["gleam", "glow", "radiate"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shined",
+    "phonetic": "/ʃaɪnd/",
+    "pos": "v",
+    "coreMeaning": {"cn": "照耀（过去式）；擦亮", "en": "past tense of shine; polished"},
+    "morphemes": [
+      {"canonical": "shine", "role": "root", "form": "shine", "meaning": "发光；擦亮", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}, "coreMeaning": {"cn": "发光", "en": "to emit light"}},
+      {"canonical": "-ed", "role": "suffix", "form": "d", "meaning": "过去式", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "过去式后缀", "en": "past tense suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "shine", "to": "shined", "operation": "add -d (past tense, polish sense)"}]},
+    "memorySemantics": {"mnemonicExpr": "shine + d → 已擦亮/曾发光", "imageChain": ["擦亮", "完成", "光泽"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["shine", "shines", "shining", "shone"], "sameAffix": [], "synonyms": ["polished", "gleamed"], "antonyms": [], "domainCohort": [], "derivationPair": ["shine"], "morphVariants": ["shone"], "sameImagery": []}
+  },
+  {
+    "word": "shines",
+    "phonetic": "/ʃaɪnz/",
+    "pos": "v",
+    "coreMeaning": {"cn": "照耀（三单）", "en": "emits or reflects light"},
+    "morphemes": [
+      {"canonical": "shine", "role": "root", "form": "shine", "meaning": "发光", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}, "coreMeaning": {"cn": "发光", "en": "to emit light"}},
+      {"canonical": "-s", "role": "suffix", "form": "s", "meaning": "三单后缀", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "三单后缀", "en": "third person singular suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "shine", "to": "shines", "operation": "add -s (3rd person singular)"}]},
+    "memorySemantics": {"mnemonicExpr": "shine + s → 它发光", "imageChain": ["发光", "三单", "光芒"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["shine", "shined", "shining"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["shine"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shingle",
+    "phonetic": "/ˈʃɪŋɡəl/",
+    "pos": "n",
+    "coreMeaning": {"cn": "木瓦；卵石滩；招牌", "en": "a thin piece of wood used as roofing or a beach of pebbles"},
+    "morphemes": [
+      {"canonical": "shingle", "role": "root", "form": "shingle", "meaning": "木瓦；招牌", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "木瓦", "en": "roofing tile"}}
+    ],
+    "derivationChain": {"steps": []},
+    "memorySemantics": {"mnemonicExpr": "shingle → 联想'心灵'(心=shin, 灵=gle)的屋瓦", "imageChain": ["木瓦", "屋顶", "招牌"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["shingles", "shingled"], "sameAffix": [], "synonyms": ["tile", "slate"], "antonyms": [], "domainCohort": ["tile", "slate", "clapboard"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shingles",
+    "phonetic": "/ˈʃɪŋɡəlz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "木瓦（复数）；带状疱疹", "en": "plural of shingle; also a viral infection causing a painful rash"},
+    "morphemes": [
+      {"canonical": "shingle", "role": "root", "form": "shingle", "meaning": "木瓦；疱疹", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "木瓦；疱疹", "en": "roofing tile; viral rash"}},
+      {"canonical": "-s", "role": "suffix", "form": "s", "meaning": "复数", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "复数后缀", "en": "plural suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "shingle", "to": "shingles", "operation": "add -s (plural)"}]},
+    "memorySemantics": {"mnemonicExpr": "shingle + s → 木瓦们；带状疱疹", "imageChain": ["木瓦", "屋顶", "医学"]},
+    "wordLevel": {"domain": "medical", "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["shingle"], "sameAffix": [], "synonyms": ["herpes zoster"], "antonyms": [], "domainCohort": ["chickenpox", "rash", "herpes"], "derivationPair": ["shingle"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shining",
+    "phonetic": "/ˈʃaɪnɪŋ/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "闪亮的；杰出的", "en": "emitting or reflecting bright light; outstanding"},
+    "morphemes": [
+      {"canonical": "shine", "role": "root", "form": "shin", "meaning": "发光", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}, "coreMeaning": {"cn": "发光", "en": "emitting light"}},
+      {"canonical": "-ing", "role": "suffix", "form": "ing", "meaning": "形容词化/进行时", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "进行时/形容词后缀", "en": "participle/adjective suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "shine", "to": "shining", "operation": "add -ing (adj/participle)"}]},
+    "memorySemantics": {"mnemonicExpr": "shine + ing → 闪亮的；发光的", "imageChain": ["光芒", "闪耀", "杰出"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["shine", "shined", "shone"], "sameAffix": [], "synonyms": ["gleaming", "radiant", "brilliant"], "antonyms": ["dull", "dim"], "domainCohort": [], "derivationPair": ["shine"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shins",
+    "phonetic": "/ʃɪnz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "小腿（复数）", "en": "front lower parts of the legs"},
+    "morphemes": [
+      {"canonical": "shin", "role": "root", "form": "shin", "meaning": "小腿", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "小腿", "en": "lower leg"}},
+      {"canonical": "-s", "role": "suffix", "form": "s", "meaning": "复数", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "复数后缀", "en": "plural suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "shin", "to": "shins", "operation": "add -s (plural)"}]},
+    "memorySemantics": {"mnemonicExpr": "shin + s → 两条小腿", "imageChain": ["小腿", "双腿", "身体"]},
+    "wordLevel": {"domain": "medical", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["shin", "shinbone"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["shin"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "shiny",
+    "phonetic": "/ˈʃaɪni/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "闪亮的；有光泽的", "en": "having a bright, polished surface"},
+    "morphemes": [
+      {"canonical": "shine", "role": "root", "form": "shin", "meaning": "发光", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}, "coreMeaning": {"cn": "发光", "en": "to shine"}},
+      {"canonical": "-y", "role": "suffix", "form": "y", "meaning": "形容词化", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "形容词后缀", "en": "adjectival suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "shine", "to": "shiny", "operation": "add -y (adj)"}]},
+    "memorySemantics": {"mnemonicExpr": "shine + y → 有光泽的", "imageChain": ["光泽", "闪亮", "光滑"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["shine", "shined", "shining"], "sameAffix": [], "synonyms": ["gleaming", "lustrous", "glossy"], "antonyms": ["dull", "matte"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
   }
 ]

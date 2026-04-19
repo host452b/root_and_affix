@@ -1,575 +1,545 @@
 [
   {
+    "word": "slugger",
+    "phonetic": "/ˈslʌɡər/",
+    "pos": "n",
+    "coreMeaning": {"cn": "重击者；棒球强打者", "en": "one who hits hard, especially in baseball"},
+    "morphemes": [
+      {"canonical": "slug", "role": "root", "form": "slug", "meaning": "重击", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "重击", "en": "to hit hard"}},
+      {"canonical": "-er", "role": "suffix", "form": "ger", "meaning": "施动者", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "施动者后缀", "en": "agent suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "slug", "to": "slugger", "operation": "add -er (agent)"}]},
+    "memorySemantics": {"mnemonicExpr": "slug(重击)+er → 重击者；强打手", "imageChain": ["重击", "棒球", "强力"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["slug", "slugging", "sluggish"], "sameAffix": [], "synonyms": ["power hitter", "hard hitter"], "antonyms": [], "domainCohort": ["batter", "hitter"], "derivationPair": ["slug"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "slugging",
+    "phonetic": "/ˈslʌɡɪŋ/",
+    "pos": "v",
+    "coreMeaning": {"cn": "重击（进行时）", "en": "hitting hard repeatedly"},
+    "morphemes": [
+      {"canonical": "slug", "role": "root", "form": "slug", "meaning": "重击", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "重击", "en": "to hit hard"}},
+      {"canonical": "-ing", "role": "suffix", "form": "ging", "meaning": "进行时", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "进行时后缀", "en": "present participle suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "slug", "to": "slugging", "operation": "add -ing (doubling g)"}]},
+    "memorySemantics": {"mnemonicExpr": "slug + ging → 正在重击", "imageChain": ["重击", "进行中", "力量"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["slug", "slugger", "sluggish"], "sameAffix": [], "synonyms": ["hitting", "pounding"], "antonyms": [], "domainCohort": [], "derivationPair": ["slug"], "morphVariants": [], "sameImagery": []}
+  },
+  {
     "word": "sluggish",
-    "phonetic": "/'slʌɡɪʃ/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "不活泼的；迟钝的；呆滞的",
-      "en": "slow-moving; lacking energy or alertness"
-    },
+    "phonetic": "/ˈslʌɡɪʃ/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "迟缓的；懒散的；呆滞的", "en": "slow-moving; lacking energy or alertness"},
     "morphemes": [
-      {
-        "canonical": "slug",
-        "role": "root",
-        "meaning": "蛞蝓；懒人（移动极慢）",
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": -1
-        },
-        "order": 1,
-        "form": "slug",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-ish",
-        "role": "suffix",
-        "meaning": "有...特性的",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "ish",
-        "positionTendency": "final"
-      }
+      {"canonical": "slug", "role": "root", "form": "slug", "meaning": "缓慢移动的动物", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}, "coreMeaning": {"cn": "蛞蝓；懒惰者", "en": "slug (slow creature)"}},
+      {"canonical": "-ish", "role": "suffix", "form": "gish", "meaning": "有……特征的", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["消极"], "intensity": 1}, "coreMeaning": {"cn": "像……一样", "en": "like or somewhat"}}
     ],
-    "derivationChain": [
-      "slug（蛞蝓）+ -ish → sluggish（像蛞蝓一样迟缓的）"
-    ],
-    "memorySemantics": {
-      "imageKey": "蜗牛爬行",
-      "scene": "经济如蛞蝓般sluggish——复苏缓慢，毫无生气",
-      "emotionalHook": "GRE/GMAT高频词，常用于形容经济或反应迟钝",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "gre",
-        "gmat",
-        "ielts",
-        "toefl",
-        "sat"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": -1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "slug",
-        "sluggishly",
-        "sluggishness"
-      ],
-      "sameAffix": [
-        "selfish",
-        "foolish",
-        "feverish"
-      ],
-      "synonyms": [
-        "lethargic",
-        "torpid",
-        "languid",
-        "inert",
-        "listless"
-      ],
-      "antonyms": [
-        "vigorous",
-        "energetic",
-        "lively",
-        "brisk"
-      ],
-      "domainCohort": [
-        "lethargic",
-        "torpid",
-        "languid"
-      ],
-      "derivationPair": [
-        "sluggishness"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "lethargic",
-        "torpid"
-      ]
-    }
+    "derivationChain": {"steps": [{"from": "slug", "to": "sluggish", "operation": "add -ish (adj)"}]},
+    "memorySemantics": {"mnemonicExpr": "slug(蛞蝓)+ish → 像蛞蝓一样迟缓的", "imageChain": ["蛞蝓", "缓慢", "迟钝"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["slug", "sluggishly", "sluggishness"], "sameAffix": ["clownish", "oafish"], "synonyms": ["lethargic", "torpid", "languid"], "antonyms": ["energetic", "lively", "brisk"], "domainCohort": ["lethargic", "torpid", "languorous"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
   },
   {
-    "word": "slumber",
-    "phonetic": "/'slʌmbɚ/",
-    "pos": [
-      "v.",
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "安睡；沉睡；睡眠",
-      "en": "to sleep, especially lightly or peacefully"
-    },
+    "word": "sluggishly",
+    "phonetic": "/ˈslʌɡɪʃli/",
+    "pos": "adv",
+    "coreMeaning": {"cn": "迟缓地；懒散地", "en": "in a slow and lethargic manner"},
     "morphemes": [
-      {
-        "canonical": "slumber",
-        "role": "root",
-        "meaning": "睡眠；安眠（古英语sluma）",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "slumber",
-        "positionTendency": "medial"
-      }
+      {"canonical": "slug", "role": "root", "form": "slug", "meaning": "缓慢", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}, "coreMeaning": {"cn": "缓慢", "en": "slow"}},
+      {"canonical": "-ish", "role": "suffix", "form": "gish", "meaning": "形容词化", "order": 2, "positionTendency": "medial", "sentiment": {"tags": ["消极"], "intensity": 1}, "coreMeaning": {"cn": "形容词化", "en": "adjectival"}},
+      {"canonical": "-ly", "role": "suffix", "form": "ly", "meaning": "副词化", "order": 3, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "副词后缀", "en": "adverbial suffix"}}
     ],
-    "derivationChain": [
-      "古英语 sluma → slumber → slumberous"
-    ],
-    "memorySemantics": {
-      "imageKey": "宁静沉睡",
-      "scene": "孩子在母亲怀中slumber，平静而安详",
-      "emotionalHook": "GRE/literary词汇，比sleep更文学化，常用于诗歌",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "gre",
-        "toefl",
-        "ielts"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "slumberous",
-        "slumbering"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "sleep",
-        "doze",
-        "snooze",
-        "repose"
-      ],
-      "antonyms": [
-        "wakefulness",
-        "alertness",
-        "vigilance"
-      ],
-      "domainCohort": [
-        "doze",
-        "nap",
-        "repose"
-      ],
-      "derivationPair": [
-        "slumberous"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "repose",
-        "dormancy"
-      ]
-    }
+    "derivationChain": {"steps": [{"from": "sluggish", "to": "sluggishly", "operation": "add -ly (adv)"}]},
+    "memorySemantics": {"mnemonicExpr": "sluggish + ly → 迟缓地", "imageChain": ["缓慢", "副词", "懒散"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["sluggish", "sluggishness"], "sameAffix": [], "synonyms": ["lethargically", "torpidly"], "antonyms": ["briskly", "energetically"], "domainCohort": [], "derivationPair": ["sluggish"], "morphVariants": [], "sameImagery": []}
   },
   {
-    "word": "slumberous",
-    "phonetic": "/'slʌmbərəs/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "昏昏欲睡的；催眠的",
-      "en": "sleepy; inducing sleep"
-    },
+    "word": "sluggishness",
+    "phonetic": "/ˈslʌɡɪʃnɪs/",
+    "pos": "n",
+    "coreMeaning": {"cn": "迟缓；懒散", "en": "the quality of being slow and lethargic"},
     "morphemes": [
-      {
-        "canonical": "slumber",
-        "role": "root",
-        "meaning": "睡眠",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "slumber",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-ous",
-        "role": "suffix",
-        "meaning": "充满...的",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "ous",
-        "positionTendency": "final"
-      }
+      {"canonical": "slug", "role": "root", "form": "slug", "meaning": "缓慢", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}, "coreMeaning": {"cn": "缓慢", "en": "slow"}},
+      {"canonical": "-ish", "role": "suffix", "form": "gish", "meaning": "形容词化", "order": 2, "positionTendency": "medial", "sentiment": {"tags": ["消极"], "intensity": 1}, "coreMeaning": {"cn": "形容词化", "en": "adjectival"}},
+      {"canonical": "-ness", "role": "suffix", "form": "ness", "meaning": "名词化", "order": 3, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "名词后缀", "en": "nominalization"}}
     ],
-    "derivationChain": [
-      "slumber + -ous → slumberous（昏昏欲睡的）"
-    ],
-    "memorySemantics": {
-      "imageKey": "催眠氛围",
-      "scene": "夏日午后slumberous的气氛让人难以保持清醒",
-      "emotionalHook": "GRE词汇，文学性较强",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "gre"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "slumber"
-      ],
-      "sameAffix": [
-        "sonorous",
-        "clamorous"
-      ],
-      "synonyms": [
-        "somnolent",
-        "drowsy",
-        "soporific"
-      ],
-      "antonyms": [
-        "wakeful",
-        "alert",
-        "stimulating"
-      ],
-      "domainCohort": [
-        "somnolent",
-        "drowsy",
-        "lethargic"
-      ],
-      "derivationPair": [
-        "slumber"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "derivationChain": {"steps": [{"from": "sluggish", "to": "sluggishness", "operation": "add -ness (noun)"}]},
+    "memorySemantics": {"mnemonicExpr": "sluggish + ness → 迟缓的状态", "imageChain": ["迟缓", "状态", "懒散"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["sluggish", "slug"], "sameAffix": [], "synonyms": ["lethargy", "torpidity", "inertia"], "antonyms": ["energy", "vitality"], "domainCohort": [], "derivationPair": ["sluggish"], "morphVariants": [], "sameImagery": []}
   },
   {
-    "word": "slum",
-    "phonetic": "/slʌm/",
-    "pos": [
-      "n.",
-      "v."
-    ],
-    "coreMeaning": {
-      "cn": "贫民窟；陋巷",
-      "en": "a densely populated, run-down urban area with poor living conditions"
-    },
+    "word": "slugs",
+    "phonetic": "/slʌɡz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "蛞蝓（复数）；子弹；重击", "en": "plural of slug; snail-like creatures or bullets"},
     "morphemes": [
-      {
-        "canonical": "slum",
-        "role": "root",
-        "meaning": "贫民窟（19世纪俚语）",
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": -1
-        },
-        "order": 1,
-        "form": "slum",
-        "positionTendency": "medial"
-      }
+      {"canonical": "slug", "role": "root", "form": "slug", "meaning": "蛞蝓；子弹", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "蛞蝓；子弹", "en": "slug (creature or bullet)"}},
+      {"canonical": "-s", "role": "suffix", "form": "s", "meaning": "复数", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "复数后缀", "en": "plural suffix"}}
     ],
-    "derivationChain": [
-      "slum（n.贫民窟）→ slums（复数）→ slummy（adj.）"
-    ],
-    "memorySemantics": {
-      "imageKey": "城市贫民区",
-      "scene": "工业革命时期伦敦slums拥挤肮脏，狄更斯作品常有描述",
-      "emotionalHook": "IELTS/NPEE词汇，社会不平等的象征",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "ielts",
-        "academic",
-        "npee"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": -1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "slums",
-        "slummy"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "ghetto",
-        "shantytown",
-        "tenement"
-      ],
-      "antonyms": [
-        "suburb",
-        "affluent area"
-      ],
-      "domainCohort": [
-        "ghetto",
-        "shantytown",
-        "poverty"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": [
-        "ghetto",
-        "shantytown"
-      ]
-    }
-  },
-  {
-    "word": "slump",
-    "phonetic": "/slʌmp/",
-    "pos": [
-      "v.",
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "暴跌；猛跌；突然倒下",
-      "en": "a sudden severe fall in price or value; to sit or fall heavily"
-    },
-    "morphemes": [
-      {
-        "canonical": "slump",
-        "role": "root",
-        "meaning": "突然下沉（拟声词，源自北欧语）",
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": -1
-        },
-        "order": 1,
-        "form": "slump",
-        "positionTendency": "medial"
-      }
-    ],
-    "derivationChain": [
-      "slump（暴跌）→ slumped（疲软）"
-    ],
-    "memorySemantics": {
-      "imageKey": "股市暴跌",
-      "scene": "经济slump——股价崩塌，失业率飙升，图表直线下跌",
-      "emotionalHook": "GMAT/GRE高频词，金融领域核心词",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "gmat",
-        "gre",
-        "ielts",
-        "academic"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": -1
-      }
-    },
-    "relations": {
-      "sameRoot": [],
-      "sameAffix": [],
-      "synonyms": [
-        "plunge",
-        "decline",
-        "crash",
-        "recession"
-      ],
-      "antonyms": [
-        "surge",
-        "boom",
-        "rally"
-      ],
-      "domainCohort": [
-        "recession",
-        "depression",
-        "downturn"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": [
-        "plunge",
-        "crash"
-      ]
-    }
-  },
-  {
-    "word": "slur",
-    "phonetic": "/slɝ/",
-    "pos": [
-      "v.",
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "含糊不清地发音；诽谤；污点",
-      "en": "to pronounce indistinctly; a derogatory remark"
-    },
-    "morphemes": [
-      {
-        "canonical": "slur",
-        "role": "root",
-        "meaning": "含混；拖拉（低地德语slurren）",
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": -1
-        },
-        "order": 1,
-        "form": "slur",
-        "positionTendency": "medial"
-      }
-    ],
-    "derivationChain": [
-      "slur（v.含混发音）→ slurred（adj.含混的）"
-    ],
-    "memorySemantics": {
-      "imageKey": "醉酒说话含糊",
-      "scene": "醉汉slur他的话语，词语连成一片模糊的声音",
-      "emotionalHook": "GRE词汇，既指发音不清，也指种族性侮辱词",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "gre"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": -1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "slurred"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "mumble",
-        "mutter",
-        "smear",
-        "aspersion"
-      ],
-      "antonyms": [
-        "enunciate",
-        "articulate",
-        "praise"
-      ],
-      "domainCohort": [
-        "aspersion",
-        "calumny",
-        "defamation"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": [
-        "mumble",
-        "aspersion"
-      ]
-    }
+    "derivationChain": {"steps": [{"from": "slug", "to": "slugs", "operation": "add -s (plural)"}]},
+    "memorySemantics": {"mnemonicExpr": "slug + s → 多只蛞蝓；多颗子弹", "imageChain": ["蛞蝓", "多个", "缓慢"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["slug", "slugger", "sluggish"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["slug"], "morphVariants": [], "sameImagery": []}
   },
   {
     "word": "sluice",
     "phonetic": "/sluːs/",
-    "pos": [
-      "n.",
-      "v."
-    ],
-    "coreMeaning": {
-      "cn": "水闸；闸门；（用水）冲洗",
-      "en": "a gate controlling water flow; to wash with a rush of water"
-    },
+    "pos": "n",
+    "coreMeaning": {"cn": "水闸；水槽", "en": "a sliding gate controlling water flow"},
     "morphemes": [
-      {
-        "canonical": "sluice",
-        "role": "root",
-        "meaning": "水闸（拉丁exclusa，关闭之物）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "sluice",
-        "positionTendency": "medial"
-      }
+      {"canonical": "sluice", "role": "root", "form": "sluice", "meaning": "水闸", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "水闸", "en": "floodgate"}}
     ],
-    "derivationChain": [
-      "拉丁 exclusa aqua（关闭的水）→ 古法语 escluse → sluice"
+    "derivationChain": {"steps": []},
+    "memorySemantics": {"mnemonicExpr": "sluice → 联想'水路斯'，水闸控制流量", "imageChain": ["水闸", "控水", "流量"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["sluiced", "sluices", "sluicing", "sluicehouse"], "sameAffix": [], "synonyms": ["floodgate", "weir", "sluiceway"], "antonyms": [], "domainCohort": ["dam", "floodgate", "weir"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "sluiced",
+    "phonetic": "/sluːst/",
+    "pos": "v",
+    "coreMeaning": {"cn": "以水闸冲洗（过去式）", "en": "flushed or rinsed with water"},
+    "morphemes": [
+      {"canonical": "sluice", "role": "root", "form": "sluice", "meaning": "水闸冲洗", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "冲洗", "en": "to flush with water"}},
+      {"canonical": "-ed", "role": "suffix", "form": "d", "meaning": "过去式", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "过去式后缀", "en": "past tense suffix"}}
     ],
-    "memorySemantics": {
-      "imageKey": "水闸开启",
-      "scene": "大坝sluice打开，洪水奔涌而出，势不可当",
-      "emotionalHook": "工程/文学词汇，常比喻情感的倾泻",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "academic"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [],
-      "sameAffix": [],
-      "synonyms": [
-        "floodgate",
-        "gate",
-        "channel"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "floodgate",
-        "weir",
-        "dam"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": [
-        "floodgate",
-        "torrent"
-      ]
-    }
+    "derivationChain": {"steps": [{"from": "sluice", "to": "sluiced", "operation": "add -d (past tense)"}]},
+    "memorySemantics": {"mnemonicExpr": "sluice + d → 已冲洗", "imageChain": ["冲洗", "完成", "水流"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["sluice", "sluices", "sluicing"], "sameAffix": [], "synonyms": ["flushed", "rinsed"], "antonyms": [], "domainCohort": [], "derivationPair": ["sluice"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "sluices",
+    "phonetic": "/sluːsɪz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "水闸（复数）", "en": "sliding gates controlling water flow"},
+    "morphemes": [
+      {"canonical": "sluice", "role": "root", "form": "sluice", "meaning": "水闸", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "水闸", "en": "floodgate"}},
+      {"canonical": "-s", "role": "suffix", "form": "s", "meaning": "复数", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "复数后缀", "en": "plural suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "sluice", "to": "sluices", "operation": "add -s (plural)"}]},
+    "memorySemantics": {"mnemonicExpr": "sluice + s → 多个水闸", "imageChain": ["水闸", "多个", "控水"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["sluice"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["sluice"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "sluicing",
+    "phonetic": "/ˈsluːsɪŋ/",
+    "pos": "v",
+    "coreMeaning": {"cn": "用水冲洗（进行时）", "en": "flushing or rinsing with water"},
+    "morphemes": [
+      {"canonical": "sluice", "role": "root", "form": "sluic", "meaning": "水闸冲洗", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "冲洗", "en": "to flush"}},
+      {"canonical": "-ing", "role": "suffix", "form": "ing", "meaning": "进行时", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "进行时后缀", "en": "present participle suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "sluice", "to": "sluicing", "operation": "add -ing"}]},
+    "memorySemantics": {"mnemonicExpr": "sluice + ing → 正在冲洗", "imageChain": ["冲洗", "进行中", "水流"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["sluice", "sluiced", "sluices"], "sameAffix": [], "synonyms": ["flushing", "rinsing"], "antonyms": [], "domainCohort": [], "derivationPair": ["sluice"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "slum",
+    "phonetic": "/slʌm/",
+    "pos": "n",
+    "coreMeaning": {"cn": "贫民窟；陋巷", "en": "a squalid and overcrowded urban area"},
+    "morphemes": [
+      {"canonical": "slum", "role": "root", "form": "slum", "meaning": "贫民窟", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 2}, "coreMeaning": {"cn": "贫民窟", "en": "squalid urban area"}}
+    ],
+    "derivationChain": {"steps": []},
+    "memorySemantics": {"mnemonicExpr": "slum → 联想'污浊'的街区，贫困破旧", "imageChain": ["贫民窟", "破旧", "拥挤"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["消极"], "intensity": 2}},
+    "relations": {"sameRoot": ["slummed", "slumming", "slummy", "slums", "slumlord"], "sameAffix": [], "synonyms": ["ghetto", "shantytown"], "antonyms": [], "domainCohort": ["ghetto", "shantytown", "tenement"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "slumber",
+    "phonetic": "/ˈslʌmbər/",
+    "pos": "n",
+    "coreMeaning": {"cn": "睡眠；安睡", "en": "a state of sleep; to sleep"},
+    "morphemes": [
+      {"canonical": "slumber", "role": "root", "form": "slumber", "meaning": "睡眠", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}, "coreMeaning": {"cn": "睡眠", "en": "sleep"}}
+    ],
+    "derivationChain": {"steps": []},
+    "memorySemantics": {"mnemonicExpr": "slumber → 联想'slum'(阴暗)+ber → 在阴暗中安睡", "imageChain": ["睡眠", "安宁", "休息"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["slumbered", "slumberer", "slumbering", "slumberous", "slumbers"], "sameAffix": [], "synonyms": ["sleep", "doze", "repose"], "antonyms": ["wakefulness", "alertness"], "domainCohort": ["sleep", "doze", "nap"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "slumbered",
+    "phonetic": "/ˈslʌmbərd/",
+    "pos": "v",
+    "coreMeaning": {"cn": "安睡（过去式）", "en": "slept peacefully"},
+    "morphemes": [
+      {"canonical": "slumber", "role": "root", "form": "slumber", "meaning": "睡眠", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}, "coreMeaning": {"cn": "睡眠", "en": "sleep"}},
+      {"canonical": "-ed", "role": "suffix", "form": "ed", "meaning": "过去式", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "过去式后缀", "en": "past tense suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "slumber", "to": "slumbered", "operation": "add -ed (past tense)"}]},
+    "memorySemantics": {"mnemonicExpr": "slumber + ed → 已安睡", "imageChain": ["安睡", "完成", "休息"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["slumber", "slumbering", "slumbers"], "sameAffix": [], "synonyms": ["slept", "dozed"], "antonyms": [], "domainCohort": [], "derivationPair": ["slumber"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "slumberer",
+    "phonetic": "/ˈslʌmbərər/",
+    "pos": "n",
+    "coreMeaning": {"cn": "沉睡者", "en": "one who slumbers"},
+    "morphemes": [
+      {"canonical": "slumber", "role": "root", "form": "slumber", "meaning": "睡眠", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}, "coreMeaning": {"cn": "睡眠", "en": "sleep"}},
+      {"canonical": "-er", "role": "suffix", "form": "er", "meaning": "施动者", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "施动者后缀", "en": "agent suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "slumber", "to": "slumberer", "operation": "add -er (agent)"}]},
+    "memorySemantics": {"mnemonicExpr": "slumber + er → 沉睡的人", "imageChain": ["沉睡者", "休息", "安眠"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["slumber", "slumberers"], "sameAffix": [], "synonyms": ["sleeper", "dozer"], "antonyms": [], "domainCohort": [], "derivationPair": ["slumber"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "slumberers",
+    "phonetic": "/ˈslʌmbərərz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "沉睡者（复数）", "en": "those who slumber"},
+    "morphemes": [
+      {"canonical": "slumber", "role": "root", "form": "slumber", "meaning": "睡眠", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}, "coreMeaning": {"cn": "睡眠", "en": "sleep"}},
+      {"canonical": "-er", "role": "suffix", "form": "er", "meaning": "施动者", "order": 2, "positionTendency": "medial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "施动者", "en": "agent"}},
+      {"canonical": "-s", "role": "suffix", "form": "s", "meaning": "复数", "order": 3, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "复数后缀", "en": "plural suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "slumberer", "to": "slumberers", "operation": "add -s (plural)"}]},
+    "memorySemantics": {"mnemonicExpr": "slumberer + s → 多位沉睡者", "imageChain": ["沉睡者", "多人", "休息"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["slumberer", "slumber"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["slumberer"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "slumbering",
+    "phonetic": "/ˈslʌmbərɪŋ/",
+    "pos": "v",
+    "coreMeaning": {"cn": "安睡（进行时）；沉睡中的", "en": "sleeping peacefully"},
+    "morphemes": [
+      {"canonical": "slumber", "role": "root", "form": "slumber", "meaning": "睡眠", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}, "coreMeaning": {"cn": "睡眠", "en": "sleep"}},
+      {"canonical": "-ing", "role": "suffix", "form": "ing", "meaning": "进行时", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "进行时后缀", "en": "present participle suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "slumber", "to": "slumbering", "operation": "add -ing"}]},
+    "memorySemantics": {"mnemonicExpr": "slumber + ing → 正在安睡", "imageChain": ["安睡", "进行中", "宁静"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["slumber", "slumbered", "slumbers"], "sameAffix": [], "synonyms": ["sleeping", "dozing"], "antonyms": [], "domainCohort": [], "derivationPair": ["slumber"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "slumberous",
+    "phonetic": "/ˈslʌmbərəs/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "昏昏欲睡的；催眠的", "en": "inducing sleep; drowsy"},
+    "morphemes": [
+      {"canonical": "slumber", "role": "root", "form": "slumber", "meaning": "睡意", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "睡意", "en": "sleepiness"}},
+      {"canonical": "-ous", "role": "suffix", "form": "ous", "meaning": "有……特征的", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "形容词后缀", "en": "adjectival suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "slumber", "to": "slumberous", "operation": "add -ous (adj)"}]},
+    "memorySemantics": {"mnemonicExpr": "slumber + ous → 催眠的；充满睡意的", "imageChain": ["睡意", "昏沉", "催眠"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["slumber", "slumbrous"], "sameAffix": ["comatose-ish"], "synonyms": ["drowsy", "soporific", "somnolent"], "antonyms": ["wakeful", "alert"], "domainCohort": [], "derivationPair": [], "morphVariants": ["slumbrous"], "sameImagery": []}
+  },
+  {
+    "word": "slumbers",
+    "phonetic": "/ˈslʌmbərz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "睡眠（复数）", "en": "periods of sleep"},
+    "morphemes": [
+      {"canonical": "slumber", "role": "root", "form": "slumber", "meaning": "睡眠", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}, "coreMeaning": {"cn": "睡眠", "en": "sleep"}},
+      {"canonical": "-s", "role": "suffix", "form": "s", "meaning": "复数", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "复数后缀", "en": "plural suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "slumber", "to": "slumbers", "operation": "add -s (plural/3rd sing)"}]},
+    "memorySemantics": {"mnemonicExpr": "slumber + s → 安眠时段", "imageChain": ["睡眠", "多次", "安宁"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["slumber", "slumbered", "slumbering"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["slumber"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "slumbrous",
+    "phonetic": "/ˈslʌmbrəs/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "昏昏欲睡的（变体）", "en": "variant of slumberous; drowsy"},
+    "morphemes": [
+      {"canonical": "slumber", "role": "root", "form": "slumbr", "meaning": "睡意", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "睡意", "en": "sleepiness"}},
+      {"canonical": "-ous", "role": "suffix", "form": "ous", "meaning": "形容词化", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "形容词后缀", "en": "adjectival suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "slumber", "to": "slumbrous", "operation": "add -ous (variant form)"}]},
+    "memorySemantics": {"mnemonicExpr": "slumbr + ous → 同slumberous，昏沉", "imageChain": ["昏沉", "睡意", "催眠"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["slumber", "slumberous"], "sameAffix": [], "synonyms": ["drowsy", "soporific"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["slumberous"], "sameImagery": []}
+  },
+  {
+    "word": "slumlord",
+    "phonetic": "/ˈslʌmlɔːrd/",
+    "pos": "n",
+    "coreMeaning": {"cn": "贫民窟包租公；剥削廉价房客者", "en": "a landlord who exploits residents of substandard housing"},
+    "morphemes": [
+      {"canonical": "slum", "role": "root", "form": "slum", "meaning": "贫民窟", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 2}, "coreMeaning": {"cn": "贫民窟", "en": "slum"}},
+      {"canonical": "lord", "role": "root", "form": "lord", "meaning": "领主；主人", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["消极"], "intensity": 1}, "coreMeaning": {"cn": "领主", "en": "lord, landlord"}}
+    ],
+    "derivationChain": {"steps": [{"from": "slum + lord", "to": "slumlord", "operation": "compound noun"}]},
+    "memorySemantics": {"mnemonicExpr": "slum(贫民窟)+lord(主人) → 贫民窟房东", "imageChain": ["贫民窟", "房东", "剥削"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["消极"], "intensity": 2}},
+    "relations": {"sameRoot": ["slum"], "sameAffix": [], "synonyms": ["exploitative landlord"], "antonyms": [], "domainCohort": ["landlord", "exploiter"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "slummed",
+    "phonetic": "/slʌmd/",
+    "pos": "v",
+    "coreMeaning": {"cn": "游荡于贫民区（过去式）", "en": "visited slums, often for curiosity"},
+    "morphemes": [
+      {"canonical": "slum", "role": "root", "form": "slum", "meaning": "贫民窟", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}, "coreMeaning": {"cn": "贫民窟", "en": "slum"}},
+      {"canonical": "-ed", "role": "suffix", "form": "med", "meaning": "过去式", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "过去式后缀", "en": "past tense suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "slum (v)", "to": "slummed", "operation": "add -med (past tense, double m)"}]},
+    "memorySemantics": {"mnemonicExpr": "slum + med → 曾游荡贫民窟", "imageChain": ["贫民区", "游历", "过去"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["slum", "slumming", "slums"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["slum"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "slummy",
+    "phonetic": "/ˈslʌmi/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "贫民窟似的；破旧的", "en": "resembling or characteristic of a slum"},
+    "morphemes": [
+      {"canonical": "slum", "role": "root", "form": "slum", "meaning": "贫民窟", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 2}, "coreMeaning": {"cn": "贫民窟", "en": "slum"}},
+      {"canonical": "-y", "role": "suffix", "form": "my", "meaning": "形容词化", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "形容词后缀", "en": "adjectival suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "slum", "to": "slummy", "operation": "add -y (adj, double m)"}]},
+    "memorySemantics": {"mnemonicExpr": "slum + my → 像贫民窟的", "imageChain": ["破旧", "贫困", "拥挤"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["消极"], "intensity": 2}},
+    "relations": {"sameRoot": ["slum", "slummier", "slummiest"], "sameAffix": [], "synonyms": ["squalid", "dilapidated", "shabby"], "antonyms": ["posh", "upscale"], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "slumming",
+    "phonetic": "/ˈslʌmɪŋ/",
+    "pos": "v",
+    "coreMeaning": {"cn": "游历贫民窟（进行时）", "en": "visiting lower-class areas"},
+    "morphemes": [
+      {"canonical": "slum", "role": "root", "form": "slum", "meaning": "贫民窟", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}, "coreMeaning": {"cn": "贫民窟", "en": "slum"}},
+      {"canonical": "-ing", "role": "suffix", "form": "ming", "meaning": "进行时", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "进行时后缀", "en": "present participle suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "slum", "to": "slumming", "operation": "add -ing (doubling m)"}]},
+    "memorySemantics": {"mnemonicExpr": "slum + ming → 正在游历贫民区", "imageChain": ["贫民区", "游历", "进行"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["slum", "slummed", "slums"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["slum"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "slump",
+    "phonetic": "/slʌmp/",
+    "pos": "n",
+    "coreMeaning": {"cn": "暴跌；萧条；颓然倒下", "en": "a sudden severe fall in price or business; to fall heavily"},
+    "morphemes": [
+      {"canonical": "slump", "role": "root", "form": "slump", "meaning": "骤降；颓落", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 2}, "coreMeaning": {"cn": "骤降", "en": "sudden drop"}}
+    ],
+    "derivationChain": {"steps": []},
+    "memorySemantics": {"mnemonicExpr": "slump → 联想'猛跌'，股市暴跌slump", "imageChain": ["暴跌", "萧条", "颓然"]},
+    "wordLevel": {"domain": "economics", "sentiment": {"tags": ["消极"], "intensity": 2}},
+    "relations": {"sameRoot": ["slumped", "slumping", "slumps"], "sameAffix": [], "synonyms": ["decline", "depression", "collapse"], "antonyms": ["boom", "surge", "rise"], "domainCohort": ["recession", "depression", "downturn"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "slumped",
+    "phonetic": "/slʌmpt/",
+    "pos": "v",
+    "coreMeaning": {"cn": "颓然倒下；暴跌（过去式）", "en": "fell heavily or declined sharply"},
+    "morphemes": [
+      {"canonical": "slump", "role": "root", "form": "slump", "meaning": "骤降；颓落", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 2}, "coreMeaning": {"cn": "骤降", "en": "sudden drop"}},
+      {"canonical": "-ed", "role": "suffix", "form": "ed", "meaning": "过去式", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "过去式后缀", "en": "past tense suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "slump", "to": "slumped", "operation": "add -ed (past tense)"}]},
+    "memorySemantics": {"mnemonicExpr": "slump + ed → 已暴跌/颓然坐下", "imageChain": ["暴跌", "完成", "萧条"]},
+    "wordLevel": {"domain": "economics", "sentiment": {"tags": ["消极"], "intensity": 2}},
+    "relations": {"sameRoot": ["slump", "slumping", "slumps"], "sameAffix": [], "synonyms": ["plummeted", "collapsed"], "antonyms": ["surged", "rose"], "domainCohort": [], "derivationPair": ["slump"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "slumping",
+    "phonetic": "/ˈslʌmpɪŋ/",
+    "pos": "v",
+    "coreMeaning": {"cn": "暴跌（进行时）；颓然倒下", "en": "falling heavily or declining sharply"},
+    "morphemes": [
+      {"canonical": "slump", "role": "root", "form": "slump", "meaning": "骤降", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 2}, "coreMeaning": {"cn": "骤降", "en": "sudden drop"}},
+      {"canonical": "-ing", "role": "suffix", "form": "ing", "meaning": "进行时", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "进行时后缀", "en": "present participle suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "slump", "to": "slumping", "operation": "add -ing"}]},
+    "memorySemantics": {"mnemonicExpr": "slump + ing → 正在下跌", "imageChain": ["下跌", "进行中", "萧条"]},
+    "wordLevel": {"domain": "economics", "sentiment": {"tags": ["消极"], "intensity": 2}},
+    "relations": {"sameRoot": ["slump", "slumped", "slumps"], "sameAffix": [], "synonyms": ["declining", "falling"], "antonyms": ["rising"], "domainCohort": [], "derivationPair": ["slump"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "slumps",
+    "phonetic": "/slʌmps/",
+    "pos": "n",
+    "coreMeaning": {"cn": "萧条；暴跌（复数）", "en": "sharp declines or periods of low activity"},
+    "morphemes": [
+      {"canonical": "slump", "role": "root", "form": "slump", "meaning": "暴跌；萧条", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 2}, "coreMeaning": {"cn": "暴跌", "en": "sharp decline"}},
+      {"canonical": "-s", "role": "suffix", "form": "s", "meaning": "复数", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "复数后缀", "en": "plural suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "slump", "to": "slumps", "operation": "add -s (plural)"}]},
+    "memorySemantics": {"mnemonicExpr": "slump + s → 多次萧条期", "imageChain": ["萧条", "多次", "经济"]},
+    "wordLevel": {"domain": "economics", "sentiment": {"tags": ["消极"], "intensity": 2}},
+    "relations": {"sameRoot": ["slump", "slumped", "slumping"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["slump"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "slums",
+    "phonetic": "/slʌmz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "贫民窟（复数）", "en": "areas of squalid urban housing"},
+    "morphemes": [
+      {"canonical": "slum", "role": "root", "form": "slum", "meaning": "贫民窟", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 2}, "coreMeaning": {"cn": "贫民窟", "en": "squalid area"}},
+      {"canonical": "-s", "role": "suffix", "form": "s", "meaning": "复数", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "复数后缀", "en": "plural suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "slum", "to": "slums", "operation": "add -s (plural)"}]},
+    "memorySemantics": {"mnemonicExpr": "slum + s → 多个贫民窟", "imageChain": ["贫民窟", "多处", "破旧"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["消极"], "intensity": 2}},
+    "relations": {"sameRoot": ["slum", "slumlord"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["slum"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "slung",
+    "phonetic": "/slʌŋ/",
+    "pos": "v",
+    "coreMeaning": {"cn": "抛；悬挂（过去式）", "en": "past tense of sling; threw or hung"},
+    "morphemes": [
+      {"canonical": "sling", "role": "root", "form": "slung", "meaning": "抛；弹弓", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "抛投", "en": "to throw or hang"}}
+    ],
+    "derivationChain": {"steps": [{"from": "sling", "to": "slung", "operation": "irregular past tense (vowel change)"}]},
+    "memorySemantics": {"mnemonicExpr": "sling → slung，弹弓甩出去（不规则过去式）", "imageChain": ["弹弓", "抛投", "悬挂"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["sling", "slinging", "slings"], "sameAffix": [], "synonyms": ["threw", "hurled", "flung"], "antonyms": [], "domainCohort": [], "derivationPair": ["sling"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "slunk",
+    "phonetic": "/slʌŋk/",
+    "pos": "v",
+    "coreMeaning": {"cn": "悄悄溜走（过去式）", "en": "past tense of slink; moved stealthily"},
+    "morphemes": [
+      {"canonical": "slink", "role": "root", "form": "slunk", "meaning": "溜走；偷偷移动", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}, "coreMeaning": {"cn": "悄悄溜走", "en": "to move stealthily"}}
+    ],
+    "derivationChain": {"steps": [{"from": "slink", "to": "slunk", "operation": "irregular past tense (vowel change)"}]},
+    "memorySemantics": {"mnemonicExpr": "slink → slunk，如狐狸slunk悄悄溜走", "imageChain": ["溜走", "偷偷", "羞愧"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["slink", "slinking", "slinks"], "sameAffix": [], "synonyms": ["crept", "skulked", "sneaked"], "antonyms": [], "domainCohort": [], "derivationPair": ["slink"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "slur",
+    "phonetic": "/slɜːr/",
+    "pos": "n",
+    "coreMeaning": {"cn": "含糊不清的言语；诽谤；污点", "en": "an insinuation or slander; indistinct speech"},
+    "morphemes": [
+      {"canonical": "slur", "role": "root", "form": "slur", "meaning": "含糊；诽谤", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 2}, "coreMeaning": {"cn": "诽谤；模糊", "en": "slander; indistinct"}}
+    ],
+    "derivationChain": {"steps": []},
+    "memorySemantics": {"mnemonicExpr": "slur → 联想说话'slur'含糊不清，也指诋毁", "imageChain": ["模糊", "诽谤", "污点"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["消极"], "intensity": 2}},
+    "relations": {"sameRoot": ["slurred", "slurring", "slurs"], "sameAffix": [], "synonyms": ["insult", "slander", "calumny"], "antonyms": ["praise", "compliment"], "domainCohort": ["defamation", "slander", "libel"], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "slurp",
+    "phonetic": "/slɜːrp/",
+    "pos": "v",
+    "coreMeaning": {"cn": "出声地吃喝；啜饮", "en": "to eat or drink noisily"},
+    "morphemes": [
+      {"canonical": "slurp", "role": "root", "form": "slurp", "meaning": "出声啜饮", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "出声啜饮", "en": "to eat/drink noisily"}}
+    ],
+    "derivationChain": {"steps": []},
+    "memorySemantics": {"mnemonicExpr": "slurp → 拟声词，啜饮声sound", "imageChain": ["啜饮", "声音", "食物"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["slurped", "slurping", "slurps"], "sameAffix": [], "synonyms": ["gulp", "sip noisily"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "slurped",
+    "phonetic": "/slɜːrpt/",
+    "pos": "v",
+    "coreMeaning": {"cn": "出声啜饮（过去式）", "en": "ate or drank noisily"},
+    "morphemes": [
+      {"canonical": "slurp", "role": "root", "form": "slurp", "meaning": "啜饮", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "啜饮", "en": "to eat noisily"}},
+      {"canonical": "-ed", "role": "suffix", "form": "ed", "meaning": "过去式", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "过去式后缀", "en": "past tense suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "slurp", "to": "slurped", "operation": "add -ed (past tense)"}]},
+    "memorySemantics": {"mnemonicExpr": "slurp + ed → 已啜饮", "imageChain": ["啜饮", "完成", "声音"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["slurp", "slurping", "slurps"], "sameAffix": [], "synonyms": ["gulped", "swilled"], "antonyms": [], "domainCohort": [], "derivationPair": ["slurp"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "slurping",
+    "phonetic": "/ˈslɜːrpɪŋ/",
+    "pos": "v",
+    "coreMeaning": {"cn": "出声啜饮（进行时）", "en": "eating or drinking noisily"},
+    "morphemes": [
+      {"canonical": "slurp", "role": "root", "form": "slurp", "meaning": "啜饮", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "啜饮", "en": "to eat noisily"}},
+      {"canonical": "-ing", "role": "suffix", "form": "ing", "meaning": "进行时", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "进行时后缀", "en": "present participle suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "slurp", "to": "slurping", "operation": "add -ing"}]},
+    "memorySemantics": {"mnemonicExpr": "slurp + ing → 正在啜饮", "imageChain": ["啜饮", "声音", "进行中"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["slurp", "slurped", "slurps"], "sameAffix": [], "synonyms": ["gulping"], "antonyms": [], "domainCohort": [], "derivationPair": ["slurp"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "slurps",
+    "phonetic": "/slɜːrps/",
+    "pos": "v",
+    "coreMeaning": {"cn": "出声啜饮（三单）", "en": "eats or drinks noisily"},
+    "morphemes": [
+      {"canonical": "slurp", "role": "root", "form": "slurp", "meaning": "啜饮", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "啜饮", "en": "to eat noisily"}},
+      {"canonical": "-s", "role": "suffix", "form": "s", "meaning": "三单后缀", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "三单后缀", "en": "3rd person singular suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "slurp", "to": "slurps", "operation": "add -s (3rd person singular)"}]},
+    "memorySemantics": {"mnemonicExpr": "slurp + s → 他/她/它啜饮", "imageChain": ["啜饮", "三单", "声音"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["slurp", "slurped", "slurping"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["slurp"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "slurred",
+    "phonetic": "/slɜːrd/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "含糊不清的；被诋毁的", "en": "pronounced indistinctly; disparaged"},
+    "morphemes": [
+      {"canonical": "slur", "role": "root", "form": "slur", "meaning": "含糊；诽谤", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}, "coreMeaning": {"cn": "含糊；诽谤", "en": "indistinct; slander"}},
+      {"canonical": "-ed", "role": "suffix", "form": "red", "meaning": "过去式/形容词", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "过去分词/形容词", "en": "past participle/adjective"}}
+    ],
+    "derivationChain": {"steps": [{"from": "slur", "to": "slurred", "operation": "add -red (past/adj, double r)"}]},
+    "memorySemantics": {"mnemonicExpr": "slur + red → 含糊发音的；被诋毁的", "imageChain": ["模糊", "含混", "诽谤"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["slur", "slurring", "slurs"], "sameAffix": [], "synonyms": ["indistinct", "mumbled"], "antonyms": ["clear", "articulate"], "domainCohort": [], "derivationPair": ["slur"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "slummier",
+    "phonetic": "/ˈslʌmiər/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "更像贫民窟的（比较级）", "en": "more resembling a slum"},
+    "morphemes": [
+      {"canonical": "slum", "role": "root", "form": "slum", "meaning": "贫民窟", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 2}, "coreMeaning": {"cn": "贫民窟", "en": "slum"}},
+      {"canonical": "-y", "role": "suffix", "form": "m", "meaning": "形容词化", "order": 2, "positionTendency": "medial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "形容词化", "en": "adjectival"}},
+      {"canonical": "-er", "role": "suffix", "form": "ier", "meaning": "比较级", "order": 3, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "比较级后缀", "en": "comparative suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "slummy", "to": "slummier", "operation": "comparative form"}]},
+    "memorySemantics": {"mnemonicExpr": "slummy + er → 更像贫民窟", "imageChain": ["贫民窟", "更糟", "比较"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["消极"], "intensity": 2}},
+    "relations": {"sameRoot": ["slummy", "slummiest", "slum"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["slummy"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "slummiest",
+    "phonetic": "/ˈslʌmiɪst/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "最像贫民窟的（最高级）", "en": "most resembling a slum"},
+    "morphemes": [
+      {"canonical": "slum", "role": "root", "form": "slum", "meaning": "贫民窟", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 2}, "coreMeaning": {"cn": "贫民窟", "en": "slum"}},
+      {"canonical": "-y", "role": "suffix", "form": "m", "meaning": "形容词化", "order": 2, "positionTendency": "medial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "形容词化", "en": "adjectival"}},
+      {"canonical": "-est", "role": "suffix", "form": "iest", "meaning": "最高级", "order": 3, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "最高级后缀", "en": "superlative suffix"}}
+    ],
+    "derivationChain": {"steps": [{"from": "slummy", "to": "slummiest", "operation": "superlative form"}]},
+    "memorySemantics": {"mnemonicExpr": "slummy + est → 最像贫民窟", "imageChain": ["贫民窟", "最糟", "最高级"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["消极"], "intensity": 2}},
+    "relations": {"sameRoot": ["slummy", "slummier", "slum"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["slummy"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "sluicehouse",
+    "phonetic": "/ˈsluːshaʊs/",
+    "pos": "n",
+    "coreMeaning": {"cn": "水闸房；控水建筑", "en": "a building housing a sluice gate"},
+    "morphemes": [
+      {"canonical": "sluice", "role": "root", "form": "sluice", "meaning": "水闸", "order": 1, "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "水闸", "en": "floodgate"}},
+      {"canonical": "house", "role": "root", "form": "house", "meaning": "建筑；房屋", "order": 2, "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}, "coreMeaning": {"cn": "房屋", "en": "building"}}
+    ],
+    "derivationChain": {"steps": [{"from": "sluice + house", "to": "sluicehouse", "operation": "compound noun"}]},
+    "memorySemantics": {"mnemonicExpr": "sluice(水闸)+house(建筑) → 水闸建筑", "imageChain": ["水闸", "建筑", "控水"]},
+    "wordLevel": {"domain": "general", "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["sluice"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
   }
 ]

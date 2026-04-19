@@ -1,441 +1,527 @@
 [
   {
+    "word": "sunbathes",
+    "phonetic": "/'sʌnbeɪðz/",
+    "pos": "v",
+    "coreMeaning": {"cn": "（他/她）日光浴（三单）", "en": "third person singular present of sunbathe"},
+    "morphemes": [
+      {"form": "sun", "role": "root", "canonical": "sun", "meaning": "太阳，日光", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "bathe", "role": "root", "canonical": "bathe", "meaning": "沐浴，浸泡", "positionTendency": "medial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-s", "role": "suffix", "canonical": "-s", "meaning": "第三人称单数", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "sunbathe", "to": "sunbathes", "by": "加三单词尾-s"}]},
+    "morphVariantOf": "sunbathe",
+    "memorySemantics": {"mnemonicExpr": "sunbathe三单→she sunbathes on the beach", "imageChain": "在沙滩上晒太阳→sunbathes"},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["sunbathing", "sunbathe", "sunburn"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "sunbathing",
+    "phonetic": "/'sʌnbeɪðɪŋ/",
+    "pos": "v",
+    "coreMeaning": {"cn": "晒日光浴", "en": "present participle of sunbathe; lying in the sun to tan"},
+    "morphemes": [
+      {"form": "sun", "role": "root", "canonical": "sun", "meaning": "太阳，日光", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "bath", "role": "root", "canonical": "bathe", "meaning": "沐浴", "positionTendency": "medial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-ing", "role": "suffix", "canonical": "-ing", "meaning": "现在分词", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "sunbathe", "to": "sunbathing", "by": "加-ing现在分词"}]},
+    "morphVariantOf": "sunbathe",
+    "memorySemantics": {"mnemonicExpr": "sun(日)+bathing(沐浴)→ 在阳光中沐浴→sunbathing日光浴", "imageChain": "海滩上的人→躺着晒太阳→sunbathing"},
+    "wordLevel": {"domain": ["general", "leisure"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["sunbathe", "sunbathes", "sunburn"], "sameAffix": [], "synonyms": ["tanning", "basking"], "antonyms": [], "domainCohort": ["tanning", "basking"], "derivationPair": [], "morphVariants": [], "sameImagery": ["beach", "sunshine"]}
+  },
+  {
+    "word": "sunbeam",
+    "phonetic": "/'sʌnbiːm/",
+    "pos": "n",
+    "coreMeaning": {"cn": "阳光束；日光照射", "en": "a ray of sunlight; a beam of light from the sun"},
+    "morphemes": [
+      {"form": "sun", "role": "root", "canonical": "sun", "meaning": "太阳", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 2}},
+      {"form": "beam", "role": "root", "canonical": "beam", "meaning": "光束，射线", "positionTendency": "final", "sentiment": {"tags": ["积极"], "intensity": 1}}
+    ],
+    "derivationChain": {"steps": [{"from": "sun + beam", "to": "sunbeam", "by": "复合词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "sun(太阳)+beam(光束)→ 一道阳光→sunbeam", "imageChain": "云隙间射出的阳光→sunbeam"},
+    "wordLevel": {"domain": ["general", "literary"], "sentiment": {"tags": ["积极"], "intensity": 2}},
+    "relations": {"sameRoot": ["sunbeams", "sun", "sunlight"], "sameAffix": ["moonbeam", "laserbeam"], "synonyms": ["ray of sunshine", "shaft of light"], "antonyms": [], "domainCohort": ["sunlight", "ray", "shaft"], "derivationPair": ["sunbeams"], "morphVariants": [], "sameImagery": ["light", "warmth"]}
+  },
+  {
+    "word": "sunbeams",
+    "phonetic": "/'sʌnbiːmz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "阳光束（复数）", "en": "plural of sunbeam"},
+    "morphemes": [
+      {"form": "sunbeam", "role": "root", "canonical": "sun", "meaning": "阳光束", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 2}},
+      {"form": "-s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "sunbeam", "to": "sunbeams", "by": "加复数词尾-s"}]},
+    "morphVariantOf": "sunbeam",
+    "memorySemantics": {"mnemonicExpr": "sunbeam复数→多道阳光束", "imageChain": "窗户射入的多道阳光→sunbeams"},
+    "wordLevel": {"domain": ["general", "literary"], "sentiment": {"tags": ["积极"], "intensity": 2}},
+    "relations": {"sameRoot": ["sunbeam", "sun"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["sunbeam"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "sunbelt",
+    "phonetic": "/'sʌnbelt/",
+    "pos": "n",
+    "coreMeaning": {"cn": "阳光带（美国南部温暖地区）", "en": "the southern and southwestern states of the US with a warm sunny climate"},
+    "morphemes": [
+      {"form": "sun", "role": "root", "canonical": "sun", "meaning": "太阳，阳光", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "belt", "role": "root", "canonical": "belt", "meaning": "带，地带", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "sun + belt", "to": "sunbelt", "by": "复合词，地理术语"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "sun(阳光)+belt(地带)→ 阳光充沛的地带→美国阳光带", "imageChain": "美国南部佛罗里达、德克萨斯→Sunbelt"},
+    "wordLevel": {"domain": ["geography", "American culture"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["sun", "sunlight"], "sameAffix": ["rustbelt", "frostbelt"], "synonyms": ["southern states", "Sun Belt"], "antonyms": ["Rust Belt", "Frostbelt"], "domainCohort": ["Rust Belt", "Bible Belt"], "derivationPair": [], "morphVariants": [], "sameImagery": ["sunshine", "warm climate"]}
+  },
+  {
+    "word": "sunblind",
+    "phonetic": "/'sʌnblaɪnd/",
+    "pos": "n",
+    "coreMeaning": {"cn": "（英）遮阳帘；遮阳板", "en": "British: a window blind or awning for keeping out sunlight"},
+    "morphemes": [
+      {"form": "sun", "role": "root", "canonical": "sun", "meaning": "太阳，阳光", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "blind", "role": "root", "canonical": "blind", "meaning": "遮帘，百叶窗", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "sun + blind", "to": "sunblind", "by": "复合词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "sun(太阳)+blind(遮帘)→ 遮阳的帘子→sunblind", "imageChain": "遮挡阳光的帘子→sunblind"},
+    "wordLevel": {"domain": ["British English", "home"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["sun", "sunblinds"], "sameAffix": [], "synonyms": ["awning", "shade", "blind"], "antonyms": [], "domainCohort": ["awning", "curtain", "shade"], "derivationPair": [], "morphVariants": ["sunblinds"], "sameImagery": ["shade", "protection"]}
+  },
+  {
+    "word": "sunblinds",
+    "phonetic": "/'sʌnblaɪndz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "遮阳帘（复数）", "en": "plural of sunblind"},
+    "morphemes": [
+      {"form": "sunblind", "role": "root", "canonical": "sun", "meaning": "遮阳帘", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "sunblind", "to": "sunblinds", "by": "加复数词尾-s"}]},
+    "morphVariantOf": "sunblind",
+    "memorySemantics": {"mnemonicExpr": "sunblind复数→多个遮阳帘", "imageChain": "一排窗户→各装遮阳帘→sunblinds"},
+    "wordLevel": {"domain": ["British English"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["sunblind", "sun"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["sunblind"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "sunbonnet",
+    "phonetic": "/'sʌnˌbɒnɪt/",
+    "pos": "n",
+    "coreMeaning": {"cn": "防晒帽（大沿帽）", "en": "a large-brimmed bonnet worn by women and girls to protect from the sun"},
+    "morphemes": [
+      {"form": "sun", "role": "root", "canonical": "sun", "meaning": "太阳，防晒", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "bonnet", "role": "root", "canonical": "bonnet", "meaning": "软帽，无边帽", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "sun + bonnet", "to": "sunbonnet", "by": "复合词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "sun(防晒)+bonnet(软帽)→ 遮阳软帽→sunbonnet", "imageChain": "西部女性的大沿帽→sunbonnet"},
+    "wordLevel": {"domain": ["fashion", "historical"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["sun", "sunbonnets"], "sameAffix": [], "synonyms": ["sun hat", "bonnet"], "antonyms": [], "domainCohort": ["hat", "bonnet", "parasol"], "derivationPair": [], "morphVariants": [], "sameImagery": ["hat", "protection"]}
+  },
+  {
+    "word": "sunbonnets",
+    "phonetic": "/'sʌnˌbɒnɪts/",
+    "pos": "n",
+    "coreMeaning": {"cn": "防晒帽（复数）", "en": "plural of sunbonnet"},
+    "morphemes": [
+      {"form": "sunbonnet", "role": "root", "canonical": "sun", "meaning": "防晒帽", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "sunbonnet", "to": "sunbonnets", "by": "加复数词尾-s"}]},
+    "morphVariantOf": "sunbonnet",
+    "memorySemantics": {"mnemonicExpr": "sunbonnet复数→多顶防晒帽", "imageChain": "一排女孩们戴着防晒帽→sunbonnets"},
+    "wordLevel": {"domain": ["fashion"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["sunbonnet", "sun"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["sunbonnet"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "sunburn",
+    "phonetic": "/'sʌnbɜːrn/",
+    "pos": "n",
+    "coreMeaning": {"cn": "晒伤；日晒红斑", "en": "reddening and inflammation of the skin caused by overexposure to the sun"},
+    "morphemes": [
+      {"form": "sun", "role": "root", "canonical": "sun", "meaning": "太阳，日光", "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}},
+      {"form": "burn", "role": "root", "canonical": "burn", "meaning": "燃烧，灼伤", "positionTendency": "final", "sentiment": {"tags": ["消极"], "intensity": 1}}
+    ],
+    "derivationChain": {"steps": [{"from": "sun + burn", "to": "sunburn", "by": "复合词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "sun(太阳)+burn(灼烧)→ 太阳灼伤皮肤→sunburn", "imageChain": "海滩晒太阳→皮肤红痛→sunburn"},
+    "wordLevel": {"domain": ["general", "health"], "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["sunburned", "sunburnt", "sunburns", "sun"], "sameAffix": [], "synonyms": ["sun damage", "erythema"], "antonyms": ["tan", "sunscreen"], "domainCohort": ["tan", "UV damage", "blistering"], "derivationPair": ["sunburned", "sunburnt"], "morphVariants": [], "sameImagery": ["red skin", "pain"]}
+  },
+  {
+    "word": "sunburned",
+    "phonetic": "/'sʌnbɜːrnd/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "晒伤的；被太阳灼伤的", "en": "having been burned by the sun"},
+    "morphemes": [
+      {"form": "sunburn", "role": "root", "canonical": "sun", "meaning": "晒伤", "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}},
+      {"form": "-ed", "role": "suffix", "canonical": "-ed", "meaning": "形容词化", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "sunburn", "to": "sunburned", "by": "加-ed构成形容词"}]},
+    "morphVariantOf": "sunburn",
+    "memorySemantics": {"mnemonicExpr": "sunburn+ed → 晒伤了的→sunburned skin晒伤的皮肤", "imageChain": "红肿的皮肤→sunburned"},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["sunburn", "sunburnt"], "sameAffix": [], "synonyms": ["sunburnt", "sun-damaged"], "antonyms": ["pale", "protected"], "domainCohort": [], "derivationPair": ["sunburn"], "morphVariants": ["sunburnt"], "sameImagery": []}
+  },
+  {
+    "word": "sunburns",
+    "phonetic": "/'sʌnbɜːrnz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "晒伤（复数）", "en": "plural of sunburn"},
+    "morphemes": [
+      {"form": "sunburn", "role": "root", "canonical": "sun", "meaning": "晒伤", "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}},
+      {"form": "-s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "sunburn", "to": "sunburns", "by": "加复数词尾-s"}]},
+    "morphVariantOf": "sunburn",
+    "memorySemantics": {"mnemonicExpr": "sunburn复数→多次晒伤/多处晒伤", "imageChain": "多次晒太阳→多处晒伤→sunburns"},
+    "wordLevel": {"domain": ["general"], "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["sunburn", "sunburned"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["sunburn"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "sunburnt",
+    "phonetic": "/'sʌnbɜːrnt/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "晒伤的（英式拼法）", "en": "British spelling of sunburned"},
+    "morphemes": [
+      {"form": "sunburn", "role": "root", "canonical": "sun", "meaning": "晒伤", "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}},
+      {"form": "-t", "role": "suffix", "canonical": "-t", "meaning": "过去分词（英式）", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "sunburn", "to": "sunburnt", "by": "英式不规则过去分词-t"}]},
+    "morphVariantOf": "sunburn",
+    "memorySemantics": {"mnemonicExpr": "sunburnt=sunburned英式拼写→晒伤的", "imageChain": "英式sunburnt skin晒伤的皮肤"},
+    "wordLevel": {"domain": ["British English"], "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["sunburn", "sunburned"], "sameAffix": [], "synonyms": ["sunburned"], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": ["sunburned"], "sameImagery": []}
+  },
+  {
+    "word": "sundae",
+    "phonetic": "/'sʌndeɪ/",
+    "pos": "n",
+    "coreMeaning": {"cn": "圣代（冰淇淋甜点）", "en": "an ice cream dish with toppings such as fruit, nuts, and whipped cream"},
+    "morphemes": [
+      {"form": "sundae", "role": "root", "canonical": "sundae", "meaning": "冰淇淋甜点（Sunday变体拼写）", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 2}}
+    ],
+    "derivationChain": {"steps": [{"from": "Sunday (星期日)", "to": "sundae", "by": "拼写变体，起源于周日特餐"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "sundae→Sunday→周日才卖的特殊甜点→ice cream sundae", "imageChain": "一杯浇了草莓酱的冰淇淋→sundae"},
+    "wordLevel": {"domain": ["food", "American culture"], "sentiment": {"tags": ["积极"], "intensity": 2}},
+    "relations": {"sameRoot": ["sundaes", "sunday"], "sameAffix": [], "synonyms": ["ice cream treat"], "antonyms": [], "domainCohort": ["ice cream", "dessert", "parfait"], "derivationPair": [], "morphVariants": ["sunday"], "sameImagery": ["dessert", "sweet"]}
+  },
+  {
+    "word": "sundaes",
+    "phonetic": "/'sʌndeɪz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "圣代冰淇淋（复数）", "en": "plural of sundae"},
+    "morphemes": [
+      {"form": "sundae", "role": "root", "canonical": "sundae", "meaning": "圣代甜点", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 2}},
+      {"form": "-s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "sundae", "to": "sundaes", "by": "加复数词尾-s"}]},
+    "morphVariantOf": "sundae",
+    "memorySemantics": {"mnemonicExpr": "sundae复数→多杯圣代冰淇淋", "imageChain": "一排冰淇淋→sundaes"},
+    "wordLevel": {"domain": ["food"], "sentiment": {"tags": ["积极"], "intensity": 2}},
+    "relations": {"sameRoot": ["sundae"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["sundae"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "sundar",
+    "phonetic": "/'sʊndɑːr/",
+    "pos": "n",
+    "coreMeaning": {"cn": "孙达尔（人名，印度名）", "en": "an Indian/Indonesian name; also a proper noun"},
+    "morphemes": [
+      {"form": "sundar", "role": "root", "canonical": "sundar", "meaning": "印地语：美丽、良好", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}}
+    ],
+    "derivationChain": {"steps": [{"from": "梵语 sundara (美丽的)", "to": "Sundar", "by": "印度人名借入"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "Sundar→印度语美丽→Sundar Pichai谷歌CEO", "imageChain": "谷歌CEO Sundar Pichai"},
+    "wordLevel": {"domain": ["proper noun"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": [], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
     "word": "sunder",
     "phonetic": "/'sʌndɚ/",
-    "pos": [
-      "v.",
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "分裂；分离；切断",
-      "en": "to split apart; to separate"
-    },
+    "pos": "v",
+    "coreMeaning": {"cn": "分裂；分离；使分开", "en": "to split apart; to sever or separate forcibly"},
     "morphemes": [
-      {
-        "canonical": "sunder",
-        "role": "root",
-        "meaning": "分开，切断（古英语syndrian，asunder）",
-        "sentiment": {
-          "tags": [
-            "消极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "sunder",
-        "positionTendency": "initial"
-      }
+      {"form": "sunder", "role": "root", "canonical": "sunder", "meaning": "分离，分裂", "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}}
     ],
-    "derivationChain": [
-      "sundor(古英语分开) → sunder"
-    ],
+    "derivationChain": {"steps": [{"from": "古英语 sundrian (分开，分离)", "to": "sunder", "by": "语音演变"}]},
     "morphVariantOf": null,
-    "memorySemantics": {
-      "imageKey": "torn-apart",
-      "scene": "战争将两个家庭sundered——曾经紧密相连的关系被暴力撕裂",
-      "emotionalHook": "asunder（分离状态）和sunder（动词）都在诗歌和圣经里描述痛苦的分离",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "literary",
-        "formal"
-      ],
-      "sentiment": {
-        "tags": [
-          "消极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "asunder",
-        "sundry"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "sever",
-        "cleave",
-        "split",
-        "divide"
-      ],
-      "antonyms": [
-        "unite",
-        "join",
-        "bind"
-      ],
-      "domainCohort": [
-        "sever",
-        "divide",
-        "rend"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": [
-        "rend",
-        "cleave"
-      ]
-    }
+    "memorySemantics": {"mnemonicExpr": "sunder→sound+er→分裂声→将某物强行分开→sunder", "imageChain": "强行分开两者→asunder(分开)→sunder"},
+    "wordLevel": {"domain": ["literary", "gre"], "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["sundered", "sundering", "sunders", "asunder"], "sameAffix": [], "synonyms": ["separate", "sever", "cleave", "split"], "antonyms": ["unite", "join", "bind", "connect"], "domainCohort": ["sever", "cleave", "split", "divide"], "derivationPair": ["asunder"], "morphVariants": [], "sameImagery": ["splitting", "separation"]}
+  },
+  {
+    "word": "sundered",
+    "phonetic": "/'sʌndɚd/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "被分裂的；被强行分开的", "en": "past participle of sunder; separated or split apart"},
+    "morphemes": [
+      {"form": "sunder", "role": "root", "canonical": "sunder", "meaning": "分离，分裂", "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}},
+      {"form": "-ed", "role": "suffix", "canonical": "-ed", "meaning": "过去分词/形容词化", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "sunder", "to": "sundered", "by": "加-ed构成形容词"}]},
+    "morphVariantOf": "sunder",
+    "memorySemantics": {"mnemonicExpr": "sunder+ed → 已经被分开了", "imageChain": "被分隔的家人→sundered families"},
+    "wordLevel": {"domain": ["literary"], "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["sunder", "sundering"], "sameAffix": [], "synonyms": ["separated", "divided", "severed"], "antonyms": ["united", "joined"], "domainCohort": [], "derivationPair": ["sunder"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "sundering",
+    "phonetic": "/'sʌndərɪŋ/",
+    "pos": "v",
+    "coreMeaning": {"cn": "正在分裂；使分离", "en": "present participle of sunder; splitting or separating forcibly"},
+    "morphemes": [
+      {"form": "sunder", "role": "root", "canonical": "sunder", "meaning": "分离，分裂", "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}},
+      {"form": "-ing", "role": "suffix", "canonical": "-ing", "meaning": "现在分词", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "sunder", "to": "sundering", "by": "加-ing现在分词"}]},
+    "morphVariantOf": "sunder",
+    "memorySemantics": {"mnemonicExpr": "sunder+ing → 正在分裂中", "imageChain": "正在撕裂关系→sundering ties"},
+    "wordLevel": {"domain": ["literary"], "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["sunder", "sundered"], "sameAffix": [], "synonyms": ["severing", "splitting", "separating"], "antonyms": ["uniting", "joining"], "domainCohort": [], "derivationPair": ["sunder"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "sunders",
+    "phonetic": "/'sʌndɚz/",
+    "pos": "v",
+    "coreMeaning": {"cn": "（他/她/它）分裂；分开（三单）", "en": "third person singular present of sunder"},
+    "morphemes": [
+      {"form": "sunder", "role": "root", "canonical": "sunder", "meaning": "分离，分裂", "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}},
+      {"form": "-s", "role": "suffix", "canonical": "-s", "meaning": "第三人称单数", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "sunder", "to": "sunders", "by": "加-s三单"}]},
+    "morphVariantOf": "sunder",
+    "memorySemantics": {"mnemonicExpr": "sunder三单→war sunders families战争拆散家庭", "imageChain": "战争把家庭分开→sunders"},
+    "wordLevel": {"domain": ["literary"], "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["sunder", "sundered"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": [], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "sundial",
+    "phonetic": "/'sʌnˌdaɪəl/",
+    "pos": "n",
+    "coreMeaning": {"cn": "日晷；日规", "en": "an instrument that tells time by the shadow of a gnomon on a marked surface"},
+    "morphemes": [
+      {"form": "sun", "role": "root", "canonical": "sun", "meaning": "太阳", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "dial", "role": "root", "canonical": "dial", "meaning": "刻度盘，表盘", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "sun + dial", "to": "sundial", "by": "复合词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "sun(太阳)+dial(刻度盘)→ 用太阳阴影指示时间→sundial日晷", "imageChain": "古代花园→日晷→sundial"},
+    "wordLevel": {"domain": ["general", "ielts", "history"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["sundials", "sun", "sunlight"], "sameAffix": ["dial", "clockface"], "synonyms": ["sun clock", "gnomon"], "antonyms": [], "domainCohort": ["clock", "hourglass", "gnomon"], "derivationPair": ["sundials"], "morphVariants": [], "sameImagery": ["time", "shadow"]}
+  },
+  {
+    "word": "sundials",
+    "phonetic": "/'sʌnˌdaɪəlz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "日晷（复数）", "en": "plural of sundial"},
+    "morphemes": [
+      {"form": "sundial", "role": "root", "canonical": "sun", "meaning": "日晷", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-s", "role": "suffix", "canonical": "-s", "meaning": "复数", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "sundial", "to": "sundials", "by": "加复数词尾-s"}]},
+    "morphVariantOf": "sundial",
+    "memorySemantics": {"mnemonicExpr": "sundial复数→多座日晷", "imageChain": "历史博物馆里的日晷→sundials"},
+    "wordLevel": {"domain": ["general", "history"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["sundial", "sun"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["sundial"], "morphVariants": [], "sameImagery": []}
+  },
+  {
+    "word": "sundog",
+    "phonetic": "/'sʌndɒɡ/",
+    "pos": "n",
+    "coreMeaning": {"cn": "幻日（大气光学现象）", "en": "a luminous spot appearing in the sky to either side of the sun; a parhelion"},
+    "morphemes": [
+      {"form": "sun", "role": "root", "canonical": "sun", "meaning": "太阳", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "dog", "role": "root", "canonical": "dog", "meaning": "跟随者（比喻）", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "sun + dog (跟随太阳)", "to": "sundog", "by": "复合词，民间命名"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "sun(太阳)+dog(跟随)→ 跟着太阳的光点→幻日→sundog", "imageChain": "冰晶折射太阳光→两侧出现光斑→sundog"},
+    "wordLevel": {"domain": ["meteorology", "astronomy"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["sun", "parhelion"], "sameAffix": [], "synonyms": ["parhelion", "mock sun", "sun dog"], "antonyms": [], "domainCohort": ["halo", "parhelion", "rainbow"], "derivationPair": [], "morphVariants": ["parhelion"], "sameImagery": ["optical phenomenon", "sky"]}
+  },
+  {
+    "word": "sundown",
+    "phonetic": "/'sʌndaʊn/",
+    "pos": "n",
+    "coreMeaning": {"cn": "日落；黄昏", "en": "sunset; the time in the evening when the sun goes down"},
+    "morphemes": [
+      {"form": "sun", "role": "root", "canonical": "sun", "meaning": "太阳", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "down", "role": "root", "canonical": "down", "meaning": "向下，落下", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "sun + down", "to": "sundown", "by": "复合词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "sun(太阳)+down(落下)→ 太阳落山→sundown日落", "imageChain": "太阳沉下地平线→sundown"},
+    "wordLevel": {"domain": ["general", "American English"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["sun", "sunlight", "sunset"], "sameAffix": ["countdown", "breakdown"], "synonyms": ["sunset", "dusk", "twilight"], "antonyms": ["sunrise", "dawn"], "domainCohort": ["sunset", "dusk", "twilight"], "derivationPair": [], "morphVariants": ["sunset"], "sameImagery": ["sunset", "evening"]}
+  },
+  {
+    "word": "sundrenched",
+    "phonetic": "/'sʌndrentʃt/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "阳光充沛的；沐浴在阳光中的", "en": "bathed in or receiving a lot of sunshine"},
+    "morphemes": [
+      {"form": "sun", "role": "root", "canonical": "sun", "meaning": "太阳，阳光", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 2}},
+      {"form": "drench", "role": "root", "canonical": "drench", "meaning": "浸透，使湿透", "positionTendency": "medial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "-ed", "role": "suffix", "canonical": "-ed", "meaning": "形容词化", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "sun + drenched", "to": "sundrenched", "by": "复合形容词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "sun(阳光)+drenched(浸透)→ 被阳光浸透的→sundrenched beach", "imageChain": "阳光充沛的地中海海滩→sundrenched"},
+    "wordLevel": {"domain": ["literary", "travel"], "sentiment": {"tags": ["积极"], "intensity": 2}},
+    "relations": {"sameRoot": ["sun", "sunlight", "sunlit"], "sameAffix": [], "synonyms": ["sunny", "bathed in sunlight"], "antonyms": ["sunless", "overcast"], "domainCohort": ["sunlit", "sunny", "radiant"], "derivationPair": [], "morphVariants": ["sunlit"], "sameImagery": ["sunshine", "brightness"]}
+  },
+  {
+    "word": "sundries",
+    "phonetic": "/'sʌndriz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "杂物；杂项；零星物品", "en": "various items not important enough to be mentioned individually; miscellaneous items"},
+    "morphemes": [
+      {"form": "sundr", "role": "root", "canonical": "sundry", "meaning": "各种各样的，零碎的", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-ies", "role": "suffix", "canonical": "-ies", "meaning": "复数词尾", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "sundry", "to": "sundries", "by": "y→ies变复数"}]},
+    "morphVariantOf": "sundry",
+    "memorySemantics": {"mnemonicExpr": "sundry(各种)+ies → 各种杂物→sundries", "imageChain": "超市杂货区→各种杂项→sundries"},
+    "wordLevel": {"domain": ["general", "commerce"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["sundry"], "sameAffix": [], "synonyms": ["odds and ends", "miscellany", "various items"], "antonyms": [], "domainCohort": ["odds and ends", "miscellany"], "derivationPair": ["sundry"], "morphVariants": [], "sameImagery": ["variety", "miscellaneous"]}
   },
   {
     "word": "sundry",
     "phonetic": "/'sʌndri/",
-    "pos": [
-      "adj.",
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "各式各样的；多种多样的",
-      "en": "various; of different kinds"
-    },
+    "pos": "adj",
+    "coreMeaning": {"cn": "各式各样的；各种各样的", "en": "of various kinds; several; more than one or two"},
     "morphemes": [
-      {
-        "canonical": "sunder",
-        "role": "root",
-        "meaning": "分开，各异（古英语syndrig）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "sundr",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "-y",
-        "role": "suffix",
-        "meaning": "形容词后缀",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "y",
-        "positionTendency": "final"
-      }
+      {"form": "sundr", "role": "root", "canonical": "sunder", "meaning": "分散，各种（源自古英语 syndrig 分别的）", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "-y", "role": "suffix", "canonical": "-y", "meaning": "形容词化", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
     ],
-    "derivationChain": [
-      "syndrig(分开的，各自的) → sundry"
-    ],
+    "derivationChain": {"steps": [{"from": "古英语 syndrig (分别的，各自的)", "to": "sundry", "by": "语音演变"}]},
     "morphVariantOf": null,
-    "memorySemantics": {
-      "imageKey": "miscellaneous-drawer",
-      "scene": "'all and sundry'——所有人和各种各样的人，sundry像是一个装满杂物的抽屉",
-      "emotionalHook": "sundry不是混乱，是多样性的自然聚合",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "formal",
-        "general"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "sunder",
-        "asunder"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "various",
-        "miscellaneous",
-        "diverse"
-      ],
-      "antonyms": [],
-      "domainCohort": [
-        "miscellaneous",
-        "various",
-        "divers"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": [
-        "miscellaneous",
-        "assorted"
-      ]
-    }
+    "memorySemantics": {"mnemonicExpr": "sundry→sunder(分离)→各自分开→各种各样→all and sundry所有人", "imageChain": "各种各样的事物→sundry matters"},
+    "wordLevel": {"domain": ["general", "gre"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["sundries", "sunder"], "sameAffix": [], "synonyms": ["various", "miscellaneous", "diverse", "manifold"], "antonyms": ["singular", "uniform"], "domainCohort": ["various", "miscellaneous", "diverse"], "derivationPair": ["sundries"], "morphVariants": [], "sameImagery": ["variety", "diversity"]}
   },
   {
-    "word": "sundial",
-    "phonetic": "/'sʌndaɪəl/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "日晷；日规",
-      "en": "an instrument that shows time by shadow of the sun"
-    },
+    "word": "sunfish",
+    "phonetic": "/'sʌnfɪʃ/",
+    "pos": "n",
+    "coreMeaning": {"cn": "翻车鱼；太阳鱼", "en": "a large ocean fish with a nearly circular body; also a North American freshwater fish"},
     "morphemes": [
-      {
-        "canonical": "sun",
-        "role": "root",
-        "meaning": "太阳",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "sun",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "dial",
-        "role": "root",
-        "meaning": "刻度盘，拨号盘（来自拉丁dies日）",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "dial",
-        "positionTendency": "final"
-      }
+      {"form": "sun", "role": "root", "canonical": "sun", "meaning": "太阳（形似太阳）", "positionTendency": "initial", "sentiment": {"tags": ["中性"], "intensity": 0}},
+      {"form": "fish", "role": "root", "canonical": "fish", "meaning": "鱼", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
     ],
-    "derivationChain": [
-      "sun + dial(拉丁dies日) → sundial"
-    ],
+    "derivationChain": {"steps": [{"from": "sun + fish", "to": "sunfish", "by": "复合词，形状像太阳"}]},
     "morphVariantOf": null,
-    "memorySemantics": {
-      "imageKey": "garden-sundial",
-      "scene": "花园中央的石制日晷，影子缓缓移动记录时间——最古老的时钟",
-      "emotionalHook": "太阳的阴影是时间的笔，在石头上写下每一个小时",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "historical",
-        "science"
-      ],
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "sunlight",
-        "sunburn",
-        "sundeck"
-      ],
-      "sameAffix": [],
-      "synonyms": [],
-      "antonyms": [],
-      "domainCohort": [
-        "hourglass",
-        "clock",
-        "calendar"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "memorySemantics": {"mnemonicExpr": "sun(太阳)+fish(鱼)→ 圆如太阳的鱼→翻车鱼→sunfish/ocean sunfish", "imageChain": "翻车鱼的圆形身体→像太阳→sunfish"},
+    "wordLevel": {"domain": ["biology", "zoology"], "sentiment": {"tags": ["中性"], "intensity": 0}},
+    "relations": {"sameRoot": ["sun", "sunfishes"], "sameAffix": ["swordfish", "starfish"], "synonyms": ["mola", "ocean sunfish"], "antonyms": [], "domainCohort": ["mola", "shark", "tuna"], "derivationPair": [], "morphVariants": [], "sameImagery": ["round", "ocean"]}
   },
   {
-    "word": "sunlit",
-    "phonetic": "/'sʌnlɪt/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "阳光照射的；沐浴阳光的",
-      "en": "illuminated by sunlight"
-    },
+    "word": "sunflower",
+    "phonetic": "/'sʌnflaʊɚ/",
+    "pos": "n",
+    "coreMeaning": {"cn": "向日葵", "en": "a tall plant with large bright yellow flowers that turn to face the sun"},
     "morphemes": [
-      {
-        "canonical": "sun",
-        "role": "root",
-        "meaning": "太阳",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 2
-        },
-        "order": 1,
-        "form": "sun",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "light",
-        "role": "root",
-        "meaning": "光（过去式lit）",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 2,
-        "form": "lit",
-        "positionTendency": "final"
-      }
+      {"form": "sun", "role": "root", "canonical": "sun", "meaning": "太阳（朝向太阳）", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 2}},
+      {"form": "flower", "role": "root", "canonical": "flower", "meaning": "花", "positionTendency": "final", "sentiment": {"tags": ["积极"], "intensity": 2}}
     ],
-    "derivationChain": [
-      "sun + lit(light的过去式) → sunlit"
-    ],
+    "derivationChain": {"steps": [{"from": "sun + flower", "to": "sunflower", "by": "复合词，向着太阳的花"}]},
     "morphVariantOf": null,
-    "memorySemantics": {
-      "imageKey": "meadow-morning",
-      "scene": "清晨阳光穿透树梢洒在草地上——a sunlit meadow，画面感十足",
-      "emotionalHook": "sunlit的场景总是温暖的，是文学中最常出现的幸福象征",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "literary",
-        "general"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "sunlight",
-        "sunbeam",
-        "sunburn"
-      ],
-      "sameAffix": [
-        "moonlit",
-        "starlit"
-      ],
-      "synonyms": [
-        "sunny",
-        "bright",
-        "illuminated"
-      ],
-      "antonyms": [
-        "shadowy",
-        "overcast",
-        "dark"
-      ],
-      "domainCohort": [
-        "sunny",
-        "radiant",
-        "luminous"
-      ],
-      "derivationPair": [],
-      "morphVariants": [],
-      "sameImagery": [
-        "sunbeam",
-        "moonlit"
-      ]
-    }
+    "memorySemantics": {"mnemonicExpr": "sun(太阳)+flower(花)→ 朝向太阳的花→向日葵→sunflower", "imageChain": "金黄的向日葵总是转向太阳→sunflower"},
+    "wordLevel": {"domain": ["botany", "general"], "sentiment": {"tags": ["积极"], "intensity": 2}},
+    "relations": {"sameRoot": ["sun", "sunflowers"], "sameAffix": ["wildflower", "cornflower"], "synonyms": ["helianthus"], "antonyms": [], "domainCohort": ["daisy", "marigold", "dandelion"], "derivationPair": ["sunflowers"], "morphVariants": [], "sameImagery": ["yellow", "summer"]}
+  },
+  {
+    "word": "sunglasses",
+    "phonetic": "/'sʌnˌɡlæsɪz/",
+    "pos": "n",
+    "coreMeaning": {"cn": "太阳眼镜；墨镜", "en": "glasses with tinted lenses to protect the eyes from sunlight"},
+    "morphemes": [
+      {"form": "sun", "role": "root", "canonical": "sun", "meaning": "太阳（防晒）", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "glasses", "role": "root", "canonical": "glass", "meaning": "眼镜（复数）", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "sun + glasses", "to": "sunglasses", "by": "复合词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "sun(太阳)+glasses(眼镜)→ 防晒眼镜→sunglasses太阳眼镜", "imageChain": "夏天戴墨镜→sunglasses"},
+    "wordLevel": {"domain": ["general", "fashion"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["sun", "sunlight"], "sameAffix": ["eyeglasses", "spectacles"], "synonyms": ["shades", "specs", "eyewear"], "antonyms": [], "domainCohort": ["shades", "spectacles", "eyewear"], "derivationPair": [], "morphVariants": ["shades"], "sameImagery": ["protection", "fashion"]}
+  },
+  {
+    "word": "sunken",
+    "phonetic": "/'sʌŋkən/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "下沉的；沉陷的；凹陷的", "en": "having sunk below the surface; lying below the level of the surroundings"},
+    "morphemes": [
+      {"form": "sink", "role": "root", "canonical": "sink", "meaning": "下沉，沉没", "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}},
+      {"form": "-en", "role": "suffix", "canonical": "-en", "meaning": "过去分词/形容词", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "sink (下沉) → sunk", "to": "sunken", "by": "古式过去分词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "sunk+en → 已经沉下去了→sunken ship沉船/sunken cheeks凹陷的脸颊", "imageChain": "沉入海底的船只→sunken treasure"},
+    "wordLevel": {"domain": ["general", "literary"], "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["sink", "sunk"], "sameAffix": ["rotten", "swollen", "molten"], "synonyms": ["submerged", "depressed", "hollow"], "antonyms": ["elevated", "raised", "prominent"], "domainCohort": ["submerged", "buried", "hidden"], "derivationPair": ["sunk"], "morphVariants": ["sunk"], "sameImagery": ["depth", "hollow"]}
+  },
+  {
+    "word": "sunless",
+    "phonetic": "/'sʌnlɪs/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "无阳光的；阴暗的", "en": "receiving no sunlight; gloomy and dark"},
+    "morphemes": [
+      {"form": "sun", "role": "root", "canonical": "sun", "meaning": "太阳，阳光", "positionTendency": "initial", "sentiment": {"tags": ["消极"], "intensity": 1}},
+      {"form": "-less", "role": "suffix", "canonical": "-less", "meaning": "没有…的", "positionTendency": "final", "sentiment": {"tags": ["消极"], "intensity": 1}}
+    ],
+    "derivationChain": {"steps": [{"from": "sun + -less", "to": "sunless", "by": "加-less构成形容词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "sun(太阳)+less(没有)→ 没有阳光的→sunless days阴暗的日子", "imageChain": "乌云密布→阴暗→sunless sky"},
+    "wordLevel": {"domain": ["literary", "general"], "sentiment": {"tags": ["消极"], "intensity": 1}},
+    "relations": {"sameRoot": ["sun", "sunlight"], "sameAffix": ["joyless", "hopeless", "moonless"], "synonyms": ["dark", "gloomy", "overcast"], "antonyms": ["sunny", "bright", "radiant"], "domainCohort": ["dark", "gloomy", "overcast"], "derivationPair": [], "morphVariants": [], "sameImagery": ["darkness", "gloom"]}
   },
   {
     "word": "sunlight",
     "phonetic": "/'sʌnlaɪt/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "日光；阳光",
-      "en": "the light of the sun"
-    },
+    "pos": "n",
+    "coreMeaning": {"cn": "阳光；日光", "en": "the light that comes from the sun"},
     "morphemes": [
-      {
-        "canonical": "sun",
-        "role": "root",
-        "meaning": "太阳",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "sun",
-        "positionTendency": "initial"
-      },
-      {
-        "canonical": "light",
-        "role": "root",
-        "meaning": "光",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 2,
-        "form": "light",
-        "positionTendency": "final"
-      }
+      {"form": "sun", "role": "root", "canonical": "sun", "meaning": "太阳", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 2}},
+      {"form": "light", "role": "root", "canonical": "light", "meaning": "光，光线", "positionTendency": "final", "sentiment": {"tags": ["积极"], "intensity": 2}}
     ],
-    "derivationChain": [
-      "sun + light → sunlight"
-    ],
+    "derivationChain": {"steps": [{"from": "sun + light", "to": "sunlight", "by": "复合词"}]},
     "morphVariantOf": null,
-    "memorySemantics": {
-      "imageKey": "sunbeam-window",
-      "scene": "窗帘缝隙透进一束sunlight——温暖而真实的存在",
-      "emotionalHook": "阳光是最普通也最珍贵的礼物",
-      "imageChain": []
-    },
-    "wordLevel": {
-      "domain": [
-        "general",
-        "science"
-      ],
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      }
-    },
-    "relations": {
-      "sameRoot": [
-        "sunlit",
-        "sunbeam",
-        "sunshine"
-      ],
-      "sameAffix": [
-        "moonlight",
-        "starlight",
-        "daylight"
-      ],
-      "synonyms": [
-        "sunshine",
-        "solar light"
-      ],
-      "antonyms": [
-        "darkness",
-        "shadow"
-      ],
-      "domainCohort": [
-        "sunshine",
-        "daylight",
-        "radiance"
-      ],
-      "derivationPair": [
-        "sunlit"
-      ],
-      "morphVariants": [],
-      "sameImagery": [
-        "sunshine",
-        "daylight"
-      ]
-    }
+    "memorySemantics": {"mnemonicExpr": "sun(太阳)+light(光)→ 太阳的光→阳光→sunlight", "imageChain": "阳光洒入房间→sunlight streams in"},
+    "wordLevel": {"domain": ["general", "cefr", "cet4"], "sentiment": {"tags": ["积极"], "intensity": 2}},
+    "relations": {"sameRoot": ["sun", "sunlit", "sunbeam", "sunshine"], "sameAffix": ["moonlight", "starlight", "flashlight"], "synonyms": ["sunshine", "daylight", "solar light"], "antonyms": ["darkness", "shadow"], "domainCohort": ["sunshine", "daylight", "radiance"], "derivationPair": ["sunlit"], "morphVariants": ["sunshine"], "sameImagery": ["warmth", "brightness"]}
+  },
+  {
+    "word": "sunlit",
+    "phonetic": "/'sʌnlɪt/",
+    "pos": "adj",
+    "coreMeaning": {"cn": "阳光照耀的；被日光照射的", "en": "lit by the light of the sun; bathed in sunlight"},
+    "morphemes": [
+      {"form": "sun", "role": "root", "canonical": "sun", "meaning": "太阳，阳光", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 2}},
+      {"form": "lit", "role": "root", "canonical": "light", "meaning": "照亮（过去分词）", "positionTendency": "final", "sentiment": {"tags": ["积极"], "intensity": 1}}
+    ],
+    "derivationChain": {"steps": [{"from": "sun + lit (light过去分词)", "to": "sunlit", "by": "复合形容词"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "sun(太阳)+lit(被照亮)→ 被太阳照亮的→sunlit meadow阳光草地", "imageChain": "阳光明媚的草地→sunlit scene"},
+    "wordLevel": {"domain": ["literary", "gre", "toefl"], "sentiment": {"tags": ["积极"], "intensity": 2}},
+    "relations": {"sameRoot": ["sun", "sunlight", "sunbeam"], "sameAffix": ["moonlit", "starlit", "candlelit"], "synonyms": ["sun-drenched", "sunny", "bright"], "antonyms": ["dark", "shadowy", "sunless"], "domainCohort": ["sunny", "bright", "radiant"], "derivationPair": ["sunlight"], "morphVariants": ["sundrenched"], "sameImagery": ["brightness", "warmth"]}
+  },
+  {
+    "word": "sunman",
+    "phonetic": "/'sʌnmæn/",
+    "pos": "n",
+    "coreMeaning": {"cn": "太阳人；太阳象征（人格化）", "en": "a personification of the sun; a sun-deity figure"},
+    "morphemes": [
+      {"form": "sun", "role": "root", "canonical": "sun", "meaning": "太阳", "positionTendency": "initial", "sentiment": {"tags": ["积极"], "intensity": 1}},
+      {"form": "man", "role": "root", "canonical": "man", "meaning": "人", "positionTendency": "final", "sentiment": {"tags": ["中性"], "intensity": 0}}
+    ],
+    "derivationChain": {"steps": [{"from": "sun + man", "to": "sunman", "by": "复合词，太阳的人格化"}]},
+    "morphVariantOf": null,
+    "memorySemantics": {"mnemonicExpr": "sun(太阳)+man(人)→ 太阳人/太阳神化→sunman", "imageChain": "太阳神的人格化→sunman图腾"},
+    "wordLevel": {"domain": ["mythology", "literary"], "sentiment": {"tags": ["积极"], "intensity": 1}},
+    "relations": {"sameRoot": ["sun", "sunlight"], "sameAffix": ["snowman", "batman"], "synonyms": ["sun deity", "sun god"], "antonyms": [], "domainCohort": ["sun god", "Ra", "Apollo"], "derivationPair": [], "morphVariants": [], "sameImagery": ["sun", "deity"]}
   }
 ]
