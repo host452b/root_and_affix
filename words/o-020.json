@@ -1,1064 +1,761 @@
 [
   {
     "word": "optimistic",
-    "phonetic": "/ˌɑptɪ'mɪstɪk/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "乐观的；乐观主义的",
-      "en": "hopeful and confident about the future"
-    },
+    "phonetic": "/ˌɑptɪˈmɪstɪk/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "乐观的；乐观主义的", "en": "having a hopeful and positive attitude about the future" },
     "morphemes": [
-      {
-        "role": "root",
-        "positionTendency": "initial",
-        "canonical": "optim",
-        "meaning": "best; most favorable",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 2
-        },
-        "order": 1,
-        "form": "optim",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      },
-      {
-        "role": "suffix",
-        "positionTendency": "final",
-        "canonical": "-istic",
-        "meaning": "of the nature of; relating to",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "istic",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      }
+      { "canonical": "optim", "role": "root", "meaning": "best; most favorable", "sentiment": { "tags": ["积极"], "intensity": 2 }, "order": 1, "form": "optim", "positionTendency": "initial", "coreMeaning": { "cn": "最好", "en": "best" } },
+      { "canonical": "-ist", "role": "suffix", "meaning": "one who believes in", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ist", "positionTendency": "medial", "coreMeaning": { "cn": "主义者", "en": "believer in" } },
+      { "canonical": "-ic", "role": "suffix", "meaning": "of the nature of; relating to", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ic", "positionTendency": "final", "coreMeaning": { "cn": "…的", "en": "relating to" } }
     ],
-    "derivationChain": [
-      "optimistic"
-    ],
+    "derivationChain": { "steps": [{ "from": "L optimus (best)", "to": "optimism", "operation": "noun formation" }, { "from": "optimism", "to": "optimistic", "operation": "+ic (adj.)" }] },
     "morphVariantOf": null,
-    "memorySemantics": {
-      "literal": "optim(best) + istic = believing the best will happen",
-      "imageChain": [
-        "乐观",
-        "积极向上",
-        "充满希望"
-      ],
-      "mnemonicExpr": "optimistic outlook → 乐观的人生态度"
-    },
-    "wordLevel": {
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 2
-      },
-      "domain": [
-        "general",
-        "academic"
-      ],
-      "formality": "neutral"
-    },
-    "relations": {
-      "sameRoot": [
-        "optimism",
-        "optimum",
-        "optimize"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "hopeful",
-        "positive",
-        "sanguine"
-      ],
-      "antonyms": [
-        "pessimistic",
-        "gloomy",
-        "despairing"
-      ],
-      "domainCohort": [],
-      "derivationPair": [
-        "optimistically"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "memorySemantics": { "mnemonicExpr": "optim(best)+ist+ic → 总觉得事情会最好的人", "imageChain": ["乐观", "积极向上", "充满希望"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["optimism", "optimum", "optimize"], "sameAffix": [], "synonyms": ["hopeful", "positive", "sanguine"], "antonyms": ["pessimistic", "gloomy"], "domainCohort": [], "derivationPair": ["optimistically"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "optimistically",
+    "phonetic": "/ˌɑptɪˈmɪstɪkli/",
+    "pos": "adv.",
+    "coreMeaning": { "cn": "乐观地", "en": "in an optimistic manner; with hopefulness" },
+    "morphemes": [
+      { "canonical": "optim", "role": "root", "meaning": "best", "sentiment": { "tags": ["积极"], "intensity": 2 }, "order": 1, "form": "optim", "positionTendency": "initial", "coreMeaning": { "cn": "最好", "en": "best" } },
+      { "canonical": "-ist", "role": "suffix", "meaning": "believer in", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ist", "positionTendency": "medial", "coreMeaning": { "cn": "主义者", "en": "believer" } },
+      { "canonical": "-ic", "role": "suffix", "meaning": "relating to", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ic", "positionTendency": "medial", "coreMeaning": { "cn": "…的", "en": "relating to" } },
+      { "canonical": "-ally", "role": "suffix", "meaning": "in the manner of", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 4, "form": "ally", "positionTendency": "final", "coreMeaning": { "cn": "地", "en": "in the manner of" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "optimistic", "to": "optimistically", "operation": "+-ally (adv.)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "optimistic+ally → 用乐观的方式", "imageChain": ["乐观地", "积极地"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["optimistic", "optimism"], "sameAffix": [], "synonyms": ["hopefully", "positively"], "antonyms": ["pessimistically"], "domainCohort": [], "derivationPair": ["optimistic"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "optimists",
+    "phonetic": "/ˈɑptɪmɪsts/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "乐观主义者（复数）", "en": "people who tend to take a hopeful and positive view" },
+    "morphemes": [
+      { "canonical": "optim", "role": "root", "meaning": "best", "sentiment": { "tags": ["积极"], "intensity": 2 }, "order": 1, "form": "optim", "positionTendency": "initial", "coreMeaning": { "cn": "最好", "en": "best" } },
+      { "canonical": "-ist", "role": "suffix", "meaning": "one who holds a belief", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ist", "positionTendency": "medial", "coreMeaning": { "cn": "主义者", "en": "believer" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "optimist", "to": "optimists", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "optim+ist+s → 多位乐观主义者", "imageChain": ["乐观者们", "积极派"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["optimism", "optimistic"], "sameAffix": [], "synonyms": ["positive thinkers", "hopefuls"], "antonyms": ["pessimists"], "domainCohort": [], "derivationPair": ["optimist"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "optimization",
+    "phonetic": "/ˌɑptɪmɪˈzeɪʃən/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "最优化；优化过程", "en": "the action of making the best or most effective use of a situation or resource" },
+    "morphemes": [
+      { "canonical": "optim", "role": "root", "meaning": "best", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "optim", "positionTendency": "initial", "coreMeaning": { "cn": "最好", "en": "best" } },
+      { "canonical": "-ize", "role": "suffix", "meaning": "to make; to cause to be", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "iz", "positionTendency": "medial", "coreMeaning": { "cn": "使…化", "en": "to make" } },
+      { "canonical": "-ation", "role": "suffix", "meaning": "action or process", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ation", "positionTendency": "final", "coreMeaning": { "cn": "过程/结果", "en": "action or process" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "optimize", "to": "optimization", "operation": "+-ation (n.)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "optim+iz+ation → 让事物达到最优的过程", "imageChain": ["优化", "最优化", "效率提升"] },
+    "wordLevel": { "domain": "tech", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["optimize", "optimum", "optimal"], "sameAffix": [], "synonyms": ["maximization", "improvement", "enhancement"], "antonyms": [], "domainCohort": ["algorithm", "efficiency"], "derivationPair": ["optimize"], "morphVariants": [], "sameImagery": [] }
   },
   {
     "word": "optimize",
-    "phonetic": "/'ɑptɪmaɪz/",
-    "pos": [
-      "vt."
-    ],
-    "coreMeaning": {
-      "cn": "使最优化；充分利用",
-      "en": "to make as effective, perfect, or useful as possible"
-    },
+    "phonetic": "/ˈɑptɪmaɪz/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "使最优化；充分利用", "en": "to make as effective, perfect, or useful as possible" },
     "morphemes": [
-      {
-        "role": "root",
-        "positionTendency": "initial",
-        "canonical": "optim",
-        "meaning": "best",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 1
-        },
-        "order": 1,
-        "form": "optim",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      },
-      {
-        "role": "suffix",
-        "positionTendency": "final",
-        "canonical": "-ize",
-        "meaning": "to make; to cause to be",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "ize",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      }
+      { "canonical": "optim", "role": "root", "meaning": "best", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "optim", "positionTendency": "initial", "coreMeaning": { "cn": "最好", "en": "best" } },
+      { "canonical": "-ize", "role": "suffix", "meaning": "to make; to cause to be", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ize", "positionTendency": "final", "coreMeaning": { "cn": "使…化", "en": "to make" } }
     ],
-    "derivationChain": [
-      "optimize"
-    ],
+    "derivationChain": { "steps": [{ "from": "L optimus (best)", "to": "optimize", "operation": "+-ize (v.)" }] },
     "morphVariantOf": null,
-    "memorySemantics": {
-      "literal": "optim(best) + ize = to make the best of",
-      "imageChain": [
-        "优化",
-        "最优解",
-        "效率最大化"
-      ],
-      "mnemonicExpr": "optimize performance → 优化性能"
-    },
-    "wordLevel": {
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      },
-      "domain": [
-        "general",
-        "tech",
-        "business"
-      ],
-      "formality": "neutral"
-    },
-    "relations": {
-      "sameRoot": [
-        "optimum",
-        "optimism",
-        "optimal"
-      ],
-      "sameAffix": [
-        "maximize",
-        "minimize"
-      ],
-      "synonyms": [
-        "improve",
-        "enhance",
-        "streamline"
-      ],
-      "antonyms": [
-        "worsen",
-        "degrade"
-      ],
-      "domainCohort": [],
-      "derivationPair": [
-        "optimization",
-        "optimized"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "memorySemantics": { "mnemonicExpr": "optim+ize → 使之达到最佳状态", "imageChain": ["优化", "最优解", "效率最大化"] },
+    "wordLevel": { "domain": "tech", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["optimum", "optimism", "optimal"], "sameAffix": ["maximize", "minimize"], "synonyms": ["improve", "enhance", "streamline"], "antonyms": ["worsen", "degrade"], "domainCohort": [], "derivationPair": ["optimization", "optimized"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "optimized",
+    "phonetic": "/ˈɑptɪmaɪzd/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "已优化的；最优化的", "en": "made as effective or functional as possible" },
+    "morphemes": [
+      { "canonical": "optim", "role": "root", "meaning": "best", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "optim", "positionTendency": "initial", "coreMeaning": { "cn": "最好", "en": "best" } },
+      { "canonical": "-ize", "role": "suffix", "meaning": "to make", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "iz", "positionTendency": "medial", "coreMeaning": { "cn": "使…化", "en": "to make" } },
+      { "canonical": "-ed", "role": "suffix", "meaning": "past participle; having been", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ed", "positionTendency": "final", "coreMeaning": { "cn": "已…的", "en": "having been" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "optimize", "to": "optimized", "operation": "+-ed (past participle/adj.)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "optimize+d → 已被优化好了", "imageChain": ["已优化", "高效", "精调"] },
+    "wordLevel": { "domain": "tech", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["optimize", "optimization"], "sameAffix": [], "synonyms": ["enhanced", "streamlined", "refined"], "antonyms": ["degraded", "suboptimal"], "domainCohort": [], "derivationPair": ["optimize"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "optimizer",
+    "phonetic": "/ˈɑptɪmaɪzər/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "优化程序；最优控制器", "en": "a person or program that optimizes" },
+    "morphemes": [
+      { "canonical": "optim", "role": "root", "meaning": "best", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "optim", "positionTendency": "initial", "coreMeaning": { "cn": "最好", "en": "best" } },
+      { "canonical": "-ize", "role": "suffix", "meaning": "to make", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "iz", "positionTendency": "medial", "coreMeaning": { "cn": "使…化", "en": "to make" } },
+      { "canonical": "-er", "role": "suffix", "meaning": "agent; one who does", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "er", "positionTendency": "final", "coreMeaning": { "cn": "…者/器", "en": "agent" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "optimize", "to": "optimizer", "operation": "+-er (agent noun)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "optimize+r → 执行优化任务的程序或人", "imageChain": ["优化器", "优化程序", "调优工具"] },
+    "wordLevel": { "domain": "tech", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["optimize", "optimization"], "sameAffix": [], "synonyms": ["tuner", "enhancer"], "antonyms": [], "domainCohort": ["compiler", "algorithm"], "derivationPair": ["optimize"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "optimizing",
+    "phonetic": "/ˈɑptɪmaɪzɪŋ/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "优化中；正在使最优化", "en": "making the best or most effective use of something" },
+    "morphemes": [
+      { "canonical": "optim", "role": "root", "meaning": "best", "sentiment": { "tags": ["积极"], "intensity": 1 }, "order": 1, "form": "optim", "positionTendency": "initial", "coreMeaning": { "cn": "最好", "en": "best" } },
+      { "canonical": "-ize", "role": "suffix", "meaning": "to make", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "iz", "positionTendency": "medial", "coreMeaning": { "cn": "使…化", "en": "to make" } },
+      { "canonical": "-ing", "role": "suffix", "meaning": "present participle", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ing", "positionTendency": "final", "coreMeaning": { "cn": "进行时", "en": "ongoing action" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "optimize", "to": "optimizing", "operation": "+-ing (present participle)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "optimize+ing → 正在进行优化", "imageChain": ["优化中", "调整进行中"] },
+    "wordLevel": { "domain": "tech", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["optimize", "optimization"], "sameAffix": [], "synonyms": ["improving", "enhancing"], "antonyms": [], "domainCohort": [], "derivationPair": ["optimize"], "morphVariants": [], "sameImagery": [] }
   },
   {
     "word": "optimum",
-    "phonetic": "/'ɑptəməm/",
-    "pos": [
-      "n.",
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "最佳状态；最适宜的",
-      "en": "the most favorable condition or level; best possible"
-    },
+    "phonetic": "/ˈɑptəməm/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "最佳状态；最适量", "en": "the most favorable condition or level for growth or success" },
     "morphemes": [
-      {
-        "role": "root",
-        "positionTendency": "medial",
-        "canonical": "optim",
-        "meaning": "best (L optimus)",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 2
-        },
-        "order": 1,
-        "form": "optimum",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      }
+      { "canonical": "optim", "role": "root", "meaning": "best (L optimus)", "sentiment": { "tags": ["积极"], "intensity": 2 }, "order": 1, "form": "optim", "positionTendency": "initial", "coreMeaning": { "cn": "最好的", "en": "best" } },
+      { "canonical": "-um", "role": "suffix", "meaning": "Latin neuter noun ending", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "um", "positionTendency": "final", "coreMeaning": { "cn": "名词后缀", "en": "noun ending" } }
     ],
-    "derivationChain": [],
+    "derivationChain": { "steps": [{ "from": "L optimus (best)", "to": "optimum", "operation": "Latin neuter form" }] },
     "morphVariantOf": null,
-    "memorySemantics": {
-      "literal": "optimum = the best possible point or condition",
-      "imageChain": [
-        "最优",
-        "最佳状态",
-        "巅峰"
-      ],
-      "mnemonicExpr": "at optimum performance → 处于最佳状态"
-    },
-    "wordLevel": {
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 2
-      },
-      "domain": [
-        "general",
-        "academic",
-        "tech"
-      ],
-      "formality": "formal"
-    },
-    "relations": {
-      "sameRoot": [
-        "optimize",
-        "optimism",
-        "optimal"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "best",
-        "peak",
-        "ideal",
-        "optimal"
-      ],
-      "antonyms": [
-        "worst",
-        "minimum",
-        "nadir"
-      ],
-      "domainCohort": [],
-      "derivationPair": [
-        "optimize",
-        "optimal"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "memorySemantics": { "mnemonicExpr": "optim+um → 最优状态，顶峰条件", "imageChain": ["最优", "最佳状态", "巅峰"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["积极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["optimize", "optimism", "optimal"], "sameAffix": [], "synonyms": ["best", "peak", "ideal", "optimal"], "antonyms": ["worst", "minimum", "nadir"], "domainCohort": [], "derivationPair": ["optimize", "optimal"], "morphVariants": [], "sameImagery": [] }
   },
   {
     "word": "option",
-    "phonetic": "/'ɑpʃən/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "选择；选项；期权",
-      "en": "a thing that is or may be chosen; the right to buy or sell at a set price"
-    },
+    "phonetic": "/ˈɑpʃən/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "选择；选项；期权", "en": "a thing that is or may be chosen; the right to buy or sell at a set price" },
     "morphemes": [
-      {
-        "role": "root",
-        "positionTendency": "initial",
-        "canonical": "opt",
-        "meaning": "to choose",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "opt",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      },
-      {
-        "role": "suffix",
-        "positionTendency": "final",
-        "canonical": "-ion",
-        "meaning": "action; result of action",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "ion",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      }
+      { "canonical": "opt", "role": "root", "meaning": "to choose (L optare)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "opt", "positionTendency": "initial", "coreMeaning": { "cn": "选择", "en": "to choose" } },
+      { "canonical": "-ion", "role": "suffix", "meaning": "action; result of action", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ion", "positionTendency": "final", "coreMeaning": { "cn": "行为/结果", "en": "action or result" } }
     ],
-    "derivationChain": [
-      "option"
-    ],
+    "derivationChain": { "steps": [{ "from": "L optare (to choose)", "to": "option", "operation": "+-ion (noun)" }] },
     "morphVariantOf": null,
-    "memorySemantics": {
-      "literal": "opt(choose) + ion = a choice available",
-      "imageChain": [
-        "选择",
-        "备选方案",
-        "期权"
-      ],
-      "mnemonicExpr": "stock option → 股票期权，选择权"
-    },
-    "wordLevel": {
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "domain": [
-        "general",
-        "finance",
-        "business"
-      ],
-      "formality": "neutral"
-    },
-    "relations": {
-      "sameRoot": [
-        "optional",
-        "opt",
-        "adopt"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "choice",
-        "alternative",
-        "preference"
-      ],
-      "antonyms": [
-        "obligation",
-        "requirement"
-      ],
-      "domainCohort": [],
-      "derivationPair": [
-        "optional",
-        "optionally"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "memorySemantics": { "mnemonicExpr": "opt(choose)+ion → 可供选择的事物", "imageChain": ["选择", "备选方案", "期权"] },
+    "wordLevel": { "domain": "finance", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["optional", "opt", "adopt"], "sameAffix": [], "synonyms": ["choice", "alternative", "preference"], "antonyms": ["obligation", "requirement"], "domainCohort": ["contract", "derivative"], "derivationPair": ["optional", "optionally"], "morphVariants": [], "sameImagery": [] }
   },
   {
     "word": "optional",
-    "phonetic": "/'ɑpʃənl/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "可选择的；随意的",
-      "en": "available to be chosen but not obligatory"
-    },
+    "phonetic": "/ˈɑpʃənl/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "可选择的；非强制的", "en": "available to be chosen but not obligatory" },
     "morphemes": [
-      {
-        "role": "root",
-        "positionTendency": "initial",
-        "canonical": "opt",
-        "meaning": "to choose",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "option",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      },
-      {
-        "role": "suffix",
-        "positionTendency": "final",
-        "canonical": "-al",
-        "meaning": "relating to; of the nature of",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "al",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      }
+      { "canonical": "opt", "role": "root", "meaning": "to choose", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "option", "positionTendency": "initial", "coreMeaning": { "cn": "选择", "en": "to choose" } },
+      { "canonical": "-al", "role": "suffix", "meaning": "relating to; of the nature of", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "al", "positionTendency": "final", "coreMeaning": { "cn": "…的", "en": "relating to" } }
     ],
-    "derivationChain": [
-      "optional"
-    ],
+    "derivationChain": { "steps": [{ "from": "option", "to": "optional", "operation": "+-al (adj.)" }] },
     "morphVariantOf": null,
-    "memorySemantics": {
-      "literal": "option + al = relating to choices; not required",
-      "imageChain": [
-        "可选",
-        "非强制",
-        "自愿"
-      ],
-      "mnemonicExpr": "optional course → 选修课"
-    },
-    "wordLevel": {
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "domain": [
-        "general",
-        "academic"
-      ],
-      "formality": "neutral"
-    },
-    "relations": {
-      "sameRoot": [
-        "option",
-        "opt"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "elective",
-        "voluntary",
-        "discretionary"
-      ],
-      "antonyms": [
-        "compulsory",
-        "mandatory",
-        "required"
-      ],
-      "domainCohort": [],
-      "derivationPair": [
-        "optionally"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "memorySemantics": { "mnemonicExpr": "option+al → 可选择的，非必须", "imageChain": ["可选", "非强制", "自愿"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["option", "opt"], "sameAffix": [], "synonyms": ["elective", "voluntary", "discretionary"], "antonyms": ["compulsory", "mandatory", "required"], "domainCohort": [], "derivationPair": ["optionally"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "optionality",
+    "phonetic": "/ˌɑpʃəˈnælɪti/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "期权性；可选择性", "en": "the quality of being available as an option; the value of having choices" },
+    "morphemes": [
+      { "canonical": "opt", "role": "root", "meaning": "to choose", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "option", "positionTendency": "initial", "coreMeaning": { "cn": "选择", "en": "to choose" } },
+      { "canonical": "-al", "role": "suffix", "meaning": "relating to", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "al", "positionTendency": "medial", "coreMeaning": { "cn": "…的", "en": "relating to" } },
+      { "canonical": "-ity", "role": "suffix", "meaning": "state or quality", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ity", "positionTendency": "final", "coreMeaning": { "cn": "性质/状态", "en": "state or quality" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "optional", "to": "optionality", "operation": "+-ity (abstract noun)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "optional+ity → 具有选择性的属性，金融中的期权价值", "imageChain": ["期权性", "可选择性", "灵活性"] },
+    "wordLevel": { "domain": "finance", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["option", "optional"], "sameAffix": [], "synonyms": ["flexibility", "choice value"], "antonyms": [], "domainCohort": ["derivative", "risk management"], "derivationPair": ["optional"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "optionally",
+    "phonetic": "/ˈɑpʃənəli/",
+    "pos": "adv.",
+    "coreMeaning": { "cn": "可选择地；随意地", "en": "in an optional manner; by choice, not necessarily" },
+    "morphemes": [
+      { "canonical": "opt", "role": "root", "meaning": "to choose", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "option", "positionTendency": "initial", "coreMeaning": { "cn": "选择", "en": "to choose" } },
+      { "canonical": "-al", "role": "suffix", "meaning": "relating to", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "al", "positionTendency": "medial", "coreMeaning": { "cn": "…的", "en": "relating to" } },
+      { "canonical": "-ly", "role": "suffix", "meaning": "in the manner of", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ly", "positionTendency": "final", "coreMeaning": { "cn": "地", "en": "in the manner of" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "optional", "to": "optionally", "operation": "+-ly (adv.)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "optional+ly → 以可选方式", "imageChain": ["可选地", "随意地"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["option", "optional"], "sameAffix": [], "synonyms": ["voluntarily", "by choice"], "antonyms": ["necessarily", "mandatorily"], "domainCohort": [], "derivationPair": ["optional"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "options",
+    "phonetic": "/ˈɑpʃənz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "选项；期权（复数）", "en": "things available as choices; financial derivatives giving the right to buy or sell" },
+    "morphemes": [
+      { "canonical": "opt", "role": "root", "meaning": "to choose", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "option", "positionTendency": "initial", "coreMeaning": { "cn": "选择", "en": "to choose" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "option", "to": "options", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "option+s → 多个可选择的项目", "imageChain": ["选项列表", "期权组合"] },
+    "wordLevel": { "domain": "finance", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["option", "optional"], "sameAffix": [], "synonyms": ["choices", "alternatives"], "antonyms": [], "domainCohort": ["derivatives", "contracts"], "derivationPair": ["option"], "morphVariants": [], "sameImagery": [] }
   },
   {
     "word": "optometrist",
-    "phonetic": "/ɑp'tɑmətrɪst/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "验光师；视力测定者",
-      "en": "a person who tests eyesight and prescribes corrective lenses"
-    },
+    "phonetic": "/ɑpˈtɑmətrɪst/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "验光师；视力测定者", "en": "a person who tests eyesight and prescribes corrective lenses" },
     "morphemes": [
-      {
-        "role": "root",
-        "positionTendency": "initial",
-        "canonical": "opto",
-        "meaning": "sight; eye (Gk optos)",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "opto",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      },
-      {
-        "role": "root",
-        "positionTendency": "medial",
-        "canonical": "metr",
-        "meaning": "to measure",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "metr",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      },
-      {
-        "role": "suffix",
-        "positionTendency": "final",
-        "canonical": "-ist",
-        "meaning": "one who practices",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 3,
-        "form": "ist",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      }
+      { "canonical": "opto", "role": "root", "meaning": "sight; eye (Gk optos)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "opto", "positionTendency": "initial", "coreMeaning": { "cn": "视力/眼", "en": "sight; eye" } },
+      { "canonical": "metr", "role": "root", "meaning": "to measure", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "metr", "positionTendency": "medial", "coreMeaning": { "cn": "测量", "en": "to measure" } },
+      { "canonical": "-ist", "role": "suffix", "meaning": "one who practices", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ist", "positionTendency": "final", "coreMeaning": { "cn": "…师/者", "en": "practitioner" } }
     ],
-    "derivationChain": [
-      "optometrist"
-    ],
+    "derivationChain": { "steps": [{ "from": "opto(eye)+metry(measure)", "to": "optometry", "operation": "compound formation" }, { "from": "optometry", "to": "optometrist", "operation": "+-ist (practitioner)" }] },
     "morphVariantOf": null,
-    "memorySemantics": {
-      "literal": "opto(eye) + metr(measure) + ist = one who measures eyes/vision",
-      "imageChain": [
-        "验光师",
-        "视力检测",
-        "眼科"
-      ],
-      "mnemonicExpr": "optometrist → 量眼睛度数的专业人士"
-    },
-    "wordLevel": {
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "domain": [
-        "medical"
-      ],
-      "formality": "technical"
-    },
-    "relations": {
-      "sameRoot": [
-        "optical",
-        "optic",
-        "optometry"
-      ],
-      "sameAffix": [
-        "audiologist",
-        "podiatrist"
-      ],
-      "synonyms": [
-        "eye doctor",
-        "vision specialist"
-      ],
-      "antonyms": [],
-      "domainCohort": [],
-      "derivationPair": [
-        "optometry"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "memorySemantics": { "mnemonicExpr": "opto(eye)+metr(measure)+ist → 量眼睛度数的专业人士", "imageChain": ["验光师", "视力检测", "眼科"] },
+    "wordLevel": { "domain": "medical", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["optical", "optic", "optometry"], "sameAffix": ["audiologist", "podiatrist"], "synonyms": ["eye doctor", "vision specialist"], "antonyms": [], "domainCohort": ["ophthalmologist", "lens"], "derivationPair": ["optometry"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "optometry",
+    "phonetic": "/ɑpˈtɑmɪtri/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "验光学；视力测量学", "en": "the practice of testing eyesight and prescribing corrective lenses or exercises" },
+    "morphemes": [
+      { "canonical": "opto", "role": "root", "meaning": "sight; eye", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "opto", "positionTendency": "initial", "coreMeaning": { "cn": "视力", "en": "sight" } },
+      { "canonical": "metr", "role": "root", "meaning": "to measure", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "metr", "positionTendency": "medial", "coreMeaning": { "cn": "测量", "en": "to measure" } },
+      { "canonical": "-y", "role": "suffix", "meaning": "science or study of", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "y", "positionTendency": "final", "coreMeaning": { "cn": "学科", "en": "science of" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "opto(eye)+metry(measuring)", "to": "optometry", "operation": "compound formation" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "opto(eye)+metry(measure) → 测量视力的学科", "imageChain": ["验光学", "视觉科学"] },
+    "wordLevel": { "domain": "medical", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["optometrist", "optical"], "sameAffix": [], "synonyms": ["vision science"], "antonyms": [], "domainCohort": ["ophthalmology", "eyecare"], "derivationPair": ["optometrist"], "morphVariants": [], "sameImagery": [] }
   },
   {
     "word": "opulence",
-    "phonetic": "/'ɑpjələns/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "财富；富裕；奢华",
-      "en": "great wealth or luxuriousness"
-    },
+    "phonetic": "/ˈɑpjələns/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "财富；富裕；奢华", "en": "great wealth or luxuriousness" },
     "morphemes": [
-      {
-        "role": "root",
-        "positionTendency": "initial",
-        "canonical": "op",
-        "meaning": "power; wealth; resources (L opes)",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 2
-        },
-        "order": 1,
-        "form": "opul",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      },
-      {
-        "role": "suffix",
-        "positionTendency": "final",
-        "canonical": "-ence",
-        "meaning": "state or quality",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "ence",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      }
+      { "canonical": "op", "role": "root", "meaning": "power; wealth; resources (L opes)", "sentiment": { "tags": ["积极"], "intensity": 2 }, "order": 1, "form": "opul", "positionTendency": "initial", "coreMeaning": { "cn": "财富/资源", "en": "wealth; resources" } },
+      { "canonical": "-ence", "role": "suffix", "meaning": "state or quality", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ence", "positionTendency": "final", "coreMeaning": { "cn": "状态", "en": "state or quality" } }
     ],
-    "derivationChain": [
-      "opulence"
-    ],
+    "derivationChain": { "steps": [{ "from": "L opulentus (rich)", "to": "opulence", "operation": "+-ence (noun)" }] },
     "morphVariantOf": null,
-    "memorySemantics": {
-      "literal": "opul(wealthy) + ence = the state of great wealth",
-      "imageChain": [
-        "奢华",
-        "富裕",
-        "豪门"
-      ],
-      "mnemonicExpr": "opulence → 极度奢华富裕的状态"
-    },
-    "wordLevel": {
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 2
-      },
-      "domain": [
-        "general",
-        "academic"
-      ],
-      "formality": "formal"
-    },
-    "relations": {
-      "sameRoot": [
-        "opulent"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "wealth",
-        "luxury",
-        "affluence",
-        "lavishness"
-      ],
-      "antonyms": [
-        "poverty",
-        "austerity",
-        "scarcity"
-      ],
-      "domainCohort": [],
-      "derivationPair": [
-        "opulent"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "memorySemantics": { "mnemonicExpr": "opul(rich)+ence → 极度富裕奢华的状态", "imageChain": ["奢华", "富裕", "豪门"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["积极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["opulent"], "sameAffix": [], "synonyms": ["wealth", "luxury", "affluence", "lavishness"], "antonyms": ["poverty", "austerity", "scarcity"], "domainCohort": [], "derivationPair": ["opulent"], "morphVariants": [], "sameImagery": [] }
   },
   {
     "word": "opulent",
-    "phonetic": "/'ɑpjələnt/",
-    "pos": [
-      "adj."
-    ],
-    "coreMeaning": {
-      "cn": "豪华的；富裕的；丰饶的",
-      "en": "ostentatiously rich and luxurious; abundant"
-    },
+    "phonetic": "/ˈɑpjələnt/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "豪华的；富裕的；丰饶的", "en": "ostentatiously rich and luxurious; abundant" },
     "morphemes": [
-      {
-        "role": "root",
-        "positionTendency": "initial",
-        "canonical": "op",
-        "meaning": "wealth; resources",
-        "sentiment": {
-          "tags": [
-            "积极"
-          ],
-          "intensity": 2
-        },
-        "order": 1,
-        "form": "opul",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      },
-      {
-        "role": "suffix",
-        "positionTendency": "final",
-        "canonical": "-ent",
-        "meaning": "having the quality of",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "ent",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      }
+      { "canonical": "op", "role": "root", "meaning": "wealth; resources", "sentiment": { "tags": ["积极"], "intensity": 2 }, "order": 1, "form": "opul", "positionTendency": "initial", "coreMeaning": { "cn": "财富", "en": "wealth" } },
+      { "canonical": "-ent", "role": "suffix", "meaning": "having the quality of", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ent", "positionTendency": "final", "coreMeaning": { "cn": "具有…性质的", "en": "having the quality of" } }
     ],
-    "derivationChain": [
-      "opulent"
-    ],
+    "derivationChain": { "steps": [{ "from": "L opulentus (rich)", "to": "opulent", "operation": "adj. formation" }] },
     "morphVariantOf": null,
-    "memorySemantics": {
-      "literal": "opul(rich) + ent = characterized by great richness",
-      "imageChain": [
-        "豪华",
-        "富丽堂皇",
-        "奢侈"
-      ],
-      "mnemonicExpr": "opulent mansion → 豪华宅邸，金碧辉煌"
-    },
-    "wordLevel": {
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 2
-      },
-      "domain": [
-        "general",
-        "academic"
-      ],
-      "formality": "formal"
-    },
-    "relations": {
-      "sameRoot": [
-        "opulence"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "luxurious",
-        "lavish",
-        "sumptuous",
-        "affluent"
-      ],
-      "antonyms": [
-        "poor",
-        "meager",
-        "austere",
-        "spartan"
-      ],
-      "domainCohort": [],
-      "derivationPair": [
-        "opulently",
-        "opulence"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "memorySemantics": { "mnemonicExpr": "opul(rich)+ent → 具有极度财富特征的", "imageChain": ["豪华", "富丽堂皇", "奢侈"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["积极"], "intensity": 2 } },
+    "relations": { "sameRoot": ["opulence"], "sameAffix": [], "synonyms": ["luxurious", "lavish", "sumptuous", "affluent"], "antonyms": ["poor", "meager", "austere", "spartan"], "domainCohort": [], "derivationPair": ["opulently", "opulence"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "opulently",
+    "phonetic": "/ˈɑpjələntli/",
+    "pos": "adv.",
+    "coreMeaning": { "cn": "豪华地；奢侈地", "en": "in a luxuriously rich or lavish manner" },
+    "morphemes": [
+      { "canonical": "op", "role": "root", "meaning": "wealth", "sentiment": { "tags": ["积极"], "intensity": 2 }, "order": 1, "form": "opul", "positionTendency": "initial", "coreMeaning": { "cn": "财富", "en": "wealth" } },
+      { "canonical": "-ent", "role": "suffix", "meaning": "having the quality of", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ent", "positionTendency": "medial", "coreMeaning": { "cn": "具有…性质的", "en": "having the quality of" } },
+      { "canonical": "-ly", "role": "suffix", "meaning": "in the manner of", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ly", "positionTendency": "final", "coreMeaning": { "cn": "地", "en": "in the manner of" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "opulent", "to": "opulently", "operation": "+-ly (adv.)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "opulent+ly → 以豪华奢侈的方式", "imageChain": ["豪华地", "挥金如土"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["opulent", "opulence"], "sameAffix": [], "synonyms": ["lavishly", "luxuriously", "sumptuously"], "antonyms": ["frugally", "austerely"], "domainCohort": [], "derivationPair": ["opulent"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "opus",
+    "phonetic": "/ˈoʊpəs/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "作品；乐曲", "en": "a musical composition or set of compositions; a literary or artistic work" },
+    "morphemes": [
+      { "canonical": "opus", "role": "root", "meaning": "work (L opus)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "opus", "positionTendency": "initial", "coreMeaning": { "cn": "作品/工作", "en": "work" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "L opus (work)", "to": "opus", "operation": "borrowed directly" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "opus → 拉丁语'作品'，音乐作品编号", "imageChain": ["乐曲", "作品", "Beethoven Op.9"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["opuses", "opera", "operate"], "sameAffix": [], "synonyms": ["work", "composition", "piece"], "antonyms": [], "domainCohort": ["symphony", "concerto"], "derivationPair": ["opuses"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "opuses",
+    "phonetic": "/ˈoʊpəsɪz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "作品（复数）", "en": "plural of opus; multiple musical or literary works" },
+    "morphemes": [
+      { "canonical": "opus", "role": "root", "meaning": "work", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "opus", "positionTendency": "initial", "coreMeaning": { "cn": "作品", "en": "work" } },
+      { "canonical": "-es", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "es", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "opus", "to": "opuses", "operation": "+-es (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "opus+es → 多部作品", "imageChain": ["多部作品", "创作集"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["opus"], "sameAffix": [], "synonyms": ["works", "compositions", "pieces"], "antonyms": [], "domainCohort": [], "derivationPair": ["opus"], "morphVariants": ["opera"], "sameImagery": [] }
   },
   {
     "word": "oracle",
-    "phonetic": "/'ɔrəkl/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "神谕；预言；先知",
-      "en": "a priest/priestess through whom gods spoke; a person who gives wise advice"
-    },
+    "phonetic": "/ˈɔrəkl/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "神谕；预言；先知", "en": "a priest or priestess through whom gods spoke; a person of great wisdom" },
     "morphemes": [
-      {
-        "role": "root",
-        "positionTendency": "initial",
-        "canonical": "or",
-        "meaning": "to speak; to pray (L orare)",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "oracl",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      }
+      { "canonical": "or", "role": "root", "meaning": "to speak; to pray (L orare)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "oracl", "positionTendency": "initial", "coreMeaning": { "cn": "说话/祈祷", "en": "to speak; to pray" } }
     ],
-    "derivationChain": [],
+    "derivationChain": { "steps": [{ "from": "L orare (to pray/speak)", "to": "oracle", "operation": "+-culum (instrument) → oracle" }] },
     "morphVariantOf": null,
-    "memorySemantics": {
-      "literal": "oracl = one who speaks for the gods; divine utterance",
-      "imageChain": [
-        "神谕",
-        "先知",
-        "德尔菲神庙"
-      ],
-      "mnemonicExpr": "Oracle at Delphi → 德尔菲的神谕，神的旨意"
-    },
-    "wordLevel": {
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "domain": [
-        "general",
-        "academic"
-      ],
-      "formality": "formal"
-    },
-    "relations": {
-      "sameRoot": [
-        "oracular",
-        "oral",
-        "oration"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "prophet",
-        "seer",
-        "sage"
-      ],
-      "antonyms": [],
-      "domainCohort": [],
-      "derivationPair": [
-        "oracular"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "memorySemantics": { "mnemonicExpr": "or(speak) → 代神发言的人/处所", "imageChain": ["神谕", "先知", "德尔菲神庙"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["oracular", "oral", "oration"], "sameAffix": [], "synonyms": ["prophet", "seer", "sage"], "antonyms": [], "domainCohort": ["prophecy", "divination"], "derivationPair": ["oracular"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "oracles",
+    "phonetic": "/ˈɔrəklz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "神谕；预言（复数）", "en": "plural of oracle; multiple divine pronouncements or prophets" },
+    "morphemes": [
+      { "canonical": "or", "role": "root", "meaning": "to speak; to pray", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "oracle", "positionTendency": "initial", "coreMeaning": { "cn": "说话", "en": "to speak" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "oracle", "to": "oracles", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "oracle+s → 多处神谕，多位先知", "imageChain": ["神谕们", "预言处"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["oracle", "oracular"], "sameAffix": [], "synonyms": ["prophets", "seers", "sages"], "antonyms": [], "domainCohort": [], "derivationPair": ["oracle"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "oracular",
+    "phonetic": "/əˈrækjələr/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "神谕的；神秘难解的；模糊的", "en": "of or relating to an oracle; hard to interpret; enigmatic" },
+    "morphemes": [
+      { "canonical": "or", "role": "root", "meaning": "to speak; divine utterance", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "oracul", "positionTendency": "initial", "coreMeaning": { "cn": "神谕", "en": "divine utterance" } },
+      { "canonical": "-ar", "role": "suffix", "meaning": "relating to; of the nature of", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ar", "positionTendency": "final", "coreMeaning": { "cn": "…的", "en": "relating to" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "oracle", "to": "oracular", "operation": "+-ar (adj.)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "oracul+ar → 像神谕一样晦涩难解的", "imageChain": ["神秘", "晦涩", "模棱两可"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["oracle", "oral", "oration"], "sameAffix": [], "synonyms": ["enigmatic", "cryptic", "ambiguous", "prophetic"], "antonyms": ["clear", "explicit", "plain"], "domainCohort": [], "derivationPair": ["oracle"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "oral",
+    "phonetic": "/ˈɔrəl/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "口头的；口述的；口腔的", "en": "spoken rather than written; relating to the mouth" },
+    "morphemes": [
+      { "canonical": "or", "role": "root", "meaning": "mouth; to speak (L os/oris)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "or", "positionTendency": "initial", "coreMeaning": { "cn": "口/说话", "en": "mouth; to speak" } },
+      { "canonical": "-al", "role": "suffix", "meaning": "relating to", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "al", "positionTendency": "final", "coreMeaning": { "cn": "…的", "en": "relating to" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "L os/oris (mouth)", "to": "oral", "operation": "+-al (adj.)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "or(mouth)+al → 与嘴/口头有关的", "imageChain": ["口头", "言语", "口腔"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["oration", "orator", "oracle"], "sameAffix": [], "synonyms": ["spoken", "verbal", "vocal"], "antonyms": ["written", "textual"], "domainCohort": ["exam", "presentation"], "derivationPair": ["orally"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "orally",
+    "phonetic": "/ˈɔrəli/",
+    "pos": "adv.",
+    "coreMeaning": { "cn": "口头地；口服地", "en": "by word of mouth; through the mouth" },
+    "morphemes": [
+      { "canonical": "or", "role": "root", "meaning": "mouth; to speak", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "or", "positionTendency": "initial", "coreMeaning": { "cn": "口", "en": "mouth" } },
+      { "canonical": "-al", "role": "suffix", "meaning": "relating to", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "al", "positionTendency": "medial", "coreMeaning": { "cn": "…的", "en": "relating to" } },
+      { "canonical": "-ly", "role": "suffix", "meaning": "in the manner of", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ly", "positionTendency": "final", "coreMeaning": { "cn": "地", "en": "in the manner of" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "oral", "to": "orally", "operation": "+-ly (adv.)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "oral+ly → 以口头方式", "imageChain": ["口述", "口服", "说话方式"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["oral", "oration"], "sameAffix": [], "synonyms": ["verbally", "by word of mouth"], "antonyms": ["in writing", "textually"], "domainCohort": [], "derivationPair": ["oral"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "orange",
+    "phonetic": "/ˈɔrɪndʒ/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "橙子；橙色", "en": "a round citrus fruit with a bright reddish-yellow skin; the color between red and yellow" },
+    "morphemes": [
+      { "canonical": "orange", "role": "root", "meaning": "orange (via Arabic naranja, Skt naranga)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "orange", "positionTendency": "initial", "coreMeaning": { "cn": "橙子", "en": "orange fruit" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Skt naranga → Arabic naranja → Old French orenge", "to": "orange", "operation": "loan word" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "orange → 橙子，颜色如其名", "imageChain": ["橙子", "橙色", "柑橘"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["orangeade", "orangeman"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["fruit", "color"], "derivationPair": ["oranges", "orangeade"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "orangeade",
+    "phonetic": "/ˌɔrɪndʒˈeɪd/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "橙汁饮料；橙子水", "en": "a drink made from orange juice or orange flavoring" },
+    "morphemes": [
+      { "canonical": "orange", "role": "root", "meaning": "orange", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "orange", "positionTendency": "initial", "coreMeaning": { "cn": "橙子", "en": "orange" } },
+      { "canonical": "-ade", "role": "suffix", "meaning": "a drink made from", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ade", "positionTendency": "final", "coreMeaning": { "cn": "饮料", "en": "drink made from" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "orange", "to": "orangeade", "operation": "+-ade (beverage)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "orange+ade → 橙子制成的饮料", "imageChain": ["橙汁", "柑橘饮料"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["orange"], "sameAffix": ["lemonade", "limeade"], "synonyms": ["orange drink", "orange juice"], "antonyms": [], "domainCohort": [], "derivationPair": ["orange"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "orangeman",
+    "phonetic": "/ˈɔrɪndʒmæn/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "奥林治会成员（北爱尔兰新教团体）", "en": "a member of the Orange Order, a Protestant fraternal organization in Northern Ireland" },
+    "morphemes": [
+      { "canonical": "orangeman", "role": "root", "meaning": "Orange Order member (after William of Orange)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "orangeman", "positionTendency": "initial", "coreMeaning": { "cn": "奥林治会成员", "en": "Orange Order member" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Orange (William of Orange) + man", "to": "orangeman", "operation": "compound noun" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "Orange(奥林治) + man → 奥林治会男性成员", "imageChain": ["奥林治会", "新教", "北爱尔兰"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["orangemen", "orange"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["Protestant", "fraternity"], "derivationPair": ["orangemen"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "orangemen",
+    "phonetic": "/ˈɔrɪndʒmən/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "奥林治会成员（复数）", "en": "plural of Orangeman; members of the Orange Order" },
+    "morphemes": [
+      { "canonical": "orangeman", "role": "root", "meaning": "Orange Order member", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "orangemen", "positionTendency": "initial", "coreMeaning": { "cn": "奥林治会成员", "en": "Orange Order member" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "orangeman", "to": "orangemen", "operation": "man→men (irregular plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "orangeman的复数 → 多位奥林治会成员", "imageChain": ["奥林治会", "抗议游行"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["orangeman", "orange"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": [], "derivationPair": ["orangeman"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "oranges",
+    "phonetic": "/ˈɔrɪndʒɪz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "橙子（复数）", "en": "plural of orange; multiple citrus fruits or the color orange" },
+    "morphemes": [
+      { "canonical": "orange", "role": "root", "meaning": "orange", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "orange", "positionTendency": "initial", "coreMeaning": { "cn": "橙子", "en": "orange" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "orange", "to": "oranges", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "orange+s → 多个橙子", "imageChain": ["橙子们", "柑橘类水果"] },
+    "wordLevel": { "domain": "general", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["orange", "orangeade"], "sameAffix": [], "synonyms": [], "antonyms": [], "domainCohort": ["fruit", "citrus"], "derivationPair": ["orange"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "orangutan",
+    "phonetic": "/əˈræŋətæn/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "猩猩；红毛猩猩", "en": "a large reddish-brown ape of the rainforests of Borneo and Sumatra" },
+    "morphemes": [
+      { "canonical": "orangutan", "role": "root", "meaning": "person of the forest (Malay orang=person + utan=forest)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "orangutan", "positionTendency": "initial", "coreMeaning": { "cn": "森林之人", "en": "person of the forest" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Malay orang (person) + utan (forest)", "to": "orangutan", "operation": "loan word" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "orang(person)+utan(forest) → 马来语'森林人'，指猩猩", "imageChain": ["猩猩", "丛林", "婆罗洲"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["orangutans"], "sameAffix": [], "synonyms": ["great ape"], "antonyms": [], "domainCohort": ["primate", "ape", "rainforest"], "derivationPair": ["orangutans"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "orangutans",
+    "phonetic": "/əˈræŋətænz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "猩猩（复数）", "en": "plural of orangutan" },
+    "morphemes": [
+      { "canonical": "orangutan", "role": "root", "meaning": "person of the forest", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "orangutan", "positionTendency": "initial", "coreMeaning": { "cn": "森林之人/猩猩", "en": "person of the forest" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "orangutan", "to": "orangutans", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "orangutan+s → 多只猩猩", "imageChain": ["猩猩群", "丛林生物"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["orangutan"], "sameAffix": [], "synonyms": ["great apes"], "antonyms": [], "domainCohort": ["primates"], "derivationPair": ["orangutan"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "orate",
+    "phonetic": "/ˈɔreɪt/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "演讲；发表演说", "en": "to make a speech, especially in an imposing or pompous manner" },
+    "morphemes": [
+      { "canonical": "or", "role": "root", "meaning": "to speak; to pray (L orare)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "orat", "positionTendency": "initial", "coreMeaning": { "cn": "演讲/祈祷", "en": "to speak; to pray" } },
+      { "canonical": "-ate", "role": "suffix", "meaning": "to do; to act", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ate", "positionTendency": "final", "coreMeaning": { "cn": "动词化", "en": "to perform" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "L orare (to speak)", "to": "orate", "operation": "back-formation from oration" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "or(speak)+ate → 进行演说，尤其是华丽的演讲", "imageChain": ["演讲", "发表演说", "雄辩"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["oration", "orator", "oral"], "sameAffix": [], "synonyms": ["speak", "declaim", "hold forth"], "antonyms": [], "domainCohort": [], "derivationPair": ["orated", "orating", "oration"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "orated",
+    "phonetic": "/ˈɔreɪtɪd/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "演讲了（过去式）", "en": "past tense of orate; delivered a formal or pompous speech" },
+    "morphemes": [
+      { "canonical": "or", "role": "root", "meaning": "to speak", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "orat", "positionTendency": "initial", "coreMeaning": { "cn": "演讲", "en": "to speak" } },
+      { "canonical": "-ed", "role": "suffix", "meaning": "past tense", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ed", "positionTendency": "final", "coreMeaning": { "cn": "过去式", "en": "past tense" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "orate", "to": "orated", "operation": "+-ed (past tense)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "orate+d → 已经发表了演说", "imageChain": ["演说完毕", "过去的演讲"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["orate", "oration"], "sameAffix": [], "synonyms": ["spoke", "declaimed"], "antonyms": [], "domainCohort": [], "derivationPair": ["orate"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "orates",
+    "phonetic": "/ˈɔreɪts/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "演讲（第三人称单数）", "en": "third-person singular present of orate; makes formal speeches" },
+    "morphemes": [
+      { "canonical": "or", "role": "root", "meaning": "to speak", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "orat", "positionTendency": "initial", "coreMeaning": { "cn": "演讲", "en": "to speak" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "third person singular", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "第三人称", "en": "3rd person singular" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "orate", "to": "orates", "operation": "+-s (3rd person singular)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "orate+s → 他/她演讲", "imageChain": ["正在演讲", "发表演说"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["orate", "oration"], "sameAffix": [], "synonyms": ["speaks", "declaims"], "antonyms": [], "domainCohort": [], "derivationPair": ["orate"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "orating",
+    "phonetic": "/ˈɔreɪtɪŋ/",
+    "pos": "v.",
+    "coreMeaning": { "cn": "正在演讲", "en": "present participle of orate; making a speech pompously" },
+    "morphemes": [
+      { "canonical": "or", "role": "root", "meaning": "to speak", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "orat", "positionTendency": "initial", "coreMeaning": { "cn": "演讲", "en": "to speak" } },
+      { "canonical": "-ing", "role": "suffix", "meaning": "present participle", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ing", "positionTendency": "final", "coreMeaning": { "cn": "进行时", "en": "ongoing action" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "orate", "to": "orating", "operation": "+-ing (present participle)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "orate+ing → 正在高谈阔论", "imageChain": ["演讲中", "发表宏论"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["orate", "oration"], "sameAffix": [], "synonyms": ["speaking", "declaiming"], "antonyms": [], "domainCohort": [], "derivationPair": ["orate"], "morphVariants": [], "sameImagery": [] }
   },
   {
     "word": "oration",
-    "phonetic": "/ɔ'reʃən/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "演说；致辞",
-      "en": "a formal speech, especially one given on a ceremonial occasion"
-    },
+    "phonetic": "/ɔˈreɪʃən/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "演说；致辞", "en": "a formal speech, especially one given on a ceremonial occasion" },
     "morphemes": [
-      {
-        "role": "root",
-        "positionTendency": "initial",
-        "canonical": "or",
-        "meaning": "to speak; to pray (L orare)",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "or",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      },
-      {
-        "role": "suffix",
-        "positionTendency": "final",
-        "canonical": "-ation",
-        "meaning": "action or process",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "ation",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      }
+      { "canonical": "or", "role": "root", "meaning": "to speak; to pray (L orare)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "or", "positionTendency": "initial", "coreMeaning": { "cn": "说话", "en": "to speak" } },
+      { "canonical": "-ation", "role": "suffix", "meaning": "action or process", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ation", "positionTendency": "final", "coreMeaning": { "cn": "行为", "en": "action or process" } }
     ],
-    "derivationChain": [
-      "oration"
-    ],
+    "derivationChain": { "steps": [{ "from": "L oratio (speech)", "to": "oration", "operation": "borrowed" }] },
     "morphVariantOf": null,
-    "memorySemantics": {
-      "literal": "or(speak) + ation = formal act of speaking",
-      "imageChain": [
-        "演讲",
-        "雄辩",
-        "正式致辞"
-      ],
-      "mnemonicExpr": "funeral oration → 葬礼上的悼词演说"
-    },
-    "wordLevel": {
-      "sentiment": {
-        "tags": [
-          "中性"
-        ],
-        "intensity": 0
-      },
-      "domain": [
-        "general",
-        "academic"
-      ],
-      "formality": "formal"
-    },
-    "relations": {
-      "sameRoot": [
-        "orator",
-        "oratory",
-        "oral"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "speech",
-        "address",
-        "discourse"
-      ],
-      "antonyms": [],
-      "domainCohort": [],
-      "derivationPair": [
-        "orator",
-        "oratory"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "memorySemantics": { "mnemonicExpr": "or(speak)+ation → 正式演讲的行为", "imageChain": ["演讲", "雄辩", "正式致辞"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["orator", "oratory", "oral"], "sameAffix": [], "synonyms": ["speech", "address", "discourse"], "antonyms": [], "domainCohort": [], "derivationPair": ["orator", "oratory"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "orations",
+    "phonetic": "/ɔˈreɪʃənz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "演说（复数）", "en": "plural of oration; multiple formal speeches" },
+    "morphemes": [
+      { "canonical": "or", "role": "root", "meaning": "to speak", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "oration", "positionTendency": "initial", "coreMeaning": { "cn": "演讲", "en": "speech" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "oration", "to": "orations", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "oration+s → 多次演说", "imageChain": ["演讲集", "多次致辞"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["oration", "orator"], "sameAffix": [], "synonyms": ["speeches", "addresses"], "antonyms": [], "domainCohort": [], "derivationPair": ["oration"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "orator",
+    "phonetic": "/ˈɔrətər/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "演说者；雄辩家", "en": "a person who makes speeches; one skilled in the art of public speaking" },
+    "morphemes": [
+      { "canonical": "or", "role": "root", "meaning": "to speak (L orare)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "orat", "positionTendency": "initial", "coreMeaning": { "cn": "演讲", "en": "to speak" } },
+      { "canonical": "-or", "role": "suffix", "meaning": "agent; one who does", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "or", "positionTendency": "final", "coreMeaning": { "cn": "…者", "en": "agent" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "L orator (speaker)", "to": "orator", "operation": "borrowed directly" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "orat(speak)+or → 擅长演讲的人", "imageChain": ["演说家", "雄辩家", "公众演讲者"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["oration", "oratory", "oral"], "sameAffix": [], "synonyms": ["speaker", "rhetorician", "speechmaker"], "antonyms": [], "domainCohort": ["debate", "rhetoric"], "derivationPair": ["oratorical", "oratory"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "oratorical",
+    "phonetic": "/ˌɔrəˈtɔrɪkəl/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "演说的；雄辩的", "en": "relating to the art of making speeches; characteristic of an orator" },
+    "morphemes": [
+      { "canonical": "or", "role": "root", "meaning": "to speak", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "orat", "positionTendency": "initial", "coreMeaning": { "cn": "演讲", "en": "to speak" } },
+      { "canonical": "-or", "role": "suffix", "meaning": "agent", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "or", "positionTendency": "medial", "coreMeaning": { "cn": "…者", "en": "agent" } },
+      { "canonical": "-ical", "role": "suffix", "meaning": "relating to; of the nature of", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ical", "positionTendency": "final", "coreMeaning": { "cn": "…的", "en": "relating to" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "orator", "to": "oratorical", "operation": "+-ical (adj.)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "orator+ical → 具有演说风格的", "imageChain": ["演讲风格", "雄辩特质"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["orator", "oration", "oratory"], "sameAffix": [], "synonyms": ["rhetorical", "eloquent", "declamatory"], "antonyms": [], "domainCohort": [], "derivationPair": ["oratorically"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "oratorically",
+    "phonetic": "/ˌɔrəˈtɔrɪkli/",
+    "pos": "adv.",
+    "coreMeaning": { "cn": "演说式地；雄辩地", "en": "in a manner characteristic of an orator; with oratorical style" },
+    "morphemes": [
+      { "canonical": "or", "role": "root", "meaning": "to speak", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "orat", "positionTendency": "initial", "coreMeaning": { "cn": "演讲", "en": "to speak" } },
+      { "canonical": "-ical", "role": "suffix", "meaning": "relating to", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ical", "positionTendency": "medial", "coreMeaning": { "cn": "…的", "en": "relating to" } },
+      { "canonical": "-ly", "role": "suffix", "meaning": "in the manner of", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 3, "form": "ly", "positionTendency": "final", "coreMeaning": { "cn": "地", "en": "in the manner of" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "oratorical", "to": "oratorically", "operation": "+-ly (adv.)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "oratorical+ly → 以演说家的方式", "imageChain": ["雄辩地", "滔滔不绝地"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["oratorical", "orator"], "sameAffix": [], "synonyms": ["rhetorically", "eloquently"], "antonyms": [], "domainCohort": [], "derivationPair": ["oratorical"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "oratories",
+    "phonetic": "/ˈɔrətɔriz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "小礼拜堂（复数）；演说艺术（复数形式）", "en": "plural of oratory; small chapels or private places for prayer" },
+    "morphemes": [
+      { "canonical": "or", "role": "root", "meaning": "to pray; to speak", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "oratori", "positionTendency": "initial", "coreMeaning": { "cn": "祈祷/演说", "en": "to pray; to speak" } },
+      { "canonical": "-es", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "es", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "oratory", "to": "oratories", "operation": "y→ies (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "oratory的复数 → 多个小礼拜堂", "imageChain": ["礼拜堂", "祈祷室"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["oratory", "oration", "orator"], "sameAffix": [], "synonyms": ["chapels", "prayer rooms"], "antonyms": [], "domainCohort": [], "derivationPair": ["oratory"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "oratorio",
+    "phonetic": "/ˌɔrəˈtɔrioʊ/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "清唱剧；宗教音乐剧", "en": "a large musical composition for orchestra, choir, and soloists, typically with a religious theme" },
+    "morphemes": [
+      { "canonical": "or", "role": "root", "meaning": "to pray; to speak (L orare)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "oratori", "positionTendency": "initial", "coreMeaning": { "cn": "祈祷", "en": "to pray" } },
+      { "canonical": "-o", "role": "suffix", "meaning": "Italian noun ending", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "o", "positionTendency": "final", "coreMeaning": { "cn": "意大利语名词后缀", "en": "Italian noun ending" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "Italian oratorio (place of prayer)", "to": "oratorio", "operation": "loan word → musical form" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "oratori+o → 起源于礼拜堂的大型宗教音乐剧", "imageChain": ["清唱剧", "弥赛亚", "巴赫", "亨德尔"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["oratory", "oration"], "sameAffix": [], "synonyms": ["sacred music", "religious cantata"], "antonyms": [], "domainCohort": ["opera", "symphony", "choir"], "derivationPair": ["oratorios"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "oratorios",
+    "phonetic": "/ˌɔrəˈtɔrioʊz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "清唱剧（复数）", "en": "plural of oratorio; multiple large-scale musical compositions with religious themes" },
+    "morphemes": [
+      { "canonical": "or", "role": "root", "meaning": "to pray", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "oratorio", "positionTendency": "initial", "coreMeaning": { "cn": "祈祷", "en": "to pray" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "oratorio", "to": "oratorios", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "oratorio+s → 多部清唱剧", "imageChain": ["清唱剧集", "宗教音乐作品群"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["oratorio", "oratory"], "sameAffix": [], "synonyms": ["sacred works"], "antonyms": [], "domainCohort": ["opera", "cantata"], "derivationPair": ["oratorio"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "orators",
+    "phonetic": "/ˈɔrətərz/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "演说家（复数）", "en": "plural of orator; multiple skilled public speakers" },
+    "morphemes": [
+      { "canonical": "or", "role": "root", "meaning": "to speak", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "orator", "positionTendency": "initial", "coreMeaning": { "cn": "演讲", "en": "to speak" } },
+      { "canonical": "-s", "role": "suffix", "meaning": "plural marker", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "s", "positionTendency": "final", "coreMeaning": { "cn": "复数", "en": "plural" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "orator", "to": "orators", "operation": "+-s (plural)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "orator+s → 多位演说家", "imageChain": ["演说家们", "雄辩家群"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["orator", "oration", "oratory"], "sameAffix": [], "synonyms": ["speakers", "rhetoricians"], "antonyms": [], "domainCohort": [], "derivationPair": ["orator"], "morphVariants": [], "sameImagery": [] }
   },
   {
     "word": "oratory",
-    "phonetic": "/'ɔrətɔri/",
-    "pos": [
-      "n."
-    ],
-    "coreMeaning": {
-      "cn": "雄辩术；演讲艺术",
-      "en": "the art or practice of formal speaking; eloquent or highly effective speech"
-    },
+    "phonetic": "/ˈɔrətɔri/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "雄辩术；演讲艺术；小礼拜堂", "en": "the art or practice of formal speaking; a small chapel" },
     "morphemes": [
-      {
-        "role": "root",
-        "positionTendency": "initial",
-        "canonical": "or",
-        "meaning": "to speak (L orare)",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 1,
-        "form": "orat",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      },
-      {
-        "role": "suffix",
-        "positionTendency": "final",
-        "canonical": "-ory",
-        "meaning": "relating to; place for",
-        "sentiment": {
-          "tags": [
-            "中性"
-          ],
-          "intensity": 0
-        },
-        "order": 2,
-        "form": "ory",
-        "coreMeaning": {
-          "cn": "",
-          "en": ""
-        }
-      }
+      { "canonical": "or", "role": "root", "meaning": "to speak (L orare)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "orat", "positionTendency": "initial", "coreMeaning": { "cn": "演讲", "en": "to speak" } },
+      { "canonical": "-ory", "role": "suffix", "meaning": "relating to; place for", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ory", "positionTendency": "final", "coreMeaning": { "cn": "…相关/场所", "en": "relating to; place for" } }
     ],
-    "derivationChain": [
-      "oratory"
-    ],
+    "derivationChain": { "steps": [{ "from": "L orare (to speak/pray)", "to": "oratory", "operation": "+-ory (art/place)" }] },
     "morphVariantOf": null,
-    "memorySemantics": {
-      "literal": "orat(speak) + ory = the art of public speaking",
-      "imageChain": [
-        "雄辩",
-        "演讲艺术",
-        "口才"
-      ],
-      "mnemonicExpr": "gift of oratory → 演说的天赋，辩才无碍"
-    },
-    "wordLevel": {
-      "sentiment": {
-        "tags": [
-          "积极"
-        ],
-        "intensity": 1
-      },
-      "domain": [
-        "general",
-        "academic"
-      ],
-      "formality": "formal"
-    },
-    "relations": {
-      "sameRoot": [
-        "orator",
-        "oration",
-        "oral"
-      ],
-      "sameAffix": [],
-      "synonyms": [
-        "eloquence",
-        "rhetoric",
-        "elocution"
-      ],
-      "antonyms": [],
-      "domainCohort": [],
-      "derivationPair": [
-        "orator",
-        "oration"
-      ],
-      "morphVariants": [],
-      "sameImagery": []
-    }
+    "memorySemantics": { "mnemonicExpr": "orat(speak)+ory → 演讲的艺术/祈祷的场所", "imageChain": ["雄辩", "演讲艺术", "口才"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["积极"], "intensity": 1 } },
+    "relations": { "sameRoot": ["orator", "oration", "oral"], "sameAffix": [], "synonyms": ["eloquence", "rhetoric", "elocution"], "antonyms": [], "domainCohort": [], "derivationPair": ["orator", "oration"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "oratoryn",
+    "phonetic": "/ˈɔrətɔri/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "小礼拜堂（指祈祷用小教堂）", "en": "a small chapel, especially one for private worship" },
+    "morphemes": [
+      { "canonical": "or", "role": "root", "meaning": "to pray (L orare)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "orat", "positionTendency": "initial", "coreMeaning": { "cn": "祈祷", "en": "to pray" } },
+      { "canonical": "-ory", "role": "suffix", "meaning": "place for", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ory", "positionTendency": "final", "coreMeaning": { "cn": "场所", "en": "place for" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "L oratorium (place for prayer)", "to": "oratoryn", "operation": "noun sense: small chapel" }] },
+    "morphVariantOf": "oratory",
+    "memorySemantics": { "mnemonicExpr": "orat(pray)+ory → 祈祷的场所，小礼拜堂", "imageChain": ["小礼拜堂", "祈祷室", "私人礼拜场所"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["oratory", "oration"], "sameAffix": [], "synonyms": ["chapel", "prayer room"], "antonyms": [], "domainCohort": [], "derivationPair": ["oratory"], "morphVariants": ["oratory"], "sameImagery": [] }
+  },
+  {
+    "word": "orb",
+    "phonetic": "/ɔrb/",
+    "pos": "n.",
+    "coreMeaning": { "cn": "球体；天体；权力之球", "en": "a spherical body; a globe or sphere, especially a royal orb or celestial body" },
+    "morphemes": [
+      { "canonical": "orb", "role": "root", "meaning": "circle; sphere (L orbis)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "orb", "positionTendency": "initial", "coreMeaning": { "cn": "球/圆形", "en": "circle; sphere" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "L orbis (circle, sphere)", "to": "orb", "operation": "borrowed" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "orb → 球形物体，orbis的简化，如权杖上的权力之球", "imageChain": ["球体", "天体", "权力之球"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["orbit", "orbicular"], "sameAffix": [], "synonyms": ["sphere", "globe", "ball"], "antonyms": [], "domainCohort": ["planet", "star"], "derivationPair": ["orbital", "orbit"], "morphVariants": [], "sameImagery": [] }
+  },
+  {
+    "word": "orbicular",
+    "phonetic": "/ɔrˈbɪkjələr/",
+    "pos": "adj.",
+    "coreMeaning": { "cn": "圆形的；球状的", "en": "having the shape of a circle or sphere; rounded" },
+    "morphemes": [
+      { "canonical": "orb", "role": "root", "meaning": "circle; sphere (L orbis)", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 1, "form": "orbicul", "positionTendency": "initial", "coreMeaning": { "cn": "球/圆", "en": "circle; sphere" } },
+      { "canonical": "-ar", "role": "suffix", "meaning": "relating to; of the nature of", "sentiment": { "tags": ["中性"], "intensity": 0 }, "order": 2, "form": "ar", "positionTendency": "final", "coreMeaning": { "cn": "…的", "en": "relating to" } }
+    ],
+    "derivationChain": { "steps": [{ "from": "L orbiculus (small circle)", "to": "orbicular", "operation": "+-ar (adj.)" }] },
+    "morphVariantOf": null,
+    "memorySemantics": { "mnemonicExpr": "orbicul(small circle)+ar → 呈圆形或球状的", "imageChain": ["圆形", "球状", "椭圆形叶"] },
+    "wordLevel": { "domain": "academic", "sentiment": { "tags": ["中性"], "intensity": 0 } },
+    "relations": { "sameRoot": ["orb", "orbit"], "sameAffix": [], "synonyms": ["circular", "spherical", "rounded", "globular"], "antonyms": ["angular", "rectangular"], "domainCohort": [], "derivationPair": ["orb"], "morphVariants": [], "sameImagery": [] }
   }
 ]
