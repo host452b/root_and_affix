@@ -1,0 +1,2481 @@
+[
+  {
+    "word": "agentic",
+    "phonetic": "/eɪˈdʒentɪk/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": [
+      {
+        "cn": "智能体驱动的；具自主代理能力的",
+        "domain": "tech",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ag",
+        "role": "root",
+        "canonical": "ag",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "行动；驱动",
+          "en": "act / drive"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "ent",
+        "role": "suffix",
+        "canonical": "-ent",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "施事者",
+          "en": "agent suffix"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "ic",
+        "role": "suffix",
+        "canonical": "-ic",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "……的",
+          "en": "pertaining to"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "act",
+      "agent",
+      "agentic"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "智能体驱动的",
+      "imageChain": [
+        "行动；驱动",
+        "施事者",
+        "……的",
+        "智能体驱动的"
+      ],
+      "mnemonicExpr": "ag(行动)+ent(主体)+ic(……的) → 能自主规划行动的 → 智能体驱动的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech"
+      ],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "autonomous"
+      ],
+      "antonyms": [
+        "passive"
+      ],
+      "domainCohort": [
+        "orchestration",
+        "autonomy"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "autoregressive",
+    "phonetic": "/ˌɔːtəʊrɪˈɡresɪv/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": [
+      {
+        "cn": "自回归的（逐词元用前序输出预测后续）",
+        "domain": "tech",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "auto",
+        "role": "prefix",
+        "canonical": "auto-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "自身；自动",
+          "en": "self"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "re",
+        "role": "prefix",
+        "canonical": "re-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "向后；回",
+          "en": "back"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "gress",
+        "role": "root",
+        "canonical": "gress",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "行走；步进",
+          "en": "step / go"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 4,
+        "form": "ive",
+        "role": "suffix",
+        "canonical": "-ive",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "具有……性质的",
+          "en": "tending to"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "regress",
+      "regression",
+      "autoregressive"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "自回归的",
+      "imageChain": [
+        "自身；自动",
+        "向后；回",
+        "行走；步进",
+        "具有……性质的",
+        "自回归的"
+      ],
+      "mnemonicExpr": "auto(自身)+re(回溯)+gress(步进)+ive → 依自身前序状态逐步递推 → 自回归的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech"
+      ],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "sequential"
+      ],
+      "antonyms": [
+        "non-autoregressive"
+      ],
+      "domainCohort": [
+        "tokenization",
+        "transformer"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "tokenization",
+    "phonetic": "/ˌtəʊkənaɪˈzeɪʃən/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": [
+      {
+        "cn": "分词；词元化；通证化",
+        "domain": "tech",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "token",
+        "role": "root",
+        "canonical": "token",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "标记；词元",
+          "en": "sign / token"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "iz",
+        "role": "suffix",
+        "canonical": "-ize",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "使……化",
+          "en": "make into"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "ation",
+        "role": "suffix",
+        "canonical": "-ation",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "行为或结果",
+          "en": "process / result"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "token",
+      "tokenize",
+      "tokenization"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "分词",
+      "imageChain": [
+        "标记；词元",
+        "使……化",
+        "行为或结果",
+        "分词"
+      ],
+      "mnemonicExpr": "token(词元/标记)+iz(化)+ation(过程) → 切分为最小标记序列 → 词元化"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech"
+      ],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "segmentation"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "autoregressive",
+        "embedding"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "quantization",
+    "phonetic": "/ˌkwɒntaɪˈzeɪʃən/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": [
+      {
+        "cn": "量化（降低数值位宽以压缩模型）",
+        "domain": "tech",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "quant",
+        "role": "root",
+        "canonical": "quant",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "数量；份额",
+          "en": "amount"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "iz",
+        "role": "suffix",
+        "canonical": "-ize",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "使……化",
+          "en": "make"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "ation",
+        "role": "suffix",
+        "canonical": "-ation",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "过程",
+          "en": "process"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "quantity",
+      "quantize",
+      "quantization"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "量化",
+      "imageChain": [
+        "数量；份额",
+        "使……化",
+        "过程",
+        "量化"
+      ],
+      "mnemonicExpr": "quant(量)+iz(化)+ation → 映射为离散有限量级 → 量化"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech"
+      ],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "discretization"
+      ],
+      "antonyms": [
+        "dequantization"
+      ],
+      "domainCohort": [
+        "pruning",
+        "distillation"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "dequantization",
+    "phonetic": "/diːˌkwɒntaɪˈzeɪʃən/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": [
+      {
+        "cn": "反量化（恢复高精度浮点表示）",
+        "domain": "tech",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "de",
+        "role": "prefix",
+        "canonical": "de-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "逆转；去除",
+          "en": "reverse"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "quant",
+        "role": "root",
+        "canonical": "quant",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "数量",
+          "en": "amount"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "iz",
+        "role": "suffix",
+        "canonical": "-ize",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "使……化",
+          "en": "make"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 4,
+        "form": "ation",
+        "role": "suffix",
+        "canonical": "-ation",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "过程",
+          "en": "process"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "quantize",
+      "quantization",
+      "dequantization"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "反量化",
+      "imageChain": [
+        "逆转；去除",
+        "数量",
+        "使……化",
+        "过程",
+        "反量化"
+      ],
+      "mnemonicExpr": "de(逆)+quant(量)+ization → 将离散低比特还原为连续高精度值 → 反量化"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech"
+      ],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [
+        "quantization"
+      ],
+      "domainCohort": [
+        "quantization",
+        "precision"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "multimodal",
+    "phonetic": "/ˌmʌltiˈməʊdəl/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": [
+      {
+        "cn": "多模态的（融合文本、图像、音视频等）",
+        "domain": "tech",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "multi",
+        "role": "prefix",
+        "canonical": "multi-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "多",
+          "en": "many"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "mod",
+        "role": "root",
+        "canonical": "mod",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "方式；模态",
+          "en": "mode / manner"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "al",
+        "role": "suffix",
+        "canonical": "-al",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "……的",
+          "en": "relating to"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "mode",
+      "modal",
+      "multimodal"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "多模态的",
+      "imageChain": [
+        "多",
+        "方式；模态",
+        "……的",
+        "多模态的"
+      ],
+      "mnemonicExpr": "multi(多)+mod(模式/通道)+al → 跨多种感官与信息通道 → 多模态的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech"
+      ],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "cross-modal"
+      ],
+      "antonyms": [
+        "unimodal"
+      ],
+      "domainCohort": [
+        "vision",
+        "embedding"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "unimodal",
+    "phonetic": "/ˌjuːnɪˈməʊdəl/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": [
+      {
+        "cn": "单模态的；单峰的",
+        "domain": "academic",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "uni",
+        "role": "prefix",
+        "canonical": "uni-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "单一",
+          "en": "one"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "mod",
+        "role": "root",
+        "canonical": "mod",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "方式；峰态",
+          "en": "mode"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "al",
+        "role": "suffix",
+        "canonical": "-al",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "……的",
+          "en": "relating to"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "mode",
+      "modal",
+      "unimodal"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "单模态的",
+      "imageChain": [
+        "单一",
+        "方式；峰态",
+        "……的",
+        "单模态的"
+      ],
+      "mnemonicExpr": "uni(单一)+mod(模态/峰值)+al → 单一模态或单峰分布 → 单模态的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "academic"
+      ],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [
+        "multimodal",
+        "bimodal"
+      ],
+      "domainCohort": [
+        "multimodal",
+        "distribution"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "interpretability",
+    "phonetic": "/ɪnˌtɜːprɪtəˈbɪləti/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": [
+      {
+        "cn": "可解释性（模型内部机制的可理解程度）",
+        "domain": "tech",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "inter",
+        "role": "prefix",
+        "canonical": "inter-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "在……之间",
+          "en": "between"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "pret",
+        "role": "root",
+        "canonical": "pret",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "阐明；估价",
+          "en": "explain"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "abil",
+        "role": "suffix",
+        "canonical": "-able",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "能够……的",
+          "en": "capable of"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 4,
+        "form": "ity",
+        "role": "suffix",
+        "canonical": "-ity",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "性质",
+          "en": "quality"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "interpret",
+      "interpretable",
+      "interpretability"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "可解释性",
+      "imageChain": [
+        "在……之间",
+        "阐明；估价",
+        "能够……的",
+        "性质",
+        "可解释性"
+      ],
+      "mnemonicExpr": "inter(居中)+pret(阐释)+ability(能力) → 内部机理可被人类阐明 → 可解释性"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech"
+      ],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "explainability"
+      ],
+      "antonyms": [
+        "opacity"
+      ],
+      "domainCohort": [
+        "alignment",
+        "transparency"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "explainability",
+    "phonetic": "/ɪkˌspleɪnəˈbɪləti/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": [
+      {
+        "cn": "可说明性；可解释性",
+        "domain": "tech",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ex",
+        "role": "prefix",
+        "canonical": "ex-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "向外；完全",
+          "en": "out"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "plain",
+        "role": "root",
+        "canonical": "plan",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "平坦；清晰",
+          "en": "flat / clear"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "abil",
+        "role": "suffix",
+        "canonical": "-able",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "可……的",
+          "en": "able"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 4,
+        "form": "ity",
+        "role": "suffix",
+        "canonical": "-ity",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "性质",
+          "en": "state"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "explain",
+      "explainable",
+      "explainability"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "可说明性",
+      "imageChain": [
+        "向外；完全",
+        "平坦；清晰",
+        "可……的",
+        "性质",
+        "可说明性"
+      ],
+      "mnemonicExpr": "ex(摊开)+plain(铺平讲清)+ability → 决策依据能摊开讲明白 → 可说明性"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech"
+      ],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "interpretability"
+      ],
+      "antonyms": [
+        "inscrutability"
+      ],
+      "domainCohort": [
+        "auditability",
+        "transparency"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "observability",
+    "phonetic": "/əbˌzɜːvəˈbɪləti/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": [
+      {
+        "cn": "可观测性（由外部输出推断系统内部状态）",
+        "domain": "tech",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ob",
+        "role": "prefix",
+        "canonical": "ob-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "朝向；对着",
+          "en": "toward"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "serv",
+        "role": "root",
+        "canonical": "serv",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "注视；保持",
+          "en": "watch / keep"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "abil",
+        "role": "suffix",
+        "canonical": "-able",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "可……的",
+          "en": "capable"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 4,
+        "form": "ity",
+        "role": "suffix",
+        "canonical": "-ity",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "性质",
+          "en": "state"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "observe",
+      "observable",
+      "observability"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "可观测性",
+      "imageChain": [
+        "朝向；对着",
+        "注视；保持",
+        "可……的",
+        "性质",
+        "可观测性"
+      ],
+      "mnemonicExpr": "ob(对着)+serv(审视)+ability → 通过指标日志链路透视内部运行态 → 可观测性"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech"
+      ],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "telemetry"
+      ],
+      "antonyms": [
+        "blindness"
+      ],
+      "domainCohort": [
+        "monitoring",
+        "tracing"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "idempotency",
+    "phonetic": "/ˌaɪdəmˈpəʊtənsi/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": [
+      {
+        "cn": "幂等性（重复执行多次与单次效果相同）",
+        "domain": "tech",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "idem",
+        "role": "root",
+        "canonical": "idem",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "相同",
+          "en": "same"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "pot",
+        "role": "root",
+        "canonical": "pot",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "能力；效力",
+          "en": "power"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "ency",
+        "role": "suffix",
+        "canonical": "-ency",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "性质；状态",
+          "en": "quality"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "idempotent",
+      "idempotency"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "幂等性",
+      "imageChain": [
+        "相同",
+        "能力；效力",
+        "性质；状态",
+        "幂等性"
+      ],
+      "mnemonicExpr": "idem(相同)+pot(效力)+ency → 重放多次仍产生同一状态效力 → 幂等性"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech"
+      ],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "repeatability"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "retry",
+        "consistency"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "idempotent",
+    "phonetic": "/ˌaɪdəmˈpəʊtənt/",
+    "pos": [
+      "adj."
+    ],
+    "coreMeaning": [
+      {
+        "cn": "幂等的（多次调用不产生额外副作用）",
+        "domain": "tech",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "idem",
+        "role": "root",
+        "canonical": "idem",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "相同",
+          "en": "same"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "pot",
+        "role": "root",
+        "canonical": "pot",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "力量；幂",
+          "en": "power"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "ent",
+        "role": "suffix",
+        "canonical": "-ent",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "具有……性质的",
+          "en": "adjective"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "idem",
+      "potent",
+      "idempotent"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "幂等的",
+      "imageChain": [
+        "相同",
+        "力量；幂",
+        "具有……性质的",
+        "幂等的"
+      ],
+      "mnemonicExpr": "idem(同一)+pot(幂/效力)+ent → 无论执行多少次结果不变 → 幂等的"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech"
+      ],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "idempotency",
+        "deterministic"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "backpressure",
+    "phonetic": "/ˈbækˌpreʃər/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": [
+      {
+        "cn": "背压（下游过载时向上游反向限流的机制）",
+        "domain": "tech",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "back",
+        "role": "prefix",
+        "canonical": "back",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "向后；反向",
+          "en": "backward"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "press",
+        "role": "root",
+        "canonical": "press",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "挤压",
+          "en": "press"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "ure",
+        "role": "suffix",
+        "canonical": "-ure",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "状态或作用",
+          "en": "state"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "press",
+      "pressure",
+      "backpressure"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "背压",
+      "imageChain": [
+        "向后；反向",
+        "挤压",
+        "状态或作用",
+        "背压"
+      ],
+      "mnemonicExpr": "back(反向)+press(施压)+ure → 下游队列满时向上游传导阻力降速 → 背压"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech"
+      ],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "throttling"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "throughput",
+        "latency"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "orthogonality",
+    "phonetic": "/ɔːˌθɒɡəˈnæləti/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": [
+      {
+        "cn": "正交性（模块职责互不耦合重叠）",
+        "domain": "academic",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "ortho",
+        "role": "prefix",
+        "canonical": "ortho-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "直；正",
+          "en": "straight / right"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "gon",
+        "role": "root",
+        "canonical": "gon",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "角",
+          "en": "angle"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "al",
+        "role": "suffix",
+        "canonical": "-al",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "……的",
+          "en": "relating to"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 4,
+        "form": "ity",
+        "role": "suffix",
+        "canonical": "-ity",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "性质",
+          "en": "quality"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "orthogonal",
+      "orthogonality"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "正交性",
+      "imageChain": [
+        "直；正",
+        "角",
+        "……的",
+        "性质",
+        "正交性"
+      ],
+      "mnemonicExpr": "ortho(直/直角)+gon(角)+ality → 互成直角互不投影干扰 → 正交性"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "academic"
+      ],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "independence"
+      ],
+      "antonyms": [
+        "coupling"
+      ],
+      "domainCohort": [
+        "modularity",
+        "decoupling"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "metacognition",
+    "phonetic": "/ˌmetəkɒɡˈnɪʃən/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": [
+      {
+        "cn": "元认知（对自身认知与未知边界的觉察监控）",
+        "domain": "academic",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "meta",
+        "role": "prefix",
+        "canonical": "meta-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "超越；关于自身的",
+          "en": "beyond / self-referential"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "cogn",
+        "role": "root",
+        "canonical": "cogn",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "知道；认识",
+          "en": "know"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "ition",
+        "role": "suffix",
+        "canonical": "-ition",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "过程或能力",
+          "en": "action"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "cognition",
+      "metacognitive",
+      "metacognition"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "元认知",
+      "imageChain": [
+        "超越；关于自身的",
+        "知道；认识",
+        "过程或能力",
+        "元认知"
+      ],
+      "mnemonicExpr": "meta(高一层的)+cogn(认知)+ition → 对“自己知道什么、不知道什么”的审视 → 元认知"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "academic"
+      ],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "self-awareness"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "calibration",
+        "epistemology"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "reproducibility",
+    "phonetic": "/ˌriːprəˌdjuːsəˈbɪləti/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": [
+      {
+        "cn": "可复现性（独立重跑能得到一致结论）",
+        "domain": "academic",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "re",
+        "role": "prefix",
+        "canonical": "re-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "再次",
+          "en": "again"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "pro",
+        "role": "prefix",
+        "canonical": "pro-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "向前；产出",
+          "en": "forth"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "duc",
+        "role": "root",
+        "canonical": "duc",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "引导；产生",
+          "en": "lead / bring"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 4,
+        "form": "ibil",
+        "role": "suffix",
+        "canonical": "-able",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "可……的",
+          "en": "capable"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 5,
+        "form": "ity",
+        "role": "suffix",
+        "canonical": "-ity",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "性质",
+          "en": "quality"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "produce",
+      "reproduce",
+      "reproducible",
+      "reproducibility"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "可复现性",
+      "imageChain": [
+        "再次",
+        "向前；产出",
+        "引导；产生",
+        "可……的",
+        "性质",
+        "可复现性"
+      ],
+      "mnemonicExpr": "re(再)+pro(出)+duc(导出)+ibility → 换人换环境仍能再现同等结果 → 可复现性"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "academic"
+      ],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "replicability"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "determinism",
+        "provenance"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "teleoperation",
+    "phonetic": "/ˌtelɪˌɒpəˈreɪʃən/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": [
+      {
+        "cn": "遥操作（远程操控机器人或具身设备采集轨迹）",
+        "domain": "tech",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "tele",
+        "role": "prefix",
+        "canonical": "tele-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "远距离",
+          "en": "far"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "oper",
+        "role": "root",
+        "canonical": "oper",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "工作；操控",
+          "en": "work"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "ation",
+        "role": "suffix",
+        "canonical": "-ation",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "动作过程",
+          "en": "action"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "operate",
+      "operation",
+      "teleoperation"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "遥操作",
+      "imageChain": [
+        "远距离",
+        "工作；操控",
+        "动作过程",
+        "遥操作"
+      ],
+      "mnemonicExpr": "tele(远端)+oper(操控)+ation → 跨越空间远程操控机械本体 → 遥操作"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech"
+      ],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [
+        "autonomy"
+      ],
+      "domainCohort": [
+        "robotics",
+        "embodiment"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "prefill",
+    "phonetic": "/ˌpriːˈfɪl/",
+    "pos": [
+      "v.",
+      "n."
+    ],
+    "coreMeaning": [
+      {
+        "cn": "预填充（大模型推理首阶段并行处理输入提示词）",
+        "domain": "tech",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "pre",
+        "role": "prefix",
+        "canonical": "pre-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "预先",
+          "en": "before"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "fill",
+        "role": "root",
+        "canonical": "fill",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "填满",
+          "en": "fill"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "fill",
+      "prefill"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "预填充",
+      "imageChain": [
+        "预先",
+        "填满",
+        "预填充"
+      ],
+      "mnemonicExpr": "pre(预先)+fill(填入键值缓存) → 生成首个词元前先把提示上下文装入缓存 → 预填充"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech"
+      ],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [],
+      "antonyms": [],
+      "domainCohort": [
+        "autoregressive",
+        "latency"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "subagent",
+    "phonetic": "/ˈsʌbˌeɪdʒənt/",
+    "pos": [
+      "n."
+    ],
+    "coreMeaning": [
+      {
+        "cn": "子智能体（拥有独立上下文窗口处理子任务的分派代理）",
+        "domain": "tech",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "sub",
+        "role": "prefix",
+        "canonical": "sub-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "下级；子",
+          "en": "under / sub-"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "ag",
+        "role": "root",
+        "canonical": "ag",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "行动；代理",
+          "en": "act"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "medial"
+      },
+      {
+        "order": 3,
+        "form": "ent",
+        "role": "suffix",
+        "canonical": "-ent",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "行动主体",
+          "en": "agent"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "agent",
+      "subagent"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "子智能体",
+      "imageChain": [
+        "下级；子",
+        "行动；代理",
+        "行动主体",
+        "子智能体"
+      ],
+      "mnemonicExpr": "sub(下级分支)+ag(执行)+ent(代理) → 主代理派生出独立窗口专办子任务的助手 → 子智能体"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech"
+      ],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "delegate"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "agentic",
+        "orchestration"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "hallucinate",
+    "phonetic": "/həˈluːsɪneɪt/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": [
+      {
+        "cn": "产生幻觉；模型编造无事实依据的内容",
+        "domain": "tech",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "hallucin",
+        "role": "root",
+        "canonical": "hallucin",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "神游；迷幻",
+          "en": "wander in mind"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "ate",
+        "role": "suffix",
+        "canonical": "-ate",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "使发生……动作",
+          "en": "verb suffix"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "hallucinate",
+      "hallucination"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "产生幻觉",
+      "imageChain": [
+        "神游；迷幻",
+        "使发生……动作",
+        "产生幻觉"
+      ],
+      "mnemonicExpr": "hallucin(心神游离失真)+ate(动词) → 在无证据处凭空捏造貌似合理的输出 → 产生幻觉"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech"
+      ],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "confabulate"
+      ],
+      "antonyms": [
+        "verify"
+      ],
+      "domainCohort": [
+        "grounding",
+        "provenance"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  },
+  {
+    "word": "rerank",
+    "phonetic": "/ˌriːˈræŋk/",
+    "pos": [
+      "v."
+    ],
+    "coreMeaning": [
+      {
+        "cn": "重排序（对召回候选做精细相关性二次排序）",
+        "domain": "tech",
+        "coverage": 0.9
+      }
+    ],
+    "morphemes": [
+      {
+        "order": 1,
+        "form": "re",
+        "role": "prefix",
+        "canonical": "re-",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "再次",
+          "en": "again"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "initial"
+      },
+      {
+        "order": 2,
+        "form": "rank",
+        "role": "root",
+        "canonical": "rank",
+        "variantOf": null,
+        "coreMeaning": {
+          "cn": "排列；名次",
+          "en": "order / row"
+        },
+        "sentiment": {
+          "tags": [
+            "中性"
+          ],
+          "intensity": 0
+        },
+        "positionTendency": "final"
+      }
+    ],
+    "derivationChain": [
+      "rank",
+      "rerank"
+    ],
+    "morphVariantOf": null,
+    "memorySemantics": {
+      "literal": "重排序",
+      "imageChain": [
+        "再次",
+        "排列；名次",
+        "重排序"
+      ],
+      "mnemonicExpr": "re(二次)+rank(排定次序) → 初筛召回后用精排模型重定先后 → 重排序"
+    },
+    "wordLevel": {
+      "sentiment": {
+        "tags": [
+          "中性"
+        ],
+        "intensity": 0
+      },
+      "domain": [
+        "tech"
+      ],
+      "registerFormality": "formal"
+    },
+    "relations": {
+      "sameRoot": [],
+      "sameAffix": [],
+      "synonyms": [
+        "re-order"
+      ],
+      "antonyms": [],
+      "domainCohort": [
+        "retrieval",
+        "relevance"
+      ],
+      "derivationPair": [],
+      "morphVariants": [],
+      "sameImagery": []
+    }
+  }
+]
